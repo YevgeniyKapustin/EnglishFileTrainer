@@ -54,9 +54,11 @@ import dev.eftrainer.core.ui.ListRow
 import dev.eftrainer.core.ui.PrimaryButton
 import dev.eftrainer.core.ui.ProgressBar
 import dev.eftrainer.core.ui.SectionTag
+import dev.eftrainer.core.ui.SpeechBubbleFit
 import dev.eftrainer.core.ui.SpeechBubbleShape
 import dev.eftrainer.core.ui.SpeechBubbleText
 import dev.eftrainer.core.ui.WedgeBand
+import dev.eftrainer.core.ui.rememberSpeechBubbleFit
 import dev.eftrainer.data.content.Bubbles
 import dev.eftrainer.data.content.Chapter
 import dev.eftrainer.ui.appContainer
@@ -197,7 +199,7 @@ private fun ChapterBand(
     content: @Composable () -> Unit,
 ) {
     val intro = rememberHeaderIntro()
-    WedgeBand(150.dp, Modifier.clipToBounds(), reveal = { intro.rays.value }) {
+    WedgeBand(BandHeight, Modifier.clipToBounds(), reveal = { intro.rays.value }) {
         chapter?.bubbles?.let { b -> BandBubbles(b, intro) }
         Row(
             Modifier.fillMaxWidth().height(56.dp).padding(horizontal = 12.dp),
@@ -238,14 +240,25 @@ private fun ChapterBand(
     }
 }
 
+private val BandHeight = 150.dp
+private val QuestionMinSize = 92.dp
+private val AnswerMinSize = 88.dp
+private val QuestionTop = 46.dp
+private val AnswerTop = 38.dp
+private val AnswerEnd = 40.dp
+private val BubbleOverlap = 20.dp
+private val LowestBubbleBottom = 2.dp
+
 private class BandBubble(
     val text: String,
     val color: Color,
-    val size: Dp,
+    val fit: SpeechBubbleFit,
     val end: Dp,
-    val bottom: Dp,
+    top: Dp,
     val motion: BubbleMotion,
-)
+) {
+    val bottom = (BandHeight - top - fit.size).coerceAtLeast(LowestBubbleBottom)
+}
 
 @Composable
 private fun BoxScope.BandBubbles(
@@ -254,10 +267,12 @@ private fun BoxScope.BandBubbles(
 ) {
     val first = rememberBubbleMotion(intro.firstBubble, tailLeft = true)
     val second = rememberBubbleMotion(intro.secondBubble, tailLeft = false)
+    val question = rememberSpeechBubbleFit(lines.first, QuestionMinSize)
+    val answer = rememberSpeechBubbleFit(lines.second, AnswerMinSize)
     val bubbles =
         listOf(
-            BandBubble(lines.first, EF.Sky, 92.dp, 108.dp, 12.dp, first),
-            BandBubble(lines.second, EF.Lime, 88.dp, 40.dp, 24.dp, second),
+            BandBubble(lines.first, EF.Sky, question, AnswerEnd + answer.size - BubbleOverlap, QuestionTop, first),
+            BandBubble(lines.second, EF.Lime, answer, AnswerEnd, AnswerTop, second),
         )
     val overlap = Color(EF.Sky.red * EF.Lime.red, EF.Sky.green * EF.Lime.green, EF.Sky.blue * EF.Lime.blue)
     val overlapInk = lerp(overlap, Color.Black, .6f)
@@ -272,7 +287,7 @@ private fun BoxScope.BandBubbles(
             SpeechBubbleShape(
                 bubble.color,
                 bubble.motion.tailLeft,
-                bubble.size,
+                bubble.fit.size,
                 bubble.placed().bubbleShapeMotion(bubble.motion),
                 blendMode = BlendMode.Multiply,
             )
@@ -282,7 +297,7 @@ private fun BoxScope.BandBubbles(
         val under = if (bubble.motion === first) second else first
         SpeechBubbleText(
             bubble.text,
-            bubble.size,
+            bubble.fit,
             bubble
                 .placed()
                 .bubbleTextMotion(bubble.motion)

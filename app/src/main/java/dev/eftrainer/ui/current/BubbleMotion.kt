@@ -19,6 +19,7 @@ import androidx.compose.ui.unit.toSize
 import dev.eftrainer.core.ui.SPEECH_BUBBLE_RADIUS
 import dev.eftrainer.core.ui.SpeechBubbleCenter
 import dev.eftrainer.core.ui.SpeechBubbleVisibleBounds
+import dev.eftrainer.core.ui.lineRects
 import dev.eftrainer.core.ui.speechBubblePath
 import kotlin.math.abs
 
@@ -79,14 +80,7 @@ class BubbleTextFit {
 
     private fun lineBounds(): List<Rect> {
         val result = layout ?: return emptyList()
-        return List(result.lineCount) { line ->
-            Rect(
-                result.getLineLeft(line),
-                result.getLineTop(line),
-                result.getLineRight(line),
-                result.getLineBottom(line),
-            ).translate(origin)
-        }
+        return result.lineRects().map { it.translate(origin) }
     }
 }
 

@@ -4,6 +4,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -32,6 +33,8 @@ private val RightTailTip = Offset(.84f, .96f)
 const val SPEECH_BUBBLE_RADIUS = .44f
 val SpeechBubbleCenter = Offset(.5f, .46f)
 val SpeechBubbleVisibleBounds = Rect(.06f, .02f, .94f, .96f)
+val SpeechBubbleTextInset = 12.dp
+val SpeechBubbleTextLift = 12.dp
 
 fun speechBubblePath(
     tailLeft: Boolean,
@@ -70,17 +73,21 @@ fun SpeechBubbleShape(
 @Composable
 fun SpeechBubbleText(
     text: String,
-    size: Dp,
+    fit: SpeechBubbleFit,
     modifier: Modifier = Modifier,
     textModifier: Modifier = Modifier,
     onTextLayout: (TextLayoutResult) -> Unit = {},
 ) {
-    Box(modifier.size(size), contentAlignment = Alignment.Center) {
+    Box(modifier.size(fit.size), contentAlignment = Alignment.Center) {
         Text(
             text,
-            style = bubbleText,
+            style = fit.style,
             onTextLayout = onTextLayout,
-            modifier = Modifier.padding(start = 12.dp, end = 12.dp, bottom = 12.dp).then(textModifier),
+            modifier =
+                Modifier
+                    .padding(bottom = SpeechBubbleTextLift)
+                    .widthIn(max = fit.lineWidth)
+                    .then(textModifier),
         )
     }
 }

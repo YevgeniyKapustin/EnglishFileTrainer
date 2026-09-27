@@ -8,6 +8,7 @@ import androidx.compose.animation.fadeOut
 import androidx.compose.animation.shrinkVertically
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
+import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.HorizontalDivider
@@ -33,13 +34,15 @@ private const val OPEN_TURN_DEGREES = 90f
 internal fun SettingsFold(
     title: String,
     modifier: Modifier = Modifier,
-    content: @Composable ColumnScope.() -> Unit,
+    summary: @Composable RowScope.() -> Unit = {},
+    content: @Composable ColumnScope.(close: () -> Unit) -> Unit,
 ) {
     var open by rememberSaveable(title) { mutableStateOf(false) }
     val turn by animateFloatAsState(if (open) OPEN_TURN_DEGREES else 0f, label = "fold")
     Column(modifier) {
         ListRow(onClick = { open = !open }, divider = false) {
             Text(title.uppercase(), style = SectionLabelStyle, modifier = Modifier.weight(1f))
+            summary()
             Icon(Icons.ChevronRight, null, Modifier.size(20.dp).rotate(turn), tint = C.Chevron)
         }
         AnimatedVisibility(
@@ -48,7 +51,7 @@ internal fun SettingsFold(
             enter = expandVertically() + fadeIn(),
             exit = shrinkVertically() + fadeOut(),
         ) {
-            Column(Modifier.padding(start = RowBleed, end = RowBleed, bottom = 8.dp), content = content)
+            Column(Modifier.padding(start = RowBleed, end = RowBleed, bottom = 8.dp)) { content { open = false } }
         }
         HorizontalDivider(color = C.Line)
     }

@@ -1,10 +1,5 @@
 package dev.eftrainer.ui.settings
 
-import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.animation.expandVertically
-import androidx.compose.animation.fadeIn
-import androidx.compose.animation.fadeOut
-import androidx.compose.animation.shrinkVertically
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -14,13 +9,10 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Icon
-import androidx.compose.material3.Slider
-import androidx.compose.material3.SliderDefaults
 import androidx.compose.material3.Switch
 import androidx.compose.material3.SwitchDefaults
 import androidx.compose.material3.Text
@@ -52,10 +44,8 @@ import dev.eftrainer.core.ui.BackLink
 import dev.eftrainer.core.ui.Icons
 import dev.eftrainer.core.ui.ListRow
 import dev.eftrainer.data.settings.SpeechRate
-import dev.eftrainer.data.settings.ThemeMode
 import dev.eftrainer.data.settings.VoiceSettings
 import dev.eftrainer.ui.appContainer
-import dev.eftrainer.ui.exercise.inputs.SpeakerIcon
 
 @Composable
 fun SettingsScreen(
@@ -64,8 +54,10 @@ fun SettingsScreen(
     modifier: Modifier = Modifier,
     vm: SettingsViewModel = settingsViewModel(),
 ) {
-    val mode by vm.theme.collectAsStateWithLifecycle()
     val key by vm.key.collectAsStateWithLifecycle()
+    val mode by vm.theme.collectAsStateWithLifecycle()
+    val sounds by vm.sounds.collectAsStateWithLifecycle()
+    val soundVolume by vm.soundVolume.collectAsStateWithLifecycle()
     val reminder by vm.reminder.collectAsStateWithLifecycle()
     val reminderTime by vm.reminderTime.collectAsStateWithLifecycle()
     Column(modifier.fillMaxSize()) {
@@ -76,20 +68,10 @@ fun SettingsScreen(
             modifier = Modifier.padding(start = 24.dp, end = 24.dp, top = 8.dp),
         )
         Column(Modifier.weight(1f).verticalScroll(rememberScrollState()).padding(horizontal = 24.dp, vertical = 8.dp)) {
-            SettingsFold(stringResource(R.string.theme)) { ThemeOptions(mode, onSelect = vm::setTheme) }
-            SettingsFold(stringResource(R.string.voice)) { Voice(vm.voice, onVoice) }
-            SettingsFold(stringResource(R.string.sounds)) {
-                val on by vm.sounds.collectAsStateWithLifecycle()
-                SoundsRow(on, onChange = vm::setSounds)
-            }
-            SettingsFold(stringResource(R.string.reminder)) {
-                ReminderRows(
-                    on = reminder,
-                    time = reminderTime,
-                    onToggle = vm::setReminder,
-                    onTime = vm::setReminderTime,
-                )
-            }
+            ThemeFold(mode, vm::setTheme)
+            VoiceFold(vm.voice, onVoice)
+            SoundsFold(sounds, soundVolume, vm::setSounds, vm::setSoundVolume, vm::sampleSound)
+            ReminderFold(reminder, reminderTime, vm::setReminder, vm::setReminderTime)
             SettingsFold(stringResource(R.string.ai_explanations)) {
                 AiKey(
                     key = key,
@@ -108,26 +90,6 @@ fun SettingsScreen(
 private fun settingsViewModel(): SettingsViewModel =
     appContainer().let { container -> viewModel { SettingsViewModel(container) } }
 
-@Composable
-private fun ThemeOptions(
-    mode: ThemeMode,
-    onSelect: (ThemeMode) -> Unit,
-) {
-    val options =
-        listOf(
-            Triple(ThemeMode.SYSTEM, R.string.theme_system, EF.Teal to Icons.HalfCircle),
-            Triple(ThemeMode.LIGHT, R.string.theme_light, Color(0xFFF2A93B) to Icons.Sun),
-            Triple(ThemeMode.DARK, R.string.theme_dark, EF.Navy to Icons.Moon),
-        )
-    options.forEachIndexed { i, (option, title, tile) ->
-        ListRow(onClick = { onSelect(option) }, divider = i != options.lastIndex) {
-            Tile(tile.first, tile.second)
-            Text(stringResource(title), style = T.row, modifier = Modifier.weight(1f))
-            Icon(Icons.Check, null, Modifier.size(20.dp).alpha(if (option == mode) 1f else 0f), tint = EF.Teal)
-        }
-    }
-}
-
 internal val SectionLabelStyle
     @Composable get() =
         TextStyle(
@@ -144,29 +106,15 @@ internal fun SectionLabel(text: String) {
 }
 
 @Composable
-private fun Voice(
+private fun VoiceFold(
     voice: VoiceSettings,
     onVoice: () -> Unit,
 ) {
     val on by voice.readAloud.collectAsStateWithLifecycle()
-    val tts = rememberTextToSpeech()
-
-    ReadAloudRow(on, onChange = voice::setReadAloud)
-    AnimatedVisibility(on, enter = expandVertically() + fadeIn(), exit = shrinkVertically() + fadeOut()) {
-        Column { VoiceTuning(voice) }
-    }
-    VoicePickerRow(voice, tts, onVoice)
-}
-
-@Composable
-private fun ReadAloudRow(
-    on: Boolean,
-    onChange: (Boolean) -> Unit,
-) {
-    ListRow(onClick = { onChange(!on) }, divider = true) {
-        Tile(EF.File2, SpeakerIcon)
-        Text(stringResource(R.string.voice_read_aloud), style = T.row, modifier = Modifier.weight(1f))
-        AppSwitch(on, onChange)
+    SettingsFold(stringResource(R.string.voice), summary = { AppSwitch(on, voice::setReadAloud) }) {
+        val tts = rememberTextToSpeech()
+        VoiceTuning(voice)
+        VoicePickerRow(voice, tts, onVoice)
     }
 }
 
@@ -193,21 +141,7 @@ internal fun AppSwitch(
 private fun VoiceTuning(voice: VoiceSettings) {
     val volume by voice.volume.collectAsStateWithLifecycle()
     val rate by voice.rate.collectAsStateWithLifecycle()
-    ListRow(onClick = null, divider = true) {
-        Text(stringResource(R.string.voice_volume), style = T.row)
-        Slider(
-            value = volume,
-            onValueChange = voice::setVolume,
-            modifier = Modifier.weight(1f),
-            colors =
-                SliderDefaults.colors(
-                    thumbColor = C.Accent,
-                    activeTrackColor = C.Accent,
-                    inactiveTrackColor = C.Line,
-                ),
-        )
-        Text("${(volume * 100).toInt()}%", style = T.rowSub, modifier = Modifier.widthIn(min = 40.dp))
-    }
+    VolumeRow(volume, voice::setVolume, divider = true)
     ListRow(onClick = null, divider = true) {
         Text(stringResource(R.string.voice_speed), style = T.row, modifier = Modifier.weight(1f))
         Segmented(

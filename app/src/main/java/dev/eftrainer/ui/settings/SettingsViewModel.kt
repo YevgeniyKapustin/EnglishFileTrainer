@@ -6,6 +6,7 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dev.eftrainer.AppContainer
+import dev.eftrainer.core.sound.Cue
 import dev.eftrainer.data.ai.AiException
 import dev.eftrainer.data.ai.detectProvider
 import dev.eftrainer.data.settings.ThemeMode
@@ -21,6 +22,7 @@ class SettingsViewModel(
     val key = container.ai.key
     val voice = container.voice
     val sounds = container.soundSettings.enabled
+    val soundVolume = container.soundSettings.volume
     val reminder = container.reminder.enabled
     val reminderTime = container.reminder.time
 
@@ -41,6 +43,12 @@ class SettingsViewModel(
     fun setTheme(mode: ThemeMode) = container.theme.set(mode)
 
     fun setSounds(on: Boolean) = container.soundSettings.setEnabled(on)
+
+    fun setSoundVolume(value: Float) = container.soundSettings.setVolume(value)
+
+    fun sampleSound() {
+        container.sounds.play(Cue.CORRECT)
+    }
 
     fun setReminder(on: Boolean) {
         container.reminder.setEnabled(on)

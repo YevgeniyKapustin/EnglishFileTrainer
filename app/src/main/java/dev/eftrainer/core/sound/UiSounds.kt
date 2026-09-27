@@ -46,7 +46,8 @@ class UiSounds(
         val current = pool ?: return false
         val sample = sampleIds[cue]?.takeIf { it in loaded } ?: return false
         if (!audible()) return false
-        return current.play(sample, volume, volume, 1, 0, rate) != 0
+        val level = volume * settings.volume.value
+        return current.play(sample, level, level, 1, 0, rate) != 0
     }
 
     fun close() {

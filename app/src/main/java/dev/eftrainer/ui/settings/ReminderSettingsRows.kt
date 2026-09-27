@@ -26,7 +26,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import dev.eftrainer.R
 import dev.eftrainer.core.theme.C
-import dev.eftrainer.core.theme.EF
 import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.ui.Icons
 import dev.eftrainer.core.ui.ListRow
@@ -37,28 +36,39 @@ import java.time.format.DateTimeFormatter
 private const val DISABLED_ALPHA = .4f
 
 @Composable
-internal fun ReminderRows(
+internal fun ReminderFold(
     on: Boolean,
     time: LocalTime,
     onToggle: (Boolean) -> Unit,
     onTime: (LocalTime) -> Unit,
 ) {
-    var picking by rememberSaveable { mutableStateOf(false) }
+    SettingsFold(stringResource(R.string.reminder), summary = { ReminderSwitch(on, onToggle) }) {
+        ReminderTimeRow(on, time, onTime)
+    }
+}
+
+@Composable
+private fun ReminderSwitch(
+    on: Boolean,
+    onToggle: (Boolean) -> Unit,
+) {
     val context = LocalContext.current
     val permission = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) {}
-
-    fun toggle(value: Boolean) {
+    AppSwitch(on) { value ->
         onToggle(value)
         if (value && Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU && !Notifier.canPost(context)) {
             permission.launch(Manifest.permission.POST_NOTIFICATIONS)
         }
     }
+}
 
-    ListRow(onClick = { toggle(!on) }, divider = true) {
-        Tile(EF.Teal, Icons.Bell)
-        Text(stringResource(R.string.reminder), style = T.row, modifier = Modifier.weight(1f))
-        AppSwitch(on, ::toggle)
-    }
+@Composable
+private fun ReminderTimeRow(
+    on: Boolean,
+    time: LocalTime,
+    onTime: (LocalTime) -> Unit,
+) {
+    var picking by rememberSaveable { mutableStateOf(false) }
     ListRow(
         onClick = { picking = true }.takeIf { on },
         divider = false,

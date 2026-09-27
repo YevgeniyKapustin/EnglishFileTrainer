@@ -86,8 +86,6 @@
     <string name="theme_dark">Dark</string>
     <string name="voice">Voice</string>
     <string name="sounds">Sounds</string>
-    <string name="sound_effects">Sound effects</string>
-    <string name="voice_read_aloud">Read AI replies aloud</string>
     <string name="voice_volume">Volume</string>
     <string name="voice_speed">Speed</string>
     <string name="voice_speed_normal">Normal</string>

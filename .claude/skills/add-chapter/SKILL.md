@@ -123,7 +123,8 @@ PNG → `tools/out/`.
 **Картинки** — только со страницы SB/WB PDF, где их печатает книга, даже если задание к видео:
 - найти границы: `uv run --no-project --with pymupdf python tools/render.py sb 13 --dpi 96` — в этом PNG
   1 px = 1 px скана (страница SB — 1536×1936), координаты фото снять с него;
-- добавить в `CROPS` в `tools/images.py`: `"<id главы строчными>_<задание>_<n>": (страница PDF, (x0, y0, x1, y1))`,
+- добавить в `CROPS` (SB) или `WB_CROPS` (WB, рендер `wb … --dpi 96`) в `tools/images.py`:
+  `"<id главы строчными>_<задание>_<n>": (страница PDF, (x0, y0, x1, y1))`,
   пример книги (пункт 1) не резать;
 - `PYTHONIOENCODING=utf-8 uv run --no-project --with pymupdf --with pillow python tools/images.py <имена>` →
   `app/src/main/assets/image/<name>.webp` (≤ 480 px по ширине, webp q80; папка не в git). Открыть файлы и

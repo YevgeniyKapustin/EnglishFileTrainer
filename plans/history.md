@@ -46,6 +46,9 @@
     черновик «Can you remember…? 1» стал `1C-review`; 2A «OMG! Where's my passport?» — 234 + 53;
     2B «That's me in the picture!» — 147 + 45; 2C «One dark October evening» — 215 + 40, с `2C-review`
     (Revise and Check 1&2). Треки 1.23–1.29, 2.1–2.23. Что не влезло в типы — список в `PLAN.md` §0.
+  - Картинки из WB (27.09.2026): `tools/images.py` режет и WB (`WB_CROPS`) — 2A wb3a, 2B wb2c, 1C wb3c; новые
+    задания `1C-wb1c` (предлоги по фото спальни) и `1C-wb3d` (ответы по картинке парка). Аудио WB и видео 2C взять
+    неоткуда — `speak` с синтезатором и аудиоверсия 2.21.
 - **Э8.5 — Practical English с видео** (эпизод 1 сделан):
   - PE-урок в SB — после юнитов 1, 3, 5, 7, 9, 11 (SB PDF 13, 29, 45, 61, 77, 93). Видео 4e:
     `english_file/videos/EF4e_Pre-int_PracticalEng_Ep{1..6}_*.mp4`, 36 роликов, 124 МБ.

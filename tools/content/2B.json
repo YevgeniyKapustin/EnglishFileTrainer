@@ -455,12 +455,12 @@
           "id": "2B-wb2c",
           "origin": "WB",
           "instruction": "Someone stole a famous painting from an art gallery at 5.30 yesterday afternoon. What were the people doing at the time? Write sentences",
-          "note": "WB 2c; картинки WB не режем (tools/images.py режет только SB) — действие дано словами в prompt. 1 I was cleaning Gallery 6 — пример; 6 «Students’ own answer» → Write",
+          "note": "WB 2c; картинки WB p.15 (tools/images.py, WB_CROPS) в image, действие ещё и словами в prompt. 1 I was cleaning Gallery 6 — пример; 6 «Students’ own answer» → Write",
           "exercises": [
-            {"n": 2, "type": "rewrite", "prompt": "We / try to find the exit", "answers": ["We were trying to find the exit."]},
-            {"n": 3, "type": "rewrite", "prompt": "I / close the windows", "answers": ["I was closing the windows."]},
-            {"n": 4, "type": "rewrite", "prompt": "We / wash the coffee cups", "answers": ["We were washing the coffee cups."]},
-            {"n": 5, "type": "rewrite", "prompt": "I / count the money", "answers": ["I was counting the money."]},
+            {"n": 2, "type": "rewrite", "prompt": "We / try to find the exit", "answers": ["We were trying to find the exit."], "image": "2b_wb2c_2"},
+            {"n": 3, "type": "rewrite", "prompt": "I / close the windows", "answers": ["I was closing the windows."], "image": "2b_wb2c_3"},
+            {"n": 4, "type": "rewrite", "prompt": "We / wash the coffee cups", "answers": ["We were washing the coffee cups."], "image": "2b_wb2c_4"},
+            {"n": 5, "type": "rewrite", "prompt": "I / count the money", "answers": ["I was counting the money."], "image": "2b_wb2c_5"},
             {
               "n": 6,
               "type": "write",

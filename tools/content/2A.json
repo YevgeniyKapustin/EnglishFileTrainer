@@ -3531,7 +3531,7 @@
           "id": "2A-wb3a",
           "origin": "WB",
           "instruction": "Complete the holiday phrases with words from the list",
-          "note": "WB 3a; фото WB p.13 вырезать нечем (tools/images.py режет только SB) → список недостающих слов в words; 4 и 8 без фото неоднозначны — принимаем abroad / sightseeing в обоих, подсказка в скобках. 1 go camping — пример",
+          "note": "WB 3a; фото WB p.13 (tools/images.py, WB_CROPS) в image, список недостающих слов в words. 1 go camping — пример",
           "words": [
             "abroad",
             "away",
@@ -3556,7 +3556,8 @@
                 [
                   "walk"
                 ]
-              ]
+              ],
+              "image": "2a_wb3a_2"
             },
             {
               "n": 3,
@@ -3566,19 +3567,20 @@
                 [
                   "book"
                 ]
-              ]
+              ],
+              "image": "2a_wb3a_3"
             },
             {
               "n": 4,
               "type": "blank",
-              "text": "go {} (with a passport)",
+              "text": "go {}",
               "gaps": [
                 [
-                  "abroad",
-                  "sightseeing"
+                  "abroad"
                 ]
               ],
-              "explain": "The photo shows a passport and plane tickets: go abroad."
+              "explain": "The photo shows a passport and plane tickets: go abroad.",
+              "image": "2a_wb3a_4"
             },
             {
               "n": 5,
@@ -3588,7 +3590,8 @@
                 [
                   "go"
                 ]
-              ]
+              ],
+              "image": "2a_wb3a_5"
             },
             {
               "n": 6,
@@ -3598,7 +3601,8 @@
                 [
                   "out"
                 ]
-              ]
+              ],
+              "image": "2a_wb3a_6"
             },
             {
               "n": 7,
@@ -3608,19 +3612,20 @@
                 [
                   "stay"
                 ]
-              ]
+              ],
+              "image": "2a_wb3a_7"
             },
             {
               "n": 8,
               "type": "blank",
-              "text": "go {} (to see famous buildings)",
+              "text": "go {}",
               "gaps": [
                 [
-                  "sightseeing",
-                  "abroad"
+                  "sightseeing"
                 ]
               ],
-              "explain": "The photo shows tourists at an old cathedral: go sightseeing."
+              "explain": "The photo shows tourists at an old cathedral: go sightseeing.",
+              "image": "2a_wb3a_8"
             },
             {
               "n": 9,
@@ -3630,7 +3635,8 @@
                 [
                   "sunbathe"
                 ]
-              ]
+              ],
+              "image": "2a_wb3a_9"
             },
             {
               "n": 10,
@@ -3640,7 +3646,8 @@
                 [
                   "away"
                 ]
-              ]
+              ],
+              "image": "2a_wb3a_10"
             }
           ]
         },

@@ -1205,6 +1205,92 @@
           ]
         },
         {
+          "id": "1C-wb1c",
+          "origin": "WB",
+          "instruction": "Look at the photo, a remake of van Gogh’s painting The bedroom. Complete the sentences with a preposition from the list",
+          "note": "WB 1c; фото WB p.8 (tools/images.py, WB_CROPS) в image. 1 on the left — пример",
+          "words": [
+            "above",
+            "behind",
+            "between",
+            "in front of",
+            "next to",
+            "on",
+            "under"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "There are some clothes {} the bed.",
+              "gaps": [
+                [
+                  "behind"
+                ]
+              ],
+              "image": "1c_wb1c_bedroom"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "There’s a chair {} the bed and the table.",
+              "gaps": [
+                [
+                  "between"
+                ]
+              ],
+              "image": "1c_wb1c_bedroom"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "There’s a small cup {} the two jugs {} the table.",
+              "gaps": [
+                [
+                  "in front of"
+                ],
+                [
+                  "on"
+                ]
+              ],
+              "image": "1c_wb1c_bedroom"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "The two pillows on the bed are {} each other.",
+              "gaps": [
+                [
+                  "next to"
+                ]
+              ],
+              "image": "1c_wb1c_bedroom"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "There’s a mirror {} the table.",
+              "gaps": [
+                [
+                  "above"
+                ]
+              ],
+              "image": "1c_wb1c_bedroom"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "The chair by the bed is {} the window.",
+              "gaps": [
+                [
+                  "under"
+                ]
+              ],
+              "image": "1c_wb1c_bedroom"
+            }
+          ]
+        },
+        {
           "id": "1C-vocabulary-x1",
           "origin": "GENERATED",
           "instruction": "Complete the sentences with a clothes word.",
@@ -2702,7 +2788,7 @@
           "id": "1C-wb3c",
           "origin": "WB",
           "instruction": "A picture of a park. Complete the questions with the present simple or present continuous form of the verb in brackets",
-          "note": "WB 3c; 1 What is the man on the bench reading — пример. Картинку из WB не вырезать (tools/images.py берёт только SB) — вопросы без неё, ответы от картинки не зависят. WB 3d (ответить по картинке) не перенесено (TODO)",
+          "note": "WB 3c; картинка парка WB p.9 (tools/images.py, WB_CROPS) в image. 1 What is the man on the bench reading — пример",
           "exercises": [
             {
               "n": 2,
@@ -2716,7 +2802,8 @@
                   "playing"
                 ]
               ],
-              "hint": "(play)"
+              "hint": "(play)",
+              "image": "1c_wb3c_park"
             },
             {
               "n": 3,
@@ -2730,7 +2817,8 @@
                   "doing"
                 ]
               ],
-              "hint": "(do)"
+              "hint": "(do)",
+              "image": "1c_wb3c_park"
             },
             {
               "n": 4,
@@ -2744,7 +2832,8 @@
                   "wearing"
                 ]
               ],
-              "hint": "(wear)"
+              "hint": "(wear)",
+              "image": "1c_wb3c_park"
             },
             {
               "n": 5,
@@ -2758,7 +2847,8 @@
                   "wearing"
                 ]
               ],
-              "hint": "(wear)"
+              "hint": "(wear)",
+              "image": "1c_wb3c_park"
             },
             {
               "n": 6,
@@ -2772,7 +2862,8 @@
                   "carrying"
                 ]
               ],
-              "hint": "(carry)"
+              "hint": "(carry)",
+              "image": "1c_wb3c_park"
             },
             {
               "n": 7,
@@ -2786,7 +2877,8 @@
                   "wearing"
                 ]
               ],
-              "hint": "(wear)"
+              "hint": "(wear)",
+              "image": "1c_wb3c_park"
             },
             {
               "n": 8,
@@ -2800,7 +2892,93 @@
                   "doing"
                 ]
               ],
-              "hint": "(do)"
+              "hint": "(do)",
+              "image": "1c_wb3c_park"
+            }
+          ]
+        },
+        {
+          "id": "1C-wb3d",
+          "origin": "WB",
+          "instruction": "Look at the picture. Answer the questions in c",
+          "note": "WB 3d; та же картинка парка в image, вопрос из 3c в prompt, ответ — фраза целиком. 1 The man on the bench is reading a newspaper — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "What are the boys under the tree playing?",
+              "answers": [
+                "The boys are playing football.",
+                "They’re playing football.",
+                "They are playing football."
+              ],
+              "image": "1c_wb3c_park"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "What is the woman on the left doing?",
+              "answers": [
+                "The woman on the left is riding a bike.",
+                "She’s riding a bike.",
+                "She is riding a bike.",
+                "She’s riding a bicycle.",
+                "She is riding a bicycle."
+              ],
+              "image": "1c_wb3c_park"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "What is she wearing? (the woman on the left)",
+              "answers": [
+                "She’s wearing a tracksuit and trainers.",
+                "She is wearing a tracksuit and trainers."
+              ],
+              "image": "1c_wb3c_park"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "What is the woman on the right wearing?",
+              "answers": [
+                "The woman on the right is wearing a dress and a cardigan.",
+                "She’s wearing a dress and a cardigan.",
+                "She is wearing a dress and a cardigan."
+              ],
+              "image": "1c_wb3c_park"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "What is she carrying? (the woman on the right)",
+              "answers": [
+                "She’s carrying a bag.",
+                "She is carrying a bag."
+              ],
+              "image": "1c_wb3c_park"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "What is the runner wearing?",
+              "answers": [
+                "He’s wearing shorts, a T-shirt and trainers.",
+                "He is wearing shorts, a T-shirt and trainers.",
+                "He’s wearing shorts, a T-shirt, and trainers."
+              ],
+              "image": "1c_wb3c_park"
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prompt": "What is the man under the tree doing?",
+              "answers": [
+                "He’s sleeping.",
+                "He is sleeping.",
+                "The man under the tree is sleeping."
+              ],
+              "image": "1c_wb3c_park"
             }
           ]
         },

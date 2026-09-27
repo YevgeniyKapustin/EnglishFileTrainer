@@ -933,11 +933,11 @@ val File1C = Chapter(
                     origin = Origin.SB,
                     instruction = "Which sound is only in unstressed syllables?",
                     exercises = listOf(
-                        Blank(
+                        Sort(
                             "1C-sb2a2-01",
-                            text = "The sound that is only in unstressed syllables: {}",
-                            gaps = listOf(listOf("/ə/", "ə", "1", "computer", "schwa")),
-                            hint = "(1 computer /ə/ or 2 bird /ɜː/)",
+                            word = "never stressed",
+                            columns = listOf("1 computer /ə/", "2 bird /ɜː/"),
+                            answer = 0,
                             explain = "/ə/ (computer) is never stressed; /ɜː/ (bird) is in stressed syllables.",
                             source = AnswerSource.MODEL,
                         ),

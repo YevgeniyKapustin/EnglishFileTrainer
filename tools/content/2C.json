@@ -797,15 +797,59 @@
         {
           "id": "2C-rcpc",
           "origin": "SB",
-          "instruction": "What sound in a do the letters in brackets have in these words? Write the sound word",
-          "note": "Revise and Check 1&2 Pronunciation c; розовые буквы книги → в скобках. MODEL",
-          "words": ["tree", "car", "fish", "bike", "snake", "zebra", "dog", "tie"],
+          "instruction": "What sound do the pink letters have?",
+          "note": "Revise and Check 1&2 Pronunciation c → Sort по восьми звукам из a; розовые буквы — как в книге (в skiing розовая первая i: /iː/). MODEL",
+          "columns": [
+            "tree /iː/",
+            "car /ɑː/",
+            "fish /ɪ/",
+            "bike /aɪ/",
+            "snake /s/",
+            "zebra /z/",
+            "dog /d/",
+            "tie /t/"
+          ],
           "exercises": [
-            {"n": 1, "type": "blank", "text": "quiet (i) → {}", "gaps": [["bike"]], "explain": "quiet /aɪ/ – like bike.", "source": "MODEL"},
-            {"n": 2, "type": "blank", "text": "skiing (ii) → {}", "gaps": [["tree"]], "explain": "skiing /iː/ – like tree.", "source": "MODEL"},
-            {"n": 3, "type": "blank", "text": "booked (ed) → {}", "gaps": [["tie"]], "explain": "booked – -ed = /t/ after /k/.", "source": "MODEL"},
-            {"n": 4, "type": "blank", "text": "listened (ed) → {}", "gaps": [["dog"]], "explain": "listened – -ed = /d/ after /n/.", "source": "MODEL"},
-            {"n": 5, "type": "blank", "text": "noisy (s) → {}", "gaps": [["zebra"]], "explain": "noisy – s = /z/.", "source": "MODEL"}
+            {
+              "n": 1,
+              "type": "sort",
+              "word": "qu[i]et",
+              "column": 4,
+              "explain": "quiet /aɪ/ – like bike.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "sort",
+              "word": "sk[i]ing",
+              "column": 1,
+              "explain": "skiing /iː/ – like tree.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "sort",
+              "word": "book[ed]",
+              "column": 8,
+              "explain": "booked – -ed = /t/ after /k/.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "sort",
+              "word": "listen[ed]",
+              "column": 7,
+              "explain": "listened – -ed = /d/ after /n/.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "sort",
+              "word": "noi[s]y",
+              "column": 6,
+              "explain": "noisy – s = /z/.",
+              "source": "MODEL"
+            }
           ]
         },
         {

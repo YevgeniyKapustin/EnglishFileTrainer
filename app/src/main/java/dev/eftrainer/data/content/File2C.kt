@@ -1838,41 +1838,45 @@ val File2C = Chapter(
                 Task(
                     id = "2C-rcpc",
                     origin = Origin.SB,
-                    instruction = "What sound in a do the letters in brackets have in these words? Write the sound word",
-                    words = listOf("tree", "car", "fish", "bike", "snake", "zebra", "dog", "tie"),
+                    instruction = "What sound do the pink letters have?",
                     exercises = listOf(
-                        Blank(
+                        Sort(
                             "2C-rcpc-01",
-                            text = "quiet (i) → {}",
-                            gaps = listOf(listOf("bike")),
+                            word = "qu[i]et",
+                            columns = listOf("tree /iː/", "car /ɑː/", "fish /ɪ/", "bike /aɪ/", "snake /s/", "zebra /z/", "dog /d/", "tie /t/"),
+                            answer = 3,
                             explain = "quiet /aɪ/ – like bike.",
                             source = AnswerSource.MODEL,
                         ),
-                        Blank(
+                        Sort(
                             "2C-rcpc-02",
-                            text = "skiing (ii) → {}",
-                            gaps = listOf(listOf("tree")),
+                            word = "sk[i]ing",
+                            columns = listOf("tree /iː/", "car /ɑː/", "fish /ɪ/", "bike /aɪ/", "snake /s/", "zebra /z/", "dog /d/", "tie /t/"),
+                            answer = 0,
                             explain = "skiing /iː/ – like tree.",
                             source = AnswerSource.MODEL,
                         ),
-                        Blank(
+                        Sort(
                             "2C-rcpc-03",
-                            text = "booked (ed) → {}",
-                            gaps = listOf(listOf("tie")),
+                            word = "book[ed]",
+                            columns = listOf("tree /iː/", "car /ɑː/", "fish /ɪ/", "bike /aɪ/", "snake /s/", "zebra /z/", "dog /d/", "tie /t/"),
+                            answer = 7,
                             explain = "booked – -ed = /t/ after /k/.",
                             source = AnswerSource.MODEL,
                         ),
-                        Blank(
+                        Sort(
                             "2C-rcpc-04",
-                            text = "listened (ed) → {}",
-                            gaps = listOf(listOf("dog")),
+                            word = "listen[ed]",
+                            columns = listOf("tree /iː/", "car /ɑː/", "fish /ɪ/", "bike /aɪ/", "snake /s/", "zebra /z/", "dog /d/", "tie /t/"),
+                            answer = 6,
                             explain = "listened – -ed = /d/ after /n/.",
                             source = AnswerSource.MODEL,
                         ),
-                        Blank(
+                        Sort(
                             "2C-rcpc-05",
-                            text = "noisy (s) → {}",
-                            gaps = listOf(listOf("zebra")),
+                            word = "noi[s]y",
+                            columns = listOf("tree /iː/", "car /ɑː/", "fish /ɪ/", "bike /aɪ/", "snake /s/", "zebra /z/", "dog /d/", "tie /t/"),
+                            answer = 5,
                             explain = "noisy – s = /z/.",
                             source = AnswerSource.MODEL,
                         ),

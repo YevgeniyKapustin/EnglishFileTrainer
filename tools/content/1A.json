@@ -2209,115 +2209,79 @@
         {
           "id": "1A-sb3c",
           "origin": "SB",
-          "instruction": "Add the letters to the correct column: write the sound picture word",
-          "note": "SB 3c «add the letters to the column» → Blank на букву; J — пример (train)",
-          "words": [
-            "train",
-            "tree",
-            "egg",
-            "bike",
-            "phone",
-            "boot",
-            "car"
+          "instruction": "Add the letters to the correct column",
+          "note": "SB 3c «add the letters to the column» → Sort по семи звукам-картинкам 3b; J — пример (train)",
+          "columns": [
+            "train /eɪ/",
+            "tree /iː/",
+            "egg /e/",
+            "bike /aɪ/",
+            "phone /əʊ/",
+            "boot /uː/",
+            "car /ɑː/"
           ],
           "exercises": [
             {
               "n": 1,
-              "type": "blank",
-              "text": "E has the same vowel sound as {}",
-              "gaps": [
-                [
-                  "tree"
-                ]
-              ],
+              "type": "sort",
+              "word": "E",
+              "column": 2,
               "source": "MODEL"
             },
             {
               "n": 2,
-              "type": "blank",
-              "text": "G has the same vowel sound as {}",
-              "gaps": [
-                [
-                  "tree"
-                ]
-              ],
+              "type": "sort",
+              "word": "G",
+              "column": 2,
               "source": "MODEL"
             },
             {
               "n": 3,
-              "type": "blank",
-              "text": "K has the same vowel sound as {}",
-              "gaps": [
-                [
-                  "train"
-                ]
-              ],
+              "type": "sort",
+              "word": "K",
+              "column": 1,
               "source": "MODEL"
             },
             {
               "n": 4,
-              "type": "blank",
-              "text": "M has the same vowel sound as {}",
-              "gaps": [
-                [
-                  "egg"
-                ]
-              ],
+              "type": "sort",
+              "word": "M",
+              "column": 3,
               "source": "MODEL"
             },
             {
               "n": 5,
-              "type": "blank",
-              "text": "O has the same vowel sound as {}",
-              "gaps": [
-                [
-                  "phone"
-                ]
-              ],
+              "type": "sort",
+              "word": "O",
+              "column": 5,
               "source": "MODEL"
             },
             {
               "n": 6,
-              "type": "blank",
-              "text": "R has the same vowel sound as {}",
-              "gaps": [
-                [
-                  "car"
-                ]
-              ],
+              "type": "sort",
+              "word": "R",
+              "column": 7,
               "source": "MODEL"
             },
             {
               "n": 7,
-              "type": "blank",
-              "text": "Q has the same vowel sound as {}",
-              "gaps": [
-                [
-                  "boot"
-                ]
-              ],
+              "type": "sort",
+              "word": "Q",
+              "column": 6,
               "source": "MODEL"
             },
             {
               "n": 8,
-              "type": "blank",
-              "text": "X has the same vowel sound as {}",
-              "gaps": [
-                [
-                  "egg"
-                ]
-              ],
+              "type": "sort",
+              "word": "X",
+              "column": 3,
               "source": "MODEL"
             },
             {
               "n": 9,
-              "type": "blank",
-              "text": "Y has the same vowel sound as {}",
-              "gaps": [
-                [
-                  "bike"
-                ]
-              ],
+              "type": "sort",
+              "word": "Y",
+              "column": 4,
               "source": "MODEL"
             }
           ]

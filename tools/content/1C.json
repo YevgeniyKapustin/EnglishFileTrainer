@@ -1770,22 +1770,17 @@
           "id": "1C-sb2a2",
           "origin": "SB",
           "instruction": "Which sound is only in unstressed syllables?",
-          "note": "SB 2a, вопрос → Blank",
+          "note": "SB 2a, вопрос → Sort по колонкам 1 computer / 2 bird (как в 1C-sb2b), чтобы звук выбирали, а не печатали",
+          "columns": [
+            "1 computer /ə/",
+            "2 bird /ɜː/"
+          ],
           "exercises": [
             {
               "n": 1,
-              "type": "blank",
-              "text": "The sound that is only in unstressed syllables: {}",
-              "gaps": [
-                [
-                  "/ə/",
-                  "ə",
-                  "1",
-                  "computer",
-                  "schwa"
-                ]
-              ],
-              "hint": "(1 computer /ə/ or 2 bird /ɜː/)",
+              "type": "sort",
+              "word": "never stressed",
+              "column": 1,
               "explain": "/ə/ (computer) is never stressed; /ɜː/ (bird) is in stressed syllables.",
               "source": "MODEL"
             }

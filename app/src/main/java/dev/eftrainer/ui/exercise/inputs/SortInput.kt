@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -34,6 +35,8 @@ import dev.eftrainer.ui.appContainer
 
 private val ColumnShape = RoundedCornerShape(12.dp)
 
+private const val COLUMNS_PER_ROW = 4
+
 @Composable
 fun SortInput(
     exercise: Sort,
@@ -50,25 +53,32 @@ fun SortInput(
             style = T.question.copy(fontSize = 34.sp, lineHeight = 44.sp, textAlign = TextAlign.Center),
             modifier = Modifier.fillMaxWidth(),
         )
-        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            exercise.columns.forEachIndexed { i, title ->
-                val border =
-                    when {
-                        checked && i == exercise.answer -> C.Ok
-                        checked && i == pick -> C.Bad
-                        i == pick -> C.Accent
-                        else -> C.Line
+        Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            exercise.columns.withIndex().chunked(COLUMNS_PER_ROW).forEach { row ->
+                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    row.forEach { (i, title) ->
+                        val border =
+                            when {
+                                checked && i == exercise.answer -> C.Ok
+                                checked && i == pick -> C.Bad
+                                i == pick -> C.Accent
+                                else -> C.Line
+                            }
+                        SortColumn(
+                            title = columnLabel(title),
+                            border = border,
+                            enabled = !checked,
+                            onClick = {
+                                onPick(i)
+                                sounds.play(Cue.TICK)
+                            },
+                            modifier = Modifier.weight(1f),
+                        )
                     }
-                SortColumn(
-                    title = columnLabel(title),
-                    border = border,
-                    enabled = !checked,
-                    onClick = {
-                        onPick(i)
-                        sounds.play(Cue.TICK)
-                    },
-                    modifier = Modifier.weight(1f),
-                )
+                    if (exercise.columns.size > COLUMNS_PER_ROW) {
+                        repeat(COLUMNS_PER_ROW - row.size) { Spacer(Modifier.weight(1f)) }
+                    }
+                }
             }
         }
     }

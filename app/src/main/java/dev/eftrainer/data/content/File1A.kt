@@ -1254,61 +1254,69 @@ val File1A = Chapter(
                 Task(
                     id = "1A-sb3c",
                     origin = Origin.SB,
-                    instruction = "Add the letters to the correct column: write the sound picture word",
-                    words = listOf("train", "tree", "egg", "bike", "phone", "boot", "car"),
+                    instruction = "Add the letters to the correct column",
                     exercises = listOf(
-                        Blank(
+                        Sort(
                             "1A-sb3c-01",
-                            text = "E has the same vowel sound as {}",
-                            gaps = listOf(listOf("tree")),
+                            word = "E",
+                            columns = listOf("train /eɪ/", "tree /iː/", "egg /e/", "bike /aɪ/", "phone /əʊ/", "boot /uː/", "car /ɑː/"),
+                            answer = 1,
                             source = AnswerSource.MODEL,
                         ),
-                        Blank(
+                        Sort(
                             "1A-sb3c-02",
-                            text = "G has the same vowel sound as {}",
-                            gaps = listOf(listOf("tree")),
+                            word = "G",
+                            columns = listOf("train /eɪ/", "tree /iː/", "egg /e/", "bike /aɪ/", "phone /əʊ/", "boot /uː/", "car /ɑː/"),
+                            answer = 1,
                             source = AnswerSource.MODEL,
                         ),
-                        Blank(
+                        Sort(
                             "1A-sb3c-03",
-                            text = "K has the same vowel sound as {}",
-                            gaps = listOf(listOf("train")),
+                            word = "K",
+                            columns = listOf("train /eɪ/", "tree /iː/", "egg /e/", "bike /aɪ/", "phone /əʊ/", "boot /uː/", "car /ɑː/"),
+                            answer = 0,
                             source = AnswerSource.MODEL,
                         ),
-                        Blank(
+                        Sort(
                             "1A-sb3c-04",
-                            text = "M has the same vowel sound as {}",
-                            gaps = listOf(listOf("egg")),
+                            word = "M",
+                            columns = listOf("train /eɪ/", "tree /iː/", "egg /e/", "bike /aɪ/", "phone /əʊ/", "boot /uː/", "car /ɑː/"),
+                            answer = 2,
                             source = AnswerSource.MODEL,
                         ),
-                        Blank(
+                        Sort(
                             "1A-sb3c-05",
-                            text = "O has the same vowel sound as {}",
-                            gaps = listOf(listOf("phone")),
+                            word = "O",
+                            columns = listOf("train /eɪ/", "tree /iː/", "egg /e/", "bike /aɪ/", "phone /əʊ/", "boot /uː/", "car /ɑː/"),
+                            answer = 4,
                             source = AnswerSource.MODEL,
                         ),
-                        Blank(
+                        Sort(
                             "1A-sb3c-06",
-                            text = "R has the same vowel sound as {}",
-                            gaps = listOf(listOf("car")),
+                            word = "R",
+                            columns = listOf("train /eɪ/", "tree /iː/", "egg /e/", "bike /aɪ/", "phone /əʊ/", "boot /uː/", "car /ɑː/"),
+                            answer = 6,
                             source = AnswerSource.MODEL,
                         ),
-                        Blank(
+                        Sort(
                             "1A-sb3c-07",
-                            text = "Q has the same vowel sound as {}",
-                            gaps = listOf(listOf("boot")),
+                            word = "Q",
+                            columns = listOf("train /eɪ/", "tree /iː/", "egg /e/", "bike /aɪ/", "phone /əʊ/", "boot /uː/", "car /ɑː/"),
+                            answer = 5,
                             source = AnswerSource.MODEL,
                         ),
-                        Blank(
+                        Sort(
                             "1A-sb3c-08",
-                            text = "X has the same vowel sound as {}",
-                            gaps = listOf(listOf("egg")),
+                            word = "X",
+                            columns = listOf("train /eɪ/", "tree /iː/", "egg /e/", "bike /aɪ/", "phone /əʊ/", "boot /uː/", "car /ɑː/"),
+                            answer = 2,
                             source = AnswerSource.MODEL,
                         ),
-                        Blank(
+                        Sort(
                             "1A-sb3c-09",
-                            text = "Y has the same vowel sound as {}",
-                            gaps = listOf(listOf("bike")),
+                            word = "Y",
+                            columns = listOf("train /eɪ/", "tree /iː/", "egg /e/", "bike /aɪ/", "phone /əʊ/", "boot /uː/", "car /ɑː/"),
+                            answer = 3,
                             source = AnswerSource.MODEL,
                         ),
                     ),

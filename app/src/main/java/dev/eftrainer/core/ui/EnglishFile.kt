@@ -145,7 +145,7 @@ val SectionKind.color: Color
             SectionKind.GRAMMAR -> EF.G
             SectionKind.VOCABULARY -> EF.V
             SectionKind.PRONUNCIATION -> EF.P
-            SectionKind.SKILLS, SectionKind.PRACTICAL_ENGLISH -> EF.Title
+            SectionKind.SKILLS, SectionKind.PRACTICAL_ENGLISH, SectionKind.REVIEW -> EF.Title
         }
 
 private val SectionKind.letter: String
@@ -156,6 +156,7 @@ private val SectionKind.letter: String
             SectionKind.PRONUNCIATION -> "P"
             SectionKind.SKILLS -> "LS"
             SectionKind.PRACTICAL_ENGLISH -> "PE"
+            SectionKind.REVIEW -> "R"
         }
 
 @Composable

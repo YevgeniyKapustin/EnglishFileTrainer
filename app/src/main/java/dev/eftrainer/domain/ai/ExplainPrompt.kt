@@ -39,14 +39,15 @@ object ExplainPrompt {
         exercise: Exercise,
         answer: String,
         expected: String,
+        rules: List<Section> = listOf(section),
     ): List<Pair<String, String>> {
         val user =
             buildString {
                 appendLine("Lesson ${chapter.id} \"${chapter.title}\", section: ${section.title}.")
-                if (section.reference.isNotEmpty()) {
+                if (rules.any { it.reference.isNotEmpty() }) {
                     appendLine()
                     appendLine("Rules of this lesson:")
-                    appendLine(rules(listOf(section)))
+                    appendLine(rules(rules))
                 }
                 appendLine()
                 appendLine("Task: ${task.instruction}")

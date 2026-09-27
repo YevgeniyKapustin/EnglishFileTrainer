@@ -16,6 +16,7 @@ import dev.eftrainer.data.content.Write
 import dev.eftrainer.data.content.exercises
 import dev.eftrainer.domain.ai.AiChat
 import dev.eftrainer.domain.ai.ExplainPrompt
+import dev.eftrainer.domain.ai.RuleScope
 import dev.eftrainer.domain.ai.WritePrompt
 import dev.eftrainer.domain.ai.reply
 import dev.eftrainer.domain.check.Checker
@@ -189,7 +190,13 @@ class SessionViewModel(
         _state.value = q.copy(aiCheck = AiCheck.Checking)
         viewModelScope.launch {
             val loc = Chapters.locate(e.id)
-            val prompt = WritePrompt.grading(e, loc.task.instruction, ExplainPrompt.rules(loc.chapter.sections), text)
+            val prompt =
+                WritePrompt.grading(
+                    e,
+                    loc.task.instruction,
+                    ExplainPrompt.rules(RuleScope.forChapter(Chapters.all, loc.chapter, loc.section)),
+                    text,
+                )
             val client = container.aiClient
             val grade =
                 try {
@@ -240,7 +247,15 @@ class SessionViewModel(
                 current == null -> {
                     val loc = Chapters.locate(q.exercise.id)
                     AiChat(
-                        ExplainPrompt.build(loc.chapter, loc.section, loc.task, q.exercise, f.answer, f.expected),
+                        ExplainPrompt.build(
+                            loc.chapter,
+                            loc.section,
+                            loc.task,
+                            q.exercise,
+                            f.answer,
+                            f.expected,
+                            RuleScope.forExercise(Chapters.all, loc.chapter, loc.section),
+                        ),
                     ).start()
                 }
 

@@ -48,7 +48,8 @@ PNG → `tools/out/`.
 Верхний уровень как в 1A: `id`, `title`, `bubbles`, `sources` (строка с печатными и PDF-страницами), `sections`.
 
 Разделы — по плашкам урока: `<ID>-grammar` (GRAMMAR), `<ID>-vocabulary` (VOCABULARY), `<ID>-pronunciation`
-(PRONUNCIATION), `<ID>-skills` (SKILLS), `<ID>-practical` (PRACTICAL_ENGLISH). Порядок — как в книге.
+(PRONUNCIATION), `<ID>-skills` (SKILLS), `<ID>-practical` (PRACTICAL_ENGLISH), `<ID>-review` (REVIEW — «Can you remember…?»,
+«Revise and Check»; Explain берёт правила всего юнита). Порядок — как в книге.
 У каждого раздела непустой `reference` (таблицы, заметки, типичные ошибки из GB/VB).
 
 Задания:

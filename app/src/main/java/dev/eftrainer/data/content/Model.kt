@@ -117,7 +117,7 @@ data class Bubbles(
     val second: String,
 )
 
-enum class SectionKind { GRAMMAR, VOCABULARY, PRONUNCIATION, SKILLS, PRACTICAL_ENGLISH }
+enum class SectionKind { GRAMMAR, VOCABULARY, PRONUNCIATION, SKILLS, PRACTICAL_ENGLISH, REVIEW }
 
 data class Section(
     val id: String,

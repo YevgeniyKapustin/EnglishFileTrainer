@@ -8,6 +8,7 @@ import dev.eftrainer.data.content.Chapters
 import dev.eftrainer.data.content.Talk
 import dev.eftrainer.domain.ai.ChatLine
 import dev.eftrainer.domain.ai.ExplainPrompt
+import dev.eftrainer.domain.ai.RuleScope
 import dev.eftrainer.domain.ai.TalkPrompt
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -85,8 +86,9 @@ class TalkViewModel(
     private fun grade() {
         _state.update { it.copy(status = Status.Grading) }
         viewModelScope.launch {
-            val chapter = Chapters.locate(talk.id).chapter
-            val prompt = TalkPrompt.grading(talk, ExplainPrompt.rules(chapter.sections), _state.value.lines)
+            val loc = Chapters.locate(talk.id)
+            val rules = RuleScope.forChapter(Chapters.all, loc.chapter, loc.section)
+            val prompt = TalkPrompt.grading(talk, ExplainPrompt.rules(rules), _state.value.lines)
             try {
                 val grade =
                     TalkPrompt.parseGrade(client.chat(prompt))

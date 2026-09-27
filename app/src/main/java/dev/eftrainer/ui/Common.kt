@@ -20,6 +20,7 @@ fun SectionKind.label(): String =
             SectionKind.PRONUNCIATION -> R.string.kind_pronunciation
             SectionKind.SKILLS -> R.string.kind_skills
             SectionKind.PRACTICAL_ENGLISH -> R.string.kind_practical_english
+            SectionKind.REVIEW -> R.string.kind_review
         },
     )
 

@@ -130,7 +130,7 @@ data class Chapter(
 
 data class Section(        // раздел урока — плашки G / V / P в учебнике
     val id: String,        // "1A-grammar" — единица открытия (по порядку книги)
-    val kind: SectionKind, // GRAMMAR, VOCABULARY, PRONUNCIATION, PRACTICAL_ENGLISH (Э8.5)
+    val kind: SectionKind, // GRAMMAR, VOCABULARY, PRONUNCIATION, SKILLS, PRACTICAL_ENGLISH, REVIEW
     val title: String,     // "word order in questions"
     val reference: List<Reference>,   // правила из Grammar Bank
     val tasks: List<Task>,

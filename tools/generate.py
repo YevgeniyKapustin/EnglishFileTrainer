@@ -15,7 +15,7 @@ OUT_DIR = ROOT / "app/src/main/java/dev/eftrainer/data/content"
 AUDIO_DIR = ROOT / "app/src/main/assets/audio"
 VIDEO_DIR = ROOT / "app/src/main/assets/video"
 
-KINDS = {"GRAMMAR", "VOCABULARY", "PRONUNCIATION", "SKILLS", "PRACTICAL_ENGLISH"}
+KINDS = {"GRAMMAR", "VOCABULARY", "PRONUNCIATION", "SKILLS", "PRACTICAL_ENGLISH", "REVIEW"}
 ORIGINS = {"WB", "SB", "SB_GRAMMAR_BANK", "GENERATED"}
 SOURCES = {"KEY", "MODEL", "CONFIRMED"}
 AI_CHECKED_TYPES = ("talk", "write")

@@ -1,14 +1,8 @@
 package dev.eftrainer.ui.settings
 
-import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.animation.expandVertically
-import androidx.compose.animation.fadeIn
-import androidx.compose.animation.fadeOut
-import androidx.compose.animation.shrinkVertically
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.interaction.collectIsFocusedAsState
 import androidx.compose.foundation.layout.Arrangement
@@ -27,10 +21,7 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -43,13 +34,10 @@ import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import dev.eftrainer.R
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.Golos
 import dev.eftrainer.core.theme.T
-import dev.eftrainer.core.ui.Icons
-import dev.eftrainer.core.ui.ListRow
 import dev.eftrainer.core.ui.linkClickable
 import dev.eftrainer.data.ai.AiException
 import dev.eftrainer.data.ai.Provider
@@ -64,20 +52,15 @@ internal fun AiKey(
     onEdit: (String) -> Unit,
     onRemove: () -> Unit,
 ) {
-    var open by rememberSaveable { mutableStateOf(false) }
-
-    AiKeyRow(key) { open = !open }
-    AnimatedVisibility(open, enter = expandVertically() + fadeIn(), exit = shrinkVertically() + fadeOut()) {
-        val typed = input.trim()
-        val hit = detectProvider(typed)
-        Column(Modifier.padding(top = 4.dp, bottom = 16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-            KeyField(input, onEdit)
-            KeyHint(typed, hit)
-            ProviderList(hit)
-            Text(stringResource(R.string.ai_key_local), style = T.label)
-            KeyStatus(checking, error)
-            if (key != null) RemoveKeyLink(onRemove)
-        }
+    val typed = input.trim()
+    val hit = detectProvider(typed)
+    Column(Modifier.padding(top = 4.dp, bottom = 8.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        KeyField(input, onEdit)
+        KeyHint(typed, hit)
+        ProviderList(hit)
+        Text(stringResource(R.string.ai_key_local), style = T.label)
+        KeyStatus(checking, error)
+        if (key != null) RemoveKeyLink(onRemove)
     }
 }
 
@@ -93,33 +76,12 @@ private fun KeyStatus(
 }
 
 @Composable
-private fun AiKeyRow(
-    key: String?,
-    onClick: () -> Unit,
-) {
-    val saved = detectProvider(key)
-    ListRow(onClick = onClick, divider = false) {
-        Box(
-            Modifier
-                .size(
-                    34.dp,
-                ).clip(RoundedCornerShape(9.dp))
-                .background(C.Field)
-                .border(1.dp, C.Line, RoundedCornerShape(9.dp)),
-            contentAlignment = Alignment.Center,
-        ) {
-            if (saved != null) ProviderLogo(saved, 20) else Icon(Icons.Key, null, Modifier.size(20.dp), tint = C.Ink)
-        }
-        Column(Modifier.weight(1f)) {
-            Text(stringResource(R.string.ai_key), style = T.row)
-            Text(
-                key?.let { stringResource(R.string.ai_key_state, saved?.title ?: "API", it.takeLast(4)) }
-                    ?: stringResource(R.string.ai_key_not_set),
-                style = T.rowSub,
-            )
-        }
-        Icon(Icons.ChevronRight, null, Modifier.size(20.dp), tint = C.Chevron)
-    }
+internal fun AiKeySummary(key: String?) {
+    Text(
+        key?.let { stringResource(R.string.ai_key_state, detectProvider(it)?.title ?: "API", it.takeLast(4)) }
+            ?: stringResource(R.string.ai_key_not_set),
+        style = T.rowSub,
+    )
 }
 
 @Composable

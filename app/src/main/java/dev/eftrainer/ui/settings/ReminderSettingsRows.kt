@@ -26,6 +26,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import dev.eftrainer.R
 import dev.eftrainer.core.theme.C
+import dev.eftrainer.core.theme.EF
 import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.ui.Icons
 import dev.eftrainer.core.ui.ListRow
@@ -42,7 +43,7 @@ internal fun ReminderFold(
     onToggle: (Boolean) -> Unit,
     onTime: (LocalTime) -> Unit,
 ) {
-    SettingsFold(stringResource(R.string.reminder), summary = { ReminderSwitch(on, onToggle) }) {
+    SettingsFold(stringResource(R.string.reminder), EF.Teal to Icons.Bell, summary = { ReminderSwitch(on, onToggle) }) {
         ReminderTimeRow(on, time, onTime)
     }
 }

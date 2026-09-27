@@ -46,6 +46,9 @@ import dev.eftrainer.core.ui.ListRow
 import dev.eftrainer.data.settings.SpeechRate
 import dev.eftrainer.data.settings.VoiceSettings
 import dev.eftrainer.ui.appContainer
+import dev.eftrainer.ui.exercise.inputs.SpeakerIcon
+
+private val AiTileColor = Color(0xFF7A5BC7)
 
 @Composable
 fun SettingsScreen(
@@ -72,7 +75,7 @@ fun SettingsScreen(
             VoiceFold(vm.voice, onVoice)
             SoundsFold(sounds, soundVolume, vm::setSounds, vm::setSoundVolume, vm::sampleSound)
             ReminderFold(reminder, reminderTime, vm::setReminder, vm::setReminderTime)
-            SettingsFold(stringResource(R.string.ai_explanations)) {
+            SettingsFold(stringResource(R.string.ai_key), AiTileColor to Icons.Key, summary = { AiKeySummary(key) }) {
                 AiKey(
                     key = key,
                     input = vm.keyInput,
@@ -111,7 +114,9 @@ private fun VoiceFold(
     onVoice: () -> Unit,
 ) {
     val on by voice.readAloud.collectAsStateWithLifecycle()
-    SettingsFold(stringResource(R.string.voice), summary = { AppSwitch(on, voice::setReadAloud) }) {
+    SettingsFold(stringResource(R.string.voice), EF.File2 to SpeakerIcon, summary = {
+        AppSwitch(on, voice::setReadAloud)
+    }) {
         val tts = rememberTextToSpeech()
         VoiceTuning(voice)
         VoicePickerRow(voice, tts, onVoice)

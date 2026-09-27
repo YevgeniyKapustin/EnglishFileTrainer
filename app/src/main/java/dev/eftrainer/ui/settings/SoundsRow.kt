@@ -10,7 +10,9 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import dev.eftrainer.R
 import dev.eftrainer.core.theme.C
+import dev.eftrainer.core.theme.EF
 import dev.eftrainer.core.theme.T
+import dev.eftrainer.core.ui.Icons
 import dev.eftrainer.core.ui.ListRow
 
 @Composable
@@ -46,7 +48,7 @@ internal fun SoundsFold(
     onVolume: (Float) -> Unit,
     onSettle: () -> Unit,
 ) {
-    SettingsFold(stringResource(R.string.sounds), summary = { AppSwitch(on, onToggle) }) {
+    SettingsFold(stringResource(R.string.sounds), EF.Navy to Icons.Note, summary = { AppSwitch(on, onToggle) }) {
         VolumeRow(volume, onVolume, divider = false, onSettle = onSettle)
     }
 }

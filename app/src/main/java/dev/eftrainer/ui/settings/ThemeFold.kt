@@ -27,6 +27,7 @@ internal fun ThemeFold(
     val current = ThemeOptions.first { it.first == mode }
     SettingsFold(
         stringResource(R.string.theme),
+        current.third,
         summary = { Text(stringResource(current.second), style = T.rowSub) },
     ) { close ->
         val others = ThemeOptions - current

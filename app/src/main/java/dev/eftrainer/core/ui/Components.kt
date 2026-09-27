@@ -21,6 +21,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.drawBehind
+import androidx.compose.ui.geometry.CornerRadius
+import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.TextStyle
@@ -82,6 +85,21 @@ fun ProgressBar(
                 .background(C.Accent),
         )
     }
+}
+
+@Composable
+fun ProgressBar(
+    fraction: () -> Float,
+    modifier: Modifier = Modifier,
+) {
+    Box(
+        modifier.height(6.dp).clip(RoundedCornerShape(3.dp)).background(C.Line).drawBehind {
+            val filled = size.width * fraction().coerceIn(0f, 1f)
+            if (filled > 0f) {
+                drawRoundRect(C.Accent, size = Size(filled, size.height), cornerRadius = CornerRadius(size.height / 2))
+            }
+        },
+    )
 }
 
 @Composable

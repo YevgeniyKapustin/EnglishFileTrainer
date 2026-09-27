@@ -60,8 +60,7 @@ fun SortInput(
                         else -> C.Line
                     }
                 SortColumn(
-                    title = title,
-                    word = word.takeIf { i == pick || (checked && i == exercise.answer) },
+                    title = columnLabel(title),
                     border = border,
                     enabled = !checked,
                     onClick = {
@@ -78,38 +77,37 @@ fun SortInput(
 @Composable
 private fun SortColumn(
     title: String,
-    word: AnnotatedString?,
     border: Color,
     enabled: Boolean,
     onClick: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
-    Column(
+    val sound = title.startsWith("/")
+    Box(
         modifier
+            .height(96.dp)
             .clip(ColumnShape)
             .background(C.Field)
-            .border(if (border == C.Line) 1.dp else 1.5.dp, border, ColumnShape)
-            .clickable(enabled = enabled, onClick = onClick),
+            .border(if (border == C.Line) 1.dp else 2.dp, border, ColumnShape)
+            .clickable(enabled = enabled, onClick = onClick)
+            .padding(8.dp),
+        contentAlignment = Alignment.Center,
     ) {
         Text(
             title,
-            style = T.label.copy(fontSize = 14.sp, fontWeight = FontWeight.SemiBold, color = C.Ink),
-            textAlign = TextAlign.Center,
-            modifier = Modifier.fillMaxWidth().padding(horizontal = 6.dp, vertical = 10.dp),
+            style =
+                if (sound) {
+                    T.rowEn.copy(fontSize = 30.sp, lineHeight = 36.sp)
+                } else {
+                    T.rowEn.copy(fontSize = 16.sp, lineHeight = 21.sp)
+                }.copy(color = border.takeUnless { it == C.Line } ?: C.Ink, textAlign = TextAlign.Center),
         )
-        Box(
-            Modifier.fillMaxWidth().height(72.dp).background(C.Line.copy(alpha = 0.35f)),
-            contentAlignment = Alignment.Center,
-        ) {
-            word?.let {
-                Text(
-                    it,
-                    style = T.rowEn.copy(fontSize = 18.sp, color = border.takeUnless { c -> c == C.Line } ?: C.Ink),
-                )
-            }
-        }
     }
 }
+
+private val Sound = Regex("""/[^/]+/""")
+
+private fun columnLabel(title: String): String = Sound.find(title)?.value ?: title.replace(Regex("""^\d+\s+"""), "")
 
 private fun markedWord(word: String): AnnotatedString =
     buildAnnotatedString {

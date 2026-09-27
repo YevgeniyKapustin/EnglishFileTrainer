@@ -115,6 +115,7 @@ dependencies {
     ksp(libs.room.compiler)
     implementation(libs.media3.exoplayer)
     implementation(libs.media3.ui.compose)
+    implementation(libs.work.runtime)
 
     testImplementation(libs.junit)
 

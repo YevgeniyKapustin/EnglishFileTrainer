@@ -17,6 +17,14 @@
         <item quantity="one">%1$d exercise from earlier chapters</item>
         <item quantity="other">%1$d exercises from earlier chapters</item>
     </plurals>
+    <string name="reminder">Daily reminder</string>
+    <string name="reminder_time">Time</string>
+    <string name="reminder_continue">Keep going with %1$s: %2$s</string>
+    <plurals name="reminder_review">
+        <item quantity="one">%1$d exercise to review today</item>
+        <item quantity="other">%1$d exercises to review today</item>
+    </plurals>
+    <string name="ok">OK</string>
     <string name="nothing_to_review">Nothing to review today</string>
     <string name="book_finished">You have finished the book</string>
     <string name="percent">%1$d%%</string>

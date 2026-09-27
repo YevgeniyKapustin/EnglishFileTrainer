@@ -1,6 +1,8 @@
 package dev.eftrainer
 
+import android.Manifest
 import android.graphics.Color
+import android.os.Build
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.SystemBarStyle
@@ -20,13 +22,21 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import dev.eftrainer.core.theme.AppTheme
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.data.settings.ThemeMode
+import dev.eftrainer.reminder.Reminders
 import dev.eftrainer.ui.AppNavigation
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        val theme = (application as App).container.theme
+        val container = (application as App).container
+        val theme = container.theme
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
+            container.reminder.enabled.value &&
+            !Reminders.canPost(this)
+        ) {
+            requestPermissions(arrayOf(Manifest.permission.POST_NOTIFICATIONS), 0)
+        }
         setContent {
             val mode by theme.mode.collectAsStateWithLifecycle()
             val dark = mode == ThemeMode.DARK || (mode == ThemeMode.SYSTEM && isSystemInDarkTheme())

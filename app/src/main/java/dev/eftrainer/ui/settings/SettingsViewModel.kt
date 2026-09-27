@@ -9,6 +9,7 @@ import dev.eftrainer.AppContainer
 import dev.eftrainer.data.ai.AiException
 import dev.eftrainer.data.settings.ThemeMode
 import kotlinx.coroutines.launch
+import java.time.LocalTime
 
 class SettingsViewModel(
     private val container: AppContainer,
@@ -16,6 +17,8 @@ class SettingsViewModel(
     val theme = container.theme.mode
     val key = container.ai.key
     val voice = container.voice
+    val reminder = container.reminder.enabled
+    val reminderTime = container.reminder.time
 
     var checking by mutableStateOf(false)
         private set
@@ -23,6 +26,16 @@ class SettingsViewModel(
     var error by mutableStateOf<AiException.Reason?>(null)
 
     fun setTheme(mode: ThemeMode) = container.theme.set(mode)
+
+    fun setReminder(on: Boolean) {
+        container.reminder.setEnabled(on)
+        container.reschedule()
+    }
+
+    fun setReminderTime(time: LocalTime) {
+        container.reminder.setTime(time)
+        container.reschedule()
+    }
 
     fun save(
         value: String,

@@ -61,6 +61,8 @@ fun SettingsScreen(
 ) {
     val mode by vm.theme.collectAsStateWithLifecycle()
     val key by vm.key.collectAsStateWithLifecycle()
+    val reminder by vm.reminder.collectAsStateWithLifecycle()
+    val reminderTime by vm.reminderTime.collectAsStateWithLifecycle()
     Column(modifier.fillMaxSize()) {
         BackLink(stringResource(R.string.back), onBack)
         Text(
@@ -73,6 +75,13 @@ fun SettingsScreen(
             ThemeOptions(mode, onSelect = vm::setTheme)
             SectionLabel(stringResource(R.string.voice))
             Voice(vm.voice, onVoice)
+            SectionLabel(stringResource(R.string.reminder))
+            ReminderRows(
+                on = reminder,
+                time = reminderTime,
+                onToggle = vm::setReminder,
+                onTime = vm::setReminderTime,
+            )
             SectionLabel(stringResource(R.string.ai_explanations))
             AiKey(
                 key = key,
@@ -148,19 +157,27 @@ private fun ReadAloudRow(
     ListRow(onClick = { onChange(!on) }, divider = divider) {
         Tile(EF.File2, SpeakerIcon)
         Text(stringResource(R.string.voice_read_aloud), style = T.row, modifier = Modifier.weight(1f))
-        Switch(
-            checked = on,
-            onCheckedChange = onChange,
-            colors =
-                SwitchDefaults.colors(
-                    checkedThumbColor = C.OnAccent,
-                    checkedTrackColor = C.Accent,
-                    uncheckedThumbColor = C.Off,
-                    uncheckedTrackColor = C.Field,
-                    uncheckedBorderColor = C.FieldBorder,
-                ),
-        )
+        AppSwitch(on, onChange)
     }
+}
+
+@Composable
+internal fun AppSwitch(
+    on: Boolean,
+    onChange: (Boolean) -> Unit,
+) {
+    Switch(
+        checked = on,
+        onCheckedChange = onChange,
+        colors =
+            SwitchDefaults.colors(
+                checkedThumbColor = C.OnAccent,
+                checkedTrackColor = C.Accent,
+                uncheckedThumbColor = C.Off,
+                uncheckedTrackColor = C.Field,
+                uncheckedBorderColor = C.FieldBorder,
+            ),
+    )
 }
 
 @Composable

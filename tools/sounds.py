@@ -12,7 +12,7 @@ RAW = ROOT / "app/src/main/res/raw"
 RATE = 44100
 MAIN_PEAK_DBFS = -14.0
 TICK_PEAK_DBFS = -28.0
-FAN_PEAK_DBFS = -20.0
+FAN_PEAK_DBFS = -27.0
 BUMP_PEAK_DBFS = -16.0
 NOISE_SEED = 7
 FADE_OUT_SECONDS = 0.02
@@ -135,9 +135,7 @@ def fan() -> Wave:
     t = timeline(seconds)
     swell = np.sin(np.pi * np.clip(t / seconds, 0.0, 1.0)) ** 1.5
     whoosh = swept_noise(seconds, 500.0, 4500.0) * swell
-    chime = [Note(0.12 + i * 0.07, f, 0.12, 0.5) for i, f in enumerate([1318.5, 1760.0, 2349.3])]
-    shimmer = render(chime, seconds, -6.0)
-    return normalized(peaked(whoosh) + 0.35 * peaked(shimmer), FAN_PEAK_DBFS)
+    return normalized(whoosh, FAN_PEAK_DBFS)
 
 
 def bump() -> Wave:

@@ -78,9 +78,15 @@ private fun Density.fitLine(
         .takeWhile { it >= narrowest }
         .firstOrNull { width ->
             val layout = measurer.measure(text, style, constraints = Constraints(maxWidth = width.roundToPx()))
-            holds(layout, size)
+            layout.keepsWordsWhole(text) && holds(layout, size)
         }?.let { width -> SpeechBubbleFit(size, width, style) }
 }
+
+private fun TextLayoutResult.keepsWordsWhole(text: String): Boolean =
+    (0 until lineCount - 1).all { line ->
+        val end = getLineEnd(line)
+        text[end - 1].isWhitespace() || text.getOrNull(end)?.isWhitespace() == true
+    }
 
 private fun Density.holds(
     layout: TextLayoutResult,

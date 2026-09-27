@@ -37,11 +37,6 @@ object TrainingQueue {
             .filter { it in section.exercises || (ai && it in section.aiExercises) }
             .filter { it.id !in progress && it.id !in skipped }
 
-    fun again(
-        section: Section,
-        ai: Boolean = false,
-    ): List<Exercise> = firstPass(section, emptyMap(), ai)
-
     fun task(
         section: Section,
         taskId: String,

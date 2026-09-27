@@ -26,7 +26,6 @@ class ChapterCompletionTest {
         val two = listOf(progress("x-1"), progress("x-2")).byId()
         assertFalse(ChapterCompletion.isComplete(big, two))
         assertTrue(ChapterCompletion.isComplete(big, two, skipped = setOf("x-3")))
-        assertTrue(ChapterCompletion.firstPassDone(big.sections.single(), two, skipped = setOf("x-3")))
         assertTrue(ChapterCompletion.isComplete(big, (1..3).map { progress("x-$it") }.byId(), setOf("x-3")))
     }
 

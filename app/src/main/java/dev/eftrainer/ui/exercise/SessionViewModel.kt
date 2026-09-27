@@ -95,8 +95,7 @@ sealed interface SessionUi {
 
 class SessionViewModel(
     private val container: AppContainer,
-    private val sectionId: String?,
-    private val again: Boolean = false,
+    private val sectionId: String? = null,
     private val taskId: String? = null,
 ) : ViewModel() {
     private val _state = MutableStateFlow<SessionUi>(SessionUi.Loading)
@@ -127,23 +126,17 @@ class SessionViewModel(
     private fun start(inputs: DayInputs) {
         val progress = inputs.review.progress
         val ai = inputs.review.ai
-        val day = if (sectionId == null) container.day.plan(inputs) else null
+        val picked = if (sectionId != null && taskId != null) Chapters.section(sectionId) to taskId else null
+        val day = if (picked == null) container.day.plan(inputs) else null
         reviewing = day?.step == DayStep.Review
         if (reviewing) acceptFresh()
         if (ai) container.generation.refillInBackground()
         val exercises =
-            when {
-                sectionId == null -> day?.exercises.orEmpty()
-                taskId != null -> TrainingQueue.task(Chapters.section(sectionId), taskId, ai)
-                again -> TrainingQueue.again(Chapters.section(sectionId), ai)
-                else -> TrainingQueue.firstPass(Chapters.section(sectionId), progress, ai, inputs.day.skipped)
-            }
+            picked?.let { (section, task) -> TrainingQueue.task(section, task, ai) } ?: day?.exercises.orEmpty()
         chapter =
-            if (sectionId == null) {
-                day?.step?.chapter ?: ChapterCompletion.current(Chapters.all, inputs.review.completed)
-            } else {
-                Chapters.chapterOfSection(sectionId)
-            }
+            picked?.let { (section, _) -> Chapters.chapterOfSection(section.id) }
+                ?: day?.step?.chapter
+                ?: ChapterCompletion.current(Chapters.all, inputs.review.completed)
         before = chapter?.let { Mastery.share(it.exercises, progress) }?.toPercent() ?: 0
 
         tally = SessionTally(exercises)

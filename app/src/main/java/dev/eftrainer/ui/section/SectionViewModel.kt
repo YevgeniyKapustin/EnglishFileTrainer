@@ -10,7 +10,6 @@ import dev.eftrainer.data.content.Section
 import dev.eftrainer.data.content.Task
 import dev.eftrainer.data.content.exercises
 import dev.eftrainer.data.db.entities.Progress
-import dev.eftrainer.domain.learning.ChapterCompletion
 import dev.eftrainer.domain.learning.Mastery
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -27,8 +26,6 @@ data class SectionUi(
     val section: Section,
     val chapterId: String,
     val tasks: List<TaskRow>,
-    val started: Boolean,
-    val firstPassDone: Boolean,
     val aiOn: Boolean,
 )
 
@@ -43,18 +40,16 @@ class SectionViewModel(
         combine(
             container.progress.progress,
             aiAvailable(container.ai, container.connectivity),
-            container.skips.skipped,
             ::build,
         ).stateIn(
             viewModelScope,
             SharingStarted.WhileSubscribed(KEEP_ALIVE_MS),
-            container.day.latest?.let { build(it.review.progress, it.review.ai, it.day.skipped) },
+            container.day.latest?.let { build(it.review.progress, it.review.ai) },
         )
 
     private fun build(
         progress: Map<String, Progress>,
         aiOn: Boolean,
-        skipped: Set<String>,
     ) = SectionUi(
         section = section,
         chapterId = chapterId,
@@ -62,8 +57,6 @@ class SectionViewModel(
             section.tasks.filter { it.origin != Origin.GENERATED }.map { t ->
                 TaskRow(t, t.exercises.count { Mastery.isMastered(progress[it.id]) }, t.exercises.size)
             },
-        started = section.exercises.any { it.id in progress },
-        firstPassDone = ChapterCompletion.firstPassDone(section, progress, skipped),
         aiOn = aiOn,
     )
 

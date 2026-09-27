@@ -17,12 +17,6 @@ object ChapterCompletion {
         completed: Set<String>,
     ): Chapter? = chapters.firstOrNull { it.id !in completed }
 
-    fun firstPassDone(
-        section: Section,
-        progress: Map<String, Progress>,
-        skipped: Set<String> = emptySet(),
-    ): Boolean = section.exercises.all { it.id in progress || it.id in skipped }
-
     fun openSections(chapter: Chapter): List<Section> = chapter.sections
 
     fun activeSections(

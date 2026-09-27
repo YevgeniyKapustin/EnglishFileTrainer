@@ -51,11 +51,6 @@ class TrainingQueueTest {
         assertEquals(emptyList<Any>(), TrainingQueue.task(mixed, "missing"))
     }
 
-    @Test fun `again is the whole section in book order`() {
-        val s = section("g", 3)
-        assertEquals(listOf("g-1", "g-2", "g-3"), TrainingQueue.again(s).map { it.id })
-    }
-
     @Test fun `due from passed chapters come first, most overdue first, max 10`() {
         val progress = (1..15).map { mastered("a-$it", dueOn = TODAY.minusDays(it.toLong())) }.byId()
         val plan = review(progress)
@@ -172,7 +167,6 @@ class TrainingQueueTest {
     @Test fun `presets not in first pass, not in mastery share, hidden until book mastered`() {
         val g = withPresets[1].sections[0]
         assertEquals(30, TrainingQueue.firstPass(g, emptyMap()).size)
-        assertTrue(ChapterCompletion.firstPassDone(g, allMastered.byId()))
         assertEquals(1.0, Mastery.share(withPresets[1].exercises, allMastered.byId()), 1e-9)
         val ids = TrainingQueue.review(withPresets, setOf("1A"), emptyMap(), TODAY).all.map { it.id }
         assertTrue(ids.none { "-x1-" in it })

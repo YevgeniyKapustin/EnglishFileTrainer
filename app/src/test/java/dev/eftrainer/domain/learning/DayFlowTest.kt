@@ -87,7 +87,6 @@ class DayFlowTest {
             listOf("a-3"),
             TrainingQueue.firstPass(first.sections.single(), progress, skipped = skipped).map { it.id },
         )
-        assertEquals(3, TrainingQueue.again(first.sections.single()).size)
         assertTrue("a-2" in DayFlow.practiceQueue(first, progress).map { it.id })
     }
 

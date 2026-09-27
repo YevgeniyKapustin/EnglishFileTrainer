@@ -68,11 +68,7 @@
     <string name="rules">Rules</string>
     <string name="extra_practice">Extra practice</string>
     <string name="n_of_m">%1$d / %2$d</string>
-    <string name="start_section">Start section</string>
-    <string name="continue_section">Continue section</string>
-    <string name="practise_again">Practise again</string>
     <string name="back">Back</string>
-    <string name="go_to_tasks">Go to tasks</string>
 
     <string name="close">Close</string>
     <string name="check">Check</string>

@@ -56,12 +56,10 @@ import kotlinx.serialization.Serializable
 
 @Serializable data class RulesRoute(
     val sectionId: String,
-    val startTasks: Boolean,
 )
 
 @Serializable data class SessionRoute(
     val sectionId: String? = null,
-    val again: Boolean = false,
     val taskId: String? = null,
 )
 
@@ -158,27 +156,18 @@ fun AppNavigation(
             SectionScreen(
                 sectionId = id,
                 onBack = screen::back,
-                onRules = { start -> screen.open(RulesRoute(id, start)) },
-                onStart = { screen.open(SessionRoute(id)) },
-                onAgain = { screen.open(SessionRoute(id, again = true)) },
+                onRules = { screen.open(RulesRoute(id)) },
                 onTask = { taskId -> screen.open(SessionRoute(id, taskId = taskId)) },
             )
         }
         screen<RulesRoute>(nav) { screen ->
-            val route = screen.entry.toRoute<RulesRoute>()
-            RulesScreen(
-                sectionId = route.sectionId,
-                startTasks = route.startTasks,
-                onBack = screen::back,
-                onStart = { screen.open(SessionRoute(route.sectionId)) },
-            )
+            RulesScreen(sectionId = screen.entry.toRoute<RulesRoute>().sectionId, onBack = screen::back)
         }
         screen<SessionRoute>(nav) { screen ->
             val route = screen.entry.toRoute<SessionRoute>()
             SessionScreen(
                 route.sectionId,
-                onClose = { if (route.again || route.taskId != null) screen.back() else screen.home() },
-                again = route.again,
+                onClose = { if (route.taskId != null) screen.back() else screen.home() },
                 taskId = route.taskId,
             )
         }

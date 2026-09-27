@@ -31,12 +31,10 @@ import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.EF
 import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.ui.BackLink
-import dev.eftrainer.core.ui.BottomBar
 import dev.eftrainer.core.ui.KindHeader
 import dev.eftrainer.core.ui.NotePanel
 import dev.eftrainer.core.ui.Panel
 import dev.eftrainer.core.ui.PanelHeader
-import dev.eftrainer.core.ui.PrimaryButton
 import dev.eftrainer.data.content.Chapters
 import dev.eftrainer.data.content.Reference
 import dev.eftrainer.data.content.Section
@@ -52,9 +50,7 @@ import dev.eftrainer.ui.label
 @Composable
 fun RulesScreen(
     sectionId: String,
-    startTasks: Boolean,
     onBack: () -> Unit,
-    onStart: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
     val section = Chapters.section(sectionId)
@@ -73,10 +69,6 @@ fun RulesScreen(
                     RulesTitle(section, Chapters.chapterOfSection(sectionId).id)
                     blocks.forEach { ReferenceBlock(it, tts) }
                 }
-            }
-
-            if (startTasks) {
-                BottomBar { PrimaryButton(stringResource(R.string.go_to_tasks), onClick = onStart) }
             }
         }
     }

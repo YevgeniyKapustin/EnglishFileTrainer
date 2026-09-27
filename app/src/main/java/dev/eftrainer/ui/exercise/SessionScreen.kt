@@ -79,9 +79,8 @@ import dev.eftrainer.ui.explain.explainContext
 fun SessionScreen(
     sectionId: String?,
     onClose: () -> Unit,
-    again: Boolean = false,
     taskId: String? = null,
-    vm: SessionViewModel = sessionViewModel(sectionId, again, taskId),
+    vm: SessionViewModel = sessionViewModel(sectionId, taskId),
 ) {
     val ui by vm.state.collectAsStateWithLifecycle()
     val currentOnClose by rememberUpdatedState(onClose)
@@ -130,11 +129,10 @@ fun SessionScreen(
 @Composable
 private fun sessionViewModel(
     sectionId: String?,
-    again: Boolean,
     taskId: String?,
 ): SessionViewModel =
     appContainer().let { container ->
-        viewModel(key = "session-$sectionId-$again-$taskId") { SessionViewModel(container, sectionId, again, taskId) }
+        viewModel(key = "session-$sectionId-$taskId") { SessionViewModel(container, sectionId, taskId) }
     }
 
 private fun fieldCount(exercise: Exercise): Int =

@@ -25,11 +25,9 @@ import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.EF
 import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.ui.BackLink
-import dev.eftrainer.core.ui.BottomBar
 import dev.eftrainer.core.ui.Icons
 import dev.eftrainer.core.ui.KindHeader
 import dev.eftrainer.core.ui.ListRow
-import dev.eftrainer.core.ui.PrimaryButton
 import dev.eftrainer.data.content.Origin
 import dev.eftrainer.data.content.Talk
 import dev.eftrainer.data.content.Task
@@ -42,33 +40,21 @@ import dev.eftrainer.ui.label
 fun SectionScreen(
     sectionId: String,
     onBack: () -> Unit,
-    onRules: (startTasks: Boolean) -> Unit,
-    onStart: () -> Unit,
-    onAgain: () -> Unit,
+    onRules: () -> Unit,
     onTask: (taskId: String) -> Unit,
     modifier: Modifier = Modifier,
     vm: SectionViewModel = sectionViewModel(sectionId),
 ) {
     val ui by vm.state.collectAsStateWithLifecycle()
     val state = ui ?: return
-    val hasRules = state.section.reference.isNotEmpty()
 
     Column(modifier.fillMaxSize()) {
         BackLink(state.chapterId, onBack)
 
         Column(Modifier.weight(1f).verticalScroll(rememberScrollState()).padding(horizontal = 24.dp)) {
             SectionTitle(state)
-            if (hasRules) RulesRow(onClick = { onRules(!state.firstPassDone) })
+            if (state.section.reference.isNotEmpty()) RulesRow(onClick = onRules)
             SectionTasks(state, onTask)
-        }
-
-        if (state.firstPassDone) {
-            BottomBar { PrimaryButton(stringResource(R.string.practise_again), onClick = onAgain) }
-        } else {
-            StartBar(
-                started = state.started,
-                onClick = { if (hasRules && !state.started) onRules(true) else onStart() },
-            )
         }
     }
 }
@@ -83,19 +69,6 @@ private fun SectionTasks(
             if (state.tasks.startsOriginGroup(i)) OriginHeader(row.task.origin, state.chapterId)
             TaskItem(row, aiOn = state.aiOn, divider = !state.tasks.endsOriginGroup(i), onTask = onTask)
         }
-    }
-}
-
-@Composable
-private fun StartBar(
-    started: Boolean,
-    onClick: () -> Unit,
-) {
-    BottomBar {
-        PrimaryButton(
-            stringResource(if (started) R.string.continue_section else R.string.start_section),
-            onClick = onClick,
-        )
     }
 }
 

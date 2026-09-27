@@ -79,7 +79,27 @@ html.dark .listen,html.dark .link{color:var(--ef-sky)}
 .sheet .fix s{color:var(--bad)}
 .sheet .fix em{font-style:normal;color:var(--ok)}
 .sayi{display:flex;align-items:center;justify-content:center;width:36px;height:36px;color:var(--muted);flex-shrink:0}
-.lines{display:flex;flex-direction:column;gap:6px}
+.msg{display:flex;flex-direction:column;gap:3px;align-items:flex-start}
+.msg.me{align-items:flex-end}
+.who{font:700 12px 'Golos Text',sans-serif;letter-spacing:.06em;color:var(--ef-teal);padding:0 6px}
+html.dark .who{color:var(--ef-sky)}
+.bub2.q{display:block;font-size:19px;line-height:34px;padding:8px 14px}
+.bub2.q .gap{font-size:19px;height:30px}
+.bub2.q .hint{font-size:15px}
+.noun{font:600 30px/1.2 'Literata',Georgia,serif}
+.order{display:flex;flex-direction:column;gap:6px}
+.orow{display:flex;align-items:center;gap:10px;min-height:44px;padding:6px 8px 6px 12px;background:var(--field);border:1px solid var(--line);border-radius:12px;font:400 16px/21px 'Literata',Georgia,serif}
+.orow b{font:700 14px 'Golos Text',sans-serif;color:var(--muted);width:12px}
+.orow .grip{color:var(--chev);flex-shrink:0}
+.orow.lift{border-color:var(--ef-teal);box-shadow:0 6px 18px rgba(0,0,0,.14);transform:translateX(4px) rotate(-.6deg)}
+.screen16.small{aspect-ratio:auto;height:120px}
+.skip{color:var(--muted)}
+.verb{background:var(--ef-panel);border-radius:16px;padding:20px 16px 18px;display:flex;flex-direction:column;gap:16px;margin-top:8px}
+.vbase{font:600 44px/1 'Literata',Georgia,serif}
+.vgrid{display:grid;grid-template-columns:1fr 1fr;gap:6px 10px}
+.vl{font:700 12px 'Golos Text',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--ef-teal)}
+html.dark .vl{color:var(--ef-sky)}
+.vgrid .field{min-height:52px;padding:11px 14px}
 </style></head>
 <body>
 <div class="intro">
@@ -94,6 +114,7 @@ const I = {
   back: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4v5h5M3.6 13.5a8.5 8.5 0 1 0 2-7.5L3 9"/></svg>',
   speaker: s => `<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5L6 9H3v6h3l5 4zM15.5 9a4 4 0 0 1 0 6M18.5 6a8 8 0 0 1 0 12"/></svg>`,
   mic: (s, c) => `<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zM18.5 11a6.5 6.5 0 0 1-13 0M12 17.5V21"/></svg>`,
+  grip: '<svg class="grip" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="9" cy="6" r="1.6"/><circle cx="15" cy="6" r="1.6"/><circle cx="9" cy="12" r="1.6"/><circle cx="15" cy="12" r="1.6"/><circle cx="9" cy="18" r="1.6"/><circle cx="15" cy="18" r="1.6"/></svg>',
   check: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
 };
 
@@ -110,9 +131,13 @@ const audio = (pos, total, pct) =>
   `<div class="audio"><div class="playc">${I.play('#fff')}</div><div class="seek"><i style="width:${pct}%"></i></div>` +
   `<div class="time">${pos} / ${total}</div><div class="back5">${I.back}<span>5</span></div></div>`;
 const wedges = '<svg class="w" viewBox="0 0 390 220" preserveAspectRatio="none"><path d="M0 220 L180 0 L260 0 Z" fill="#1D4E9E"/><path d="M120 220 L300 0 L390 0 L390 60 Z" fill="#12A3BF"/><path d="M260 220 L390 90 L390 220 Z" fill="#7FCBE0"/></svg>';
-const video = (pos, total, pct) =>
-  `<div class="video"><div class="screen16">${wedges}<div class="playbig">${I.play('#fff').replace(/20/g, '28')}</div></div>` +
+const video = (pos, total, pct, small = false) =>
+  `<div class="video"><div class="screen16 ${small ? 'small' : ''}">${wedges}<div class="playbig">${I.play('#fff').replace(/20/g, '28')}</div></div>` +
   `<div class="vctl"><div class="pb">${I.play('currentColor')}</div><div class="seek"><i style="width:${pct}%"></i></div><div class="time">${pos} / ${total}</div></div></div>`;
+const say = (who, html, right = false) =>
+  `<div class="msg ${right ? 'me' : ''}"><div class="who">${who}</div><div class="bub2 ${right ? 'me' : 'ai'} q en">${html}</div></div>`;
+const order = rows =>
+  `<div class="order">${rows.map(([l, t, c], i) => `<div class="orow ${c || ''}"><b>${i + 1}</b><span class="let">${l}</span><span class="grow">${t}</span>${I.grip}</div>`).join('')}</div>`;
 const check = enabled => `<div class="bottom"><button class="btn" ${enabled ? '' : 'disabled'}>Check</button></div>`;
 const sayIcon = `<span class="sayi">${I.speaker(20)}</span>`;
 const sheetOk = (extra = '') =>
@@ -122,13 +147,13 @@ const sheetBad = answer =>
   `<button class="why">Why?</button><button class="btn">Continue</button></div>`;
 
 const F = [
-  { n: '1', name: 'Пропуск, слово без подсказки', st: 'как есть', tag: 'v', count: '2 / 9', done: 22,
+  { n: '1', name: 'Пропуск, слово без подсказки', st: 'new', tag: 'v', count: '2 / 9', done: 22,
     instr: 'Complete the sentences',
-    body: `<div class="q en">Tanya’s dad doesn’t have any hair. He’s ${gap('bald', 'bald')}. ${hint('(b…)')}</div>`, bottom: check(true) },
+    body: `<div class="q en">Tanya’s dad doesn’t have any hair. He’s ${gap('bald', 'bald')}.</div>`, bottom: check(true) },
 
-  { n: '2', name: 'Пропуск, форма слова из скобок', st: 'как есть', tag: 'g', count: '2 / 6', done: 17,
+  { n: '2', name: 'Пропуск, форма слова из скобок · диалог', st: 'new', tag: 'g', count: '2 / 6', done: 17,
     instr: 'Complete the conversations with the present simple form of the verbs in brackets',
-    body: `<div class="q en">A: ${gap('Does', 'Does')} Louisa ${gap('want', 'wa')} to marry her boyfriend? B: In a few years perhaps. ${hint('(want)')}</div>`, bottom: check(true) },
+    body: `<div class="chat">${say('A', `${gap('Does', 'Does')} Louisa ${gap('want', 'wa')} to marry her boyfriend? ${hint('(want)')}`)}${say('B', 'In a few years perhaps.', true)}</div>`, bottom: check(true) },
 
   { n: '3', name: 'Пропуск, слово из списка', st: 'new', tag: 'v', count: '3 / 8', done: 25,
     instr: 'Complete the definitions with an adjective from the list',
@@ -148,9 +173,9 @@ const F = [
     instr: 'Listen again. Who is it, John or Sebastian? Write the name',
     body: audio('0:08', '1:54', 7) + `<div class="q en">He’s tall, dark, and handsome. ${gap('Sebastian')}</div>`, bottom: check(false) },
 
-  { n: '5', name: 'Лишнее слово / другой звук', st: 'как есть', tag: 'v', count: '1 / 5', done: 0,
+  { n: '5', name: 'Лишнее слово / другой звук', st: 'new', tag: 'v', count: '1 / 5', done: 0,
     instr: 'Which word can’t be used with the noun? Write it',
-    body: `<div class="q en">eyes: blonde, big, blue, brown → ${gap('blonde')}</div>`, bottom: check(false) },
+    body: `<div class="noun en">eyes</div>` + box(['blonde', 'big', 'blue', 'brown']) + field(), bottom: check(false) },
 
   { n: '6', name: 'Анаграмма', st: 'как есть', tag: 'v', count: '1 / 7', done: 0,
     instr: 'Order the letters to make adjectives',
@@ -161,13 +186,13 @@ const F = [
     body: `<div class="q en">you / a / do / have / car</div>` + field('Do you have car?', 'bad'),
     bottom: sheetBad('Do you have a car?') },
 
-  { n: '8', name: 'Вставить слово на место — всегда prefill', st: 'new', tag: 'g', count: '1 / 5', done: 0,
+  { n: '8', name: 'Вставить слово — переписать целиком', st: 'new', tag: 'g', count: '1 / 5', done: 0,
     instr: 'Rewrite the sentences with the words in brackets in the correct place. Use contractions where possible',
-    body: hint('(never)') + field('You are too old to get married.', '', true), bottom: check(true) },
+    body: `<div style="display:flex;flex-direction:column;gap:12px"><div class="q en">You are too old to get married.</div>${hint('(never)')}</div>` + field('You’re never too', '', true), bottom: check(true) },
 
-  { n: '9', name: 'Построить / преобразовать фразу', st: 'как есть', tag: 'g', count: '1 / 10', done: 0,
+  { n: '9', name: 'Построить / преобразовать фразу', st: 'new', tag: 'g', count: '1 / 10', done: 0,
     instr: 'Write sentences or questions with the present simple',
-    body: `<div style="display:flex;flex-direction:column;gap:12px"><div class="q en">Anna / like music</div>${hint('(?)')}</div>` + field(), bottom: check(false) },
+    body: `<div style="display:flex;flex-direction:column;gap:12px"><div class="q en">Anna / like music / ?</div></div>` + field(), bottom: check(false) },
 
   { n: '10', name: 'Исправь ошибки', st: 'как есть', tag: 'g', count: '1 / 5', done: 0,
     instr: 'Correct the questions. If a question is already correct, leave it as it is',
@@ -179,9 +204,11 @@ const F = [
       box(['hobbies and interests', 'personality', 'physical appearance', 'work / study', 'family'], ['work / study', 'family']) +
       `<div class="q en">Paragraph 3: ${gap('physical appearance')}</div>`, bottom: check(false) },
 
-  { n: '12', name: 'Порядок событий / картинок', st: 'unsure', tag: 'pe', count: '1 / 6', done: 0,
+  { n: '12', name: 'Порядок событий — расставить список', st: 'new', tag: 'pe', count: '1 / 6', done: 0,
     instr: 'Watch Jenny. Number the pictures 1–6 in the order she mentions them',
-    body: video('0:00', '1:48', 0) + `<div class="q en">A  Rob in a new shirt: ${gap('5')} ${hint('(1–6)')}</div>`, bottom: check(false) },
+    body: video('1:48', '1:48', 100, true) + order([
+      ['B', 'Jenny at Arrivals with her suitcase'], ['D', 'Jenny shakes hands with the manager'], ['A', 'Rob in a new shirt', 'lift'],
+      ['C', 'Jenny and Rob with coffee'], ['F', 'Jenny and Rob under an umbrella by the river'], ['E', 'Rob next to a yellow taxi']]), bottom: check(true) },
 
   { n: '13', name: 'Диктант', st: 'как есть', tag: 'ls', count: '2 / 6', done: 17,
     instr: 'Listen to extracts from six conversations. Write the letters and numbers you hear',
@@ -197,11 +224,11 @@ const F = [
       `<div class="q en">His job: <input class="gap ok" style="width:210px" value="he has a business"></div>`,
     bottom: sheetOk('<div class="a en" style="margin:0 0 4px">businessman</div>') },
 
-  { n: '16', name: 'Повтори вслух', st: 'как есть', tag: 'v', count: '1 / 6', done: 0,
+  { n: '16', name: 'Повтори вслух — только голосом', st: 'new', tag: 'v', count: '1 / 6', done: 0,
     instr: 'Listen and repeat questions 1–6. Copy the rhythm and intonation',
     body: `<div class="listen">${I.speaker(20)}Listen</div><div class="q en">Where are you from?</div>` +
-      `<div class="speak"><div class="mic">${I.mic(34, '#fff')}</div><div class="hint">Tap and say it</div><div class="link">Type instead</div></div>`,
-    bottom: check(false) },
+      `<div class="speak"><div class="mic">${I.mic(34, '#fff')}</div><div class="hint">Tap and say it</div></div>`,
+    bottom: '<div class="bottom"><button class="btn ghost skip">Skip</button></div>' },
 
   { n: '17', name: 'Разговор, ролевая игра', st: 'ai', tag: 'pe', count: '1 / 1', done: 0,
     instr: 'Role-play: you are a hotel guest. Call reception about two problems with your room',
@@ -222,9 +249,10 @@ const F = [
       `<div class="fix"><s>she don’t know</s> → <em>she doesn’t know</em></div><div class="fix"><s>what he want</s> → <em>what he wants</em></div>` +
       `<button class="btn">Continue</button></div>` },
 
-  { n: '—', name: 'Неправильные глаголы', st: 'как есть', tag: 'g', count: '4 / 20', done: 15,
+  { n: '—', name: 'Неправильные глаголы', st: 'new', tag: 'g', count: '4 / 20', done: 15,
     instr: 'Irregular verbs: write the past simple and past participle',
-    body: `<div class="q en lines"><div>go</div><div>past simple ${gap('went', 'went')}</div><div>past participle ${gap('gone')}</div></div>`, bottom: check(false) },
+    body: `<div class="verb"><div class="vbase en">go</div><div class="vgrid"><div class="vl">Past simple</div><div class="vl">Past participle</div>` +
+      `<div class="field en">went</div><div class="field en"><span class="caret"></span></div></div></div>`, bottom: check(false) },
 ];
 
 const ST = { new: '<span class="new">новое</span>', unsure: '<span class="st">под вопросом</span>', ai: '<span class="st">только ИИ</span>' };

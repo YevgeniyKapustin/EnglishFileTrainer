@@ -189,6 +189,7 @@ private fun QuestionScreen(
     LaunchedEffect(q.attempt) { answer.focus.firstOrNull()?.requestFocus() }
     val tts = rememberVoice()
     LaunchedEffect(e.id, q.attempt) { tts.stop() }
+    VerbVoice(q, tts)
 
     val feedback = q.feedback
     val filled = answer.filled

@@ -3,6 +3,7 @@ package dev.eftrainer.ui.exercise
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dev.eftrainer.AppContainer
+import dev.eftrainer.core.sound.Cue
 import dev.eftrainer.data.ai.AiException
 import dev.eftrainer.data.content.Blank
 import dev.eftrainer.data.content.Chapter
@@ -252,6 +253,7 @@ class SessionViewModel(
                 }
         }
         run.save(tally)
+        container.sounds.play(Cue.forAnswer(result.correct))
         _state.value = q.copy(done = tally.done, feedback = result, usedWords = tally.usedWords(q.task))
     }
 
@@ -327,10 +329,13 @@ class SessionViewModel(
             if (reviewing) container.day.reviewFinished()
             if (done != null) {
                 val next = ChapterCompletion.current(Chapters.all, container.chapters.getCompleted())
+                container.sounds.play(Cue.forFinish(chapterDone = true))
                 _state.value = SessionUi.ChapterDone(done, next)
                 return@launch
             }
             val progress = container.progress.getAll()
+            val streak = Stats.streak(container.answers.days.first(), container.clock.today()).current
+            container.sounds.play(Cue.forFinish(chapterDone = false))
             _state.value =
                 SessionUi.Done(
                     firstTry = tally.firstTry,
@@ -339,7 +344,7 @@ class SessionViewModel(
                     before = before,
                     after = chapter?.let { Mastery.share(it.exercises, progress) }?.toPercent() ?: 0,
                     mistakes = tally.mistakes.map { it.mistakeText() },
-                    streak = Stats.streak(container.answers.days.first(), container.clock.today()).current,
+                    streak = streak,
                 )
         }
     }

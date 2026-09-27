@@ -38,6 +38,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.zIndex
 import dev.eftrainer.R
+import dev.eftrainer.core.sound.Cue
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.ui.AssetImage
@@ -46,6 +47,7 @@ import dev.eftrainer.core.ui.Icons
 import dev.eftrainer.data.content.Order
 import dev.eftrainer.data.content.Picture
 import dev.eftrainer.domain.check.moved
+import dev.eftrainer.ui.appContainer
 
 private val RowHeight = 88.dp
 private val RowGap = 8.dp
@@ -62,7 +64,11 @@ fun OrderInput(
 ) {
     val pictures = remember(exercise.id) { exercise.pictures.associateBy { it.label } }
     val current by rememberUpdatedState(labels)
-    val reorder by rememberUpdatedState(onReorder)
+    val sounds = appContainer().sounds
+    val reorder by rememberUpdatedState<(List<String>) -> Unit>({ order ->
+        onReorder(order)
+        sounds.play(Cue.TICK)
+    })
     val step = with(LocalDensity.current) { (RowHeight + RowGap).toPx() }
     val drag = remember(step) { RowDrag(step) }
 

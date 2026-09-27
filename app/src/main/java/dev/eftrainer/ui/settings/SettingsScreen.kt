@@ -78,6 +78,10 @@ fun SettingsScreen(
         Column(Modifier.weight(1f).verticalScroll(rememberScrollState()).padding(horizontal = 24.dp, vertical = 8.dp)) {
             SettingsFold(stringResource(R.string.theme)) { ThemeOptions(mode, onSelect = vm::setTheme) }
             SettingsFold(stringResource(R.string.voice)) { Voice(vm.voice, onVoice) }
+            SettingsFold(stringResource(R.string.sounds)) {
+                val on by vm.sounds.collectAsStateWithLifecycle()
+                SoundsRow(on, onChange = vm::setSounds)
+            }
             SettingsFold(stringResource(R.string.reminder)) {
                 ReminderRows(
                     on = reminder,

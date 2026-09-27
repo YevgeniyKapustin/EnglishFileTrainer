@@ -2,6 +2,7 @@ package dev.eftrainer
 
 import android.content.Context
 import androidx.work.ExistingWorkPolicy
+import dev.eftrainer.core.sound.UiSounds
 import dev.eftrainer.core.time.Clock
 import dev.eftrainer.core.time.SystemClock
 import dev.eftrainer.data.AnswerLog
@@ -17,6 +18,7 @@ import dev.eftrainer.data.db.AppDatabase
 import dev.eftrainer.data.generated.GeneratedRepository
 import dev.eftrainer.data.settings.DaySettings
 import dev.eftrainer.data.settings.ReminderSettings
+import dev.eftrainer.data.settings.SoundSettings
 import dev.eftrainer.data.settings.TaskRuns
 import dev.eftrainer.data.settings.ThemeSettings
 import dev.eftrainer.data.settings.VoiceSettings
@@ -56,6 +58,8 @@ class AppContainer(
     val day = DaySource(review, Chapters.all, answers, skips, DaySettings(context), clock, appScope)
     val theme = ThemeSettings(context)
     val voice = VoiceSettings(context)
+    val soundSettings = SoundSettings(context)
+    val sounds = UiSounds(context, soundSettings)
     val reminder = ReminderSettings(context)
     val taskRuns = TaskRuns(context)
 

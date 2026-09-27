@@ -20,6 +20,7 @@ class SettingsViewModel(
     val theme = container.theme.mode
     val key = container.ai.key
     val voice = container.voice
+    val sounds = container.soundSettings.enabled
     val reminder = container.reminder.enabled
     val reminderTime = container.reminder.time
 
@@ -38,6 +39,8 @@ class SettingsViewModel(
     private var verifying: Job? = null
 
     fun setTheme(mode: ThemeMode) = container.theme.set(mode)
+
+    fun setSounds(on: Boolean) = container.soundSettings.setEnabled(on)
 
     fun setReminder(on: Boolean) {
         container.reminder.setEnabled(on)

@@ -42,6 +42,7 @@ class MainActivity : ComponentActivity() {
         }
         if (savedInstanceState == null) holdSplashUntilHomeReady()
         val container = (application as App).container
+        container.sounds.open()
         val theme = container.theme
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
             container.reminder.enabled.value &&
@@ -67,6 +68,11 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+    }
+
+    override fun onDestroy() {
+        if (!isChangingConfigurations) (application as App).container.sounds.close()
+        super.onDestroy()
     }
 
     private fun backReleasedAfterKeyboardTookPress(event: KeyEvent): Boolean {

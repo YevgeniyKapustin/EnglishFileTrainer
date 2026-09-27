@@ -302,7 +302,7 @@ private fun StreakChip(
         Icon(
             Icons.Flame,
             stringResource(R.string.stats),
-            Modifier.size(20.dp),
+            Modifier.size(26.dp),
             tint =
                 if (streak >
                     0

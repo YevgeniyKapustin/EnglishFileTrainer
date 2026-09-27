@@ -854,10 +854,10 @@
           "id": "2C-rcl",
           "origin": "SB",
           "instruction": "Can you understand these people? Listen and complete the sentences",
-          "note": "Revise and Check 1&2 «Can you understand these people?» 2.23 (Circle a, b, or c → Blank, варианты в hint); клип — ответ одного человека. Скрипта нет — по расшифровке. 1 — сомнительно: «people say I look like my dad a lot», но волосы и глаза мамины",
+          "note": "Revise and Check 1&2 «Can you understand these people?» 2.23 (Circle a, b, or c → Blank, варианты в hint); клип — ответ одного человека. Скрипта нет — по расшифровке. 1 — «people say I look like my dad a lot», но волосы и глаза мамины: засчитываются оба варианта (a и c)",
           "audio": "2.23",
           "exercises": [
-            {"n": 1, "type": "blank", "text": "Lewis looks like {}.", "gaps": [["his mother and his father"]], "hint": "(his father / his mother / his mother and his father)", "explain": "Same nose and face shape as his dad, but his mum’s hair colour and eyes.", "source": "MODEL", "clip": [3.35, 29.27]},
+            {"n": 1, "type": "blank", "text": "Lewis looks like {}.", "gaps": [["his mother and his father", "his father"]], "hint": "(his father / his mother / his mother and his father)", "explain": "‘People say I look like my dad a lot’, but he has his mum’s hair colour and eyes – both answers work.", "source": "MODEL", "clip": [3.35, 29.27]},
             {"n": 2, "type": "blank", "text": "In the Dali painting that Susie likes there are some dripping {}.", "gaps": [["clocks"]], "hint": "(clocks / rocks / socks)", "source": "CONFIRMED", "clip": [33.45, 57.0]},
             {"n": 3, "type": "blank", "text": "Shosanna went to Guyana because she wanted to learn {}.", "gaps": [["about her family history"]], "hint": "(about the animals and plants there / about her family history / the language)", "explain": "Guyana is her parents’ country: she saw how her parents grew up.", "source": "CONFIRMED", "clip": [60.67, 81.1]},
             {"n": 4, "type": "blank", "text": "Susan doesn’t put photos of {} on Instagram.", "gaps": [["her family"]], "hint": "(gardens / flowers / her family)", "explain": "She takes photos of family, but posts gardens and flowers.", "source": "CONFIRMED", "clip": [84.07, 111.2]},

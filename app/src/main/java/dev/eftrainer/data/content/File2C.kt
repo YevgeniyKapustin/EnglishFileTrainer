@@ -2010,9 +2010,9 @@ val File2C = Chapter(
                         Blank(
                             "2C-rcl-01",
                             text = "Lewis looks like {}.",
-                            gaps = listOf(listOf("his mother and his father")),
+                            gaps = listOf(listOf("his mother and his father", "his father")),
                             hint = "(his father / his mother / his mother and his father)",
-                            explain = "Same nose and face shape as his dad, but his mum’s hair colour and eyes.",
+                            explain = "‘People say I look like my dad a lot’, but he has his mum’s hair colour and eyes – both answers work.",
                             source = AnswerSource.MODEL,
                             clip = Clip(3350, 29270),
                         ),

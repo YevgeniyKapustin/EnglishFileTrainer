@@ -30,6 +30,7 @@ import dev.eftrainer.core.theme.C
 import dev.eftrainer.data.settings.ThemeMode
 import dev.eftrainer.reminder.Notifier
 import dev.eftrainer.ui.AppNavigation
+import dev.eftrainer.ui.current.IntroGate
 
 class MainActivity : ComponentActivity() {
     private var homeReady = false
@@ -40,7 +41,7 @@ class MainActivity : ComponentActivity() {
         ViewCompat.addOnUnhandledKeyEventListener(window.decorView) { _, event ->
             backReleasedAfterKeyboardTookPress(event)
         }
-        if (savedInstanceState == null) holdSplashUntilHomeReady()
+        if (savedInstanceState == null) holdSplashUntilHomeReady() else IntroGate.open.value = true
         val container = (application as App).container
         container.sounds.open()
         val theme = container.theme
@@ -97,7 +98,10 @@ class MainActivity : ComponentActivity() {
                 override fun onPreDraw(): Boolean {
                     val now = SystemClock.uptimeMillis()
                     val release = (homeReady && now >= fanOpenAt) || now >= giveUpAt
-                    if (release) content.viewTreeObserver.removeOnPreDrawListener(this)
+                    if (release) {
+                        content.viewTreeObserver.removeOnPreDrawListener(this)
+                        IntroGate.open.value = true
+                    }
                     return release
                 }
             },

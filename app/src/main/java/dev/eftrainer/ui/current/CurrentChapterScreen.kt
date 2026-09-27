@@ -84,7 +84,7 @@ fun CurrentChapterScreen(
 
     Column(modifier.fillMaxSize()) {
         Column(Modifier.weight(1f).verticalScroll(rememberScrollState())) {
-            ChapterBand(state.chapter, !state.past, onAllChapters, onSettings) {
+            ChapterBand(state.chapter, onAllChapters, onSettings) {
                 if (!state.past) StreakChip(state.streak, onStats)
             }
             ChapterSummary(state)
@@ -154,12 +154,11 @@ private fun SectionItem(
 @Composable
 private fun ChapterBand(
     chapter: Chapter?,
-    intro: Boolean,
     onAllChapters: () -> Unit,
     onSettings: () -> Unit,
     content: @Composable () -> Unit,
 ) {
-    val motion = rememberHeaderIntro(play = intro)
+    val motion = rememberHeaderIntro()
     WedgeBand(BandHeight, Modifier.clipToBounds(), chapter?.id, reveal = { motion.rays.value }) {
         chapter?.bubbles?.let { b -> BandBubbles(b, FilePalettes.forChapter(chapter.id), motion) }
         Row(

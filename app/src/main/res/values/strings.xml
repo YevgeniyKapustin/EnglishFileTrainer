@@ -78,7 +78,7 @@
     <string name="correct_answer">Correct answer:</string>
     <string name="continue_">Continue</string>
     <string name="why">Why?</string>
-    <string name="ask_ai">Ask AI</string>
+    <string name="ask_ai">Ask</string>
     <string name="answer_back">Now answer it</string>
     <string name="thinking">Thinking…</string>
     <string name="ai_bad_key">The AI key doesn’t work. Check it in Settings.</string>
@@ -168,7 +168,6 @@
     <string name="talk_read_aloud">Read aloud</string>
     <string name="talk_stop_reading">Stop reading</string>
     <string name="talk_picture">Picture %1$s</string>
-    <string name="talk_hint">Hint</string>
 
     <string name="video_play">Play video</string>
     <string name="video_pause">Pause video</string>

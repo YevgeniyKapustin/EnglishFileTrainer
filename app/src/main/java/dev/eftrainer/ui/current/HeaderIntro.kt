@@ -11,7 +11,11 @@ import androidx.compose.foundation.gestures.detectDragGestures
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.Stable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.ui.geometry.Offset
@@ -35,12 +39,16 @@ import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.toSize
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.compose.LocalLifecycleOwner
 import dev.eftrainer.core.ui.SPEECH_BUBBLE_RADIUS
 import dev.eftrainer.core.ui.SpeechBubbleCenter
 import dev.eftrainer.core.ui.SpeechBubbleVisibleBounds
 import dev.eftrainer.core.ui.speechBubblePath
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import kotlin.math.abs
 
@@ -48,7 +56,9 @@ private const val RAYS_MILLIS = 460
 private const val FIRST_BUBBLE_DELAY_MILLIS = 220L
 private const val BUBBLE_STAGGER_MILLIS = 90L
 
-private var launchIntroPlayed = false
+object IntroGate {
+    val open = MutableStateFlow(false)
+}
 
 @Stable
 class HeaderIntro(
@@ -62,11 +72,15 @@ class HeaderIntro(
 }
 
 @Composable
-fun rememberHeaderIntro(play: Boolean): HeaderIntro {
-    val intro = remember { HeaderIntro(played = !play || launchIntroPlayed) }
+fun rememberHeaderIntro(): HeaderIntro {
+    var played by rememberSaveable { mutableStateOf(false) }
+    val intro = remember { HeaderIntro(played) }
+    val lifecycle = LocalLifecycleOwner.current.lifecycle
     LaunchedEffect(intro) {
         if (!intro.pending) return@LaunchedEffect
-        launchIntroPlayed = true
+        IntroGate.open.first { it }
+        lifecycle.currentStateFlow.first { it.isAtLeast(Lifecycle.State.RESUMED) }
+        played = true
         val pop = spring<Float>(Spring.DampingRatioMediumBouncy, Spring.StiffnessMediumLow)
         launch { intro.rays.animateTo(1f, tween(RAYS_MILLIS, easing = LinearEasing)) }
         delay(FIRST_BUBBLE_DELAY_MILLIS)

@@ -17,6 +17,7 @@ ignore = [
 [tool.ruff.lint.per-file-ignores]
 "tools/generate.py" = ["PLC0415"]
 "tools/clips.py" = ["PLC0415"]
+"tools/strip_numbers.py" = ["PLC0415"]
 "tools/lint_hook.py" = ["S603"]
 "tools/media.py" = ["S603"]
 

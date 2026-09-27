@@ -234,8 +234,8 @@
               ],
               "source": "CONFIRMED",
               "clip": [
-                15.63,
-                18.1
+                11.05,
+                13.52
               ]
             },
             {
@@ -250,8 +250,8 @@
               ],
               "source": "CONFIRMED",
               "clip": [
-                21.23,
-                23.84
+                15.27,
+                17.88
               ]
             },
             {
@@ -266,8 +266,8 @@
               ],
               "source": "CONFIRMED",
               "clip": [
-                44.61,
-                46.06
+                32.76,
+                34.2
               ]
             },
             {
@@ -286,8 +286,8 @@
               ],
               "source": "CONFIRMED",
               "clip": [
-                38.52,
-                41.41
+                28.14,
+                31.02
               ]
             },
             {
@@ -303,8 +303,8 @@
               ],
               "source": "CONFIRMED",
               "clip": [
-                32.77,
-                35.24
+                23.93,
+                26.4
               ]
             },
             {
@@ -319,8 +319,8 @@
               ],
               "source": "CONFIRMED",
               "clip": [
-                49.32,
-                51.7
+                35.91,
+                38.29
               ]
             },
             {
@@ -335,8 +335,8 @@
               ],
               "source": "CONFIRMED",
               "clip": [
-                60.94,
-                64.25
+                44.74,
+                48.05
               ]
             },
             {
@@ -351,8 +351,8 @@
               ],
               "source": "CONFIRMED",
               "clip": [
-                54.94,
-                57.97
+                40.01,
+                43.03
               ]
             }
           ]
@@ -369,8 +369,8 @@
               "type": "speak",
               "text": "She has big blue eyes.",
               "clip": [
-                26.89,
-                29.58
+                19.58,
+                22.27
               ]
             },
             {
@@ -378,8 +378,8 @@
               "type": "speak",
               "text": "She has curly red hair.",
               "clip": [
-                15.63,
-                18.1
+                11.05,
+                13.52
               ]
             },
             {
@@ -387,8 +387,8 @@
               "type": "speak",
               "text": "She has long straight hair.",
               "clip": [
-                21.23,
-                23.84
+                15.27,
+                17.88
               ]
             },
             {
@@ -400,8 +400,8 @@
                 "He is bald."
               ],
               "clip": [
-                44.61,
-                46.06
+                32.76,
+                34.2
               ]
             },
             {
@@ -409,8 +409,8 @@
               "type": "speak",
               "text": "He has a beard and a moustache.",
               "clip": [
-                38.52,
-                41.41
+                28.14,
+                31.02
               ]
             },
             {
@@ -418,8 +418,8 @@
               "type": "speak",
               "text": "She has short blonde hair.",
               "clip": [
-                32.77,
-                35.24
+                23.93,
+                26.4
               ]
             },
             {
@@ -431,8 +431,8 @@
                 "He is very tall and thin."
               ],
               "clip": [
-                49.32,
-                51.7
+                35.91,
+                38.29
               ]
             },
             {
@@ -444,8 +444,8 @@
                 "He is quite short and a bit overweight."
               ],
               "clip": [
-                60.94,
-                64.25
+                44.74,
+                48.05
               ]
             },
             {
@@ -457,8 +457,8 @@
                 "He is medium height and very slim."
               ],
               "clip": [
-                54.94,
-                57.97
+                40.01,
+                43.03
               ]
             }
           ]
@@ -586,8 +586,8 @@
               ],
               "source": "CONFIRMED",
               "clip": [
-                6.47,
-                10.49
+                2.28,
+                6.3
               ]
             },
             {
@@ -601,8 +601,8 @@
               ],
               "source": "CONFIRMED",
               "clip": [
-                14.35,
-                18.16
+                8.19,
+                12.0
               ]
             },
             {
@@ -616,8 +616,8 @@
               ],
               "source": "CONFIRMED",
               "clip": [
-                21.78,
-                25.11
+                14.11,
+                17.44
               ]
             },
             {
@@ -631,8 +631,8 @@
               ],
               "source": "CONFIRMED",
               "clip": [
-                28.88,
-                32.77
+                19.5,
+                23.39
               ]
             },
             {
@@ -647,8 +647,8 @@
               ],
               "source": "CONFIRMED",
               "clip": [
-                36.66,
-                40.5
+                25.43,
+                29.27
               ]
             },
             {
@@ -662,8 +662,8 @@
               ],
               "source": "CONFIRMED",
               "clip": [
-                44.3,
-                47.7
+                31.38,
+                34.78
               ]
             },
             {
@@ -677,8 +677,8 @@
               ],
               "source": "CONFIRMED",
               "clip": [
-                51.55,
-                54.72
+                36.7,
+                39.87
               ]
             },
             {
@@ -692,8 +692,8 @@
               ],
               "source": "CONFIRMED",
               "clip": [
-                58.69,
-                62.34
+                41.95,
+                45.59
               ]
             }
           ]
@@ -710,8 +710,8 @@
               "type": "speak",
               "text": "friendly, unfriendly",
               "clip": [
-                6.47,
-                10.49
+                2.28,
+                6.3
               ]
             },
             {
@@ -719,8 +719,8 @@
               "type": "speak",
               "text": "talkative, quiet",
               "clip": [
-                14.35,
-                18.16
+                8.19,
+                12.0
               ]
             },
             {
@@ -728,8 +728,8 @@
               "type": "speak",
               "text": "generous, mean",
               "clip": [
-                21.78,
-                25.11
+                14.11,
+                17.44
               ]
             },
             {
@@ -737,8 +737,8 @@
               "type": "speak",
               "text": "kind, unkind",
               "clip": [
-                28.88,
-                32.77
+                19.5,
+                23.39
               ]
             },
             {
@@ -750,8 +750,8 @@
                 "lazy, hardworking"
               ],
               "clip": [
-                36.66,
-                40.5
+                25.43,
+                29.27
               ]
             },
             {
@@ -759,8 +759,8 @@
               "type": "speak",
               "text": "funny, serious",
               "clip": [
-                44.3,
-                47.7
+                31.38,
+                34.78
               ]
             },
             {
@@ -768,8 +768,8 @@
               "type": "speak",
               "text": "clever, stupid",
               "clip": [
-                51.55,
-                54.72
+                36.7,
+                39.87
               ]
             },
             {
@@ -777,8 +777,8 @@
               "type": "speak",
               "text": "shy, extrovert",
               "clip": [
-                58.69,
-                62.34
+                41.95,
+                45.59
               ]
             }
           ]
@@ -2479,8 +2479,8 @@
               "type": "speak",
               "text": "He likes going to concerts.",
               "clip": [
-                6.56,
-                8.61
+                3.73,
+                5.78
               ]
             },
             {
@@ -2488,8 +2488,8 @@
               "type": "speak",
               "text": "He meets interesting people on dates.",
               "clip": [
-                9.17,
-                12.18
+                6.34,
+                9.35
               ]
             },
             {
@@ -2497,8 +2497,8 @@
               "type": "speak",
               "text": "He pays for their meals.",
               "clip": [
-                17.37,
-                19.27
+                14.54,
+                16.44
               ]
             },
             {
@@ -2506,8 +2506,8 @@
               "type": "speak",
               "text": "He wears smart clothes.",
               "clip": [
-                19.79,
-                22.33
+                16.96,
+                19.5
               ]
             },
             {
@@ -2515,8 +2515,8 @@
               "type": "speak",
               "text": "He uses reading glasses.",
               "clip": [
-                25.89,
-                28.02
+                23.06,
+                25.19
               ]
             },
             {
@@ -2524,8 +2524,8 @@
               "type": "speak",
               "text": "He watches a lot of matches.",
               "clip": [
-                28.59,
-                31.07
+                25.76,
+                28.24
               ]
             }
           ]
@@ -2549,8 +2549,8 @@
               "explain": "/ɪz/ — after the sound /z/ (s).",
               "source": "CONFIRMED",
               "clip": [
-                2.68,
-                3.98
+                0.0,
+                1.3
               ]
             },
             {
@@ -2565,8 +2565,8 @@
               "explain": "/s/",
               "source": "CONFIRMED",
               "clip": [
-                5.47,
-                6.62
+                2.79,
+                3.94
               ]
             },
             {
@@ -2581,8 +2581,8 @@
               "explain": "/z/",
               "source": "CONFIRMED",
               "clip": [
-                8.11,
-                9.31
+                5.43,
+                6.63
               ]
             },
             {
@@ -2597,8 +2597,8 @@
               "explain": "/z/",
               "source": "CONFIRMED",
               "clip": [
-                10.81,
-                12.01
+                8.13,
+                9.33
               ]
             },
             {
@@ -2613,8 +2613,8 @@
               "explain": "/s/",
               "source": "CONFIRMED",
               "clip": [
-                13.53,
-                14.81
+                10.85,
+                12.13
               ]
             },
             {
@@ -2629,8 +2629,8 @@
               "explain": "/ɪz/ — after ch.",
               "source": "CONFIRMED",
               "clip": [
-                16.31,
-                17.53
+                13.63,
+                14.85
               ]
             },
             {
@@ -2645,8 +2645,8 @@
               "explain": "/s/",
               "source": "CONFIRMED",
               "clip": [
-                19.09,
-                20.24
+                16.41,
+                17.56
               ]
             },
             {
@@ -2661,8 +2661,8 @@
               "explain": "/z/",
               "source": "CONFIRMED",
               "clip": [
-                21.77,
-                22.98
+                19.09,
+                20.3
               ]
             },
             {
@@ -2677,8 +2677,8 @@
               "explain": "/ɪz/ — after s.",
               "source": "CONFIRMED",
               "clip": [
-                24.48,
-                25.84
+                21.8,
+                23.16
               ]
             },
             {
@@ -2693,8 +2693,8 @@
               "explain": "/z/",
               "source": "CONFIRMED",
               "clip": [
-                27.35,
-                28.6
+                24.67,
+                25.92
               ]
             },
             {
@@ -2709,8 +2709,8 @@
               "explain": "/ɪz/ — after g /dʒ/.",
               "source": "CONFIRMED",
               "clip": [
-                30.11,
-                31.62
+                27.43,
+                28.94
               ]
             },
             {
@@ -2725,8 +2725,8 @@
               "explain": "/s/",
               "source": "CONFIRMED",
               "clip": [
-                33.06,
-                34.28
+                30.38,
+                31.6
               ]
             }
           ]
@@ -2743,8 +2743,8 @@
               "type": "speak",
               "text": "chooses",
               "clip": [
-                2.68,
-                3.98
+                0.0,
+                1.3
               ]
             },
             {
@@ -2752,8 +2752,8 @@
               "type": "speak",
               "text": "cooks",
               "clip": [
-                5.47,
-                6.62
+                2.79,
+                3.94
               ]
             },
             {
@@ -2761,8 +2761,8 @@
               "type": "speak",
               "text": "goes",
               "clip": [
-                8.11,
-                9.31
+                5.43,
+                6.63
               ]
             },
             {
@@ -2770,8 +2770,8 @@
               "type": "speak",
               "text": "lives",
               "clip": [
-                10.81,
-                12.01
+                8.13,
+                9.33
               ]
             },
             {
@@ -2779,8 +2779,8 @@
               "type": "speak",
               "text": "stops",
               "clip": [
-                13.53,
-                14.81
+                10.85,
+                12.13
               ]
             },
             {
@@ -2788,8 +2788,8 @@
               "type": "speak",
               "text": "teaches",
               "clip": [
-                16.31,
-                17.53
+                13.63,
+                14.85
               ]
             },
             {
@@ -2797,8 +2797,8 @@
               "type": "speak",
               "text": "books",
               "clip": [
-                19.09,
-                20.24
+                16.41,
+                17.56
               ]
             },
             {
@@ -2806,8 +2806,8 @@
               "type": "speak",
               "text": "boys",
               "clip": [
-                21.77,
-                22.98
+                19.09,
+                20.3
               ]
             },
             {
@@ -2815,8 +2815,8 @@
               "type": "speak",
               "text": "classes",
               "clip": [
-                24.48,
-                25.84
+                21.8,
+                23.16
               ]
             },
             {
@@ -2824,8 +2824,8 @@
               "type": "speak",
               "text": "friends",
               "clip": [
-                27.35,
-                28.6
+                24.67,
+                25.92
               ]
             },
             {
@@ -2833,8 +2833,8 @@
               "type": "speak",
               "text": "languages",
               "clip": [
-                30.11,
-                31.62
+                27.43,
+                28.94
               ]
             },
             {
@@ -2842,8 +2842,8 @@
               "type": "speak",
               "text": "shops",
               "clip": [
-                33.06,
-                34.28
+                30.38,
+                31.6
               ]
             }
           ]

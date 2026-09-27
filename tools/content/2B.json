@@ -112,7 +112,7 @@
               "text": "{}: countries and cities (Spain, Madrid), rooms (the kitchen), buildings (a shop, a museum), closed spaces (a park, a garden, a car); months (February, June), seasons ((the) winter), years (2018), times of day (the morning, the afternoon, the evening)",
               "gaps": [["in"]],
               "source": "CONFIRMED",
-              "clip": [10.0, 76.64]
+              "clip": [6.04, 72.68]
             },
             {
               "n": 2,
@@ -120,7 +120,7 @@
               "text": "{}: transport (a bike, a bus, a train, a plane, a ship), a surface (the floor, a table, a shelf, the balcony, the roof, the wall); dates (1st March), days (Tuesday, New Year’s Day, Valentine’s Day)",
               "gaps": [["on"]],
               "source": "CONFIRMED",
-              "clip": [79.7, 136.6]
+              "clip": [74.4, 131.3]
             },
             {
               "n": 3,
@@ -128,7 +128,7 @@
               "text": "{}: places (school, home, work, university, the airport, the station, a bus stop); times (6 o’clock, half past two, quarter to eight), night, the weekend, festival periods (Christmas, Easter)",
               "gaps": [["at"]],
               "source": "CONFIRMED",
-              "clip": [139.3, 189.85]
+              "clip": [132.6, 183.15]
             }
           ]
         },
@@ -444,8 +444,8 @@
                 "the longer background action is in the past continuous, the short one in the past simple"
               ],
               "clip": [
-                4.9,
-                21.0
+                0.2,
+                16.23
               ],
               "scene": "Two people are playing tennis: you hear the ball and the players. Then heavy rain starts and somebody says 'Oh no…'. (Book example: They were playing tennis when it started to rain.)"
             },
@@ -459,8 +459,8 @@
                 "the longer background action is in the past continuous, the short one in the past simple"
               ],
               "clip": [
-                23.5,
-                34.3
+                17.5,
+                28.28
               ],
               "scene": "Somebody is driving a car with music on the radio. A mobile phone rings, the driver answers 'Hello?', and then there is a loud crash (a car accident)."
             },
@@ -474,8 +474,8 @@
                 "the longer background action is in the past continuous, the short one in the past simple"
               ],
               "clip": [
-                36.0,
-                50.3
+                29.12,
+                43.35
               ],
               "scene": "A party: loud music, people talking and laughing. Then there is loud knocking on the door and a man shouts 'Police! Open the door!'."
             },
@@ -489,8 +489,8 @@
                 "the longer background action is in the past continuous, the short one in the past simple"
               ],
               "clip": [
-                52.3,
-                63.3
+                44.27,
+                55.22
               ],
               "scene": "A man is singing in the shower, you hear the water. Then somebody knocks on the door."
             },
@@ -504,8 +504,8 @@
                 "the longer background action is in the past continuous, the short one in the past simple"
               ],
               "clip": [
-                65.8,
-                84.6
+                56.01,
+                74.8
               ],
               "scene": "At night people are sleeping and snoring. A baby starts crying, a sleepy voice says 'You go, OK?', and the baby goes on crying."
             },
@@ -519,8 +519,8 @@
                 "the longer background action is in the past continuous, the short one in the past simple"
               ],
               "clip": [
-                86.8,
-                97.5
+                75.85,
+                86.47
               ],
               "scene": "Somebody is walking a dog in the park: birds, the dog barks, 'Here boy, come on, here boy'. Then they meet an old friend: 'Oh hi! Oh hello, I haven't seen you for ages'."
             }
@@ -652,12 +652,12 @@
           "note": "SB 4b; ответы по скрипту 2.15 (SB p.120) и аудио 2.14",
           "audio": "2.14",
           "exercises": [
-            {"n": 1, "type": "blank", "text": "{} {} my first term at university.", "gaps": [["It"], ["was"]], "source": "CONFIRMED", "clip": [4.23, 6.95]},
-            {"n": 2, "type": "blank", "text": "I {} {} with him in the Easter holidays.", "gaps": [["was"], ["staying"]], "source": "CONFIRMED", "clip": [10.0, 12.68]},
-            {"n": 3, "type": "blank", "text": "We {} {} a music course.", "gaps": [["were"], ["doing"]], "source": "CONFIRMED", "clip": [15.83, 18.03]},
-            {"n": 4, "type": "blank", "text": "{} {} at school together.", "gaps": [["We"], ["were"]], "source": "CONFIRMED", "clip": [21.19, 22.92]},
-            {"n": 5, "type": "blank", "text": "She took this when we {} {} the Colosseum.", "gaps": [["were"], ["visiting"]], "source": "CONFIRMED", "clip": [26.2, 29.46]},
-            {"n": 6, "type": "blank", "text": "We {} all {} champagne, and Roz {} {} the hard work!", "gaps": [["were"], ["drinking"], ["was"], ["doing"]], "source": "CONFIRMED", "clip": [32.66, 37.72]}
+            {"n": 1, "type": "blank", "text": "{} {} my first term at university.", "gaps": [["It"], ["was"]], "source": "CONFIRMED", "clip": [0.2, 2.92]},
+            {"n": 2, "type": "blank", "text": "I {} {} with him in the Easter holidays.", "gaps": [["was"], ["staying"]], "source": "CONFIRMED", "clip": [4.64, 7.32]},
+            {"n": 3, "type": "blank", "text": "We {} {} a music course.", "gaps": [["were"], ["doing"]], "source": "CONFIRMED", "clip": [9.07, 11.27]},
+            {"n": 4, "type": "blank", "text": "{} {} at school together.", "gaps": [["We"], ["were"]], "source": "CONFIRMED", "clip": [13.0, 14.73]},
+            {"n": 5, "type": "blank", "text": "She took this when we {} {} the Colosseum.", "gaps": [["were"], ["visiting"]], "source": "CONFIRMED", "clip": [16.48, 19.74]},
+            {"n": 6, "type": "blank", "text": "We {} all {} champagne, and Roz {} {} the hard work!", "gaps": [["were"], ["drinking"], ["was"], ["doing"]], "source": "CONFIRMED", "clip": [21.45, 26.51]}
           ]
         },
         {
@@ -667,12 +667,12 @@
           "note": "SB 4c → Stress по шести фразам 2.14 (клипы как у 2B-sb4b); ответ MODEL (правило: в утвердительных предложениях was / were безударные)",
           "audio": "2.14",
           "exercises": [
-            {"n": 1, "type": "stress", "text": "It [was] my first term at university.", "stressed": [], "explain": "A positive sentence, so was / were are weak: /wəz/, /wə/.", "source": "MODEL", "clip": [4.23, 6.95]},
-            {"n": 2, "type": "stress", "text": "I [was] staying with him in the Easter holidays.", "stressed": [], "explain": "A positive sentence, so was / were are weak: /wəz/, /wə/.", "source": "MODEL", "clip": [10.0, 12.68]},
-            {"n": 3, "type": "stress", "text": "We [were] doing a music course.", "stressed": [], "explain": "A positive sentence, so was / were are weak: /wəz/, /wə/.", "source": "MODEL", "clip": [15.83, 18.03]},
-            {"n": 4, "type": "stress", "text": "We [were] at school together.", "stressed": [], "explain": "A positive sentence, so was / were are weak: /wəz/, /wə/.", "source": "MODEL", "clip": [21.19, 22.92]},
-            {"n": 5, "type": "stress", "text": "She took this when we [were] visiting the Colosseum.", "stressed": [], "explain": "A positive sentence, so was / were are weak: /wəz/, /wə/.", "source": "MODEL", "clip": [26.2, 29.46]},
-            {"n": 6, "type": "stress", "text": "We [were] all drinking champagne, and Roz [was] doing the hard work!", "stressed": [], "explain": "A positive sentence, so was / were are weak: /wəz/, /wə/.", "source": "MODEL", "clip": [32.66, 37.72]}
+            {"n": 1, "type": "stress", "text": "It [was] my first term at university.", "stressed": [], "explain": "A positive sentence, so was / were are weak: /wəz/, /wə/.", "source": "MODEL", "clip": [0.2, 2.92]},
+            {"n": 2, "type": "stress", "text": "I [was] staying with him in the Easter holidays.", "stressed": [], "explain": "A positive sentence, so was / were are weak: /wəz/, /wə/.", "source": "MODEL", "clip": [4.64, 7.32]},
+            {"n": 3, "type": "stress", "text": "We [were] doing a music course.", "stressed": [], "explain": "A positive sentence, so was / were are weak: /wəz/, /wə/.", "source": "MODEL", "clip": [9.07, 11.27]},
+            {"n": 4, "type": "stress", "text": "We [were] at school together.", "stressed": [], "explain": "A positive sentence, so was / were are weak: /wəz/, /wə/.", "source": "MODEL", "clip": [13.0, 14.73]},
+            {"n": 5, "type": "stress", "text": "She took this when we [were] visiting the Colosseum.", "stressed": [], "explain": "A positive sentence, so was / were are weak: /wəz/, /wə/.", "source": "MODEL", "clip": [16.48, 19.74]},
+            {"n": 6, "type": "stress", "text": "We [were] all drinking champagne, and Roz [was] doing the hard work!", "stressed": [], "explain": "A positive sentence, so was / were are weak: /wəz/, /wə/.", "source": "MODEL", "clip": [21.45, 26.51]}
           ]
         },
         {

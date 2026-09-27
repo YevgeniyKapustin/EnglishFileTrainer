@@ -74,11 +74,11 @@
           "context": "One dark October evening. Hannah met Jamie last summer. It was Hannah’s birthday and she and her friends went to a club. They wanted to dance, but they didn’t like the music, so Hannah went to speak to the DJ. ‘This music is awful,’ she said. ‘Could you play something else?’ The DJ looked at her and said, ‘Don’t worry, I have the perfect song for you.’ Two minutes later he said, ‘The next song is by Pink. It’s called Get the Party Started and it’s for a beautiful girl over there who’s wearing a pink dress.’ Hannah knew that he was playing the song for her.",
           "words": ["After that", "One evening in October", "Suddenly", "The next day", "Two minutes later", "When"],
           "exercises": [
-            {"n": 2, "type": "blank", "text": "{} Hannah and her friends left the club, the DJ was waiting for her at the door.", "gaps": [["When"]], "source": "CONFIRMED", "clip": [56.61, 63.08]},
-            {"n": 3, "type": "blank", "text": "{} Jamie phoned Hannah and invited her to dinner.", "gaps": [["The next day"]], "source": "CONFIRMED", "clip": [75.45, 80.27]},
-            {"n": 4, "type": "blank", "text": "{} Jamie and Hannah saw each other every day.", "gaps": [["After that"]], "source": "CONFIRMED", "clip": [101.25, 105.85]},
-            {"n": 5, "type": "blank", "text": "{} Hannah was at work. As usual she was going to meet Jamie at 5.30.", "gaps": [["One evening in October", "One afternoon in October"]], "explain": "The recording says ‘One afternoon in October’.", "source": "CONFIRMED", "clip": [116.05, 119.6]},
-            {"n": 6, "type": "blank", "text": "She was going very fast because she was in a hurry. {}, a man ran across the road.", "gaps": [["Suddenly"]], "source": "CONFIRMED", "clip": [143.96, 151.94]}
+            {"n": 2, "type": "blank", "text": "{} Hannah and her friends left the club, the DJ was waiting for her at the door.", "gaps": [["When"]], "source": "CONFIRMED", "clip": [53.94, 60.41]},
+            {"n": 3, "type": "blank", "text": "{} Jamie phoned Hannah and invited her to dinner.", "gaps": [["The next day"]], "source": "CONFIRMED", "clip": [72.78, 77.6]},
+            {"n": 4, "type": "blank", "text": "{} Jamie and Hannah saw each other every day.", "gaps": [["After that"]], "source": "CONFIRMED", "clip": [98.58, 103.18]},
+            {"n": 5, "type": "blank", "text": "{} Hannah was at work. As usual she was going to meet Jamie at 5.30.", "gaps": [["One evening in October", "One afternoon in October"]], "explain": "The recording says ‘One afternoon in October’.", "source": "CONFIRMED", "clip": [113.38, 116.93]},
+            {"n": 6, "type": "blank", "text": "She was going very fast because she was in a hurry. {}, a man ran across the road.", "gaps": [["Suddenly"]], "source": "CONFIRMED", "clip": [141.29, 149.27]}
           ]
         },
         {
@@ -284,18 +284,18 @@
           "note": "SB 2a «Underline the stressed syllable» + 2b «Listen and check» → Stress: тап по ударному слогу, слоги как в книге. Сверено с ключом WB 2a (те же слова) и аудио 2.20",
           "audio": "2.20",
           "exercises": [
-            {"n": 1, "type": "stress", "text": "a|cross", "stressed": [2], "explain": "aCROSS — a preposition: second syllable.", "source": "CONFIRMED", "clip": [2.45, 3.77]},
-            {"n": 2, "type": "stress", "text": "af|ter", "stressed": [1], "explain": "AFter — first syllable.", "source": "CONFIRMED", "clip": [5.29, 6.51]},
-            {"n": 3, "type": "stress", "text": "a|gain", "stressed": [2], "explain": "aGAIN — second syllable.", "source": "CONFIRMED", "clip": [8.0, 9.22]},
-            {"n": 4, "type": "stress", "text": "a|long", "stressed": [2], "explain": "aLONG — a preposition: second syllable.", "source": "CONFIRMED", "clip": [10.71, 11.95]},
-            {"n": 5, "type": "stress", "text": "al|though", "stressed": [2], "explain": "alTHOUGH — a connector: second syllable.", "source": "CONFIRMED", "clip": [13.43, 14.74]},
-            {"n": 6, "type": "stress", "text": "aw|ful", "stressed": [1], "explain": "AWful — an adjective: first syllable.", "source": "CONFIRMED", "clip": [16.23, 17.41]},
-            {"n": 7, "type": "stress", "text": "be|cause", "stressed": [2], "explain": "beCAUSE — a connector: second syllable.", "source": "CONFIRMED", "clip": [18.9, 20.15]},
-            {"n": 8, "type": "stress", "text": "birth|day", "stressed": [1], "explain": "BIRTHday — a noun: first syllable.", "source": "CONFIRMED", "clip": [21.66, 22.94]},
-            {"n": 9, "type": "stress", "text": "eve|ning", "stressed": [1], "explain": "EVEning — a noun: first syllable.", "source": "CONFIRMED", "clip": [24.43, 25.71]},
-            {"n": 10, "type": "stress", "text": "in|vite", "stressed": [2], "explain": "inVITE — a verb: second syllable.", "source": "CONFIRMED", "clip": [27.2, 28.49]},
-            {"n": 11, "type": "stress", "text": "per|fect", "stressed": [1], "explain": "PERfect — an adjective: first syllable.", "source": "CONFIRMED", "clip": [29.98, 31.28]},
-            {"n": 12, "type": "stress", "text": "quick|ly", "stressed": [1], "explain": "QUICKly — an adverb: first syllable.", "source": "CONFIRMED", "clip": [32.76, 33.98]}
+            {"n": 1, "type": "stress", "text": "a|cross", "stressed": [2], "explain": "aCROSS — a preposition: second syllable.", "source": "CONFIRMED", "clip": [0.0, 1.32]},
+            {"n": 2, "type": "stress", "text": "af|ter", "stressed": [1], "explain": "AFter — first syllable.", "source": "CONFIRMED", "clip": [2.84, 4.06]},
+            {"n": 3, "type": "stress", "text": "a|gain", "stressed": [2], "explain": "aGAIN — second syllable.", "source": "CONFIRMED", "clip": [5.55, 6.77]},
+            {"n": 4, "type": "stress", "text": "a|long", "stressed": [2], "explain": "aLONG — a preposition: second syllable.", "source": "CONFIRMED", "clip": [8.26, 9.5]},
+            {"n": 5, "type": "stress", "text": "al|though", "stressed": [2], "explain": "alTHOUGH — a connector: second syllable.", "source": "CONFIRMED", "clip": [10.98, 12.29]},
+            {"n": 6, "type": "stress", "text": "aw|ful", "stressed": [1], "explain": "AWful — an adjective: first syllable.", "source": "CONFIRMED", "clip": [13.78, 14.96]},
+            {"n": 7, "type": "stress", "text": "be|cause", "stressed": [2], "explain": "beCAUSE — a connector: second syllable.", "source": "CONFIRMED", "clip": [16.45, 17.7]},
+            {"n": 8, "type": "stress", "text": "birth|day", "stressed": [1], "explain": "BIRTHday — a noun: first syllable.", "source": "CONFIRMED", "clip": [19.21, 20.49]},
+            {"n": 9, "type": "stress", "text": "eve|ning", "stressed": [1], "explain": "EVEning — a noun: first syllable.", "source": "CONFIRMED", "clip": [21.98, 23.26]},
+            {"n": 10, "type": "stress", "text": "in|vite", "stressed": [2], "explain": "inVITE — a verb: second syllable.", "source": "CONFIRMED", "clip": [24.75, 26.04]},
+            {"n": 11, "type": "stress", "text": "per|fect", "stressed": [1], "explain": "PERfect — an adjective: first syllable.", "source": "CONFIRMED", "clip": [27.53, 28.83]},
+            {"n": 12, "type": "stress", "text": "quick|ly", "stressed": [1], "explain": "QUICKly — an adverb: first syllable.", "source": "CONFIRMED", "clip": [30.31, 31.53]}
           ]
         },
         {
@@ -305,18 +305,18 @@
           "note": "SB 2b «Practise saying the words» → Speak по отрезкам 2.20",
           "audio": "2.20",
           "exercises": [
-            {"n": 1, "type": "speak", "text": "across", "clip": [2.45, 3.77]},
-            {"n": 2, "type": "speak", "text": "after", "clip": [5.29, 6.51]},
-            {"n": 3, "type": "speak", "text": "again", "clip": [8.0, 9.22]},
-            {"n": 4, "type": "speak", "text": "along", "clip": [10.71, 11.95]},
-            {"n": 5, "type": "speak", "text": "although", "clip": [13.43, 14.74]},
-            {"n": 6, "type": "speak", "text": "awful", "clip": [16.23, 17.41]},
-            {"n": 7, "type": "speak", "text": "because", "clip": [18.9, 20.15]},
-            {"n": 8, "type": "speak", "text": "birthday", "clip": [21.66, 22.94]},
-            {"n": 9, "type": "speak", "text": "evening", "clip": [24.43, 25.71]},
-            {"n": 10, "type": "speak", "text": "invite", "clip": [27.2, 28.49]},
-            {"n": 11, "type": "speak", "text": "perfect", "clip": [29.98, 31.28]},
-            {"n": 12, "type": "speak", "text": "quickly", "clip": [32.76, 33.98]}
+            {"n": 1, "type": "speak", "text": "across", "clip": [0.0, 1.32]},
+            {"n": 2, "type": "speak", "text": "after", "clip": [2.84, 4.06]},
+            {"n": 3, "type": "speak", "text": "again", "clip": [5.55, 6.77]},
+            {"n": 4, "type": "speak", "text": "along", "clip": [8.26, 9.5]},
+            {"n": 5, "type": "speak", "text": "although", "clip": [10.98, 12.29]},
+            {"n": 6, "type": "speak", "text": "awful", "clip": [13.78, 14.96]},
+            {"n": 7, "type": "speak", "text": "because", "clip": [16.45, 17.7]},
+            {"n": 8, "type": "speak", "text": "birthday", "clip": [19.21, 20.49]},
+            {"n": 9, "type": "speak", "text": "evening", "clip": [21.98, 23.26]},
+            {"n": 10, "type": "speak", "text": "invite", "clip": [24.75, 26.04]},
+            {"n": 11, "type": "speak", "text": "perfect", "clip": [27.53, 28.83]},
+            {"n": 12, "type": "speak", "text": "quickly", "clip": [30.31, 31.53]}
           ]
         },
         {
@@ -900,11 +900,11 @@
           "note": "Revise and Check 1&2 «Can you understand these people?» 2.23 (Circle a, b, or c → Blank, варианты в hint); клип — ответ одного человека. Скрипта нет — по расшифровке. 1 — «people say I look like my dad a lot», но волосы и глаза мамины: засчитываются оба варианта (a и c)",
           "audio": "2.23",
           "exercises": [
-            {"n": 1, "type": "blank", "text": "Lewis looks like {}.", "gaps": [["his mother and his father", "his father"]], "hint": "(his father / his mother / his mother and his father)", "explain": "‘People say I look like my dad a lot’, but he has his mum’s hair colour and eyes – both answers work.", "source": "MODEL", "clip": [3.35, 29.27]},
-            {"n": 2, "type": "blank", "text": "In the Dali painting that Susie likes there are some dripping {}.", "gaps": [["clocks"]], "hint": "(clocks / rocks / socks)", "source": "CONFIRMED", "clip": [33.45, 57.0]},
-            {"n": 3, "type": "blank", "text": "Shosanna went to Guyana because she wanted to learn {}.", "gaps": [["about her family history"]], "hint": "(about the animals and plants there / about her family history / the language)", "explain": "Guyana is her parents’ country: she saw how her parents grew up.", "source": "CONFIRMED", "clip": [60.67, 81.1]},
-            {"n": 4, "type": "blank", "text": "Susan doesn’t put photos of {} on Instagram.", "gaps": [["her family"]], "hint": "(gardens / flowers / her family)", "explain": "She takes photos of family, but posts gardens and flowers.", "source": "CONFIRMED", "clip": [84.07, 111.2]},
-            {"n": 5, "type": "blank", "text": "Sam only likes watching {}.", "gaps": [["good films"]], "hint": "(films with a sad ending / films with a happy ending / good films)", "explain": "‘It just has to be a good film. I don’t mind if it’s a happy ending or a sad ending.’", "source": "CONFIRMED", "clip": [114.4, 124.92]}
+            {"n": 1, "type": "blank", "text": "Lewis looks like {}.", "gaps": [["his mother and his father", "his father"]], "hint": "(his father / his mother / his mother and his father)", "explain": "‘People say I look like my dad a lot’, but he has his mum’s hair colour and eyes – both answers work.", "source": "MODEL", "clip": [0.2, 26.12]},
+            {"n": 2, "type": "blank", "text": "In the Dali painting that Susie likes there are some dripping {}.", "gaps": [["clocks"]], "hint": "(clocks / rocks / socks)", "source": "CONFIRMED", "clip": [29.23, 52.78]},
+            {"n": 3, "type": "blank", "text": "Shosanna went to Guyana because she wanted to learn {}.", "gaps": [["about her family history"]], "hint": "(about the animals and plants there / about her family history / the language)", "explain": "Guyana is her parents’ country: she saw how her parents grew up.", "source": "CONFIRMED", "clip": [55.65, 76.08]},
+            {"n": 4, "type": "blank", "text": "Susan doesn’t put photos of {} on Instagram.", "gaps": [["her family"]], "hint": "(gardens / flowers / her family)", "explain": "She takes photos of family, but posts gardens and flowers.", "source": "CONFIRMED", "clip": [77.81, 104.94]},
+            {"n": 5, "type": "blank", "text": "Sam only likes watching {}.", "gaps": [["good films"]], "hint": "(films with a sad ending / films with a happy ending / good films)", "explain": "‘It just has to be a good film. I don’t mind if it’s a happy ending or a sad ending.’", "source": "CONFIRMED", "clip": [107.8, 117.63]}
           ]
         },
         {

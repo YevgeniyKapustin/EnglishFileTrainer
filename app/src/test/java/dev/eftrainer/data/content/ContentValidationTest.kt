@@ -132,6 +132,13 @@ class ContentValidationTest {
         }
     }
 
+    @Test fun `talks have a plan of steps with examples`() {
+        for (e in exercises.filterIsInstance<Talk>()) {
+            assertTrue("${e.id}: нет steps", e.steps.isNotEmpty())
+            assertTrue("${e.id}: пустой шаг", e.steps.all { it.text.isNotBlank() && it.example.isNotBlank() })
+        }
+    }
+
     @Test fun `writes have prompt and criteria`() {
         for (e in exercises.filterIsInstance<Write>()) {
             assertTrue("${e.id}: пустой prompt", e.prompt.isNotBlank())

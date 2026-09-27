@@ -111,7 +111,8 @@ data class Order(                          // "Number the pictures 1–6": 1A-pe
 ) : Exercise
 
 // Э7.6 (см. Model.kt): Speak (сказать вслух; text из отдельных букв "A K E" — мягкая проверка букв),
-// Talk (разговор с ИИ; pictures — картинки из книги над разговором, caption видит только ИИ)
+// Talk (разговор с ИИ; goal — ситуация в одну строку; steps — план TalkStep(text, example) на экране,
+// ИИ отмечает сделанные [DONE 1,2], Hint показывает example; pictures — картинки из книги, caption видит только ИИ)
 // и Write — письменный ответ своими словами, проверяет ИИ:
 data class Write(
     override val id: String,

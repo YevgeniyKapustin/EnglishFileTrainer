@@ -76,6 +76,10 @@ fun TalkInput(
         Column(modifier, verticalArrangement = Arrangement.spacedBy(10.dp)) {
             if (exercise.pictures.isNotEmpty()) TalkPictures(exercise.pictures)
             Text(exercise.goal, style = T.question.copy(fontSize = 19.sp, lineHeight = 28.sp))
+            if (exercise.steps.isNotEmpty()) {
+                val active = !checked && (ui.status == Status.Talking || ui.status == Status.Waiting)
+                TalkSteps(exercise.steps, ui.done, active)
+            }
             exercise.hint?.let { Text(it, style = T.hint) }
             TalkTranscript(ui, tts)
             TalkControls(

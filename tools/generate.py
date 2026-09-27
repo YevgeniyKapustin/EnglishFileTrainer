@@ -23,7 +23,7 @@ AI_CHECKED_TYPES = ("talk", "write")
 CLIPPABLE_TYPES = ("blank", "rewrite", "speak", "write")
 IMAGE_TYPES = ("blank", "rewrite")
 PICTURE_TYPES = ("talk", "order")
-TYPED_FIELDS = {"image": IMAGE_TYPES, "pictures": PICTURE_TYPES, "scene": ("write",)}
+TYPED_FIELDS = {"image": IMAGE_TYPES, "pictures": PICTURE_TYPES, "scene": ("write",), "steps": ("talk",)}
 PRESET_TYPES = ("blank", "rewrite")
 PRESET_SECTION_KINDS = ("GRAMMAR", "VOCABULARY")
 CLIP_BOUNDS_COUNT = 2
@@ -225,7 +225,9 @@ def talk_answers(eid: str, exercise: Json, report: Report) -> list[str | None]:
         if not exercise.get(field_name, "").strip():
             report.errors.append(f"{eid}: пустое поле {field_name}")
     criteria: list[str | None] = exercise.get("criteria") or [None]
-    return criteria + picture_texts(eid, exercise.get("pictures", []), report)
+    steps: list[Json] = exercise.get("steps") or [{"text": None, "example": None}]
+    step_texts = [value for step in steps for value in (step.get("text"), step.get("example"))]
+    return criteria + step_texts + picture_texts(eid, exercise.get("pictures", []), report)
 
 
 def write_answers(eid: str, exercise: Json, report: Report) -> list[str | None]:
@@ -411,12 +413,21 @@ def pictures_code(pictures: list[Json]) -> str:
     )
 
 
+def steps_code(steps: list[Json]) -> str:
+    return (
+        "listOf("
+        + ", ".join(f"TalkStep({kotlin_string(s['text'])}, {kotlin_string(s['example'])})" for s in steps)
+        + ")"
+    )
+
+
 def talk_arguments(exercise: Json) -> list[str]:
     arguments = [
         f"situation = {kotlin_string(exercise['situation'])}",
         f"goal = {kotlin_string(exercise['goal'])}",
         f"opener = {kotlin_string(exercise['opener'])}",
         f"criteria = {kotlin_strings(exercise['criteria'])}",
+        f"steps = {steps_code(exercise['steps'])}",
     ]
     if exercise.get("pictures"):
         arguments.append(f"pictures = {pictures_code(exercise['pictures'])}")

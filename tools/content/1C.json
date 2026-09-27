@@ -902,12 +902,26 @@
               "n": 1,
               "type": "talk",
               "situation": "You are a classmate in an English class (level: pre-intermediate). You play a guessing game about clothes. First, you describe what one of these people is wearing and the student guesses who it is: the milkmaid in Vermeer’s painting (a white cap, a yellow and green blouse, a blue apron, a red / brown skirt), the young man in the remake photo (a yellow T-shirt, blue trousers, a blue towel on his shoulder), yourself today (jeans, a grey sweater, white trainers, a black watch). Use the present continuous: She’s wearing… Then ask the student to describe what they are wearing today and what a person they know is wearing, and guess who it is. Correct gently if they say ‘I wear’ for now (I’m wearing) or mix up wear and carry.",
-              "goal": "Guess who your classmate is describing. Then say what you are wearing today, and describe what somebody is wearing so your classmate can guess.",
+              "goal": "Guess who is wearing what, then describe clothes yourself.",
               "opener": "Let’s play a game! I’m thinking of a person. She’s wearing a white cap and a blue apron. Who is it?",
               "criteria": [
                 "uses the present continuous for clothes now (I’m wearing / he’s wearing)",
                 "names at least 5 clothes words from the lesson correctly",
                 "uses carry for a bag and wear for clothes / jewellery"
+              ],
+              "steps": [
+                {
+                  "text": "Guess who your classmate is describing",
+                  "example": "Is it the milkmaid in Vermeer's painting?"
+                },
+                {
+                  "text": "Say what you're wearing today",
+                  "example": "Today I'm wearing jeans, a blue shirt and black trainers."
+                },
+                {
+                  "text": "Describe what somebody is wearing",
+                  "example": "He's wearing a grey suit and a white shirt, and he's carrying a bag."
+                }
               ]
             }
           ]
@@ -1093,12 +1107,30 @@
               "n": 1,
               "type": "talk",
               "situation": "You are a classmate in an English class (level: pre-intermediate). You and the student both look at the remake photo of Vermeer's The Milkmaid. First ask the student 4–5 questions about where things are in the photo, one at a time (Where's the man? Where are the eggs? What's under the bread? What's behind the man? Where's the flower?). React briefly and say if the answer is right. Then ask the student to ask you two questions about the photo and answer them with prepositions of place.",
-              "goal": "Look at the photo. Answer your classmate's questions about where the man and the things are, with prepositions of place. Then ask your classmate two questions.",
+              "goal": "Answer questions about the Milkmaid photo, then ask two of your own.",
               "opener": "OK, look at the photo. Where's the man?",
               "criteria": [
                 "answers with prepositions of place correctly (in, on, under, behind, between, next to, above, in front of, in the corner, on the left of, in the middle of)",
                 "uses There is / There are and It's / They're in the answers",
                 "asks the classmate at least one Where is / Where are question"
+              ],
+              "steps": [
+                {
+                  "text": "Say where the man is",
+                  "example": "He's behind the table, on the left."
+                },
+                {
+                  "text": "Say where the things on the table are",
+                  "example": "The eggs are on the table, next to the bread."
+                },
+                {
+                  "text": "Answer the other questions",
+                  "example": "There's a flower in a glass on the table."
+                },
+                {
+                  "text": "Ask your classmate two questions",
+                  "example": "Where's the woman? What's in front of the window?"
+                }
               ],
               "pictures": [
                 {
@@ -1890,12 +1922,34 @@
               "n": 1,
               "type": "talk",
               "situation": "You are a classmate in an English class (level: pre-intermediate). You and the student ask and answer: What clothes do you usually wear… for work / university / school? when you go out at night? when you want to relax at the weekend? for a special occasion? Your answers: for work you usually wear trousers, a shirt and a cardigan; at night – jeans, a black top and boots; at the weekend – a tracksuit and trainers; for a wedding – a suit and a tie. Answer one question at a time and then ask the student the same question. Use the present simple for habits (I usually wear…). Say the clothes words clearly, and if the student mispronounces shirt, skirt, T-shirt (/ɜː/) or trousers, sweater, cardigan (/ə/), repeat the word correctly in your answer.",
-              "goal": "Ask your classmate what clothes they usually wear for work or school, when they go out at night, at the weekend, and for a special occasion. Answer the same questions.",
+              "goal": "Ask and answer: What clothes do you usually wear…?",
               "opener": "OK, my turn first. For work I usually wear trousers, a shirt and a cardigan. What about you? What do you usually wear for work or school?",
               "criteria": [
                 "asks at least two of the questions (What do you usually wear…?)",
                 "answers all four situations with clothes words from the lesson",
                 "uses the present simple for habits (I usually wear…)"
+              ],
+              "steps": [
+                {
+                  "text": "Say what you wear for work or school",
+                  "example": "For work I usually wear a shirt, trousers and a jacket."
+                },
+                {
+                  "text": "Ask what your classmate wears at night",
+                  "example": "What do you usually wear when you go out at night?"
+                },
+                {
+                  "text": "Say what you wear at night",
+                  "example": "I usually wear jeans, a nice top and boots."
+                },
+                {
+                  "text": "Say what you wear at the weekend",
+                  "example": "At the weekend I usually wear a tracksuit and trainers."
+                },
+                {
+                  "text": "Say what you wear for a special occasion",
+                  "example": "For a wedding I usually wear a dress and high heels."
+                }
               ]
             }
           ]
@@ -3319,12 +3373,34 @@
               "n": 1,
               "type": "talk",
               "situation": "You are a classmate in an English class (level: pre-intermediate). You are student B. You have two pictures and the student can't see them. Your picture 1 is a modern photo, a remake of Vermeer's Girl Reading a Letter at an Open Window: a young woman is standing in a darkroom and looking at some photos in her hands; there are photos hanging on a line; there's a small window at the top on the left; there's a machine for making photos (an enlarger) on the table; there's no curtain and no fruit. Your picture 2 is the painting The Poor Poet by Carl Spitzweg: an old man is in bed in an attic, under an open umbrella hanging from the ceiling; he's wearing a nightcap and he's holding a pen (a quill) in his mouth; there are old books on the floor and next to the bed; there's a cold stove; there's a towel on a line; there's a window on the right. First the student describes their picture 1 (the painting). Listen, ask one or two questions, then say what is the same and what is different in your photo 1. Then you describe your picture 2 (The Poor Poet) in 3–4 short sentences with There is / There are and the present continuous, and ask the student what is the same and what is different in their photo 2. Don't describe all of your picture at once.",
-              "goal": "You are student A. Describe your painting (picture 1) to your classmate and find what is the same and different in their photo. Then listen to your classmate's painting and say what is the same and different in your photo (picture 2).",
+              "goal": "Compare your pictures with your classmate's.",
               "opener": "Hi! Let's start with picture 1. Can you describe your painting?",
               "criteria": [
                 "describes the picture with There is / There are and prepositions of place",
                 "uses the present continuous for what people are doing (She's reading…, She's lying…)",
                 "says what is the same and what is different (In my picture there's…, but in yours…)"
+              ],
+              "steps": [
+                {
+                  "text": "Describe the person in your picture 1",
+                  "example": "In my painting a woman is standing at an open window and she's reading a letter."
+                },
+                {
+                  "text": "Describe the things in picture 1",
+                  "example": "There's a curtain on the right, and there's some fruit on the table."
+                },
+                {
+                  "text": "Say what is the same and different",
+                  "example": "In my picture there's a window, but in yours there's no curtain."
+                },
+                {
+                  "text": "Listen and say what's the same in picture 2",
+                  "example": "In my photo there's an umbrella too, and there are books on the floor."
+                },
+                {
+                  "text": "Say what's different in picture 2",
+                  "example": "In my photo the man isn't old, and he's holding a laptop, not a pen."
+                }
               ],
               "pictures": [
                 {
@@ -3351,12 +3427,38 @@
               "n": 1,
               "type": "talk",
               "situation": "You are a classmate in an English class (level: pre-intermediate). You talk about art with the student. Ask these questions one at a time and give your own short answers too: Is there a painting you know that you would like to remake? What pictures or posters do you have on the wall in your bedroom or living room? Do you have any favourite painters or paintings? Who or what are they? Why do you like them? What famous painters are there from your country? Do you like any of their paintings? Do you (or did you) paint or draw? What kind of things? Your answers: you’d like to remake Van Gogh’s The Bedroom; you have a poster of The Milkmaid by Vermeer in your living room; your favourite painter is Frida Kahlo; you draw people on the train. When the student describes a picture, encourage There is / There are and the present continuous (A woman is standing…).",
-              "goal": "Talk about art with your classmate: a painting you would like to remake, pictures on your walls, your favourite painters and paintings, famous painters from your country, and whether you paint or draw.",
+              "goal": "Talk about art with your classmate.",
               "opener": "I love the Remake Project! Is there a famous painting you would like to remake?",
               "criteria": [
                 "answers at least four of the questions with a reason",
                 "describes a picture with There is / There are and the present continuous",
                 "asks the classmate at least one question back"
+              ],
+              "steps": [
+                {
+                  "text": "Say which painting you would like to remake",
+                  "example": "I'd like to remake The Starry Night because I love the colours."
+                },
+                {
+                  "text": "Say what pictures you have on your walls",
+                  "example": "There's a poster of Paris in my bedroom."
+                },
+                {
+                  "text": "Talk about your favourite painter or painting",
+                  "example": "My favourite painter is Monet. I like his paintings of water and flowers."
+                },
+                {
+                  "text": "Talk about famous painters from your country",
+                  "example": "Repin is a famous Russian painter. I like Barge Haulers on the Volga."
+                },
+                {
+                  "text": "Say if you paint or draw",
+                  "example": "I don't paint, but I drew a lot when I was a child."
+                },
+                {
+                  "text": "Ask your classmate a question back",
+                  "example": "What about you? Do you have any pictures on your walls?"
+                }
               ]
             }
           ]
@@ -3723,12 +3825,30 @@
               "n": 1,
               "type": "talk",
               "situation": "You are the receptionist at a hotel in New York. The student is a guest who calls reception about two problems with their room (they choose the problems). You have already answered the phone. After each problem, offer to do something with I'll + verb (I'll send somebody up to look at it. / I'll put you through to IT.). Call the guest sir or madam. Wait for the second problem; if the guest doesn't mention one, ask 'Is there anything else?'.",
-              "goal": "You are a guest at a hotel. Call reception, say your room number and tell them about two problems with your room.",
+              "goal": "You are a hotel guest. Call reception about two problems.",
               "opener": "Hello, reception. How can I help you?",
               "criteria": [
                 "says the room number",
                 "explains two different problems clearly, e.g. There's a problem with… / It isn't working. / I can't…",
                 "is polite (Thank you / I'm sorry to bother you)"
+              ],
+              "steps": [
+                {
+                  "text": "Say your room number",
+                  "example": "Hello, this is room 314."
+                },
+                {
+                  "text": "Tell them about the first problem",
+                  "example": "There's a problem with the air conditioning. It isn't working."
+                },
+                {
+                  "text": "Tell them about the second problem",
+                  "example": "And I can't connect to the Wi-Fi."
+                },
+                {
+                  "text": "Thank the receptionist",
+                  "example": "Thank you very much. Sorry to bother you."
+                }
               ]
             }
           ]
@@ -3743,12 +3863,26 @@
               "n": 1,
               "type": "talk",
               "situation": "You are a guest in room 408 of a hotel in New York. You call reception; the student is the receptionist. You have two problems: first the TV isn't working, then (after the receptionist answers) there are no towels in the bathroom. Tell one problem at a time and wait for the receptionist to offer to do something. Thank them after each offer.",
-              "goal": "You are the hotel receptionist. Answer the phone, ask how you can help, and offer to do something about each problem with I'll + verb.",
+              "goal": "You are the hotel receptionist. Help a guest with two problems.",
               "opener": "Hello? Is that reception?",
               "criteria": [
                 "answers politely, e.g. Hello, reception. How can I help you?",
                 "offers to do something about each of the two problems with I'll + verb (I'll send…, I'll bring…)",
                 "the offers are correct English"
+              ],
+              "steps": [
+                {
+                  "text": "Answer the phone and offer help",
+                  "example": "Hello, reception. How can I help you?"
+                },
+                {
+                  "text": "Offer to do something about the TV",
+                  "example": "I'm sorry, madam. I'll send somebody up to look at it."
+                },
+                {
+                  "text": "Offer to do something about the towels",
+                  "example": "I'm very sorry. I'll bring you some towels right now."
+                }
               ]
             }
           ]

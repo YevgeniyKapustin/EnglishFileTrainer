@@ -64,9 +64,14 @@ PNG → `tools/out/`.
 Ввод только с клавиатуры/голосом — **никаких вариантов на выбор**. Переделка (`plans/pipeline.md`):
 - выбрать форму / a–c → `blank`, варианты или исходная форма в `hint`: `Where {} born? (you / be)`;
 - слова по порядку → `rewrite`, слова вразброс в `prompt`;
-- «right or wrong, correct the mistakes» → `rewrite` с `prefill`;
+- «right or wrong, correct the mistakes» и «put the word in the right place» → `rewrite`: исходная фраза в `prompt`,
+  слово в `hint`, поле пустое, фраза пишется целиком. Заранее вписанного текста в поле (`prefill`) не делать;
+- A/B («which is right?») → `rewrite`: обе фразы в `prompt`, ответ — верная фраза целиком (не буква);
+- True/False → `rewrite`: утверждение в `prompt`, ответ — утверждение, исправленное так, чтобы стало верным
+  (верное — переписать как есть);
+- никаких подсказок с первой буквой ответа («b…») в `hint`;
+- знаки препинания, нужные в ответе при «слова по порядку», — среди слов `prompt`: `Anna / like music / ?`;
 - сопоставить 1–n с a–n → по `blank` на пару;
-- картинки → короткое текстовое описание в тексте/`context` (картинок книги в приложении нет);
 - listen and repeat / скажи вслух → `speak` (группы букв «A K E» — мягкая проверка букв);
 - говорение с партнёром, Communication, вопросы «about you» устно → `talk` (situation, goal, opener, criteria);
 - письмо своими словами (Writing, «write about…», ответы на вопросы о себе) → `write` (prompt, questions, criteria).

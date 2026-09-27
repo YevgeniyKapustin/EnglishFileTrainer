@@ -62,7 +62,9 @@ def default_source(exercise: Json) -> str:
 
 
 def audio_path(track: str) -> Path:
-    return AUDIO_DIR / (track.replace(".", "_") + ".mp3")
+    base = AUDIO_DIR / track.replace(".", "_")
+    compressed = base.with_suffix(".ogg")
+    return compressed if compressed.exists() else base.with_suffix(".mp3")
 
 
 def video_path(name: str) -> Path:

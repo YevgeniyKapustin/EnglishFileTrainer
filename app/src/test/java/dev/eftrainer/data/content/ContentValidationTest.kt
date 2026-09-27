@@ -1,5 +1,6 @@
 package dev.eftrainer.data.content
 
+import dev.eftrainer.core.audio.AudioAssets
 import dev.eftrainer.domain.check.Checker
 import dev.eftrainer.domain.check.Normalizer
 import org.junit.Assert.assertEquals
@@ -109,8 +110,8 @@ class ContentValidationTest {
                 exercises.filterIsInstance<Speak>().mapNotNull { it.audio } +
                 sections.flatMap { it.reference }.filterIsInstance<Reference.Table>().mapNotNull { it.audio }
         for (track in tracks) {
-            val file = File(dir, track.replace('.', '_') + ".mp3")
-            assertTrue("нет аудио $file", file.isFile)
+            val files = AudioAssets.candidates(track).map { File(dir.parentFile, it) }
+            assertTrue("нет аудио $track", files.any { it.isFile })
         }
     }
 

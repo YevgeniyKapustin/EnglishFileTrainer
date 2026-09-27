@@ -18,6 +18,7 @@ ignore = [
 "tools/generate.py" = ["PLC0415"]
 "tools/clips.py" = ["PLC0415"]
 "tools/lint_hook.py" = ["S603"]
+"tools/media.py" = ["S603"]
 
 [tool.ruff.format]
 quote-style = "double"
@@ -31,5 +32,5 @@ warn_unreachable = true
 untyped_calls_exclude = ["pymupdf"]
 
 [[tool.mypy.overrides]]
-module = ["mutagen", "mutagen.*", "faster_whisper", "faster_whisper.*"]
+module = ["mutagen", "mutagen.*", "faster_whisper", "faster_whisper.*", "imageio_ffmpeg"]
 ignore_missing_imports = true

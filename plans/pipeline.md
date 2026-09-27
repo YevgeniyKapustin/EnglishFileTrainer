@@ -62,9 +62,9 @@ PDF → JSON → Kotlin, аудио, клипы. Порядок работы —
 
 ## Аудио SB
 
-**Аудио SB** — `english_file/audio/EF4e_PreintSB_<u>.<n>.mp3`, 280 шт.; вшиты в APK (`assets/audio/<u>_<n>.mp3`,
-папка в `.gitignore`). Content-validation: у каждого трека задания/таблицы есть файл. Если APK станет мешать —
-пережать (Opus моно ~32 кбит/с) или аудио только в release (`src/release/assets`).
+**Аудио SB** — `english_file/audio/EF4e_PreintSB_<u>.<n>.mp3`, 280 шт.; вшиты в APK пережатыми (`assets/audio/<u>_<n>.ogg`,
+Opus моно 32 кбит/с; папка в `.gitignore`). Видео — x264 CRF 28 + AAC моно 64 кбит/с. Пережимает `tools/media.py`
+(ffmpeg из пакета `imageio-ffmpeg`, ставить ничего не надо). Content-validation: у каждого трека задания/таблицы есть файл.
 
 ## Скрипты `tools/`
 

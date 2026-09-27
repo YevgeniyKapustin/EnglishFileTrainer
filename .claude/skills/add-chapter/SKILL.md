@@ -72,6 +72,13 @@ PNG → `tools/out/`.
 - никаких подсказок с первой буквой ответа («b…») в `hint`;
 - знаки препинания, нужные в ответе при «слова по порядку», — среди слов `prompt`: `Anna / like music / ?`;
 - сопоставить 1–n с a–n → по `blank` на пару;
+- фото/картинки книги («match the sentences and the photos») → настоящая картинка, вырезанная из страницы SB/WB PDF
+  (шаг 4, «Картинки»), у пункта `blank`/`rewrite` поле `"image": "1b_vb1a_2"`; ответ вписывается. Описывать
+  картинку словами в `text` и брать кадры из видео — нельзя;
+- расставить картинки или события по порядку («number the pictures 1–6») → одно упражнение `"type": "order"`:
+  `"pictures": [{"label": "A", "image": "1a_pe1a_a", "caption": "что на картинке"}, …]`, `"answer": ["B", "D", …]`
+  (метки в верном порядке). Это список: перетащить или ↑/↓, потом Check — единственный ввод не с клавиатуры;
+  `caption` не показывается (для ИИ и озвучки);
 - listen and repeat / скажи вслух → `speak` (группы букв «A K E» — мягкая проверка букв);
 - говорение с партнёром, Communication, вопросы «about you» устно → `talk` (situation, goal, opener, criteria);
 - письмо своими словами (Writing, «write about…», ответы на вопросы о себе) → `write` (prompt, questions, criteria).
@@ -87,7 +94,7 @@ PNG → `tools/out/`.
 у каждого `explain`. Лексика и грамматика — только пройденные (эта глава и раньше). Разные форматы, как в 1A
 (слова по порядку, пропуски, исправь ошибку, напиши вопрос). `generate.py` отсеет дубли с книгой.
 
-## 4. Аудио, видео, клипы
+## 4. Аудио, видео, клипы, картинки
 
 - Треки: `cp "english_file/audio/EF4e_PreintSB_<n>.<k>.mp3" app/src/main/assets/audio/<n>_<k>.mp3` для каждого
   трека из JSON. Видео — `app/src/main/assets/video/ep<k>_<snake_name>.mp4`. Обе папки не в git.
@@ -108,6 +115,15 @@ PNG → `tools/out/`.
 - Когда клипы готовы — пережать новые файлы (MP3 → Opus `.ogg`, MP4 → x264 + AAC моно; уже пережатые не трогает):
   `PYTHONIOENCODING=utf-8 uv run --no-project --with imageio-ffmpeg python tools/media.py`
 
+**Картинки** — только со страницы SB/WB PDF, где их печатает книга, даже если задание к видео:
+- найти границы: `uv run --no-project --with pymupdf python tools/render.py sb 13 --dpi 96` — в этом PNG
+  1 px = 1 px скана (страница SB — 1536×1936), координаты фото снять с него;
+- добавить в `CROPS` в `tools/images.py`: `"<id главы строчными>_<задание>_<n>": (страница PDF, (x0, y0, x1, y1))`,
+  пример книги (пункт 1) не резать;
+- `PYTHONIOENCODING=utf-8 uv run --no-project --with pymupdf --with pillow python tools/images.py <имена>` →
+  `app/src/main/assets/image/<name>.webp` (≤ 480 px по ширине, webp q80; папка не в git). Открыть файлы и
+  убедиться, что не залезли соседние фото и подписи.
+
 ## 5. Генерация и подключение
 
 ```
@@ -115,7 +131,7 @@ PYTHONIOENCODING=utf-8 uv run --no-project --with mutagen python tools/generate.
 ```
 - Ошибки валидатора исправлять в JSON; `File<ID>.kt` руками не править.
 - Добавить `File<ID>` в `Chapters.all` (`app/src/main/java/dev/eftrainer/data/content/Chapters.kt`) по порядку книги.
-- Сборка и тесты: `./gradlew assembleDebug testDebugUnitTest -q` (ContentValidationTest проверит треки, клипы, id).
+- Сборка и тесты: `./gradlew assembleDebug testDebugUnitTest -q` (ContentValidationTest проверит треки, клипы, картинки, id).
   Упавший тест — смотреть `app/build/test-results/testDebugUnitTest/*.xml` (`<failure message=…>`), править JSON.
   Частое: `rewrite` с `" / "` в `prompt` без `hint` считается «слова по порядку» — каждый ответ обязан состоять
   ровно из слов `prompt` (без сокращений `Sam’s` при `Sam / is`). Если нужно добавить слова (написать вопрос
@@ -128,7 +144,7 @@ PYTHONIOENCODING=utf-8 uv run --no-project --with mutagen python tools/generate.
 - PLAN.md: статус и §0; строка про главу в `plans/history.md` (разделы, число упражнений, что не перенесено, что MODEL/сомнительно).
 - Отчёт пользователю по-русски, коротко: разделы и число упражнений; какие ответы не из ключа и сомнительны;
   что не перенесено и почему; что по книге относится к другим главам; нужен ли новый тип/фича.
-- Не коммитить без просьбы. PDF, аудио, видео, рендеры — никогда в git.
+- Не коммитить без просьбы. PDF, аудио, видео, картинки, рендеры — никогда в git.
 
 ## Если делает субагент
 

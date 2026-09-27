@@ -50,7 +50,7 @@ app/src/main/java/<package>/
   ui/
     current/   CurrentChapterScreen + ViewModel   (стартовый)
     section/   SectionScreen + ViewModel
-    exercise/  ExerciseScreen + SessionViewModel + inputs/ (Rewrite, Blank, Speak, Talk, Write, плееры)
+    exercise/  ExerciseScreen + SessionViewModel + inputs/ (Rewrite, Blank, Order, Speak, Talk, Write, плееры)
     chapters/  AllChaptersScreen + ViewModel
 app/src/test/java/<package>/   unit-тесты domain + content-validation (JVM)
 tools/                         конвейер `plans/pipeline.md` (Python): рендер PDF, JSON, генерация .kt
@@ -65,6 +65,7 @@ sealed interface Exercise {
     val explain: String?  // показываем после неверного ответа
     val source: AnswerSource
     val clip: Clip? get() = null   // отрезок записи задания для этого пункта (Blank/Rewrite/Speak)
+    val image: String? get() = null  // фото из книги над пунктом (Blank/Rewrite): assets/image/<name>.webp
 }
 
 // Отрезок Task.audio / Task.video, мс от начала файла. Файл не режем: плеер (Media3 ExoPlayer,
@@ -82,6 +83,7 @@ enum class AnswerSource {
 // Ввод — ТОЛЬКО с клавиатуры: никаких вариантов на выбор, чипов и сопоставлений
 // (решено 26.09.2026). Задания книги с выбором/сопоставлением конвейер
 // переделывает в один из двух типов ниже — см. `plans/pipeline.md`.
+// Единственное исключение — Order: расставить картинки/события списком (перетащить или ↑/↓, потом Check).
 
 data class Rewrite(                       // написать предложение целиком
     override val id: String,
@@ -100,6 +102,13 @@ data class Blank(                          // один или несколько
     val gaps: List<List<String>>,          // по пропуску: допустимые варианты
     override val hint: String? = null,     // "(want)" / "(you / be)" / анаграмма "(nynfu)"
     override val explain: String? = null,
+) : Exercise
+
+data class Order(                          // "Number the pictures 1–6": 1A-pe1a
+    override val id: String,
+    val pictures: List<Picture>,           // Picture(label "A", image "1a_pe1a_a", caption для ИИ и TalkBack)
+    val answer: List<String>,              // метки в верном порядке — перестановка pictures
+    ...
 ) : Exercise
 
 // Э7.6 (см. Model.kt): Speak (сказать вслух; text из отдельных букв "A K E" — мягкая проверка букв),
@@ -158,6 +167,7 @@ data class Task(           // одно задание книги: «2a Complete 
   Для `prefill` — то же: сравниваем итоговый текст поля.
 - `Blank`: каждый пропуск совпал с одним из своих вариантов; верно, только если
   верны все пропуски (неверные подсвечиваем по отдельности).
+- `Order`: порядок меток совпал с `answer`; неверные позиции подсвечиваем, ожидаемое — метки через пробел.
 - При неверном ответе показываем ожидаемый вариант (первый из `answers`) и
   `explain`, если он задан.
 
@@ -165,11 +175,11 @@ data class Task(           // одно задание книги: «2a Complete 
 
 **Unit (JVM, быстрые, гоняются на каждом шаге):**
 - нормализатор: апострофы, пробелы, регистр, финальная пунктуация;
-- проверка ответа по обоим типам — верно и неверно;
+- проверка ответа по всем типам — верно и неверно; `Order` — позиции и перестановка (`OrderCheckTest`);
 - FSRS: верный ответ растит интервал, ошибка сбрасывает на ~1 день, потолок 180, расчёт `dueOn`;
 - **валидация контента** — механическая, ловит ошибки переноса, но не смысла:
   id уникальны по всем главам, `answers` непусты, в `Blank` число `{}` в `text`
-  равно числу `gaps`, и ни один вариант не пуст.
+  равно числу `gaps`, и ни один вариант не пуст; картинки `image` есть в assets (если папка скачана).
 
 **Ручная проверка на телефоне (после Э5 и Э6):**
 - по одному упражнению каждого типа (и `Rewrite` с `prefill`): ответить верно и ответить неверно;

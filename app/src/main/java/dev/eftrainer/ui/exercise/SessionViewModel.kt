@@ -8,6 +8,7 @@ import dev.eftrainer.data.content.Blank
 import dev.eftrainer.data.content.Chapter
 import dev.eftrainer.data.content.Chapters
 import dev.eftrainer.data.content.Exercise
+import dev.eftrainer.data.content.Order
 import dev.eftrainer.data.content.Rewrite
 import dev.eftrainer.data.content.Speak
 import dev.eftrainer.data.content.Talk
@@ -20,6 +21,7 @@ import dev.eftrainer.domain.ai.RuleScope
 import dev.eftrainer.domain.ai.WritePrompt
 import dev.eftrainer.domain.ai.reply
 import dev.eftrainer.domain.check.Checker
+import dev.eftrainer.domain.check.expected
 import dev.eftrainer.domain.learning.ChapterCompletion
 import dev.eftrainer.domain.learning.DayInputs
 import dev.eftrainer.domain.learning.DayStep
@@ -180,6 +182,7 @@ class SessionViewModel(
                 is Rewrite -> Checker.check(e, inputs.single())
                 is Blank -> Checker.check(e, inputs)
                 is Speak -> Checker.check(e, inputs.single())
+                is Order -> Checker.check(e, inputs)
                 is Talk -> return
                 is Write -> return gradeWriting(q, e, inputs.single())
             }
@@ -336,6 +339,7 @@ class SessionViewModel(
             is Rewrite -> answers.first()
             is Blank -> Checker.check(this, gaps.map { it.first() }).expected
             is Speak -> text
+            is Order -> expected()
             is Talk -> goal
             is Write -> prompt
         }

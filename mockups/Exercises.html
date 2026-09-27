@@ -85,8 +85,14 @@ html.dark .listen,html.dark .link{color:var(--ef-sky)}
 .bub2.q .hint{font-size:15px}
 .noun{font:600 30px/1.2 'Literata',Georgia,serif}
 .order{display:flex;flex-direction:column;gap:6px}
-.orow{display:flex;align-items:center;gap:10px;min-height:44px;padding:6px 8px 6px 12px;background:var(--field);border:1px solid var(--line);border-radius:12px;font:400 16px/21px 'Literata',Georgia,serif}
-.orow b{font:700 14px 'Golos Text',sans-serif;color:var(--muted);width:12px}
+.orow{display:flex;align-items:center;gap:10px;height:88px;box-sizing:border-box;padding:8px 4px 8px 12px;background:var(--field);border:1px solid var(--line);border-radius:12px}
+.orow b{font:700 15px 'Golos Text',sans-serif;color:var(--muted);width:14px}
+.orow img{width:108px;height:72px;object-fit:cover;border-radius:8px}
+.orow .let{font:400 19px 'Literata',Georgia,serif}
+.orow .mv{display:flex;flex-direction:column;color:var(--muted)}
+.orow .mv span{width:40px;height:36px;display:flex;align-items:center;justify-content:center}
+.orow .mv .off{color:var(--off)}
+.photo{align-self:flex-start;max-height:180px;max-width:100%;border-radius:12px}
 .orow .grip{color:var(--chev);flex-shrink:0}
 .orow.lift{border-color:var(--ef-teal);box-shadow:0 6px 18px rgba(0,0,0,.14);transform:translateX(4px) rotate(-.6deg)}
 .screen16.small{aspect-ratio:auto;height:120px}
@@ -101,7 +107,7 @@ html.dark .vl{color:var(--ef-sky)}
 <body>
 <div class="intro">
   <h1>Виды упражнений · 1A + 1B</h1>
-  <p>По одному экрану на вид из plans/exercise-types.md, примеры из нашего контента. «Новое» — улучшенная версия из каталога, остальные — как сейчас в приложении. Всё вписывается с клавиатуры.</p>
+  <p>По одному экрану на вид из plans/exercise-types.md, примеры из нашего контента. «Новое» — улучшенная версия из каталога, остальные — как сейчас в приложении. Всё вписывается с клавиатуры, кроме порядка картинок (12): его расставляют списком. Картинки — вырезки со страниц книги (<code>tools/images.py</code>).</p>
 </div>
 <div class="frames" id="frames"></div>
 <script>
@@ -112,6 +118,8 @@ const I = {
   speaker: s => `<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5L6 9H3v6h3l5 4zM15.5 9a4 4 0 0 1 0 6M18.5 6a8 8 0 0 1 0 12"/></svg>`,
   mic: (s, c) => `<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zM18.5 11a6.5 6.5 0 0 1-13 0M12 17.5V21"/></svg>`,
   grip: '<svg class="grip" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="9" cy="6" r="1.6"/><circle cx="15" cy="6" r="1.6"/><circle cx="9" cy="12" r="1.6"/><circle cx="15" cy="12" r="1.6"/><circle cx="9" cy="18" r="1.6"/><circle cx="15" cy="18" r="1.6"/></svg>',
+  up: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 15l6-6 6 6"/></svg>',
+  down: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>',
   check: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
 };
 
@@ -133,8 +141,11 @@ const video = (pos, total, pct, small = false) =>
   `<div class="vctl"><div class="pb">${I.play('currentColor')}</div><div class="seek"><i style="width:${pct}%"></i></div><div class="time">${pos} / ${total}</div></div></div>`;
 const say = (html, right = false) =>
   `<div class="msg ${right ? 'me' : ''}"><div class="bub2 ${right ? 'me' : 'ai'} q en">${html}</div></div>`;
-const order = rows =>
-  `<div class="order">${rows.map(([l, t, c], i) => `<div class="orow ${c || ''}"><b>${i + 1}</b><span class="let">${l}</span><span class="grow">${t}</span>${I.grip}</div>`).join('')}</div>`;
+const IMG = '../app/src/main/assets/image/';
+const order = (rows, lifted) =>
+  `<div class="order">${rows.map((l, i) => `<div class="orow ${l === lifted ? 'lift' : ''}"><b>${i + 1}</b>` +
+    `<img src="${IMG}1a_pe1a_${l.toLowerCase()}.webp" alt=""><span class="let grow">${l}</span>` +
+    `<span class="mv"><span class="${i ? '' : 'off'}">${I.up}</span><span class="${i < rows.length - 1 ? '' : 'off'}">${I.down}</span></span>${I.grip}</div>`).join('')}</div>`;
 const check = enabled => `<div class="bottom"><button class="btn" ${enabled ? '' : 'disabled'}>Check</button></div>`;
 const sayIcon = `<span class="sayi">${I.speaker(20)}</span>`;
 const sheetOk = (extra = '') =>
@@ -195,17 +206,14 @@ const F = [
     instr: 'Correct the questions. If a question is already correct, leave it as it is',
     body: `<div class="q en">Where works your father?</div>` + field(), bottom: check(false) },
 
-  { n: '11', name: 'Сопоставление: тема абзаца', st: 'unsure', tag: 'ls', count: '2 / 4', done: 25,
-    instr: 'Write the topic of each paragraph',
-    body: `<div class="ctx"><p><span class="pn">2</span>I’m going to tell you about myself. I’m at university. I’m studing physics. I live with my parents in a flat in the centre.</p><p><span class="pn">3</span>As you can see from the foto, I have black hair and browns eyes. My father always says I have a big nose, but I don’t think so.</p></div>` +
-      box(['hobbies and interests', 'personality', 'physical appearance', 'work / study', 'family'], ['work / study', 'family']) +
-      `<div class="q en">Paragraph 3: ${gap('physical appearance')}</div>`, bottom: check(false) },
+  { n: '11', name: 'Сопоставление с фото из книги', st: 'new', tag: 'v', count: '1 / 8', done: 0,
+    instr: 'Match the sentences and the photos. Complete the sentences. Then listen and check',
+    body: `<img class="photo" src="${IMG}1b_vb1a_2.webp" alt="">` +
+      `<div class="q en">She has ${gap('curly')} red hair.</div>`, bottom: check(false) },
 
-  { n: '12', name: 'Порядок событий — расставить список', st: 'new', tag: 'pe', count: '1 / 6', done: 0,
+  { n: '12', name: 'Порядок картинок — расставить список', st: 'new', tag: 'pe', count: '1 / 1', done: 0,
     instr: 'Watch Jenny. Number the pictures 1–6 in the order she mentions them',
-    body: video('1:48', '1:48', 100, true) + order([
-      ['B', 'Jenny at Arrivals with her suitcase'], ['D', 'Jenny shakes hands with the manager'], ['A', 'Rob in a new shirt', 'lift'],
-      ['C', 'Jenny and Rob with coffee'], ['F', 'Jenny and Rob under an umbrella by the river'], ['E', 'Rob next to a yellow taxi']]), bottom: check(true) },
+    body: video('1:48', '1:48', 100, true) + order(['B', 'D', 'A', 'C', 'F', 'E'], 'A'), bottom: check(true) },
 
   { n: '13', name: 'Диктант', st: 'как есть', tag: 'ls', count: '2 / 6', done: 17,
     instr: 'Listen to extracts from six conversations. Write the letters and numbers you hear',

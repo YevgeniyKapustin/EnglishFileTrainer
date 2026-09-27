@@ -2625,79 +2625,21 @@
           "origin": "SB",
           "video": "ep1_introduction",
           "instruction": "Watch Jenny. Number the pictures 1–6 in the order she mentions them",
-          "note": "SB PE1 1a; картинок нет — описание кадра. Порядок — наш (MODEL)",
+          "note": "SB PE1 1a; картинки A–F из SB p.12 (tools/images.py), расставить списком. Порядок — наш (MODEL)",
           "exercises": [
             {
               "n": 1,
-              "type": "blank",
-              "text": "A  Rob in a new shirt: {}",
-              "gaps": [
-                [
-                  "5"
-                ]
+              "type": "order",
+              "pictures": [
+                {"label": "A", "image": "1a_pe1a_a", "caption": "Rob in a new shirt"},
+                {"label": "B", "image": "1a_pe1a_b", "caption": "Jenny at Arrivals with her suitcase"},
+                {"label": "C", "image": "1a_pe1a_c", "caption": "Jenny and Rob with coffee"},
+                {"label": "D", "image": "1a_pe1a_d", "caption": "Jenny shakes hands with the manager"},
+                {"label": "E", "image": "1a_pe1a_e", "caption": "Rob next to a yellow taxi"},
+                {"label": "F", "image": "1a_pe1a_f", "caption": "Jenny and Rob under an umbrella by the river"}
               ],
-              "source": "MODEL",
-              "hint": "(1–6)"
-            },
-            {
-              "n": 2,
-              "type": "blank",
-              "text": "B  Jenny at Arrivals with her suitcase: {}",
-              "gaps": [
-                [
-                  "1"
-                ]
-              ],
-              "source": "MODEL",
-              "hint": "(1–6)"
-            },
-            {
-              "n": 3,
-              "type": "blank",
-              "text": "C  Jenny and Rob with coffee: {}",
-              "gaps": [
-                [
-                  "3"
-                ]
-              ],
-              "source": "MODEL",
-              "hint": "(1–6)"
-            },
-            {
-              "n": 4,
-              "type": "blank",
-              "text": "D  Jenny shakes hands with the manager: {}",
-              "gaps": [
-                [
-                  "2"
-                ]
-              ],
-              "source": "MODEL",
-              "hint": "(1–6)"
-            },
-            {
-              "n": 5,
-              "type": "blank",
-              "text": "E  Rob next to a yellow taxi: {}",
-              "gaps": [
-                [
-                  "6"
-                ]
-              ],
-              "source": "MODEL",
-              "hint": "(1–6)"
-            },
-            {
-              "n": 6,
-              "type": "blank",
-              "text": "F  Jenny and Rob under an umbrella by the river: {}",
-              "gaps": [
-                [
-                  "4"
-                ]
-              ],
-              "source": "MODEL",
-              "hint": "(1–6)"
+              "answer": ["B", "D", "C", "F", "A", "E"],
+              "source": "MODEL"
             }
           ]
         },

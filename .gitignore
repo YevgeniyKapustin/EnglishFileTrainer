@@ -20,6 +20,7 @@ keystore.properties
 *.mp3
 *.mp4
 /app/src/main/assets/video/
+/app/src/main/assets/image/
 /.kotlin/
 
 /tools/out/

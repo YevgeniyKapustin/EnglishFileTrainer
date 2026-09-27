@@ -34,7 +34,10 @@ PDF → JSON → Kotlin, аудио, клипы. Порядок работы —
      фраза целиком;
    - «right or wrong? correct the mistakes» → `Rewrite` с `prefill`: фраза
      уже в поле, правишь; верную оставляешь как есть;
-   - «match 1–n with a–n» → по `Blank` на пару: `{} a film` → `watch`.
+   - «match 1–n with a–n» → по `Blank` на пару: `{} a film` → `watch`;
+   - «match the sentences and the photos» → `Blank`/`Rewrite` с `"image"` у пункта (фото из книги);
+   - «number the pictures / events in order» → `"type": "order"`: `pictures` `[{label, image, caption}]`
+     и `answer` — метки в верном порядке. Единственный ввод не с клавиатуры.
 3. Content-validation (`plans/architecture.md`, «Тесты») на JSON.
 4. Сверка: скан рядом с распознанным, правлю ошибки. Ответы SB, которые
    учитель поправил на уроке, правлю здесь же → `CONFIRMED`.
@@ -53,6 +56,12 @@ PDF → JSON → Kotlin, аудио, клипы. Порядок работы —
    раздела и заданиям книги как образцу, только лексика/грамматика пройденного; задания
    `"origin": "GENERATED"`, id `"<раздел>-x<N>"`, `source: MODEL`, у каждого `explain`.
    `generate.py` отсеивает дубли с книгой и между собой.
+
+5b. **Картинки** — только со страницы SB/WB PDF, где их печатает книга (не кадры видео). `tools/images.py`:
+   запись в `CROPS` — `"<глава>_<задание>_<n>": (страница PDF, (x0, y0, x1, y1))` в пикселях скана 96 dpi
+   (страница SB — один скан 1536×1936). Режет с отступом 3 px, ужимает до 480 px по ширине, webp q80 →
+   `assets/image/<name>.webp` (папка в `.gitignore`, как аудио). Пример книги (пункт 1) не режем.
+   `generate.py` проверяет имя и наличие файла, ContentValidationTest — что файл есть.
 
 **Переносим весь урок:** SB (включая говорение, чтение, аудирование), Grammar/Vocabulary Bank, WB.
 Не переносим только кроссворды и то, что без картинок книги не имеет смысла (в отчёте главы).
@@ -81,6 +90,8 @@ Opus моно 32 кбит/с; папка в `.gitignore`). Видео — x264 C
   1–2 с раньше), запас 0,3 с, но не дальше середины паузы до соседнего звука. Под музыкой карта громкости
   ненадёжна → `--words`. Если `find` промахнулся (цифры: whisper «07700», в книге «oh seven…») — искать глазами
   в `dump`. Результат прослушать: выравнивание — подсказка.
+- `images.py` — шаг 5b: `uv run --no-project --with pymupdf --with pillow python tools/images.py [имена]`
+  (без имён — все); границы искать по рендеру `render.py … --dpi 96`, там 1 px = 1 px скана.
 - `icon.py` — `uv run --no-project --with pymupdf python tools/icon.py`: пишет `drawable/ic_launcher_foreground.xml`,
   `drawable/splash_icon.xml` и превью `tools/out/icon.png`. Форму маски выбирает лаунчер (у TECNO — скруглённый
   квадрат), поэтому фон значка прозрачный, а белый круг видимой зоны (72 из 108) и веер по нему — в foreground.

@@ -3,6 +3,7 @@ package dev.eftrainer.domain.ai
 import dev.eftrainer.data.content.Blank
 import dev.eftrainer.data.content.Chapter
 import dev.eftrainer.data.content.Exercise
+import dev.eftrainer.data.content.Order
 import dev.eftrainer.data.content.Reference
 import dev.eftrainer.data.content.Rewrite
 import dev.eftrainer.data.content.Section
@@ -117,6 +118,10 @@ object ExplainPrompt {
                 inputs.joinToString(" / ")
             }
 
+            is Order -> {
+                inputs.joinToString(" ")
+            }
+
             is Blank -> {
                 exercise.text.split("{}").let { parts ->
                     parts.mapIndexed { i, p -> if (i < inputs.size) p + inputs[i].trim() else p }.joinToString("")
@@ -140,6 +145,10 @@ object ExplainPrompt {
 
             is Talk -> {
                 "conversation. $goal"
+            }
+
+            is Order -> {
+                "put the pictures in order: " + pictures.joinToString("; ") { "${it.label} ${it.caption}" }
             }
 
             is Write -> {

@@ -7,6 +7,7 @@ sealed interface Exercise {
     val source: AnswerSource
 
     val clip: Clip? get() = null
+    val image: String? get() = null
 }
 
 data class Clip(
@@ -33,6 +34,7 @@ data class Rewrite(
     override val explain: String? = null,
     override val source: AnswerSource = AnswerSource.KEY,
     override val clip: Clip? = null,
+    override val image: String? = null,
 ) : Exercise
 
 data class Blank(
@@ -43,6 +45,7 @@ data class Blank(
     override val explain: String? = null,
     override val source: AnswerSource = AnswerSource.KEY,
     override val clip: Clip? = null,
+    override val image: String? = null,
 ) : Exercise {
     init {
         require(text.split("{}").size - 1 == gaps.size) { "$id: число {} не совпадает с gaps" }
@@ -80,6 +83,25 @@ data class Write(
     override val explain: String? = null,
     override val source: AnswerSource = AnswerSource.CONFIRMED,
 ) : Exercise
+
+data class Picture(
+    val label: String,
+    val image: String,
+    val caption: String,
+)
+
+data class Order(
+    override val id: String,
+    val pictures: List<Picture>,
+    val answer: List<String>,
+    override val hint: String? = null,
+    override val explain: String? = null,
+    override val source: AnswerSource = AnswerSource.KEY,
+) : Exercise {
+    init {
+        require(answer.sorted() == pictures.map { it.label }.sorted()) { "$id: answer — не перестановка картинок" }
+    }
+}
 
 val Exercise.needsAi: Boolean get() = this is Talk || this is Write
 

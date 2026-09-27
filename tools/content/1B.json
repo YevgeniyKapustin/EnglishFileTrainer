@@ -1326,13 +1326,14 @@
           "id": "1B-vb1a",
           "origin": "SB",
           "instruction": "Match the sentences and the photos. Complete the sentences. Then listen and check",
-          "note": "VB Describing people 1a+1b; «match the sentences and photos» → фото описаны словами, пропуск — ключевое слово. 1 She has big blue eyes (малыш) — пример. Ответы по аудио 1.13",
+          "note": "VB Describing people 1a+1b; фото из VB p.150 (tools/images.py) у пункта в image, пропуск — ключевое слово. 1 She has big blue eyes (малыш) — пример. Ответы по аудио 1.13",
           "audio": "1.13",
           "exercises": [
             {
               "n": 2,
               "type": "blank",
-              "text": "Photo 2 (a woman with a lot of red hair in small curls): She has {} red hair.",
+              "text": "She has {} red hair.",
+              "image": "1b_vb1a_2",
               "gaps": [
                 [
                   "curly"
@@ -1344,7 +1345,8 @@
             {
               "n": 3,
               "type": "blank",
-              "text": "Photo 3 (a woman with long dark hair that isn’t curly): She has long {} hair.",
+              "text": "She has long {} hair.",
+              "image": "1b_vb1a_3",
               "gaps": [
                 [
                   "straight"
@@ -1356,7 +1358,8 @@
             {
               "n": 4,
               "type": "blank",
-              "text": "Photo 4 (a smiling man with no hair): He’s {}.",
+              "text": "He’s {}.",
+              "image": "1b_vb1a_4",
               "gaps": [
                 [
                   "bald"
@@ -1368,7 +1371,8 @@
             {
               "n": 5,
               "type": "blank",
-              "text": "Photo 5 (a man with a lot of hair on his chin and above his lip): He has a {} and a {}.",
+              "text": "He has a {} and a {}.",
+              "image": "1b_vb1a_5",
               "gaps": [
                 [
                   "beard"
@@ -1384,7 +1388,8 @@
             {
               "n": 6,
               "type": "blank",
-              "text": "Photo 6 (a young woman with short, very light yellow hair): She has short {} hair.",
+              "text": "She has short {} hair.",
+              "image": "1b_vb1a_6",
               "gaps": [
                 [
                   "blonde",
@@ -1397,7 +1402,8 @@
             {
               "n": 7,
               "type": "blank",
-              "text": "Photo 7 (a very tall young man in shorts; there isn’t much of him): He’s very tall and {}.",
+              "text": "He’s very tall and {}.",
+              "image": "1b_vb1a_7",
               "gaps": [
                 [
                   "thin"
@@ -1409,7 +1415,8 @@
             {
               "n": 8,
               "type": "blank",
-              "text": "Photo 8 (a short man in jeans with a big stomach): He’s quite short and a bit {}.",
+              "text": "He’s quite short and a bit {}.",
+              "image": "1b_vb1a_8",
               "gaps": [
                 [
                   "overweight"
@@ -1421,7 +1428,8 @@
             {
               "n": 9,
               "type": "blank",
-              "text": "Photo 9 (a slim young man, not tall and not short, in a black vest and red trousers): He’s {} height and very slim.",
+              "text": "He’s {} height and very slim.",
+              "image": "1b_vb1a_9",
               "gaps": [
                 [
                   "medium"

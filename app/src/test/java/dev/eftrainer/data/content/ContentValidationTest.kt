@@ -1,6 +1,7 @@
 package dev.eftrainer.data.content
 
 import dev.eftrainer.core.audio.AudioAssets
+import dev.eftrainer.core.ui.imageAsset
 import dev.eftrainer.domain.check.Checker
 import dev.eftrainer.domain.check.Normalizer
 import org.junit.Assert.assertEquals
@@ -37,6 +38,7 @@ class ContentValidationTest {
                     is Talk -> listOf(e.criteria)
                     is Write -> listOf(e.criteria)
                     is Blank -> e.gaps
+                    is Order -> listOf(e.answer, e.pictures.map { it.caption })
                 }
             assertTrue("${e.id}: пустой список ответов", variants.all { it.isNotEmpty() })
             assertTrue("${e.id}: пустой вариант ответа", variants.flatten().all { it.isNotBlank() })
@@ -122,6 +124,17 @@ class ContentValidationTest {
         for (video in videos) {
             val file = File(dir, "$video.mp4")
             assertTrue("нет видео $file", file.isFile)
+        }
+    }
+
+    @Test fun `exercise images exist in assets`() {
+        val dir = File("src/main/assets")
+        assumeTrue("нет ${File(dir, "image")}", File(dir, "image").isDirectory)
+        val images =
+            exercises.mapNotNull { it.image } +
+                exercises.filterIsInstance<Order>().flatMap { o -> o.pictures.map { it.image } }
+        for (image in images) {
+            assertTrue("нет картинки $image", File(dir, imageAsset(image)).isFile)
         }
     }
 

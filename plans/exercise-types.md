@@ -19,8 +19,8 @@
 | 8 | Вставить слово на место | Put the word in the correct place / Rewrite with the words in brackets | 1A-gba, 1B-wb2b | 2 / 16 | G | `Rewrite`: в 1A через `prefill`, в 1B через `prompt` — разнобой |
 | 9 | Построить/преобразовать фразу | Write questions… / Write sentences (+ − ?) | 1A-wb2c, 1B-gba, 1B-wb2d | 3 / 24 | G | `Rewrite` + `hint` `(?)`, `(you / do last night)` ✓ |
 | 10 | Исправь ошибки | Correct the questions / The computer has found ten mistakes | 1A-sb2a, 1B-wr1b | 2 / 14 | G, Writing | `Rewrite` + `prefill` ✓ |
-| 11 | Сопоставление | Match the sentences and the photos / Write the topic of each paragraph | 1B-vb1a, 1B-wr1c | 2 / 20 | V, Writing | `Blank` на пару; фото описаны словами в `text` |
-| 12 | Порядок событий/картинок | Number the pictures 1–6 in the order… | 1A-pe1a | 1 / 6 | PE | `Blank` + `(1–6)`; картинки описаны словами — слабо |
+| 11 | Сопоставление | Match the sentences and the photos / Write the topic of each paragraph | 1B-vb1a, 1B-wr1c | 2 / 20 | V, Writing | `Blank`; у 1B-vb1a над пунктом фото из книги (`image`) ✓ |
+| 12 | Порядок событий/картинок | Number the pictures 1–6 in the order… | 1A-pe1a | 1 / 1 | PE | `Order`: картинки из книги списком, перетащить или ↑/↓, потом Check — единственный ввод не с клавиатуры ✓ |
 | 13 | Диктант (записать услышанное) | Write the letters and numbers you hear / Listen and write the words | 1A-sb4a, 1A-sb3a, 1A-sb3b | 3 / 18 | P, аудирование | `Blank` + `clip` ✓ |
 | 14 | Понимание на слух / видео | Listen/Watch again and answer the questions | 1A-pe1b, 1B-sb4a, 1B-sb4e | 8 / 30 | аудирование, PE | `Blank` с `audio`/`video`, ответ втиснут в пропуск; много вариантов в `gaps` |
 | 15 | Понимание текста | Read the article… Find the information / answer the questions | 1B-sb1d, 1B-wr1a | 2 / 13 | чтение, Writing | `Blank` + `context` ✓ |
@@ -38,7 +38,7 @@
 - **Выбор (вид 4)** — вписать `A`/`T`/`S` почти ничего не тренирует и угадывается с шансом 1/2–1/3.
   По решению варианты остаются в `hint`; лучше, где можно, спрашивать саму форму/слово, а не букву
   (1B-sb2b: переписать верное предложение `Rewrite`, а не писать `A`).
-- **Картинки (виды 11, 12)** — фото и кадры заменены описаниями; сопоставление превращается в чтение описания.
+- **Картинки (виды 11, 12)** — фото вырезаны из страниц SB/WB (`tools/images.py`); на телефоне мелкие фото книги слегка мыльные.
 - **Свободный ответ в пропуске (вид 14, 15)** — риск ложного «неверно»: в `gaps` копятся варианты
   (`52`, `52 years old`, `fifty-two`, `he's 52`).
 - **Вид 8** оформлен двумя способами — выбрать один (`prefill`).

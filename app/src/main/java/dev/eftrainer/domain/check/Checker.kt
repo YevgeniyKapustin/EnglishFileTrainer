@@ -1,6 +1,7 @@
 package dev.eftrainer.domain.check
 
 import dev.eftrainer.data.content.Blank
+import dev.eftrainer.data.content.Order
 import dev.eftrainer.data.content.Rewrite
 import dev.eftrainer.data.content.Speak
 
@@ -84,6 +85,15 @@ object Checker {
                 exercise.gaps[i].none { Normalizer.normalize(it) == answer }
             }
         return CheckResult(correct = wrong.isEmpty(), expected = exercise.filled(), wrongGaps = wrong)
+    }
+
+    fun check(
+        exercise: Order,
+        labels: List<String>,
+    ): CheckResult {
+        require(labels.size == exercise.answer.size) { "${exercise.id}: ждём ${exercise.answer.size} картинок" }
+        val wrong = exercise.answer.indices.filterTo(mutableSetOf()) { labels[it] != exercise.answer[it] }
+        return CheckResult(correct = wrong.isEmpty(), expected = exercise.expected(), wrongGaps = wrong)
     }
 
     fun check(
@@ -185,4 +195,14 @@ object Checker {
 fun Blank.filled(): String {
     val parts = text.split("{}")
     return parts.mapIndexed { i, p -> p + (gaps.getOrNull(i)?.firstOrNull() ?: "") }.joinToString("")
+}
+
+fun Order.expected(): String = answer.joinToString(" ")
+
+fun <T> List<T>.moved(
+    from: Int,
+    to: Int,
+): List<T> {
+    if (from == to || from !in indices || to !in indices) return this
+    return toMutableList().apply { add(to, removeAt(from)) }
 }

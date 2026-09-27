@@ -14,12 +14,14 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "app/src/main/java/dev/eftrainer/data/content"
 AUDIO_DIR = ROOT / "app/src/main/assets/audio"
 VIDEO_DIR = ROOT / "app/src/main/assets/video"
+IMAGE_DIR = ROOT / "app/src/main/assets/image"
 
 KINDS = {"GRAMMAR", "VOCABULARY", "PRONUNCIATION", "SKILLS", "PRACTICAL_ENGLISH", "REVIEW"}
 ORIGINS = {"WB", "SB", "SB_GRAMMAR_BANK", "GENERATED"}
 SOURCES = {"KEY", "MODEL", "CONFIRMED"}
 AI_CHECKED_TYPES = ("talk", "write")
 CLIPPABLE_TYPES = ("blank", "rewrite", "speak")
+IMAGE_TYPES = ("blank", "rewrite")
 PRESET_TYPES = ("blank", "rewrite")
 PRESET_SECTION_KINDS = ("GRAMMAR", "VOCABULARY")
 CLIP_BOUNDS_COUNT = 2
@@ -69,6 +71,13 @@ def audio_path(track: str) -> Path:
 
 def video_path(name: str) -> Path:
     return VIDEO_DIR / (name + ".mp4")
+
+
+def check_image(owner: str, name: str, report: Report) -> None:
+    if not re.fullmatch(r"[a-z0-9_]+", name):
+        report.errors.append(f"{owner}: image «{name}» — нужно имя вида 1b_vb1a_2")
+    elif not (IMAGE_DIR / f"{name}.webp").exists():
+        report.warnings.append(f"{owner}: нет файла assets/image/{name}.webp")
 
 
 def check_audio(owner: str, track: str, report: Report) -> None:
@@ -210,12 +219,22 @@ def write_answers(eid: str, exercise: Json, report: Report) -> list[str | None]:
     return criteria + questions
 
 
+def order_answers(eid: str, exercise: Json, report: Report) -> list[str | None]:
+    labels = [picture["label"] for picture in exercise["pictures"]]
+    if len(set(labels)) != len(labels) or sorted(exercise["answer"]) != sorted(labels):
+        report.errors.append(f"{eid}: answer должен быть перестановкой меток картинок")
+    for picture in exercise["pictures"]:
+        check_image(eid, picture["image"], report)
+    return [*labels, *(picture["caption"] for picture in exercise["pictures"])] or [None]
+
+
 ANSWER_VALIDATORS: dict[str, Callable[[str, Json, Report], list[str | None]]] = {
     "blank": blank_answers,
     "rewrite": rewrite_answers,
     "speak": speak_answers,
     "talk": talk_answers,
     "write": write_answers,
+    "order": order_answers,
 }
 
 
@@ -226,6 +245,10 @@ def validate_exercise(task: Json, exercise: Json, report: Report) -> None:
         report.errors.append(f"{eid}: source {exercise['source']}")
     if "clip" in exercise:
         check_clip(eid, task, exercise, report)
+    if "image" in exercise:
+        if exercise["type"] not in IMAGE_TYPES:
+            report.errors.append(f"{eid}: image только у blank/rewrite")
+        check_image(eid, exercise["image"], report)
     validate_answers = ANSWER_VALIDATORS.get(exercise["type"])
     if validate_answers is None:
         report.errors.append(f"{eid}: тип {exercise['type']}")
@@ -359,16 +382,27 @@ def rewrite_arguments(exercise: Json) -> list[str]:
     return arguments
 
 
+def order_arguments(exercise: Json) -> list[str]:
+    pictures = ", ".join(
+        f"Picture({kotlin_string(p['label'])}, {kotlin_string(p['image'])}, {kotlin_string(p['caption'])})"
+        for p in exercise["pictures"]
+    )
+    return [f"pictures = listOf({pictures})", f"answer = {kotlin_strings(exercise['answer'])}"]
+
+
 CONSTRUCTORS: dict[str, tuple[str, Callable[[Json], list[str]]]] = {
     "blank": ("Blank", blank_arguments),
     "speak": ("Speak", speak_arguments),
     "talk": ("Talk", talk_arguments),
     "write": ("Write", write_arguments),
+    "order": ("Order", order_arguments),
 }
 
 
 def common_arguments(exercise: Json) -> list[str]:
     arguments = []
+    if exercise.get("image"):
+        arguments.append(f"image = {kotlin_string(exercise['image'])}")
     if exercise.get("hint"):
         arguments.append(f"hint = {kotlin_string(exercise['hint'])}")
     if exercise.get("explain"):

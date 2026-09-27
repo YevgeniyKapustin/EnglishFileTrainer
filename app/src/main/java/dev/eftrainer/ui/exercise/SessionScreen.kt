@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
@@ -19,8 +20,10 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.Stable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateListOf
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberUpdatedState
+import androidx.compose.runtime.setValue
 import androidx.compose.runtime.snapshots.SnapshotStateList
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -38,6 +41,7 @@ import dev.eftrainer.R
 import dev.eftrainer.core.speech.TextToSpeechState
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.T
+import dev.eftrainer.core.ui.AssetImage
 import dev.eftrainer.core.ui.BottomBar
 import dev.eftrainer.core.ui.IconButton24
 import dev.eftrainer.core.ui.Icons
@@ -48,6 +52,7 @@ import dev.eftrainer.core.ui.color
 import dev.eftrainer.data.content.Blank
 import dev.eftrainer.data.content.Chapters
 import dev.eftrainer.data.content.Exercise
+import dev.eftrainer.data.content.Order
 import dev.eftrainer.data.content.Rewrite
 import dev.eftrainer.data.content.Speak
 import dev.eftrainer.data.content.Talk
@@ -56,6 +61,7 @@ import dev.eftrainer.data.content.needsAi
 import dev.eftrainer.ui.appContainer
 import dev.eftrainer.ui.exercise.inputs.AudioBar
 import dev.eftrainer.ui.exercise.inputs.BlankInput
+import dev.eftrainer.ui.exercise.inputs.OrderInput
 import dev.eftrainer.ui.exercise.inputs.RewriteInput
 import dev.eftrainer.ui.exercise.inputs.SpeakInput
 import dev.eftrainer.ui.exercise.inputs.TalkInput
@@ -131,17 +137,20 @@ private fun fieldCount(exercise: Exercise): Int =
     when (exercise) {
         is Rewrite, is Speak, is Write -> 1
         is Blank -> exercise.gaps.size
-        is Talk -> 0
+        is Talk, is Order -> 0
     }
 
 @Stable
 private class AnswerFields(
     val values: SnapshotStateList<TextFieldValue>,
     val focus: List<FocusRequester>,
+    initialOrder: List<String>,
 ) {
+    var order by mutableStateOf(initialOrder)
+
     val filled: Boolean get() = values.all { it.text.isNotBlank() }
 
-    fun texts(): List<String> = values.map { it.text }
+    fun texts(): List<String> = if (order.isEmpty()) values.map { it.text } else order
 }
 
 private fun initialValues(exercise: Exercise): SnapshotStateList<TextFieldValue> =
@@ -160,7 +169,11 @@ private fun rememberAnswerFields(
     attempt: Int,
 ): AnswerFields =
     remember(attempt) {
-        AnswerFields(initialValues(exercise), List(fieldCount(exercise)) { FocusRequester() })
+        AnswerFields(
+            initialValues(exercise),
+            List(fieldCount(exercise)) { FocusRequester() },
+            (exercise as? Order)?.pictures?.map { it.label }.orEmpty(),
+        )
     }
 
 @Composable
@@ -280,6 +293,15 @@ private fun TaskHeader(q: SessionUi.Question) {
         }
         q.task.video?.let { VideoBar(it, clip = e.clip) }
         q.task.audio?.let { AudioBar(it, clip = e.clip) }
+        e.image?.let {
+            AssetImage(
+                it,
+                null,
+                Modifier
+                    .heightIn(max = 180.dp)
+                    .clip(RoundedCornerShape(12.dp)),
+            )
+        }
         q.task.context?.let {
             Text(
                 it,
@@ -349,6 +371,10 @@ private fun ExerciseInput(
 
         is Talk -> {
             TalkInput(e, q.attempt, checked, onGrade, tts)
+        }
+
+        is Order -> {
+            OrderInput(e, answer.order, { answer.order = it }, checked, feedback?.wrongGaps.orEmpty())
         }
 
         is Write -> {

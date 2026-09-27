@@ -40,6 +40,7 @@ import dev.eftrainer.core.speech.TextToSpeechState
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.EF
 import dev.eftrainer.core.theme.T
+import dev.eftrainer.core.ui.linkClickable
 import dev.eftrainer.data.content.Talk
 import dev.eftrainer.domain.ai.ChatLine
 import dev.eftrainer.ui.appContainer
@@ -172,7 +173,7 @@ private fun TalkControls(
                 Text(
                     stringResource(aiErrorRes(s.reason)),
                     style = small.copy(color = C.Bad),
-                    modifier = Modifier.clickable(onClick = onRetry).padding(vertical = 4.dp),
+                    modifier = Modifier.linkClickable(onClick = onRetry).padding(vertical = 4.dp),
                 )
             }
 

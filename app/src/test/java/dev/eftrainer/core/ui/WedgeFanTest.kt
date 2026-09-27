@@ -1,16 +1,23 @@
 package dev.eftrainer.core.ui
 
-import dev.eftrainer.core.theme.FilePalettes
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotEquals
 import org.junit.Assert.assertSame
+import org.junit.Assert.assertTrue
 import org.junit.Test
+import kotlin.math.abs
 
 class WedgeFanTest {
+    private val lessons = (1..12).flatMap { file -> listOf("A", "B", "C").map { "$file$it" } }
+
+    @Test
+    fun withoutChapterTheFanIsTheBookOne() {
+        assertSame(BookFan, wedgeFan(null))
+    }
+
     @Test
     fun sameChapterAlwaysDrawsTheSameFan() {
         assertEquals(wedgeFan("1A"), wedgeFan("1A"))
-        assertEquals(wedgeFan(null), wedgeFan(null))
     }
 
     @Test
@@ -20,20 +27,16 @@ class WedgeFanTest {
     }
 
     @Test
-    fun everyFanEndsWithTheDarkRaysOverTheTop() {
-        listOf("1A", "1B", "2C", "12C").map(::wedgeFan).forEach { fan ->
-            assertEquals(listOf(WedgeShade.DEEP, WedgeShade.DARKEST), fan.rayShades.takeLast(2))
-            assertEquals(fan.rayWeights.size, fan.rayShades.size)
+    fun everyFanKeepsTheBookStructure() {
+        lessons.map(::wedgeFan).forEach { fan ->
+            assertEquals(BookFan.edges.size, fan.edges.size)
+            assertEquals(fan.edges.sorted(), fan.edges)
+            fan.edges.zip(BookFan.edges).forEach { (edge, book) -> assertTrue(abs(edge - book) <= EDGE_JITTER_DEGREES) }
+            assertTrue(abs(fan.pivotX - BookFan.pivotX) <= PIVOT_JITTER)
+            assertTrue(abs(fan.pivotY - BookFan.pivotY) <= PIVOT_JITTER)
+            assertTrue(
+                fan.cardRadius < fan.deepRadius && fan.deepRadius < fan.mainRadius && fan.mainRadius < fan.flapRadius,
+            )
         }
-    }
-
-    @Test
-    fun filesCycleThroughTheFourBookPalettes() {
-        assertSame(FilePalettes.Lagoon, FilePalettes.forChapter("1A"))
-        assertSame(FilePalettes.Amber, FilePalettes.forChapter("2B"))
-        assertSame(FilePalettes.Meadow, FilePalettes.forChapter("7C"))
-        assertSame(FilePalettes.Coral, FilePalettes.forChapter("12A"))
-        assertSame(FilePalettes.Lagoon, FilePalettes.forChapter("9B"))
-        assertSame(FilePalettes.Lagoon, FilePalettes.forChapter(null))
     }
 }

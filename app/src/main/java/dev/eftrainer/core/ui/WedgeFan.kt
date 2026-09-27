@@ -2,74 +2,45 @@ package dev.eftrainer.core.ui
 
 import kotlin.random.Random
 
-enum class WedgeShade { LIGHT, BRIGHT, SOFT, DEEP, DARKEST }
-
 data class WedgeFan(
-    val shieldTop: Float,
-    val shieldBottom: Float,
-    val shieldBulge: Float,
-    val hubX: Float,
-    val hubDrop: Float,
-    val leftTilt: Float,
-    val rayWeights: List<Float>,
-    val rayShades: List<WedgeShade?>,
-    val accentTop: Float,
-    val accentWidth: Float,
-    val flapLength: Float,
+    val pivotX: Float,
+    val pivotY: Float,
+    val edges: List<Float>,
+    val cardRadius: Float,
+    val deepRadius: Float,
+    val mainRadius: Float,
+    val flapRadius: Float,
 )
 
-private class Span(
-    val from: Float,
-    val to: Float,
-) {
-    fun pick(random: Random) = from + (to - from) * random.nextFloat()
-}
+val BookFan =
+    WedgeFan(
+        pivotX = 0f,
+        pivotY = -.0556f,
+        edges = listOf(7f, 18.4f, 36.8f, 46.5f, 67.6f, 77.5f, 84.4f),
+        cardRadius = 1.284f,
+        deepRadius = 1.433f,
+        mainRadius = 1.743f,
+        flapRadius = 1.835f,
+    )
 
-private val ShieldTop = Span(250f, 295f)
-private val ShieldBottom = Span(120f, 160f)
-private val ShieldBulge = Span(.6f, .85f)
-private val HubX = Span(20f, 70f)
-private val HubDrop = Span(4f, 24f)
-private val LeftTilt = Span(0f, 8f)
-private val AccentTop = Span(.35f, .55f)
-private val AccentWidth = Span(7f, 12f)
-private val FlapLength = Span(40f, 90f)
-private val FreeRayWeight = Span(.55f, 1.45f)
-private val DeepRayWeight = Span(.7f, 1.1f)
-private val DarkestRayWeight = Span(.3f, .5f)
-private const val FEWEST_FREE_RAYS = 4
-private const val MOST_FREE_RAYS = 6
-private val FirstRayShades = listOf(WedgeShade.BRIGHT, WedgeShade.SOFT, null)
-private val FreeRayShades = listOf(WedgeShade.LIGHT, WedgeShade.BRIGHT, WedgeShade.SOFT, null)
+const val EDGE_JITTER_DEGREES = 2.2f
+const val PIVOT_JITTER = .04f
+const val RADIUS_JITTER = .02f
 
 fun wedgeFan(chapterId: String?): WedgeFan {
-    val random = Random(chapterId?.hashCode() ?: 0)
-    val shieldTop = ShieldTop.pick(random)
-    val shieldBottom = ShieldBottom.pick(random)
-    val shieldBulge = ShieldBulge.pick(random)
-    val hubX = HubX.pick(random)
-    val hubDrop = HubDrop.pick(random)
-    val leftTilt = LeftTilt.pick(random)
-    val accentTop = AccentTop.pick(random)
-    val accentWidth = AccentWidth.pick(random)
-    val flapLength = FlapLength.pick(random)
-    val freeRays = random.nextInt(FEWEST_FREE_RAYS, MOST_FREE_RAYS + 1)
-    val weights =
-        List(freeRays) { FreeRayWeight.pick(random) } + DeepRayWeight.pick(random) + DarkestRayWeight.pick(random)
-    val shades =
-        List(freeRays) { (if (it == 0) FirstRayShades else FreeRayShades).random(random) } +
-            WedgeShade.DEEP + WedgeShade.DARKEST
+    if (chapterId == null) return BookFan
+    val random = Random(chapterId.hashCode())
+
+    fun jitter() = random.nextFloat() * 2f - 1f
+
+    fun Float.stretched() = this * (1f + RADIUS_JITTER * jitter())
     return WedgeFan(
-        shieldTop = shieldTop,
-        shieldBottom = shieldBottom,
-        shieldBulge = shieldBulge,
-        hubX = hubX,
-        hubDrop = hubDrop,
-        leftTilt = leftTilt,
-        rayWeights = weights,
-        rayShades = shades,
-        accentTop = accentTop,
-        accentWidth = accentWidth,
-        flapLength = flapLength,
+        pivotX = BookFan.pivotX + PIVOT_JITTER * jitter(),
+        pivotY = BookFan.pivotY + PIVOT_JITTER * jitter(),
+        edges = BookFan.edges.map { it + EDGE_JITTER_DEGREES * jitter() },
+        cardRadius = BookFan.cardRadius.stretched(),
+        deepRadius = BookFan.deepRadius.stretched(),
+        mainRadius = BookFan.mainRadius.stretched(),
+        flapRadius = BookFan.flapRadius.stretched(),
     )
 }

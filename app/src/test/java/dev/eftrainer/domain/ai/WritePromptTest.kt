@@ -109,5 +109,14 @@ Well done",
         )) {
             assertTrue(part, text.contains(part))
         }
+        assertFalse(text.contains("recording"))
+    }
+
+    @Test fun `hidden scene of the recording goes before the criteria`() {
+        val heard = write.copy(scene = "A man is singing in the shower. Somebody knocks on the door.")
+        val text = WritePrompt.grading(heard, "Listen and write", "", "He was singing when somebody knocked.")[1].second
+        val scene = text.indexOf("A man is singing in the shower. Somebody knocks on the door.")
+        assertTrue(text, scene >= 0)
+        assertTrue(text, scene < text.indexOf("Criteria:"))
     }
 }

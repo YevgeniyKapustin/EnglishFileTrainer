@@ -155,6 +155,16 @@ class ContentValidationTest {
             assertTrue("${e.id}: пустой goal", e.goal.isNotBlank())
             assertTrue("${e.id}: пустой opener", e.opener.isNotBlank())
             assertTrue("${e.id}: нет criteria", e.criteria.isNotEmpty())
+            assertTrue("${e.id}: картинка без подписи для ИИ", e.pictures.all { it.caption.isNotBlank() })
+            val labels = e.pictures.map { it.label }
+            assertEquals("${e.id}: метки картинок повторяются", labels.distinct(), labels)
+        }
+    }
+
+    @Test fun `talks have a plan of steps with examples`() {
+        for (e in exercises.filterIsInstance<Talk>()) {
+            assertTrue("${e.id}: нет steps", e.steps.isNotEmpty())
+            assertTrue("${e.id}: пустой шаг", e.steps.all { it.text.isNotBlank() && it.example.isNotBlank() })
         }
     }
 
@@ -163,6 +173,8 @@ class ContentValidationTest {
             assertTrue("${e.id}: пустой prompt", e.prompt.isNotBlank())
             assertTrue("${e.id}: нет criteria", e.criteria.isNotEmpty())
             assertTrue("${e.id}: пустой вопрос", e.questions.all { it.isNotBlank() })
+            assertTrue("${e.id}: пустая scene", e.scene?.isNotBlank() ?: true)
+            assertTrue("${e.id}: scene без клипа", e.scene == null || e.clip != null)
             assertTrue("${e.id}: Write должен быть необязательным", e.optional && sections.none { e in it.exercises })
         }
     }
@@ -202,6 +214,7 @@ class ContentValidationTest {
         val images =
             exercises.mapNotNull { it.image } +
                 exercises.filterIsInstance<Order>().flatMap { o -> o.pictures.mapNotNull { it.image } } +
+                exercises.filterIsInstance<Talk>().flatMap { t -> t.pictures.mapNotNull { it.image } } +
                 tasks.flatMap { it.images }
         for (image in images) {
             assertTrue("нет картинки $image", File(dir, imageAsset(image)).isFile)

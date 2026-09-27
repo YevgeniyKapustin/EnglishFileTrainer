@@ -40,6 +40,7 @@ class TalkViewModel(
     data class Ui(
         val lines: List<ChatLine>,
         val status: Status,
+        val done: Set<Int> = emptySet(),
     ) {
         val studentLines: List<String> get() = lines.filter { it.student }.map { it.text }
     }
@@ -75,7 +76,8 @@ class TalkViewModel(
                         client.chat(TalkPrompt.conversation(talk, lines)),
                         lines.count { it.student },
                     )
-                _state.value = Ui(lines + ChatLine(false, reply.text), Status.Talking)
+                val done = _state.value.done + reply.done.filter { it in talk.steps.indices }
+                _state.value = Ui(lines + ChatLine(false, reply.text), Status.Talking, done)
                 if (reply.ended) grade()
             } catch (e: AiException) {
                 _state.update { it.copy(status = Status.Failed(e.reason, grading = false)) }

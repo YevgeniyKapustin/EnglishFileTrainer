@@ -68,6 +68,8 @@ data class Talk(
     val goal: String,
     val opener: String,
     val criteria: List<String>,
+    val steps: List<TalkStep> = emptyList(),
+    val pictures: List<Picture> = emptyList(),
     override val hint: String? = null,
     override val explain: String? = null,
     override val source: AnswerSource = AnswerSource.CONFIRMED,
@@ -78,10 +80,17 @@ data class Write(
     val prompt: String,
     val questions: List<String> = emptyList(),
     val criteria: List<String>,
+    val scene: String? = null,
     override val hint: String? = null,
     override val explain: String? = null,
     override val source: AnswerSource = AnswerSource.CONFIRMED,
+    override val clip: Clip? = null,
 ) : Exercise
+
+data class TalkStep(
+    val text: String,
+    val example: String,
+)
 
 data class Picture(
     val label: String,

@@ -10,6 +10,8 @@ object TalkPrompt {
     private const val MIN_TURNS_TO_END = 2
     private const val UNICODE_ESCAPE_LENGTH = 6
     private const val HEX_RADIX = 16
+    private val DONE = Regex("""\[\s*DONE\b([^\]]*)\]""", RegexOption.IGNORE_CASE)
+    private val NUMBER = Regex("""\d+""")
     private val PASS = Regex(""""pass"\s*:\s*"?(true|false)"?""", RegexOption.IGNORE_CASE)
     private val SUMMARY = Regex(""""summary"\s*:\s*"((?:[^"\\]|\\.)*)"""", RegexOption.DOT_MATCHES_ALL)
 
@@ -35,13 +37,15 @@ object TalkPrompt {
             - No markdown, no emojis, no lists. Plain text only. Do not write your name before the line.
             - When the student has done the task and the conversation has come to a natural end, say a short goodbye and add $END at the very end.
             """.trimIndent()
-        return listOf("system" to system, "user" to "(Start the conversation.)") +
+        val prompt = (listOf(system) + plan(talk) + pictures(talk)).joinToString("\n")
+        return listOf("system" to prompt, "user" to "(Start the conversation.)") +
             lines.map { (if (it.student) "user" else "assistant") to it.text }
     }
 
     data class Reply(
         val text: String,
         val ended: Boolean,
+        val done: Set<Int> = emptySet(),
     )
 
     fun reply(
@@ -49,15 +53,22 @@ object TalkPrompt {
         studentTurns: Int,
     ): Reply {
         val ended = raw.contains(END, ignoreCase = true)
+        val done =
+            DONE
+                .findAll(raw)
+                .flatMap { mark -> NUMBER.findAll(mark.groupValues[1]).map { it.value.toInt() - 1 } }
+                .filter { it >= 0 }
+                .toSet()
         val text =
             raw
                 .replace(END, "", ignoreCase = true)
+                .replace(DONE, "")
                 .replace("*", "")
                 .trim()
                 .removeSurrounding("\"")
                 .replace(Regex("^(Partner|You|AI|Assistant)\\s*:\\s*", RegexOption.IGNORE_CASE), "")
                 .trim()
-        return Reply(text, ended && studentTurns >= MIN_TURNS_TO_END)
+        return Reply(text, ended && studentTurns >= MIN_TURNS_TO_END, done)
     }
 
     fun grading(
@@ -69,7 +80,7 @@ object TalkPrompt {
             """
             You are a friendly English teacher. Your student uses English File Pre-Intermediate (4th edition).
             The student had a short conversation with a partner. Grade only the student's lines.
-            pass = true if the student did the task and meets the criteria. Small mistakes are OK;
+            pass = true if the student did the task (most steps of the plan) and meets the criteria. Small mistakes are OK;
             pass = false if the task is not done or there are many mistakes in the grammar of this lesson.
             summary = 1-3 short sentences in simple English, addressed to the student ("You ..."):
             what was good, and the main mistakes with the grammar of this lesson, with the correct form.
@@ -79,8 +90,13 @@ object TalkPrompt {
             buildString {
                 appendLine("Situation: ${talk.situation}")
                 appendLine("Student's task: ${talk.goal}")
+                talk.steps.takeIf { it.isNotEmpty() }?.let { steps ->
+                    appendLine("The student's plan:")
+                    steps.forEachIndexed { i, step -> appendLine("${i + 1} ${step.text}") }
+                }
                 appendLine("Criteria:")
                 talk.criteria.forEach { appendLine("- $it") }
+                pictures(talk).forEach(::appendLine)
                 if (rules.isNotBlank()) {
                     appendLine()
                     appendLine("Rules of this lesson:")
@@ -92,6 +108,28 @@ object TalkPrompt {
             }
         return listOf("system" to system, "user" to user.trimEnd())
     }
+
+    internal fun plan(talk: Talk): List<String> =
+        if (talk.steps.isEmpty()) {
+            emptyList()
+        } else {
+            listOf("The student sees this plan on the screen and does the steps in order:") +
+                talk.steps.mapIndexed { i, step -> "${i + 1} ${step.text}" } +
+                listOf(
+                    "Help the student do the steps in this order: " +
+                        "your answers and questions should lead to the next step.",
+                    "At the very end of every reply add [DONE ...] with the numbers of all the steps the student has " +
+                        "already done in the conversation, for example [DONE 1,2]. If no step is done yet, add [DONE].",
+                )
+        }
+
+    internal fun pictures(talk: Talk): List<String> =
+        if (talk.pictures.isEmpty()) {
+            emptyList()
+        } else {
+            listOf("The student can see these pictures from the book. You cannot see them; this is what is in them:") +
+                talk.pictures.map { "- Picture ${it.label}: ${it.caption}" }
+        }
 
     fun parseGrade(raw: String): Grade? {
         val start = raw.indexOf('{')

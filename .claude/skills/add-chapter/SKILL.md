@@ -95,8 +95,11 @@ PNG → `tools/out/`.
   `"columns": ["tie /t/", …]` у задания, у пункта `"word": "ask[ed]"` (`[..]` — розовые буквы, `|` — слоги)
   и `"column": 1` (с 1). Ответ тапом по колонке;
 - listen and repeat / скажи вслух → `speak` (группы букв «A K E» — мягкая проверка букв);
-- говорение с партнёром, Communication, вопросы «about you» устно → `talk` (situation, goal, opener, criteria);
-- письмо своими словами (Writing, «write about…», ответы на вопросы о себе) → `write` (prompt, questions, criteria).
+- говорение с партнёром, Communication, вопросы «about you» устно → `talk` (situation, goal — ситуация в одну строку, opener, criteria,
+  `steps` `[{text, example}]` — обязательный план на экране: короткие шаги «что спросить/сказать» с вопросами книги
+  и пример фразы для Hint; разговор по картинкам книги — `pictures` как у `order`, `caption` видит только ИИ);
+- письмо своими словами (Writing, «write about…», ответы на вопросы о себе) → `write` (prompt, questions, criteria;
+  «listen to the sounds and write» — по пункту на звук с `clip` и скрытым `scene`: что слышно, для ИИ).
 `talk`/`write` нужны ИИ: без ключа их не видно, в «освоено» не входят — поэтому весь книжный материал,
 который можно проверить офлайн, делать `blank`/`rewrite`/`speak`, а не `write`.
 

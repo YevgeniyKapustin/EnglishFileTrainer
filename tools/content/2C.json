@@ -445,19 +445,69 @@
           "id": "2C-sb3d",
           "origin": "SB",
           "instruction": "Re-tell the story of Hannah and Jamie. Use connectors and the verb phrases in 3",
-          "note": "SB 3d (пересказ в парах по фото 1–6: A — Jamie, фото 1–3; B — Hannah, фото 4–6) → разговор с ИИ: ученик — Jamie, ИИ — Hannah. 3c (прослушать историю ещё раз) отдельным заданием не переносили — трек 2.16 уже в 2C-sb1b",
+          "note": "SB 3d (пересказ в парах по фото 1–6: A — Jamie, фото 1–3; B — Hannah, фото 4–6) → разговор с ИИ по фото 1–6 (ИИ знает их по скрытым подписям): ученик — Jamie, ИИ — Hannah. 3c (прослушать историю ещё раз) отдельным заданием не переносили — трек 2.16 уже в 2C-sb1b",
           "exercises": [
             {
               "n": 1,
               "type": "talk",
               "situation": "Speaking practice in an English class (level: pre-intermediate). You and the student re-tell the story ‘One dark October evening’ from the characters’ point of view. The student is Jamie, the DJ, and tells the first part (photos 1–3): Hannah came to the club on her birthday with some friends, she didn’t like the music, Jamie played Get the Party Started by Pink for her because she was wearing a pink dress, he waited for her at the door when she left the club, she gave him her phone number, the next day he phoned her and invited her to dinner, he took her to a romantic French restaurant; the food wasn’t very good but they had a great time. You are Hannah. Listen, react briefly (Yes, I remember! / That’s right…), and gently correct wrong facts. Then tell the second part yourself (photos 4–6) in 4–6 short sentences: after that we met every day in a coffee bar in the high street at 5.30; one evening in October I was at work, it was dark and raining, I was late, so I was driving fast along the high street; suddenly a man ran across the road; he was wearing a dark coat, so I didn’t see him at first. Stop there and ask the student: What do you think happened next? Use time sequencers (After that, The next day, Two minutes later, Suddenly, When) and connectors (so, because, but, although).",
-              "goal": "You are Jamie, the DJ. Tell the first part of the story (the club, the song, the door, the dinner) with time sequencers, connectors and the verb phrases. Then listen to Hannah’s part.",
+              "goal": "You are Jamie. Tell your part of the story, then listen to Hannah.",
               "opener": "Hi Jamie! Let’s tell our story. You start – how did we meet?",
               "criteria": [
                 "tells the first part of the story in the right order (club → song → door and phone number → dinner)",
                 "uses at least three time sequencers or connectors (The next day, When, so, because, although…)",
                 "uses at least three verb phrases from the lesson (play a song, wait for somebody, give somebody your phone number, invite somebody to dinner, have a great time…)",
                 "uses the past simple (and past continuous) correctly"
+              ],
+              "steps": [
+                {
+                  "text": "Photo 1: the club and the song",
+                  "example": "When Hannah came to the club, she didn't like the music, so I played Get the Party Started for her."
+                },
+                {
+                  "text": "Photo 2: the door and the phone number",
+                  "example": "I waited for her at the door, and she gave me her phone number."
+                },
+                {
+                  "text": "Photo 3: the dinner",
+                  "example": "The next day I phoned her and invited her to dinner. Although the food wasn't very good, we had a great time."
+                },
+                {
+                  "text": "Listen to Hannah and guess what happened next",
+                  "example": "I think she hit the man with her car. Was it me?"
+                }
+              ],
+              "pictures": [
+                {
+                  "label": "1",
+                  "image": "2c_sb1_1",
+                  "caption": "In a club with red lights. Jamie, the DJ, is at the decks with headphones. Hannah, a young woman in a pink dress, is standing next to him and talking to him."
+                },
+                {
+                  "label": "2",
+                  "image": "2c_sb1_2",
+                  "caption": "Outside the club door, in green light. Hannah, in her pink dress, is with a friend. She is giving Jamie her phone number and he is typing it into his phone."
+                },
+                {
+                  "label": "3",
+                  "image": "2c_sb1_3",
+                  "caption": "A romantic French restaurant. Hannah, in a yellow cardigan, and Jamie, in a blue shirt, are sitting at a table and laughing. There is a cup of coffee on the table."
+                },
+                {
+                  "label": "4",
+                  "image": "2c_sb1_4",
+                  "caption": "A coffee bar. Jamie and Hannah, in a striped top, are sitting together, drinking coffee and smiling."
+                },
+                {
+                  "label": "5",
+                  "image": "2c_sb1_5",
+                  "caption": "At night, dark. Hannah, in a yellow raincoat, is standing next to her car."
+                },
+                {
+                  "label": "6",
+                  "image": "2c_sb1_6",
+                  "caption": "At night on a dark road with STOP painted on it. You can see the lights of a car. A man in a dark coat is crossing the road and looking at his phone."
+                }
               ]
             }
           ]
@@ -824,7 +874,7 @@
               "n": 1,
               "type": "talk",
               "situation": "A friendly revision chat in an English class (level: pre-intermediate) after Files 1 and 2. Check that the student can do these things, one by one, with short questions and reactions: 1) answer and ask questions about home and family, work / studies and free time (ask two, then say ‘Now ask me something!’); 2) describe the appearance and personality of a person they know well; 3) say what somebody is wearing and doing right now (e.g. people around them or in a photo); 4) answer and ask questions about their last holiday (Where did you go? Who did you go with? What did you do?); 5) describe a favourite photo and say what was happening when they took it; 6) say a true sentence with so, because and although. Keep it natural, one question at a time; if the student makes a mistake with word order in questions, present simple / continuous, past simple / continuous or connectors, repeat the correct form naturally in your reply.",
-              "goal": "Show that you can talk about yourself, describe people, talk about a past holiday and a favourite photo, and use so, because and although.",
+              "goal": "Show what you can say after Files 1 and 2.",
               "opener": "Hi! Let’s see what you remember from Files 1 and 2. First, tell me a bit about you – where do you live, and who do you live with?",
               "criteria": [
                 "asks at least two correct questions (right word order, do / does / did)",
@@ -832,6 +882,32 @@
                 "uses the present continuous to say what someone is wearing or doing",
                 "talks about a holiday and a photo with the past simple and past continuous",
                 "uses so, because and although correctly at least once each"
+              ],
+              "steps": [
+                {
+                  "text": "Talk about your home and family, and ask back",
+                  "example": "I live in a flat with my parents. What about you? Where do you work?"
+                },
+                {
+                  "text": "Describe a person you know well",
+                  "example": "My friend Ivan is tall and slim. He's funny and very generous."
+                },
+                {
+                  "text": "Say what somebody is wearing and doing now",
+                  "example": "My sister is wearing a red sweater. She's watching TV."
+                },
+                {
+                  "text": "Talk about your last holiday",
+                  "example": "Last summer I went to Italy with my friends. We went sightseeing every day."
+                },
+                {
+                  "text": "Describe a favourite photo",
+                  "example": "In my favourite photo we were having a picnic and it was raining."
+                },
+                {
+                  "text": "Say a sentence with so, because and although",
+                  "example": "I was tired, so I went to bed early, although it was Saturday."
+                }
               ]
             }
           ]

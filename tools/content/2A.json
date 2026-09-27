@@ -365,13 +365,31 @@
               "n": 1,
               "type": "talk",
               "situation": "You are a classmate in an English class (level: pre-intermediate). You talk about losing things on holiday. First ask the student: Have you ever lost anything important on holiday? What was it? What happened? Did you find it? If they say no, ask about a friend or family member, or about something they lost at home. React with interest (Really? Oh no! How awful!) and ask follow-up questions in the past simple (Where were you? What did you do? How did you feel?). Then tell your story: two years ago in Rome you lost your wallet with all your money on a bus; you went to the police, you felt terrible, and the next day a woman phoned the hotel – she found it on the bus. Use short, simple past simple sentences. If the student makes a mistake with a past form (e.g. I losed, I didn’t found), repeat the correct form naturally in your reply.",
-              "goal": "Tell your classmate about a time you (or someone you know) lost something important on holiday: what it was and what happened. Then listen to their story and show interest.",
+              "goal": "Tell your classmate about something you lost on holiday.",
               "opener": "Hi! Have you ever lost anything important on holiday?",
               "criteria": [
                 "says what they lost and where they were",
                 "tells what happened in at least 3 past simple sentences, with correct regular and irregular forms (lost, went, couldn’t find, looked)",
                 "uses didn’t / couldn’t correctly in at least one negative",
                 "reacts to the partner’s story with interest (Really? Oh no! How awful!) or asks a question in the past simple"
+              ],
+              "steps": [
+                {
+                  "text": "Say what you lost and where you were",
+                  "example": "Yes, I lost my passport in Turkey two years ago."
+                },
+                {
+                  "text": "Say what happened",
+                  "example": "I left it in a taxi. I looked everywhere but I couldn't find it."
+                },
+                {
+                  "text": "Say how the story ended",
+                  "example": "In the end the taxi driver brought it to the hotel."
+                },
+                {
+                  "text": "React to your classmate's story",
+                  "example": "Oh no! How awful! Did you go to the police?"
+                }
               ]
             }
           ]
@@ -596,13 +614,35 @@
               "n": 1,
               "type": "talk",
               "situation": "You are a classmate in an English class (level: pre-intermediate). First the student asks you about your last holiday, using the questions from ‘Your last holiday’ (Where did you go? When? Who with? Where did you stay? What was it like? What was the weather like? What did you do during the day / in the evening? Did you have a good time? Did you have any problems?). Your holiday: last August you went to Barcelona for a week with your sister; you went by plane; you stayed in a small apartment near the beach – it was basic but clean; the weather was hot and sunny; during the day you went sightseeing and sunbathed on the beach; in the evening you went out for dinner; you had a great time, but on the first day your sister lost her sunglasses. Answer only what you are asked, briefly, so the student has to ask more questions. Then swap roles: ask the student about their last holiday with the same questions, and show interest in their answers (Wow! Really? Oh no! What a pity! How awful! Fantastic!), with a follow-up question each time.",
-              "goal": "Ask your classmate about his / her last holiday and show interest in the answers (Wow! Really? Oh no! What a pity!). Then answer their questions about your last holiday.",
+              "goal": "Ask about your classmate's last holiday, then tell them about yours.",
               "opener": "OK, you start. Ask me about my last holiday!",
               "criteria": [
                 "asks at least 5 past simple questions correctly (Where did you go? What was the weather like? Did you have a good time?)",
                 "shows interest at least twice with phrases from the lesson (Wow! Really? Oh no! What a pity! How awful!)",
                 "describes their own last holiday in the past simple with correct regular and irregular forms",
                 "uses holiday vocabulary (go sightseeing, stay in a hotel, sunbathe, go by plane…)"
+              ],
+              "steps": [
+                {
+                  "text": "Ask where, when and who with",
+                  "example": "Where did you go? When did you go? Who did you go with?"
+                },
+                {
+                  "text": "Ask where they stayed and what it was like",
+                  "example": "Where did you stay? What was it like?"
+                },
+                {
+                  "text": "Ask about the weather and what they did",
+                  "example": "What was the weather like? What did you do during the day?"
+                },
+                {
+                  "text": "Ask about a good time or problems and show interest",
+                  "example": "Wow! Did you have a good time? Did you have any problems?"
+                },
+                {
+                  "text": "Answer questions about your last holiday",
+                  "example": "I went to Sochi with my family. We stayed in a hotel near the sea."
+                }
               ]
             }
           ]
@@ -3350,13 +3390,35 @@
               "n": 1,
               "type": "talk",
               "situation": "You are a classmate in an English class (level: pre-intermediate). You talk about holiday preferences. Ask the student, one at a time, which they prefer and why: going abroad or going on holiday in your country; going by car, bus, plane, or train; going to the beach or going to a city; staying in a hotel (or apartment) or going camping; sunbathing, going sightseeing, or going for walks; hot, sunny weather or cool, cloudy weather; going on holiday with friends or with your family. After each answer, give your own short opinion (e.g. I prefer going camping – I love sleeping in a tent!) and sometimes ask a follow-up question (Why? Where do you usually go?). Use the vocabulary of the lesson. If the student uses a wrong phrase (go to camping, make photos), repeat the correct phrase naturally.",
-              "goal": "Tell your classmate which you prefer and why: going abroad or in your country, car / bus / plane / train, beach or city, hotel or camping, sunbathing / sightseeing / walks, hot or cool weather, friends or family.",
+              "goal": "Say which holidays you prefer and why.",
               "opener": "Let’s talk about holidays! Do you prefer going abroad or going on holiday in your country?",
               "criteria": [
                 "gives a preference for at least 4 of the pairs (I prefer… / I like… more)",
                 "gives a reason with because at least twice",
                 "uses holiday phrases correctly (go abroad, go camping, go sightseeing, stay in a hotel, sunbathe)",
                 "uses the -ing form after prefer / like (I prefer going…)"
+              ],
+              "steps": [
+                {
+                  "text": "Abroad or in your country",
+                  "example": "I prefer going abroad because I like seeing new places."
+                },
+                {
+                  "text": "Car, bus, plane or train",
+                  "example": "I prefer going by train. It's relaxing and I can read."
+                },
+                {
+                  "text": "Beach or city",
+                  "example": "I prefer going to a city because I love going sightseeing."
+                },
+                {
+                  "text": "Hotel or camping",
+                  "example": "I prefer staying in a hotel. I don't like sleeping in a tent."
+                },
+                {
+                  "text": "Weather, and friends or family",
+                  "example": "I like hot, sunny weather, and I prefer going on holiday with friends."
+                }
               ]
             }
           ]

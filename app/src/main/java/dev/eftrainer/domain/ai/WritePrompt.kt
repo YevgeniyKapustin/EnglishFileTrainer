@@ -51,6 +51,14 @@ object WritePrompt {
                     appendLine("Questions:")
                     write.questions.forEachIndexed { i, q -> appendLine("${i + 1} $q") }
                 }
+                write.scene?.let {
+                    appendLine("The student listened to a recording. You cannot hear it; this is what happens in it:")
+                    appendLine(it)
+                    appendLine(
+                        "So here also check that the text fits what happens in the recording; " +
+                            "any sensible way to describe it is fine.",
+                    )
+                }
                 appendLine("Criteria:")
                 write.criteria.forEach { appendLine("- $it") }
                 if (rules.isNotBlank()) {

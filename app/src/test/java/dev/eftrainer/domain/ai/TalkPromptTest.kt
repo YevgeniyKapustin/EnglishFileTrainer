@@ -1,7 +1,9 @@
 package dev.eftrainer.domain.ai
 
 import dev.eftrainer.data.ai.AiException
+import dev.eftrainer.data.content.Picture
 import dev.eftrainer.data.content.Talk
+import dev.eftrainer.data.content.TalkStep
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertNull
@@ -85,6 +87,62 @@ class TalkPromptTest {
         assertTrue(user.second.contains("- uses do/does in questions"))
         assertTrue(user.second.contains("Student: Where you live?"))
         assertTrue(user.second.contains("Partner: Hi!"))
+    }
+
+    @Test fun `pictures reach the conversation and the grading as hidden captions`() {
+        val pictured =
+            talk.copy(
+                pictures =
+                    listOf(
+                        Picture("1", "p_one", "A man is pouring milk."),
+                        Picture("2", "p_two", "A woman is reading a letter."),
+                    ),
+            )
+        val system = TalkPrompt.conversation(pictured, emptyList())[0].second
+        val grading = TalkPrompt.grading(pictured, "", emptyList())[1].second
+        for (text in listOf(system, grading)) {
+            assertTrue(text, text.contains("- Picture 1: A man is pouring milk."))
+            assertTrue(text, text.contains("- Picture 2: A woman is reading a letter."))
+            assertFalse(text, text.contains("p_one"))
+        }
+    }
+
+    @Test fun `steps reach the conversation and the grading as a numbered plan`() {
+        val planned =
+            talk.copy(
+                steps =
+                    listOf(
+                        TalkStep("Ask where she lives", "Where do you live?"),
+                        TalkStep("Ask about her job", "What do you do?"),
+                    ),
+            )
+        val system = TalkPrompt.conversation(planned, emptyList())[0].second
+        val grading = TalkPrompt.grading(planned, "", emptyList())[1].second
+        for (text in listOf(system, grading)) {
+            assertTrue(text, text.contains("1 Ask where she lives"))
+            assertTrue(text, text.contains("2 Ask about her job"))
+            assertFalse(text, text.contains("What do you do?"))
+        }
+        assertTrue(system.contains("[DONE 1,2]"))
+    }
+
+    @Test fun `done mark is parsed into step indices and removed`() {
+        val reply = TalkPrompt.reply("Oh, nice! And what do you do? [DONE 1, 3]", studentTurns = 1)
+        assertEquals("Oh, nice! And what do you do?", reply.text)
+        assertEquals(setOf(0, 2), reply.done)
+        val none = TalkPrompt.reply("Hi! [done]", studentTurns = 1)
+        assertEquals("Hi!", none.text)
+        assertTrue(none.done.isEmpty())
+        val both = TalkPrompt.reply("Bye! [DONE 1,2] [END]", studentTurns = 3)
+        assertEquals(TalkPrompt.Reply("Bye!", true, setOf(0, 1)), both)
+    }
+
+    @Test fun `no pictures leave the prompts unchanged`() {
+        val system = TalkPrompt.conversation(talk, emptyList())[0].second
+        val grading = TalkPrompt.grading(talk, "", emptyList())[1].second
+        assertFalse(system.contains("Picture"))
+        assertFalse(grading.contains("Picture"))
+        assertTrue(system.endsWith("[END] at the very end."))
     }
 
     @Test fun `chat keeps context and follow-ups in order`() {

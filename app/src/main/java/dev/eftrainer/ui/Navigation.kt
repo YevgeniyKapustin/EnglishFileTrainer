@@ -209,7 +209,7 @@ private fun NavGraphBuilder.chapterScreens(
     }
     screen<ChapterRoute>(nav) { screen ->
         CurrentChapterScreen(
-            onAllChapters = screen::back,
+            onAllChapters = { screen.open(ChaptersRoute) },
             onSection = { screen.open(SectionRoute(it)) },
             onReview = {},
             onSettings = { screen.open(SettingsRoute) },

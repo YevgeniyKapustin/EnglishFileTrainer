@@ -13,6 +13,7 @@ import java.io.File
 class ContentValidationTest {
     private val exercises = Chapters.all.flatMap { c -> c.sections.flatMap { s -> s.tasks.flatMap { it.exercises } } }
     private val sections = Chapters.all.flatMap { it.sections }
+    private val tasks = Chapters.all.flatMap { c -> c.sections.flatMap { it.tasks } }
 
     @Test fun `ids are unique`() {
         val ids =
@@ -64,13 +65,52 @@ class ContentValidationTest {
             .filter { it.isNotEmpty() }
             .sorted()
 
-    @Test fun `put in order answers use exactly the prompt words`() {
-        for (e in exercises.filterIsInstance<Rewrite>().filter {
-            it.prefill == null &&
-                it.hint == null &&
+    private fun slashed(t: Task) =
+        t.exercises.filterIsInstance<Rewrite>().filter {
+            it.hint == null &&
                 " / " in it.prompt
-        }) {
+        }
+
+    @Test fun `put in order answers use exactly the prompt words`() {
+        for (e in tasks.filter { "order" in it.instruction.lowercase() }.flatMap(::slashed)) {
             for (a in e.answers) assertEquals("${e.id}: «$a»", words(e.prompt), words(a))
+        }
+    }
+
+    @Test fun `slashed questions carry the question mark among the words`() {
+        for (e in tasks.flatMap(::slashed).filter { it.answers.first().endsWith("?") }) {
+            assertTrue("${e.id}: нет «?» среди слов", "?" in e.prompt.split(" / ").map { it.trim() })
+        }
+    }
+
+    @Test fun `dialogue tasks are blanks with unlabelled lines`() {
+        for (t in tasks.filter { it.dialogue }) {
+            for (e in t.exercises) {
+                assertTrue("${e.id}: диалог только из Blank", e is Blank)
+                val lines = (e as Blank).text.lines()
+                assertTrue("${e.id}: меньше двух реплик", lines.size >= 2)
+                assertTrue("${e.id}: метка говорящего", lines.none { Regex("""^\s*[A-Z]:\s""").containsMatchIn(it) })
+            }
+        }
+    }
+
+    @Test fun `task words are non-blank and distinct`() {
+        for (t in tasks) {
+            assertTrue("${t.id}: пустое слово", t.words.all { it.isNotBlank() })
+            assertEquals("${t.id}: повтор слов", t.words.distinct(), t.words)
+        }
+    }
+
+    @Test fun `no first letter hints`() {
+        val firstLetter = Regex("""(?<![\w'’])[b-hj-z](…|\.\.\.|_{2,})""")
+        for (e in exercises) {
+            val texts =
+                listOfNotNull(
+                    e.hint,
+                    (e as? Blank)?.text,
+                    (e as? Rewrite)?.prompt,
+                )
+            assertTrue("${e.id}: подсказка первой буквой", texts.none { firstLetter.containsMatchIn(it) })
         }
     }
 
@@ -151,10 +191,12 @@ class ContentValidationTest {
         }
     }
 
-    @Test fun `prefill answers add exactly the hint words`() {
-        for (e in exercises.filterIsInstance<Rewrite>().filter { it.prefill != null && it.hint != null }) {
-            val expected = words(e.prefill!! + " " + e.hint!!)
-            assertEquals("${e.id}", expected, words(e.answers.first()))
+    @Test fun `correct place answers add exactly the hint words`() {
+        for (t in tasks.filter { "correct place" in it.instruction }) {
+            for (e in t.exercises.filterIsInstance<Rewrite>().filter { it.hint != null }) {
+                val expected = words(e.prompt + " " + e.hint!!)
+                assertTrue("${e.id}", e.answers.any { words(it) == expected })
+            }
         }
     }
 
@@ -200,11 +242,7 @@ class ContentValidationTest {
     private fun keys(e: Exercise): List<String> =
         when (e) {
             is Rewrite -> {
-                listOfNotNull(
-                    e.prefill,
-                    e.answers.first(),
-                    if (e.prefill == null) e.prompt + " " + (e.hint ?: "") else null,
-                )
+                listOf(e.answers.first(), e.prompt + " " + (e.hint ?: ""))
             }
 
             is Blank -> {

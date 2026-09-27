@@ -27,7 +27,6 @@ class CheckerTest {
         Rewrite(
             "t-correct",
             "What time you get up?",
-            prefill = "What time you get up?",
             answers = listOf("What time do you get up?"),
         )
 
@@ -62,10 +61,10 @@ class CheckerTest {
 
     @Test fun `rewrite empty input is wrong`() = assertFalse(Checker.check(order, "").correct)
 
-    @Test fun `prefill left unchanged is wrong when there is a mistake`() =
-        assertFalse(Checker.check(correctMistake, correctMistake.prefill!!).correct)
+    @Test fun `prompt left unchanged is wrong when there is a mistake`() =
+        assertFalse(Checker.check(correctMistake, correctMistake.prompt).correct)
 
-    @Test fun `prefill fixed is correct`() =
+    @Test fun `prompt fixed is correct`() =
         assertTrue(
             Checker.check(correctMistake, "What time do you get up?").correct,
         )

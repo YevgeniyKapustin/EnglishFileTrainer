@@ -78,21 +78,9 @@ object GeneratedResponse {
     ): Rewrite? {
         val prompt = (m["prompt"] as? String)?.trim()?.takeIf(::fits)
         val answers = strings(m["answers"]).orEmpty()
-        val prefill = (m["prefill"] as? String)?.trim()?.takeIf(::fits)
         if (prompt == null || answers.isEmpty()) return null
-        val unchanged = prefill == null && Normalizer.normalize(answers.first()) == Normalizer.normalize(prompt)
-        return if (unchanged) {
-            null
-        } else {
-            Rewrite(
-                "",
-                prompt,
-                answers,
-                prefill = prefill,
-                hint = hint,
-                source = AnswerSource.MODEL,
-            )
-        }
+        val unchanged = Normalizer.normalize(answers.first()) == Normalizer.normalize(prompt)
+        return if (unchanged) null else Rewrite("", prompt, answers, hint = hint, source = AnswerSource.MODEL)
     }
 
     private fun fits(s: String) = s.isNotBlank() && s.length <= GeneratePrompt.MAX_LEN
@@ -110,7 +98,7 @@ object GeneratedResponse {
 
     private fun keys(e: Exercise): List<String> =
         when (e) {
-            is Rewrite -> listOfNotNull(e.prompt, e.prefill, e.answers.firstOrNull())
+            is Rewrite -> listOfNotNull(e.prompt, e.answers.firstOrNull())
             is Blank -> listOf(e.text, e.filled())
             else -> emptyList()
         }.map(Normalizer::normalize)

@@ -35,7 +35,7 @@ fun RewriteInput(
     modifier: Modifier = Modifier,
 ) {
     Column(modifier, verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        if (exercise.prefill == null) Text(exercise.prompt, style = T.question)
+        Text(exercise.prompt, style = T.question)
         exercise.hint?.let { Text(it, style = T.hint) }
 
         val border =

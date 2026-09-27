@@ -132,7 +132,7 @@ object ExplainPrompt {
     private fun Exercise.asText(): String =
         when (this) {
             is Rewrite -> {
-                prefill?.let { "correct the sentence if needed: $it" } ?: prompt
+                prompt
             }
 
             is Blank -> {

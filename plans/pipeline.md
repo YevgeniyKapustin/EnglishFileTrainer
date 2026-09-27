@@ -32,8 +32,10 @@ PDF → JSON → Kotlin, аудио, клипы. Порядок работы —
      исходная форма слов: `Where {} born? (you / be)`;
    - «put the words in order» → `Rewrite`, слова вразброс в `prompt`, ответ —
      фраза целиком;
-   - «right or wrong? correct the mistakes» → `Rewrite` с `prefill`: фраза
-     уже в поле, правишь; верную оставляешь как есть;
+   - «right or wrong? correct the mistakes» → `Rewrite`: фраза в `prompt`, поле пустое, пишешь целиком;
+     A/B → обе фразы в `prompt` строками, ответ — верная; T/F → ответ — утверждение, исправленное на верное;
+   - список слов на задание → `"words"` у задания; диалог A/B → `"dialogue": true`, реплики через `
+` без меток;
    - «match 1–n with a–n» → по `Blank` на пару: `{} a film` → `watch`;
    - «match the sentences and the photos» → `Blank`/`Rewrite` с `"image"` у пункта (фото из книги);
    - «number the pictures / events in order» → `"type": "order"`: `pictures` `[{label, image, caption}]`
@@ -82,8 +84,8 @@ Opus моно 32 кбит/с; папка в `.gitignore`). Видео — x264 C
   Номера — индекс страницы PDF с 1; PNG в `tools/out/` (не в git: сканы книги).
 - `generate.py` — шаг 5: `uv run --no-project --with mutagen python tools/generate.py 1A` (без mutagen длина файла
   для клипов не проверяется — только предупреждение). Правка — в JSON, Kotlin не трогаем. У `speak` `answers` можно
-  не писать (= `[text]`), иначе `answers[0] == text`. У `rewrite` с `prefill` поле `prompt` в Kotlin = `prefill`
-  (обязательное, не показывается). Дубль заготовки ищется по нормализованному (как `Normalizer.kt`) тексту+подсказке
+  не писать (= `[text]`), иначе `answers[0] == text`. У `rewrite` `prompt` обязателен;
+  `prefill` и подсказки первой буквой (`b…`) — ошибка. Дубль заготовки ищется по нормализованному (как `Normalizer.kt`) тексту+подсказке
   и полному первому ответу; шаблон вида «What … ?» без подсказки — не ключ.
 - `clips.py` — шаг 5a: `uv run --no-project --with faster-whisper python tools/clips.py transcribe|dump|find …`,
   пути от `app/src/main/assets`. `find` подтягивает границы к участкам звука (whisper после паузы ставит начало на

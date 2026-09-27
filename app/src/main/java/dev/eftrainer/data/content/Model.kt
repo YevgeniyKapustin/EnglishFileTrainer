@@ -29,7 +29,6 @@ data class Rewrite(
     override val id: String,
     val prompt: String,
     val answers: List<String>,
-    val prefill: String? = null,
     override val hint: String? = null,
     override val explain: String? = null,
     override val source: AnswerSource = AnswerSource.KEY,
@@ -159,6 +158,8 @@ data class Task(
     val context: String? = null,
     val audio: String? = null,
     val video: String? = null,
+    val words: List<String> = emptyList(),
+    val dialogue: Boolean = false,
 )
 
 val Task.number: String get() =

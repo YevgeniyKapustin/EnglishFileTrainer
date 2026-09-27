@@ -27,6 +27,9 @@ PRESET_SECTION_KINDS = ("GRAMMAR", "VOCABULARY")
 CLIP_BOUNDS_COUNT = 2
 BUBBLE_COUNT = 2
 CLIP_LENGTH_TOLERANCE_SECONDS = 0.05
+DIALOGUE_LINES = 2
+SPEAKER_LABEL = re.compile(r"^\s*[A-Z]:\s")
+FIRST_LETTER_HINT = re.compile(r"(?<![\w'’])[b-hj-z](?:…|\.\.\.|_{2,})")
 
 
 @dataclass
@@ -44,7 +47,8 @@ class Report:
 def kotlin_string(value: str | None) -> str:
     if value is None:
         return "null"
-    return '"' + value.replace("\\", "\\\\").replace('"', '\\"').replace("$", "\\$") + '"'
+    escaped = value.replace("\\", "\\\\").replace('"', '\\"').replace("$", "\\$").replace("\n", "\\n")
+    return '"' + escaped + '"'
 
 
 def kotlin_strings(values: Iterable[str]) -> str:
@@ -142,9 +146,10 @@ def duplicate_keys(exercise: Json) -> set[str]:
     if exercise["type"] == "blank":
         candidates = [exercise["text"] + " " + (exercise.get("hint") or ""), filled_blank(exercise)]
     elif exercise["type"] == "rewrite":
-        candidates = [exercise.get("prefill"), exercise["answers"][0] if exercise["answers"] else None]
-        if exercise.get("prompt") and not exercise.get("prefill"):
-            candidates.append(exercise["prompt"] + " " + (exercise.get("hint") or ""))
+        candidates = [
+            exercise["answers"][0] if exercise["answers"] else None,
+            exercise["prompt"] + " " + (exercise.get("hint") or ""),
+        ]
     else:
         candidates = [exercise.get("text")]
     return {normalize(candidate) for candidate in candidates if candidate}
@@ -189,8 +194,8 @@ def blank_answers(eid: str, exercise: Json, report: Report) -> list[str | None]:
 
 
 def rewrite_answers(eid: str, exercise: Json, report: Report) -> list[str | None]:
-    if not (exercise.get("prompt") or exercise.get("prefill")):
-        report.errors.append(f"{eid}: нет ни prompt, ни prefill")
+    if not (exercise.get("prompt") or "").strip():
+        report.errors.append(f"{eid}: нет prompt")
     answers: list[str | None] = exercise["answers"] or [None]
     return answers
 
@@ -249,6 +254,10 @@ def validate_exercise(task: Json, exercise: Json, report: Report) -> None:
         if exercise["type"] not in IMAGE_TYPES:
             report.errors.append(f"{eid}: image только у blank/rewrite")
         check_image(eid, exercise["image"], report)
+    if "prefill" in exercise:
+        report.errors.append(f"{eid}: prefill больше нет — исходное предложение в prompt")
+    if first_letter_hints(exercise):
+        report.errors.append(f"{eid}: подсказка первой буквой")
     validate_answers = ANSWER_VALIDATORS.get(exercise["type"])
     if validate_answers is None:
         report.errors.append(f"{eid}: тип {exercise['type']}")
@@ -274,8 +283,32 @@ def validate_task(task: Json, report: Report) -> None:
         check_audio(task["id"], task["audio"], report)
     if task.get("video"):
         validate_video(task, report)
+    validate_words(task, report)
+    if task.get("dialogue"):
+        validate_dialogue(task, report)
     for exercise in task["exercises"]:
         validate_exercise(task, exercise, report)
+
+
+def validate_words(task: Json, report: Report) -> None:
+    words = task.get("words", [])
+    if any(not word.strip() for word in words) or len(set(words)) != len(words):
+        report.errors.append(f"{task['id']}: words — пустые или повторяющиеся")
+
+
+def validate_dialogue(task: Json, report: Report) -> None:
+    for exercise in task["exercises"]:
+        eid = exercise_id(task, exercise)
+        lines = exercise.get("text", "").split("\n")
+        if exercise["type"] != "blank" or len(lines) < DIALOGUE_LINES:
+            report.errors.append(f"{eid}: dialogue — нужен blank с репликами через \\n")
+        if any(SPEAKER_LABEL.match(line) for line in lines):
+            report.errors.append(f"{eid}: dialogue — без меток говорящих")
+
+
+def first_letter_hints(exercise: Json) -> bool:
+    fields = [exercise.get("hint"), exercise.get("text"), exercise.get("prompt")]
+    return any(FIRST_LETTER_HINT.search(value) for value in fields if value)
 
 
 def validate_reference(section: Json, reference: Json, report: Report) -> None:
@@ -373,13 +406,10 @@ def write_arguments(exercise: Json) -> list[str]:
 
 
 def rewrite_arguments(exercise: Json) -> list[str]:
-    arguments = [
-        f"prompt = {kotlin_string(exercise.get('prompt') or exercise['prefill'])}",
+    return [
+        f"prompt = {kotlin_string(exercise['prompt'])}",
         f"answers = {kotlin_strings(exercise['answers'])}",
     ]
-    if exercise.get("prefill"):
-        arguments.append(f"prefill = {kotlin_string(exercise['prefill'])}")
-    return arguments
 
 
 def order_arguments(exercise: Json) -> list[str]:
@@ -431,6 +461,8 @@ def task_code(task: Json, indent: str) -> str:
     context = f"{indent}    context = {kotlin_string(task['context'])},\n" if task.get("context") else ""
     audio = f"{indent}    audio = {kotlin_string(task['audio'])},\n" if task.get("audio") else ""
     video = f"{indent}    video = {kotlin_string(task['video'])},\n" if task.get("video") else ""
+    words = f"{indent}    words = {kotlin_strings(task['words'])},\n" if task.get("words") else ""
+    dialogue = f"{indent}    dialogue = true,\n" if task.get("dialogue") else ""
     return (
         f"{indent}Task(\n"
         f"{indent}    id = {kotlin_string(task['id'])},\n"
@@ -439,6 +471,8 @@ def task_code(task: Json, indent: str) -> str:
         f"{context}"
         f"{audio}"
         f"{video}"
+        f"{words}"
+        f"{dialogue}"
         f"{indent}    exercises = listOf(\n{exercises},\n{indent}    ),\n"
         f"{indent})"
     )

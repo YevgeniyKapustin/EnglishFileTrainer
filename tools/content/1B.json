@@ -206,32 +206,27 @@
         {
           "id": "1B-sb2b",
           "origin": "SB",
-          "instruction": "Which sentence is correct, A or B?",
-          "note": "SB 2b «Tick the correct sentences» → Blank на букву A/B",
+          "instruction": "Which sentence is correct? Write it",
+          "note": "SB 2b «Tick the correct sentences» → Rewrite: обе фразы в prompt (по строке), ответ — верная целиком",
           "exercises": [
             {
               "n": 1,
-              "type": "blank",
-              "text": "A They often go out together.  B They go out often together. → {}",
-              "gaps": [
-                [
-                  "A"
-                ]
+              "type": "rewrite",
+              "prompt": "They often go out together.\nThey go out often together.",
+              "answers": [
+                "They often go out together."
               ],
-              "hint": "(A or B)",
               "explain": "often goes before the main verb: They often go out.",
               "source": "MODEL"
             },
             {
               "n": 2,
-              "type": "blank",
-              "text": "A He always is the one who pays.  B He’s always the one who pays. → {}",
-              "gaps": [
-                [
-                  "B"
-                ]
+              "type": "rewrite",
+              "prompt": "He always is the one who pays.\nHe’s always the one who pays.",
+              "answers": [
+                "He’s always the one who pays.",
+                "He is always the one who pays."
               ],
-              "hint": "(A or B)",
               "explain": "With be the adverb goes after the verb: He’s always…",
               "source": "MODEL"
             }
@@ -246,11 +241,10 @@
             {
               "n": 1,
               "type": "rewrite",
-              "prompt": "Anna / like music",
+              "prompt": "Anna / like music / ?",
               "answers": [
                 "Does Anna like music?"
-              ],
-              "hint": "(?)"
+              ]
             },
             {
               "n": 2,
@@ -293,11 +287,10 @@
             {
               "n": 6,
               "type": "rewrite",
-              "prompt": "What time / the film start",
+              "prompt": "What time / the film start / ?",
               "answers": [
                 "What time does the film start?"
-              ],
-              "hint": "(?)"
+              ]
             },
             {
               "n": 7,
@@ -321,11 +314,10 @@
             {
               "n": 9,
               "type": "rewrite",
-              "prompt": "how often / you see your brother",
+              "prompt": "how often / you see your brother / ?",
               "answers": [
                 "How often do you see your brother?"
-              ],
-              "hint": "(?)"
+              ]
             },
             {
               "n": 10,
@@ -432,11 +424,12 @@
           "origin": "WB",
           "instruction": "Complete the conversations with the present simple form of the verbs in brackets",
           "note": "WB 2a; 1 Do / live — пример",
+          "dialogue": true,
           "exercises": [
             {
               "n": 2,
               "type": "blank",
-              "text": "A: {} Louisa {} to marry her boyfriend? B: In a few years perhaps.",
+              "text": "{} Louisa {} to marry her boyfriend?\nIn a few years perhaps.",
               "gaps": [
                 [
                   "Does"
@@ -450,7 +443,7 @@
             {
               "n": 3,
               "type": "blank",
-              "text": "A: What’s the weather like where you live? B: It rains a lot in the winter, but it {} often {} in the summer.",
+              "text": "What’s the weather like where you live?\nIt rains a lot in the winter, but it {} often {} in the summer.",
               "gaps": [
                 [
                   "doesn’t",
@@ -465,7 +458,7 @@
             {
               "n": 4,
               "type": "blank",
-              "text": "A: What does José do in the evenings? B: He {} a lot of TV.",
+              "text": "What does José do in the evenings?\nHe {} a lot of TV.",
               "gaps": [
                 [
                   "watches"
@@ -476,7 +469,7 @@
             {
               "n": 5,
               "type": "blank",
-              "text": "A: {} your sister {} Spanish? B: No, but she speaks English and Italian.",
+              "text": "{} your sister {} Spanish?\nNo, but she speaks English and Italian.",
               "gaps": [
                 [
                   "Does"
@@ -490,7 +483,7 @@
             {
               "n": 6,
               "type": "blank",
-              "text": "A: {} you {} Monday to Friday? B: Yes, and I usually work on Saturdays, too.",
+              "text": "{} you {} Monday to Friday?\nYes, and I usually work on Saturdays, too.",
               "gaps": [
                 [
                   "Do"
@@ -504,7 +497,7 @@
             {
               "n": 7,
               "type": "blank",
-              "text": "A: How often do you play tennis in winter? B: We {} very often because it’s cold and wet.",
+              "text": "How often do you play tennis in winter?\nWe {} very often because it’s cold and wet.",
               "gaps": [
                 [
                   "don’t play",
@@ -516,7 +509,7 @@
             {
               "n": 8,
               "type": "blank",
-              "text": "A: Does your sister like living in Italy? B: Yes, she {} it.",
+              "text": "Does your sister like living in Italy?\nYes, she {} it.",
               "gaps": [
                 [
                   "loves"
@@ -597,6 +590,19 @@
           "instruction": "Complete the text with the correct form of the verbs in the box",
           "note": "WB 2c «My boyfriend Jamie» (фото пары у озера не нужно); текст разбит по пропускам, 1 works — пример",
           "context": "My boyfriend Jamie: a student writes about how different she is from her boyfriend. ‘I’m very different from my boyfriend, Jamie. … Some people say that opposites attract, and for Jamie and me, it’s true.’",
+          "words": [
+            "earn",
+            "get on",
+            "have",
+            "live",
+            "not come",
+            "not like",
+            "not see",
+            "prefer",
+            "share",
+            "study",
+            "want"
+          ],
           "exercises": [
             {
               "n": 2,
@@ -606,8 +612,7 @@
                 [
                   "earns"
                 ]
-              ],
-              "hint": "(earn, get on, have, live, not come, not like, not see, prefer, share, study, want)"
+              ]
             },
             {
               "n": 3,
@@ -617,8 +622,7 @@
                 [
                   "study"
                 ]
-              ],
-              "hint": "(earn, get on, have, live, not come, not like, not see, prefer, share, study, want)"
+              ]
             },
             {
               "n": 4,
@@ -628,8 +632,7 @@
                 [
                   "want"
                 ]
-              ],
-              "hint": "(earn, get on, have, live, not come, not like, not see, prefer, share, study, want)"
+              ]
             },
             {
               "n": 5,
@@ -639,8 +642,7 @@
                 [
                   "lives"
                 ]
-              ],
-              "hint": "(earn, get on, have, live, not come, not like, not see, prefer, share, study, want)"
+              ]
             },
             {
               "n": 6,
@@ -650,8 +652,7 @@
                 [
                   "share"
                 ]
-              ],
-              "hint": "(earn, get on, have, live, not come, not like, not see, prefer, share, study, want)"
+              ]
             },
             {
               "n": 7,
@@ -661,8 +662,7 @@
                 [
                   "have"
                 ]
-              ],
-              "hint": "(earn, get on, have, live, not come, not like, not see, prefer, share, study, want)"
+              ]
             },
             {
               "n": 8,
@@ -673,8 +673,7 @@
                   "doesn’t come",
                   "does not come"
                 ]
-              ],
-              "hint": "(earn, get on, have, live, not come, not like, not see, prefer, share, study, want)"
+              ]
             },
             {
               "n": 9,
@@ -685,8 +684,7 @@
                   "doesn’t like",
                   "does not like"
                 ]
-              ],
-              "hint": "(earn, get on, have, live, not come, not like, not see, prefer, share, study, want)"
+              ]
             },
             {
               "n": 10,
@@ -696,8 +694,7 @@
                 [
                   "prefer"
                 ]
-              ],
-              "hint": "(earn, get on, have, live, not come, not like, not see, prefer, share, study, want)"
+              ]
             },
             {
               "n": 11,
@@ -708,8 +705,7 @@
                   "don’t see",
                   "do not see"
                 ]
-              ],
-              "hint": "(earn, get on, have, live, not come, not like, not see, prefer, share, study, want)"
+              ]
             },
             {
               "n": 12,
@@ -719,8 +715,7 @@
                 [
                   "get on"
                 ]
-              ],
-              "hint": "(earn, get on, have, live, not come, not like, not see, prefer, share, study, want)"
+              ]
             }
           ]
         },
@@ -733,74 +728,66 @@
             {
               "n": 21,
               "type": "rewrite",
-              "prompt": "Where / you / live?",
+              "prompt": "Where / you / live / ?",
               "answers": [
                 "Where do you live?"
-              ],
-              "hint": "(present simple question)"
+              ]
             },
             {
               "n": 22,
               "type": "rewrite",
-              "prompt": "Where / Anna / live?",
+              "prompt": "Where / Anna / live / ?",
               "answers": [
                 "Where does Anna live?"
-              ],
-              "hint": "(present simple question)"
+              ]
             },
             {
               "n": 31,
               "type": "rewrite",
-              "prompt": "Who / you / live with?",
+              "prompt": "Who / you / live with / ?",
               "answers": [
                 "Who do you live with?"
-              ],
-              "hint": "(present simple question)"
+              ]
             },
             {
               "n": 32,
               "type": "rewrite",
-              "prompt": "Who / Anna / live with?",
+              "prompt": "Who / Anna / live with / ?",
               "answers": [
                 "Who does Anna live with?"
-              ],
-              "hint": "(present simple question)"
+              ]
             },
             {
               "n": 41,
               "type": "rewrite",
-              "prompt": "you / like going to parties?",
+              "prompt": "you / like going to parties / ?",
               "answers": [
                 "Do you like going to parties?"
-              ],
-              "hint": "(present simple question)"
+              ]
             },
             {
               "n": 42,
               "type": "rewrite",
-              "prompt": "Anna / like going to parties?",
+              "prompt": "Anna / like going to parties / ?",
               "answers": [
                 "Does Anna like going to parties?"
-              ],
-              "hint": "(present simple question)"
+              ]
             },
             {
               "n": 51,
               "type": "rewrite",
-              "prompt": "you / be shy or extrovert?",
+              "prompt": "you / be shy or extrovert / ?",
               "answers": [
                 "Are you shy or extrovert?"
-              ],
-              "hint": "(present simple question)"
+              ]
             },
             {
               "n": 52,
               "type": "rewrite",
-              "prompt": "Anna / be shy or extrovert?",
+              "prompt": "Anna / be shy or extrovert / ?",
               "answers": [
                 "Is Anna shy or extrovert?"
-              ],
-              "hint": "(present simple question)"
+              ]
             }
           ]
         },
@@ -1054,7 +1041,7 @@
             {
               "n": 1,
               "type": "rewrite",
-              "prefill": "My father work in a hospital.",
+              "prompt": "My father work in a hospital.",
               "answers": [
                 "My father works in a hospital."
               ],
@@ -1064,7 +1051,7 @@
             {
               "n": 2,
               "type": "rewrite",
-              "prefill": "Does she speaks English?",
+              "prompt": "Does she speaks English?",
               "answers": [
                 "Does she speak English?"
               ],
@@ -1074,7 +1061,7 @@
             {
               "n": 3,
               "type": "rewrite",
-              "prefill": "I go never to the gym.",
+              "prompt": "I go never to the gym.",
               "answers": [
                 "I never go to the gym."
               ],
@@ -1084,7 +1071,7 @@
             {
               "n": 4,
               "type": "rewrite",
-              "prefill": "He doesn’t never eat fish.",
+              "prompt": "He doesn’t never eat fish.",
               "answers": [
                 "He never eats fish.",
                 "He doesn’t ever eat fish."
@@ -1095,7 +1082,7 @@
             {
               "n": 5,
               "type": "rewrite",
-              "prefill": "She studys at university.",
+              "prompt": "She studys at university.",
               "answers": [
                 "She studies at university."
               ],
@@ -1105,7 +1092,7 @@
             {
               "n": 6,
               "type": "rewrite",
-              "prefill": "We play football twice a week.",
+              "prompt": "We play football twice a week.",
               "answers": [
                 "We play football twice a week."
               ],
@@ -1524,6 +1511,16 @@
           "origin": "SB",
           "instruction": "Complete the definitions with an adjective from the list",
           "note": "VB 2a «Match the adjectives to the definitions» → Blank; 1 friendly — пример. Проверено по аудио 1.14",
+          "words": [
+            "clever",
+            "friendly",
+            "funny",
+            "generous",
+            "kind",
+            "lazy",
+            "shy",
+            "talkative"
+          ],
           "exercises": [
             {
               "n": 2,
@@ -1534,7 +1531,6 @@
                   "talkative"
                 ]
               ],
-              "hint": "(clever, friendly, funny, generous, kind, lazy, shy, talkative)",
               "source": "CONFIRMED"
             },
             {
@@ -1546,7 +1542,6 @@
                   "generous"
                 ]
               ],
-              "hint": "(clever, friendly, funny, generous, kind, lazy, shy, talkative)",
               "source": "CONFIRMED"
             },
             {
@@ -1558,7 +1553,6 @@
                   "kind"
                 ]
               ],
-              "hint": "(clever, friendly, funny, generous, kind, lazy, shy, talkative)",
               "source": "CONFIRMED"
             },
             {
@@ -1570,7 +1564,6 @@
                   "lazy"
                 ]
               ],
-              "hint": "(clever, friendly, funny, generous, kind, lazy, shy, talkative)",
               "source": "CONFIRMED"
             },
             {
@@ -1582,7 +1575,6 @@
                   "funny"
                 ]
               ],
-              "hint": "(clever, friendly, funny, generous, kind, lazy, shy, talkative)",
               "source": "CONFIRMED"
             },
             {
@@ -1594,7 +1586,6 @@
                   "clever"
                 ]
               ],
-              "hint": "(clever, friendly, funny, generous, kind, lazy, shy, talkative)",
               "source": "CONFIRMED"
             },
             {
@@ -1606,7 +1597,6 @@
                   "shy"
                 ]
               ],
-              "hint": "(clever, friendly, funny, generous, kind, lazy, shy, talkative)",
               "source": "CONFIRMED"
             }
           ]
@@ -1617,6 +1607,16 @@
           "instruction": "Write the opposite of the adjective. Then listen and check",
           "note": "VB 2b + 2c (Listen and check); ответы по аудио 1.14",
           "audio": "1.14",
+          "words": [
+            "extrovert",
+            "hard-working",
+            "mean",
+            "quiet",
+            "serious",
+            "stupid",
+            "unfriendly",
+            "unkind"
+          ],
           "exercises": [
             {
               "n": 1,
@@ -1627,7 +1627,6 @@
                   "unfriendly"
                 ]
               ],
-              "hint": "(extrovert, hard-working, mean, quiet, serious, stupid, unfriendly, unkind)",
               "source": "CONFIRMED",
               "clip": [6.47, 10.49]
             },
@@ -1640,7 +1639,6 @@
                   "quiet"
                 ]
               ],
-              "hint": "(extrovert, hard-working, mean, quiet, serious, stupid, unfriendly, unkind)",
               "source": "CONFIRMED",
               "clip": [14.35, 18.16]
             },
@@ -1653,7 +1651,6 @@
                   "mean"
                 ]
               ],
-              "hint": "(extrovert, hard-working, mean, quiet, serious, stupid, unfriendly, unkind)",
               "source": "CONFIRMED",
               "clip": [21.78, 25.11]
             },
@@ -1666,7 +1663,6 @@
                   "unkind"
                 ]
               ],
-              "hint": "(extrovert, hard-working, mean, quiet, serious, stupid, unfriendly, unkind)",
               "source": "CONFIRMED",
               "clip": [28.88, 32.77]
             },
@@ -1680,7 +1676,6 @@
                   "hardworking"
                 ]
               ],
-              "hint": "(extrovert, hard-working, mean, quiet, serious, stupid, unfriendly, unkind)",
               "source": "CONFIRMED",
               "clip": [36.66, 40.5]
             },
@@ -1693,7 +1688,6 @@
                   "serious"
                 ]
               ],
-              "hint": "(extrovert, hard-working, mean, quiet, serious, stupid, unfriendly, unkind)",
               "source": "CONFIRMED",
               "clip": [44.3, 47.7]
             },
@@ -1706,7 +1700,6 @@
                   "stupid"
                 ]
               ],
-              "hint": "(extrovert, hard-working, mean, quiet, serious, stupid, unfriendly, unkind)",
               "source": "CONFIRMED",
               "clip": [51.55, 54.72]
             },
@@ -1719,7 +1712,6 @@
                   "extrovert"
                 ]
               ],
-              "hint": "(extrovert, hard-working, mean, quiet, serious, stupid, unfriendly, unkind)",
               "source": "CONFIRMED",
               "clip": [58.69, 62.34]
             }
@@ -1949,7 +1941,7 @@
           "id": "1B-wb1c",
           "origin": "WB",
           "instruction": "Complete the sentences",
-          "note": "WB 1c; 1 brown / blue — пример",
+          "note": "WB 1c; 1 brown / blue — пример. Подсказки с первой буквой (b…) убраны",
           "exercises": [
             {
               "n": 2,
@@ -1959,8 +1951,7 @@
                 [
                   "bald"
                 ]
-              ],
-              "hint": "(b…)"
+              ]
             },
             {
               "n": 3,
@@ -1970,8 +1961,7 @@
                 [
                   "extrovert"
                 ]
-              ],
-              "hint": "(e…)"
+              ]
             },
             {
               "n": 4,
@@ -1985,8 +1975,7 @@
                   "moustache",
                   "mustache"
                 ]
-              ],
-              "hint": "(b…, m…)"
+              ]
             },
             {
               "n": 5,
@@ -1996,8 +1985,7 @@
                 [
                   "like"
                 ]
-              ],
-              "hint": "(l…)"
+              ]
             },
             {
               "n": 6,
@@ -2010,8 +1998,7 @@
                 [
                   "overweight"
                 ]
-              ],
-              "hint": "(th…, o…)"
+              ]
             },
             {
               "n": 7,
@@ -2022,8 +2009,7 @@
                   "hard-working",
                   "hardworking"
                 ]
-              ],
-              "hint": "(h…-w…)"
+              ]
             },
             {
               "n": 8,
@@ -2036,8 +2022,7 @@
                 [
                   "talkative"
                 ]
-              ],
-              "hint": "(l…, t…)"
+              ]
             },
             {
               "n": 9,
@@ -2047,8 +2032,7 @@
                 [
                   "serious"
                 ]
-              ],
-              "hint": "(s…)"
+              ]
             },
             {
               "n": 10,
@@ -2058,8 +2042,7 @@
                 [
                   "mean"
                 ]
-              ],
-              "hint": "(m…)"
+              ]
             }
           ]
         },
@@ -2259,7 +2242,7 @@
             {
               "n": 1,
               "type": "rewrite",
-              "prefill": "He has black short hair.",
+              "prompt": "He has black short hair.",
               "answers": [
                 "He has short black hair."
               ],
@@ -2269,7 +2252,7 @@
             {
               "n": 2,
               "type": "rewrite",
-              "prefill": "What is your brother look like?",
+              "prompt": "What is your brother look like?",
               "answers": [
                 "What does your brother look like?"
               ],
@@ -2279,7 +2262,7 @@
             {
               "n": 3,
               "type": "rewrite",
-              "prefill": "He has eyes blue.",
+              "prompt": "He has eyes blue.",
               "answers": [
                 "He has blue eyes."
               ],
@@ -2289,7 +2272,7 @@
             {
               "n": 4,
               "type": "rewrite",
-              "prefill": "She’s a very handsome woman.",
+              "prompt": "She’s a very handsome woman.",
               "answers": [
                 "She’s a very beautiful woman.",
                 "She’s a very good-looking woman.",
@@ -2301,7 +2284,7 @@
             {
               "n": 5,
               "type": "rewrite",
-              "prefill": "My uncle has a moustache but no beard.",
+              "prompt": "My uncle has a moustache but no beard.",
               "answers": [
                 "My uncle has a moustache but no beard."
               ],
@@ -2311,7 +2294,7 @@
             {
               "n": 6,
               "type": "rewrite",
-              "prefill": "What’s your sister like? She’s very kind.",
+              "prompt": "What’s your sister like? She’s very kind.",
               "answers": [
                 "What’s your sister like? She’s very kind."
               ],
@@ -2892,6 +2875,9 @@
           "origin": "SB",
           "instruction": "Look at the two highlighted words in the article: fun and funny. Which word describes…?",
           "note": "SB 1f",
+          "words": [
+            "fun or funny"
+          ],
           "exercises": [
             {
               "n": 1,
@@ -2902,7 +2888,6 @@
                   "funny"
                 ]
               ],
-              "hint": "(fun or funny)",
               "explain": "funny = makes you laugh (Clint wants someone funny and clever).",
               "source": "MODEL"
             },
@@ -2915,7 +2900,6 @@
                   "fun"
                 ]
               ],
-              "hint": "(fun or funny)",
               "explain": "fun = good to be with (He’s romantic and he’s fun).",
               "source": "MODEL"
             }
@@ -3057,86 +3041,74 @@
         {
           "id": "1B-sb4c",
           "origin": "SB",
-          "instruction": "Listen again and match the phrases to the two men. Write J for John or S for Sebastian",
-          "note": "SB 4c; вторую часть («Which man do you think Elspbeth prefers? Why?») опустили — у скрипта нет однозначного ответа",
+          "instruction": "Listen again. Who is it, John or Sebastian? Write the name",
+          "note": "SB 4c; вторую часть («Which man do you think Elspbeth prefers? Why?») опустили — у скрипта нет однозначного ответа. J/S → имя целиком",
           "audio": "1.20",
           "exercises": [
             {
               "n": 1,
               "type": "blank",
-              "text": "He’s tall, dark, and handsome. → {}",
+              "text": "He’s tall, dark, and handsome. {}",
               "gaps": [
                 [
-                  "S",
                   "Sebastian"
                 ]
               ],
-              "hint": "(J or S)",
               "source": "CONFIRMED"
             },
             {
               "n": 2,
               "type": "blank",
-              "text": "He’s very tall. → {}",
+              "text": "He’s very tall. {}",
               "gaps": [
                 [
-                  "J",
                   "John"
                 ]
               ],
-              "hint": "(J or S)",
               "source": "CONFIRMED"
             },
             {
               "n": 3,
               "type": "blank",
-              "text": "He’s a teacher. → {}",
+              "text": "He’s a teacher. {}",
               "gaps": [
                 [
-                  "J",
                   "John"
                 ]
               ],
-              "hint": "(J or S)",
               "source": "CONFIRMED"
             },
             {
               "n": 4,
               "type": "blank",
-              "text": "He’s from Germany, but he lives in Dublin. → {}",
+              "text": "He’s from Germany, but he lives in Dublin. {}",
               "gaps": [
                 [
-                  "S",
                   "Sebastian"
                 ]
               ],
-              "hint": "(J or S)",
               "source": "CONFIRMED"
             },
             {
               "n": 5,
               "type": "blank",
-              "text": "There isn’t a spark. → {}",
+              "text": "There isn’t a spark. {}",
               "gaps": [
                 [
-                  "J",
                   "John"
                 ]
               ],
-              "hint": "(J or S)",
               "source": "CONFIRMED"
             },
             {
               "n": 6,
               "type": "blank",
-              "text": "He’s a real gentleman. → {}",
+              "text": "He’s a real gentleman. {}",
               "gaps": [
                 [
-                  "S",
                   "Sebastian"
                 ]
               ],
-              "hint": "(J or S)",
               "source": "CONFIRMED"
             }
           ]
@@ -3406,7 +3378,7 @@
             {
               "n": 1,
               "type": "rewrite",
-              "prefill": "I have 21 years old.",
+              "prompt": "I have 21 years old.",
               "answers": [
                 "I’m 21 years old.",
                 "I’m 21.",
@@ -3419,7 +3391,7 @@
             {
               "n": 2,
               "type": "rewrite",
-              "prefill": "I’m studing physics.",
+              "prompt": "I’m studing physics.",
               "answers": [
                 "I’m studying physics."
               ],
@@ -3429,7 +3401,7 @@
             {
               "n": 3,
               "type": "rewrite",
-              "prefill": "As you can see from the foto, I have black hair.",
+              "prompt": "As you can see from the foto, I have black hair.",
               "answers": [
                 "As you can see from the photo, I have black hair."
               ],
@@ -3439,7 +3411,7 @@
             {
               "n": 4,
               "type": "rewrite",
-              "prefill": "I have black hair and browns eyes.",
+              "prompt": "I have black hair and browns eyes.",
               "answers": [
                 "I have black hair and brown eyes."
               ],
@@ -3449,7 +3421,7 @@
             {
               "n": 5,
               "type": "rewrite",
-              "prefill": "My freinds say I’m funny.",
+              "prompt": "My freinds say I’m funny.",
               "answers": [
                 "My friends say I’m funny."
               ],
@@ -3459,7 +3431,7 @@
             {
               "n": 6,
               "type": "rewrite",
-              "prefill": "But I can to be serious too.",
+              "prompt": "But I can to be serious too.",
               "answers": [
                 "But I can be serious too."
               ],
@@ -3469,7 +3441,7 @@
             {
               "n": 7,
               "type": "rewrite",
-              "prefill": "I dont have many free time.",
+              "prompt": "I dont have many free time.",
               "answers": [
                 "I don’t have much free time."
               ],
@@ -3479,7 +3451,7 @@
             {
               "n": 9,
               "type": "rewrite",
-              "prefill": "I don’t have much free time becuase I have to do projects.",
+              "prompt": "I don’t have much free time becuase I have to do projects.",
               "answers": [
                 "I don’t have much free time because I have to do projects."
               ],
@@ -3489,7 +3461,7 @@
             {
               "n": 10,
               "type": "rewrite",
-              "prefill": "I watch them in english with subtitles.",
+              "prompt": "I watch them in english with subtitles.",
               "answers": [
                 "I watch them in English with subtitles."
               ],
@@ -3504,6 +3476,13 @@
           "instruction": "Write the topic of each paragraph. Then say which paragraph each highlighted phrase is from",
           "note": "Writing 1c, таблица Content / Phrases → Blank. Paragraph 1 (name, age, nationality; My name’s…, Everyone calls me…) — пример. n 6–13 — фразы",
           "context": "Charlie’s profile (photo: a smiling young man with short curly black hair in a blue T-shirt). 1 Hi. My name’s Charlie. Well, it’s really Carlos but everyone calls me Charlie. I have 21 years old. I’m Mexican, and I live in Guadalajara. 2 I’m going to tell you about myself. I’m at university. I’m studing physics. I’m in my last year and I really like it. I live with my parents in a flat in the centre. I have a dog, a schnauzer – his name is Towser. 3 As you can see from the foto, I have black hair and browns eyes. My father always says I have a big nose, but I don’t think so. I think it’s a Roman nose! 4 I think I’m a positive person. My freinds say I’m funny and it’s true, I like making people laugh. But I can to be serious too when I need to be! 5 I dont have many free time becuase when I’m not in class I have to do projects or write reports. But when I can, I like watching TV series, especially science fiction series and comedies. I watch them in english with subtitles. I also like playing computer games like World of Warcraft and Starcraft.",
+          "words": [
+            "hobbies and interests",
+            "personality",
+            "physical appearance",
+            "work / study",
+            "family"
+          ],
           "exercises": [
             {
               "n": 2,
@@ -3518,7 +3497,6 @@
                   "work / study and family"
                 ]
               ],
-              "hint": "(hobbies and interests, personality, physical appearance, work / study, family)",
               "source": "MODEL"
             },
             {
@@ -3531,7 +3509,6 @@
                   "appearance"
                 ]
               ],
-              "hint": "(hobbies and interests, personality, physical appearance, work / study, family)",
               "source": "MODEL"
             },
             {
@@ -3543,7 +3520,6 @@
                   "personality"
                 ]
               ],
-              "hint": "(hobbies and interests, personality, physical appearance, work / study, family)",
               "source": "MODEL"
             },
             {
@@ -3557,7 +3533,6 @@
                   "interests"
                 ]
               ],
-              "hint": "(hobbies and interests, personality, physical appearance, work / study, family)",
               "source": "MODEL"
             },
             {

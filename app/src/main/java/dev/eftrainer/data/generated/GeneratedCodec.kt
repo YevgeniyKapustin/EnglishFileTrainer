@@ -58,7 +58,6 @@ object GeneratedCodec {
                             mapOf(
                                 "prompt" to e.prompt,
                                 "answers" to e.answers,
-                                "prefill" to e.prefill,
                             )
                     }
                 }
@@ -84,9 +83,8 @@ object GeneratedCodec {
                     REWRITE -> {
                         Rewrite(
                             id = row.id,
-                            prompt = m["prompt"] as String,
+                            prompt = (m["prefill"] ?: m["prompt"]) as String,
                             answers = (m["answers"] as List<*>).map { it as String },
-                            prefill = m["prefill"] as String?,
                             hint = hint,
                             explain = explain,
                             source = AnswerSource.MODEL,

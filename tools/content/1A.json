@@ -137,12 +137,12 @@
           "id": "1A-sb2a",
           "origin": "SB",
           "instruction": "Correct the questions. If a question is already correct, leave it as it is",
-          "note": "SB 2a «Tick the three correct questions. Rewrite the incorrect ones» → Rewrite с prefill; 1 — пример (верный)",
+          "note": "SB 2a «Tick the three correct questions. Rewrite the incorrect ones» → Rewrite: вопрос в prompt, поле пустое; 1 — пример (верный)",
           "exercises": [
             {
               "n": 2,
               "type": "rewrite",
-              "prefill": "Where works your father?",
+              "prompt": "Where works your father?",
               "answers": [
                 "Where does your father work?"
               ],
@@ -152,7 +152,7 @@
             {
               "n": 3,
               "type": "rewrite",
-              "prefill": "Were you at this school last year?",
+              "prompt": "Were you at this school last year?",
               "answers": [
                 "Were you at this school last year?"
               ],
@@ -162,7 +162,7 @@
             {
               "n": 4,
               "type": "rewrite",
-              "prefill": "Is there a supermarket near here?",
+              "prompt": "Is there a supermarket near here?",
               "answers": [
                 "Is there a supermarket near here?"
               ],
@@ -172,7 +172,7 @@
             {
               "n": 5,
               "type": "rewrite",
-              "prefill": "Have you cereal for breakfast?",
+              "prompt": "Have you cereal for breakfast?",
               "answers": [
                 "Do you have cereal for breakfast?"
               ],
@@ -182,7 +182,7 @@
             {
               "n": 6,
               "type": "rewrite",
-              "prefill": "Where went you for your last holiday?",
+              "prompt": "Where went you for your last holiday?",
               "answers": [
                 "Where did you go for your last holiday?"
               ],
@@ -349,7 +349,7 @@
             {
               "n": 1,
               "type": "rewrite",
-              "prefill": "Where we park?",
+              "prompt": "Where we park?",
               "hint": "(can)",
               "answers": [
                 "Where can we park?"
@@ -359,7 +359,7 @@
             {
               "n": 2,
               "type": "rewrite",
-              "prefill": "How are you?",
+              "prompt": "How are you?",
               "hint": "(old)",
               "answers": [
                 "How old are you?"
@@ -369,7 +369,7 @@
             {
               "n": 3,
               "type": "rewrite",
-              "prefill": "Does finish at 8.00?",
+              "prompt": "Does finish at 8.00?",
               "hint": "(the class)",
               "answers": [
                 "Does the class finish at 8.00?"
@@ -379,7 +379,7 @@
             {
               "n": 4,
               "type": "rewrite",
-              "prefill": "Where do your friends?",
+              "prompt": "Where do your friends?",
               "hint": "(live)",
               "answers": [
                 "Where do your friends live?"
@@ -389,7 +389,7 @@
             {
               "n": 5,
               "type": "rewrite",
-              "prefill": "Why you answer my email?",
+              "prompt": "Why you answer my email?",
               "hint": "(didn't)",
               "answers": [
                 "Why didn't you answer my email?"
@@ -399,7 +399,7 @@
             {
               "n": 6,
               "type": "rewrite",
-              "prefill": "Do you often to the cinema?",
+              "prompt": "Do you often to the cinema?",
               "hint": "(go)",
               "answers": [
                 "Do you often go to the cinema?"
@@ -409,7 +409,7 @@
             {
               "n": 7,
               "type": "rewrite",
-              "prefill": "What this word mean?",
+              "prompt": "What this word mean?",
               "hint": "(does)",
               "answers": [
                 "What does this word mean?"
@@ -419,7 +419,7 @@
             {
               "n": 8,
               "type": "rewrite",
-              "prefill": "What time did arrive?",
+              "prompt": "What time did arrive?",
               "hint": "(your friends)",
               "answers": [
                 "What time did your friends arrive?"
@@ -429,7 +429,7 @@
             {
               "n": 9,
               "type": "rewrite",
-              "prefill": "Who are you talking?",
+              "prompt": "Who are you talking?",
               "hint": "(to)",
               "answers": [
                 "Who are you talking to?"
@@ -439,7 +439,7 @@
             {
               "n": 10,
               "type": "rewrite",
-              "prefill": "Where were last night?",
+              "prompt": "Where were last night?",
               "hint": "(you)",
               "answers": [
                 "Where were you last night?"
@@ -456,7 +456,7 @@
             {
               "n": 1,
               "type": "rewrite",
-              "prompt": "you / a / do / have / car",
+              "prompt": "you / a / do / have / car / ?",
               "answers": [
                 "Do you have a car?"
               ],
@@ -465,7 +465,7 @@
             {
               "n": 2,
               "type": "rewrite",
-              "prompt": "was / brother / your / where / born",
+              "prompt": "was / brother / your / where / born / ?",
               "answers": [
                 "Where was your brother born?"
               ],
@@ -474,7 +474,7 @@
             {
               "n": 3,
               "type": "rewrite",
-              "prompt": "often / he / how / phone / does / you",
+              "prompt": "often / he / how / phone / does / you / ?",
               "answers": [
                 "How often does he phone you?"
               ],
@@ -483,7 +483,7 @@
             {
               "n": 4,
               "type": "rewrite",
-              "prompt": "their / time / arrive / does / flight / what",
+              "prompt": "their / time / arrive / does / flight / what / ?",
               "answers": [
                 "What time does their flight arrive?"
               ],
@@ -492,7 +492,7 @@
             {
               "n": 5,
               "type": "rewrite",
-              "prompt": "Brazil / from / is / girlfriend / your",
+              "prompt": "Brazil / from / is / girlfriend / your / ?",
               "answers": [
                 "Is your girlfriend from Brazil?"
               ],
@@ -501,7 +501,7 @@
             {
               "n": 6,
               "type": "rewrite",
-              "prompt": "languages / how / you / many / can / speak",
+              "prompt": "languages / how / you / many / can / speak / ?",
               "answers": [
                 "How many languages can you speak?"
               ],
@@ -510,7 +510,7 @@
             {
               "n": 7,
               "type": "rewrite",
-              "prompt": "party / the / how / was",
+              "prompt": "party / the / how / was / ?",
               "answers": [
                 "How was the party?"
               ],
@@ -519,7 +519,7 @@
             {
               "n": 8,
               "type": "rewrite",
-              "prompt": "last / go / where / you / summer / did",
+              "prompt": "last / go / where / you / summer / did / ?",
               "answers": [
                 "Where did you go last summer?"
               ],
@@ -528,7 +528,7 @@
             {
               "n": 9,
               "type": "rewrite",
-              "prompt": "there / doctor / here / is / a",
+              "prompt": "there / doctor / here / is / a / ?",
               "answers": [
                 "Is there a doctor here?"
               ],
@@ -537,7 +537,7 @@
             {
               "n": 10,
               "type": "rewrite",
-              "prompt": "come / bus / to / you / by / school / did",
+              "prompt": "come / bus / to / you / by / school / did / ?",
               "answers": [
                 "Did you come to school by bus?"
               ],
@@ -638,7 +638,7 @@
             {
               "n": 2,
               "type": "rewrite",
-              "prompt": "girlfriend / student / is / a / your",
+              "prompt": "girlfriend / student / is / a / your / ?",
               "answers": [
                 "Is your girlfriend a student?"
               ]
@@ -646,7 +646,7 @@
             {
               "n": 3,
               "type": "rewrite",
-              "prompt": "what / at / you / do / the / weekend / do",
+              "prompt": "what / at / you / do / the / weekend / do / ?",
               "answers": [
                 "What do you do at the weekend?"
               ]
@@ -654,7 +654,7 @@
             {
               "n": 4,
               "type": "rewrite",
-              "prompt": "out / how / you / go / often / do",
+              "prompt": "out / how / you / go / often / do / ?",
               "answers": [
                 "How often do you go out?"
               ]
@@ -662,7 +662,7 @@
             {
               "n": 5,
               "type": "rewrite",
-              "prompt": "did / go / last / where / you / Saturday",
+              "prompt": "did / go / last / where / you / Saturday / ?",
               "answers": [
                 "Where did you go last Saturday?"
               ]
@@ -670,7 +670,7 @@
             {
               "n": 6,
               "type": "rewrite",
-              "prompt": "a / did / time / nice / you / have",
+              "prompt": "a / did / time / nice / you / have / ?",
               "answers": [
                 "Did you have a nice time?"
               ]
@@ -776,7 +776,7 @@
             {
               "n": 1,
               "type": "rewrite",
-              "prompt": "you / where / do / work",
+              "prompt": "you / where / do / work / ?",
               "answers": [
                 "Where do you work?"
               ],
@@ -786,7 +786,7 @@
             {
               "n": 2,
               "type": "rewrite",
-              "prompt": "were / late / why / you / yesterday",
+              "prompt": "were / late / why / you / yesterday / ?",
               "answers": [
                 "Why were you late yesterday?"
               ],
@@ -796,7 +796,7 @@
             {
               "n": 3,
               "type": "rewrite",
-              "prompt": "does / what / start / time / the / film",
+              "prompt": "does / what / start / time / the / film / ?",
               "answers": [
                 "What time does the film start?"
               ],
@@ -806,7 +806,7 @@
             {
               "n": 4,
               "type": "rewrite",
-              "prompt": "parents / born / your / were / where",
+              "prompt": "parents / born / your / were / where / ?",
               "answers": [
                 "Where were your parents born?"
               ],
@@ -816,7 +816,7 @@
             {
               "n": 5,
               "type": "rewrite",
-              "prompt": "live / who / you / do / with",
+              "prompt": "live / who / you / do / with / ?",
               "answers": [
                 "Who do you live with?"
               ],
@@ -906,7 +906,7 @@
             {
               "n": 1,
               "type": "rewrite",
-              "prefill": "What time you finish work?",
+              "prompt": "What time you finish work?",
               "answers": [
                 "What time do you finish work?"
               ],
@@ -916,7 +916,7 @@
             {
               "n": 2,
               "type": "rewrite",
-              "prefill": "Where does she lives?",
+              "prompt": "Where does she lives?",
               "answers": [
                 "Where does she live?"
               ],
@@ -926,7 +926,7 @@
             {
               "n": 3,
               "type": "rewrite",
-              "prefill": "Did you went out last night?",
+              "prompt": "Did you went out last night?",
               "answers": [
                 "Did you go out last night?"
               ],
@@ -936,7 +936,7 @@
             {
               "n": 4,
               "type": "rewrite",
-              "prefill": "When is your mother's birthday?",
+              "prompt": "When is your mother's birthday?",
               "answers": [
                 "When is your mother's birthday?",
                 "When's your mother's birthday?"
@@ -947,7 +947,7 @@
             {
               "n": 5,
               "type": "rewrite",
-              "prefill": "What music does he listen?",
+              "prompt": "What music does he listen?",
               "answers": [
                 "What music does he listen to?"
               ],
@@ -1449,11 +1449,12 @@
           "id": "1A-wb1b",
           "origin": "WB",
           "instruction": "Complete the conversations with the missing word",
+          "dialogue": true,
           "exercises": [
             {
               "n": 2,
               "type": "blank",
-              "text": "A: What did you {} last weekend? B: I went to the cinema with some friends.",
+              "text": "What did you {} last weekend?\nI went to the cinema with some friends.",
               "gaps": [
                 [
                   "do"
@@ -1463,7 +1464,7 @@
             {
               "n": 3,
               "type": "blank",
-              "text": "A: Do you do any {} or exercise? B: Yes, I love football and tennis.",
+              "text": "Do you do any {} or exercise?\nYes, I love football and tennis.",
               "gaps": [
                 [
                   "sport",
@@ -1474,7 +1475,7 @@
             {
               "n": 4,
               "type": "blank",
-              "text": "A: What kind of {} do you listen to? B: I love pop and rock.",
+              "text": "What kind of {} do you listen to?\nI love pop and rock.",
               "gaps": [
                 [
                   "music"
@@ -1484,7 +1485,7 @@
             {
               "n": 5,
               "type": "blank",
-              "text": "A: What do you usually have for {}? B: Just a sandwich and some crisps normally.",
+              "text": "What do you usually have for {}?\nJust a sandwich and some crisps normally.",
               "gaps": [
                 [
                   "lunch"
@@ -1494,7 +1495,7 @@
             {
               "n": 6,
               "type": "blank",
-              "text": "A: Do you have any {}? B: Yes, we have two cats.",
+              "text": "Do you have any {}?\nYes, we have two cats.",
               "gaps": [
                 [
                   "pets"
@@ -1504,7 +1505,7 @@
             {
               "n": 7,
               "type": "blank",
-              "text": "A: Where do you {}? B: In a small flat near the railway station.",
+              "text": "Where do you {}?\nIn a small flat near the railway station.",
               "gaps": [
                 [
                   "live"
@@ -1514,7 +1515,7 @@
             {
               "n": 8,
               "type": "blank",
-              "text": "A: Where did you {} English before? B: At school.",
+              "text": "Where did you {} English before?\nAt school.",
               "gaps": [
                 [
                   "learn",
@@ -1526,7 +1527,7 @@
             {
               "n": 9,
               "type": "blank",
-              "text": "A: What does your father {}? B: He's a teacher.",
+              "text": "What does your father {}?\nHe's a teacher.",
               "gaps": [
                 [
                   "do"
@@ -1536,7 +1537,7 @@
             {
               "n": 10,
               "type": "blank",
-              "text": "A: Where were you {}? B: In Budapest, in 1998. My mum is Hungarian.",
+              "text": "Where were you {}?\nIn Budapest, in 1998. My mum is Hungarian.",
               "gaps": [
                 [
                   "born"
@@ -1653,11 +1654,12 @@
           "id": "1A-vocabulary-x2",
           "origin": "GENERATED",
           "instruction": "Complete the conversations with the missing word.",
+          "dialogue": true,
           "exercises": [
             {
               "n": 1,
               "type": "blank",
-              "text": "A: Do you live in a house? B: No, I live in a small {} in the city centre.",
+              "text": "Do you live in a house?\nNo, I live in a small {} in the city centre.",
               "gaps": [
                 [
                   "flat",
@@ -1670,7 +1672,7 @@
             {
               "n": 2,
               "type": "blank",
-              "text": "A: Where did you go on {} last year? B: To Greece, with my family.",
+              "text": "Where did you go on {} last year?\nTo Greece, with my family.",
               "gaps": [
                 [
                   "holiday"
@@ -1682,7 +1684,7 @@
             {
               "n": 3,
               "type": "blank",
-              "text": "A: What {} do you like watching? B: Comedies. I love funny films.",
+              "text": "What {} do you like watching?\nComedies. I love funny films.",
               "gaps": [
                 [
                   "films",
@@ -1695,7 +1697,7 @@
             {
               "n": 4,
               "type": "blank",
-              "text": "A: Can you speak a foreign {}? B: Yes, a little German.",
+              "text": "Can you speak a foreign {}?\nYes, a little German.",
               "gaps": [
                 [
                   "language"
@@ -1707,7 +1709,7 @@
             {
               "n": 5,
               "type": "blank",
-              "text": "A: What do you do? B: I'm a nurse. I really like my {}.",
+              "text": "What do you do?\nI'm a nurse. I really like my {}.",
               "gaps": [
                 [
                   "job",
@@ -1720,7 +1722,7 @@
             {
               "n": 6,
               "type": "blank",
-              "text": "A: What's your favourite {}? B: Tennis. I play every Saturday.",
+              "text": "What's your favourite {}?\nTennis. I play every Saturday.",
               "gaps": [
                 [
                   "sport"
@@ -1732,7 +1734,7 @@
             {
               "n": 7,
               "type": "blank",
-              "text": "A: What time do you usually have {}? B: At about seven, after work.",
+              "text": "What time do you usually have {}?\nAt about seven, after work.",
               "gaps": [
                 [
                   "dinner",
@@ -1752,7 +1754,7 @@
             {
               "n": 1,
               "type": "rewrite",
-              "prefill": "I make exercise every morning.",
+              "prompt": "I make exercise every morning.",
               "answers": [
                 "I do exercise every morning."
               ],
@@ -1762,7 +1764,7 @@
             {
               "n": 2,
               "type": "rewrite",
-              "prefill": "Do you listen music in the car?",
+              "prompt": "Do you listen music in the car?",
               "answers": [
                 "Do you listen to music in the car?"
               ],
@@ -1772,7 +1774,7 @@
             {
               "n": 3,
               "type": "rewrite",
-              "prefill": "She was borned in Italy.",
+              "prompt": "She was borned in Italy.",
               "answers": [
                 "She was born in Italy."
               ],
@@ -1782,7 +1784,7 @@
             {
               "n": 4,
               "type": "rewrite",
-              "prefill": "We went on holiday to Portugal last year.",
+              "prompt": "We went on holiday to Portugal last year.",
               "answers": [
                 "We went on holiday to Portugal last year."
               ],
@@ -1792,7 +1794,7 @@
             {
               "n": 5,
               "type": "rewrite",
-              "prefill": "He goes to cinema every Friday.",
+              "prompt": "He goes to cinema every Friday.",
               "answers": [
                 "He goes to the cinema every Friday."
               ],
@@ -2048,6 +2050,15 @@
           "origin": "SB",
           "instruction": "Add the letters to the correct column: write the sound picture word",
           "note": "SB 3c «add the letters to the column» → Blank на букву; J — пример (train)",
+          "words": [
+            "train",
+            "tree",
+            "egg",
+            "bike",
+            "phone",
+            "boot",
+            "car"
+          ],
           "exercises": [
             {
               "n": 1,
@@ -2058,7 +2069,6 @@
                   "tree"
                 ]
               ],
-              "hint": "(train, tree, egg, bike, phone, boot, car)",
               "source": "MODEL"
             },
             {
@@ -2070,7 +2080,6 @@
                   "tree"
                 ]
               ],
-              "hint": "(train, tree, egg, bike, phone, boot, car)",
               "source": "MODEL"
             },
             {
@@ -2082,7 +2091,6 @@
                   "train"
                 ]
               ],
-              "hint": "(train, tree, egg, bike, phone, boot, car)",
               "source": "MODEL"
             },
             {
@@ -2094,7 +2102,6 @@
                   "egg"
                 ]
               ],
-              "hint": "(train, tree, egg, bike, phone, boot, car)",
               "source": "MODEL"
             },
             {
@@ -2106,7 +2113,6 @@
                   "phone"
                 ]
               ],
-              "hint": "(train, tree, egg, bike, phone, boot, car)",
               "source": "MODEL"
             },
             {
@@ -2118,7 +2124,6 @@
                   "car"
                 ]
               ],
-              "hint": "(train, tree, egg, bike, phone, boot, car)",
               "source": "MODEL"
             },
             {
@@ -2130,7 +2135,6 @@
                   "boot"
                 ]
               ],
-              "hint": "(train, tree, egg, bike, phone, boot, car)",
               "source": "MODEL"
             },
             {
@@ -2142,7 +2146,6 @@
                   "egg"
                 ]
               ],
-              "hint": "(train, tree, egg, bike, phone, boot, car)",
               "source": "MODEL"
             },
             {
@@ -2154,7 +2157,6 @@
                   "bike"
                 ]
               ],
-              "hint": "(train, tree, egg, bike, phone, boot, car)",
               "source": "MODEL"
             }
           ]
@@ -2359,6 +2361,13 @@
           "origin": "WB",
           "instruction": "Alphabet quiz. Which letter of the alphabet sounds like…?",
           "note": "WB 3c; буквы A I O P U Y, 1 my → I — пример. 4 see: в ключе P (C в списке нет) — принимаем C и P",
+          "words": [
+            "A",
+            "O",
+            "P",
+            "U",
+            "Y"
+          ],
           "exercises": [
             {
               "n": 2,
@@ -2369,7 +2378,6 @@
                   "A"
                 ]
               ],
-              "hint": "(A, O, P, U, Y)",
               "explain": "play /pleɪ/ has the same sound as A /eɪ/."
             },
             {
@@ -2381,7 +2389,6 @@
                   "U"
                 ]
               ],
-              "hint": "(A, O, P, U, Y)",
               "explain": "you /juː/ sounds exactly like U /juː/."
             },
             {
@@ -2394,7 +2401,6 @@
                   "P"
                 ]
               ],
-              "hint": "(A, O, P, U, Y)",
               "explain": "see /siː/ sounds exactly like C. The Workbook key says P: C isn’t in the list, and P /piː/ has the same vowel sound.",
               "source": "MODEL"
             },
@@ -2407,7 +2413,6 @@
                   "O"
                 ]
               ],
-              "hint": "(A, O, P, U, Y)",
               "explain": "go /ɡəʊ/ has the same sound as O /əʊ/."
             },
             {
@@ -2419,7 +2424,6 @@
                   "Y"
                 ]
               ],
-              "hint": "(A, O, P, U, Y)",
               "explain": "why /waɪ/ sounds exactly like Y /waɪ/."
             }
           ]
@@ -2940,99 +2944,87 @@
           "id": "1A-pe3a",
           "origin": "SB",
           "video": "ep1_meet_again",
-          "instruction": "That evening Jenny goes to the hotel to meet Rob and they go out for a drink. Watch and mark the sentences T (true) or F (false)",
-          "note": "SB PE1 3a (1.33)",
+          "instruction": "That evening Jenny goes to the hotel to meet Rob and they go out for a drink. Watch and correct the false sentences. If a sentence is true, leave it as it is",
+          "note": "SB PE1 3a (1.33) «mark T or F» → Rewrite: неверное исправить, верное переписать как есть",
           "exercises": [
             {
               "n": 1,
-              "type": "blank",
-              "text": "Rob says he doesn't like the hotel. {}",
-              "gaps": [
-                [
-                  "F",
-                  "false"
-                ]
+              "type": "rewrite",
+              "prompt": "Rob says he doesn't like the hotel.",
+              "answers": [
+                "Rob says he likes the hotel.",
+                "Rob says the hotel is fine.",
+                "Rob says he does like the hotel."
               ],
-              "source": "MODEL",
-              "hint": "(T / F)"
+              "explain": "False: Rob says the hotel is fine. His room is really nice.",
+              "source": "MODEL"
             },
             {
               "n": 2,
-              "type": "blank",
-              "text": "Jenny is going to show him round the city tomorrow. {}",
-              "gaps": [
-                [
-                  "F",
-                  "false"
-                ]
+              "type": "rewrite",
+              "prompt": "Jenny is going to show him round the city tomorrow.",
+              "answers": [
+                "Jenny is going to show him round the office tomorrow."
               ],
-              "source": "MODEL",
-              "hint": "(T / F)"
+              "explain": "False: she is going to show him round the office, not the city.",
+              "source": "MODEL"
             },
             {
               "n": 3,
-              "type": "blank",
-              "text": "Barbara is Jenny's boss. {}",
-              "gaps": [
-                [
-                  "T",
-                  "true"
-                ]
+              "type": "rewrite",
+              "prompt": "Barbara is Jenny's boss.",
+              "answers": [
+                "Barbara is Jenny's boss."
               ],
-              "source": "MODEL",
-              "hint": "(T / F)"
+              "explain": "True: leave the sentence as it is.",
+              "source": "MODEL"
             },
             {
               "n": 4,
-              "type": "blank",
-              "text": "Rob is hungry. {}",
-              "gaps": [
-                [
-                  "F",
-                  "false"
-                ]
+              "type": "rewrite",
+              "prompt": "Rob is hungry.",
+              "answers": [
+                "Rob isn't hungry.",
+                "Rob is not hungry.",
+                "Rob is tired.",
+                "Rob isn't hungry. He's really tired."
               ],
-              "source": "MODEL",
-              "hint": "(T / F)"
+              "explain": "False: Rob isn't hungry. He's really tired.",
+              "source": "MODEL"
             },
             {
               "n": 5,
-              "type": "blank",
-              "text": "It's four in the morning for Rob. {}",
-              "gaps": [
-                [
-                  "F",
-                  "false"
-                ]
+              "type": "rewrite",
+              "prompt": "It's four in the morning for Rob.",
+              "answers": [
+                "It's two in the morning for Rob.",
+                "It is two in the morning for Rob.",
+                "It's 2 in the morning for Rob."
               ],
-              "source": "MODEL",
-              "hint": "(T / F)"
+              "explain": "False: it's two o'clock in the morning for Rob.",
+              "source": "MODEL"
             },
             {
               "n": 6,
-              "type": "blank",
-              "text": "They're going to meet at eleven. {}",
-              "gaps": [
-                [
-                  "T",
-                  "true"
-                ]
+              "type": "rewrite",
+              "prompt": "They're going to meet at eleven.",
+              "answers": [
+                "They're going to meet at eleven.",
+                "They are going to meet at eleven."
               ],
-              "source": "MODEL",
-              "hint": "(T / F)"
+              "explain": "True: leave the sentence as it is.",
+              "source": "MODEL"
             },
             {
               "n": 7,
-              "type": "blank",
-              "text": "Jenny thinks that Rob is going to get lost. {}",
-              "gaps": [
-                [
-                  "F",
-                  "false"
-                ]
+              "type": "rewrite",
+              "prompt": "Jenny thinks that Rob is going to get lost.",
+              "answers": [
+                "Jenny thinks that Rob is going to be late.",
+                "Jenny thinks Rob is going to be late."
               ],
-              "source": "MODEL",
-              "hint": "(T / F)"
+              "explain": "False: Jenny thinks that Rob is going to be late.",
+              "source": "MODEL"
             }
           ]
         },
@@ -3241,11 +3233,20 @@
           "origin": "SB",
           "instruction": "Complete conversations A–E with the Social English phrases",
           "note": "SB PE1 3e; какая фраза в какую клетку — наше решение (MODEL)",
+          "words": [
+            "It's great to be here",
+            "Do you have a good view?",
+            "You must be really tired",
+            "I guess you're right",
+            "By the way",
+            "It's great to see you, too"
+          ],
+          "dialogue": true,
           "exercises": [
             {
               "n": 1,
               "type": "blank",
-              "text": "A: You had a very long flight. {} B: No, I'm fine. {}",
+              "text": "You had a very long flight. {}\nNo, I'm fine. {}",
               "gaps": [
                 [
                   "You must be really tired"
@@ -3260,7 +3261,7 @@
             {
               "n": 2,
               "type": "blank",
-              "text": "A: What's your room like? {} B: Yes, I can see the mountains.",
+              "text": "What's your room like? {}\nYes, I can see the mountains.",
               "gaps": [
                 [
                   "Do you have a good view"
@@ -3271,7 +3272,7 @@
             {
               "n": 3,
               "type": "blank",
-              "text": "A: It's so good to see you again. B: {}",
+              "text": "It's so good to see you again.\n{}",
               "gaps": [
                 [
                   "It's great to see you, too",
@@ -3285,7 +3286,7 @@
             {
               "n": 4,
               "type": "blank",
-              "text": "A: We need to get up early tomorrow. B: Yes, {}",
+              "text": "We need to get up early tomorrow.\nYes, {}",
               "gaps": [
                 [
                   "I guess you're right",
@@ -3297,7 +3298,7 @@
             {
               "n": 5,
               "type": "blank",
-              "text": "A: That was a great meal. B: Yes, delicious. {} what time's the meeting tomorrow?",
+              "text": "That was a great meal.\nYes, delicious. {} what time's the meeting tomorrow?",
               "gaps": [
                 [
                   "By the way",

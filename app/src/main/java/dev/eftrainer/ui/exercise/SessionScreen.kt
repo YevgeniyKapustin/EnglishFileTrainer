@@ -30,7 +30,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.TextRange
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
@@ -155,12 +154,7 @@ private class AnswerFields(
 
 private fun initialValues(exercise: Exercise): SnapshotStateList<TextFieldValue> =
     mutableStateListOf<TextFieldValue>().apply {
-        val prefill = (exercise as? Rewrite)?.prefill
-        if (prefill != null) {
-            add(TextFieldValue(prefill, TextRange(prefill.length)))
-        } else {
-            repeat(fieldCount(exercise)) { add(TextFieldValue()) }
-        }
+        repeat(fieldCount(exercise)) { add(TextFieldValue()) }
     }
 
 @Composable

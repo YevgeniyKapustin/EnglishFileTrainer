@@ -23,7 +23,7 @@ object GeneratePrompt {
         Answer with strict JSON only, no markdown, no comments, in this format:
         {"items":[
           {"type":"blank","instruction":"Complete the questions.","text":"Where {} born?","gaps":[["were you"]],"hint":"(you / be)"},
-          {"type":"rewrite","instruction":"Put the words in the right order.","prompt":"live / where / you / do","answers":["Where do you live?"]}
+          {"type":"rewrite","instruction":"Put the words in the right order.","prompt":"live / where / you / do / ?","answers":["Where do you live?"]}
         ]}
         "blank": text with one or more {} gaps, "gaps" has one list of accepted answers per {} (same count).
         "rewrite": the student writes the whole sentence; "answers" are all accepted full sentences.
@@ -69,7 +69,7 @@ object GeneratePrompt {
     private fun Exercise.asExample(): String =
         when (this) {
             is Rewrite -> {
-                (prefill?.let { "correct if needed: $it" } ?: prompt) +
+                prompt +
                     " -> " +
                     answers.first() +
                     (hint?.let { " $it" } ?: "")

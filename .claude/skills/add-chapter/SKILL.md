@@ -70,6 +70,9 @@ PNG → `tools/out/`.
 - True/False → `rewrite`: утверждение в `prompt`, ответ — утверждение, исправленное так, чтобы стало верным
   (верное — переписать как есть);
 - никаких подсказок с первой буквой ответа («b…») в `hint`;
+- список слов «from the list / in the box» — один раз в `"words"` задания (перед `exercises`), не в `hint` пунктов;
+- диалог из реплик A/B → `"dialogue": true` у задания, `text` пункта — реплики через `
+` без меток `A:`/`B:`;
 - знаки препинания, нужные в ответе при «слова по порядку», — среди слов `prompt`: `Anna / like music / ?`;
 - сопоставить 1–n с a–n → по `blank` на пару;
 - фото/картинки книги («match the sentences and the photos») → настоящая картинка, вырезанная из страницы SB/WB PDF
@@ -133,9 +136,8 @@ PYTHONIOENCODING=utf-8 uv run --no-project --with mutagen python tools/generate.
 - Добавить `File<ID>` в `Chapters.all` (`app/src/main/java/dev/eftrainer/data/content/Chapters.kt`) по порядку книги.
 - Сборка и тесты: `./gradlew assembleDebug testDebugUnitTest -q` (ContentValidationTest проверит треки, клипы, картинки, id).
   Упавший тест — смотреть `app/build/test-results/testDebugUnitTest/*.xml` (`<failure message=…>`), править JSON.
-  Частое: `rewrite` с `" / "` в `prompt` без `hint` считается «слова по порядку» — каждый ответ обязан состоять
-  ровно из слов `prompt` (без сокращений `Sam’s` при `Sam / is`). Если нужно добавить слова (написать вопрос
-  по опорам: `Where / you / live?`) — дать `hint`, например `(present simple question)`.
+  Частое: `rewrite` с `" / "` в `prompt` без `hint` в задании со словом «order» — каждый ответ обязан состоять
+  ровно из слов `prompt` (без сокращений `Sam’s` при `Sam / is`); если ответ — вопрос, `?` стоит среди слов.
 - Установка на телефон и **короткая** выборочная проверка (адб: `MSYS_NO_PATHCONV=1`, команды через `timeout`);
   полный проход пользователь делает сам.
 

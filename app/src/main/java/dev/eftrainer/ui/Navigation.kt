@@ -66,9 +66,21 @@ private const val SLIDE_MS = 220
 private const val SLIDE_SHARE = 6
 
 private inline fun <reified T : Any> NavGraphBuilder.screen(
+    fromLeft: Boolean = false,
     noinline content: @Composable AnimatedContentScope.(NavBackStackEntry) -> Unit,
 ) {
-    composable<T> { entry ->
+    val shift = { width: Int -> (if (fromLeft) -width else width) / SLIDE_SHARE }
+    composable<T>(
+        enterTransition = {
+            fadeIn(
+                tween(SLIDE_MS),
+            ) + slideInHorizontally(tween(SLIDE_MS), shift)
+        },
+        popExitTransition = {
+            fadeOut(tween(SLIDE_MS)) +
+                slideOutHorizontally(tween(SLIDE_MS), shift)
+        },
+    ) { entry ->
         Box(Modifier.fillMaxSize().background(C.Paper)) { content(entry) }
     }
 }
@@ -85,10 +97,8 @@ fun AppNavigation(
     NavHost(
         nav,
         startDestination = CurrentRoute,
-        enterTransition = { fadeIn(tween(SLIDE_MS)) + slideInHorizontally(tween(SLIDE_MS)) { -it / SLIDE_SHARE } },
         exitTransition = { fadeOut(tween(SLIDE_MS), targetAlpha = 1f) },
         popEnterTransition = { EnterTransition.None },
-        popExitTransition = { fadeOut(tween(SLIDE_MS)) + slideOutHorizontally(tween(SLIDE_MS)) { -it / SLIDE_SHARE } },
     ) {
         chapterScreens(nav, onHomeReady)
         screen<SettingsRoute> {
@@ -149,7 +159,7 @@ private fun NavGraphBuilder.chapterScreens(
     screen<StatsRoute> {
         StatsScreen(onBack = { nav.popBackStack() }, onSection = { nav.navigate(SectionRoute(it)) })
     }
-    screen<ChaptersRoute> {
+    screen<ChaptersRoute>(fromLeft = true) {
         AllChaptersScreen(
             onBack = { nav.popBackStack() },
             onChapter = { nav.navigate(ChapterRoute(it)) },

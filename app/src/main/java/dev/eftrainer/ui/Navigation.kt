@@ -85,10 +85,10 @@ fun AppNavigation(
     NavHost(
         nav,
         startDestination = CurrentRoute,
-        enterTransition = { fadeIn(tween(SLIDE_MS)) + slideInHorizontally(tween(SLIDE_MS)) { it / SLIDE_SHARE } },
+        enterTransition = { fadeIn(tween(SLIDE_MS)) + slideInHorizontally(tween(SLIDE_MS)) { -it / SLIDE_SHARE } },
         exitTransition = { fadeOut(tween(SLIDE_MS), targetAlpha = 1f) },
         popEnterTransition = { EnterTransition.None },
-        popExitTransition = { fadeOut(tween(SLIDE_MS)) + slideOutHorizontally(tween(SLIDE_MS)) { it / SLIDE_SHARE } },
+        popExitTransition = { fadeOut(tween(SLIDE_MS)) + slideOutHorizontally(tween(SLIDE_MS)) { -it / SLIDE_SHARE } },
     ) {
         chapterScreens(nav, onHomeReady)
         screen<SettingsRoute> {

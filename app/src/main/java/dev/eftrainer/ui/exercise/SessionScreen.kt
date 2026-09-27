@@ -382,14 +382,8 @@ private fun ExerciseInput(
         }
 
         is Speak -> {
-            SpeakInput(
-                exercise = e,
-                attempt = q.attempt,
-                onHear = onHear,
-                checked = checked,
-                correct = feedback?.correct == true,
-                tts = tts,
-            )
+            val bookAudio = q.task.audio != null || q.task.video != null
+            SpeakInput(e, q.attempt, onHear, checked, feedback?.correct == true, tts, bookAudio)
         }
 
         is Talk -> {

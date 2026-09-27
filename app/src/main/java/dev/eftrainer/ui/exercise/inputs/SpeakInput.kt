@@ -53,6 +53,7 @@ fun SpeakInput(
     checked: Boolean,
     correct: Boolean,
     tts: TextToSpeechState,
+    bookAudio: Boolean,
     modifier: Modifier = Modifier,
 ) {
     val sample = rememberAudioPlayer(exercise.audio)
@@ -67,10 +68,14 @@ fun SpeakInput(
         }
     LaunchedEffect(attempt) { speech.reset() }
 
-    Column(modifier, verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        SampleButton(exercise, sample, tts)
-        Text(exercise.text, style = T.question)
-        exercise.hint?.let { Text(it, style = T.hint) }
+    Column(
+        modifier.fillMaxWidth(),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.spacedBy(12.dp),
+    ) {
+        SampleButton(exercise, sample, tts.takeUnless { bookAudio })
+        Text(exercise.text, style = T.question.copy(textAlign = TextAlign.Center))
+        exercise.hint?.let { Text(it, style = T.hint.copy(textAlign = TextAlign.Center)) }
         if (checked) {
             Heard(heard.orEmpty(), correct)
         } else {
@@ -105,18 +110,18 @@ private fun unavailableNote(speech: SpeechRecognizerState): Int? =
 private fun SampleButton(
     exercise: Speak,
     sample: AudioPlayerState?,
-    tts: TextToSpeechState,
+    tts: TextToSpeechState?,
 ) {
     val sayId = "speak-${exercise.id}"
     when {
         sample != null -> {
             ListenButton(sample.playing, onClick = {
-                tts.stop()
+                tts?.stop()
                 sample.toggle()
             })
         }
 
-        tts.available -> {
+        tts != null && tts.available -> {
             ListenButton(tts.speaking == sayId, onClick = {
                 if (tts.speaking == sayId) tts.stop() else tts.speak(sayable(exercise.text), sayId)
             })

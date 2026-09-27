@@ -46,48 +46,43 @@ val File1C = Chapter(
                 Task(
                     id = "1C-sb1b",
                     origin = Origin.SB,
-                    instruction = "What are the people in the painting (The Milkmaid by Vermeer) and the photo remake wearing? Write W for the woman and M for the man",
+                    instruction = "What are the people in the painting and the photo wearing? Write W for the woman and M for the man",
+                    images = listOf("1c_sb_painting", "1c_sb_photo"),
                     exercises = listOf(
                         Blank(
                             "1C-sb1b-01",
                             text = "a blue apron: {}",
                             gaps = listOf(listOf("W", "woman", "the woman")),
-                            hint = "(W = the woman in the painting, M = the man in the photo)",
                             source = AnswerSource.MODEL,
                         ),
                         Blank(
                             "1C-sb1b-02",
                             text = "blue trousers: {}",
                             gaps = listOf(listOf("M", "man", "the man")),
-                            hint = "(W = the woman in the painting, M = the man in the photo)",
                             source = AnswerSource.MODEL,
                         ),
                         Blank(
                             "1C-sb1b-03",
                             text = "a brown skirt: {}",
                             gaps = listOf(listOf("W", "woman", "the woman")),
-                            hint = "(W = the woman in the painting, M = the man in the photo)",
                             source = AnswerSource.MODEL,
                         ),
                         Blank(
                             "1C-sb1b-04",
                             text = "a yellow and green blouse: {}",
                             gaps = listOf(listOf("W", "woman", "the woman")),
-                            hint = "(W = the woman in the painting, M = the man in the photo)",
                             source = AnswerSource.MODEL,
                         ),
                         Blank(
                             "1C-sb1b-05",
                             text = "a yellow T-shirt: {}",
                             gaps = listOf(listOf("M", "man", "the man")),
-                            hint = "(W = the woman in the painting, M = the man in the photo)",
                             source = AnswerSource.MODEL,
                         ),
                         Blank(
                             "1C-sb1b-06",
                             text = "a white cap: {}",
                             gaps = listOf(listOf("W", "woman", "the woman")),
-                            hint = "(W = the woman in the painting, M = the man in the photo)",
                             source = AnswerSource.MODEL,
                         ),
                     ),
@@ -1121,7 +1116,8 @@ val File1C = Chapter(
                 Task(
                     id = "1C-sb3a",
                     origin = Origin.SB,
-                    instruction = "Look at some sentences about the painting (a woman) and the photo (a man). Complete them with He’s, She’s, or They’re",
+                    instruction = "Look at some sentences about the painting and the photo. Complete them with He’s, She’s, or They’re",
+                    images = listOf("1c_sb_painting", "1c_sb_photo"),
                     exercises = listOf(
                         Blank(
                             "1C-sb3a-01",

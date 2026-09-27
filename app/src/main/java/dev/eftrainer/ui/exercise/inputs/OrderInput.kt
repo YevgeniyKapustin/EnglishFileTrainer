@@ -33,13 +33,19 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.zIndex
 import dev.eftrainer.R
 import dev.eftrainer.core.sound.Cue
 import dev.eftrainer.core.theme.C
+import dev.eftrainer.core.theme.EF
 import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.ui.AssetImage
 import dev.eftrainer.core.ui.IconButton24
@@ -49,8 +55,10 @@ import dev.eftrainer.data.content.Picture
 import dev.eftrainer.domain.check.moved
 import dev.eftrainer.ui.appContainer
 
-private val RowHeight = 88.dp
+private val PictureRowHeight = 88.dp
+private val TextRowHeight = 116.dp
 private val RowGap = 8.dp
+private const val TEXT_CARD_LINES = 5
 private val RowShape = RoundedCornerShape(12.dp)
 
 @Composable
@@ -69,7 +77,8 @@ fun OrderInput(
         onReorder(order)
         sounds.play(Cue.TICK)
     })
-    val step = with(LocalDensity.current) { (RowHeight + RowGap).toPx() }
+    val rowHeight = if (exercise.pictures.all { it.image == null }) TextRowHeight else PictureRowHeight
+    val step = with(LocalDensity.current) { (rowHeight + RowGap).toPx() }
     val drag = remember(step) { RowDrag(step) }
 
     Column(modifier, verticalArrangement = Arrangement.spacedBy(RowGap)) {
@@ -78,6 +87,7 @@ fun OrderInput(
             OrderRow(
                 position = position,
                 picture = pictures.getValue(label),
+                height = rowHeight,
                 last = position == labels.lastIndex,
                 checked = checked,
                 wrong = position in wrongPositions,
@@ -149,6 +159,7 @@ private fun Modifier.dragHandle(
 private fun OrderRow(
     position: Int,
     picture: Picture,
+    height: Dp,
     last: Boolean,
     checked: Boolean,
     wrong: Boolean,
@@ -166,7 +177,7 @@ private fun OrderRow(
     Row(
         modifier
             .fillMaxWidth()
-            .height(RowHeight)
+            .height(height)
             .shadow(if (lifted) 8.dp else 0.dp, RowShape)
             .clip(RowShape)
             .background(C.Field)
@@ -184,24 +195,46 @@ private fun OrderRow(
                 ),
             modifier = Modifier.width(20.dp),
         )
-        AssetImage(
-            picture.image,
-            picture.caption,
-            Modifier.size(width = 108.dp, height = RowHeight - 16.dp).clip(RoundedCornerShape(8.dp)),
-            keepRatio = false,
-        )
-        Text(picture.label, style = T.rowEn, modifier = Modifier.padding(start = 12.dp))
-        Spacer(Modifier.weight(1f))
+        if (picture.image == null) {
+            CardText(picture, Modifier.weight(1f))
+        } else {
+            AssetImage(
+                picture.image,
+                picture.caption,
+                Modifier.size(width = 108.dp, height = height - 16.dp).clip(RoundedCornerShape(8.dp)),
+                keepRatio = false,
+            )
+            Text(picture.label, style = T.rowEn, modifier = Modifier.padding(start = 12.dp))
+            Spacer(Modifier.weight(1f))
+        }
         if (!checked) {
             Column {
                 MoveButton(Icons.ChevronUp, stringResource(R.string.move_up), position > 0) { onMove(position - 1) }
                 MoveButton(Icons.ChevronDown, stringResource(R.string.move_down), !last) { onMove(position + 1) }
             }
-            Box(gripModifier.size(width = 40.dp, height = RowHeight), contentAlignment = Alignment.Center) {
+            Box(gripModifier.size(width = 40.dp, height = height), contentAlignment = Alignment.Center) {
                 Icon(Icons.Grip, null, Modifier.size(20.dp), tint = C.Chevron)
             }
         }
     }
+}
+
+@Composable
+private fun CardText(
+    picture: Picture,
+    modifier: Modifier = Modifier,
+) {
+    Text(
+        buildAnnotatedString {
+            withStyle(SpanStyle(fontWeight = FontWeight.Bold, color = EF.Title)) { append(picture.label) }
+            append("  ")
+            append(picture.caption)
+        },
+        style = T.rowEn.copy(fontSize = 15.sp, lineHeight = 20.sp),
+        maxLines = TEXT_CARD_LINES,
+        overflow = TextOverflow.Ellipsis,
+        modifier = modifier.padding(start = 4.dp, end = 4.dp),
+    )
 }
 
 @Composable

@@ -67,6 +67,7 @@ import dev.eftrainer.ui.exercise.inputs.OrderInput
 import dev.eftrainer.ui.exercise.inputs.RewriteInput
 import dev.eftrainer.ui.exercise.inputs.SpeakInput
 import dev.eftrainer.ui.exercise.inputs.TalkInput
+import dev.eftrainer.ui.exercise.inputs.TaskImages
 import dev.eftrainer.ui.exercise.inputs.VideoBar
 import dev.eftrainer.ui.exercise.inputs.WordBox
 import dev.eftrainer.ui.exercise.inputs.WriteInput
@@ -321,6 +322,7 @@ private fun TaskHeader(q: SessionUi.Question) {
         }
         q.task.video?.let { VideoBar(it, clip = e.clip) }
         q.task.audio?.let { AudioBar(it, clip = e.clip) }
+        if (q.task.images.isNotEmpty()) TaskImages(q.task.images)
         e.image?.let {
             AssetImage(
                 it,

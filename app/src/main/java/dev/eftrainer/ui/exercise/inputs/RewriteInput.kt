@@ -26,6 +26,7 @@ import androidx.compose.ui.unit.sp
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.EF
 import dev.eftrainer.core.theme.T
+import dev.eftrainer.core.ui.boldMarkup
 import dev.eftrainer.data.content.Rewrite
 
 @Composable
@@ -41,7 +42,7 @@ fun RewriteInput(
 ) {
     Column(modifier, verticalArrangement = Arrangement.spacedBy(12.dp)) {
         val lines = exercise.prompt.lines().filter { it.isNotBlank() }
-        if (lines.size > 1) Options(lines) else Text(exercise.prompt, style = T.question)
+        if (lines.size > 1) Options(lines) else Text(boldMarkup(exercise.prompt), style = T.question)
         exercise.hint?.let { Text(it, style = T.hint) }
         AnswerField(
             value = value,
@@ -66,7 +67,7 @@ private fun Options(lines: List<String>) {
                     style = style.copy(color = EF.Title, fontWeight = FontWeight.Bold),
                     modifier = Modifier.width(14.dp),
                 )
-                Text(line, style = style, modifier = Modifier.weight(1f))
+                Text(boldMarkup(line), style = style, modifier = Modifier.weight(1f))
             }
         }
     }

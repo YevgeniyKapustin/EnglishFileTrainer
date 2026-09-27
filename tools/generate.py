@@ -28,6 +28,7 @@ CLIP_BOUNDS_COUNT = 2
 BUBBLE_COUNT = 2
 CLIP_LENGTH_TOLERANCE_SECONDS = 0.05
 DIALOGUE_LINES = 2
+BOLD_MARK = "**"
 SPEAKER_LABEL = re.compile(r"^\s*[A-Z]:\s")
 FIRST_LETTER_HINT = re.compile(r"(?<![\w'’])[b-hj-z](?:…|\.\.\.|_{2,})")
 
@@ -224,13 +225,25 @@ def write_answers(eid: str, exercise: Json, report: Report) -> list[str | None]:
     return criteria + questions
 
 
+def card_caption(card: Json) -> str:
+    caption: str = card["caption"] if "image" in card else card["text"]
+    return caption
+
+
 def order_answers(eid: str, exercise: Json, report: Report) -> list[str | None]:
-    labels = [picture["label"] for picture in exercise["pictures"]]
+    cards = exercise["pictures"]
+    labels = [card["label"] for card in cards]
     if len(set(labels)) != len(labels) or sorted(exercise["answer"]) != sorted(labels):
         report.errors.append(f"{eid}: answer должен быть перестановкой меток картинок")
-    for picture in exercise["pictures"]:
-        check_image(eid, picture["image"], report)
-    return [*labels, *(picture["caption"] for picture in exercise["pictures"])] or [None]
+    pictured = [card for card in cards if "image" in card]
+    if pictured and len(pictured) != len(cards):
+        report.errors.append(f"{eid}: у order либо все карточки с image, либо все с text")
+    if any(("image" in card) == ("text" in card) for card in cards):
+        report.errors.append(f"{eid}: карточка order — image + caption или text")
+        return [None]
+    for card in pictured:
+        check_image(eid, card["image"], report)
+    return [*labels, *(card_caption(card) for card in cards)] or [None]
 
 
 ANSWER_VALIDATORS: dict[str, Callable[[str, Json, Report], list[str | None]]] = {
@@ -258,6 +271,7 @@ def validate_exercise(task: Json, exercise: Json, report: Report) -> None:
         report.errors.append(f"{eid}: prefill больше нет — исходное предложение в prompt")
     if first_letter_hints(exercise):
         report.errors.append(f"{eid}: подсказка первой буквой")
+    check_bold(eid, exercise, report)
     validate_answers = ANSWER_VALIDATORS.get(exercise["type"])
     if validate_answers is None:
         report.errors.append(f"{eid}: тип {exercise['type']}")
@@ -284,6 +298,7 @@ def validate_task(task: Json, report: Report) -> None:
     if task.get("video"):
         validate_video(task, report)
     validate_words(task, report)
+    validate_task_images(task, report)
     if task.get("dialogue"):
         validate_dialogue(task, report)
     for exercise in task["exercises"]:
@@ -296,6 +311,14 @@ def validate_words(task: Json, report: Report) -> None:
         report.errors.append(f"{task['id']}: words — пустые или повторяющиеся")
 
 
+def validate_task_images(task: Json, report: Report) -> None:
+    images = task.get("images", [])
+    if len(set(images)) != len(images):
+        report.errors.append(f"{task['id']}: images — повторяются")
+    for image in images:
+        check_image(task["id"], image, report)
+
+
 def validate_dialogue(task: Json, report: Report) -> None:
     for exercise in task["exercises"]:
         eid = exercise_id(task, exercise)
@@ -304,6 +327,18 @@ def validate_dialogue(task: Json, report: Report) -> None:
             report.errors.append(f"{eid}: dialogue — нужен blank с репликами через \\n")
         if any(SPEAKER_LABEL.match(line) for line in lines):
             report.errors.append(f"{eid}: dialogue — без меток говорящих")
+
+
+def check_bold(eid: str, exercise: Json, report: Report) -> None:
+    plain = [exercise.get("hint"), exercise.get("explain"), exercise.get("text"), *exercise.get("answers", [])]
+    plain += [variant for gap in exercise.get("gaps", []) for variant in gap]
+    prompt = exercise.get("prompt") or ""
+    misplaced = any(BOLD_MARK in value for value in plain if value)
+    if misplaced or (BOLD_MARK in prompt and exercise["type"] != "rewrite"):
+        report.errors.append(f"{eid}: **жирное** — только в prompt у rewrite")
+    parts = prompt.split(BOLD_MARK)
+    if len(parts) % 2 == 0 or any(not part.strip() for part in parts[1::2]):
+        report.errors.append(f"{eid}: непарные или пустые ** в prompt")
 
 
 def first_letter_hints(exercise: Json) -> bool:
@@ -414,7 +449,7 @@ def rewrite_arguments(exercise: Json) -> list[str]:
 
 def order_arguments(exercise: Json) -> list[str]:
     pictures = ", ".join(
-        f"Picture({kotlin_string(p['label'])}, {kotlin_string(p['image'])}, {kotlin_string(p['caption'])})"
+        f"Picture({kotlin_string(p['label'])}, {kotlin_string(p.get('image'))}, {kotlin_string(card_caption(p))})"
         for p in exercise["pictures"]
     )
     return [f"pictures = listOf({pictures})", f"answer = {kotlin_strings(exercise['answer'])}"]
@@ -463,6 +498,7 @@ def task_code(task: Json, indent: str) -> str:
     video = f"{indent}    video = {kotlin_string(task['video'])},\n" if task.get("video") else ""
     words = f"{indent}    words = {kotlin_strings(task['words'])},\n" if task.get("words") else ""
     dialogue = f"{indent}    dialogue = true,\n" if task.get("dialogue") else ""
+    images = f"{indent}    images = {kotlin_strings(task['images'])},\n" if task.get("images") else ""
     return (
         f"{indent}Task(\n"
         f"{indent}    id = {kotlin_string(task['id'])},\n"
@@ -473,6 +509,7 @@ def task_code(task: Json, indent: str) -> str:
         f"{video}"
         f"{words}"
         f"{dialogue}"
+        f"{images}"
         f"{indent}    exercises = listOf(\n{exercises},\n{indent}    ),\n"
         f"{indent})"
     )

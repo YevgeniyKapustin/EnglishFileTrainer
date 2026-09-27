@@ -148,7 +148,7 @@ object ExplainPrompt {
             }
 
             is Order -> {
-                "put the pictures in order: " + pictures.joinToString("; ") { "${it.label} ${it.caption}" }
+                "put in order: " + pictures.joinToString("; ") { "${it.label} ${it.caption}" }
             }
 
             is Write -> {

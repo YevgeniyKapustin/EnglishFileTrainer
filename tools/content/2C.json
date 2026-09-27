@@ -96,17 +96,26 @@
         {
           "id": "2C-gba",
           "origin": "SB_GRAMMAR_BANK",
-          "instruction": "Put the sentences in the correct order. Write the number (1–8) for each sentence",
-          "note": "GB 2C a «Put the sentences in the correct order» (A–H, C = 1 — пример). Картинок нет, тип order без картинок не предусмотрен → Blank: номер места у каждой фразы; n = буква по порядку (A=1 … H=8, C пропущен). Ответы MODEL",
-          "context": "A He explained that he was looking for a thief, and then he got on the bus. B Then another man tried to do the same. C (1) Last week I was waiting for a bus. D The next day, I saw the story on a local news website. E When I asked the second man what he was doing, he told me that he was a policeman. F A few seconds later, he got off the bus with the thief. G The bus arrived, but suddenly a man ran in front of me and got on. H After that, a police car came and took the thief away.",
+          "instruction": "Put the sentences in the correct order",
+          "note": "GB 2C a «Put the sentences in the correct order» (A–H, C = 1 — пример, вынесен в context как начало истории). Order с текстовыми карточками: A, B, D–H списком. Раньше — 7 Blank с номером места (2C-gba-01…08), теперь одно упражнение 2C-gba-01. Порядок MODEL",
+          "context": "Last week I was waiting for a bus.",
           "exercises": [
-            {"n": 1, "type": "blank", "text": "A He explained that he was looking for a thief, and then he got on the bus. → {}", "gaps": [["5", "five"]], "hint": "(1–8)", "explain": "Order: C, G, B, E, A, F, H, D.", "source": "MODEL"},
-            {"n": 2, "type": "blank", "text": "B Then another man tried to do the same. → {}", "gaps": [["3", "three"]], "hint": "(1–8)", "explain": "Order: C, G, B, E, A, F, H, D.", "source": "MODEL"},
-            {"n": 4, "type": "blank", "text": "D The next day, I saw the story on a local news website. → {}", "gaps": [["8", "eight"]], "hint": "(1–8)", "explain": "Order: C, G, B, E, A, F, H, D.", "source": "MODEL"},
-            {"n": 5, "type": "blank", "text": "E When I asked the second man what he was doing, he told me that he was a policeman. → {}", "gaps": [["4", "four"]], "hint": "(1–8)", "explain": "Order: C, G, B, E, A, F, H, D.", "source": "MODEL"},
-            {"n": 6, "type": "blank", "text": "F A few seconds later, he got off the bus with the thief. → {}", "gaps": [["6", "six"]], "hint": "(1–8)", "explain": "Order: C, G, B, E, A, F, H, D.", "source": "MODEL"},
-            {"n": 7, "type": "blank", "text": "G The bus arrived, but suddenly a man ran in front of me and got on. → {}", "gaps": [["2", "two"]], "hint": "(1–8)", "explain": "Order: C, G, B, E, A, F, H, D.", "source": "MODEL"},
-            {"n": 8, "type": "blank", "text": "H After that, a police car came and took the thief away. → {}", "gaps": [["7", "seven"]], "hint": "(1–8)", "explain": "Order: C, G, B, E, A, F, H, D.", "source": "MODEL"}
+            {
+              "n": 1,
+              "type": "order",
+              "pictures": [
+                {"label": "A", "text": "He explained that he was looking for a thief, and then he got on the bus."},
+                {"label": "B", "text": "Then another man tried to do the same."},
+                {"label": "D", "text": "The next day, I saw the story on a local news website."},
+                {"label": "E", "text": "When I asked the second man what he was doing, he told me that he was a policeman."},
+                {"label": "F", "text": "A few seconds later, he got off the bus with the thief."},
+                {"label": "G", "text": "The bus arrived, but suddenly a man ran in front of me and got on."},
+                {"label": "H", "text": "After that, a police car came and took the thief away."}
+              ],
+              "answer": ["G", "B", "E", "A", "F", "H", "D"],
+              "explain": "Order: C, G, B, E, A, F, H, D.",
+              "source": "MODEL"
+            }
           ]
         },
         {

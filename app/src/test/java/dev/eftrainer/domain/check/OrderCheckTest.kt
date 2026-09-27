@@ -35,6 +35,17 @@ class OrderCheckTest {
         assertEquals(setOf(1, 2), result.wrongGaps)
     }
 
+    @Test fun `text cards are checked like pictures`() {
+        val story =
+            Order(
+                "t-text",
+                pictures = listOf(Picture("A", null, "Then he left."), Picture("B", null, "A man came in.")),
+                answer = listOf("B", "A"),
+            )
+        assertTrue(Checker.check(story, listOf("B", "A")).correct)
+        assertEquals(setOf(0, 1), Checker.check(story, listOf("A", "B")).wrongGaps)
+    }
+
     @Test fun `wrong count is rejected`() {
         assertThrows(IllegalArgumentException::class.java) { Checker.check(pictures, listOf("B", "D")) }
     }

@@ -20,10 +20,9 @@ import dev.eftrainer.core.sound.Cue
 import dev.eftrainer.ui.appContainer
 
 private const val BUBBLE_FADE_SPEED = 3f
-private const val LOUDEST_HIT = 3f
-private const val QUIETEST_HIT_VOLUME = .35f
 private val DragLimit = 120.dp
-private val HardHitSpeed = 900.dp
+private val SoftHitSpeed = 150.dp
+private val HardHitSpeed = 3000.dp
 
 @Composable
 fun rememberBubbleMotion(
@@ -33,9 +32,11 @@ fun rememberBubbleMotion(
     val sounds = appContainer().sounds
     val density = LocalDensity.current
     return remember(pop, tailLeft, density) {
+        val soft = with(density) { SoftHitSpeed.toPx() }
         val hard = with(density) { HardHitSpeed.toPx() }
         BubbleMotion(pop, tailLeft) { speed ->
-            if (speed >= hard) sounds.play(Cue.BUMP, (speed / (hard * LOUDEST_HIT)).coerceIn(QUIETEST_HIT_VOLUME, 1f))
+            val force = ((speed - soft) / (hard - soft)).coerceIn(0f, 1f)
+            if (force > 0f) sounds.play(Cue.BUMP, force * force)
         }
     }
 }

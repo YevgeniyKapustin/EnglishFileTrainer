@@ -24,6 +24,8 @@ import androidx.compose.ui.unit.dp
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.ui.Icons
 import dev.eftrainer.core.ui.ListRow
+import dev.eftrainer.core.ui.RowBleed
+import dev.eftrainer.core.ui.bleed
 
 private const val OPEN_TURN_DEGREES = 90f
 
@@ -42,10 +44,11 @@ internal fun SettingsFold(
         }
         AnimatedVisibility(
             open,
+            modifier = Modifier.bleed(RowBleed),
             enter = expandVertically() + fadeIn(),
             exit = shrinkVertically() + fadeOut(),
         ) {
-            Column(Modifier.padding(bottom = 8.dp), content = content)
+            Column(Modifier.padding(start = RowBleed, end = RowBleed, bottom = 8.dp), content = content)
         }
         HorizontalDivider(color = C.Line)
     }

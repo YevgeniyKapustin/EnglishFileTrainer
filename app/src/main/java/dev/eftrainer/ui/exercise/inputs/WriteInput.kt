@@ -33,6 +33,7 @@ import dev.eftrainer.R
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.EF
 import dev.eftrainer.core.theme.T
+import dev.eftrainer.core.ui.linkClickable
 import dev.eftrainer.data.content.Write
 import dev.eftrainer.ui.exercise.AiCheck
 import dev.eftrainer.ui.exercise.aiErrorRes
@@ -144,9 +145,7 @@ private fun AiCheckStatus(
                 style = small.copy(color = C.Bad),
                 modifier =
                     Modifier
-                        .clip(
-                            RoundedCornerShape(8.dp),
-                        ).clickable(onClick = onRetry)
+                        .linkClickable(onClick = onRetry)
                         .padding(vertical = 4.dp),
             )
         }

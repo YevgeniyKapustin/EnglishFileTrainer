@@ -63,11 +63,12 @@ fun SortInput(
                     title = title,
                     word = word.takeIf { i == pick || (checked && i == exercise.answer) },
                     border = border,
-                    modifier =
-                        Modifier.weight(1f).clickable(enabled = !checked) {
-                            onPick(i)
-                            sounds.play(Cue.TICK)
-                        },
+                    enabled = !checked,
+                    onClick = {
+                        onPick(i)
+                        sounds.play(Cue.TICK)
+                    },
+                    modifier = Modifier.weight(1f),
                 )
             }
         }
@@ -79,13 +80,16 @@ private fun SortColumn(
     title: String,
     word: AnnotatedString?,
     border: Color,
+    enabled: Boolean,
+    onClick: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
     Column(
         modifier
             .clip(ColumnShape)
             .background(C.Field)
-            .border(if (border == C.Line) 1.dp else 1.5.dp, border, ColumnShape),
+            .border(if (border == C.Line) 1.dp else 1.5.dp, border, ColumnShape)
+            .clickable(enabled = enabled, onClick = onClick),
     ) {
         Text(
             title,

@@ -50,6 +50,7 @@ import dev.eftrainer.core.theme.Golos
 import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.ui.Icons
 import dev.eftrainer.core.ui.ListRow
+import dev.eftrainer.core.ui.linkClickable
 import dev.eftrainer.data.ai.AiException
 import dev.eftrainer.data.ai.Provider
 import dev.eftrainer.data.ai.detectProvider
@@ -182,8 +183,7 @@ private fun RemoveKeyLink(onClick: () -> Unit) {
         style = TextStyle(fontFamily = Golos, fontSize = 15.sp, fontWeight = FontWeight.Medium, color = C.Bad),
         modifier =
             Modifier
-                .clip(RoundedCornerShape(8.dp))
-                .clickable(onClick = onClick)
+                .linkClickable(onClick = onClick)
                 .padding(vertical = 6.dp),
     )
 }

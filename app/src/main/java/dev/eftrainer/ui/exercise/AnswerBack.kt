@@ -22,6 +22,7 @@ import androidx.compose.ui.unit.sp
 import dev.eftrainer.R
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.T
+import dev.eftrainer.core.ui.linkClickable
 import dev.eftrainer.data.ai.AiClient
 import dev.eftrainer.data.ai.AiException
 import dev.eftrainer.domain.ai.AnswerBackPrompt
@@ -134,8 +135,7 @@ private fun AnswerBackStatus(
             style = style.copy(color = C.Bad),
             modifier =
                 Modifier
-                    .clip(RoundedCornerShape(8.dp))
-                    .clickable(onClick = onRetry)
+                    .linkClickable(onClick = onRetry)
                     .padding(vertical = 4.dp),
         )
     }

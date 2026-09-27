@@ -181,7 +181,7 @@ private fun ChapterBand(
             }
             Spacer(Modifier.weight(1f))
             Row(
-                Modifier.background(IconShade, RoundedCornerShape(22.dp)),
+                Modifier.clip(PillShape).background(IconShade).padding(2.dp),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 content()
@@ -208,6 +208,7 @@ private fun ChapterBand(
 
 private val BandHeight = 150.dp
 private val IconShade = Color.Black.copy(alpha = .22f)
+private val PillShape = RoundedCornerShape(percent = 50)
 private val QuestionMinSize = 92.dp
 private val AnswerMinSize = 88.dp
 private val QuestionTop = 46.dp
@@ -292,9 +293,9 @@ private fun StreakChip(
     Row(
         Modifier
             .heightIn(min = 44.dp)
-            .clip(RoundedCornerShape(8.dp))
+            .clip(PillShape)
             .clickable(onClick = onClick)
-            .padding(horizontal = 10.dp),
+            .padding(horizontal = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(4.dp),
     ) {

@@ -307,17 +307,19 @@ private fun TaskHeader(q: SessionUi.Question) {
             horizontalArrangement = Arrangement.spacedBy(8.dp),
         ) {
             SectionTag(kind)
-            Text(
-                q.task.instruction,
-                style =
-                    T.label.copy(
-                        fontSize = 15.sp,
-                        lineHeight = 21.sp,
-                        fontWeight = FontWeight.SemiBold,
-                        color = kind.color,
-                    ),
-                modifier = Modifier.weight(1f),
-            )
+            if (e !is Talk) {
+                Text(
+                    q.task.instruction,
+                    style =
+                        T.label.copy(
+                            fontSize = 15.sp,
+                            lineHeight = 21.sp,
+                            fontWeight = FontWeight.SemiBold,
+                            color = kind.color,
+                        ),
+                    modifier = Modifier.weight(1f),
+                )
+            }
         }
         q.task.video?.let { VideoBar(it, clip = e.clip) }
         q.task.audio?.let { AudioBar(it, clip = e.clip) }

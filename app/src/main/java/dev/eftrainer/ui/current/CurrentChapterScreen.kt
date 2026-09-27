@@ -1,7 +1,5 @@
 package dev.eftrainer.ui.current
 
-import androidx.compose.animation.core.Animatable
-import androidx.compose.animation.core.AnimationVector1D
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -30,6 +28,8 @@ import androidx.compose.ui.graphics.BlendMode
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.CompositingStrategy
 import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.graphics.lerp
+import androidx.compose.ui.layout.onPlaced
 import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
@@ -241,12 +241,10 @@ private fun ChapterBand(
 private class BandBubble(
     val text: String,
     val color: Color,
-    val tailLeft: Boolean,
     val size: Dp,
     val end: Dp,
     val bottom: Dp,
-    val pop: Animatable<Float, AnimationVector1D>,
-    val drag: BubbleDrag,
+    val motion: BubbleMotion,
 )
 
 @Composable
@@ -254,33 +252,45 @@ private fun BoxScope.BandBubbles(
     lines: Bubbles,
     intro: HeaderIntro,
 ) {
-    val firstDrag = rememberBubbleDrag()
-    val secondDrag = rememberBubbleDrag()
+    val first = rememberBubbleMotion(intro.firstBubble, tailLeft = true)
+    val second = rememberBubbleMotion(intro.secondBubble, tailLeft = false)
     val bubbles =
         listOf(
-            BandBubble(lines.first, EF.Sky, true, 92.dp, 108.dp, 12.dp, intro.firstBubble, firstDrag),
-            BandBubble(lines.second, EF.Lime, false, 88.dp, 40.dp, 24.dp, intro.secondBubble, secondDrag),
+            BandBubble(lines.first, EF.Sky, 92.dp, 108.dp, 12.dp, first),
+            BandBubble(lines.second, EF.Lime, 88.dp, 40.dp, 24.dp, second),
         )
+    val overlap = Color(EF.Sky.red * EF.Lime.red, EF.Sky.green * EF.Lime.green, EF.Sky.blue * EF.Lime.blue)
+    val overlapInk = lerp(overlap, Color.Black, .6f)
 
     fun BandBubble.placed() =
         Modifier
             .align(Alignment.BottomEnd)
             .padding(end = end, bottom = bottom)
-            .bubbleMotion(pop, drag, tailLeft)
 
     Box(Modifier.matchParentSize().graphicsLayer { compositingStrategy = CompositingStrategy.Offscreen }) {
         bubbles.forEach { bubble ->
             SpeechBubbleShape(
                 bubble.color,
-                bubble.tailLeft,
+                bubble.motion.tailLeft,
                 bubble.size,
-                bubble.placed(),
+                bubble.placed().bubbleShapeMotion(bubble.motion),
                 blendMode = BlendMode.Multiply,
             )
         }
     }
     bubbles.forEach { bubble ->
-        SpeechBubbleText(bubble.text, bubble.size, bubble.placed().bubbleGrip(bubble.drag))
+        val under = if (bubble.motion === first) second else first
+        SpeechBubbleText(
+            bubble.text,
+            bubble.size,
+            bubble
+                .placed()
+                .bubbleTextMotion(bubble.motion)
+                .bubbleGrip(bubble.motion)
+                .bubbleInk(bubble.motion, under, overlapInk),
+            textModifier = Modifier.onPlaced(bubble.motion.text::place),
+            onTextLayout = bubble.motion.text::layout,
+        )
     }
 }
 

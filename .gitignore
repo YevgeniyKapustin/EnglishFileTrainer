@@ -25,3 +25,4 @@ keystore.properties
 
 /tools/out/
 __pycache__/
+.claude/worktrees/

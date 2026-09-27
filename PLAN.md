@@ -61,7 +61,7 @@
 - На телефон — только release: `./gradlew :app:installRelease` (R8 + baseline profile; тот же ключ, ставится поверх
   debug с сохранением данных). Debug на слабом телефоне заметно тормозит — для проверки скорости не годится.
   Свой baseline profile приложения не генерируем: нужен API 33+ или root, телефон — API 31 без root (только профили библиотек).
-- Python: `uvx ruff format tools`, `uvx ruff check`, `uvx --with pymupdf --with numpy mypy`,
+- Python: `uvx ruff format tools`, `uvx ruff check`, `uvx --with pymupdf --with numpy --with pillow mypy`,
   `PYTHONIOENCODING=utf-8 python tools/check_no_comments.py`.
 - Хук `.claude/settings.json` → `tools/lint_hook.py`: после каждой правки `.py` — ruff и проверка комментариев.
 - Конфиги: `config/detekt/detekt.yml`, `.editorconfig`, `pyproject.toml`, блок `lint {}` в `app/build.gradle.kts`.

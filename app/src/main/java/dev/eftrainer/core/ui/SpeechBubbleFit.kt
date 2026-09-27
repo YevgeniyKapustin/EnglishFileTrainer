@@ -1,5 +1,6 @@
 package dev.eftrainer.core.ui
 
+import androidx.compose.material3.LocalTextStyle
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.remember
@@ -43,7 +44,8 @@ fun rememberSpeechBubbleFit(
 ): SpeechBubbleFit {
     val measurer = rememberTextMeasurer()
     val density = LocalDensity.current
-    return remember(text, minSize, measurer, density) { density.fitBubble(measurer, text, minSize) }
+    val base = LocalTextStyle.current.merge(bubbleText)
+    return remember(text, minSize, measurer, density, base) { density.fitBubble(measurer, text, base, minSize) }
 }
 
 private fun TextStyle.scaled(scale: Float) = copy(fontSize = fontSize * scale, lineHeight = lineHeight * scale)
@@ -53,15 +55,16 @@ private fun widestLine(size: Dp) = size - 2 * SpeechBubbleTextInset
 private fun Density.fitBubble(
     measurer: TextMeasurer,
     text: String,
+    base: TextStyle,
     minSize: Dp,
 ): SpeechBubbleFit {
     val largest = maxOf(minSize, MaxBubbleSize)
     val sizes = generateSequence(minSize) { it + SizeStep }.takeWhile { it <= largest }
     val scales = generateSequence(1f) { it * FONT_SHRINK }.takeWhile { it >= MIN_FONT_SCALE }
     return scales.firstNotNullOfOrNull { scale ->
-        val style = bubbleText.scaled(scale)
+        val style = base.scaled(scale)
         sizes.firstNotNullOfOrNull { size -> fitLine(measurer, text, style, size) }
-    } ?: SpeechBubbleFit(largest, widestLine(largest), bubbleText.scaled(MIN_FONT_SCALE))
+    } ?: SpeechBubbleFit(largest, widestLine(largest), base.scaled(MIN_FONT_SCALE))
 }
 
 private fun Density.fitLine(

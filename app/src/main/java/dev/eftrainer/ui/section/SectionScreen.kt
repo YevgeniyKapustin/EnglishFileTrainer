@@ -5,7 +5,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.HorizontalDivider
@@ -137,7 +137,8 @@ private fun TaskItem(
         Text(
             task.number,
             style = T.row.copy(color = if (off) C.Off else EF.Title, fontWeight = FontWeight.Bold),
-            modifier = Modifier.width(30.dp),
+            softWrap = false,
+            modifier = Modifier.widthIn(min = 30.dp),
         )
         TaskText(task, off, Modifier.weight(1f))
         if (!off) {

@@ -4,6 +4,8 @@ import dev.eftrainer.core.audio.AudioAssets
 import dev.eftrainer.core.ui.imageAsset
 import dev.eftrainer.domain.check.Checker
 import dev.eftrainer.domain.check.Normalizer
+import dev.eftrainer.domain.check.TapChecker
+import dev.eftrainer.domain.check.plainWord
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Assume.assumeTrue
@@ -40,9 +42,36 @@ class ContentValidationTest {
                     is Write -> listOf(e.criteria)
                     is Blank -> e.gaps
                     is Order -> listOf(e.answer, e.pictures.map { it.caption })
+                    is Stress -> listOf(e.targets.map { e.parts[it] })
+                    is Sort -> listOf(listOf(e.plainWord), e.columns)
                 }
             assertTrue("${e.id}: пустой список ответов", variants.all { it.isNotEmpty() })
             assertTrue("${e.id}: пустой вариант ответа", variants.flatten().all { it.isNotBlank() })
+        }
+    }
+
+    @Test fun `stress and sort answers pass the checker`() {
+        for (e in exercises.filterIsInstance<Stress>()) {
+            assertTrue("${e.id}", TapChecker.check(e, e.stressed.map { it.toString() }).correct)
+            val markup = e.parts.filter { p -> p.any { it in "[]|{}" } }
+            assertEquals("${e.id}: разметка в тексте", emptyList<String>(), markup)
+            if (e.syllables) assertTrue("${e.id}: пустой слог", e.parts.all { it.isNotBlank() && ' ' !in it })
+        }
+        for (e in exercises.filterIsInstance<Sort>()) {
+            assertTrue("${e.id}", TapChecker.check(e, listOf(e.answer.toString())).correct)
+            assertTrue("${e.id}: разметка слова", Regex("""([^\[\]]|\[[^\[\]|]+])+""").matches(e.word))
+            assertTrue("${e.id}: пустая колонка", e.columns.all { it.isNotBlank() })
+        }
+    }
+
+    @Test fun `sort columns are the same within a task`() {
+        for (t in tasks) {
+            val columns =
+                t.exercises
+                    .filterIsInstance<Sort>()
+                    .map { it.columns }
+                    .distinct()
+            assertTrue("${t.id}: разные колонки", columns.size <= 1)
         }
     }
 

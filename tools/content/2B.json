@@ -562,19 +562,16 @@
         {
           "id": "2B-sb4c",
           "origin": "SB",
-          "instruction": "Listen again. Are was and were stressed or unstressed?",
-          "note": "SB 4c; ответ MODEL (правило: в утвердительных предложениях was / were безударные)",
+          "instruction": "Listen again. Tap was / were if they are stressed",
+          "note": "SB 4c → Stress по шести фразам 2.14 (клипы как у 2B-sb4b); ответ MODEL (правило: в утвердительных предложениях was / were безударные)",
           "audio": "2.14",
           "exercises": [
-            {
-              "n": 1,
-              "type": "blank",
-              "text": "In the six sentences, was and were are {}.",
-              "gaps": [["unstressed"]],
-              "hint": "(stressed or unstressed)",
-              "explain": "They are all positive sentences, so was and were are weak: /wəz/, /wə/.",
-              "source": "MODEL"
-            }
+            {"n": 1, "type": "stress", "text": "It [was] my first term at university.", "stressed": [], "explain": "A positive sentence, so was / were are weak: /wəz/, /wə/.", "source": "MODEL", "clip": [4.23, 6.95]},
+            {"n": 2, "type": "stress", "text": "I [was] staying with him in the Easter holidays.", "stressed": [], "explain": "A positive sentence, so was / were are weak: /wəz/, /wə/.", "source": "MODEL", "clip": [10.0, 12.68]},
+            {"n": 3, "type": "stress", "text": "We [were] doing a music course.", "stressed": [], "explain": "A positive sentence, so was / were are weak: /wəz/, /wə/.", "source": "MODEL", "clip": [15.83, 18.03]},
+            {"n": 4, "type": "stress", "text": "We [were] at school together.", "stressed": [], "explain": "A positive sentence, so was / were are weak: /wəz/, /wə/.", "source": "MODEL", "clip": [21.19, 22.92]},
+            {"n": 5, "type": "stress", "text": "She took this when we [were] visiting the Colosseum.", "stressed": [], "explain": "A positive sentence, so was / were are weak: /wəz/, /wə/.", "source": "MODEL", "clip": [26.2, 29.46]},
+            {"n": 6, "type": "stress", "text": "We [were] all drinking champagne, and Roz [was] doing the hard work!", "stressed": [], "explain": "A positive sentence, so was / were are weak: /wəz/, /wə/.", "source": "MODEL", "clip": [32.66, 37.72]}
           ]
         },
         {
@@ -595,14 +592,14 @@
         {
           "id": "2B-wb3a",
           "origin": "WB",
-          "instruction": "Are was and were stressed or unstressed? Write S for stressed and U for unstressed",
-          "note": "WB 3a; 1 U — пример. Ключ: 2 U, 3 U, 4 S S, 5 U S S, 6 U. Пункт 2 (weren’t → U в ключе) противоречит правилу (отрицание ударное) — ответ S, MODEL",
+          "instruction": "Tap was / were where they are stressed",
+          "note": "WB 3a → Stress по предложению; 1 U — пример. Ключ: 2 U, 3 U, 4 S S, 5 U S S, 6 U. Пункт 2 (weren’t → U в ключе) противоречит правилу (отрицание ударное), вероятно опечатка ключа — ответ S, MODEL",
           "exercises": [
-            {"n": 2, "type": "blank", "text": "We met our new neighbours yesterday – they weren’t very friendly. {}", "gaps": [["S"]], "hint": "(S or U)", "explain": "weren’t is a negative, and negatives are stressed. (The Workbook key says U here.)", "source": "MODEL"},
-            {"n": 3, "type": "blank", "text": "What were you doing when I phoned you? {}", "gaps": [["U"]], "hint": "(S or U)", "explain": "In wh- questions were is weak: /wə/."},
-            {"n": 4, "type": "blank", "text": "Was Matt at home last night? {}\nNo, he wasn’t. {}", "gaps": [["S"], ["S"]], "hint": "(S or U)", "explain": "Was at the start of the yes / no question is stressed here; wasn’t is a negative short answer – stressed."},
-            {"n": 5, "type": "blank", "text": "It was a great party. {}\nWas it at Kim’s house? {}\nYes, it was. {}", "gaps": [["U"], ["S"], ["S"]], "hint": "(S or U)", "explain": "Positive sentence – weak was; Was at the start of the question – stressed; short answer – stressed."},
-            {"n": 6, "type": "blank", "text": "There were lots of people at the supermarket. {}", "gaps": [["U"]], "hint": "(S or U)", "explain": "Positive sentence: were is weak /wə/."}
+            {"n": 2, "type": "stress", "text": "We met our new neighbours yesterday – they [weren’t] very friendly.", "stressed": [1], "explain": "weren’t is a negative, and negatives are stressed. (The Workbook key says U here.)", "source": "MODEL"},
+            {"n": 3, "type": "stress", "text": "What [were] you doing when I phoned you?", "stressed": [], "explain": "In wh- questions were is weak: /wə/."},
+            {"n": 4, "type": "stress", "text": "[Was] Matt at home last night?\nNo, he [wasn’t].", "stressed": [1, 2], "explain": "Was at the start of the yes / no question is stressed here; wasn’t is a negative short answer – stressed."},
+            {"n": 5, "type": "stress", "text": "It [was] a great party.\n[Was] it at Kim’s house?\nYes, it [was].", "stressed": [2, 3], "explain": "Positive sentence – weak was; Was at the start of the question – stressed; short answer – stressed."},
+            {"n": 6, "type": "stress", "text": "There [were] lots of people at the supermarket.", "stressed": [], "explain": "Positive sentence: were is weak /wə/."}
           ]
         },
         {

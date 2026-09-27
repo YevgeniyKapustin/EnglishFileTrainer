@@ -55,7 +55,9 @@ import dev.eftrainer.data.content.Chapters
 import dev.eftrainer.data.content.Exercise
 import dev.eftrainer.data.content.Order
 import dev.eftrainer.data.content.Rewrite
+import dev.eftrainer.data.content.Sort
 import dev.eftrainer.data.content.Speak
+import dev.eftrainer.data.content.Stress
 import dev.eftrainer.data.content.Talk
 import dev.eftrainer.data.content.Write
 import dev.eftrainer.data.content.needsAi
@@ -63,10 +65,11 @@ import dev.eftrainer.ui.appContainer
 import dev.eftrainer.ui.exercise.inputs.AudioBar
 import dev.eftrainer.ui.exercise.inputs.BlankLayout
 import dev.eftrainer.ui.exercise.inputs.GapState
-import dev.eftrainer.ui.exercise.inputs.OrderInput
 import dev.eftrainer.ui.exercise.inputs.RewriteInput
 import dev.eftrainer.ui.exercise.inputs.SpeakInput
 import dev.eftrainer.ui.exercise.inputs.TalkInput
+import dev.eftrainer.ui.exercise.inputs.TapAnswer
+import dev.eftrainer.ui.exercise.inputs.TapInput
 import dev.eftrainer.ui.exercise.inputs.VideoBar
 import dev.eftrainer.ui.exercise.inputs.WordBox
 import dev.eftrainer.ui.exercise.inputs.WriteInput
@@ -140,20 +143,18 @@ private fun fieldCount(exercise: Exercise): Int =
     when (exercise) {
         is Rewrite, is Write -> 1
         is Blank -> exercise.gaps.size
-        is Talk, is Order, is Speak -> 0
+        is Talk, is Order, is Speak, is Stress, is Sort -> 0
     }
 
 @Stable
 private class AnswerFields(
     val values: SnapshotStateList<TextFieldValue>,
     val focus: List<FocusRequester>,
-    initialOrder: List<String>,
+    val tap: TapAnswer,
 ) {
-    var order by mutableStateOf(initialOrder)
+    val filled: Boolean get() = values.all { it.text.isNotBlank() } && tap.filled
 
-    val filled: Boolean get() = values.all { it.text.isNotBlank() }
-
-    fun texts(): List<String> = if (order.isEmpty()) values.map { it.text } else order
+    fun texts(): List<String> = tap.texts() ?: values.map { it.text }
 }
 
 private fun initialValues(exercise: Exercise): SnapshotStateList<TextFieldValue> =
@@ -170,7 +171,7 @@ private fun rememberAnswerFields(
         AnswerFields(
             initialValues(exercise),
             List(fieldCount(exercise)) { FocusRequester() },
-            (exercise as? Order)?.pictures?.map { it.label }.orEmpty(),
+            TapAnswer(exercise),
         )
     }
 
@@ -403,8 +404,8 @@ private fun ExerciseInput(
             TalkInput(e, q.attempt, checked, onGrade, tts)
         }
 
-        is Order -> {
-            OrderInput(e, answer.order, { answer.order = it }, checked, feedback?.wrongGaps.orEmpty())
+        is Order, is Stress, is Sort -> {
+            TapInput(e, answer.tap, checked, feedback?.wrongGaps.orEmpty())
         }
 
         is Write -> {

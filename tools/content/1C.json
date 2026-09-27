@@ -1652,205 +1652,36 @@
           "id": "1C-sb2b",
           "origin": "SB",
           "audio": "1.25",
-          "instruction": "Which sound do the pink letters have, 1 or 2? Then listen and check",
-          "note": "SB 2b–c; painter — пример. Подчеркнуть ударный слог нельзя (TODO), розовые буквы — p-er, h-er, f-ir-st, photogr-a-ph, pict-ure, pref-er, c-ur-ly, a-ttractive, occasi-o-n, w-or-k, univ-er-sity. Ответы по аудио 1.25",
+          "instruction": "Which sound do the pink letters have? Put the words in the chart. Then listen and check",
+          "note": "SB 2b–c; painter — пример. Sort по колонкам 1 computer / 2 bird, розовые буквы как в книге; ударение — отдельно в 1C-sb2b2. Ответы по аудио 1.25",
+          "columns": ["1 computer /ə/", "2 bird /ɜː/"],
           "exercises": [
-            {
-              "n": 2,
-              "type": "blank",
-              "text": "her → sound {}",
-              "gaps": [
-                [
-                  "2",
-                  "bird",
-                  "/ɜː/",
-                  "ɜː",
-                  "/ɜ:/"
-                ]
-              ],
-              "hint": "(1 computer /ə/ or 2 bird /ɜː/)",
-              "source": "CONFIRMED",
-              "clip": [
-                7.08,
-                9.74
-              ]
-            },
-            {
-              "n": 3,
-              "type": "blank",
-              "text": "first → sound {}",
-              "gaps": [
-                [
-                  "2",
-                  "bird",
-                  "/ɜː/",
-                  "ɜː",
-                  "/ɜ:/"
-                ]
-              ],
-              "hint": "(1 computer /ə/ or 2 bird /ɜː/)",
-              "source": "CONFIRMED",
-              "clip": [
-                11.22,
-                14.23
-              ]
-            },
-            {
-              "n": 4,
-              "type": "blank",
-              "text": "photograph → sound {}",
-              "gaps": [
-                [
-                  "1",
-                  "computer",
-                  "/ə/",
-                  "ə"
-                ]
-              ],
-              "hint": "(1 computer /ə/ or 2 bird /ɜː/)",
-              "source": "CONFIRMED",
-              "clip": [
-                15.72,
-                18.83
-              ]
-            },
-            {
-              "n": 5,
-              "type": "blank",
-              "text": "picture → sound {}",
-              "gaps": [
-                [
-                  "1",
-                  "computer",
-                  "/ə/",
-                  "ə"
-                ]
-              ],
-              "hint": "(1 computer /ə/ or 2 bird /ɜː/)",
-              "source": "CONFIRMED",
-              "clip": [
-                20.33,
-                23.1
-              ]
-            },
-            {
-              "n": 6,
-              "type": "blank",
-              "text": "prefer → sound {}",
-              "gaps": [
-                [
-                  "2",
-                  "bird",
-                  "/ɜː/",
-                  "ɜː",
-                  "/ɜ:/"
-                ]
-              ],
-              "hint": "(1 computer /ə/ or 2 bird /ɜː/)",
-              "source": "CONFIRMED",
-              "clip": [
-                24.57,
-                27.47
-              ]
-            },
-            {
-              "n": 7,
-              "type": "blank",
-              "text": "curly → sound {}",
-              "gaps": [
-                [
-                  "2",
-                  "bird",
-                  "/ɜː/",
-                  "ɜː",
-                  "/ɜ:/"
-                ]
-              ],
-              "hint": "(1 computer /ə/ or 2 bird /ɜː/)",
-              "source": "CONFIRMED",
-              "clip": [
-                28.94,
-                31.74
-              ]
-            },
-            {
-              "n": 8,
-              "type": "blank",
-              "text": "attractive → sound {}",
-              "gaps": [
-                [
-                  "1",
-                  "computer",
-                  "/ə/",
-                  "ə"
-                ]
-              ],
-              "hint": "(1 computer /ə/ or 2 bird /ɜː/)",
-              "source": "CONFIRMED",
-              "clip": [
-                33.28,
-                36.23
-              ]
-            },
-            {
-              "n": 9,
-              "type": "blank",
-              "text": "occasion → sound {}",
-              "gaps": [
-                [
-                  "1",
-                  "computer",
-                  "/ə/",
-                  "ə"
-                ]
-              ],
-              "hint": "(1 computer /ə/ or 2 bird /ɜː/)",
-              "source": "CONFIRMED",
-              "clip": [
-                37.7,
-                40.64
-              ]
-            },
-            {
-              "n": 10,
-              "type": "blank",
-              "text": "work → sound {}",
-              "gaps": [
-                [
-                  "2",
-                  "bird",
-                  "/ɜː/",
-                  "ɜː",
-                  "/ɜ:/"
-                ]
-              ],
-              "hint": "(1 computer /ə/ or 2 bird /ɜː/)",
-              "source": "CONFIRMED",
-              "clip": [
-                42.11,
-                44.85
-              ]
-            },
-            {
-              "n": 11,
-              "type": "blank",
-              "text": "university → sound {}",
-              "gaps": [
-                [
-                  "2",
-                  "bird",
-                  "/ɜː/",
-                  "ɜː",
-                  "/ɜ:/"
-                ]
-              ],
-              "hint": "(1 computer /ə/ or 2 bird /ɜː/)",
-              "source": "CONFIRMED",
-              "clip": [
-                46.32,
-                49.5
-              ]
-            }
+            {"n": 2, "type": "sort", "word": "h[er]", "column": 2, "source": "CONFIRMED", "clip": [7.08, 9.74]},
+            {"n": 3, "type": "sort", "word": "f[ir]st", "column": 2, "source": "CONFIRMED", "clip": [11.22, 14.23]},
+            {"n": 4, "type": "sort", "word": "phot[o]graph", "column": 1, "source": "CONFIRMED", "clip": [15.72, 18.83]},
+            {"n": 5, "type": "sort", "word": "pict[ure]", "column": 1, "source": "CONFIRMED", "clip": [20.33, 23.1]},
+            {"n": 6, "type": "sort", "word": "pref[er]", "column": 2, "source": "CONFIRMED", "clip": [24.57, 27.47]},
+            {"n": 7, "type": "sort", "word": "c[ur]ly", "column": 2, "source": "CONFIRMED", "clip": [28.94, 31.74]},
+            {"n": 8, "type": "sort", "word": "[a]ttractive", "column": 1, "source": "CONFIRMED", "clip": [33.28, 36.23]},
+            {"n": 9, "type": "sort", "word": "occasi[o]n", "column": 1, "source": "CONFIRMED", "clip": [37.7, 40.64]},
+            {"n": 10, "type": "sort", "word": "w[or]k", "column": 2, "source": "CONFIRMED", "clip": [42.11, 44.85]},
+            {"n": 11, "type": "sort", "word": "univ[er]sity", "column": 2, "source": "CONFIRMED", "clip": [46.32, 49.5]}
+          ]
+        },
+        {
+          "id": "1C-sb2b2",
+          "origin": "SB",
+          "audio": "1.25",
+          "instruction": "Tap the stressed syllable. Then listen and check",
+          "note": "SB 2b «underline the stressed syllable in the multi-syllable words» → Stress; painter — пример; односложные her, first, work пропущены. MODEL, сверено с аудио 1.25",
+          "exercises": [
+            {"n": 4, "type": "stress", "text": "pho|to|graph", "stressed": [1], "explain": "PHOtograph.", "source": "MODEL", "clip": [15.72, 18.83]},
+            {"n": 5, "type": "stress", "text": "pic|ture", "stressed": [1], "explain": "PICture.", "source": "MODEL", "clip": [20.33, 23.1]},
+            {"n": 6, "type": "stress", "text": "pre|fer", "stressed": [2], "explain": "preFER – a verb: second syllable.", "source": "MODEL", "clip": [24.57, 27.47]},
+            {"n": 7, "type": "stress", "text": "cur|ly", "stressed": [1], "explain": "CURly.", "source": "MODEL", "clip": [28.94, 31.74]},
+            {"n": 8, "type": "stress", "text": "at|trac|tive", "stressed": [2], "explain": "atTRACtive.", "source": "MODEL", "clip": [33.28, 36.23]},
+            {"n": 9, "type": "stress", "text": "oc|ca|sion", "stressed": [2], "explain": "ocCAsion.", "source": "MODEL", "clip": [37.7, 40.64]},
+            {"n": 10, "type": "stress", "text": "u|ni|ver|si|ty", "stressed": [3], "explain": "uniVERsity.", "source": "MODEL", "clip": [42.11, 44.85]}
           ]
         },
         {

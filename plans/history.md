@@ -46,6 +46,8 @@
     черновик «Can you remember…? 1» стал `1C-review`; 2A «OMG! Where's my passport?» — 234 + 53;
     2B «That's me in the picture!» — 147 + 45; 2C «One dark October evening» — 215 + 40, с `2C-review`
     (Revise and Check 1&2). Треки 1.23–1.29, 2.1–2.23. Что не влезло в типы — список в `PLAN.md` §0.
+  - Типы `Stress` (тап по ударному слогу / сильной форме was/were) и `Sort` (тап по колонке), `TapChecker`:
+    2C sb2a, rcpd, wb2a; 2A sb3c; 1C sb2b (+ новое `1C-sb2b2`); 2B wb3a, sb4c. На телефоне не проверено.
 - **Э8.5 — Practical English с видео** (эпизод 1 сделан):
   - PE-урок в SB — после юнитов 1, 3, 5, 7, 9, 11 (SB PDF 13, 29, 45, 61, 77, 93). Видео 4e:
     `english_file/videos/EF4e_Pre-int_PracticalEng_Ep{1..6}_*.mp4`, 36 роликов, 124 МБ.

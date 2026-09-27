@@ -82,8 +82,14 @@ PNG → `tools/out/`.
   картинку словами в `text` и брать кадры из видео — нельзя;
 - расставить картинки или события по порядку («number the pictures 1–6») → одно упражнение `"type": "order"`:
   `"pictures": [{"label": "A", "image": "1a_pe1a_a", "caption": "что на картинке"}, …]`, `"answer": ["B", "D", …]`
-  (метки в верном порядке). Это список: перетащить или ↑/↓, потом Check — единственный ввод не с клавиатуры;
+  (метки в верном порядке). Это список: перетащить или ↑/↓, потом Check — ввод не с клавиатуры, как у `stress` и `sort`;
   `caption` не показывается (для ИИ и озвучки);
+- «underline the stressed syllable» → `"type": "stress"`, `"text": "a|cross"`, `"stressed": [2]` (номер слога
+  с 1); слабые/сильные was/were во фразе → `"text": "It [was] great. [Was] it?"`, `"stressed": [2]` —
+  номера среди `[…]`, все слабые → `[]`. Ответ тапом;
+- разложить слова по колонкам («write the words in the chart»: звуки, -ed, ударение) → `"type": "sort"`:
+  `"columns": ["tie /t/", …]` у задания, у пункта `"word": "ask[ed]"` (`[..]` — розовые буквы, `|` — слоги)
+  и `"column": 1` (с 1). Ответ тапом по колонке;
 - listen and repeat / скажи вслух → `speak` (группы букв «A K E» — мягкая проверка букв);
 - говорение с партнёром, Communication, вопросы «about you» устно → `talk` (situation, goal, opener, criteria);
 - письмо своими словами (Writing, «write about…», ответы на вопросы о себе) → `write` (prompt, questions, criteria).

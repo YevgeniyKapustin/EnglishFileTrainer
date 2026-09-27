@@ -7,10 +7,13 @@ import dev.eftrainer.data.content.Order
 import dev.eftrainer.data.content.Reference
 import dev.eftrainer.data.content.Rewrite
 import dev.eftrainer.data.content.Section
+import dev.eftrainer.data.content.Sort
 import dev.eftrainer.data.content.Speak
+import dev.eftrainer.data.content.Stress
 import dev.eftrainer.data.content.Talk
 import dev.eftrainer.data.content.Task
 import dev.eftrainer.data.content.Write
+import dev.eftrainer.domain.check.plainWord
 
 object ExplainPrompt {
     private val SYSTEM =
@@ -122,6 +125,15 @@ object ExplainPrompt {
                 inputs.joinToString(" ")
             }
 
+            is Stress -> {
+                val chosen = inputs.mapNotNull { it.toIntOrNull() }.toSet()
+                exercise.parts.mapIndexed { i, p -> if (i in chosen) p.uppercase() else p }.joinToString("")
+            }
+
+            is Sort -> {
+                exercise.columns.getOrNull(inputs.singleOrNull()?.toIntOrNull() ?: -1).orEmpty()
+            }
+
             is Blank -> {
                 exercise.text.split("{}").let { parts ->
                     parts.mapIndexed { i, p -> if (i < inputs.size) p + inputs[i].trim() else p }.joinToString("")
@@ -149,6 +161,19 @@ object ExplainPrompt {
 
             is Order -> {
                 "put the pictures in order: " + pictures.joinToString("; ") { "${it.label} ${it.caption}" }
+            }
+
+            is Stress -> {
+                if (syllables) {
+                    "mark the stressed syllable: " + parts.joinToString("-")
+                } else {
+                    "say which of the words " + targets.joinToString(", ") { parts[it] } +
+                        " are stressed (strong form) in: " + parts.joinToString("")
+                }
+            }
+
+            is Sort -> {
+                "put the word '$plainWord' in the right column: " + columns.joinToString("; ")
             }
 
             is Write -> {

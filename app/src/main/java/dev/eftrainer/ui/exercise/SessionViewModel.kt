@@ -17,6 +17,7 @@ import dev.eftrainer.data.content.Write
 import dev.eftrainer.data.content.exercises
 import dev.eftrainer.domain.ai.AiChat
 import dev.eftrainer.domain.ai.ExplainPrompt
+import dev.eftrainer.domain.ai.PersonalQuestion
 import dev.eftrainer.domain.ai.RuleScope
 import dev.eftrainer.domain.ai.WritePrompt
 import dev.eftrainer.domain.ai.reply
@@ -76,6 +77,7 @@ sealed interface SessionUi {
         val explanation: Explanation? = null,
         val aiCheck: AiCheck? = null,
         val usedWords: Set<String> = emptySet(),
+        val answerBack: AnswerBack? = null,
     ) : SessionUi
 
     data class Done(
@@ -105,6 +107,8 @@ class SessionViewModel(
     val aiOn: StateFlow<Boolean> =
         container.aiOn
             .stateIn(viewModelScope, SharingStarted.Eagerly, false)
+
+    val answerBacks = AnswerBackChecks(_state, viewModelScope, container.aiClient)
 
     private var tally = SessionTally(emptyList())
     private var attempt = 0
@@ -252,7 +256,13 @@ class SessionViewModel(
                 }
         }
         run.save(tally)
-        _state.value = q.copy(done = tally.done, feedback = result, usedWords = tally.usedWords(q.task))
+        _state.value =
+            q.copy(
+                done = tally.done,
+                feedback = result,
+                usedWords = tally.usedWords(q.task),
+                answerBack = PersonalQuestion.questionIn(e)?.takeIf { correct && aiOn.value }?.let(::AnswerBack),
+            )
     }
 
     fun explain(question: String? = null) {

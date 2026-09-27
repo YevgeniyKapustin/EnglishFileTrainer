@@ -111,6 +111,7 @@ fun SessionScreen(
                     onNext = vm::next,
                     onSkip = vm::skip,
                     onExplain = vm::explain,
+                    onAnswerBack = vm.answerBacks::check,
                     onClose = onClose,
                 )
             }
@@ -182,6 +183,7 @@ private fun QuestionScreen(
     onNext: () -> Unit,
     onSkip: () -> Unit,
     onExplain: (question: String?) -> Unit,
+    onAnswerBack: (String) -> Unit,
     onClose: () -> Unit,
 ) {
     val e = q.exercise
@@ -236,6 +238,8 @@ private fun QuestionScreen(
                 onExplain = onExplain,
                 tts = tts,
                 sayId = "answer-${e.id}-${q.attempt}",
+                answerBack = q.answerBack,
+                onAnswerBack = onAnswerBack,
             )
         }
     }

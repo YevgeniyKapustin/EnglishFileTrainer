@@ -22,7 +22,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import dev.eftrainer.core.theme.AppTheme
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.data.settings.ThemeMode
-import dev.eftrainer.reminder.Reminders
+import dev.eftrainer.reminder.Notifier
 import dev.eftrainer.ui.AppNavigation
 
 class MainActivity : ComponentActivity() {
@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
         val theme = container.theme
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
             container.reminder.enabled.value &&
-            !Reminders.canPost(this)
+            !Notifier.canPost(this)
         ) {
             requestPermissions(arrayOf(Manifest.permission.POST_NOTIFICATIONS), 0)
         }

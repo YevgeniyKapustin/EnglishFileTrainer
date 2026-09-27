@@ -19,6 +19,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
@@ -29,9 +30,11 @@ import dev.eftrainer.core.theme.EF
 import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.ui.Icons
 import dev.eftrainer.core.ui.ListRow
-import dev.eftrainer.reminder.Reminders
+import dev.eftrainer.reminder.Notifier
 import java.time.LocalTime
 import java.time.format.DateTimeFormatter
+
+private const val DISABLED_ALPHA = .4f
 
 @Composable
 internal fun ReminderRows(
@@ -46,22 +49,24 @@ internal fun ReminderRows(
 
     fun toggle(value: Boolean) {
         onToggle(value)
-        if (value && Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU && !Reminders.canPost(context)) {
+        if (value && Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU && !Notifier.canPost(context)) {
             permission.launch(Manifest.permission.POST_NOTIFICATIONS)
         }
     }
 
-    ListRow(onClick = { toggle(!on) }, divider = on) {
+    ListRow(onClick = { toggle(!on) }, divider = true) {
         Tile(EF.Teal, Icons.Bell)
         Text(stringResource(R.string.reminder), style = T.row, modifier = Modifier.weight(1f))
         AppSwitch(on, ::toggle)
     }
-    if (on) {
-        ListRow(onClick = { picking = true }, divider = false) {
-            Text(stringResource(R.string.reminder_time), style = T.row, modifier = Modifier.weight(1f))
-            Text(time.format(DateTimeFormatter.ofPattern("HH:mm")), style = T.rowSub)
-            Icon(Icons.ChevronRight, null, Modifier.size(20.dp), tint = C.Chevron)
-        }
+    ListRow(
+        onClick = { picking = true }.takeIf { on },
+        divider = false,
+        modifier = Modifier.alpha(if (on) 1f else DISABLED_ALPHA),
+    ) {
+        Text(stringResource(R.string.reminder_time), style = T.row, modifier = Modifier.weight(1f))
+        Text(time.format(DateTimeFormatter.ofPattern("HH:mm")), style = T.rowSub)
+        Icon(Icons.ChevronRight, null, Modifier.size(20.dp), tint = C.Chevron)
     }
     if (picking) {
         TimeDialog(

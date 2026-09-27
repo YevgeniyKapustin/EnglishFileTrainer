@@ -102,6 +102,7 @@ private inline fun <reified T : Any> NavGraphBuilder.screen(
                 tween(SLIDE_MS, easing = EaseOutCubic),
             ) + slideInHorizontally(tween(SLIDE_MS, easing = EaseOutCubic), shift)
         },
+        popEnterTransition = { EnterTransition.None },
         popExitTransition = {
             fadeOut(tween(SLIDE_MS, easing = EaseOutCubic)) +
                 slideOutHorizontally(tween(SLIDE_MS, easing = EaseOutCubic), shift)

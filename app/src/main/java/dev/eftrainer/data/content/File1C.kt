@@ -1095,67 +1095,67 @@ val File1C = Chapter(
                 Task(
                     id = "1C-wb2a",
                     origin = Origin.WB,
-                    instruction = "Which sound do the bold letters have, 1 or 2? Write the number",
+                    instruction = "Which sound do the pink letters have? Put the words in the chart",
                     exercises = listOf(
-                        Blank(
+                        Sort(
                             "1C-wb2a-02",
-                            text = "fashion (io) → sound {}",
-                            gaps = listOf(listOf("1", "computer", "/ə/", "ə")),
-                            hint = "(1 computer /ə/ or 2 bird /ɜː/)",
+                            word = "fash[io]n",
+                            columns = listOf("1 computer /ə/", "2 bird /ɜː/"),
+                            answer = 0,
                         ),
-                        Blank(
+                        Sort(
                             "1C-wb2a-03",
-                            text = "sandals (a in -dals) → sound {}",
-                            gaps = listOf(listOf("1", "computer", "/ə/", "ə")),
-                            hint = "(1 computer /ə/ or 2 bird /ɜː/)",
+                            word = "sand[a]ls",
+                            columns = listOf("1 computer /ə/", "2 bird /ɜː/"),
+                            answer = 0,
                         ),
-                        Blank(
+                        Sort(
                             "1C-wb2a-04",
-                            text = "sweater (er) → sound {}",
-                            gaps = listOf(listOf("1", "computer", "/ə/", "ə")),
-                            hint = "(1 computer /ə/ or 2 bird /ɜː/)",
+                            word = "sweat[er]",
+                            columns = listOf("1 computer /ə/", "2 bird /ɜː/"),
+                            answer = 0,
                         ),
-                        Blank(
+                        Sort(
                             "1C-wb2a-05",
-                            text = "trainers (ers) → sound {}",
-                            gaps = listOf(listOf("1", "computer", "/ə/", "ə")),
-                            hint = "(1 computer /ə/ or 2 bird /ɜː/)",
+                            word = "train[ers]",
+                            columns = listOf("1 computer /ə/", "2 bird /ɜː/"),
+                            answer = 0,
                         ),
-                        Blank(
+                        Sort(
                             "1C-wb2a-06",
-                            text = "trousers (ers) → sound {}",
-                            gaps = listOf(listOf("1", "computer", "/ə/", "ə")),
-                            hint = "(1 computer /ə/ or 2 bird /ɜː/)",
+                            word = "trous[ers]",
+                            columns = listOf("1 computer /ə/", "2 bird /ɜː/"),
+                            answer = 0,
                         ),
-                        Blank(
+                        Sort(
                             "1C-wb2a-07",
-                            text = "shirt (ir) → sound {}",
-                            gaps = listOf(listOf("2", "bird", "/ɜː/", "ɜː", "/ɜ:/")),
-                            hint = "(1 computer /ə/ or 2 bird /ɜː/)",
+                            word = "sh[ir]t",
+                            columns = listOf("1 computer /ə/", "2 bird /ɜː/"),
+                            answer = 1,
                         ),
-                        Blank(
+                        Sort(
                             "1C-wb2a-08",
-                            text = "skirt (ir) → sound {}",
-                            gaps = listOf(listOf("2", "bird", "/ɜː/", "ɜː", "/ɜ:/")),
-                            hint = "(1 computer /ə/ or 2 bird /ɜː/)",
+                            word = "sk[ir]t",
+                            columns = listOf("1 computer /ə/", "2 bird /ɜː/"),
+                            answer = 1,
                         ),
-                        Blank(
+                        Sort(
                             "1C-wb2a-09",
-                            text = "third (ir) → sound {}",
-                            gaps = listOf(listOf("2", "bird", "/ɜː/", "ɜː", "/ɜ:/")),
-                            hint = "(1 computer /ə/ or 2 bird /ɜː/)",
+                            word = "th[ir]d",
+                            columns = listOf("1 computer /ə/", "2 bird /ɜː/"),
+                            answer = 1,
                         ),
-                        Blank(
+                        Sort(
                             "1C-wb2a-10",
-                            text = "T-shirt (ir) → sound {}",
-                            gaps = listOf(listOf("2", "bird", "/ɜː/", "ɜː", "/ɜ:/")),
-                            hint = "(1 computer /ə/ or 2 bird /ɜː/)",
+                            word = "T-sh[ir]t",
+                            columns = listOf("1 computer /ə/", "2 bird /ɜː/"),
+                            answer = 1,
                         ),
-                        Blank(
+                        Sort(
                             "1C-wb2a-11",
-                            text = "world (or) → sound {}",
-                            gaps = listOf(listOf("2", "bird", "/ɜː/", "ɜː", "/ɜ:/")),
-                            hint = "(1 computer /ə/ or 2 bird /ɜː/)",
+                            word = "w[or]ld",
+                            columns = listOf("1 computer /ə/", "2 bird /ɜː/"),
+                            answer = 1,
                         ),
                     ),
                 ),

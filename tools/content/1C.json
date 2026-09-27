@@ -1791,154 +1791,20 @@
         {
           "id": "1C-wb2a",
           "origin": "WB",
-          "instruction": "Which sound do the bold letters have, 1 or 2? Write the number",
-          "note": "WB 2a «Write the words in the chart» → Blank 1/2; cardigan и prefer — примеры",
+          "instruction": "Which sound do the pink letters have? Put the words in the chart",
+          "note": "WB 2a «Write the words in the chart» → Sort 1 computer / 2 bird; в книге буквы жирные; cardigan и prefer — примеры",
+          "columns": ["1 computer /ə/", "2 bird /ɜː/"],
           "exercises": [
-            {
-              "n": 2,
-              "type": "blank",
-              "text": "fashion (io) → sound {}",
-              "gaps": [
-                [
-                  "1",
-                  "computer",
-                  "/ə/",
-                  "ə"
-                ]
-              ],
-              "hint": "(1 computer /ə/ or 2 bird /ɜː/)"
-            },
-            {
-              "n": 3,
-              "type": "blank",
-              "text": "sandals (a in -dals) → sound {}",
-              "gaps": [
-                [
-                  "1",
-                  "computer",
-                  "/ə/",
-                  "ə"
-                ]
-              ],
-              "hint": "(1 computer /ə/ or 2 bird /ɜː/)"
-            },
-            {
-              "n": 4,
-              "type": "blank",
-              "text": "sweater (er) → sound {}",
-              "gaps": [
-                [
-                  "1",
-                  "computer",
-                  "/ə/",
-                  "ə"
-                ]
-              ],
-              "hint": "(1 computer /ə/ or 2 bird /ɜː/)"
-            },
-            {
-              "n": 5,
-              "type": "blank",
-              "text": "trainers (ers) → sound {}",
-              "gaps": [
-                [
-                  "1",
-                  "computer",
-                  "/ə/",
-                  "ə"
-                ]
-              ],
-              "hint": "(1 computer /ə/ or 2 bird /ɜː/)"
-            },
-            {
-              "n": 6,
-              "type": "blank",
-              "text": "trousers (ers) → sound {}",
-              "gaps": [
-                [
-                  "1",
-                  "computer",
-                  "/ə/",
-                  "ə"
-                ]
-              ],
-              "hint": "(1 computer /ə/ or 2 bird /ɜː/)"
-            },
-            {
-              "n": 7,
-              "type": "blank",
-              "text": "shirt (ir) → sound {}",
-              "gaps": [
-                [
-                  "2",
-                  "bird",
-                  "/ɜː/",
-                  "ɜː",
-                  "/ɜ:/"
-                ]
-              ],
-              "hint": "(1 computer /ə/ or 2 bird /ɜː/)"
-            },
-            {
-              "n": 8,
-              "type": "blank",
-              "text": "skirt (ir) → sound {}",
-              "gaps": [
-                [
-                  "2",
-                  "bird",
-                  "/ɜː/",
-                  "ɜː",
-                  "/ɜ:/"
-                ]
-              ],
-              "hint": "(1 computer /ə/ or 2 bird /ɜː/)"
-            },
-            {
-              "n": 9,
-              "type": "blank",
-              "text": "third (ir) → sound {}",
-              "gaps": [
-                [
-                  "2",
-                  "bird",
-                  "/ɜː/",
-                  "ɜː",
-                  "/ɜ:/"
-                ]
-              ],
-              "hint": "(1 computer /ə/ or 2 bird /ɜː/)"
-            },
-            {
-              "n": 10,
-              "type": "blank",
-              "text": "T-shirt (ir) → sound {}",
-              "gaps": [
-                [
-                  "2",
-                  "bird",
-                  "/ɜː/",
-                  "ɜː",
-                  "/ɜ:/"
-                ]
-              ],
-              "hint": "(1 computer /ə/ or 2 bird /ɜː/)"
-            },
-            {
-              "n": 11,
-              "type": "blank",
-              "text": "world (or) → sound {}",
-              "gaps": [
-                [
-                  "2",
-                  "bird",
-                  "/ɜː/",
-                  "ɜː",
-                  "/ɜ:/"
-                ]
-              ],
-              "hint": "(1 computer /ə/ or 2 bird /ɜː/)"
-            }
+            {"n": 2, "type": "sort", "word": "fash[io]n", "column": 1},
+            {"n": 3, "type": "sort", "word": "sand[a]ls", "column": 1},
+            {"n": 4, "type": "sort", "word": "sweat[er]", "column": 1},
+            {"n": 5, "type": "sort", "word": "train[ers]", "column": 1},
+            {"n": 6, "type": "sort", "word": "trous[ers]", "column": 1},
+            {"n": 7, "type": "sort", "word": "sh[ir]t", "column": 2},
+            {"n": 8, "type": "sort", "word": "sk[ir]t", "column": 2},
+            {"n": 9, "type": "sort", "word": "th[ir]d", "column": 2},
+            {"n": 10, "type": "sort", "word": "T-sh[ir]t", "column": 2},
+            {"n": 11, "type": "sort", "word": "w[or]ld", "column": 2}
           ]
         },
         {

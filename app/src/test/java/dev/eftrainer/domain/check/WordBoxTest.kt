@@ -39,4 +39,10 @@ class WordBoxTest {
     @Test fun `nothing is struck before any correct answer`() {
         assertEquals(emptySet<String>(), WordBox.used(task(listOf("a", "b"), gaps = 2), emptyList()))
     }
+
+    @Test fun `a word marked x2 counts for two gaps and is struck after both`() {
+        val t = task(listOf("on (x2)", "under"), gaps = 3)
+        assertEquals(setOf("under"), WordBox.used(t, listOf("On", "under")))
+        assertEquals(setOf("on (x2)", "under"), WordBox.used(t, listOf("On", "under", "on")))
+    }
 }

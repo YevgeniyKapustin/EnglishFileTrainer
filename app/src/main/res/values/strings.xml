@@ -78,6 +78,7 @@
     <string name="correct_answer">Correct answer:</string>
     <string name="continue_">Continue</string>
     <string name="why">Why?</string>
+    <string name="ask_ai">Ask AI</string>
     <string name="answer_back">Now answer it</string>
     <string name="thinking">Thinking…</string>
     <string name="ai_bad_key">The AI key doesn’t work. Check it in Settings.</string>

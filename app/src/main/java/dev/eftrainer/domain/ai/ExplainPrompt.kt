@@ -22,6 +22,16 @@ object ExplainPrompt {
         If the student asks a follow-up question, answer it the same way: short and simple.
         """.trimIndent()
 
+    private val CORRECT_SYSTEM =
+        """
+        You are a friendly English teacher. Your student uses the textbook English File Pre-Intermediate (4th edition).
+        The student answered this exercise correctly and has a question about it: why this form is right,
+        other ways to say it, or anything else about the exercise. Do not say the answer is wrong.
+        Use simple English (level A2-B1), 2-4 short sentences. Refer to the rules of the lesson given below.
+        Do not use grammar the student has not studied yet. No markdown, no lists, plain text only.
+        If the student asks a follow-up question, answer it the same way: short and simple.
+        """.trimIndent()
+
     private val SELECTION_SYSTEM =
         """
         You are a friendly English teacher. Your student uses the textbook English File Pre-Intermediate (4th edition).
@@ -41,6 +51,7 @@ object ExplainPrompt {
         answer: String,
         expected: String,
         rules: List<Section> = listOf(section),
+        correct: Boolean = false,
     ): List<Pair<String, String>> {
         val user =
             buildString {
@@ -57,8 +68,11 @@ object ExplainPrompt {
                 exercise.hint?.let { appendLine("Hint: $it") }
                 appendLine("Student's answer: $answer")
                 append("Correct answer: $expected")
+                if (correct) {
+                    append("\nThe student's answer is correct.")
+                }
             }
-        return listOf("system" to SYSTEM, "user" to user)
+        return listOf("system" to if (correct) CORRECT_SYSTEM else SYSTEM, "user" to user)
     }
 
     data class Context(

@@ -16,6 +16,7 @@ import dev.eftrainer.data.content.Talk
 import dev.eftrainer.data.content.Task
 import dev.eftrainer.data.content.Write
 import dev.eftrainer.data.content.exercises
+import dev.eftrainer.data.content.needsAi
 import dev.eftrainer.domain.ai.AiChat
 import dev.eftrainer.domain.ai.ExplainPrompt
 import dev.eftrainer.domain.ai.PersonalQuestion
@@ -271,22 +272,11 @@ class SessionViewModel(
         val q = _state.value as? SessionUi.Question ?: return
         val f = q.feedback ?: return
         val current = q.explanation
-        if (f.correct || current?.loading == true) return
+        if (q.exercise.needsAi || current?.loading == true) return
         val chat =
             when {
                 current == null -> {
-                    val loc = Chapters.locate(q.exercise.id)
-                    AiChat(
-                        ExplainPrompt.build(
-                            loc.chapter,
-                            loc.section,
-                            loc.task,
-                            q.exercise,
-                            f.answer,
-                            f.expected,
-                            RuleScope.forExercise(Chapters.all, loc.chapter, loc.section),
-                        ),
-                    ).start()
+                    openExplanation(q.exercise, f, question) ?: return
                 }
 
                 question != null -> {
@@ -369,3 +359,29 @@ private fun Exercise.mistakeText(): String =
         is Talk -> goal
         is Write -> prompt
     }
+
+private fun openExplanation(
+    exercise: Exercise,
+    f: Feedback,
+    question: String?,
+): Explanation? {
+    val loc = Chapters.locate(exercise.id)
+    val chat =
+        AiChat(
+            ExplainPrompt.build(
+                loc.chapter,
+                loc.section,
+                loc.task,
+                exercise,
+                f.answer,
+                f.expected,
+                RuleScope.forExercise(Chapters.all, loc.chapter, loc.section),
+                correct = f.correct,
+            ),
+        )
+    return when {
+        !f.correct -> chat.start()
+        question.isNullOrBlank() -> null
+        else -> chat.ask(question)
+    }
+}

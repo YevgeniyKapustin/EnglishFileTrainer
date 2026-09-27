@@ -15,7 +15,16 @@ data class AiChat(
     val error: AiException.Reason? = null,
 ) {
     val messages: List<Pair<String, String>>
-        get() = prompt + lines.map { (if (it.student) "user" else "assistant") to it.text }
+        get() =
+            (prompt + lines.map { (if (it.student) "user" else "assistant") to it.text })
+                .fold(emptyList()) { merged, message ->
+                    val last = merged.lastOrNull()
+                    if (last?.first == message.first) {
+                        merged.dropLast(1) + (last.first to last.second + "\n\n" + message.second)
+                    } else {
+                        merged + message
+                    }
+                }
 
     val answered: Boolean get() = lines.any { !it.student }
 

@@ -24,11 +24,14 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
@@ -108,8 +111,14 @@ fun ChatThread(
 }
 
 @Composable
-private fun FollowUpField(onAsk: (String) -> Unit) {
+fun FollowUpField(
+    onAsk: (String) -> Unit,
+    modifier: Modifier = Modifier,
+    autoFocus: Boolean = false,
+) {
     var text by rememberSaveable { mutableStateOf("") }
+    val focus = remember { FocusRequester() }
+    if (autoFocus) LaunchedEffect(focus) { focus.requestFocus() }
     val send = {
         if (text.isNotBlank()) {
             onAsk(text.trim())
@@ -118,7 +127,7 @@ private fun FollowUpField(onAsk: (String) -> Unit) {
     }
     val shape = RoundedCornerShape(14.dp)
     Row(
-        Modifier
+        modifier
             .fillMaxWidth()
             .clip(
                 shape,
@@ -134,7 +143,7 @@ private fun FollowUpField(onAsk: (String) -> Unit) {
             cursorBrush = SolidColor(C.Accent),
             keyboardOptions = KeyboardOptions(imeAction = ImeAction.Send),
             keyboardActions = KeyboardActions(onSend = { send() }),
-            modifier = Modifier.weight(1f).padding(vertical = 12.dp),
+            modifier = Modifier.weight(1f).focusRequester(focus).padding(vertical = 12.dp),
             decorationBox = { inner ->
                 if (text.isEmpty()) {
                     Text(

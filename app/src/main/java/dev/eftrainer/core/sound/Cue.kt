@@ -1,6 +1,5 @@
 package dev.eftrainer.core.sound
 
-import android.media.AudioManager
 import androidx.annotation.RawRes
 import dev.eftrainer.R
 
@@ -19,10 +18,5 @@ enum class Cue(
         fun forAnswer(correct: Boolean): Cue = if (correct) CORRECT else WRONG
 
         fun forFinish(chapterDone: Boolean): Cue = if (chapterDone) CHAPTER else DONE
-
-        fun audible(
-            enabled: Boolean,
-            ringerMode: Int,
-        ): Boolean = enabled && ringerMode == AudioManager.RINGER_MODE_NORMAL
     }
 }

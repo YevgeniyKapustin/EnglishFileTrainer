@@ -2,7 +2,6 @@ package dev.eftrainer.core.sound
 
 import android.content.Context
 import android.media.AudioAttributes
-import android.media.AudioManager
 import android.media.SoundPool
 import dev.eftrainer.data.settings.SoundSettings
 import java.util.concurrent.ConcurrentHashMap
@@ -12,7 +11,6 @@ class UiSounds(
     private val settings: SoundSettings,
 ) {
     private val appContext = context.applicationContext
-    private val audio = appContext.getSystemService(AudioManager::class.java)
     private var pool: SoundPool? = null
     private val sampleIds = mutableMapOf<Cue, Int>()
     private val loaded = ConcurrentHashMap.newKeySet<Int>()
@@ -38,7 +36,7 @@ class UiSounds(
         pool = created
     }
 
-    fun audible(): Boolean = Cue.audible(settings.enabled.value, audio?.ringerMode ?: AudioManager.RINGER_MODE_SILENT)
+    fun audible(): Boolean = settings.enabled.value
 
     fun play(cue: Cue): Boolean {
         val current = pool ?: return false

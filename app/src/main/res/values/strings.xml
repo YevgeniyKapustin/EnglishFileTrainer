@@ -48,6 +48,13 @@
         <item quantity="one">%1$d of %2$d chapters</item>
         <item quantity="other">%1$d of %2$d chapters</item>
     </plurals>
+    <string name="continue_chapter">Continue %1$s</string>
+    <string name="practice_chapter">Practice %1$s</string>
+    <plurals name="left_in_chapter">
+        <item quantity="one">%1$d exercise left in %2$s</item>
+        <item quantity="other">%1$d exercises left in %2$s</item>
+    </plurals>
+    <string name="practice_until_tomorrow">You went through %1$s today. Keep practising it until tomorrow</string>
     <string name="nothing_to_review">Nothing to review today</string>
     <string name="book_finished">You have finished the book</string>
     <string name="percent">%1$d%%</string>

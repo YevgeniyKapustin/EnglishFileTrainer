@@ -109,7 +109,18 @@ fun AllChaptersScreen(
                     row = row,
                     color = fileColor(file),
                     divider = i != rows.lastIndex,
-                    onClick = row.action(onCurrent = onBack, onLocked = { ask = it }, onCompleted = onChapter),
+                    onClick =
+                        row.action(
+                            onCurrent = {
+                                vm.choose(row.chapter.id)
+                                onBack()
+                            },
+                            onLocked = { ask = it },
+                            onCompleted = {
+                                vm.choose(it)
+                                onChapter(it)
+                            },
+                        ),
                 )
             }
             Spacer(Modifier.height(24.dp))

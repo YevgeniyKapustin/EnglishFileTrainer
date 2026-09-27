@@ -8,8 +8,10 @@ import dev.eftrainer.data.content.Chapters
 import dev.eftrainer.data.content.Section
 import dev.eftrainer.data.content.exercises
 import dev.eftrainer.domain.learning.ChapterCompletion
+import dev.eftrainer.domain.learning.DayFlow
+import dev.eftrainer.domain.learning.DayInputs
+import dev.eftrainer.domain.learning.DayStep
 import dev.eftrainer.domain.learning.Mastery
-import dev.eftrainer.domain.learning.ReviewInputs
 import dev.eftrainer.domain.learning.Stats
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.SharingStarted
@@ -35,6 +37,8 @@ data class CurrentUi(
     val reviewDue: Int,
     val past: Boolean,
     val streak: Int,
+    val step: DayStep,
+    val left: Int,
 )
 
 class CurrentChapterViewModel(
@@ -42,25 +46,28 @@ class CurrentChapterViewModel(
     private val chapterId: String? = null,
 ) : ViewModel() {
     val state: StateFlow<CurrentUi?> =
-        combine(container.review.inputs, container.answers.days, ::build)
+        combine(container.day.inputs, container.answers.days, ::build)
             .flowOn(Dispatchers.Default)
             .stateIn(viewModelScope, SharingStarted.WhileSubscribed(KEEP_ALIVE_MS), cached())
 
     private fun cached(): CurrentUi? {
-        val inputs = container.review.latest ?: return null
+        val inputs = container.day.latest ?: return null
         val days = container.answers.latestDays ?: return null
         return build(inputs, days)
     }
 
     private fun build(
-        inputs: ReviewInputs,
+        day: DayInputs,
         days: Set<LocalDate>,
     ): CurrentUi {
+        val inputs = day.review
         val progress = inputs.progress
         val chapter =
             chapterId?.let { id -> Chapters.all.first { it.id == id } }
                 ?: ChapterCompletion.current(Chapters.all, inputs.completed)
-        val plan = container.review.plan(inputs)
+        val dayPlan = container.day.plan(day)
+        val plan = dayPlan.review
+        val step = dayPlan.step
         val open = chapter?.let { ChapterCompletion.openSections(it) }.orEmpty()
         val rows =
             chapter?.sections.orEmpty().mapIndexed { i, s ->
@@ -80,6 +87,8 @@ class CurrentChapterViewModel(
             reviewDue = plan.due.size,
             past = chapterId != null,
             streak = Stats.streak(days, container.clock.today()).current,
+            step = step,
+            left = (step as? DayStep.Continue)?.let { DayFlow.left(it.chapter, progress) } ?: 0,
         )
     }
 

@@ -21,9 +21,10 @@ import dev.eftrainer.domain.ai.WritePrompt
 import dev.eftrainer.domain.ai.reply
 import dev.eftrainer.domain.check.Checker
 import dev.eftrainer.domain.learning.ChapterCompletion
+import dev.eftrainer.domain.learning.DayInputs
+import dev.eftrainer.domain.learning.DayStep
 import dev.eftrainer.domain.learning.GenerationPlan
 import dev.eftrainer.domain.learning.Mastery
-import dev.eftrainer.domain.learning.ReviewInputs
 import dev.eftrainer.domain.learning.Stats
 import dev.eftrainer.domain.learning.TrainingQueue
 import dev.eftrainer.ui.toPercent
@@ -111,30 +112,33 @@ class SessionViewModel(
     private var chapter: Chapter? = null
     private var before = 0
     private var arrivals = 0
+    private var reviewing = false
 
     init {
-        val cached = container.review.latest
+        val cached = container.day.latest
         if (cached != null) {
             start(cached)
         } else {
-            viewModelScope.launch { start(container.review.inputs.first()) }
+            viewModelScope.launch { start(container.day.inputs.first()) }
         }
     }
 
-    private fun start(inputs: ReviewInputs) {
-        val progress = inputs.progress
-        val ai = inputs.ai
-        if (sectionId == null) acceptFresh()
+    private fun start(inputs: DayInputs) {
+        val progress = inputs.review.progress
+        val ai = inputs.review.ai
+        val day = if (sectionId == null) container.day.plan(inputs) else null
+        reviewing = day?.step == DayStep.Review
+        if (reviewing) acceptFresh()
         if (ai) container.generation.refillInBackground()
         val exercises =
             when {
-                sectionId == null -> container.review.plan(inputs).all
+                sectionId == null -> day?.exercises.orEmpty()
                 again -> TrainingQueue.again(Chapters.section(sectionId), ai)
                 else -> TrainingQueue.firstPass(Chapters.section(sectionId), progress, ai)
             }
         chapter =
             if (sectionId == null) {
-                ChapterCompletion.current(Chapters.all, inputs.completed)
+                day?.step?.chapter ?: ChapterCompletion.current(Chapters.all, inputs.review.completed)
             } else {
                 Chapters.chapterOfSection(sectionId)
             }
@@ -304,6 +308,7 @@ class SessionViewModel(
     private fun finish() {
         viewModelScope.launch {
             writes.joinAll()
+            if (reviewing) container.day.reviewFinished()
             val done = completedChapter
             if (done != null) {
                 val next = ChapterCompletion.current(Chapters.all, container.chapters.getCompleted())

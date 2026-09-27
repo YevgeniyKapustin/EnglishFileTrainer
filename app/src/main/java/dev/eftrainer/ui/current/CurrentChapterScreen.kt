@@ -97,25 +97,6 @@ fun CurrentChapterScreen(
 }
 
 @Composable
-private fun ReviewBar(
-    state: CurrentUi,
-    onReview: () -> Unit,
-) {
-    BottomBar {
-        Text(
-            reviewLine(state),
-            style = T.label.copy(fontSize = 15.sp, textAlign = TextAlign.Center),
-            modifier = Modifier.fillMaxWidth().padding(bottom = 10.dp),
-        )
-        PrimaryButton(
-            stringResource(R.string.review),
-            onClick = onReview,
-            enabled = state.reviewCurrent + state.reviewDue > 0,
-        )
-    }
-}
-
-@Composable
 private fun currentChapterViewModel(chapterId: String?): CurrentChapterViewModel =
     appContainer().let { container ->
         viewModel(key = "chapter-$chapterId") { CurrentChapterViewModel(container, chapterId) }
@@ -340,34 +321,5 @@ private fun StreakChip(
             streak.toString(),
             style = T.label.copy(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = BandInk),
         )
-    }
-}
-
-@Composable
-private fun reviewLine(state: CurrentUi): String {
-    val sections = state.reviewSections.joinToString(" and ")
-    return when {
-        state.reviewCurrent > 0 && state.reviewDue > 0 -> {
-            pluralStringResource(R.plurals.exercises_from, state.reviewCurrent, state.reviewCurrent, sections) +
-                " " +
-                pluralStringResource(R.plurals.and_from_earlier, state.reviewDue, state.reviewDue)
-        }
-
-        state.reviewCurrent > 0 -> {
-            pluralStringResource(
-                R.plurals.exercises_from,
-                state.reviewCurrent,
-                state.reviewCurrent,
-                sections,
-            )
-        }
-
-        state.reviewDue > 0 -> {
-            pluralStringResource(R.plurals.exercises_from_earlier, state.reviewDue, state.reviewDue)
-        }
-
-        else -> {
-            stringResource(R.string.nothing_to_review)
-        }
     }
 }

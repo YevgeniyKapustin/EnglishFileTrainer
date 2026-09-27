@@ -14,10 +14,12 @@ import dev.eftrainer.data.ai.aiAvailable
 import dev.eftrainer.data.content.Chapters
 import dev.eftrainer.data.db.AppDatabase
 import dev.eftrainer.data.generated.GeneratedRepository
+import dev.eftrainer.data.settings.DaySettings
 import dev.eftrainer.data.settings.ReminderSettings
 import dev.eftrainer.data.settings.ThemeSettings
 import dev.eftrainer.data.settings.VoiceSettings
 import dev.eftrainer.domain.learning.ChapterCompletion
+import dev.eftrainer.domain.learning.DaySource
 import dev.eftrainer.domain.learning.Generation
 import dev.eftrainer.domain.learning.Learning
 import dev.eftrainer.domain.learning.Nudge
@@ -47,6 +49,7 @@ class AppContainer(
     val generation = Generation(generated, progress, chapters, aiClient)
     val aiOn = aiAvailable(ai, connectivity)
     val review = ReviewSource(chapters, progress, generated, aiOn, clock, cacheScope)
+    val day = DaySource(review, Chapters.all, answers, DaySettings(context), clock, cacheScope)
     val theme = ThemeSettings(context)
     val voice = VoiceSettings(context)
     val reminder = ReminderSettings(context)

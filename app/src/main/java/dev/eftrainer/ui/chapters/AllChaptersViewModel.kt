@@ -36,6 +36,7 @@ class AllChaptersViewModel(
         )
 
     private val chapters = container.chapters
+    private val day = container.day
     private val clock = container.clock
 
     private fun build(
@@ -65,9 +66,12 @@ class AllChaptersViewModel(
                 .takeWhile { it.id != chapterId }
                 .filter { it.id !in completed }
                 .forEach { chapters.markCompleted(it.id, today) }
+            day.choose(chapterId)
             then()
         }
     }
+
+    fun choose(chapterId: String) = day.choose(chapterId)
 
     private companion object {
         const val KEEP_ALIVE_MS = 5_000L

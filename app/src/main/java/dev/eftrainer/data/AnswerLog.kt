@@ -25,6 +25,12 @@ class AnswerLog(
 
     val latestDays: Set<LocalDate>? get() = days.replayCache.lastOrNull()
 
+    val firstAnswered: SharedFlow<Map<String, LocalDate>> =
+        dao
+            .observeFirstAnswers()
+            .map { list -> list.associate { it.exerciseId to it.day } }
+            .shareIn(scope, SharingStarted.Eagerly, replay = 1)
+
     suspend fun add(
         exerciseId: String,
         at: LocalDateTime,

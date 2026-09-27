@@ -3,79 +3,1436 @@
     xmlns:aapt="http://schemas.android.com/aapt">
     <aapt:attr name="android:drawable">
         <vector android:width="288dp" android:height="288dp" android:viewportWidth="108" android:viewportHeight="108">
-            <clip-path android:pathData="M54,18 A36,36 0 1 1 54,90 A36,36 0 1 1 54,18 Z" />
-            <group android:name="w0" android:pivotX="14.0" android:pivotY="100.0" android:rotation="76">
-                <path android:fillColor="#0077C8" android:pathData="M14.0,100.0 L6.5,28.4 A72.0,72.0 0 0 1 31.4,30.1 Z" />
-            </group>
-            <group android:name="w1" android:pivotX="14.0" android:pivotY="100.0" android:rotation="60">
-                <path android:fillColor="#A8DCF5" android:pathData="M14.0,100.0 L25.5,35.0 A66.0,66.0 0 0 1 47.0,42.8 Z" />
-            </group>
-            <group android:name="w2" android:pivotX="14.0" android:pivotY="100.0" android:rotation="48">
-                <path android:fillColor="#00A6E2" android:pathData="M14.0,100.0 L44.9,30.6 A76.0,76.0 0 0 1 64.9,43.5 Z" />
-            </group>
-            <group android:name="w3" android:pivotX="14.0" android:pivotY="100.0" android:rotation="32">
-                <path android:fillColor="#0A7DC6" android:pathData="M14.0,100.0 L62.2,33.7 A82.0,82.0 0 0 1 83.5,56.5 Z" />
-            </group>
-            <group android:name="w4" android:pivotX="14.0" android:pivotY="100.0" android:rotation="18">
-                <path android:fillColor="#005C8F" android:pathData="M14.0,100.0 L76.3,56.4 A76.0,76.0 0 0 1 86.3,76.5 Z" />
-            </group>
-            <group android:name="w5" android:pivotX="14.0" android:pivotY="100.0" android:rotation="0">
-                <path android:fillColor="#0A6B86" android:pathData="M14.0,100.0 L91.9,68.5 A84.0,84.0 0 0 1 98.0,100.0 Z" />
-            </group>
-            <group android:name="w6" android:pivotX="14.0" android:pivotY="100.0" android:rotation="56">
-                <path android:fillColor="#003D66" android:fillAlpha="0.35" android:pathData="M14.0,100.0 L28.3,50.0 A52.0,52.0 0 0 1 43.1,56.9 Z" />
-            </group>
-            <group android:name="w7" android:pivotX="14.0" android:pivotY="100.0" android:rotation="8">
-                <path android:fillColor="#002B4D" android:fillAlpha="0.35" android:pathData="M14.0,100.0 L67.0,71.8 A60.0,60.0 0 0 1 73.4,91.6 Z" />
+            <group android:pivotX="51.8" android:pivotY="64.69" android:scaleX="0.5134" android:scaleY="0.5134" android:translateX="2.2" android:translateY="-10.69">
+                <group android:name="g0" android:pivotX="14.0" android:pivotY="100.0" android:rotation="76" android:scaleX="0.3" android:scaleY="0.3">
+                    <path android:name="b0_0" android:fillAlpha="0" android:pathData="M-0.4,29.39 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="6.6" android:centerY="29.39" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#420077C8" />
+                                <item android:offset="0.3" android:color="#350077C8" />
+                                <item android:offset="0.6" android:color="#1B0077C8" />
+                                <item android:offset="0.85" android:color="#080077C8" />
+                                <item android:offset="1" android:color="#000077C8" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b0_1" android:fillAlpha="0" android:pathData="M-5.4,29.39 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="6.6" android:centerY="29.39" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#210077C8" />
+                                <item android:offset="0.3" android:color="#1B0077C8" />
+                                <item android:offset="0.6" android:color="#0D0077C8" />
+                                <item android:offset="0.85" android:color="#040077C8" />
+                                <item android:offset="1" android:color="#000077C8" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b0_2" android:fillAlpha="0" android:pathData="M5.77,29.01 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="12.77" android:centerY="29.01" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#420077C8" />
+                                <item android:offset="0.3" android:color="#350077C8" />
+                                <item android:offset="0.6" android:color="#1B0077C8" />
+                                <item android:offset="0.85" android:color="#080077C8" />
+                                <item android:offset="1" android:color="#000077C8" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b0_3" android:fillAlpha="0" android:pathData="M0.77,29.01 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="12.77" android:centerY="29.01" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#210077C8" />
+                                <item android:offset="0.3" android:color="#1B0077C8" />
+                                <item android:offset="0.6" android:color="#0D0077C8" />
+                                <item android:offset="0.85" android:color="#040077C8" />
+                                <item android:offset="1" android:color="#000077C8" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b0_4" android:fillAlpha="0" android:pathData="M11.95,29.17 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="18.95" android:centerY="29.17" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#420077C8" />
+                                <item android:offset="0.3" android:color="#350077C8" />
+                                <item android:offset="0.6" android:color="#1B0077C8" />
+                                <item android:offset="0.85" android:color="#080077C8" />
+                                <item android:offset="1" android:color="#000077C8" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b0_5" android:fillAlpha="0" android:pathData="M6.95,29.17 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="18.95" android:centerY="29.17" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#210077C8" />
+                                <item android:offset="0.3" android:color="#1B0077C8" />
+                                <item android:offset="0.6" android:color="#0D0077C8" />
+                                <item android:offset="0.85" android:color="#040077C8" />
+                                <item android:offset="1" android:color="#000077C8" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b0_6" android:fillAlpha="0" android:pathData="M18.09,29.87 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="25.09" android:centerY="29.87" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#420077C8" />
+                                <item android:offset="0.3" android:color="#350077C8" />
+                                <item android:offset="0.6" android:color="#1B0077C8" />
+                                <item android:offset="0.85" android:color="#080077C8" />
+                                <item android:offset="1" android:color="#000077C8" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b0_7" android:fillAlpha="0" android:pathData="M13.09,29.87 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="25.09" android:centerY="29.87" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#210077C8" />
+                                <item android:offset="0.3" android:color="#1B0077C8" />
+                                <item android:offset="0.6" android:color="#0D0077C8" />
+                                <item android:offset="0.85" android:color="#040077C8" />
+                                <item android:offset="1" android:color="#000077C8" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b0_8" android:fillAlpha="0" android:pathData="M24.15,31.1 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="31.15" android:centerY="31.1" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#420077C8" />
+                                <item android:offset="0.3" android:color="#350077C8" />
+                                <item android:offset="0.6" android:color="#1B0077C8" />
+                                <item android:offset="0.85" android:color="#080077C8" />
+                                <item android:offset="1" android:color="#000077C8" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b0_9" android:fillAlpha="0" android:pathData="M19.15,31.1 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="31.15" android:centerY="31.1" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#210077C8" />
+                                <item android:offset="0.3" android:color="#1B0077C8" />
+                                <item android:offset="0.6" android:color="#0D0077C8" />
+                                <item android:offset="0.85" android:color="#040077C8" />
+                                <item android:offset="1" android:color="#000077C8" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b0_10" android:fillAlpha="0" android:pathData="M4.37,74.94 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="11.37" android:centerY="74.94" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#420077C8" />
+                                <item android:offset="0.3" android:color="#350077C8" />
+                                <item android:offset="0.6" android:color="#1B0077C8" />
+                                <item android:offset="0.85" android:color="#080077C8" />
+                                <item android:offset="1" android:color="#000077C8" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b0_11" android:fillAlpha="0" android:pathData="M-0.63,74.94 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="11.37" android:centerY="74.94" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#210077C8" />
+                                <item android:offset="0.3" android:color="#1B0077C8" />
+                                <item android:offset="0.6" android:color="#0D0077C8" />
+                                <item android:offset="0.85" android:color="#040077C8" />
+                                <item android:offset="1" android:color="#000077C8" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b0_12" android:fillAlpha="0" android:pathData="M2.12,53.45 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="9.12" android:centerY="53.45" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#420077C8" />
+                                <item android:offset="0.3" android:color="#350077C8" />
+                                <item android:offset="0.6" android:color="#1B0077C8" />
+                                <item android:offset="0.85" android:color="#080077C8" />
+                                <item android:offset="1" android:color="#000077C8" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b0_13" android:fillAlpha="0" android:pathData="M-2.88,53.45 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="9.12" android:centerY="53.45" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#210077C8" />
+                                <item android:offset="0.3" android:color="#1B0077C8" />
+                                <item android:offset="0.6" android:color="#0D0077C8" />
+                                <item android:offset="0.85" android:color="#040077C8" />
+                                <item android:offset="1" android:color="#000077C8" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                </group>
+                <group android:name="g1" android:pivotX="14.0" android:pivotY="100.0" android:rotation="60" android:scaleX="0.3" android:scaleY="0.3">
+                    <path android:name="b1_0" android:fillAlpha="0" android:pathData="M18.32,35.99 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="25.32" android:centerY="35.99" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#42A8DCF5" />
+                                <item android:offset="0.3" android:color="#35A8DCF5" />
+                                <item android:offset="0.6" android:color="#1BA8DCF5" />
+                                <item android:offset="0.85" android:color="#08A8DCF5" />
+                                <item android:offset="1" android:color="#00A8DCF5" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b1_1" android:fillAlpha="0" android:pathData="M13.32,35.99 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="25.32" android:centerY="35.99" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#21A8DCF5" />
+                                <item android:offset="0.3" android:color="#1BA8DCF5" />
+                                <item android:offset="0.6" android:color="#0DA8DCF5" />
+                                <item android:offset="0.85" android:color="#04A8DCF5" />
+                                <item android:offset="1" android:color="#00A8DCF5" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b1_2" android:fillAlpha="0" android:pathData="M23.85,37.22 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="30.85" android:centerY="37.22" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#42A8DCF5" />
+                                <item android:offset="0.3" android:color="#35A8DCF5" />
+                                <item android:offset="0.6" android:color="#1BA8DCF5" />
+                                <item android:offset="0.85" android:color="#08A8DCF5" />
+                                <item android:offset="1" android:color="#00A8DCF5" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b1_3" android:fillAlpha="0" android:pathData="M18.85,37.22 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="30.85" android:centerY="37.22" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#21A8DCF5" />
+                                <item android:offset="0.3" android:color="#1BA8DCF5" />
+                                <item android:offset="0.6" android:color="#0DA8DCF5" />
+                                <item android:offset="0.85" android:color="#04A8DCF5" />
+                                <item android:offset="1" android:color="#00A8DCF5" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b1_4" android:fillAlpha="0" android:pathData="M29.24,38.92 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="36.24" android:centerY="38.92" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#42A8DCF5" />
+                                <item android:offset="0.3" android:color="#35A8DCF5" />
+                                <item android:offset="0.6" android:color="#1BA8DCF5" />
+                                <item android:offset="0.85" android:color="#08A8DCF5" />
+                                <item android:offset="1" android:color="#00A8DCF5" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b1_5" android:fillAlpha="0" android:pathData="M24.24,38.92 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="36.24" android:centerY="38.92" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#21A8DCF5" />
+                                <item android:offset="0.3" android:color="#1BA8DCF5" />
+                                <item android:offset="0.6" android:color="#0DA8DCF5" />
+                                <item android:offset="0.85" android:color="#04A8DCF5" />
+                                <item android:offset="1" android:color="#00A8DCF5" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b1_6" android:fillAlpha="0" android:pathData="M34.46,41.09 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="41.46" android:centerY="41.09" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#42A8DCF5" />
+                                <item android:offset="0.3" android:color="#35A8DCF5" />
+                                <item android:offset="0.6" android:color="#1BA8DCF5" />
+                                <item android:offset="0.85" android:color="#08A8DCF5" />
+                                <item android:offset="1" android:color="#00A8DCF5" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b1_7" android:fillAlpha="0" android:pathData="M29.46,41.09 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="41.46" android:centerY="41.09" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#21A8DCF5" />
+                                <item android:offset="0.3" android:color="#1BA8DCF5" />
+                                <item android:offset="0.6" android:color="#0DA8DCF5" />
+                                <item android:offset="0.85" android:color="#04A8DCF5" />
+                                <item android:offset="1" android:color="#00A8DCF5" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b1_8" android:fillAlpha="0" android:pathData="M39.48,43.7 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="46.48" android:centerY="43.7" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#42A8DCF5" />
+                                <item android:offset="0.3" android:color="#35A8DCF5" />
+                                <item android:offset="0.6" android:color="#1BA8DCF5" />
+                                <item android:offset="0.85" android:color="#08A8DCF5" />
+                                <item android:offset="1" android:color="#00A8DCF5" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b1_9" android:fillAlpha="0" android:pathData="M34.48,43.7 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="46.48" android:centerY="43.7" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#21A8DCF5" />
+                                <item android:offset="0.3" android:color="#1BA8DCF5" />
+                                <item android:offset="0.6" android:color="#0DA8DCF5" />
+                                <item android:offset="0.85" android:color="#04A8DCF5" />
+                                <item android:offset="1" android:color="#00A8DCF5" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                </group>
+                <group android:name="g2" android:pivotX="14.0" android:pivotY="100.0" android:rotation="48" android:scaleX="0.3" android:scaleY="0.3">
+                    <path android:name="b2_0" android:fillAlpha="0" android:pathData="M37.51,31.48 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="44.51" android:centerY="31.48" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#4200A6E2" />
+                                <item android:offset="0.3" android:color="#3500A6E2" />
+                                <item android:offset="0.6" android:color="#1B00A6E2" />
+                                <item android:offset="0.85" android:color="#0800A6E2" />
+                                <item android:offset="1" android:color="#0000A6E2" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b2_1" android:fillAlpha="0" android:pathData="M32.51,31.48 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="44.51" android:centerY="31.48" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#2100A6E2" />
+                                <item android:offset="0.3" android:color="#1B00A6E2" />
+                                <item android:offset="0.6" android:color="#0D00A6E2" />
+                                <item android:offset="0.85" android:color="#0400A6E2" />
+                                <item android:offset="1" android:color="#0000A6E2" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b2_2" android:fillAlpha="0" android:pathData="M42.79,34.09 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="49.79" android:centerY="34.09" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#4200A6E2" />
+                                <item android:offset="0.3" android:color="#3500A6E2" />
+                                <item android:offset="0.6" android:color="#1B00A6E2" />
+                                <item android:offset="0.85" android:color="#0800A6E2" />
+                                <item android:offset="1" android:color="#0000A6E2" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b2_3" android:fillAlpha="0" android:pathData="M37.79,34.09 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="49.79" android:centerY="34.09" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#2100A6E2" />
+                                <item android:offset="0.3" android:color="#1B00A6E2" />
+                                <item android:offset="0.6" android:color="#0D00A6E2" />
+                                <item android:offset="0.85" android:color="#0400A6E2" />
+                                <item android:offset="1" android:color="#0000A6E2" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b2_4" android:fillAlpha="0" android:pathData="M47.86,37.11 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="54.86" android:centerY="37.11" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#4200A6E2" />
+                                <item android:offset="0.3" android:color="#3500A6E2" />
+                                <item android:offset="0.6" android:color="#1B00A6E2" />
+                                <item android:offset="0.85" android:color="#0800A6E2" />
+                                <item android:offset="1" android:color="#0000A6E2" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b2_5" android:fillAlpha="0" android:pathData="M42.86,37.11 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="54.86" android:centerY="37.11" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#2100A6E2" />
+                                <item android:offset="0.3" android:color="#1B00A6E2" />
+                                <item android:offset="0.6" android:color="#0D00A6E2" />
+                                <item android:offset="0.85" android:color="#0400A6E2" />
+                                <item android:offset="1" android:color="#0000A6E2" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b2_6" android:fillAlpha="0" android:pathData="M52.67,40.51 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="59.67" android:centerY="40.51" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#4200A6E2" />
+                                <item android:offset="0.3" android:color="#3500A6E2" />
+                                <item android:offset="0.6" android:color="#1B00A6E2" />
+                                <item android:offset="0.85" android:color="#0800A6E2" />
+                                <item android:offset="1" android:color="#0000A6E2" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b2_7" android:fillAlpha="0" android:pathData="M47.67,40.51 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="59.67" android:centerY="40.51" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#2100A6E2" />
+                                <item android:offset="0.3" android:color="#1B00A6E2" />
+                                <item android:offset="0.6" android:color="#0D00A6E2" />
+                                <item android:offset="0.85" android:color="#0400A6E2" />
+                                <item android:offset="1" android:color="#0000A6E2" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b2_8" android:fillAlpha="0" android:pathData="M57.2,44.28 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="64.2" android:centerY="44.28" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#4200A6E2" />
+                                <item android:offset="0.3" android:color="#3500A6E2" />
+                                <item android:offset="0.6" android:color="#1B00A6E2" />
+                                <item android:offset="0.85" android:color="#0800A6E2" />
+                                <item android:offset="1" android:color="#0000A6E2" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b2_9" android:fillAlpha="0" android:pathData="M52.2,44.28 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="64.2" android:centerY="44.28" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#2100A6E2" />
+                                <item android:offset="0.3" android:color="#1B00A6E2" />
+                                <item android:offset="0.6" android:color="#0D00A6E2" />
+                                <item android:offset="0.85" android:color="#0400A6E2" />
+                                <item android:offset="1" android:color="#0000A6E2" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                </group>
+                <group android:name="g3" android:pivotX="14.0" android:pivotY="100.0" android:rotation="32" android:scaleX="0.3" android:scaleY="0.3">
+                    <path android:name="b3_0" android:fillAlpha="0" android:pathData="M54.63,34.48 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="61.63" android:centerY="34.48" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#420A7DC6" />
+                                <item android:offset="0.3" android:color="#350A7DC6" />
+                                <item android:offset="0.6" android:color="#1B0A7DC6" />
+                                <item android:offset="0.85" android:color="#080A7DC6" />
+                                <item android:offset="1" android:color="#000A7DC6" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b3_1" android:fillAlpha="0" android:pathData="M49.63,34.48 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="61.63" android:centerY="34.48" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#210A7DC6" />
+                                <item android:offset="0.3" android:color="#1B0A7DC6" />
+                                <item android:offset="0.6" android:color="#0D0A7DC6" />
+                                <item android:offset="0.85" android:color="#040A7DC6" />
+                                <item android:offset="1" android:color="#000A7DC6" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b3_2" android:fillAlpha="0" android:pathData="M59.5,38.32 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="66.5" android:centerY="38.32" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#420A7DC6" />
+                                <item android:offset="0.3" android:color="#350A7DC6" />
+                                <item android:offset="0.6" android:color="#1B0A7DC6" />
+                                <item android:offset="0.85" android:color="#080A7DC6" />
+                                <item android:offset="1" android:color="#000A7DC6" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b3_3" android:fillAlpha="0" android:pathData="M54.5,38.32 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="66.5" android:centerY="38.32" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#210A7DC6" />
+                                <item android:offset="0.3" android:color="#1B0A7DC6" />
+                                <item android:offset="0.6" android:color="#0D0A7DC6" />
+                                <item android:offset="0.85" android:color="#040A7DC6" />
+                                <item android:offset="1" android:color="#000A7DC6" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b3_4" android:fillAlpha="0" android:pathData="M64.07,42.52 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="71.07" android:centerY="42.52" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#420A7DC6" />
+                                <item android:offset="0.3" android:color="#350A7DC6" />
+                                <item android:offset="0.6" android:color="#1B0A7DC6" />
+                                <item android:offset="0.85" android:color="#080A7DC6" />
+                                <item android:offset="1" android:color="#000A7DC6" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b3_5" android:fillAlpha="0" android:pathData="M59.07,42.52 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="71.07" android:centerY="42.52" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#210A7DC6" />
+                                <item android:offset="0.3" android:color="#1B0A7DC6" />
+                                <item android:offset="0.6" android:color="#0D0A7DC6" />
+                                <item android:offset="0.85" android:color="#040A7DC6" />
+                                <item android:offset="1" android:color="#000A7DC6" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b3_6" android:fillAlpha="0" android:pathData="M68.3,47.05 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="75.3" android:centerY="47.05" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#420A7DC6" />
+                                <item android:offset="0.3" android:color="#350A7DC6" />
+                                <item android:offset="0.6" android:color="#1B0A7DC6" />
+                                <item android:offset="0.85" android:color="#080A7DC6" />
+                                <item android:offset="1" android:color="#000A7DC6" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b3_7" android:fillAlpha="0" android:pathData="M63.3,47.05 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="75.3" android:centerY="47.05" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#210A7DC6" />
+                                <item android:offset="0.3" android:color="#1B0A7DC6" />
+                                <item android:offset="0.6" android:color="#0D0A7DC6" />
+                                <item android:offset="0.85" android:color="#040A7DC6" />
+                                <item android:offset="1" android:color="#000A7DC6" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b3_8" android:fillAlpha="0" android:pathData="M72.17,51.9 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="79.17" android:centerY="51.9" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#420A7DC6" />
+                                <item android:offset="0.3" android:color="#350A7DC6" />
+                                <item android:offset="0.6" android:color="#1B0A7DC6" />
+                                <item android:offset="0.85" android:color="#080A7DC6" />
+                                <item android:offset="1" android:color="#000A7DC6" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b3_9" android:fillAlpha="0" android:pathData="M67.17,51.9 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="79.17" android:centerY="51.9" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#210A7DC6" />
+                                <item android:offset="0.3" android:color="#1B0A7DC6" />
+                                <item android:offset="0.6" android:color="#0D0A7DC6" />
+                                <item android:offset="0.85" android:color="#040A7DC6" />
+                                <item android:offset="1" android:color="#000A7DC6" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b3_10" android:fillAlpha="0" android:pathData="M75.66,57.03 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="82.66" android:centerY="57.03" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#420A7DC6" />
+                                <item android:offset="0.3" android:color="#350A7DC6" />
+                                <item android:offset="0.6" android:color="#1B0A7DC6" />
+                                <item android:offset="0.85" android:color="#080A7DC6" />
+                                <item android:offset="1" android:color="#000A7DC6" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b3_11" android:fillAlpha="0" android:pathData="M70.66,57.03 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="82.66" android:centerY="57.03" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#210A7DC6" />
+                                <item android:offset="0.3" android:color="#1B0A7DC6" />
+                                <item android:offset="0.6" android:color="#0D0A7DC6" />
+                                <item android:offset="0.85" android:color="#040A7DC6" />
+                                <item android:offset="1" android:color="#000A7DC6" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                </group>
+                <group android:name="g4" android:pivotX="14.0" android:pivotY="100.0" android:rotation="18" android:scaleX="0.3" android:scaleY="0.3">
+                    <path android:name="b4_0" android:fillAlpha="0" android:pathData="M68.45,57 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="75.45" android:centerY="57" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#42005C8F" />
+                                <item android:offset="0.3" android:color="#35005C8F" />
+                                <item android:offset="0.6" android:color="#1B005C8F" />
+                                <item android:offset="0.85" android:color="#08005C8F" />
+                                <item android:offset="1" android:color="#00005C8F" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b4_1" android:fillAlpha="0" android:pathData="M63.45,57 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="75.45" android:centerY="57" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#21005C8F" />
+                                <item android:offset="0.3" android:color="#1B005C8F" />
+                                <item android:offset="0.6" android:color="#0D005C8F" />
+                                <item android:offset="0.85" android:color="#04005C8F" />
+                                <item android:offset="1" android:color="#00005C8F" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b4_2" android:fillAlpha="0" android:pathData="M71.46,61.66 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="78.46" android:centerY="61.66" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#42005C8F" />
+                                <item android:offset="0.3" android:color="#35005C8F" />
+                                <item android:offset="0.6" android:color="#1B005C8F" />
+                                <item android:offset="0.85" android:color="#08005C8F" />
+                                <item android:offset="1" android:color="#00005C8F" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b4_3" android:fillAlpha="0" android:pathData="M66.46,61.66 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="78.46" android:centerY="61.66" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#21005C8F" />
+                                <item android:offset="0.3" android:color="#1B005C8F" />
+                                <item android:offset="0.6" android:color="#0D005C8F" />
+                                <item android:offset="0.85" android:color="#04005C8F" />
+                                <item android:offset="1" android:color="#00005C8F" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b4_4" android:fillAlpha="0" android:pathData="M74.12,66.54 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="81.12" android:centerY="66.54" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#42005C8F" />
+                                <item android:offset="0.3" android:color="#35005C8F" />
+                                <item android:offset="0.6" android:color="#1B005C8F" />
+                                <item android:offset="0.85" android:color="#08005C8F" />
+                                <item android:offset="1" android:color="#00005C8F" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b4_5" android:fillAlpha="0" android:pathData="M69.12,66.54 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="81.12" android:centerY="66.54" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#21005C8F" />
+                                <item android:offset="0.3" android:color="#1B005C8F" />
+                                <item android:offset="0.6" android:color="#0D005C8F" />
+                                <item android:offset="0.85" android:color="#04005C8F" />
+                                <item android:offset="1" android:color="#00005C8F" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b4_6" android:fillAlpha="0" android:pathData="M76.42,71.6 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="83.42" android:centerY="71.6" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#42005C8F" />
+                                <item android:offset="0.3" android:color="#35005C8F" />
+                                <item android:offset="0.6" android:color="#1B005C8F" />
+                                <item android:offset="0.85" android:color="#08005C8F" />
+                                <item android:offset="1" android:color="#00005C8F" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b4_7" android:fillAlpha="0" android:pathData="M71.42,71.6 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="83.42" android:centerY="71.6" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#21005C8F" />
+                                <item android:offset="0.3" android:color="#1B005C8F" />
+                                <item android:offset="0.6" android:color="#0D005C8F" />
+                                <item android:offset="0.85" android:color="#04005C8F" />
+                                <item android:offset="1" android:color="#00005C8F" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b4_8" android:fillAlpha="0" android:pathData="M78.33,76.82 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="85.33" android:centerY="76.82" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#42005C8F" />
+                                <item android:offset="0.3" android:color="#35005C8F" />
+                                <item android:offset="0.6" android:color="#1B005C8F" />
+                                <item android:offset="0.85" android:color="#08005C8F" />
+                                <item android:offset="1" android:color="#00005C8F" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b4_9" android:fillAlpha="0" android:pathData="M73.33,76.82 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="85.33" android:centerY="76.82" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#21005C8F" />
+                                <item android:offset="0.3" android:color="#1B005C8F" />
+                                <item android:offset="0.6" android:color="#0D005C8F" />
+                                <item android:offset="0.85" android:color="#04005C8F" />
+                                <item android:offset="1" android:color="#00005C8F" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                </group>
+                <group android:name="g5" android:pivotX="14.0" android:pivotY="100.0" android:rotation="0" android:scaleX="0.3" android:scaleY="0.3">
+                    <path android:name="b5_0" android:fillAlpha="0" android:pathData="M83.95,68.89 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="90.95" android:centerY="68.89" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#420A6B86" />
+                                <item android:offset="0.3" android:color="#350A6B86" />
+                                <item android:offset="0.6" android:color="#1B0A6B86" />
+                                <item android:offset="0.85" android:color="#080A6B86" />
+                                <item android:offset="1" android:color="#000A6B86" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b5_1" android:fillAlpha="0" android:pathData="M78.95,68.89 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="90.95" android:centerY="68.89" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#210A6B86" />
+                                <item android:offset="0.3" android:color="#1B0A6B86" />
+                                <item android:offset="0.6" android:color="#0D0A6B86" />
+                                <item android:offset="0.85" android:color="#040A6B86" />
+                                <item android:offset="1" android:color="#000A6B86" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b5_2" android:fillAlpha="0" android:pathData="M86.11,74.88 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="93.11" android:centerY="74.88" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#420A6B86" />
+                                <item android:offset="0.3" android:color="#350A6B86" />
+                                <item android:offset="0.6" android:color="#1B0A6B86" />
+                                <item android:offset="0.85" android:color="#080A6B86" />
+                                <item android:offset="1" android:color="#000A6B86" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b5_3" android:fillAlpha="0" android:pathData="M81.11,74.88 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="93.11" android:centerY="74.88" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#210A6B86" />
+                                <item android:offset="0.3" android:color="#1B0A6B86" />
+                                <item android:offset="0.6" android:color="#0D0A6B86" />
+                                <item android:offset="0.85" android:color="#040A6B86" />
+                                <item android:offset="1" android:color="#000A6B86" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b5_4" android:fillAlpha="0" android:pathData="M87.8,81.03 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="94.8" android:centerY="81.03" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#420A6B86" />
+                                <item android:offset="0.3" android:color="#350A6B86" />
+                                <item android:offset="0.6" android:color="#1B0A6B86" />
+                                <item android:offset="0.85" android:color="#080A6B86" />
+                                <item android:offset="1" android:color="#000A6B86" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b5_5" android:fillAlpha="0" android:pathData="M82.8,81.03 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="94.8" android:centerY="81.03" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#210A6B86" />
+                                <item android:offset="0.3" android:color="#1B0A6B86" />
+                                <item android:offset="0.6" android:color="#0D0A6B86" />
+                                <item android:offset="0.85" android:color="#040A6B86" />
+                                <item android:offset="1" android:color="#000A6B86" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b5_6" android:fillAlpha="0" android:pathData="M89.02,87.29 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="96.02" android:centerY="87.29" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#420A6B86" />
+                                <item android:offset="0.3" android:color="#350A6B86" />
+                                <item android:offset="0.6" android:color="#1B0A6B86" />
+                                <item android:offset="0.85" android:color="#080A6B86" />
+                                <item android:offset="1" android:color="#000A6B86" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b5_7" android:fillAlpha="0" android:pathData="M84.02,87.29 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="96.02" android:centerY="87.29" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#210A6B86" />
+                                <item android:offset="0.3" android:color="#1B0A6B86" />
+                                <item android:offset="0.6" android:color="#0D0A6B86" />
+                                <item android:offset="0.85" android:color="#040A6B86" />
+                                <item android:offset="1" android:color="#000A6B86" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b5_8" android:fillAlpha="0" android:pathData="M89.76,93.63 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="96.76" android:centerY="93.63" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#420A6B86" />
+                                <item android:offset="0.3" android:color="#350A6B86" />
+                                <item android:offset="0.6" android:color="#1B0A6B86" />
+                                <item android:offset="0.85" android:color="#080A6B86" />
+                                <item android:offset="1" android:color="#000A6B86" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b5_9" android:fillAlpha="0" android:pathData="M84.76,93.63 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="96.76" android:centerY="93.63" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#210A6B86" />
+                                <item android:offset="0.3" android:color="#1B0A6B86" />
+                                <item android:offset="0.6" android:color="#0D0A6B86" />
+                                <item android:offset="0.85" android:color="#040A6B86" />
+                                <item android:offset="1" android:color="#000A6B86" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b5_10" android:fillAlpha="0" android:pathData="M90,100 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="97" android:centerY="100" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#420A6B86" />
+                                <item android:offset="0.3" android:color="#350A6B86" />
+                                <item android:offset="0.6" android:color="#1B0A6B86" />
+                                <item android:offset="0.85" android:color="#080A6B86" />
+                                <item android:offset="1" android:color="#000A6B86" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b5_11" android:fillAlpha="0" android:pathData="M85,100 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="97" android:centerY="100" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#210A6B86" />
+                                <item android:offset="0.3" android:color="#1B0A6B86" />
+                                <item android:offset="0.6" android:color="#0D0A6B86" />
+                                <item android:offset="0.85" android:color="#040A6B86" />
+                                <item android:offset="1" android:color="#000A6B86" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b5_12" android:fillAlpha="0" android:pathData="M36.4,100 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="43.4" android:centerY="100" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#420A6B86" />
+                                <item android:offset="0.3" android:color="#350A6B86" />
+                                <item android:offset="0.6" android:color="#1B0A6B86" />
+                                <item android:offset="0.85" android:color="#080A6B86" />
+                                <item android:offset="1" android:color="#000A6B86" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b5_13" android:fillAlpha="0" android:pathData="M31.4,100 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="43.4" android:centerY="100" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#210A6B86" />
+                                <item android:offset="0.3" android:color="#1B0A6B86" />
+                                <item android:offset="0.6" android:color="#0D0A6B86" />
+                                <item android:offset="0.85" android:color="#040A6B86" />
+                                <item android:offset="1" android:color="#000A6B86" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b5_14" android:fillAlpha="0" android:pathData="M61.6,100 a7.0,7.0 0 1 0 14.0,0 a7.0,7.0 0 1 0 -14.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="68.6" android:centerY="100" android:gradientRadius="7.0">
+                                <item android:offset="0" android:color="#420A6B86" />
+                                <item android:offset="0.3" android:color="#350A6B86" />
+                                <item android:offset="0.6" android:color="#1B0A6B86" />
+                                <item android:offset="0.85" android:color="#080A6B86" />
+                                <item android:offset="1" android:color="#000A6B86" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                    <path android:name="b5_15" android:fillAlpha="0" android:pathData="M56.6,100 a12.0,12.0 0 1 0 24.0,0 a12.0,12.0 0 1 0 -24.0,0 Z">
+                        <aapt:attr name="android:fillColor">
+                            <gradient android:type="radial" android:centerX="68.6" android:centerY="100" android:gradientRadius="12.0">
+                                <item android:offset="0" android:color="#210A6B86" />
+                                <item android:offset="0.3" android:color="#1B0A6B86" />
+                                <item android:offset="0.6" android:color="#0D0A6B86" />
+                                <item android:offset="0.85" android:color="#040A6B86" />
+                                <item android:offset="1" android:color="#000A6B86" />
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                </group>
+                <group android:name="w0" android:pivotX="14.0" android:pivotY="100.0" android:rotation="76" android:scaleX="0.3" android:scaleY="0.3">
+                    <path android:fillColor="#0077C8" android:pathData="M14.0,100.0 L6.5,28.4 A72.0,72.0 0 0 1 31.4,30.1 Z" />
+                </group>
+                <group android:name="w1" android:pivotX="14.0" android:pivotY="100.0" android:rotation="60" android:scaleX="0.3" android:scaleY="0.3">
+                    <path android:fillColor="#A8DCF5" android:pathData="M14.0,100.0 L25.5,35.0 A66.0,66.0 0 0 1 47.0,42.8 Z" />
+                </group>
+                <group android:name="w2" android:pivotX="14.0" android:pivotY="100.0" android:rotation="48" android:scaleX="0.3" android:scaleY="0.3">
+                    <path android:fillColor="#00A6E2" android:pathData="M14.0,100.0 L44.9,30.6 A76.0,76.0 0 0 1 64.9,43.5 Z" />
+                </group>
+                <group android:name="w3" android:pivotX="14.0" android:pivotY="100.0" android:rotation="32" android:scaleX="0.3" android:scaleY="0.3">
+                    <path android:fillColor="#0A7DC6" android:pathData="M14.0,100.0 L62.2,33.7 A82.0,82.0 0 0 1 83.5,56.5 Z" />
+                </group>
+                <group android:name="w4" android:pivotX="14.0" android:pivotY="100.0" android:rotation="18" android:scaleX="0.3" android:scaleY="0.3">
+                    <path android:fillColor="#005C8F" android:pathData="M14.0,100.0 L76.3,56.4 A76.0,76.0 0 0 1 86.3,76.5 Z" />
+                </group>
+                <group android:name="w5" android:pivotX="14.0" android:pivotY="100.0" android:rotation="0" android:scaleX="0.3" android:scaleY="0.3">
+                    <path android:fillColor="#0A6B86" android:pathData="M14.0,100.0 L91.9,68.5 A84.0,84.0 0 0 1 98.0,100.0 Z" />
+                </group>
+                <group android:name="w6" android:pivotX="14.0" android:pivotY="100.0" android:rotation="56" android:scaleX="0.3" android:scaleY="0.3">
+                    <path android:fillColor="#003D66" android:fillAlpha="0.35" android:pathData="M14.0,100.0 L28.3,50.0 A52.0,52.0 0 0 1 43.1,56.9 Z" />
+                </group>
+                <group android:name="w7" android:pivotX="14.0" android:pivotY="100.0" android:rotation="8" android:scaleX="0.3" android:scaleY="0.3">
+                    <path android:fillColor="#002B4D" android:fillAlpha="0.35" android:pathData="M14.0,100.0 L67.0,71.8 A60.0,60.0 0 0 1 73.4,91.6 Z" />
+                </group>
             </group>
         </vector>
     </aapt:attr>
     <target android:name="w0">
         <aapt:attr name="android:animation">
-            <objectAnimator android:propertyName="rotation" android:valueFrom="76" android:valueTo="0"
-                android:duration="600" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            <set>
+                <objectAnimator android:propertyName="rotation" android:valueFrom="76" android:valueTo="0" android:valueType="floatType"
+                    android:duration="560" android:startOffset="140" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleX" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="140" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleY" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="140" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="g0">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator android:propertyName="rotation" android:valueFrom="76" android:valueTo="0" android:valueType="floatType"
+                    android:duration="560" android:startOffset="140" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleX" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="140" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleY" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="140" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="b0_0">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="300" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b0_1">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="300" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b0_2">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="300" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b0_3">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="300" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b0_4">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="300" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b0_5">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="300" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b0_6">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="300" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b0_7">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="300" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b0_8">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="300" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b0_9">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="300" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b0_10">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="300" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b0_11">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="300" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b0_12">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="300" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b0_13">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="300" android:interpolator="@android:interpolator/fast_out_slow_in" />
         </aapt:attr>
     </target>
     <target android:name="w1">
         <aapt:attr name="android:animation">
-            <objectAnimator android:propertyName="rotation" android:valueFrom="60" android:valueTo="0"
-                android:duration="600" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            <set>
+                <objectAnimator android:propertyName="rotation" android:valueFrom="60" android:valueTo="0" android:valueType="floatType"
+                    android:duration="560" android:startOffset="120" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleX" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="120" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleY" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="120" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="g1">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator android:propertyName="rotation" android:valueFrom="60" android:valueTo="0" android:valueType="floatType"
+                    android:duration="560" android:startOffset="120" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleX" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="120" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleY" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="120" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="b1_0">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="280" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b1_1">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="280" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b1_2">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="280" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b1_3">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="280" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b1_4">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="280" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b1_5">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="280" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b1_6">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="280" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b1_7">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="280" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b1_8">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="280" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b1_9">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="280" android:interpolator="@android:interpolator/fast_out_slow_in" />
         </aapt:attr>
     </target>
     <target android:name="w2">
         <aapt:attr name="android:animation">
-            <objectAnimator android:propertyName="rotation" android:valueFrom="48" android:valueTo="0"
-                android:duration="600" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            <set>
+                <objectAnimator android:propertyName="rotation" android:valueFrom="48" android:valueTo="0" android:valueType="floatType"
+                    android:duration="560" android:startOffset="80" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleX" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="80" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleY" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="80" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="g2">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator android:propertyName="rotation" android:valueFrom="48" android:valueTo="0" android:valueType="floatType"
+                    android:duration="560" android:startOffset="80" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleX" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="80" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleY" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="80" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="b2_0">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="240" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b2_1">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="240" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b2_2">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="240" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b2_3">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="240" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b2_4">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="240" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b2_5">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="240" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b2_6">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="240" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b2_7">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="240" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b2_8">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="240" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b2_9">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="240" android:interpolator="@android:interpolator/fast_out_slow_in" />
         </aapt:attr>
     </target>
     <target android:name="w3">
         <aapt:attr name="android:animation">
-            <objectAnimator android:propertyName="rotation" android:valueFrom="32" android:valueTo="0"
-                android:duration="600" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            <set>
+                <objectAnimator android:propertyName="rotation" android:valueFrom="32" android:valueTo="0" android:valueType="floatType"
+                    android:duration="560" android:startOffset="60" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleX" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="60" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleY" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="60" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="g3">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator android:propertyName="rotation" android:valueFrom="32" android:valueTo="0" android:valueType="floatType"
+                    android:duration="560" android:startOffset="60" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleX" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="60" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleY" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="60" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="b3_0">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="220" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b3_1">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="220" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b3_2">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="220" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b3_3">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="220" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b3_4">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="220" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b3_5">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="220" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b3_6">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="220" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b3_7">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="220" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b3_8">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="220" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b3_9">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="220" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b3_10">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="220" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b3_11">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="220" android:interpolator="@android:interpolator/fast_out_slow_in" />
         </aapt:attr>
     </target>
     <target android:name="w4">
         <aapt:attr name="android:animation">
-            <objectAnimator android:propertyName="rotation" android:valueFrom="18" android:valueTo="0"
-                android:duration="600" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            <set>
+                <objectAnimator android:propertyName="rotation" android:valueFrom="18" android:valueTo="0" android:valueType="floatType"
+                    android:duration="560" android:startOffset="40" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleX" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="40" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleY" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="40" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="g4">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator android:propertyName="rotation" android:valueFrom="18" android:valueTo="0" android:valueType="floatType"
+                    android:duration="560" android:startOffset="40" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleX" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="40" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleY" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="40" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="b4_0">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="200" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b4_1">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="200" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b4_2">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="200" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b4_3">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="200" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b4_4">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="200" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b4_5">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="200" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b4_6">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="200" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b4_7">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="200" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b4_8">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="200" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b4_9">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="200" android:interpolator="@android:interpolator/fast_out_slow_in" />
         </aapt:attr>
     </target>
     <target android:name="w5">
         <aapt:attr name="android:animation">
-            <objectAnimator android:propertyName="rotation" android:valueFrom="0" android:valueTo="0"
-                android:duration="600" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            <set>
+                <objectAnimator android:propertyName="rotation" android:valueFrom="0" android:valueTo="0" android:valueType="floatType"
+                    android:duration="560" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleX" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleY" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="g5">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator android:propertyName="rotation" android:valueFrom="0" android:valueTo="0" android:valueType="floatType"
+                    android:duration="560" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleX" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleY" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="b5_0">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="160" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b5_1">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="160" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b5_2">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="160" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b5_3">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="160" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b5_4">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="160" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b5_5">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="160" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b5_6">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="160" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b5_7">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="160" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b5_8">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="160" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b5_9">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="160" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b5_10">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="160" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b5_11">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="160" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b5_12">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="160" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b5_13">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="160" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b5_14">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="160" android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="b5_15">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:propertyName="fillAlpha" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:duration="400" android:startOffset="160" android:interpolator="@android:interpolator/fast_out_slow_in" />
         </aapt:attr>
     </target>
     <target android:name="w6">
         <aapt:attr name="android:animation">
-            <objectAnimator android:propertyName="rotation" android:valueFrom="56" android:valueTo="0"
-                android:duration="600" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            <set>
+                <objectAnimator android:propertyName="rotation" android:valueFrom="56" android:valueTo="0" android:valueType="floatType"
+                    android:duration="560" android:startOffset="100" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleX" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="100" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleY" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="100" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            </set>
         </aapt:attr>
     </target>
     <target android:name="w7">
         <aapt:attr name="android:animation">
-            <objectAnimator android:propertyName="rotation" android:valueFrom="8" android:valueTo="0"
-                android:duration="600" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            <set>
+                <objectAnimator android:propertyName="rotation" android:valueFrom="8" android:valueTo="0" android:valueType="floatType"
+                    android:duration="560" android:startOffset="20" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleX" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="20" android:interpolator="@android:interpolator/fast_out_slow_in" />
+                <objectAnimator android:propertyName="scaleY" android:valueFrom="0.3" android:valueTo="1" android:valueType="floatType"
+                    android:duration="560" android:startOffset="20" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            </set>
         </aapt:attr>
     </target>
 </animated-vector>

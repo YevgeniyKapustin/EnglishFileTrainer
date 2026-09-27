@@ -17,7 +17,9 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -34,6 +36,7 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import dev.eftrainer.R
+import dev.eftrainer.core.sound.Cue
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.EF
 import dev.eftrainer.core.theme.Golos
@@ -63,6 +66,9 @@ private const val HEAT_FROM = .12f
 private const val HEAT_SPREAD = .4f
 private const val CELL_MOTION = .22f
 private const val ROW_STAGGER = .06f
+private const val TICK_QUIET = .2f
+private const val TICK_RATE_FROM = .8f
+private const val TICK_RATE_SPAN = .8f
 
 @Composable
 fun StatsScreen(
@@ -136,6 +142,7 @@ private fun Heatmap(
     intro: StatsIntro,
 ) {
     val step = HEAT_SPREAD / state.heat.size.coerceAtLeast(1)
+    HeatTicks(state.heat, intro, step)
     Column {
         Box(Modifier.height(16.dp)) {
             state.months.forEachIndexed { i, month ->
@@ -163,6 +170,28 @@ private fun Heatmap(
                         )
                     }
                 }
+            }
+        }
+    }
+}
+
+@Composable
+private fun HeatTicks(
+    heat: List<List<Int?>>,
+    intro: StatsIntro,
+    step: Float,
+) {
+    val sounds = appContainer().sounds
+    LaunchedEffect(intro) {
+        if (!intro.fresh || heat.isEmpty()) return@LaunchedEffect
+        val top = heat.maxOf { week -> week.sumOf { it ?: 0 } }.coerceAtLeast(1)
+        var next = 0
+        snapshotFlow { intro.clock.value }.collect { clock ->
+            while (next < heat.size && clock >= HEAT_FROM + step * next) {
+                val activity = heat[next].sumOf { it ?: 0 }.toFloat() / top
+                val rate = TICK_RATE_FROM + TICK_RATE_SPAN * next / heat.lastIndex.coerceAtLeast(1)
+                sounds.play(Cue.TICK, TICK_QUIET + (1f - TICK_QUIET) * activity, rate)
+                next++
             }
         }
     }

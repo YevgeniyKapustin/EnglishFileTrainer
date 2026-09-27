@@ -9,11 +9,7 @@ import androidx.compose.animation.core.tween
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.Stable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.unit.dp
@@ -22,10 +18,15 @@ private const val INTRO_MILLIS = 1500
 private const val CELL_START_SCALE = .3f
 private val RiseBy = 14.dp
 
+private object StatsIntroGate {
+    var played = false
+}
+
 @Stable
 class StatsIntro(
     played: Boolean,
 ) {
+    val fresh = !played
     val clock = Animatable(if (played) 1f else 0f)
 
     fun share(
@@ -37,11 +38,10 @@ class StatsIntro(
 
 @Composable
 fun rememberStatsIntro(): StatsIntro {
-    var played by rememberSaveable { mutableStateOf(false) }
-    val intro = remember { StatsIntro(played) }
+    val intro = remember { StatsIntro(StatsIntroGate.played) }
     LaunchedEffect(intro) {
+        StatsIntroGate.played = true
         intro.clock.animateTo(1f, tween(INTRO_MILLIS, easing = LinearEasing))
-        played = true
     }
     return intro
 }

@@ -41,11 +41,12 @@ class UiSounds(
     fun play(
         cue: Cue,
         volume: Float = 1f,
+        rate: Float = 1f,
     ): Boolean {
         val current = pool ?: return false
         val sample = sampleIds[cue]?.takeIf { it in loaded } ?: return false
         if (!audible()) return false
-        return current.play(sample, volume, volume, 1, 0, 1f) != 0
+        return current.play(sample, volume, volume, 1, 0, rate) != 0
     }
 
     fun close() {

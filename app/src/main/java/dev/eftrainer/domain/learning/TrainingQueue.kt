@@ -32,6 +32,11 @@ object TrainingQueue {
             .filter { it in section.exercises || (ai && it in section.aiExercises) }
             .filter { it.id !in progress }
 
+    fun again(
+        section: Section,
+        ai: Boolean = false,
+    ): List<Exercise> = firstPass(section, emptyMap(), ai)
+
     fun freshOf(
         section: Section,
         generated: Map<String, List<Exercise>>,

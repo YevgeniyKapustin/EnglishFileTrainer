@@ -33,6 +33,11 @@ class TrainingQueueTest {
         assertEquals(listOf("g-1", "g-3", "g-5"), TrainingQueue.firstPass(s, progress).map { it.id })
     }
 
+    @Test fun `again is the whole section in book order`() {
+        val s = section("g", 3)
+        assertEquals(listOf("g-1", "g-2", "g-3"), TrainingQueue.again(s).map { it.id })
+    }
+
     @Test fun `due from passed chapters come first, most overdue first, max 10`() {
         val progress = (1..15).map { mastered("a-$it", dueOn = TODAY.minusDays(it.toLong())) }.byId()
         val plan = review(progress)

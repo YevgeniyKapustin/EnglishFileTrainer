@@ -58,7 +58,8 @@ fun CurrentChapterScreen(
     onReview: () -> Unit,
     modifier: Modifier = Modifier,
     onSettings: () -> Unit = {},
-    vm: CurrentChapterViewModel = currentChapterViewModel(),
+    chapterId: String? = null,
+    vm: CurrentChapterViewModel = currentChapterViewModel(chapterId),
 ) {
     val ui by vm.state.collectAsStateWithLifecycle()
     val state = ui ?: return
@@ -74,24 +75,34 @@ fun CurrentChapterScreen(
             }
         }
 
-        BottomBar {
-            Text(
-                reviewLine(state),
-                style = T.label.copy(fontSize = 15.sp, textAlign = TextAlign.Center),
-                modifier = Modifier.fillMaxWidth().padding(bottom = 10.dp),
-            )
-            PrimaryButton(
-                stringResource(R.string.review),
-                onClick = onReview,
-                enabled = state.reviewCurrent + state.reviewDue > 0,
-            )
-        }
+        if (!state.past) ReviewBar(state, onReview)
     }
 }
 
 @Composable
-private fun currentChapterViewModel(): CurrentChapterViewModel =
-    appContainer().let { container -> viewModel { CurrentChapterViewModel(container) } }
+private fun ReviewBar(
+    state: CurrentUi,
+    onReview: () -> Unit,
+) {
+    BottomBar {
+        Text(
+            reviewLine(state),
+            style = T.label.copy(fontSize = 15.sp, textAlign = TextAlign.Center),
+            modifier = Modifier.fillMaxWidth().padding(bottom = 10.dp),
+        )
+        PrimaryButton(
+            stringResource(R.string.review),
+            onClick = onReview,
+            enabled = state.reviewCurrent + state.reviewDue > 0,
+        )
+    }
+}
+
+@Composable
+private fun currentChapterViewModel(chapterId: String?): CurrentChapterViewModel =
+    appContainer().let { container ->
+        viewModel(key = "chapter-$chapterId") { CurrentChapterViewModel(container, chapterId) }
+    }
 
 @Composable
 private fun ChapterSummary(state: CurrentUi) {

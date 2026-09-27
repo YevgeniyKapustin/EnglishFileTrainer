@@ -4,6 +4,7 @@ import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.runtime.Composable
+import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -37,6 +38,11 @@ import kotlinx.serialization.Serializable
 
 @Serializable data class SessionRoute(
     val sectionId: String? = null,
+    val again: Boolean = false,
+)
+
+@Serializable data class ChapterRoute(
+    val chapterId: String,
 )
 
 @Composable
@@ -51,15 +57,7 @@ fun AppNavigation(nav: NavHostController = rememberNavController()) {
         enterTransition = { fadeIn(tween(150)) },
         exitTransition = { fadeOut(tween(0)) },
     ) {
-        composable<CurrentRoute> {
-            CurrentChapterScreen(
-                onAllChapters = { nav.navigate(ChaptersRoute) },
-                onSection = { nav.navigate(SectionRoute(it)) },
-                onReview = { nav.navigate(SessionRoute()) },
-                onSettings = { nav.navigate(SettingsRoute) },
-            )
-        }
-        composable<ChaptersRoute> { AllChaptersScreen(onBack = { nav.popBackStack() }) }
+        chapterScreens(nav)
         composable<SettingsRoute> {
             SettingsScreen(
                 onBack = { nav.popBackStack() },
@@ -74,6 +72,7 @@ fun AppNavigation(nav: NavHostController = rememberNavController()) {
                 onBack = { nav.popBackStack() },
                 onRules = { start -> nav.navigate(RulesRoute(id, start)) },
                 onStart = { nav.navigate(SessionRoute(id)) },
+                onAgain = { nav.navigate(SessionRoute(id, again = true)) },
             )
         }
         composable<RulesRoute> { entry ->
@@ -86,7 +85,37 @@ fun AppNavigation(nav: NavHostController = rememberNavController()) {
             )
         }
         composable<SessionRoute> { entry ->
-            SessionScreen(entry.toRoute<SessionRoute>().sectionId, onClose = ::home)
+            val route = entry.toRoute<SessionRoute>()
+            SessionScreen(
+                route.sectionId,
+                onClose = { if (route.again) nav.popBackStack() else home() },
+                again = route.again,
+            )
         }
+    }
+}
+
+private fun NavGraphBuilder.chapterScreens(nav: NavHostController) {
+    composable<CurrentRoute> {
+        CurrentChapterScreen(
+            onAllChapters = { nav.navigate(ChaptersRoute) },
+            onSection = { nav.navigate(SectionRoute(it)) },
+            onReview = { nav.navigate(SessionRoute()) },
+            onSettings = { nav.navigate(SettingsRoute) },
+        )
+    }
+    composable<ChaptersRoute> {
+        AllChaptersScreen(
+            onBack = { nav.popBackStack() },
+            onChapter = { nav.navigate(ChapterRoute(it)) },
+        )
+    }
+    composable<ChapterRoute> { entry ->
+        CurrentChapterScreen(
+            onAllChapters = { nav.popBackStack() },
+            onSection = { nav.navigate(SectionRoute(it)) },
+            onReview = {},
+            chapterId = entry.toRoute<ChapterRoute>().chapterId,
+        )
     }
 }

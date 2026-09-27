@@ -88,6 +88,7 @@ sealed interface SessionUi {
 class SessionViewModel(
     private val container: AppContainer,
     private val sectionId: String?,
+    private val again: Boolean = false,
 ) : ViewModel() {
     private val _state = MutableStateFlow<SessionUi>(SessionUi.Loading)
     val state: StateFlow<SessionUi> = _state.asStateFlow()
@@ -117,10 +118,10 @@ class SessionViewModel(
             if (sectionId == null) acceptFresh()
             if (ai) container.generation.refillInBackground()
             val exercises =
-                if (sectionId == null) {
-                    container.review.plan(inputs).all
-                } else {
-                    TrainingQueue.firstPass(Chapters.section(sectionId), progress, ai)
+                when {
+                    sectionId == null -> container.review.plan(inputs).all
+                    again -> TrainingQueue.again(Chapters.section(sectionId), ai)
+                    else -> TrainingQueue.firstPass(Chapters.section(sectionId), progress, ai)
                 }
             chapter =
                 if (sectionId == null) {

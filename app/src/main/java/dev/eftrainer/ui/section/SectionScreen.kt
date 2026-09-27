@@ -44,6 +44,7 @@ fun SectionScreen(
     onBack: () -> Unit,
     onRules: (startTasks: Boolean) -> Unit,
     onStart: () -> Unit,
+    onAgain: () -> Unit,
     modifier: Modifier = Modifier,
     vm: SectionViewModel = sectionViewModel(sectionId),
 ) {
@@ -60,7 +61,9 @@ fun SectionScreen(
             SectionTasks(state)
         }
 
-        if (!state.firstPassDone) {
+        if (state.firstPassDone) {
+            BottomBar { PrimaryButton(stringResource(R.string.practise_again), onClick = onAgain) }
+        } else {
             StartBar(
                 started = state.started,
                 onClick = { if (hasRules && !state.started) onRules(true) else onStart() },

@@ -28,16 +28,20 @@ data class CurrentUi(
     val reviewSections: List<String>,
     val reviewCurrent: Int,
     val reviewDue: Int,
+    val past: Boolean,
 )
 
 class CurrentChapterViewModel(
     container: AppContainer,
+    chapterId: String? = null,
 ) : ViewModel() {
     val state: StateFlow<CurrentUi?> =
         container.review.inputs
             .map { inputs ->
                 val progress = inputs.progress
-                val chapter = ChapterCompletion.current(Chapters.all, inputs.completed)
+                val chapter =
+                    chapterId?.let { id -> Chapters.all.first { it.id == id } }
+                        ?: ChapterCompletion.current(Chapters.all, inputs.completed)
                 val plan = container.review.plan(inputs)
                 val open = chapter?.let { ChapterCompletion.openSections(it) }.orEmpty()
                 val rows =
@@ -56,6 +60,7 @@ class CurrentChapterViewModel(
                     reviewSections = plan.current.map { Chapters.locate(it.id).section.title }.distinct(),
                     reviewCurrent = plan.current.size,
                     reviewDue = plan.due.size,
+                    past = chapterId != null,
                 )
             }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
 }

@@ -56,6 +56,7 @@ private fun fileColor(file: Int): Color =
 private fun ChapterRow.action(
     onCurrent: () -> Unit,
     onLocked: (chapterId: String) -> Unit,
+    onCompleted: (chapterId: String) -> Unit,
 ): (() -> Unit)? =
     when (status) {
         ChapterStatus.CURRENT -> {
@@ -67,13 +68,14 @@ private fun ChapterRow.action(
         }
 
         ChapterStatus.COMPLETED -> {
-            null
+            { onCompleted(chapter.id) }
         }
     }
 
 @Composable
 fun AllChaptersScreen(
     onBack: () -> Unit,
+    onChapter: (chapterId: String) -> Unit,
     modifier: Modifier = Modifier,
     vm: AllChaptersViewModel = allChaptersViewModel(),
 ) {
@@ -107,7 +109,7 @@ fun AllChaptersScreen(
                     row = row,
                     color = fileColor(file),
                     divider = i != rows.lastIndex,
-                    onClick = row.action(onCurrent = onBack, onLocked = { ask = it }),
+                    onClick = row.action(onCurrent = onBack, onLocked = { ask = it }, onCompleted = onChapter),
                 )
             }
             Spacer(Modifier.height(24.dp))

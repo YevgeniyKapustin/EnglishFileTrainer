@@ -23,7 +23,6 @@ import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import dev.eftrainer.core.speech.TextToSpeechState
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.EF
 import dev.eftrainer.core.theme.T
@@ -31,12 +30,10 @@ import dev.eftrainer.core.ui.Panel
 import dev.eftrainer.core.ui.PanelHeader
 import dev.eftrainer.data.content.Reference
 import dev.eftrainer.ui.exercise.inputs.AudioBar
-import dev.eftrainer.ui.exercise.inputs.SayIcon
 
 @Composable
 fun TableBlock(
     table: Reference.Table,
-    tts: TextToSpeechState?,
     modifier: Modifier = Modifier,
 ) {
     Panel(modifier) {
@@ -45,8 +42,8 @@ fun TableBlock(
         BoxWithConstraints(Modifier.fillMaxWidth()) {
             val fontScale = LocalDensity.current.fontScale
             when (tableForm(table.headers.size, maxWidth.value, fontScale)) {
-                TableForm.GRID -> GridTable(table, tts)
-                TableForm.CARDS -> CardTable(table, tts)
+                TableForm.GRID -> GridTable(table)
+                TableForm.CARDS -> CardTable(table)
             }
         }
     }
@@ -56,32 +53,11 @@ private fun cellStyle(column: Int): TextStyle =
     if (column == 1) T.rowEn.copy(color = C.Accent, fontWeight = FontWeight.SemiBold) else T.rowEn
 
 @Composable
-private fun SpokenCell(
-    text: String,
-    style: TextStyle,
-    say: Pair<String, String>?,
-    tts: TextToSpeechState?,
-    modifier: Modifier = Modifier,
-) {
-    Row(modifier, verticalAlignment = Alignment.CenterVertically) {
-        Text(text, style = style, modifier = Modifier.weight(1f))
-        if (tts != null && say != null) SayIcon(tts, say.first, say.second, size = 18.dp)
-    }
-}
-
-private fun Reference.Table.say(index: Int): Pair<String, String> =
-    rows[index].joinToString(" ") to "vocab-$title-$index"
-
-@Composable
-private fun GridTable(
-    table: Reference.Table,
-    tts: TextToSpeechState?,
-) {
+private fun GridTable(table: Reference.Table) {
     DividedRows {
-        table.rows.forEachIndexed { r, row ->
+        table.rows.forEach { row ->
             row.forEachIndexed { c, v ->
-                val say = if (c == row.lastIndex) table.say(r) else null
-                SpokenCell(v, cellStyle(c), say, tts, Modifier.padding(vertical = 8.dp))
+                Text(v, style = cellStyle(c), modifier = Modifier.padding(vertical = 8.dp))
             }
         }
     }
@@ -89,16 +65,13 @@ private fun GridTable(
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun CardTable(
-    table: Reference.Table,
-    tts: TextToSpeechState?,
-) {
+private fun CardTable(table: Reference.Table) {
     Column {
         table.rows.forEachIndexed { r, row ->
             val line = if (r > 0) Modifier.drawBehind { divider() } else Modifier
             Column(line.fillMaxWidth().padding(vertical = 10.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
                 if (row.first().isNotBlank()) {
-                    SpokenCell(row.first(), T.rowEn.copy(fontWeight = FontWeight.Bold), table.say(r), tts)
+                    Text(row.first(), style = T.rowEn.copy(fontWeight = FontWeight.Bold))
                 }
                 FlowRow(
                     horizontalArrangement = Arrangement.spacedBy(18.dp),

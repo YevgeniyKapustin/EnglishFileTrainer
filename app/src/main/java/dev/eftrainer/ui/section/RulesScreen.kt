@@ -23,7 +23,6 @@ import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import dev.eftrainer.R
-import dev.eftrainer.core.speech.TextToSpeechState
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.ui.BackLink
@@ -34,7 +33,6 @@ import dev.eftrainer.data.content.Chapters
 import dev.eftrainer.data.content.Reference
 import dev.eftrainer.data.content.Section
 import dev.eftrainer.data.content.SectionKind
-import dev.eftrainer.ui.exercise.inputs.rememberVoice
 import dev.eftrainer.ui.explain.ExplainHost
 import dev.eftrainer.ui.explain.Selectable
 import dev.eftrainer.ui.explain.explainContext
@@ -48,7 +46,6 @@ fun RulesScreen(
 ) {
     val section = Chapters.section(sectionId)
     val blocks = remember(sectionId) { groupMistakes(section.reference) }
-    val tts = if (section.kind == SectionKind.VOCABULARY) rememberVoice() else null
 
     ExplainHost(remember(sectionId) { explainContext(sectionId) }) {
         Column(modifier.fillMaxSize()) {
@@ -60,7 +57,7 @@ fun RulesScreen(
                     verticalArrangement = Arrangement.spacedBy(20.dp),
                 ) {
                     RulesTitle(section, Chapters.chapterOfSection(sectionId).id)
-                    blocks.forEach { ReferenceBlock(it, tts) }
+                    blocks.forEach { ReferenceBlock(it) }
                 }
             }
         }
@@ -95,13 +92,10 @@ private fun RulesTitle(
 }
 
 @Composable
-private fun ReferenceBlock(
-    block: List<Reference>,
-    tts: TextToSpeechState?,
-) {
+private fun ReferenceBlock(block: List<Reference>) {
     when (val ref = block.first()) {
         is Reference.Note -> NotePanel(ref.title) { Text(ref.text, style = T.body) }
-        is Reference.Table -> TableBlock(ref, tts)
+        is Reference.Table -> TableBlock(ref)
         is Reference.Mistake -> MistakesBlock(block.filterIsInstance<Reference.Mistake>())
     }
 }

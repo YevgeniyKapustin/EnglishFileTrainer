@@ -99,6 +99,7 @@ class BubbleTextFit {
 class BubbleMotion(
     val pop: Animatable<Float, AnimationVector1D>,
     val tailLeft: Boolean,
+    private val onWallHit: (speed: Float) -> Unit = {},
 ) {
     val offset = Animatable(Offset.Zero, Offset.VectorConverter)
     val squash = Animatable(Offset.Zero, Offset.VectorConverter)
@@ -109,6 +110,7 @@ class BubbleMotion(
         private set
     var home = Offset.Zero
         private set
+    private var walls = Offset.Zero
     private var boxSize = Size.Zero
     private var bandSize = Size.Zero
     private val tip = speechBubbleTailTip(tailLeft)
@@ -136,6 +138,16 @@ class BubbleMotion(
 
     fun held(offset: Offset) =
         Offset(offset.x.coerceIn(travel.left, travel.right), offset.y.coerceIn(travel.top, travel.bottom))
+
+    fun touchWalls(
+        reach: Offset,
+        speed: Float,
+    ) {
+        val now = Offset(wallSide(reach.x, travel.left, travel.right), wallSide(reach.y, travel.top, travel.bottom))
+        val arrived = (now.x != 0f && now.x != walls.x) || (now.y != 0f && now.y != walls.y)
+        walls = now
+        if (arrived) onWallHit(speed)
+    }
 
     fun stance(density: Density): BubbleStance {
         val pop = popScale
@@ -197,4 +209,14 @@ class BubbleMotion(
         }
         return wanted * fitting
     }
+}
+
+private fun wallSide(
+    at: Float,
+    start: Float,
+    end: Float,
+) = when {
+    at >= end -> 1f
+    at <= start -> -1f
+    else -> 0f
 }

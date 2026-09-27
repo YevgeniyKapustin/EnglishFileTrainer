@@ -12,6 +12,9 @@ RAW = ROOT / "app/src/main/res/raw"
 RATE = 44100
 MAIN_PEAK_DBFS = -14.0
 TICK_PEAK_DBFS = -28.0
+FAN_PEAK_DBFS = -20.0
+BUMP_PEAK_DBFS = -16.0
+NOISE_SEED = 7
 FADE_OUT_SECONDS = 0.02
 VORBIS_ARGS = ["-ac", "1", "-c:a", "libvorbis", "-q:a", "2"]
 
@@ -102,6 +105,50 @@ def tick() -> Wave:
     return render([Note(0.0, 2200.0, 0.006, overtones=())], 0.04, TICK_PEAK_DBFS, attack=0.001)
 
 
+def swept_noise(seconds: float, low: float, high: float) -> Wave:
+    t = timeline(seconds)
+    noise = np.random.default_rng(NOISE_SEED).standard_normal(len(t))
+    cutoff = low * (high / low) ** (t / t[-1])
+    smoothing = 1 - np.exp(-2 * np.pi * cutoff / RATE)
+    filtered = np.zeros(len(t))
+    level = 0.0
+    for index, (sample, alpha) in enumerate(zip(noise, smoothing, strict=True)):
+        level += alpha * (sample - level)
+        filtered[index] = level
+    return filtered
+
+
+def peaked(samples: Wave) -> Wave:
+    result: Wave = samples / float(np.max(np.abs(samples)))
+    return result
+
+
+def normalized(mix: Wave, peak_dbfs: float) -> Wave:
+    fade = int(FADE_OUT_SECONDS * RATE)
+    mix[-fade:] *= np.linspace(1.0, 0.0, fade)
+    result: Wave = mix * (10 ** (peak_dbfs / 20) / float(np.max(np.abs(mix))))
+    return result
+
+
+def fan() -> Wave:
+    seconds = 0.5
+    t = timeline(seconds)
+    swell = np.sin(np.pi * np.clip(t / seconds, 0.0, 1.0)) ** 1.5
+    whoosh = swept_noise(seconds, 500.0, 4500.0) * swell
+    chime = [Note(0.12 + i * 0.07, f, 0.12, 0.5) for i, f in enumerate([1318.5, 1760.0, 2349.3])]
+    shimmer = render(chime, seconds, -6.0)
+    return normalized(peaked(whoosh) + 0.35 * peaked(shimmer), FAN_PEAK_DBFS)
+
+
+def bump() -> Wave:
+    seconds = 0.14
+    body = render([Note(0.0, 190.0, 0.035, glide_to=120.0, overtones=(0.3,))], seconds, -6.0, attack=0.002)
+    t = timeline(seconds)
+    thud = swept_noise(seconds, 900.0, 300.0) * np.exp(-t / 0.012)
+    mix = peaked(body) + 0.4 * peaked(thud)
+    return normalized(mix, BUMP_PEAK_DBFS)
+
+
 def write_ogg(name: str, samples: Wave) -> Path:
     target = RAW / f"sound_{name}.ogg"
     pcm = (samples * 32767).astype(np.int16)
@@ -118,7 +165,15 @@ def write_ogg(name: str, samples: Wave) -> Path:
 
 def main() -> None:
     RAW.mkdir(parents=True, exist_ok=True)
-    sounds = {"correct": correct(), "wrong": wrong(), "done": done(), "chapter": chapter(), "tick": tick()}
+    sounds = {
+        "correct": correct(),
+        "wrong": wrong(),
+        "done": done(),
+        "chapter": chapter(),
+        "tick": tick(),
+        "fan": fan(),
+        "bump": bump(),
+    }
     for name, samples in sounds.items():
         target = write_ogg(name, samples)
         print(f"{target.name}: {len(samples) / RATE:.2f} с, {target.stat().st_size / 1000:.1f} КБ")

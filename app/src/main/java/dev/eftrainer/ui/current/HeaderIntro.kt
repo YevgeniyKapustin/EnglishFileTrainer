@@ -41,10 +41,12 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.toSize
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LocalLifecycleOwner
+import dev.eftrainer.core.sound.Cue
 import dev.eftrainer.core.ui.SPEECH_BUBBLE_RADIUS
 import dev.eftrainer.core.ui.SpeechBubbleCenter
 import dev.eftrainer.core.ui.SpeechBubbleVisibleBounds
 import dev.eftrainer.core.ui.speechBubblePath
+import dev.eftrainer.ui.appContainer
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -76,11 +78,13 @@ fun rememberHeaderIntro(): HeaderIntro {
     var played by rememberSaveable { mutableStateOf(false) }
     val intro = remember { HeaderIntro(played) }
     val lifecycle = LocalLifecycleOwner.current.lifecycle
+    val sounds = appContainer().sounds
     LaunchedEffect(intro) {
         if (!intro.pending) return@LaunchedEffect
         IntroGate.open.first { it }
         lifecycle.currentStateFlow.first { it.isAtLeast(Lifecycle.State.RESUMED) }
         played = true
+        sounds.play(Cue.FAN)
         val pop = spring<Float>(Spring.DampingRatioMediumBouncy, Spring.StiffnessMediumLow)
         launch { intro.rays.animateTo(1f, tween(RAYS_MILLIS, easing = LinearEasing)) }
         delay(FIRST_BUBBLE_DELAY_MILLIS)

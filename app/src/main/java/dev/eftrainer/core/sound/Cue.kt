@@ -12,6 +12,8 @@ enum class Cue(
     DONE(R.raw.sound_done, 800L),
     CHAPTER(R.raw.sound_chapter, 1_300L),
     TICK(R.raw.sound_tick, 40L),
+    FAN(R.raw.sound_fan, 500L),
+    BUMP(R.raw.sound_bump, 140L),
     ;
 
     companion object {

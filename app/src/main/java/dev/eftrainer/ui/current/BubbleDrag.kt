@@ -10,6 +10,7 @@ import kotlinx.coroutines.launch
 import kotlin.math.abs
 
 private const val MAX_STRETCH_FRACTION = .99f
+private const val MILLIS_PER_SECOND = 1000f
 
 suspend fun PointerInputScope.followFinger(
     motion: BubbleMotion,
@@ -21,7 +22,9 @@ suspend fun PointerInputScope.followFinger(
     coroutineScope {
         var pulled = Offset.Zero
         val letGo = {
-            launch { motion.offset.animateTo(Offset.Zero, release) }
+            launch {
+                motion.offset.animateTo(Offset.Zero, release) { motion.touchWalls(value, velocity.getDistance()) }
+            }
             launch { motion.squash.animateTo(Offset.Zero, settle) }
         }
         detectDragGestures(
@@ -47,6 +50,8 @@ suspend fun PointerInputScope.followFinger(
                 )
             val stretched = pulled.stretched(limit)
             val held = motion.held(stretched)
+            val seconds = (change.uptimeMillis - change.previousUptimeMillis).coerceAtLeast(1L) / MILLIS_PER_SECOND
+            motion.touchWalls(stretched, (change.position - change.previousPosition).getDistance() / seconds)
             launch {
                 motion.offset.snapTo(held)
                 motion.squash.snapTo(stretched - held)

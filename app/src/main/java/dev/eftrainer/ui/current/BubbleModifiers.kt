@@ -14,16 +14,31 @@ import androidx.compose.ui.graphics.drawscope.withTransform
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.onPlaced
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.dp
+import dev.eftrainer.core.sound.Cue
+import dev.eftrainer.ui.appContainer
 
 private const val BUBBLE_FADE_SPEED = 3f
+private const val LOUDEST_HIT = 3f
+private const val QUIETEST_HIT_VOLUME = .35f
 private val DragLimit = 120.dp
+private val HardHitSpeed = 900.dp
 
 @Composable
 fun rememberBubbleMotion(
     pop: Animatable<Float, AnimationVector1D>,
     tailLeft: Boolean,
-): BubbleMotion = remember(pop, tailLeft) { BubbleMotion(pop, tailLeft) }
+): BubbleMotion {
+    val sounds = appContainer().sounds
+    val density = LocalDensity.current
+    return remember(pop, tailLeft, density) {
+        val hard = with(density) { HardHitSpeed.toPx() }
+        BubbleMotion(pop, tailLeft) { speed ->
+            if (speed >= hard) sounds.play(Cue.BUMP, (speed / (hard * LOUDEST_HIT)).coerceIn(QUIETEST_HIT_VOLUME, 1f))
+        }
+    }
+}
 
 private fun GraphicsLayerScope.fadeIn(pop: Float) {
     alpha = (pop * BUBBLE_FADE_SPEED).coerceIn(0f, 1f)

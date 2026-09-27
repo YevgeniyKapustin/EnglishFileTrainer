@@ -38,11 +38,14 @@ class UiSounds(
 
     fun audible(): Boolean = settings.enabled.value
 
-    fun play(cue: Cue): Boolean {
+    fun play(
+        cue: Cue,
+        volume: Float = 1f,
+    ): Boolean {
         val current = pool ?: return false
         val sample = sampleIds[cue]?.takeIf { it in loaded } ?: return false
         if (!audible()) return false
-        return current.play(sample, 1f, 1f, 1, 0, 1f) != 0
+        return current.play(sample, volume, volume, 1, 0, 1f) != 0
     }
 
     fun close() {
@@ -53,7 +56,7 @@ class UiSounds(
     }
 
     private companion object {
-        const val MAX_STREAMS = 2
+        const val MAX_STREAMS = 4
         const val LOAD_OK = 0
     }
 }

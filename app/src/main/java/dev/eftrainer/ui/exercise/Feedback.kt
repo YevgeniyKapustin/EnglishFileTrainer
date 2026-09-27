@@ -34,6 +34,7 @@ import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.ui.Icons
 import dev.eftrainer.core.ui.PrimaryButton
 import dev.eftrainer.data.ai.AiException
+import dev.eftrainer.domain.ai.WritePrompt
 import dev.eftrainer.ui.exercise.inputs.SayIcon
 import dev.eftrainer.ui.explain.ChatThread
 import dev.eftrainer.ui.explain.LinkText
@@ -49,6 +50,8 @@ internal fun FeedbackSheet(
     onExplain: (question: String?) -> Unit,
     tts: TextToSpeechState,
     sayId: String,
+    answerBack: AnswerBack? = null,
+    onAnswerBack: (String) -> Unit = {},
 ) {
     val color = if (f.correct) C.Ok else C.Bad
     Column(
@@ -61,11 +64,12 @@ internal fun FeedbackSheet(
     ) {
         FeedbackTitle(f, aiGraded, color, tts, sayId)
         if (aiGraded) {
-            AiGradedFeedback(f)
+            AiGradedFeedback(f.expected, f.corrections)
         } else if (!f.correct) {
             ExpectedAnswer(f, tts, sayId)
             if (aiOn || explanation?.answered == true) AiExplanation(explanation, aiOn, onExplain)
         }
+        answerBack?.let { AnswerBackBlock(it, onAnswerBack) }
         PrimaryButton(
             stringResource(R.string.continue_),
             onClick = onNext,
@@ -104,17 +108,20 @@ private fun FeedbackTitle(
 }
 
 @Composable
-private fun AiGradedFeedback(f: Feedback) {
+internal fun AiGradedFeedback(
+    summary: String,
+    corrections: List<WritePrompt.Correction>,
+) {
     Selectable {
         Column(
             Modifier.heightIn(max = 260.dp).verticalScroll(rememberScrollState()),
             verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
             Text(
-                f.expected.ifEmpty { stringResource(R.string.write_ungraded) },
+                summary.ifEmpty { stringResource(R.string.write_ungraded) },
                 style = T.body.copy(fontSize = 15.sp, lineHeight = 22.sp),
             )
-            f.corrections.forEach { c ->
+            corrections.forEach { c ->
                 Text(
                     buildAnnotatedString {
                         withStyle(

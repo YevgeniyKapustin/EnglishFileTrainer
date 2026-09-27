@@ -34,7 +34,7 @@ internal fun TalkPictures(
     var opened by rememberSaveable { mutableStateOf<String?>(null) }
     val single = pictures.singleOrNull()?.image
     if (single != null) {
-        PictureThumb(pictures.single(), single, { opened = single }, modifier.fillMaxWidth())
+        PictureThumb(pictures.single(), single, null, modifier.fillMaxWidth())
     } else {
         Row(
             modifier.horizontalScroll(rememberScrollState()),
@@ -68,14 +68,13 @@ internal fun TalkPictures(
 private fun PictureThumb(
     picture: Picture,
     image: String,
-    onOpen: () -> Unit,
+    onOpen: (() -> Unit)?,
     modifier: Modifier = Modifier,
 ) {
+    val shaped = modifier.clip(PictureShape)
     AssetImage(
         image,
         stringResource(R.string.talk_picture, picture.label),
-        modifier
-            .clip(PictureShape)
-            .clickable(onClick = onOpen),
+        if (onOpen == null) shaped else shaped.clickable(onClick = onOpen),
     )
 }

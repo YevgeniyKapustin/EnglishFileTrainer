@@ -109,8 +109,12 @@
         {
           "id": "1C-sb1b",
           "origin": "SB",
-          "instruction": "What are the people in the painting (The Milkmaid by Vermeer) and the photo remake wearing? Write W for the woman and M for the man",
-          "note": "SB 1b; W/M → Blank. Одна картинка на пункт — нельзя показать и картину, и фото, поэтому без картинок (TODO). Ответы наши (MODEL)",
+          "instruction": "What are the people in the painting and the photo wearing? Write W for the woman and M for the man",
+          "note": "SB 1b; W/M → Blank. Над заданием обе картинки книги (images: картина и фото). Ответы наши (MODEL)",
+          "images": [
+            "1c_sb_painting",
+            "1c_sb_photo"
+          ],
           "exercises": [
             {
               "n": 1,
@@ -123,7 +127,6 @@
                   "the woman"
                 ]
               ],
-              "hint": "(W = the woman in the painting, M = the man in the photo)",
               "source": "MODEL"
             },
             {
@@ -137,7 +140,6 @@
                   "the man"
                 ]
               ],
-              "hint": "(W = the woman in the painting, M = the man in the photo)",
               "source": "MODEL"
             },
             {
@@ -151,7 +153,6 @@
                   "the woman"
                 ]
               ],
-              "hint": "(W = the woman in the painting, M = the man in the photo)",
               "source": "MODEL"
             },
             {
@@ -165,7 +166,6 @@
                   "the woman"
                 ]
               ],
-              "hint": "(W = the woman in the painting, M = the man in the photo)",
               "source": "MODEL"
             },
             {
@@ -179,7 +179,6 @@
                   "the man"
                 ]
               ],
-              "hint": "(W = the woman in the painting, M = the man in the photo)",
               "source": "MODEL"
             },
             {
@@ -193,7 +192,6 @@
                   "the woman"
                 ]
               ],
-              "hint": "(W = the woman in the painting, M = the man in the photo)",
               "source": "MODEL"
             }
           ]
@@ -2149,8 +2147,12 @@
         {
           "id": "1C-sb3a",
           "origin": "SB",
-          "instruction": "Look at some sentences about the painting (a woman) and the photo (a man). Complete them with He’s, She’s, or They’re",
-          "note": "SB 3a; нужны сразу обе картинки (картина + фото) — одна image на пункт не подходит, поэтому без картинок (TODO). Ответы наши (MODEL)",
+          "instruction": "Look at some sentences about the painting and the photo. Complete them with He’s, She’s, or They’re",
+          "note": "SB 3a; над заданием обе картинки книги (images: картина и фото). Ответы наши (MODEL)",
+          "images": [
+            "1c_sb_painting",
+            "1c_sb_photo"
+          ],
           "exercises": [
             {
               "n": 1,

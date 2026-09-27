@@ -172,9 +172,40 @@ class ContentValidationTest {
         assumeTrue("нет ${File(dir, "image")}", File(dir, "image").isDirectory)
         val images =
             exercises.mapNotNull { it.image } +
-                exercises.filterIsInstance<Order>().flatMap { o -> o.pictures.map { it.image } }
+                exercises.filterIsInstance<Order>().flatMap { o -> o.pictures.mapNotNull { it.image } } +
+                tasks.flatMap { it.images }
         for (image in images) {
             assertTrue("нет картинки $image", File(dir, imageAsset(image)).isFile)
+        }
+    }
+
+    @Test fun `order cards are all pictures or all text`() {
+        for (e in exercises.filterIsInstance<Order>()) {
+            val withImage = e.pictures.count { it.image != null }
+            assertTrue("${e.id}: картинки вперемешку с текстом", withImage == 0 || withImage == e.pictures.size)
+        }
+    }
+
+    @Test fun `task images are named and distinct`() {
+        for (t in tasks) {
+            assertTrue("${t.id}: имя картинки", t.images.all { Regex("[a-z0-9_]+").matches(it) })
+            assertEquals("${t.id}: повтор картинок", t.images.distinct(), t.images)
+        }
+    }
+
+    @Test fun `bold markup is balanced and only in rewrite prompts`() {
+        for (e in exercises) {
+            val marked = listOfNotNull((e as? Rewrite)?.prompt)
+            val plain =
+                listOfNotNull(e.hint, e.explain, (e as? Blank)?.text) +
+                    (e as? Rewrite)?.answers.orEmpty() +
+                    (e as? Blank)?.gaps?.flatten().orEmpty()
+            assertTrue("${e.id}: ** вне prompt", plain.none { "**" in it })
+            for (p in marked) {
+                val parts = p.split("**")
+                assertTrue("${e.id}: непарные **", parts.size % 2 == 1)
+                assertTrue("${e.id}: пустое **…**", parts.filterIndexed { i, _ -> i % 2 == 1 }.all { it.isNotBlank() })
+            }
         }
     }
 

@@ -84,7 +84,10 @@ PNG → `tools/out/`.
 - расставить картинки или события по порядку («number the pictures 1–6») → одно упражнение `"type": "order"`:
   `"pictures": [{"label": "A", "image": "1a_pe1a_a", "caption": "что на картинке"}, …]`, `"answer": ["B", "D", …]`
   (метки в верном порядке). Это список: перетащить или ↑/↓, потом Check — единственный ввод не с клавиатуры;
-  `caption` не показывается (для ИИ и озвучки);
+  `caption` не показывается (для ИИ и озвучки); порядок фраз («put the sentences in order») — карточки
+  `{"label": "A", "text": "…"}`, все карточки одного вида;
+- картинка (или несколько) на всё задание — `"images": ["1c_sb_painting", "1c_sb_photo"]` у задания;
+- «correct the information in bold» → `rewrite`, неверная часть в `prompt` — `**жирным**` (только в `rewrite`);
 - listen and repeat / скажи вслух → `speak` (группы букв «A K E» — мягкая проверка букв);
 - говорение с партнёром, Communication, вопросы «about you» устно → `talk` (situation, goal, opener, criteria);
 - письмо своими словами (Writing, «write about…», ответы на вопросы о себе) → `write` (prompt, questions, criteria).

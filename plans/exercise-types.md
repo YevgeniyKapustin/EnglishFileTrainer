@@ -20,7 +20,7 @@
 | 9 | Построить/преобразовать фразу | Write questions… / Write sentences (+ − ?) | 1A-wb2c, 1B-gba, 1B-wb2d | 3 / 24 | G | `Rewrite` + `hint` `(?)`, `(you / do last night)` ✓ |
 | 10 | Исправь ошибки | Correct the questions / The computer has found ten mistakes | 1A-sb2a, 1B-wr1b | 2 / 14 | G, Writing | `Rewrite`: фраза в `prompt`, поле пустое, пишется целиком ✓ |
 | 11 | Сопоставление | Match the sentences and the photos / Write the topic of each paragraph | 1B-vb1a, 1B-wr1c | 2 / 20 | V, Writing | `Blank`; у 1B-vb1a над пунктом фото из книги (`image`) ✓ |
-| 12 | Порядок событий/картинок | Number the pictures 1–6 in the order… | 1A-pe1a | 1 / 1 | PE | `Order`: картинки из книги списком, перетащить или ↑/↓, потом Check — единственный ввод не с клавиатуры ✓ |
+| 12 | Порядок событий/картинок | Number the pictures 1–6 in the order… | 1A-pe1a | 1 / 1 | PE | `Order`: картинки из книги списком, перетащить или ↑/↓, потом Check — единственный ввод не с клавиатуры; карточки — картинки или текст (2C-gba, «Put the sentences in order») ✓ |
 | 13 | Диктант (записать услышанное) | Write the letters and numbers you hear / Listen and write the words | 1A-sb4a, 1A-sb3a, 1A-sb3b | 3 / 18 | P, аудирование | `Blank` + `clip` ✓ |
 | 14 | Понимание на слух / видео | Listen/Watch again and answer the questions | 1A-pe1b, 1B-sb4a, 1B-sb4e | 8 / 30 | аудирование, PE | `Blank` с `audio`/`video`, ответ втиснут в пропуск; много вариантов в `gaps` |
 | 15 | Понимание текста | Read the article… Find the information / answer the questions | 1B-sb1d, 1B-wr1a | 2 / 13 | чтение, Writing | `Blank` + `context` ✓ |
@@ -43,6 +43,8 @@
 
 Сделано 27.09: `Task.words` (список над заданием), `Task.dialogue` (чат-пузыри), A/B и T/F → `Rewrite`,
 `prefill` убран, подсказок с первой буквой нет. UI для них — тоже (`plans/screens.md` п. 3).
+Потом: `Order` с текстовыми карточками (`{"label","text"}` вместо `image`+`caption`, все карточки одного вида);
+`Task.images` — картинки книги над заданием (1C sb1b, sb3a); `**жирное**` в `prompt` у `Rewrite` (2A sb1c «correct the bold»).
 
 1. Для видов 14–15 — мягкая проверка ИИ при неверном ответе (если ключ есть): «по смыслу верно?». Без ИИ — как сейчас.
 

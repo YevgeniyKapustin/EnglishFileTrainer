@@ -85,7 +85,7 @@ data class Write(
 
 data class Picture(
     val label: String,
-    val image: String,
+    val image: String?,
     val caption: String,
 )
 
@@ -160,6 +160,7 @@ data class Task(
     val video: String? = null,
     val words: List<String> = emptyList(),
     val dialogue: Boolean = false,
+    val images: List<String> = emptyList(),
 )
 
 val Task.number: String get() =

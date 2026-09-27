@@ -105,7 +105,8 @@ data class Blank(                          // один или несколько
 
 data class Order(                          // "Number the pictures 1–6": 1A-pe1a
     override val id: String,
-    val pictures: List<Picture>,           // Picture(label "A", image "1a_pe1a_a", caption для ИИ и TalkBack)
+    val pictures: List<Picture>,           // Picture(label "A", image "1a_pe1a_a", caption для ИИ и TalkBack);
+                                           // image = null — текстовая карточка, caption и есть текст (2C-gba)
     val answer: List<String>,              // метки в верном порядке — перестановка pictures
     ...
 ) : Exercise
@@ -153,6 +154,7 @@ data class Task(           // одно задание книги: «2a Complete 
     val audio: String? = null,        // трек SB "1.9" → assets/audio/1_9.mp3; плеер над заданием
     val video: String? = null,        // Practical English: ролик "ep1_introduction" (Э8.5)
     val words: List<String> = emptyList(),  // список слов один раз над заданием («from the list»)
+    val images: List<String> = emptyList(),  // картинки книги над заданием: 1C sb1b «1c_sb_painting», «1c_sb_photo»
     val dialogue: Boolean = false,    // пункты — Blank-диалоги: реплики через 
 , пузыри слева/справа по очереди
 )

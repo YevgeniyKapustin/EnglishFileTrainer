@@ -112,121 +112,111 @@
         {
           "id": "2A-sb1c",
           "origin": "SB",
-          "instruction": "Read the story again. Correct the information in brackets. Write the sentence",
-          "note": "SB 1c «correct the bold information» → Rewrite: фраза в prompt, жирное — в hint; 1 his family → his friends — пример. Текст статьи в context (в книге — закрыть текст)",
+          "instruction": "Read the story again. Correct the information in bold. Write the sentence",
+          "note": "SB 1c «correct the bold information» → Rewrite: фраза в prompt, неверное — **жирным**; 1 his family → his friends — пример. Текст статьи в context (в книге — закрыть текст)",
           "context": "‘Passport, tickets, money, phone’ – It’s the mantra we always say to ourselves when we go on holiday to make sure we haven’t forgotten anything. But what happens when one of those things is suddenly missing? Last year, I went on holiday to the Alps with a group of friends. One day, we climbed a mountain – well, it wasn’t really a climb, but it was a long walk – and it took about two hours to get to the top. When we got there, we had lunch. The view was amazing – we could see the sea in the distance. We took photos and just sat in the sun for a while. Then we went down again, and when we got back to the car, I wanted to take another photo, but I couldn’t find my phone – it wasn’t in my bag. I thought ‘Oh no! It’s probably at the top of the mountain, where we had lunch.’ I decided the only thing to do was to go back up the mountain to get it, because I didn’t want to leave my phone up there. My friends said ‘OK, but you can’t go on your own’, so in the end we all went up again, which was another two hours. When we got to the top we spent about half an hour looking for the phone, but we couldn’t find it anywhere. Then it started to get colder – it was now late afternoon – so I took my jacket out of my bag, and… my phone was in my jacket pocket! I felt terrible, and really stupid! My friends were very nice about it, but they never let me forget it! (Stuart, from Exeter, UK)",
           "exercises": [
             {
               "n": 2,
               "type": "rewrite",
-              "prompt": "One day, they went cycling.",
+              "prompt": "One day, they **went cycling**.",
               "answers": [
                 "One day, they climbed a mountain.",
                 "One day, they went for a walk.",
                 "One day, they went for a long walk.",
                 "One day, they went walking."
               ],
-              "hint": "(went cycling)",
               "explain": "‘we climbed a mountain – well, it wasn’t really a climb, but it was a long walk’",
               "source": "MODEL"
             },
             {
               "n": 3,
               "type": "rewrite",
-              "prompt": "It took three hours to get to the top of the mountain.",
+              "prompt": "It took **three hours** to get to the top of the mountain.",
               "answers": [
                 "It took two hours to get to the top of the mountain.",
                 "It took about two hours to get to the top of the mountain."
               ],
-              "hint": "(three hours)",
               "source": "MODEL"
             },
             {
               "n": 4,
               "type": "rewrite",
-              "prompt": "They had a snack at the top of the mountain.",
+              "prompt": "They had **a snack** at the top of the mountain.",
               "answers": [
                 "They had lunch at the top of the mountain."
               ],
-              "hint": "(a snack)",
               "source": "MODEL"
             },
             {
               "n": 5,
               "type": "rewrite",
-              "prompt": "The view wasn’t very good.",
+              "prompt": "The view **wasn’t very good**.",
               "answers": [
                 "The view was amazing.",
                 "The view was very good."
               ],
-              "hint": "(wasn’t very good)",
               "source": "MODEL"
             },
             {
               "n": 6,
               "type": "rewrite",
-              "prompt": "Stuart wanted to take another photo, but he couldn’t find his camera.",
+              "prompt": "Stuart wanted to take another photo, but he couldn’t find **his camera**.",
               "answers": [
                 "Stuart wanted to take another photo, but he couldn’t find his phone.",
                 "Stuart wanted to take another photo, but he could not find his phone."
               ],
-              "hint": "(his camera)",
               "source": "MODEL"
             },
             {
               "n": 7,
               "type": "rewrite",
-              "prompt": "He went back up the mountain with one of his friends.",
+              "prompt": "He went back up the mountain with **one of his friends**.",
               "answers": [
                 "He went back up the mountain with all his friends.",
                 "He went back up the mountain with his friends.",
                 "He went back up the mountain with all of his friends."
               ],
-              "hint": "(one of his friends)",
               "explain": "‘so in the end we all went up again’",
               "source": "MODEL"
             },
             {
               "n": 8,
               "type": "rewrite",
-              "prompt": "They spent an hour looking for the phone.",
+              "prompt": "They spent **an hour** looking for the phone.",
               "answers": [
                 "They spent half an hour looking for the phone.",
                 "They spent about half an hour looking for the phone."
               ],
-              "hint": "(an hour)",
               "source": "MODEL"
             },
             {
               "n": 9,
               "type": "rewrite",
-              "prompt": "It started to get warmer.",
+              "prompt": "It started to get **warmer**.",
               "answers": [
                 "It started to get colder."
               ],
-              "hint": "(warmer)",
               "source": "MODEL"
             },
             {
               "n": 10,
               "type": "rewrite",
-              "prompt": "He found his phone in his bag.",
+              "prompt": "He found his phone in his **bag**.",
               "answers": [
                 "He found his phone in his jacket pocket.",
                 "He found his phone in his jacket."
               ],
-              "hint": "(bag)",
               "source": "MODEL"
             },
             {
               "n": 11,
               "type": "rewrite",
-              "prompt": "His friends were angry about it.",
+              "prompt": "His friends were **angry** about it.",
               "answers": [
                 "His friends were very nice about it.",
                 "His friends were nice about it."
               ],
-              "hint": "(angry)",
               "source": "MODEL"
             }
           ]

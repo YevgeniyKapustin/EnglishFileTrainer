@@ -1,18 +1,28 @@
 package dev.eftrainer.ui
 
+import androidx.compose.animation.AnimatedContentScope
+import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
+import androidx.compose.animation.slideInHorizontally
+import androidx.compose.animation.slideOutHorizontally
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.SideEffect
+import androidx.compose.ui.Modifier
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.navigation.NavBackStackEntry
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
+import dev.eftrainer.core.theme.C
 import dev.eftrainer.ui.chapters.AllChaptersScreen
 import dev.eftrainer.ui.current.CurrentChapterScreen
 import dev.eftrainer.ui.current.CurrentChapterViewModel
@@ -52,6 +62,17 @@ import kotlinx.serialization.Serializable
     val chapterId: String,
 )
 
+private const val SLIDE_MS = 220
+private const val SLIDE_SHARE = 6
+
+private inline fun <reified T : Any> NavGraphBuilder.screen(
+    noinline content: @Composable AnimatedContentScope.(NavBackStackEntry) -> Unit,
+) {
+    composable<T> { entry ->
+        Box(Modifier.fillMaxSize().background(C.Paper)) { content(entry) }
+    }
+}
+
 @Composable
 fun AppNavigation(
     onHomeReady: () -> Unit,
@@ -64,18 +85,20 @@ fun AppNavigation(
     NavHost(
         nav,
         startDestination = CurrentRoute,
-        enterTransition = { fadeIn(tween(150)) },
-        exitTransition = { fadeOut(tween(0)) },
+        enterTransition = { fadeIn(tween(SLIDE_MS)) + slideInHorizontally(tween(SLIDE_MS)) { it / SLIDE_SHARE } },
+        exitTransition = { fadeOut(tween(SLIDE_MS), targetAlpha = 1f) },
+        popEnterTransition = { EnterTransition.None },
+        popExitTransition = { fadeOut(tween(SLIDE_MS)) + slideOutHorizontally(tween(SLIDE_MS)) { it / SLIDE_SHARE } },
     ) {
         chapterScreens(nav, onHomeReady)
-        composable<SettingsRoute> {
+        screen<SettingsRoute> {
             SettingsScreen(
                 onBack = { nav.popBackStack() },
                 onVoice = { nav.navigate(VoiceRoute) },
             )
         }
-        composable<VoiceRoute> { VoicePickerScreen(onBack = { nav.popBackStack() }) }
-        composable<SectionRoute> { entry ->
+        screen<VoiceRoute> { VoicePickerScreen(onBack = { nav.popBackStack() }) }
+        screen<SectionRoute> { entry ->
             val id = entry.toRoute<SectionRoute>().sectionId
             SectionScreen(
                 sectionId = id,
@@ -85,7 +108,7 @@ fun AppNavigation(
                 onAgain = { nav.navigate(SessionRoute(id, again = true)) },
             )
         }
-        composable<RulesRoute> { entry ->
+        screen<RulesRoute> { entry ->
             val route = entry.toRoute<RulesRoute>()
             RulesScreen(
                 sectionId = route.sectionId,
@@ -94,7 +117,7 @@ fun AppNavigation(
                 onStart = { nav.navigate(SessionRoute(route.sectionId)) },
             )
         }
-        composable<SessionRoute> { entry ->
+        screen<SessionRoute> { entry ->
             val route = entry.toRoute<SessionRoute>()
             SessionScreen(
                 route.sectionId,
@@ -109,7 +132,7 @@ private fun NavGraphBuilder.chapterScreens(
     nav: NavHostController,
     onHomeReady: () -> Unit,
 ) {
-    composable<CurrentRoute> {
+    screen<CurrentRoute> {
         val container = appContainer()
         val home = viewModel(key = "home") { CurrentChapterViewModel(container) }
         val ready = home.state.collectAsStateWithLifecycle().value != null
@@ -123,16 +146,16 @@ private fun NavGraphBuilder.chapterScreens(
             vm = home,
         )
     }
-    composable<StatsRoute> {
+    screen<StatsRoute> {
         StatsScreen(onBack = { nav.popBackStack() }, onSection = { nav.navigate(SectionRoute(it)) })
     }
-    composable<ChaptersRoute> {
+    screen<ChaptersRoute> {
         AllChaptersScreen(
             onBack = { nav.popBackStack() },
             onChapter = { nav.navigate(ChapterRoute(it)) },
         )
     }
-    composable<ChapterRoute> { entry ->
+    screen<ChapterRoute> { entry ->
         CurrentChapterScreen(
             onAllChapters = { nav.popBackStack() },
             onSection = { nav.navigate(SectionRoute(it)) },

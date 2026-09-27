@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Practice</title><link rel="stylesheet" href="style.css"><script src="theme.js"></script>
+<style>
+.q{font-size:24px;line-height:1.7}
+.hint{font-size:17px;color:var(--muted);white-space:nowrap}
+</style></head>
+<body><div class="phone">
+  <div class="top" style="gap:8px">
+    <a class="iconbtn" href="Main.html" aria-label="Close">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></a>
+    <div class="bar grow"><i id="prog" style="width:0"></i></div>
+    <div class="label" id="count" style="width:48px;text-align:right;font-size:14px"></div>
+  </div>
+
+  <div class="pad" style="display:flex;flex-direction:column;gap:20px;margin-top:20px">
+    <div style="display:flex;align-items:center;gap:8px">
+      <span class="tag g">G</span>
+      <div class="grow" id="instr" style="font-size:15px;font-weight:600;color:var(--ef-g)"></div>
+    </div>
+    <div id="body"></div>
+  </div>
+
+  <div class="grow"></div>
+  <div class="bottom" id="checkWrap"><button class="btn" id="check" onclick="check()" disabled>Check</button></div>
+  <div id="sheet"></div>
+</div>
+<script>
+// Глава 1A. Всё вписывается с клавиатуры — вариантов на выбор нет.
+const norm = s => s.trim().replace(/’/g, "'").replace(/\s+/g, ' ').replace(/[.?!]+$/, '').toLowerCase();
+const EX = [
+  { type: 'blank', instr: 'Complete the question', text: 'Where {} born?', hint: '(you / be)', gaps: [['were you']],
+    why: 'With the verb be, the verb comes before the subject in a question: you were → were you. Where were you born?' },
+  { type: 'rewrite', instr: 'Put the words in order', prompt: 'girlfriend / student / is / a / your', answers: ['Is your girlfriend a student?'],
+    why: 'In a question with be, put is before the subject: your girlfriend is → Is your girlfriend…?' },
+  { type: 'rewrite', instr: 'Write the question', prompt: 'What … ? <span class="hint">(you / do last night)</span>', answers: ['What did you do last night?'],
+    why: 'Did already shows the past, so the main verb stays in the base form: What did you do, not What did you did.' },
+  { type: 'rewrite', instr: 'Correct the mistake, if there is one', prefill: 'What time you get up in the morning?', answers: ['What time do you get up in the morning?'],
+    why: 'In the present simple, a question needs do or does before the subject: What time do you get up?' },
+];
+let queue = EX.map((e, i) => i), done = 0, firstTry = 0, wrongOnce = new Set();
+
+function aiOn() { try { return !!localStorage.getItem('ef-ai-key'); } catch (err) { return false; } }
+function inputs() { return [...document.querySelectorAll('#body input, #body textarea')]; }
+
+function show() {
+  if (!queue.length) { location.href = 'SessionDone.html'; return; }
+  const e = EX[queue[0]];
+  document.getElementById('prog').style.width = (done / EX.length * 100) + '%';
+  document.getElementById('count').textContent = Math.min(done + 1, EX.length) + ' / ' + EX.length;
+  document.getElementById('instr').textContent = e.instr;
+  document.getElementById('sheet').innerHTML = '';
+  document.getElementById('checkWrap').style.visibility = '';
+  const body = document.getElementById('body');
+  if (e.type === 'blank') {
+    body.innerHTML = '<div class="q en">' + e.text.replace(/\{\}/g, '<input class="gap" autocomplete="off" spellcheck="false">') +
+      (e.hint ? ' <span class="hint">' + e.hint + '</span>' : '') + '</div>';
+  } else {
+    body.innerHTML = (e.prefill ? '' : '<div class="q en" style="margin-bottom:16px">' + e.prompt + '</div>') +
+      '<textarea class="field" rows="2" autocomplete="off" spellcheck="false"></textarea>';
+    if (e.prefill) body.querySelector('textarea').value = e.prefill;
+  }
+  inputs().forEach(i => {
+    i.addEventListener('input', sync);
+    i.addEventListener('keydown', ev => { if (ev.key === 'Enter') { ev.preventDefault(); if (!document.getElementById('check').disabled) check(); } });
+  });
+  sync();
+  if (window === top) inputs()[0].focus();  // в обзоре не крадём фокус
+}
+
+function sync() { document.getElementById('check').disabled = inputs().some(i => !i.value.trim()); }
+
+function check() {
+  const e = EX[queue[0]], fields = inputs();
+  let ok, answer;
+  if (e.type === 'blank') {
+    const res = fields.map((f, k) => e.gaps[k].map(norm).includes(norm(f.value)));
+    fields.forEach((f, k) => f.classList.add(res[k] ? 'ok' : 'bad'));
+    ok = res.every(Boolean);
+    let k = 0; answer = e.text.replace(/\{\}/g, () => '<b>' + e.gaps[k++][0] + '</b>');
+  } else {
+    ok = e.answers.map(norm).includes(norm(fields[0].value));
+    fields[0].classList.add(ok ? 'ok' : 'bad');
+    answer = e.answers[0];
+  }
+  fields.forEach(f => f.readOnly = true);
+  document.getElementById('checkWrap').style.visibility = 'hidden';
+  const i = queue.shift();
+  if (ok) { done++; if (!wrongOnce.has(i)) firstTry++; }
+  else { wrongOnce.add(i); queue.push(i); }
+  document.getElementById('sheet').innerHTML = ok
+    ? '<div class="sheet ok"><div class="h">Correct</div><button class="btn" id="next">Continue</button></div>'
+    : '<div class="sheet bad"><div class="h">Correct answer:</div><div class="a en">' + answer + '</div>' +
+      (aiOn() ? '<button class="why" id="why">Why?</button>' : '') + '<button class="btn" id="next">Continue</button></div>';
+  const why = document.getElementById('why');
+  // «Why?» есть только с ключом (Settings → AI). В приложении ответ приходит от DeepSeek, здесь — заготовка.
+  if (why) why.onclick = () => {
+    why.outerHTML = '<div class="label" id="why">Thinking…</div>';
+    setTimeout(() => { document.getElementById('why').outerHTML = '<div class="why-text">' + e.why + '</div>'; }, 700);
+  };
+  const next = document.getElementById('next');
+  next.onclick = show;
+  if (window === top) next.focus();
+}
+
+show();
+</script>
+</body></html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Сгенерировано tools/icon.py: значок, веер как на обложке English File 4th. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#FFFFFF" android:pathData="M54,18 A36,36 0 1 1 54,90 A36,36 0 1 1 54,18 Z" />
+    <group>
+        <clip-path android:pathData="M54,18 A36,36 0 1 1 54,90 A36,36 0 1 1 54,18 Z" />
+        <path android:fillColor="#0077C8" android:pathData="M14.0,100.0 L6.5,28.4 A72.0,72.0 0 0 1 31.4,30.1 Z" />
+        <path android:fillColor="#A8DCF5" android:pathData="M14.0,100.0 L25.5,35.0 A66.0,66.0 0 0 1 47.0,42.8 Z" />
+        <path android:fillColor="#00A6E2" android:pathData="M14.0,100.0 L44.9,30.6 A76.0,76.0 0 0 1 64.9,43.5 Z" />
+        <path android:fillColor="#0A7DC6" android:pathData="M14.0,100.0 L62.2,33.7 A82.0,82.0 0 0 1 83.5,56.5 Z" />
+        <path android:fillColor="#005C8F" android:pathData="M14.0,100.0 L76.3,56.4 A76.0,76.0 0 0 1 86.3,76.5 Z" />
+        <path android:fillColor="#0A6B86" android:pathData="M14.0,100.0 L91.9,68.5 A84.0,84.0 0 0 1 98.0,100.0 Z" />
+        <path android:fillColor="#003D66" android:fillAlpha="0.35" android:pathData="M14.0,100.0 L28.3,50.0 A52.0,52.0 0 0 1 43.1,56.9 Z" />
+        <path android:fillColor="#002B4D" android:fillAlpha="0.35" android:pathData="M14.0,100.0 L67.0,71.8 A60.0,60.0 0 0 1 73.4,91.6 Z" />
+    </group>
+</vector>

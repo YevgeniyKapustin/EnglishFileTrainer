@@ -1,0 +1,359 @@
+{
+  "note": "WB «Can you remember…? 1» (WB p.11, PDF 10, ключ PDF 87) — по книге после 1C; черновик из 1B, переименовать id при переносе в 1C",
+  "section": {
+    "id": "1B-review",
+    "kind": "SKILLS",
+    "title": "Can you remember…? 1 (draft: move after 1C)",
+    "reference": [
+      {
+        "type": "note",
+        "title": null,
+        "text": "Revision of File 1 (1A–1C): word order in questions, present simple, present continuous, describing people, clothes, prepositions of place."
+      }
+    ],
+    "tasks": [
+      {
+        "id": "1B-rv1",
+        "origin": "WB",
+        "instruction": "Grammar. Complete with the correct form",
+        "note": "WB «Can you remember…? 1» (WB p.11) 1 Circle → Blank с вариантами в hint; пункт 1 — present continuous (1C)",
+        "exercises": [
+          {
+            "n": 1,
+            "type": "blank",
+            "text": "It’s great to see you! But what {} here in London?",
+            "gaps": [
+              [
+                "are you doing"
+              ]
+            ],
+            "hint": "(you are doing / are you doing)"
+          },
+          {
+            "n": 2,
+            "type": "blank",
+            "text": "Dan really likes that restaurant, but I {} the food’s very good.",
+            "gaps": [
+              [
+                "don’t think",
+                "do not think"
+              ]
+            ],
+            "hint": "(think not / don’t think)"
+          },
+          {
+            "n": 3,
+            "type": "blank",
+            "text": "Excuse me, {} sit here?",
+            "gaps": [
+              [
+                "can I"
+              ]
+            ],
+            "hint": "(can I / I can)"
+          },
+          {
+            "n": 4,
+            "type": "blank",
+            "text": "Don’t worry about Anna. {} late.",
+            "gaps": [
+              [
+                "She’s always",
+                "She is always"
+              ]
+            ],
+            "hint": "(She’s always / She always is)"
+          },
+          {
+            "n": 5,
+            "type": "blank",
+            "text": "My dad’s a teacher. What {} your parents do?",
+            "gaps": [
+              [
+                "do"
+              ]
+            ],
+            "hint": "(does / do)"
+          },
+          {
+            "n": 6,
+            "type": "blank",
+            "text": "Ask Jamie to help you. He {} in IT, so he’s really good with computers.",
+            "gaps": [
+              [
+                "works"
+              ]
+            ],
+            "hint": "(works / work)"
+          }
+        ]
+      },
+      {
+        "id": "1B-rv2",
+        "origin": "WB",
+        "instruction": "Vocabulary. Which word is different? Write it",
+        "note": "WB «Can you remember…? 1» 2; пункты 4–6 — лексика 1C",
+        "exercises": [
+          {
+            "n": 1,
+            "type": "blank",
+            "text": "long, curly, straight, slim → {}",
+            "gaps": [
+              [
+                "slim"
+              ]
+            ],
+            "explain": "slim is about the body; the others describe hair."
+          },
+          {
+            "n": 2,
+            "type": "blank",
+            "text": "hair, height, beard, moustache → {}",
+            "gaps": [
+              [
+                "height"
+              ]
+            ],
+            "explain": "hair, beard and moustache grow on your head / face."
+          },
+          {
+            "n": 3,
+            "type": "blank",
+            "text": "stupid, lazy, unkind, generous → {}",
+            "gaps": [
+              [
+                "generous"
+              ]
+            ],
+            "explain": "generous is positive; the others are negative."
+          },
+          {
+            "n": 4,
+            "type": "blank",
+            "text": "kind, behind, above, between → {}",
+            "gaps": [
+              [
+                "kind"
+              ]
+            ],
+            "explain": "behind, above, between are prepositions of place (1C)."
+          },
+          {
+            "n": 5,
+            "type": "blank",
+            "text": "boots, trainers, jeans, sandals → {}",
+            "gaps": [
+              [
+                "jeans"
+              ]
+            ],
+            "explain": "jeans are clothes; the others are shoes (1C)."
+          },
+          {
+            "n": 6,
+            "type": "blank",
+            "text": "bracelet, earrings, tights, necklace → {}",
+            "gaps": [
+              [
+                "tights"
+              ]
+            ],
+            "explain": "tights are clothes; the others are jewellery (1C)."
+          }
+        ]
+      },
+      {
+        "id": "1B-rv3",
+        "origin": "WB",
+        "instruction": "Pronunciation. Which word or letter has a different sound? Write it",
+        "note": "WB «Can you remember…? 1» 3; звуки computer / bird — из 1C",
+        "exercises": [
+          {
+            "n": 1,
+            "type": "blank",
+            "text": "computer /ə/: shirt, trousers, sweater, cardigan → {}",
+            "gaps": [
+              [
+                "shirt"
+              ]
+            ],
+            "explain": "shirt = /ɜː/ (bird)."
+          },
+          {
+            "n": 2,
+            "type": "blank",
+            "text": "bird /ɜː/: university, work, curly, painter → {}",
+            "gaps": [
+              [
+                "painter"
+              ]
+            ],
+            "explain": "painter ends with /ə/ (computer)."
+          },
+          {
+            "n": 3,
+            "type": "blank",
+            "text": "tree /iː/: A, B, C, D → {}",
+            "gaps": [
+              [
+                "A"
+              ]
+            ],
+            "explain": "A = /eɪ/ (train)."
+          },
+          {
+            "n": 4,
+            "type": "blank",
+            "text": "zebra /z/: meals, clothes, balls, dates → {}",
+            "gaps": [
+              [
+                "dates"
+              ]
+            ],
+            "explain": "dates = /s/."
+          },
+          {
+            "n": 5,
+            "type": "blank",
+            "text": "/ɪz/: likes, washes, uses, watches → {}",
+            "gaps": [
+              [
+                "likes"
+              ]
+            ],
+            "explain": "likes = /s/."
+          },
+          {
+            "n": 6,
+            "type": "blank",
+            "text": "snake /s/: concerts, hats, glasses, coats → {}",
+            "gaps": [
+              [
+                "glasses"
+              ]
+            ],
+            "explain": "glasses = /ɪz/."
+          }
+        ]
+      },
+      {
+        "id": "1B-rv4",
+        "origin": "WB",
+        "instruction": "Grammar and vocabulary. Read the article ‘The Invisible Man’ and complete it",
+        "note": "WB «Can you remember…? 1» 4 «Circle a, b or c» → Blank с вариантами в hint; фото (Лю Болинь сливается с брёвнами) не нужно",
+        "exercises": [
+          {
+            "n": 1,
+            "type": "blank",
+            "text": "Liu Bolin is an artist from China who is now famous {} countries all over the world.",
+            "gaps": [
+              [
+                "in"
+              ]
+            ],
+            "hint": "(under / in / on)"
+          },
+          {
+            "n": 2,
+            "type": "blank",
+            "text": "Liu {} in Shandong, China, in 1973.",
+            "gaps": [
+              [
+                "was born"
+              ]
+            ],
+            "hint": "(was born / was from / is born)"
+          },
+          {
+            "n": 3,
+            "type": "blank",
+            "text": "He {} and works in Beijing,",
+            "gaps": [
+              [
+                "lives"
+              ]
+            ],
+            "hint": "(live / living / lives)"
+          },
+          {
+            "n": 4,
+            "type": "blank",
+            "text": "but he {} travels to other countries.",
+            "gaps": [
+              [
+                "often"
+              ]
+            ],
+            "hint": "(hardly ever / often / never)"
+          },
+          {
+            "n": 5,
+            "type": "blank",
+            "text": "In this photo, Liu {} in front of some logs.",
+            "gaps": [
+              [
+                "is standing"
+              ]
+            ],
+            "hint": "(standing / stands / is standing)"
+          },
+          {
+            "n": 6,
+            "type": "blank",
+            "text": "He’s in the {} of the photo,",
+            "gaps": [
+              [
+                "middle"
+              ]
+            ],
+            "hint": "(middle / left / front)"
+          },
+          {
+            "n": 7,
+            "type": "blank",
+            "text": "and if you look carefully, you can see his {} and jacket.",
+            "gaps": [
+              [
+                "trousers"
+              ]
+            ],
+            "hint": "(shorts / trousers / sweater)"
+          },
+          {
+            "n": 8,
+            "type": "blank",
+            "text": "He chooses a place to stand, and then his assistant {} him paint his clothes and his face.",
+            "gaps": [
+              [
+                "helps"
+              ]
+            ],
+            "hint": "(is helping / helps / helping)"
+          },
+          {
+            "n": 9,
+            "type": "blank",
+            "text": "Sometimes people who are {} past him in the street don’t know that he’s there.",
+            "gaps": [
+              [
+                "walking"
+              ]
+            ],
+            "hint": "(walking / walk / walks)"
+          },
+          {
+            "n": 10,
+            "type": "blank",
+            "text": "Liu’s work is popular because it’s different and fun, but his work also has a {} message.",
+            "gaps": [
+              [
+                "serious"
+              ]
+            ],
+            "hint": "(serious / generous / funny)"
+          }
+        ]
+      }
+    ]
+  }
+}

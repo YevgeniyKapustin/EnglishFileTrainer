@@ -1,0 +1,29 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+/app/build/
+*.apk
+*.aab
+*.jks
+*.keystore
+keystore.properties
+
+# учебники — большие бинарники, не для репозитория
+*.pdf
+
+# аудио SB — вшивается в APK, но не в git (размер, авторские права)
+/app/src/main/assets/audio/
+*.mp3
+*.mp4
+# видео Practical English — тоже вшивается в APK, не в git
+/app/src/main/assets/video/
+/.kotlin/
+
+# рендеры страниц книги для конвейера
+/tools/out/

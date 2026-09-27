@@ -1,0 +1,3677 @@
+{
+  "id": "1B",
+  "title": "The perfect date?",
+  "bubbles": [
+    "What does she look like?",
+    "She has blonde hair and blue eyes."
+  ],
+  "sources": "SB p.8–9 (PDF 9–10), Grammar Bank p.126–127 (PDF 127–128), Vocabulary Bank p.150 (PDF 151), Communication p.102/108 (PDF 103/109), Writing p.113 (PDF 114), scripts p.120 (PDF 121); WB p.6–7 (PDF 5–6), p.11 (PDF 10), key WB p.88 (PDF 87)",
+  "sections": [
+    {
+      "id": "1B-grammar",
+      "kind": "GRAMMAR",
+      "title": "present simple",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Present simple",
+          "headers": [
+            "",
+            "I / you / we / they",
+            "he / she / it"
+          ],
+          "rows": [
+            [
+              "+",
+              "I usually work at home.",
+              "My brother works in the city centre."
+            ],
+            [
+              "−",
+              "My parents don’t live near here.",
+              "It doesn’t often rain here."
+            ],
+            [
+              "?",
+              "Do you speak French?",
+              "Does he like pop music?"
+            ],
+            [
+              "✓ ✗",
+              "Yes, I do. / No, I don’t.",
+              "Yes, he does. / No, he doesn’t."
+            ]
+          ],
+          "audio": "1.15"
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "We use the present simple for things we do every day / week / year, or which are generally true or always happen. Use don’t / doesn’t in negatives and do / does in questions: after them the verb has no -s."
+        },
+        {
+          "type": "table",
+          "title": "Spelling: he / she / it",
+          "headers": [
+            "Rule",
+            "Example"
+          ],
+          "rows": [
+            [
+              "add -s",
+              "work → works, live → lives"
+            ],
+            [
+              "consonant + y → -ies",
+              "study → studies"
+            ],
+            [
+              "add -es after ch, s, sh, x",
+              "finish → finishes, watch → watches"
+            ],
+            [
+              "go, do → -es",
+              "go → goes, do → does"
+            ],
+            [
+              "irregular",
+              "have → has"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Adverbs and expressions of frequency",
+          "headers": [
+            "Word",
+            "Example"
+          ],
+          "rows": [
+            [
+              "often",
+              "We often go out on Friday night."
+            ],
+            [
+              "usually",
+              "She doesn’t usually study at weekends."
+            ],
+            [
+              "never",
+              "I’m never ill."
+            ],
+            [
+              "always",
+              "He’s always late for work."
+            ],
+            [
+              "every day",
+              "She gets up early every day."
+            ],
+            [
+              "twice a week",
+              "We have English classes twice a week."
+            ]
+          ],
+          "audio": "1.16"
+        },
+        {
+          "type": "note",
+          "title": "Word order",
+          "text": "always, usually, often, sometimes, hardly ever, never go before the main verb, but after be: She’s never ill. Expressions like every day, once a week, twice a month usually go at the end of the sentence."
+        },
+        {
+          "type": "mistake",
+          "wrong": "She’s ill never.",
+          "right": "She’s never ill.",
+          "why": "Adverbs of frequency go after be."
+        },
+        {
+          "type": "mistake",
+          "wrong": "It doesn’t never rain.",
+          "right": "It never rains.",
+          "why": "never is already negative: use a positive verb with it."
+        },
+        {
+          "type": "mistake",
+          "wrong": "They go out often together.",
+          "right": "They often go out together.",
+          "why": "Adverbs of frequency go before the main verb."
+        },
+        {
+          "type": "mistake",
+          "wrong": "Does she likes pop music?",
+          "right": "Does she like pop music?",
+          "why": "After does the verb has no -s."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "1B-sb2a",
+          "origin": "SB",
+          "instruction": "Complete the chart",
+          "note": "SB 2a, таблица-схема → четыре пропуска",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "+ I need a new partner. → He {} a new partner.",
+              "gaps": [
+                [
+                  "needs"
+                ]
+              ],
+              "hint": "(need)",
+              "explain": "he / she / it + verb + -s.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "− I don’t want my dad to end up alone. → She {} want her dad to end up alone.",
+              "gaps": [
+                [
+                  "doesn’t",
+                  "does not"
+                ]
+              ],
+              "explain": "he / she / it: doesn’t + verb (want, not wants).",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "? What kind of person {} you want to meet?",
+              "gaps": [
+                [
+                  "do"
+                ]
+              ],
+              "explain": "I / you / we / they: do in questions.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "? What kind of person {} he want to meet?",
+              "gaps": [
+                [
+                  "does"
+                ]
+              ],
+              "explain": "he / she / it: does in questions, and the verb has no -s.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1B-sb2b",
+          "origin": "SB",
+          "instruction": "Which sentence is correct, A or B?",
+          "note": "SB 2b «Tick the correct sentences» → Blank на букву A/B",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "A They often go out together.  B They go out often together. → {}",
+              "gaps": [
+                [
+                  "A"
+                ]
+              ],
+              "hint": "(A or B)",
+              "explain": "often goes before the main verb: They often go out.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "A He always is the one who pays.  B He’s always the one who pays. → {}",
+              "gaps": [
+                [
+                  "B"
+                ]
+              ],
+              "hint": "(A or B)",
+              "explain": "With be the adverb goes after the verb: He’s always…",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1B-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Write sentences or questions with the present simple",
+          "note": "GB 1B a; пример he / usually get up late → He usually gets up late. Ключа к GB нет — ответы наши (MODEL)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "Anna / like music",
+              "answers": [
+                "Does Anna like music?"
+              ],
+              "hint": "(?)"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "my sister / have a lot of hobbies",
+              "answers": [
+                "My sister has a lot of hobbies."
+              ],
+              "hint": "(+)"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "I / get on very well with my parents",
+              "answers": [
+                "I don’t get on very well with my parents.",
+                "I do not get on very well with my parents."
+              ],
+              "hint": "(−)"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "my brother / study English at university",
+              "answers": [
+                "My brother studies English at university."
+              ],
+              "hint": "(+)"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "my neighbours / have any children",
+              "answers": [
+                "My neighbours don’t have any children.",
+                "My neighbours do not have any children."
+              ],
+              "hint": "(−)"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "What time / the film start",
+              "answers": [
+                "What time does the film start?"
+              ],
+              "hint": "(?)"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "he / go out twice a week",
+              "answers": [
+                "He goes out twice a week."
+              ],
+              "hint": "(+)"
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prompt": "we / often talk about politics",
+              "answers": [
+                "We don’t often talk about politics.",
+                "We do not often talk about politics."
+              ],
+              "hint": "(−)"
+            },
+            {
+              "n": 9,
+              "type": "rewrite",
+              "prompt": "how often / you see your brother",
+              "answers": [
+                "How often do you see your brother?"
+              ],
+              "hint": "(?)"
+            },
+            {
+              "n": 10,
+              "type": "rewrite",
+              "prompt": "Sally / go on Facebook very much",
+              "answers": [
+                "Sally doesn’t go on Facebook very much.",
+                "Sally does not go on Facebook very much."
+              ],
+              "hint": "(−)"
+            }
+          ]
+        },
+        {
+          "id": "1B-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Put the words in the correct order",
+          "note": "GB 1B b; пример go cinema we often the to → We often go to the cinema. Ответы MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "always / before / go / I / bed / 11.00 / to",
+              "answers": [
+                "I always go to bed before 11.00."
+              ]
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "ever / her / Kate / sees / family / hardly",
+              "answers": [
+                "Kate hardly ever sees her family."
+              ]
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Saturdays / never / shopping / on / go / we",
+              "answers": [
+                "We never go shopping on Saturdays."
+              ]
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "a / to / I / dentist’s / year / go / twice / the",
+              "answers": [
+                "I go to the dentist’s twice a year."
+              ]
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "in / they / breakfast / sometimes / bed / have",
+              "answers": [
+                "They sometimes have breakfast in bed."
+              ]
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "usually / car / I / the / listen / the / in / radio / to",
+              "answers": [
+                "I usually listen to the radio in the car."
+              ]
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "in / day / park / every / Alan / the / runs",
+              "answers": [
+                "Alan runs in the park every day."
+              ]
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prompt": "often / late / Sam / is / work / for",
+              "answers": [
+                "Sam is often late for work."
+              ]
+            },
+            {
+              "n": 9,
+              "type": "rewrite",
+              "prompt": "often / John / to / go / doesn’t / theatre / the",
+              "answers": [
+                "John doesn’t often go to the theatre."
+              ]
+            },
+            {
+              "n": 10,
+              "type": "rewrite",
+              "prompt": "visit / I / once / my / month / a / mum",
+              "answers": [
+                "I visit my mum once a month."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1B-wb2a",
+          "origin": "WB",
+          "instruction": "Complete the conversations with the present simple form of the verbs in brackets",
+          "note": "WB 2a; 1 Do / live — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "A: {} Louisa {} to marry her boyfriend? B: In a few years perhaps.",
+              "gaps": [
+                [
+                  "Does"
+                ],
+                [
+                  "want"
+                ]
+              ],
+              "hint": "(want)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "A: What’s the weather like where you live? B: It rains a lot in the winter, but it {} often {} in the summer.",
+              "gaps": [
+                [
+                  "doesn’t",
+                  "does not"
+                ],
+                [
+                  "rain"
+                ]
+              ],
+              "hint": "(not rain)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "A: What does José do in the evenings? B: He {} a lot of TV.",
+              "gaps": [
+                [
+                  "watches"
+                ]
+              ],
+              "hint": "(watch)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "A: {} your sister {} Spanish? B: No, but she speaks English and Italian.",
+              "gaps": [
+                [
+                  "Does"
+                ],
+                [
+                  "speak"
+                ]
+              ],
+              "hint": "(speak)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "A: {} you {} Monday to Friday? B: Yes, and I usually work on Saturdays, too.",
+              "gaps": [
+                [
+                  "Do"
+                ],
+                [
+                  "work"
+                ]
+              ],
+              "hint": "(work)"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "A: How often do you play tennis in winter? B: We {} very often because it’s cold and wet.",
+              "gaps": [
+                [
+                  "don’t play",
+                  "do not play"
+                ]
+              ],
+              "hint": "(not play)"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "A: Does your sister like living in Italy? B: Yes, she {} it.",
+              "gaps": [
+                [
+                  "loves"
+                ]
+              ],
+              "hint": "(love)"
+            }
+          ]
+        },
+        {
+          "id": "1B-wb2b",
+          "origin": "WB",
+          "instruction": "Rewrite the sentences with the words in brackets in the correct place. Use contractions where possible",
+          "note": "WB 2b; 1 My dad … doesn’t often go out — пример. 4: ключ — sometimes перед глаголом, начало предложения тоже принимаем",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "You are too old to get married.",
+              "answers": [
+                "You’re never too old to get married.",
+                "You are never too old to get married."
+              ],
+              "hint": "(never)"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Candice sees her boyfriend.",
+              "answers": [
+                "Candice sees her boyfriend every day."
+              ],
+              "hint": "(every day)"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "Alice meets people on the internet.",
+              "answers": [
+                "Alice sometimes meets people on the internet.",
+                "Sometimes Alice meets people on the internet."
+              ],
+              "hint": "(sometimes)"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "It is fun to go on a date.",
+              "answers": [
+                "It’s always fun to go on a date.",
+                "It is always fun to go on a date."
+              ],
+              "hint": "(always)"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "I see my wife these days.",
+              "answers": [
+                "I hardly ever see my wife these days."
+              ],
+              "hint": "(hardly ever)"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "I go out during the week.",
+              "answers": [
+                "I never go out during the week."
+              ],
+              "hint": "(never)"
+            }
+          ]
+        },
+        {
+          "id": "1B-wb2c",
+          "origin": "WB",
+          "instruction": "Complete the text with the correct form of the verbs in the box",
+          "note": "WB 2c «My boyfriend Jamie» (фото пары у озера не нужно); текст разбит по пропускам, 1 works — пример",
+          "context": "My boyfriend Jamie: a student writes about how different she is from her boyfriend. ‘I’m very different from my boyfriend, Jamie. … Some people say that opposites attract, and for Jamie and me, it’s true.’",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Jamie works as a vet, and he {} quite a lot of money.",
+              "gaps": [
+                [
+                  "earns"
+                ]
+              ],
+              "hint": "(earn, get on, have, live, not come, not like, not see, prefer, share, study, want)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I’m a student, and I {} music at university.",
+              "gaps": [
+                [
+                  "study"
+                ]
+              ],
+              "hint": "(earn, get on, have, live, not come, not like, not see, prefer, share, study, want)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I {} to be a music teacher when I finish.",
+              "gaps": [
+                [
+                  "want"
+                ]
+              ],
+              "hint": "(earn, get on, have, live, not come, not like, not see, prefer, share, study, want)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Jamie {} alone in a small house in the country,",
+              "gaps": [
+                [
+                  "lives"
+                ]
+              ],
+              "hint": "(earn, get on, have, live, not come, not like, not see, prefer, share, study, want)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "and I {} a flat with some friends in the city centre.",
+              "gaps": [
+                [
+                  "share"
+                ]
+              ],
+              "hint": "(earn, get on, have, live, not come, not like, not see, prefer, share, study, want)"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "We often {} parties in our flat,",
+              "gaps": [
+                [
+                  "have"
+                ]
+              ],
+              "hint": "(earn, get on, have, live, not come, not like, not see, prefer, share, study, want)"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "but Jamie {}.",
+              "gaps": [
+                [
+                  "doesn’t come",
+                  "does not come"
+                ]
+              ],
+              "hint": "(earn, get on, have, live, not come, not like, not see, prefer, share, study, want)"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "He’s quite shy, so he {} being with other people.",
+              "gaps": [
+                [
+                  "doesn’t like",
+                  "does not like"
+                ]
+              ],
+              "hint": "(earn, get on, have, live, not come, not like, not see, prefer, share, study, want)"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "I’m quite extrovert, so I {} being in a group.",
+              "gaps": [
+                [
+                  "prefer"
+                ]
+              ],
+              "hint": "(earn, get on, have, live, not come, not like, not see, prefer, share, study, want)"
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "I {} Jamie very often because he’s usually busy.",
+              "gaps": [
+                [
+                  "don’t see",
+                  "do not see"
+                ]
+              ],
+              "hint": "(earn, get on, have, live, not come, not like, not see, prefer, share, study, want)"
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "But when we’re together, we always {} really well.",
+              "gaps": [
+                [
+                  "get on"
+                ]
+              ],
+              "hint": "(earn, get on, have, live, not come, not like, not see, prefer, share, study, want)"
+            }
+          ]
+        },
+        {
+          "id": "1B-wb2d",
+          "origin": "WB",
+          "instruction": "Write questions about you (a) and your best friend Anna (b)",
+          "note": "WB 2d; 1a/1b What do you do? / What does Anna do? — пример. n = пункт+буква: 21 = 2a, 22 = 2b, … 52 = 5b",
+          "exercises": [
+            {
+              "n": 21,
+              "type": "rewrite",
+              "prompt": "Where / you / live?",
+              "answers": [
+                "Where do you live?"
+              ],
+              "hint": "(present simple question)"
+            },
+            {
+              "n": 22,
+              "type": "rewrite",
+              "prompt": "Where / Anna / live?",
+              "answers": [
+                "Where does Anna live?"
+              ],
+              "hint": "(present simple question)"
+            },
+            {
+              "n": 31,
+              "type": "rewrite",
+              "prompt": "Who / you / live with?",
+              "answers": [
+                "Who do you live with?"
+              ],
+              "hint": "(present simple question)"
+            },
+            {
+              "n": 32,
+              "type": "rewrite",
+              "prompt": "Who / Anna / live with?",
+              "answers": [
+                "Who does Anna live with?"
+              ],
+              "hint": "(present simple question)"
+            },
+            {
+              "n": 41,
+              "type": "rewrite",
+              "prompt": "you / like going to parties?",
+              "answers": [
+                "Do you like going to parties?"
+              ],
+              "hint": "(present simple question)"
+            },
+            {
+              "n": 42,
+              "type": "rewrite",
+              "prompt": "Anna / like going to parties?",
+              "answers": [
+                "Does Anna like going to parties?"
+              ],
+              "hint": "(present simple question)"
+            },
+            {
+              "n": 51,
+              "type": "rewrite",
+              "prompt": "you / be shy or extrovert?",
+              "answers": [
+                "Are you shy or extrovert?"
+              ],
+              "hint": "(present simple question)"
+            },
+            {
+              "n": 52,
+              "type": "rewrite",
+              "prompt": "Anna / be shy or extrovert?",
+              "answers": [
+                "Is Anna shy or extrovert?"
+              ],
+              "hint": "(present simple question)"
+            }
+          ]
+        },
+        {
+          "id": "1B-wb2e",
+          "origin": "WB",
+          "instruction": "Think about a good friend. Write a paragraph about the differences between you",
+          "note": "WB 2e «Students’ own answers» → письменный ответ (Write), проверяет ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Write a paragraph (60–100 words) about the differences between you and a good friend. Use the text about Jamie and the questions in d.",
+              "questions": [
+                "What do you and your friend do?",
+                "Where do you live?",
+                "Who do you live with?",
+                "Do you like going to parties?",
+                "Are you shy or extrovert?"
+              ],
+              "hint": "(I’m a student, but my friend Anna works in… / She lives…, and I live…)",
+              "criteria": [
+                "compares the writer and the friend in at least 4 things (job / studies, where they live, who they live with, personality, free time)",
+                "uses the present simple correctly, including -s / -es with he / she (he lives, she studies, she watches)",
+                "uses at least two negatives with don’t / doesn’t correctly",
+                "uses at least one adverb or expression of frequency in the right place (often, never, every day…)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1B-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the present simple form of the verb.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "My brother {} to work by bus.",
+              "gaps": [
+                [
+                  "goes"
+                ]
+              ],
+              "hint": "(go)",
+              "explain": "go → goes: go and do add -es.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "She {} Italian and French.",
+              "gaps": [
+                [
+                  "speaks"
+                ]
+              ],
+              "hint": "(speak)",
+              "explain": "he / she / it + -s: speaks.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "My dad {} the news on TV every evening.",
+              "gaps": [
+                [
+                  "watches"
+                ]
+              ],
+              "hint": "(watch)",
+              "explain": "After ch we add -es: watches.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "The baby {} a lot at night.",
+              "gaps": [
+                [
+                  "cries"
+                ]
+              ],
+              "hint": "(cry)",
+              "explain": "consonant + y → -ies: cry → cries.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Our teacher {} two cats and a dog.",
+              "gaps": [
+                [
+                  "has"
+                ]
+              ],
+              "hint": "(have)",
+              "explain": "have is irregular: he / she / it has.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Tom {} his car every Sunday.",
+              "gaps": [
+                [
+                  "washes"
+                ]
+              ],
+              "hint": "(wash)",
+              "explain": "After sh we add -es: washes.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1B-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Rewrite the sentences: (−) = negative, (?) = question.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "She likes jazz.",
+              "answers": [
+                "She doesn’t like jazz.",
+                "She does not like jazz."
+              ],
+              "hint": "(−)",
+              "explain": "doesn’t + verb without -s: likes → doesn’t like.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "They live in London.",
+              "answers": [
+                "Do they live in London?"
+              ],
+              "hint": "(?)",
+              "explain": "they → Do + subject + verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Your brother plays tennis.",
+              "answers": [
+                "Does your brother play tennis?"
+              ],
+              "hint": "(?)",
+              "explain": "he → Does + subject + verb without -s: play.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "We eat meat.",
+              "answers": [
+                "We don’t eat meat.",
+                "We do not eat meat."
+              ],
+              "hint": "(−)",
+              "explain": "we → don’t + verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "The shop opens on Sundays.",
+              "answers": [
+                "The shop doesn’t open on Sundays.",
+                "The shop does not open on Sundays."
+              ],
+              "hint": "(−)",
+              "explain": "the shop = it → doesn’t open.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1B-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Rewrite the sentences with the words in brackets in the correct place.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "I have coffee for breakfast.",
+              "answers": [
+                "I usually have coffee for breakfast."
+              ],
+              "hint": "(usually)",
+              "explain": "Adverbs of frequency go before the main verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "My sister is tired after work.",
+              "answers": [
+                "My sister is always tired after work.",
+                "My sister’s always tired after work."
+              ],
+              "hint": "(always)",
+              "explain": "With be the adverb goes after the verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "We eat out.",
+              "answers": [
+                "We eat out once a month."
+              ],
+              "hint": "(once a month)",
+              "explain": "Expressions like once a month go at the end.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "He doesn’t cook.",
+              "answers": [
+                "He doesn’t often cook.",
+                "He does not often cook."
+              ],
+              "hint": "(often)",
+              "explain": "In negatives the adverb goes after doesn’t, before the main verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "They are at home on Saturdays.",
+              "answers": [
+                "They’re hardly ever at home on Saturdays.",
+                "They are hardly ever at home on Saturdays."
+              ],
+              "hint": "(hardly ever)",
+              "explain": "hardly ever goes after be.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1B-grammar-x4",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes. If a sentence is correct, leave it as it is.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prefill": "My father work in a hospital.",
+              "answers": [
+                "My father works in a hospital."
+              ],
+              "explain": "he / she / it: the verb needs -s.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prefill": "Does she speaks English?",
+              "answers": [
+                "Does she speak English?"
+              ],
+              "explain": "After does the verb has no -s.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prefill": "I go never to the gym.",
+              "answers": [
+                "I never go to the gym."
+              ],
+              "explain": "never goes before the main verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prefill": "He doesn’t never eat fish.",
+              "answers": [
+                "He never eats fish.",
+                "He doesn’t ever eat fish."
+              ],
+              "explain": "never is negative: use it with a positive verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prefill": "She studys at university.",
+              "answers": [
+                "She studies at university."
+              ],
+              "explain": "consonant + y → -ies: studies.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prefill": "We play football twice a week.",
+              "answers": [
+                "We play football twice a week."
+              ],
+              "explain": "Correct: twice a week goes at the end.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1B-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "describing people: appearance and personality",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Appearance: What does he / she look like?",
+          "headers": [
+            "",
+            "Example"
+          ],
+          "rows": [
+            [
+              "eyes",
+              "She has big blue eyes."
+            ],
+            [
+              "hair",
+              "She has curly red hair. She has long straight hair. She has short blonde hair."
+            ],
+            [
+              "no hair",
+              "He’s bald."
+            ],
+            [
+              "face",
+              "He has a beard and a moustache."
+            ],
+            [
+              "height and build",
+              "He’s very tall and thin. He’s medium height and very slim. He’s quite short and a bit overweight."
+            ]
+          ],
+          "audio": "1.13"
+        },
+        {
+          "type": "note",
+          "title": "Using two adjectives together",
+          "text": "Adjectives go in this order: size → style → colour + noun. She has long straight blonde hair. He has big brown eyes."
+        },
+        {
+          "type": "note",
+          "title": "thin or slim? fat or overweight?",
+          "text": "Thin and slim are both the opposite of fat, but slim = thin in an attractive way. Fat is not very polite. It is more polite to say someone is (a bit) overweight."
+        },
+        {
+          "type": "note",
+          "title": "handsome or beautiful?",
+          "text": "Handsome is used for men, beautiful for women; good-looking and attractive are used for both men and women."
+        },
+        {
+          "type": "table",
+          "title": "Personality: What’s he / she like?",
+          "headers": [
+            "Adjective",
+            "Opposite",
+            "A person who…"
+          ],
+          "rows": [
+            [
+              "friendly",
+              "unfriendly",
+              "is open and warm"
+            ],
+            [
+              "talkative",
+              "quiet",
+              "talks a lot"
+            ],
+            [
+              "generous",
+              "mean",
+              "likes giving people things"
+            ],
+            [
+              "kind",
+              "unkind",
+              "is friendly and good to other people"
+            ],
+            [
+              "lazy",
+              "hard-working",
+              "doesn’t want to work"
+            ],
+            [
+              "funny",
+              "serious",
+              "makes people laugh"
+            ],
+            [
+              "clever",
+              "stupid",
+              "is quick at learning and understanding things"
+            ],
+            [
+              "shy",
+              "extrovert",
+              "can’t talk easily to people he / she doesn’t know"
+            ]
+          ],
+          "audio": "1.14"
+        },
+        {
+          "type": "note",
+          "title": "What does she look like? What is she like?",
+          "text": "What does she look like? = Tell me about her appearance (Is she tall / short? What colour hair does she have?). What is she like? = Tell me what kind of person she is (Is she friendly? Is she shy?)."
+        },
+        {
+          "type": "mistake",
+          "wrong": "She has blonde long hair.",
+          "right": "She has long blonde hair.",
+          "why": "size → style → colour."
+        },
+        {
+          "type": "mistake",
+          "wrong": "What is your sister look like?",
+          "right": "What does your sister look like?",
+          "why": "look like is a verb: the question needs does."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "1B-sb1a",
+          "origin": "SB",
+          "instruction": "Listen to three women describing their fathers. Which one is Charlotte, the woman with her father in the photos?",
+          "note": "SB 1a; скрипт 1.11 в книге не напечатан — ответ по расшифровке аудио. Фото → описание",
+          "audio": "1.11",
+          "context": "Photos: Charlotte, a young woman with a short dark bob, with her father Clint – a man in a black suit and bow tie, not very tall, with short grey hair and a big smile.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Charlotte is speaker {}.",
+              "gaps": [
+                [
+                  "2",
+                  "two"
+                ]
+              ],
+              "hint": "(1, 2 or 3)",
+              "explain": "Speaker 2: ‘He’s not very tall… It was dark, but it’s grey now… he’s got a lovely smile.’ Speaker 1’s dad is very tall and thin with blonde hair; speaker 3’s dad is short and thin and wears glasses.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "1B-sb1b",
+          "origin": "SB",
+          "instruction": "Listen to Charlotte again. What adjectives does she use to describe her father’s height, hair, weight, and smile?",
+          "note": "SB 1b; ответы по расшифровке аудио 1.12 (скрипта в книге нет)",
+          "audio": "1.12",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Height: He’s not very {}.",
+              "gaps": [
+                [
+                  "tall"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Hair: It was {}, but it’s {} now.",
+              "gaps": [
+                [
+                  "dark"
+                ],
+                [
+                  "grey",
+                  "gray"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Weight: He’s not {}, but he isn’t {}.",
+              "gaps": [
+                [
+                  "thin"
+                ],
+                [
+                  "overweight"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Smile: He’s got a {} smile.",
+              "gaps": [
+                [
+                  "lovely"
+                ]
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "1B-vb1a",
+          "origin": "SB",
+          "instruction": "Match the sentences and the photos. Complete the sentences. Then listen and check",
+          "note": "VB Describing people 1a+1b; «match the sentences and photos» → фото описаны словами, пропуск — ключевое слово. 1 She has big blue eyes (малыш) — пример. Ответы по аудио 1.13",
+          "audio": "1.13",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Photo 2 (a woman with a lot of red hair in small curls): She has {} red hair.",
+              "gaps": [
+                [
+                  "curly"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [15.63, 18.1]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Photo 3 (a woman with long dark hair that isn’t curly): She has long {} hair.",
+              "gaps": [
+                [
+                  "straight"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [21.23, 23.84]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Photo 4 (a smiling man with no hair): He’s {}.",
+              "gaps": [
+                [
+                  "bald"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [44.61, 46.06]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Photo 5 (a man with a lot of hair on his chin and above his lip): He has a {} and a {}.",
+              "gaps": [
+                [
+                  "beard"
+                ],
+                [
+                  "moustache",
+                  "mustache"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [38.52, 41.41]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Photo 6 (a young woman with short, very light yellow hair): She has short {} hair.",
+              "gaps": [
+                [
+                  "blonde",
+                  "blond"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [32.77, 35.24]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Photo 7 (a very tall young man in shorts; there isn’t much of him): He’s very tall and {}.",
+              "gaps": [
+                [
+                  "thin"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [49.32, 51.7]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Photo 8 (a short man in jeans with a big stomach): He’s quite short and a bit {}.",
+              "gaps": [
+                [
+                  "overweight"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [60.94, 64.25]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Photo 9 (a slim young man, not tall and not short, in a black vest and red trousers): He’s {} height and very slim.",
+              "gaps": [
+                [
+                  "medium"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [54.94, 57.97]
+            }
+          ]
+        },
+        {
+          "id": "1B-vb1c",
+          "origin": "SB",
+          "instruction": "Test yourself: say the sentences",
+          "note": "VB 1c «Cover the phrases and look at the photos. Test yourself» → Speak; фото нет, поэтому говорим фразы",
+          "audio": "1.13",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "She has big blue eyes.",
+              "clip": [26.89, 29.58]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "She has curly red hair.",
+              "clip": [15.63, 18.1]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "She has long straight hair.",
+              "clip": [21.23, 23.84]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "He’s bald.",
+              "answers": [
+                "He’s bald.",
+                "He is bald."
+              ],
+              "clip": [44.61, 46.06]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "He has a beard and a moustache.",
+              "clip": [38.52, 41.41]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "She has short blonde hair.",
+              "clip": [32.77, 35.24]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "He’s very tall and thin.",
+              "answers": [
+                "He’s very tall and thin.",
+                "He is very tall and thin."
+              ],
+              "clip": [49.32, 51.7]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "He’s quite short and a bit overweight.",
+              "answers": [
+                "He’s quite short and a bit overweight.",
+                "He is quite short and a bit overweight."
+              ],
+              "clip": [60.94, 64.25]
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "He’s medium height and very slim.",
+              "answers": [
+                "He’s medium height and very slim.",
+                "He is medium height and very slim."
+              ],
+              "clip": [54.94, 57.97]
+            }
+          ]
+        },
+        {
+          "id": "1B-vb2a",
+          "origin": "SB",
+          "instruction": "Complete the definitions with an adjective from the list",
+          "note": "VB 2a «Match the adjectives to the definitions» → Blank; 1 friendly — пример. Проверено по аудио 1.14",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "A person who talks a lot is {}.",
+              "gaps": [
+                [
+                  "talkative"
+                ]
+              ],
+              "hint": "(clever, friendly, funny, generous, kind, lazy, shy, talkative)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "A person who likes giving people things is {}.",
+              "gaps": [
+                [
+                  "generous"
+                ]
+              ],
+              "hint": "(clever, friendly, funny, generous, kind, lazy, shy, talkative)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "A person who is friendly and good to other people is {}.",
+              "gaps": [
+                [
+                  "kind"
+                ]
+              ],
+              "hint": "(clever, friendly, funny, generous, kind, lazy, shy, talkative)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "A person who doesn’t want to work is {}.",
+              "gaps": [
+                [
+                  "lazy"
+                ]
+              ],
+              "hint": "(clever, friendly, funny, generous, kind, lazy, shy, talkative)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "A person who makes people laugh is {}.",
+              "gaps": [
+                [
+                  "funny"
+                ]
+              ],
+              "hint": "(clever, friendly, funny, generous, kind, lazy, shy, talkative)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "A person who is quick at learning and understanding things is {}.",
+              "gaps": [
+                [
+                  "clever"
+                ]
+              ],
+              "hint": "(clever, friendly, funny, generous, kind, lazy, shy, talkative)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "A person who can’t talk easily to people he / she doesn’t know is {}.",
+              "gaps": [
+                [
+                  "shy"
+                ]
+              ],
+              "hint": "(clever, friendly, funny, generous, kind, lazy, shy, talkative)",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "1B-vb2b",
+          "origin": "SB",
+          "instruction": "Write the opposite of the adjective. Then listen and check",
+          "note": "VB 2b + 2c (Listen and check); ответы по аудио 1.14",
+          "audio": "1.14",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "friendly ≠ {}",
+              "gaps": [
+                [
+                  "unfriendly"
+                ]
+              ],
+              "hint": "(extrovert, hard-working, mean, quiet, serious, stupid, unfriendly, unkind)",
+              "source": "CONFIRMED",
+              "clip": [6.47, 10.49]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "talkative ≠ {}",
+              "gaps": [
+                [
+                  "quiet"
+                ]
+              ],
+              "hint": "(extrovert, hard-working, mean, quiet, serious, stupid, unfriendly, unkind)",
+              "source": "CONFIRMED",
+              "clip": [14.35, 18.16]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "generous ≠ {}",
+              "gaps": [
+                [
+                  "mean"
+                ]
+              ],
+              "hint": "(extrovert, hard-working, mean, quiet, serious, stupid, unfriendly, unkind)",
+              "source": "CONFIRMED",
+              "clip": [21.78, 25.11]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "kind ≠ {}",
+              "gaps": [
+                [
+                  "unkind"
+                ]
+              ],
+              "hint": "(extrovert, hard-working, mean, quiet, serious, stupid, unfriendly, unkind)",
+              "source": "CONFIRMED",
+              "clip": [28.88, 32.77]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "lazy ≠ {}",
+              "gaps": [
+                [
+                  "hard-working",
+                  "hardworking"
+                ]
+              ],
+              "hint": "(extrovert, hard-working, mean, quiet, serious, stupid, unfriendly, unkind)",
+              "source": "CONFIRMED",
+              "clip": [36.66, 40.5]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "funny ≠ {}",
+              "gaps": [
+                [
+                  "serious"
+                ]
+              ],
+              "hint": "(extrovert, hard-working, mean, quiet, serious, stupid, unfriendly, unkind)",
+              "source": "CONFIRMED",
+              "clip": [44.3, 47.7]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "clever ≠ {}",
+              "gaps": [
+                [
+                  "stupid"
+                ]
+              ],
+              "hint": "(extrovert, hard-working, mean, quiet, serious, stupid, unfriendly, unkind)",
+              "source": "CONFIRMED",
+              "clip": [51.55, 54.72]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "shy ≠ {}",
+              "gaps": [
+                [
+                  "extrovert"
+                ]
+              ],
+              "hint": "(extrovert, hard-working, mean, quiet, serious, stupid, unfriendly, unkind)",
+              "source": "CONFIRMED",
+              "clip": [58.69, 62.34]
+            }
+          ]
+        },
+        {
+          "id": "1B-vb2d",
+          "origin": "SB",
+          "instruction": "Say the adjective and its opposite",
+          "note": "VB 2d «Cover the adjectives and look at the definitions. Say the adjective and its opposite» → Speak пар",
+          "audio": "1.14",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "friendly, unfriendly",
+              "clip": [6.47, 10.49]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "talkative, quiet",
+              "clip": [14.35, 18.16]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "generous, mean",
+              "clip": [21.78, 25.11]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "kind, unkind",
+              "clip": [28.88, 32.77]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "lazy, hard-working",
+              "answers": [
+                "lazy, hard-working",
+                "lazy, hardworking"
+              ],
+              "clip": [36.66, 40.5]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "funny, serious",
+              "clip": [44.3, 47.7]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "clever, stupid",
+              "clip": [51.55, 54.72]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "shy, extrovert",
+              "clip": [58.69, 62.34]
+            }
+          ]
+        },
+        {
+          "id": "1B-vbact",
+          "origin": "SB",
+          "instruction": "Ask and answer questions about a member of your family or a good friend",
+          "note": "VB ACTIVATION → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You and the student talk about members of your families or good friends. Your person: your sister Marta, 29 – quite tall and slim, with short dark curly hair and brown eyes; she is talkative, generous and very funny, but a bit lazy at home. First answer the student’s questions about Marta: What does she look like? (appearance) and What’s she like? (personality). Give short, natural answers with the vocabulary of the lesson (tall, short, medium height, slim, thin, a bit overweight, long / short, straight / curly, dark / blonde / red hair, beard, moustache, bald; friendly, talkative, quiet, generous, mean, kind, lazy, hard-working, funny, serious, clever, shy, extrovert). If the student mixes up the questions (e.g. asks What is she like? but means appearance), answer the question they actually asked, so they notice. Then ask about their person: Who are you going to tell me about? What does he / she look like? What’s he / she like? Ask one follow-up question. If the student says fat, say gently that a bit overweight is more polite.",
+              "goal": "Ask your classmate about a member of their family or a good friend (What does … look like? What’s … like?). Then describe a person you know: appearance and personality.",
+              "opener": "Hi! Let’s talk about our families. I’m going to tell you about my sister Marta. What do you want to know?",
+              "criteria": [
+                "asks both What does she look like? and What’s she like? correctly",
+                "describes their own person’s appearance with at least 3 words from the lesson (e.g. tall, slim, curly dark hair)",
+                "describes personality with at least 3 adjectives from the lesson",
+                "uses two adjectives in the right order (size → style → colour: long straight hair)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1B-wb1a",
+          "origin": "WB",
+          "instruction": "Which word can’t be used with the noun? Write it",
+          "note": "WB 1a «Cross out the word that can’t be used» → Blank на лишнее слово; 1 hair: tall — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "eyes: blonde, big, blue, brown → {}",
+              "gaps": [
+                [
+                  "blonde",
+                  "blond"
+                ]
+              ],
+              "explain": "blonde is for hair, not eyes."
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "man: thin, short, long, overweight → {}",
+              "gaps": [
+                [
+                  "long"
+                ]
+              ],
+              "explain": "long is for hair: a long-haired man, not a long man."
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "woman: medium height, slim, beautiful, bald → {}",
+              "gaps": [
+                [
+                  "bald"
+                ]
+              ],
+              "explain": "bald is possible, but it’s not usual for a woman — the key says bald."
+            }
+          ]
+        },
+        {
+          "id": "1B-wb1b",
+          "origin": "WB",
+          "instruction": "Order the letters to make adjectives",
+          "note": "WB 1b; 1 generous — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Sarah’s really {}. She makes me laugh.",
+              "gaps": [
+                [
+                  "funny"
+                ]
+              ],
+              "hint": "(nynfu)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Sam’s very {}. Everybody likes him.",
+              "gaps": [
+                [
+                  "friendly"
+                ]
+              ],
+              "hint": "(rdfylnei)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "John never does his homework. He’s very {}.",
+              "gaps": [
+                [
+                  "lazy"
+                ]
+              ],
+              "hint": "(alzy)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Imogen is a {} girl. She’ll do well in her exams.",
+              "gaps": [
+                [
+                  "clever"
+                ]
+              ],
+              "hint": "(eervlc)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "That was a very {} thing to say.",
+              "gaps": [
+                [
+                  "unkind"
+                ]
+              ],
+              "hint": "(dinukn)"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "David is quite intelligent, but sometimes he says really {} things.",
+              "gaps": [
+                [
+                  "stupid"
+                ]
+              ],
+              "hint": "(updits)"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Paula is really {} – she doesn’t like meeting new people.",
+              "gaps": [
+                [
+                  "shy"
+                ]
+              ],
+              "hint": "(hsy)"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Laura’s usually very {} – she doesn’t talk very much.",
+              "gaps": [
+                [
+                  "quiet"
+                ]
+              ],
+              "hint": "(iuetq)"
+            }
+          ]
+        },
+        {
+          "id": "1B-wb1c",
+          "origin": "WB",
+          "instruction": "Complete the sentences",
+          "note": "WB 1c; 1 brown / blue — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Tanya’s dad doesn’t have any hair. He’s {}.",
+              "gaps": [
+                [
+                  "bald"
+                ]
+              ],
+              "hint": "(b…)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Jamie’s new girlfriend is really {} – she loves meeting new people.",
+              "gaps": [
+                [
+                  "extrovert"
+                ]
+              ],
+              "hint": "(e…)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "My dad never shaves. He has a {} and a {}.",
+              "gaps": [
+                [
+                  "beard"
+                ],
+                [
+                  "moustache",
+                  "mustache"
+                ]
+              ],
+              "hint": "(b…, m…)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "What does your sister look {}? Is she tall and blonde, too?",
+              "gaps": [
+                [
+                  "like"
+                ]
+              ],
+              "hint": "(l…)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "When Jake was young, he was very {}, but now he’s a bit {}.",
+              "gaps": [
+                [
+                  "thin"
+                ],
+                [
+                  "overweight"
+                ]
+              ],
+              "hint": "(th…, o…)"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "My dad is really {} – he starts work at 7.00 and gets home at 6.00.",
+              "gaps": [
+                [
+                  "hard-working",
+                  "hardworking"
+                ]
+              ],
+              "hint": "(h…-w…)"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I’m not {} my sister. I don’t say much, but she’s very {} – in fact she never stops talking.",
+              "gaps": [
+                [
+                  "like"
+                ],
+                [
+                  "talkative"
+                ]
+              ],
+              "hint": "(l…, t…)"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "George is a very {} student – he works hard and wants to do well.",
+              "gaps": [
+                [
+                  "serious"
+                ]
+              ],
+              "hint": "(s…)"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "Dan is really {} – he never pays for anything.",
+              "gaps": [
+                [
+                  "mean"
+                ]
+              ],
+              "hint": "(m…)"
+            }
+          ]
+        },
+        {
+          "id": "1B-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the descriptions.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "My grandfather lost all his hair when he was 40. Now he’s completely {}.",
+              "gaps": [
+                [
+                  "bald"
+                ]
+              ],
+              "explain": "bald = with no hair.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "She has long {} hair – there isn’t a single curl in it.",
+              "gaps": [
+                [
+                  "straight"
+                ]
+              ],
+              "explain": "straight ≠ curly.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "He doesn’t shave his chin, so he has a long {}.",
+              "gaps": [
+                [
+                  "beard"
+                ]
+              ],
+              "explain": "a beard grows on your chin; a moustache is above your lip.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "My brother isn’t tall or short. He’s {} height.",
+              "gaps": [
+                [
+                  "medium"
+                ]
+              ],
+              "explain": "medium height = not tall and not short.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "She has {} hair, the colour of gold.",
+              "gaps": [
+                [
+                  "blonde",
+                  "blond",
+                  "fair"
+                ]
+              ],
+              "explain": "blonde = light yellow hair.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "He eats a lot of burgers, and now he’s a bit {}.",
+              "gaps": [
+                [
+                  "overweight"
+                ]
+              ],
+              "explain": "a bit overweight is more polite than fat.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "She’s tall and {} – she looks like a model.",
+              "gaps": [
+                [
+                  "slim"
+                ]
+              ],
+              "explain": "slim = thin in an attractive way.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1B-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with a personality adjective.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "My boss never says hello or smiles. He’s very {}.",
+              "gaps": [
+                [
+                  "unfriendly"
+                ]
+              ],
+              "explain": "unfriendly ≠ friendly (open and warm).",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Our neighbour often brings us cakes and little presents. She’s very {}.",
+              "gaps": [
+                [
+                  "generous",
+                  "kind"
+                ]
+              ],
+              "explain": "generous = likes giving people things.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "He goes to every party and loves meeting new people. He’s very {}.",
+              "gaps": [
+                [
+                  "extrovert",
+                  "friendly"
+                ]
+              ],
+              "explain": "extrovert ≠ shy.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "My little brother stays in bed until 12 and never helps at home. He’s so {}!",
+              "gaps": [
+                [
+                  "lazy"
+                ]
+              ],
+              "explain": "lazy = doesn’t want to work.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Ben tells great jokes. He’s really {}.",
+              "gaps": [
+                [
+                  "funny"
+                ]
+              ],
+              "explain": "funny = makes people laugh. fun = good to be with.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "She works ten hours a day and never complains. She’s very {}.",
+              "gaps": [
+                [
+                  "hard-working",
+                  "hardworking"
+                ]
+              ],
+              "explain": "hard-working ≠ lazy.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "He never says a word in class. He’s very {}.",
+              "gaps": [
+                [
+                  "quiet",
+                  "shy"
+                ]
+              ],
+              "explain": "quiet ≠ talkative.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1B-vocabulary-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes. If a sentence is correct, leave it as it is.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prefill": "He has black short hair.",
+              "answers": [
+                "He has short black hair."
+              ],
+              "explain": "size → colour: short black hair.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prefill": "What is your brother look like?",
+              "answers": [
+                "What does your brother look like?"
+              ],
+              "explain": "What does he look like? = appearance.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prefill": "He has eyes blue.",
+              "answers": [
+                "He has blue eyes."
+              ],
+              "explain": "The adjective goes before the noun: blue eyes.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prefill": "She’s a very handsome woman.",
+              "answers": [
+                "She’s a very beautiful woman.",
+                "She’s a very good-looking woman.",
+                "She’s a very attractive woman."
+              ],
+              "explain": "handsome is for men; for women use beautiful.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prefill": "My uncle has a moustache but no beard.",
+              "answers": [
+                "My uncle has a moustache but no beard."
+              ],
+              "explain": "Correct: a moustache is above your lip, a beard is on your chin.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prefill": "What’s your sister like? She’s very kind.",
+              "answers": [
+                "What’s your sister like? She’s very kind."
+              ],
+              "explain": "Correct: What’s she like? = personality.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1B-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "final -s and -es",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Pronunciation of final -s and -es",
+          "text": "The final -s is pronounced /s/ or /z/. The final -es is pronounced /ɪz/ after c, ch, g, s, sh, x, and z."
+        },
+        {
+          "type": "table",
+          "title": "Final -s and -es",
+          "headers": [
+            "Sound",
+            "Word",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "/s/",
+              "snake",
+              "likes, meets, concerts, dates, cooks, stops, books, shops"
+            ],
+            [
+              "/z/",
+              "zebra",
+              "pays, meals, wears, clothes, goes, lives, boys, friends"
+            ],
+            [
+              "/ɪz/",
+              "",
+              "uses, glasses, watches, matches, chooses, teaches, classes, languages"
+            ]
+          ],
+          "audio": "1.17"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "1B-sb3a",
+          "origin": "SB",
+          "instruction": "Listen and repeat",
+          "note": "SB 3a; 1–2 /s/ snake, 3–4 /z/ zebra, 5–6 /ɪz/",
+          "audio": "1.17",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "He likes going to concerts.",
+              "clip": [6.56, 8.61]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "He meets interesting people on dates.",
+              "clip": [9.17, 12.18]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "He pays for their meals.",
+              "clip": [17.37, 19.27]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "He wears smart clothes.",
+              "clip": [19.79, 22.33]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "He uses reading glasses.",
+              "clip": [25.89, 28.02]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "He watches a lot of matches.",
+              "clip": [28.59, 31.07]
+            }
+          ]
+        },
+        {
+          "id": "1B-sb3b",
+          "origin": "SB",
+          "instruction": "Write the he / she / it form of the verbs and the plural of the nouns. Then listen and check",
+          "note": "SB 3b «How do you say…? Listen and check» → пишем форму, звук — в explain; формы подтверждены аудио 1.18, звуки — по правилу (MODEL)",
+          "audio": "1.18",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "choose → he {}",
+              "gaps": [
+                [
+                  "chooses"
+                ]
+              ],
+              "explain": "/ɪz/ — after the sound /z/ (s).",
+              "source": "CONFIRMED",
+              "clip": [2.68, 3.98]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "cook → he {}",
+              "gaps": [
+                [
+                  "cooks"
+                ]
+              ],
+              "explain": "/s/",
+              "source": "CONFIRMED",
+              "clip": [5.47, 6.62]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "go → he {}",
+              "gaps": [
+                [
+                  "goes"
+                ]
+              ],
+              "explain": "/z/",
+              "source": "CONFIRMED",
+              "clip": [8.11, 9.31]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "live → he {}",
+              "gaps": [
+                [
+                  "lives"
+                ]
+              ],
+              "explain": "/z/",
+              "source": "CONFIRMED",
+              "clip": [10.81, 12.01]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "stop → he {}",
+              "gaps": [
+                [
+                  "stops"
+                ]
+              ],
+              "explain": "/s/",
+              "source": "CONFIRMED",
+              "clip": [13.53, 14.81]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "teach → he {}",
+              "gaps": [
+                [
+                  "teaches"
+                ]
+              ],
+              "explain": "/ɪz/ — after ch.",
+              "source": "CONFIRMED",
+              "clip": [16.31, 17.53]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "book → two {}",
+              "gaps": [
+                [
+                  "books"
+                ]
+              ],
+              "explain": "/s/",
+              "source": "CONFIRMED",
+              "clip": [19.09, 20.24]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "boy → two {}",
+              "gaps": [
+                [
+                  "boys"
+                ]
+              ],
+              "explain": "/z/",
+              "source": "CONFIRMED",
+              "clip": [21.77, 22.98]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "class → two {}",
+              "gaps": [
+                [
+                  "classes"
+                ]
+              ],
+              "explain": "/ɪz/ — after s.",
+              "source": "CONFIRMED",
+              "clip": [24.48, 25.84]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "friend → two {}",
+              "gaps": [
+                [
+                  "friends"
+                ]
+              ],
+              "explain": "/z/",
+              "source": "CONFIRMED",
+              "clip": [27.35, 28.6]
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "language → two {}",
+              "gaps": [
+                [
+                  "languages"
+                ]
+              ],
+              "explain": "/ɪz/ — after g /dʒ/.",
+              "source": "CONFIRMED",
+              "clip": [30.11, 31.62]
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "shop → two {}",
+              "gaps": [
+                [
+                  "shops"
+                ]
+              ],
+              "explain": "/s/",
+              "source": "CONFIRMED",
+              "clip": [33.06, 34.28]
+            }
+          ]
+        },
+        {
+          "id": "1B-sb3b2",
+          "origin": "SB",
+          "instruction": "Say the words",
+          "note": "SB 3b, вторая половина (сказать вслух) → Speak слов",
+          "audio": "1.18",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "chooses",
+              "clip": [2.68, 3.98]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "cooks",
+              "clip": [5.47, 6.62]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "goes",
+              "clip": [8.11, 9.31]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "lives",
+              "clip": [10.81, 12.01]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "stops",
+              "clip": [13.53, 14.81]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "teaches",
+              "clip": [16.31, 17.53]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "books",
+              "clip": [19.09, 20.24]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "boys",
+              "clip": [21.77, 22.98]
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "classes",
+              "clip": [24.48, 25.84]
+            },
+            {
+              "n": 10,
+              "type": "speak",
+              "text": "friends",
+              "clip": [27.35, 28.6]
+            },
+            {
+              "n": 11,
+              "type": "speak",
+              "text": "languages",
+              "clip": [30.11, 31.62]
+            },
+            {
+              "n": 12,
+              "type": "speak",
+              "text": "shops",
+              "clip": [33.06, 34.28]
+            }
+          ]
+        },
+        {
+          "id": "1B-wb3a",
+          "origin": "WB",
+          "instruction": "Which verb has a different final sound? Write it",
+          "note": "WB 3a «Circle the verb with a different final sound» → Blank; 1 snake: works laughs watches → watches — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "snake /s/: lives, thinks, drinks → {}",
+              "gaps": [
+                [
+                  "lives"
+                ]
+              ],
+              "explain": "lives = /z/. thinks and drinks = /s/."
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "zebra /z/: knows, rains, likes → {}",
+              "gaps": [
+                [
+                  "likes"
+                ]
+              ],
+              "explain": "likes = /s/. knows and rains = /z/."
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "zebra /z/: runs, starts, goes → {}",
+              "gaps": [
+                [
+                  "starts"
+                ]
+              ],
+              "explain": "starts = /s/. runs and goes = /z/."
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "/ɪz/: leaves, dresses, washes → {}",
+              "gaps": [
+                [
+                  "leaves"
+                ]
+              ],
+              "explain": "leaves = /z/. dresses and washes = /ɪz/."
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "/ɪz/: teaches, cooks, uses → {}",
+              "gaps": [
+                [
+                  "cooks"
+                ]
+              ],
+              "explain": "cooks = /s/. teaches and uses = /ɪz/."
+            }
+          ]
+        },
+        {
+          "id": "1B-wb3b",
+          "origin": "WB",
+          "instruction": "Listen and check. Then listen again and repeat the words",
+          "note": "WB 3b (трек WB 1.2 — аудио WB нет): Speak на ряды из 3a, образец — синтезатор (как 1A-wb3b)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "works, laughs, watches"
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "lives, thinks, drinks"
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "knows, rains, likes"
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "runs, starts, goes"
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "leaves, dresses, washes"
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "teaches, cooks, uses"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1B-skills",
+      "kind": "SKILLS",
+      "title": "Reading, Listening & Writing",
+      "reference": [
+        {
+          "type": "note",
+          "title": "fun or funny?",
+          "text": "funny = makes you laugh: He tells funny stories. fun = you have a good time with him / her: He’s romantic and he’s fun. It’s a fun date."
+        },
+        {
+          "type": "note",
+          "title": "Glossary",
+          "text": "swipe = move your finger across a touchscreen on a phone or tablet to activate a function. On a dating app you swipe right if you like someone and left if you don’t."
+        },
+        {
+          "type": "note",
+          "title": "Describing yourself",
+          "text": "A profile has five paragraphs: 1 name, age, nationality (My name’s… Everyone calls me…) 2 work / study, family (I’m going to tell you about myself. I live with…) 3 physical appearance (As you can see from the photo… My father always says…) 4 personality (I think I’m a… person. My friends say…) 5 hobbies and interests (When I’m not in class… When I can, I like…). Age: I’m 21 (years old), not I have 21 years."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "1B-sb1d",
+          "origin": "SB",
+          "instruction": "Read the article about Charlotte and her father Clint. Find the information about Clint",
+          "note": "SB 1d; «find the information» → Blank по пунктам (5 пунктов книги, partner — на двух строках). Ответы по тексту статьи (MODEL)",
+          "context": "Please date my dad! ‘So, how was the date?’ You probably think this is a parent asking the question to their child. But many children are now helping their single parents find love, too. Clint Bouchez, a 52-year-old businessman from Reigate, Surrey, got divorced ten years ago. His daughter, 26-year-old Charlotte, doesn’t want her dad to end up alone – her mum remarried five years ago, and Charlotte has a boyfriend. Charlotte and Clint are very close. They often go out together in the evening, they’re planning a trip to India for later in the year, and they’re both Bruce Springsteen fans. But Charlotte thinks that Clint needs a new partner, and he agrees. ‘My dad is the perfect man,’ she says. ‘He’s warm, he’s generous, he knows how to look after a woman, how to treat a woman. He’s a gentleman. He’s always the one who pays on dates. He’s romantic and he’s fun. I don’t mind spending Friday and Saturday nights with my dad and that says a lot – I’m only 26.’ Dating in the 21st century is very different from when Clint was young. Internet dating has changed everything. ‘It’s difficult now just to walk over to a woman and ask her “Can I buy you a drink?”’ he says. ‘Before, when you met people face to face, there was sometimes a “spark”, a feeling of romantic destiny – you don’t get that from someone’s profile picture.’ Charlotte wrote Clint’s dating profile for an online dating website. Clint would like to meet a woman who works, preferably a businesswoman. Someone who’s independent, but funny and clever. He has had several dates, but none of the women were right for him. He and Charlotte are still looking. ‘I’m always hopeful,’ he says. ‘I really believe that sooner or later I’m going to find “the one”.’",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "His age: {}",
+              "gaps": [
+                [
+                  "52",
+                  "52 years old",
+                  "fifty-two",
+                  "he’s 52"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "His job: {}",
+              "gaps": [
+                [
+                  "businessman",
+                  "a businessman",
+                  "he’s a businessman"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "His marital status: {}",
+              "gaps": [
+                [
+                  "divorced",
+                  "he’s divorced",
+                  "single"
+                ]
+              ],
+              "explain": "He got divorced ten years ago, so now he’s single.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "His personality (Charlotte’s words): warm, {}, romantic and fun",
+              "gaps": [
+                [
+                  "generous"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "His perfect partner: a woman who works, preferably a {}",
+              "gaps": [
+                [
+                  "businesswoman"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "His perfect partner is independent, but {} and clever.",
+              "gaps": [
+                [
+                  "funny"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1B-sb1e",
+          "origin": "SB",
+          "instruction": "Read the article again and answer the questions",
+          "note": "SB 1e — открытые ответы по тексту → Write, проверяет ИИ по criteria (MODEL)",
+          "context": "Please date my dad! ‘So, how was the date?’ You probably think this is a parent asking the question to their child. But many children are now helping their single parents find love, too. Clint Bouchez, a 52-year-old businessman from Reigate, Surrey, got divorced ten years ago. His daughter, 26-year-old Charlotte, doesn’t want her dad to end up alone – her mum remarried five years ago, and Charlotte has a boyfriend. Charlotte and Clint are very close. They often go out together in the evening, they’re planning a trip to India for later in the year, and they’re both Bruce Springsteen fans. But Charlotte thinks that Clint needs a new partner, and he agrees. ‘My dad is the perfect man,’ she says. ‘He’s warm, he’s generous, he knows how to look after a woman, how to treat a woman. He’s a gentleman. He’s always the one who pays on dates. He’s romantic and he’s fun. I don’t mind spending Friday and Saturday nights with my dad and that says a lot – I’m only 26.’ Dating in the 21st century is very different from when Clint was young. Internet dating has changed everything. ‘It’s difficult now just to walk over to a woman and ask her “Can I buy you a drink?”’ he says. ‘Before, when you met people face to face, there was sometimes a “spark”, a feeling of romantic destiny – you don’t get that from someone’s profile picture.’ Charlotte wrote Clint’s dating profile for an online dating website. Clint would like to meet a woman who works, preferably a businesswoman. Someone who’s independent, but funny and clever. He has had several dates, but none of the women were right for him. He and Charlotte are still looking. ‘I’m always hopeful,’ he says. ‘I really believe that sooner or later I’m going to find “the one”.’",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Answer the questions about the article in 1–2 sentences each.",
+              "questions": [
+                "Why does Charlotte want to find Clint a partner?",
+                "How do we know that Charlotte and Clint are close?",
+                "What was dating like when Clint was young?",
+                "How does Clint find dates now, and how has Charlotte helped him?"
+              ],
+              "criteria": [
+                "1: she doesn’t want him to end up alone – her mum has remarried and she has a boyfriend",
+                "2: they often go out together in the evening, they’re planning a trip to India, and they both like Bruce Springsteen",
+                "3: people met face to face, you could walk over to a woman and offer her a drink, and there was sometimes a ‘spark’",
+                "4: he uses internet / online dating; Charlotte wrote his dating profile",
+                "answers are the student’s own sentences, not whole lines copied from the article"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1B-sb1f",
+          "origin": "SB",
+          "instruction": "Look at the two highlighted words in the article: fun and funny. Which word describes…?",
+          "note": "SB 1f",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "a person who makes you laugh: {}",
+              "gaps": [
+                [
+                  "funny"
+                ]
+              ],
+              "hint": "(fun or funny)",
+              "explain": "funny = makes you laugh (Clint wants someone funny and clever).",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "a person who you can have a good time with: {}",
+              "gaps": [
+                [
+                  "fun"
+                ]
+              ],
+              "hint": "(fun or funny)",
+              "explain": "fun = good to be with (He’s romantic and he’s fun).",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1B-sb1g",
+          "origin": "SB",
+          "instruction": "Do you think Charlotte is the best person to help find her dad a date? Why?",
+          "note": "SB 1g — вопрос для обсуждения → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Give your opinion in 2–4 sentences.",
+              "questions": [
+                "Do you think Charlotte is the best person to help find her dad a date? Why (not)?"
+              ],
+              "hint": "(I think she is / isn’t… because…)",
+              "criteria": [
+                "gives a clear opinion (I think… / I don’t think…)",
+                "gives at least one reason connected to the article (e.g. they are very close, she knows him well, she is young and knows internet dating)",
+                "uses the present simple correctly (she knows, he doesn’t…)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1B-sb3c",
+          "origin": "SB",
+          "instruction": "Communication: A date for Clint. Ask and answer questions about two possible dates for Clint",
+          "note": "SB 3c + Communication 1B (A p.102, B p.108) + 3d «class vote»: ученик — A (Maggie), ИИ — B (Tessa). Фото → описание",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "Communication activity ‘A date for Clint’ with an English student (pre-intermediate). The student is Student A and has a profile of Maggie; you are Student B and have a profile of Tessa: Tessa Mills, 42, single, a nurse (‘I’m a nurse’). Looks: long blonde hair, smiling (invent a little more if asked: blue eyes, medium height, slim). Personality: fun, talkative, generous. Likes: travelling, going to pop concerts, going out. Doesn’t like: mean men who never pay for dates. The student asks you about Tessa with these questions: What does she look like? How old is she? What’s her status? What does she do? What’s she like? What does she like doing? What kind of men doesn’t she like? Answer with full, natural sentences in the present simple (She’s a nurse. She likes going to pop concerts.). Then ask the student about Maggie, one question at a time: What does she look like? How old is she? What’s her status? What does she do? What’s she like? What does she like doing? What doesn’t she like doing? At the end ask: Who do you think is a better date for Clint, Maggie or Tessa? Why? Give your own opinion too. If the student makes a mistake with -s (she like, does she likes), repeat the sentence correctly in your answer.",
+              "goal": "Ask about Tessa (What does she look like? How old is she? What’s her status? What does she do? What’s she like? What does she like doing? What kind of men doesn’t she like?). Then answer about your profile – Maggie Carter, 49, divorced. ‘I have a small cosmetics business.’ Short reddish-brown hair, glasses. Hard-working, independent, kind. Likes travelling and listening to classical music. Doesn’t like clubbing or going to places with loud music. Finally decide who is a better date for Clint.",
+              "opener": "Hi! I have Tessa’s profile here. What do you want to know about her?",
+              "criteria": [
+                "asks at least 5 of the 7 questions about Tessa with correct word order (What does she look like? What does she do?…)",
+                "answers questions about Maggie in full sentences with correct he / she forms (She has a small cosmetics business. She likes travelling.)",
+                "uses doesn’t correctly in a negative (She doesn’t like clubbing.)",
+                "chooses Maggie or Tessa for Clint and gives a reason"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1B-sb4a",
+          "origin": "SB",
+          "instruction": "Listen to Elspbeth Gordon, a journalist, talking about a dating experiment. Answer the questions",
+          "note": "SB 4a; открытые вопросы → Blank на ключевое слово. Ответы по скрипту 1.19 (SB p.120). Glossary: swipe = move your finger across a touchscreen",
+          "audio": "1.19",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "What kind of app does Elspbeth use? A {} app.",
+              "gaps": [
+                [
+                  "dating"
+                ]
+              ],
+              "explain": "Her favourite dating app is called Tinder.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "What do you do if you like someone? You swipe {}.",
+              "gaps": [
+                [
+                  "right"
+                ]
+              ],
+              "explain": "Swipe right if you like them, swipe left if you don’t.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "What’s Elspbeth’s mother going to do? She’s going to {} the men for her dates.",
+              "gaps": [
+                [
+                  "choose",
+                  "swipe",
+                  "pick"
+                ]
+              ],
+              "explain": "Elspbeth gives her mother her phone; her mother swipes the men she likes and chooses the best matches.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "What’s Elspbeth going to do? She’s going to go on a {} with the men her mother chooses.",
+              "gaps": [
+                [
+                  "date"
+                ]
+              ],
+              "explain": "‘I’ve promised to go on a date with the men she chooses.’",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "1B-sb4b",
+          "origin": "SB",
+          "instruction": "Listen to Elspbeth describe her first two dates. What does she think of her mum’s choices?",
+          "note": "SB 4b; открытый вопрос → два пропуска по скрипту 1.20",
+          "audio": "1.20",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Date 1, John: It’s a fun date, but sadly there isn’t a {}.",
+              "gaps": [
+                [
+                  "spark"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Date 2, Sebastian: He asks for a second date, but she doesn’t really think it’s going to {}.",
+              "gaps": [
+                [
+                  "work"
+                ]
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "1B-sb4c",
+          "origin": "SB",
+          "instruction": "Listen again and match the phrases to the two men. Write J for John or S for Sebastian",
+          "note": "SB 4c; вторую часть («Which man do you think Elspbeth prefers? Why?») опустили — у скрипта нет однозначного ответа",
+          "audio": "1.20",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "He’s tall, dark, and handsome. → {}",
+              "gaps": [
+                [
+                  "S",
+                  "Sebastian"
+                ]
+              ],
+              "hint": "(J or S)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "He’s very tall. → {}",
+              "gaps": [
+                [
+                  "J",
+                  "John"
+                ]
+              ],
+              "hint": "(J or S)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "He’s a teacher. → {}",
+              "gaps": [
+                [
+                  "J",
+                  "John"
+                ]
+              ],
+              "hint": "(J or S)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "He’s from Germany, but he lives in Dublin. → {}",
+              "gaps": [
+                [
+                  "S",
+                  "Sebastian"
+                ]
+              ],
+              "hint": "(J or S)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "There isn’t a spark. → {}",
+              "gaps": [
+                [
+                  "J",
+                  "John"
+                ]
+              ],
+              "hint": "(J or S)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "He’s a real gentleman. → {}",
+              "gaps": [
+                [
+                  "S",
+                  "Sebastian"
+                ]
+              ],
+              "hint": "(J or S)",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "1B-sb4d",
+          "origin": "SB",
+          "instruction": "Listen to the third date. Is it a success? Who do you think the message is from?",
+          "note": "SB 4d; ответы по скрипту 1.21 и аудио 1.22. Пункт 2 (IT) добавлен нами, чтобы было что проверять по деталям",
+          "audio": "1.21",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Is the date with George a success? {}",
+              "gaps": [
+                [
+                  "Yes",
+                  "yes, it is"
+                ]
+              ],
+              "explain": "He’s great fun, relaxed and interesting, has travelled a lot and tells funny stories.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "George works in {}.",
+              "gaps": [
+                [
+                  "IT"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Who do you think the message is from? From her {}.",
+              "gaps": [
+                [
+                  "mother",
+                  "mum",
+                  "mom"
+                ]
+              ],
+              "explain": "Checked in 1.22: the text is from her mother.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "1B-sb4e",
+          "origin": "SB",
+          "instruction": "Listen. Were you right? How does Elspbeth feel? Do you think they have a second date?",
+          "note": "SB 4e; скрипт в книге не напечатан — по расшифровке аудио 1.22. «Do you think they have a second date?» — без ответа в записи, опущено",
+          "audio": "1.22",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "The text says: ‘Well, is he {}? Love Mum’",
+              "gaps": [
+                [
+                  "lovely"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Who reads the text? {}",
+              "gaps": [
+                [
+                  "George"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "How does Elspbeth feel? ‘I want to {}.’",
+              "gaps": [
+                [
+                  "die"
+                ]
+              ],
+              "explain": "She is very embarrassed.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "1B-sb4f",
+          "origin": "SB",
+          "instruction": "Do you think a member of your family could choose a good date for you? Do you think you could choose one for them?",
+          "note": "SB 4f — вопрос для обсуждения → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Answer both questions in 2–4 sentences.",
+              "questions": [
+                "Do you think a member of your family could choose a good date for you?",
+                "Do you think you could choose one for them?"
+              ],
+              "hint": "(I think my… could / couldn’t… because…)",
+              "criteria": [
+                "answers both questions with a clear yes / no opinion",
+                "gives a reason for each answer (e.g. my mum knows me well / we like different things)",
+                "uses the present simple correctly (she knows, we don’t like…)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1B-sb5a",
+          "origin": "SB",
+          "instruction": "Think of a single person you know well – a family member or friend. Prepare to give this information about him or her",
+          "note": "SB 5a — анкета → Write (заметки к 5b)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Complete the form ‘Do you know somebody who is looking for a partner? Help him / her to find one!’ Write short notes or sentences.",
+              "questions": [
+                "Name",
+                "Relationship (single / divorced / separated)",
+                "Age",
+                "Job",
+                "Appearance",
+                "Personality (+ and −)",
+                "Likes",
+                "Doesn’t like"
+              ],
+              "criteria": [
+                "fills in all 8 fields",
+                "appearance uses words from the lesson (tall, slim, curly dark hair…)",
+                "personality has at least one positive and one negative adjective",
+                "likes / doesn’t like use a noun or verb + -ing (travelling, loud music)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1B-sb5b",
+          "origin": "SB",
+          "instruction": "Describe your person to your partner. Your partner listens and asks for more information. Then swap roles",
+          "note": "SB 5b → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). The student describes a single person they know (from a form: name, relationship status, age, job, appearance, personality, likes, doesn’t like), e.g. ‘His name’s Mario, and he’s single. He’s about 30 years old.’ Listen and ask for more information about anything missing (What does he look like? What’s he like? What does he like doing? What doesn’t he like?). Then say if you know anybody who would be a good partner for this person, and why. Then swap roles: describe your person – your cousin Daniel, 34, divorced, a chef; medium height, a bit overweight, short dark hair and a beard; funny, generous, a bit lazy; likes cooking, football and travelling; doesn’t like getting up early or shopping. Give the details only when asked, and let the student ask you questions. At the end ask whether they know anyone for Daniel.",
+              "goal": "Describe a single person you know to your classmate (name, status, age, job, appearance, personality, likes / doesn’t like) and answer their questions. Then ask about their person and say if you know a good partner for him / her.",
+              "opener": "OK, you start. Tell me about your person – who is it?",
+              "criteria": [
+                "describes the person with all the form information: status, age, job, appearance, personality, likes / doesn’t like",
+                "uses he / she forms of the present simple correctly (he works, she doesn’t like)",
+                "asks the partner at least 3 questions about their person (What does he look like? What’s he like? What does he do?…)",
+                "suggests a possible partner and gives a reason"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1B-wr1a",
+          "origin": "SB",
+          "instruction": "Writing: Describing yourself. Read Charlie’s profile and answer the questions",
+          "note": "Writing 1 (SB p.113) 1a; открытые вопросы → Blank на ключевое слово, ответы по тексту (MODEL). Фото → описание",
+          "context": "Charlie’s profile (photo: a smiling young man with short curly black hair in a blue T-shirt). 1 Hi. My name’s Charlie. Well, it’s really Carlos but everyone calls me Charlie. I have 21 years old. I’m Mexican, and I live in Guadalajara. 2 I’m going to tell you about myself. I’m at university. I’m studing physics. I’m in my last year and I really like it. I live with my parents in a flat in the centre. I have a dog, a schnauzer – his name is Towser. 3 As you can see from the foto, I have black hair and browns eyes. My father always says I have a big nose, but I don’t think so. I think it’s a Roman nose! 4 I think I’m a positive person. My freinds say I’m funny and it’s true, I like making people laugh. But I can to be serious too when I need to be! 5 I dont have many free time becuase when I’m not in class I have to do projects or write reports. But when I can, I like watching TV series, especially science fiction series and comedies. I watch them in english with subtitles. I also like playing computer games like World of Warcraft and Starcraft.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "What’s Charlie’s real name? {}",
+              "gaps": [
+                [
+                  "Carlos",
+                  "his real name is Carlos"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Where’s he from? {}",
+              "gaps": [
+                [
+                  "Mexico",
+                  "Guadalajara",
+                  "Guadalajara, Mexico",
+                  "He’s from Mexico",
+                  "He’s Mexican"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "What does he do? He’s at university; he’s studying {}.",
+              "gaps": [
+                [
+                  "physics"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Who does he live with? With his {}.",
+              "gaps": [
+                [
+                  "parents"
+                ]
+              ],
+              "explain": "…and his dog, Towser.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "What does he look like? He has black hair and {} eyes, and a big nose.",
+              "gaps": [
+                [
+                  "brown"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "What’s he like? He’s a positive person; he’s {}, but he can be serious too.",
+              "gaps": [
+                [
+                  "funny"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "What does he do in his free time? He watches TV series and plays computer {}.",
+              "gaps": [
+                [
+                  "games"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1B-wr1b",
+          "origin": "SB",
+          "instruction": "The computer has found ten mistakes in Charlie’s profile: grammar, punctuation, or spelling. Correct them",
+          "note": "Writing 1b; ошибки 7 (dont) и 8 (many) в одном предложении → один пункт n=7, n=8 нет. Ответы MODEL (ключа нет)",
+          "context": "Charlie’s profile (photo: a smiling young man with short curly black hair in a blue T-shirt). 1 Hi. My name’s Charlie. Well, it’s really Carlos but everyone calls me Charlie. I have 21 years old. I’m Mexican, and I live in Guadalajara. 2 I’m going to tell you about myself. I’m at university. I’m studing physics. I’m in my last year and I really like it. I live with my parents in a flat in the centre. I have a dog, a schnauzer – his name is Towser. 3 As you can see from the foto, I have black hair and browns eyes. My father always says I have a big nose, but I don’t think so. I think it’s a Roman nose! 4 I think I’m a positive person. My freinds say I’m funny and it’s true, I like making people laugh. But I can to be serious too when I need to be! 5 I dont have many free time becuase when I’m not in class I have to do projects or write reports. But when I can, I like watching TV series, especially science fiction series and comedies. I watch them in english with subtitles. I also like playing computer games like World of Warcraft and Starcraft.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prefill": "I have 21 years old.",
+              "answers": [
+                "I’m 21 years old.",
+                "I’m 21.",
+                "I am 21 years old.",
+                "I am 21."
+              ],
+              "explain": "Age: be + number: I’m 21 (years old).",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prefill": "I’m studing physics.",
+              "answers": [
+                "I’m studying physics."
+              ],
+              "explain": "study → studying (keep the y).",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prefill": "As you can see from the foto, I have black hair.",
+              "answers": [
+                "As you can see from the photo, I have black hair."
+              ],
+              "explain": "Spelling: photo.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prefill": "I have black hair and browns eyes.",
+              "answers": [
+                "I have black hair and brown eyes."
+              ],
+              "explain": "Adjectives have no plural: brown eyes.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prefill": "My freinds say I’m funny.",
+              "answers": [
+                "My friends say I’m funny."
+              ],
+              "explain": "Spelling: friends.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prefill": "But I can to be serious too.",
+              "answers": [
+                "But I can be serious too."
+              ],
+              "explain": "can + infinitive without to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prefill": "I dont have many free time.",
+              "answers": [
+                "I don’t have much free time."
+              ],
+              "explain": "don’t needs an apostrophe; time is uncountable → much, not many (mistakes 7 and 8).",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "rewrite",
+              "prefill": "I don’t have much free time becuase I have to do projects.",
+              "answers": [
+                "I don’t have much free time because I have to do projects."
+              ],
+              "explain": "Spelling: because.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "rewrite",
+              "prefill": "I watch them in english with subtitles.",
+              "answers": [
+                "I watch them in English with subtitles."
+              ],
+              "explain": "Languages start with a capital letter: English.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1B-wr1c",
+          "origin": "SB",
+          "instruction": "Write the topic of each paragraph. Then say which paragraph each highlighted phrase is from",
+          "note": "Writing 1c, таблица Content / Phrases → Blank. Paragraph 1 (name, age, nationality; My name’s…, Everyone calls me…) — пример. n 6–13 — фразы",
+          "context": "Charlie’s profile (photo: a smiling young man with short curly black hair in a blue T-shirt). 1 Hi. My name’s Charlie. Well, it’s really Carlos but everyone calls me Charlie. I have 21 years old. I’m Mexican, and I live in Guadalajara. 2 I’m going to tell you about myself. I’m at university. I’m studing physics. I’m in my last year and I really like it. I live with my parents in a flat in the centre. I have a dog, a schnauzer – his name is Towser. 3 As you can see from the foto, I have black hair and browns eyes. My father always says I have a big nose, but I don’t think so. I think it’s a Roman nose! 4 I think I’m a positive person. My freinds say I’m funny and it’s true, I like making people laugh. But I can to be serious too when I need to be! 5 I dont have many free time becuase when I’m not in class I have to do projects or write reports. But when I can, I like watching TV series, especially science fiction series and comedies. I watch them in english with subtitles. I also like playing computer games like World of Warcraft and Starcraft.",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Paragraph 2: {}",
+              "gaps": [
+                [
+                  "work / study, family",
+                  "work/study, family",
+                  "work, study, family",
+                  "study, family",
+                  "work / study and family"
+                ]
+              ],
+              "hint": "(hobbies and interests, personality, physical appearance, work / study, family)",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Paragraph 3: {}",
+              "gaps": [
+                [
+                  "physical appearance",
+                  "appearance"
+                ]
+              ],
+              "hint": "(hobbies and interests, personality, physical appearance, work / study, family)",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Paragraph 4: {}",
+              "gaps": [
+                [
+                  "personality"
+                ]
+              ],
+              "hint": "(hobbies and interests, personality, physical appearance, work / study, family)",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Paragraph 5: {}",
+              "gaps": [
+                [
+                  "hobbies and interests",
+                  "hobbies",
+                  "interests"
+                ]
+              ],
+              "hint": "(hobbies and interests, personality, physical appearance, work / study, family)",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I’m going to tell you about… → paragraph {}",
+              "gaps": [
+                [
+                  "2"
+                ]
+              ],
+              "hint": "(1–5)",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "I live with… → paragraph {}",
+              "gaps": [
+                [
+                  "2"
+                ]
+              ],
+              "hint": "(1–5)",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "As you can see from the… → paragraph {}",
+              "gaps": [
+                [
+                  "3"
+                ]
+              ],
+              "hint": "(1–5)",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "My father always says… → paragraph {}",
+              "gaps": [
+                [
+                  "3"
+                ]
+              ],
+              "hint": "(1–5)",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "I think I’m a… → paragraph {}",
+              "gaps": [
+                [
+                  "4"
+                ]
+              ],
+              "hint": "(1–5)",
+              "source": "MODEL"
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "My friends say… → paragraph {}",
+              "gaps": [
+                [
+                  "4"
+                ]
+              ],
+              "hint": "(1–5)",
+              "source": "MODEL"
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "when I’m not in class… → paragraph {}",
+              "gaps": [
+                [
+                  "5"
+                ]
+              ],
+              "hint": "(1–5)",
+              "source": "MODEL"
+            },
+            {
+              "n": 13,
+              "type": "blank",
+              "text": "when I can, I like… → paragraph {}",
+              "gaps": [
+                [
+                  "5"
+                ]
+              ],
+              "hint": "(1–5)",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1B-wr1e",
+          "origin": "SB",
+          "instruction": "Plan and write your profile. Then check it for mistakes (grammar, punctuation, and spelling)",
+          "note": "Writing 1d–f + SB 5c «Write your profile» → один Write (план d и самопроверка f входят в criteria)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Write your profile for a website (120–180 words) in five paragraphs, like Charlie’s: 1 name, age, nationality; 2 work / study, family; 3 physical appearance; 4 personality; 5 hobbies and interests. Use the phrases from Charlie’s profile.",
+              "hint": "(Hi. My name’s… I’m… years old. I’m going to tell you about myself…)",
+              "criteria": [
+                "has five paragraphs in the right order: name / age / nationality; work / study, family; appearance; personality; hobbies and interests",
+                "uses at least 4 of the phrases: My name’s…, everyone calls me…, I’m going to tell you about…, I live with…, As you can see from the…, My friends say…, I think I’m a…, when I can, I like…",
+                "describes appearance and personality with words from the lesson (curly dark hair, slim, talkative, hard-working…)",
+                "correct present simple and age (I’m 25, not I have 25 years)",
+                "no spelling or punctuation mistakes of the kind in Charlie’s profile (don’t, because, English with a capital letter)"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

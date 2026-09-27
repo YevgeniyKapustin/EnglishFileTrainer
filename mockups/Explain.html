@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Explain (v2)</title><link rel="stylesheet" href="style.css"><script src="theme.js"></script></head>
+<body><div class="phone">
+  <div class="top" style="gap:8px">
+    <div class="iconbtn"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></div>
+    <div class="bar grow"><i style="width:40%"></i></div>
+    <span class="later">v2</span>
+  </div>
+  <div class="pad" style="display:flex;flex-direction:column;gap:20px;margin-top:20px">
+    <div class="label" style="font-size:15px">Write the question</div>
+    <div class="en" style="font-size:24px">What … ? <span style="font-size:17px;color:var(--muted)">(you / do last night)</span></div>
+    <textarea class="field bad" rows="2" readonly>What did you did last night?</textarea>
+  </div>
+
+  <div style="position:absolute;inset:0;background:rgba(28,27,25,.3)"></div>
+  <div style="position:absolute;left:0;right:0;bottom:0;background:var(--field);border-radius:20px 20px 0 0;padding:24px;display:flex;flex-direction:column;gap:14px;height:440px">
+    <div style="font-size:19px;font-weight:700">Why not “did”?</div>
+    <div style="font-size:16px;line-height:1.55"><span class="en">Did</span> already shows the past, so the main verb stays in the base form: <span class="en">What did you <b>do</b>?</span></div>
+    <div class="grow"></div>
+    <input class="field" style="font:400 16px 'Golos Text',sans-serif" placeholder="Ask a follow-up…">
+  </div>
+</div></body></html>

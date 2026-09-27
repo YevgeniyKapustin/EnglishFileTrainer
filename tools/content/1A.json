@@ -1,0 +1,3372 @@
+{
+  "id": "1A",
+  "title": "Are you? Can you? Do you? Did you?",
+  "bubbles": [
+    "What do you do?",
+    "I'm at university."
+  ],
+  "sources": "WB p.4–5 (PDF 3–4), key WB p.86 (PDF 87), SB Grammar Bank p.126–127 (PDF 127–128)",
+  "sections": [
+    {
+      "id": "1A-grammar",
+      "kind": "GRAMMAR",
+      "title": "word order in questions",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Questions with be and can",
+          "headers": [
+            "Question word",
+            "Verb",
+            "Subject",
+            ""
+          ],
+          "rows": [
+            [
+              "",
+              "Are",
+              "you",
+              "hungry?"
+            ],
+            [
+              "",
+              "Is",
+              "there",
+              "a bank near here?"
+            ],
+            [
+              "",
+              "Can",
+              "I",
+              "sit here?"
+            ],
+            [
+              "What",
+              "was",
+              "that noise?",
+              ""
+            ],
+            [
+              "Where",
+              "were",
+              "you",
+              "born?"
+            ]
+          ],
+          "audio": "1.4"
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "With be and can we swap the verb and the subject: She is a teacher. → Is she a teacher? He can drive. → Can he drive?"
+        },
+        {
+          "type": "table",
+          "title": "Questions with do / does / did",
+          "headers": [
+            "Question word",
+            "Auxiliary",
+            "Subject",
+            "Infinitive"
+          ],
+          "rows": [
+            [
+              "",
+              "Do",
+              "you",
+              "live with your parents?"
+            ],
+            [
+              "",
+              "Did",
+              "you",
+              "have a holiday last year?"
+            ],
+            [
+              "Where",
+              "does",
+              "your sister",
+              "work?"
+            ],
+            [
+              "When",
+              "did",
+              "you",
+              "start studying English?"
+            ],
+            [
+              "What",
+              "did",
+              "they",
+              "talk about?"
+            ]
+          ],
+          "audio": "1.5"
+        },
+        {
+          "type": "note",
+          "title": "QuASI",
+          "text": "Question word – Auxiliary – Subject – Infinitive. In the present and past simple we add do / does / did."
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "If there's a preposition, we often put it at the end of the question: Who do you live with?"
+        },
+        {
+          "type": "mistake",
+          "wrong": "What time you get up?",
+          "right": "What time do you get up?",
+          "why": "Present simple questions need do / does."
+        },
+        {
+          "type": "mistake",
+          "wrong": "Where you are from?",
+          "right": "Where are you from?",
+          "why": "With be the verb goes before the subject."
+        },
+        {
+          "type": "mistake",
+          "wrong": "What did you did last night?",
+          "right": "What did you do last night?",
+          "why": "After did the verb is in the infinitive."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "1A-sb2a",
+          "origin": "SB",
+          "instruction": "Correct the questions. If a question is already correct, leave it as it is",
+          "note": "SB 2a «Tick the three correct questions. Rewrite the incorrect ones» → Rewrite с prefill; 1 — пример (верный)",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prefill": "Where works your father?",
+              "answers": [
+                "Where does your father work?"
+              ],
+              "explain": "Present simple question: Question word – does – subject – infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prefill": "Were you at this school last year?",
+              "answers": [
+                "Were you at this school last year?"
+              ],
+              "explain": "Correct: with be we just swap the verb and the subject.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prefill": "Is there a supermarket near here?",
+              "answers": [
+                "Is there a supermarket near here?"
+              ],
+              "explain": "Correct: Is there…? is the question form of There is.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prefill": "Have you cereal for breakfast?",
+              "answers": [
+                "Do you have cereal for breakfast?"
+              ],
+              "explain": "have is a normal verb here, so the question needs do.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prefill": "Where went you for your last holiday?",
+              "answers": [
+                "Where did you go for your last holiday?"
+              ],
+              "explain": "Past simple question: did + subject + infinitive (go, not went).",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1A-sb2c",
+          "origin": "SB",
+          "instruction": "Complete the second question with the missing words",
+          "note": "SB 2c; пункт «How many cups do you drink a day?» — пример. 2–5 present, 6–10 past",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Do you go to a gym? What gym {} to?",
+              "gaps": [
+                [
+                  "do you go"
+                ]
+              ],
+              "hint": "(you / go)",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Do you sleep well? How many hours {}?",
+              "gaps": [
+                [
+                  "do you sleep",
+                  "do you sleep a night",
+                  "do you sleep at night"
+                ]
+              ],
+              "hint": "(you / sleep)",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Do you play games on your phone? What games {}?",
+              "gaps": [
+                [
+                  "do you play",
+                  "do you play on your phone"
+                ]
+              ],
+              "hint": "(you / play)",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Do you like watching sport on TV? What sports {}?",
+              "gaps": [
+                [
+                  "do you like watching",
+                  "do you like watching on TV",
+                  "do you like to watch",
+                  "do you watch",
+                  "do you watch on TV"
+                ]
+              ],
+              "hint": "(you / like watching)",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Did you go to bed late last night? What time {} to bed?",
+              "gaps": [
+                [
+                  "did you go"
+                ]
+              ],
+              "hint": "(you / go)",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Did you cook lunch or dinner yesterday? What {}?",
+              "gaps": [
+                [
+                  "did you cook",
+                  "did you cook yesterday",
+                  "did you make"
+                ]
+              ],
+              "hint": "(you / cook)",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Did you go for a walk at the weekend? Where {}?",
+              "gaps": [
+                [
+                  "did you go",
+                  "did you go for a walk",
+                  "did you walk"
+                ]
+              ],
+              "hint": "(you / go)",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Did you see a good film last week? What film {}?",
+              "gaps": [
+                [
+                  "did you see",
+                  "did you watch"
+                ]
+              ],
+              "hint": "(you / see)",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "Did you buy any clothes last month? What {}?",
+              "gaps": [
+                [
+                  "did you buy",
+                  "clothes did you buy"
+                ]
+              ],
+              "hint": "(you / buy)",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1A-sb2d",
+          "origin": "SB",
+          "instruction": "Ask the first question. If the answer is Yes, ask the second question",
+          "note": "SB 2d mingle → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a friendly classmate in an English class (level: pre-intermediate). The student asks you questions from this list. First they ask a Yes/No question; if you answer Yes, they must ask the follow-up question. PRESENT: Do you drink a lot of tea or coffee? → How many cups do you drink a day? / Do you go to a gym? → What gym do you go to? / Do you sleep well? → How many hours do you sleep? / Do you play games on your phone? → What games do you play? / Do you like watching sport on TV? → What sports do you like watching? PAST: Did you go to bed late last night? → What time did you go to bed? / Did you cook lunch or dinner yesterday? → What did you cook? / Did you go for a walk at the weekend? → Where did you go? / Did you see a good film last week? → What film did you see? / Did you buy any clothes last month? → What did you buy? Invent a consistent person. Answer Yes to most questions but No to one or two, so the student has to move on to the next question. Answer briefly and naturally (e.g. 'Yes, I drink a lot of coffee.' 'Three or four.'). If the student makes a word-order mistake, ask them to repeat the question correctly. Do not ask the student questions yourself except, occasionally, 'And you?'.",
+              "goal": "Ask your classmate the Do you…? / Did you…? questions from 2c. When they say Yes, ask the second question (How many cups do you drink a day? What gym do you go to? …).",
+              "opener": "Hi! OK, I'm ready. Ask me your questions.",
+              "criteria": [
+                "asks at least 6 of the Yes/No questions (Do you…? / Did you…?) with correct word order",
+                "after a Yes answer, asks the matching follow-up question with the right auxiliary (do you / did you)",
+                "uses both present (do) and past (did) questions",
+                "after a No answer, moves on to the next question instead of asking the follow-up"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Put the word or phrase in the correct place in the question",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prefill": "Where we park?",
+              "hint": "(can)",
+              "answers": [
+                "Where can we park?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prefill": "How are you?",
+              "hint": "(old)",
+              "answers": [
+                "How old are you?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prefill": "Does finish at 8.00?",
+              "hint": "(the class)",
+              "answers": [
+                "Does the class finish at 8.00?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prefill": "Where do your friends?",
+              "hint": "(live)",
+              "answers": [
+                "Where do your friends live?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prefill": "Why you answer my email?",
+              "hint": "(didn't)",
+              "answers": [
+                "Why didn't you answer my email?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prefill": "Do you often to the cinema?",
+              "hint": "(go)",
+              "answers": [
+                "Do you often go to the cinema?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prefill": "What this word mean?",
+              "hint": "(does)",
+              "answers": [
+                "What does this word mean?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prefill": "What time did arrive?",
+              "hint": "(your friends)",
+              "answers": [
+                "What time did your friends arrive?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "rewrite",
+              "prefill": "Who are you talking?",
+              "hint": "(to)",
+              "answers": [
+                "Who are you talking to?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "rewrite",
+              "prefill": "Where were last night?",
+              "hint": "(you)",
+              "answers": [
+                "Where were you last night?"
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1A-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Put the words in the correct order to make questions",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "you / a / do / have / car",
+              "answers": [
+                "Do you have a car?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "was / brother / your / where / born",
+              "answers": [
+                "Where was your brother born?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "often / he / how / phone / does / you",
+              "answers": [
+                "How often does he phone you?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "their / time / arrive / does / flight / what",
+              "answers": [
+                "What time does their flight arrive?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "Brazil / from / is / girlfriend / your",
+              "answers": [
+                "Is your girlfriend from Brazil?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "languages / how / you / many / can / speak",
+              "answers": [
+                "How many languages can you speak?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "party / the / how / was",
+              "answers": [
+                "How was the party?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prompt": "last / go / where / you / summer / did",
+              "answers": [
+                "Where did you go last summer?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "rewrite",
+              "prompt": "there / doctor / here / is / a",
+              "answers": [
+                "Is there a doctor here?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "rewrite",
+              "prompt": "come / bus / to / you / by / school / did",
+              "answers": [
+                "Did you come to school by bus?"
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1A-wb2a",
+          "origin": "WB",
+          "instruction": "Complete the questions",
+          "note": "WB 2a «Circle the correct form» → Blank, варианты свёрнуты в исходную форму",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Hello, {} help you?",
+              "gaps": [
+                [
+                  "can I"
+                ]
+              ],
+              "hint": "(I / can)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Where {} born?",
+              "gaps": [
+                [
+                  "were you"
+                ]
+              ],
+              "hint": "(you / be)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{} a drink?",
+              "gaps": [
+                [
+                  "Do the children want"
+                ]
+              ],
+              "hint": "(the children / want)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{} the football match on TV last night?",
+              "gaps": [
+                [
+                  "Did you see"
+                ]
+              ],
+              "hint": "(you / see)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "What {}?",
+              "gaps": [
+                [
+                  "does your boyfriend do"
+                ]
+              ],
+              "hint": "(your boyfriend / do)"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Where {} to speak English?",
+              "gaps": [
+                [
+                  "did she learn"
+                ]
+              ],
+              "hint": "(she / learn)"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "What time {} in the morning?",
+              "gaps": [
+                [
+                  "do you get up"
+                ]
+              ],
+              "hint": "(you / get up)"
+            }
+          ]
+        },
+        {
+          "id": "1A-wb2b",
+          "origin": "WB",
+          "instruction": "Put the words in order to make questions",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "girlfriend / student / is / a / your",
+              "answers": [
+                "Is your girlfriend a student?"
+              ]
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "what / at / you / do / the / weekend / do",
+              "answers": [
+                "What do you do at the weekend?"
+              ]
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "out / how / you / go / often / do",
+              "answers": [
+                "How often do you go out?"
+              ]
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "did / go / last / where / you / Saturday",
+              "answers": [
+                "Where did you go last Saturday?"
+              ]
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "a / did / time / nice / you / have",
+              "answers": [
+                "Did you have a nice time?"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-wb2c",
+          "origin": "WB",
+          "instruction": "Write questions in the present or past simple",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "What … ?",
+              "hint": "(you / do last night)",
+              "answers": [
+                "What did you do last night?"
+              ]
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "What … ?",
+              "hint": "(TV series / you / watch)",
+              "answers": [
+                "What TV series do you watch?"
+              ]
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "When … ?",
+              "hint": "(your birthday)",
+              "answers": [
+                "When is your birthday?",
+                "When's your birthday?"
+              ]
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "Where … ?",
+              "hint": "(you / from)",
+              "answers": [
+                "Where are you from?"
+              ]
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "Where … ?",
+              "hint": "(you / go / on holiday last year)",
+              "answers": [
+                "Where did you go on holiday last year?"
+              ]
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "What kind of books … ?",
+              "hint": "(you / read)",
+              "answers": [
+                "What kind of books do you read?"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-wb2d",
+          "origin": "WB",
+          "instruction": "Answer the questions in c about you",
+          "note": "WB 2d «Students’ own answers» → письменный ответ (Write): ученик пишет ответы на 7 вопросов 2c, проверяет ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Answer the questions about you in full sentences.",
+              "questions": [
+                "Where do you live?",
+                "What did you do last night?",
+                "What TV series do you watch?",
+                "When is your birthday?",
+                "Where are you from?",
+                "Where did you go on holiday last year?",
+                "What kind of books do you read?"
+              ],
+              "hint": "(I live in… / Last night I… / My birthday is in…)",
+              "criteria": [
+                "answers at least 6 of the 7 questions in full sentences",
+                "uses the right tense: present simple for questions 1, 3, 4, 5, 7 and past simple for 2 and 6",
+                "past simple forms are correct (went, watched, did…)",
+                "each answer fits the question asked"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Put the words in order to make questions.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "you / where / do / work",
+              "answers": [
+                "Where do you work?"
+              ],
+              "explain": "Present simple: Question word – do – subject – infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "were / late / why / you / yesterday",
+              "answers": [
+                "Why were you late yesterday?"
+              ],
+              "explain": "With be we put the verb before the subject: were you.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "does / what / start / time / the / film",
+              "answers": [
+                "What time does the film start?"
+              ],
+              "explain": "the film = it, so we use does + infinitive (start).",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "parents / born / your / were / where",
+              "answers": [
+                "Where were your parents born?"
+              ],
+              "explain": "be born: Where + were + subject + born?",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "live / who / you / do / with",
+              "answers": [
+                "Who do you live with?"
+              ],
+              "explain": "The preposition (with) goes at the end of the question.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1A-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete the questions.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Where {} last summer?",
+              "gaps": [
+                [
+                  "were you"
+                ]
+              ],
+              "hint": "(you / be)",
+              "explain": "Past of be: were + you. With be we don't use did.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "{} the guitar?",
+              "gaps": [
+                [
+                  "Can you play"
+                ]
+              ],
+              "hint": "(you / can / play)",
+              "explain": "With can we swap the verb and the subject: Can you + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "What time {} yesterday?",
+              "gaps": [
+                [
+                  "did the concert start"
+                ]
+              ],
+              "hint": "(the concert / start)",
+              "explain": "Past simple: did + subject + infinitive (start, not started).",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "How often {} your grandparents?",
+              "gaps": [
+                [
+                  "do you visit"
+                ]
+              ],
+              "hint": "(you / visit)",
+              "explain": "Present simple for habits: How often + do + you + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "How many languages {}?",
+              "gaps": [
+                [
+                  "does your father speak",
+                  "can your father speak"
+                ]
+              ],
+              "hint": "(your father / speak)",
+              "explain": "your father = he, so we use does + infinitive (speak, not speaks).",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1A-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the questions. If a question is already correct, leave it as it is.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prefill": "What time you finish work?",
+              "answers": [
+                "What time do you finish work?"
+              ],
+              "explain": "Present simple questions need do / does.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prefill": "Where does she lives?",
+              "answers": [
+                "Where does she live?"
+              ],
+              "explain": "After does the verb is in the infinitive: live, not lives.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prefill": "Did you went out last night?",
+              "answers": [
+                "Did you go out last night?"
+              ],
+              "explain": "After did the verb is in the infinitive: go, not went.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prefill": "When is your mother's birthday?",
+              "answers": [
+                "When is your mother's birthday?",
+                "When's your mother's birthday?"
+              ],
+              "explain": "Correct: with be the verb goes before the subject.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prefill": "What music does he listen?",
+              "answers": [
+                "What music does he listen to?"
+              ],
+              "explain": "listen to: the preposition stays at the end of the question.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1A-grammar-x4",
+          "origin": "GENERATED",
+          "instruction": "Write the questions.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "Where … ?",
+              "hint": "(your parents / live)",
+              "answers": [
+                "Where do your parents live?"
+              ],
+              "explain": "your parents = they, so we use do + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "What time … ?",
+              "hint": "(you / get up / yesterday)",
+              "answers": [
+                "What time did you get up yesterday?"
+              ],
+              "explain": "yesterday = past simple: did + you + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "How old … ?",
+              "hint": "(your son)",
+              "answers": [
+                "How old is your son?",
+                "How old's your son?"
+              ],
+              "explain": "With be: How old + is + subject.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "Can … ?",
+              "hint": "(your sister / drive)",
+              "answers": [
+                "Can your sister drive?"
+              ],
+              "explain": "With can we swap the verb and the subject: Can + subject + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "Who … ?",
+              "hint": "(you / go to the cinema with / last week)",
+              "answers": [
+                "Who did you go to the cinema with last week?"
+              ],
+              "explain": "last week = past simple: did + infinitive. The preposition (with) goes at the end.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1A-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "common verb phrases",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Common verb phrases",
+          "headers": [
+            "Verb",
+            "Phrases"
+          ],
+          "rows": [
+            [
+              "be born",
+              "in Kraków, in 1997"
+            ],
+            [
+              "do",
+              "exercise, sport"
+            ],
+            [
+              "listen to",
+              "dance music, R&B"
+            ],
+            [
+              "read",
+              "an email, a magazine"
+            ],
+            [
+              "speak",
+              "a foreign language, English"
+            ],
+            [
+              "live",
+              "in a house, with friends"
+            ],
+            [
+              "watch",
+              "a film, a TV series"
+            ],
+            [
+              "go",
+              "to the cinema, on holiday"
+            ],
+            [
+              "have",
+              "two sisters, a pet"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "title": "'Returning' a question",
+          "text": "When you're having a conversation, you often 'return' questions, that is ask somebody the same question that they asked you. You can do this by: 1) saying And you? or What about you? 2) repeating the question, but stressing you, e.g. A: Where are you from? B: I'm from Rome. Where are YOU from?"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "1A-sb1a",
+          "origin": "SB",
+          "instruction": "Complete the questions in Getting to know you with a verb. Then listen and check",
+          "audio": "1.2",
+          "note": "SB 1a/1b; 1–2 — примеры (are, were)",
+          "exercises": [
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Where do you {}?",
+              "gaps": [
+                [
+                  "live"
+                ]
+              ],
+              "hint": "(home)",
+              "source": "MODEL",
+              "clip": [13.4, 15.11]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Do you {} in a house or a flat?",
+              "gaps": [
+                [
+                  "live"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [18.29, 20.93]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Do you {} any brothers and sisters?",
+              "gaps": [
+                [
+                  "have"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [24.21, 26.89]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Do you {} any pets?",
+              "gaps": [
+                [
+                  "have"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [30.06, 31.84]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "What do you {}?",
+              "gaps": [
+                [
+                  "do"
+                ]
+              ],
+              "hint": "(job)",
+              "source": "MODEL",
+              "clip": [35.08, 36.57]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "What time do you {} up during the week?",
+              "gaps": [
+                [
+                  "get"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [39.69, 42.03]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Where do you usually {} lunch?",
+              "gaps": [
+                [
+                  "have",
+                  "eat"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [45.24, 47.86]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "What time do you usually {} to bed?",
+              "gaps": [
+                [
+                  "go"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [51.09, 53.55]
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "Where did you {} English before?",
+              "gaps": [
+                [
+                  "study",
+                  "learn"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [56.85, 59.26]
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "Can you {} any other languages? Which?",
+              "gaps": [
+                [
+                  "speak"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [62.45, 65.77]
+            },
+            {
+              "n": 13,
+              "type": "blank",
+              "text": "What kind of music do you {} to?",
+              "gaps": [
+                [
+                  "listen"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [69.09, 71.81]
+            },
+            {
+              "n": 14,
+              "type": "blank",
+              "text": "What TV programmes or series do you {}?",
+              "gaps": [
+                [
+                  "watch"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [75.33, 78.68]
+            },
+            {
+              "n": 15,
+              "type": "blank",
+              "text": "Do you {} any sport or exercise? What?",
+              "gaps": [
+                [
+                  "do"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [82.11, 86.04]
+            },
+            {
+              "n": 16,
+              "type": "blank",
+              "text": "What kind of books or magazines do you {}?",
+              "gaps": [
+                [
+                  "read"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [89.6, 92.64]
+            },
+            {
+              "n": 17,
+              "type": "blank",
+              "text": "How often do you {} to the cinema?",
+              "gaps": [
+                [
+                  "go"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [96.18, 98.62]
+            },
+            {
+              "n": 18,
+              "type": "blank",
+              "text": "What did you {} last weekend?",
+              "gaps": [
+                [
+                  "do"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [102.08, 104.39]
+            }
+          ]
+        },
+        {
+          "id": "1A-sb1c",
+          "origin": "SB",
+          "instruction": "Listen and repeat questions 1–6. Copy the rhythm and intonation",
+          "audio": "1.3",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "Where are you from?",
+              "source": "MODEL",
+              "clip": [4.09, 5.69]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "Where were you born?",
+              "source": "MODEL",
+              "clip": [9.78, 11.38]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "Where do you live?",
+              "source": "MODEL",
+              "clip": [15.48, 17.2]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "Do you live in a house or a flat?",
+              "source": "MODEL",
+              "clip": [21.37, 24.01]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "Do you have any brothers and sisters?",
+              "source": "MODEL",
+              "clip": [29.3, 31.98]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "Do you have any pets?",
+              "source": "MODEL",
+              "clip": [37.14, 38.93]
+            }
+          ]
+        },
+        {
+          "id": "1A-sb1d",
+          "origin": "SB",
+          "instruction": "Have a conversation. Ask and answer the questions in Getting to know you. After you answer a question, 'return' it",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a new classmate in an English class (level: pre-intermediate): Kasia, from Poznań, in Poland. Invent the rest of your life (home, family, job, free time) and keep it consistent. You and the student have the questionnaire 'Getting to know you': 1 Where are you from? 2 Where were you born? 3 Where do you live? 4 Do you live in a house or a flat? 5 Do you have any brothers and sisters? 6 Do you have any pets? 7 What do you do? 8 What time do you get up during the week? 9 Where do you usually have lunch? 10 What time do you usually go to bed? 11 Where did you study English before? 12 Can you speak any other languages? Which? 13 What kind of music do you listen to? 14 What TV programmes or series do you watch? 15 Do you do any sport or exercise? What? 16 What kind of books or magazines do you read? 17 How often do you go to the cinema? 18 What did you do last weekend? Take turns: ask the student questions from the list, and answer the student's questions. After you answer, often 'return' the question (And you? / What about you? / Where are YOU from?). When the student answers your question, wait: they should return it to you with And you? / What about you? — if they forget, give them a moment, then gently remind them once. Keep your answers short (1–2 sentences).",
+              "goal": "Get to know your new classmate. Ask and answer the questions from Getting to know you. After you answer a question, return it: And you? / What about you?",
+              "opener": "Hi! I'm Kasia. Where are you from?",
+              "criteria": [
+                "asks at least 5 questions from the questionnaire with correct word order",
+                "answers the partner's questions in full, natural sentences",
+                "returns at least 3 questions with And you? / What about you? or by repeating the question",
+                "uses the right verb in the questions (live, have, do, get up, go, speak, listen to, watch, read)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-wb1a",
+          "origin": "WB",
+          "instruction": "Complete with a verb",
+          "note": "WB 1a «Match verbs 1–9 to the nouns» → Blank на пару; n — номер глагола",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "{} exercise, sport",
+              "gaps": [
+                [
+                  "do"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{} dance music, R&B",
+              "gaps": [
+                [
+                  "listen to"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{} an email, a magazine",
+              "gaps": [
+                [
+                  "read"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{} a foreign language, English",
+              "gaps": [
+                [
+                  "speak",
+                  "learn",
+                  "study"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "{} in a house, with friends",
+              "gaps": [
+                [
+                  "live"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "{} a film, a TV series",
+              "gaps": [
+                [
+                  "watch"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "{} to the cinema, on holiday",
+              "gaps": [
+                [
+                  "go"
+                ]
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "{} two sisters, a pet",
+              "gaps": [
+                [
+                  "have",
+                  "have got"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-wb1b",
+          "origin": "WB",
+          "instruction": "Complete the conversations with the missing word",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "A: What did you {} last weekend? B: I went to the cinema with some friends.",
+              "gaps": [
+                [
+                  "do"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "A: Do you do any {} or exercise? B: Yes, I love football and tennis.",
+              "gaps": [
+                [
+                  "sport",
+                  "sports"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "A: What kind of {} do you listen to? B: I love pop and rock.",
+              "gaps": [
+                [
+                  "music"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "A: What do you usually have for {}? B: Just a sandwich and some crisps normally.",
+              "gaps": [
+                [
+                  "lunch"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "A: Do you have any {}? B: Yes, we have two cats.",
+              "gaps": [
+                [
+                  "pets"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "A: Where do you {}? B: In a small flat near the railway station.",
+              "gaps": [
+                [
+                  "live"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "A: Where did you {} English before? B: At school.",
+              "gaps": [
+                [
+                  "learn",
+                  "study",
+                  "do"
+                ]
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "A: What does your father {}? B: He's a teacher.",
+              "gaps": [
+                [
+                  "do"
+                ]
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "A: Where were you {}? B: In Budapest, in 1998. My mum is Hungarian.",
+              "gaps": [
+                [
+                  "born"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with a verb.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Do you {} with your parents or on your own?",
+              "gaps": [
+                [
+                  "live"
+                ]
+              ],
+              "explain": "live with somebody, live in a house / a flat.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "My grandfather was {} in 1950.",
+              "gaps": [
+                [
+                  "born"
+                ]
+              ],
+              "explain": "be born: I was born in…, he was born in…",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I {} a magazine on the train every morning.",
+              "gaps": [
+                [
+                  "read"
+                ]
+              ],
+              "explain": "read an email, a magazine, a book.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "We {} a TV series every evening after dinner.",
+              "gaps": [
+                [
+                  "watch"
+                ]
+              ],
+              "explain": "watch a film, a TV series, the news.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "She {} yoga twice a week.",
+              "gaps": [
+                [
+                  "does"
+                ]
+              ],
+              "explain": "do sport, exercise, yoga. She → does.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I {} to the radio in the car.",
+              "gaps": [
+                [
+                  "listen"
+                ]
+              ],
+              "explain": "listen to music, the radio. Don't forget to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "They {} three children and a dog.",
+              "gaps": [
+                [
+                  "have",
+                  "have got"
+                ]
+              ],
+              "explain": "have + family and pets: They have three children.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Can you {} Spanish?",
+              "gaps": [
+                [
+                  "speak"
+                ]
+              ],
+              "explain": "speak a language: speak English, speak Spanish.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1A-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete the conversations with the missing word.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "A: Do you live in a house? B: No, I live in a small {} in the city centre.",
+              "gaps": [
+                [
+                  "flat",
+                  "apartment"
+                ]
+              ],
+              "explain": "a flat (British English) = an apartment.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "A: Where did you go on {} last year? B: To Greece, with my family.",
+              "gaps": [
+                [
+                  "holiday"
+                ]
+              ],
+              "explain": "go on holiday.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "A: What {} do you like watching? B: Comedies. I love funny films.",
+              "gaps": [
+                [
+                  "films",
+                  "movies"
+                ]
+              ],
+              "explain": "films = movies. A comedy is a kind of film.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "A: Can you speak a foreign {}? B: Yes, a little German.",
+              "gaps": [
+                [
+                  "language"
+                ]
+              ],
+              "explain": "a foreign language: German, French, Spanish…",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "A: What do you do? B: I'm a nurse. I really like my {}.",
+              "gaps": [
+                [
+                  "job",
+                  "work"
+                ]
+              ],
+              "explain": "What do you do? = What's your job?",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "A: What's your favourite {}? B: Tennis. I play every Saturday.",
+              "gaps": [
+                [
+                  "sport"
+                ]
+              ],
+              "explain": "Tennis and football are sports.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "A: What time do you usually have {}? B: At about seven, after work.",
+              "gaps": [
+                [
+                  "dinner",
+                  "supper"
+                ]
+              ],
+              "explain": "breakfast (morning), lunch (midday), dinner (evening).",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1A-vocabulary-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes. If a sentence is correct, leave it as it is.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prefill": "I make exercise every morning.",
+              "answers": [
+                "I do exercise every morning."
+              ],
+              "explain": "We say do exercise, do sport — not make.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prefill": "Do you listen music in the car?",
+              "answers": [
+                "Do you listen to music in the car?"
+              ],
+              "explain": "listen to + music / the radio.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prefill": "She was borned in Italy.",
+              "answers": [
+                "She was born in Italy."
+              ],
+              "explain": "be born: born, not borned.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prefill": "We went on holiday to Portugal last year.",
+              "answers": [
+                "We went on holiday to Portugal last year."
+              ],
+              "explain": "Correct: go on holiday.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prefill": "He goes to cinema every Friday.",
+              "answers": [
+                "He goes to the cinema every Friday."
+              ],
+              "explain": "go to the cinema — with the.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1A-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "the alphabet",
+      "reference": [
+        {
+          "type": "note",
+          "title": "The alphabet",
+          "text": "The letters of the alphabet are pronounced with different vowel sounds, e.g. S = /es/, like egg, but C = /siː/, like tree."
+        },
+        {
+          "type": "table",
+          "title": "Letters by sound",
+          "headers": [
+            "Sound",
+            "Word",
+            "Letters"
+          ],
+          "rows": [
+            [
+              "/eɪ/",
+              "train",
+              "A H J K"
+            ],
+            [
+              "/iː/",
+              "tree",
+              "B C D E G P T V"
+            ],
+            [
+              "/e/",
+              "egg",
+              "F L M N S X Z"
+            ],
+            [
+              "/aɪ/",
+              "bike",
+              "I Y"
+            ],
+            [
+              "/əʊ/",
+              "phone",
+              "O"
+            ],
+            [
+              "/uː/",
+              "boot",
+              "Q U W"
+            ],
+            [
+              "/ɑː/",
+              "car",
+              "R"
+            ]
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "1A-sb3a",
+          "origin": "SB",
+          "instruction": "Say the groups of letters. Then listen and check. Write the missing letter",
+          "audio": "1.6",
+          "note": "SB 3a «say the groups» — буквы вслух распознаватель не берёт, поэтому пишем пропущенную букву группы",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "A B {} D",
+              "gaps": [
+                [
+                  "C"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [2.43, 7.31]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "E F {} H",
+              "gaps": [
+                [
+                  "G"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [8.9, 13.7]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I {} K L",
+              "gaps": [
+                [
+                  "J"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [15.18, 19.8]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "M N O {}",
+              "gaps": [
+                [
+                  "P"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [21.32, 25.96]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Q {} S T",
+              "gaps": [
+                [
+                  "R"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [27.5, 31.92]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "U V {}",
+              "gaps": [
+                [
+                  "W"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [33.43, 37.08]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "X {} Z",
+              "gaps": [
+                [
+                  "Y"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [38.59, 41.74]
+            }
+          ]
+        },
+        {
+          "id": "1A-sb3b",
+          "origin": "SB",
+          "instruction": "Sound pictures: what are the words? Listen and write the words",
+          "audio": "1.7",
+          "note": "SB 3b; картинок в приложении нет — вместо них звук и описание слова. 1 train — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Sound picture 2 /iː/ (B, C, D): {}",
+              "gaps": [
+                [
+                  "tree"
+                ]
+              ],
+              "hint": "(a big plant with a trunk and leaves)",
+              "source": "MODEL",
+              "clip": [9.69, 12.25]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Sound picture 3 /e/ (F, L, S): {}",
+              "gaps": [
+                [
+                  "egg"
+                ]
+              ],
+              "hint": "(a chicken lays it; you can eat it for breakfast)",
+              "source": "MODEL",
+              "clip": [15.34, 17.67]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Sound picture 4 /aɪ/ (I): {}",
+              "gaps": [
+                [
+                  "bike",
+                  "bicycle"
+                ]
+              ],
+              "hint": "(it has two wheels; you ride it)",
+              "source": "MODEL",
+              "clip": [20.83, 23.32]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Sound picture 5 /əʊ/: {}",
+              "gaps": [
+                [
+                  "phone",
+                  "telephone"
+                ]
+              ],
+              "hint": "(you call people with it)",
+              "source": "MODEL",
+              "clip": [26.98, 29.56]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Sound picture 6 /uː/ (U, W): {}",
+              "gaps": [
+                [
+                  "boot"
+                ]
+              ],
+              "hint": "(a tall shoe)",
+              "source": "MODEL",
+              "clip": [32.28, 34.72]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Sound picture 7 /ɑː/: {}",
+              "gaps": [
+                [
+                  "car"
+                ]
+              ],
+              "hint": "(you drive it)",
+              "source": "MODEL",
+              "clip": [37.65, 40.26]
+            }
+          ]
+        },
+        {
+          "id": "1A-sb3c",
+          "origin": "SB",
+          "instruction": "Add the letters to the correct column: write the sound picture word",
+          "note": "SB 3c «add the letters to the column» → Blank на букву; J — пример (train)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "E has the same vowel sound as {}",
+              "gaps": [
+                [
+                  "tree"
+                ]
+              ],
+              "hint": "(train, tree, egg, bike, phone, boot, car)",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "G has the same vowel sound as {}",
+              "gaps": [
+                [
+                  "tree"
+                ]
+              ],
+              "hint": "(train, tree, egg, bike, phone, boot, car)",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "K has the same vowel sound as {}",
+              "gaps": [
+                [
+                  "train"
+                ]
+              ],
+              "hint": "(train, tree, egg, bike, phone, boot, car)",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "M has the same vowel sound as {}",
+              "gaps": [
+                [
+                  "egg"
+                ]
+              ],
+              "hint": "(train, tree, egg, bike, phone, boot, car)",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "O has the same vowel sound as {}",
+              "gaps": [
+                [
+                  "phone"
+                ]
+              ],
+              "hint": "(train, tree, egg, bike, phone, boot, car)",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "R has the same vowel sound as {}",
+              "gaps": [
+                [
+                  "car"
+                ]
+              ],
+              "hint": "(train, tree, egg, bike, phone, boot, car)",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Q has the same vowel sound as {}",
+              "gaps": [
+                [
+                  "boot"
+                ]
+              ],
+              "hint": "(train, tree, egg, bike, phone, boot, car)",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "X has the same vowel sound as {}",
+              "gaps": [
+                [
+                  "egg"
+                ]
+              ],
+              "hint": "(train, tree, egg, bike, phone, boot, car)",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Y has the same vowel sound as {}",
+              "gaps": [
+                [
+                  "bike"
+                ]
+              ],
+              "hint": "(train, tree, egg, bike, phone, boot, car)",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1A-sb3d",
+          "origin": "SB",
+          "instruction": "Listen and check. Practise saying the sound words (then the letters in each column, with the audio)",
+          "audio": "1.8",
+          "note": "SB 3d; вслух — только слова-картинки: отдельные буквы распознаватель не берёт",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "train",
+              "source": "MODEL",
+              "clip": [3.9, 5.09]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "tree",
+              "source": "MODEL",
+              "clip": [18.93, 20.09]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "egg",
+              "source": "MODEL",
+              "clip": [43.6, 44.59]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "bike",
+              "source": "MODEL",
+              "clip": [65.67, 66.81]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "phone",
+              "source": "MODEL",
+              "clip": [75.69, 76.94]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "boot",
+              "source": "MODEL",
+              "clip": [82.93, 83.98]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "car",
+              "source": "MODEL",
+              "clip": [95.44, 96.58]
+            }
+          ]
+        },
+        {
+          "id": "1A-sb3e",
+          "origin": "SB",
+          "instruction": "Communication: Alphabet quiz. Ask and answer the questions",
+          "note": "SB 3e + Communication 1A (A p.102, B p.108): ученик — A, ИИ — B",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "Alphabet quiz with an English student (pre-intermediate). The student is Student A, you are Student B. Take turns, starting with the student: the student asks their question 1, you answer; then you ask your question 1, the student answers; then the student's question 2, and so on. The student's questions (card A, with the answers): 1 Which country's security service is called the FBI? (the USA) 2 What do you use a USB cable for? (connecting something to a computer) 3 What can you do at a B&B? (stay the night and have breakfast) 4 Which famous writer has the initials JK? (J.K. Rowling) 5 What kind of person is a VIP? (a very important person) 6 What can you get from an ATM? (money / cash) 7 Which country's national radio and TV is called the BBC? (the UK / Britain). Answer them as a student would, mostly correctly, saying the letters clearly. Your questions (card B, with the answers — do not reveal the answers before the student tries): 1 What kind of machine is a BMW? (a car) 2 What does a DJ do? (plays music in a club) 3 Which country's national airline is called KLM? (Holland / the Netherlands) 4 What's the difference between a.m. and p.m.? (morning and afternoon) 5 What do people who work in IT do? (they work with computers, software, etc.) 6 How many states are there in the USA? (50) 7 In the UK do people have ID cards, passports, or both? (only passports). Say whether each answer is right; if it's wrong, give the right answer. Keep count of the student's correct answers and tell them the score at the end.",
+              "goal": "Alphabet quiz. Ask your questions and answer your partner's. Your questions: 1 Which country's security service is called the FBI? 2 What do you use a USB cable for? 3 What can you do at a B&B? 4 Which famous writer has the initials JK? 5 What kind of person is a VIP? 6 What can you get from an ATM? 7 Which country's national radio and TV is called the BBC?",
+              "opener": "Hi! Let's do the alphabet quiz. You start — ask me your question 1.",
+              "criteria": [
+                "asks all 7 quiz questions with correct word order",
+                "answers at least 4 of the partner's 7 questions correctly",
+                "takes turns: answers the partner's question before asking the next one"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-wb3a",
+          "origin": "WB",
+          "instruction": "Which letter has a different vowel sound? Write it",
+          "note": "WB 3a «Circle the letter with a different vowel sound» → Blank на букву; 1 train: A K E → E — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "tree /iː/: G  V  R → {}",
+              "gaps": [
+                [
+                  "R"
+                ]
+              ],
+              "explain": "R = /ɑː/, like car. G and V = /iː/, like tree."
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "egg /e/: N  B  F → {}",
+              "gaps": [
+                [
+                  "B"
+                ]
+              ],
+              "explain": "B = /iː/, like tree. N and F = /e/, like egg."
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "train /eɪ/: H  P  J → {}",
+              "gaps": [
+                [
+                  "P"
+                ]
+              ],
+              "explain": "P = /iː/, like tree. H and J = /eɪ/, like train."
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "egg /e/: X  S  K → {}",
+              "gaps": [
+                [
+                  "K"
+                ]
+              ],
+              "explain": "K = /eɪ/, like train. X and S = /e/, like egg."
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "tree /iː/: M  C  D → {}",
+              "gaps": [
+                [
+                  "M"
+                ]
+              ],
+              "explain": "M = /e/, like egg. C and D = /iː/, like tree."
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "boot /uː/: Q  I  U → {}",
+              "gaps": [
+                [
+                  "I"
+                ]
+              ],
+              "explain": "I = /aɪ/, like bike. Q and U = /uː/, like boot."
+            }
+          ]
+        },
+        {
+          "id": "1A-wb3b",
+          "origin": "WB",
+          "instruction": "Listen and check. Then listen again and repeat the letters",
+          "note": "WB 3b (трек WB 1.1 — аудио WB нет): Speak на группы букв из 3a, образец — синтезатор; буквы проверяются мягко (Checker.letterGroup)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "A K E"
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "G V R"
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "N B F"
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "H P J"
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "X S K"
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "M C D"
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "Q I U"
+            }
+          ]
+        },
+        {
+          "id": "1A-wb3c",
+          "origin": "WB",
+          "instruction": "Alphabet quiz. Which letter of the alphabet sounds like…?",
+          "note": "WB 3c; буквы A I O P U Y, 1 my → I — пример. 4 see: в ключе P (C в списке нет) — принимаем C и P",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "play → {}",
+              "gaps": [
+                [
+                  "A"
+                ]
+              ],
+              "hint": "(A, O, P, U, Y)",
+              "explain": "play /pleɪ/ has the same sound as A /eɪ/."
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "you → {}",
+              "gaps": [
+                [
+                  "U"
+                ]
+              ],
+              "hint": "(A, O, P, U, Y)",
+              "explain": "you /juː/ sounds exactly like U /juː/."
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "see → {}",
+              "gaps": [
+                [
+                  "C",
+                  "P"
+                ]
+              ],
+              "hint": "(A, O, P, U, Y)",
+              "explain": "see /siː/ sounds exactly like C. The Workbook key says P: C isn’t in the list, and P /piː/ has the same vowel sound.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "go → {}",
+              "gaps": [
+                [
+                  "O"
+                ]
+              ],
+              "hint": "(A, O, P, U, Y)",
+              "explain": "go /ɡəʊ/ has the same sound as O /əʊ/."
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "why → {}",
+              "gaps": [
+                [
+                  "Y"
+                ]
+              ],
+              "hint": "(A, O, P, U, Y)",
+              "explain": "why /waɪ/ sounds exactly like Y /waɪ/."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1A-skills",
+      "kind": "SKILLS",
+      "title": "Listening & Speaking",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Spelling and numbers",
+          "text": "Double letters: SS = double S, LL = double L. In emails @ = at, . = dot: jvine64@kings.co.uk = j-v-i-n-e-six-four at kings dot co dot uk. Phone numbers are said one digit at a time; 0 = oh: 07700 = oh-seven-seven-oh-oh."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "1A-sb4a",
+          "origin": "SB",
+          "instruction": "Listen to extracts from six conversations. Write the letters and numbers you hear",
+          "audio": "1.9",
+          "note": "SB 4a; ответы — по скрипту 1.10 (SB p.120). 1 first name: Wayne — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "postcode: {}",
+              "gaps": [
+                [
+                  "SE21 8GP",
+                  "SE218GP"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [15.37, 20.94]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "phone number: {}",
+              "gaps": [
+                [
+                  "07700 987782",
+                  "07700987782",
+                  "07700 987 782"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [24.39, 31.53]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "email: {}",
+              "gaps": [
+                [
+                  "jvine64@kings.co.uk"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [34.74, 58.79]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "surname: {}",
+              "gaps": [
+                [
+                  "Rathbone"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [62.23, 68.91]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "address: {}",
+              "gaps": [
+                [
+                  "16 Russell Street",
+                  "16 Russell St",
+                  "16 Russell St."
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [72.21, 83.18]
+            }
+          ]
+        },
+        {
+          "id": "1A-sb4b",
+          "origin": "SB",
+          "instruction": "Now listen to the conversations. Which conversation (1–6) is it? Write the number",
+          "audio": "1.10",
+          "note": "SB 4b «match 1–6 to situations a–f» → Blank на ситуацию; b (checking into a hotel) = 1 — пример. Ответы по скрипту 1.10",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "a Buying something — conversation {}",
+              "gaps": [
+                [
+                  "2",
+                  "two"
+                ]
+              ],
+              "explain": "Conversation 2: the sofa is £899.99, and they need the address for delivery.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "c Trying to get help — conversation {}",
+              "gaps": [
+                [
+                  "3",
+                  "three"
+                ]
+              ],
+              "explain": "Conversation 3: a mobile phone helpline.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "d Giving a student directions — conversation {}",
+              "gaps": [
+                [
+                  "6",
+                  "six"
+                ]
+              ],
+              "explain": "Conversation 6: the classes are in a different building, 16 Russell Street.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "e Giving a class some information — conversation {}",
+              "gaps": [
+                [
+                  "4",
+                  "four"
+                ]
+              ],
+              "explain": "Conversation 4: the teacher gives the class her email address for homework.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "f Arriving at a restaurant — conversation {}",
+              "gaps": [
+                [
+                  "5",
+                  "five"
+                ]
+              ],
+              "explain": "Conversation 5: a table booked for 7.30 in the name of Rathbone.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "1A-sb4c",
+          "origin": "SB",
+          "instruction": "Interview another student and complete the form",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a new student at a language school; the student is the school receptionist and must fill in a STUDENT INFORMATION form: first name, surname, address, postcode, phone number, email address. Your details: first name Siobhan (S-I-O-B-H-A-N), surname Kavanagh (K-A-V-A-N-A-G-H), address 27 Greenwood Avenue, Leeds, postcode LS6 4QT, phone number 07983 551604, email siobhan.k88@mailbox.co.uk. Only give each detail when the student asks for it. Say numbers one digit at a time (oh for 0). Spell names only if the student asks How do you spell…? or Can you spell that?; if they don't ask, just say the name. At the end, if the student reads the details back, correct any mistakes.",
+              "goal": "Interview a new student and complete the form: first name, surname, address, postcode, phone number, email address. Ask them to spell the difficult words. At the end, read the details back to check.",
+              "opener": "Hi! I'm new here. They told me to come to you to fill in a form?",
+              "criteria": [
+                "asks for all six details (first name, surname, address, postcode, phone number, email) with correct questions, e.g. What's your first name?",
+                "asks the partner to spell at least one word (How do you spell…? / Can you spell that, please?)",
+                "reads the details back at the end, and the surname, postcode and phone number are correct"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1A-practical",
+      "kind": "PRACTICAL_ENGLISH",
+      "title": "Episode 1 · Hotel problems",
+      "note": "SB Practical English Episode 1 (p.12–13, PDF 13–14). В книге — после File 1 (1A+1B); переедет в 1B, когда появится глава 1B. Скриптов PE в SB нет — ответы по самим роликам (расшифровка).",
+      "reference": [
+        {
+          "type": "note",
+          "title": "I'll",
+          "text": "A: There's a problem with the air conditioning. B: I'll send somebody to look at it. I'll = I will. We use I'll + verb to offer to do something."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "1A-pe1a",
+          "origin": "SB",
+          "video": "ep1_introduction",
+          "instruction": "Watch Jenny. Number the pictures 1–6 in the order she mentions them",
+          "note": "SB PE1 1a; картинок нет — описание кадра. Порядок — наш (MODEL)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "A  Rob in a new shirt: {}",
+              "gaps": [
+                [
+                  "5"
+                ]
+              ],
+              "source": "MODEL",
+              "hint": "(1–6)"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "B  Jenny at Arrivals with her suitcase: {}",
+              "gaps": [
+                [
+                  "1"
+                ]
+              ],
+              "source": "MODEL",
+              "hint": "(1–6)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "C  Jenny and Rob with coffee: {}",
+              "gaps": [
+                [
+                  "3"
+                ]
+              ],
+              "source": "MODEL",
+              "hint": "(1–6)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "D  Jenny shakes hands with the manager: {}",
+              "gaps": [
+                [
+                  "2"
+                ]
+              ],
+              "source": "MODEL",
+              "hint": "(1–6)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "E  Rob next to a yellow taxi: {}",
+              "gaps": [
+                [
+                  "6"
+                ]
+              ],
+              "source": "MODEL",
+              "hint": "(1–6)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "F  Jenny and Rob under an umbrella by the river: {}",
+              "gaps": [
+                [
+                  "4"
+                ]
+              ],
+              "source": "MODEL",
+              "hint": "(1–6)"
+            }
+          ]
+        },
+        {
+          "id": "1A-pe1b",
+          "origin": "SB",
+          "video": "ep1_introduction",
+          "instruction": "Watch again and answer the questions",
+          "note": "SB PE1 1b; свободные ответы переделаны в пропуски по тексту ролика",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "What does Jenny do? She's the assistant {} of a magazine called New York 24seven.",
+              "gaps": [
+                [
+                  "editor"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Where did she go a few months ago? She visited the magazine's office in {}.",
+              "gaps": [
+                [
+                  "London"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Who's Rob Walker? He's one of the {} on the London magazine.",
+              "gaps": [
+                [
+                  "writers"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "What did they do together? They had {} together and they went {}.",
+              "gaps": [
+                [
+                  "coffees",
+                  "coffee"
+                ],
+                [
+                  "sightseeing"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "What does she think of Rob? He was {} to be with. She liked him a lot.",
+              "gaps": [
+                [
+                  "fun"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "What's Rob's one negative quality? He isn't the most {} person in the world.",
+              "gaps": [
+                [
+                  "punctual"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "How long is Rob going to be in New York? For a {}.",
+              "gaps": [
+                [
+                  "month"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1A-pe2a",
+          "origin": "SB",
+          "video": "ep1_calling_reception",
+          "instruction": "Watch Rob. Who does Rob call? Why?",
+          "note": "SB PE1 2a",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "He calls {}.",
+              "gaps": [
+                [
+                  "reception",
+                  "the reception",
+                  "hotel reception",
+                  "the hotel reception"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "First there's a problem with the {}, and then with the {}.",
+              "gaps": [
+                [
+                  "air conditioning",
+                  "air-conditioning",
+                  "air con"
+                ],
+                [
+                  "wi-fi",
+                  "wifi",
+                  "internet"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1A-pe2b",
+          "origin": "SB",
+          "video": "ep1_calling_reception",
+          "instruction": "Watch again. Complete the You hear phrases",
+          "note": "SB PE1 2b; ответы — дословно из ролика",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Receptionist: How can I {} you?",
+              "gaps": [
+                [
+                  "help"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [19.65, 21.2]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Receptionist: I'm sorry, sir. I'll {} somebody up to look at it right now.",
+              "gaps": [
+                [
+                  "send"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [26.4, 30.1]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Receptionist: Good {}, reception.",
+              "gaps": [
+                [
+                  "evening"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [38.8, 40.7]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Receptionist: I'm sorry, sir. I'll {} you through to IT.",
+              "gaps": [
+                [
+                  "put"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [49.8, 53.3]
+            }
+          ]
+        },
+        {
+          "id": "1A-pe2c",
+          "origin": "SB",
+          "video": "ep1_you_say",
+          "instruction": "Watch and repeat the You say phrases. Copy the rhythm",
+          "note": "SB PE1 2c (1.32)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "Hello. This is room 613.",
+              "source": "CONFIRMED",
+              "answers": [
+                "Hello. This is room 613.",
+                "Hello. This is room 6 1 3.",
+                "Hello. This is room 6 13."
+              ],
+              "clip": [17.02, 19.8]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "There's a problem with the air conditioning.",
+              "source": "CONFIRMED",
+              "clip": [28.64, 30.8]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "It isn't working, and it's very hot in my room.",
+              "source": "CONFIRMED",
+              "clip": [35.9, 39.35]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "Hello. I'm sorry to bother you again. This is room 613.",
+              "source": "CONFIRMED",
+              "answers": [
+                "Hello. I'm sorry to bother you again. This is room 613.",
+                "Hello. I'm sorry to bother you again. This is room 6 1 3.",
+                "Hello. I'm sorry to bother you again. This is room 6 13."
+              ],
+              "clip": [63.34, 74.4]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "I have a problem with the wi-fi.",
+              "source": "CONFIRMED",
+              "answers": [
+                "I have a problem with the wi-fi.",
+                "I have a problem with the wifi."
+              ],
+              "clip": [80.68, 82.95]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "I can't get a signal.",
+              "source": "CONFIRMED",
+              "clip": [88.0, 89.9]
+            }
+          ]
+        },
+        {
+          "id": "1A-pe2e",
+          "origin": "SB",
+          "instruction": "Role-play: you are a hotel guest. Call reception about two problems with your room",
+          "note": "SB PE1 2d–e (B — guest)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are the receptionist at a hotel in New York. The student is a guest who calls reception about two problems with their room (they choose the problems). You have already answered the phone. After each problem, offer to do something with I'll + verb (I'll send somebody up to look at it. / I'll put you through to IT.). Call the guest sir or madam. Wait for the second problem; if the guest doesn't mention one, ask 'Is there anything else?'.",
+              "goal": "You are a guest at a hotel. Call reception, say your room number and tell them about two problems with your room.",
+              "opener": "Hello, reception. How can I help you?",
+              "criteria": [
+                "says the room number",
+                "explains two different problems clearly, e.g. There's a problem with… / It isn't working. / I can't…",
+                "is polite (Thank you / I'm sorry to bother you)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-pe2f",
+          "origin": "SB",
+          "instruction": "Swap roles: you are the receptionist. Offer to do something about the guest's problems",
+          "note": "SB PE1 2e–f (A — receptionist)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a guest in room 408 of a hotel in New York. You call reception; the student is the receptionist. You have two problems: first the TV isn't working, then (after the receptionist answers) there are no towels in the bathroom. Tell one problem at a time and wait for the receptionist to offer to do something. Thank them after each offer.",
+              "goal": "You are the hotel receptionist. Answer the phone, ask how you can help, and offer to do something about each problem with I'll + verb.",
+              "opener": "Hello? Is that reception?",
+              "criteria": [
+                "answers politely, e.g. Hello, reception. How can I help you?",
+                "offers to do something about each of the two problems with I'll + verb (I'll send…, I'll bring…)",
+                "the offers are correct English"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-pe3a",
+          "origin": "SB",
+          "video": "ep1_meet_again",
+          "instruction": "That evening Jenny goes to the hotel to meet Rob and they go out for a drink. Watch and mark the sentences T (true) or F (false)",
+          "note": "SB PE1 3a (1.33)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Rob says he doesn't like the hotel. {}",
+              "gaps": [
+                [
+                  "F",
+                  "false"
+                ]
+              ],
+              "source": "MODEL",
+              "hint": "(T / F)"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Jenny is going to show him round the city tomorrow. {}",
+              "gaps": [
+                [
+                  "F",
+                  "false"
+                ]
+              ],
+              "source": "MODEL",
+              "hint": "(T / F)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Barbara is Jenny's boss. {}",
+              "gaps": [
+                [
+                  "T",
+                  "true"
+                ]
+              ],
+              "source": "MODEL",
+              "hint": "(T / F)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Rob is hungry. {}",
+              "gaps": [
+                [
+                  "F",
+                  "false"
+                ]
+              ],
+              "source": "MODEL",
+              "hint": "(T / F)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "It's four in the morning for Rob. {}",
+              "gaps": [
+                [
+                  "F",
+                  "false"
+                ]
+              ],
+              "source": "MODEL",
+              "hint": "(T / F)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "They're going to meet at eleven. {}",
+              "gaps": [
+                [
+                  "T",
+                  "true"
+                ]
+              ],
+              "source": "MODEL",
+              "hint": "(T / F)"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Jenny thinks that Rob is going to get lost. {}",
+              "gaps": [
+                [
+                  "F",
+                  "false"
+                ]
+              ],
+              "source": "MODEL",
+              "hint": "(T / F)"
+            }
+          ]
+        },
+        {
+          "id": "1A-pe3b",
+          "origin": "SB",
+          "video": "ep1_meet_again",
+          "instruction": "Watch again. Say why the F sentences are false",
+          "note": "SB PE1 3b; номера = номера предложений 3a",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Rob says the hotel is {}. His room is really nice.",
+              "gaps": [
+                [
+                  "fine",
+                  "OK",
+                  "okay",
+                  "good"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Jenny is going to show him round the {} tomorrow.",
+              "gaps": [
+                [
+                  "office"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Rob isn't hungry. He's really {}.",
+              "gaps": [
+                [
+                  "tired"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "It's {} o'clock in the morning for Rob.",
+              "gaps": [
+                [
+                  "two",
+                  "2"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Jenny thinks that Rob is going to be {}.",
+              "gaps": [
+                [
+                  "late"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1A-pe3c",
+          "origin": "SB",
+          "video": "ep1_social_english",
+          "instruction": "Complete the Social English phrases. Then watch and check",
+          "note": "SB PE1 3c–d (1.34); ответы — дословно из ролика",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Rob: It's {} to be here.",
+              "gaps": [
+                [
+                  "great"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [5.86, 7.93]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Jenny: Do you have a {} view?",
+              "gaps": [
+                [
+                  "good"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [13.33, 14.99]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Jenny: You {} be really tired.",
+              "gaps": [
+                [
+                  "must"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [20.42, 23.19]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Rob: I guess you're {}.",
+              "gaps": [
+                [
+                  "right"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [28.45, 30.52]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Rob: By the {}…",
+              "gaps": [
+                [
+                  "way"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [35.73, 37.14]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Jenny: It's great to see you, {}.",
+              "gaps": [
+                [
+                  "too"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [42.51, 44.37]
+            }
+          ]
+        },
+        {
+          "id": "1A-pe3d",
+          "origin": "SB",
+          "video": "ep1_social_english",
+          "instruction": "Watch and repeat the Social English phrases",
+          "note": "SB PE1 3d (1.34)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "It's great to be here.",
+              "source": "CONFIRMED",
+              "clip": [5.86, 7.93]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "Do you have a good view?",
+              "source": "CONFIRMED",
+              "clip": [13.33, 14.99]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "You must be really tired.",
+              "source": "CONFIRMED",
+              "clip": [20.42, 23.19]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "I guess you're right.",
+              "source": "CONFIRMED",
+              "clip": [28.45, 30.52]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "By the way…",
+              "source": "CONFIRMED",
+              "clip": [35.73, 37.14]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "It's great to see you, too.",
+              "source": "CONFIRMED",
+              "clip": [42.51, 44.37]
+            }
+          ]
+        },
+        {
+          "id": "1A-pe3e",
+          "origin": "SB",
+          "instruction": "Complete conversations A–E with the Social English phrases",
+          "note": "SB PE1 3e; какая фраза в какую клетку — наше решение (MODEL)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "A: You had a very long flight. {} B: No, I'm fine. {}",
+              "gaps": [
+                [
+                  "You must be really tired"
+                ],
+                [
+                  "It's great to be here",
+                  "It is great to be here"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "A: What's your room like? {} B: Yes, I can see the mountains.",
+              "gaps": [
+                [
+                  "Do you have a good view"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "A: It's so good to see you again. B: {}",
+              "gaps": [
+                [
+                  "It's great to see you, too",
+                  "It's great to see you too",
+                  "It is great to see you, too",
+                  "It is great to see you too"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "A: We need to get up early tomorrow. B: Yes, {}",
+              "gaps": [
+                [
+                  "I guess you're right",
+                  "I guess you are right"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "A: That was a great meal. B: Yes, delicious. {} what time's the meeting tomorrow?",
+              "gaps": [
+                [
+                  "By the way",
+                  "By the way,"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

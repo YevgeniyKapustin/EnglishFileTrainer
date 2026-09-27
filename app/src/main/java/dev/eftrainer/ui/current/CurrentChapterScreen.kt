@@ -1,5 +1,6 @@
 package dev.eftrainer.ui.current
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -179,8 +180,13 @@ private fun ChapterBand(
                 Icon(Icons.ChevronRight, null, Modifier.size(18.dp), tint = BandInk)
             }
             Spacer(Modifier.weight(1f))
-            content()
-            IconButton24(EfIcons.Gear, stringResource(R.string.settings), onSettings, tint = C.Muted)
+            Row(
+                Modifier.background(IconShade, RoundedCornerShape(22.dp)),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                content()
+                IconButton24(EfIcons.Gear, stringResource(R.string.settings), onSettings, tint = BandInk)
+            }
         }
         if (chapter != null) {
             Text(
@@ -201,6 +207,7 @@ private fun ChapterBand(
 }
 
 private val BandHeight = 150.dp
+private val IconShade = Color.Black.copy(alpha = .22f)
 private val QuestionMinSize = 92.dp
 private val AnswerMinSize = 88.dp
 private val QuestionTop = 46.dp

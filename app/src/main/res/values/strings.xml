@@ -4,18 +4,6 @@
     <string name="all_chapters">All chapters</string>
     <string name="chapter_n">Chapter %1$s</string>
     <string name="review">Review</string>
-    <plurals name="exercises_from">
-        <item quantity="one">%1$d exercise from %2$s</item>
-        <item quantity="other">%1$d exercises from %2$s</item>
-    </plurals>
-    <plurals name="and_from_earlier">
-        <item quantity="one">and %1$d from earlier chapters</item>
-        <item quantity="other">and %1$d from earlier chapters</item>
-    </plurals>
-    <plurals name="exercises_from_earlier">
-        <item quantity="one">%1$d exercise from earlier chapters</item>
-        <item quantity="other">%1$d exercises from earlier chapters</item>
-    </plurals>
     <string name="reminder">Daily reminder</string>
     <string name="reminder_time">Time</string>
     <string name="reminder_continue">Keep going with %1$s: %2$s</string>
@@ -50,12 +38,6 @@
     <string name="mastered_share">%1$d%% mastered</string>
     <string name="continue_chapter">Continue %1$s</string>
     <string name="practice_chapter">Practice %1$s</string>
-    <plurals name="left_in_chapter">
-        <item quantity="one">%1$d exercise left in %2$s</item>
-        <item quantity="other">%1$d exercises left in %2$s</item>
-    </plurals>
-    <string name="practice_until_tomorrow">You went through %1$s today. Keep practising it until tomorrow</string>
-    <string name="nothing_to_review">Nothing to review today</string>
     <string name="book_finished">You have finished the book</string>
     <string name="percent">%1$d%%</string>
 

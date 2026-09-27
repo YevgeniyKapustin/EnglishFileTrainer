@@ -24,6 +24,11 @@ class NormalizerTest {
         assertEquals(n("I don't know"), n("I don‘t know"))
     }
 
+    @Test fun `typographic dashes equal hyphen`() {
+        assertEquals(n("well-known"), n("well–known"))
+        assertEquals(n("yes - it was"), n("yes — it was"))
+    }
+
     @Test fun `empty stays empty`() {
         assertEquals("", n(""))
         assertEquals("", n("   "))

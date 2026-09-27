@@ -8,6 +8,8 @@ object Normalizer {
         input
             .replace('’', '\'')
             .replace('‘', '\'')
+            .replace('–', '-')
+            .replace('—', '-')
             .replace(spaces, " ")
             .trim()
             .replace(finalPunctuation, "")

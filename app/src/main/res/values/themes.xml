@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Системная заставка Android 12+: белый фон и веер, который раскрывается, пока грузится приложение
-         (как анимированный запуск в Telegram — лишнего времени не добавляет). Веер генерирует tools/icon.py. -->
     <style name="Theme.App" parent="@android:style/Theme.Material.Light.NoActionBar">
         <item name="android:windowSplashScreenBackground">@android:color/white</item>
         <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_icon</item>

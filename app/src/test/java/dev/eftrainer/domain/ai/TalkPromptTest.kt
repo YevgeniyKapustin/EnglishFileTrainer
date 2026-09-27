@@ -9,17 +9,43 @@ import org.junit.Assert.assertTrue
 import org.junit.Test
 
 class TalkPromptTest {
-    private val talk = Talk("t-talk", "You are a new classmate.", "Ask three questions about your partner.", "Hi! I'm Anna.", listOf("uses do/does in questions"))
+    private val talk =
+        Talk(
+            "t-talk",
+            "You are a new classmate.",
+            "Ask three questions about your partner.",
+            "Hi! I'm Anna.",
+            listOf("uses do/does in questions"),
+        )
 
     @Test fun `plain json is parsed`() {
-        assertEquals(TalkPrompt.Grade(true, "Good questions."), TalkPrompt.parseGrade("""{"pass": true, "summary": "Good questions."}"""))
+        assertEquals(
+            TalkPrompt.Grade(true, "Good questions."),
+            TalkPrompt.parseGrade("""{"pass": true, "summary": "Good questions."}"""),
+        )
     }
 
     @Test fun `code fences and text around are tolerated`() {
-        val raw = "Here you are:\n```json\n{\n  \"pass\": false,\n  \"summary\": \"You said \\\"Where you live?\\\".\nSay \\\"Where do you live?\\\"\"\n}\n```"
+        val raw =
+            """
+            Here you are:
+            ```json
+            {
+              "pass": false,
+              "summary": "You said \"Where you live?\".
+            Say \"Where do you live?\""
+            }
+            ```
+            """.trimIndent()
         val g = TalkPrompt.parseGrade(raw)!!
         assertFalse(g.pass)
-        assertEquals("You said \"Where you live?\".\nSay \"Where do you live?\"", g.summary)
+        assertEquals(
+            """
+            You said "Where you live?".
+            Say "Where do you live?"
+            """.trimIndent(),
+            g.summary,
+        )
     }
 
     @Test fun `pass as a string and field order do not matter`() {
@@ -35,7 +61,10 @@ class TalkPromptTest {
     }
 
     @Test fun `end mark is removed and ends only after a couple of turns`() {
-        assertEquals(TalkPrompt.Reply("Nice to meet you. Bye!", true), TalkPrompt.reply("Nice to meet you. Bye! [END]", studentTurns = 3))
+        assertEquals(
+            TalkPrompt.Reply("Nice to meet you. Bye!", true),
+            TalkPrompt.reply("Nice to meet you. Bye! [END]", studentTurns = 3),
+        )
         assertFalse(TalkPrompt.reply("Bye! [END]", studentTurns = 1).ended)
         assertEquals("Where are you from?", TalkPrompt.reply("Partner: **Where are you from?**", 1).text)
     }
@@ -47,7 +76,12 @@ class TalkPromptTest {
     }
 
     @Test fun `grading prompt carries criteria and transcript`() {
-        val (_, user) = TalkPrompt.grading(talk, "rule", listOf(ChatLine(false, "Hi!"), ChatLine(true, "Where you live?")))
+        val (_, user) =
+            TalkPrompt.grading(
+                talk,
+                "rule",
+                listOf(ChatLine(false, "Hi!"), ChatLine(true, "Where you live?")),
+            )
         assertTrue(user.second.contains("- uses do/does in questions"))
         assertTrue(user.second.contains("Student: Where you live?"))
         assertTrue(user.second.contains("Partner: Hi!"))
@@ -59,6 +93,6 @@ class TalkPromptTest {
         assertEquals("more?", chat.messages.last().second)
         assertTrue(chat.loading)
         val failed = chat.fail(AiException.Reason.NETWORK)
-        assertEquals(chat.messages, failed.start().messages)   // повтор шлёт то же самое
+        assertEquals(chat.messages, failed.start().messages)
     }
 }

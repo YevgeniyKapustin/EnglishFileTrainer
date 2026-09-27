@@ -10,16 +10,20 @@ import org.junit.Assert.assertTrue
 import org.junit.Test
 
 class GeneratePromptTest {
+    private val book =
+        listOf(
+            Blank("b-1", "Where {} born?", listOf(listOf("were you")), hint = "(you / be)"),
+            Rewrite("b-2", "live / you / where / do", listOf("Where do you live?")),
+        )
 
-    private val book = listOf(
-        Blank("b-1", "Where {} born?", listOf(listOf("were you")), hint = "(you / be)"),
-        Rewrite("b-2", "live / you / where / do", listOf("Where do you live?")),
-    )
-
-    private fun parse(text: String, max: Int = 10) = GeneratePrompt.parse(text, "1A-grammar", book, emptyList(), max)
+    private fun parse(
+        text: String,
+        max: Int = 10,
+    ) = GeneratedResponse.parse(text, "1A-grammar", book, emptyList(), max)
 
     @Test fun `valid items parsed, fenced json accepted`() {
-        val reply = """
+        val reply =
+            """
             Here you are:
             ```json
             {"items":[
@@ -27,7 +31,7 @@ class GeneratePromptTest {
               {"type":"rewrite","prompt":"from / she / is / where","answers":["Where is she from?","Where's she from?"]}
             ]}
             ```
-        """.trimIndent()
+            """.trimIndent()
         val items = parse(reply)
         assertEquals(2, items.size)
         val b = items[0].exercise as Blank
@@ -40,35 +44,46 @@ class GeneratePromptTest {
 
     @Test fun `bad items dropped`() {
         val long = "long ".repeat(40)
-        val reply = """{"items":[
-            {"type":"blank","text":"Where {} {}?","gaps":[["a"]]},
-            {"type":"blank","text":"No gaps here","gaps":[]},
-            {"type":"blank","text":"Is {} ok?","gaps":[[" "]]},
-            {"type":"rewrite","prompt":"x","answers":[]},
-            {"type":"rewrite","prompt":"Where do you live?","answers":["Where do you live"]},
-            {"type":"choice","prompt":"a or b","answers":["a"]},
-            {"type":"rewrite","prompt":"LONG","answers":["a"]},
-            "junk"
-        ]}""".replace("LONG", long)
+        val reply =
+            """
+            {"items":[
+                {"type":"blank","text":"Where {} {}?","gaps":[["a"]]},
+                {"type":"blank","text":"No gaps here","gaps":[]},
+                {"type":"blank","text":"Is {} ok?","gaps":[[" "]]},
+                {"type":"rewrite","prompt":"x","answers":[]},
+                {"type":"rewrite","prompt":"Where do you live?","answers":["Where do you live"]},
+                {"type":"choice","prompt":"a or b","answers":["a"]},
+                {"type":"rewrite","prompt":"LONG","answers":["a"]},
+                "junk"
+            ]}
+            """.trimIndent().replace("LONG", long)
         assertEquals(emptyList<Any>(), parse(reply))
     }
 
     @Test fun `duplicates of book, existing and within batch dropped`() {
-        val reply = """{"items":[
-            {"type":"blank","text":"Where {} born ?","gaps":[["were you"]]},
-            {"type":"rewrite","prompt":"do / where / live / you","answers":["where do you live"]},
-            {"type":"blank","text":"Who {} with?","gaps":[["do you live"]]},
-            {"type":"blank","text":"Who {} with?","gaps":[["do you live"]]},
-            {"type":"blank","text":"Was it {}?","gaps":[["fun"]]}
-        ]}"""
+        val reply =
+            """
+            {"items":[
+                {"type":"blank","text":"Where {} born ?","gaps":[["were you"]]},
+                {"type":"rewrite","prompt":"do / where / live / you","answers":["where do you live"]},
+                {"type":"blank","text":"Who {} with?","gaps":[["do you live"]]},
+                {"type":"blank","text":"Who {} with?","gaps":[["do you live"]]},
+                {"type":"blank","text":"Was it {}?","gaps":[["fun"]]}
+            ]}
+            """.trimIndent()
         val existing = listOf(Blank("1A-grammar-gen-0001", "Was it {}?", listOf(listOf("fun"))))
-        val items = GeneratePrompt.parse(reply, "1A-grammar", book, existing, 10)
+        val items = GeneratedResponse.parse(reply, "1A-grammar", book, existing, 10)
         assertEquals(listOf("Who {} with?"), items.map { (it.exercise as Blank).text })
     }
 
     @Test fun `not json gives nothing, max respected`() {
         assertEquals(emptyList<Any>(), parse("Sorry, I can't."))
-        val many = (1..5).joinToString(",", "{\"items\":[", "]}") { "{\"type\":\"blank\",\"text\":\"Q$it {}?\",\"gaps\":[[\"a\"]]}" }
+        val many =
+            (1..5).joinToString(
+                ",",
+                """{"items":[""",
+                "]}",
+            ) { """{"type":"blank","text":"Q$it {}?","gaps":[["a"]]}""" }
         assertEquals(3, parse(many, max = 3).size)
     }
 

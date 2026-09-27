@@ -7,11 +7,13 @@ import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
 import org.junit.Test
 
-/** Speak с группой букв (WB 1A 3b): распознаватель пишет буквы словами — проверка мягкая. */
 class LetterCheckTest {
-
     private fun letters(text: String) = Speak("t-${text.replace(" ", "")}", text, listOf(text))
-    private fun ok(text: String, said: String) = Checker.check(letters(text), said).correct
+
+    private fun ok(
+        text: String,
+        said: String,
+    ) = Checker.check(letters(text), said).correct
 
     @Test fun `letter group is detected`() {
         assertEquals("ake", Checker.letterGroup("A K E"))
@@ -59,7 +61,6 @@ class LetterCheckTest {
     }
 
     @Test fun `ordinary phrases are not lenient`() {
-        // "you" ≠ "u" за пределами групп букв.
         assertFalse(Checker.check(Speak("t", "See you", listOf("See you")), "c u").correct)
     }
 }

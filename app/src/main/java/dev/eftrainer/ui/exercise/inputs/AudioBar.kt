@@ -46,21 +46,20 @@ import dev.eftrainer.core.theme.EF
 import dev.eftrainer.core.theme.T
 import dev.eftrainer.data.content.Clip
 
-/**
- * Плеер трека Student's Book над заданием (Listening, Pronunciation).
- * [track] "1.9" → assets/audio/1_9.ogg или 1_9.mp3; файла нет — ничего не рисуем.
- * [clip] — отрезок текущего пункта: играем, показываем и перематываем только его.
- */
 @Composable
-fun AudioBar(track: String, clip: Clip? = null) {
+fun AudioBar(
+    track: String,
+    modifier: Modifier = Modifier,
+    clip: Clip? = null,
+) {
     val player = rememberAudioPlayer(track, clip) ?: return
-    var drag by remember(player) { mutableStateOf<Float?>(null) } // доля 0..1, пока тянут ползунок
+    var drag by remember(player) { mutableStateOf<Float?>(null) }
     val duration = player.durationMs
     val shown = drag?.let { (it * duration).toInt() } ?: player.positionMs
 
     val shape = RoundedCornerShape(14.dp)
     Row(
-        Modifier
+        modifier
             .fillMaxWidth()
             .clip(shape)
             .background(C.Field)
@@ -70,7 +69,11 @@ fun AudioBar(track: String, clip: Clip? = null) {
         horizontalArrangement = Arrangement.spacedBy(10.dp),
     ) {
         Box(
-            Modifier.size(40.dp).clip(CircleShape).background(EF.Title).clickable(onClick = player::toggle),
+            Modifier
+                .size(40.dp)
+                .clip(CircleShape)
+                .background(EF.Title)
+                .clickable(onClick = player::toggle),
             contentAlignment = Alignment.Center,
         ) {
             Icon(
@@ -84,7 +87,10 @@ fun AudioBar(track: String, clip: Clip? = null) {
             fraction = if (duration > 0) shown.toFloat() / duration else 0f,
             enabled = duration > 0,
             onDrag = { drag = it },
-            onSeek = { drag = null; player.seekTo((it * duration).toInt()) },
+            onSeek = {
+                drag = null
+                player.seekTo((it * duration).toInt())
+            },
             modifier = Modifier.weight(1f),
         )
         Text(
@@ -105,7 +111,6 @@ fun AudioBar(track: String, clip: Clip? = null) {
     }
 }
 
-/** Тонкая полоса прогресса: тап — перемотка сюда, перетаскивание — ползунком. */
 @Composable
 internal fun SeekBar(
     fraction: Float,
@@ -124,12 +129,14 @@ internal fun SeekBar(
             .pointerInput(enabled) {
                 if (!enabled) return@pointerInput
                 detectTapGestures { seek((it.x / size.width).coerceIn(0f, 1f)) }
-            }
-            .pointerInput(enabled) {
+            }.pointerInput(enabled) {
                 if (!enabled) return@pointerInput
                 var last = 0f
                 detectHorizontalDragGestures(
-                    onDragStart = { last = (it.x / size.width).coerceIn(0f, 1f); drag(last) },
+                    onDragStart = {
+                        last = (it.x / size.width).coerceIn(0f, 1f)
+                        drag(last)
+                    },
                     onDragEnd = { seek(last) },
                     onDragCancel = { drag(null) },
                 ) { change, _ ->
@@ -147,24 +154,41 @@ internal fun SeekBar(
     }
 }
 
+private const val MS_PER_SECOND = 1000
+private const val SECONDS_PER_MINUTE = 60
+
 internal fun time(ms: Int): String {
-    val s = ms.coerceAtLeast(0) / 1000
-    return "%d:%02d".format(s / 60, s % 60)
+    val s = ms.coerceAtLeast(0) / MS_PER_SECOND
+    return "%d:%02d".format(s / SECONDS_PER_MINUTE, s % SECONDS_PER_MINUTE)
 }
 
-// Иконки плеера и микрофона — в стиле core/ui/Icons.kt (24×24).
 internal val PlayIcon = filled("M8 5.5v13l11-6.5z")
 internal val PauseIcon = filled("M6.5 5h4v14h-4zM13.5 5h4v14h-4z")
 internal val BackIcon = stroked("M3 4v5h5M3.6 13.5a8.5 8.5 0 1 0 2-7.5L3 9")
-internal val MicIcon = stroked("M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zM18.5 11a6.5 6.5 0 0 1-13 0M12 17.5V21")
+internal val MicIcon =
+    stroked(
+        "M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zM18.5 11a6.5 6.5 0 0 1-13 0M12 17.5V21",
+    )
 internal val SpeakerIcon = stroked("M11 5L6 9H3v6h3l5 4zM15.5 9a4 4 0 0 1 0 6M18.5 6a8 8 0 0 1 0 12")
 
 private fun filled(d: String) =
-    ImageVector.Builder(defaultWidth = 24.dp, defaultHeight = 24.dp, viewportWidth = 24f, viewportHeight = 24f)
-        .addPath(addPathNodes(d), fill = SolidColor(Color.Black), stroke = SolidColor(Color.Black), strokeLineWidth = 1f, strokeLineJoin = StrokeJoin.Round)
-        .build()
+    ImageVector
+        .Builder(defaultWidth = 24.dp, defaultHeight = 24.dp, viewportWidth = 24f, viewportHeight = 24f)
+        .addPath(
+            addPathNodes(d),
+            fill = SolidColor(Color.Black),
+            stroke = SolidColor(Color.Black),
+            strokeLineWidth = 1f,
+            strokeLineJoin = StrokeJoin.Round,
+        ).build()
 
 private fun stroked(d: String) =
-    ImageVector.Builder(defaultWidth = 24.dp, defaultHeight = 24.dp, viewportWidth = 24f, viewportHeight = 24f)
-        .addPath(addPathNodes(d), stroke = SolidColor(Color.Black), strokeLineWidth = 2f, strokeLineCap = StrokeCap.Round, strokeLineJoin = StrokeJoin.Round)
-        .build()
+    ImageVector
+        .Builder(defaultWidth = 24.dp, defaultHeight = 24.dp, viewportWidth = 24f, viewportHeight = 24f)
+        .addPath(
+            addPathNodes(d),
+            stroke = SolidColor(Color.Black),
+            strokeLineWidth = 2f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round,
+        ).build()

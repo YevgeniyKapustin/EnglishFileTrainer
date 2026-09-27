@@ -8,32 +8,42 @@ import org.junit.Assert.assertTrue
 import org.junit.Test
 
 class CheckerTest {
+    private val order =
+        Rewrite(
+            "t-order",
+            "girlfriend / student / is / a / your",
+            listOf("Is your girlfriend a student?"),
+        )
 
-    private val order = Rewrite("t-order", "girlfriend / student / is / a / your", listOf("Is your girlfriend a student?"))
+    private val twoAnswers =
+        Rewrite(
+            "t-two",
+            "What … ?",
+            answers = listOf("What do you do?", "What's your job?"),
+            hint = "(your job)",
+        )
 
-    private val twoAnswers = Rewrite(
-        "t-two", "What … ?",
-        answers = listOf("What do you do?", "What's your job?"),
-        hint = "(your job)",
-    )
-
-    private val correctMistake = Rewrite(
-        "t-correct", "What time you get up?",
-        prefill = "What time you get up?",
-        answers = listOf("What time do you get up?"),
-    )
+    private val correctMistake =
+        Rewrite(
+            "t-correct",
+            "What time you get up?",
+            prefill = "What time you get up?",
+            answers = listOf("What time do you get up?"),
+        )
 
     private val oneGap = Blank("t-gap", "Where {} born?", listOf(listOf("were you")), hint = "(you / be)")
 
-    private val twoGaps = Blank(
-        "t-gaps", "A: {} a car? B: No, but my wife {}.",
-        listOf(listOf("Do you have", "Have you got"), listOf("does", "has")),
-    )
-
-    // Rewrite
+    private val twoGaps =
+        Blank(
+            "t-gaps",
+            "A: {} a car? B: No, but my wife {}.",
+            listOf(listOf("Do you have", "Have you got"), listOf("does", "has")),
+        )
 
     @Test fun `rewrite exact answer is correct`() =
-        assertTrue(Checker.check(order, "Is your girlfriend a student?").correct)
+        assertTrue(
+            Checker.check(order, "Is your girlfriend a student?").correct,
+        )
 
     @Test fun `rewrite ignores case, spaces and final punctuation`() =
         assertTrue(Checker.check(order, "  is your  girlfriend a student ").correct)
@@ -56,12 +66,12 @@ class CheckerTest {
         assertFalse(Checker.check(correctMistake, correctMistake.prefill!!).correct)
 
     @Test fun `prefill fixed is correct`() =
-        assertTrue(Checker.check(correctMistake, "What time do you get up?").correct)
+        assertTrue(
+            Checker.check(correctMistake, "What time do you get up?").correct,
+        )
 
     @Test fun `wrong word inside is wrong`() =
         assertFalse(Checker.check(correctMistake, "What time does you get up?").correct)
-
-    // Blank
 
     @Test fun `blank correct`() {
         val r = Checker.check(oneGap, listOf("Were you"))
@@ -88,8 +98,7 @@ class CheckerTest {
         assertEquals("A: Do you have a car? B: No, but my wife does.", r.expected)
     }
 
-    @Test fun `two gaps, both wrong`() =
-        assertEquals(setOf(0, 1), Checker.check(twoGaps, listOf("", "")).wrongGaps)
+    @Test fun `two gaps, both wrong`() = assertEquals(setOf(0, 1), Checker.check(twoGaps, listOf("", "")).wrongGaps)
 
     @Test(expected = IllegalArgumentException::class)
     fun `blank with wrong number of inputs fails loudly`() {

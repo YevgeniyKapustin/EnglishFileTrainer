@@ -15,34 +15,49 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
 
-data class TaskRow(val task: Task, val mastered: Int, val total: Int)
+data class TaskRow(
+    val task: Task,
+    val mastered: Int,
+    val total: Int,
+)
 
 data class SectionUi(
     val section: Section,
     val chapterId: String,
     val tasks: List<TaskRow>,
-    val started: Boolean,        // хоть что-то уже отвечено
+    val started: Boolean,
     val firstPassDone: Boolean,
-    val aiOn: Boolean,           // разговоры с ИИ доступны (ключ + сеть)
+    val aiOn: Boolean,
 )
 
-class SectionViewModel(container: AppContainer, sectionId: String) : ViewModel() {
+class SectionViewModel(
+    container: AppContainer,
+    sectionId: String,
+) : ViewModel() {
     private val section = Chapters.section(sectionId)
     private val chapterId = Chapters.chapterOfSection(sectionId).id
 
-    val state: StateFlow<SectionUi?> = combine(
-        container.progress.progress,
-        aiAvailable(container.ai, container.connectivity),
-    ) { progress, aiOn ->
-        SectionUi(
-            section = section,
-            chapterId = chapterId,
-            tasks = section.tasks.map { t ->
-                TaskRow(t, t.exercises.count { Mastery.isMastered(progress[it.id]) }, t.exercises.size)
-            },
-            started = section.exercises.any { it.id in progress },
-            firstPassDone = ChapterCompletion.firstPassDone(section, progress),
-            aiOn = aiOn,
-        )
-    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
+    val state: StateFlow<SectionUi?> =
+        combine(
+            container.progress.progress,
+            aiAvailable(container.ai, container.connectivity),
+        ) { progress, aiOn ->
+            SectionUi(
+                section = section,
+                chapterId = chapterId,
+                tasks =
+                    section.tasks.map { t ->
+                        TaskRow(t, t.exercises.count { Mastery.isMastered(progress[it.id]) }, t.exercises.size)
+                    },
+                started = section.exercises.any { it.id in progress },
+                firstPassDone = ChapterCompletion.firstPassDone(section, progress),
+                aiOn = aiOn,
+            )
+        }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
 }
+
+internal fun List<TaskRow>.startsOriginGroup(index: Int): Boolean =
+    index == 0 || this[index - 1].task.origin != this[index].task.origin
+
+internal fun List<TaskRow>.endsOriginGroup(index: Int): Boolean =
+    getOrNull(index + 1)?.task?.origin != this[index].task.origin

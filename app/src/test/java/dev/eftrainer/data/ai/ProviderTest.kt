@@ -23,8 +23,8 @@ class ProviderTest {
 
     @Test fun `other sk keys are openai`() {
         assertEquals(Provider.OPENAI, detectProvider("sk-proj-Abc123_xyz"))
-        assertEquals(Provider.OPENAI, detectProvider("sk-${hex32.uppercase()}"))   // не hex в нижнем регистре
-        assertEquals(Provider.OPENAI, detectProvider("sk-${hex32}0"))             // 33 символа
+        assertEquals(Provider.OPENAI, detectProvider("sk-${hex32.uppercase()}"))
+        assertEquals(Provider.OPENAI, detectProvider("sk-${hex32}0"))
     }
 
     @Test fun `whitespace is trimmed`() {

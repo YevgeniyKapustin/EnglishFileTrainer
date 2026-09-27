@@ -25,19 +25,21 @@ import dev.eftrainer.ui.AppNavigation
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()   // до первого кадра; стиль значков уточняется ниже по теме
+        enableEdgeToEdge()
         val theme = (application as App).container.theme
         setContent {
             val mode by theme.mode.collectAsStateWithLifecycle()
             val dark = mode == ThemeMode.DARK || (mode == ThemeMode.SYSTEM && isSystemInDarkTheme())
-            // Значки статус-бара и навигации — светлые на тёмной теме, тёмные на светлой.
             LaunchedEffect(dark) {
-                val bars = if (dark) SystemBarStyle.dark(Color.TRANSPARENT)
-                else SystemBarStyle.light(Color.TRANSPARENT, Color.TRANSPARENT)
+                val bars =
+                    if (dark) {
+                        SystemBarStyle.dark(Color.TRANSPARENT)
+                    } else {
+                        SystemBarStyle.light(Color.TRANSPARENT, Color.TRANSPARENT)
+                    }
                 enableEdgeToEdge(statusBarStyle = bars, navigationBarStyle = bars)
             }
             AppTheme(dark) {
-                // safeDrawing включает клавиатуру: низ экрана с кнопкой поднимается над ней.
                 Box(Modifier.fillMaxSize().background(C.Paper).windowInsetsPadding(WindowInsets.safeDrawing)) {
                     AppNavigation()
                 }

@@ -1,8 +1,5 @@
 package dev.eftrainer.data.content
 
-// СГЕНЕРИРОВАНО tools/generate.py из tools/content/1A.json — руками не править.
-// Источник: WB p.4–5 (PDF 3–4), key WB p.86 (PDF 87), SB Grammar Bank p.126–127 (PDF 127–128)
-
 val File1A = Chapter(
     id = "1A",
     title = "Are you? Can you? Do you? Did you?",

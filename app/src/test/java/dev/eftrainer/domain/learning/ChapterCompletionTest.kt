@@ -7,7 +7,6 @@ import org.junit.Assert.assertTrue
 import org.junit.Test
 
 class ChapterCompletionTest {
-
     private val grammar = section("g", 5)
     private val vocab = section("v", 5)
     private val pron = section("p", 0 + 2)
@@ -29,7 +28,7 @@ class ChapterCompletionTest {
     }
 
     @Test fun `all sections are open from the start`() {
-        assertEquals(listOf("g", "v", "p"), ChapterCompletion.openSections(c1, emptyMap()).map { it.id })
+        assertEquals(listOf("g", "v", "p"), ChapterCompletion.openSections(c1).map { it.id })
     }
 
     @Test fun `review covers first and started sections only`() {

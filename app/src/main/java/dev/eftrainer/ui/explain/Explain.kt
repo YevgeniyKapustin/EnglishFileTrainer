@@ -45,40 +45,51 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 
-// «Explain» на выделенный текст (plans/ai.md, «Explain»): выделил → пункт в меню выделения →
-// нижняя панель с ответом ИИ и уточняющими вопросами. Без ИИ меню выделения обычное.
-
-/** Что даёт [ExplainHost] вложенным [Selectable]: открыть объяснение выделенного текста. */
-private class ExplainTarget(val open: (String) -> Unit)
+private class ExplainTarget(
+    val open: (String) -> Unit,
+)
 
 private val LocalExplain = staticCompositionLocalOf<ExplainTarget?> { null }
 
-/** Контекст экрана для запроса: глава/раздел, на экране задания — ещё задание и упражнение. */
 fun explainContext(sectionId: String): ExplainPrompt.Context {
     val chapter = Chapters.chapterOfSection(sectionId)
     return ExplainPrompt.Context(chapter, Chapters.section(sectionId), studiedUpTo(chapter.id))
 }
 
-fun explainContext(exerciseId: String, answer: String?, expected: String?): ExplainPrompt.Context {
+fun explainContext(
+    exerciseId: String,
+    answer: String?,
+    expected: String?,
+): ExplainPrompt.Context {
     val loc = Chapters.locate(exerciseId)
     val exercise = loc.task.exercises.first { it.id == exerciseId }
-    return ExplainPrompt.Context(loc.chapter, loc.section, studiedUpTo(loc.chapter.id), loc.task, exercise, answer, expected)
+    return ExplainPrompt.Context(
+        loc.chapter,
+        loc.section,
+        studiedUpTo(loc.chapter.id),
+        loc.task,
+        exercise,
+        answer,
+        expected,
+    )
 }
 
-/** Главы открываются по порядку: всё до этой включительно уже пройдено или проходится. */
 private fun studiedUpTo(chapterId: String) =
     Chapters.all.let { all -> all.take(all.indexOfFirst { it.id == chapterId } + 1) }
 
-/**
- * Обёртка экрана: держит панель «Explain». [context] — текущий контекст экрана
- * (на экране задания меняется с каждым упражнением).
- */
+@Composable
+private fun explainViewModel(): ExplainViewModel =
+    appContainer().let { container -> viewModel(key = "explain") { ExplainViewModel(container.aiClient) } }
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun ExplainHost(context: ExplainPrompt.Context, content: @Composable () -> Unit) {
+fun ExplainHost(
+    context: ExplainPrompt.Context,
+    vm: ExplainViewModel = explainViewModel(),
+    content: @Composable () -> Unit,
+) {
     val container = appContainer()
     val aiOn by remember { aiAvailable(container.ai, container.connectivity) }.collectAsStateWithLifecycle(false)
-    val vm = viewModel(key = "explain") { ExplainViewModel(container.aiClient) }
     val ctx by rememberUpdatedState(context)
     val target = remember(vm) { ExplainTarget { text -> vm.open(text, ExplainPrompt.selection(text, ctx)) } }
 
@@ -97,7 +108,13 @@ fun ExplainHost(context: ExplainPrompt.Context, content: @Composable () -> Unit)
             ) {
                 Text(
                     "“${s.selection}”",
-                    style = T.rowEn.copy(fontSize = 16.sp, lineHeight = 24.sp, fontStyle = FontStyle.Italic, color = C.Muted),
+                    style =
+                        T.rowEn.copy(
+                            fontSize = 16.sp,
+                            lineHeight = 24.sp,
+                            fontStyle = FontStyle.Italic,
+                            color = C.Muted,
+                        ),
                     maxLines = 3,
                     overflow = TextOverflow.Ellipsis,
                 )
@@ -107,27 +124,29 @@ fun ExplainHost(context: ExplainPrompt.Context, content: @Composable () -> Unit)
     }
 }
 
-/**
- * Выделяемый текст. Внутри [ExplainHost] при включённом ИИ в меню выделения есть «Explain»;
- * иначе меню стандартное (Copy, Select all).
- */
 @Composable
-fun Selectable(modifier: Modifier = Modifier, content: @Composable () -> Unit) {
+fun Selectable(
+    modifier: Modifier = Modifier,
+    content: @Composable () -> Unit,
+) {
     val target = LocalExplain.current
     val selection = rememberSelectionState()
     val label = stringResource(R.string.explain)
-    val menu = if (target == null) Modifier else Modifier.appendTextContextMenuComponents {
-        // Меню собирается при показе: пункт только если выделено что-то в этом контейнере
-        // (у полей ввода внутри своё выделение — там «Explain» не нужен).
-        val text = selection.selectedTexts.joinToString(" ") { it.text }.trim()
-        if (text.isNotEmpty()) {
-            item(key = ExplainKey, label = label) {
-                close()
-                selection.clear()
-                target.open(text)
+    val menu =
+        if (target == null) {
+            Modifier
+        } else {
+            Modifier.appendTextContextMenuComponents {
+                val text = selection.selectedTexts.joinToString(" ") { it.text }.trim()
+                if (text.isNotEmpty()) {
+                    item(key = ExplainKey, label = label) {
+                        close()
+                        selection.clear()
+                        target.open(text)
+                    }
+                }
             }
         }
-    }
     Box(modifier.then(menu)) {
         SelectionContainer(selection) { content() }
     }
@@ -135,16 +154,22 @@ fun Selectable(modifier: Modifier = Modifier, content: @Composable () -> Unit) {
 
 private object ExplainKey
 
-/** Панель «Explain»: выделенный текст и чат. Живёт с экраном — переживает поворот. */
-class ExplainViewModel(private val client: AiClient) : ViewModel() {
-
-    data class Open(val selection: String, val chat: AiChat)
+class ExplainViewModel(
+    private val client: AiClient,
+) : ViewModel() {
+    data class Open(
+        val selection: String,
+        val chat: AiChat,
+    )
 
     private val _state = MutableStateFlow<Open?>(null)
     val state: StateFlow<Open?> = _state.asStateFlow()
     private var job: Job? = null
 
-    fun open(selection: String, prompt: List<Pair<String, String>>) {
+    fun open(
+        selection: String,
+        prompt: List<Pair<String, String>>,
+    ) {
         job?.cancel()
         send(Open(selection, AiChat(prompt).start()))
     }
@@ -168,9 +193,10 @@ class ExplainViewModel(private val client: AiClient) : ViewModel() {
 
     private fun send(s: Open) {
         _state.value = s
-        job = viewModelScope.launch {
-            val chat = client.reply(s.chat)
-            if (_state.value === s) _state.value = s.copy(chat = chat)
-        }
+        job =
+            viewModelScope.launch {
+                val chat = client.reply(s.chat)
+                if (_state.value === s) _state.value = s.copy(chat = chat)
+            }
     }
 }

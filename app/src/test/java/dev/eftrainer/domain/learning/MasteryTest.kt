@@ -6,7 +6,6 @@ import org.junit.Assert.assertTrue
 import org.junit.Test
 
 class MasteryTest {
-
     private fun answer(vararg days: Pair<Long, Boolean>) =
         days.fold(null as dev.eftrainer.data.db.entities.Progress?) { p, (day, ok) ->
             Fsrs.next("x", p, ok, TODAY.plusDays(day))

@@ -25,6 +25,9 @@ Android, чтобы совпадать с документацией.
 **Не берём:** Hilt (зависимости руками в `AppContainer`), многомодульность,
 UseCase-класс на каждое действие.
 
+Room: любая смена схемы — поднять `version`, написать миграцию (SQL в `data/db/MigrationSql.kt`) и тест
+в `MigrationTest`; `fallbackToDestructiveMigration` не используем никогда (сотрёт прогресс). Схемы — в `app/schemas/`.
+
 ```
 app/src/main/java/<package>/
   App.kt, AppContainer.kt      ручной DI: база, репозитории, контент

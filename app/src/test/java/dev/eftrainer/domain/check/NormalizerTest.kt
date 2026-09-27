@@ -4,10 +4,9 @@ import org.junit.Assert.assertEquals
 import org.junit.Test
 
 class NormalizerTest {
-
     private fun n(s: String) = Normalizer.normalize(s)
 
-    @Test fun `lowercases`() = assertEquals("where do you live", n("Where Do You Live"))
+    @Test fun lowercases() = assertEquals("where do you live", n("Where Do You Live"))
 
     @Test fun `trims and collapses spaces`() = assertEquals("where do you live", n("  where   do\tyou  live  "))
 

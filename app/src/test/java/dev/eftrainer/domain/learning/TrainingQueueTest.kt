@@ -6,13 +6,19 @@ import org.junit.Assert.assertTrue
 import org.junit.Test
 
 class TrainingQueueTest {
-
     private val passed = chapter("1A", section("a", 15))
     private val current = chapter("1B", section("g", 30), section("v", 5))
     private val chapters = listOf(passed, current)
+    private val allMastered = (1..30).map { mastered("g-$it") } + (1..5).map { mastered("v-$it") }
+    private val withPresets = listOf(passed, chapter("1B", section("g", 30).withPresets(3), section("v", 5)))
 
-    private fun review(progress: Map<String, dev.eftrainer.data.db.entities.Progress>, completed: Set<String> = setOf("1A")) =
-        TrainingQueue.review(chapters, completed, progress, TODAY)
+    private fun review(
+        progress: Map<String, dev.eftrainer.data.db.entities.Progress>,
+        completed: Set<String> =
+            setOf(
+                "1A",
+            ),
+    ) = TrainingQueue.review(chapters, completed, progress, TODAY)
 
     @Test fun `first pass is unanswered in book order`() {
         val s = section("g", 5)
@@ -30,11 +36,12 @@ class TrainingQueueTest {
     }
 
     @Test fun `not yet due and answered today are skipped`() {
-        val progress = listOf(
-            mastered("a-1", dueOn = TODAY.plusDays(1)),
-            mastered("a-2", dueOn = TODAY.minusDays(1), lastAnsweredOn = TODAY),
-            mastered("a-3", dueOn = TODAY),
-        ).byId()
+        val progress =
+            listOf(
+                mastered("a-1", dueOn = TODAY.plusDays(1)),
+                mastered("a-2", dueOn = TODAY.minusDays(1), lastAnsweredOn = TODAY),
+                mastered("a-3", dueOn = TODAY),
+            ).byId()
         assertEquals(listOf("a-3"), review(progress).due.map { it.id })
     }
 
@@ -72,12 +79,10 @@ class TrainingQueueTest {
         assertEquals(listOf("a-1"), plan.all.map { it.id })
     }
 
-    // --- свежие упражнения ИИ (Э7.6) ---
-
-    private val allMastered = (1..30).map { mastered("g-$it") } + (1..5).map { mastered("v-$it") }
-
-    private fun reviewGen(progress: Map<String, dev.eftrainer.data.db.entities.Progress>, generated: Map<String, List<dev.eftrainer.data.content.Exercise>>) =
-        TrainingQueue.review(chapters, setOf("1A"), progress, TODAY, generated = generated)
+    private fun reviewGen(
+        progress: Map<String, dev.eftrainer.data.db.entities.Progress>,
+        generated: Map<String, List<dev.eftrainer.data.content.Exercise>>,
+    ) = TrainingQueue.review(chapters, setOf("1A"), progress, TODAY, generated = generated)
 
     @Test fun `generated not shown while book of section is not mastered`() {
         val ids = reviewGen(emptyMap(), mapOf("g" to generated("g", 5))).all.map { it.id }
@@ -89,34 +94,50 @@ class TrainingQueueTest {
         val cur = reviewGen(progress, mapOf("g" to generated("g", 25))).current
         assertEquals(TrainingQueue.SESSION_SIZE, cur.size)
         val fresh = cur.filter { "-gen-" in it.id }.map { it.id }
-        assertEquals(16, fresh.size)                 // 4 места — освоенное (1 из 5)
-        assertEquals("g-gen-0002", fresh.first())    // неотвеченные — первыми, по порядку создания
-        assertTrue("g-gen-0001" !in fresh)           // слабые — после, сюда уже не влезли
+        assertEquals(16, fresh.size)
+        assertEquals("g-gen-0002", fresh.first())
+        assertTrue("g-gen-0001" !in fresh)
     }
 
     @Test fun `weak generated come after unanswered ones, weakest first`() {
-        val progress = (allMastered + listOf(progress("g-gen-0001", streak = 2), progress("g-gen-0002", streak = 0))).byId()
-        val fresh = reviewGen(progress, mapOf("g" to generated("g", 3))).current.filter { "-gen-" in it.id }.map { it.id }
+        val progress =
+            (
+                allMastered +
+                    listOf(
+                        progress("g-gen-0001", streak = 2),
+                        progress("g-gen-0002", streak = 0),
+                    )
+            ).byId()
+        val fresh =
+            reviewGen(
+                progress,
+                mapOf("g" to generated("g", 3)),
+            ).current.filter { "-gen-" in it.id }.map { it.id }
         assertEquals(listOf("g-gen-0003", "g-gen-0002", "g-gen-0001"), fresh)
     }
 
     @Test fun `generated answered today skipped, unmastered book goes first`() {
-        val progress = (allMastered + listOf(progress("g-1", streak = 1), progress("v-gen-0001", lastAnsweredOn = TODAY))).byId()
+        val progress =
+            (
+                allMastered +
+                    listOf(
+                        progress("g-1", streak = 1),
+                        progress("v-gen-0001", lastAnsweredOn = TODAY),
+                    )
+            ).byId()
         val cur = reviewGen(progress, mapOf("v" to generated("v", 3))).current.map { it.id }
         assertTrue("v-gen-0001" !in cur)
         assertTrue(cur.indexOf("g-1") in 0 until cur.indexOf("v-gen-0002"))
     }
 
     @Test fun `generated from completed chapters go by FSRS due`() {
-        val progress = listOf(
-            mastered("a-gen-0001", dueOn = TODAY.minusDays(2)),
-            mastered("a-gen-0002", dueOn = TODAY.plusDays(5)),
-        ).byId()
+        val progress =
+            listOf(
+                mastered("a-gen-0001", dueOn = TODAY.minusDays(2)),
+                mastered("a-gen-0002", dueOn = TODAY.plusDays(5)),
+            ).byId()
         assertEquals(listOf("a-gen-0001"), reviewGen(progress, mapOf("a" to generated("a", 3))).due.map { it.id })
     }
-
-    // Заготовки (вшитые свежие): как сгенерированные, но в Section.tasks.
-    private val withPresets = listOf(passed, chapter("1B", section("g", 30).withPresets(3), section("v", 5)))
 
     @Test fun `presets not in first pass, not in mastery share, hidden until book mastered`() {
         val g = withPresets[1].sections[0]
@@ -128,8 +149,17 @@ class TrainingQueueTest {
     }
 
     @Test fun `presets come before AI-generated once book is mastered`() {
-        val cur = TrainingQueue.review(withPresets, setOf("1A"), allMastered.byId(), TODAY, generated = mapOf("g" to generated("g", 3)))
-            .current.map { it.id }.filter { "-x1-" in it || "-gen-" in it }
+        val cur =
+            TrainingQueue
+                .review(
+                    withPresets,
+                    setOf("1A"),
+                    allMastered.byId(),
+                    TODAY,
+                    generated = mapOf("g" to generated("g", 3)),
+                ).current
+                .map { it.id }
+                .filter { "-x1-" in it || "-gen-" in it }
         assertEquals(listOf("g-x1-01", "g-x1-02", "g-x1-03", "g-gen-0001", "g-gen-0002", "g-gen-0003"), cur)
     }
 }

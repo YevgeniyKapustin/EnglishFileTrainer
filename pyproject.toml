@@ -1,0 +1,35 @@
+[tool.ruff]
+line-length = 120
+target-version = "py314"
+include = ["tools/**/*.py"]
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    "D",
+    "RUF001",
+    "T201",
+    "COM812",
+    "INP001",
+    "CPY001",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tools/generate.py" = ["PLC0415"]
+"tools/clips.py" = ["PLC0415"]
+"tools/lint_hook.py" = ["S603"]
+
+[tool.ruff.format]
+quote-style = "double"
+line-ending = "lf"
+
+[tool.mypy]
+python_version = "3.14"
+strict = true
+files = ["tools"]
+warn_unreachable = true
+untyped_calls_exclude = ["pymupdf"]
+
+[[tool.mypy.overrides]]
+module = ["mutagen", "mutagen.*", "faster_whisper", "faster_whisper.*"]
+ignore_missing_imports = true

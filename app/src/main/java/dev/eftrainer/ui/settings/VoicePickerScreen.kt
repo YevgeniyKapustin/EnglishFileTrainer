@@ -34,13 +34,11 @@ import dev.eftrainer.core.ui.ListRow
 import dev.eftrainer.ui.appContainer
 import dev.eftrainer.ui.exercise.inputs.rememberVoice
 
-/**
- * Выбор голоса (Settings → Voice): «Automatic» и английские офлайн-голоса телефона по акцентам.
- * Тап — выбрать и сразу послушать фразу с текущими громкостью и темпом.
- * Внизу — «Get more voices»: установщик голосов движка; вернулись — список перечитывается.
- */
 @Composable
-fun VoicePickerScreen(onBack: () -> Unit) {
+fun VoicePickerScreen(
+    onBack: () -> Unit,
+    modifier: Modifier = Modifier,
+) {
     val settings = appContainer().voice
     val tts = rememberVoice()
     val selected by settings.voiceName.collectAsStateWithLifecycle()
@@ -57,9 +55,13 @@ fun VoicePickerScreen(onBack: () -> Unit) {
         tts.speak(preview, "voice-preview")
     }
 
-    Column(Modifier.fillMaxSize()) {
+    Column(modifier.fillMaxSize()) {
         BackLink(stringResource(R.string.settings), onBack)
-        Text(stringResource(R.string.voice), style = T.title, modifier = Modifier.padding(start = 24.dp, end = 24.dp, top = 8.dp))
+        Text(
+            stringResource(R.string.voice),
+            style = T.title,
+            modifier = Modifier.padding(start = 24.dp, end = 24.dp, top = 8.dp),
+        )
         Column(Modifier.weight(1f).verticalScroll(rememberScrollState()).padding(horizontal = 24.dp, vertical = 8.dp)) {
             ListRow(onClick = { choose(null) }, divider = false) {
                 Text(stringResource(R.string.voice_auto), style = T.row, modifier = Modifier.weight(1f))
@@ -91,20 +93,23 @@ private fun Check(on: Boolean) {
     Icon(Icons.Check, null, Modifier.size(20.dp).alpha(if (on) 1f else 0f), tint = EF.Teal)
 }
 
-/** Установщик голосов движка по умолчанию, иначе системные настройки синтеза; ничего нет — null. */
-private fun moreVoicesIntent(context: Context, engine: String?): Intent? {
+private fun moreVoicesIntent(
+    context: Context,
+    engine: String?,
+): Intent? {
     val pm = context.packageManager
     val install = Intent(TextToSpeech.Engine.ACTION_INSTALL_TTS_DATA).apply { engine?.let { setPackage(it) } }
     val settings = Intent("com.android.settings.TTS_SETTINGS")
     return listOf(install, settings).firstOrNull { it.resolveActivity(pm) != null }
 }
 
-private fun open(context: Context, intent: Intent) {
+private fun open(
+    context: Context,
+    intent: Intent,
+) {
     try {
         context.startActivity(intent)
-    } catch (e: ActivityNotFoundException) {
-        // установщик пропал — просто ничего
-    } catch (e: SecurityException) {
-        // экран не экспортирован
+    } catch (ignored: ActivityNotFoundException) {
+    } catch (ignored: SecurityException) {
     }
 }

@@ -1,13 +1,14 @@
 package dev.eftrainer.data.generated
 
-/**
- * Крошечный JSON без зависимостей: разбор ответа ИИ и payload в Room.
- * org.json на JVM-тестах — заглушка Android, а kotlinx-serialization-json не подключён.
- * Объект → Map<String, Any?>, массив → List<Any?>, числа → Double.
- */
 object Json {
+    private const val TRUNCATED = "JSON оборвался"
+    private const val UNCLOSED_STRING = "строка не закрыта"
+    private const val UNICODE_DIGITS = 4
+    private const val HEX_RADIX = 16
 
-    class ParseException(message: String) : Exception(message)
+    class ParseException(
+        message: String,
+    ) : Exception(message)
 
     fun parse(text: String): Any? {
         val p = Parser(text)
@@ -17,30 +18,56 @@ object Json {
         return value
     }
 
-    fun string(s: String): String = buildString {
-        append('"')
-        for (c in s) when (c) {
-            '"' -> append("\\\"")
-            '\\' -> append("\\\\")
-            '\n' -> append("\\n")
-            '\r' -> append("\\r")
-            '\t' -> append("\\t")
-            else -> if (c < ' ') append("\\u%04x".format(c.code)) else append(c)
+    fun string(s: String): String =
+        buildString {
+            append('"')
+            for (c in s) {
+                when (c) {
+                    '"' -> append("\\\"")
+                    '\\' -> append("\\\\")
+                    '\n' -> append("\\n")
+                    '\r' -> append("\\r")
+                    '\t' -> append("\\t")
+                    else -> if (c < ' ') append("\\u%04x".format(c.code)) else append(c)
+                }
+            }
+            append('"')
         }
-        append('"')
-    }
 
-    /** Запись: Map / List / String / Number / Boolean / null. */
-    fun write(value: Any?): String = when (value) {
-        null -> "null"
-        is String -> string(value)
-        is Boolean, is Number -> value.toString()
-        is Map<*, *> -> value.entries.joinToString(",", "{", "}") { (k, v) -> string(k.toString()) + ":" + write(v) }
-        is List<*> -> value.joinToString(",", "[", "]") { write(it) }
-        else -> throw IllegalArgumentException("не JSON: $value")
-    }
+    fun write(value: Any?): String =
+        when (value) {
+            null -> {
+                "null"
+            }
 
-    private class Parser(val s: String) {
+            is String -> {
+                string(value)
+            }
+
+            is Boolean, is Number -> {
+                value.toString()
+            }
+
+            is Map<*, *> -> {
+                value.entries.joinToString(
+                    ",",
+                    "{",
+                    "}",
+                ) { (k, v) -> string(k.toString()) + ":" + write(v) }
+            }
+
+            is List<*> -> {
+                value.joinToString(",", "[", "]") { write(it) }
+            }
+
+            else -> {
+                throw IllegalArgumentException("не JSON: $value")
+            }
+        }
+
+    private class Parser(
+        val s: String,
+    ) {
         var pos = 0
 
         fun atEnd() = pos >= s.length
@@ -51,7 +78,7 @@ object Json {
 
         fun value(): Any? {
             skipSpaces()
-            if (atEnd()) throw ParseException("JSON оборвался")
+            if (atEnd()) throw ParseException(TRUNCATED)
             return when (val c = s[pos]) {
                 '{' -> obj()
                 '[' -> arr()
@@ -63,7 +90,10 @@ object Json {
             }
         }
 
-        private fun word(w: String, v: Any?): Any? {
+        private fun word(
+            w: String,
+            v: Any?,
+        ): Any? {
             if (!s.startsWith(w, pos)) throw ParseException("ожидали $w на $pos")
             pos += w.length
             return v
@@ -85,14 +115,17 @@ object Json {
             expect('{')
             val map = LinkedHashMap<String, Any?>()
             skipSpaces()
-            if (!atEnd() && s[pos] == '}') { pos++; return map }
+            if (!atEnd() && s[pos] == '}') {
+                pos++
+                return map
+            }
             while (true) {
                 skipSpaces()
                 val key = str()
                 expect(':')
                 map[key] = value()
                 skipSpaces()
-                if (atEnd()) throw ParseException("JSON оборвался")
+                if (atEnd()) throw ParseException(TRUNCATED)
                 when (s[pos++]) {
                     ',' -> continue
                     '}' -> return map
@@ -105,11 +138,14 @@ object Json {
             expect('[')
             val list = mutableListOf<Any?>()
             skipSpaces()
-            if (!atEnd() && s[pos] == ']') { pos++; return list }
+            if (!atEnd() && s[pos] == ']') {
+                pos++
+                return list
+            }
             while (true) {
                 list += value()
                 skipSpaces()
-                if (atEnd()) throw ParseException("JSON оборвался")
+                if (atEnd()) throw ParseException(TRUNCATED)
                 when (s[pos++]) {
                     ',' -> continue
                     ']' -> return list
@@ -123,28 +159,33 @@ object Json {
             pos++
             val sb = StringBuilder()
             while (true) {
-                if (atEnd()) throw ParseException("строка не закрыта")
-                when (val c = s[pos++]) {
-                    '"' -> return sb.toString()
-                    '\\' -> {
-                        if (atEnd()) throw ParseException("строка не закрыта")
-                        when (val e = s[pos++]) {
-                            'n' -> sb.append('\n')
-                            't' -> sb.append('\t')
-                            'r' -> sb.append('\r')
-                            'b' -> sb.append('\b')
-                            'f' -> sb.append('\u000C')
-                            'u' -> {
-                                if (pos + 4 > s.length) throw ParseException("плохой \\u")
-                                sb.append(s.substring(pos, pos + 4).toIntOrNull(16)?.toChar() ?: throw ParseException("плохой \\u"))
-                                pos += 4
-                            }
-                            else -> sb.append(e)   // \" \\ \/
-                        }
-                    }
-                    else -> sb.append(c)
-                }
+                if (atEnd()) throw ParseException(UNCLOSED_STRING)
+                val c = s[pos++]
+                if (c == '"') return sb.toString()
+                sb.append(if (c == '\\') escaped() else c)
             }
+        }
+
+        private fun escaped(): Char {
+            if (atEnd()) throw ParseException(UNCLOSED_STRING)
+            return when (val e = s[pos++]) {
+                'n' -> '\n'
+                't' -> '\t'
+                'r' -> '\r'
+                'b' -> '\b'
+                'f' -> '\u000C'
+                'u' -> unicode()
+                else -> e
+            }
+        }
+
+        private fun unicode(): Char {
+            val digits = s.substring(pos, minOf(pos + UNICODE_DIGITS, s.length))
+            val code =
+                digits.takeIf { it.length == UNICODE_DIGITS }?.toIntOrNull(HEX_RADIX)
+                    ?: throw ParseException("плохой \\u на $pos")
+            pos += UNICODE_DIGITS
+            return code.toChar()
         }
     }
 }

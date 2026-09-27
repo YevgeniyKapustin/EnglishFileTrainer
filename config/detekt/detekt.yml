@@ -1,0 +1,52 @@
+config:
+  validation: true
+
+comments:
+  UndocumentedPublicClass:
+    active: false
+  UndocumentedPublicFunction:
+    active: false
+  UndocumentedPublicProperty:
+    active: false
+
+empty-blocks:
+  EmptyFunctionBlock:
+    ignoreOverridden: true
+
+complexity:
+  LabeledExpression:
+    active: false
+
+naming:
+  FunctionNaming:
+    ignoreAnnotated: ['Composable']
+  FunctionNameMaxLength:
+    maximumFunctionNameLength: 40
+    excludes: ['**/test/**']
+  FunctionNameMinLength:
+    excludes: ['**/test/**']
+
+style:
+  ForbiddenComment:
+    comments:
+      - value: '[\s\S]'
+        reason: 'Comments are forbidden: code must explain itself through names, types and constants.'
+  CascadingCallWrapping:
+    active: false
+  MultilineRawStringIndentation:
+    active: false
+  MagicNumber:
+    ignoreAnnotated: ['Composable', 'Preview']
+    ignoreEnums: true
+  DataClassContainsFunctions:
+    active: false
+  UnnecessaryParentheses:
+    allowForUnclearPrecedence: true
+  ReturnCount:
+    excludeGuardClauses: true
+
+Compose:
+  CompositionLocalAllowlist:
+    allowedCompositionLocals: ['LocalExplain']
+  UnstableCollections:
+    active: false

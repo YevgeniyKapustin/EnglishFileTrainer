@@ -47,10 +47,6 @@ import dev.eftrainer.core.theme.T
 import dev.eftrainer.domain.ai.AiChat
 import dev.eftrainer.ui.exercise.aiErrorRes
 
-/**
- * Переписка «Объяснить»: ответы ИИ, уточняющие вопросы ученика, «Thinking…» / ошибка
- * и поле «Ask a follow-up». Переписка прокручивается внутри [maxHeight], поле — всегда под ней.
- */
 @Composable
 fun ChatThread(
     chat: AiChat,
@@ -62,7 +58,6 @@ fun ChatThread(
 ) {
     val small = T.label.copy(fontSize = 15.sp, lineHeight = 21.sp)
     val scroll = rememberScrollState()
-    // Новая реплика — прокрутить вниз, как в мессенджере.
     LaunchedEffect(chat.lines.size, chat.loading) { scroll.animateScrollTo(scroll.maxValue) }
 
     Column(modifier, verticalArrangement = Arrangement.spacedBy(10.dp)) {
@@ -76,12 +71,13 @@ fun ChatThread(
                         Text(
                             line.text,
                             style = T.body.copy(fontSize = 15.sp, lineHeight = 21.sp),
-                            modifier = Modifier
-                                .widthIn(max = 280.dp)
-                                .clip(RoundedCornerShape(14.dp, 14.dp, 4.dp, 14.dp))
-                                .background(C.Field)
-                                .border(1.dp, C.Line, RoundedCornerShape(14.dp, 14.dp, 4.dp, 14.dp))
-                                .padding(horizontal = 12.dp, vertical = 8.dp),
+                            modifier =
+                                Modifier
+                                    .widthIn(max = 280.dp)
+                                    .clip(RoundedCornerShape(14.dp, 14.dp, 4.dp, 14.dp))
+                                    .background(C.Field)
+                                    .border(1.dp, C.Line, RoundedCornerShape(14.dp, 14.dp, 4.dp, 14.dp))
+                                    .padding(horizontal = 12.dp, vertical = 8.dp),
                         )
                     }
                 } else {
@@ -89,19 +85,28 @@ fun ChatThread(
                 }
             }
             when {
-                chat.loading -> Text(stringResource(R.string.thinking), style = small, modifier = Modifier.padding(vertical = 4.dp))
-                chat.error != null -> Text(
-                    stringResource(aiErrorRes(chat.error)),
-                    style = small.copy(color = C.Bad),
-                    modifier = Modifier.clickable(onClick = onRetry).padding(vertical = 4.dp),
-                )
+                chat.loading -> {
+                    Text(
+                        stringResource(R.string.thinking),
+                        style = small,
+                        modifier = Modifier.padding(vertical = 4.dp),
+                    )
+                }
+
+                chat.error != null -> {
+                    Text(
+                        stringResource(aiErrorRes(chat.error)),
+                        style = small.copy(color = C.Bad),
+                        modifier = Modifier.clickable(onClick = onRetry).padding(vertical = 4.dp),
+                    )
+                }
             }
         }
-        if (canAsk && chat.answered && !chat.loading && chat.error == null) FollowUpField(onAsk)
+        val settled = !chat.loading && chat.error == null
+        if (canAsk && chat.answered && settled) FollowUpField(onAsk)
     }
 }
 
-/** Поле уточняющего вопроса со стрелкой «отправить». */
 @Composable
 private fun FollowUpField(onAsk: (String) -> Unit) {
     var text by rememberSaveable { mutableStateOf("") }
@@ -113,7 +118,13 @@ private fun FollowUpField(onAsk: (String) -> Unit) {
     }
     val shape = RoundedCornerShape(14.dp)
     Row(
-        Modifier.fillMaxWidth().clip(shape).background(C.Field).border(1.dp, C.FieldBorder, shape).padding(start = 14.dp, end = 6.dp),
+        Modifier
+            .fillMaxWidth()
+            .clip(
+                shape,
+            ).background(C.Field)
+            .border(1.dp, C.FieldBorder, shape)
+            .padding(start = 14.dp, end = 6.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         BasicTextField(
@@ -125,7 +136,12 @@ private fun FollowUpField(onAsk: (String) -> Unit) {
             keyboardActions = KeyboardActions(onSend = { send() }),
             modifier = Modifier.weight(1f).padding(vertical = 12.dp),
             decorationBox = { inner ->
-                if (text.isEmpty()) Text(stringResource(R.string.ask_follow_up), style = T.body.copy(fontSize = 15.sp, color = C.Muted))
+                if (text.isEmpty()) {
+                    Text(
+                        stringResource(R.string.ask_follow_up),
+                        style = T.body.copy(fontSize = 15.sp, color = C.Muted),
+                    )
+                }
                 inner()
             },
         )
@@ -133,11 +149,14 @@ private fun FollowUpField(onAsk: (String) -> Unit) {
     }
 }
 
-/** Круглая кнопка со стрелкой вверх — отправить реплику (и в разговоре Talk). */
 @Composable
-fun SendButton(enabled: Boolean, onClick: () -> Unit) {
+fun SendButton(
+    enabled: Boolean,
+    onClick: () -> Unit,
+    modifier: Modifier = Modifier,
+) {
     Box(
-        Modifier
+        modifier
             .size(36.dp)
             .clip(RoundedCornerShape(18.dp))
             .background(if (enabled) C.Accent else C.Disabled)
@@ -148,24 +167,33 @@ fun SendButton(enabled: Boolean, onClick: () -> Unit) {
     }
 }
 
-/** Стрелка вверх 24×24, линией — как иконки в core/ui/Icons.kt. */
 private val SendIcon: ImageVector =
-    ImageVector.Builder(defaultWidth = 24.dp, defaultHeight = 24.dp, viewportWidth = 24f, viewportHeight = 24f)
+    ImageVector
+        .Builder(defaultWidth = 24.dp, defaultHeight = 24.dp, viewportWidth = 24f, viewportHeight = 24f)
         .addPath(
             addPathNodes("M12 19V5M6 11l6-6l6 6"),
             stroke = SolidColor(Color.Black),
             strokeLineWidth = 2.2f,
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round,
-        )
-        .build()
+        ).build()
 
-/** Подпись полужирным акцентом — «Why?», «Finish». */
 @Composable
-fun LinkText(text: String, onClick: () -> Unit, modifier: Modifier = Modifier, enabled: Boolean = true) {
+fun LinkText(
+    text: String,
+    onClick: () -> Unit,
+    modifier: Modifier = Modifier,
+    enabled: Boolean = true,
+) {
     Text(
         text,
-        style = T.label.copy(fontSize = 15.sp, lineHeight = 21.sp, color = if (enabled) C.Accent else C.Off, fontWeight = FontWeight.SemiBold),
+        style =
+            T.label.copy(
+                fontSize = 15.sp,
+                lineHeight = 21.sp,
+                color = if (enabled) C.Accent else C.Off,
+                fontWeight = FontWeight.SemiBold,
+            ),
         modifier = modifier.clickable(enabled = enabled, onClick = onClick).padding(vertical = 4.dp),
     )
 }

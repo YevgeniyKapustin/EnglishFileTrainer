@@ -22,10 +22,6 @@ import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.EF
 import dev.eftrainer.ui.appContainer
 
-/**
- * Синтезатор для экрана с голосом, громкостью и темпом из Settings → Voice (применяются на лету).
- * Выключатель «Read AI replies aloud» сюда не относится: ручной тап по динамику работает всегда.
- */
 @Composable
 fun rememberVoice(): TextToSpeechState {
     val voice = appContainer().voice
@@ -39,12 +35,14 @@ fun rememberVoice(): TextToSpeechState {
     return tts
 }
 
-/**
- * Значок динамика: тап — прочитать [text] вслух, повторный тап — замолчать.
- * Нет синтезатора или английского голоса — значка нет.
- */
 @Composable
-fun SayIcon(tts: TextToSpeechState, text: String, id: String, modifier: Modifier = Modifier, size: Dp = 20.dp) {
+fun SayIcon(
+    tts: TextToSpeechState,
+    text: String,
+    id: String,
+    modifier: Modifier = Modifier,
+    size: Dp = 20.dp,
+) {
     if (!tts.available || text.isBlank()) return
     val speaking = tts.speaking == id
     Box(

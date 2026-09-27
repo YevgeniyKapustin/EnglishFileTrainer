@@ -57,6 +57,16 @@
 | Открытие | автоматически по мере прогресса, глава за главой | Никаких ручных отметок — приложение само ведёт по книге |
 | Темп | одна текущая глава, медленно и глубоко, до освоения | Так идут занятия с учителем — несколько уроков на главу |
 | Учителю | ничего не показываем, приложение только для меня | Без экспорта и отчётов |
+| Комментарии | ни одного: ни в Kotlin, ни в Python, ни в XML/конфигах; KDoc и docstring тоже нет | Код объясняет себя именами, типами и константами; «почему» — в `plans/` |
+| Линтеры | строгие, всё — ошибки: detekt (`allRules`) + compose-rules, ktlint, Kotlin `allWarningsAsErrors`, Android Lint; для `tools/` — ruff (`ALL`) и mypy strict | Подавления (`@Suppress`, `noqa`, `type: ignore`) не используем — правим код |
+
+**Проверки перед сдачей работы** (из корня; все должны быть зелёными):
+- Kotlin: `./gradlew :app:ktlintFormat :app:ktlintCheck :app:detekt :app:testDebugUnitTest :app:lintDebug`.
+  Отчёт detekt — `app/build/reports/detekt/detekt.sarif`, lint — `app/build/intermediates/lint_intermediate_text_report/debug/lintReportDebug/lint-results-debug.txt`.
+- Python: `uvx ruff format tools`, `uvx ruff check`, `uvx --with pymupdf --with numpy mypy`,
+  `PYTHONIOENCODING=utf-8 python tools/check_no_comments.py`.
+- Хук `.claude/settings.json` → `tools/lint_hook.py`: после каждой правки `.py` — ruff и проверка комментариев.
+- Конфиги: `config/detekt/detekt.yml`, `.editorconfig`, `pyproject.toml`, блок `lint {}` в `app/build.gradle.kts`.
 
 ## Где что (читать по задаче)
 

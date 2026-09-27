@@ -6,16 +6,16 @@ import org.junit.Assert.assertTrue
 import org.junit.Test
 import java.time.LocalDate
 
-/**
- * Эталон — py-fsrs 6 (Scheduler без learning steps, без fuzz, maximum_interval=180,
- * desired_retention=0.9), ответы в полдень указанных дней.
- * Строка: (день ответа, верно?) → (stability, difficulty, день следующего показа).
- */
 class FsrsTest {
-
     private val start = LocalDate.of(2026, 1, 1)
 
-    private data class Step(val day: Long, val correct: Boolean, val stability: Double, val difficulty: Double, val dueDay: Long)
+    private data class Step(
+        val day: Long,
+        val correct: Boolean,
+        val stability: Double,
+        val difficulty: Double,
+        val dueDay: Long,
+    )
 
     private fun replay(steps: List<Step>): Progress? {
         var p: Progress? = null
@@ -98,7 +98,12 @@ class FsrsTest {
 
     @Test fun `counts correct and wrong`() {
         var p: Progress? = null
-        listOf(true, false, true, true).forEachIndexed { i, ok -> p = Fsrs.next("x", p, ok, start.plusDays(i.toLong())) }
+        listOf(
+            true,
+            false,
+            true,
+            true,
+        ).forEachIndexed { i, ok -> p = Fsrs.next("x", p, ok, start.plusDays(i.toLong())) }
         assertEquals(3, p!!.correctCount)
         assertEquals(1, p.wrongCount)
     }

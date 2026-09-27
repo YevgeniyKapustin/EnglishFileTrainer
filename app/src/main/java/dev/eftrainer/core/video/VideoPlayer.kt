@@ -18,62 +18,63 @@ import androidx.media3.exoplayer.ExoPlayer
 import dev.eftrainer.core.audio.AudioPlayerState
 import dev.eftrainer.core.audio.assetItem
 import dev.eftrainer.core.audio.buildPlayer
+import dev.eftrainer.core.audio.listAssets
 import dev.eftrainer.data.content.Clip
 import kotlinx.coroutines.delay
 
-/**
- * Ролики Practical English в assets: "ep1_introduction" → video/ep1_introduction.mp4.
- * Папка в .gitignore — нет файла, нет и плеера.
- */
 object VideoAssets {
-    fun path(name: String): String = "video/${name.trim()}.mp4"
-
     @Volatile private var names: Set<String>? = null
 
-    fun exists(context: Context, name: String): Boolean {
-        val present = names ?: (context.assets.list("video")?.toSet().orEmpty()).also { names = it }
+    fun path(name: String): String = "video/${name.trim()}.mp4"
+
+    fun exists(
+        context: Context,
+        name: String,
+    ): Boolean {
+        val present = names ?: listAssets(context, "video").also { names = it }
         return path(name).removePrefix("video/") in present
     }
 }
 
-/**
- * Один ролик на ExoPlayer (Media3). Как [AudioPlayerState]: поля читаются из Compose;
- * старт ролика ставит на паузу трек/другой ролик, [AudioPlayerState.pauseAll] — и ролик.
- * С [clip] — только отрезок пункта (реплика), позиция и перемотка внутри него.
- */
 @Stable
-class VideoPlayerState internal constructor(context: Context, asset: String, clip: Clip?) {
-
-    val player: ExoPlayer = buildPlayer(context).apply {
-        setMediaItem(assetItem(asset, clip))
-        prepare() // первый кадр виден сразу
-    }
+class VideoPlayerState internal constructor(
+    context: Context,
+    asset: String,
+    clip: Clip?,
+) {
+    val player: ExoPlayer =
+        buildPlayer(context).apply {
+            setMediaItem(assetItem(asset, clip))
+            prepare()
+        }
 
     var playing by mutableStateOf(false)
         private set
     var positionMs by mutableLongStateOf(0L)
         private set
-    /** 0, пока файл не подготовлен. */
+
     var durationMs by mutableLongStateOf(0L)
         private set
 
     private val pauseFromOutside: () -> Unit = { pause() }
 
     init {
-        player.addListener(object : Player.Listener {
-            override fun onIsPlayingChanged(isPlaying: Boolean) {
-                playing = isPlaying
-                sync()
-            }
-
-            override fun onPlaybackStateChanged(state: Int) {
-                if (state == Player.STATE_READY) durationMs = player.duration.coerceAtLeast(0L)
-                if (state == Player.STATE_ENDED) {
-                    player.playWhenReady = false
-                    positionMs = durationMs
+        player.addListener(
+            object : Player.Listener {
+                override fun onIsPlayingChanged(isPlaying: Boolean) {
+                    playing = isPlaying
+                    sync()
                 }
-            }
-        })
+
+                override fun onPlaybackStateChanged(state: Int) {
+                    if (state == Player.STATE_READY) durationMs = player.duration.coerceAtLeast(0L)
+                    if (state == Player.STATE_ENDED) {
+                        player.playWhenReady = false
+                        positionMs = durationMs
+                    }
+                }
+            },
+        )
     }
 
     fun play() {
@@ -105,13 +106,22 @@ class VideoPlayerState internal constructor(context: Context, asset: String, cli
     }
 }
 
-/** Плеер ролика [name] (с [clip] — отрезка) или null, если файла нет. Освобождается при уходе с экрана, пауза в фоне. */
 @Composable
-fun rememberVideoPlayer(name: String?, clip: Clip? = null): VideoPlayerState? {
+fun rememberVideoPlayer(
+    name: String?,
+    clip: Clip? = null,
+): VideoPlayerState? {
     val context = LocalContext.current.applicationContext
-    val state = remember(name, clip) {
-        name?.takeIf { VideoAssets.exists(context, it) }?.let { VideoPlayerState(context, VideoAssets.path(it), clip) }
-    }
+    val state =
+        remember(name, clip) {
+            name
+                ?.takeIf {
+                    VideoAssets.exists(
+                        context,
+                        it,
+                    )
+                }?.let { VideoPlayerState(context, VideoAssets.path(it), clip) }
+        }
     DisposableEffect(state) {
         onDispose { state?.release() }
     }

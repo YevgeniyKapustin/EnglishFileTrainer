@@ -18,42 +18,44 @@ data class SectionRow(
     val section: Section,
     val open: Boolean,
     val mastered: Double,
-    val opensAfter: String?,   // название раздела, после которого откроется
+    val opensAfter: String?,
 )
 
 data class CurrentUi(
-    val chapter: Chapter?,               // null — книга пройдена
+    val chapter: Chapter?,
     val mastered: Double,
     val sections: List<SectionRow>,
-    val reviewSections: List<String>,    // из каких разделов текущей главы упражнения Review
+    val reviewSections: List<String>,
     val reviewCurrent: Int,
     val reviewDue: Int,
 )
 
-class CurrentChapterViewModel(container: AppContainer) : ViewModel() {
-
+class CurrentChapterViewModel(
+    container: AppContainer,
+) : ViewModel() {
     val state: StateFlow<CurrentUi?> =
-        // Тот же источник, что у SessionViewModel: учитывает разговоры с ИИ (при ключе и сети) и свежие упражнения.
-        container.review.inputs.map { inputs ->
-            val progress = inputs.progress
-            val chapter = ChapterCompletion.current(Chapters.all, inputs.completed)
-            val plan = container.review.plan(inputs)
-            val open = chapter?.let { ChapterCompletion.openSections(it, progress) }.orEmpty()
-            val rows = chapter?.sections.orEmpty().mapIndexed { i, s ->
-                SectionRow(
-                    section = s,
-                    open = s in open,
-                    mastered = Mastery.share(s.exercises, progress),
-                    opensAfter = if (s in open) null else chapter!!.sections[i - 1].title,
+        container.review.inputs
+            .map { inputs ->
+                val progress = inputs.progress
+                val chapter = ChapterCompletion.current(Chapters.all, inputs.completed)
+                val plan = container.review.plan(inputs)
+                val open = chapter?.let { ChapterCompletion.openSections(it) }.orEmpty()
+                val rows =
+                    chapter?.sections.orEmpty().mapIndexed { i, s ->
+                        SectionRow(
+                            section = s,
+                            open = s in open,
+                            mastered = Mastery.share(s.exercises, progress),
+                            opensAfter = if (s in open) null else chapter!!.sections[i - 1].title,
+                        )
+                    }
+                CurrentUi(
+                    chapter = chapter,
+                    mastered = chapter?.let { Mastery.share(it.exercises, progress) } ?: 1.0,
+                    sections = rows,
+                    reviewSections = plan.current.map { Chapters.locate(it.id).section.title }.distinct(),
+                    reviewCurrent = plan.current.size,
+                    reviewDue = plan.due.size,
                 )
-            }
-            CurrentUi(
-                chapter = chapter,
-                mastered = chapter?.let { Mastery.share(it.exercises, progress) } ?: 1.0,
-                sections = rows,
-                reviewSections = plan.current.map { Chapters.locate(it.id).section.title }.distinct(),
-                reviewCurrent = plan.current.size,
-                reviewDue = plan.due.size,
-            )
-        }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
+            }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
 }

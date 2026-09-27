@@ -15,21 +15,31 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
-/**
- * Один разговор с ИИ (одна попытка упражнения [Talk]): реплики, ожидание ответа, оценка.
- * Живёт, пока открыт экран сессии, — поворот экрана и перерисовки разговор не сбрасывают.
- */
-class TalkViewModel(private val client: AiClient, private val talk: Talk) : ViewModel() {
-
+class TalkViewModel(
+    private val client: AiClient,
+    private val talk: Talk,
+) : ViewModel() {
     sealed interface Status {
-        data object Talking : Status                  // ход ученика
-        data object Waiting : Status                  // ИИ отвечает
-        data object Grading : Status                  // ИИ оценивает разговор
-        data class Failed(val reason: AiException.Reason, val grading: Boolean) : Status
-        data class Graded(val grade: TalkPrompt.Grade) : Status
+        data object Talking : Status
+
+        data object Waiting : Status
+
+        data object Grading : Status
+
+        data class Failed(
+            val reason: AiException.Reason,
+            val grading: Boolean,
+        ) : Status
+
+        data class Graded(
+            val grade: TalkPrompt.Grade,
+        ) : Status
     }
 
-    data class Ui(val lines: List<ChatLine>, val status: Status) {
+    data class Ui(
+        val lines: List<ChatLine>,
+        val status: Status,
+    ) {
         val studentLines: List<String> get() = lines.filter { it.student }.map { it.text }
     }
 
@@ -44,7 +54,6 @@ class TalkViewModel(private val client: AiClient, private val talk: Talk) : View
         if (lines.count { it.student } >= TalkPrompt.MAX_TURNS) grade() else answer()
     }
 
-    /** Ученик сам заканчивает разговор. */
     fun finish() {
         val s = _state.value
         if (s.status == Status.Talking && s.lines.any { it.student }) grade()
@@ -60,7 +69,11 @@ class TalkViewModel(private val client: AiClient, private val talk: Talk) : View
         viewModelScope.launch {
             val lines = _state.value.lines
             try {
-                val reply = TalkPrompt.reply(client.chat(TalkPrompt.conversation(talk, lines)), lines.count { it.student })
+                val reply =
+                    TalkPrompt.reply(
+                        client.chat(TalkPrompt.conversation(talk, lines)),
+                        lines.count { it.student },
+                    )
                 _state.value = Ui(lines + ChatLine(false, reply.text), Status.Talking)
                 if (reply.ended) grade()
             } catch (e: AiException) {
@@ -75,10 +88,10 @@ class TalkViewModel(private val client: AiClient, private val talk: Talk) : View
             val chapter = Chapters.locate(talk.id).chapter
             val prompt = TalkPrompt.grading(talk, ExplainPrompt.rules(chapter.sections), _state.value.lines)
             try {
-                // Не разобрали ответ — ещё одна попытка, потом незачёт с общей фразой (упражнение вернётся в конце сессии).
-                val grade = TalkPrompt.parseGrade(client.chat(prompt))
-                    ?: TalkPrompt.parseGrade(client.chat(prompt))
-                    ?: TalkPrompt.Grade(pass = false, summary = "")
+                val grade =
+                    TalkPrompt.parseGrade(client.chat(prompt))
+                        ?: TalkPrompt.parseGrade(client.chat(prompt))
+                        ?: TalkPrompt.Grade(pass = false, summary = "")
                 _state.update { it.copy(status = Status.Graded(grade)) }
             } catch (e: AiException) {
                 _state.update { it.copy(status = Status.Failed(e.reason, grading = true)) }

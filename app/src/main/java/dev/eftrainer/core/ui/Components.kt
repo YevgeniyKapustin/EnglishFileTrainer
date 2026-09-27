@@ -30,9 +30,14 @@ import androidx.compose.ui.unit.sp
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.Golos
 
-/** Главная кнопка экрана (.btn). */
 @Composable
-fun PrimaryButton(text: String, onClick: () -> Unit, modifier: Modifier = Modifier, enabled: Boolean = true, color: Color = C.Accent) {
+fun PrimaryButton(
+    text: String,
+    onClick: () -> Unit,
+    modifier: Modifier = Modifier,
+    enabled: Boolean = true,
+    color: Color = C.Accent,
+) {
     Box(
         modifier
             .fillMaxWidth()
@@ -42,18 +47,32 @@ fun PrimaryButton(text: String, onClick: () -> Unit, modifier: Modifier = Modifi
             .clickable(enabled = enabled, onClick = onClick),
         contentAlignment = Alignment.Center,
     ) {
-        Text(text, style = TextStyle(fontFamily = Golos, fontSize = 17.sp, fontWeight = FontWeight.SemiBold, color = C.OnAccent))
+        Text(
+            text,
+            style =
+                TextStyle(
+                    fontFamily = Golos,
+                    fontSize = 17.sp,
+                    fontWeight = FontWeight.SemiBold,
+                    color = C.OnAccent,
+                ),
+        )
     }
 }
 
-/** Низ экрана с отступами (.bottom). */
 @Composable
-fun BottomBar(content: @Composable () -> Unit) {
-    Column(Modifier.padding(start = 24.dp, end = 24.dp, top = 12.dp, bottom = 24.dp)) { content() }
+fun BottomBar(
+    modifier: Modifier = Modifier,
+    content: @Composable () -> Unit,
+) {
+    Column(modifier.padding(start = 24.dp, end = 24.dp, top = 12.dp, bottom = 24.dp)) { content() }
 }
 
 @Composable
-fun ProgressBar(fraction: Float, modifier: Modifier = Modifier) {
+fun ProgressBar(
+    fraction: Float,
+    modifier: Modifier = Modifier,
+) {
     Box(modifier.height(6.dp).clip(RoundedCornerShape(3.dp)).background(C.Line)) {
         Box(
             Modifier
@@ -65,15 +84,23 @@ fun ProgressBar(fraction: Float, modifier: Modifier = Modifier) {
     }
 }
 
-/** Ссылка «назад» в шапке (.back). */
 @Composable
-fun BackLink(text: String, onClick: () -> Unit) {
+fun BackLink(
+    text: String,
+    onClick: () -> Unit,
+    modifier: Modifier = Modifier,
+) {
     Row(
-        Modifier.height(56.dp).padding(horizontal = 12.dp),
+        modifier.height(56.dp).padding(horizontal = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Row(
-            Modifier.heightIn(min = 44.dp).clip(RoundedCornerShape(8.dp)).clickable(onClick = onClick).padding(horizontal = 8.dp),
+            Modifier
+                .heightIn(
+                    min = 44.dp,
+                ).clip(RoundedCornerShape(8.dp))
+                .clickable(onClick = onClick)
+                .padding(horizontal = 8.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(4.dp),
         ) {
@@ -84,17 +111,28 @@ fun BackLink(text: String, onClick: () -> Unit) {
 }
 
 @Composable
-fun IconButton24(icon: ImageVector, description: String, onClick: () -> Unit, tint: Color = C.Ink, size: Int = 22) {
+fun IconButton24(
+    icon: ImageVector,
+    description: String,
+    onClick: () -> Unit,
+    modifier: Modifier = Modifier,
+    tint: Color = C.Ink,
+    size: Int = 22,
+) {
     Box(
-        Modifier.size(44.dp).clip(RoundedCornerShape(22.dp)).clickable(onClick = onClick),
+        modifier.size(44.dp).clip(RoundedCornerShape(22.dp)).clickable(onClick = onClick),
         contentAlignment = Alignment.Center,
     ) { Icon(icon, description, Modifier.size(size.dp), tint = tint) }
 }
 
-/** Строка списка (.row) с разделителем снизу. */
 @Composable
-fun ListRow(onClick: (() -> Unit)?, divider: Boolean, content: @Composable RowScope.() -> Unit) {
-    Column {
+fun ListRow(
+    onClick: (() -> Unit)?,
+    divider: Boolean,
+    modifier: Modifier = Modifier,
+    content: @Composable RowScope.() -> Unit,
+) {
+    Column(modifier) {
         Row(
             Modifier
                 .fillMaxWidth()

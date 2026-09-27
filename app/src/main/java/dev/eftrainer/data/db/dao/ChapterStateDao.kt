@@ -15,7 +15,6 @@ interface ChapterStateDao {
     @Query("SELECT * FROM ChapterState")
     suspend fun getAll(): List<ChapterState>
 
-    // IGNORE: дата первого прохождения не перезаписывается
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun insert(state: ChapterState)
 }

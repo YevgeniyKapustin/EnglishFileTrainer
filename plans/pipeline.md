@@ -65,3 +65,26 @@ PDF → JSON → Kotlin, аудио, клипы. Порядок работы —
 **Аудио SB** — `english_file/audio/EF4e_PreintSB_<u>.<n>.mp3`, 280 шт.; вшиты в APK (`assets/audio/<u>_<n>.mp3`,
 папка в `.gitignore`). Content-validation: у каждого трека задания/таблицы есть файл. Если APK станет мешать —
 пережать (Opus моно ~32 кбит/с) или аудио только в release (`src/release/assets`).
+
+## Скрипты `tools/`
+
+Запуск из корня, `PYTHONIOENCODING=utf-8`. Комментариев и docstring в коде нет — всё «как и почему» здесь.
+- `render.py` — шаг 1: `uv run --no-project --with pymupdf python tools/render.py wb 3 4 --dpi 150` (ключ — `--dpi 200`).
+  Номера — индекс страницы PDF с 1; PNG в `tools/out/` (не в git: сканы книги).
+- `generate.py` — шаг 5: `uv run --no-project --with mutagen python tools/generate.py 1A` (без mutagen длина файла
+  для клипов не проверяется — только предупреждение). Правка — в JSON, Kotlin не трогаем. У `speak` `answers` можно
+  не писать (= `[text]`), иначе `answers[0] == text`. У `rewrite` с `prefill` поле `prompt` в Kotlin = `prefill`
+  (обязательное, не показывается). Дубль заготовки ищется по нормализованному (как `Normalizer.kt`) тексту+подсказке
+  и полному первому ответу; шаблон вида «What … ?» без подсказки — не ключ.
+- `clips.py` — шаг 5a: `uv run --no-project --with faster-whisper python tools/clips.py transcribe|dump|find …`,
+  пути от `app/src/main/assets`. `find` подтягивает границы к участкам звука (whisper после паузы ставит начало на
+  1–2 с раньше), запас 0,3 с, но не дальше середины паузы до соседнего звука. Под музыкой карта громкости
+  ненадёжна → `--words`. Если `find` промахнулся (цифры: whisper «07700», в книге «oh seven…») — искать глазами
+  в `dump`. Результат прослушать: выравнивание — подсказка.
+- `icon.py` — `uv run --no-project --with pymupdf python tools/icon.py`: пишет `drawable/ic_launcher_foreground.xml`,
+  `drawable/splash_icon.xml` и превью `tools/out/icon.png`. Форму маски выбирает лаунчер (у TECNO — скруглённый
+  квадрат), поэтому фон значка прозрачный, а белый круг видимой зоны (72 из 108) и веер по нему — в foreground.
+  Заставка Android 12+: тот же веер 288dp с кругом 192dp (пропорция 108/72), лучи стартуют повёрнутыми к
+  горизонтали и раскрываются вверх за 600 мс. pymupdf не умеет `clipPath` — превью маскируется толстой обводкой.
+- Проверки: `ruff format tools`, `ruff check`, `mypy` (strict, настройки в `pyproject.toml`),
+  `python tools/check_no_comments.py` (комментарии и docstring → exit 1).

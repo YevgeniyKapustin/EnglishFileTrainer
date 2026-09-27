@@ -1,8 +1,5 @@
 package dev.eftrainer.data.content
 
-// СГЕНЕРИРОВАНО tools/generate.py из tools/content/1B.json — руками не править.
-// Источник: SB p.8–9 (PDF 9–10), Grammar Bank p.126–127 (PDF 127–128), Vocabulary Bank p.150 (PDF 151), Communication p.102/108 (PDF 103/109), Writing p.113 (PDF 114), scripts p.120 (PDF 121); WB p.6–7 (PDF 5–6), p.11 (PDF 10), key WB p.88 (PDF 87)
-
 val File1B = Chapter(
     id = "1B",
     title = "The perfect date?",

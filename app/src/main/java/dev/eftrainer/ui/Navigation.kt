@@ -18,25 +18,36 @@ import dev.eftrainer.ui.settings.SettingsScreen
 import dev.eftrainer.ui.settings.VoicePickerScreen
 import kotlinx.serialization.Serializable
 
-// Маршруты — как роуты в react-router, только типизированные классы.
 @Serializable object CurrentRoute
+
 @Serializable object ChaptersRoute
+
 @Serializable object SettingsRoute
+
 @Serializable object VoiceRoute
-@Serializable data class SectionRoute(val sectionId: String)
-@Serializable data class RulesRoute(val sectionId: String, val startTasks: Boolean)
-@Serializable data class SessionRoute(val sectionId: String? = null)   // null — Review
+
+@Serializable data class SectionRoute(
+    val sectionId: String,
+)
+
+@Serializable data class RulesRoute(
+    val sectionId: String,
+    val startTasks: Boolean,
+)
+
+@Serializable data class SessionRoute(
+    val sectionId: String? = null,
+)
 
 @Composable
 fun AppNavigation(nav: NavHostController = rememberNavController()) {
-    // Сессия закрывается всегда на главный экран, минуя раздел и правила.
-    fun home() { nav.popBackStack(CurrentRoute, inclusive = false) }
+    fun home() {
+        nav.popBackStack(CurrentRoute, inclusive = false)
+    }
 
     NavHost(
         nav,
         startDestination = CurrentRoute,
-        // Старый экран гаснет сразу, новый быстро проявляется — без наложения текста.
-        // (ExitTransition.None оставлял старый экран видимым до конца перехода.)
         enterTransition = { fadeIn(tween(150)) },
         exitTransition = { fadeOut(tween(0)) },
     ) {
@@ -49,7 +60,12 @@ fun AppNavigation(nav: NavHostController = rememberNavController()) {
             )
         }
         composable<ChaptersRoute> { AllChaptersScreen(onBack = { nav.popBackStack() }) }
-        composable<SettingsRoute> { SettingsScreen(onBack = { nav.popBackStack() }, onVoice = { nav.navigate(VoiceRoute) }) }
+        composable<SettingsRoute> {
+            SettingsScreen(
+                onBack = { nav.popBackStack() },
+                onVoice = { nav.navigate(VoiceRoute) },
+            )
+        }
         composable<VoiceRoute> { VoicePickerScreen(onBack = { nav.popBackStack() }) }
         composable<SectionRoute> { entry ->
             val id = entry.toRoute<SectionRoute>().sectionId

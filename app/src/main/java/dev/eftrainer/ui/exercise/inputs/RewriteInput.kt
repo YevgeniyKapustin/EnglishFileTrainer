@@ -23,7 +23,6 @@ import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.T
 import dev.eftrainer.data.content.Rewrite
 
-/** «Напиши предложение целиком»; с prefill — «исправь ошибку» прямо в поле. */
 @Composable
 fun RewriteInput(
     exercise: Rewrite,
@@ -33,16 +32,18 @@ fun RewriteInput(
     correct: Boolean,
     focus: FocusRequester,
     onAction: () -> Unit,
+    modifier: Modifier = Modifier,
 ) {
-    Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+    Column(modifier, verticalArrangement = Arrangement.spacedBy(12.dp)) {
         if (exercise.prefill == null) Text(exercise.prompt, style = T.question)
         exercise.hint?.let { Text(it, style = T.hint) }
 
-        val border = when {
-            !checked -> C.FieldBorder
-            correct -> C.Ok
-            else -> C.Bad
-        }
+        val border =
+            when {
+                !checked -> C.FieldBorder
+                correct -> C.Ok
+                else -> C.Bad
+            }
         val shape = RoundedCornerShape(14.dp)
         BasicTextField(
             value = value,

@@ -1,364 +1,466 @@
-"""Генерирует data/content/File<ID>.kt из tools/content/<ID>.json (plans/pipeline.md, шаг 5).
-
-    uv run --no-project python tools/generate.py 1A
-
-Kotlin руками не правим: правка — в JSON, потом перегенерация.
-Типы упражнений: blank, rewrite, speak (text, answers?, audio?; text из отдельных букв "A K E" —
-мягкая проверка букв в Checker), talk (situation, goal, opener, criteria), write (prompt,
-questions?, criteria — письменный ответ, проверяет ИИ). У таблицы правил — необязательный
-"audio": трек Grammar Bank "1.4". У задания — необязательный "audio": трек SB "1.9" → assets/audio/1_9.mp3,
-и "video": ролик Practical English "ep1_introduction" → assets/video/ep1_introduction.mp4.
-id упражнения = "<task id>-<номер пункта в книге, 2 цифры>" и не меняется никогда.
-У blank/rewrite/speak в задании с audio или video — необязательный "clip": [начало, конец] в секундах
-от начала файла: пункт играет только этот отрезок (plans/pipeline.md, шаг «Клипы»). Длина файла проверяется
-через mutagen, если он есть: uv run --no-project --with mutagen python tools/generate.py 1A.
-
-Свежие упражнения-заготовки (plans/learning.md, «Свежие упражнения на правило»): задания раздела с
-"origin": "GENERATED" и id "<раздел>-x<N>" ("1A-grammar-x1" → упражнения "1A-grammar-x1-01").
-Сочинены заранее (source MODEL), только blank/rewrite, у каждого — explain. В «освоено» и
-первый проход не входят, в тренировку идут через Review после освоения книжных пунктов раздела.
-Проверка: не повторяют книгу и друг друга (по нормализованному тексту, как Normalizer.kt).
-"""
 import json
 import re
 import sys
+from dataclasses import dataclass, field
 from pathlib import Path
+from typing import TYPE_CHECKING, Any
+
+if TYPE_CHECKING:
+    from collections.abc import Callable, Iterable
+
+type Json = dict[str, Any]
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "app/src/main/java/dev/eftrainer/data/content"
-AUDIO_DIR = ROOT / "app/src/main/assets/audio"   # не в git — нет файла → только предупреждение
-VIDEO_DIR = ROOT / "app/src/main/assets/video"   # тоже не в git
+AUDIO_DIR = ROOT / "app/src/main/assets/audio"
+VIDEO_DIR = ROOT / "app/src/main/assets/video"
 
 KINDS = {"GRAMMAR", "VOCABULARY", "PRONUNCIATION", "SKILLS", "PRACTICAL_ENGLISH"}
 ORIGINS = {"WB", "SB", "SB_GRAMMAR_BANK", "GENERATED"}
 SOURCES = {"KEY", "MODEL", "CONFIRMED"}
+AI_CHECKED_TYPES = ("talk", "write")
+CLIPPABLE_TYPES = ("blank", "rewrite", "speak")
+PRESET_TYPES = ("blank", "rewrite")
+PRESET_SECTION_KINDS = ("GRAMMAR", "VOCABULARY")
+CLIP_BOUNDS_COUNT = 2
+BUBBLE_COUNT = 2
+CLIP_LENGTH_TOLERANCE_SECONDS = 0.05
 
 
-def s(v):
-    """Строковый литерал Kotlin (или null)."""
-    if v is None:
+@dataclass
+class Report:
+    errors: list[str] = field(default_factory=list)
+    warnings: list[str] = field(default_factory=list)
+    ids: set[str] = field(default_factory=set)
+
+    def claim_id(self, item_id: str) -> None:
+        if item_id in self.ids:
+            self.errors.append(f"повтор id {item_id}")
+        self.ids.add(item_id)
+
+
+def kotlin_string(value: str | None) -> str:
+    if value is None:
         return "null"
-    return '"' + v.replace("\\", "\\\\").replace('"', '\\"').replace("$", "\\$") + '"'
+    return '"' + value.replace("\\", "\\\\").replace('"', '\\"').replace("$", "\\$") + '"'
 
 
-def strings(xs):
-    return "listOf(" + ", ".join(s(x) for x in xs) + ")"
+def kotlin_strings(values: Iterable[str]) -> str:
+    return "listOf(" + ", ".join(kotlin_string(value) for value in values) + ")"
 
 
-def default_source(e):
-    """Как в Model.kt: у Talk и Write по умолчанию CONFIRMED, у остальных KEY."""
-    return "CONFIRMED" if e["type"] in ("talk", "write") else "KEY"
+def kotlin_list(formatted_items: list[str], indent: str) -> str:
+    return "listOf(\n" + ",\n".join(formatted_items) + f",\n{indent})" if formatted_items else "listOf()"
 
 
-def audio_file(track):
-    """Трек SB "1.9" → assets/audio/1_9.mp3."""
+def exercise_id(task: Json, exercise: Json) -> str:
+    return f"{task['id']}-{exercise['n']:02d}"
+
+
+def default_source(exercise: Json) -> str:
+    return "CONFIRMED" if exercise["type"] in AI_CHECKED_TYPES else "KEY"
+
+
+def audio_path(track: str) -> Path:
     return AUDIO_DIR / (track.replace(".", "_") + ".mp3")
 
 
-def check_audio(owner, track, errors, warnings):
+def video_path(name: str) -> Path:
+    return VIDEO_DIR / (name + ".mp4")
+
+
+def check_audio(owner: str, track: str, report: Report) -> None:
     if not re.fullmatch(r"\d+\.\d+", track):
-        errors.append(f"{owner}: audio «{track}» — нужен номер трека вида 1.9")
-    elif not audio_file(track).exists():
-        warnings.append(f"{owner}: нет файла {audio_file(track).relative_to(ROOT)}")
+        report.errors.append(f"{owner}: audio «{track}» — нужен номер трека вида 1.9")
+    elif not audio_path(track).exists():
+        report.warnings.append(f"{owner}: нет файла {audio_path(track).relative_to(ROOT)}")
 
 
-def media_length(path):
-    """Длина mp3/mp4 в секундах или None (нет файла или нет mutagen)."""
+def media_length_seconds(path: Path) -> float | None:
     if not path.exists():
         return None
     try:
         import mutagen
     except ImportError:
         return None
-    f = mutagen.File(path)
-    return f.info.length if f and f.info else None
+    media = mutagen.File(path)
+    return float(media.info.length) if media and media.info else None
 
 
-def check_clip(eid, t, e, errors, warnings):
-    """clip: [start, end] в секундах; только у пунктов задания с записью, внутри файла."""
-    c = e["clip"]
-    if not (isinstance(c, list) and len(c) == 2 and all(isinstance(x, (int, float)) for x in c)):
-        errors.append(f"{eid}: clip — нужен [начало, конец] в секундах")
+def check_clip(eid: str, task: Json, exercise: Json, report: Report) -> None:
+    clip = exercise["clip"]
+    is_pair_of_numbers = (
+        isinstance(clip, list)
+        and len(clip) == CLIP_BOUNDS_COUNT
+        and all(isinstance(bound, int | float) for bound in clip)
+    )
+    if not is_pair_of_numbers:
+        report.errors.append(f"{eid}: clip — нужен [начало, конец] в секундах")
         return
-    if e["type"] not in ("blank", "rewrite", "speak"):
-        errors.append(f"{eid}: clip только у blank/rewrite/speak")
-    if not (t.get("audio") or t.get("video")):
-        errors.append(f"{eid}: clip без audio/video у задания")
+    if exercise["type"] not in CLIPPABLE_TYPES:
+        report.errors.append(f"{eid}: clip только у blank/rewrite/speak")
+    if not (task.get("audio") or task.get("video")):
+        report.errors.append(f"{eid}: clip без audio/video у задания")
         return
-    start, end = c
+    start, end = clip
     if not (0 <= start < end):
-        errors.append(f"{eid}: clip {c} — нужно 0 ≤ начало < конец")
-    path = audio_file(t["audio"]) if t.get("audio") else VIDEO_DIR / (t["video"] + ".mp4")
-    length = media_length(path)
+        report.errors.append(f"{eid}: clip {clip} — нужно 0 ≤ начало < конец")
+    path = audio_path(task["audio"]) if task.get("audio") else video_path(task["video"])
+    length = media_length_seconds(path)
     if length is None:
-        warnings.append(f"{eid}: длина {path.name} не проверена (нет файла или mutagen)")
-    elif end > length + 0.05:
-        errors.append(f"{eid}: clip {c} длиннее файла {path.name} ({length:.2f} с)")
+        report.warnings.append(f"{eid}: длина {path.name} не проверена (нет файла или mutagen)")
+    elif end > length + CLIP_LENGTH_TOLERANCE_SECONDS:
+        report.errors.append(f"{eid}: clip {clip} длиннее файла {path.name} ({length:.2f} с)")
 
 
-def normalize(v):
-    """Как Normalizer.kt: апострофы, пробелы, финальная . ? !, регистр."""
-    v = re.sub(r"\s+", " ", v.replace("’", "'").replace("‘", "'")).strip()
-    return re.sub(r"[.?!]+$", "", v).rstrip().lower()
+def normalize(text: str) -> str:
+    text = re.sub(r"\s+", " ", text.replace("’", "'").replace("‘", "'")).strip()
+    return re.sub(r"[.?!]+$", "", text).rstrip().lower()
 
 
-def keys(e):
-    """По чему ловим дубль (как GeneratePrompt.keys): текст задания и полный первый ответ.
-    Шаблон вроде «What … ?» без подсказки не ключ — он общий у многих пунктов."""
-    if e["type"] == "blank":
-        parts = e["text"].split("{}")
-        filled = "".join(p + (e["gaps"][i][0] if i < len(e["gaps"]) and e["gaps"][i] else "") for i, p in enumerate(parts))
-        ks = [e["text"] + " " + (e.get("hint") or ""), filled]
-    elif e["type"] == "rewrite":
-        ks = [e.get("prefill"), e["answers"][0] if e["answers"] else None]
-        if e.get("prompt") and not e.get("prefill"):
-            ks.append(e["prompt"] + " " + (e.get("hint") or ""))
+def filled_blank(exercise: Json) -> str:
+    parts = exercise["text"].split("{}")
+    gaps = exercise["gaps"]
+    return "".join(
+        part + (gaps[index][0] if index < len(gaps) and gaps[index] else "") for index, part in enumerate(parts)
+    )
+
+
+def duplicate_keys(exercise: Json) -> set[str]:
+    candidates: list[str | None]
+    if exercise["type"] == "blank":
+        candidates = [exercise["text"] + " " + (exercise.get("hint") or ""), filled_blank(exercise)]
+    elif exercise["type"] == "rewrite":
+        candidates = [exercise.get("prefill"), exercise["answers"][0] if exercise["answers"] else None]
+        if exercise.get("prompt") and not exercise.get("prefill"):
+            candidates.append(exercise["prompt"] + " " + (exercise.get("hint") or ""))
     else:
-        ks = [e.get("text")]
-    return {normalize(k) for k in ks if k}
+        candidates = [exercise.get("text")]
+    return {normalize(candidate) for candidate in candidates if candidate}
 
 
-def validate_presets(ch, errors):
-    for sec in ch["sections"]:
-        book = [e for t in sec["tasks"] if t["origin"] != "GENERATED" for e in t["exercises"]]
-        seen = {k: "книга" for e in book for k in keys(e)}
-        for t in sec["tasks"]:
-            if t["origin"] != "GENERATED":
-                continue
-            if not re.fullmatch(re.escape(sec["id"]) + r"-x\d+", t["id"]):
-                errors.append(f"{t['id']}: id заготовок — {sec['id']}-x<N>")
-            if sec["kind"] not in ("GRAMMAR", "VOCABULARY"):
-                errors.append(f"{t['id']}: заготовки — только в Grammar/Vocabulary")
-            for e in t["exercises"]:
-                eid = f"{t['id']}-{e['n']:02d}"
-                if e["type"] not in ("blank", "rewrite"):
-                    errors.append(f"{eid}: в заготовках только blank/rewrite")
-                    continue
-                if e.get("source") != "MODEL":
-                    errors.append(f"{eid}: у заготовок source MODEL")
-                if not (e.get("explain") or "").strip():
-                    errors.append(f"{eid}: нет explain")
-                for k in keys(e):
-                    if k in seen:
-                        errors.append(f"{eid}: повтор «{k}» ({seen[k]})")
-                    seen[k] = eid
+def validate_preset_task(section: Json, task: Json, seen: dict[str, str], report: Report) -> None:
+    if not re.fullmatch(re.escape(section["id"]) + r"-x\d+", task["id"]):
+        report.errors.append(f"{task['id']}: id заготовок — {section['id']}-x<N>")
+    if section["kind"] not in PRESET_SECTION_KINDS:
+        report.errors.append(f"{task['id']}: заготовки — только в Grammar/Vocabulary")
+    for exercise in task["exercises"]:
+        eid = exercise_id(task, exercise)
+        if exercise["type"] not in PRESET_TYPES:
+            report.errors.append(f"{eid}: в заготовках только blank/rewrite")
+            continue
+        if exercise.get("source") != "MODEL":
+            report.errors.append(f"{eid}: у заготовок source MODEL")
+        if not (exercise.get("explain") or "").strip():
+            report.errors.append(f"{eid}: нет explain")
+        for key in duplicate_keys(exercise):
+            if key in seen:
+                report.errors.append(f"{eid}: повтор «{key}» ({seen[key]})")
+            seen[key] = eid
 
 
-def validate(ch):
-    """Возвращает (ошибки, предупреждения)."""
-    errors = []
-    warnings = []
-    ids = set()
-
-    def uniq(i):
-        if i in ids:
-            errors.append(f"повтор id {i}")
-        ids.add(i)
-
-    uniq(ch["id"])
-    if "bubbles" in ch and (len(ch["bubbles"]) != 2 or not all(b.strip() for b in ch["bubbles"])):
-        errors.append("bubbles: нужны две непустые реплики")
-    for sec in ch["sections"]:
-        uniq(sec["id"])
-        if sec["kind"] not in KINDS:
-            errors.append(f"{sec['id']}: kind {sec['kind']}")
-        for r in sec["reference"]:
-            if r["type"] == "table" and any(len(row) != len(r["headers"]) for row in r["rows"]):
-                errors.append(f"{sec['id']}: строка таблицы «{r['title']}» не той ширины")
-            if r["type"] == "table" and r.get("audio"):
-                check_audio(f"{sec['id']} «{r['title']}»", r["audio"], errors, warnings)
-        if not sec["tasks"]:
-            errors.append(f"{sec['id']}: нет заданий")
-        for t in sec["tasks"]:
-            uniq(t["id"])
-            if t["origin"] not in ORIGINS:
-                errors.append(f"{t['id']}: origin {t['origin']}")
-            if not t["exercises"]:
-                errors.append(f"{t['id']}: нет упражнений")
-            if t.get("audio"):
-                check_audio(t["id"], t["audio"], errors, warnings)
-            if t.get("video"):
-                if not re.fullmatch(r"[a-z0-9_]+", t["video"]):
-                    errors.append(f"{t['id']}: video «{t['video']}» — нужно имя вида ep1_introduction")
-                elif not (VIDEO_DIR / (t["video"] + ".mp4")).exists():
-                    warnings.append(f"{t['id']}: нет файла assets/video/{t['video']}.mp4")
-            for e in t["exercises"]:
-                eid = f"{t['id']}-{e['n']:02d}"
-                uniq(eid)
-                if e.get("source", default_source(e)) not in SOURCES:
-                    errors.append(f"{eid}: source {e['source']}")
-                if "clip" in e:
-                    check_clip(eid, t, e, errors, warnings)
-                if e["type"] == "blank":
-                    if e["text"].count("{}") != len(e["gaps"]):
-                        errors.append(f"{eid}: {{}} не совпадает с числом gaps")
-                    variants = [v for g in e["gaps"] for v in g] + [None] * any(not g for g in e["gaps"])
-                elif e["type"] == "rewrite":
-                    if not (e.get("prompt") or e.get("prefill")):
-                        errors.append(f"{eid}: нет ни prompt, ни prefill")
-                    variants = e["answers"] or [None]
-                elif e["type"] == "speak":
-                    # answers можно не писать — тогда [text]
-                    answers = e.get("answers") or [e["text"]]
-                    if answers[0] != e["text"]:
-                        errors.append(f"{eid}: answers[0] должен совпадать с text")
-                    if e.get("audio"):
-                        check_audio(eid, e["audio"], errors, warnings)
-                    variants = [e["text"]] + answers
-                elif e["type"] == "talk":
-                    for f in ("situation", "goal", "opener"):
-                        if not e.get(f, "").strip():
-                            errors.append(f"{eid}: пустое поле {f}")
-                    variants = e.get("criteria") or [None]
-                elif e["type"] == "write":
-                    if not e.get("prompt", "").strip():
-                        errors.append(f"{eid}: пустое поле prompt")
-                    variants = (e.get("criteria") or [None]) + e.get("questions", [])
-                else:
-                    errors.append(f"{eid}: тип {e['type']}")
-                    continue
-                if any(not v or not v.strip() for v in variants):
-                    errors.append(f"{eid}: пустой ответ")
-    validate_presets(ch, errors)
-    return errors, warnings
+def validate_presets(chapter: Json, report: Report) -> None:
+    for section in chapter["sections"]:
+        book = [
+            exercise for task in section["tasks"] if task["origin"] != "GENERATED" for exercise in task["exercises"]
+        ]
+        seen = {key: "книга" for exercise in book for key in duplicate_keys(exercise)}
+        for task in section["tasks"]:
+            if task["origin"] == "GENERATED":
+                validate_preset_task(section, task, seen, report)
 
 
-def reference(r, ind):
-    if r["type"] == "table":
-        rows = f",\n{ind}        ".join(strings(row) for row in r["rows"])
+def blank_answers(eid: str, exercise: Json, report: Report) -> list[str | None]:
+    if exercise["text"].count("{}") != len(exercise["gaps"]):
+        report.errors.append(f"{eid}: {{}} не совпадает с числом gaps")
+    has_empty_gap = any(not gap for gap in exercise["gaps"])
+    return [variant for gap in exercise["gaps"] for variant in gap] + [None] * has_empty_gap
+
+
+def rewrite_answers(eid: str, exercise: Json, report: Report) -> list[str | None]:
+    if not (exercise.get("prompt") or exercise.get("prefill")):
+        report.errors.append(f"{eid}: нет ни prompt, ни prefill")
+    answers: list[str | None] = exercise["answers"] or [None]
+    return answers
+
+
+def speak_answers(eid: str, exercise: Json, report: Report) -> list[str | None]:
+    answers = exercise.get("answers") or [exercise["text"]]
+    if answers[0] != exercise["text"]:
+        report.errors.append(f"{eid}: answers[0] должен совпадать с text")
+    if exercise.get("audio"):
+        check_audio(eid, exercise["audio"], report)
+    return [exercise["text"], *answers]
+
+
+def talk_answers(eid: str, exercise: Json, report: Report) -> list[str | None]:
+    for field_name in ("situation", "goal", "opener"):
+        if not exercise.get(field_name, "").strip():
+            report.errors.append(f"{eid}: пустое поле {field_name}")
+    return exercise.get("criteria") or [None]
+
+
+def write_answers(eid: str, exercise: Json, report: Report) -> list[str | None]:
+    if not exercise.get("prompt", "").strip():
+        report.errors.append(f"{eid}: пустое поле prompt")
+    criteria: list[str | None] = exercise.get("criteria") or [None]
+    questions: list[str] = exercise.get("questions", [])
+    return criteria + questions
+
+
+ANSWER_VALIDATORS: dict[str, Callable[[str, Json, Report], list[str | None]]] = {
+    "blank": blank_answers,
+    "rewrite": rewrite_answers,
+    "speak": speak_answers,
+    "talk": talk_answers,
+    "write": write_answers,
+}
+
+
+def validate_exercise(task: Json, exercise: Json, report: Report) -> None:
+    eid = exercise_id(task, exercise)
+    report.claim_id(eid)
+    if exercise.get("source", default_source(exercise)) not in SOURCES:
+        report.errors.append(f"{eid}: source {exercise['source']}")
+    if "clip" in exercise:
+        check_clip(eid, task, exercise, report)
+    validate_answers = ANSWER_VALIDATORS.get(exercise["type"])
+    if validate_answers is None:
+        report.errors.append(f"{eid}: тип {exercise['type']}")
+        return
+    if any(not answer or not answer.strip() for answer in validate_answers(eid, exercise, report)):
+        report.errors.append(f"{eid}: пустой ответ")
+
+
+def validate_video(task: Json, report: Report) -> None:
+    if not re.fullmatch(r"[a-z0-9_]+", task["video"]):
+        report.errors.append(f"{task['id']}: video «{task['video']}» — нужно имя вида ep1_introduction")
+    elif not video_path(task["video"]).exists():
+        report.warnings.append(f"{task['id']}: нет файла assets/video/{task['video']}.mp4")
+
+
+def validate_task(task: Json, report: Report) -> None:
+    report.claim_id(task["id"])
+    if task["origin"] not in ORIGINS:
+        report.errors.append(f"{task['id']}: origin {task['origin']}")
+    if not task["exercises"]:
+        report.errors.append(f"{task['id']}: нет упражнений")
+    if task.get("audio"):
+        check_audio(task["id"], task["audio"], report)
+    if task.get("video"):
+        validate_video(task, report)
+    for exercise in task["exercises"]:
+        validate_exercise(task, exercise, report)
+
+
+def validate_reference(section: Json, reference: Json, report: Report) -> None:
+    if reference["type"] != "table":
+        return
+    if any(len(row) != len(reference["headers"]) for row in reference["rows"]):
+        report.errors.append(f"{section['id']}: строка таблицы «{reference['title']}» не той ширины")
+    if reference.get("audio"):
+        check_audio(f"{section['id']} «{reference['title']}»", reference["audio"], report)
+
+
+def validate_section(section: Json, report: Report) -> None:
+    report.claim_id(section["id"])
+    if section["kind"] not in KINDS:
+        report.errors.append(f"{section['id']}: kind {section['kind']}")
+    for reference in section["reference"]:
+        validate_reference(section, reference, report)
+    if not section["tasks"]:
+        report.errors.append(f"{section['id']}: нет заданий")
+    for task in section["tasks"]:
+        validate_task(task, report)
+
+
+def validate(chapter: Json) -> Report:
+    report = Report()
+    report.claim_id(chapter["id"])
+    bubbles = chapter.get("bubbles")
+    if bubbles is not None and (len(bubbles) != BUBBLE_COUNT or not all(bubble.strip() for bubble in bubbles)):
+        report.errors.append("bubbles: нужны две непустые реплики")
+    for section in chapter["sections"]:
+        validate_section(section, report)
+    validate_presets(chapter, report)
+    return report
+
+
+def reference_code(reference: Json, indent: str) -> str:
+    if reference["type"] == "table":
+        rows = f",\n{indent}        ".join(kotlin_strings(row) for row in reference["rows"])
         return (
-            f"{ind}Reference.Table(\n"
-            f"{ind}    title = {s(r['title'])},\n"
-            f"{ind}    headers = {strings(r['headers'])},\n"
-            f"{ind}    rows = listOf(\n{ind}        {rows},\n{ind}    ),\n"
-            + (f"{ind}    audio = {s(r['audio'])},\n" if r.get("audio") else "")
-            + f"{ind})"
+            f"{indent}Reference.Table(\n"
+            f"{indent}    title = {kotlin_string(reference['title'])},\n"
+            f"{indent}    headers = {kotlin_strings(reference['headers'])},\n"
+            f"{indent}    rows = listOf(\n{indent}        {rows},\n{indent}    ),\n"
+            + (f"{indent}    audio = {kotlin_string(reference['audio'])},\n" if reference.get("audio") else "")
+            + f"{indent})"
         )
-    if r["type"] == "note":
-        return f"{ind}Reference.Note(title = {s(r.get('title'))}, text = {s(r['text'])})"
-    if r["type"] == "mistake":
+    if reference["type"] == "note":
         return (
-            f"{ind}Reference.Mistake(\n"
-            f"{ind}    wrong = {s(r['wrong'])},\n"
-            f"{ind}    right = {s(r['right'])},\n"
-            f"{ind}    why = {s(r.get('why'))},\n"
-            f"{ind})"
+            f"{indent}Reference.Note(title = {kotlin_string(reference.get('title'))}, "
+            f"text = {kotlin_string(reference['text'])})"
         )
-    raise ValueError(r["type"])
+    if reference["type"] == "mistake":
+        return (
+            f"{indent}Reference.Mistake(\n"
+            f"{indent}    wrong = {kotlin_string(reference['wrong'])},\n"
+            f"{indent}    right = {kotlin_string(reference['right'])},\n"
+            f"{indent}    why = {kotlin_string(reference.get('why'))},\n"
+            f"{indent})"
+        )
+    raise ValueError(reference["type"])
 
 
-def exercise(tid, e, ind):
-    args = [s(f"{tid}-{e['n']:02d}")]
-    if e["type"] == "blank":
-        args.append(f"text = {s(e['text'])}")
-        args.append("gaps = listOf(" + ", ".join(strings(g) for g in e["gaps"]) + ")")
-        ctor = "Blank"
-    elif e["type"] == "speak":
-        args.append(f"text = {s(e['text'])}")
-        args.append(f"answers = {strings(e.get('answers') or [e['text']])}")
-        if e.get("audio"):
-            args.append(f"audio = {s(e['audio'])}")
-        ctor = "Speak"
-    elif e["type"] == "talk":
-        args.append(f"situation = {s(e['situation'])}")
-        args.append(f"goal = {s(e['goal'])}")
-        args.append(f"opener = {s(e['opener'])}")
-        args.append(f"criteria = {strings(e['criteria'])}")
-        ctor = "Talk"
-    elif e["type"] == "write":
-        args.append(f"prompt = {s(e['prompt'])}")
-        if e.get("questions"):
-            args.append(f"questions = {strings(e['questions'])}")
-        args.append(f"criteria = {strings(e['criteria'])}")
-        ctor = "Write"
-    else:
-        # С prefill prompt не показывается, но поле обязательное — дублируем фразу.
-        args.append(f"prompt = {s(e.get('prompt') or e['prefill'])}")
-        args.append(f"answers = {strings(e['answers'])}")
-        if e.get("prefill"):
-            args.append(f"prefill = {s(e['prefill'])}")
-        ctor = "Rewrite"
-    if e.get("hint"):
-        args.append(f"hint = {s(e['hint'])}")
-    if e.get("explain"):
-        args.append(f"explain = {s(e['explain'])}")
-    if e.get("source", default_source(e)) != default_source(e):
-        args.append(f"source = AnswerSource.{e['source']}")
-    if e.get("clip"):
-        start, end = (round(x * 1000) for x in e["clip"])
-        args.append(f"clip = Clip({start}, {end})")
-    body = f",\n{ind}    ".join(args)
-    return f"{ind}{ctor}(\n{ind}    {body},\n{ind})"
+def blank_arguments(exercise: Json) -> list[str]:
+    return [
+        f"text = {kotlin_string(exercise['text'])}",
+        "gaps = listOf(" + ", ".join(kotlin_strings(gap) for gap in exercise["gaps"]) + ")",
+    ]
 
 
-def task(t, ind):
-    exs = ",\n".join(exercise(t["id"], e, ind + "        ") for e in t["exercises"])
-    ctx = f"{ind}    context = {s(t['context'])},\n" if t.get("context") else ""
-    audio = f"{ind}    audio = {s(t['audio'])},\n" if t.get("audio") else ""
-    video = f"{ind}    video = {s(t['video'])},\n" if t.get("video") else ""
+def speak_arguments(exercise: Json) -> list[str]:
+    arguments = [
+        f"text = {kotlin_string(exercise['text'])}",
+        f"answers = {kotlin_strings(exercise.get('answers') or [exercise['text']])}",
+    ]
+    if exercise.get("audio"):
+        arguments.append(f"audio = {kotlin_string(exercise['audio'])}")
+    return arguments
+
+
+def talk_arguments(exercise: Json) -> list[str]:
+    return [
+        f"situation = {kotlin_string(exercise['situation'])}",
+        f"goal = {kotlin_string(exercise['goal'])}",
+        f"opener = {kotlin_string(exercise['opener'])}",
+        f"criteria = {kotlin_strings(exercise['criteria'])}",
+    ]
+
+
+def write_arguments(exercise: Json) -> list[str]:
+    arguments = [f"prompt = {kotlin_string(exercise['prompt'])}"]
+    if exercise.get("questions"):
+        arguments.append(f"questions = {kotlin_strings(exercise['questions'])}")
+    arguments.append(f"criteria = {kotlin_strings(exercise['criteria'])}")
+    return arguments
+
+
+def rewrite_arguments(exercise: Json) -> list[str]:
+    arguments = [
+        f"prompt = {kotlin_string(exercise.get('prompt') or exercise['prefill'])}",
+        f"answers = {kotlin_strings(exercise['answers'])}",
+    ]
+    if exercise.get("prefill"):
+        arguments.append(f"prefill = {kotlin_string(exercise['prefill'])}")
+    return arguments
+
+
+CONSTRUCTORS: dict[str, tuple[str, Callable[[Json], list[str]]]] = {
+    "blank": ("Blank", blank_arguments),
+    "speak": ("Speak", speak_arguments),
+    "talk": ("Talk", talk_arguments),
+    "write": ("Write", write_arguments),
+}
+
+
+def common_arguments(exercise: Json) -> list[str]:
+    arguments = []
+    if exercise.get("hint"):
+        arguments.append(f"hint = {kotlin_string(exercise['hint'])}")
+    if exercise.get("explain"):
+        arguments.append(f"explain = {kotlin_string(exercise['explain'])}")
+    if exercise.get("source", default_source(exercise)) != default_source(exercise):
+        arguments.append(f"source = AnswerSource.{exercise['source']}")
+    if exercise.get("clip"):
+        start, end = (round(seconds * 1000) for seconds in exercise["clip"])
+        arguments.append(f"clip = Clip({start}, {end})")
+    return arguments
+
+
+def exercise_code(task: Json, exercise: Json, indent: str) -> str:
+    constructor, type_arguments = CONSTRUCTORS.get(exercise["type"], ("Rewrite", rewrite_arguments))
+    arguments = [
+        kotlin_string(exercise_id(task, exercise)),
+        *type_arguments(exercise),
+        *common_arguments(exercise),
+    ]
+    body = f",\n{indent}    ".join(arguments)
+    return f"{indent}{constructor}(\n{indent}    {body},\n{indent})"
+
+
+def task_code(task: Json, indent: str) -> str:
+    exercises = ",\n".join(exercise_code(task, exercise, indent + "        ") for exercise in task["exercises"])
+    context = f"{indent}    context = {kotlin_string(task['context'])},\n" if task.get("context") else ""
+    audio = f"{indent}    audio = {kotlin_string(task['audio'])},\n" if task.get("audio") else ""
+    video = f"{indent}    video = {kotlin_string(task['video'])},\n" if task.get("video") else ""
     return (
-        f"{ind}Task(\n"
-        f"{ind}    id = {s(t['id'])},\n"
-        f"{ind}    origin = Origin.{t['origin']},\n"
-        f"{ind}    instruction = {s(t['instruction'])},\n"
-        f"{ctx}"
+        f"{indent}Task(\n"
+        f"{indent}    id = {kotlin_string(task['id'])},\n"
+        f"{indent}    origin = Origin.{task['origin']},\n"
+        f"{indent}    instruction = {kotlin_string(task['instruction'])},\n"
+        f"{context}"
         f"{audio}"
         f"{video}"
-        f"{ind}    exercises = listOf(\n{exs},\n{ind}    ),\n"
-        f"{ind})"
+        f"{indent}    exercises = listOf(\n{exercises},\n{indent}    ),\n"
+        f"{indent})"
     )
 
 
-def items(xs, ind):
-    """listOf(...) из уже отформатированных элементов; пустой — listOf()."""
-    return "listOf(\n" + ",\n".join(xs) + f",\n{ind})" if xs else "listOf()"
-
-
-def section(sec, ind):
-    refs = [reference(r, ind + "        ") for r in sec.get("reference", [])]
-    tasks = ",\n".join(task(t, ind + "        ") for t in sec["tasks"])
+def section_code(section: Json, indent: str) -> str:
+    references = [reference_code(reference, indent + "        ") for reference in section.get("reference", [])]
+    tasks = ",\n".join(task_code(task, indent + "        ") for task in section["tasks"])
     return (
-        f"{ind}Section(\n"
-        f"{ind}    id = {s(sec['id'])},\n"
-        f"{ind}    kind = SectionKind.{sec['kind']},\n"
-        f"{ind}    title = {s(sec['title'])},\n"
-        f"{ind}    reference = {items(refs, ind + '    ')},\n"
-        f"{ind}    tasks = listOf(\n{tasks},\n{ind}    ),\n"
-        f"{ind})"
+        f"{indent}Section(\n"
+        f"{indent}    id = {kotlin_string(section['id'])},\n"
+        f"{indent}    kind = SectionKind.{section['kind']},\n"
+        f"{indent}    title = {kotlin_string(section['title'])},\n"
+        f"{indent}    reference = {kotlin_list(references, indent + '    ')},\n"
+        f"{indent}    tasks = listOf(\n{tasks},\n{indent}    ),\n"
+        f"{indent})"
     )
 
 
-def generate(ch):
-    name = "File" + ch["id"]
-    sections = ",\n".join(section(sec, "        ") for sec in ch["sections"])
-    b = ch.get("bubbles")
-    bubbles = f"    bubbles = Bubbles({s(b[0])}, {s(b[1])}),\n" if b else ""
+def chapter_code(chapter: Json) -> str:
+    sections = ",\n".join(section_code(section, "        ") for section in chapter["sections"])
+    bubbles = chapter.get("bubbles")
+    bubbles_line = (
+        f"    bubbles = Bubbles({kotlin_string(bubbles[0])}, {kotlin_string(bubbles[1])}),\n" if bubbles else ""
+    )
     return (
         "package dev.eftrainer.data.content\n\n"
-        f"// СГЕНЕРИРОВАНО tools/generate.py из tools/content/{ch['id']}.json — руками не править.\n"
-        f"// Источник: {ch.get('sources', '')}\n\n"
-        f"val {name} = Chapter(\n"
-        f"    id = {s(ch['id'])},\n"
-        f"    title = {s(ch['title'])},\n"
-        f"{bubbles}"
+        f"val File{chapter['id']} = Chapter(\n"
+        f"    id = {kotlin_string(chapter['id'])},\n"
+        f"    title = {kotlin_string(chapter['title'])},\n"
+        f"{bubbles_line}"
         f"    sections = listOf(\n{sections},\n    ),\n"
         ")\n"
     )
 
 
-def main():
-    cid = sys.argv[1]
-    ch = json.loads((ROOT / f"tools/content/{cid}.json").read_text(encoding="utf-8"))
-    errors, warnings = validate(ch)
-    for w in warnings:
-        print("Предупреждение:", w)
-    if errors:
-        sys.exit("Ошибки в JSON:\n  " + "\n  ".join(errors))
-    out = OUT_DIR / f"File{cid}.kt"
-    out.write_text(generate(ch), encoding="utf-8", newline="\n")
-    n = sum(len(t["exercises"]) for sec in ch["sections"] for t in sec["tasks"] if t["origin"] != "GENERATED")
-    x = sum(len(t["exercises"]) for sec in ch["sections"] for t in sec["tasks"] if t["origin"] == "GENERATED")
-    print(f"{out.relative_to(ROOT)}: {len(ch['sections'])} разд., {n} упр. + {x} заготовок")
+def count_exercises(chapter: Json, *, generated: bool) -> int:
+    return sum(
+        len(task["exercises"])
+        for section in chapter["sections"]
+        for task in section["tasks"]
+        if (task["origin"] == "GENERATED") == generated
+    )
+
+
+def main() -> None:
+    chapter_id = sys.argv[1]
+    chapter: Json = json.loads((ROOT / f"tools/content/{chapter_id}.json").read_text(encoding="utf-8"))
+    report = validate(chapter)
+    for warning in report.warnings:
+        print("Предупреждение:", warning)
+    if report.errors:
+        sys.exit("Ошибки в JSON:\n  " + "\n  ".join(report.errors))
+    out = OUT_DIR / f"File{chapter_id}.kt"
+    out.write_text(chapter_code(chapter), encoding="utf-8", newline="\n")
+    book_count = count_exercises(chapter, generated=False)
+    preset_count = count_exercises(chapter, generated=True)
+    print(f"{out.relative_to(ROOT)}: {len(chapter['sections'])} разд., {book_count} упр. + {preset_count} заготовок")
 
 
 if __name__ == "__main__":

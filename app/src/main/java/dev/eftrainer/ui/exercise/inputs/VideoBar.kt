@@ -1,5 +1,6 @@
 package dev.eftrainer.ui.exercise.inputs
 
+import androidx.annotation.OptIn
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -28,6 +29,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.media3.common.util.UnstableApi
 import androidx.media3.ui.compose.PlayerSurface
 import androidx.media3.ui.compose.SURFACE_TYPE_TEXTURE_VIEW
 import dev.eftrainer.R
@@ -37,13 +39,13 @@ import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.video.rememberVideoPlayer
 import dev.eftrainer.data.content.Clip
 
-/**
- * Ролик Practical English над заданием: кадр 16:9 (тап — play/pause) и строка управления,
- * как у [AudioBar]. [name] "ep1_introduction" → assets/video/ep1_introduction.mp4; файла нет — ничего.
- * [clip] — отрезок текущего пункта (одна реплика): играем только его.
- */
+@OptIn(UnstableApi::class)
 @Composable
-fun VideoBar(name: String, clip: Clip? = null) {
+fun VideoBar(
+    name: String,
+    modifier: Modifier = Modifier,
+    clip: Clip? = null,
+) {
     val player = rememberVideoPlayer(name, clip) ?: return
     var drag by remember(player) { mutableStateOf<Float?>(null) }
     val duration = player.durationMs
@@ -52,7 +54,7 @@ fun VideoBar(name: String, clip: Clip? = null) {
 
     val shape = RoundedCornerShape(14.dp)
     Column(
-        Modifier
+        modifier
             .fillMaxWidth()
             .clip(shape)
             .background(C.Field)
@@ -66,7 +68,6 @@ fun VideoBar(name: String, clip: Clip? = null) {
                 .clickable(onClick = player::toggle),
             contentAlignment = Alignment.Center,
         ) {
-            // TextureView: живёт внутри прокрутки без артефактов SurfaceView.
             PlayerSurface(player.player, Modifier.fillMaxSize(), SURFACE_TYPE_TEXTURE_VIEW)
             if (!player.playing) {
                 Box(
@@ -92,7 +93,10 @@ fun VideoBar(name: String, clip: Clip? = null) {
                 fraction = if (duration > 0) shown.toFloat() / duration else 0f,
                 enabled = duration > 0,
                 onDrag = { drag = it },
-                onSeek = { drag = null; player.seekTo((it * duration).toLong()) },
+                onSeek = {
+                    drag = null
+                    player.seekTo((it * duration).toLong())
+                },
                 modifier = Modifier.weight(1f),
             )
             Text(

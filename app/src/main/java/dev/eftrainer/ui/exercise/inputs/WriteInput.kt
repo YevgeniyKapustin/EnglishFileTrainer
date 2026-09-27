@@ -37,10 +37,6 @@ import dev.eftrainer.data.content.Write
 import dev.eftrainer.ui.exercise.AiCheck
 import dev.eftrainer.ui.exercise.aiErrorRes
 
-/**
- * Письменный ответ своими словами: задача, вопросы по порядку и поле на несколько строк
- * (форма, не чат). «Check» → ИИ проверяет ([AiCheck]), итог — в обычном FeedbackSheet.
- */
 @Composable
 fun WriteInput(
     exercise: Write,
@@ -50,63 +46,111 @@ fun WriteInput(
     focus: FocusRequester,
     aiCheck: AiCheck?,
     onRetry: () -> Unit,
+    modifier: Modifier = Modifier,
 ) {
-    Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+    Column(modifier, verticalArrangement = Arrangement.spacedBy(12.dp)) {
         Text(exercise.prompt, style = T.question.copy(fontSize = 19.sp, lineHeight = 28.sp))
-        if (exercise.questions.isNotEmpty()) {
-            Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                exercise.questions.forEachIndexed { i, q ->
-                    Row {
-                        Text("${i + 1}", style = T.rowEn.copy(color = EF.Title, fontWeight = FontWeight.Bold), modifier = Modifier.width(26.dp))
-                        Text(q, style = T.rowEn.copy(fontSize = 17.sp, lineHeight = 24.sp), modifier = Modifier.weight(1f))
-                    }
-                }
+        if (exercise.questions.isNotEmpty()) WriteQuestions(exercise.questions)
+        exercise.hint?.let { Text(it, style = T.hint) }
+        WriteField(
+            value = value,
+            onChange = onChange,
+            locked = checked || aiCheck == AiCheck.Checking,
+            focus = focus,
+        )
+        AiCheckStatus(aiCheck, onRetry)
+    }
+}
+
+@Composable
+private fun WriteQuestions(questions: List<String>) {
+    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+        questions.forEachIndexed { i, q ->
+            Row {
+                Text(
+                    "${i + 1}",
+                    style = T.rowEn.copy(color = EF.Title, fontWeight = FontWeight.Bold),
+                    modifier = Modifier.width(26.dp),
+                )
+                Text(
+                    q,
+                    style = T.rowEn.copy(fontSize = 17.sp, lineHeight = 24.sp),
+                    modifier = Modifier.weight(1f),
+                )
             }
         }
-        exercise.hint?.let { Text(it, style = T.hint) }
+    }
+}
 
-        val checking = aiCheck == AiCheck.Checking
-        val locked = checked || checking
-        val shape = RoundedCornerShape(14.dp)
-        BasicTextField(
-            value = value,
-            onValueChange = { if (!locked) onChange(it) },
-            readOnly = locked,
-            textStyle = T.field.copy(fontSize = 18.sp, lineHeight = 27.sp, color = C.Ink),
-            cursorBrush = SolidColor(C.Accent),
-            // Без автозамены, как везде: ошибки ученика должны дойти до проверки. Enter — новая строка.
-            keyboardOptions = KeyboardOptions(
+@Composable
+private fun WriteField(
+    value: TextFieldValue,
+    onChange: (TextFieldValue) -> Unit,
+    locked: Boolean,
+    focus: FocusRequester,
+) {
+    val shape = RoundedCornerShape(14.dp)
+    BasicTextField(
+        value = value,
+        onValueChange = { if (!locked) onChange(it) },
+        readOnly = locked,
+        textStyle = T.field.copy(fontSize = 18.sp, lineHeight = 27.sp, color = C.Ink),
+        cursorBrush = SolidColor(C.Accent),
+        keyboardOptions =
+            KeyboardOptions(
                 capitalization = KeyboardCapitalization.Sentences,
                 autoCorrectEnabled = false,
                 keyboardType = KeyboardType.Text,
                 imeAction = ImeAction.Default,
             ),
-            minLines = 6,
-            modifier = Modifier.fillMaxWidth().padding(top = 4.dp).focusRequester(focus),
-            decorationBox = { inner ->
-                Box(
-                    Modifier
-                        .fillMaxWidth()
-                        .heightIn(min = 160.dp)
-                        .clip(shape)
-                        .background(C.Field)
-                        .border(1.5.dp, C.FieldBorder, shape)
-                        .padding(horizontal = 16.dp, vertical = 14.dp),
-                ) {
-                    if (value.text.isEmpty()) Text(stringResource(R.string.write_placeholder), style = T.field.copy(fontSize = 18.sp, color = C.Muted))
-                    inner()
+        minLines = 6,
+        modifier = Modifier.fillMaxWidth().padding(top = 4.dp).focusRequester(focus),
+        decorationBox = { inner ->
+            Box(
+                Modifier
+                    .fillMaxWidth()
+                    .heightIn(min = 160.dp)
+                    .clip(shape)
+                    .background(C.Field)
+                    .border(1.5.dp, C.FieldBorder, shape)
+                    .padding(horizontal = 16.dp, vertical = 14.dp),
+            ) {
+                if (value.text.isEmpty()) {
+                    Text(
+                        stringResource(R.string.write_placeholder),
+                        style = T.field.copy(fontSize = 18.sp, color = C.Muted),
+                    )
                 }
-            },
-        )
-        val small = T.label.copy(fontSize = 15.sp, lineHeight = 21.sp)
-        when (aiCheck) {
-            AiCheck.Checking -> Text(stringResource(R.string.write_checking), style = small)
-            is AiCheck.Failed -> Text(
+                inner()
+            }
+        },
+    )
+}
+
+@Composable
+private fun AiCheckStatus(
+    aiCheck: AiCheck?,
+    onRetry: () -> Unit,
+) {
+    val small = T.label.copy(fontSize = 15.sp, lineHeight = 21.sp)
+    when (aiCheck) {
+        AiCheck.Checking -> {
+            Text(stringResource(R.string.write_checking), style = small)
+        }
+
+        is AiCheck.Failed -> {
+            Text(
                 stringResource(aiErrorRes(aiCheck.reason)),
                 style = small.copy(color = C.Bad),
-                modifier = Modifier.clip(RoundedCornerShape(8.dp)).clickable(onClick = onRetry).padding(vertical = 4.dp),
+                modifier =
+                    Modifier
+                        .clip(
+                            RoundedCornerShape(8.dp),
+                        ).clickable(onClick = onRetry)
+                        .padding(vertical = 4.dp),
             )
-            null -> Unit
         }
+
+        null -> {}
     }
 }

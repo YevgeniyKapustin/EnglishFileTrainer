@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">English File</string>
 
-    <!-- Текущая глава -->
     <string name="all_chapters">All chapters</string>
     <string name="chapter_n">Chapter %1$s</string>
     <string name="opens_after">Opens after %1$s</string>
@@ -10,7 +9,10 @@
         <item quantity="one">%1$d exercise from %2$s</item>
         <item quantity="other">%1$d exercises from %2$s</item>
     </plurals>
-    <string name="and_from_earlier">and %1$d from earlier chapters</string>
+    <plurals name="and_from_earlier">
+        <item quantity="one">and %1$d from earlier chapters</item>
+        <item quantity="other">and %1$d from earlier chapters</item>
+    </plurals>
     <plurals name="exercises_from_earlier">
         <item quantity="one">%1$d exercise from earlier chapters</item>
         <item quantity="other">%1$d exercises from earlier chapters</item>
@@ -19,7 +21,6 @@
     <string name="book_finished">You have finished the book</string>
     <string name="percent">%1$d%%</string>
 
-    <!-- Раздел -->
     <string name="kind_grammar">Grammar</string>
     <string name="kind_vocabulary">Vocabulary</string>
     <string name="kind_pronunciation">Pronunciation</string>
@@ -33,7 +34,6 @@
     <string name="back">Back</string>
     <string name="go_to_tasks">Go to tasks</string>
 
-    <!-- Упражнение -->
     <string name="close">Close</string>
     <string name="check">Check</string>
     <string name="correct">Correct</string>
@@ -41,13 +41,11 @@
     <string name="continue_">Continue</string>
     <string name="why">Why?</string>
     <string name="thinking">Thinking…</string>
-    <string name="ai_bad_key">The AI key doesn\'t work. Check it in Settings.</string>
+    <string name="ai_bad_key">The AI key doesn’t work. Check it in Settings.</string>
     <string name="ai_no_connection">No connection. Tap to try again.</string>
     <string name="ai_failed">Something went wrong. Tap to try again.</string>
 
-    <!-- Итоги -->
     <string name="done">Done</string>
-    <string name="right_first_time">%1$d of %2$d right first time</string>
     <string name="percent_change">%1$d → %2$d%%</string>
     <string name="mistakes_back_tomorrow">Mistakes — back tomorrow</string>
     <string name="chapter_complete">%1$s complete</string>
@@ -59,25 +57,21 @@
     <string name="cancel">Cancel</string>
     <string name="book_complete_note">%1$s will come back in review.</string>
 
-    <!-- Все главы -->
     <string name="next_opens_at">%1$d%% · next chapter opens at 90%%</string>
     <string name="completed">Completed</string>
     <string name="file_n">File %1$s</string>
 
-    <!-- Настройки -->
     <string name="settings">Settings</string>
     <string name="theme">Theme</string>
     <string name="theme_system">System</string>
     <string name="theme_light">Light</string>
     <string name="theme_dark">Dark</string>
-    <!-- voice settings -->
     <string name="voice">Voice</string>
     <string name="voice_read_aloud">Read AI replies aloud</string>
     <string name="voice_volume">Volume</string>
     <string name="voice_speed">Speed</string>
     <string name="voice_speed_normal">Normal</string>
     <string name="voice_speed_slow">Slow</string>
-    <!-- voice picker -->
     <string name="voice_auto">Automatic</string>
     <string name="voice_n">Voice %1$d</string>
     <string name="voice_current">%1$s · %2$d</string>
@@ -90,22 +84,20 @@
     <string name="ai_key_placeholder">Paste your API key</string>
     <string name="ai_key_any">Works with any of these:</string>
     <string name="ai_key_of">%1$s key</string>
-    <string name="ai_key_unknown">This doesn\'t look like a key from these:</string>
+    <string name="ai_key_unknown">This doesn’t look like a key from these:</string>
     <string name="ai_key_local">The key stays on this phone.</string>
     <string name="ai_key_checking">Checking…</string>
-    <string name="ai_key_bad">This key doesn\'t work.</string>
+    <string name="ai_key_bad">This key doesn’t work.</string>
     <string name="ai_key_offline">No connection. Try again.</string>
     <string name="ai_key_failed">Something went wrong. Try again.</string>
     <string name="ai_key_remove">Remove key</string>
     <string name="save">Save</string>
 
-    <!-- Стиль English File -->
     <string name="ef_grammar_bank">Grammar Bank %1$s</string>
     <string name="ef_score">%1$d/%2$d</string>
     <string name="ef_right_first_time">right first time</string>
     <string name="ef_next">Next</string>
 
-    <!-- Э7.6 audio/speech -->
     <string name="audio_play">Play</string>
     <string name="audio_pause">Pause</string>
     <string name="audio_back5">Back 5 seconds</string>
@@ -113,20 +105,17 @@
     <string name="speak_stop">Stop</string>
     <string name="speak_tap">Tap and say it</string>
     <string name="speak_listening">Listening…</string>
-    <string name="speak_no_match">Didn\'t catch that. Try again.</string>
+    <string name="speak_no_match">Didn’t catch that. Try again.</string>
     <string name="speak_listen">Listen</string>
     <string name="speak_heard">You said</string>
     <string name="speak_type_instead">Type instead</string>
     <string name="speak_say_instead">Say it instead</string>
     <string name="speak_no_mic">No microphone access. Type it instead.</string>
-    <string name="speak_unavailable">Speech recognition isn\'t available. Type it instead.</string>
+    <string name="speak_unavailable">Speech recognition isn’t available. Type it instead.</string>
 
-    <!-- Э7.6 AI -->
-    <string name="talk_mic">Speak</string>
     <string name="talk_with_ai">Conversation with AI</string>
     <string name="talk_needs_key">Conversation with AI · add an AI key in Settings</string>
     <string name="book_sb">Student’s Book</string>
-    <string name="book_gb">Grammar Bank %1$s</string>
     <string name="book_wb">Workbook</string>
     <string name="explain">Explain</string>
     <string name="ask_follow_up">Ask a follow-up</string>
@@ -136,17 +125,14 @@
     <string name="talk_checking">Checking your conversation…</string>
     <string name="talk_passed">Well done</string>
     <string name="talk_not_yet">Not quite yet</string>
-    <string name="talk_ungraded">Sorry, I couldn\'t check this conversation. You\'ll try it again.</string>
+    <string name="talk_ungraded">Sorry, I couldn’t check this conversation. You’ll try it again.</string>
 
-    <!-- Э7.6 open items -->
     <string name="talk_read_aloud">Read aloud</string>
     <string name="talk_stop_reading">Stop reading</string>
 
-    <!-- Э8.5 video -->
     <string name="video_play">Play video</string>
     <string name="video_pause">Pause video</string>
 
-    <!-- rules audio / letters / write -->
     <string name="write_with_ai">Written answer · checked by AI</string>
     <string name="write_needs_key">Written answer · add an AI key in Settings</string>
     <string name="write_placeholder">Write your answers here</string>

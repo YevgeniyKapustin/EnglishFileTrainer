@@ -44,26 +44,31 @@ import dev.eftrainer.data.content.SectionKind
 import kotlin.math.cos
 import kotlin.math.sin
 
-// Стиль учебника English File (plans/screens.md «Визуальный стиль»): клинья, облачка, метки G/V/P, плашки.
-
-/** Белый на клиньях — в обеих темах, как в макете (#fff). */
 val BandInk = Color.White
 
-/** Полоса с клиньями (.ef-band): SVG 390×H из макетов, растянутый по ширине. */
 @Composable
-fun WedgeBand(height: Dp, modifier: Modifier = Modifier, content: @Composable BoxScope.() -> Unit = {}) {
+fun WedgeBand(
+    height: Dp,
+    modifier: Modifier = Modifier,
+    content: @Composable BoxScope.() -> Unit = {},
+) {
     Box(modifier.fillMaxWidth().height(height)) {
         Canvas(Modifier.matchParentSize()) {
             val sx = size.width / 390f
             val h = size.height
-            fun poly(color: Color, alpha: Float, vararg pts: Pair<Float, Float>) {
-                val path = Path().apply {
-                    pts.forEachIndexed { i, (x, y) -> if (i == 0) moveTo(x * sx, y) else lineTo(x * sx, y) }
-                    close()
-                }
+
+            fun poly(
+                color: Color,
+                alpha: Float,
+                vararg pts: Pair<Float, Float>,
+            ) {
+                val path =
+                    Path().apply {
+                        pts.forEachIndexed { i, (x, y) -> if (i == 0) moveTo(x * sx, y) else lineTo(x * sx, y) }
+                        close()
+                    }
                 drawPath(path, color, alpha = alpha)
             }
-            // y у вершин — 0 или H, кроме (0,40) у голубого клина: он в px макета.
             val y40 = 40f * density
             poly(EF.Teal, 1f, 0f to 0f, 250f to 0f, 120f to h, 0f to h)
             poly(EF.Navy, .85f, 120f to 0f, 300f to 0f, 150f to h, 60f to h)
@@ -74,22 +79,27 @@ fun WedgeBand(height: Dp, modifier: Modifier = Modifier, content: @Composable Bo
     }
 }
 
-/** Облачко реплики (.say): круг и хвостик одной фигурой, полупрозрачное. */
 @Composable
-fun SpeechBubble(text: String, color: Color, tailLeft: Boolean, size: Dp, modifier: Modifier = Modifier) {
+fun SpeechBubble(
+    text: String,
+    color: Color,
+    tailLeft: Boolean,
+    size: Dp,
+    modifier: Modifier = Modifier,
+) {
     Box(modifier.size(size), contentAlignment = Alignment.Center) {
         Canvas(Modifier.matchParentSize()) {
             val k = this.size.width / 100f
-            // Круг (50,46) r44 в квадрате 100×100; дуга «длинным путём» от a1 до a2, потом к кончику хвоста.
             val a1 = if (tailLeft) 125f else 75f
             val tip = if (tailLeft) Offset(16f, 96f) else Offset(84f, 96f)
             val rad = Math.toRadians(a1.toDouble())
-            val path = Path().apply {
-                moveTo((50 + 44 * cos(rad)).toFloat() * k, (46 + 44 * sin(rad)).toFloat() * k)
-                arcTo(Rect(6f * k, 2f * k, 94f * k, 90f * k), a1, 340f, false)
-                lineTo(tip.x * k, tip.y * k)
-                close()
-            }
+            val path =
+                Path().apply {
+                    moveTo((50 + 44 * cos(rad)).toFloat() * k, (46 + 44 * sin(rad)).toFloat() * k)
+                    arcTo(Rect(6f * k, 2f * k, 94f * k, 90f * k), a1, 340f, false)
+                    lineTo(tip.x * k, tip.y * k)
+                    close()
+                }
             drawPath(path, color, alpha = .8f)
         }
         Text(
@@ -100,45 +110,60 @@ fun SpeechBubble(text: String, color: Color, tailLeft: Boolean, size: Dp, modifi
     }
 }
 
-/** Круглое облачко без хвостика (.bub) — счёт в итогах. */
 @Composable
-fun Bubble(size: Dp, color: Color, modifier: Modifier = Modifier, content: @Composable ColumnScope.() -> Unit) {
-    Box(modifier.size(size).clip(CircleShape).background(color).padding(10.dp), contentAlignment = Alignment.Center) {
+fun Bubble(
+    size: Dp,
+    color: Color,
+    modifier: Modifier = Modifier,
+    content: @Composable ColumnScope.() -> Unit,
+) {
+    Box(
+        modifier
+            .size(size)
+            .clip(CircleShape)
+            .background(color)
+            .padding(10.dp),
+        contentAlignment = Alignment.Center,
+    ) {
         Column(horizontalAlignment = Alignment.CenterHorizontally, content = content)
     }
 }
 
-/** Текст облачка: 12sp Golos Medium, тёмно-бирюзовый в обеих темах. */
-val bubbleText = TextStyle(
-    fontFamily = Golos,
-    fontSize = 12.sp,
-    lineHeight = 14.4.sp,
-    fontWeight = FontWeight.Medium,
-    color = EF.BubbleInk,
-    textAlign = TextAlign.Center,
-)
+val bubbleText =
+    TextStyle(
+        fontFamily = Golos,
+        fontSize = 12.sp,
+        lineHeight = 14.4.sp,
+        fontWeight = FontWeight.Medium,
+        color = EF.BubbleInk,
+        textAlign = TextAlign.Center,
+    )
 
-/** Цвет раздела, как метки в учебнике. */
 val SectionKind.color: Color
-    get() = when (this) {
-        SectionKind.GRAMMAR -> EF.G
-        SectionKind.VOCABULARY -> EF.V
-        SectionKind.PRONUNCIATION -> EF.P
-        SectionKind.SKILLS, SectionKind.PRACTICAL_ENGLISH -> EF.Title
-    }
+    get() =
+        when (this) {
+            SectionKind.GRAMMAR -> EF.G
+            SectionKind.VOCABULARY -> EF.V
+            SectionKind.PRONUNCIATION -> EF.P
+            SectionKind.SKILLS, SectionKind.PRACTICAL_ENGLISH -> EF.Title
+        }
 
 private val SectionKind.letter: String
-    get() = when (this) {
-        SectionKind.GRAMMAR -> "G"
-        SectionKind.VOCABULARY -> "V"
-        SectionKind.PRONUNCIATION -> "P"
-        SectionKind.SKILLS -> "LS"
-        SectionKind.PRACTICAL_ENGLISH -> "PE"
-    }
+    get() =
+        when (this) {
+            SectionKind.GRAMMAR -> "G"
+            SectionKind.VOCABULARY -> "V"
+            SectionKind.PRONUNCIATION -> "P"
+            SectionKind.SKILLS -> "LS"
+            SectionKind.PRACTICAL_ENGLISH -> "PE"
+        }
 
-/** Метка раздела (.tag): цветной квадратик с буквой. */
 @Composable
-fun SectionTag(kind: SectionKind, modifier: Modifier = Modifier, alpha: Float = 1f) {
+fun SectionTag(
+    kind: SectionKind,
+    modifier: Modifier = Modifier,
+    alpha: Float = 1f,
+) {
     Box(
         modifier
             .height(22.dp)
@@ -148,32 +173,57 @@ fun SectionTag(kind: SectionKind, modifier: Modifier = Modifier, alpha: Float = 
             .padding(horizontal = if (kind.letter.length > 1) 3.dp else 0.dp),
         contentAlignment = Alignment.Center,
     ) {
-        Text(kind.letter, style = TextStyle(fontFamily = Golos, fontSize = 13.sp, fontWeight = FontWeight.Bold, color = EF.TagInk.copy(alpha = alpha)))
+        Text(
+            kind.letter,
+            style =
+                TextStyle(
+                    fontFamily = Golos,
+                    fontSize = 13.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = EF.TagInk.copy(alpha = alpha),
+                ),
+        )
     }
 }
 
-/** Подпись раздела капсом (.kind): «GRAMMAR». */
 @Composable
-fun KindLabel(text: String, kind: SectionKind, modifier: Modifier = Modifier) {
+fun KindLabel(
+    text: String,
+    kind: SectionKind,
+    modifier: Modifier = Modifier,
+) {
     Text(
         text.uppercase(),
-        style = TextStyle(fontFamily = Golos, fontSize = 14.sp, fontWeight = FontWeight.Bold, letterSpacing = .06.em, color = kind.color),
+        style =
+            TextStyle(
+                fontFamily = Golos,
+                fontSize = 14.sp,
+                fontWeight = FontWeight.Bold,
+                letterSpacing = .06.em,
+                color = kind.color,
+            ),
         modifier = modifier,
     )
 }
 
-/** Метка + подпись над заголовком раздела. */
 @Composable
-fun KindHeader(kind: SectionKind, text: String) {
-    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+fun KindHeader(
+    kind: SectionKind,
+    text: String,
+    modifier: Modifier = Modifier,
+) {
+    Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
         SectionTag(kind)
         KindLabel(text, kind)
     }
 }
 
-/** Плашка (.panel): голубая, alt — зелёная (для ошибок). */
 @Composable
-fun Panel(modifier: Modifier = Modifier, alt: Boolean = false, content: @Composable ColumnScope.() -> Unit) {
+fun Panel(
+    modifier: Modifier = Modifier,
+    alt: Boolean = false,
+    content: @Composable ColumnScope.() -> Unit,
+) {
     Column(
         modifier
             .fillMaxWidth()
@@ -184,19 +234,31 @@ fun Panel(modifier: Modifier = Modifier, alt: Boolean = false, content: @Composa
     )
 }
 
-/** Заголовок плашки (.ph): капс бирюзой. */
 @Composable
-fun PanelHeader(text: String) {
+fun PanelHeader(
+    text: String,
+    modifier: Modifier = Modifier,
+) {
     Text(
         text.uppercase(),
-        style = TextStyle(fontFamily = Golos, fontSize = 12.sp, fontWeight = FontWeight.Bold, letterSpacing = .06.em, color = EF.Title),
-        modifier = Modifier.padding(top = 8.dp, bottom = 2.dp),
+        style =
+            TextStyle(
+                fontFamily = Golos,
+                fontSize = 12.sp,
+                fontWeight = FontWeight.Bold,
+                letterSpacing = .06.em,
+                color = EF.Title,
+            ),
+        modifier = modifier.padding(top = 8.dp, bottom = 2.dp),
     )
 }
 
-/** Заметка (.note): бирюзовая рамка, заголовок с лупой. */
 @Composable
-fun NotePanel(title: String?, modifier: Modifier = Modifier, content: @Composable ColumnScope.() -> Unit) {
+fun NotePanel(
+    title: String?,
+    modifier: Modifier = Modifier,
+    content: @Composable ColumnScope.() -> Unit,
+) {
     Column(
         modifier
             .fillMaxWidth()
@@ -207,30 +269,50 @@ fun NotePanel(title: String?, modifier: Modifier = Modifier, content: @Composabl
         if (title != null) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                 Icon(EfIcons.Magnifier, null, Modifier.size(16.dp), tint = EF.Title)
-                Text(title, style = TextStyle(fontFamily = Golos, fontSize = 16.sp, lineHeight = 24.sp, fontWeight = FontWeight.SemiBold, color = EF.Title))
+                Text(
+                    title,
+                    style =
+                        TextStyle(
+                            fontFamily = Golos,
+                            fontSize = 16.sp,
+                            lineHeight = 24.sp,
+                            fontWeight = FontWeight.SemiBold,
+                            color = EF.Title,
+                        ),
+                )
             }
         }
         content()
     }
 }
 
-/** Иконки для экранов в стиле учебника (свои, не из Icons.kt). */
 object EfIcons {
     val Magnifier = stroke("M4 11a7 7 0 1 0 14 0a7 7 0 1 0 -14 0M20 20l-4 -4", 2.2f)
-    val Gear = stroke(
-        "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" +
-            "M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z",
-        1.8f,
-    )
+    val Gear =
+        stroke(
+            "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" +
+                "M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06" +
+                "a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09" +
+                "A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83" +
+                "l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09" +
+                "A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83" +
+                "l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09" +
+                "a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83" +
+                "l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09" +
+                "a1.65 1.65 0 0 0-1.51 1z",
+            1.8f,
+        )
 
-    private fun stroke(d: String, width: Float) =
-        ImageVector.Builder(defaultWidth = 24.dp, defaultHeight = 24.dp, viewportWidth = 24f, viewportHeight = 24f)
-            .addPath(
-                pathData = addPathNodes(d),
-                stroke = SolidColor(Color.Black),   // цвет задаёт tint у Icon
-                strokeLineWidth = width,
-                strokeLineCap = StrokeCap.Round,
-                strokeLineJoin = StrokeJoin.Round,
-            )
-            .build()
+    private fun stroke(
+        d: String,
+        width: Float,
+    ) = ImageVector
+        .Builder(defaultWidth = 24.dp, defaultHeight = 24.dp, viewportWidth = 24f, viewportHeight = 24f)
+        .addPath(
+            pathData = addPathNodes(d),
+            stroke = SolidColor(Color.Black),
+            strokeLineWidth = width,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round,
+        ).build()
 }

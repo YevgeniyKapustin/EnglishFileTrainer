@@ -8,27 +8,28 @@ import dev.eftrainer.data.db.dao.GeneratedDao
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
-/**
- * Свежие упражнения ИИ в Room. Всё прочитанное/добавленное регистрируется в [Chapters],
- * чтобы Chapters.locate находил их раздел и синтетическое задание "<раздел>-gen".
- */
-class GeneratedRepository(private val dao: GeneratedDao, private val now: () -> Long = System::currentTimeMillis) {
-
+class GeneratedRepository(
+    private val dao: GeneratedDao,
+    private val now: () -> Long = System::currentTimeMillis,
+) {
     suspend fun getAll(): List<GeneratedItem> =
         dao.getAll().mapNotNull(GeneratedCodec::decode).also(Chapters::registerGenerated)
 
-    /** Упражнения по разделам — в таком виде их берёт TrainingQueue.review. */
-    suspend fun bySection(): Map<String, List<Exercise>> =
-        getAll().groupBy({ it.sectionId }, { it.exercise })
+    suspend fun bySection(): Map<String, List<Exercise>> = getAll().groupBy({ it.sectionId }, { it.exercise })
 
-    /** [bySection] как поток: новая пачка от ИИ — новое значение. */
     fun observeBySection(): Flow<Map<String, List<Exercise>>> =
         dao.observeAll().map { rows ->
-            rows.mapNotNull(GeneratedCodec::decode).also(Chapters::registerGenerated).groupBy({ it.sectionId }, { it.exercise })
+            rows
+                .mapNotNull(
+                    GeneratedCodec::decode,
+                ).also(Chapters::registerGenerated)
+                .groupBy({ it.sectionId }, { it.exercise })
         }
 
-    /** Сохраняет новые упражнения раздела, выдавая им постоянные id. Id в [items] игнорируются. */
-    suspend fun add(sectionId: String, items: List<GeneratedItem>): List<GeneratedItem> {
+    suspend fun add(
+        sectionId: String,
+        items: List<GeneratedItem>,
+    ): List<GeneratedItem> {
         if (items.isEmpty()) return emptyList()
         val ids = GeneratedIds.next(sectionId, dao.getAll().map { it.id }, items.size)
         val saved = items.zip(ids) { item, id -> item.copy(sectionId = sectionId, exercise = item.exercise.withId(id)) }
@@ -38,9 +39,10 @@ class GeneratedRepository(private val dao: GeneratedDao, private val now: () -> 
         return saved
     }
 
-    private fun Exercise.withId(id: String): Exercise = when (this) {
-        is Rewrite -> copy(id = id)
-        is Blank -> copy(id = id)
-        else -> throw IllegalArgumentException("сгенерировать можно только Rewrite/Blank")
-    }
+    private fun Exercise.withId(id: String): Exercise =
+        when (this) {
+            is Rewrite -> copy(id = id)
+            is Blank -> copy(id = id)
+            else -> throw IllegalArgumentException("сгенерировать можно только Rewrite/Blank")
+        }
 }

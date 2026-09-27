@@ -25,11 +25,18 @@ import dev.eftrainer.data.content.Blank
 
 private sealed interface Token {
     val spaceAfter: Boolean
-    data class Word(val text: String, override val spaceAfter: Boolean) : Token
-    data class Gap(val index: Int, override val spaceAfter: Boolean) : Token
+
+    data class Word(
+        val text: String,
+        override val spaceAfter: Boolean,
+    ) : Token
+
+    data class Gap(
+        val index: Int,
+        override val spaceAfter: Boolean,
+    ) : Token
 }
 
-/** "Where {} born?" → слова и пропуски; пробел запоминаем, чтобы "{}?" не разъехалось. */
 private fun tokenize(text: String): List<Token> {
     val raw = Regex("""\{\}|(?:(?!\{\})\S)+|\s+""").findAll(text).map { it.value }.toList()
     var gap = 0
@@ -43,7 +50,6 @@ private fun tokenize(text: String): List<Token> {
     }
 }
 
-/** Пропуски прямо в тексте; ширина поля — по длине ответа, чтобы не подсказывать и не обрезать. */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun BlankInput(
@@ -54,37 +60,28 @@ fun BlankInput(
     wrongGaps: Set<Int>,
     focus: List<FocusRequester>,
     onAction: () -> Unit,
+    modifier: Modifier = Modifier,
 ) {
     val tokens = tokenize(exercise.text)
-    FlowRow(itemVerticalAlignment = Alignment.Bottom) {
+    FlowRow(modifier, itemVerticalAlignment = Alignment.Bottom) {
         tokens.forEach { t ->
             val end = if (t.spaceAfter) 7.dp else 0.dp
             when (t) {
-                is Token.Word -> Text(t.text, style = T.question, modifier = Modifier.padding(end = end))
+                is Token.Word -> {
+                    Text(t.text, style = T.question, modifier = Modifier.padding(end = end))
+                }
+
                 is Token.Gap -> {
-                    val i = t.index
-                    val last = i == exercise.gaps.lastIndex
-                    val longest = exercise.gaps[i].maxOf { it.length }
-                    val color = fieldColor(checked, i in wrongGaps)
-                    val line = if (checked) color else C.Accent
-                    BasicTextField(
-                        value = values[i],
-                        onValueChange = { if (!checked) onChange(i, it) },
-                        readOnly = checked,
-                        singleLine = true,
-                        textStyle = T.question.copy(color = color, textAlign = TextAlign.Center),
-                        cursorBrush = SolidColor(C.Accent),
-                        keyboardOptions = keyboard(if (last) ImeAction.Done else ImeAction.Next),
-                        keyboardActions = actions { if (last || checked) onAction() else focus[i + 1].requestFocus() },
-                        modifier = Modifier
-                            .padding(end = end)
-                            .width((longest * 11 + 24).coerceIn(90, 260).dp)
-                            .focusRequester(focus[i])
-                            .drawBehind {
-                                val y = size.height - 1.dp.toPx()
-                                drawLine(line, Offset(0f, y), Offset(size.width, y), strokeWidth = 2.dp.toPx())
-                            },
-                        decorationBox = { inner -> Box(Modifier.padding(bottom = 2.dp)) { inner() } },
+                    GapField(
+                        index = t.index,
+                        exercise = exercise,
+                        values = values,
+                        onChange = onChange,
+                        checked = checked,
+                        wrongGaps = wrongGaps,
+                        focus = focus,
+                        onAction = onAction,
+                        modifier = Modifier.padding(end = end),
                     )
                 }
             }
@@ -93,4 +90,41 @@ fun BlankInput(
             Text(it, style = T.hint, modifier = Modifier.padding(start = 4.dp, bottom = 6.dp))
         }
     }
+}
+
+@Composable
+private fun GapField(
+    index: Int,
+    exercise: Blank,
+    values: List<TextFieldValue>,
+    onChange: (Int, TextFieldValue) -> Unit,
+    checked: Boolean,
+    wrongGaps: Set<Int>,
+    focus: List<FocusRequester>,
+    onAction: () -> Unit,
+    modifier: Modifier = Modifier,
+) {
+    val last = index == exercise.gaps.lastIndex
+    val longest = exercise.gaps[index].maxOf { it.length }
+    val color = fieldColor(checked, index in wrongGaps)
+    val line = if (checked) color else C.Accent
+    BasicTextField(
+        value = values[index],
+        onValueChange = { if (!checked) onChange(index, it) },
+        readOnly = checked,
+        singleLine = true,
+        textStyle = T.question.copy(color = color, textAlign = TextAlign.Center),
+        cursorBrush = SolidColor(C.Accent),
+        keyboardOptions = keyboard(if (last) ImeAction.Done else ImeAction.Next),
+        keyboardActions = actions { if (last || checked) onAction() else focus[index + 1].requestFocus() },
+        modifier =
+            modifier
+                .width((longest * 11 + 24).coerceIn(90, 260).dp)
+                .focusRequester(focus[index])
+                .drawBehind {
+                    val y = size.height - 1.dp.toPx()
+                    drawLine(line, Offset(0f, y), Offset(size.width, y), strokeWidth = 2.dp.toPx())
+                },
+        decorationBox = { inner -> Box(Modifier.padding(bottom = 2.dp)) { inner() } },
+    )
 }

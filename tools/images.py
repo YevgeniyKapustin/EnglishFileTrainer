@@ -1,14 +1,17 @@
 import argparse
 import io
+from dataclasses import dataclass
 from pathlib import Path
 
 import pymupdf
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
-BOOK = ROOT / "english_file" / "EF4 Pre-Int SB.pdf"
+SB_BOOK = ROOT / "english_file" / "EF4 Pre-Int SB.pdf"
+WB_BOOK = ROOT / "english_file" / "EF4 Pre-Int WB.pdf"
 IMAGE_DIR = ROOT / "app/src/main/assets/image"
 SCAN_DPI = 96
+WB_RENDER_DPI = 200
 POINTS_PER_INCH = 72
 INSET = 3
 MAX_WIDTH = 480
@@ -88,14 +91,43 @@ CROPS: dict[str, tuple[int, Box]] = {
 }
 
 
+WB_CROPS: dict[str, tuple[int, Box]] = {
+    "1c_wb1c_bedroom": (7, (403, 138, 764, 379)),
+    "1c_wb3c_park": (8, (378, 80, 784, 625)),
+    "2a_wb3a_2": (12, (205, 97, 340, 192)),
+    "2a_wb3a_3": (12, (341, 97, 476, 192)),
+    "2a_wb3a_4": (12, (477, 97, 613, 192)),
+    "2a_wb3a_5": (12, (614, 97, 744, 192)),
+    "2a_wb3a_6": (12, (69, 231, 205, 325)),
+    "2a_wb3a_7": (12, (205, 231, 341, 325)),
+    "2a_wb3a_8": (12, (342, 231, 476, 325)),
+    "2a_wb3a_9": (12, (478, 231, 612, 325)),
+    "2a_wb3a_10": (12, (614, 231, 744, 325)),
+    "2b_wb2c_2": (14, (303, 107, 518, 349)),
+    "2b_wb2c_3": (14, (527, 107, 755, 349)),
+    "2b_wb2c_4": (14, (72, 395, 296, 637)),
+    "2b_wb2c_5": (14, (300, 395, 519, 637)),
+}
+
+
+@dataclass(frozen=True)
+class Book:
+    path: Path
+    render_dpi: int
+    crops: dict[str, tuple[int, Box]]
+
+
+BOOKS = (Book(SB_BOOK, SCAN_DPI, CROPS), Book(WB_BOOK, WB_RENDER_DPI, WB_CROPS))
+
+
 def page_rect(box: Box) -> pymupdf.Rect:
     scale = POINTS_PER_INCH / SCAN_DPI
     x0, y0, x1, y1 = box
     return pymupdf.Rect((x0 + INSET) * scale, (y0 + INSET) * scale, (x1 - INSET) * scale, (y1 - INSET) * scale)
 
 
-def crop(document: pymupdf.Document, page_number: int, box: Box) -> Image.Image:
-    pixmap = document[page_number - 1].get_pixmap(dpi=SCAN_DPI, clip=page_rect(box))
+def crop(document: pymupdf.Document, page_number: int, box: Box, dpi: int) -> Image.Image:
+    pixmap = document[page_number - 1].get_pixmap(dpi=dpi, clip=page_rect(box))
     image = Image.open(io.BytesIO(pixmap.tobytes("png"))).convert("RGB")
     if image.width > MAX_WIDTH:
         image = image.resize((MAX_WIDTH, round(image.height * MAX_WIDTH / image.width)), Image.Resampling.LANCZOS)
@@ -106,16 +138,24 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("names", nargs="*")
     args = parser.parse_args()
+    known = {name for book in BOOKS for name in book.crops}
+    unknown = [name for name in args.names if name not in known]
+    if unknown:
+        parser.error(f"нет в CROPS/WB_CROPS: {', '.join(unknown)}")
 
     IMAGE_DIR.mkdir(parents=True, exist_ok=True)
-    document = pymupdf.open(BOOK)
     total = 0
-    for name in args.names or CROPS:
-        page_number, box = CROPS[name]
-        path = IMAGE_DIR / f"{name}.webp"
-        crop(document, page_number, box).save(path, "WEBP", quality=WEBP_QUALITY, method=6)
-        total += path.stat().st_size
-        print(path.relative_to(ROOT), path.stat().st_size // 1024, "КБ")
+    for book in BOOKS:
+        names = [name for name in args.names or book.crops if name in book.crops]
+        if not names:
+            continue
+        document = pymupdf.open(book.path)
+        for name in names:
+            page_number, box = book.crops[name]
+            path = IMAGE_DIR / f"{name}.webp"
+            crop(document, page_number, box, book.render_dpi).save(path, "WEBP", quality=WEBP_QUALITY, method=6)
+            total += path.stat().st_size
+            print(path.relative_to(ROOT), path.stat().st_size // 1024, "КБ")
     print(f"итого {total / 1024:.0f} КБ")
 
 

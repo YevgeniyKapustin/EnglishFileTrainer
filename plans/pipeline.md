@@ -8,9 +8,10 @@ PDF → JSON → Kotlin, аудио, клипы. Порядок работы —
 `EF4 Pre-Int SB.pdf` — **4-е издание**. Аудио SB 4e в `english_file/audio/`:
 `EF4e_PreintSB_<юнит>.<дорожка>.mp3`, 280 дорожек, юниты 1–12 без пропусков
 (юнит 1 — с 1.2), 162 МБ. Имя = номер из учебника («🔊 1.9» → `..._1.9.mp3`),
-сопоставление не нужно. Аудио Workbook нет (не нужно для v1).
+сопоставление не нужно. Аудио Workbook нет, и скриптов к нему в WB нет (есть только ключ, PDF 87–94):
+«Listen and check / repeat» WB → `speak` по словам/фразам задания, образец читает синтезатор.
 Видео Practical English в `english_file/videos/` (`EF4e_*`) — **4-е издание**,
-подходит (`plans/history.md`, Э8.5).
+подходит (`plans/history.md`, Э8.5). Других роликов нет (Video Listening 2C — только его аудиоверсия 2.21/2.22).
 Текстового слоя нет, распознаёт vision-модель (Claude) по картинкам страниц.
 
 **Карта страниц (индекс PDF, с 1):**
@@ -95,7 +96,8 @@ Opus моно 32 кбит/с; папка в `.gitignore`). Видео — x264 C
   ненадёжна → `--words`. Если `find` промахнулся (цифры: whisper «07700», в книге «oh seven…») — искать глазами
   в `dump`. Результат прослушать: выравнивание — подсказка.
 - `images.py` — шаг 5b: `uv run --no-project --with pymupdf --with pillow python tools/images.py [имена]`
-  (без имён — все); границы искать по рендеру `render.py … --dpi 96`, там 1 px = 1 px скана.
+  (без имён — все); границы искать по рендеру `render.py sb|wb … --dpi 96`. SB — `CROPS` (скан 96 dpi, 1 px = 1 px
+  скана), WB — `WB_CROPS` (границы тоже по рендеру 96 dpi, режется с 200 dpi — скан WB ~205 dpi).
 - `icon.py` — `uv run --no-project --with pymupdf python tools/icon.py`: пишет `drawable/ic_launcher_foreground.xml`,
   `drawable/splash_icon.xml` и превью `tools/out/icon.png`. Форму маски выбирает лаунчер (у TECNO — скруглённый
   квадрат), поэтому фон значка прозрачный, а белый круг видимой зоны (72 из 108) и веер по нему — в foreground.

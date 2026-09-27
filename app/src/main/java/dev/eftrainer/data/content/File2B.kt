@@ -863,21 +863,25 @@ val File2B = Chapter(
                             "2B-wb2c-02",
                             prompt = "We / try to find the exit",
                             answers = listOf("We were trying to find the exit."),
+                            image = "2b_wb2c_2",
                         ),
                         Rewrite(
                             "2B-wb2c-03",
                             prompt = "I / close the windows",
                             answers = listOf("I was closing the windows."),
+                            image = "2b_wb2c_3",
                         ),
                         Rewrite(
                             "2B-wb2c-04",
                             prompt = "We / wash the coffee cups",
                             answers = listOf("We were washing the coffee cups."),
+                            image = "2b_wb2c_4",
                         ),
                         Rewrite(
                             "2B-wb2c-05",
                             prompt = "I / count the money",
                             answers = listOf("I was counting the money."),
+                            image = "2b_wb2c_5",
                         ),
                         Write(
                             "2B-wb2c-06",

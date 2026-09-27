@@ -20,6 +20,13 @@ class TrainingQueueTest {
             ),
     ) = TrainingQueue.review(chapters, completed, progress, TODAY)
 
+    @Test fun `fresh arrivals skip seen items and stop at the session limit`() {
+        val fresh = generated("g", 8)
+        val seen = setOf(fresh[0].id, fresh[1].id)
+        assertEquals(fresh.drop(2).take(3), TrainingQueue.arrivals(fresh, seen, alreadyAdded = 2))
+        assertEquals(emptyList<Any>(), TrainingQueue.arrivals(fresh, seen, TrainingQueue.FRESH_ARRIVALS))
+    }
+
     @Test fun `first pass is unanswered in book order`() {
         val s = section("g", 5)
         val progress = listOf(progress("g-2"), progress("g-4")).byId()

@@ -17,7 +17,18 @@ object Chapters {
 
     private val locations: Map<String, Location> by lazy {
         buildMap {
-            for (c in all) for (s in c.sections) for (t in s.tasks) for (e in t.exercises) put(e.id, Location(c, s, t))
+            for (c in all) {
+                for (s in c.sections) {
+                    for (t in s.tasks) {
+                        for (e in t.exercises) {
+                            put(
+                                e.id,
+                                Location(c, s, t.marked()),
+                            )
+                        }
+                    }
+                }
+            }
         }
     }
     private val sections: Map<String, Pair<Chapter, Section>> by lazy {
@@ -38,10 +49,13 @@ object Chapters {
     private fun locateGenerated(exerciseId: String): Location? {
         val (chapter, section) = GeneratedIds.sectionOf(exerciseId)?.let(sections::get) ?: return null
         val item = generated[exerciseId]
-        val instruction = item?.instruction?.let { "$FRESH: $it" } ?: FRESH
-        val task = Task("${section.id}-gen", Origin.GENERATED, instruction, listOfNotNull(item?.exercise))
+        val task = Task("${section.id}-gen", Origin.GENERATED, fresh(item?.instruction), listOfNotNull(item?.exercise))
         return Location(chapter, section, task)
     }
+
+    private fun Task.marked(): Task = if (origin == Origin.GENERATED) copy(instruction = fresh(instruction)) else this
+
+    private fun fresh(instruction: String?): String = instruction?.let { "$FRESH: $it" } ?: FRESH
 
     fun section(sectionId: String): Section = sections.getValue(sectionId).second
 

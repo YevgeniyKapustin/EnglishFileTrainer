@@ -74,6 +74,16 @@ class GenerationTest {
         assertEquals("Fresh practice", Chapters.locate("${section.id}-gen-9999").task.instruction)
     }
 
+    @Test fun `pipeline presets are marked as fresh practice`() {
+        val preset =
+            Chapters.all
+                .flatMap { it.sections }
+                .flatMap { it.presets }
+                .first()
+        val instruction = Chapters.locate(preset.id).task.instruction
+        assertTrue(instruction, instruction.startsWith("Fresh practice: "))
+    }
+
     @Test fun `no AI while presets are not all introduced`() {
         val progress = (bookMastered + (1..3).map { progress("g-x1-0$it") }).byId()
         assertEquals(emptyList<Any>(), GenerationPlan.refill(withPresets, progress, emptyMap()))

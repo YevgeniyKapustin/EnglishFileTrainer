@@ -14,7 +14,7 @@ def edited_path() -> Path | None:
 
 def main() -> None:
     path = edited_path()
-    if path is None or path.suffix != ".py" or not path.exists():
+    if path is None or path.suffix != ".py" or not path.exists() or not path.resolve().is_relative_to(Path.cwd()):
         return
     checks = [
         ["uvx", "ruff", "format", "--quiet", str(path)],

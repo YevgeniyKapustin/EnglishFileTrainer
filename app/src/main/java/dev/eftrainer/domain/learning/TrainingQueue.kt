@@ -20,6 +20,7 @@ object TrainingQueue {
     const val SESSION_SIZE = 20
     const val DUE_LIMIT = 10
     const val MASTERED_SHARE = 5
+    const val FRESH_ARRIVALS = 5
 
     fun firstPass(
         section: Section,
@@ -35,6 +36,12 @@ object TrainingQueue {
         section: Section,
         generated: Map<String, List<Exercise>>,
     ): List<Exercise> = section.presets + generated[section.id].orEmpty()
+
+    fun arrivals(
+        fresh: List<Exercise>,
+        seen: Set<String>,
+        alreadyAdded: Int,
+    ): List<Exercise> = fresh.filterNot { it.id in seen }.take((FRESH_ARRIVALS - alreadyAdded).coerceAtLeast(0))
 
     fun review(
         chapters: List<Chapter>,

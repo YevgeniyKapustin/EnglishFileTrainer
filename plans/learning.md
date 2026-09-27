@@ -89,10 +89,12 @@ fun next(exerciseId: String, current: Progress?, correct: Boolean, today: LocalD
 - **Заготовки** вшиты в приложение, сочиняются в конвейере (`plans/pipeline.md` шаг 6), ключ ИИ не нужен: ~20 на раздел G/V,
   задания `"origin": "GENERATED"`, id `"<раздел>-x<N>"`, `source: MODEL`, у каждого `explain`.
   В модели — `Section.presets`; `Section.exercises` (первый проход, «освоено», «глава пройдена») их не содержит.
-- В Review — когда книга раздела освоена; заготовки раньше ИИ (`TrainingQueue.freshOf`). На экране раздела —
-  группа «Extra practice» с `0 / N`.
+- **Сочинённое ИИ отдельно от учебника** (решено 27.09.2026): экраны глав и разделов показывают только оригинал книги;
+  заготовки и `-gen-` — только в Review, когда книга раздела освоена; заготовки раньше ИИ (`TrainingQueue.freshOf`).
+  У всех (G/V/PE) инструкция с пометкой «Fresh practice: …» (`Chapters.locate`).
 - **ИИ** (`Generation.kt`, Room `GeneratedExercise`, id `"<раздел>-gen-NNNN"`) — добавка, когда все заготовки
   раздела уже встречались. Промпт получает правила раздела, лексику главы и задания книги как образец.
-  После неудачи ИИ — пауза 1 мин.
+  После неудачи ИИ — пауза 1 мин. Досочинённое во время Review сразу встаёт в конец текущей сессии
+  (`Generation.fresh` → `TrainingQueue.arrivals`, не больше `FRESH_ARRIVALS` = 5 за сессию).
 - Проверка: `generate.py` `validate_presets` и `ContentValidationTest` — MODEL, explain, только Rewrite/Blank,
   ответы проходят `Checker`, нет повторов с книгой и между собой.

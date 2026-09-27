@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import dev.eftrainer.AppContainer
 import dev.eftrainer.data.ai.aiAvailable
 import dev.eftrainer.data.content.Chapters
+import dev.eftrainer.data.content.Origin
 import dev.eftrainer.data.content.Section
 import dev.eftrainer.data.content.Task
 import dev.eftrainer.data.content.exercises
@@ -46,7 +47,7 @@ class SectionViewModel(
                 section = section,
                 chapterId = chapterId,
                 tasks =
-                    section.tasks.map { t ->
+                    section.tasks.filter { it.origin != Origin.GENERATED }.map { t ->
                         TaskRow(t, t.exercises.count { Mastery.isMastered(progress[it.id]) }, t.exercises.size)
                     },
                 started = section.exercises.any { it.id in progress },

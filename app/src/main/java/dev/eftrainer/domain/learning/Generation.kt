@@ -17,6 +17,9 @@ import dev.eftrainer.domain.ai.GeneratedResponse
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.flow.MutableSharedFlow
+import kotlinx.coroutines.flow.SharedFlow
+import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 
@@ -60,6 +63,8 @@ class Generation(
     private val now: () -> Long = System::currentTimeMillis,
 ) {
     private val mutex = Mutex()
+    private val arrived = MutableSharedFlow<List<Exercise>>(extraBufferCapacity = ARRIVAL_BUFFER)
+    val fresh: SharedFlow<List<Exercise>> = arrived.asSharedFlow()
 
     @Volatile private var retryAfter = 0L
 
@@ -95,7 +100,9 @@ class Generation(
                     retryAfter = now() + COOLDOWN_MS
                     return
                 }
-                existing += generated.add(section.id, items).map { it.exercise }
+                val saved = generated.add(section.id, items).map { it.exercise }
+                arrived.tryEmit(saved)
+                existing += saved
                 left -= items.size
             }
         }
@@ -105,5 +112,6 @@ class Generation(
         const val BATCH = 6
         const val MAX_REQUESTS = 3
         const val COOLDOWN_MS = 60_000L
+        const val ARRIVAL_BUFFER = 8
     }
 }

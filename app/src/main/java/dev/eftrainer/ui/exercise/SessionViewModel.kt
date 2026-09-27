@@ -105,6 +105,7 @@ class SessionViewModel(
     private var completedChapter: Chapter? = null
     private var chapter: Chapter? = null
     private var before = 0
+    private var arrivals = 0
 
     init {
         viewModelScope.launch {
@@ -112,6 +113,7 @@ class SessionViewModel(
             val progress = inputs.progress
             val completed = inputs.completed
             val ai = inputs.ai
+            if (sectionId == null) acceptFresh()
             if (ai) container.generation.refillInBackground()
             val exercises =
                 if (sectionId == null) {
@@ -130,6 +132,26 @@ class SessionViewModel(
             queue.addAll(exercises)
             total = exercises.size
             if (queue.isEmpty()) _state.value = SessionUi.Empty else show()
+        }
+    }
+
+    private fun acceptFresh() {
+        viewModelScope.launch {
+            container.generation.fresh.collect { items ->
+                val empty = _state.value == SessionUi.Empty
+                if (_state.value !is SessionUi.Question && !empty) return@collect
+                val added = TrainingQueue.arrivals(items, answered + queue.map { it.id }, arrivals)
+                if (added.isEmpty()) return@collect
+                queue.addAll(added)
+                arrivals += added.size
+                total += added.size
+                val q = _state.value
+                if (empty) {
+                    show()
+                } else if (q is SessionUi.Question) {
+                    _state.value = q.copy(total = total)
+                }
+            }
         }
     }
 

@@ -6,6 +6,7 @@ import android.os.Build
 import android.os.Bundle
 import android.os.Process
 import android.os.SystemClock
+import android.view.KeyEvent
 import android.view.View
 import android.view.ViewTreeObserver
 import androidx.activity.ComponentActivity
@@ -22,6 +23,7 @@ import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.core.view.ViewCompat
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import dev.eftrainer.core.theme.AppTheme
 import dev.eftrainer.core.theme.C
@@ -35,6 +37,9 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        ViewCompat.addOnUnhandledKeyEventListener(window.decorView) { _, event ->
+            backReleasedAfterKeyboardTookPress(event)
+        }
         if (savedInstanceState == null) holdSplashUntilHomeReady()
         val container = (application as App).container
         val theme = container.theme
@@ -62,6 +67,13 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+    }
+
+    private fun backReleasedAfterKeyboardTookPress(event: KeyEvent): Boolean {
+        val orphanBackRelease =
+            event.keyCode == KeyEvent.KEYCODE_BACK && event.action == KeyEvent.ACTION_UP && !event.isCanceled
+        if (orphanBackRelease) onBackPressedDispatcher.onBackPressed()
+        return orphanBackRelease
     }
 
     private fun markHomeReady() {

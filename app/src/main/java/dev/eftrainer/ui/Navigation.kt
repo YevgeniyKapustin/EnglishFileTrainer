@@ -1,6 +1,8 @@
 package dev.eftrainer.ui
 
+import androidx.compose.animation.EnterExitState
 import androidx.compose.animation.EnterTransition
+import androidx.compose.animation.core.Transition
 import androidx.compose.animation.core.EaseOutCubic
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
@@ -12,9 +14,9 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.SideEffect
-import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.input.pointer.PointerEventPass
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
@@ -114,21 +116,24 @@ private inline fun <reified T : Any> NavGraphBuilder.screen(
                     focus.clearFocus(force = true)
                 }
             }
-        val settled =
-            entry.lifecycle.currentStateFlow
-                .collectAsState()
-                .value == Lifecycle.State.RESUMED
-        Box(Modifier.fillMaxSize().background(C.Paper)) {
+        Box(Modifier.fillMaxSize().background(C.Paper).swallowTouchesUntilSettled(entry, transition)) {
             content(screen)
-            if (!settled) Box(Modifier.matchParentSize().swallowTouches())
         }
     }
 }
 
-private fun Modifier.swallowTouches(): Modifier =
-    pointerInput(Unit) {
+private fun Modifier.swallowTouchesUntilSettled(
+    entry: NavBackStackEntry,
+    transition: Transition<EnterExitState>,
+): Modifier =
+    pointerInput(entry, transition) {
         awaitPointerEventScope {
-            while (true) awaitPointerEvent().changes.forEach { it.consume() }
+            while (true) {
+                val event = awaitPointerEvent(PointerEventPass.Initial)
+                val shown = entry.lifecycle.currentState.isAtLeast(Lifecycle.State.STARTED)
+                val still = transition.currentState == EnterExitState.Visible && !transition.isRunning
+                if (!shown || !still) event.changes.forEach { it.consume() }
+            }
         }
     }
 

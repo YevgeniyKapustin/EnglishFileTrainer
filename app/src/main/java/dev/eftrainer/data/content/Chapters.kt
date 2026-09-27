@@ -17,7 +17,7 @@ object Chapters {
 
     private val locations: Map<String, Location> by lazy {
         buildMap {
-            for (c in all) {
+            for (c in all + IrregularVerbs.chapter) {
                 for (s in c.sections) {
                     for (t in s.tasks) {
                         for (e in t.exercises) {

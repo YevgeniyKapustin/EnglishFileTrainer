@@ -3,6 +3,8 @@ package dev.eftrainer.ui.exercise.inputs
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.text.BasicTextField
@@ -35,6 +37,10 @@ private sealed interface Token {
         val index: Int,
         override val spaceAfter: Boolean,
     ) : Token
+
+    data object LineBreak : Token {
+        override val spaceAfter = false
+    }
 }
 
 private fun tokenize(text: String): List<Token> {
@@ -43,7 +49,7 @@ private fun tokenize(text: String): List<Token> {
     return raw.mapIndexedNotNull { i, s ->
         val spaceAfter = raw.getOrNull(i + 1)?.isBlank() == true
         when {
-            s.isBlank() -> null
+            s.isBlank() -> if ('\n' in s) Token.LineBreak else null
             s == "{}" -> Token.Gap(gap++, spaceAfter)
             else -> Token.Word(s, spaceAfter)
         }
@@ -69,6 +75,10 @@ fun BlankInput(
             when (t) {
                 is Token.Word -> {
                     Text(t.text, style = T.question, modifier = Modifier.padding(end = end))
+                }
+
+                Token.LineBreak -> {
+                    Spacer(Modifier.fillMaxWidth())
                 }
 
                 is Token.Gap -> {

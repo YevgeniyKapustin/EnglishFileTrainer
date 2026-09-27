@@ -40,7 +40,10 @@ class StatsViewModel(
                 week = Stats.week(answers, today),
                 weak =
                     Stats.weakSpots(answers, today) { id ->
-                        runCatching { Chapters.locate(id) }.getOrNull()?.let { it.chapter to it.section }
+                        runCatching { Chapters.locate(id) }
+                            .getOrNull()
+                            ?.takeIf { it.chapter in Chapters.all }
+                            ?.let { it.chapter to it.section }
                     },
                 completed = done.size,
             )

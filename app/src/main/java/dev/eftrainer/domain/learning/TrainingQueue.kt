@@ -12,8 +12,9 @@ import java.time.LocalDate
 data class ReviewPlan(
     val due: List<Exercise>,
     val current: List<Exercise>,
+    val verbs: List<Exercise> = emptyList(),
 ) {
-    val all: List<Exercise> get() = due + current
+    val all: List<Exercise> get() = due + verbs + current
 }
 
 object TrainingQueue {
@@ -21,6 +22,8 @@ object TrainingQueue {
     const val DUE_LIMIT = 10
     const val MASTERED_SHARE = 5
     const val FRESH_ARRIVALS = 5
+    const val NEW_VERBS_PER_DAY = 5
+    const val VERB_LIMIT = 10
 
     fun firstPass(
         section: Section,
@@ -55,6 +58,7 @@ object TrainingQueue {
         today: LocalDate,
         ai: Boolean = false,
         generated: Map<String, List<Exercise>> = emptyMap(),
+        verbs: List<Exercise> = emptyList(),
     ): ReviewPlan {
         fun answeredToday(e: Exercise) = progress[e.id]?.lastAnsweredOn == today
 
@@ -66,7 +70,9 @@ object TrainingQueue {
                 .sortedBy { progress.getValue(it.id).dueOn }
                 .take(DUE_LIMIT)
 
-        val chapter = ChapterCompletion.current(chapters, completed) ?: return ReviewPlan(due, emptyList())
+        val verbsToday = verbs(verbs, progress, today)
+        val chapter =
+            ChapterCompletion.current(chapters, completed) ?: return ReviewPlan(due, emptyList(), verbsToday)
         val room = SESSION_SIZE - due.size
 
         val open = ChapterCompletion.activeSections(chapter, progress)
@@ -104,8 +110,28 @@ object TrainingQueue {
         val main = (weakFirst + freshFirst).take(room - mixCount)
         val mix = oldestMastered.take(mixCount)
 
-        return ReviewPlan(due, interleave(main, mix))
+        return ReviewPlan(due, interleave(main, mix), verbsToday)
     }
+
+    fun verbs(
+        verbs: List<Exercise>,
+        progress: Map<String, Progress>,
+        today: LocalDate,
+    ): List<Exercise> {
+        val due =
+            verbs
+                .filter { v -> progress[v.id]?.let { it.dueOn <= today && it.lastAnsweredOn != today } == true }
+                .sortedBy { progress.getValue(it.id).dueOn }
+                .take(VERB_LIMIT)
+        val introducedToday = verbs.count { v -> progress[v.id]?.let { firstAnsweredToday(it, today) } == true }
+        val newToday = minOf(NEW_VERBS_PER_DAY - introducedToday, VERB_LIMIT - due.size).coerceAtLeast(0)
+        return due + verbs.filter { it.id !in progress }.take(newToday)
+    }
+
+    private fun firstAnsweredToday(
+        progress: Progress,
+        today: LocalDate,
+    ): Boolean = progress.lastAnsweredOn == today && progress.correctCount + progress.wrongCount == 1
 
     private fun interleave(
         main: List<Exercise>,

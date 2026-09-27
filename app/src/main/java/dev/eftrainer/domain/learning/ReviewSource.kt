@@ -5,6 +5,7 @@ import dev.eftrainer.data.ChapterRepository
 import dev.eftrainer.data.ProgressRepository
 import dev.eftrainer.data.content.Chapter
 import dev.eftrainer.data.content.Exercise
+import dev.eftrainer.data.content.IrregularVerbs
 import dev.eftrainer.data.db.entities.Progress
 import dev.eftrainer.data.generated.GeneratedRepository
 import kotlinx.coroutines.flow.Flow
@@ -21,7 +22,8 @@ data class ReviewInputs(
     fun plan(
         chapters: List<Chapter>,
         today: LocalDate,
-    ): ReviewPlan = TrainingQueue.review(chapters, completed, progress, today, ai, generated)
+        verbs: List<Exercise> = emptyList(),
+    ): ReviewPlan = TrainingQueue.review(chapters, completed, progress, today, ai, generated, verbs)
 }
 
 class ReviewSource(
@@ -40,5 +42,5 @@ class ReviewSource(
             ::ReviewInputs,
         )
 
-    fun plan(inputs: ReviewInputs): ReviewPlan = inputs.plan(chapters.chapters, clock.today())
+    fun plan(inputs: ReviewInputs): ReviewPlan = inputs.plan(chapters.chapters, clock.today(), IrregularVerbs.exercises)
 }

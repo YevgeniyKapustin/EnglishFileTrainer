@@ -43,6 +43,8 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import dev.eftrainer.R
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.EF
+import dev.eftrainer.core.theme.FilePalette
+import dev.eftrainer.core.theme.FilePalettes
 import dev.eftrainer.core.theme.Golos
 import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.ui.BandInk
@@ -156,8 +158,8 @@ private fun ChapterBand(
     content: @Composable () -> Unit,
 ) {
     val intro = rememberHeaderIntro()
-    WedgeBand(BandHeight, Modifier.clipToBounds(), reveal = { intro.rays.value }) {
-        chapter?.bubbles?.let { b -> BandBubbles(b, intro) }
+    WedgeBand(BandHeight, Modifier.clipToBounds(), chapter?.id, reveal = { intro.rays.value }) {
+        chapter?.bubbles?.let { b -> BandBubbles(b, FilePalettes.forChapter(chapter.id), intro) }
         Row(
             Modifier.fillMaxWidth().height(56.dp).padding(horizontal = 12.dp),
             verticalAlignment = Alignment.CenterVertically,
@@ -220,6 +222,7 @@ private class BandBubble(
 @Composable
 private fun BoxScope.BandBubbles(
     lines: Bubbles,
+    palette: FilePalette,
     intro: HeaderIntro,
 ) {
     val first = rememberBubbleMotion(intro.firstBubble, tailLeft = true)
@@ -228,10 +231,17 @@ private fun BoxScope.BandBubbles(
     val answer = rememberSpeechBubbleFit(lines.second, AnswerMinSize)
     val bubbles =
         listOf(
-            BandBubble(lines.first, EF.Sky, question, AnswerEnd + answer.size - BubbleOverlap, QuestionTop, first),
-            BandBubble(lines.second, EF.Lime, answer, AnswerEnd, AnswerTop, second),
+            BandBubble(
+                lines.first,
+                palette.question,
+                question,
+                AnswerEnd + answer.size - BubbleOverlap,
+                QuestionTop,
+                first,
+            ),
+            BandBubble(lines.second, palette.answer, answer, AnswerEnd, AnswerTop, second),
         )
-    val overlap = Color(EF.Sky.red * EF.Lime.red, EF.Sky.green * EF.Lime.green, EF.Sky.blue * EF.Lime.blue)
+    val overlap = palette.bubbleOverlap
     val overlapInk = lerp(overlap, Color.Black, .6f)
 
     fun BandBubble.placed() =

@@ -21,6 +21,7 @@ import androidx.compose.ui.unit.sp
 import dev.eftrainer.R
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.EF
+import dev.eftrainer.core.theme.FilePalettes
 import dev.eftrainer.core.theme.Golos
 import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.ui.BandInk
@@ -54,7 +55,7 @@ internal fun DoneScreen(
 
 @Composable
 private fun DoneBand(d: SessionUi.Done) {
-    WedgeBand(128.dp) {
+    WedgeBand(128.dp, chapterId = d.chapterId) {
         Text(
             stringResource(R.string.done),
             style =
@@ -67,7 +68,11 @@ private fun DoneBand(d: SessionUi.Done) {
                 ),
             modifier = Modifier.align(Alignment.BottomStart).padding(start = 24.dp, bottom = 16.dp),
         )
-        Bubble(100.dp, EF.Lime, Modifier.align(Alignment.BottomEnd).padding(end = 24.dp, bottom = 16.dp)) {
+        Bubble(
+            100.dp,
+            FilePalettes.forChapter(d.chapterId).answer,
+            Modifier.align(Alignment.BottomEnd).padding(end = 24.dp, bottom = 16.dp),
+        ) {
             Text(
                 stringResource(R.string.ef_score, d.firstTry, d.total),
                 style = bubbleText.copy(fontSize = 24.sp, lineHeight = 28.sp, fontWeight = FontWeight.Bold),
@@ -156,7 +161,7 @@ internal fun ChapterDoneScreen(
 
 @Composable
 private fun ChapterDoneBand(c: SessionUi.ChapterDone) {
-    WedgeBand(300.dp) {
+    WedgeBand(300.dp, chapterId = c.chapter.id) {
         Text(
             c.chapter.id,
             style =
@@ -171,7 +176,11 @@ private fun ChapterDoneBand(c: SessionUi.ChapterDone) {
             modifier = Modifier.align(Alignment.BottomStart).padding(start = 24.dp, bottom = 28.dp),
         )
         c.next?.let { next ->
-            Bubble(116.dp, EF.Lime, Modifier.align(Alignment.BottomEnd).padding(end = 22.dp, bottom = 30.dp)) {
+            Bubble(
+                116.dp,
+                FilePalettes.forChapter(c.chapter.id).answer,
+                Modifier.align(Alignment.BottomEnd).padding(end = 22.dp, bottom = 30.dp),
+            ) {
                 Text(stringResource(R.string.ef_next), style = bubbleText)
                 Text(
                     next.id,

@@ -2,7 +2,9 @@ package dev.eftrainer.ui.exercise
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
@@ -59,12 +61,14 @@ import dev.eftrainer.data.content.Write
 import dev.eftrainer.data.content.needsAi
 import dev.eftrainer.ui.appContainer
 import dev.eftrainer.ui.exercise.inputs.AudioBar
-import dev.eftrainer.ui.exercise.inputs.BlankInput
+import dev.eftrainer.ui.exercise.inputs.BlankLayout
+import dev.eftrainer.ui.exercise.inputs.GapState
 import dev.eftrainer.ui.exercise.inputs.OrderInput
 import dev.eftrainer.ui.exercise.inputs.RewriteInput
 import dev.eftrainer.ui.exercise.inputs.SpeakInput
 import dev.eftrainer.ui.exercise.inputs.TalkInput
 import dev.eftrainer.ui.exercise.inputs.VideoBar
+import dev.eftrainer.ui.exercise.inputs.WordBox
 import dev.eftrainer.ui.exercise.inputs.WriteInput
 import dev.eftrainer.ui.exercise.inputs.rememberVoice
 import dev.eftrainer.ui.explain.ExplainHost
@@ -106,6 +110,7 @@ fun SessionScreen(
                     onCheck = vm::check,
                     onGrade = vm::grade,
                     onNext = vm::next,
+                    onSkip = vm::skip,
                     onExplain = vm::explain,
                     onClose = onClose,
                 )
@@ -134,9 +139,9 @@ private fun sessionViewModel(
 
 private fun fieldCount(exercise: Exercise): Int =
     when (exercise) {
-        is Rewrite, is Speak, is Write -> 1
+        is Rewrite, is Write -> 1
         is Blank -> exercise.gaps.size
-        is Talk, is Order -> 0
+        is Talk, is Order, is Speak -> 0
     }
 
 @Stable
@@ -177,6 +182,7 @@ private fun QuestionScreen(
     onCheck: (List<String>) -> Unit,
     onGrade: (correct: Boolean, summary: String, transcript: List<String>) -> Unit,
     onNext: () -> Unit,
+    onSkip: () -> Unit,
     onExplain: (question: String?) -> Unit,
     onClose: () -> Unit,
 ) {
@@ -214,13 +220,14 @@ private fun QuestionScreen(
                     answer = answer,
                     tts = tts,
                     onAction = action,
+                    onHear = { onCheck(listOf(it)) },
                     onGrade = onGrade,
                 )
             }
         }
 
         if (feedback == null) {
-            if (e !is Talk) CheckBar(enabled = filled && q.aiCheck != AiCheck.Checking, onClick = action)
+            ActionBar(e, enabled = filled && q.aiCheck != AiCheck.Checking, onCheck = action, onSkip = onSkip)
         } else {
             FeedbackSheet(
                 feedback,
@@ -237,12 +244,36 @@ private fun QuestionScreen(
 }
 
 @Composable
-private fun CheckBar(
+private fun ActionBar(
+    exercise: Exercise,
     enabled: Boolean,
-    onClick: () -> Unit,
+    onCheck: () -> Unit,
+    onSkip: () -> Unit,
 ) {
-    BottomBar {
-        PrimaryButton(stringResource(R.string.check), onClick = onClick, enabled = enabled)
+    when (exercise) {
+        is Talk -> {}
+
+        is Speak -> {
+            BottomBar {
+                Box(
+                    Modifier
+                        .fillMaxWidth()
+                        .height(56.dp)
+                        .clip(RoundedCornerShape(16.dp))
+                        .clickable(onClick = onSkip),
+                    contentAlignment = Alignment.Center,
+                ) {
+                    Text(
+                        stringResource(R.string.skip),
+                        style = T.row.copy(color = C.Muted, fontWeight = FontWeight.SemiBold),
+                    )
+                }
+            }
+        }
+
+        else -> {
+            BottomBar { PrimaryButton(stringResource(R.string.check), onClick = onCheck, enabled = enabled) }
+        }
     }
 }
 
@@ -309,6 +340,7 @@ private fun TaskHeader(q: SessionUi.Question) {
                         .padding(16.dp),
             )
         }
+        if (q.task.words.isNotEmpty()) WordBox(q.task.words, used = q.usedWords)
     }
 }
 
@@ -318,6 +350,7 @@ private fun ExerciseInput(
     answer: AnswerFields,
     tts: TextToSpeechState,
     onAction: () -> Unit,
+    onHear: (String) -> Unit,
     onGrade: (correct: Boolean, summary: String, transcript: List<String>) -> Unit,
 ) {
     val feedback = q.feedback
@@ -338,14 +371,17 @@ private fun ExerciseInput(
         }
 
         is Blank -> {
-            BlankInput(
-                exercise = e,
-                values = fields,
-                onChange = { i, v -> fields[i] = v },
-                checked = checked,
-                wrongGaps = feedback?.wrongGaps.orEmpty(),
-                focus = focus,
-                onAction = onAction,
+            BlankLayout(
+                q.task,
+                GapState(
+                    exercise = e,
+                    values = fields,
+                    onChange = { i, v -> fields[i] = v },
+                    checked = checked,
+                    wrongGaps = feedback?.wrongGaps.orEmpty(),
+                    focus = focus,
+                    onAction = onAction,
+                ),
             )
         }
 
@@ -353,12 +389,9 @@ private fun ExerciseInput(
             SpeakInput(
                 exercise = e,
                 attempt = q.attempt,
-                value = fields[0],
-                onChange = { fields[0] = it },
+                onHear = onHear,
                 checked = checked,
                 correct = feedback?.correct == true,
-                focus = focus[0],
-                onAction = onAction,
                 tts = tts,
             )
         }

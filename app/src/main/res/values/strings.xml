@@ -146,10 +146,11 @@
     <string name="speak_no_match">Didn’t catch that. Try again.</string>
     <string name="speak_listen">Listen</string>
     <string name="speak_heard">You said</string>
-    <string name="speak_type_instead">Type instead</string>
-    <string name="speak_say_instead">Say it instead</string>
-    <string name="speak_no_mic">No microphone access. Type it instead.</string>
-    <string name="speak_unavailable">Speech recognition isn’t available. Type it instead.</string>
+    <string name="speak_no_mic">No microphone access</string>
+    <string name="speak_unavailable">Speech recognition isn’t available</string>
+    <string name="skip">Skip</string>
+    <string name="verb_past_simple">Past simple</string>
+    <string name="verb_past_participle">Past participle</string>
 
     <string name="talk_with_ai">Conversation with AI</string>
     <string name="talk_needs_key">Conversation with AI · add an AI key in Settings</string>

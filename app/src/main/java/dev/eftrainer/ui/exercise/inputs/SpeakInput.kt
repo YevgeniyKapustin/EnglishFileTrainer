@@ -4,7 +4,6 @@ import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.focusable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -20,7 +19,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberUpdatedState
@@ -29,11 +27,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.scale
-import androidx.compose.ui.focus.FocusRequester
-import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -47,7 +42,6 @@ import dev.eftrainer.core.speech.rememberSpeechRecognizer
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.EF
 import dev.eftrainer.core.theme.T
-import dev.eftrainer.data.content.Rewrite
 import dev.eftrainer.data.content.Speak
 import dev.eftrainer.domain.check.Checker
 
@@ -55,65 +49,44 @@ import dev.eftrainer.domain.check.Checker
 fun SpeakInput(
     exercise: Speak,
     attempt: Int,
-    value: TextFieldValue,
-    onChange: (TextFieldValue) -> Unit,
+    onHear: (String) -> Unit,
     checked: Boolean,
     correct: Boolean,
-    focus: FocusRequester,
-    onAction: () -> Unit,
     tts: TextToSpeechState,
     modifier: Modifier = Modifier,
 ) {
     val sample = rememberAudioPlayer(exercise.audio)
-    val act by rememberUpdatedState(onAction)
-    var submit by remember(attempt) { mutableIntStateOf(0) }
+    val heardNow by rememberUpdatedState(onHear)
     var heard by remember(attempt) { mutableStateOf<String?>(null) }
-    var typed by remember(attempt) { mutableStateOf(false) }
 
     val speech =
         rememberSpeechRecognizer { hypotheses ->
             val best = Checker.bestHypothesis(exercise, hypotheses)
             heard = best
-            onChange(TextFieldValue(best))
-            submit++
+            heardNow(best)
         }
-    LaunchedEffect(submit) { if (submit > 0) act() }
     LaunchedEffect(attempt) { speech.reset() }
-
-    val typing = typed || speech.broken || !speech.available
-    LaunchedEffect(typing) { if (typing && !checked) focus.requestFocus() }
 
     Column(modifier, verticalArrangement = Arrangement.spacedBy(12.dp)) {
         SampleButton(exercise, sample, tts)
-        if (typing) {
-            TypedAnswer(
-                exercise = exercise,
-                value = value,
-                onChange = onChange,
-                checked = checked,
-                correct = correct,
-                focus = focus,
-                onAction = onAction,
-                speech = speech,
-                onSpeakInstead = {
-                    typed = false
-                    speech.reset()
-                },
-            )
+        Text(exercise.text, style = T.question)
+        exercise.hint?.let { Text(it, style = T.hint) }
+        if (checked) {
+            Heard(heard.orEmpty(), correct)
         } else {
-            SpokenAnswer(
-                exercise = exercise,
-                heard = heard ?: value.text,
-                checked = checked,
-                correct = correct,
-                speech = speech,
-                focus = focus,
-                tts = tts,
-                onTypeInstead = {
-                    typed = true
-                    speech.cancel()
-                },
-            )
+            Column(
+                Modifier.fillMaxWidth().padding(top = 12.dp),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.spacedBy(14.dp),
+            ) {
+                val note = unavailableNote(speech)
+                if (note == null) {
+                    MicButton(speech, tts)
+                    SpeechStatus(speech)
+                } else {
+                    Text(stringResource(note), style = T.hint, textAlign = TextAlign.Center)
+                }
+            }
         }
     }
 }
@@ -152,68 +125,8 @@ private fun SampleButton(
 }
 
 @Composable
-private fun TypedAnswer(
-    exercise: Speak,
-    value: TextFieldValue,
-    onChange: (TextFieldValue) -> Unit,
-    checked: Boolean,
-    correct: Boolean,
-    focus: FocusRequester,
-    onAction: () -> Unit,
-    speech: SpeechRecognizerState,
-    onSpeakInstead: () -> Unit,
-) {
-    Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        RewriteInput(
-            Rewrite(exercise.id, exercise.text, exercise.answers, hint = exercise.hint),
-            value,
-            onChange,
-            checked,
-            correct,
-            focus,
-            onAction,
-        )
-        if (!checked) {
-            unavailableNote(speech)?.let { Text(stringResource(it), style = T.label) }
-            if (speech.available) Link(stringResource(R.string.speak_say_instead), onSpeakInstead)
-        }
-    }
-}
-
-@Composable
-private fun SpokenAnswer(
-    exercise: Speak,
-    heard: String,
-    checked: Boolean,
-    correct: Boolean,
-    speech: SpeechRecognizerState,
-    focus: FocusRequester,
-    tts: TextToSpeechState,
-    onTypeInstead: () -> Unit,
-) {
-    Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        Text(exercise.text, style = T.question)
-        exercise.hint?.let { Text(it, style = T.hint) }
-        if (checked) {
-            Heard(heard, correct)
-        } else {
-            Column(
-                Modifier.fillMaxWidth().padding(top = 12.dp),
-                horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.spacedBy(14.dp),
-            ) {
-                MicButton(speech, focus, tts)
-                SpeechStatus(speech)
-                Link(stringResource(R.string.speak_type_instead), onTypeInstead)
-            }
-        }
-    }
-}
-
-@Composable
 private fun MicButton(
     speech: SpeechRecognizerState,
-    focus: FocusRequester,
     tts: TextToSpeechState,
 ) {
     val pulse by animateFloatAsState(if (speech.listening) 1f + speech.level * 0.35f else 1f, label = "pulse")
@@ -232,8 +145,6 @@ private fun MicButton(
                 .size(80.dp)
                 .clip(CircleShape)
                 .background(EF.Title)
-                .focusRequester(focus)
-                .focusable()
                 .clickable {
                     if (speech.listening) {
                         speech.stop()
@@ -316,23 +227,6 @@ private fun Heard(
                     .padding(horizontal = 16.dp, vertical = 14.dp),
         )
     }
-}
-
-@Composable
-private fun Link(
-    text: String,
-    onClick: () -> Unit,
-) {
-    Text(
-        text,
-        style = T.label.copy(fontSize = 15.sp, color = EF.Title),
-        modifier =
-            Modifier
-                .clip(
-                    RoundedCornerShape(8.dp),
-                ).clickable(onClick = onClick)
-                .padding(horizontal = 8.dp, vertical = 6.dp),
-    )
 }
 
 private fun sayable(text: String): String =

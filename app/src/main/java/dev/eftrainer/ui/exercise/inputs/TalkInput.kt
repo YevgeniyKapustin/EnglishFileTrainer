@@ -226,14 +226,14 @@ private fun TalkBubble(
     }
 }
 
-private class BubbleLook(
+internal class BubbleLook(
     val shape: Shape,
     val alignment: Alignment,
     val background: Color,
     val border: Modifier,
 )
 
-private fun bubbleLook(student: Boolean): BubbleLook =
+internal fun bubbleLook(student: Boolean): BubbleLook =
     if (student) {
         val shape = RoundedCornerShape(16.dp, 16.dp, 4.dp, 16.dp)
         BubbleLook(shape, Alignment.CenterEnd, C.Field, Modifier.border(1.dp, C.Line, shape))

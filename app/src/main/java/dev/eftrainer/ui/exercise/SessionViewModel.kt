@@ -27,6 +27,7 @@ import dev.eftrainer.domain.learning.DayInputs
 import dev.eftrainer.domain.learning.DayStep
 import dev.eftrainer.domain.learning.GenerationPlan
 import dev.eftrainer.domain.learning.Mastery
+import dev.eftrainer.domain.learning.SessionTally
 import dev.eftrainer.domain.learning.Stats
 import dev.eftrainer.domain.learning.TrainingQueue
 import dev.eftrainer.ui.toPercent
@@ -73,6 +74,7 @@ sealed interface SessionUi {
         val feedback: Feedback?,
         val explanation: Explanation? = null,
         val aiCheck: AiCheck? = null,
+        val usedWords: Set<String> = emptySet(),
     ) : SessionUi
 
     data class Done(
@@ -104,12 +106,8 @@ class SessionViewModel(
         container.aiOn
             .stateIn(viewModelScope, SharingStarted.Eagerly, false)
 
-    private val queue = ArrayDeque<Exercise>()
-    private var total = 0
-    private var done = 0
+    private var tally = SessionTally(emptyList())
     private var attempt = 0
-    private val answered = mutableSetOf<String>()
-    private val wrong = linkedSetOf<Exercise>()
     private val writes = mutableListOf<Job>()
     private var completedChapter: Chapter? = null
     private var chapter: Chapter? = null
@@ -148,9 +146,8 @@ class SessionViewModel(
             }
         before = chapter?.let { Mastery.share(it.exercises, progress) }?.toPercent() ?: 0
 
-        queue.addAll(exercises)
-        total = exercises.size
-        if (queue.isEmpty()) _state.value = SessionUi.Empty else show()
+        tally = SessionTally(exercises)
+        if (tally.finished) _state.value = SessionUi.Empty else show()
     }
 
     private fun acceptFresh() {
@@ -158,16 +155,15 @@ class SessionViewModel(
             container.generation.fresh.collect { items ->
                 val empty = _state.value == SessionUi.Empty
                 if (_state.value !is SessionUi.Question && !empty) return@collect
-                val added = TrainingQueue.arrivals(items, answered + queue.map { it.id }, arrivals)
+                val added = TrainingQueue.arrivals(items, tally.seenIds, arrivals)
                 if (added.isEmpty()) return@collect
-                queue.addAll(added)
+                tally.add(added)
                 arrivals += added.size
-                total += added.size
                 val q = _state.value
                 if (empty) {
                     show()
                 } else if (q is SessionUi.Question) {
-                    _state.value = q.copy(total = total)
+                    _state.value = q.copy(total = tally.total)
                 }
             }
         }
@@ -186,7 +182,7 @@ class SessionViewModel(
                 is Talk -> return
                 is Write -> return gradeWriting(q, e, inputs.single())
             }
-        record(q, result.correct, result.expected, result.wrongGaps, ExplainPrompt.answerText(e, inputs))
+        record(q, result.correct, result.expected, result.wrongGaps, ExplainPrompt.answerText(e, inputs), inputs)
     }
 
     fun grade(
@@ -196,7 +192,7 @@ class SessionViewModel(
     ) {
         val q = _state.value as? SessionUi.Question ?: return
         if (q.feedback != null) return
-        record(q, correct, summary, emptySet(), ExplainPrompt.answerText(q.exercise, transcript))
+        record(q, correct, summary, emptySet(), ExplainPrompt.answerText(q.exercise, transcript), transcript)
     }
 
     private fun gradeWriting(
@@ -228,7 +224,15 @@ class SessionViewModel(
                 }
             val now = _state.value as? SessionUi.Question ?: return@launch
             if (now.attempt != q.attempt || now.feedback != null) return@launch
-            record(now.copy(aiCheck = null), grade.pass, grade.summary, emptySet(), text.trim(), grade.corrections)
+            record(
+                now.copy(aiCheck = null),
+                grade.pass,
+                grade.summary,
+                emptySet(),
+                text.trim(),
+                listOf(text),
+                grade.corrections,
+            )
         }
     }
 
@@ -238,11 +242,12 @@ class SessionViewModel(
         expected: String,
         wrongGaps: Set<Int>,
         answer: String,
+        inputs: List<String>,
         corrections: List<WritePrompt.Correction> = emptyList(),
     ) {
         val e = q.exercise
         val result = Feedback(correct, expected, wrongGaps, e.explain, answer, corrections)
-        if (answered.add(e.id)) {
+        if (tally.answer(e, result.correct, inputs)) {
             writes +=
                 viewModelScope.launch {
                     container.learning.answer(e, result.correct)?.let { completedChapter = it }
@@ -251,8 +256,7 @@ class SessionViewModel(
                     }
                 }
         }
-        if (result.correct) done++ else wrong += e
-        _state.value = q.copy(done = done, feedback = result)
+        _state.value = q.copy(done = tally.done, feedback = result, usedWords = tally.usedWords(q.task))
     }
 
     fun explain(question: String? = null) {
@@ -300,14 +304,22 @@ class SessionViewModel(
     fun next() {
         val q = _state.value as? SessionUi.Question ?: return
         val f = q.feedback ?: return
-        queue.removeFirst()
-        if (!f.correct) queue.addLast(q.exercise)
-        if (queue.isEmpty()) finish() else show()
+        tally.next(f.correct)
+        if (tally.finished) finish() else show()
+    }
+
+    fun skip() {
+        val q = _state.value as? SessionUi.Question ?: return
+        if (q.feedback != null || q.exercise !is Speak) return
+        tally.skip()
+        if (tally.finished) finish() else show()
     }
 
     private fun show() {
-        val e = queue.first()
-        _state.value = SessionUi.Question(e, Chapters.locate(e.id).task, ++attempt, done, total, null)
+        val e = tally.current
+        val task = Chapters.locate(e.id).task
+        _state.value =
+            SessionUi.Question(e, task, ++attempt, tally.done, tally.total, null, usedWords = tally.usedWords(task))
     }
 
     private fun finish() {
@@ -323,24 +335,24 @@ class SessionViewModel(
             val progress = container.progress.getAll()
             _state.value =
                 SessionUi.Done(
-                    firstTry = total - wrong.size,
-                    total = total,
+                    firstTry = tally.firstTry,
+                    total = tally.total,
                     chapterId = chapter?.id,
                     before = before,
                     after = chapter?.let { Mastery.share(it.exercises, progress) }?.toPercent() ?: 0,
-                    mistakes = wrong.map { it.expected() },
+                    mistakes = tally.mistakes.map { it.mistakeText() },
                     streak = Stats.streak(container.answers.days.first(), container.clock.today()).current,
                 )
         }
     }
-
-    private fun Exercise.expected(): String =
-        when (this) {
-            is Rewrite -> answers.first()
-            is Blank -> Checker.check(this, gaps.map { it.first() }).expected
-            is Speak -> text
-            is Order -> expected()
-            is Talk -> goal
-            is Write -> prompt
-        }
 }
+
+private fun Exercise.mistakeText(): String =
+    when (this) {
+        is Rewrite -> answers.first()
+        is Blank -> Checker.check(this, gaps.map { it.first() }).expected
+        is Speak -> text
+        is Order -> expected()
+        is Talk -> goal
+        is Write -> prompt
+    }

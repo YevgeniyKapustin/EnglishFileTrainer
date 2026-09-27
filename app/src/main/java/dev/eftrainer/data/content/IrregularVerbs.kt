@@ -102,6 +102,10 @@ object IrregularVerbs {
 
     val chapter: Chapter = Chapter(id = "Irregular verbs", title = "Student's Book p.164", sections = listOf(section))
 
+    private val byId: Map<String, IrregularVerb> by lazy { list.associateBy { ID_PREFIX + it.base } }
+
+    fun find(exerciseId: String): IrregularVerb? = byId[exerciseId]
+
     private fun verb(
         base: String,
         pastSimple: String,

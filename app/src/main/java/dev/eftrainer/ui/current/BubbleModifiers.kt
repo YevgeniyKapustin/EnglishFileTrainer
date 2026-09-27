@@ -66,6 +66,7 @@ private fun GraphicsLayerScope.applyPose(
     scaleY = pose.scaleY
     translationX = pose.translation.x
     translationY = pose.translation.y
+    rotationZ = pose.rotation
     transformOrigin = pose.origin
     alpha = (pop * BUBBLE_FADE_SPEED).coerceIn(0f, 1f)
     compositingStrategy = CompositingStrategy.ModulateAlpha

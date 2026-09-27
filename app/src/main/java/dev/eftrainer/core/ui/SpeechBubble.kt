@@ -36,13 +36,15 @@ val SpeechBubbleVisibleBounds = Rect(.06f, .02f, .94f, .96f)
 val SpeechBubbleTextInset = 12.dp
 val SpeechBubbleTextLift = 12.dp
 
+fun speechBubbleTailTip(tailLeft: Boolean) = if (tailLeft) LeftTailTip else RightTailTip
+
 fun speechBubblePath(
     tailLeft: Boolean,
     size: Size,
 ): Path {
     val k = size.width
     val start = if (tailLeft) LEFT_TAIL_START_DEGREES else RIGHT_TAIL_START_DEGREES
-    val tip = (if (tailLeft) LeftTailTip else RightTailTip) * k
+    val tip = speechBubbleTailTip(tailLeft) * k
     val rad = Math.toRadians(start.toDouble())
     val circle = Rect(SpeechBubbleCenter * k, SPEECH_BUBBLE_RADIUS * k)
     val radius = circle.width / 2

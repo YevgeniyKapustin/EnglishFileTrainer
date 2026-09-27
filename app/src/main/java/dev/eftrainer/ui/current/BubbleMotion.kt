@@ -21,12 +21,10 @@ import dev.eftrainer.core.ui.SpeechBubbleCenter
 import dev.eftrainer.core.ui.SpeechBubbleVisibleBounds
 import dev.eftrainer.core.ui.lineRects
 import dev.eftrainer.core.ui.speechBubblePath
+import dev.eftrainer.core.ui.speechBubbleTailTip
 import kotlin.math.abs
 
 private const val BUBBLE_START_SCALE = .6f
-private const val LEFT_TAIL_PIVOT_X = .16f
-private const val RIGHT_TAIL_PIVOT_X = .84f
-private const val TAIL_PIVOT_Y = .96f
 private const val MAX_SQUASH = .12f
 private const val SQUASH_SPREAD = .5f
 private const val SQUASH_FIT_STEPS = 8
@@ -38,6 +36,7 @@ class BubblePose(
     val scaleY: Float,
     val origin: TransformOrigin,
     val translation: Offset,
+    val rotation: Float,
 )
 
 private fun stretchOf(squeeze: Offset) =
@@ -98,7 +97,11 @@ class BubbleMotion(
         private set
     private var home = Offset.Zero
     private var boxSize = Size.Zero
-    private val tailOrigin = TransformOrigin(if (tailLeft) LEFT_TAIL_PIVOT_X else RIGHT_TAIL_PIVOT_X, TAIL_PIVOT_Y)
+    private val tip = speechBubbleTailTip(tailLeft)
+    private val tailOrigin = TransformOrigin(tip.x, tip.y)
+    private val fullTilt = restingTiltDegrees(tip)
+    private val popScale get() = BUBBLE_START_SCALE + (1f - BUBBLE_START_SCALE) * pop.value
+    private val pressed get() = Offset(squash.value.x, squash.value.y.coerceAtMost(0f))
 
     fun measure(bubble: LayoutCoordinates) {
         val band = bubble.parentLayoutCoordinates ?: return
@@ -120,24 +123,30 @@ class BubbleMotion(
         Offset(offset.x.coerceIn(travel.left, travel.right), offset.y.coerceIn(travel.top, travel.bottom))
 
     fun shapePose(density: Density): BubblePose {
-        val pop = popScale()
-        val stretch = stretchOf(fittedSqueeze(density))
-        return BubblePose(pop * stretch.x, pop * stretch.y, squashOrigin(), held(offset.value))
+        val pop = popScale
+        val scale = stretchOf(fittedSqueeze(density)) * pop
+        val origin = squashOrigin()
+        val degrees = tilt(density)
+        val reach = tipOnBox().scaledFrom(pivotOf(origin), scale)
+        return BubblePose(scale.x, scale.y, origin, held(offset.value) + reach.pivotShift(degrees), degrees)
     }
 
     fun textPose(density: Density): BubblePose {
-        val pop = popScale()
+        val pop = popScale
         val stretch = stretchOf(fittedSqueeze(density))
         val pivot = pivotOf(squashOrigin())
         val center = SpeechBubbleCenter * boxSize.width
-        val shift = Offset((center.x - pivot.x) * (stretch.x - 1f), (center.y - pivot.y) * (stretch.y - 1f))
-        return BubblePose(pop, pop, tailOrigin, held(offset.value) + shift * pop)
+        val shift = Offset((center.x - pivot.x) * (stretch.x - 1f), (center.y - pivot.y) * (stretch.y - 1f)) * pop
+        val degrees = tilt(density)
+        val reach = pivot + tipOnBox().scaledFrom(pivot, stretch * pop) - shift - pivotOf(tailOrigin)
+        return BubblePose(pop, pop, tailOrigin, held(offset.value) + shift + reach.pivotShift(degrees), degrees)
     }
 
     fun DrawTransform.leave(pose: BubblePose) {
         val pivot = pivotOf(pose.origin)
         translate(pivot.x, pivot.y)
         scale(1f / pose.scaleX, 1f / pose.scaleY, Offset.Zero)
+        rotate(-pose.rotation, Offset.Zero)
         val placed = home + pose.translation + pivot
         translate(-placed.x, -placed.y)
     }
@@ -146,17 +155,20 @@ class BubbleMotion(
         val pivot = pivotOf(pose.origin)
         val placed = home + pose.translation + pivot
         translate(placed.x, placed.y)
+        rotate(pose.rotation, Offset.Zero)
         scale(pose.scaleX, pose.scaleY, Offset.Zero)
         translate(-pivot.x, -pivot.y)
     }
 
-    private fun popScale() = BUBBLE_START_SCALE + (1f - BUBBLE_START_SCALE) * pop.value
-
     private fun pivotOf(origin: TransformOrigin) =
         Offset(origin.pivotFractionX * boxSize.width, origin.pivotFractionY * boxSize.height)
 
+    private fun tipOnBox() = Offset(tip.x * boxSize.width, tip.y * boxSize.height)
+
+    private fun tilt(density: Density) =
+        tiltDegrees(squash.value.y, with(density) { BubbleSquashRoom.toPx() }, fullTilt)
+
     private fun squashOrigin(): TransformOrigin {
-        val pressed = squash.value
         if (pressed == Offset.Zero) return tailOrigin
         val visible = SpeechBubbleVisibleBounds
         return TransformOrigin(
@@ -174,7 +186,6 @@ class BubbleMotion(
     }
 
     private fun fittedSqueeze(density: Density): Offset {
-        val pressed = squash.value
         if (pressed == Offset.Zero) return Offset.Zero
         val room = with(density) { BubbleSquashRoom.toPx() }
         val margin = with(density) { TextMargin.toPx() }

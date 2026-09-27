@@ -1,6 +1,7 @@
 package dev.eftrainer.domain.check
 
 import dev.eftrainer.data.content.Exercise
+import dev.eftrainer.data.content.Order
 import dev.eftrainer.data.content.Sort
 import dev.eftrainer.data.content.Stress
 
@@ -35,5 +36,12 @@ fun Exercise.spoken(): String? =
     when (this) {
         is Stress -> parts.joinToString("")
         is Sort -> plainWord
+        is Order -> storyInOrder()
         else -> null
     }
+
+private fun Order.storyInOrder(): String? {
+    if (pictures.any { it.image != null }) return null
+    val byLabel = pictures.associateBy { it.label }
+    return answer.mapNotNull { byLabel[it]?.caption }.joinToString(" ")
+}

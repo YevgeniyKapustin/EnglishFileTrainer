@@ -19,6 +19,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Stable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.key
 import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -83,33 +84,31 @@ fun OrderInput(
 
     Column(modifier, verticalArrangement = Arrangement.spacedBy(RowGap)) {
         labels.forEachIndexed { position, label ->
-            val lifted = label == drag.label
-            OrderRow(
-                position = position,
-                picture = pictures.getValue(label),
-                height = rowHeight,
-                last = position == labels.lastIndex,
-                checked = checked,
-                wrong = position in wrongPositions,
-                lifted = lifted,
-                onMove = { to -> reorder(labels.moved(position, to)) },
-                modifier =
-                    Modifier
-                        .zIndex(if (lifted) 1f else 0f)
-                        .graphicsLayer { translationY = if (lifted) drag.offset else 0f },
-                gripModifier =
-                    if (checked) {
-                        Modifier
-                    } else {
-                        Modifier.dragHandle(label, drag) { dy ->
-                            val index = current.indexOf(label)
-                            drag.target(index, dy, current.lastIndex)?.let { reorder(current.moved(index, it)) }
-                        }
-                    },
-            )
+            key(label) {
+                val lifted = label == drag.label
+                OrderRow(
+                    position = position,
+                    picture = pictures.getValue(label),
+                    height = rowHeight,
+                    last = position == labels.lastIndex,
+                    checked = checked,
+                    wrong = position in wrongPositions,
+                    lifted = lifted,
+                    onMove = { to -> reorder(labels.moved(position, to)) },
+                    modifier = Modifier.liftable(lifted, drag),
+                    gripModifier = if (checked) Modifier else Modifier.dragHandle(label, drag, { current }, reorder),
+                )
+            }
         }
     }
 }
+
+private fun Modifier.liftable(
+    lifted: Boolean,
+    drag: RowDrag,
+): Modifier =
+    zIndex(if (lifted) 1f else 0f)
+        .graphicsLayer { translationY = if (lifted) drag.offset else 0f }
 
 @Stable
 private class RowDrag(
@@ -134,6 +133,18 @@ private class RowDrag(
         return target
     }
 }
+
+private fun Modifier.dragHandle(
+    label: String,
+    drag: RowDrag,
+    labels: () -> List<String>,
+    reorder: (List<String>) -> Unit,
+): Modifier =
+    dragHandle(label, drag) { dy ->
+        val current = labels()
+        val index = current.indexOf(label)
+        drag.target(index, dy, current.lastIndex)?.let { reorder(current.moved(index, it)) }
+    }
 
 private fun Modifier.dragHandle(
     label: String,

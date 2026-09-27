@@ -113,7 +113,6 @@
                 {"label": "H", "text": "After that, a police car came and took the thief away."}
               ],
               "answer": ["G", "B", "E", "A", "F", "H", "D"],
-              "explain": "Order: C, G, B, E, A, F, H, D.",
               "source": "MODEL"
             }
           ]

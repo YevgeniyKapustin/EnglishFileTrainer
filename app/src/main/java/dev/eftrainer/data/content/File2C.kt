@@ -135,7 +135,6 @@ val File2C = Chapter(
                             "2C-gba-01",
                             pictures = listOf(Picture("A", null, "He explained that he was looking for a thief, and then he got on the bus."), Picture("B", null, "Then another man tried to do the same."), Picture("D", null, "The next day, I saw the story on a local news website."), Picture("E", null, "When I asked the second man what he was doing, he told me that he was a policeman."), Picture("F", null, "A few seconds later, he got off the bus with the thief."), Picture("G", null, "The bus arrived, but suddenly a man ran in front of me and got on."), Picture("H", null, "After that, a police car came and took the thief away.")),
                             answer = listOf("G", "B", "E", "A", "F", "H", "D"),
-                            explain = "Order: C, G, B, E, A, F, H, D.",
                             source = AnswerSource.MODEL,
                         ),
                     ),

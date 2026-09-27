@@ -408,20 +408,99 @@
         {
           "id": "2B-sb3c",
           "origin": "SB",
-          "instruction": "Listen to the sounds and write a sentence using the past continuous and the past simple",
-          "note": "SB 3c; звуки 2.13 без слов → Write, ИИ проверяет форму (звуков не слышит). Пример They were playing tennis when it started to rain",
+          "instruction": "Listen to the sounds and write a sentence using the past continuous and the past simple, e.g. They were playing tennis when it started to rain",
+          "note": "SB 3c; звуки 2.13 без слов → Write на каждый звук с клипом; ИИ получает скрытое описание сцены (scene: классификатор звуков + whisper, на слух не проверено). Звук 1 — пример из книги",
           "audio": "2.13",
           "exercises": [
             {
               "n": 1,
               "type": "write",
-              "prompt": "Listen to the six sounds. For each one, write a sentence about what was happening and what happened, e.g. They were playing tennis when it started to rain.",
+              "prompt": "Sound 1: what were they doing, and what happened? Write one sentence.",
               "criteria": [
-                "writes several sentences (ideally one for each of the six sounds)",
-                "each sentence has a past continuous action (was / were + -ing) and a past simple action",
+                "one sentence with a past continuous action (was / were + -ing) and a past simple action",
                 "joins the two actions with when (or while) correctly",
                 "the longer background action is in the past continuous, the short one in the past simple"
-              ]
+              ],
+              "clip": [
+                4.9,
+                21.0
+              ],
+              "scene": "Two people are playing tennis: you hear the ball and the players. Then heavy rain starts and somebody says 'Oh no…'. (Book example: They were playing tennis when it started to rain.)"
+            },
+            {
+              "n": 2,
+              "type": "write",
+              "prompt": "Sound 2: what was happening, and what happened? Write one sentence.",
+              "criteria": [
+                "one sentence with a past continuous action (was / were + -ing) and a past simple action",
+                "joins the two actions with when (or while) correctly",
+                "the longer background action is in the past continuous, the short one in the past simple"
+              ],
+              "clip": [
+                23.5,
+                34.3
+              ],
+              "scene": "Somebody is driving a car with music on the radio. A mobile phone rings, the driver answers 'Hello?', and then there is a loud crash (a car accident)."
+            },
+            {
+              "n": 3,
+              "type": "write",
+              "prompt": "Sound 3: what was happening, and what happened? Write one sentence.",
+              "criteria": [
+                "one sentence with a past continuous action (was / were + -ing) and a past simple action",
+                "joins the two actions with when (or while) correctly",
+                "the longer background action is in the past continuous, the short one in the past simple"
+              ],
+              "clip": [
+                36.0,
+                50.3
+              ],
+              "scene": "A party: loud music, people talking and laughing. Then there is loud knocking on the door and a man shouts 'Police! Open the door!'."
+            },
+            {
+              "n": 4,
+              "type": "write",
+              "prompt": "Sound 4: what was happening, and what happened? Write one sentence.",
+              "criteria": [
+                "one sentence with a past continuous action (was / were + -ing) and a past simple action",
+                "joins the two actions with when (or while) correctly",
+                "the longer background action is in the past continuous, the short one in the past simple"
+              ],
+              "clip": [
+                52.3,
+                63.3
+              ],
+              "scene": "A man is singing in the shower, you hear the water. Then somebody knocks on the door."
+            },
+            {
+              "n": 5,
+              "type": "write",
+              "prompt": "Sound 5: what was happening, and what happened? Write one sentence.",
+              "criteria": [
+                "one sentence with a past continuous action (was / were + -ing) and a past simple action",
+                "joins the two actions with when (or while) correctly",
+                "the longer background action is in the past continuous, the short one in the past simple"
+              ],
+              "clip": [
+                65.8,
+                84.6
+              ],
+              "scene": "At night people are sleeping and snoring. A baby starts crying, a sleepy voice says 'You go, OK?', and the baby goes on crying."
+            },
+            {
+              "n": 6,
+              "type": "write",
+              "prompt": "Sound 6: what was happening, and what happened? Write one sentence.",
+              "criteria": [
+                "one sentence with a past continuous action (was / were + -ing) and a past simple action",
+                "joins the two actions with when (or while) correctly",
+                "the longer background action is in the past continuous, the short one in the past simple"
+              ],
+              "clip": [
+                86.8,
+                97.5
+              ],
+              "scene": "Somebody is walking a dog in the park: birds, the dog barks, 'Here boy, come on, here boy'. Then they meet an old friend: 'Oh hi! Oh hello, I haven't seen you for ages'."
             }
           ]
         },

@@ -1084,6 +1084,33 @@
           ]
         },
         {
+          "id": "1C-sb5b",
+          "origin": "SB",
+          "instruction": "Cover the sentences and look at the photo. Answer your partner's questions about where things are",
+          "note": "SB 5b (в парах: вопросы о фото ремейка The Milkmaid) → разговор с ИИ по фото; ИИ знает фото по скрытой подписи",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You and the student both look at the remake photo of Vermeer's The Milkmaid. First ask the student 4–5 questions about where things are in the photo, one at a time (Where's the man? Where are the eggs? What's under the bread? What's behind the man? Where's the flower?). React briefly and say if the answer is right. Then ask the student to ask you two questions about the photo and answer them with prepositions of place.",
+              "goal": "Look at the photo. Answer your classmate's questions about where the man and the things are, with prepositions of place. Then ask your classmate two questions.",
+              "opener": "OK, look at the photo. Where's the man?",
+              "criteria": [
+                "answers with prepositions of place correctly (in, on, under, behind, between, next to, above, in front of, in the corner, on the left of, in the middle of)",
+                "uses There is / There are and It's / They're in the answers",
+                "asks the classmate at least one Where is / Where are question"
+              ],
+              "pictures": [
+                {
+                  "label": "1",
+                  "image": "1c_sb_photo",
+                  "caption": "A remake photo of Vermeer's The Milkmaid. A young man is in a kitchen. He's wearing a yellow T-shirt and blue trousers and he has a blue towel on his shoulder. He's pouring milk from a bottle into a bowl. There's a table in front of him with a purple cloth. On the table there are some eggs, some bread and some strawberries. The bread is in the middle of the table, between the eggs and the strawberries. There's a board under the bread. Behind the man there's an old washing machine. There's a window on the left of the photo. In the corner of the room there's a sink and some cleaning products. The sink is next to the window. There's a red flower on the wall above the sink."
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "1C-wb1b",
           "origin": "WB",
           "instruction": "Match descriptions 1–10 to a–j. Write the word",
@@ -3279,6 +3306,38 @@
                 ]
               ],
               "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "1C-sb6a",
+          "origin": "SB",
+          "instruction": "Describe your painting and photo to your partner. Find the things that are the same and different",
+          "note": "SB 6a (Communication p.102/107: A — картина 1 и фото 2, B — фото 1 и картина 2) → разговор с ИИ: ученик — A (видит свои картинки), ИИ — B (его картинки описаны в ситуации); ИИ знает картинки ученика по скрытым подписям",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You are student B. You have two pictures and the student can't see them. Your picture 1 is a modern photo, a remake of Vermeer's Girl Reading a Letter at an Open Window: a young woman is standing in a darkroom and looking at some photos in her hands; there are photos hanging on a line; there's a small window at the top on the left; there's a machine for making photos (an enlarger) on the table; there's no curtain and no fruit. Your picture 2 is the painting The Poor Poet by Carl Spitzweg: an old man is in bed in an attic, under an open umbrella hanging from the ceiling; he's wearing a nightcap and he's holding a pen (a quill) in his mouth; there are old books on the floor and next to the bed; there's a cold stove; there's a towel on a line; there's a window on the right. First the student describes their picture 1 (the painting). Listen, ask one or two questions, then say what is the same and what is different in your photo 1. Then you describe your picture 2 (The Poor Poet) in 3–4 short sentences with There is / There are and the present continuous, and ask the student what is the same and what is different in their photo 2. Don't describe all of your picture at once.",
+              "goal": "You are student A. Describe your painting (picture 1) to your classmate and find what is the same and different in their photo. Then listen to your classmate's painting and say what is the same and different in your photo (picture 2).",
+              "opener": "Hi! Let's start with picture 1. Can you describe your painting?",
+              "criteria": [
+                "describes the picture with There is / There are and prepositions of place",
+                "uses the present continuous for what people are doing (She's reading…, She's lying…)",
+                "says what is the same and what is different (In my picture there's…, but in yours…)"
+              ],
+              "pictures": [
+                {
+                  "label": "1",
+                  "image": "1c_sb6a_1",
+                  "caption": "The painting Girl Reading a Letter at an Open Window by Johannes Vermeer. A young woman with fair hair is standing in a room and reading a letter. She's wearing a yellow and dark green dress. On the left there's an open window and you can see her face in the glass. There's a red curtain at the top of the window. On the right there's a big green curtain. In front of her there's a table with a red carpet on it and a bowl of fruit (apples and peaches)."
+                },
+                {
+                  "label": "2",
+                  "image": "1c_sb6a_2",
+                  "caption": "A modern photo, a remake of The Poor Poet. A young woman with glasses is lying in bed in an attic, under a green checked blanket. There's an open umbrella hanging from the ceiling above her. She's holding a pen in her hand. There's a laptop on the bed in front of her. There are some books next to the bed and a lot of magazines and CDs on the floor. There are some papers hanging on a line. On the right there's a wooden cupboard with a COFFEE mug on it, and a window."
+                }
+              ]
             }
           ]
         },

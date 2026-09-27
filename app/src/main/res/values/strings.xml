@@ -166,6 +166,7 @@
 
     <string name="talk_read_aloud">Read aloud</string>
     <string name="talk_stop_reading">Stop reading</string>
+    <string name="talk_picture">Picture %1$s</string>
 
     <string name="video_play">Play video</string>
     <string name="video_pause">Pause video</string>

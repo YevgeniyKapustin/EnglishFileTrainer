@@ -74,6 +74,7 @@ fun TalkInput(
 
     key(attempt) {
         Column(modifier, verticalArrangement = Arrangement.spacedBy(10.dp)) {
+            if (exercise.pictures.isNotEmpty()) TalkPictures(exercise.pictures)
             Text(exercise.goal, style = T.question.copy(fontSize = 19.sp, lineHeight = 28.sp))
             exercise.hint?.let { Text(it, style = T.hint) }
             TalkTranscript(ui, tts)

@@ -111,12 +111,15 @@ data class Order(                          // "Number the pictures 1–6": 1A-pe
 ) : Exercise
 
 // Э7.6 (см. Model.kt): Speak (сказать вслух; text из отдельных букв "A K E" — мягкая проверка букв),
-// Talk (разговор с ИИ) и Write — письменный ответ своими словами, проверяет ИИ:
+// Talk (разговор с ИИ; pictures — картинки из книги над разговором, caption видит только ИИ)
+// и Write — письменный ответ своими словами, проверяет ИИ:
 data class Write(
     override val id: String,
     val prompt: String,                   // задача ученику
     val questions: List<String> = emptyList(),  // на что отвечать, по порядку (вопросы 2c)
     val criteria: List<String>,           // по чему ИИ ставит зачёт
+    val scene: String? = null,            // скрытое описание клипа для ИИ (2B-sb3c: что слышно)
+    override val clip: Clip? = null,
     override val hint: String? = null,
     override val explain: String? = null,
 ) : Exercise

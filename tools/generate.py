@@ -20,8 +20,10 @@ KINDS = {"GRAMMAR", "VOCABULARY", "PRONUNCIATION", "SKILLS", "PRACTICAL_ENGLISH"
 ORIGINS = {"WB", "SB", "SB_GRAMMAR_BANK", "GENERATED"}
 SOURCES = {"KEY", "MODEL", "CONFIRMED"}
 AI_CHECKED_TYPES = ("talk", "write")
-CLIPPABLE_TYPES = ("blank", "rewrite", "speak")
+CLIPPABLE_TYPES = ("blank", "rewrite", "speak", "write")
 IMAGE_TYPES = ("blank", "rewrite")
+PICTURE_TYPES = ("talk", "order")
+TYPED_FIELDS = {"image": IMAGE_TYPES, "pictures": PICTURE_TYPES, "scene": ("write",)}
 PRESET_TYPES = ("blank", "rewrite")
 PRESET_SECTION_KINDS = ("GRAMMAR", "VOCABULARY")
 CLIP_BOUNDS_COUNT = 2
@@ -113,7 +115,7 @@ def check_clip(eid: str, task: Json, exercise: Json, report: Report) -> None:
         report.errors.append(f"{eid}: clip — нужен [начало, конец] в секундах")
         return
     if exercise["type"] not in CLIPPABLE_TYPES:
-        report.errors.append(f"{eid}: clip только у blank/rewrite/speak")
+        report.errors.append(f"{eid}: clip только у blank/rewrite/speak/write")
     if not (task.get("audio") or task.get("video")):
         report.errors.append(f"{eid}: clip без audio/video у задания")
         return
@@ -209,11 +211,21 @@ def speak_answers(eid: str, exercise: Json, report: Report) -> list[str | None]:
     return [exercise["text"], *answers]
 
 
+def picture_texts(eid: str, pictures: list[Json], report: Report) -> list[str | None]:
+    labels = [picture["label"] for picture in pictures]
+    if len(set(labels)) != len(labels):
+        report.errors.append(f"{eid}: метки картинок повторяются")
+    for picture in pictures:
+        check_image(eid, picture["image"], report)
+    return [*labels, *(picture["caption"] for picture in pictures)]
+
+
 def talk_answers(eid: str, exercise: Json, report: Report) -> list[str | None]:
     for field_name in ("situation", "goal", "opener"):
         if not exercise.get(field_name, "").strip():
             report.errors.append(f"{eid}: пустое поле {field_name}")
-    return exercise.get("criteria") or [None]
+    criteria: list[str | None] = exercise.get("criteria") or [None]
+    return criteria + picture_texts(eid, exercise.get("pictures", []), report)
 
 
 def write_answers(eid: str, exercise: Json, report: Report) -> list[str | None]:
@@ -221,16 +233,15 @@ def write_answers(eid: str, exercise: Json, report: Report) -> list[str | None]:
         report.errors.append(f"{eid}: пустое поле prompt")
     criteria: list[str | None] = exercise.get("criteria") or [None]
     questions: list[str] = exercise.get("questions", [])
-    return criteria + questions
+    scene: list[str | None] = [exercise["scene"]] if "scene" in exercise else []
+    return criteria + questions + scene
 
 
 def order_answers(eid: str, exercise: Json, report: Report) -> list[str | None]:
     labels = [picture["label"] for picture in exercise["pictures"]]
-    if len(set(labels)) != len(labels) or sorted(exercise["answer"]) != sorted(labels):
+    if sorted(exercise["answer"]) != sorted(labels):
         report.errors.append(f"{eid}: answer должен быть перестановкой меток картинок")
-    for picture in exercise["pictures"]:
-        check_image(eid, picture["image"], report)
-    return [*labels, *(picture["caption"] for picture in exercise["pictures"])] or [None]
+    return picture_texts(eid, exercise["pictures"], report) or [None]
 
 
 ANSWER_VALIDATORS: dict[str, Callable[[str, Json, Report], list[str | None]]] = {
@@ -250,9 +261,10 @@ def validate_exercise(task: Json, exercise: Json, report: Report) -> None:
         report.errors.append(f"{eid}: source {exercise['source']}")
     if "clip" in exercise:
         check_clip(eid, task, exercise, report)
+    for field_name, types in TYPED_FIELDS.items():
+        if field_name in exercise and exercise["type"] not in types:
+            report.errors.append(f"{eid}: {field_name} только у {'/'.join(types)}")
     if "image" in exercise:
-        if exercise["type"] not in IMAGE_TYPES:
-            report.errors.append(f"{eid}: image только у blank/rewrite")
         check_image(eid, exercise["image"], report)
     if "prefill" in exercise:
         report.errors.append(f"{eid}: prefill больше нет — исходное предложение в prompt")
@@ -388,13 +400,27 @@ def speak_arguments(exercise: Json) -> list[str]:
     return arguments
 
 
+def pictures_code(pictures: list[Json]) -> str:
+    return (
+        "listOf("
+        + ", ".join(
+            f"Picture({kotlin_string(p['label'])}, {kotlin_string(p['image'])}, {kotlin_string(p['caption'])})"
+            for p in pictures
+        )
+        + ")"
+    )
+
+
 def talk_arguments(exercise: Json) -> list[str]:
-    return [
+    arguments = [
         f"situation = {kotlin_string(exercise['situation'])}",
         f"goal = {kotlin_string(exercise['goal'])}",
         f"opener = {kotlin_string(exercise['opener'])}",
         f"criteria = {kotlin_strings(exercise['criteria'])}",
     ]
+    if exercise.get("pictures"):
+        arguments.append(f"pictures = {pictures_code(exercise['pictures'])}")
+    return arguments
 
 
 def write_arguments(exercise: Json) -> list[str]:
@@ -402,6 +428,8 @@ def write_arguments(exercise: Json) -> list[str]:
     if exercise.get("questions"):
         arguments.append(f"questions = {kotlin_strings(exercise['questions'])}")
     arguments.append(f"criteria = {kotlin_strings(exercise['criteria'])}")
+    if exercise.get("scene"):
+        arguments.append(f"scene = {kotlin_string(exercise['scene'])}")
     return arguments
 
 
@@ -413,11 +441,7 @@ def rewrite_arguments(exercise: Json) -> list[str]:
 
 
 def order_arguments(exercise: Json) -> list[str]:
-    pictures = ", ".join(
-        f"Picture({kotlin_string(p['label'])}, {kotlin_string(p['image'])}, {kotlin_string(p['caption'])})"
-        for p in exercise["pictures"]
-    )
-    return [f"pictures = listOf({pictures})", f"answer = {kotlin_strings(exercise['answer'])}"]
+    return [f"pictures = {pictures_code(exercise['pictures'])}", f"answer = {kotlin_strings(exercise['answer'])}"]
 
 
 CONSTRUCTORS: dict[str, tuple[str, Callable[[Json], list[str]]]] = {

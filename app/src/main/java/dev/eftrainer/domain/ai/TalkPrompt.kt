@@ -35,7 +35,8 @@ object TalkPrompt {
             - No markdown, no emojis, no lists. Plain text only. Do not write your name before the line.
             - When the student has done the task and the conversation has come to a natural end, say a short goodbye and add $END at the very end.
             """.trimIndent()
-        return listOf("system" to system, "user" to "(Start the conversation.)") +
+        val prompt = (listOf(system) + pictures(talk)).joinToString("\n")
+        return listOf("system" to prompt, "user" to "(Start the conversation.)") +
             lines.map { (if (it.student) "user" else "assistant") to it.text }
     }
 
@@ -81,6 +82,7 @@ object TalkPrompt {
                 appendLine("Student's task: ${talk.goal}")
                 appendLine("Criteria:")
                 talk.criteria.forEach { appendLine("- $it") }
+                pictures(talk).forEach(::appendLine)
                 if (rules.isNotBlank()) {
                     appendLine()
                     appendLine("Rules of this lesson:")
@@ -92,6 +94,14 @@ object TalkPrompt {
             }
         return listOf("system" to system, "user" to user.trimEnd())
     }
+
+    internal fun pictures(talk: Talk): List<String> =
+        if (talk.pictures.isEmpty()) {
+            emptyList()
+        } else {
+            listOf("The student can see these pictures from the book. You cannot see them; this is what is in them:") +
+                talk.pictures.map { "- Picture ${it.label}: ${it.caption}" }
+        }
 
     fun parseGrade(raw: String): Grade? {
         val start = raw.indexOf('{')

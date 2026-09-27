@@ -1,6 +1,7 @@
 package dev.eftrainer.domain.ai
 
 import dev.eftrainer.data.ai.AiException
+import dev.eftrainer.data.content.Picture
 import dev.eftrainer.data.content.Talk
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
@@ -85,6 +86,32 @@ class TalkPromptTest {
         assertTrue(user.second.contains("- uses do/does in questions"))
         assertTrue(user.second.contains("Student: Where you live?"))
         assertTrue(user.second.contains("Partner: Hi!"))
+    }
+
+    @Test fun `pictures reach the conversation and the grading as hidden captions`() {
+        val pictured =
+            talk.copy(
+                pictures =
+                    listOf(
+                        Picture("1", "p_one", "A man is pouring milk."),
+                        Picture("2", "p_two", "A woman is reading a letter."),
+                    ),
+            )
+        val system = TalkPrompt.conversation(pictured, emptyList())[0].second
+        val grading = TalkPrompt.grading(pictured, "", emptyList())[1].second
+        for (text in listOf(system, grading)) {
+            assertTrue(text, text.contains("- Picture 1: A man is pouring milk."))
+            assertTrue(text, text.contains("- Picture 2: A woman is reading a letter."))
+            assertFalse(text, text.contains("p_one"))
+        }
+    }
+
+    @Test fun `no pictures leave the prompts unchanged`() {
+        val system = TalkPrompt.conversation(talk, emptyList())[0].second
+        val grading = TalkPrompt.grading(talk, "", emptyList())[1].second
+        assertFalse(system.contains("Picture"))
+        assertFalse(grading.contains("Picture"))
+        assertTrue(system.endsWith("[END] at the very end."))
     }
 
     @Test fun `chat keeps context and follow-ups in order`() {

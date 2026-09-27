@@ -435,7 +435,7 @@
           "id": "2C-sb3d",
           "origin": "SB",
           "instruction": "Re-tell the story of Hannah and Jamie. Use connectors and the verb phrases in 3",
-          "note": "SB 3d (пересказ в парах по фото 1–6: A — Jamie, фото 1–3; B — Hannah, фото 4–6) → разговор с ИИ: ученик — Jamie, ИИ — Hannah. 3c (прослушать историю ещё раз) отдельным заданием не переносили — трек 2.16 уже в 2C-sb1b",
+          "note": "SB 3d (пересказ в парах по фото 1–6: A — Jamie, фото 1–3; B — Hannah, фото 4–6) → разговор с ИИ по фото 1–6 (ИИ знает их по скрытым подписям): ученик — Jamie, ИИ — Hannah. 3c (прослушать историю ещё раз) отдельным заданием не переносили — трек 2.16 уже в 2C-sb1b",
           "exercises": [
             {
               "n": 1,
@@ -448,6 +448,38 @@
                 "uses at least three time sequencers or connectors (The next day, When, so, because, although…)",
                 "uses at least three verb phrases from the lesson (play a song, wait for somebody, give somebody your phone number, invite somebody to dinner, have a great time…)",
                 "uses the past simple (and past continuous) correctly"
+              ],
+              "pictures": [
+                {
+                  "label": "1",
+                  "image": "2c_sb1_1",
+                  "caption": "In a club with red lights. Jamie, the DJ, is at the decks with headphones. Hannah, a young woman in a pink dress, is standing next to him and talking to him."
+                },
+                {
+                  "label": "2",
+                  "image": "2c_sb1_2",
+                  "caption": "Outside the club door, in green light. Hannah, in her pink dress, is with a friend. She is giving Jamie her phone number and he is typing it into his phone."
+                },
+                {
+                  "label": "3",
+                  "image": "2c_sb1_3",
+                  "caption": "A romantic French restaurant. Hannah, in a yellow cardigan, and Jamie, in a blue shirt, are sitting at a table and laughing. There is a cup of coffee on the table."
+                },
+                {
+                  "label": "4",
+                  "image": "2c_sb1_4",
+                  "caption": "A coffee bar. Jamie and Hannah, in a striped top, are sitting together, drinking coffee and smiling."
+                },
+                {
+                  "label": "5",
+                  "image": "2c_sb1_5",
+                  "caption": "At night, dark. Hannah, in a yellow raincoat, is standing next to her car."
+                },
+                {
+                  "label": "6",
+                  "image": "2c_sb1_6",
+                  "caption": "At night on a dark road with STOP painted on it. You can see the lights of a car. A man in a dark coat is crossing the road and looking at his phone."
+                }
               ]
             }
           ]

@@ -58,6 +58,7 @@ fun CurrentChapterScreen(
     onReview: () -> Unit,
     modifier: Modifier = Modifier,
     onSettings: () -> Unit = {},
+    onStats: () -> Unit = {},
     chapterId: String? = null,
     vm: CurrentChapterViewModel = currentChapterViewModel(chapterId),
 ) {
@@ -66,7 +67,9 @@ fun CurrentChapterScreen(
 
     Column(modifier.fillMaxSize()) {
         Column(Modifier.weight(1f).verticalScroll(rememberScrollState())) {
-            ChapterBand(state.chapter, onAllChapters, onSettings)
+            ChapterBand(state.chapter, onAllChapters, onSettings) {
+                if (!state.past) StreakChip(state.streak, onStats)
+            }
             ChapterSummary(state)
             Column(Modifier.padding(horizontal = 24.dp).padding(top = 28.dp)) {
                 state.sections.forEachIndexed { i, row ->
@@ -179,6 +182,7 @@ private fun ChapterBand(
     chapter: Chapter?,
     onAllChapters: () -> Unit,
     onSettings: () -> Unit,
+    content: @Composable () -> Unit,
 ) {
     WedgeBand(150.dp) {
         Row(
@@ -199,6 +203,7 @@ private fun ChapterBand(
                 Icon(Icons.ChevronRight, null, Modifier.size(18.dp), tint = BandInk)
             }
             Spacer(Modifier.weight(1f))
+            content()
             IconButton24(EfIcons.Gear, stringResource(R.string.settings), onSettings, tint = C.Muted)
         }
         if (chapter != null) {
@@ -232,6 +237,40 @@ private fun ChapterBand(
                 )
             }
         }
+    }
+}
+
+@Composable
+private fun StreakChip(
+    streak: Int,
+    onClick: () -> Unit,
+) {
+    Row(
+        Modifier
+            .heightIn(min = 44.dp)
+            .clip(RoundedCornerShape(8.dp))
+            .clickable(onClick = onClick)
+            .padding(horizontal = 10.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(4.dp),
+    ) {
+        Icon(
+            Icons.Flame,
+            stringResource(R.string.stats),
+            Modifier.size(20.dp),
+            tint =
+                if (streak >
+                    0
+                ) {
+                    EF.File2
+                } else {
+                    C.Off
+                },
+        )
+        Text(
+            streak.toString(),
+            style = T.label.copy(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = BandInk),
+        )
     }
 }
 

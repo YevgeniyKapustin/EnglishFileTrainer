@@ -95,6 +95,13 @@ object Icons {
                 strokeLineWidth = 2f,
                 strokeLineJoin = StrokeJoin.Round,
             ).build()
+    val Flame =
+        ImageVector
+            .Builder(defaultWidth = 24.dp, defaultHeight = 24.dp, viewportWidth = 24f, viewportHeight = 24f)
+            .addPath(
+                addPathNodes("M12 2c1 4 5 6 5 11a5 5 0 0 1-10 0c0-2 1-3.5 2-4.5 0 2 1 3 2 3 0-3-1-6 1-9.5z"),
+                fill = SolidColor(Color.Black),
+            ).build()
     val Key = svg("M4 15a4 4 0 1 0 8 0a4 4 0 1 0 -8 0zM10.8 12.2l8.2-8.2M16 7l3 3M14 9l2 2")
 
     private fun svg(

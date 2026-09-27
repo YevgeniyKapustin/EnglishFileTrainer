@@ -25,6 +25,29 @@
         <item quantity="other">%1$d exercises to review today</item>
     </plurals>
     <string name="ok">OK</string>
+    <string name="stats">Progress</string>
+    <plurals name="streak_days">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    <string name="in_a_row">in a row</string>
+    <string name="best_streak">best %1$d</string>
+    <string name="day_in_a_row">Day %1$d in a row</string>
+    <plurals name="week_days">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    <plurals name="week_answers">
+        <item quantity="one">%1$d answer</item>
+        <item quantity="other">%1$d answers</item>
+    </plurals>
+    <string name="week_minutes">%1$d min</string>
+    <string name="this_week">This week:</string>
+    <string name="weak_spots">Weak spots</string>
+    <plurals name="chapters_of">
+        <item quantity="one">%1$d of %2$d chapters</item>
+        <item quantity="other">%1$d of %2$d chapters</item>
+    </plurals>
     <string name="nothing_to_review">Nothing to review today</string>
     <string name="book_finished">You have finished the book</string>
     <string name="percent">%1$d%%</string>

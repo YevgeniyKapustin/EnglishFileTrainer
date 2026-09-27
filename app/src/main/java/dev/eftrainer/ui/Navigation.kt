@@ -17,6 +17,7 @@ import dev.eftrainer.ui.section.RulesScreen
 import dev.eftrainer.ui.section.SectionScreen
 import dev.eftrainer.ui.settings.SettingsScreen
 import dev.eftrainer.ui.settings.VoicePickerScreen
+import dev.eftrainer.ui.stats.StatsScreen
 import kotlinx.serialization.Serializable
 
 @Serializable object CurrentRoute
@@ -26,6 +27,8 @@ import kotlinx.serialization.Serializable
 @Serializable object SettingsRoute
 
 @Serializable object VoiceRoute
+
+@Serializable object StatsRoute
 
 @Serializable data class SectionRoute(
     val sectionId: String,
@@ -102,7 +105,11 @@ private fun NavGraphBuilder.chapterScreens(nav: NavHostController) {
             onSection = { nav.navigate(SectionRoute(it)) },
             onReview = { nav.navigate(SessionRoute()) },
             onSettings = { nav.navigate(SettingsRoute) },
+            onStats = { nav.navigate(StatsRoute) },
         )
+    }
+    composable<StatsRoute> {
+        StatsScreen(onBack = { nav.popBackStack() }, onSection = { nav.navigate(SectionRoute(it)) })
     }
     composable<ChaptersRoute> {
         AllChaptersScreen(

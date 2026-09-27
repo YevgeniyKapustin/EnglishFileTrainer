@@ -89,6 +89,7 @@ fun BackLink(
     text: String,
     onClick: () -> Unit,
     modifier: Modifier = Modifier,
+    tint: Color = C.Muted,
 ) {
     Row(
         modifier.height(56.dp).padding(horizontal = 12.dp),
@@ -104,8 +105,8 @@ fun BackLink(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(4.dp),
         ) {
-            Icon(Icons.ChevronLeft, null, Modifier.size(18.dp), tint = C.Muted)
-            Text(text, style = TextStyle(fontFamily = Golos, fontSize = 15.sp, color = C.Muted))
+            Icon(Icons.ChevronLeft, null, Modifier.size(18.dp), tint = tint)
+            Text(text, style = TextStyle(fontFamily = Golos, fontSize = 15.sp, color = tint))
         }
     }
 }

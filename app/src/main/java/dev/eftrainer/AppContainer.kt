@@ -4,6 +4,7 @@ import android.content.Context
 import androidx.work.ExistingWorkPolicy
 import dev.eftrainer.core.time.Clock
 import dev.eftrainer.core.time.SystemClock
+import dev.eftrainer.data.AnswerLog
 import dev.eftrainer.data.ChapterRepository
 import dev.eftrainer.data.ProgressRepository
 import dev.eftrainer.data.ai.AiClient
@@ -33,7 +34,8 @@ class AppContainer(
 
     val progress = ProgressRepository(db.progressDao())
     val chapters = ChapterRepository(db.chapterStateDao())
-    val learning = Learning(progress, chapters, clock)
+    val answers = AnswerLog(db.answerDao())
+    val learning = Learning(progress, chapters, clock, answers)
     val ai = AiSettings(context)
     val aiClient = AiClient(ai)
     val connectivity = Connectivity(context)

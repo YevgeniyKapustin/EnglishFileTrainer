@@ -5,8 +5,10 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -24,6 +26,7 @@ import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.ui.BandInk
 import dev.eftrainer.core.ui.BottomBar
 import dev.eftrainer.core.ui.Bubble
+import dev.eftrainer.core.ui.Icons
 import dev.eftrainer.core.ui.ListRow
 import dev.eftrainer.core.ui.PrimaryButton
 import dev.eftrainer.core.ui.ProgressBar
@@ -40,6 +43,7 @@ internal fun DoneScreen(
         Column(Modifier.weight(1f).verticalScroll(rememberScrollState())) {
             DoneBand(d)
             Column(Modifier.padding(horizontal = 24.dp)) {
+                if (d.streak > 0) StreakLine(d.streak)
                 if (d.chapterId != null) ChapterProgress(d, d.chapterId)
                 if (d.mistakes.isNotEmpty()) Mistakes(d.mistakes)
             }
@@ -70,6 +74,18 @@ private fun DoneBand(d: SessionUi.Done) {
             )
             Text(stringResource(R.string.ef_right_first_time), style = bubbleText)
         }
+    }
+}
+
+@Composable
+private fun StreakLine(streak: Int) {
+    Row(
+        Modifier.padding(top = 20.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(6.dp),
+    ) {
+        Icon(Icons.Flame, null, Modifier.size(18.dp), tint = EF.File2)
+        Text(stringResource(R.string.day_in_a_row, streak), style = T.body.copy(fontSize = 15.sp))
     }
 }
 

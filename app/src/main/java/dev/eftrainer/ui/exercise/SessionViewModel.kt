@@ -23,6 +23,7 @@ import dev.eftrainer.domain.check.Checker
 import dev.eftrainer.domain.learning.ChapterCompletion
 import dev.eftrainer.domain.learning.GenerationPlan
 import dev.eftrainer.domain.learning.Mastery
+import dev.eftrainer.domain.learning.Stats
 import dev.eftrainer.domain.learning.TrainingQueue
 import dev.eftrainer.ui.toPercent
 import kotlinx.coroutines.Job
@@ -77,6 +78,7 @@ sealed interface SessionUi {
         val before: Int,
         val after: Int,
         val mistakes: List<String>,
+        val streak: Int,
     ) : SessionUi
 
     data class ChapterDone(
@@ -311,6 +313,7 @@ class SessionViewModel(
                     before = before,
                     after = chapter?.let { Mastery.share(it.exercises, progress) }?.toPercent() ?: 0,
                     mistakes = wrong.map { it.expected() },
+                    streak = Stats.streak(container.answers.days.first(), container.clock.today()).current,
                 )
         }
     }

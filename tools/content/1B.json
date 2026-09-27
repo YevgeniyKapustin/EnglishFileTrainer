@@ -8,6 +8,1307 @@
   "sources": "SB p.8–9 (PDF 9–10), Grammar Bank p.126–127 (PDF 127–128), Vocabulary Bank p.150 (PDF 151), Communication p.102/108 (PDF 103/109), Writing p.113 (PDF 114), scripts p.120 (PDF 121); WB p.6–7 (PDF 5–6), p.11 (PDF 10), key WB p.88 (PDF 87)",
   "sections": [
     {
+      "id": "1B-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "describing people: appearance and personality",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Appearance: What does he / she look like?",
+          "headers": [
+            "",
+            "Example"
+          ],
+          "rows": [
+            [
+              "eyes",
+              "She has big blue eyes."
+            ],
+            [
+              "hair",
+              "She has curly red hair. She has long straight hair. She has short blonde hair."
+            ],
+            [
+              "no hair",
+              "He’s bald."
+            ],
+            [
+              "face",
+              "He has a beard and a moustache."
+            ],
+            [
+              "height and build",
+              "He’s very tall and thin. He’s medium height and very slim. He’s quite short and a bit overweight."
+            ]
+          ],
+          "audio": "1.13"
+        },
+        {
+          "type": "note",
+          "title": "Using two adjectives together",
+          "text": "Adjectives go in this order: size → style → colour + noun. She has long straight blonde hair. He has big brown eyes."
+        },
+        {
+          "type": "note",
+          "title": "thin or slim? fat or overweight?",
+          "text": "Thin and slim are both the opposite of fat, but slim = thin in an attractive way. Fat is not very polite. It is more polite to say someone is (a bit) overweight."
+        },
+        {
+          "type": "note",
+          "title": "handsome or beautiful?",
+          "text": "Handsome is used for men, beautiful for women; good-looking and attractive are used for both men and women."
+        },
+        {
+          "type": "table",
+          "title": "Personality: What’s he / she like?",
+          "headers": [
+            "Adjective",
+            "Opposite",
+            "A person who…"
+          ],
+          "rows": [
+            [
+              "friendly",
+              "unfriendly",
+              "is open and warm"
+            ],
+            [
+              "talkative",
+              "quiet",
+              "talks a lot"
+            ],
+            [
+              "generous",
+              "mean",
+              "likes giving people things"
+            ],
+            [
+              "kind",
+              "unkind",
+              "is friendly and good to other people"
+            ],
+            [
+              "lazy",
+              "hard-working",
+              "doesn’t want to work"
+            ],
+            [
+              "funny",
+              "serious",
+              "makes people laugh"
+            ],
+            [
+              "clever",
+              "stupid",
+              "is quick at learning and understanding things"
+            ],
+            [
+              "shy",
+              "extrovert",
+              "can’t talk easily to people he / she doesn’t know"
+            ]
+          ],
+          "audio": "1.14"
+        },
+        {
+          "type": "note",
+          "title": "What does she look like? What is she like?",
+          "text": "What does she look like? = Tell me about her appearance (Is she tall / short? What colour hair does she have?). What is she like? = Tell me what kind of person she is (Is she friendly? Is she shy?)."
+        },
+        {
+          "type": "mistake",
+          "wrong": "She has blonde long hair.",
+          "right": "She has long blonde hair.",
+          "why": "size → style → colour."
+        },
+        {
+          "type": "mistake",
+          "wrong": "What is your sister look like?",
+          "right": "What does your sister look like?",
+          "why": "look like is a verb: the question needs does."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "1B-sb1a",
+          "origin": "SB",
+          "instruction": "Listen to three women describing their fathers. Which one is Charlotte, the woman with her father in the photos?",
+          "note": "SB 1a; скрипт 1.11 в книге не напечатан — ответ по расшифровке аудио. Фото → описание",
+          "audio": "1.11",
+          "context": "Photos: Charlotte, a young woman with a short dark bob, with her father Clint – a man in a black suit and bow tie, not very tall, with short grey hair and a big smile.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Charlotte is speaker {}.",
+              "gaps": [
+                [
+                  "2",
+                  "two"
+                ]
+              ],
+              "hint": "(1, 2 or 3)",
+              "explain": "Speaker 2: ‘He’s not very tall… It was dark, but it’s grey now… he’s got a lovely smile.’ Speaker 1’s dad is very tall and thin with blonde hair; speaker 3’s dad is short and thin and wears glasses.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "1B-sb1b",
+          "origin": "SB",
+          "instruction": "Listen to Charlotte again. What adjectives does she use to describe her father’s height, hair, weight, and smile?",
+          "note": "SB 1b; ответы по расшифровке аудио 1.12 (скрипта в книге нет)",
+          "audio": "1.12",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Height: He’s not very {}.",
+              "gaps": [
+                [
+                  "tall"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Hair: It was {}, but it’s {} now.",
+              "gaps": [
+                [
+                  "dark"
+                ],
+                [
+                  "grey",
+                  "gray"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Weight: He’s not {}, but he isn’t {}.",
+              "gaps": [
+                [
+                  "thin"
+                ],
+                [
+                  "overweight"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Smile: He’s got a {} smile.",
+              "gaps": [
+                [
+                  "lovely"
+                ]
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "1B-vb1a",
+          "origin": "SB",
+          "instruction": "Match the sentences and the photos. Complete the sentences. Then listen and check",
+          "note": "VB Describing people 1a+1b; фото из VB p.150 (tools/images.py) у пункта в image, пропуск — ключевое слово. 1 She has big blue eyes (малыш) — пример. Ответы по аудио 1.13",
+          "audio": "1.13",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "She has {} red hair.",
+              "image": "1b_vb1a_2",
+              "gaps": [
+                [
+                  "curly"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                15.63,
+                18.1
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "She has long {} hair.",
+              "image": "1b_vb1a_3",
+              "gaps": [
+                [
+                  "straight"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                21.23,
+                23.84
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "He’s {}.",
+              "image": "1b_vb1a_4",
+              "gaps": [
+                [
+                  "bald"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                44.61,
+                46.06
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "He has a {} and a {}.",
+              "image": "1b_vb1a_5",
+              "gaps": [
+                [
+                  "beard"
+                ],
+                [
+                  "moustache",
+                  "mustache"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                38.52,
+                41.41
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "She has short {} hair.",
+              "image": "1b_vb1a_6",
+              "gaps": [
+                [
+                  "blonde",
+                  "blond"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                32.77,
+                35.24
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "He’s very tall and {}.",
+              "image": "1b_vb1a_7",
+              "gaps": [
+                [
+                  "thin"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                49.32,
+                51.7
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "He’s quite short and a bit {}.",
+              "image": "1b_vb1a_8",
+              "gaps": [
+                [
+                  "overweight"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                60.94,
+                64.25
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "He’s {} height and very slim.",
+              "image": "1b_vb1a_9",
+              "gaps": [
+                [
+                  "medium"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                54.94,
+                57.97
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1B-vb1c",
+          "origin": "SB",
+          "instruction": "Test yourself: say the sentences",
+          "note": "VB 1c «Cover the phrases and look at the photos. Test yourself» → Speak; фото нет, поэтому говорим фразы",
+          "audio": "1.13",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "She has big blue eyes.",
+              "clip": [
+                26.89,
+                29.58
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "She has curly red hair.",
+              "clip": [
+                15.63,
+                18.1
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "She has long straight hair.",
+              "clip": [
+                21.23,
+                23.84
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "He’s bald.",
+              "answers": [
+                "He’s bald.",
+                "He is bald."
+              ],
+              "clip": [
+                44.61,
+                46.06
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "He has a beard and a moustache.",
+              "clip": [
+                38.52,
+                41.41
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "She has short blonde hair.",
+              "clip": [
+                32.77,
+                35.24
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "He’s very tall and thin.",
+              "answers": [
+                "He’s very tall and thin.",
+                "He is very tall and thin."
+              ],
+              "clip": [
+                49.32,
+                51.7
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "He’s quite short and a bit overweight.",
+              "answers": [
+                "He’s quite short and a bit overweight.",
+                "He is quite short and a bit overweight."
+              ],
+              "clip": [
+                60.94,
+                64.25
+              ]
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "He’s medium height and very slim.",
+              "answers": [
+                "He’s medium height and very slim.",
+                "He is medium height and very slim."
+              ],
+              "clip": [
+                54.94,
+                57.97
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1B-vb2a",
+          "origin": "SB",
+          "instruction": "Complete the definitions with an adjective from the list",
+          "note": "VB 2a «Match the adjectives to the definitions» → Blank; 1 friendly — пример. Проверено по аудио 1.14",
+          "words": [
+            "clever",
+            "friendly",
+            "funny",
+            "generous",
+            "kind",
+            "lazy",
+            "shy",
+            "talkative"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "A person who talks a lot is {}.",
+              "gaps": [
+                [
+                  "talkative"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "A person who likes giving people things is {}.",
+              "gaps": [
+                [
+                  "generous"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "A person who is friendly and good to other people is {}.",
+              "gaps": [
+                [
+                  "kind"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "A person who doesn’t want to work is {}.",
+              "gaps": [
+                [
+                  "lazy"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "A person who makes people laugh is {}.",
+              "gaps": [
+                [
+                  "funny"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "A person who is quick at learning and understanding things is {}.",
+              "gaps": [
+                [
+                  "clever"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "A person who can’t talk easily to people he / she doesn’t know is {}.",
+              "gaps": [
+                [
+                  "shy"
+                ]
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "1B-vb2b",
+          "origin": "SB",
+          "instruction": "Write the opposite of the adjective. Then listen and check",
+          "note": "VB 2b + 2c (Listen and check); ответы по аудио 1.14",
+          "audio": "1.14",
+          "words": [
+            "extrovert",
+            "hard-working",
+            "mean",
+            "quiet",
+            "serious",
+            "stupid",
+            "unfriendly",
+            "unkind"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "friendly ≠ {}",
+              "gaps": [
+                [
+                  "unfriendly"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                6.47,
+                10.49
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "talkative ≠ {}",
+              "gaps": [
+                [
+                  "quiet"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                14.35,
+                18.16
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "generous ≠ {}",
+              "gaps": [
+                [
+                  "mean"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                21.78,
+                25.11
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "kind ≠ {}",
+              "gaps": [
+                [
+                  "unkind"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                28.88,
+                32.77
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "lazy ≠ {}",
+              "gaps": [
+                [
+                  "hard-working",
+                  "hardworking"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                36.66,
+                40.5
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "funny ≠ {}",
+              "gaps": [
+                [
+                  "serious"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                44.3,
+                47.7
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "clever ≠ {}",
+              "gaps": [
+                [
+                  "stupid"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                51.55,
+                54.72
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "shy ≠ {}",
+              "gaps": [
+                [
+                  "extrovert"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                58.69,
+                62.34
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1B-vb2d",
+          "origin": "SB",
+          "instruction": "Say the adjective and its opposite",
+          "note": "VB 2d «Cover the adjectives and look at the definitions. Say the adjective and its opposite» → Speak пар",
+          "audio": "1.14",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "friendly, unfriendly",
+              "clip": [
+                6.47,
+                10.49
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "talkative, quiet",
+              "clip": [
+                14.35,
+                18.16
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "generous, mean",
+              "clip": [
+                21.78,
+                25.11
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "kind, unkind",
+              "clip": [
+                28.88,
+                32.77
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "lazy, hard-working",
+              "answers": [
+                "lazy, hard-working",
+                "lazy, hardworking"
+              ],
+              "clip": [
+                36.66,
+                40.5
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "funny, serious",
+              "clip": [
+                44.3,
+                47.7
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "clever, stupid",
+              "clip": [
+                51.55,
+                54.72
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "shy, extrovert",
+              "clip": [
+                58.69,
+                62.34
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1B-vbact",
+          "origin": "SB",
+          "instruction": "Ask and answer questions about a member of your family or a good friend",
+          "note": "VB ACTIVATION → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You and the student talk about members of your families or good friends. Your person: your sister Marta, 29 – quite tall and slim, with short dark curly hair and brown eyes; she is talkative, generous and very funny, but a bit lazy at home. First answer the student’s questions about Marta: What does she look like? (appearance) and What’s she like? (personality). Give short, natural answers with the vocabulary of the lesson (tall, short, medium height, slim, thin, a bit overweight, long / short, straight / curly, dark / blonde / red hair, beard, moustache, bald; friendly, talkative, quiet, generous, mean, kind, lazy, hard-working, funny, serious, clever, shy, extrovert). If the student mixes up the questions (e.g. asks What is she like? but means appearance), answer the question they actually asked, so they notice. Then ask about their person: Who are you going to tell me about? What does he / she look like? What’s he / she like? Ask one follow-up question. If the student says fat, say gently that a bit overweight is more polite.",
+              "goal": "Ask your classmate about a member of their family or a good friend (What does … look like? What’s … like?). Then describe a person you know: appearance and personality.",
+              "opener": "Hi! Let’s talk about our families. I’m going to tell you about my sister Marta. What do you want to know?",
+              "criteria": [
+                "asks both What does she look like? and What’s she like? correctly",
+                "describes their own person’s appearance with at least 3 words from the lesson (e.g. tall, slim, curly dark hair)",
+                "describes personality with at least 3 adjectives from the lesson",
+                "uses two adjectives in the right order (size → style → colour: long straight hair)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1B-wb1a",
+          "origin": "WB",
+          "instruction": "Which word can’t be used with the noun? Write it",
+          "note": "WB 1a «Cross out the word that can’t be used» → Blank на лишнее слово; 1 hair: tall — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "eyes: blonde, big, blue, brown → {}",
+              "gaps": [
+                [
+                  "blonde",
+                  "blond"
+                ]
+              ],
+              "explain": "blonde is for hair, not eyes."
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "man: thin, short, long, overweight → {}",
+              "gaps": [
+                [
+                  "long"
+                ]
+              ],
+              "explain": "long is for hair: a long-haired man, not a long man."
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "woman: medium height, slim, beautiful, bald → {}",
+              "gaps": [
+                [
+                  "bald"
+                ]
+              ],
+              "explain": "bald is possible, but it’s not usual for a woman — the key says bald."
+            }
+          ]
+        },
+        {
+          "id": "1B-wb1b",
+          "origin": "WB",
+          "instruction": "Order the letters to make adjectives",
+          "note": "WB 1b; 1 generous — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Sarah’s really {}. She makes me laugh.",
+              "gaps": [
+                [
+                  "funny"
+                ]
+              ],
+              "hint": "(nynfu)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Sam’s very {}. Everybody likes him.",
+              "gaps": [
+                [
+                  "friendly"
+                ]
+              ],
+              "hint": "(rdfylnei)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "John never does his homework. He’s very {}.",
+              "gaps": [
+                [
+                  "lazy"
+                ]
+              ],
+              "hint": "(alzy)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Imogen is a {} girl. She’ll do well in her exams.",
+              "gaps": [
+                [
+                  "clever"
+                ]
+              ],
+              "hint": "(eervlc)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "That was a very {} thing to say.",
+              "gaps": [
+                [
+                  "unkind"
+                ]
+              ],
+              "hint": "(dinukn)"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "David is quite intelligent, but sometimes he says really {} things.",
+              "gaps": [
+                [
+                  "stupid"
+                ]
+              ],
+              "hint": "(updits)"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Paula is really {} – she doesn’t like meeting new people.",
+              "gaps": [
+                [
+                  "shy"
+                ]
+              ],
+              "hint": "(hsy)"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Laura’s usually very {} – she doesn’t talk very much.",
+              "gaps": [
+                [
+                  "quiet"
+                ]
+              ],
+              "hint": "(iuetq)"
+            }
+          ]
+        },
+        {
+          "id": "1B-wb1c",
+          "origin": "WB",
+          "instruction": "Complete the sentences",
+          "note": "WB 1c; 1 brown / blue — пример. Подсказки с первой буквой (b…) убраны",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Tanya’s dad doesn’t have any hair. He’s {}.",
+              "gaps": [
+                [
+                  "bald"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Jamie’s new girlfriend is really {} – she loves meeting new people.",
+              "gaps": [
+                [
+                  "extrovert"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "My dad never shaves. He has a {} and a {}.",
+              "gaps": [
+                [
+                  "beard"
+                ],
+                [
+                  "moustache",
+                  "mustache"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "What does your sister look {}? Is she tall and blonde, too?",
+              "gaps": [
+                [
+                  "like"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "When Jake was young, he was very {}, but now he’s a bit {}.",
+              "gaps": [
+                [
+                  "thin"
+                ],
+                [
+                  "overweight"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "My dad is really {} – he starts work at 7.00 and gets home at 6.00.",
+              "gaps": [
+                [
+                  "hard-working",
+                  "hardworking"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I’m not {} my sister. I don’t say much, but she’s very {} – in fact she never stops talking.",
+              "gaps": [
+                [
+                  "like"
+                ],
+                [
+                  "talkative"
+                ]
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "George is a very {} student – he works hard and wants to do well.",
+              "gaps": [
+                [
+                  "serious"
+                ]
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "Dan is really {} – he never pays for anything.",
+              "gaps": [
+                [
+                  "mean"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1B-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the descriptions.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "My grandfather lost all his hair when he was 40. Now he’s completely {}.",
+              "gaps": [
+                [
+                  "bald"
+                ]
+              ],
+              "explain": "bald = with no hair.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "She has long {} hair – there isn’t a single curl in it.",
+              "gaps": [
+                [
+                  "straight"
+                ]
+              ],
+              "explain": "straight ≠ curly.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "He doesn’t shave his chin, so he has a long {}.",
+              "gaps": [
+                [
+                  "beard"
+                ]
+              ],
+              "explain": "a beard grows on your chin; a moustache is above your lip.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "My brother isn’t tall or short. He’s {} height.",
+              "gaps": [
+                [
+                  "medium"
+                ]
+              ],
+              "explain": "medium height = not tall and not short.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "She has {} hair, the colour of gold.",
+              "gaps": [
+                [
+                  "blonde",
+                  "blond",
+                  "fair"
+                ]
+              ],
+              "explain": "blonde = light yellow hair.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "He eats a lot of burgers, and now he’s a bit {}.",
+              "gaps": [
+                [
+                  "overweight"
+                ]
+              ],
+              "explain": "a bit overweight is more polite than fat.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "She’s tall and {} – she looks like a model.",
+              "gaps": [
+                [
+                  "slim"
+                ]
+              ],
+              "explain": "slim = thin in an attractive way.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1B-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with a personality adjective.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "My boss never says hello or smiles. He’s very {}.",
+              "gaps": [
+                [
+                  "unfriendly"
+                ]
+              ],
+              "explain": "unfriendly ≠ friendly (open and warm).",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Our neighbour often brings us cakes and little presents. She’s very {}.",
+              "gaps": [
+                [
+                  "generous",
+                  "kind"
+                ]
+              ],
+              "explain": "generous = likes giving people things.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "He goes to every party and loves meeting new people. He’s very {}.",
+              "gaps": [
+                [
+                  "extrovert",
+                  "friendly"
+                ]
+              ],
+              "explain": "extrovert ≠ shy.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "My little brother stays in bed until 12 and never helps at home. He’s so {}!",
+              "gaps": [
+                [
+                  "lazy"
+                ]
+              ],
+              "explain": "lazy = doesn’t want to work.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Ben tells great jokes. He’s really {}.",
+              "gaps": [
+                [
+                  "funny"
+                ]
+              ],
+              "explain": "funny = makes people laugh. fun = good to be with.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "She works ten hours a day and never complains. She’s very {}.",
+              "gaps": [
+                [
+                  "hard-working",
+                  "hardworking"
+                ]
+              ],
+              "explain": "hard-working ≠ lazy.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "He never says a word in class. He’s very {}.",
+              "gaps": [
+                [
+                  "quiet",
+                  "shy"
+                ]
+              ],
+              "explain": "quiet ≠ talkative.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1B-vocabulary-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes. If a sentence is correct, leave it as it is.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "He has black short hair.",
+              "answers": [
+                "He has short black hair."
+              ],
+              "explain": "size → colour: short black hair.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "What is your brother look like?",
+              "answers": [
+                "What does your brother look like?"
+              ],
+              "explain": "What does he look like? = appearance.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "He has eyes blue.",
+              "answers": [
+                "He has blue eyes."
+              ],
+              "explain": "The adjective goes before the noun: blue eyes.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "She’s a very handsome woman.",
+              "answers": [
+                "She’s a very beautiful woman.",
+                "She’s a very good-looking woman.",
+                "She’s a very attractive woman."
+              ],
+              "explain": "handsome is for men; for women use beautiful.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "My uncle has a moustache but no beard.",
+              "answers": [
+                "My uncle has a moustache but no beard."
+              ],
+              "explain": "Correct: a moustache is above your lip, a beard is on your chin.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "What’s your sister like? She’s very kind.",
+              "answers": [
+                "What’s your sister like? She’s very kind."
+              ],
+              "explain": "Correct: What’s she like? = personality.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "1B-grammar",
       "kind": "GRAMMAR",
       "title": "present simple",
@@ -1104,1208 +2405,6 @@
       ]
     },
     {
-      "id": "1B-vocabulary",
-      "kind": "VOCABULARY",
-      "title": "describing people: appearance and personality",
-      "reference": [
-        {
-          "type": "table",
-          "title": "Appearance: What does he / she look like?",
-          "headers": [
-            "",
-            "Example"
-          ],
-          "rows": [
-            [
-              "eyes",
-              "She has big blue eyes."
-            ],
-            [
-              "hair",
-              "She has curly red hair. She has long straight hair. She has short blonde hair."
-            ],
-            [
-              "no hair",
-              "He’s bald."
-            ],
-            [
-              "face",
-              "He has a beard and a moustache."
-            ],
-            [
-              "height and build",
-              "He’s very tall and thin. He’s medium height and very slim. He’s quite short and a bit overweight."
-            ]
-          ],
-          "audio": "1.13"
-        },
-        {
-          "type": "note",
-          "title": "Using two adjectives together",
-          "text": "Adjectives go in this order: size → style → colour + noun. She has long straight blonde hair. He has big brown eyes."
-        },
-        {
-          "type": "note",
-          "title": "thin or slim? fat or overweight?",
-          "text": "Thin and slim are both the opposite of fat, but slim = thin in an attractive way. Fat is not very polite. It is more polite to say someone is (a bit) overweight."
-        },
-        {
-          "type": "note",
-          "title": "handsome or beautiful?",
-          "text": "Handsome is used for men, beautiful for women; good-looking and attractive are used for both men and women."
-        },
-        {
-          "type": "table",
-          "title": "Personality: What’s he / she like?",
-          "headers": [
-            "Adjective",
-            "Opposite",
-            "A person who…"
-          ],
-          "rows": [
-            [
-              "friendly",
-              "unfriendly",
-              "is open and warm"
-            ],
-            [
-              "talkative",
-              "quiet",
-              "talks a lot"
-            ],
-            [
-              "generous",
-              "mean",
-              "likes giving people things"
-            ],
-            [
-              "kind",
-              "unkind",
-              "is friendly and good to other people"
-            ],
-            [
-              "lazy",
-              "hard-working",
-              "doesn’t want to work"
-            ],
-            [
-              "funny",
-              "serious",
-              "makes people laugh"
-            ],
-            [
-              "clever",
-              "stupid",
-              "is quick at learning and understanding things"
-            ],
-            [
-              "shy",
-              "extrovert",
-              "can’t talk easily to people he / she doesn’t know"
-            ]
-          ],
-          "audio": "1.14"
-        },
-        {
-          "type": "note",
-          "title": "What does she look like? What is she like?",
-          "text": "What does she look like? = Tell me about her appearance (Is she tall / short? What colour hair does she have?). What is she like? = Tell me what kind of person she is (Is she friendly? Is she shy?)."
-        },
-        {
-          "type": "mistake",
-          "wrong": "She has blonde long hair.",
-          "right": "She has long blonde hair.",
-          "why": "size → style → colour."
-        },
-        {
-          "type": "mistake",
-          "wrong": "What is your sister look like?",
-          "right": "What does your sister look like?",
-          "why": "look like is a verb: the question needs does."
-        }
-      ],
-      "tasks": [
-        {
-          "id": "1B-sb1a",
-          "origin": "SB",
-          "instruction": "Listen to three women describing their fathers. Which one is Charlotte, the woman with her father in the photos?",
-          "note": "SB 1a; скрипт 1.11 в книге не напечатан — ответ по расшифровке аудио. Фото → описание",
-          "audio": "1.11",
-          "context": "Photos: Charlotte, a young woman with a short dark bob, with her father Clint – a man in a black suit and bow tie, not very tall, with short grey hair and a big smile.",
-          "exercises": [
-            {
-              "n": 1,
-              "type": "blank",
-              "text": "Charlotte is speaker {}.",
-              "gaps": [
-                [
-                  "2",
-                  "two"
-                ]
-              ],
-              "hint": "(1, 2 or 3)",
-              "explain": "Speaker 2: ‘He’s not very tall… It was dark, but it’s grey now… he’s got a lovely smile.’ Speaker 1’s dad is very tall and thin with blonde hair; speaker 3’s dad is short and thin and wears glasses.",
-              "source": "CONFIRMED"
-            }
-          ]
-        },
-        {
-          "id": "1B-sb1b",
-          "origin": "SB",
-          "instruction": "Listen to Charlotte again. What adjectives does she use to describe her father’s height, hair, weight, and smile?",
-          "note": "SB 1b; ответы по расшифровке аудио 1.12 (скрипта в книге нет)",
-          "audio": "1.12",
-          "exercises": [
-            {
-              "n": 1,
-              "type": "blank",
-              "text": "Height: He’s not very {}.",
-              "gaps": [
-                [
-                  "tall"
-                ]
-              ],
-              "source": "CONFIRMED"
-            },
-            {
-              "n": 2,
-              "type": "blank",
-              "text": "Hair: It was {}, but it’s {} now.",
-              "gaps": [
-                [
-                  "dark"
-                ],
-                [
-                  "grey",
-                  "gray"
-                ]
-              ],
-              "source": "CONFIRMED"
-            },
-            {
-              "n": 3,
-              "type": "blank",
-              "text": "Weight: He’s not {}, but he isn’t {}.",
-              "gaps": [
-                [
-                  "thin"
-                ],
-                [
-                  "overweight"
-                ]
-              ],
-              "source": "CONFIRMED"
-            },
-            {
-              "n": 4,
-              "type": "blank",
-              "text": "Smile: He’s got a {} smile.",
-              "gaps": [
-                [
-                  "lovely"
-                ]
-              ],
-              "source": "CONFIRMED"
-            }
-          ]
-        },
-        {
-          "id": "1B-vb1a",
-          "origin": "SB",
-          "instruction": "Match the sentences and the photos. Complete the sentences. Then listen and check",
-          "note": "VB Describing people 1a+1b; фото из VB p.150 (tools/images.py) у пункта в image, пропуск — ключевое слово. 1 She has big blue eyes (малыш) — пример. Ответы по аудио 1.13",
-          "audio": "1.13",
-          "exercises": [
-            {
-              "n": 2,
-              "type": "blank",
-              "text": "She has {} red hair.",
-              "image": "1b_vb1a_2",
-              "gaps": [
-                [
-                  "curly"
-                ]
-              ],
-              "source": "CONFIRMED",
-              "clip": [15.63, 18.1]
-            },
-            {
-              "n": 3,
-              "type": "blank",
-              "text": "She has long {} hair.",
-              "image": "1b_vb1a_3",
-              "gaps": [
-                [
-                  "straight"
-                ]
-              ],
-              "source": "CONFIRMED",
-              "clip": [21.23, 23.84]
-            },
-            {
-              "n": 4,
-              "type": "blank",
-              "text": "He’s {}.",
-              "image": "1b_vb1a_4",
-              "gaps": [
-                [
-                  "bald"
-                ]
-              ],
-              "source": "CONFIRMED",
-              "clip": [44.61, 46.06]
-            },
-            {
-              "n": 5,
-              "type": "blank",
-              "text": "He has a {} and a {}.",
-              "image": "1b_vb1a_5",
-              "gaps": [
-                [
-                  "beard"
-                ],
-                [
-                  "moustache",
-                  "mustache"
-                ]
-              ],
-              "source": "CONFIRMED",
-              "clip": [38.52, 41.41]
-            },
-            {
-              "n": 6,
-              "type": "blank",
-              "text": "She has short {} hair.",
-              "image": "1b_vb1a_6",
-              "gaps": [
-                [
-                  "blonde",
-                  "blond"
-                ]
-              ],
-              "source": "CONFIRMED",
-              "clip": [32.77, 35.24]
-            },
-            {
-              "n": 7,
-              "type": "blank",
-              "text": "He’s very tall and {}.",
-              "image": "1b_vb1a_7",
-              "gaps": [
-                [
-                  "thin"
-                ]
-              ],
-              "source": "CONFIRMED",
-              "clip": [49.32, 51.7]
-            },
-            {
-              "n": 8,
-              "type": "blank",
-              "text": "He’s quite short and a bit {}.",
-              "image": "1b_vb1a_8",
-              "gaps": [
-                [
-                  "overweight"
-                ]
-              ],
-              "source": "CONFIRMED",
-              "clip": [60.94, 64.25]
-            },
-            {
-              "n": 9,
-              "type": "blank",
-              "text": "He’s {} height and very slim.",
-              "image": "1b_vb1a_9",
-              "gaps": [
-                [
-                  "medium"
-                ]
-              ],
-              "source": "CONFIRMED",
-              "clip": [54.94, 57.97]
-            }
-          ]
-        },
-        {
-          "id": "1B-vb1c",
-          "origin": "SB",
-          "instruction": "Test yourself: say the sentences",
-          "note": "VB 1c «Cover the phrases and look at the photos. Test yourself» → Speak; фото нет, поэтому говорим фразы",
-          "audio": "1.13",
-          "exercises": [
-            {
-              "n": 1,
-              "type": "speak",
-              "text": "She has big blue eyes.",
-              "clip": [26.89, 29.58]
-            },
-            {
-              "n": 2,
-              "type": "speak",
-              "text": "She has curly red hair.",
-              "clip": [15.63, 18.1]
-            },
-            {
-              "n": 3,
-              "type": "speak",
-              "text": "She has long straight hair.",
-              "clip": [21.23, 23.84]
-            },
-            {
-              "n": 4,
-              "type": "speak",
-              "text": "He’s bald.",
-              "answers": [
-                "He’s bald.",
-                "He is bald."
-              ],
-              "clip": [44.61, 46.06]
-            },
-            {
-              "n": 5,
-              "type": "speak",
-              "text": "He has a beard and a moustache.",
-              "clip": [38.52, 41.41]
-            },
-            {
-              "n": 6,
-              "type": "speak",
-              "text": "She has short blonde hair.",
-              "clip": [32.77, 35.24]
-            },
-            {
-              "n": 7,
-              "type": "speak",
-              "text": "He’s very tall and thin.",
-              "answers": [
-                "He’s very tall and thin.",
-                "He is very tall and thin."
-              ],
-              "clip": [49.32, 51.7]
-            },
-            {
-              "n": 8,
-              "type": "speak",
-              "text": "He’s quite short and a bit overweight.",
-              "answers": [
-                "He’s quite short and a bit overweight.",
-                "He is quite short and a bit overweight."
-              ],
-              "clip": [60.94, 64.25]
-            },
-            {
-              "n": 9,
-              "type": "speak",
-              "text": "He’s medium height and very slim.",
-              "answers": [
-                "He’s medium height and very slim.",
-                "He is medium height and very slim."
-              ],
-              "clip": [54.94, 57.97]
-            }
-          ]
-        },
-        {
-          "id": "1B-vb2a",
-          "origin": "SB",
-          "instruction": "Complete the definitions with an adjective from the list",
-          "note": "VB 2a «Match the adjectives to the definitions» → Blank; 1 friendly — пример. Проверено по аудио 1.14",
-          "words": [
-            "clever",
-            "friendly",
-            "funny",
-            "generous",
-            "kind",
-            "lazy",
-            "shy",
-            "talkative"
-          ],
-          "exercises": [
-            {
-              "n": 2,
-              "type": "blank",
-              "text": "A person who talks a lot is {}.",
-              "gaps": [
-                [
-                  "talkative"
-                ]
-              ],
-              "source": "CONFIRMED"
-            },
-            {
-              "n": 3,
-              "type": "blank",
-              "text": "A person who likes giving people things is {}.",
-              "gaps": [
-                [
-                  "generous"
-                ]
-              ],
-              "source": "CONFIRMED"
-            },
-            {
-              "n": 4,
-              "type": "blank",
-              "text": "A person who is friendly and good to other people is {}.",
-              "gaps": [
-                [
-                  "kind"
-                ]
-              ],
-              "source": "CONFIRMED"
-            },
-            {
-              "n": 5,
-              "type": "blank",
-              "text": "A person who doesn’t want to work is {}.",
-              "gaps": [
-                [
-                  "lazy"
-                ]
-              ],
-              "source": "CONFIRMED"
-            },
-            {
-              "n": 6,
-              "type": "blank",
-              "text": "A person who makes people laugh is {}.",
-              "gaps": [
-                [
-                  "funny"
-                ]
-              ],
-              "source": "CONFIRMED"
-            },
-            {
-              "n": 7,
-              "type": "blank",
-              "text": "A person who is quick at learning and understanding things is {}.",
-              "gaps": [
-                [
-                  "clever"
-                ]
-              ],
-              "source": "CONFIRMED"
-            },
-            {
-              "n": 8,
-              "type": "blank",
-              "text": "A person who can’t talk easily to people he / she doesn’t know is {}.",
-              "gaps": [
-                [
-                  "shy"
-                ]
-              ],
-              "source": "CONFIRMED"
-            }
-          ]
-        },
-        {
-          "id": "1B-vb2b",
-          "origin": "SB",
-          "instruction": "Write the opposite of the adjective. Then listen and check",
-          "note": "VB 2b + 2c (Listen and check); ответы по аудио 1.14",
-          "audio": "1.14",
-          "words": [
-            "extrovert",
-            "hard-working",
-            "mean",
-            "quiet",
-            "serious",
-            "stupid",
-            "unfriendly",
-            "unkind"
-          ],
-          "exercises": [
-            {
-              "n": 1,
-              "type": "blank",
-              "text": "friendly ≠ {}",
-              "gaps": [
-                [
-                  "unfriendly"
-                ]
-              ],
-              "source": "CONFIRMED",
-              "clip": [6.47, 10.49]
-            },
-            {
-              "n": 2,
-              "type": "blank",
-              "text": "talkative ≠ {}",
-              "gaps": [
-                [
-                  "quiet"
-                ]
-              ],
-              "source": "CONFIRMED",
-              "clip": [14.35, 18.16]
-            },
-            {
-              "n": 3,
-              "type": "blank",
-              "text": "generous ≠ {}",
-              "gaps": [
-                [
-                  "mean"
-                ]
-              ],
-              "source": "CONFIRMED",
-              "clip": [21.78, 25.11]
-            },
-            {
-              "n": 4,
-              "type": "blank",
-              "text": "kind ≠ {}",
-              "gaps": [
-                [
-                  "unkind"
-                ]
-              ],
-              "source": "CONFIRMED",
-              "clip": [28.88, 32.77]
-            },
-            {
-              "n": 5,
-              "type": "blank",
-              "text": "lazy ≠ {}",
-              "gaps": [
-                [
-                  "hard-working",
-                  "hardworking"
-                ]
-              ],
-              "source": "CONFIRMED",
-              "clip": [36.66, 40.5]
-            },
-            {
-              "n": 6,
-              "type": "blank",
-              "text": "funny ≠ {}",
-              "gaps": [
-                [
-                  "serious"
-                ]
-              ],
-              "source": "CONFIRMED",
-              "clip": [44.3, 47.7]
-            },
-            {
-              "n": 7,
-              "type": "blank",
-              "text": "clever ≠ {}",
-              "gaps": [
-                [
-                  "stupid"
-                ]
-              ],
-              "source": "CONFIRMED",
-              "clip": [51.55, 54.72]
-            },
-            {
-              "n": 8,
-              "type": "blank",
-              "text": "shy ≠ {}",
-              "gaps": [
-                [
-                  "extrovert"
-                ]
-              ],
-              "source": "CONFIRMED",
-              "clip": [58.69, 62.34]
-            }
-          ]
-        },
-        {
-          "id": "1B-vb2d",
-          "origin": "SB",
-          "instruction": "Say the adjective and its opposite",
-          "note": "VB 2d «Cover the adjectives and look at the definitions. Say the adjective and its opposite» → Speak пар",
-          "audio": "1.14",
-          "exercises": [
-            {
-              "n": 1,
-              "type": "speak",
-              "text": "friendly, unfriendly",
-              "clip": [6.47, 10.49]
-            },
-            {
-              "n": 2,
-              "type": "speak",
-              "text": "talkative, quiet",
-              "clip": [14.35, 18.16]
-            },
-            {
-              "n": 3,
-              "type": "speak",
-              "text": "generous, mean",
-              "clip": [21.78, 25.11]
-            },
-            {
-              "n": 4,
-              "type": "speak",
-              "text": "kind, unkind",
-              "clip": [28.88, 32.77]
-            },
-            {
-              "n": 5,
-              "type": "speak",
-              "text": "lazy, hard-working",
-              "answers": [
-                "lazy, hard-working",
-                "lazy, hardworking"
-              ],
-              "clip": [36.66, 40.5]
-            },
-            {
-              "n": 6,
-              "type": "speak",
-              "text": "funny, serious",
-              "clip": [44.3, 47.7]
-            },
-            {
-              "n": 7,
-              "type": "speak",
-              "text": "clever, stupid",
-              "clip": [51.55, 54.72]
-            },
-            {
-              "n": 8,
-              "type": "speak",
-              "text": "shy, extrovert",
-              "clip": [58.69, 62.34]
-            }
-          ]
-        },
-        {
-          "id": "1B-vbact",
-          "origin": "SB",
-          "instruction": "Ask and answer questions about a member of your family or a good friend",
-          "note": "VB ACTIVATION → разговор с ИИ",
-          "exercises": [
-            {
-              "n": 1,
-              "type": "talk",
-              "situation": "You are a classmate in an English class (level: pre-intermediate). You and the student talk about members of your families or good friends. Your person: your sister Marta, 29 – quite tall and slim, with short dark curly hair and brown eyes; she is talkative, generous and very funny, but a bit lazy at home. First answer the student’s questions about Marta: What does she look like? (appearance) and What’s she like? (personality). Give short, natural answers with the vocabulary of the lesson (tall, short, medium height, slim, thin, a bit overweight, long / short, straight / curly, dark / blonde / red hair, beard, moustache, bald; friendly, talkative, quiet, generous, mean, kind, lazy, hard-working, funny, serious, clever, shy, extrovert). If the student mixes up the questions (e.g. asks What is she like? but means appearance), answer the question they actually asked, so they notice. Then ask about their person: Who are you going to tell me about? What does he / she look like? What’s he / she like? Ask one follow-up question. If the student says fat, say gently that a bit overweight is more polite.",
-              "goal": "Ask your classmate about a member of their family or a good friend (What does … look like? What’s … like?). Then describe a person you know: appearance and personality.",
-              "opener": "Hi! Let’s talk about our families. I’m going to tell you about my sister Marta. What do you want to know?",
-              "criteria": [
-                "asks both What does she look like? and What’s she like? correctly",
-                "describes their own person’s appearance with at least 3 words from the lesson (e.g. tall, slim, curly dark hair)",
-                "describes personality with at least 3 adjectives from the lesson",
-                "uses two adjectives in the right order (size → style → colour: long straight hair)"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "1B-wb1a",
-          "origin": "WB",
-          "instruction": "Which word can’t be used with the noun? Write it",
-          "note": "WB 1a «Cross out the word that can’t be used» → Blank на лишнее слово; 1 hair: tall — пример",
-          "exercises": [
-            {
-              "n": 2,
-              "type": "blank",
-              "text": "eyes: blonde, big, blue, brown → {}",
-              "gaps": [
-                [
-                  "blonde",
-                  "blond"
-                ]
-              ],
-              "explain": "blonde is for hair, not eyes."
-            },
-            {
-              "n": 3,
-              "type": "blank",
-              "text": "man: thin, short, long, overweight → {}",
-              "gaps": [
-                [
-                  "long"
-                ]
-              ],
-              "explain": "long is for hair: a long-haired man, not a long man."
-            },
-            {
-              "n": 4,
-              "type": "blank",
-              "text": "woman: medium height, slim, beautiful, bald → {}",
-              "gaps": [
-                [
-                  "bald"
-                ]
-              ],
-              "explain": "bald is possible, but it’s not usual for a woman — the key says bald."
-            }
-          ]
-        },
-        {
-          "id": "1B-wb1b",
-          "origin": "WB",
-          "instruction": "Order the letters to make adjectives",
-          "note": "WB 1b; 1 generous — пример",
-          "exercises": [
-            {
-              "n": 2,
-              "type": "blank",
-              "text": "Sarah’s really {}. She makes me laugh.",
-              "gaps": [
-                [
-                  "funny"
-                ]
-              ],
-              "hint": "(nynfu)"
-            },
-            {
-              "n": 3,
-              "type": "blank",
-              "text": "Sam’s very {}. Everybody likes him.",
-              "gaps": [
-                [
-                  "friendly"
-                ]
-              ],
-              "hint": "(rdfylnei)"
-            },
-            {
-              "n": 4,
-              "type": "blank",
-              "text": "John never does his homework. He’s very {}.",
-              "gaps": [
-                [
-                  "lazy"
-                ]
-              ],
-              "hint": "(alzy)"
-            },
-            {
-              "n": 5,
-              "type": "blank",
-              "text": "Imogen is a {} girl. She’ll do well in her exams.",
-              "gaps": [
-                [
-                  "clever"
-                ]
-              ],
-              "hint": "(eervlc)"
-            },
-            {
-              "n": 6,
-              "type": "blank",
-              "text": "That was a very {} thing to say.",
-              "gaps": [
-                [
-                  "unkind"
-                ]
-              ],
-              "hint": "(dinukn)"
-            },
-            {
-              "n": 7,
-              "type": "blank",
-              "text": "David is quite intelligent, but sometimes he says really {} things.",
-              "gaps": [
-                [
-                  "stupid"
-                ]
-              ],
-              "hint": "(updits)"
-            },
-            {
-              "n": 8,
-              "type": "blank",
-              "text": "Paula is really {} – she doesn’t like meeting new people.",
-              "gaps": [
-                [
-                  "shy"
-                ]
-              ],
-              "hint": "(hsy)"
-            },
-            {
-              "n": 9,
-              "type": "blank",
-              "text": "Laura’s usually very {} – she doesn’t talk very much.",
-              "gaps": [
-                [
-                  "quiet"
-                ]
-              ],
-              "hint": "(iuetq)"
-            }
-          ]
-        },
-        {
-          "id": "1B-wb1c",
-          "origin": "WB",
-          "instruction": "Complete the sentences",
-          "note": "WB 1c; 1 brown / blue — пример. Подсказки с первой буквой (b…) убраны",
-          "exercises": [
-            {
-              "n": 2,
-              "type": "blank",
-              "text": "Tanya’s dad doesn’t have any hair. He’s {}.",
-              "gaps": [
-                [
-                  "bald"
-                ]
-              ]
-            },
-            {
-              "n": 3,
-              "type": "blank",
-              "text": "Jamie’s new girlfriend is really {} – she loves meeting new people.",
-              "gaps": [
-                [
-                  "extrovert"
-                ]
-              ]
-            },
-            {
-              "n": 4,
-              "type": "blank",
-              "text": "My dad never shaves. He has a {} and a {}.",
-              "gaps": [
-                [
-                  "beard"
-                ],
-                [
-                  "moustache",
-                  "mustache"
-                ]
-              ]
-            },
-            {
-              "n": 5,
-              "type": "blank",
-              "text": "What does your sister look {}? Is she tall and blonde, too?",
-              "gaps": [
-                [
-                  "like"
-                ]
-              ]
-            },
-            {
-              "n": 6,
-              "type": "blank",
-              "text": "When Jake was young, he was very {}, but now he’s a bit {}.",
-              "gaps": [
-                [
-                  "thin"
-                ],
-                [
-                  "overweight"
-                ]
-              ]
-            },
-            {
-              "n": 7,
-              "type": "blank",
-              "text": "My dad is really {} – he starts work at 7.00 and gets home at 6.00.",
-              "gaps": [
-                [
-                  "hard-working",
-                  "hardworking"
-                ]
-              ]
-            },
-            {
-              "n": 8,
-              "type": "blank",
-              "text": "I’m not {} my sister. I don’t say much, but she’s very {} – in fact she never stops talking.",
-              "gaps": [
-                [
-                  "like"
-                ],
-                [
-                  "talkative"
-                ]
-              ]
-            },
-            {
-              "n": 9,
-              "type": "blank",
-              "text": "George is a very {} student – he works hard and wants to do well.",
-              "gaps": [
-                [
-                  "serious"
-                ]
-              ]
-            },
-            {
-              "n": 10,
-              "type": "blank",
-              "text": "Dan is really {} – he never pays for anything.",
-              "gaps": [
-                [
-                  "mean"
-                ]
-              ]
-            }
-          ]
-        },
-        {
-          "id": "1B-vocabulary-x1",
-          "origin": "GENERATED",
-          "instruction": "Complete the descriptions.",
-          "exercises": [
-            {
-              "n": 1,
-              "type": "blank",
-              "text": "My grandfather lost all his hair when he was 40. Now he’s completely {}.",
-              "gaps": [
-                [
-                  "bald"
-                ]
-              ],
-              "explain": "bald = with no hair.",
-              "source": "MODEL"
-            },
-            {
-              "n": 2,
-              "type": "blank",
-              "text": "She has long {} hair – there isn’t a single curl in it.",
-              "gaps": [
-                [
-                  "straight"
-                ]
-              ],
-              "explain": "straight ≠ curly.",
-              "source": "MODEL"
-            },
-            {
-              "n": 3,
-              "type": "blank",
-              "text": "He doesn’t shave his chin, so he has a long {}.",
-              "gaps": [
-                [
-                  "beard"
-                ]
-              ],
-              "explain": "a beard grows on your chin; a moustache is above your lip.",
-              "source": "MODEL"
-            },
-            {
-              "n": 4,
-              "type": "blank",
-              "text": "My brother isn’t tall or short. He’s {} height.",
-              "gaps": [
-                [
-                  "medium"
-                ]
-              ],
-              "explain": "medium height = not tall and not short.",
-              "source": "MODEL"
-            },
-            {
-              "n": 5,
-              "type": "blank",
-              "text": "She has {} hair, the colour of gold.",
-              "gaps": [
-                [
-                  "blonde",
-                  "blond",
-                  "fair"
-                ]
-              ],
-              "explain": "blonde = light yellow hair.",
-              "source": "MODEL"
-            },
-            {
-              "n": 6,
-              "type": "blank",
-              "text": "He eats a lot of burgers, and now he’s a bit {}.",
-              "gaps": [
-                [
-                  "overweight"
-                ]
-              ],
-              "explain": "a bit overweight is more polite than fat.",
-              "source": "MODEL"
-            },
-            {
-              "n": 7,
-              "type": "blank",
-              "text": "She’s tall and {} – she looks like a model.",
-              "gaps": [
-                [
-                  "slim"
-                ]
-              ],
-              "explain": "slim = thin in an attractive way.",
-              "source": "MODEL"
-            }
-          ]
-        },
-        {
-          "id": "1B-vocabulary-x2",
-          "origin": "GENERATED",
-          "instruction": "Complete the sentences with a personality adjective.",
-          "exercises": [
-            {
-              "n": 1,
-              "type": "blank",
-              "text": "My boss never says hello or smiles. He’s very {}.",
-              "gaps": [
-                [
-                  "unfriendly"
-                ]
-              ],
-              "explain": "unfriendly ≠ friendly (open and warm).",
-              "source": "MODEL"
-            },
-            {
-              "n": 2,
-              "type": "blank",
-              "text": "Our neighbour often brings us cakes and little presents. She’s very {}.",
-              "gaps": [
-                [
-                  "generous",
-                  "kind"
-                ]
-              ],
-              "explain": "generous = likes giving people things.",
-              "source": "MODEL"
-            },
-            {
-              "n": 3,
-              "type": "blank",
-              "text": "He goes to every party and loves meeting new people. He’s very {}.",
-              "gaps": [
-                [
-                  "extrovert",
-                  "friendly"
-                ]
-              ],
-              "explain": "extrovert ≠ shy.",
-              "source": "MODEL"
-            },
-            {
-              "n": 4,
-              "type": "blank",
-              "text": "My little brother stays in bed until 12 and never helps at home. He’s so {}!",
-              "gaps": [
-                [
-                  "lazy"
-                ]
-              ],
-              "explain": "lazy = doesn’t want to work.",
-              "source": "MODEL"
-            },
-            {
-              "n": 5,
-              "type": "blank",
-              "text": "Ben tells great jokes. He’s really {}.",
-              "gaps": [
-                [
-                  "funny"
-                ]
-              ],
-              "explain": "funny = makes people laugh. fun = good to be with.",
-              "source": "MODEL"
-            },
-            {
-              "n": 6,
-              "type": "blank",
-              "text": "She works ten hours a day and never complains. She’s very {}.",
-              "gaps": [
-                [
-                  "hard-working",
-                  "hardworking"
-                ]
-              ],
-              "explain": "hard-working ≠ lazy.",
-              "source": "MODEL"
-            },
-            {
-              "n": 7,
-              "type": "blank",
-              "text": "He never says a word in class. He’s very {}.",
-              "gaps": [
-                [
-                  "quiet",
-                  "shy"
-                ]
-              ],
-              "explain": "quiet ≠ talkative.",
-              "source": "MODEL"
-            }
-          ]
-        },
-        {
-          "id": "1B-vocabulary-x3",
-          "origin": "GENERATED",
-          "instruction": "Correct the mistakes. If a sentence is correct, leave it as it is.",
-          "exercises": [
-            {
-              "n": 1,
-              "type": "rewrite",
-              "prompt": "He has black short hair.",
-              "answers": [
-                "He has short black hair."
-              ],
-              "explain": "size → colour: short black hair.",
-              "source": "MODEL"
-            },
-            {
-              "n": 2,
-              "type": "rewrite",
-              "prompt": "What is your brother look like?",
-              "answers": [
-                "What does your brother look like?"
-              ],
-              "explain": "What does he look like? = appearance.",
-              "source": "MODEL"
-            },
-            {
-              "n": 3,
-              "type": "rewrite",
-              "prompt": "He has eyes blue.",
-              "answers": [
-                "He has blue eyes."
-              ],
-              "explain": "The adjective goes before the noun: blue eyes.",
-              "source": "MODEL"
-            },
-            {
-              "n": 4,
-              "type": "rewrite",
-              "prompt": "She’s a very handsome woman.",
-              "answers": [
-                "She’s a very beautiful woman.",
-                "She’s a very good-looking woman.",
-                "She’s a very attractive woman."
-              ],
-              "explain": "handsome is for men; for women use beautiful.",
-              "source": "MODEL"
-            },
-            {
-              "n": 5,
-              "type": "rewrite",
-              "prompt": "My uncle has a moustache but no beard.",
-              "answers": [
-                "My uncle has a moustache but no beard."
-              ],
-              "explain": "Correct: a moustache is above your lip, a beard is on your chin.",
-              "source": "MODEL"
-            },
-            {
-              "n": 6,
-              "type": "rewrite",
-              "prompt": "What’s your sister like? She’s very kind.",
-              "answers": [
-                "What’s your sister like? She’s very kind."
-              ],
-              "explain": "Correct: What’s she like? = personality.",
-              "source": "MODEL"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "1B-pronunciation",
       "kind": "PRONUNCIATION",
       "title": "final -s and -es",
@@ -2355,37 +2454,55 @@
               "n": 1,
               "type": "speak",
               "text": "He likes going to concerts.",
-              "clip": [6.56, 8.61]
+              "clip": [
+                6.56,
+                8.61
+              ]
             },
             {
               "n": 2,
               "type": "speak",
               "text": "He meets interesting people on dates.",
-              "clip": [9.17, 12.18]
+              "clip": [
+                9.17,
+                12.18
+              ]
             },
             {
               "n": 3,
               "type": "speak",
               "text": "He pays for their meals.",
-              "clip": [17.37, 19.27]
+              "clip": [
+                17.37,
+                19.27
+              ]
             },
             {
               "n": 4,
               "type": "speak",
               "text": "He wears smart clothes.",
-              "clip": [19.79, 22.33]
+              "clip": [
+                19.79,
+                22.33
+              ]
             },
             {
               "n": 5,
               "type": "speak",
               "text": "He uses reading glasses.",
-              "clip": [25.89, 28.02]
+              "clip": [
+                25.89,
+                28.02
+              ]
             },
             {
               "n": 6,
               "type": "speak",
               "text": "He watches a lot of matches.",
-              "clip": [28.59, 31.07]
+              "clip": [
+                28.59,
+                31.07
+              ]
             }
           ]
         },
@@ -2407,7 +2524,10 @@
               ],
               "explain": "/ɪz/ — after the sound /z/ (s).",
               "source": "CONFIRMED",
-              "clip": [2.68, 3.98]
+              "clip": [
+                2.68,
+                3.98
+              ]
             },
             {
               "n": 2,
@@ -2420,7 +2540,10 @@
               ],
               "explain": "/s/",
               "source": "CONFIRMED",
-              "clip": [5.47, 6.62]
+              "clip": [
+                5.47,
+                6.62
+              ]
             },
             {
               "n": 3,
@@ -2433,7 +2556,10 @@
               ],
               "explain": "/z/",
               "source": "CONFIRMED",
-              "clip": [8.11, 9.31]
+              "clip": [
+                8.11,
+                9.31
+              ]
             },
             {
               "n": 4,
@@ -2446,7 +2572,10 @@
               ],
               "explain": "/z/",
               "source": "CONFIRMED",
-              "clip": [10.81, 12.01]
+              "clip": [
+                10.81,
+                12.01
+              ]
             },
             {
               "n": 5,
@@ -2459,7 +2588,10 @@
               ],
               "explain": "/s/",
               "source": "CONFIRMED",
-              "clip": [13.53, 14.81]
+              "clip": [
+                13.53,
+                14.81
+              ]
             },
             {
               "n": 6,
@@ -2472,7 +2604,10 @@
               ],
               "explain": "/ɪz/ — after ch.",
               "source": "CONFIRMED",
-              "clip": [16.31, 17.53]
+              "clip": [
+                16.31,
+                17.53
+              ]
             },
             {
               "n": 7,
@@ -2485,7 +2620,10 @@
               ],
               "explain": "/s/",
               "source": "CONFIRMED",
-              "clip": [19.09, 20.24]
+              "clip": [
+                19.09,
+                20.24
+              ]
             },
             {
               "n": 8,
@@ -2498,7 +2636,10 @@
               ],
               "explain": "/z/",
               "source": "CONFIRMED",
-              "clip": [21.77, 22.98]
+              "clip": [
+                21.77,
+                22.98
+              ]
             },
             {
               "n": 9,
@@ -2511,7 +2652,10 @@
               ],
               "explain": "/ɪz/ — after s.",
               "source": "CONFIRMED",
-              "clip": [24.48, 25.84]
+              "clip": [
+                24.48,
+                25.84
+              ]
             },
             {
               "n": 10,
@@ -2524,7 +2668,10 @@
               ],
               "explain": "/z/",
               "source": "CONFIRMED",
-              "clip": [27.35, 28.6]
+              "clip": [
+                27.35,
+                28.6
+              ]
             },
             {
               "n": 11,
@@ -2537,7 +2684,10 @@
               ],
               "explain": "/ɪz/ — after g /dʒ/.",
               "source": "CONFIRMED",
-              "clip": [30.11, 31.62]
+              "clip": [
+                30.11,
+                31.62
+              ]
             },
             {
               "n": 12,
@@ -2550,7 +2700,10 @@
               ],
               "explain": "/s/",
               "source": "CONFIRMED",
-              "clip": [33.06, 34.28]
+              "clip": [
+                33.06,
+                34.28
+              ]
             }
           ]
         },
@@ -2565,73 +2718,109 @@
               "n": 1,
               "type": "speak",
               "text": "chooses",
-              "clip": [2.68, 3.98]
+              "clip": [
+                2.68,
+                3.98
+              ]
             },
             {
               "n": 2,
               "type": "speak",
               "text": "cooks",
-              "clip": [5.47, 6.62]
+              "clip": [
+                5.47,
+                6.62
+              ]
             },
             {
               "n": 3,
               "type": "speak",
               "text": "goes",
-              "clip": [8.11, 9.31]
+              "clip": [
+                8.11,
+                9.31
+              ]
             },
             {
               "n": 4,
               "type": "speak",
               "text": "lives",
-              "clip": [10.81, 12.01]
+              "clip": [
+                10.81,
+                12.01
+              ]
             },
             {
               "n": 5,
               "type": "speak",
               "text": "stops",
-              "clip": [13.53, 14.81]
+              "clip": [
+                13.53,
+                14.81
+              ]
             },
             {
               "n": 6,
               "type": "speak",
               "text": "teaches",
-              "clip": [16.31, 17.53]
+              "clip": [
+                16.31,
+                17.53
+              ]
             },
             {
               "n": 7,
               "type": "speak",
               "text": "books",
-              "clip": [19.09, 20.24]
+              "clip": [
+                19.09,
+                20.24
+              ]
             },
             {
               "n": 8,
               "type": "speak",
               "text": "boys",
-              "clip": [21.77, 22.98]
+              "clip": [
+                21.77,
+                22.98
+              ]
             },
             {
               "n": 9,
               "type": "speak",
               "text": "classes",
-              "clip": [24.48, 25.84]
+              "clip": [
+                24.48,
+                25.84
+              ]
             },
             {
               "n": 10,
               "type": "speak",
               "text": "friends",
-              "clip": [27.35, 28.6]
+              "clip": [
+                27.35,
+                28.6
+              ]
             },
             {
               "n": 11,
               "type": "speak",
               "text": "languages",
-              "clip": [30.11, 31.62]
+              "clip": [
+                30.11,
+                31.62
+              ]
             },
             {
               "n": 12,
               "type": "speak",
               "text": "shops",
-              "clip": [33.06, 34.28]
+              "clip": [
+                33.06,
+                34.28
+              ]
             }
           ]
         },

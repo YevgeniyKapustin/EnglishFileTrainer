@@ -49,7 +49,9 @@ PNG → `tools/out/`.
 
 Разделы — по плашкам урока: `<ID>-grammar` (GRAMMAR), `<ID>-vocabulary` (VOCABULARY), `<ID>-pronunciation`
 (PRONUNCIATION), `<ID>-skills` (SKILLS), `<ID>-practical` (PRACTICAL_ENGLISH), `<ID>-review` (REVIEW — «Can you remember…?»,
-«Revise and Check»; Explain берёт правила всего юнита). Порядок — как в книге.
+«Revise and Check»; Explain берёт правила всего юнита). Разделы идут по номеру первого своего упражнения в книге.
+Например, в 1A порядок такой: 1 Vocabulary → 2 Grammar → 3 Pronunciation → 4 Skills → Practical English.
+Если раздел собран из разных номеров, как Skills в 1B (1d–1g, 3c, 4, 5), он идёт после Pronunciation.
 У каждого раздела непустой `reference` (таблицы, заметки, типичные ошибки из GB/VB).
 
 Задания:

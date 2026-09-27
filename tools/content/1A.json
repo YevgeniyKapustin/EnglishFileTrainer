@@ -8,6 +8,856 @@
   "sources": "WB p.4–5 (PDF 3–4), key WB p.86 (PDF 87), SB Grammar Bank p.126–127 (PDF 127–128)",
   "sections": [
     {
+      "id": "1A-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "common verb phrases",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Common verb phrases",
+          "headers": [
+            "Verb",
+            "Phrases"
+          ],
+          "rows": [
+            [
+              "be born",
+              "in Kraków, in 1997"
+            ],
+            [
+              "do",
+              "exercise, sport"
+            ],
+            [
+              "listen to",
+              "dance music, R&B"
+            ],
+            [
+              "read",
+              "an email, a magazine"
+            ],
+            [
+              "speak",
+              "a foreign language, English"
+            ],
+            [
+              "live",
+              "in a house, with friends"
+            ],
+            [
+              "watch",
+              "a film, a TV series"
+            ],
+            [
+              "go",
+              "to the cinema, on holiday"
+            ],
+            [
+              "have",
+              "two sisters, a pet"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "title": "'Returning' a question",
+          "text": "When you're having a conversation, you often 'return' questions, that is ask somebody the same question that they asked you. You can do this by: 1) saying And you? or What about you? 2) repeating the question, but stressing you, e.g. A: Where are you from? B: I'm from Rome. Where are YOU from?"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "1A-sb1a",
+          "origin": "SB",
+          "instruction": "Complete the questions in Getting to know you with a verb. Then listen and check",
+          "audio": "1.2",
+          "note": "SB 1a/1b; 1–2 — примеры (are, were)",
+          "exercises": [
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Where do you {}?",
+              "gaps": [
+                [
+                  "live"
+                ]
+              ],
+              "hint": "(home)",
+              "source": "MODEL",
+              "clip": [
+                13.4,
+                15.11
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Do you {} in a house or a flat?",
+              "gaps": [
+                [
+                  "live"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [
+                18.29,
+                20.93
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Do you {} any brothers and sisters?",
+              "gaps": [
+                [
+                  "have"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [
+                24.21,
+                26.89
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Do you {} any pets?",
+              "gaps": [
+                [
+                  "have"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [
+                30.06,
+                31.84
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "What do you {}?",
+              "gaps": [
+                [
+                  "do"
+                ]
+              ],
+              "hint": "(job)",
+              "source": "MODEL",
+              "clip": [
+                35.08,
+                36.57
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "What time do you {} up during the week?",
+              "gaps": [
+                [
+                  "get"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [
+                39.69,
+                42.03
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Where do you usually {} lunch?",
+              "gaps": [
+                [
+                  "have",
+                  "eat"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [
+                45.24,
+                47.86
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "What time do you usually {} to bed?",
+              "gaps": [
+                [
+                  "go"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [
+                51.09,
+                53.55
+              ]
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "Where did you {} English before?",
+              "gaps": [
+                [
+                  "study",
+                  "learn"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [
+                56.85,
+                59.26
+              ]
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "Can you {} any other languages? Which?",
+              "gaps": [
+                [
+                  "speak"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [
+                62.45,
+                65.77
+              ]
+            },
+            {
+              "n": 13,
+              "type": "blank",
+              "text": "What kind of music do you {} to?",
+              "gaps": [
+                [
+                  "listen"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [
+                69.09,
+                71.81
+              ]
+            },
+            {
+              "n": 14,
+              "type": "blank",
+              "text": "What TV programmes or series do you {}?",
+              "gaps": [
+                [
+                  "watch"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [
+                75.33,
+                78.68
+              ]
+            },
+            {
+              "n": 15,
+              "type": "blank",
+              "text": "Do you {} any sport or exercise? What?",
+              "gaps": [
+                [
+                  "do"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [
+                82.11,
+                86.04
+              ]
+            },
+            {
+              "n": 16,
+              "type": "blank",
+              "text": "What kind of books or magazines do you {}?",
+              "gaps": [
+                [
+                  "read"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [
+                89.6,
+                92.64
+              ]
+            },
+            {
+              "n": 17,
+              "type": "blank",
+              "text": "How often do you {} to the cinema?",
+              "gaps": [
+                [
+                  "go"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [
+                96.18,
+                98.62
+              ]
+            },
+            {
+              "n": 18,
+              "type": "blank",
+              "text": "What did you {} last weekend?",
+              "gaps": [
+                [
+                  "do"
+                ]
+              ],
+              "source": "MODEL",
+              "clip": [
+                102.08,
+                104.39
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-sb1c",
+          "origin": "SB",
+          "instruction": "Listen and repeat questions 1–6. Copy the rhythm and intonation",
+          "audio": "1.3",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "Where are you from?",
+              "source": "MODEL",
+              "clip": [
+                4.09,
+                5.69
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "Where were you born?",
+              "source": "MODEL",
+              "clip": [
+                9.78,
+                11.38
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "Where do you live?",
+              "source": "MODEL",
+              "clip": [
+                15.48,
+                17.2
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "Do you live in a house or a flat?",
+              "source": "MODEL",
+              "clip": [
+                21.37,
+                24.01
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "Do you have any brothers and sisters?",
+              "source": "MODEL",
+              "clip": [
+                29.3,
+                31.98
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "Do you have any pets?",
+              "source": "MODEL",
+              "clip": [
+                37.14,
+                38.93
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-sb1d",
+          "origin": "SB",
+          "instruction": "Have a conversation. Ask and answer the questions in Getting to know you. After you answer a question, 'return' it",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a new classmate in an English class (level: pre-intermediate): Kasia, from Poznań, in Poland. Invent the rest of your life (home, family, job, free time) and keep it consistent. You and the student have the questionnaire 'Getting to know you': 1 Where are you from? 2 Where were you born? 3 Where do you live? 4 Do you live in a house or a flat? 5 Do you have any brothers and sisters? 6 Do you have any pets? 7 What do you do? 8 What time do you get up during the week? 9 Where do you usually have lunch? 10 What time do you usually go to bed? 11 Where did you study English before? 12 Can you speak any other languages? Which? 13 What kind of music do you listen to? 14 What TV programmes or series do you watch? 15 Do you do any sport or exercise? What? 16 What kind of books or magazines do you read? 17 How often do you go to the cinema? 18 What did you do last weekend? Take turns: ask the student questions from the list, and answer the student's questions. After you answer, often 'return' the question (And you? / What about you? / Where are YOU from?). When the student answers your question, wait: they should return it to you with And you? / What about you? — if they forget, give them a moment, then gently remind them once. Keep your answers short (1–2 sentences).",
+              "goal": "Get to know your new classmate. Ask and answer the questions from Getting to know you. After you answer a question, return it: And you? / What about you?",
+              "opener": "Hi! I'm Kasia. Where are you from?",
+              "criteria": [
+                "asks at least 5 questions from the questionnaire with correct word order",
+                "answers the partner's questions in full, natural sentences",
+                "returns at least 3 questions with And you? / What about you? or by repeating the question",
+                "uses the right verb in the questions (live, have, do, get up, go, speak, listen to, watch, read)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-wb1a",
+          "origin": "WB",
+          "instruction": "Complete with a verb",
+          "note": "WB 1a «Match verbs 1–9 to the nouns» → Blank на пару; n — номер глагола",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "{} exercise, sport",
+              "gaps": [
+                [
+                  "do"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{} dance music, R&B",
+              "gaps": [
+                [
+                  "listen to"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{} an email, a magazine",
+              "gaps": [
+                [
+                  "read"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{} a foreign language, English",
+              "gaps": [
+                [
+                  "speak",
+                  "learn",
+                  "study"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "{} in a house, with friends",
+              "gaps": [
+                [
+                  "live"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "{} a film, a TV series",
+              "gaps": [
+                [
+                  "watch"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "{} to the cinema, on holiday",
+              "gaps": [
+                [
+                  "go"
+                ]
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "{} two sisters, a pet",
+              "gaps": [
+                [
+                  "have",
+                  "have got"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-wb1b",
+          "origin": "WB",
+          "instruction": "Complete the conversations with the missing word",
+          "dialogue": true,
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "What did you {} last weekend?\nI went to the cinema with some friends.",
+              "gaps": [
+                [
+                  "do"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Do you do any {} or exercise?\nYes, I love football and tennis.",
+              "gaps": [
+                [
+                  "sport",
+                  "sports"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "What kind of {} do you listen to?\nI love pop and rock.",
+              "gaps": [
+                [
+                  "music"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "What do you usually have for {}?\nJust a sandwich and some crisps normally.",
+              "gaps": [
+                [
+                  "lunch"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Do you have any {}?\nYes, we have two cats.",
+              "gaps": [
+                [
+                  "pets"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Where do you {}?\nIn a small flat near the railway station.",
+              "gaps": [
+                [
+                  "live"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Where did you {} English before?\nAt school.",
+              "gaps": [
+                [
+                  "learn",
+                  "study",
+                  "do"
+                ]
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "What does your father {}?\nHe's a teacher.",
+              "gaps": [
+                [
+                  "do"
+                ]
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "Where were you {}?\nIn Budapest, in 1998. My mum is Hungarian.",
+              "gaps": [
+                [
+                  "born"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with a verb.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Do you {} with your parents or on your own?",
+              "gaps": [
+                [
+                  "live"
+                ]
+              ],
+              "explain": "live with somebody, live in a house / a flat.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "My grandfather was {} in 1950.",
+              "gaps": [
+                [
+                  "born"
+                ]
+              ],
+              "explain": "be born: I was born in…, he was born in…",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I {} a magazine on the train every morning.",
+              "gaps": [
+                [
+                  "read"
+                ]
+              ],
+              "explain": "read an email, a magazine, a book.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "We {} a TV series every evening after dinner.",
+              "gaps": [
+                [
+                  "watch"
+                ]
+              ],
+              "explain": "watch a film, a TV series, the news.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "She {} yoga twice a week.",
+              "gaps": [
+                [
+                  "does"
+                ]
+              ],
+              "explain": "do sport, exercise, yoga. She → does.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I {} to the radio in the car.",
+              "gaps": [
+                [
+                  "listen"
+                ]
+              ],
+              "explain": "listen to music, the radio. Don't forget to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "They {} three children and a dog.",
+              "gaps": [
+                [
+                  "have",
+                  "have got"
+                ]
+              ],
+              "explain": "have + family and pets: They have three children.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Can you {} Spanish?",
+              "gaps": [
+                [
+                  "speak"
+                ]
+              ],
+              "explain": "speak a language: speak English, speak Spanish.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1A-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete the conversations with the missing word.",
+          "dialogue": true,
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Do you live in a house?\nNo, I live in a small {} in the city centre.",
+              "gaps": [
+                [
+                  "flat",
+                  "apartment"
+                ]
+              ],
+              "explain": "a flat (British English) = an apartment.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Where did you go on {} last year?\nTo Greece, with my family.",
+              "gaps": [
+                [
+                  "holiday"
+                ]
+              ],
+              "explain": "go on holiday.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "What {} do you like watching?\nComedies. I love funny films.",
+              "gaps": [
+                [
+                  "films",
+                  "movies"
+                ]
+              ],
+              "explain": "films = movies. A comedy is a kind of film.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Can you speak a foreign {}?\nYes, a little German.",
+              "gaps": [
+                [
+                  "language"
+                ]
+              ],
+              "explain": "a foreign language: German, French, Spanish…",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "What do you do?\nI'm a nurse. I really like my {}.",
+              "gaps": [
+                [
+                  "job",
+                  "work"
+                ]
+              ],
+              "explain": "What do you do? = What's your job?",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "What's your favourite {}?\nTennis. I play every Saturday.",
+              "gaps": [
+                [
+                  "sport"
+                ]
+              ],
+              "explain": "Tennis and football are sports.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "What time do you usually have {}?\nAt about seven, after work.",
+              "gaps": [
+                [
+                  "dinner",
+                  "supper"
+                ]
+              ],
+              "explain": "breakfast (morning), lunch (midday), dinner (evening).",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1A-vocabulary-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes. If a sentence is correct, leave it as it is.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "I make exercise every morning.",
+              "answers": [
+                "I do exercise every morning."
+              ],
+              "explain": "We say do exercise, do sport — not make.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "Do you listen music in the car?",
+              "answers": [
+                "Do you listen to music in the car?"
+              ],
+              "explain": "listen to + music / the radio.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "She was borned in Italy.",
+              "answers": [
+                "She was born in Italy."
+              ],
+              "explain": "be born: born, not borned.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "We went on holiday to Portugal last year.",
+              "answers": [
+                "We went on holiday to Portugal last year."
+              ],
+              "explain": "Correct: go on holiday.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "He goes to cinema every Friday.",
+              "answers": [
+                "He goes to the cinema every Friday."
+              ],
+              "explain": "go to the cinema — with the.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "1A-grammar",
       "kind": "GRAMMAR",
       "title": "word order in questions",
@@ -1022,790 +1872,6 @@
       ]
     },
     {
-      "id": "1A-vocabulary",
-      "kind": "VOCABULARY",
-      "title": "common verb phrases",
-      "reference": [
-        {
-          "type": "table",
-          "title": "Common verb phrases",
-          "headers": [
-            "Verb",
-            "Phrases"
-          ],
-          "rows": [
-            [
-              "be born",
-              "in Kraków, in 1997"
-            ],
-            [
-              "do",
-              "exercise, sport"
-            ],
-            [
-              "listen to",
-              "dance music, R&B"
-            ],
-            [
-              "read",
-              "an email, a magazine"
-            ],
-            [
-              "speak",
-              "a foreign language, English"
-            ],
-            [
-              "live",
-              "in a house, with friends"
-            ],
-            [
-              "watch",
-              "a film, a TV series"
-            ],
-            [
-              "go",
-              "to the cinema, on holiday"
-            ],
-            [
-              "have",
-              "two sisters, a pet"
-            ]
-          ]
-        },
-        {
-          "type": "note",
-          "title": "'Returning' a question",
-          "text": "When you're having a conversation, you often 'return' questions, that is ask somebody the same question that they asked you. You can do this by: 1) saying And you? or What about you? 2) repeating the question, but stressing you, e.g. A: Where are you from? B: I'm from Rome. Where are YOU from?"
-        }
-      ],
-      "tasks": [
-        {
-          "id": "1A-sb1a",
-          "origin": "SB",
-          "instruction": "Complete the questions in Getting to know you with a verb. Then listen and check",
-          "audio": "1.2",
-          "note": "SB 1a/1b; 1–2 — примеры (are, were)",
-          "exercises": [
-            {
-              "n": 3,
-              "type": "blank",
-              "text": "Where do you {}?",
-              "gaps": [
-                [
-                  "live"
-                ]
-              ],
-              "hint": "(home)",
-              "source": "MODEL",
-              "clip": [13.4, 15.11]
-            },
-            {
-              "n": 4,
-              "type": "blank",
-              "text": "Do you {} in a house or a flat?",
-              "gaps": [
-                [
-                  "live"
-                ]
-              ],
-              "source": "MODEL",
-              "clip": [18.29, 20.93]
-            },
-            {
-              "n": 5,
-              "type": "blank",
-              "text": "Do you {} any brothers and sisters?",
-              "gaps": [
-                [
-                  "have"
-                ]
-              ],
-              "source": "MODEL",
-              "clip": [24.21, 26.89]
-            },
-            {
-              "n": 6,
-              "type": "blank",
-              "text": "Do you {} any pets?",
-              "gaps": [
-                [
-                  "have"
-                ]
-              ],
-              "source": "MODEL",
-              "clip": [30.06, 31.84]
-            },
-            {
-              "n": 7,
-              "type": "blank",
-              "text": "What do you {}?",
-              "gaps": [
-                [
-                  "do"
-                ]
-              ],
-              "hint": "(job)",
-              "source": "MODEL",
-              "clip": [35.08, 36.57]
-            },
-            {
-              "n": 8,
-              "type": "blank",
-              "text": "What time do you {} up during the week?",
-              "gaps": [
-                [
-                  "get"
-                ]
-              ],
-              "source": "MODEL",
-              "clip": [39.69, 42.03]
-            },
-            {
-              "n": 9,
-              "type": "blank",
-              "text": "Where do you usually {} lunch?",
-              "gaps": [
-                [
-                  "have",
-                  "eat"
-                ]
-              ],
-              "source": "MODEL",
-              "clip": [45.24, 47.86]
-            },
-            {
-              "n": 10,
-              "type": "blank",
-              "text": "What time do you usually {} to bed?",
-              "gaps": [
-                [
-                  "go"
-                ]
-              ],
-              "source": "MODEL",
-              "clip": [51.09, 53.55]
-            },
-            {
-              "n": 11,
-              "type": "blank",
-              "text": "Where did you {} English before?",
-              "gaps": [
-                [
-                  "study",
-                  "learn"
-                ]
-              ],
-              "source": "MODEL",
-              "clip": [56.85, 59.26]
-            },
-            {
-              "n": 12,
-              "type": "blank",
-              "text": "Can you {} any other languages? Which?",
-              "gaps": [
-                [
-                  "speak"
-                ]
-              ],
-              "source": "MODEL",
-              "clip": [62.45, 65.77]
-            },
-            {
-              "n": 13,
-              "type": "blank",
-              "text": "What kind of music do you {} to?",
-              "gaps": [
-                [
-                  "listen"
-                ]
-              ],
-              "source": "MODEL",
-              "clip": [69.09, 71.81]
-            },
-            {
-              "n": 14,
-              "type": "blank",
-              "text": "What TV programmes or series do you {}?",
-              "gaps": [
-                [
-                  "watch"
-                ]
-              ],
-              "source": "MODEL",
-              "clip": [75.33, 78.68]
-            },
-            {
-              "n": 15,
-              "type": "blank",
-              "text": "Do you {} any sport or exercise? What?",
-              "gaps": [
-                [
-                  "do"
-                ]
-              ],
-              "source": "MODEL",
-              "clip": [82.11, 86.04]
-            },
-            {
-              "n": 16,
-              "type": "blank",
-              "text": "What kind of books or magazines do you {}?",
-              "gaps": [
-                [
-                  "read"
-                ]
-              ],
-              "source": "MODEL",
-              "clip": [89.6, 92.64]
-            },
-            {
-              "n": 17,
-              "type": "blank",
-              "text": "How often do you {} to the cinema?",
-              "gaps": [
-                [
-                  "go"
-                ]
-              ],
-              "source": "MODEL",
-              "clip": [96.18, 98.62]
-            },
-            {
-              "n": 18,
-              "type": "blank",
-              "text": "What did you {} last weekend?",
-              "gaps": [
-                [
-                  "do"
-                ]
-              ],
-              "source": "MODEL",
-              "clip": [102.08, 104.39]
-            }
-          ]
-        },
-        {
-          "id": "1A-sb1c",
-          "origin": "SB",
-          "instruction": "Listen and repeat questions 1–6. Copy the rhythm and intonation",
-          "audio": "1.3",
-          "exercises": [
-            {
-              "n": 1,
-              "type": "speak",
-              "text": "Where are you from?",
-              "source": "MODEL",
-              "clip": [4.09, 5.69]
-            },
-            {
-              "n": 2,
-              "type": "speak",
-              "text": "Where were you born?",
-              "source": "MODEL",
-              "clip": [9.78, 11.38]
-            },
-            {
-              "n": 3,
-              "type": "speak",
-              "text": "Where do you live?",
-              "source": "MODEL",
-              "clip": [15.48, 17.2]
-            },
-            {
-              "n": 4,
-              "type": "speak",
-              "text": "Do you live in a house or a flat?",
-              "source": "MODEL",
-              "clip": [21.37, 24.01]
-            },
-            {
-              "n": 5,
-              "type": "speak",
-              "text": "Do you have any brothers and sisters?",
-              "source": "MODEL",
-              "clip": [29.3, 31.98]
-            },
-            {
-              "n": 6,
-              "type": "speak",
-              "text": "Do you have any pets?",
-              "source": "MODEL",
-              "clip": [37.14, 38.93]
-            }
-          ]
-        },
-        {
-          "id": "1A-sb1d",
-          "origin": "SB",
-          "instruction": "Have a conversation. Ask and answer the questions in Getting to know you. After you answer a question, 'return' it",
-          "exercises": [
-            {
-              "n": 1,
-              "type": "talk",
-              "situation": "You are a new classmate in an English class (level: pre-intermediate): Kasia, from Poznań, in Poland. Invent the rest of your life (home, family, job, free time) and keep it consistent. You and the student have the questionnaire 'Getting to know you': 1 Where are you from? 2 Where were you born? 3 Where do you live? 4 Do you live in a house or a flat? 5 Do you have any brothers and sisters? 6 Do you have any pets? 7 What do you do? 8 What time do you get up during the week? 9 Where do you usually have lunch? 10 What time do you usually go to bed? 11 Where did you study English before? 12 Can you speak any other languages? Which? 13 What kind of music do you listen to? 14 What TV programmes or series do you watch? 15 Do you do any sport or exercise? What? 16 What kind of books or magazines do you read? 17 How often do you go to the cinema? 18 What did you do last weekend? Take turns: ask the student questions from the list, and answer the student's questions. After you answer, often 'return' the question (And you? / What about you? / Where are YOU from?). When the student answers your question, wait: they should return it to you with And you? / What about you? — if they forget, give them a moment, then gently remind them once. Keep your answers short (1–2 sentences).",
-              "goal": "Get to know your new classmate. Ask and answer the questions from Getting to know you. After you answer a question, return it: And you? / What about you?",
-              "opener": "Hi! I'm Kasia. Where are you from?",
-              "criteria": [
-                "asks at least 5 questions from the questionnaire with correct word order",
-                "answers the partner's questions in full, natural sentences",
-                "returns at least 3 questions with And you? / What about you? or by repeating the question",
-                "uses the right verb in the questions (live, have, do, get up, go, speak, listen to, watch, read)"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "1A-wb1a",
-          "origin": "WB",
-          "instruction": "Complete with a verb",
-          "note": "WB 1a «Match verbs 1–9 to the nouns» → Blank на пару; n — номер глагола",
-          "exercises": [
-            {
-              "n": 2,
-              "type": "blank",
-              "text": "{} exercise, sport",
-              "gaps": [
-                [
-                  "do"
-                ]
-              ]
-            },
-            {
-              "n": 3,
-              "type": "blank",
-              "text": "{} dance music, R&B",
-              "gaps": [
-                [
-                  "listen to"
-                ]
-              ]
-            },
-            {
-              "n": 4,
-              "type": "blank",
-              "text": "{} an email, a magazine",
-              "gaps": [
-                [
-                  "read"
-                ]
-              ]
-            },
-            {
-              "n": 5,
-              "type": "blank",
-              "text": "{} a foreign language, English",
-              "gaps": [
-                [
-                  "speak",
-                  "learn",
-                  "study"
-                ]
-              ]
-            },
-            {
-              "n": 6,
-              "type": "blank",
-              "text": "{} in a house, with friends",
-              "gaps": [
-                [
-                  "live"
-                ]
-              ]
-            },
-            {
-              "n": 7,
-              "type": "blank",
-              "text": "{} a film, a TV series",
-              "gaps": [
-                [
-                  "watch"
-                ]
-              ]
-            },
-            {
-              "n": 8,
-              "type": "blank",
-              "text": "{} to the cinema, on holiday",
-              "gaps": [
-                [
-                  "go"
-                ]
-              ]
-            },
-            {
-              "n": 9,
-              "type": "blank",
-              "text": "{} two sisters, a pet",
-              "gaps": [
-                [
-                  "have",
-                  "have got"
-                ]
-              ]
-            }
-          ]
-        },
-        {
-          "id": "1A-wb1b",
-          "origin": "WB",
-          "instruction": "Complete the conversations with the missing word",
-          "dialogue": true,
-          "exercises": [
-            {
-              "n": 2,
-              "type": "blank",
-              "text": "What did you {} last weekend?\nI went to the cinema with some friends.",
-              "gaps": [
-                [
-                  "do"
-                ]
-              ]
-            },
-            {
-              "n": 3,
-              "type": "blank",
-              "text": "Do you do any {} or exercise?\nYes, I love football and tennis.",
-              "gaps": [
-                [
-                  "sport",
-                  "sports"
-                ]
-              ]
-            },
-            {
-              "n": 4,
-              "type": "blank",
-              "text": "What kind of {} do you listen to?\nI love pop and rock.",
-              "gaps": [
-                [
-                  "music"
-                ]
-              ]
-            },
-            {
-              "n": 5,
-              "type": "blank",
-              "text": "What do you usually have for {}?\nJust a sandwich and some crisps normally.",
-              "gaps": [
-                [
-                  "lunch"
-                ]
-              ]
-            },
-            {
-              "n": 6,
-              "type": "blank",
-              "text": "Do you have any {}?\nYes, we have two cats.",
-              "gaps": [
-                [
-                  "pets"
-                ]
-              ]
-            },
-            {
-              "n": 7,
-              "type": "blank",
-              "text": "Where do you {}?\nIn a small flat near the railway station.",
-              "gaps": [
-                [
-                  "live"
-                ]
-              ]
-            },
-            {
-              "n": 8,
-              "type": "blank",
-              "text": "Where did you {} English before?\nAt school.",
-              "gaps": [
-                [
-                  "learn",
-                  "study",
-                  "do"
-                ]
-              ]
-            },
-            {
-              "n": 9,
-              "type": "blank",
-              "text": "What does your father {}?\nHe's a teacher.",
-              "gaps": [
-                [
-                  "do"
-                ]
-              ]
-            },
-            {
-              "n": 10,
-              "type": "blank",
-              "text": "Where were you {}?\nIn Budapest, in 1998. My mum is Hungarian.",
-              "gaps": [
-                [
-                  "born"
-                ]
-              ]
-            }
-          ]
-        },
-        {
-          "id": "1A-vocabulary-x1",
-          "origin": "GENERATED",
-          "instruction": "Complete the sentences with a verb.",
-          "exercises": [
-            {
-              "n": 1,
-              "type": "blank",
-              "text": "Do you {} with your parents or on your own?",
-              "gaps": [
-                [
-                  "live"
-                ]
-              ],
-              "explain": "live with somebody, live in a house / a flat.",
-              "source": "MODEL"
-            },
-            {
-              "n": 2,
-              "type": "blank",
-              "text": "My grandfather was {} in 1950.",
-              "gaps": [
-                [
-                  "born"
-                ]
-              ],
-              "explain": "be born: I was born in…, he was born in…",
-              "source": "MODEL"
-            },
-            {
-              "n": 3,
-              "type": "blank",
-              "text": "I {} a magazine on the train every morning.",
-              "gaps": [
-                [
-                  "read"
-                ]
-              ],
-              "explain": "read an email, a magazine, a book.",
-              "source": "MODEL"
-            },
-            {
-              "n": 4,
-              "type": "blank",
-              "text": "We {} a TV series every evening after dinner.",
-              "gaps": [
-                [
-                  "watch"
-                ]
-              ],
-              "explain": "watch a film, a TV series, the news.",
-              "source": "MODEL"
-            },
-            {
-              "n": 5,
-              "type": "blank",
-              "text": "She {} yoga twice a week.",
-              "gaps": [
-                [
-                  "does"
-                ]
-              ],
-              "explain": "do sport, exercise, yoga. She → does.",
-              "source": "MODEL"
-            },
-            {
-              "n": 6,
-              "type": "blank",
-              "text": "I {} to the radio in the car.",
-              "gaps": [
-                [
-                  "listen"
-                ]
-              ],
-              "explain": "listen to music, the radio. Don't forget to.",
-              "source": "MODEL"
-            },
-            {
-              "n": 7,
-              "type": "blank",
-              "text": "They {} three children and a dog.",
-              "gaps": [
-                [
-                  "have",
-                  "have got"
-                ]
-              ],
-              "explain": "have + family and pets: They have three children.",
-              "source": "MODEL"
-            },
-            {
-              "n": 8,
-              "type": "blank",
-              "text": "Can you {} Spanish?",
-              "gaps": [
-                [
-                  "speak"
-                ]
-              ],
-              "explain": "speak a language: speak English, speak Spanish.",
-              "source": "MODEL"
-            }
-          ]
-        },
-        {
-          "id": "1A-vocabulary-x2",
-          "origin": "GENERATED",
-          "instruction": "Complete the conversations with the missing word.",
-          "dialogue": true,
-          "exercises": [
-            {
-              "n": 1,
-              "type": "blank",
-              "text": "Do you live in a house?\nNo, I live in a small {} in the city centre.",
-              "gaps": [
-                [
-                  "flat",
-                  "apartment"
-                ]
-              ],
-              "explain": "a flat (British English) = an apartment.",
-              "source": "MODEL"
-            },
-            {
-              "n": 2,
-              "type": "blank",
-              "text": "Where did you go on {} last year?\nTo Greece, with my family.",
-              "gaps": [
-                [
-                  "holiday"
-                ]
-              ],
-              "explain": "go on holiday.",
-              "source": "MODEL"
-            },
-            {
-              "n": 3,
-              "type": "blank",
-              "text": "What {} do you like watching?\nComedies. I love funny films.",
-              "gaps": [
-                [
-                  "films",
-                  "movies"
-                ]
-              ],
-              "explain": "films = movies. A comedy is a kind of film.",
-              "source": "MODEL"
-            },
-            {
-              "n": 4,
-              "type": "blank",
-              "text": "Can you speak a foreign {}?\nYes, a little German.",
-              "gaps": [
-                [
-                  "language"
-                ]
-              ],
-              "explain": "a foreign language: German, French, Spanish…",
-              "source": "MODEL"
-            },
-            {
-              "n": 5,
-              "type": "blank",
-              "text": "What do you do?\nI'm a nurse. I really like my {}.",
-              "gaps": [
-                [
-                  "job",
-                  "work"
-                ]
-              ],
-              "explain": "What do you do? = What's your job?",
-              "source": "MODEL"
-            },
-            {
-              "n": 6,
-              "type": "blank",
-              "text": "What's your favourite {}?\nTennis. I play every Saturday.",
-              "gaps": [
-                [
-                  "sport"
-                ]
-              ],
-              "explain": "Tennis and football are sports.",
-              "source": "MODEL"
-            },
-            {
-              "n": 7,
-              "type": "blank",
-              "text": "What time do you usually have {}?\nAt about seven, after work.",
-              "gaps": [
-                [
-                  "dinner",
-                  "supper"
-                ]
-              ],
-              "explain": "breakfast (morning), lunch (midday), dinner (evening).",
-              "source": "MODEL"
-            }
-          ]
-        },
-        {
-          "id": "1A-vocabulary-x3",
-          "origin": "GENERATED",
-          "instruction": "Correct the mistakes. If a sentence is correct, leave it as it is.",
-          "exercises": [
-            {
-              "n": 1,
-              "type": "rewrite",
-              "prompt": "I make exercise every morning.",
-              "answers": [
-                "I do exercise every morning."
-              ],
-              "explain": "We say do exercise, do sport — not make.",
-              "source": "MODEL"
-            },
-            {
-              "n": 2,
-              "type": "rewrite",
-              "prompt": "Do you listen music in the car?",
-              "answers": [
-                "Do you listen to music in the car?"
-              ],
-              "explain": "listen to + music / the radio.",
-              "source": "MODEL"
-            },
-            {
-              "n": 3,
-              "type": "rewrite",
-              "prompt": "She was borned in Italy.",
-              "answers": [
-                "She was born in Italy."
-              ],
-              "explain": "be born: born, not borned.",
-              "source": "MODEL"
-            },
-            {
-              "n": 4,
-              "type": "rewrite",
-              "prompt": "We went on holiday to Portugal last year.",
-              "answers": [
-                "We went on holiday to Portugal last year."
-              ],
-              "explain": "Correct: go on holiday.",
-              "source": "MODEL"
-            },
-            {
-              "n": 5,
-              "type": "rewrite",
-              "prompt": "He goes to cinema every Friday.",
-              "answers": [
-                "He goes to the cinema every Friday."
-              ],
-              "explain": "go to the cinema — with the.",
-              "source": "MODEL"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "1A-pronunciation",
       "kind": "PRONUNCIATION",
       "title": "the alphabet",
@@ -1880,7 +1946,10 @@
                 ]
               ],
               "source": "MODEL",
-              "clip": [2.43, 7.31]
+              "clip": [
+                2.43,
+                7.31
+              ]
             },
             {
               "n": 2,
@@ -1892,7 +1961,10 @@
                 ]
               ],
               "source": "MODEL",
-              "clip": [8.9, 13.7]
+              "clip": [
+                8.9,
+                13.7
+              ]
             },
             {
               "n": 3,
@@ -1904,7 +1976,10 @@
                 ]
               ],
               "source": "MODEL",
-              "clip": [15.18, 19.8]
+              "clip": [
+                15.18,
+                19.8
+              ]
             },
             {
               "n": 4,
@@ -1916,7 +1991,10 @@
                 ]
               ],
               "source": "MODEL",
-              "clip": [21.32, 25.96]
+              "clip": [
+                21.32,
+                25.96
+              ]
             },
             {
               "n": 5,
@@ -1928,7 +2006,10 @@
                 ]
               ],
               "source": "MODEL",
-              "clip": [27.5, 31.92]
+              "clip": [
+                27.5,
+                31.92
+              ]
             },
             {
               "n": 6,
@@ -1940,7 +2021,10 @@
                 ]
               ],
               "source": "MODEL",
-              "clip": [33.43, 37.08]
+              "clip": [
+                33.43,
+                37.08
+              ]
             },
             {
               "n": 7,
@@ -1952,7 +2036,10 @@
                 ]
               ],
               "source": "MODEL",
-              "clip": [38.59, 41.74]
+              "clip": [
+                38.59,
+                41.74
+              ]
             }
           ]
         },
@@ -1974,7 +2061,10 @@
               ],
               "hint": "(a big plant with a trunk and leaves)",
               "source": "MODEL",
-              "clip": [9.69, 12.25]
+              "clip": [
+                9.69,
+                12.25
+              ]
             },
             {
               "n": 3,
@@ -1987,7 +2077,10 @@
               ],
               "hint": "(a chicken lays it; you can eat it for breakfast)",
               "source": "MODEL",
-              "clip": [15.34, 17.67]
+              "clip": [
+                15.34,
+                17.67
+              ]
             },
             {
               "n": 4,
@@ -2001,7 +2094,10 @@
               ],
               "hint": "(it has two wheels; you ride it)",
               "source": "MODEL",
-              "clip": [20.83, 23.32]
+              "clip": [
+                20.83,
+                23.32
+              ]
             },
             {
               "n": 5,
@@ -2015,7 +2111,10 @@
               ],
               "hint": "(you call people with it)",
               "source": "MODEL",
-              "clip": [26.98, 29.56]
+              "clip": [
+                26.98,
+                29.56
+              ]
             },
             {
               "n": 6,
@@ -2028,7 +2127,10 @@
               ],
               "hint": "(a tall shoe)",
               "source": "MODEL",
-              "clip": [32.28, 34.72]
+              "clip": [
+                32.28,
+                34.72
+              ]
             },
             {
               "n": 7,
@@ -2041,7 +2143,10 @@
               ],
               "hint": "(you drive it)",
               "source": "MODEL",
-              "clip": [37.65, 40.26]
+              "clip": [
+                37.65,
+                40.26
+              ]
             }
           ]
         },
@@ -2173,49 +2278,70 @@
               "type": "speak",
               "text": "train",
               "source": "MODEL",
-              "clip": [3.9, 5.09]
+              "clip": [
+                3.9,
+                5.09
+              ]
             },
             {
               "n": 2,
               "type": "speak",
               "text": "tree",
               "source": "MODEL",
-              "clip": [18.93, 20.09]
+              "clip": [
+                18.93,
+                20.09
+              ]
             },
             {
               "n": 3,
               "type": "speak",
               "text": "egg",
               "source": "MODEL",
-              "clip": [43.6, 44.59]
+              "clip": [
+                43.6,
+                44.59
+              ]
             },
             {
               "n": 4,
               "type": "speak",
               "text": "bike",
               "source": "MODEL",
-              "clip": [65.67, 66.81]
+              "clip": [
+                65.67,
+                66.81
+              ]
             },
             {
               "n": 5,
               "type": "speak",
               "text": "phone",
               "source": "MODEL",
-              "clip": [75.69, 76.94]
+              "clip": [
+                75.69,
+                76.94
+              ]
             },
             {
               "n": 6,
               "type": "speak",
               "text": "boot",
               "source": "MODEL",
-              "clip": [82.93, 83.98]
+              "clip": [
+                82.93,
+                83.98
+              ]
             },
             {
               "n": 7,
               "type": "speak",
               "text": "car",
               "source": "MODEL",
-              "clip": [95.44, 96.58]
+              "clip": [
+                95.44,
+                96.58
+              ]
             }
           ]
         },
@@ -2460,7 +2586,10 @@
                 ]
               ],
               "source": "CONFIRMED",
-              "clip": [15.37, 20.94]
+              "clip": [
+                15.37,
+                20.94
+              ]
             },
             {
               "n": 3,
@@ -2474,7 +2603,10 @@
                 ]
               ],
               "source": "CONFIRMED",
-              "clip": [24.39, 31.53]
+              "clip": [
+                24.39,
+                31.53
+              ]
             },
             {
               "n": 4,
@@ -2486,7 +2618,10 @@
                 ]
               ],
               "source": "CONFIRMED",
-              "clip": [34.74, 58.79]
+              "clip": [
+                34.74,
+                58.79
+              ]
             },
             {
               "n": 5,
@@ -2498,7 +2633,10 @@
                 ]
               ],
               "source": "CONFIRMED",
-              "clip": [62.23, 68.91]
+              "clip": [
+                62.23,
+                68.91
+              ]
             },
             {
               "n": 6,
@@ -2512,7 +2650,10 @@
                 ]
               ],
               "source": "CONFIRMED",
-              "clip": [72.21, 83.18]
+              "clip": [
+                72.21,
+                83.18
+              ]
             }
           ]
         },
@@ -2635,14 +2776,45 @@
               "n": 1,
               "type": "order",
               "pictures": [
-                {"label": "A", "image": "1a_pe1a_a", "caption": "Rob in a new shirt"},
-                {"label": "B", "image": "1a_pe1a_b", "caption": "Jenny at Arrivals with her suitcase"},
-                {"label": "C", "image": "1a_pe1a_c", "caption": "Jenny and Rob with coffee"},
-                {"label": "D", "image": "1a_pe1a_d", "caption": "Jenny shakes hands with the manager"},
-                {"label": "E", "image": "1a_pe1a_e", "caption": "Rob next to a yellow taxi"},
-                {"label": "F", "image": "1a_pe1a_f", "caption": "Jenny and Rob under an umbrella by the river"}
+                {
+                  "label": "A",
+                  "image": "1a_pe1a_a",
+                  "caption": "Rob in a new shirt"
+                },
+                {
+                  "label": "B",
+                  "image": "1a_pe1a_b",
+                  "caption": "Jenny at Arrivals with her suitcase"
+                },
+                {
+                  "label": "C",
+                  "image": "1a_pe1a_c",
+                  "caption": "Jenny and Rob with coffee"
+                },
+                {
+                  "label": "D",
+                  "image": "1a_pe1a_d",
+                  "caption": "Jenny shakes hands with the manager"
+                },
+                {
+                  "label": "E",
+                  "image": "1a_pe1a_e",
+                  "caption": "Rob next to a yellow taxi"
+                },
+                {
+                  "label": "F",
+                  "image": "1a_pe1a_f",
+                  "caption": "Jenny and Rob under an umbrella by the river"
+                }
               ],
-              "answer": ["B", "D", "C", "F", "A", "E"],
+              "answer": [
+                "B",
+                "D",
+                "C",
+                "F",
+                "A",
+                "E"
+              ],
               "source": "MODEL"
             }
           ]
@@ -2795,7 +2967,10 @@
                 ]
               ],
               "source": "CONFIRMED",
-              "clip": [19.65, 21.2]
+              "clip": [
+                19.65,
+                21.2
+              ]
             },
             {
               "n": 2,
@@ -2807,7 +2982,10 @@
                 ]
               ],
               "source": "CONFIRMED",
-              "clip": [26.4, 30.1]
+              "clip": [
+                26.4,
+                30.1
+              ]
             },
             {
               "n": 3,
@@ -2819,7 +2997,10 @@
                 ]
               ],
               "source": "CONFIRMED",
-              "clip": [38.8, 40.7]
+              "clip": [
+                38.8,
+                40.7
+              ]
             },
             {
               "n": 4,
@@ -2831,7 +3012,10 @@
                 ]
               ],
               "source": "CONFIRMED",
-              "clip": [49.8, 53.3]
+              "clip": [
+                49.8,
+                53.3
+              ]
             }
           ]
         },
@@ -2852,21 +3036,30 @@
                 "Hello. This is room 6 1 3.",
                 "Hello. This is room 6 13."
               ],
-              "clip": [17.02, 19.8]
+              "clip": [
+                17.02,
+                19.8
+              ]
             },
             {
               "n": 2,
               "type": "speak",
               "text": "There's a problem with the air conditioning.",
               "source": "CONFIRMED",
-              "clip": [28.64, 30.8]
+              "clip": [
+                28.64,
+                30.8
+              ]
             },
             {
               "n": 3,
               "type": "speak",
               "text": "It isn't working, and it's very hot in my room.",
               "source": "CONFIRMED",
-              "clip": [35.9, 39.35]
+              "clip": [
+                35.9,
+                39.35
+              ]
             },
             {
               "n": 4,
@@ -2878,7 +3071,10 @@
                 "Hello. I'm sorry to bother you again. This is room 6 1 3.",
                 "Hello. I'm sorry to bother you again. This is room 6 13."
               ],
-              "clip": [63.34, 74.4]
+              "clip": [
+                63.34,
+                74.4
+              ]
             },
             {
               "n": 5,
@@ -2889,14 +3085,20 @@
                 "I have a problem with the wi-fi.",
                 "I have a problem with the wifi."
               ],
-              "clip": [80.68, 82.95]
+              "clip": [
+                80.68,
+                82.95
+              ]
             },
             {
               "n": 6,
               "type": "speak",
               "text": "I can't get a signal.",
               "source": "CONFIRMED",
-              "clip": [88.0, 89.9]
+              "clip": [
+                88.0,
+                89.9
+              ]
             }
           ]
         },
@@ -3113,7 +3315,10 @@
                 ]
               ],
               "source": "CONFIRMED",
-              "clip": [5.86, 7.93]
+              "clip": [
+                5.86,
+                7.93
+              ]
             },
             {
               "n": 2,
@@ -3125,7 +3330,10 @@
                 ]
               ],
               "source": "CONFIRMED",
-              "clip": [13.33, 14.99]
+              "clip": [
+                13.33,
+                14.99
+              ]
             },
             {
               "n": 3,
@@ -3137,7 +3345,10 @@
                 ]
               ],
               "source": "CONFIRMED",
-              "clip": [20.42, 23.19]
+              "clip": [
+                20.42,
+                23.19
+              ]
             },
             {
               "n": 4,
@@ -3149,7 +3360,10 @@
                 ]
               ],
               "source": "CONFIRMED",
-              "clip": [28.45, 30.52]
+              "clip": [
+                28.45,
+                30.52
+              ]
             },
             {
               "n": 5,
@@ -3161,7 +3375,10 @@
                 ]
               ],
               "source": "CONFIRMED",
-              "clip": [35.73, 37.14]
+              "clip": [
+                35.73,
+                37.14
+              ]
             },
             {
               "n": 6,
@@ -3173,7 +3390,10 @@
                 ]
               ],
               "source": "CONFIRMED",
-              "clip": [42.51, 44.37]
+              "clip": [
+                42.51,
+                44.37
+              ]
             }
           ]
         },
@@ -3189,42 +3409,60 @@
               "type": "speak",
               "text": "It's great to be here.",
               "source": "CONFIRMED",
-              "clip": [5.86, 7.93]
+              "clip": [
+                5.86,
+                7.93
+              ]
             },
             {
               "n": 2,
               "type": "speak",
               "text": "Do you have a good view?",
               "source": "CONFIRMED",
-              "clip": [13.33, 14.99]
+              "clip": [
+                13.33,
+                14.99
+              ]
             },
             {
               "n": 3,
               "type": "speak",
               "text": "You must be really tired.",
               "source": "CONFIRMED",
-              "clip": [20.42, 23.19]
+              "clip": [
+                20.42,
+                23.19
+              ]
             },
             {
               "n": 4,
               "type": "speak",
               "text": "I guess you're right.",
               "source": "CONFIRMED",
-              "clip": [28.45, 30.52]
+              "clip": [
+                28.45,
+                30.52
+              ]
             },
             {
               "n": 5,
               "type": "speak",
               "text": "By the way…",
               "source": "CONFIRMED",
-              "clip": [35.73, 37.14]
+              "clip": [
+                35.73,
+                37.14
+              ]
             },
             {
               "n": 6,
               "type": "speak",
               "text": "It's great to see you, too.",
               "source": "CONFIRMED",
-              "clip": [42.51, 44.37]
+              "clip": [
+                42.51,
+                44.37
+              ]
             }
           ]
         },

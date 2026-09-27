@@ -25,6 +25,8 @@ object TrainingQueue {
     const val FRESH_ARRIVALS = 5
     const val NEW_VERBS_PER_DAY = 5
     const val VERB_LIMIT = 10
+    const val VERB_SHARE = 5
+    const val BOOK_RUN = 3
 
     fun firstPass(
         section: Section,
@@ -66,58 +68,24 @@ object TrainingQueue {
         ai: Boolean = false,
         generated: Map<String, List<Exercise>> = emptyMap(),
         verbs: List<Exercise> = emptyList(),
+        skipped: Set<String> = emptySet(),
     ): ReviewPlan {
-        fun answeredToday(e: Exercise) = progress[e.id]?.lastAnsweredOn == today
-
         val due =
             chapters
                 .filter { it.id in completed }
                 .flatMap { c -> c.exercises + c.sections.flatMap { freshOf(it, generated) } }
-                .filter { e -> progress[e.id]?.let { it.dueOn <= today } == true && !answeredToday(e) }
+                .filter { e -> progress[e.id]?.let { it.dueOn <= today && it.lastAnsweredOn != today } == true }
                 .sortedBy { progress.getValue(it.id).dueOn }
                 .take(DUE_LIMIT)
 
-        val verbsToday = verbs(verbs, progress, today)
-        val chapter =
-            ChapterCompletion.current(chapters, completed) ?: return ReviewPlan(due, emptyList(), verbsToday)
-        val room = SESSION_SIZE - due.size
-
-        val open = ChapterCompletion.activeSections(chapter, progress)
-        val candidates =
-            open
-                .flatMap { if (ai) it.exercises + it.aiExercises else it.exercises }
-                .filterNot(::answeredToday)
-        val fresh =
-            open
-                .filter { GenerationPlan.bookMastered(it, progress) }
-                .flatMap { freshOf(it, generated) }
-                .filterNot(::answeredToday)
-        val (mastered, unmastered) = candidates.partition { Mastery.isMastered(progress[it.id]) }
-        val (freshMastered, freshUnmastered) = fresh.partition { Mastery.isMastered(progress[it.id]) }
-
-        val weakFirst =
-            unmastered.sortedWith(
-                compareBy<Exercise>(
-                    { it.id !in progress },
-                    { progress[it.id]?.streak ?: 0 },
-                    { progress[it.id]?.lastAnsweredOn },
-                ),
-            )
-        val freshFirst =
-            freshUnmastered.sortedWith(
-                compareBy<Exercise>(
-                    { it.id in progress },
-                    { progress[it.id]?.streak ?: 0 },
-                    { progress[it.id]?.lastAnsweredOn },
-                ),
-            )
-        val oldestMastered = (mastered + freshMastered).sortedBy { progress.getValue(it.id).lastAnsweredOn }
-
-        val mixCount = minOf(oldestMastered.size, room / MASTERED_SHARE)
-        val main = (weakFirst + freshFirst).take(room - mixCount)
-        val mix = oldestMastered.take(mixCount)
-
-        return ReviewPlan(due, interleave(main, mix), verbsToday)
+        val verbPool = verbs(verbs, progress, today)
+        val room = SESSION_SIZE - due.size - minOf(verbPool.size, VERB_SHARE)
+        val current =
+            ChapterCompletion
+                .current(chapters, completed)
+                ?.let { CurrentReview.plan(ReviewScope(it, progress, today, ai, generated, skipped), room) }
+                .orEmpty()
+        return ReviewPlan(due, current, verbPool.take(SESSION_SIZE - due.size - current.size))
     }
 
     fun verbs(
@@ -139,20 +107,4 @@ object TrainingQueue {
         progress: Progress,
         today: LocalDate,
     ): Boolean = progress.lastAnsweredOn == today && progress.correctCount + progress.wrongCount == 1
-
-    private fun interleave(
-        main: List<Exercise>,
-        mix: List<Exercise>,
-    ): List<Exercise> {
-        if (mix.isEmpty()) return main
-        val step = main.size / (mix.size + 1) + 1
-        val result = mutableListOf<Exercise>()
-        var m = 0
-        main.forEachIndexed { i, e ->
-            result += e
-            if ((i + 1) % step == 0 && m < mix.size) result += mix[m++]
-        }
-        while (m < mix.size) result += mix[m++]
-        return result
-    }
 }

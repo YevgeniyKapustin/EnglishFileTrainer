@@ -38,7 +38,7 @@ object DayFlow {
         day: DayState,
         today: LocalDate,
     ): DayStep =
-        if (reviewPending(plan, progress, day.reviewedOn, today)) {
+        if (reviewPending(plan, day.reviewedOn, today)) {
             DayStep.Review
         } else {
             actual(chapters, completed, progress, day, today) ?: restOrReview(plan)
@@ -46,13 +46,12 @@ object DayFlow {
 
     fun reviewPending(
         plan: ReviewPlan,
-        progress: Map<String, Progress>,
         reviewedOn: LocalDate?,
         today: LocalDate,
     ): Boolean =
         plan.due.isNotEmpty() ||
             plan.verbs.isNotEmpty() ||
-            (reviewedOn != today && plan.current.any { it.id in progress })
+            (reviewedOn != today && plan.current.isNotEmpty())
 
     fun actual(
         chapters: List<Chapter>,

@@ -45,12 +45,36 @@ class IrregularVerbsQueueTest {
         assertEquals((1..TrainingQueue.VERB_LIMIT).map { "iv-$it" }, ids(progress))
     }
 
-    @Test fun `verbs come on top of the chapter review`() {
+    @Test fun `verbs count inside the session and leave the chapter its room`() {
         val chapters = listOf(chapter("1A", section("g", 30)))
-        val plan = TrainingQueue.review(chapters, emptySet(), emptyMap(), TODAY, verbs = verbs)
-        assertEquals(TrainingQueue.SESSION_SIZE, plan.current.size)
-        assertEquals(TrainingQueue.NEW_VERBS_PER_DAY, plan.verbs.size)
-        assertEquals(plan.verbs, plan.all.take(TrainingQueue.NEW_VERBS_PER_DAY))
+        val seen = (1..30).map { progress("g-$it") }.byId()
+        val plan = TrainingQueue.review(chapters, emptySet(), seen, TODAY, verbs = verbs)
+        assertEquals(TrainingQueue.SESSION_SIZE, plan.all.size)
+        assertEquals(TrainingQueue.VERB_SHARE, plan.verbs.size)
+        assertEquals(TrainingQueue.SESSION_SIZE - TrainingQueue.VERB_SHARE, plan.current.size)
+        assertEquals(plan.verbs, plan.all.take(TrainingQueue.VERB_SHARE))
+    }
+
+    @Test fun `verbs take the room a short chapter review leaves, up to their limit`() {
+        val chapters = listOf(chapter("1A", section("g", 30)))
+        val progress = (listOf(progress("g-1")) + (1..12).map { progress("iv-$it", dueOn = TODAY.minusDays(1)) }).byId()
+        val plan = TrainingQueue.review(chapters, emptySet(), progress, TODAY, verbs = verbs)
+        assertEquals(listOf("g-1"), plan.current.map { it.id })
+        assertEquals(TrainingQueue.VERB_LIMIT, plan.verbs.size)
+    }
+
+    @Test fun `due and verbs never push the session past its size`() {
+        val chapters = listOf(chapter("1A", section("a", 15)), chapter("1B", section("g", 30)))
+        val progress =
+            (
+                (1..15).map { mastered("a-$it", dueOn = TODAY.minusDays(1)) } +
+                    (1..30).map { progress("g-$it") } +
+                    (1..12).map { progress("iv-$it", dueOn = TODAY.minusDays(1)) }
+            ).byId()
+        val plan = TrainingQueue.review(chapters, setOf("1A"), progress, TODAY, verbs = verbs)
+        assertEquals(TrainingQueue.DUE_LIMIT, plan.due.size)
+        assertEquals(TrainingQueue.VERB_SHARE, plan.verbs.size)
+        assertEquals(TrainingQueue.SESSION_SIZE, plan.all.size)
     }
 
     @Test fun `verbs stay in review when the whole book is done`() {

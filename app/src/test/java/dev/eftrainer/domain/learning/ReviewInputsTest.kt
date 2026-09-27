@@ -21,7 +21,12 @@ class ReviewInputsTest {
         mastered: Boolean = false,
     ) = ReviewInputs(
         completed = emptySet(),
-        progress = if (mastered) listOf(mastered("g-1"), mastered("g-2")).byId() else emptyMap(),
+        progress =
+            if (mastered) {
+                listOf(mastered("g-1"), mastered("g-2")).byId()
+            } else {
+                listOf(progress("g-1"), progress("g-2"), progress("g-talk")).byId()
+            },
         ai = ai,
         generated = generated,
     ).plan(chapters, TODAY).all.map { it.id }
@@ -31,14 +36,29 @@ class ReviewInputsTest {
         assertEquals(listOf("g-1", "g-2", "g-talk"), ids(ai = true))
     }
 
-    @Test fun `fresh exercises counted as soon as they exist for a mastered section`() {
-        val before = ids(ai = false, mastered = true)
-        val after = ids(ai = false, generated = mapOf("g" to generated("g", 3)), mastered = true)
-        assertEquals(3, after.size - before.size)
-        assertEquals(listOf("g-gen-0001", "g-gen-0002", "g-gen-0003"), after.filter { "-gen-" in it })
+    @Test fun `fresh exercises replace the book as soon as they exist for a seen section`() {
+        assertEquals(listOf("g-1", "g-2"), ids(ai = false, mastered = true))
+        assertEquals(
+            listOf("g-gen-0001", "g-gen-0002", "g-gen-0003"),
+            ids(ai = false, generated = mapOf("g" to generated("g", 3)), mastered = true),
+        )
     }
 
-    @Test fun `presets counted once the book of the section is mastered`() {
+    @Test fun `skipped items make a section seen`() {
+        val chapters = listOf(chapter("1A", section("g", 2).withPresets(1)))
+        val inputs = ReviewInputs(emptySet(), listOf(progress("g-1")).byId(), ai = false, generated = emptyMap())
+        assertEquals(listOf("g-1"), inputs.plan(chapters, TODAY).all.map { it.id })
+        assertEquals(
+            listOf("g-x1-01"),
+            inputs
+                .copy(skipped = setOf("g-2"))
+                .plan(chapters, TODAY)
+                .all
+                .map { it.id },
+        )
+    }
+
+    @Test fun `presets counted once the book of the section is seen`() {
         val chapters = listOf(chapter("1A", section("g", 2).withPresets(2)))
 
         fun ids(progress: List<dev.eftrainer.data.db.entities.Progress>) =
@@ -48,10 +68,7 @@ class ReviewInputsTest {
                 ai = false,
                 generated = emptyMap(),
             ).plan(chapters, TODAY).all.map { it.id }
-        assertEquals(listOf("g-1", "g-2"), ids(emptyList()))
-        assertEquals(
-            listOf("g-x1-01", "g-x1-02"),
-            ids(listOf(mastered("g-1"), mastered("g-2"))).filter { "-x1-" in it },
-        )
+        assertEquals(listOf("g-1"), ids(listOf(progress("g-1"))))
+        assertEquals(listOf("g-x1-01", "g-x1-02"), ids(listOf(progress("g-1"), progress("g-2"))))
     }
 }

@@ -8,6 +8,7 @@ import dev.eftrainer.data.SkipLog
 import dev.eftrainer.data.content.Chapter
 import dev.eftrainer.data.content.Exercise
 import dev.eftrainer.data.content.exercises
+import java.time.LocalDate
 
 class Learning(
     private val progress: ProgressRepository,
@@ -32,12 +33,24 @@ class Learning(
         val today = clock.today()
         progress.save(Fsrs.next(exercise.id, progress.get(exercise.id), correct, today))
         log.add(exercise.id, clock.now(), correct)
+        creditSource(exercise, correct, today)
         return completeChapterOf(exercise)
     }
 
     suspend fun skip(exercise: Exercise): Chapter? {
         skips.add(exercise.id)
         return completeChapterOf(exercise)
+    }
+
+    private suspend fun creditSource(
+        exercise: Exercise,
+        correct: Boolean,
+        today: LocalDate,
+    ) {
+        val section = FreshCredit.sectionOf(chapters.chapters, exercise.id) ?: return
+        val all = progress.getAll()
+        val source = FreshCredit.source(section, all, today) ?: return
+        progress.save(Fsrs.next(source.id, all[source.id], correct, today))
     }
 
     private suspend fun completeChapterOf(exercise: Exercise): Chapter? {

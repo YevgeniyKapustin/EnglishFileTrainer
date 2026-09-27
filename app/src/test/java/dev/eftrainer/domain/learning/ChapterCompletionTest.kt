@@ -38,10 +38,4 @@ class ChapterCompletionTest {
     @Test fun `all sections are open from the start`() {
         assertEquals(listOf("g", "v", "p"), ChapterCompletion.openSections(c1).map { it.id })
     }
-
-    @Test fun `review covers first and started sections only`() {
-        assertEquals(listOf("g"), ChapterCompletion.activeSections(c1, emptyMap()).map { it.id })
-        val progress = listOf(progress("p-1")).byId()
-        assertEquals(listOf("g", "p"), ChapterCompletion.activeSections(c1, progress).map { it.id })
-    }
 }

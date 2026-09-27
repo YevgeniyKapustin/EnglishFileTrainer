@@ -18,10 +18,4 @@ object ChapterCompletion {
     ): Chapter? = chapters.firstOrNull { it.id !in completed }
 
     fun openSections(chapter: Chapter): List<Section> = chapter.sections
-
-    fun activeSections(
-        chapter: Chapter,
-        progress: Map<String, Progress>,
-    ): List<Section> =
-        chapter.sections.filterIndexed { i, s -> i == 0 || s.tasks.any { t -> t.exercises.any { it.id in progress } } }
 }

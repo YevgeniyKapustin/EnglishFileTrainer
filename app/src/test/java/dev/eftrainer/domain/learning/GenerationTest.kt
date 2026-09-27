@@ -23,13 +23,21 @@ class GenerationTest {
     private val withPresets = chapter("1B", section("g", 3).withPresets(4), section("v", 2))
     private val bookMastered = (1..3).map { mastered("g-$it") }
 
-    @Test fun `nothing to generate until book of section is mastered`() {
-        val progress = listOf(mastered("g-1"), mastered("g-2"), progress("g-3", streak = 2)).byId()
+    @Test fun `nothing to generate until every book item of section was answered`() {
+        val progress = listOf(mastered("g-1"), mastered("g-2")).byId()
         assertEquals(emptyList<Any>(), GenerationPlan.refill(cur, progress, emptyMap()))
     }
 
-    @Test fun `mastered section refilled up to stock when low`() {
-        val progress = (1..3).map { mastered("g-$it") }.byId()
+    @Test fun `skipped book items count as seen for generation`() {
+        val progress = listOf(progress("g-1"), progress("g-2")).byId()
+        assertEquals(
+            listOf("g" to GenerationPlan.STOCK),
+            GenerationPlan.refill(cur, progress, emptyMap(), setOf("g-3")).map { it.first.id to it.second },
+        )
+    }
+
+    @Test fun `seen section refilled up to stock when low, mastery not needed`() {
+        val progress = (1..3).map { progress("g-$it") }.byId()
         val plan = GenerationPlan.refill(cur, progress, mapOf("g" to generated("g", 3)))
         assertEquals(listOf("g" to GenerationPlan.STOCK - 3), plan.map { it.first.id to it.second })
     }

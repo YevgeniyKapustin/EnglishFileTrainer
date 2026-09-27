@@ -2,6 +2,7 @@ package dev.eftrainer.domain.learning
 
 import dev.eftrainer.data.ChapterRepository
 import dev.eftrainer.data.ProgressRepository
+import dev.eftrainer.data.SkipLog
 import dev.eftrainer.data.ai.AiClient
 import dev.eftrainer.data.ai.AiException
 import dev.eftrainer.data.content.Chapter
@@ -27,10 +28,11 @@ object GenerationPlan {
     const val STOCK = 15
     const val LOW = 8
 
-    fun bookMastered(
+    fun bookSeen(
         section: Section,
         progress: Map<String, Progress>,
-    ): Boolean = section.exercises.isNotEmpty() && section.exercises.all { Mastery.isMastered(progress[it.id]) }
+        skipped: Set<String> = emptySet(),
+    ): Boolean = section.exercises.isNotEmpty() && section.exercises.all { it.id in progress || it.id in skipped }
 
     fun eligible(section: Section): Boolean =
         section.kind == SectionKind.GRAMMAR || section.kind == SectionKind.VOCABULARY
@@ -44,10 +46,11 @@ object GenerationPlan {
         chapter: Chapter,
         progress: Map<String, Progress>,
         generated: Map<String, List<Exercise>>,
+        skipped: Set<String> = emptySet(),
     ): List<Pair<Section, Int>> =
         ChapterCompletion
             .openSections(chapter)
-            .filter { eligible(it) && bookMastered(it, progress) && presetsUsed(it, progress) }
+            .filter { eligible(it) && bookSeen(it, progress, skipped) && presetsUsed(it, progress) }
             .mapNotNull { s ->
                 val stock = generated[s.id].orEmpty().count { it.id !in progress }
                 if (stock < LOW) s to STOCK - stock else null
@@ -58,6 +61,7 @@ class Generation(
     private val generated: GeneratedRepository,
     private val progress: ProgressRepository,
     private val chapters: ChapterRepository,
+    private val skips: SkipLog,
     private val ai: AiClient,
     private val scope: CoroutineScope = CoroutineScope(SupervisorJob() + Dispatchers.IO),
     private val now: () -> Long = System::currentTimeMillis,
@@ -88,7 +92,7 @@ class Generation(
         val progress = progress.getAll()
         val bySection = generated.bySection()
         val studied = all.take(all.indexOf(chapter) + 1)
-        for ((section, need) in GenerationPlan.refill(chapter, progress, bySection)) {
+        for ((section, need) in GenerationPlan.refill(chapter, progress, bySection, skips.getAll())) {
             val existing = (section.presets + bySection[section.id].orEmpty()).toMutableList()
             var left = need
             repeat(MAX_REQUESTS) {

@@ -44,6 +44,14 @@ class DayFlowTest {
         assertEquals(DayStep.Review, step(progress, day, completed = setOf("1A")))
     }
 
+    @Test fun `a seen section with only new fresh items still asks for review`() {
+        val chapters = listOf(chapter("1A", section("g", 2).withPresets(2)))
+        val progress = listOf(progress("g-1", lastAnsweredOn = TODAY), progress("g-2", lastAnsweredOn = TODAY)).byId()
+        val plan = TrainingQueue.review(chapters, emptySet(), progress, TODAY)
+        assertEquals(listOf("g-x1-01", "g-x1-02"), plan.current.map { it.id })
+        assertEquals(DayStep.Review, DayFlow.step(chapters, emptySet(), progress, plan, DayState(), TODAY))
+    }
+
     @Test fun `review is over once a review session finished today and nothing is due`() {
         val progress = listOf(progress("a-1")).byId()
         assertEquals(DayStep.Continue(first), step(progress, DayState(reviewedOn = TODAY)))

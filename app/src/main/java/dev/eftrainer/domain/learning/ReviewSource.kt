@@ -3,6 +3,7 @@ package dev.eftrainer.domain.learning
 import dev.eftrainer.core.time.Clock
 import dev.eftrainer.data.ChapterRepository
 import dev.eftrainer.data.ProgressRepository
+import dev.eftrainer.data.SkipLog
 import dev.eftrainer.data.content.Chapter
 import dev.eftrainer.data.content.Exercise
 import dev.eftrainer.data.content.IrregularVerbs
@@ -22,18 +23,20 @@ data class ReviewInputs(
     val progress: Map<String, Progress>,
     val ai: Boolean,
     val generated: Map<String, List<Exercise>>,
+    val skipped: Set<String> = emptySet(),
 ) {
     fun plan(
         chapters: List<Chapter>,
         today: LocalDate,
         verbs: List<Exercise> = emptyList(),
-    ): ReviewPlan = TrainingQueue.review(chapters, completed, progress, today, ai, generated, verbs)
+    ): ReviewPlan = TrainingQueue.review(chapters, completed, progress, today, ai, generated, verbs, skipped)
 }
 
 class ReviewSource(
     private val chapters: ChapterRepository,
     progress: ProgressRepository,
     generated: GeneratedRepository,
+    skips: SkipLog,
     ai: Flow<Boolean>,
     private val clock: Clock,
     scope: CoroutineScope,
@@ -44,6 +47,7 @@ class ReviewSource(
             progress.progress,
             ai.distinctUntilChanged(),
             generated.observeBySection(),
+            skips.skipped,
             ::ReviewInputs,
         ).shareIn(scope, SharingStarted.Eagerly, replay = 1)
 

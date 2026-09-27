@@ -11,6 +11,7 @@ import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Stable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.drawBehind
@@ -127,13 +128,14 @@ private fun GapField(
     val focus = gaps.focus
     val onAction = gaps.onAction
     val last = index == exercise.gaps.lastIndex
+    val start = remember(exercise.id) { Capitals.gapStarts(exercise.text) }.getOrElse(index) { false }
     val longest = exercise.gaps[index].maxOf { it.length }
     val color = fieldColor(checked, index in gaps.wrongGaps)
     val line = if (checked) color else C.Accent
     val charWidth = style.fontSize.value / 2
     BasicTextField(
         value = gaps.values[index],
-        onValueChange = { if (!checked) gaps.onChange(index, it) },
+        onValueChange = { if (!checked) gaps.onChange(index, it.copy(text = Capitals.fix(it.text, start))) },
         readOnly = checked,
         singleLine = true,
         textStyle = style.copy(color = color, textAlign = TextAlign.Center),

@@ -60,6 +60,7 @@ fun VerbCardInput(
                         focus = gaps.focus[i],
                         onAction = { if (last || gaps.checked) gaps.onAction() else gaps.focus[i + 1].requestFocus() },
                         imeAction = if (last) ImeAction.Done else ImeAction.Next,
+                        sentenceStart = false,
                     )
                 }
             }

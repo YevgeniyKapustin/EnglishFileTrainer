@@ -63,7 +63,7 @@ internal fun TalkField(
     ) {
         BasicTextField(
             value = text,
-            onValueChange = { text = it },
+            onValueChange = { text = Capitals.fix(it, sentenceStart = true) },
             textStyle = T.field.copy(fontSize = 18.sp, lineHeight = 26.sp),
             cursorBrush = SolidColor(C.Accent),
             keyboardOptions = keyboard(ImeAction.Send),

@@ -29,6 +29,7 @@ fun KeyWordInput(
             focus = gaps.focus[0],
             onAction = gaps.onAction,
             modifier = Modifier.padding(top = 4.dp),
+            sentenceStart = Capitals.gapStarts(gaps.exercise.text).firstOrNull() ?: true,
         )
     }
 }

@@ -92,7 +92,7 @@ private fun WriteField(
     val shape = RoundedCornerShape(14.dp)
     BasicTextField(
         value = value,
-        onValueChange = { if (!locked) onChange(it) },
+        onValueChange = { if (!locked) onChange(it.copy(text = Capitals.fix(it.text, sentenceStart = true))) },
         readOnly = locked,
         textStyle = T.field.copy(fontSize = 18.sp, lineHeight = 27.sp, color = C.Ink),
         cursorBrush = SolidColor(C.Accent),

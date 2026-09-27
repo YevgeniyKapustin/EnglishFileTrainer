@@ -83,6 +83,7 @@ fun AnswerField(
     onAction: () -> Unit,
     modifier: Modifier = Modifier,
     imeAction: ImeAction = ImeAction.Done,
+    sentenceStart: Boolean = true,
 ) {
     val border =
         when {
@@ -93,7 +94,7 @@ fun AnswerField(
     val shape = RoundedCornerShape(14.dp)
     BasicTextField(
         value = value,
-        onValueChange = { if (!checked) onChange(it) },
+        onValueChange = { if (!checked) onChange(it.copy(text = Capitals.fix(it.text, sentenceStart))) },
         readOnly = checked,
         textStyle = T.field.copy(color = fieldColor(checked, !correct)),
         cursorBrush = SolidColor(C.Accent),

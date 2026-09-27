@@ -29,7 +29,6 @@ html.dark .instr.t{color:var(--ef-sky)}
 .field{display:block;line-height:28px}
 .field.ok{color:var(--ok);background:var(--field)}
 .field.bad{color:var(--bad);background:var(--field)}
-.caret{display:inline-block;width:2px;height:22px;background:var(--accent);vertical-align:-4px;margin-left:1px}
 .wbox{border:1.5px solid var(--ef-teal);border-radius:12px;padding:10px 14px;display:flex;flex-wrap:wrap;gap:4px 16px;font:400 17px/26px 'Literata',Georgia,serif}
 html.dark .wbox{border-color:var(--ef-sky)}
 .wbox .used{color:var(--off);text-decoration:line-through}
@@ -81,8 +80,6 @@ html.dark .listen,html.dark .link{color:var(--ef-sky)}
 .sayi{display:flex;align-items:center;justify-content:center;width:36px;height:36px;color:var(--muted);flex-shrink:0}
 .msg{display:flex;flex-direction:column;gap:3px;align-items:flex-start}
 .msg.me{align-items:flex-end}
-.who{font:700 12px 'Golos Text',sans-serif;letter-spacing:.06em;color:var(--ef-teal);padding:0 6px}
-html.dark .who{color:var(--ef-sky)}
 .bub2.q{display:block;font-size:19px;line-height:34px;padding:8px 14px}
 .bub2.q .gap{font-size:19px;height:30px}
 .bub2.q .hint{font-size:15px}
@@ -122,8 +119,8 @@ const TAGS = { g: ['G', 'g', 'g'], v: ['V', 'v', 'v'], p: ['P', 'p', 'p'], ls: [
 const gapW = s => Math.max(90, Math.min(260, s.length * 11 + 24));
 const gap = (answer, value = '', state = '') =>
   `<input class="gap ${state}" style="width:${gapW(answer)}px" value="${value}" autocomplete="off" spellcheck="false">`;
-const field = (value = '', state = '', caret = false) =>
-  `<div class="field en ${state}">${value}${caret ? '<span class="caret"></span>' : ''}</div>`;
+const field = (value = '', state = '') =>
+  `<div class="field en ${state}">${value}</div>`;
 const hint = h => `<span class="hint">${h}</span>`;
 const box = (words, used = []) =>
   `<div class="wbox">${words.map(w => `<span class="${used.includes(w) ? 'used' : ''}">${w}</span>`).join('')}</div>`;
@@ -134,8 +131,8 @@ const wedges = '<svg class="w" viewBox="0 0 390 220" preserveAspectRatio="none">
 const video = (pos, total, pct, small = false) =>
   `<div class="video"><div class="screen16 ${small ? 'small' : ''}">${wedges}<div class="playbig">${I.play('#fff').replace(/20/g, '28')}</div></div>` +
   `<div class="vctl"><div class="pb">${I.play('currentColor')}</div><div class="seek"><i style="width:${pct}%"></i></div><div class="time">${pos} / ${total}</div></div></div>`;
-const say = (who, html, right = false) =>
-  `<div class="msg ${right ? 'me' : ''}"><div class="who">${who}</div><div class="bub2 ${right ? 'me' : 'ai'} q en">${html}</div></div>`;
+const say = (html, right = false) =>
+  `<div class="msg ${right ? 'me' : ''}"><div class="bub2 ${right ? 'me' : 'ai'} q en">${html}</div></div>`;
 const order = rows =>
   `<div class="order">${rows.map(([l, t, c], i) => `<div class="orow ${c || ''}"><b>${i + 1}</b><span class="let">${l}</span><span class="grow">${t}</span>${I.grip}</div>`).join('')}</div>`;
 const check = enabled => `<div class="bottom"><button class="btn" ${enabled ? '' : 'disabled'}>Check</button></div>`;
@@ -149,11 +146,11 @@ const sheetBad = answer =>
 const F = [
   { n: '1', name: 'Пропуск, слово без подсказки', st: 'new', tag: 'v', count: '2 / 9', done: 22,
     instr: 'Complete the sentences',
-    body: `<div class="q en">Tanya’s dad doesn’t have any hair. He’s ${gap('bald', 'bald')}.</div>`, bottom: check(true) },
+    body: `<div class="q en">Tanya’s dad doesn’t have any hair. He’s ${gap('bald')}.</div>`, bottom: check(false) },
 
   { n: '2', name: 'Пропуск, форма слова из скобок · диалог', st: 'new', tag: 'g', count: '2 / 6', done: 17,
     instr: 'Complete the conversations with the present simple form of the verbs in brackets',
-    body: `<div class="chat">${say('A', `${gap('Does', 'Does')} Louisa ${gap('want', 'wa')} to marry her boyfriend? ${hint('(want)')}`)}${say('B', 'In a few years perhaps.', true)}</div>`, bottom: check(true) },
+    body: `<div class="chat">${say(`${gap('Does')} Louisa ${gap('want')} to marry her boyfriend? ${hint('(want)')}`)}${say('In a few years perhaps.', true)}</div>`, bottom: check(false) },
 
   { n: '3', name: 'Пропуск, слово из списка', st: 'new', tag: 'v', count: '3 / 8', done: 25,
     instr: 'Complete the definitions with an adjective from the list',
@@ -163,11 +160,11 @@ const F = [
   { n: '4', name: 'Выбор A/B → переписать верное', st: 'new', tag: 'g', count: '1 / 6', done: 0,
     instr: 'Which sentence is correct? Write it',
     body: `<div class="opts en"><div><span class="let">A</span><span>They often go out together.</span></div><div><span class="let">B</span><span>They go out often together.</span></div></div>` +
-      field('They often go out', '', true), bottom: check(true) },
+      field(), bottom: check(false) },
 
   { n: '4', name: 'T / F → исправить неверное', st: 'new', tag: 'pe', count: '1 / 6', done: 0,
     instr: 'Watch and correct the false sentences. If a sentence is true, leave it as it is',
-    body: video('0:42', '2:31', 28) + field('Rob says he doesn’t like the hotel.', '', true), bottom: check(true) },
+    body: video('0:42', '2:31', 28) + `<div class="q en">Rob says he doesn’t like the hotel.</div>` + field(), bottom: check(false) },
 
   { n: '4', name: 'J / S, номер разговора — имя словом', st: 'unsure', tag: 'ls', count: '1 / 8', done: 0,
     instr: 'Listen again. Who is it, John or Sebastian? Write the name',
@@ -179,7 +176,7 @@ const F = [
 
   { n: '6', name: 'Анаграмма', st: 'как есть', tag: 'v', count: '1 / 7', done: 0,
     instr: 'Order the letters to make adjectives',
-    body: `<div class="q en">Sarah’s really ${gap('funny', 'fu')}. She makes me laugh. ${hint('(nynfu)')}</div>`, bottom: check(true) },
+    body: `<div class="q en">Sarah’s really ${gap('funny')}. She makes me laugh. ${hint('(nynfu)')}</div>`, bottom: check(false) },
 
   { n: '7', name: 'Порядок слов · после проверки, неверно', st: 'как есть', tag: 'g', count: '1 / 8', done: 0,
     instr: 'Put the words in the correct order to make questions',
@@ -188,7 +185,7 @@ const F = [
 
   { n: '8', name: 'Вставить слово — переписать целиком', st: 'new', tag: 'g', count: '1 / 5', done: 0,
     instr: 'Rewrite the sentences with the words in brackets in the correct place. Use contractions where possible',
-    body: `<div style="display:flex;flex-direction:column;gap:12px"><div class="q en">You are too old to get married.</div>${hint('(never)')}</div>` + field('You’re never too', '', true), bottom: check(true) },
+    body: `<div style="display:flex;flex-direction:column;gap:12px"><div class="q en">You are too old to get married.</div>${hint('(never)')}</div>` + field(), bottom: check(false) },
 
   { n: '9', name: 'Построить / преобразовать фразу', st: 'new', tag: 'g', count: '1 / 10', done: 0,
     instr: 'Write sentences or questions with the present simple',
@@ -196,7 +193,7 @@ const F = [
 
   { n: '10', name: 'Исправь ошибки', st: 'как есть', tag: 'g', count: '1 / 5', done: 0,
     instr: 'Correct the questions. If a question is already correct, leave it as it is',
-    body: field('Where works your father?', '', true), bottom: check(true) },
+    body: `<div class="q en">Where works your father?</div>` + field(), bottom: check(false) },
 
   { n: '11', name: 'Сопоставление: тема абзаца', st: 'unsure', tag: 'ls', count: '2 / 4', done: 25,
     instr: 'Write the topic of each paragraph',
@@ -212,7 +209,7 @@ const F = [
 
   { n: '13', name: 'Диктант', st: 'как есть', tag: 'ls', count: '2 / 6', done: 17,
     instr: 'Listen to extracts from six conversations. Write the letters and numbers you hear',
-    body: audio('0:04', '0:05', 80) + `<div class="q en">postcode: ${gap('SE21 8GP', 'SE21 8')}</div>`, bottom: check(true) },
+    body: audio('0:04', '0:05', 80) + `<div class="q en">postcode: ${gap('SE21 8GP')}</div>`, bottom: check(false) },
 
   { n: '14', name: 'Понимание на слух / видео', st: 'как есть', tag: 'ls', count: '1 / 6', done: 0,
     instr: 'Listen to Elspbeth Gordon, a journalist, talking about a dating experiment. Answer the questions',
@@ -252,7 +249,7 @@ const F = [
   { n: '—', name: 'Неправильные глаголы', st: 'new', tag: 'g', count: '4 / 20', done: 15,
     instr: 'Irregular verbs: write the past simple and past participle',
     body: `<div class="verb"><div class="vbase en">go</div><div class="vgrid"><div class="vl">Past simple</div><div class="vl">Past participle</div>` +
-      `<div class="field en">went</div><div class="field en"><span class="caret"></span></div></div></div>`, bottom: check(false) },
+      `<div class="field en"></div><div class="field en"></div></div></div>`, bottom: check(false) },
 ];
 
 const ST = { new: '<span class="new">новое</span>', unsure: '<span class="st">под вопросом</span>', ai: '<span class="st">только ИИ</span>' };

@@ -150,9 +150,6 @@
     <string name="skip">Skip</string>
     <string name="verb_past_simple">Past simple</string>
     <string name="verb_past_participle">Past participle</string>
-
-    <string name="talk_with_ai">Conversation with AI</string>
-    <string name="talk_needs_key">Conversation with AI · add an AI key in Settings</string>
     <string name="book_sb">Student’s Book</string>
     <string name="book_wb">Workbook</string>
     <string name="explain">Explain</string>
@@ -170,10 +167,16 @@
 
     <string name="video_play">Play video</string>
     <string name="video_pause">Pause video</string>
-
-    <string name="write_with_ai">Written answer · checked by AI</string>
-    <string name="write_needs_key">Written answer · add an AI key in Settings</string>
     <string name="write_placeholder">Write your answers here</string>
     <string name="write_checking">Checking your answer…</string>
     <string name="write_ungraded">Sorry, I couldn’t check your answer. You’ll try it again.</string>
+    <string name="kind_blank">Fill in the gaps</string>
+    <string name="kind_rewrite">Type the answer</string>
+    <string name="kind_speak">Say it aloud</string>
+    <string name="kind_talk">Conversation</string>
+    <string name="kind_write">Writing</string>
+    <string name="kind_order">Put in order</string>
+    <string name="kind_stress">Mark the stress</string>
+    <string name="kind_sort">Sort the words</string>
+    <string name="kind_needs_key">%1$s · add an AI key in Settings</string>
 </resources>

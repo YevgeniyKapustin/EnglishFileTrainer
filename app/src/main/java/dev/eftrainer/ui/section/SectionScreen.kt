@@ -28,9 +28,17 @@ import dev.eftrainer.core.ui.BackLink
 import dev.eftrainer.core.ui.Icons
 import dev.eftrainer.core.ui.KindHeader
 import dev.eftrainer.core.ui.ListRow
+import dev.eftrainer.data.content.Blank
+import dev.eftrainer.data.content.Exercise
+import dev.eftrainer.data.content.Order
 import dev.eftrainer.data.content.Origin
+import dev.eftrainer.data.content.Rewrite
+import dev.eftrainer.data.content.Sort
+import dev.eftrainer.data.content.Speak
+import dev.eftrainer.data.content.Stress
 import dev.eftrainer.data.content.Talk
 import dev.eftrainer.data.content.Task
+import dev.eftrainer.data.content.Write
 import dev.eftrainer.data.content.needsAi
 import dev.eftrainer.data.content.number
 import dev.eftrainer.ui.appContainer
@@ -76,17 +84,24 @@ private fun SectionTasks(
 private fun sectionViewModel(sectionId: String): SectionViewModel =
     appContainer().let { container -> viewModel(key = sectionId) { SectionViewModel(container, sectionId) } }
 
-private fun aiHint(
-    task: Task,
-    off: Boolean,
-): Int {
-    val talkOnly = task.exercises.all { it is Talk }
-    return if (talkOnly) {
-        if (off) R.string.talk_needs_key else R.string.talk_with_ai
-    } else {
-        if (off) R.string.write_needs_key else R.string.write_with_ai
+private fun Exercise.kindLabel(): Int =
+    when (this) {
+        is Blank -> R.string.kind_blank
+        is Rewrite -> R.string.kind_rewrite
+        is Speak -> R.string.kind_speak
+        is Talk -> R.string.kind_talk
+        is Write -> R.string.kind_write
+        is Order -> R.string.kind_order
+        is Stress -> R.string.kind_stress
+        is Sort -> R.string.kind_sort
     }
-}
+
+private fun Task.kindLabel(): Int =
+    exercises
+        .groupingBy { it.kindLabel() }
+        .eachCount()
+        .maxBy { it.value }
+        .key
 
 @Composable
 private fun SectionTitle(state: SectionUi) {
@@ -166,11 +181,10 @@ private fun TaskText(
                     color = if (off) C.Off else T.rowEn.color,
                 ),
         )
-        if (task.needsAi) {
-            Text(
-                stringResource(aiHint(task, off)),
-                style = T.rowSub.copy(color = if (off) C.Muted else EF.Title),
-            )
-        }
+        val kind = stringResource(task.kindLabel())
+        Text(
+            if (off) stringResource(R.string.kind_needs_key, kind) else kind,
+            style = T.rowSub.copy(color = if (off) C.Muted else EF.Title),
+        )
     }
 }

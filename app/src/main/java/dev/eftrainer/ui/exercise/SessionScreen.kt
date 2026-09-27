@@ -200,6 +200,7 @@ private fun QuestionScreen(
     VerbVoice(q, tts)
 
     val feedback = q.feedback
+    HideKeyboardWhen(feedback != null)
     val filled = answer.filled
     val action = {
         if (feedback != null) {
@@ -242,16 +243,7 @@ private fun QuestionScreen(
         if (feedback == null) {
             ActionBar(e, enabled = filled && q.aiCheck != AiCheck.Checking, onCheck = action, onSkip = onSkip)
         } else {
-            FeedbackSheet(
-                feedback,
-                q.explanation,
-                aiOn,
-                aiGraded = e.needsAi,
-                onNext = onNext,
-                onExplain = onExplain,
-                tts = tts,
-                sayId = "answer-${e.id}-${q.attempt}",
-            )
+            QuestionFeedback(q, feedback, aiOn, tts, onNext, onExplain)
         }
     }
 }

@@ -18,13 +18,22 @@ fun restingTiltDegrees(tip: Offset): Float {
     return if (reach.x < 0f) degrees else -degrees
 }
 
-fun floorContact(tiltDegrees: Float) = SpeechBubbleCenter + Offset(0f, SPEECH_BUBBLE_RADIUS).rotated(-tiltDegrees)
-
 fun tiltDegrees(
     pressedDown: Float,
     room: Float,
     fullTilt: Float,
 ) = (pressedDown / room).coerceIn(0f, 1f) * fullTilt
+
+fun wallLine(
+    pressed: Float,
+    body: Float,
+    start: Float,
+    end: Float,
+) = when {
+    pressed > 0f -> end
+    pressed < 0f -> start
+    else -> body
+}
 
 fun Offset.scaledFrom(
     pivot: Offset,
@@ -38,20 +47,13 @@ fun Offset.rotated(degrees: Float): Offset {
     return Offset(x * cosine - y * sine, x * sine + y * cosine)
 }
 
-fun Offset.pivotShift(degrees: Float) = this - rotated(degrees)
-
 fun wallPush(
     center: Offset,
     radii: Offset,
-    degrees: Float,
     band: Size,
 ): Offset {
     if (band == Size.Zero) return Offset.Zero
-    val turn = Math.toRadians(degrees.toDouble())
-    val cosine = abs(cos(turn).toFloat())
-    val sine = abs(sin(turn).toFloat())
-    val half = Offset(hypot(radii.x * cosine, radii.y * sine), hypot(radii.x * sine, radii.y * cosine))
-    return Offset(keptInside(center.x, half.x, band.width), keptInside(center.y, half.y, band.height))
+    return Offset(keptInside(center.x, radii.x, band.width), keptInside(center.y, radii.y, band.height))
 }
 
 private fun keptInside(

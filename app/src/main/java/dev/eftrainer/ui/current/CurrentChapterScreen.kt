@@ -85,7 +85,7 @@ fun CurrentChapterScreen(
     Column(modifier.fillMaxSize()) {
         Column(Modifier.weight(1f).verticalScroll(rememberScrollState())) {
             ChapterBand(state.chapter, onAllChapters, onSettings) {
-                if (!state.past) StreakChip(state.streak, onStats)
+                StreakChip(state.streak, onStats)
             }
             ChapterSummary(state)
             Column(Modifier.padding(horizontal = 24.dp).padding(top = 28.dp)) {

@@ -212,6 +212,8 @@ private fun NavGraphBuilder.chapterScreens(
             onAllChapters = screen::back,
             onSection = { screen.open(SectionRoute(it)) },
             onReview = {},
+            onSettings = { screen.open(SettingsRoute) },
+            onStats = { screen.open(StatsRoute) },
             chapterId = screen.entry.toRoute<ChapterRoute>().chapterId,
         )
     }

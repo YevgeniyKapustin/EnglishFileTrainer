@@ -1,5 +1,6 @@
 package dev.eftrainer.core.ui
 
+import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -29,6 +30,8 @@ import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.drawscope.clipRect
+import androidx.compose.ui.graphics.drawscope.rotate
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.addPathNodes
 import androidx.compose.ui.text.TextStyle
@@ -46,34 +49,57 @@ import kotlin.math.sin
 
 val BandInk = Color.White
 
+private const val WEDGE_COUNT = 4
+private const val WEDGE_STAGGER = .12f
+private const val WEDGE_FOLDED_DEGREES = -32f
+private val FullyRevealed = { 1f }
+
+private fun wedgeReveal(
+    reveal: Float,
+    index: Int,
+): Float {
+    if (reveal >= 1f) return 1f
+    val span = 1f - WEDGE_STAGGER * (WEDGE_COUNT - 1)
+    return FastOutSlowInEasing.transform(((reveal - index * WEDGE_STAGGER) / span).coerceIn(0f, 1f))
+}
+
 @Composable
 fun WedgeBand(
     height: Dp,
     modifier: Modifier = Modifier,
+    reveal: () -> Float = FullyRevealed,
     content: @Composable BoxScope.() -> Unit = {},
 ) {
     Box(modifier.fillMaxWidth().height(height)) {
         Canvas(Modifier.matchParentSize()) {
             val sx = size.width / 390f
             val h = size.height
+            val progress = reveal()
+            var index = 0
 
             fun poly(
                 color: Color,
                 alpha: Float,
                 vararg pts: Pair<Float, Float>,
             ) {
+                val shown = wedgeReveal(progress, index++)
+                if (shown <= 0f) return
                 val path =
                     Path().apply {
                         pts.forEachIndexed { i, (x, y) -> if (i == 0) moveTo(x * sx, y) else lineTo(x * sx, y) }
                         close()
                     }
-                drawPath(path, color, alpha = alpha)
+                rotate((1f - shown) * WEDGE_FOLDED_DEGREES, Offset(0f, h)) {
+                    drawPath(path, color, alpha = alpha * shown)
+                }
             }
             val y40 = 40f * density
-            poly(EF.Teal, 1f, 0f to 0f, 250f to 0f, 120f to h, 0f to h)
-            poly(EF.Navy, .85f, 120f to 0f, 300f to 0f, 150f to h, 60f to h)
-            poly(EF.Sky, .55f, 0f to y40, 170f to h, 0f to h)
-            poly(BandInk, .18f, 200f to 0f, 250f to 0f, 150f to h, 125f to h)
+            clipRect {
+                poly(EF.Teal, 1f, 0f to 0f, 250f to 0f, 120f to h, 0f to h)
+                poly(EF.Navy, .85f, 120f to 0f, 300f to 0f, 150f to h, 60f to h)
+                poly(EF.Sky, .55f, 0f to y40, 170f to h, 0f to h)
+                poly(BandInk, .18f, 200f to 0f, 250f to 0f, 150f to h, 125f to h)
+            }
         }
         content()
     }

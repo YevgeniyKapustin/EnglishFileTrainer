@@ -2,6 +2,7 @@ package dev.eftrainer.ui.current
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.BoxScope
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -46,6 +47,7 @@ import dev.eftrainer.core.ui.ProgressBar
 import dev.eftrainer.core.ui.SectionTag
 import dev.eftrainer.core.ui.SpeechBubble
 import dev.eftrainer.core.ui.WedgeBand
+import dev.eftrainer.data.content.Bubbles
 import dev.eftrainer.data.content.Chapter
 import dev.eftrainer.ui.appContainer
 import dev.eftrainer.ui.label
@@ -184,7 +186,9 @@ private fun ChapterBand(
     onSettings: () -> Unit,
     content: @Composable () -> Unit,
 ) {
-    WedgeBand(150.dp) {
+    val intro = rememberHeaderIntro()
+    WedgeBand(150.dp, reveal = { intro.rays.value }) {
+        chapter?.bubbles?.let { b -> BandBubbles(b, intro) }
         Row(
             Modifier.fillMaxWidth().height(56.dp).padding(horizontal = 12.dp),
             verticalAlignment = Alignment.CenterVertically,
@@ -220,24 +224,37 @@ private fun ChapterBand(
                     ),
                 modifier = Modifier.align(Alignment.BottomStart).padding(start = 24.dp, bottom = 14.dp),
             )
-            chapter.bubbles?.let { b ->
-                SpeechBubble(
-                    b.first,
-                    EF.Sky,
-                    tailLeft = true,
-                    size = 92.dp,
-                    modifier = Modifier.align(Alignment.BottomEnd).padding(end = 108.dp, bottom = 12.dp),
-                )
-                SpeechBubble(
-                    b.second,
-                    EF.Lime,
-                    tailLeft = false,
-                    size = 88.dp,
-                    modifier = Modifier.align(Alignment.BottomEnd).padding(end = 40.dp, bottom = 24.dp),
-                )
-            }
         }
     }
+}
+
+@Composable
+private fun BoxScope.BandBubbles(
+    lines: Bubbles,
+    intro: HeaderIntro,
+) {
+    SpeechBubble(
+        lines.first,
+        EF.Sky,
+        tailLeft = true,
+        size = 92.dp,
+        modifier =
+            Modifier
+                .align(Alignment.BottomEnd)
+                .padding(end = 108.dp, bottom = 12.dp)
+                .bubbleMotion(intro.firstBubble, rememberBubbleDrag(), tailLeft = true),
+    )
+    SpeechBubble(
+        lines.second,
+        EF.Lime,
+        tailLeft = false,
+        size = 88.dp,
+        modifier =
+            Modifier
+                .align(Alignment.BottomEnd)
+                .padding(end = 40.dp, bottom = 24.dp)
+                .bubbleMotion(intro.secondBubble, rememberBubbleDrag(), tailLeft = false),
+    )
 }
 
 @Composable

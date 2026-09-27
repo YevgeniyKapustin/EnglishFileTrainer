@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Виды упражнений</title>
+<link rel="stylesheet" href="style.css"><script src="theme.js"></script>
+<style>
+body{padding:24px}
+.intro h1{font-size:22px;margin:0 0 6px}
+.intro p{margin:0 0 24px;font-size:14px;color:var(--muted);max-width:760px;line-height:1.5}
+.frames{display:flex;flex-wrap:wrap;gap:36px 28px}
+.frame{display:flex;flex-direction:column;gap:10px}
+.cap{display:flex;align-items:center;gap:8px;white-space:nowrap;font-size:14px;font-weight:600;color:var(--ink);max-width:390px}
+.cap b{font:700 13px 'Golos Text',sans-serif;min-width:26px;height:22px;border-radius:5px;background:var(--ink);color:var(--paper);display:inline-flex;align-items:center;justify-content:center;padding:0 5px}
+.cap .new{font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 7px;border-radius:6px;background:var(--ef-lime);color:#1C3A0E}
+.cap .st{font-size:11px;font-weight:600;padding:3px 7px;border-radius:6px;background:var(--line);color:var(--muted)}
+.phone{border-radius:24px;box-shadow:0 4px 24px rgba(0,0,0,.08)}
+.tag.w{width:auto;padding:0 4px}
+.tag.t{background:var(--ef-teal)}
+html.dark .tag.t{background:var(--ef-sky)}
+.instr{font-size:15px;line-height:21px;font-weight:600}
+.instr.g{color:var(--ef-g)}.instr.v{color:var(--ef-v)}.instr.p{color:var(--ef-p)}.instr.t{color:var(--ef-teal)}
+html.dark .instr.t{color:var(--ef-sky)}
+.content{display:flex;flex-direction:column;gap:18px;margin-top:16px}
+.q{font:400 22px/36px 'Literata',Georgia,serif}
+.q .gap{width:auto;height:34px;background:none;border-radius:0;margin:0 2px;padding:0 4px;font-size:22px}
+.q .gap.ok{color:var(--ok);border-color:var(--ok);background:none}
+.q .gap.bad{color:var(--bad);border-color:var(--bad);background:none}
+.hint{font-size:17px;color:var(--muted);white-space:nowrap}
+.field{display:block;line-height:28px}
+.field.ok{color:var(--ok);background:var(--field)}
+.field.bad{color:var(--bad);background:var(--field)}
+.caret{display:inline-block;width:2px;height:22px;background:var(--accent);vertical-align:-4px;margin-left:1px}
+.wbox{border:1.5px solid var(--ef-teal);border-radius:12px;padding:10px 14px;display:flex;flex-wrap:wrap;gap:4px 16px;font:400 17px/26px 'Literata',Georgia,serif}
+html.dark .wbox{border-color:var(--ef-sky)}
+.wbox .used{color:var(--off);text-decoration:line-through}
+.opts{display:flex;flex-direction:column;gap:6px;font:400 19px/28px 'Literata',Georgia,serif}
+.opts div{display:flex;gap:10px}
+.ctx{background:var(--field);border:1px solid var(--line);border-radius:12px;padding:16px;font:400 16px/24px 'Literata',Georgia,serif;max-height:196px;overflow:hidden;position:relative}
+.ctx::after{content:'';position:absolute;left:0;right:0;bottom:0;height:48px;background:linear-gradient(transparent,var(--field))}
+.ctx p{margin:0 0 8px}
+.ctx .pn{color:var(--ef-teal);font-weight:600;margin-right:4px}
+.audio{display:flex;align-items:center;gap:10px;background:var(--field);border:1px solid var(--line);border-radius:14px;padding:8px 6px 8px 8px}
+.playc{width:40px;height:40px;border-radius:20px;background:var(--ef-teal);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+html.dark .playc{background:var(--ef-sky)}
+.seek{flex-grow:1;height:32px;position:relative}
+.seek::before{content:'';position:absolute;left:0;right:0;top:14px;height:4px;border-radius:2px;background:var(--line)}
+.seek i{position:absolute;left:0;top:14px;height:4px;border-radius:2px;background:var(--ef-teal)}
+.seek i::after{content:'';position:absolute;right:-6px;top:-4px;width:12px;height:12px;border-radius:6px;background:var(--ef-teal)}
+.time{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.back5{width:36px;height:36px;display:flex;align-items:center;justify-content:center;position:relative;color:var(--muted);flex-shrink:0}
+.back5 span{position:absolute;font:700 8px 'Golos Text',sans-serif;padding-top:1px}
+.video{background:var(--field);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.screen16{aspect-ratio:16/9;background:#15171B;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.screen16 svg.w{position:absolute;inset:0;width:100%;height:100%;opacity:.35}
+.playbig{width:56px;height:56px;border-radius:28px;background:var(--ef-teal);display:flex;align-items:center;justify-content:center;position:relative}
+.vctl{display:flex;align-items:center;gap:10px;padding:4px 12px 4px 8px}
+.vctl .pb{width:36px;height:36px;display:flex;align-items:center;justify-content:center;color:var(--ef-teal)}
+.listen{align-self:flex-start;display:flex;align-items:center;gap:8px;padding:8px 16px 8px 12px;border:1px solid var(--line);border-radius:20px;background:var(--field);font-size:15px;font-weight:600;color:var(--ef-teal)}
+.mic{width:80px;height:80px;border-radius:40px;background:var(--ef-teal);display:flex;align-items:center;justify-content:center}
+.speak{display:flex;flex-direction:column;align-items:center;gap:14px;padding-top:12px}
+.link{font-size:15px;color:var(--ef-teal);padding:6px 8px}
+html.dark .listen,html.dark .link{color:var(--ef-sky)}
+.goal{font:400 19px/28px 'Literata',Georgia,serif}
+.chat{display:flex;flex-direction:column;gap:8px;padding-top:6px}
+.bub2{max-width:300px;padding:10px 14px;font:400 17px/25px 'Literata',Georgia,serif;display:flex;gap:8px;align-items:flex-start}
+.bub2.ai{align-self:flex-start;background:var(--ef-panel);border-radius:16px 16px 16px 4px}
+.bub2.me{align-self:flex-end;background:var(--field);border:1px solid var(--line);border-radius:16px 16px 4px 16px}
+.bub2 svg{flex-shrink:0;margin-top:3px;color:var(--muted)}
+.talkf{display:flex;align-items:center;border:1.5px solid var(--field-border);border-radius:14px;background:var(--field);padding:0 6px 0 16px;margin-top:6px}
+.talkf .ph{flex-grow:1;padding:12px 0;font:400 18px/26px 'Literata',Georgia,serif;color:var(--muted)}
+.micsm{width:36px;height:36px;border-radius:18px;background:var(--accent);display:flex;align-items:center;justify-content:center}
+.finish{align-self:flex-end;font-size:15px;font-weight:600;color:var(--accent);padding:4px 0}
+.wq{display:flex;font:400 17px/24px 'Literata',Georgia,serif}
+.wq b{width:26px;color:var(--ef-teal);flex-shrink:0}
+.wfield{min-height:160px;font-size:18px;line-height:27px}
+.sheet .row2{display:flex;align-items:center;gap:6px}
+.sheet .sum{font-size:15px;line-height:22px;color:var(--ink)}
+.sheet .fix{font:400 16px/24px 'Literata',Georgia,serif;color:var(--ink)}
+.sheet .fix s{color:var(--bad)}
+.sheet .fix em{font-style:normal;color:var(--ok)}
+.sayi{display:flex;align-items:center;justify-content:center;width:36px;height:36px;color:var(--muted);flex-shrink:0}
+.lines{display:flex;flex-direction:column;gap:6px}
+</style></head>
+<body>
+<div class="intro">
+  <h1>Виды упражнений · 1A + 1B</h1>
+  <p>По одному экрану на вид из plans/exercise-types.md, примеры из нашего контента. «Новое» — улучшенная версия из каталога, остальные — как сейчас в приложении. Всё вписывается с клавиатуры.</p>
+</div>
+<div class="frames" id="frames"></div>
+<script>
+const I = {
+  close: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>',
+  play: c => `<svg width="20" height="20" viewBox="0 0 24 24" fill="${c}"><path d="M8 5.5v13l11-6.5z"/></svg>`,
+  back: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4v5h5M3.6 13.5a8.5 8.5 0 1 0 2-7.5L3 9"/></svg>',
+  speaker: s => `<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5L6 9H3v6h3l5 4zM15.5 9a4 4 0 0 1 0 6M18.5 6a8 8 0 0 1 0 12"/></svg>`,
+  mic: (s, c) => `<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zM18.5 11a6.5 6.5 0 0 1-13 0M12 17.5V21"/></svg>`,
+  check: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
+};
+
+const TAGS = { g: ['G', 'g', 'g'], v: ['V', 'v', 'v'], p: ['P', 'p', 'p'], ls: ['LS', 'w t', 't'], pe: ['PE', 'w t', 't'] };
+const gapW = s => Math.max(90, Math.min(260, s.length * 11 + 24));
+const gap = (answer, value = '', state = '') =>
+  `<input class="gap ${state}" style="width:${gapW(answer)}px" value="${value}" autocomplete="off" spellcheck="false">`;
+const field = (value = '', state = '', caret = false) =>
+  `<div class="field en ${state}">${value}${caret ? '<span class="caret"></span>' : ''}</div>`;
+const hint = h => `<span class="hint">${h}</span>`;
+const box = (words, used = []) =>
+  `<div class="wbox">${words.map(w => `<span class="${used.includes(w) ? 'used' : ''}">${w}</span>`).join('')}</div>`;
+const audio = (pos, total, pct) =>
+  `<div class="audio"><div class="playc">${I.play('#fff')}</div><div class="seek"><i style="width:${pct}%"></i></div>` +
+  `<div class="time">${pos} / ${total}</div><div class="back5">${I.back}<span>5</span></div></div>`;
+const wedges = '<svg class="w" viewBox="0 0 390 220" preserveAspectRatio="none"><path d="M0 220 L180 0 L260 0 Z" fill="#1D4E9E"/><path d="M120 220 L300 0 L390 0 L390 60 Z" fill="#12A3BF"/><path d="M260 220 L390 90 L390 220 Z" fill="#7FCBE0"/></svg>';
+const video = (pos, total, pct) =>
+  `<div class="video"><div class="screen16">${wedges}<div class="playbig">${I.play('#fff').replace(/20/g, '28')}</div></div>` +
+  `<div class="vctl"><div class="pb">${I.play('currentColor')}</div><div class="seek"><i style="width:${pct}%"></i></div><div class="time">${pos} / ${total}</div></div></div>`;
+const check = enabled => `<div class="bottom"><button class="btn" ${enabled ? '' : 'disabled'}>Check</button></div>`;
+const sayIcon = `<span class="sayi">${I.speaker(20)}</span>`;
+const sheetOk = (extra = '') =>
+  `<div class="sheet ok"><div class="row2"><span style="display:flex">${I.check}</span><div class="h">Correct</div>${sayIcon}</div>${extra}<button class="btn">Continue</button></div>`;
+const sheetBad = answer =>
+  `<div class="sheet bad"><div class="h">Correct answer:</div><div class="row2"><div class="a en" style="margin:0">${answer}</div>${sayIcon}</div>` +
+  `<button class="why">Why?</button><button class="btn">Continue</button></div>`;
+
+const F = [
+  { n: '1', name: 'Пропуск, слово без подсказки', st: 'как есть', tag: 'v', count: '2 / 9', done: 22,
+    instr: 'Complete the sentences',
+    body: `<div class="q en">Tanya’s dad doesn’t have any hair. He’s ${gap('bald', 'bald')}. ${hint('(b…)')}</div>`, bottom: check(true) },
+
+  { n: '2', name: 'Пропуск, форма слова из скобок', st: 'как есть', tag: 'g', count: '2 / 6', done: 17,
+    instr: 'Complete the conversations with the present simple form of the verbs in brackets',
+    body: `<div class="q en">A: ${gap('Does', 'Does')} Louisa ${gap('want', 'wa')} to marry her boyfriend? B: In a few years perhaps. ${hint('(want)')}</div>`, bottom: check(true) },
+
+  { n: '3', name: 'Пропуск, слово из списка', st: 'new', tag: 'v', count: '3 / 8', done: 25,
+    instr: 'Complete the definitions with an adjective from the list',
+    body: box(['clever', 'friendly', 'funny', 'generous', 'kind', 'lazy', 'shy', 'talkative'], ['clever', 'talkative']) +
+      `<div class="q en">A person who likes giving people things is ${gap('generous')}.</div>`, bottom: check(false) },
+
+  { n: '4', name: 'Выбор A/B → переписать верное', st: 'new', tag: 'g', count: '1 / 6', done: 0,
+    instr: 'Which sentence is correct? Write it',
+    body: `<div class="opts en"><div><span class="let">A</span><span>They often go out together.</span></div><div><span class="let">B</span><span>They go out often together.</span></div></div>` +
+      field('They often go out', '', true), bottom: check(true) },
+
+  { n: '4', name: 'T / F → исправить неверное', st: 'new', tag: 'pe', count: '1 / 6', done: 0,
+    instr: 'Watch and correct the false sentences. If a sentence is true, leave it as it is',
+    body: video('0:42', '2:31', 28) + field('Rob says he doesn’t like the hotel.', '', true), bottom: check(true) },
+
+  { n: '4', name: 'J / S, номер разговора — имя словом', st: 'unsure', tag: 'ls', count: '1 / 8', done: 0,
+    instr: 'Listen again. Who is it, John or Sebastian? Write the name',
+    body: audio('0:08', '1:54', 7) + `<div class="q en">He’s tall, dark, and handsome. ${gap('Sebastian')}</div>`, bottom: check(false) },
+
+  { n: '5', name: 'Лишнее слово / другой звук', st: 'как есть', tag: 'v', count: '1 / 5', done: 0,
+    instr: 'Which word can’t be used with the noun? Write it',
+    body: `<div class="q en">eyes: blonde, big, blue, brown → ${gap('blonde')}</div>`, bottom: check(false) },
+
+  { n: '6', name: 'Анаграмма', st: 'как есть', tag: 'v', count: '1 / 7', done: 0,
+    instr: 'Order the letters to make adjectives',
+    body: `<div class="q en">Sarah’s really ${gap('funny', 'fu')}. She makes me laugh. ${hint('(nynfu)')}</div>`, bottom: check(true) },
+
+  { n: '7', name: 'Порядок слов · после проверки, неверно', st: 'как есть', tag: 'g', count: '1 / 8', done: 0,
+    instr: 'Put the words in the correct order to make questions',
+    body: `<div class="q en">you / a / do / have / car</div>` + field('Do you have car?', 'bad'),
+    bottom: sheetBad('Do you have a car?') },
+
+  { n: '8', name: 'Вставить слово на место — всегда prefill', st: 'new', tag: 'g', count: '1 / 5', done: 0,
+    instr: 'Rewrite the sentences with the words in brackets in the correct place. Use contractions where possible',
+    body: hint('(never)') + field('You are too old to get married.', '', true), bottom: check(true) },
+
+  { n: '9', name: 'Построить / преобразовать фразу', st: 'как есть', tag: 'g', count: '1 / 10', done: 0,
+    instr: 'Write sentences or questions with the present simple',
+    body: `<div style="display:flex;flex-direction:column;gap:12px"><div class="q en">Anna / like music</div>${hint('(?)')}</div>` + field(), bottom: check(false) },
+
+  { n: '10', name: 'Исправь ошибки', st: 'как есть', tag: 'g', count: '1 / 5', done: 0,
+    instr: 'Correct the questions. If a question is already correct, leave it as it is',
+    body: field('Where works your father?', '', true), bottom: check(true) },
+
+  { n: '11', name: 'Сопоставление: тема абзаца', st: 'unsure', tag: 'ls', count: '2 / 4', done: 25,
+    instr: 'Write the topic of each paragraph',
+    body: `<div class="ctx"><p><span class="pn">2</span>I’m going to tell you about myself. I’m at university. I’m studing physics. I live with my parents in a flat in the centre.</p><p><span class="pn">3</span>As you can see from the foto, I have black hair and browns eyes. My father always says I have a big nose, but I don’t think so.</p></div>` +
+      box(['hobbies and interests', 'personality', 'physical appearance', 'work / study', 'family'], ['work / study', 'family']) +
+      `<div class="q en">Paragraph 3: ${gap('physical appearance')}</div>`, bottom: check(false) },
+
+  { n: '12', name: 'Порядок событий / картинок', st: 'unsure', tag: 'pe', count: '1 / 6', done: 0,
+    instr: 'Watch Jenny. Number the pictures 1–6 in the order she mentions them',
+    body: video('0:00', '1:48', 0) + `<div class="q en">A  Rob in a new shirt: ${gap('5')} ${hint('(1–6)')}</div>`, bottom: check(false) },
+
+  { n: '13', name: 'Диктант', st: 'как есть', tag: 'ls', count: '2 / 6', done: 17,
+    instr: 'Listen to extracts from six conversations. Write the letters and numbers you hear',
+    body: audio('0:04', '0:05', 80) + `<div class="q en">postcode: ${gap('SE21 8GP', 'SE21 8')}</div>`, bottom: check(true) },
+
+  { n: '14', name: 'Понимание на слух / видео', st: 'как есть', tag: 'ls', count: '1 / 6', done: 0,
+    instr: 'Listen to Elspbeth Gordon, a journalist, talking about a dating experiment. Answer the questions',
+    body: audio('1:12', '3:40', 33) + `<div class="q en">What kind of app does Elspbeth use? A ${gap('dating')} app.</div>`, bottom: check(false) },
+
+  { n: '15', name: 'Понимание текста · ИИ засчитал по смыслу', st: 'new', tag: 'ls', count: '2 / 7', done: 14,
+    instr: 'Read the article about Charlotte and her father Clint. Find the information about Clint',
+    body: `<div class="ctx"><p>Please date my dad! ‘So, how was the date?’ You probably think this is a parent asking the question to their child. But many children are now helping their single parents find love, too. Clint Bouchez, a 52-year-old businessman from Reigate, Surrey, got divorced ten years ago.</p></div>` +
+      `<div class="q en">His job: <input class="gap ok" style="width:210px" value="he has a business"></div>`,
+    bottom: sheetOk('<div class="a en" style="margin:0 0 4px">businessman</div>') },
+
+  { n: '16', name: 'Повтори вслух', st: 'как есть', tag: 'v', count: '1 / 6', done: 0,
+    instr: 'Listen and repeat questions 1–6. Copy the rhythm and intonation',
+    body: `<div class="listen">${I.speaker(20)}Listen</div><div class="q en">Where are you from?</div>` +
+      `<div class="speak"><div class="mic">${I.mic(34, '#fff')}</div><div class="hint">Tap and say it</div><div class="link">Type instead</div></div>`,
+    bottom: check(false) },
+
+  { n: '17', name: 'Разговор, ролевая игра', st: 'ai', tag: 'pe', count: '1 / 1', done: 0,
+    instr: 'Role-play: you are a hotel guest. Call reception about two problems with your room',
+    body: `<div class="goal en">You are a guest at a hotel. Call reception, say your room number and tell them about two problems with your room.</div>` +
+      `<div class="chat"><div class="bub2 ai"><span>Good evening, reception. How can I help you?</span>${I.speaker(16)}</div>` +
+      `<div class="bub2 me"><span>Hi, this is room 305. The shower doesn’t work.</span></div>` +
+      `<div class="bub2 ai"><span>I’m sorry, madam. I’ll send somebody up to look at it. Is there anything else?</span>${I.speaker(16)}</div></div>` +
+      `<div class="talkf"><div class="ph">Your answer</div><div class="micsm">${I.mic(20, '#fff')}</div></div><div class="finish">Finish</div>`,
+    bottom: '' },
+
+  { n: '18', name: 'Письмо / своё мнение · ответ ИИ', st: 'ai', tag: 'ls', count: '1 / 1', done: 0,
+    instr: 'Do you think Charlotte is the best person to help find her dad a date? Why?',
+    body: `<div class="goal en">Give your opinion in 2–4 sentences.</div>` +
+      `<div class="wq"><b>1</b><span>Do you think Charlotte is the best person to help find her dad a date? Why (not)?</span></div>` +
+      `<div class="field en wfield">I think she is the best person because she knows him very well. But maybe she don’t know what he want in a woman.</div>`,
+    bottom: `<div class="sheet ok"><div class="row2"><span style="display:flex">${I.check}</span><div class="h">Well done</div></div>` +
+      `<div class="sum">A clear opinion with a reason from the article.</div>` +
+      `<div class="fix"><s>she don’t know</s> → <em>she doesn’t know</em></div><div class="fix"><s>what he want</s> → <em>what he wants</em></div>` +
+      `<button class="btn">Continue</button></div>` },
+
+  { n: '—', name: 'Неправильные глаголы', st: 'как есть', tag: 'g', count: '4 / 20', done: 15,
+    instr: 'Irregular verbs: write the past simple and past participle',
+    body: `<div class="q en lines"><div>go</div><div>past simple ${gap('went', 'went')}</div><div>past participle ${gap('gone')}</div></div>`, bottom: check(false) },
+];
+
+const ST = { new: '<span class="new">новое</span>', unsure: '<span class="st">под вопросом</span>', ai: '<span class="st">только ИИ</span>' };
+document.getElementById('frames').innerHTML = F.map(f => {
+  const [letter, cls, color] = TAGS[f.tag];
+  return `<div class="frame"><div class="cap"><b>${f.n}</b><span>${f.name}</span>${ST[f.st] || ''}</div>
+<div class="phone">
+  <div class="top" style="gap:12px;padding:0 24px 0 8px">
+    <span class="iconbtn">${I.close}</span>
+    <div class="bar grow"><i style="width:${f.done}%"></i></div>
+    <div class="label" style="font-size:15px">${f.count}</div>
+  </div>
+  <div class="pad content">
+    <div style="display:flex;align-items:center;gap:8px"><span class="tag ${cls}">${letter}</span><div class="grow instr ${color}">${f.instr}</div></div>
+    ${f.body}
+  </div>
+  <div class="grow"></div>
+  ${f.bottom}
+</div></div>`;
+}).join('');
+</script>
+</body></html>

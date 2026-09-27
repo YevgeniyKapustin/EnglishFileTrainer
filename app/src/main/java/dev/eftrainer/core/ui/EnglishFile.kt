@@ -107,6 +107,8 @@ fun WedgeBand(
     }
 }
 
+val SpeechBubbleVisibleBounds = Rect(.06f, .02f, .94f, .96f)
+
 @Composable
 fun SpeechBubbleShape(
     color: Color,

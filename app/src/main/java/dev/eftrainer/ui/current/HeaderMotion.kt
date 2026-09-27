@@ -27,6 +27,7 @@ import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.LayoutCoordinates
 import androidx.compose.ui.layout.onPlaced
 import androidx.compose.ui.unit.dp
+import dev.eftrainer.core.ui.SpeechBubbleVisibleBounds
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -37,7 +38,6 @@ private const val FIRST_BUBBLE_DELAY_MILLIS = 220L
 private const val BUBBLE_STAGGER_MILLIS = 90L
 private const val BUBBLE_START_SCALE = .6f
 private const val BUBBLE_FADE_SPEED = 3f
-private const val DRAG_TILT_DEGREES = 10f
 private const val LEFT_TAIL_PIVOT_X = .16f
 private const val RIGHT_TAIL_PIVOT_X = .84f
 private const val TAIL_PIVOT_Y = .96f
@@ -84,12 +84,15 @@ class BubbleDrag {
     fun measureTravel(bubble: LayoutCoordinates) {
         val band = bubble.parentLayoutCoordinates ?: return
         val home = band.localPositionOf(bubble, Offset.Zero)
+        val width = bubble.size.width
+        val height = bubble.size.height
+        val shape = SpeechBubbleVisibleBounds
         travel =
             Rect(
-                -home.x,
-                -home.y,
-                band.size.width - home.x - bubble.size.width,
-                band.size.height - home.y - bubble.size.height,
+                -home.x - shape.left * width,
+                -home.y - shape.top * height,
+                band.size.width - home.x - shape.right * width,
+                band.size.height - home.y - shape.bottom * height,
             )
     }
 
@@ -119,7 +122,6 @@ fun Modifier.bubbleMotion(
             alpha = (shown * BUBBLE_FADE_SPEED).coerceIn(0f, 1f)
             translationX = offset.x
             translationY = offset.y
-            rotationZ = offset.x / DragLimit.toPx() * DRAG_TILT_DEGREES
             transformOrigin = squashOrigin(squash, tailLeft)
             compositingStrategy = CompositingStrategy.ModulateAlpha
         }
@@ -132,14 +134,14 @@ private fun squashOrigin(
     tailLeft: Boolean,
 ) = TransformOrigin(
     when {
-        squash.x > 0f -> 1f
-        squash.x < 0f -> 0f
+        squash.x > 0f -> SpeechBubbleVisibleBounds.right
+        squash.x < 0f -> SpeechBubbleVisibleBounds.left
         tailLeft -> LEFT_TAIL_PIVOT_X
         else -> RIGHT_TAIL_PIVOT_X
     },
     when {
-        squash.y > 0f -> 1f
-        squash.y < 0f -> 0f
+        squash.y > 0f -> SpeechBubbleVisibleBounds.bottom
+        squash.y < 0f -> SpeechBubbleVisibleBounds.top
         else -> TAIL_PIVOT_Y
     },
 )

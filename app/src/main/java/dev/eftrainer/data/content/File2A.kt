@@ -54,7 +54,7 @@ val File2A = Chapter(
                         Blank(
                             "2A-sb1b-02",
                             text = "Did he find it? {}, it was in his jacket pocket.",
-                            gaps = listOf(listOf("Yes", "Yes, he did")),
+                            gaps = listOf(listOf("Yes", "Yes, he did", "Yes he did")),
                             explain = "‘I took my jacket out of my bag, and… my phone was in my jacket pocket!’",
                             source = AnswerSource.MODEL,
                         ),
@@ -1681,7 +1681,7 @@ val File2A = Chapter(
                         Blank(
                             "2A-vb1a-04",
                             text = "go by {}",
-                            gaps = listOf(listOf("bus", "plane", "bus or plane")),
+                            gaps = listOf(listOf("bus", "plane", "car", "bus or plane")),
                             image = "2a_vb1a_4",
                             source = AnswerSource.CONFIRMED,
                             clip = Clip(21260, 22790),
@@ -2393,7 +2393,7 @@ val File2A = Chapter(
                         ),
                         Rewrite(
                             "2A-vocabulary-x4-05",
-                            prompt = "We went on a walk by the lake.",
+                            prompt = "We went to a walk by the lake.",
                             answers = listOf("We went for a walk by the lake."),
                             explain = "go for a walk.",
                             source = AnswerSource.MODEL,

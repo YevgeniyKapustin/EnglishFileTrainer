@@ -2297,7 +2297,11 @@
               "prompt": "It’s hot. Why / wear a coat / ?",
               "answers": [
                 "It’s hot. Why are you wearing a coat?",
-                "Why are you wearing a coat?"
+                "It is hot. Why are you wearing a coat?",
+                "Why are you wearing a coat?",
+                "It’s hot. Why is he wearing a coat?",
+                "It’s hot. Why is she wearing a coat?",
+                "It’s hot. Why are they wearing a coat?"
               ],
               "hint": "(?)",
               "source": "MODEL"
@@ -2351,7 +2355,8 @@
               "type": "rewrite",
               "prompt": "she / wear make-up / ?",
               "answers": [
-                "Is she wearing make-up?"
+                "Is she wearing make-up?",
+                "Is she wearing makeup?"
               ],
               "hint": "(?)",
               "source": "MODEL"
@@ -2886,7 +2891,7 @@
             {
               "n": 6,
               "type": "blank",
-              "text": "We {} in a hotel this week because our flat is being painted.",
+              "text": "We {} in a hotel this week because we’re on holiday.",
               "gaps": [
                 [
                   "’re staying",
@@ -3708,7 +3713,9 @@
               "answers": [
                 "Rob says he likes the hotel.",
                 "Rob says the hotel is fine.",
-                "Rob says he does like the hotel."
+                "Rob says he does like the hotel.",
+                "Rob says the hotel’s fine.",
+                "Rob says his hotel is fine."
               ],
               "explain": "False: Rob says the hotel is fine. His room is really nice.",
               "source": "MODEL"
@@ -3718,7 +3725,10 @@
               "type": "rewrite",
               "prompt": "Jenny is going to show him round the city tomorrow.",
               "answers": [
-                "Jenny is going to show him round the office tomorrow."
+                "Jenny is going to show him round the office tomorrow.",
+                "Jenny is going to show him around the office tomorrow.",
+                "Jenny’s going to show him round the office tomorrow.",
+                "Jenny’s going to show him around the office tomorrow."
               ],
               "explain": "False: she is going to show him round the office, not the city.",
               "source": "MODEL"
@@ -3741,7 +3751,12 @@
                 "Rob isn't hungry.",
                 "Rob is not hungry.",
                 "Rob is tired.",
-                "Rob isn't hungry. He's really tired."
+                "Rob isn't hungry. He's really tired.",
+                "Rob isn't hungry. He's tired.",
+                "Rob is very tired.",
+                "Rob is really tired.",
+                "Rob's tired.",
+                "Rob's not hungry."
               ],
               "explain": "False: Rob isn't hungry. He's really tired.",
               "source": "MODEL"
@@ -3753,7 +3768,10 @@
               "answers": [
                 "It's two in the morning for Rob.",
                 "It is two in the morning for Rob.",
-                "It's 2 in the morning for Rob."
+                "It's 2 in the morning for Rob.",
+                "It's two o'clock in the morning for Rob.",
+                "It's 2 o'clock in the morning for Rob.",
+                "It is two o'clock in the morning for Rob."
               ],
               "explain": "False: it's two o'clock in the morning for Rob.",
               "source": "MODEL"
@@ -3764,7 +3782,9 @@
               "prompt": "They're going to meet at eleven.",
               "answers": [
                 "They're going to meet at eleven.",
-                "They are going to meet at eleven."
+                "They are going to meet at eleven.",
+                "They're going to meet at 11.",
+                "They are going to meet at 11."
               ],
               "explain": "True: leave the sentence as it is.",
               "source": "MODEL"
@@ -3775,7 +3795,9 @@
               "prompt": "Jenny thinks that Rob is going to get lost.",
               "answers": [
                 "Jenny thinks that Rob is going to be late.",
-                "Jenny thinks Rob is going to be late."
+                "Jenny thinks Rob is going to be late.",
+                "Jenny thinks that Rob's going to be late.",
+                "Jenny thinks Rob's going to be late."
               ],
               "explain": "False: Jenny thinks that Rob is going to be late.",
               "source": "MODEL"

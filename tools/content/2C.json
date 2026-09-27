@@ -118,11 +118,11 @@
           "exercises": [
             {"n": 1, "type": "blank", "text": "{} it was very cold, she wasn’t wearing a coat.", "gaps": [["Although"]], "explain": "A contrast at the beginning of the sentence: although (not but).", "source": "MODEL"},
             {"n": 2, "type": "blank", "text": "I woke up in the night {} there was a noise.", "gaps": [["because"]], "explain": "because + the reason.", "source": "MODEL"},
-            {"n": 3, "type": "blank", "text": "I called him, {} his mobile was turned off.", "gaps": [["but", "although"]], "explain": "A contrast: but (although is also possible in the middle).", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "I called him, {} his mobile was turned off.", "gaps": [["but"]], "explain": "A contrast: but. Although goes with the surprising fact: Although I called him, he didn’t answer.", "source": "MODEL"},
             {"n": 4, "type": "blank", "text": "{} she’s very nice, she doesn’t have many friends.", "gaps": [["Although"]], "explain": "A contrast at the beginning of the sentence: although.", "source": "MODEL"},
             {"n": 5, "type": "blank", "text": "There was nothing on TV, {} I went to bed.", "gaps": [["so"]], "explain": "so + the result.", "source": "MODEL"},
             {"n": 6, "type": "blank", "text": "All the cafés were full {} it was a public holiday.", "gaps": [["because"]], "explain": "because + the reason.", "source": "MODEL"},
-            {"n": 7, "type": "blank", "text": "She wanted to be a doctor, {} she failed her exams.", "gaps": [["but", "although"]], "explain": "A contrast: but.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "She wanted to be a doctor, {} she failed her exams.", "gaps": [["but"]], "explain": "A contrast: but.", "source": "MODEL"},
             {"n": 8, "type": "blank", "text": "The garden looked very beautiful, {} I took a photograph.", "gaps": [["so"]], "explain": "so + the result.", "source": "MODEL"},
             {"n": 9, "type": "blank", "text": "{} the team played well, they didn’t win.", "gaps": [["Although"]], "explain": "A contrast at the beginning of the sentence: although.", "source": "MODEL"}
           ]
@@ -229,7 +229,7 @@
           "exercises": [
             {"n": 1, "type": "rewrite", "prompt": "I was hungry. I made a sandwich.", "answers": ["I was hungry, so I made a sandwich.", "I was hungry so I made a sandwich."], "hint": "(so)", "explain": "so + the result: …, so I made a sandwich.", "source": "MODEL"},
             {"n": 2, "type": "rewrite", "prompt": "She didn’t come to class. She was ill.", "answers": ["She didn’t come to class because she was ill.", "She did not come to class because she was ill."], "hint": "(because)", "explain": "because + the reason.", "source": "MODEL"},
-            {"n": 3, "type": "rewrite", "prompt": "The film was very long. We enjoyed it.", "answers": ["Although the film was very long, we enjoyed it.", "We enjoyed the film, although it was very long.", "We enjoyed it, although the film was very long."], "hint": "(although)", "explain": "although + the contrast; it can start the sentence: Although the film was very long, …", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "The film was very long. We enjoyed it.", "answers": ["Although the film was very long, we enjoyed it.", "Although the film was very long we enjoyed it.", "We enjoyed the film, although it was very long.", "We enjoyed the film although it was very long.", "We enjoyed it, although the film was very long.", "We enjoyed it although the film was very long."], "hint": "(although)", "explain": "although + the contrast; it can start the sentence: Although the film was very long, …", "source": "MODEL"},
             {"n": 4, "type": "rewrite", "prompt": "He studied a lot. He failed the exam.", "answers": ["He studied a lot, but he failed the exam.", "He studied a lot but he failed the exam."], "hint": "(but)", "explain": "but shows a contrast in the middle of the sentence.", "source": "MODEL"}
           ]
         },
@@ -238,8 +238,8 @@
           "origin": "GENERATED",
           "instruction": "Correct the mistakes. If a sentence is correct, leave it as it is.",
           "exercises": [
-            {"n": 1, "type": "rewrite", "prompt": "We had dinner. After we went for a walk.", "answers": ["We had dinner. After that we went for a walk.", "We had dinner. Then we went for a walk.", "We had dinner. After that, we went for a walk."], "explain": "After alone can’t link two sentences: use After that or Then.", "source": "MODEL"},
-            {"n": 2, "type": "rewrite", "prompt": "Although it was late, but we didn’t go home.", "answers": ["Although it was late, we didn’t go home.", "It was late, but we didn’t go home."], "explain": "Use although or but, not both.", "source": "MODEL"},
+            {"n": 1, "type": "rewrite", "prompt": "We had dinner. After we went for a walk.", "answers": ["We had dinner. After that we went for a walk.", "We had dinner. Then we went for a walk.", "We had dinner. After that, we went for a walk.", "We had dinner. Afterwards we went for a walk.", "We had dinner. Afterwards, we went for a walk."], "explain": "After alone can’t link two sentences: use After that or Then.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "Although it was late, but we didn’t go home.", "answers": ["Although it was late, we didn’t go home.", "Although it was late we didn’t go home.", "Although it was late, we did not go home.", "It was late, but we didn’t go home.", "It was late but we didn’t go home.", "It was late, but we did not go home."], "explain": "Use although or but, not both.", "source": "MODEL"},
             {"n": 3, "type": "rewrite", "prompt": "I was tired, because I went to bed early.", "answers": ["I was tired, so I went to bed early.", "I was tired so I went to bed early."], "explain": "Going to bed early is the result, so use so.", "source": "MODEL"},
             {"n": 4, "type": "rewrite", "prompt": "The phone rang when I was having a shower.", "answers": ["The phone rang when I was having a shower."], "explain": "Correct: when joins the short action (rang) and the longer one (was having).", "source": "MODEL"}
           ]
@@ -532,7 +532,7 @@
           "exercises": [
             {"n": 1, "type": "blank", "text": "I can’t stop now – I’m {} a hurry.", "gaps": [["in"]], "explain": "be in a hurry.", "source": "MODEL"},
             {"n": 2, "type": "blank", "text": "Can you wait {} me after class?", "gaps": [["for"]], "explain": "wait for somebody.", "source": "MODEL"},
-            {"n": 3, "type": "blank", "text": "He was driving {} the high street when he saw her.", "gaps": [["along", "down"]], "explain": "drive along the street.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "He was driving {} the high street when he saw her.", "gaps": [["along", "down", "up"]], "explain": "drive along the street.", "source": "MODEL"},
             {"n": 4, "type": "blank", "text": "Look left and right before you run {} the road!", "gaps": [["across"]], "explain": "run across the road.", "source": "MODEL"},
             {"n": 5, "type": "blank", "text": "Last night Tom invited me {} dinner.", "gaps": [["to", "for"]], "explain": "invite somebody to dinner.", "source": "MODEL"},
             {"n": 6, "type": "blank", "text": "My parents took us {} an Italian restaurant.", "gaps": [["to"]], "explain": "take somebody to a restaurant.", "source": "MODEL"}
@@ -707,7 +707,7 @@
           "id": "2C-rcvc",
           "origin": "SB",
           "instruction": "Which word is different? Write it",
-          "note": "Revise and Check 1&2 Vocabulary c «Circle the word that is different» → Blank; MODEL. 4 (dress) — сомнительно",
+          "note": "Revise and Check 1&2 Vocabulary c «Circle the word that is different» → Blank; MODEL. 4 dress — единственная женская одежда (shirt, tie, jacket — мужской костюм)",
           "exercises": [
             {"n": 1, "type": "blank", "text": "straight, long, curly, beard → {}", "gaps": [["beard"]], "explain": "straight, long, curly describe hair; a beard is a noun.", "source": "MODEL"},
             {"n": 2, "type": "blank", "text": "kind, lazy, generous, funny → {}", "gaps": [["lazy"]], "explain": "lazy is negative; the others are positive.", "source": "MODEL"},
@@ -783,7 +783,7 @@
           "context": "How to take better holiday photos. Tip 1: I took this photo in Bruges in Belgium. I got up and, when my friends were having breakfast, I went for a walk with my camera. The sun was low in the sky and the light was beautiful and warm; there were no people around. The light in the evening is also good, but there are a lot more people around. Most of the time I prefer my photos to be less crowded. Tip 2: Try not to take exactly the same picture as millions of other people – look for little details that other photographers haven’t seen. Although I am a very enthusiastic photographer, I often buy a nice postcard of the places I visit – much better than going home with pictures that aren’t very good. Tip 3: These are the gardens outside the Louvre in Paris. We spent all day looking at the paintings, and we were walking back to the hotel when we saw someone feeding the birds. I only had my little camera with me, but it was all I needed.",
           "exercises": [
             {"n": 1, "type": "rewrite", "prompt": "The best time to take photos is early evening.", "answers": ["The best time to take photos is early morning.", "The best time to take photos is early in the morning.", "The best time to take photos is in the early morning."], "explain": "False: he went out early in the morning, when his friends were having breakfast.", "source": "MODEL"},
-            {"n": 2, "type": "rewrite", "prompt": "The writer prefers taking photos with people in them.", "answers": ["The writer prefers taking photos without people in them.", "The writer doesn’t prefer taking photos with people in them.", "The writer prefers taking photos with no people in them."], "explain": "False: most of the time he prefers his photos to be less crowded.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "The writer prefers taking photos with people in them.", "answers": ["The writer prefers taking photos without people in them.", "The writer doesn’t prefer taking photos with people in them.", "The writer prefers taking photos with no people in them.", "The writer prefers taking photos without people.", "The writer prefers taking photos with fewer people in them.", "The writer doesn’t like taking photos with people in them."], "explain": "False: most of the time he prefers his photos to be less crowded.", "source": "MODEL"},
             {"n": 3, "type": "rewrite", "prompt": "Try to make your photos different from other people’s.", "answers": ["Try to make your photos different from other people’s."], "explain": "True: don’t take exactly the same picture as millions of other people.", "source": "MODEL"},
             {"n": 4, "type": "rewrite", "prompt": "Your own photos are always better than postcards.", "answers": ["Your own photos aren’t always better than postcards.", "Your own photos are not always better than postcards.", "Postcards are sometimes better than your own photos."], "explain": "False: he often buys a nice postcard – better than pictures that aren’t very good.", "source": "MODEL"},
             {"n": 5, "type": "rewrite", "prompt": "The writer went to the Louvre to see the paintings.", "answers": ["The writer went to the Louvre to see the paintings."], "explain": "True: they spent all day looking at the paintings.", "source": "MODEL"},

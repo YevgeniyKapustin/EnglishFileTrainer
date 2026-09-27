@@ -100,7 +100,8 @@
               "gaps": [
                 [
                   "Yes",
-                  "Yes, he did"
+                  "Yes, he did",
+                  "Yes he did"
                 ]
               ],
               "explain": "‘I took my jacket out of my bag, and… my phone was in my jacket pocket!’",
@@ -2982,6 +2983,7 @@
                 [
                   "bus",
                   "plane",
+                  "car",
                   "bus or plane"
                 ]
               ],
@@ -4240,7 +4242,7 @@
             {
               "n": 5,
               "type": "rewrite",
-              "prompt": "We went on a walk by the lake.",
+              "prompt": "We went to a walk by the lake.",
               "answers": [
                 "We went for a walk by the lake."
               ],

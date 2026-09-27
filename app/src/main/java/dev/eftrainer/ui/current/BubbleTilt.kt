@@ -1,6 +1,7 @@
 package dev.eftrainer.ui.current
 
 import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
 import dev.eftrainer.core.ui.SPEECH_BUBBLE_RADIUS
 import dev.eftrainer.core.ui.SpeechBubbleCenter
 import kotlin.math.abs
@@ -17,6 +18,8 @@ fun restingTiltDegrees(tip: Offset): Float {
     return if (reach.x < 0f) degrees else -degrees
 }
 
+fun floorContact(tiltDegrees: Float) = SpeechBubbleCenter + Offset(0f, SPEECH_BUBBLE_RADIUS).rotated(-tiltDegrees)
+
 fun tiltDegrees(
     pressedDown: Float,
     room: Float,
@@ -28,9 +31,35 @@ fun Offset.scaledFrom(
     scale: Offset,
 ) = Offset((x - pivot.x) * scale.x, (y - pivot.y) * scale.y)
 
-fun Offset.pivotShift(degrees: Float): Offset {
+fun Offset.rotated(degrees: Float): Offset {
     val turn = Math.toRadians(degrees.toDouble())
     val cosine = cos(turn).toFloat()
     val sine = sin(turn).toFloat()
-    return Offset(x - (x * cosine - y * sine), y - (x * sine + y * cosine))
+    return Offset(x * cosine - y * sine, x * sine + y * cosine)
+}
+
+fun Offset.pivotShift(degrees: Float) = this - rotated(degrees)
+
+fun wallPush(
+    center: Offset,
+    radii: Offset,
+    degrees: Float,
+    band: Size,
+): Offset {
+    if (band == Size.Zero) return Offset.Zero
+    val turn = Math.toRadians(degrees.toDouble())
+    val cosine = abs(cos(turn).toFloat())
+    val sine = abs(sin(turn).toFloat())
+    val half = Offset(hypot(radii.x * cosine, radii.y * sine), hypot(radii.x * sine, radii.y * cosine))
+    return Offset(keptInside(center.x, half.x, band.width), keptInside(center.y, half.y, band.height))
+}
+
+private fun keptInside(
+    center: Float,
+    half: Float,
+    span: Float,
+) = when {
+    center + half > span -> span - center - half
+    center - half < 0f -> half - center
+    else -> 0f
 }

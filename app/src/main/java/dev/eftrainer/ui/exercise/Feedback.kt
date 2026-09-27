@@ -15,6 +15,10 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -37,6 +41,7 @@ import dev.eftrainer.data.ai.AiException
 import dev.eftrainer.domain.ai.WritePrompt
 import dev.eftrainer.ui.exercise.inputs.SayIcon
 import dev.eftrainer.ui.explain.ChatThread
+import dev.eftrainer.ui.explain.FollowUpField
 import dev.eftrainer.ui.explain.LinkText
 import dev.eftrainer.ui.explain.Selectable
 
@@ -54,6 +59,7 @@ internal fun FeedbackSheet(
     onAnswerBack: (String) -> Unit = {},
 ) {
     val color = if (f.correct) C.Ok else C.Bad
+    val aiShown = aiOn || explanation?.answered == true
     Column(
         Modifier
             .fillMaxWidth()
@@ -67,9 +73,12 @@ internal fun FeedbackSheet(
             AiGradedFeedback(f.expected, f.corrections)
         } else if (!f.correct) {
             ExpectedAnswer(f, tts, sayId)
-            if (aiOn || explanation?.answered == true) AiExplanation(explanation, aiOn, onExplain)
+            if (aiShown) AiExplanation(explanation, aiOn, onExplain)
         }
         answerBack?.let { AnswerBackBlock(it, onAnswerBack) }
+        if (f.correct && !aiGraded && aiShown) {
+            AskAi(explanation, aiOn, onExplain)
+        }
         PrimaryButton(
             stringResource(R.string.continue_),
             onClick = onNext,
@@ -170,6 +179,34 @@ private fun AiExplanation(
             onRetry = { onExplain(null) },
             maxHeight = 220.dp,
         )
+    }
+}
+
+@Composable
+private fun AskAi(
+    chat: Explanation?,
+    aiOn: Boolean,
+    onExplain: (String?) -> Unit,
+) {
+    var asking by remember { mutableStateOf(false) }
+    when {
+        chat != null -> {
+            ChatThread(
+                chat,
+                canAsk = aiOn,
+                onAsk = { onExplain(it) },
+                onRetry = { onExplain(null) },
+                maxHeight = 220.dp,
+            )
+        }
+
+        asking -> {
+            FollowUpField(onAsk = { onExplain(it) }, autoFocus = true)
+        }
+
+        else -> {
+            LinkText(stringResource(R.string.ask_ai), onClick = { asking = true })
+        }
     }
 }
 

@@ -4,6 +4,7 @@ import dev.eftrainer.data.content.Blank
 import dev.eftrainer.data.content.File1A
 import dev.eftrainer.data.content.Rewrite
 import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Test
 
@@ -38,5 +39,21 @@ class ExplainPromptTest {
         assertTrue(user.second.contains("Lessons studied so far: 1A"))
         assertTrue(user.second.contains("Task: ${task.instruction}"))
         if (section.reference.isNotEmpty()) assertTrue(user.second.contains("Rules of this section"))
+    }
+
+    @Test fun `correct answer prompt says the answer is correct and never claims a mistake`() {
+        val section = File1A.sections.first()
+        val task = section.tasks.first()
+        val e = task.exercises.first()
+        val (system, user) = ExplainPrompt.build(File1A, section, task, e, "right", "right", correct = true)
+        assertTrue(user.second.endsWith("The student's answer is correct."))
+        assertFalse(system.second.contains("Explain why the student's answer is wrong"))
+        assertTrue(system.second.contains("answered this exercise correctly"))
+    }
+
+    @Test fun `a question right after the prompt joins the prompt's user message`() {
+        val chat = AiChat(listOf("system" to "s", "user" to "context")).ask(" why this form? ")
+        assertEquals(listOf("system", "user"), chat.messages.map { it.first })
+        assertEquals("context\n\nwhy this form?", chat.messages.last().second)
     }
 }

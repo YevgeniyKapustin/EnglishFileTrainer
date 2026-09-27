@@ -1,5 +1,10 @@
 package dev.eftrainer.ui.settings
 
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.expandVertically
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.shrinkVertically
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -36,7 +41,7 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import dev.eftrainer.R
-import dev.eftrainer.core.speech.VoiceInfo
+import dev.eftrainer.core.speech.TextToSpeechState
 import dev.eftrainer.core.speech.groupVoices
 import dev.eftrainer.core.speech.rememberTextToSpeech
 import dev.eftrainer.core.theme.C
@@ -70,27 +75,27 @@ fun SettingsScreen(
             style = T.title,
             modifier = Modifier.padding(start = 24.dp, end = 24.dp, top = 8.dp),
         )
-        Column(Modifier.weight(1f).verticalScroll(rememberScrollState()).padding(horizontal = 24.dp)) {
-            SectionLabel(stringResource(R.string.theme))
-            ThemeOptions(mode, onSelect = vm::setTheme)
-            SectionLabel(stringResource(R.string.voice))
-            Voice(vm.voice, onVoice)
-            SectionLabel(stringResource(R.string.reminder))
-            ReminderRows(
-                on = reminder,
-                time = reminderTime,
-                onToggle = vm::setReminder,
-                onTime = vm::setReminderTime,
-            )
-            SectionLabel(stringResource(R.string.ai_explanations))
-            AiKey(
-                key = key,
-                checking = vm.checking,
-                error = vm.error,
-                onEdit = { vm.error = null },
-                onSave = vm::save,
-                onRemove = vm::remove,
-            )
+        Column(Modifier.weight(1f).verticalScroll(rememberScrollState()).padding(horizontal = 24.dp, vertical = 8.dp)) {
+            SettingsFold(stringResource(R.string.theme)) { ThemeOptions(mode, onSelect = vm::setTheme) }
+            SettingsFold(stringResource(R.string.voice)) { Voice(vm.voice, onVoice) }
+            SettingsFold(stringResource(R.string.reminder)) {
+                ReminderRows(
+                    on = reminder,
+                    time = reminderTime,
+                    onToggle = vm::setReminder,
+                    onTime = vm::setReminderTime,
+                )
+            }
+            SettingsFold(stringResource(R.string.ai_explanations)) {
+                AiKey(
+                    key = key,
+                    checking = vm.checking,
+                    error = vm.error,
+                    onEdit = { vm.error = null },
+                    onSave = vm::save,
+                    onRemove = vm::remove,
+                )
+            }
         }
     }
 }
@@ -119,20 +124,19 @@ private fun ThemeOptions(
     }
 }
 
+internal val SectionLabelStyle
+    @Composable get() =
+        TextStyle(
+            fontFamily = Golos,
+            fontSize = 14.sp,
+            fontWeight = FontWeight.Bold,
+            letterSpacing = 0.06.em,
+            color = EF.Title,
+        )
+
 @Composable
 internal fun SectionLabel(text: String) {
-    Text(
-        text.uppercase(),
-        style =
-            TextStyle(
-                fontFamily = Golos,
-                fontSize = 14.sp,
-                fontWeight = FontWeight.Bold,
-                letterSpacing = 0.06.em,
-                color = EF.Title,
-            ),
-        modifier = Modifier.padding(top = 28.dp, bottom = 4.dp),
-    )
+    Text(text.uppercase(), style = SectionLabelStyle, modifier = Modifier.padding(top = 28.dp, bottom = 4.dp))
 }
 
 @Composable
@@ -143,18 +147,19 @@ private fun Voice(
     val on by voice.readAloud.collectAsStateWithLifecycle()
     val tts = rememberTextToSpeech()
 
-    ReadAloudRow(on, onChange = voice::setReadAloud, divider = on || tts.available)
-    if (on) VoiceTuning(voice, divider = tts.available)
-    if (tts.available) VoicePickerRow(voice, tts.voices, onVoice)
+    ReadAloudRow(on, onChange = voice::setReadAloud)
+    AnimatedVisibility(on, enter = expandVertically() + fadeIn(), exit = shrinkVertically() + fadeOut()) {
+        Column { VoiceTuning(voice) }
+    }
+    VoicePickerRow(voice, tts, onVoice)
 }
 
 @Composable
 private fun ReadAloudRow(
     on: Boolean,
     onChange: (Boolean) -> Unit,
-    divider: Boolean,
 ) {
-    ListRow(onClick = { onChange(!on) }, divider = divider) {
+    ListRow(onClick = { onChange(!on) }, divider = true) {
         Tile(EF.File2, SpeakerIcon)
         Text(stringResource(R.string.voice_read_aloud), style = T.row, modifier = Modifier.weight(1f))
         AppSwitch(on, onChange)
@@ -181,10 +186,7 @@ internal fun AppSwitch(
 }
 
 @Composable
-private fun VoiceTuning(
-    voice: VoiceSettings,
-    divider: Boolean,
-) {
+private fun VoiceTuning(voice: VoiceSettings) {
     val volume by voice.volume.collectAsStateWithLifecycle()
     val rate by voice.rate.collectAsStateWithLifecycle()
     ListRow(onClick = null, divider = true) {
@@ -202,7 +204,7 @@ private fun VoiceTuning(
         )
         Text("${(volume * 100).toInt()}%", style = T.rowSub, modifier = Modifier.widthIn(min = 40.dp))
     }
-    ListRow(onClick = null, divider = divider) {
+    ListRow(onClick = null, divider = true) {
         Text(stringResource(R.string.voice_speed), style = T.row, modifier = Modifier.weight(1f))
         Segmented(
             listOf(SpeechRate.NORMAL to R.string.voice_speed_normal, SpeechRate.SLOW to R.string.voice_speed_slow),
@@ -215,22 +217,19 @@ private fun VoiceTuning(
 @Composable
 private fun VoicePickerRow(
     voice: VoiceSettings,
-    voices: List<VoiceInfo>,
+    tts: TextToSpeechState,
     onVoice: () -> Unit,
 ) {
     val name by voice.voiceName.collectAsStateWithLifecycle()
-    val current = name?.let { n -> groupVoices(voices).flatMap { it.voices }.firstOrNull { it.name == n } }
+    val current = name?.let { n -> groupVoices(tts.voices).flatMap { it.voices }.firstOrNull { it.name == n } }
+    val known = name == null || tts.available
     ListRow(onClick = onVoice, divider = false) {
         Text(stringResource(R.string.voice), style = T.row, modifier = Modifier.weight(1f))
         Text(
-            current?.let {
-                stringResource(
-                    R.string.voice_current,
-                    it.accent,
-                    it.number,
-                )
-            } ?: stringResource(R.string.voice_auto),
+            current?.let { stringResource(R.string.voice_current, it.accent, it.number) }
+                ?: stringResource(R.string.voice_auto),
             style = T.rowSub,
+            modifier = Modifier.alpha(if (known) 1f else 0f),
         )
         Icon(Icons.ChevronRight, null, Modifier.size(20.dp), tint = C.Chevron)
     }

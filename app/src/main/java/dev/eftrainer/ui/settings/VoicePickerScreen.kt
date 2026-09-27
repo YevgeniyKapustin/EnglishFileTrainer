@@ -4,6 +4,7 @@ import android.content.ActivityNotFoundException
 import android.content.Context
 import android.content.Intent
 import android.speech.tts.TextToSpeech
+import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -67,12 +68,18 @@ fun VoicePickerScreen(
                 Text(stringResource(R.string.voice_auto), style = T.row, modifier = Modifier.weight(1f))
                 Check(current == null)
             }
-            groups.forEach { group ->
-                SectionLabel(group.accent)
-                group.voices.forEachIndexed { i, v ->
-                    ListRow(onClick = { choose(v.name) }, divider = i != group.voices.lastIndex) {
-                        Text(stringResource(R.string.voice_n, v.number), style = T.row, modifier = Modifier.weight(1f))
-                        Check(v.name == current)
+            Column(Modifier.animateContentSize()) {
+                groups.forEach { group ->
+                    SectionLabel(group.accent)
+                    group.voices.forEachIndexed { i, v ->
+                        ListRow(onClick = { choose(v.name) }, divider = i != group.voices.lastIndex) {
+                            Text(
+                                stringResource(R.string.voice_n, v.number),
+                                style = T.row,
+                                modifier = Modifier.weight(1f),
+                            )
+                            Check(v.name == current)
+                        }
                     }
                 }
             }

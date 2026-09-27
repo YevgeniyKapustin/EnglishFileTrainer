@@ -1,5 +1,10 @@
 package dev.eftrainer.ui.settings
 
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.expandVertically
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.shrinkVertically
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -71,28 +76,28 @@ internal fun AiKey(
         input = ""
         onEdit()
     }
-    if (!open) return
-
-    val typed = input.trim()
-    val hit = detectProvider(typed)
-    Column(Modifier.padding(top = 4.dp, bottom = 16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        KeyField(input) {
-            input = it
-            onEdit()
-        }
-        KeyHint(typed, hit)
-        ProviderList(hit)
-        Text(stringResource(R.string.ai_key_local), style = T.label)
-        error?.let { KeyError(it) }
-        PrimaryButton(
-            stringResource(if (checking) R.string.ai_key_checking else R.string.save),
-            onClick = { onSave(typed, close) },
-            enabled = hit != null && !checking,
-        )
-        if (key != null) {
-            RemoveKeyLink {
-                onRemove()
-                close()
+    AnimatedVisibility(open, enter = expandVertically() + fadeIn(), exit = shrinkVertically() + fadeOut()) {
+        val typed = input.trim()
+        val hit = detectProvider(typed)
+        Column(Modifier.padding(top = 4.dp, bottom = 16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            KeyField(input) {
+                input = it
+                onEdit()
+            }
+            KeyHint(typed, hit)
+            ProviderList(hit)
+            Text(stringResource(R.string.ai_key_local), style = T.label)
+            error?.let { KeyError(it) }
+            PrimaryButton(
+                stringResource(if (checking) R.string.ai_key_checking else R.string.save),
+                onClick = { onSave(typed, close) },
+                enabled = hit != null && !checking,
+            )
+            if (key != null) {
+                RemoveKeyLink {
+                    onRemove()
+                    close()
+                }
             }
         }
     }

@@ -16,6 +16,8 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.platform.LocalFocusManager
+import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -73,20 +75,19 @@ private const val SLIDE_SHARE = 6
 private class ScreenNav(
     private val nav: NavHostController,
     val entry: NavBackStackEntry,
+    private val dropKeyboard: () -> Unit,
 ) {
-    private val onTop get() = nav.currentBackStackEntry == entry
-
-    fun back() {
-        if (onTop) nav.popBackStack()
+    private fun leave(go: () -> Unit) {
+        if (nav.currentBackStackEntry != entry) return
+        dropKeyboard()
+        go()
     }
 
-    fun home() {
-        if (onTop) nav.popBackStack(CurrentRoute, inclusive = false)
-    }
+    fun back() = leave { nav.popBackStack() }
 
-    fun <R : Any> open(route: R) {
-        if (onTop) nav.navigate(route)
-    }
+    fun home() = leave { nav.popBackStack(CurrentRoute, inclusive = false) }
+
+    fun <R : Any> open(route: R) = leave { nav.navigate(route) }
 }
 
 private inline fun <reified T : Any> NavGraphBuilder.screen(
@@ -106,7 +107,15 @@ private inline fun <reified T : Any> NavGraphBuilder.screen(
                 slideOutHorizontally(tween(SLIDE_MS, easing = EaseOutCubic), shift)
         },
     ) { entry ->
-        val screen = remember(entry) { ScreenNav(nav, entry) }
+        val focus = LocalFocusManager.current
+        val keyboard = LocalSoftwareKeyboardController.current
+        val screen =
+            remember(entry) {
+                ScreenNav(nav, entry) {
+                    keyboard?.hide()
+                    focus.clearFocus(force = true)
+                }
+            }
         val settled =
             entry.lifecycle.currentStateFlow
                 .collectAsState()
@@ -143,7 +152,7 @@ fun AppNavigation(
                 onVoice = { screen.open(VoiceRoute) },
             )
         }
-        screen<VoiceRoute>(nav) { screen -> VoicePickerScreen(onBack = screen::back) }
+        screen<VoiceRoute>(nav, fromLeft = true) { screen -> VoicePickerScreen(onBack = screen::back) }
         screen<SectionRoute>(nav) { screen ->
             val id = screen.entry.toRoute<SectionRoute>().sectionId
             SectionScreen(

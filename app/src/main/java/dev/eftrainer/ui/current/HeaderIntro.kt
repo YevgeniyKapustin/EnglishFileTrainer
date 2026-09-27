@@ -11,11 +11,7 @@ import androidx.compose.foundation.gestures.detectDragGestures
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.Stable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.ui.geometry.Offset
@@ -52,10 +48,13 @@ private const val RAYS_MILLIS = 460
 private const val FIRST_BUBBLE_DELAY_MILLIS = 220L
 private const val BUBBLE_STAGGER_MILLIS = 90L
 
+private var launchIntroPlayed = false
+
 @Stable
 class HeaderIntro(
     played: Boolean,
 ) {
+    val pending = !played
     private val start = if (played) 1f else 0f
     val rays = Animatable(start)
     val firstBubble = Animatable(start)
@@ -63,12 +62,11 @@ class HeaderIntro(
 }
 
 @Composable
-fun rememberHeaderIntro(): HeaderIntro {
-    var played by rememberSaveable { mutableStateOf(false) }
-    val intro = remember { HeaderIntro(played) }
+fun rememberHeaderIntro(play: Boolean): HeaderIntro {
+    val intro = remember { HeaderIntro(played = !play || launchIntroPlayed) }
     LaunchedEffect(intro) {
-        if (played) return@LaunchedEffect
-        played = true
+        if (!intro.pending) return@LaunchedEffect
+        launchIntroPlayed = true
         val pop = spring<Float>(Spring.DampingRatioMediumBouncy, Spring.StiffnessMediumLow)
         launch { intro.rays.animateTo(1f, tween(RAYS_MILLIS, easing = LinearEasing)) }
         delay(FIRST_BUBBLE_DELAY_MILLIS)

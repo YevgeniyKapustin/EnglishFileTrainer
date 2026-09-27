@@ -3,7 +3,6 @@ package dev.eftrainer.data
 import dev.eftrainer.data.db.dao.AnswerDao
 import dev.eftrainer.data.db.entities.Answer
 import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.map
@@ -16,7 +15,9 @@ class AnswerLog(
     private val dao: AnswerDao,
     scope: CoroutineScope,
 ) {
-    val answers: Flow<List<Answer>> = dao.observeAll()
+    val answers: SharedFlow<List<Answer>> = dao.observeAll().shareIn(scope, SharingStarted.Eagerly, replay = 1)
+
+    val latestAnswers: List<Answer>? get() = answers.replayCache.lastOrNull()
     val days: SharedFlow<Set<LocalDate>> =
         dao
             .observeDays()

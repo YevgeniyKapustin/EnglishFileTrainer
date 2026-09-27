@@ -33,7 +33,7 @@ class TextToSpeechState internal constructor(
 
     var rate = 1f
 
-    var voices by mutableStateOf<List<VoiceInfo>>(emptyList())
+    var voices by mutableStateOf(knownVoices)
         private set
 
     var voiceName: String? = null
@@ -123,7 +123,9 @@ class TextToSpeechState internal constructor(
         if (available) voices = listVoices(t)
     }
 
-    private fun listVoices(t: TextToSpeech): List<VoiceInfo> =
+    private fun listVoices(t: TextToSpeech): List<VoiceInfo> = englishVoices(t).also { knownVoices = it }
+
+    private fun englishVoices(t: TextToSpeech): List<VoiceInfo> =
         runCatching {
             t.voices
                 .orEmpty()
@@ -225,6 +227,7 @@ class TextToSpeechState internal constructor(
 private val LOCALES = listOf(Locale.US, Locale.UK)
 private val broken = mutableSetOf<Locale>()
 private val brokenVoices = mutableSetOf<String>()
+private var knownVoices = emptyList<VoiceInfo>()
 
 @Composable
 fun rememberTextToSpeech(): TextToSpeechState {

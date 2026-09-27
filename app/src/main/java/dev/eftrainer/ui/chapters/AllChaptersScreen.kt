@@ -30,6 +30,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import dev.eftrainer.R
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.EF
+import dev.eftrainer.core.theme.FilePalettes
 import dev.eftrainer.core.theme.Golos
 import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.ui.BackLink
@@ -37,15 +38,6 @@ import dev.eftrainer.core.ui.Icons
 import dev.eftrainer.core.ui.ListRow
 import dev.eftrainer.ui.appContainer
 import dev.eftrainer.ui.toPercent
-
-private const val FILE_COLOR_COUNT = 3
-
-private fun fileColor(file: Int): Color =
-    when ((file - 1).mod(FILE_COLOR_COUNT)) {
-        0 -> EF.Teal
-        1 -> EF.File2
-        else -> EF.File3
-    }
 
 @Composable
 fun AllChaptersScreen(
@@ -69,7 +61,7 @@ fun AllChaptersScreen(
                 if (rows.startsFile(i)) FileHeader(file, first = i == 0)
                 ChapterItem(
                     row = row,
-                    color = fileColor(file),
+                    color = FilePalettes.forFile(file).key,
                     divider = i != rows.lastIndex,
                     onClick = {
                         vm.choose(row.chapter.id)
@@ -99,7 +91,7 @@ private fun FileHeader(
                 fontSize = 13.sp,
                 fontWeight = FontWeight.Bold,
                 letterSpacing = 0.06.em,
-                color = fileColor(file),
+                color = FilePalettes.forFile(file).key,
             ),
         modifier = Modifier.padding(top = if (first) 0.dp else 18.dp, bottom = 2.dp),
     )

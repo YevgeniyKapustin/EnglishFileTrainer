@@ -51,7 +51,6 @@ object EF {
     val Lime = Color(0xFFA9D46F)
     val BubbleInk = Color(0xFF10384A)
     val File2 = Color(0xFFE8762B)
-    val File3 = Color(0xFF4FA64A)
 
     val Title get() = if (Palette.dark) Sky else Teal
     val G get() = pick(0xFF1D4E9E, 0xFF6F95E0)

@@ -90,14 +90,13 @@ private val SectionKind.letter: String
 fun SectionTag(
     kind: SectionKind,
     modifier: Modifier = Modifier,
-    alpha: Float = 1f,
 ) {
     Box(
         modifier
             .height(22.dp)
             .widthIn(min = 22.dp)
             .clip(RoundedCornerShape(5.dp))
-            .background(kind.color.copy(alpha = alpha))
+            .background(kind.color)
             .padding(horizontal = if (kind.letter.length > 1) 3.dp else 0.dp),
         contentAlignment = Alignment.Center,
     ) {
@@ -108,7 +107,7 @@ fun SectionTag(
                     fontFamily = Golos,
                     fontSize = 13.sp,
                     fontWeight = FontWeight.Bold,
-                    color = EF.TagInk.copy(alpha = alpha),
+                    color = EF.TagInk,
                 ),
         )
     }

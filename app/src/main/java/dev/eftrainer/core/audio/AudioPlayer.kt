@@ -26,6 +26,7 @@ import androidx.media3.exoplayer.source.DefaultMediaSourceFactory
 import androidx.media3.extractor.DefaultExtractorsFactory
 import androidx.media3.extractor.mp3.Mp3Extractor
 import dev.eftrainer.data.content.Clip
+import kotlin.math.abs
 
 object AudioAssets {
     @Volatile private var names: Set<String>? = null
@@ -125,6 +126,8 @@ class AudioPlayerState internal constructor(
             )
         }
     private var released = false
+    private var smooth = 0f
+    private var lastFrameNanos = 0L
 
     internal fun load() {
         if (!released && player.playbackState == Player.STATE_IDLE) player.prepare()
@@ -152,10 +155,25 @@ class AudioPlayerState internal constructor(
         val to = ms.coerceIn(0, durationMs)
         player.seekTo(to.toLong())
         positionMs = to
+        smooth = to.toFloat()
     }
 
     internal fun sync() {
-        if (!released) positionMs = player.currentPosition.toInt()
+        if (released) return
+        positionMs = player.currentPosition.toInt()
+        smooth = positionMs.toFloat()
+        lastFrameNanos = 0L
+    }
+
+    internal fun glide(frameNanos: Long) {
+        if (released) return
+        val real = player.currentPosition.toFloat()
+        val elapsed = if (lastFrameNanos == 0L) 0f else (frameNanos - lastFrameNanos) / NANOS_PER_MS
+        lastFrameNanos = frameNanos
+        val next = smooth + elapsed
+        val drift = real - next
+        smooth = if (abs(drift) > SNAP_MS) real else next + drift * DRIFT_PULL
+        positionMs = smooth.toInt().coerceIn(0, durationMs.coerceAtLeast(0))
     }
 
     internal fun release() {
@@ -166,6 +184,9 @@ class AudioPlayerState internal constructor(
     }
 
     companion object {
+        private const val NANOS_PER_MS = 1_000_000f
+        private const val SNAP_MS = 300f
+        private const val DRIFT_PULL = .08f
         private var current: AudioPlayerState? = null
 
         private var external: (() -> Unit)? = null
@@ -210,7 +231,7 @@ fun rememberAudioPlayer(
     LifecycleEventEffect(Lifecycle.Event.ON_PAUSE) { state?.pause() }
     LaunchedEffect(state, state?.playing) {
         while (state != null && state.playing) {
-            withFrameNanos { state.sync() }
+            withFrameNanos(state::glide)
         }
     }
     return state

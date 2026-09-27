@@ -2231,7 +2231,9 @@
               "gaps": [
                 [
                   "She’s",
-                  "She is"
+                  "She is",
+                  "They’re",
+                  "They are"
                 ]
               ],
               "hint": "(He’s / She’s / They’re)",

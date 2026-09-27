@@ -69,7 +69,7 @@ val File2A = Chapter(
                         Rewrite(
                             "2A-sb1c-02",
                             prompt = "One day, they **went cycling**.",
-                            answers = listOf("One day, they climbed a mountain.", "One day, they went for a walk.", "One day, they went for a long walk.", "One day, they went walking."),
+                            answers = listOf("One day, they climbed a mountain.", "One day, they went for a walk.", "One day, they went for a long walk.", "One day, they went walking.", "One day they climbed a mountain.", "One day they went for a walk.", "One day they went for a long walk.", "One day they went walking."),
                             explain = "‘we climbed a mountain – well, it wasn’t really a climb, but it was a long walk’",
                             source = AnswerSource.MODEL,
                         ),
@@ -94,7 +94,7 @@ val File2A = Chapter(
                         Rewrite(
                             "2A-sb1c-06",
                             prompt = "Stuart wanted to take another photo, but he couldn’t find **his camera**.",
-                            answers = listOf("Stuart wanted to take another photo, but he couldn’t find his phone.", "Stuart wanted to take another photo, but he could not find his phone."),
+                            answers = listOf("Stuart wanted to take another photo, but he couldn’t find his phone.", "Stuart wanted to take another photo, but he could not find his phone.", "Stuart wanted to take another photo but he couldn’t find his phone.", "Stuart wanted to take another photo but he could not find his phone."),
                             source = AnswerSource.MODEL,
                         ),
                         Rewrite(

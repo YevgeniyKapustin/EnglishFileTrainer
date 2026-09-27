@@ -124,7 +124,11 @@
                 "One day, they climbed a mountain.",
                 "One day, they went for a walk.",
                 "One day, they went for a long walk.",
-                "One day, they went walking."
+                "One day, they went walking.",
+                "One day they climbed a mountain.",
+                "One day they went for a walk.",
+                "One day they went for a long walk.",
+                "One day they went walking."
               ],
               "explain": "‘we climbed a mountain – well, it wasn’t really a climb, but it was a long walk’",
               "source": "MODEL"
@@ -164,7 +168,9 @@
               "prompt": "Stuart wanted to take another photo, but he couldn’t find **his camera**.",
               "answers": [
                 "Stuart wanted to take another photo, but he couldn’t find his phone.",
-                "Stuart wanted to take another photo, but he could not find his phone."
+                "Stuart wanted to take another photo, but he could not find his phone.",
+                "Stuart wanted to take another photo but he couldn’t find his phone.",
+                "Stuart wanted to take another photo but he could not find his phone."
               ],
               "source": "MODEL"
             },

@@ -1162,7 +1162,7 @@ val File1C = Chapter(
                         Blank(
                             "1C-sb3a-06",
                             text = "{} standing near a window.",
-                            gaps = listOf(listOf("She’s", "She is")),
+                            gaps = listOf(listOf("She’s", "She is", "They’re", "They are")),
                             hint = "(He’s / She’s / They’re)",
                             explain = "In the painting there’s a window next to the woman.",
                             source = AnswerSource.MODEL,

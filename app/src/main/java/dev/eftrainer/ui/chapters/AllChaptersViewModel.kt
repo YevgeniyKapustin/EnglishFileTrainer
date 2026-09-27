@@ -6,6 +6,7 @@ import dev.eftrainer.AppContainer
 import dev.eftrainer.data.content.Chapter
 import dev.eftrainer.data.content.Chapters
 import dev.eftrainer.data.content.exercises
+import dev.eftrainer.data.db.entities.Progress
 import dev.eftrainer.domain.learning.ChapterCompletion
 import dev.eftrainer.domain.learning.Mastery
 import kotlinx.coroutines.flow.SharingStarted
@@ -26,21 +27,32 @@ class AllChaptersViewModel(
     container: AppContainer,
 ) : ViewModel() {
     val rows: StateFlow<List<ChapterRow>> =
-        combine(container.chapters.completed, container.progress.progress) { completed, progress ->
-            val current = ChapterCompletion.current(Chapters.all, completed)
-            Chapters.all.map { ch ->
-                val status =
-                    when {
-                        ch.id in completed -> ChapterStatus.COMPLETED
-                        ch == current -> ChapterStatus.CURRENT
-                        else -> ChapterStatus.LOCKED
-                    }
-                ChapterRow(ch, status, Mastery.share(ch.exercises, progress))
-            }
-        }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptyList())
+        combine(container.chapters.completed, container.progress.progress, ::build).stateIn(
+            viewModelScope,
+            SharingStarted.WhileSubscribed(KEEP_ALIVE_MS),
+            container.review.latest
+                ?.let { build(it.completed, it.progress) }
+                .orEmpty(),
+        )
 
     private val chapters = container.chapters
     private val clock = container.clock
+
+    private fun build(
+        completed: Set<String>,
+        progress: Map<String, Progress>,
+    ): List<ChapterRow> {
+        val current = ChapterCompletion.current(Chapters.all, completed)
+        return Chapters.all.map { ch ->
+            val status =
+                when {
+                    ch.id in completed -> ChapterStatus.COMPLETED
+                    ch == current -> ChapterStatus.CURRENT
+                    else -> ChapterStatus.LOCKED
+                }
+            ChapterRow(ch, status, Mastery.share(ch.exercises, progress))
+        }
+    }
 
     fun unlock(
         chapterId: String,
@@ -55,6 +67,10 @@ class AllChaptersViewModel(
                 .forEach { chapters.markCompleted(it.id, today) }
             then()
         }
+    }
+
+    private companion object {
+        const val KEEP_ALIVE_MS = 5_000L
     }
 }
 

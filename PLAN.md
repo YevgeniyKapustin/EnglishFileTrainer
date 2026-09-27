@@ -58,6 +58,8 @@
 **Проверки перед сдачей работы** (из корня; все должны быть зелёными):
 - Kotlin: `./gradlew :app:ktlintFormat :app:ktlintCheck :app:detekt :app:testDebugUnitTest :app:lintDebug`.
   Отчёт detekt — `app/build/reports/detekt/detekt.sarif`, lint — `app/build/intermediates/lint_intermediate_text_report/debug/lintReportDebug/lint-results-debug.txt`.
+- На телефон — только release: `./gradlew :app:installRelease` (R8 + baseline profile; тот же ключ, ставится поверх
+  debug с сохранением данных). Debug на слабом телефоне заметно тормозит — для проверки скорости не годится.
 - Python: `uvx ruff format tools`, `uvx ruff check`, `uvx --with pymupdf --with numpy mypy`,
   `PYTHONIOENCODING=utf-8 python tools/check_no_comments.py`.
 - Хук `.claude/settings.json` → `tools/lint_hook.py`: после каждой правки `.py` — ruff и проверка комментариев.

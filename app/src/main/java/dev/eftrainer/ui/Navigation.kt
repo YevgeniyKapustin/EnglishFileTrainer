@@ -4,6 +4,9 @@ import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.SideEffect
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
@@ -12,6 +15,7 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
 import dev.eftrainer.ui.chapters.AllChaptersScreen
 import dev.eftrainer.ui.current.CurrentChapterScreen
+import dev.eftrainer.ui.current.CurrentChapterViewModel
 import dev.eftrainer.ui.exercise.SessionScreen
 import dev.eftrainer.ui.section.RulesScreen
 import dev.eftrainer.ui.section.SectionScreen
@@ -49,7 +53,10 @@ import kotlinx.serialization.Serializable
 )
 
 @Composable
-fun AppNavigation(nav: NavHostController = rememberNavController()) {
+fun AppNavigation(
+    onHomeReady: () -> Unit,
+    nav: NavHostController = rememberNavController(),
+) {
     fun home() {
         nav.popBackStack(CurrentRoute, inclusive = false)
     }
@@ -60,7 +67,7 @@ fun AppNavigation(nav: NavHostController = rememberNavController()) {
         enterTransition = { fadeIn(tween(150)) },
         exitTransition = { fadeOut(tween(0)) },
     ) {
-        chapterScreens(nav)
+        chapterScreens(nav, onHomeReady)
         composable<SettingsRoute> {
             SettingsScreen(
                 onBack = { nav.popBackStack() },
@@ -98,14 +105,22 @@ fun AppNavigation(nav: NavHostController = rememberNavController()) {
     }
 }
 
-private fun NavGraphBuilder.chapterScreens(nav: NavHostController) {
+private fun NavGraphBuilder.chapterScreens(
+    nav: NavHostController,
+    onHomeReady: () -> Unit,
+) {
     composable<CurrentRoute> {
+        val container = appContainer()
+        val home = viewModel(key = "home") { CurrentChapterViewModel(container) }
+        val ready = home.state.collectAsStateWithLifecycle().value != null
+        if (ready) SideEffect(onHomeReady)
         CurrentChapterScreen(
             onAllChapters = { nav.navigate(ChaptersRoute) },
             onSection = { nav.navigate(SectionRoute(it)) },
             onReview = { nav.navigate(SessionRoute()) },
             onSettings = { nav.navigate(SettingsRoute) },
             onStats = { nav.navigate(StatsRoute) },
+            vm = home,
         )
     }
     composable<StatsRoute> {

@@ -23,6 +23,7 @@ import dev.eftrainer.domain.check.Checker
 import dev.eftrainer.domain.learning.ChapterCompletion
 import dev.eftrainer.domain.learning.GenerationPlan
 import dev.eftrainer.domain.learning.Mastery
+import dev.eftrainer.domain.learning.ReviewInputs
 import dev.eftrainer.domain.learning.Stats
 import dev.eftrainer.domain.learning.TrainingQueue
 import dev.eftrainer.ui.toPercent
@@ -112,31 +113,36 @@ class SessionViewModel(
     private var arrivals = 0
 
     init {
-        viewModelScope.launch {
-            val inputs = container.review.inputs.first()
-            val progress = inputs.progress
-            val completed = inputs.completed
-            val ai = inputs.ai
-            if (sectionId == null) acceptFresh()
-            if (ai) container.generation.refillInBackground()
-            val exercises =
-                when {
-                    sectionId == null -> container.review.plan(inputs).all
-                    again -> TrainingQueue.again(Chapters.section(sectionId), ai)
-                    else -> TrainingQueue.firstPass(Chapters.section(sectionId), progress, ai)
-                }
-            chapter =
-                if (sectionId == null) {
-                    ChapterCompletion.current(Chapters.all, completed)
-                } else {
-                    Chapters.chapterOfSection(sectionId)
-                }
-            before = chapter?.let { Mastery.share(it.exercises, progress) }?.toPercent() ?: 0
-
-            queue.addAll(exercises)
-            total = exercises.size
-            if (queue.isEmpty()) _state.value = SessionUi.Empty else show()
+        val cached = container.review.latest
+        if (cached != null) {
+            start(cached)
+        } else {
+            viewModelScope.launch { start(container.review.inputs.first()) }
         }
+    }
+
+    private fun start(inputs: ReviewInputs) {
+        val progress = inputs.progress
+        val ai = inputs.ai
+        if (sectionId == null) acceptFresh()
+        if (ai) container.generation.refillInBackground()
+        val exercises =
+            when {
+                sectionId == null -> container.review.plan(inputs).all
+                again -> TrainingQueue.again(Chapters.section(sectionId), ai)
+                else -> TrainingQueue.firstPass(Chapters.section(sectionId), progress, ai)
+            }
+        chapter =
+            if (sectionId == null) {
+                ChapterCompletion.current(Chapters.all, inputs.completed)
+            } else {
+                Chapters.chapterOfSection(sectionId)
+            }
+        before = chapter?.let { Mastery.share(it.exercises, progress) }?.toPercent() ?: 0
+
+        queue.addAll(exercises)
+        total = exercises.size
+        if (queue.isEmpty()) _state.value = SessionUi.Empty else show()
     }
 
     private fun acceptFresh() {

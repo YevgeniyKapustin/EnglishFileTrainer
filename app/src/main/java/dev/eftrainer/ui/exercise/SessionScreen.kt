@@ -77,7 +77,9 @@ fun SessionScreen(
     val currentOnClose by rememberUpdatedState(onClose)
 
     when (val s = ui) {
-        SessionUi.Loading -> {}
+        SessionUi.Loading -> {
+            SessionTopBar(onClose)
+        }
 
         SessionUi.Empty -> {
             LaunchedEffect(Unit) { currentOnClose() }
@@ -186,7 +188,7 @@ private fun QuestionScreen(
     }
 
     Column(Modifier.fillMaxSize()) {
-        QuestionTopBar(q, onClose)
+        SessionTopBar(onClose, q.done.toFloat() / q.total, stringResource(R.string.n_of_m, q.done, q.total))
 
         Selectable(Modifier.weight(1f)) {
             Column(
@@ -236,9 +238,10 @@ private fun CheckBar(
 }
 
 @Composable
-private fun QuestionTopBar(
-    q: SessionUi.Question,
+private fun SessionTopBar(
     onClose: () -> Unit,
+    progress: Float = 0f,
+    counter: String? = null,
 ) {
     Row(
         Modifier.fillMaxWidth().height(56.dp).padding(start = 8.dp, end = 24.dp),
@@ -246,8 +249,8 @@ private fun QuestionTopBar(
         horizontalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         IconButton24(Icons.Close, stringResource(R.string.close), onClose)
-        ProgressBar(q.done.toFloat() / q.total, Modifier.weight(1f))
-        Text(stringResource(R.string.n_of_m, q.done, q.total), style = T.label.copy(fontSize = 15.sp))
+        ProgressBar(progress, Modifier.weight(1f))
+        counter?.let { Text(it, style = T.label.copy(fontSize = 15.sp)) }
     }
 }
 

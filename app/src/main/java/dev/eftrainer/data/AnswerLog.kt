@@ -2,17 +2,28 @@ package dev.eftrainer.data
 
 import dev.eftrainer.data.db.dao.AnswerDao
 import dev.eftrainer.data.db.entities.Answer
+import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.SharedFlow
+import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.shareIn
 import java.time.LocalDate
 import java.time.LocalDateTime
 import java.time.ZoneOffset
 
 class AnswerLog(
     private val dao: AnswerDao,
+    scope: CoroutineScope,
 ) {
     val answers: Flow<List<Answer>> = dao.observeAll()
-    val days: Flow<Set<LocalDate>> = dao.observeDays().map { list -> list.map(LocalDate::ofEpochDay).toSet() }
+    val days: SharedFlow<Set<LocalDate>> =
+        dao
+            .observeDays()
+            .map { list -> list.map(LocalDate::ofEpochDay).toSet() }
+            .shareIn(scope, SharingStarted.Eagerly, replay = 1)
+
+    val latestDays: Set<LocalDate>? get() = days.replayCache.lastOrNull()
 
     suspend fun add(
         exerciseId: String,

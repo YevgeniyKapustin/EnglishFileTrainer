@@ -4,6 +4,10 @@ import android.Manifest
 import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
+import android.os.Process
+import android.os.SystemClock
+import android.view.View
+import android.view.ViewTreeObserver
 import androidx.activity.ComponentActivity
 import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
@@ -26,9 +30,12 @@ import dev.eftrainer.reminder.Notifier
 import dev.eftrainer.ui.AppNavigation
 
 class MainActivity : ComponentActivity() {
+    private var homeReady = false
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        if (savedInstanceState == null) holdSplashUntilHomeReady()
         val container = (application as App).container
         val theme = container.theme
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
@@ -51,9 +58,36 @@ class MainActivity : ComponentActivity() {
             }
             AppTheme(dark) {
                 Box(Modifier.fillMaxSize().background(C.Paper).windowInsetsPadding(WindowInsets.safeDrawing)) {
-                    AppNavigation()
+                    AppNavigation(onHomeReady = ::markHomeReady)
                 }
             }
         }
+    }
+
+    private fun markHomeReady() {
+        if (homeReady) return
+        homeReady = true
+        reportFullyDrawn()
+    }
+
+    private fun holdSplashUntilHomeReady() {
+        val fanOpenAt = Process.getStartUptimeMillis() + SPLASH_FAN_MS
+        val giveUpAt = SystemClock.uptimeMillis() + SPLASH_HOLD_CAP_MS
+        val content = findViewById<View>(android.R.id.content)
+        content.viewTreeObserver.addOnPreDrawListener(
+            object : ViewTreeObserver.OnPreDrawListener {
+                override fun onPreDraw(): Boolean {
+                    val now = SystemClock.uptimeMillis()
+                    val release = (homeReady && now >= fanOpenAt) || now >= giveUpAt
+                    if (release) content.viewTreeObserver.removeOnPreDrawListener(this)
+                    return release
+                }
+            },
+        )
+    }
+
+    private companion object {
+        const val SPLASH_FAN_MS = 700L
+        const val SPLASH_HOLD_CAP_MS = 3_000L
     }
 }

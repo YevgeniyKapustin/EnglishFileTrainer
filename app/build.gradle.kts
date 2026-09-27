@@ -116,6 +116,7 @@ dependencies {
     implementation(libs.media3.exoplayer)
     implementation(libs.media3.ui.compose)
     implementation(libs.work.runtime)
+    implementation(libs.androidx.profileinstaller)
 
     testImplementation(libs.junit)
 

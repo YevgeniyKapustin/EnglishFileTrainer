@@ -8,9 +8,11 @@ import dev.eftrainer.domain.learning.Stats
 import dev.eftrainer.domain.learning.Streak
 import dev.eftrainer.domain.learning.WeakSpot
 import dev.eftrainer.domain.learning.Week
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.stateIn
 import java.time.Month
 
@@ -47,5 +49,6 @@ class StatsViewModel(
                     },
                 completed = done.size,
             )
-        }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
+        }.flowOn(Dispatchers.Default)
+            .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
 }

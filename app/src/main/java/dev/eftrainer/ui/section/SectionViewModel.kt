@@ -9,6 +9,7 @@ import dev.eftrainer.data.content.Origin
 import dev.eftrainer.data.content.Section
 import dev.eftrainer.data.content.Task
 import dev.eftrainer.data.content.exercises
+import dev.eftrainer.data.db.entities.Progress
 import dev.eftrainer.domain.learning.ChapterCompletion
 import dev.eftrainer.domain.learning.Mastery
 import kotlinx.coroutines.flow.SharingStarted
@@ -42,19 +43,31 @@ class SectionViewModel(
         combine(
             container.progress.progress,
             aiAvailable(container.ai, container.connectivity),
-        ) { progress, aiOn ->
-            SectionUi(
-                section = section,
-                chapterId = chapterId,
-                tasks =
-                    section.tasks.filter { it.origin != Origin.GENERATED }.map { t ->
-                        TaskRow(t, t.exercises.count { Mastery.isMastered(progress[it.id]) }, t.exercises.size)
-                    },
-                started = section.exercises.any { it.id in progress },
-                firstPassDone = ChapterCompletion.firstPassDone(section, progress),
-                aiOn = aiOn,
-            )
-        }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
+            ::build,
+        ).stateIn(
+            viewModelScope,
+            SharingStarted.WhileSubscribed(KEEP_ALIVE_MS),
+            container.review.latest?.let { build(it.progress, it.ai) },
+        )
+
+    private fun build(
+        progress: Map<String, Progress>,
+        aiOn: Boolean,
+    ) = SectionUi(
+        section = section,
+        chapterId = chapterId,
+        tasks =
+            section.tasks.filter { it.origin != Origin.GENERATED }.map { t ->
+                TaskRow(t, t.exercises.count { Mastery.isMastered(progress[it.id]) }, t.exercises.size)
+            },
+        started = section.exercises.any { it.id in progress },
+        firstPassDone = ChapterCompletion.firstPassDone(section, progress),
+        aiOn = aiOn,
+    )
+
+    private companion object {
+        const val KEEP_ALIVE_MS = 5_000L
+    }
 }
 
 internal fun List<TaskRow>.startsOriginGroup(index: Int): Boolean =

@@ -8,9 +8,13 @@ import dev.eftrainer.data.content.Exercise
 import dev.eftrainer.data.content.IrregularVerbs
 import dev.eftrainer.data.db.entities.Progress
 import dev.eftrainer.data.generated.GeneratedRepository
+import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.SharedFlow
+import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.flow.shareIn
 import java.time.LocalDate
 
 data class ReviewInputs(
@@ -32,15 +36,18 @@ class ReviewSource(
     generated: GeneratedRepository,
     ai: Flow<Boolean>,
     private val clock: Clock,
+    scope: CoroutineScope,
 ) {
-    val inputs: Flow<ReviewInputs> =
+    val inputs: SharedFlow<ReviewInputs> =
         combine(
             chapters.completed,
             progress.progress,
             ai.distinctUntilChanged(),
             generated.observeBySection(),
             ::ReviewInputs,
-        )
+        ).shareIn(scope, SharingStarted.Eagerly, replay = 1)
+
+    val latest: ReviewInputs? get() = inputs.replayCache.lastOrNull()
 
     fun plan(inputs: ReviewInputs): ReviewPlan = inputs.plan(chapters.chapters, clock.today(), IrregularVerbs.exercises)
 }

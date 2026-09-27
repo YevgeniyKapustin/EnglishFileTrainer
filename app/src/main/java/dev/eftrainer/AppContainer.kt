@@ -24,6 +24,9 @@ import dev.eftrainer.domain.learning.Nudge
 import dev.eftrainer.domain.learning.Reminder
 import dev.eftrainer.domain.learning.ReviewSource
 import dev.eftrainer.reminder.Reminders
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.flow.first
 
 class AppContainer(
@@ -31,10 +34,11 @@ class AppContainer(
     val clock: Clock = SystemClock,
 ) {
     private val db = AppDatabase.create(context)
+    private val cacheScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
 
     val progress = ProgressRepository(db.progressDao())
     val chapters = ChapterRepository(db.chapterStateDao())
-    val answers = AnswerLog(db.answerDao())
+    val answers = AnswerLog(db.answerDao(), cacheScope)
     val learning = Learning(progress, chapters, clock, answers)
     val ai = AiSettings(context)
     val aiClient = AiClient(ai)
@@ -42,7 +46,7 @@ class AppContainer(
     val generated = GeneratedRepository(db.generatedDao())
     val generation = Generation(generated, progress, chapters, aiClient)
     val aiOn = aiAvailable(ai, connectivity)
-    val review = ReviewSource(chapters, progress, generated, aiOn, clock)
+    val review = ReviewSource(chapters, progress, generated, aiOn, clock, cacheScope)
     val theme = ThemeSettings(context)
     val voice = VoiceSettings(context)
     val reminder = ReminderSettings(context)

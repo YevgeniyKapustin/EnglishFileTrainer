@@ -67,8 +67,9 @@ private class StressLook(
     fun color(i: Int): Color =
         when {
             !checked -> if (i in picks) C.Accent else C.Ink
+            i in exercise.stressed -> C.Ok
             i in wrong -> C.Bad
-            i in exercise.stressed || !exercise.syllables -> C.Ok
+            !exercise.syllables -> C.Ok
             else -> C.Ink
         }
 

@@ -8,7 +8,9 @@ import imageio_ffmpeg
 ROOT = Path(__file__).resolve().parent.parent
 ASSETS = ROOT / "app/src/main/assets"
 AUDIO_ARGS = ["-vn", "-ac", "1", "-c:a", "libopus", "-b:a", "32k", "-application", "voip"]
+VIDEO_SIZE = "512x288"
 VIDEO_ARGS = [
+    *["-vf", f"scale={VIDEO_SIZE.replace('x', ':')}:flags=lanczos,setsar=1"],
     *["-c:v", "libx264", "-preset", "slow", "-crf", "28", "-profile:v", "baseline", "-pix_fmt", "yuv420p"],
     *["-c:a", "aac", "-ac", "1", "-b:a", "64k", "-movflags", "+faststart"],
 ]
@@ -24,7 +26,7 @@ def ffmpeg(*args: str) -> str:
 
 def is_compressed_video(path: Path) -> bool:
     info = ffmpeg("-i", str(path), "-f", "null", "-t", "0", "-")
-    return re.search(r"Audio: aac.*\bmono\b", info) is not None
+    return f", {VIDEO_SIZE}" in info and re.search(r"Audio: aac.*\bmono\b", info) is not None
 
 
 def compress_audio(path: Path) -> None:

@@ -18,6 +18,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.Stable
 import androidx.compose.runtime.getValue
@@ -46,10 +47,13 @@ import dev.eftrainer.core.ui.AssetImage
 import dev.eftrainer.core.ui.BottomBar
 import dev.eftrainer.core.ui.IconButton24
 import dev.eftrainer.core.ui.Icons
+import dev.eftrainer.core.ui.LocalEdgeScroll
 import dev.eftrainer.core.ui.PrimaryButton
 import dev.eftrainer.core.ui.ProgressBar
 import dev.eftrainer.core.ui.SectionTag
 import dev.eftrainer.core.ui.color
+import dev.eftrainer.core.ui.edgeScrollViewport
+import dev.eftrainer.core.ui.rememberEdgeScroll
 import dev.eftrainer.data.content.Blank
 import dev.eftrainer.data.content.Chapters
 import dev.eftrainer.data.content.Exercise
@@ -208,24 +212,28 @@ private fun QuestionScreen(
     Column(Modifier.fillMaxSize()) {
         SessionTopBar(onClose, q.done.toFloat() / q.total, stringResource(R.string.n_of_m, q.done, q.total))
 
+        val scroll = rememberScrollState()
+        val edgeScroll = rememberEdgeScroll(scroll)
         Selectable(Modifier.weight(1f)) {
             Column(
                 Modifier
-                    .verticalScroll(
-                        rememberScrollState(),
-                    ).padding(horizontal = 24.dp)
+                    .edgeScrollViewport(edgeScroll)
+                    .verticalScroll(scroll)
+                    .padding(horizontal = 24.dp)
                     .padding(top = 16.dp, bottom = 24.dp),
                 verticalArrangement = Arrangement.spacedBy(18.dp),
             ) {
                 TaskHeader(q)
-                ExerciseInput(
-                    q = q,
-                    answer = answer,
-                    tts = tts,
-                    onAction = action,
-                    onHear = { onCheck(listOf(it)) },
-                    onGrade = onGrade,
-                )
+                CompositionLocalProvider(LocalEdgeScroll provides edgeScroll) {
+                    ExerciseInput(
+                        q = q,
+                        answer = answer,
+                        tts = tts,
+                        onAction = action,
+                        onHear = { onCheck(listOf(it)) },
+                        onGrade = onGrade,
+                    )
+                }
                 q.answerBack?.let { AnswerBackBlock(it, onAnswerBack) }
             }
         }

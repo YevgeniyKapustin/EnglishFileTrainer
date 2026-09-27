@@ -47,6 +47,6 @@ style:
 
 Compose:
   CompositionLocalAllowlist:
-    allowedCompositionLocals: ['LocalExplain']
+    allowedCompositionLocals: ['LocalExplain', 'LocalEdgeScroll']
   UnstableCollections:
     active: false

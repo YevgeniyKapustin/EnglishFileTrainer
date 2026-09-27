@@ -1,5 +1,9 @@
 package dev.eftrainer.ui.exercise.inputs
 
+import androidx.compose.animation.core.Animatable
+import androidx.compose.animation.core.AnimationVector1D
+import androidx.compose.animation.core.EaseOutCubic
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.gestures.detectDragGestures
@@ -17,21 +21,26 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.Stable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.key
 import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.layout.LayoutCoordinates
+import androidx.compose.ui.layout.onGloballyPositioned
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.SpanStyle
@@ -51,15 +60,20 @@ import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.ui.AssetImage
 import dev.eftrainer.core.ui.IconButton24
 import dev.eftrainer.core.ui.Icons
+import dev.eftrainer.core.ui.LocalEdgeScroll
 import dev.eftrainer.data.content.Order
 import dev.eftrainer.data.content.Picture
 import dev.eftrainer.domain.check.moved
 import dev.eftrainer.ui.appContainer
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.CoroutineStart
+import kotlinx.coroutines.launch
 
 private val PictureRowHeight = 88.dp
 private val TextRowHeight = 116.dp
 private val RowGap = 8.dp
 private const val TEXT_CARD_LINES = 5
+private const val SLIDE_MS = 180
 private val RowShape = RoundedCornerShape(12.dp)
 
 @Composable
@@ -72,15 +86,18 @@ fun OrderInput(
     modifier: Modifier = Modifier,
 ) {
     val pictures = remember(exercise.id) { exercise.pictures.associateBy { it.label } }
-    val current by rememberUpdatedState(labels)
     val sounds = appContainer().sounds
+    val rowHeight = if (exercise.pictures.all { it.image == null }) TextRowHeight else PictureRowHeight
+    val step = with(LocalDensity.current) { (rowHeight + RowGap).toPx() }
+    val scope = rememberCoroutineScope()
+    val drag = remember(step) { RowDrag(step, scope) }
     val reorder by rememberUpdatedState<(List<String>) -> Unit>({ order ->
+        drag.slideAside(labels, order)
         onReorder(order)
         sounds.play(Cue.TICK)
     })
-    val rowHeight = if (exercise.pictures.all { it.image == null }) TextRowHeight else PictureRowHeight
-    val step = with(LocalDensity.current) { (rowHeight + RowGap).toPx() }
-    val drag = remember(step) { RowDrag(step) }
+    val dragBy = rememberDragBy(drag, labels, reorder)
+    FollowEdges(drag, dragBy)
 
     Column(modifier, verticalArrangement = Arrangement.spacedBy(RowGap)) {
         labels.forEachIndexed { position, label ->
@@ -95,8 +112,8 @@ fun OrderInput(
                     wrong = position in wrongPositions,
                     lifted = lifted,
                     onMove = { to -> reorder(labels.moved(position, to)) },
-                    modifier = Modifier.liftable(lifted, drag),
-                    gripModifier = if (checked) Modifier else Modifier.dragHandle(label, drag, { current }, reorder),
+                    modifier = Modifier.liftable(label, drag),
+                    gripModifier = if (checked) Modifier else Modifier.dragHandle(label, drag) { dragBy(label, it) },
                 )
             }
         }
@@ -104,18 +121,65 @@ fun OrderInput(
 }
 
 private fun Modifier.liftable(
-    lifted: Boolean,
+    label: String,
     drag: RowDrag,
 ): Modifier =
-    zIndex(if (lifted) 1f else 0f)
-        .graphicsLayer { translationY = if (lifted) drag.offset else 0f }
+    zIndex(if (label == drag.label || label == drag.settling) 1f else 0f)
+        .graphicsLayer { translationY = drag.translation(label) }
 
 @Stable
 private class RowDrag(
     private val step: Float,
+    private val scope: CoroutineScope,
 ) {
     var label by mutableStateOf<String?>(null)
     var offset by mutableFloatStateOf(0f)
+    var settling by mutableStateOf<String?>(null)
+    private val slides = HashMap<String, Animatable<Float, AnimationVector1D>>()
+    var fingerY: Float? = null
+    val grips = HashMap<String, LayoutCoordinates>()
+
+    fun translation(row: String): Float = if (row == label) offset else slides[row]?.value ?: 0f
+
+    fun slideAside(
+        before: List<String>,
+        after: List<String>,
+    ) {
+        after.forEachIndexed { index, row ->
+            val was = before.indexOf(row)
+            if (row != label && was != index) glide(row, (was - index) * step)
+        }
+    }
+
+    fun drop() {
+        val row = label ?: return
+        val from = offset
+        label = null
+        offset = 0f
+        settling = row
+        glide(row, from) { if (settling == row) settling = null }
+    }
+
+    private fun glide(
+        row: String,
+        by: Float,
+        done: () -> Unit = {},
+    ) {
+        val slide = slides.getOrPut(row) { Animatable(0f) }
+        val from = slide.value + by
+        scope.launch(start = CoroutineStart.UNDISPATCHED) {
+            slide.snapTo(from)
+            slide.animateTo(0f, tween(SLIDE_MS, easing = EaseOutCubic))
+            done()
+        }
+    }
+
+    fun follow(
+        label: String,
+        at: Offset,
+    ) {
+        fingerY = grips[label]?.takeIf { it.isAttached }?.localToWindow(at)?.y
+    }
 
     fun target(
         index: Int,
@@ -134,37 +198,57 @@ private class RowDrag(
     }
 }
 
-private fun Modifier.dragHandle(
-    label: String,
+@Composable
+private fun rememberDragBy(
     drag: RowDrag,
-    labels: () -> List<String>,
+    labels: List<String>,
     reorder: (List<String>) -> Unit,
-): Modifier =
-    dragHandle(label, drag) { dy ->
-        val current = labels()
-        val index = current.indexOf(label)
-        drag.target(index, dy, current.lastIndex)?.let { reorder(current.moved(index, it)) }
+): (String, Float) -> Unit {
+    val current by rememberUpdatedState(labels)
+    val onReorder by rememberUpdatedState(reorder)
+    return remember(drag) {
+        { label, dy ->
+            val index = current.indexOf(label)
+            drag.target(index, dy, current.lastIndex)?.let { onReorder(current.moved(index, it)) }
+        }
     }
+}
+
+@Composable
+private fun FollowEdges(
+    drag: RowDrag,
+    dragBy: (String, Float) -> Unit,
+) {
+    val edge = LocalEdgeScroll.current ?: return
+    val lifted = drag.label ?: return
+    val onScrolled by rememberUpdatedState(dragBy)
+    LaunchedEffect(lifted, edge) {
+        edge.follow({ drag.fingerY }) { used -> onScrolled(lifted, used) }
+    }
+}
 
 private fun Modifier.dragHandle(
     label: String,
     drag: RowDrag,
     onDrag: (Float) -> Unit,
 ): Modifier =
-    pointerInput(label) {
-        detectDragGestures(
-            onDragStart = {
-                drag.label = label
-                drag.offset = 0f
-            },
-            onDragEnd = { drag.label = null },
-            onDragCancel = { drag.label = null },
-            onDrag = { change, amount ->
-                change.consume()
-                onDrag(amount.y)
-            },
-        )
-    }
+    onGloballyPositioned { drag.grips[label] = it }
+        .pointerInput(label) {
+            detectDragGestures(
+                onDragStart = {
+                    drag.label = label
+                    drag.offset = 0f
+                    drag.follow(label, it)
+                },
+                onDragEnd = drag::drop,
+                onDragCancel = drag::drop,
+                onDrag = { change, amount ->
+                    change.consume()
+                    onDrag(amount.y)
+                    drag.follow(label, change.position)
+                },
+            )
+        }
 
 @Composable
 private fun OrderRow(

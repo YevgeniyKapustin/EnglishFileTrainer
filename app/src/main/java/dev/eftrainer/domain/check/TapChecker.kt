@@ -1,5 +1,6 @@
 package dev.eftrainer.domain.check
 
+import dev.eftrainer.data.content.Exercise
 import dev.eftrainer.data.content.Sort
 import dev.eftrainer.data.content.Stress
 
@@ -29,3 +30,10 @@ private val MARKUP = Regex("""[\[\]|]""")
 val Sort.plainWord: String get() = word.replace(MARKUP, "")
 
 fun Sort.expected(): String = "$plainWord → ${columns[answer]}"
+
+fun Exercise.spoken(): String? =
+    when (this) {
+        is Stress -> parts.joinToString("")
+        is Sort -> plainWord
+        else -> null
+    }

@@ -76,6 +76,13 @@ class StressSortCheckTest {
         assertEquals("stopped", bird.copy(word = "stopp[ed]").plainWord)
     }
 
+    @Test fun `spoken answer is the plain text without marks`() {
+        assertEquals("across", across.spoken())
+        assertEquals("It was a great party. Was it at Kim’s house?", party.spoken())
+        assertEquals("stopped", bird.copy(word = "stopp[ed]").spoken())
+        assertEquals("hurry", bird.copy(word = "hu|rry").spoken())
+    }
+
     @Test fun `sort model rejects bad columns`() {
         assertThrows(IllegalArgumentException::class.java) { bird.copy(answer = 2) }
         assertThrows(IllegalArgumentException::class.java) { bird.copy(columns = listOf("only")) }

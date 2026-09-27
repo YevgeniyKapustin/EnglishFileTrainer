@@ -28,6 +28,7 @@ import dev.eftrainer.domain.ai.reply
 import dev.eftrainer.domain.check.Checker
 import dev.eftrainer.domain.check.TapChecker
 import dev.eftrainer.domain.check.expected
+import dev.eftrainer.domain.check.spoken
 import dev.eftrainer.domain.learning.ChapterCompletion
 import dev.eftrainer.domain.learning.DayInputs
 import dev.eftrainer.domain.learning.DayStep
@@ -55,6 +56,7 @@ data class Feedback(
     val explain: String?,
     val answer: String,
     val corrections: List<WritePrompt.Correction> = emptyList(),
+    val spoken: String = expected,
 )
 
 sealed interface AiCheck {
@@ -251,7 +253,7 @@ class SessionViewModel(
         corrections: List<WritePrompt.Correction> = emptyList(),
     ) {
         val e = q.exercise
-        val result = Feedback(correct, expected, wrongGaps, e.explain, answer, corrections)
+        val result = Feedback(correct, expected, wrongGaps, e.explain, answer, corrections, e.spoken() ?: expected)
         if (tally.answer(e, result.correct, inputs)) {
             writes +=
                 container.appScope.async {

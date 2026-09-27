@@ -112,7 +112,7 @@ private fun FeedbackTitle(
             stringResource(feedbackTitle(f.correct, aiGraded)),
             style = T.row.copy(color = color, fontWeight = FontWeight.SemiBold),
         )
-        if (f.correct && !aiGraded) SayIcon(tts, f.expected, sayId, Modifier.offset(x = (-6).dp))
+        if (f.correct && !aiGraded) SayIcon(tts, f.spoken, sayId, Modifier.offset(x = (-6).dp))
     }
 }
 
@@ -156,7 +156,7 @@ private fun ExpectedAnswer(
         Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(f.expected, style = T.field, modifier = Modifier.weight(1f, fill = false))
-                SayIcon(tts, f.expected, sayId)
+                SayIcon(tts, f.spoken, sayId)
             }
             f.explain?.let { Text(it, style = T.label.copy(fontSize = 15.sp, lineHeight = 21.sp)) }
         }

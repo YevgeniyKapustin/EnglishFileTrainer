@@ -5,6 +5,7 @@ import dev.eftrainer.data.content.Exercise
 import dev.eftrainer.data.content.Section
 import dev.eftrainer.data.content.aiExercises
 import dev.eftrainer.data.content.exercises
+import dev.eftrainer.data.content.needsAi
 import dev.eftrainer.data.content.presets
 import dev.eftrainer.data.db.entities.Progress
 import java.time.LocalDate
@@ -39,6 +40,16 @@ object TrainingQueue {
         section: Section,
         ai: Boolean = false,
     ): List<Exercise> = firstPass(section, emptyMap(), ai)
+
+    fun task(
+        section: Section,
+        taskId: String,
+        ai: Boolean = false,
+    ): List<Exercise> =
+        section.tasks
+            .filter { it.id == taskId }
+            .flatMap { it.exercises }
+            .filter { ai || !it.needsAi }
 
     fun freshOf(
         section: Section,

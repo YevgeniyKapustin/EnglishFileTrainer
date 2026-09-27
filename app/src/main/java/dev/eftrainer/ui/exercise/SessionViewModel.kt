@@ -93,6 +93,7 @@ class SessionViewModel(
     private val container: AppContainer,
     private val sectionId: String?,
     private val again: Boolean = false,
+    private val taskId: String? = null,
 ) : ViewModel() {
     private val _state = MutableStateFlow<SessionUi>(SessionUi.Loading)
     val state: StateFlow<SessionUi> = _state.asStateFlow()
@@ -133,6 +134,7 @@ class SessionViewModel(
         val exercises =
             when {
                 sectionId == null -> day?.exercises.orEmpty()
+                taskId != null -> TrainingQueue.task(Chapters.section(sectionId), taskId, ai)
                 again -> TrainingQueue.again(Chapters.section(sectionId), ai)
                 else -> TrainingQueue.firstPass(Chapters.section(sectionId), progress, ai)
             }

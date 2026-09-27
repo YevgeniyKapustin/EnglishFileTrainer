@@ -45,6 +45,7 @@ fun SectionScreen(
     onRules: (startTasks: Boolean) -> Unit,
     onStart: () -> Unit,
     onAgain: () -> Unit,
+    onTask: (taskId: String) -> Unit,
     modifier: Modifier = Modifier,
     vm: SectionViewModel = sectionViewModel(sectionId),
 ) {
@@ -58,7 +59,7 @@ fun SectionScreen(
         Column(Modifier.weight(1f).verticalScroll(rememberScrollState()).padding(horizontal = 24.dp)) {
             SectionTitle(state)
             if (hasRules) RulesRow(onClick = { onRules(!state.firstPassDone) })
-            SectionTasks(state)
+            SectionTasks(state, onTask)
         }
 
         if (state.firstPassDone) {
@@ -73,11 +74,14 @@ fun SectionScreen(
 }
 
 @Composable
-private fun SectionTasks(state: SectionUi) {
+private fun SectionTasks(
+    state: SectionUi,
+    onTask: (taskId: String) -> Unit,
+) {
     Column {
         state.tasks.forEachIndexed { i, row ->
             if (state.tasks.startsOriginGroup(i)) OriginHeader(row.task.origin, state.chapterId)
-            TaskItem(row, aiOn = state.aiOn, divider = !state.tasks.endsOriginGroup(i))
+            TaskItem(row, aiOn = state.aiOn, divider = !state.tasks.endsOriginGroup(i), onTask = onTask)
         }
     }
 }
@@ -152,10 +156,11 @@ private fun TaskItem(
     row: TaskRow,
     aiOn: Boolean,
     divider: Boolean,
+    onTask: (taskId: String) -> Unit,
 ) {
     val task = row.task
     val off = task.needsAi && !aiOn
-    ListRow(onClick = null, divider = divider) {
+    ListRow(onClick = { onTask(task.id) }.takeUnless { off }, divider = divider) {
         Text(
             task.number,
             style = T.row.copy(color = if (off) C.Off else EF.Title, fontWeight = FontWeight.Bold),

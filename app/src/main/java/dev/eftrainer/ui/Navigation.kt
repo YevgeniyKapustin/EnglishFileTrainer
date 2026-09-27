@@ -60,6 +60,7 @@ import kotlinx.serialization.Serializable
 @Serializable data class SessionRoute(
     val sectionId: String? = null,
     val again: Boolean = false,
+    val taskId: String? = null,
 )
 
 @Serializable data class ChapterRoute(
@@ -151,6 +152,7 @@ fun AppNavigation(
                 onRules = { start -> screen.open(RulesRoute(id, start)) },
                 onStart = { screen.open(SessionRoute(id)) },
                 onAgain = { screen.open(SessionRoute(id, again = true)) },
+                onTask = { taskId -> screen.open(SessionRoute(id, taskId = taskId)) },
             )
         }
         screen<RulesRoute>(nav) { screen ->
@@ -166,8 +168,9 @@ fun AppNavigation(
             val route = screen.entry.toRoute<SessionRoute>()
             SessionScreen(
                 route.sectionId,
-                onClose = { if (route.again) screen.back() else screen.home() },
+                onClose = { if (route.again || route.taskId != null) screen.back() else screen.home() },
                 again = route.again,
+                taskId = route.taskId,
             )
         }
     }

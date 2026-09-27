@@ -71,7 +71,8 @@ fun SessionScreen(
     sectionId: String?,
     onClose: () -> Unit,
     again: Boolean = false,
-    vm: SessionViewModel = sessionViewModel(sectionId, again),
+    taskId: String? = null,
+    vm: SessionViewModel = sessionViewModel(sectionId, again, taskId),
 ) {
     val ui by vm.state.collectAsStateWithLifecycle()
     val currentOnClose by rememberUpdatedState(onClose)
@@ -120,9 +121,10 @@ fun SessionScreen(
 private fun sessionViewModel(
     sectionId: String?,
     again: Boolean,
+    taskId: String?,
 ): SessionViewModel =
     appContainer().let { container ->
-        viewModel(key = "session-$sectionId-$again") { SessionViewModel(container, sectionId, again) }
+        viewModel(key = "session-$sectionId-$again-$taskId") { SessionViewModel(container, sectionId, again, taskId) }
     }
 
 private fun fieldCount(exercise: Exercise): Int =

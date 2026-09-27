@@ -1,5 +1,9 @@
 package dev.eftrainer.domain.learning
 
+import dev.eftrainer.data.content.Origin
+import dev.eftrainer.data.content.Rewrite
+import dev.eftrainer.data.content.Talk
+import dev.eftrainer.data.content.Task
 import dev.eftrainer.data.content.exercises
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
@@ -31,6 +35,20 @@ class TrainingQueueTest {
         val s = section("g", 5)
         val progress = listOf(progress("g-2"), progress("g-4")).byId()
         assertEquals(listOf("g-1", "g-3", "g-5"), TrainingQueue.firstPass(s, progress).map { it.id })
+    }
+
+    @Test fun `a task session is that task's items, AI ones only with a key`() {
+        val talk = Talk("g-talk", "Classmate.", "Ask.", "Hi!", listOf("asks"))
+        val s = section("g", 3)
+        val mixed =
+            s.copy(
+                tasks =
+                    s.tasks + Task("g-b", Origin.SB, "Talk", listOf(Rewrite("g-9", "p", listOf("a")), talk)),
+            )
+        assertEquals(listOf("g-1", "g-2", "g-3"), TrainingQueue.task(mixed, "g-task").map { it.id })
+        assertEquals(listOf("g-9"), TrainingQueue.task(mixed, "g-b").map { it.id })
+        assertEquals(listOf("g-9", "g-talk"), TrainingQueue.task(mixed, "g-b", ai = true).map { it.id })
+        assertEquals(emptyList<Any>(), TrainingQueue.task(mixed, "missing"))
     }
 
     @Test fun `again is the whole section in book order`() {

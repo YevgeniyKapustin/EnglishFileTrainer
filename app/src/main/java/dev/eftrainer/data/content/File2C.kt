@@ -212,8 +212,8 @@ val File2C = Chapter(
                         Blank(
                             "2C-gbb-03",
                             text = "I called him, {} his mobile was turned off.",
-                            gaps = listOf(listOf("but", "although")),
-                            explain = "A contrast: but (although is also possible in the middle).",
+                            gaps = listOf(listOf("but")),
+                            explain = "A contrast: but. Although goes with the surprising fact: Although I called him, he didn’t answer.",
                             source = AnswerSource.MODEL,
                         ),
                         Blank(
@@ -240,7 +240,7 @@ val File2C = Chapter(
                         Blank(
                             "2C-gbb-07",
                             text = "She wanted to be a doctor, {} she failed her exams.",
-                            gaps = listOf(listOf("but", "although")),
+                            gaps = listOf(listOf("but")),
                             explain = "A contrast: but.",
                             source = AnswerSource.MODEL,
                         ),
@@ -499,7 +499,7 @@ val File2C = Chapter(
                         Rewrite(
                             "2C-grammar-x3-03",
                             prompt = "The film was very long. We enjoyed it.",
-                            answers = listOf("Although the film was very long, we enjoyed it.", "We enjoyed the film, although it was very long.", "We enjoyed it, although the film was very long."),
+                            answers = listOf("Although the film was very long, we enjoyed it.", "Although the film was very long we enjoyed it.", "We enjoyed the film, although it was very long.", "We enjoyed the film although it was very long.", "We enjoyed it, although the film was very long.", "We enjoyed it although the film was very long."),
                             hint = "(although)",
                             explain = "although + the contrast; it can start the sentence: Although the film was very long, …",
                             source = AnswerSource.MODEL,
@@ -522,14 +522,14 @@ val File2C = Chapter(
                         Rewrite(
                             "2C-grammar-x4-01",
                             prompt = "We had dinner. After we went for a walk.",
-                            answers = listOf("We had dinner. After that we went for a walk.", "We had dinner. Then we went for a walk.", "We had dinner. After that, we went for a walk."),
+                            answers = listOf("We had dinner. After that we went for a walk.", "We had dinner. Then we went for a walk.", "We had dinner. After that, we went for a walk.", "We had dinner. Afterwards we went for a walk.", "We had dinner. Afterwards, we went for a walk."),
                             explain = "After alone can’t link two sentences: use After that or Then.",
                             source = AnswerSource.MODEL,
                         ),
                         Rewrite(
                             "2C-grammar-x4-02",
                             prompt = "Although it was late, but we didn’t go home.",
-                            answers = listOf("Although it was late, we didn’t go home.", "It was late, but we didn’t go home."),
+                            answers = listOf("Although it was late, we didn’t go home.", "Although it was late we didn’t go home.", "Although it was late, we did not go home.", "It was late, but we didn’t go home.", "It was late but we didn’t go home.", "It was late, but we did not go home."),
                             explain = "Use although or but, not both.",
                             source = AnswerSource.MODEL,
                         ),
@@ -1226,7 +1226,7 @@ val File2C = Chapter(
                         Blank(
                             "2C-vocabulary-x2-03",
                             text = "He was driving {} the high street when he saw her.",
-                            gaps = listOf(listOf("along", "down")),
+                            gaps = listOf(listOf("along", "down", "up")),
                             explain = "drive along the street.",
                             source = AnswerSource.MODEL,
                         ),
@@ -2000,7 +2000,7 @@ val File2C = Chapter(
                         Rewrite(
                             "2C-rcrb-02",
                             prompt = "The writer prefers taking photos with people in them.",
-                            answers = listOf("The writer prefers taking photos without people in them.", "The writer doesn’t prefer taking photos with people in them.", "The writer prefers taking photos with no people in them."),
+                            answers = listOf("The writer prefers taking photos without people in them.", "The writer doesn’t prefer taking photos with people in them.", "The writer prefers taking photos with no people in them.", "The writer prefers taking photos without people.", "The writer prefers taking photos with fewer people in them.", "The writer doesn’t like taking photos with people in them."),
                             explain = "False: most of the time he prefers his photos to be less crowded.",
                             source = AnswerSource.MODEL,
                         ),

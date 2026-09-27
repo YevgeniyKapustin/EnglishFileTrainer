@@ -517,14 +517,14 @@ val File2B = Chapter(
                         Rewrite(
                             "2B-vocabulary-x2-01",
                             prompt = "I usually go to bed late in Saturday.",
-                            answers = listOf("I usually go to bed late on Saturday."),
+                            answers = listOf("I usually go to bed late on Saturday.", "I usually go to bed late on Saturdays."),
                             explain = "Days take on: on Saturday.",
                             source = AnswerSource.MODEL,
                         ),
                         Rewrite(
                             "2B-vocabulary-x2-02",
                             prompt = "We were in the airport at 6 a.m.",
-                            answers = listOf("We were at the airport at 6 a.m."),
+                            answers = listOf("We were at the airport at 6 a.m.", "We were at the airport at 6 am.", "We were at the airport at 6am."),
                             explain = "at the airport, at the station, at a bus stop.",
                             source = AnswerSource.MODEL,
                         ),
@@ -1060,7 +1060,7 @@ val File2B = Chapter(
                         Rewrite(
                             "2B-grammar-x4-03",
                             prompt = "When I was arriving at the hotel, they were cleaning my room.",
-                            answers = listOf("When I arrived at the hotel, they were cleaning my room."),
+                            answers = listOf("When I arrived at the hotel, they were cleaning my room.", "When I arrived at the hotel they were cleaning my room."),
                             explain = "The short action (arrived) is in the past simple.",
                             source = AnswerSource.MODEL,
                         ),
@@ -1074,7 +1074,7 @@ val File2B = Chapter(
                         Rewrite(
                             "2B-grammar-x4-05",
                             prompt = "She didn’t watching TV – she was reading.",
-                            answers = listOf("She wasn’t watching TV – she was reading.", "She wasn’t watching TV, she was reading.", "She was not watching TV – she was reading."),
+                            answers = listOf("She wasn’t watching TV – she was reading.", "She wasn’t watching TV - she was reading.", "She wasn’t watching TV, she was reading.", "She wasn’t watching TV; she was reading.", "She was not watching TV – she was reading.", "She was not watching TV - she was reading.", "She was not watching TV, she was reading."),
                             explain = "Negative past continuous: wasn’t + verb + -ing, not didn’t.",
                             source = AnswerSource.MODEL,
                         ),
@@ -1319,7 +1319,7 @@ val File2B = Chapter(
                         Blank(
                             "2B-sb1a-01",
                             text = "What decade is the photo from? The {}.",
-                            gaps = listOf(listOf("1970s", "70s", "seventies", "’70s")),
+                            gaps = listOf(listOf("1970s", "70s", "seventies", "’70s", "1970’s", "nineteen seventies")),
                             image = "2b_sb1a_1",
                             explain = "‘In 1972, I was living in London…’ – the photo was taken in the 1970s.",
                             source = AnswerSource.MODEL,
@@ -1362,7 +1362,7 @@ val File2B = Chapter(
                         Blank(
                             "2B-sb1c-02",
                             text = "Where did she meet the Frenchman and how did this change her life? She met him in a {} on the beach in the south of France. They fell in love, and she found a job and went to live in {}.",
-                            gaps = listOf(listOf("nightclub"), listOf("Paris")),
+                            gaps = listOf(listOf("nightclub", "night club"), listOf("Paris")),
                             explain = "‘I went to a nightclub on the beach and I met a young Frenchman… I found a job as a secretary with UNESCO, and I went to live there.’",
                             source = AnswerSource.MODEL,
                         ),

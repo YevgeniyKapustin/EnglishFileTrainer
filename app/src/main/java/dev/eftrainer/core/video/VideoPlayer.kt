@@ -126,6 +126,9 @@ fun rememberVideoPlayer(
         onDispose { state?.release() }
     }
     LifecycleEventEffect(Lifecycle.Event.ON_PAUSE) { state?.pause() }
+    LaunchedEffect(state) {
+        state?.play()
+    }
     LaunchedEffect(state, state?.playing) {
         while (state != null && state.playing) {
             state.sync()

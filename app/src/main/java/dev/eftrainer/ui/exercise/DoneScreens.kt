@@ -84,7 +84,7 @@ private fun DoneBand(
     d: SessionUi.Done,
     intro: DoneIntro,
 ) {
-    WedgeBand(128.dp, chapterId = d.chapterId, reveal = { intro.rays.value }) {
+    WedgeBand(150.dp, chapterId = d.bandChapterId, reveal = { intro.rays.value }) {
         Text(
             stringResource(R.string.done),
             style =
@@ -103,7 +103,7 @@ private fun DoneBand(
         )
         Bubble(
             100.dp,
-            FilePalettes.forChapter(d.chapterId).answer,
+            FilePalettes.forChapter(d.bandChapterId).answer,
             Modifier
                 .align(Alignment.BottomEnd)
                 .padding(end = 24.dp, bottom = 16.dp)

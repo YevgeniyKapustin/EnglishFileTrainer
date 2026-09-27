@@ -13,6 +13,8 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.unit.dp
+import dev.eftrainer.core.sound.Cue
+import dev.eftrainer.ui.appContainer
 
 private const val INTRO_MILLIS = 1500
 private const val CELL_START_SCALE = .3f
@@ -39,8 +41,11 @@ class StatsIntro(
 @Composable
 fun rememberStatsIntro(): StatsIntro {
     val intro = remember { StatsIntro(StatsIntroGate.played) }
+    val sounds = appContainer().sounds
     LaunchedEffect(intro) {
+        if (!intro.fresh) return@LaunchedEffect
         StatsIntroGate.played = true
+        sounds.play(Cue.FAN)
         intro.clock.animateTo(1f, tween(INTRO_MILLIS, easing = LinearEasing))
     }
     return intro

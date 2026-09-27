@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import dev.eftrainer.AppContainer
 import dev.eftrainer.data.content.Chapters
 import dev.eftrainer.data.db.entities.Answer
+import dev.eftrainer.domain.learning.ChapterCompletion
 import dev.eftrainer.domain.learning.Stats
 import dev.eftrainer.domain.learning.Streak
 import dev.eftrainer.domain.learning.WeakSpot
@@ -25,6 +26,7 @@ data class StatsUi(
     val week: Week?,
     val weak: List<WeakSpot>,
     val completed: Int,
+    val chapterId: String?,
 )
 
 class StatsViewModel(
@@ -65,6 +67,7 @@ class StatsViewModel(
                         ?.let { it.chapter to it.section }
                 },
             completed = done.size,
+            chapterId = ChapterCompletion.current(Chapters.all, done)?.id,
         )
     }
 

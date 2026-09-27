@@ -1,5 +1,6 @@
 package dev.eftrainer.ui.stats
 
+import androidx.compose.animation.core.LinearEasing
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
@@ -66,6 +67,7 @@ private const val HEAT_FROM = .12f
 private const val HEAT_SPREAD = .4f
 private const val CELL_MOTION = .22f
 private const val ROW_STAGGER = .06f
+private const val RAYS_SHARE = .35f
 private const val TICK_QUIET = .2f
 private const val TICK_RATE_FROM = .8f
 private const val TICK_RATE_SPAN = .8f
@@ -105,7 +107,7 @@ private fun StreakBand(
     onBack: () -> Unit,
 ) {
     val days = (state.streak.current * intro.share(0f, .5f)).roundToInt()
-    WedgeBand(150.dp) {
+    WedgeBand(150.dp, chapterId = state.chapterId, reveal = { intro.share(0f, RAYS_SHARE, LinearEasing) }) {
         BackLink(stringResource(R.string.back), onBack, tint = BandInk)
         Text(
             pluralStringResource(R.plurals.streak_days, days, days),

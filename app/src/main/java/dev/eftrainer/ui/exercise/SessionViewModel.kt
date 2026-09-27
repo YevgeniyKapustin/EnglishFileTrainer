@@ -91,6 +91,7 @@ sealed interface SessionUi {
         val firstTry: Int,
         val total: Int,
         val chapterId: String?,
+        val bandChapterId: String?,
         val before: Int,
         val after: Int,
         val mistakes: List<String>,
@@ -348,6 +349,8 @@ class SessionViewModel(
                     firstTry = tally.firstTry,
                     total = tally.total,
                     chapterId = chapter?.id,
+                    bandChapterId =
+                        chapter?.id ?: ChapterCompletion.current(Chapters.all, container.chapters.getCompleted())?.id,
                     before = before,
                     after = chapter?.let { Mastery.share(it.exercises, progress) }?.toPercent() ?: 0,
                     mistakes = tally.mistakes.map { it.mistakeText() },

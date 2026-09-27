@@ -6,15 +6,17 @@ import dev.eftrainer.domain.check.WordBox
 
 class SessionTally(
     exercises: List<Exercise>,
+    resumed: TaskRun = TaskRun(),
 ) {
-    private val queue = ArrayDeque(exercises)
-    private val answered = mutableSetOf<String>()
-    private val wrong = linkedSetOf<Exercise>()
-    private val correctInputs = mutableMapOf<String, List<String>>()
+    private val queue = ArrayDeque(exercises.filterNot { it.id in resumed.passed || it.id in resumed.skipped })
+    private val answered = (resumed.passed.keys + resumed.missed).toMutableSet()
+    private val wrong = exercises.filterTo(linkedSetOf()) { it.id in resumed.missed }
+    private val correctInputs = resumed.passed.toMutableMap()
+    private val skipped = resumed.skipped.toMutableSet()
 
-    var total = exercises.size
+    var total = exercises.count { it.id !in resumed.skipped || it.id in answered }
         private set
-    var done = 0
+    var done = exercises.count { it.id in resumed.passed }
         private set
 
     val current: Exercise get() = queue.first()
@@ -22,6 +24,7 @@ class SessionTally(
     val mistakes: List<Exercise> get() = wrong.toList()
     val firstTry: Int get() = total - wrong.size
     val seenIds: Set<String> get() = answered + queue.map { it.id }
+    val run: TaskRun get() = TaskRun(correctInputs.toMap(), wrong.mapTo(mutableSetOf()) { it.id }, skipped.toSet())
 
     fun add(more: List<Exercise>) {
         queue.addAll(more)
@@ -49,6 +52,7 @@ class SessionTally(
 
     fun skip() {
         val e = queue.removeFirst()
+        skipped += e.id
         if (e.id !in answered) total--
     }
 
@@ -56,4 +60,11 @@ class SessionTally(
 
     fun usedWords(task: Task): Set<String> =
         if (task.words.isEmpty()) emptySet() else WordBox.used(task, correctInputs(task.exercises.map { it.id }))
+
+    companion object {
+        fun resume(
+            exercises: List<Exercise>,
+            run: TaskRun,
+        ): SessionTally = SessionTally(exercises, run).takeUnless { it.finished } ?: SessionTally(exercises)
+    }
 }

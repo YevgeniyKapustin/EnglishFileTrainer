@@ -2,8 +2,8 @@ package dev.eftrainer.ui
 
 import androidx.compose.animation.EnterExitState
 import androidx.compose.animation.EnterTransition
-import androidx.compose.animation.core.Transition
 import androidx.compose.animation.core.EaseOutCubic
+import androidx.compose.animation.core.Transition
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut

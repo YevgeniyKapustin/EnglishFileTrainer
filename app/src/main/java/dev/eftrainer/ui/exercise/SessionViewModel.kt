@@ -31,14 +31,15 @@ import dev.eftrainer.domain.learning.SessionTally
 import dev.eftrainer.domain.learning.Stats
 import dev.eftrainer.domain.learning.TrainingQueue
 import dev.eftrainer.ui.toPercent
-import kotlinx.coroutines.Job
+import kotlinx.coroutines.Deferred
+import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.stateIn
-import kotlinx.coroutines.joinAll
 import kotlinx.coroutines.launch
 
 data class Feedback(
@@ -107,8 +108,8 @@ class SessionViewModel(
 
     private var tally = SessionTally(emptyList())
     private var attempt = 0
-    private val writes = mutableListOf<Job>()
-    private var completedChapter: Chapter? = null
+    private val writes = mutableListOf<Deferred<Chapter?>>()
+    private val run = SessionRun(container.taskRuns, taskId.takeIf { sectionId != null })
     private var chapter: Chapter? = null
     private var before = 0
     private var arrivals = 0
@@ -139,7 +140,7 @@ class SessionViewModel(
                 ?: ChapterCompletion.current(Chapters.all, inputs.review.completed)
         before = chapter?.let { Mastery.share(it.exercises, progress) }?.toPercent() ?: 0
 
-        tally = SessionTally(exercises)
+        tally = run.tally(exercises)
         if (tally.finished) _state.value = SessionUi.Empty else show()
     }
 
@@ -242,13 +243,15 @@ class SessionViewModel(
         val result = Feedback(correct, expected, wrongGaps, e.explain, answer, corrections)
         if (tally.answer(e, result.correct, inputs)) {
             writes +=
-                viewModelScope.launch {
-                    container.learning.answer(e, result.correct)?.let { completedChapter = it }
-                    if (aiOn.value && GenerationPlan.eligible(Chapters.locate(e.id).section)) {
-                        container.generation.refillInBackground()
+                container.appScope.async {
+                    container.learning.answer(e, result.correct).also {
+                        if (aiOn.value && GenerationPlan.eligible(Chapters.locate(e.id).section)) {
+                            container.generation.refillInBackground()
+                        }
                     }
                 }
         }
+        run.save(tally)
         _state.value = q.copy(done = tally.done, feedback = result, usedWords = tally.usedWords(q.task))
     }
 
@@ -304,8 +307,9 @@ class SessionViewModel(
     fun skip() {
         val q = _state.value as? SessionUi.Question ?: return
         if (q.feedback != null || q.exercise !is Speak) return
-        writes += viewModelScope.launch { container.learning.skip(q.exercise)?.let { completedChapter = it } }
+        writes += container.appScope.async { container.learning.skip(q.exercise) }
         tally.skip()
+        run.save(tally)
         if (tally.finished) finish() else show()
     }
 
@@ -317,10 +321,10 @@ class SessionViewModel(
     }
 
     private fun finish() {
+        run.clear()
         viewModelScope.launch {
-            writes.joinAll()
+            val done = writes.awaitAll().filterNotNull().lastOrNull()
             if (reviewing) container.day.reviewFinished()
-            val done = completedChapter
             if (done != null) {
                 val next = ChapterCompletion.current(Chapters.all, container.chapters.getCompleted())
                 _state.value = SessionUi.ChapterDone(done, next)

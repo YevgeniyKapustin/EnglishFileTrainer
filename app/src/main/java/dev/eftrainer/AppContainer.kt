@@ -17,6 +17,7 @@ import dev.eftrainer.data.db.AppDatabase
 import dev.eftrainer.data.generated.GeneratedRepository
 import dev.eftrainer.data.settings.DaySettings
 import dev.eftrainer.data.settings.ReminderSettings
+import dev.eftrainer.data.settings.TaskRuns
 import dev.eftrainer.data.settings.ThemeSettings
 import dev.eftrainer.data.settings.VoiceSettings
 import dev.eftrainer.domain.learning.ChapterCompletion
@@ -38,11 +39,11 @@ class AppContainer(
     val clock: Clock = SystemClock,
 ) {
     private val db = AppDatabase.create(context)
-    private val cacheScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
+    val appScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
 
     val progress = ProgressRepository(db.progressDao())
     val chapters = ChapterRepository(db.chapterStateDao())
-    val answers = AnswerLog(db.answerDao(), cacheScope)
+    val answers = AnswerLog(db.answerDao(), appScope)
     val skips = SkipLog(db.skippedDao())
     val learning = Learning(progress, chapters, clock, answers, skips)
     val ai = AiSettings(context)
@@ -51,14 +52,15 @@ class AppContainer(
     val generated = GeneratedRepository(db.generatedDao())
     val generation = Generation(generated, progress, chapters, aiClient)
     val aiOn = aiAvailable(ai, connectivity)
-    val review = ReviewSource(chapters, progress, generated, aiOn, clock, cacheScope)
-    val day = DaySource(review, Chapters.all, answers, skips, DaySettings(context), clock, cacheScope)
+    val review = ReviewSource(chapters, progress, generated, aiOn, clock, appScope)
+    val day = DaySource(review, Chapters.all, answers, skips, DaySettings(context), clock, appScope)
     val theme = ThemeSettings(context)
     val voice = VoiceSettings(context)
     val reminder = ReminderSettings(context)
+    val taskRuns = TaskRuns(context)
 
     init {
-        cacheScope.launch { learning.syncCompleted() }
+        appScope.launch { learning.syncCompleted() }
     }
 
     fun reschedule() =

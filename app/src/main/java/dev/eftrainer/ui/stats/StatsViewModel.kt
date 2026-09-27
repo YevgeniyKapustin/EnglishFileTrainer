@@ -20,13 +20,13 @@ data class StatsUi(
     val streak: Streak,
     val heat: List<List<Int?>>,
     val months: List<Month?>,
-    val week: Week,
+    val week: Week?,
     val weak: List<WeakSpot>,
     val completed: Int,
 )
 
 class StatsViewModel(
-    container: AppContainer,
+    private val container: AppContainer,
 ) : ViewModel() {
     val state: StateFlow<StatsUi?> =
         combine(
@@ -50,5 +50,23 @@ class StatsViewModel(
                 completed = done.size,
             )
         }.flowOn(Dispatchers.Default)
-            .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
+            .stateIn(viewModelScope, SharingStarted.WhileSubscribed(KEEP_ALIVE_MS), headerOnly())
+
+    private fun headerOnly(): StatsUi? {
+        val days = container.answers.latestDays ?: return null
+        val completed = container.review.latest?.completed ?: return null
+        val today = container.clock.today()
+        return StatsUi(
+            streak = Stats.streak(days, today),
+            heat = Stats.heat(emptyList(), today),
+            months = Stats.heatMonths(today),
+            week = null,
+            weak = emptyList(),
+            completed = completed.size,
+        )
+    }
+
+    private companion object {
+        const val KEEP_ALIVE_MS = 5_000L
+    }
 }

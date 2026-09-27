@@ -73,7 +73,7 @@ fun StatsScreen(
         StreakBand(state, onBack)
         Column(Modifier.padding(horizontal = 24.dp).padding(top = 22.dp)) {
             Heatmap(state)
-            WeekLine(state.week)
+            state.week?.let { WeekLine(it) }
             if (state.weak.isNotEmpty()) WeakSpots(state.weak, onSection)
             Completed(state.completed)
         }

@@ -43,16 +43,18 @@ class SectionViewModel(
         combine(
             container.progress.progress,
             aiAvailable(container.ai, container.connectivity),
+            container.skips.skipped,
             ::build,
         ).stateIn(
             viewModelScope,
             SharingStarted.WhileSubscribed(KEEP_ALIVE_MS),
-            container.review.latest?.let { build(it.progress, it.ai) },
+            container.day.latest?.let { build(it.review.progress, it.review.ai, it.day.skipped) },
         )
 
     private fun build(
         progress: Map<String, Progress>,
         aiOn: Boolean,
+        skipped: Set<String>,
     ) = SectionUi(
         section = section,
         chapterId = chapterId,
@@ -61,7 +63,7 @@ class SectionViewModel(
                 TaskRow(t, t.exercises.count { Mastery.isMastered(progress[it.id]) }, t.exercises.size)
             },
         started = section.exercises.any { it.id in progress },
-        firstPassDone = ChapterCompletion.firstPassDone(section, progress),
+        firstPassDone = ChapterCompletion.firstPassDone(section, progress, skipped),
         aiOn = aiOn,
     )
 

@@ -9,7 +9,8 @@ object ChapterCompletion {
     fun isComplete(
         chapter: Chapter,
         progress: Map<String, Progress>,
-    ): Boolean = chapter.exercises.all { it.id in progress }
+        skipped: Set<String> = emptySet(),
+    ): Boolean = chapter.exercises.all { it.id in progress || it.id in skipped }
 
     fun current(
         chapters: List<Chapter>,
@@ -19,7 +20,8 @@ object ChapterCompletion {
     fun firstPassDone(
         section: Section,
         progress: Map<String, Progress>,
-    ): Boolean = section.exercises.all { it.id in progress }
+        skipped: Set<String> = emptySet(),
+    ): Boolean = section.exercises.all { it.id in progress || it.id in skipped }
 
     fun openSections(chapter: Chapter): List<Section> = chapter.sections
 

@@ -30,11 +30,12 @@ object TrainingQueue {
         section: Section,
         progress: Map<String, Progress>,
         ai: Boolean = false,
+        skipped: Set<String> = emptySet(),
     ): List<Exercise> =
         section.tasks
             .flatMap { it.exercises }
             .filter { it in section.exercises || (ai && it in section.aiExercises) }
-            .filter { it.id !in progress }
+            .filter { it.id !in progress && it.id !in skipped }
 
     fun again(
         section: Section,

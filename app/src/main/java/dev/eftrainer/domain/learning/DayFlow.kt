@@ -26,6 +26,7 @@ data class DayState(
     val chosenChapter: String? = null,
     val reviewedOn: LocalDate? = null,
     val firstAnswered: Map<String, LocalDate> = emptyMap(),
+    val skipped: Set<String> = emptySet(),
 )
 
 object DayFlow {
@@ -66,7 +67,7 @@ object DayFlow {
                 ?: return null
         return chapters.drop(anchor).firstNotNullOfOrNull { chapter ->
             when {
-                !ChapterCompletion.isComplete(chapter, progress) -> DayStep.Continue(chapter)
+                !ChapterCompletion.isComplete(chapter, progress, day.skipped) -> DayStep.Continue(chapter)
                 finishedOn(chapter, day.firstAnswered, today) -> DayStep.Practice(chapter)
                 else -> null
             }
@@ -78,10 +79,11 @@ object DayFlow {
         plan: ReviewPlan,
         progress: Map<String, Progress>,
         ai: Boolean,
+        skipped: Set<String> = emptySet(),
     ): List<Exercise> =
         when (step) {
             DayStep.Review -> plan.all
-            is DayStep.Continue -> continueQueue(step.chapter, progress, ai)
+            is DayStep.Continue -> continueQueue(step.chapter, progress, ai, skipped)
             is DayStep.Practice -> practiceQueue(step.chapter, progress)
             DayStep.Rest -> emptyList()
         }
@@ -90,15 +92,17 @@ object DayFlow {
         chapter: Chapter,
         progress: Map<String, Progress>,
         ai: Boolean = false,
+        skipped: Set<String> = emptySet(),
     ): List<Exercise> =
         chapter.sections
-            .flatMap { TrainingQueue.firstPass(it, progress, ai) }
+            .flatMap { TrainingQueue.firstPass(it, progress, ai, skipped) }
             .take(TrainingQueue.SESSION_SIZE)
 
     fun left(
         chapter: Chapter,
         progress: Map<String, Progress>,
-    ): Int = chapter.exercises.count { it.id !in progress }
+        skipped: Set<String> = emptySet(),
+    ): Int = chapter.exercises.count { it.id !in progress && it.id !in skipped }
 
     fun practiceQueue(
         chapter: Chapter,

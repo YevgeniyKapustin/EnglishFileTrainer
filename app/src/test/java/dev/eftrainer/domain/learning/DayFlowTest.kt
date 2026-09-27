@@ -78,6 +78,26 @@ class DayFlowTest {
         assertEquals(23, DayFlow.left(second, progress))
     }
 
+    @Test fun `skipped items leave continue and its count but stay in practice`() {
+        val progress = listOf(progress("a-1")).byId()
+        val skipped = setOf("a-2")
+        assertEquals(listOf("a-3"), DayFlow.continueQueue(first, progress, skipped = skipped).map { it.id })
+        assertEquals(1, DayFlow.left(first, progress, skipped))
+        assertEquals(
+            listOf("a-3"),
+            TrainingQueue.firstPass(first.sections.single(), progress, skipped = skipped).map { it.id },
+        )
+        assertEquals(3, TrainingQueue.again(first.sections.single()).size)
+        assertTrue("a-2" in DayFlow.practiceQueue(first, progress).map { it.id })
+    }
+
+    @Test fun `chapter with only skipped items left is not continued`() {
+        val progress = answeredAll(first) - "a-3"
+        val day = DayState(reviewedOn = TODAY, skipped = setOf("a-3"))
+        assertEquals(DayStep.Continue(first), step(progress, DayState(reviewedOn = TODAY)))
+        assertEquals(DayStep.Continue(second), step(progress, day))
+    }
+
     @Test fun `practice is never empty after the chapter was answered today, weakest first`() {
         val progress =
             answeredAll(first, on = TODAY) +

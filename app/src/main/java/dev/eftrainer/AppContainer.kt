@@ -7,6 +7,7 @@ import dev.eftrainer.core.time.SystemClock
 import dev.eftrainer.data.AnswerLog
 import dev.eftrainer.data.ChapterRepository
 import dev.eftrainer.data.ProgressRepository
+import dev.eftrainer.data.SkipLog
 import dev.eftrainer.data.ai.AiClient
 import dev.eftrainer.data.ai.AiSettings
 import dev.eftrainer.data.ai.Connectivity
@@ -42,7 +43,8 @@ class AppContainer(
     val progress = ProgressRepository(db.progressDao())
     val chapters = ChapterRepository(db.chapterStateDao())
     val answers = AnswerLog(db.answerDao(), cacheScope)
-    val learning = Learning(progress, chapters, clock, answers)
+    val skips = SkipLog(db.skippedDao())
+    val learning = Learning(progress, chapters, clock, answers, skips)
     val ai = AiSettings(context)
     val aiClient = AiClient(ai)
     val connectivity = Connectivity(context)
@@ -50,7 +52,7 @@ class AppContainer(
     val generation = Generation(generated, progress, chapters, aiClient)
     val aiOn = aiAvailable(ai, connectivity)
     val review = ReviewSource(chapters, progress, generated, aiOn, clock, cacheScope)
-    val day = DaySource(review, Chapters.all, answers, DaySettings(context), clock, cacheScope)
+    val day = DaySource(review, Chapters.all, answers, skips, DaySettings(context), clock, cacheScope)
     val theme = ThemeSettings(context)
     val voice = VoiceSettings(context)
     val reminder = ReminderSettings(context)

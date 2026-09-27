@@ -16,7 +16,7 @@ class MigrationTest {
 
         fun sql(s: Any?) = (s as String).replace("\${TABLE_NAME}", table)
         return listOf(sql(entity["createSql"])) +
-            (entity["indices"] as List<*>).filterIsInstance<Map<*, *>>().map { sql(it["createSql"]) }
+            (entity["indices"] as List<*>?).orEmpty().filterIsInstance<Map<*, *>>().map { sql(it["createSql"]) }
     }
 
     @Test
@@ -29,8 +29,14 @@ class MigrationTest {
         assertEquals(schemaOf(3, "Answer"), MigrationSql.V2_TO_V3)
     }
 
+    @Test
+    fun `migration 3 to 4 creates exactly the schema of version 4`() {
+        assertEquals(schemaOf(4, "SkippedExercise"), MigrationSql.V3_TO_V4)
+    }
+
     @Test fun `earlier tables are untouched`() {
         assert(MigrationSql.V1_TO_V2.none { "Progress" in it || "ChapterState" in it || it.startsWith("DROP") })
         assert(MigrationSql.V2_TO_V3.all { "`Answer`" in it && !it.startsWith("DROP") })
+        assert(MigrationSql.V3_TO_V4.all { "`SkippedExercise`" in it && !it.startsWith("DROP") })
     }
 }

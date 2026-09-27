@@ -1,0 +1,9 @@
+package dev.eftrainer.data.db.entities
+
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity
+data class SkippedExercise(
+    @PrimaryKey val exerciseId: String,
+)

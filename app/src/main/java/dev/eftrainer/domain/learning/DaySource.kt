@@ -2,6 +2,7 @@ package dev.eftrainer.domain.learning
 
 import dev.eftrainer.core.time.Clock
 import dev.eftrainer.data.AnswerLog
+import dev.eftrainer.data.SkipLog
 import dev.eftrainer.data.content.Chapter
 import dev.eftrainer.data.content.Exercise
 import dev.eftrainer.data.settings.DaySettings
@@ -26,6 +27,7 @@ class DaySource(
     private val review: ReviewSource,
     private val chapters: List<Chapter>,
     answers: AnswerLog,
+    skips: SkipLog,
     private val settings: DaySettings,
     private val clock: Clock,
     scope: CoroutineScope,
@@ -36,8 +38,9 @@ class DaySource(
             settings.chosenChapter,
             settings.reviewedOn,
             answers.firstAnswered,
-        ) { reviewInputs, chosen, reviewedOn, firstAnswered ->
-            DayInputs(reviewInputs, DayState(chosen, reviewedOn, firstAnswered))
+            skips.skipped,
+        ) { reviewInputs, chosen, reviewedOn, firstAnswered, skipped ->
+            DayInputs(reviewInputs, DayState(chosen, reviewedOn, firstAnswered, skipped))
         }.shareIn(scope, SharingStarted.Eagerly, replay = 1)
 
     val latest: DayInputs? get() = inputs.replayCache.lastOrNull()
@@ -47,7 +50,11 @@ class DaySource(
         val progress = inputs.review.progress
         val step =
             DayFlow.step(chapters, inputs.review.completed, progress, reviewPlan, inputs.day, clock.today())
-        return DayPlan(step, reviewPlan, DayFlow.exercises(step, reviewPlan, progress, inputs.review.ai))
+        return DayPlan(
+            step,
+            reviewPlan,
+            DayFlow.exercises(step, reviewPlan, progress, inputs.review.ai, inputs.day.skipped),
+        )
     }
 
     fun choose(chapterId: String) = settings.choose(chapterId)

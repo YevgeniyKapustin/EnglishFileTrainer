@@ -21,6 +21,15 @@ class ChapterCompletionTest {
         assertFalse(ChapterCompletion.isComplete(big, nine))
     }
 
+    @Test fun `skipped speak items count as done without any progress`() {
+        val big = chapter("X", section("x", 3))
+        val two = listOf(progress("x-1"), progress("x-2")).byId()
+        assertFalse(ChapterCompletion.isComplete(big, two))
+        assertTrue(ChapterCompletion.isComplete(big, two, skipped = setOf("x-3")))
+        assertTrue(ChapterCompletion.firstPassDone(big.sections.single(), two, skipped = setOf("x-3")))
+        assertTrue(ChapterCompletion.isComplete(big, (1..3).map { progress("x-$it") }.byId(), setOf("x-3")))
+    }
+
     @Test fun `current is the first not completed`() {
         assertEquals("1A", ChapterCompletion.current(listOf(c1, c2), emptySet())?.id)
         assertEquals("1B", ChapterCompletion.current(listOf(c1, c2), setOf("1A"))?.id)

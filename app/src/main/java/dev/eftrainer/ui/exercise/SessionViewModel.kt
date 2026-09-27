@@ -136,7 +136,7 @@ class SessionViewModel(
                 sectionId == null -> day?.exercises.orEmpty()
                 taskId != null -> TrainingQueue.task(Chapters.section(sectionId), taskId, ai)
                 again -> TrainingQueue.again(Chapters.section(sectionId), ai)
-                else -> TrainingQueue.firstPass(Chapters.section(sectionId), progress, ai)
+                else -> TrainingQueue.firstPass(Chapters.section(sectionId), progress, ai, inputs.day.skipped)
             }
         chapter =
             if (sectionId == null) {
@@ -311,6 +311,7 @@ class SessionViewModel(
     fun skip() {
         val q = _state.value as? SessionUi.Question ?: return
         if (q.feedback != null || q.exercise !is Speak) return
+        writes += viewModelScope.launch { container.learning.skip(q.exercise)?.let { completedChapter = it } }
         tally.skip()
         if (tally.finished) finish() else show()
     }

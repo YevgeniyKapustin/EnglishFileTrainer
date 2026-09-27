@@ -77,7 +77,7 @@ class CurrentChapterViewModel(
             past = chapterId != null,
             streak = Stats.streak(days, container.clock.today()).current,
             step = step,
-            left = (step as? DayStep.Continue)?.let { DayFlow.left(it.chapter, progress) } ?: 0,
+            left = (step as? DayStep.Continue)?.let { DayFlow.left(it.chapter, progress, day.day.skipped) } ?: 0,
         )
     }
 

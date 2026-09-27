@@ -18,6 +18,11 @@ object MigrationSql {
     const val INDEX_ANSWER_DAY = "CREATE INDEX IF NOT EXISTS `index_Answer_day` ON `Answer` (`day`)"
 
     val V2_TO_V3 = listOf(CREATE_ANSWER, INDEX_ANSWER_DAY)
+
+    const val CREATE_SKIPPED =
+        "CREATE TABLE IF NOT EXISTS `SkippedExercise` (`exerciseId` TEXT NOT NULL, PRIMARY KEY(`exerciseId`))"
+
+    val V3_TO_V4 = listOf(CREATE_SKIPPED)
 }
 
 val MIGRATION_1_2 =
@@ -31,5 +36,12 @@ val MIGRATION_2_3 =
     object : Migration(2, 3) {
         override fun migrate(db: SupportSQLiteDatabase) {
             MigrationSql.V2_TO_V3.forEach(db::execSQL)
+        }
+    }
+
+val MIGRATION_3_4 =
+    object : Migration(3, 4) {
+        override fun migrate(db: SupportSQLiteDatabase) {
+            MigrationSql.V3_TO_V4.forEach(db::execSQL)
         }
     }

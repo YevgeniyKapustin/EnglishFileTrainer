@@ -42,6 +42,7 @@ import dev.eftrainer.core.theme.EF
 import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.ui.linkClickable
 import dev.eftrainer.data.content.Talk
+import dev.eftrainer.data.content.TalkStep
 import dev.eftrainer.domain.ai.ChatLine
 import dev.eftrainer.ui.appContainer
 import dev.eftrainer.ui.exercise.aiErrorRes
@@ -75,16 +76,12 @@ fun TalkInput(
 
     key(attempt) {
         Column(modifier, verticalArrangement = Arrangement.spacedBy(10.dp)) {
-            if (exercise.pictures.isNotEmpty()) TalkPictures(exercise.pictures)
             Text(exercise.goal, style = T.question.copy(fontSize = 19.sp, lineHeight = 28.sp))
-            if (exercise.steps.isNotEmpty()) {
-                val active = !checked && (ui.status == Status.Talking || ui.status == Status.Waiting)
-                TalkSteps(exercise.steps, ui.done, active)
-            }
             exercise.hint?.let { Text(it, style = T.hint) }
             TalkTranscript(ui, tts)
             TalkControls(
                 ui = ui,
+                steps = exercise.steps,
                 checked = checked,
                 onRetry = vm::retry,
                 onSend = vm::send,
@@ -92,6 +89,7 @@ fun TalkInput(
                 onMic = tts::stop,
                 modifier = Modifier.bringIntoViewRequester(bottom),
             )
+            if (exercise.pictures.isNotEmpty()) TalkPictures(exercise.pictures, Modifier.padding(top = 6.dp))
         }
     }
 }
@@ -149,6 +147,7 @@ private fun TalkTranscript(
 @Composable
 private fun TalkControls(
     ui: TalkViewModel.Ui,
+    steps: List<TalkStep>,
     checked: Boolean,
     onRetry: () -> Unit,
     onSend: (String) -> Unit,
@@ -180,6 +179,7 @@ private fun TalkControls(
             else -> {}
         }
         if (!checked && inConversation) {
+            TalkStepPrompt(steps, ui.done)
             TalkField(enabled = talking, onSend = onSend, onMic = onMic)
             LinkText(
                 stringResource(R.string.talk_finish),

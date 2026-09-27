@@ -32,21 +32,18 @@ internal fun TalkPictures(
     modifier: Modifier = Modifier,
 ) {
     var opened by rememberSaveable { mutableStateOf<String?>(null) }
-    val height = if (pictures.size == 1) 240.dp else 150.dp
-    Row(
-        modifier.horizontalScroll(rememberScrollState()),
-        horizontalArrangement = Arrangement.spacedBy(8.dp),
-    ) {
-        pictures.forEach { picture ->
-            val image = picture.image ?: return@forEach
-            AssetImage(
-                image,
-                stringResource(R.string.talk_picture, picture.label),
-                Modifier
-                    .height(height)
-                    .clip(PictureShape)
-                    .clickable { opened = image },
-            )
+    val single = pictures.singleOrNull()?.image
+    if (single != null) {
+        PictureThumb(pictures.single(), single, { opened = single }, modifier.fillMaxWidth())
+    } else {
+        Row(
+            modifier.horizontalScroll(rememberScrollState()),
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            pictures.forEach { picture ->
+                val image = picture.image ?: return@forEach
+                PictureThumb(picture, image, { opened = image }, Modifier.height(150.dp))
+            }
         }
     }
     opened?.let { name ->
@@ -65,4 +62,20 @@ internal fun TalkPictures(
             )
         }
     }
+}
+
+@Composable
+private fun PictureThumb(
+    picture: Picture,
+    image: String,
+    onOpen: () -> Unit,
+    modifier: Modifier = Modifier,
+) {
+    AssetImage(
+        image,
+        stringResource(R.string.talk_picture, picture.label),
+        modifier
+            .clip(PictureShape)
+            .clickable(onClick = onOpen),
+    )
 }

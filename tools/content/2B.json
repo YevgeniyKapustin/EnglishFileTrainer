@@ -862,8 +862,11 @@
           "id": "2B-wr2a",
           "origin": "SB",
           "instruction": "Writing: Describing a photo. Read the description and complete it with a word from the list",
-          "note": "Writing 2 (SB p.114) a; текст блога разбит по пропускам. Ответы MODEL (ключа нет)",
-          "context": "My favourite photo blog. Post your favourite photo on the website, together with a short description of why the photo is important to you. This week’s winner is Marc, a teacher from Swansea (a photo of two storks in a tree).",
+          "note": "Writing 2 (SB p.114) a; текст блога разбит по пропускам, фото аистов (tools/images.py) в images. Ответы MODEL (ключа нет)",
+          "images": [
+            "2b_wr2_storks"
+          ],
+          "context": "My favourite photo blog. Post your favourite photo on the website, together with a short description of why the photo is important to you. This week’s winner is Marc, a teacher from Swansea.",
           "words": ["at", "away", "in", "like", "of", "on", "with"],
           "exercises": [
             {"n": 1, "type": "blank", "text": "This is one of my favourite photos. It’s {} two storks.", "gaps": [["of"]], "source": "MODEL"},

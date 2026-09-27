@@ -1530,8 +1530,9 @@ val File2B = Chapter(
                     id = "2B-wr2a",
                     origin = Origin.SB,
                     instruction = "Writing: Describing a photo. Read the description and complete it with a word from the list",
-                    context = "My favourite photo blog. Post your favourite photo on the website, together with a short description of why the photo is important to you. This week’s winner is Marc, a teacher from Swansea (a photo of two storks in a tree).",
+                    context = "My favourite photo blog. Post your favourite photo on the website, together with a short description of why the photo is important to you. This week’s winner is Marc, a teacher from Swansea.",
                     words = listOf("at", "away", "in", "like", "of", "on", "with"),
+                    images = listOf("2b_wr2_storks"),
                     exercises = listOf(
                         Blank(
                             "2B-wr2a-01",

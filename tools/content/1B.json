@@ -132,10 +132,12 @@
         {
           "id": "1B-sb1a",
           "origin": "SB",
-          "instruction": "Listen to three women describing their fathers. Which one is Charlotte, the woman with her father in the photos?",
-          "note": "SB 1a; скрипт 1.11 в книге не напечатан — ответ по расшифровке аудио. Фото → описание",
+          "instruction": "Listen to three women describing their fathers. Which one is Charlotte, the woman with her father in the photo?",
+          "note": "SB 1a; скрипт 1.11 в книге не напечатан — ответ по расшифровке аудио. Фото Шарлотты и Клинта из SB p.8 (tools/images.py) в images",
           "audio": "1.11",
-          "context": "Photos: Charlotte, a young woman with a short dark bob, with her father Clint – a man in a black suit and bow tie, not very tall, with short grey hair and a big smile.",
+          "images": [
+            "1b_sb1a"
+          ],
           "exercises": [
             {
               "n": 1,
@@ -3142,7 +3144,7 @@
           "id": "1B-sb3c",
           "origin": "SB",
           "instruction": "Communication: A date for Clint. Ask and answer questions about two possible dates for Clint",
-          "note": "SB 3c + Communication 1B (A p.102, B p.108) + 3d «class vote»: ученик — A (Maggie), ИИ — B (Tessa). Фото → описание",
+          "note": "SB 3c + Communication 1B (A p.102, B p.108) + 3d «class vote»: ученик — A (Maggie), ИИ — B (Tessa). Профиль Мэгги с фото (SB p.102, tools/images.py) — картинка у ученика; ИИ знает его по скрытой подписи",
           "exercises": [
             {
               "n": 1,
@@ -3184,6 +3186,13 @@
                 {
                   "text": "Choose a date for Clint and say why",
                   "example": "I think Maggie is better for Clint because they both like travelling."
+                }
+              ],
+              "pictures": [
+                {
+                  "label": "Maggie",
+                  "image": "1b_sb3c_maggie",
+                  "caption": "The student's profile card of Maggie. Photo: a smiling woman with short reddish-brown hair and glasses. Name, age, status: Maggie Carter, 49, divorced. Occupation: I have a small cosmetics business. Adjectives that describe you: hard-working, independent, kind. Likes and dislikes: I like travelling and listening to classical music. I don't like clubbing or going to places with loud music."
                 }
               ]
             }
@@ -3543,8 +3552,11 @@
           "id": "1B-wr1a",
           "origin": "SB",
           "instruction": "Writing: Describing yourself. Read Charlie’s profile and answer the questions",
-          "note": "Writing 1 (SB p.113) 1a; открытые вопросы → Blank на ключевое слово, ответы по тексту (MODEL). Фото → описание",
-          "context": "Charlie’s profile (photo: a smiling young man with short curly black hair in a blue T-shirt). 1 Hi. My name’s Charlie. Well, it’s really Carlos but everyone calls me Charlie. I have 21 years old. I’m Mexican, and I live in Guadalajara. 2 I’m going to tell you about myself. I’m at university. I’m studing physics. I’m in my last year and I really like it. I live with my parents in a flat in the centre. I have a dog, a schnauzer – his name is Towser. 3 As you can see from the foto, I have black hair and browns eyes. My father always says I have a big nose, but I don’t think so. I think it’s a Roman nose! 4 I think I’m a positive person. My freinds say I’m funny and it’s true, I like making people laugh. But I can to be serious too when I need to be! 5 I dont have many free time becuase when I’m not in class I have to do projects or write reports. But when I can, I like watching TV series, especially science fiction series and comedies. I watch them in english with subtitles. I also like playing computer games like World of Warcraft and Starcraft.",
+          "note": "Writing 1 (SB p.113) 1a; открытые вопросы → Blank на ключевое слово, ответы по тексту (MODEL). Фото Чарли из SB p.113 (tools/images.py) в images",
+          "images": [
+            "1b_wr1_charlie"
+          ],
+          "context": "Charlie’s profile. 1 Hi. My name’s Charlie. Well, it’s really Carlos but everyone calls me Charlie. I have 21 years old. I’m Mexican, and I live in Guadalajara. 2 I’m going to tell you about myself. I’m at university. I’m studing physics. I’m in my last year and I really like it. I live with my parents in a flat in the centre. I have a dog, a schnauzer – his name is Towser. 3 As you can see from the foto, I have black hair and browns eyes. My father always says I have a big nose, but I don’t think so. I think it’s a Roman nose! 4 I think I’m a positive person. My freinds say I’m funny and it’s true, I like making people laugh. But I can to be serious too when I need to be! 5 I dont have many free time becuase when I’m not in class I have to do projects or write reports. But when I can, I like watching TV series, especially science fiction series and comedies. I watch them in english with subtitles. I also like playing computer games like World of Warcraft and Starcraft.",
           "exercises": [
             {
               "n": 1,
@@ -3636,7 +3648,10 @@
           "origin": "SB",
           "instruction": "The computer has found ten mistakes in Charlie’s profile: grammar, punctuation, or spelling. Correct them",
           "note": "Writing 1b; ошибки 7 (dont) и 8 (many) в одном предложении → один пункт n=7, n=8 нет. Ответы MODEL (ключа нет)",
-          "context": "Charlie’s profile (photo: a smiling young man with short curly black hair in a blue T-shirt). 1 Hi. My name’s Charlie. Well, it’s really Carlos but everyone calls me Charlie. I have 21 years old. I’m Mexican, and I live in Guadalajara. 2 I’m going to tell you about myself. I’m at university. I’m studing physics. I’m in my last year and I really like it. I live with my parents in a flat in the centre. I have a dog, a schnauzer – his name is Towser. 3 As you can see from the foto, I have black hair and browns eyes. My father always says I have a big nose, but I don’t think so. I think it’s a Roman nose! 4 I think I’m a positive person. My freinds say I’m funny and it’s true, I like making people laugh. But I can to be serious too when I need to be! 5 I dont have many free time becuase when I’m not in class I have to do projects or write reports. But when I can, I like watching TV series, especially science fiction series and comedies. I watch them in english with subtitles. I also like playing computer games like World of Warcraft and Starcraft.",
+          "images": [
+            "1b_wr1_charlie"
+          ],
+          "context": "Charlie’s profile. 1 Hi. My name’s Charlie. Well, it’s really Carlos but everyone calls me Charlie. I have 21 years old. I’m Mexican, and I live in Guadalajara. 2 I’m going to tell you about myself. I’m at university. I’m studing physics. I’m in my last year and I really like it. I live with my parents in a flat in the centre. I have a dog, a schnauzer – his name is Towser. 3 As you can see from the foto, I have black hair and browns eyes. My father always says I have a big nose, but I don’t think so. I think it’s a Roman nose! 4 I think I’m a positive person. My freinds say I’m funny and it’s true, I like making people laugh. But I can to be serious too when I need to be! 5 I dont have many free time becuase when I’m not in class I have to do projects or write reports. But when I can, I like watching TV series, especially science fiction series and comedies. I watch them in english with subtitles. I also like playing computer games like World of Warcraft and Starcraft.",
           "exercises": [
             {
               "n": 1,
@@ -3738,7 +3753,10 @@
           "origin": "SB",
           "instruction": "Write the topic of each paragraph. Then say which paragraph each highlighted phrase is from",
           "note": "Writing 1c, таблица Content / Phrases → Blank. Paragraph 1 (name, age, nationality; My name’s…, Everyone calls me…) — пример. n 6–13 — фразы",
-          "context": "Charlie’s profile (photo: a smiling young man with short curly black hair in a blue T-shirt). 1 Hi. My name’s Charlie. Well, it’s really Carlos but everyone calls me Charlie. I have 21 years old. I’m Mexican, and I live in Guadalajara. 2 I’m going to tell you about myself. I’m at university. I’m studing physics. I’m in my last year and I really like it. I live with my parents in a flat in the centre. I have a dog, a schnauzer – his name is Towser. 3 As you can see from the foto, I have black hair and browns eyes. My father always says I have a big nose, but I don’t think so. I think it’s a Roman nose! 4 I think I’m a positive person. My freinds say I’m funny and it’s true, I like making people laugh. But I can to be serious too when I need to be! 5 I dont have many free time becuase when I’m not in class I have to do projects or write reports. But when I can, I like watching TV series, especially science fiction series and comedies. I watch them in english with subtitles. I also like playing computer games like World of Warcraft and Starcraft.",
+          "images": [
+            "1b_wr1_charlie"
+          ],
+          "context": "Charlie’s profile. 1 Hi. My name’s Charlie. Well, it’s really Carlos but everyone calls me Charlie. I have 21 years old. I’m Mexican, and I live in Guadalajara. 2 I’m going to tell you about myself. I’m at university. I’m studing physics. I’m in my last year and I really like it. I live with my parents in a flat in the centre. I have a dog, a schnauzer – his name is Towser. 3 As you can see from the foto, I have black hair and browns eyes. My father always says I have a big nose, but I don’t think so. I think it’s a Roman nose! 4 I think I’m a positive person. My freinds say I’m funny and it’s true, I like making people laugh. But I can to be serious too when I need to be! 5 I dont have many free time becuase when I’m not in class I have to do projects or write reports. But when I can, I like watching TV series, especially science fiction series and comedies. I watch them in english with subtitles. I also like playing computer games like World of Warcraft and Starcraft.",
           "words": [
             "hobbies and interests",
             "personality",

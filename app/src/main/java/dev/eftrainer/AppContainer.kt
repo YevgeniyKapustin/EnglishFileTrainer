@@ -30,6 +30,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.launch
 
 class AppContainer(
     private val context: Context,
@@ -53,6 +54,10 @@ class AppContainer(
     val theme = ThemeSettings(context)
     val voice = VoiceSettings(context)
     val reminder = ReminderSettings(context)
+
+    init {
+        cacheScope.launch { learning.syncCompleted() }
+    }
 
     fun reschedule() =
         Reminders.schedule(context, reminder.enabled.value, reminder.time.value, ExistingWorkPolicy.REPLACE)

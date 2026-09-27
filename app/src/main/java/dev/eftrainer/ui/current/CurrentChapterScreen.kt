@@ -131,44 +131,20 @@ private fun SectionItem(
     divider: Boolean,
     onSection: (sectionId: String) -> Unit,
 ) {
-    ListRow(onClick = { onSection(row.section.id) }.takeIf { row.open }, divider = divider) {
-        SectionTag(row.section.kind, alpha = if (row.open) 1f else .4f)
-        SectionItemText(row, Modifier.weight(1f))
-        SectionItemStatus(row)
-    }
-}
-
-@Composable
-private fun SectionItemText(
-    row: SectionRow,
-    modifier: Modifier = Modifier,
-) {
-    Column(modifier) {
-        Text(row.section.title, style = T.rowEn.copy(color = if (row.open) C.Ink else C.Off))
-        Text(
-            if (row.open) {
-                row.section.kind.label()
-            } else {
-                stringResource(
-                    R.string.opens_after,
-                    row.opensAfter!!,
-                )
-            },
-            style = T.rowSub.copy(color = if (row.open) C.Muted else C.Off),
-            modifier = Modifier.padding(top = 2.dp),
-        )
-    }
-}
-
-@Composable
-private fun SectionItemStatus(row: SectionRow) {
-    if (row.open) {
+    ListRow(onClick = { onSection(row.section.id) }, divider = divider) {
+        SectionTag(row.section.kind)
+        Column(Modifier.weight(1f)) {
+            Text(row.section.title, style = T.rowEn.copy(color = C.Ink))
+            Text(
+                row.section.kind.label(),
+                style = T.rowSub.copy(color = C.Muted),
+                modifier = Modifier.padding(top = 2.dp),
+            )
+        }
         Text(
             stringResource(R.string.percent, row.mastered.toPercent()),
             style = T.label.copy(fontSize = 15.sp),
         )
-    } else {
-        Icon(Icons.Lock, null, Modifier.size(18.dp), tint = C.Off)
     }
 }
 

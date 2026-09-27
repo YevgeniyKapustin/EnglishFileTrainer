@@ -3,7 +3,6 @@
 
     <string name="all_chapters">All chapters</string>
     <string name="chapter_n">Chapter %1$s</string>
-    <string name="opens_after">Opens after %1$s</string>
     <string name="review">Review</string>
     <plurals name="exercises_from">
         <item quantity="one">%1$d exercise from %2$s</item>
@@ -48,6 +47,7 @@
         <item quantity="one">%1$d of %2$d chapters</item>
         <item quantity="other">%1$d of %2$d chapters</item>
     </plurals>
+    <string name="mastered_share">%1$d%% mastered</string>
     <string name="continue_chapter">Continue %1$s</string>
     <string name="practice_chapter">Practice %1$s</string>
     <plurals name="left_in_chapter">
@@ -91,13 +91,9 @@
     <string name="chapter_complete">%1$s complete</string>
     <string name="next_is_open">%1$s is open. %2$s will come back in review.</string>
     <string name="start_chapter">Start %1$s</string>
-    <string name="unlock_title">Open %1$s now?</string>
-    <string name="unlock_text">%1$s will move to review: what you’ve done comes back on schedule, the rest is skipped. %2$s becomes your current chapter.</string>
-    <string name="unlock_confirm">Open</string>
     <string name="cancel">Cancel</string>
     <string name="book_complete_note">%1$s will come back in review.</string>
 
-    <string name="next_opens_at">%1$d%% · next chapter opens at 90%%</string>
     <string name="completed">Completed</string>
     <string name="file_n">File %1$s</string>
 

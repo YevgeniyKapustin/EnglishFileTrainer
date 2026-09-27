@@ -23,9 +23,7 @@ import java.time.LocalDate
 
 data class SectionRow(
     val section: Section,
-    val open: Boolean,
     val mastered: Double,
-    val opensAfter: String?,
 )
 
 data class CurrentUi(
@@ -68,16 +66,7 @@ class CurrentChapterViewModel(
         val dayPlan = container.day.plan(day)
         val plan = dayPlan.review
         val step = dayPlan.step
-        val open = chapter?.let { ChapterCompletion.openSections(it) }.orEmpty()
-        val rows =
-            chapter?.sections.orEmpty().mapIndexed { i, s ->
-                SectionRow(
-                    section = s,
-                    open = s in open,
-                    mastered = Mastery.share(s.exercises, progress),
-                    opensAfter = if (s in open) null else chapter!!.sections[i - 1].title,
-                )
-            }
+        val rows = chapter?.sections.orEmpty().map { SectionRow(it, Mastery.share(it.exercises, progress)) }
         return CurrentUi(
             chapter = chapter,
             mastered = chapter?.let { Mastery.share(it.exercises, progress) } ?: 1.0,

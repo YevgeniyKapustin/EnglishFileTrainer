@@ -14,6 +14,14 @@ class Learning(
     private val clock: Clock,
     private val log: AnswerLog,
 ) {
+    suspend fun syncCompleted() {
+        val completed = chapters.getCompleted()
+        val all = progress.getAll()
+        chapters.chapters
+            .filter { it.id !in completed && ChapterCompletion.isComplete(it, all) }
+            .forEach { chapters.markCompleted(it.id, clock.today()) }
+    }
+
     suspend fun answer(
         exercise: Exercise,
         correct: Boolean,
@@ -22,11 +30,9 @@ class Learning(
         progress.save(Fsrs.next(exercise.id, progress.get(exercise.id), correct, today))
         log.add(exercise.id, clock.now(), correct)
 
-        return ChapterCompletion
-            .current(chapters.chapters, chapters.getCompleted())
-            ?.takeIf { c ->
-                c.exercises.any { it.id == exercise.id } &&
-                    ChapterCompletion.isComplete(c, progress.getAll())
-            }?.also { chapters.markCompleted(it.id, today) }
+        val chapter = chapters.chapters.firstOrNull { c -> c.exercises.any { it.id == exercise.id } } ?: return null
+        return chapter
+            .takeIf { it.id !in chapters.getCompleted() && ChapterCompletion.isComplete(it, progress.getAll()) }
+            ?.also { chapters.markCompleted(it.id, today) }
     }
 }

@@ -13,9 +13,8 @@ import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
-import kotlinx.coroutines.launch
 
-enum class ChapterStatus { COMPLETED, CURRENT, LOCKED }
+enum class ChapterStatus { COMPLETED, CURRENT, AHEAD }
 
 data class ChapterRow(
     val chapter: Chapter,
@@ -35,9 +34,7 @@ class AllChaptersViewModel(
                 .orEmpty(),
         )
 
-    private val chapters = container.chapters
     private val day = container.day
-    private val clock = container.clock
 
     private fun build(
         completed: Set<String>,
@@ -49,25 +46,9 @@ class AllChaptersViewModel(
                 when {
                     ch.id in completed -> ChapterStatus.COMPLETED
                     ch == current -> ChapterStatus.CURRENT
-                    else -> ChapterStatus.LOCKED
+                    else -> ChapterStatus.AHEAD
                 }
             ChapterRow(ch, status, Mastery.share(ch.exercises, progress))
-        }
-    }
-
-    fun unlock(
-        chapterId: String,
-        then: () -> Unit,
-    ) {
-        viewModelScope.launch {
-            val completed = chapters.getCompleted()
-            val today = clock.today()
-            Chapters.all
-                .takeWhile { it.id != chapterId }
-                .filter { it.id !in completed }
-                .forEach { chapters.markCompleted(it.id, today) }
-            day.choose(chapterId)
-            then()
         }
     }
 
@@ -82,8 +63,3 @@ internal fun fileOf(chapterId: String): Int = Regex("""\d+""").find(chapterId)?.
 
 internal fun List<ChapterRow>.startsFile(index: Int): Boolean =
     index == 0 || fileOf(this[index - 1].chapter.id) != fileOf(this[index].chapter.id)
-
-internal fun List<ChapterRow>.lockedBefore(chapterId: String): String =
-    takeWhile { it.chapter.id != chapterId }
-        .filter { it.status != ChapterStatus.COMPLETED }
-        .joinToString { it.chapter.id }

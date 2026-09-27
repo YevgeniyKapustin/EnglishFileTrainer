@@ -13,12 +13,12 @@ class ChapterCompletionTest {
     private val c1 = chapter("1A", grammar, vocab, pron)
     private val c2 = chapter("1B", section("b", 3))
 
-    @Test fun `complete at 90 percent`() {
+    @Test fun `complete once every book exercise is answered, mastered or not`() {
         val big = chapter("X", section("x", 10))
+        val all = (1..10).map { progress("x-$it") }.byId()
         val nine = (1..9).map { mastered("x-$it") }.byId()
-        val eight = (1..8).map { mastered("x-$it") }.byId()
-        assertTrue(ChapterCompletion.isComplete(big, nine))
-        assertFalse(ChapterCompletion.isComplete(big, eight))
+        assertTrue(ChapterCompletion.isComplete(big, all))
+        assertFalse(ChapterCompletion.isComplete(big, nine))
     }
 
     @Test fun `current is the first not completed`() {

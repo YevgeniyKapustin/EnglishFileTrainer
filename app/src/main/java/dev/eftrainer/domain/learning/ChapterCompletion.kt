@@ -6,12 +6,10 @@ import dev.eftrainer.data.content.exercises
 import dev.eftrainer.data.db.entities.Progress
 
 object ChapterCompletion {
-    const val THRESHOLD = 0.9
-
     fun isComplete(
         chapter: Chapter,
         progress: Map<String, Progress>,
-    ): Boolean = Mastery.share(chapter.exercises, progress) >= THRESHOLD
+    ): Boolean = chapter.exercises.all { it.id in progress }
 
     fun current(
         chapters: List<Chapter>,

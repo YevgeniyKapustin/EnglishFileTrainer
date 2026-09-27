@@ -66,17 +66,12 @@ object DayFlow {
                 ?: return null
         return chapters.drop(anchor).firstNotNullOfOrNull { chapter ->
             when {
-                !goneThrough(chapter, progress) -> DayStep.Continue(chapter)
+                !ChapterCompletion.isComplete(chapter, progress) -> DayStep.Continue(chapter)
                 finishedOn(chapter, day.firstAnswered, today) -> DayStep.Practice(chapter)
                 else -> null
             }
         }
     }
-
-    fun goneThrough(
-        chapter: Chapter,
-        progress: Map<String, Progress>,
-    ): Boolean = chapter.exercises.all { it.id in progress }
 
     fun exercises(
         step: DayStep,

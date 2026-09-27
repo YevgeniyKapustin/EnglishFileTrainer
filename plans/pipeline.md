@@ -40,9 +40,14 @@ PDF → JSON → Kotlin, аудио, клипы. Порядок работы —
    - «match 1–n with a–n» → по `Blank` на пару: `{} a film` → `watch`;
    - «match the sentences and the photos» → `Blank`/`Rewrite` с `"image"` у пункта (фото из книги);
    - «number the pictures / events in order» → `"type": "order"`: `pictures` `[{label, image, caption}]`
-     и `answer` — метки в верном порядке. Единственный ввод не с клавиатуры. Порядок фраз — `[{label, text}]`.
+     и `answer` — метки в верном порядке. Порядок фраз — `[{label, text}]`.
    - картинки книги над заданием → `"images": ["1c_sb_painting", …]`; «correct the information in bold» →
      `rewrite`, неверное в `prompt` — `**жирным**`.
+   - «underline the stressed syllable» → `"type": "stress"`: `text` `"a|cross"`, `stressed` [2] (с 1);
+     фраза с was/were → `"It [was] great. [Was] it?"`, `stressed` — номера сильных среди `[…]`, может быть [];
+   - «write the words in the chart» (звуки, -ed, ударение) → `"type": "sort"`: `columns` у задания,
+     у пункта `word` (`ask[ed]` — розовые буквы, `hu|rry` — слоги) и `column` (с 1).
+     Order, Stress, Sort — единственный ввод не с клавиатуры.
 3. Content-validation (`plans/architecture.md`, «Тесты») на JSON.
 4. Сверка: скан рядом с распознанным, правлю ошибки. Ответы SB, которые
    учитель поправил на уроке, правлю здесь же → `CONFIRMED`.

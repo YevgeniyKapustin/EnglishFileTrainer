@@ -50,7 +50,7 @@ app/src/main/java/<package>/
   ui/
     current/   CurrentChapterScreen + ViewModel   (стартовый)
     section/   SectionScreen + ViewModel
-    exercise/  ExerciseScreen + SessionViewModel + inputs/ (Rewrite, Blank, Order, Speak, Talk, Write, плееры)
+    exercise/  ExerciseScreen + SessionViewModel + inputs/ (Rewrite, Blank, Order, Stress, Sort, Speak, Talk, Write, плееры)
     chapters/  AllChaptersScreen + ViewModel
 app/src/test/java/<package>/   unit-тесты domain + content-validation (JVM)
 tools/                         конвейер `plans/pipeline.md` (Python): рендер PDF, JSON, генерация .kt
@@ -83,7 +83,7 @@ enum class AnswerSource {
 // Ввод — ТОЛЬКО с клавиатуры: никаких вариантов на выбор, чипов и сопоставлений
 // (решено 26.09.2026). Задания книги с выбором/сопоставлением конвейер
 // переделывает в один из двух типов ниже — см. `plans/pipeline.md`.
-// Единственное исключение — Order: расставить картинки/события списком (перетащить или ↑/↓, потом Check).
+// Исключения — тапом: Order (картинки по порядку), Stress (ударный слог / сильная форма), Sort (колонка).
 
 data class Rewrite(                       // написать предложение целиком
     override val id: String,
@@ -171,6 +171,8 @@ data class Task(           // одно задание книги: «2a Complete 
 - `Blank`: каждый пропуск совпал с одним из своих вариантов; верно, только если
   верны все пропуски (неверные подсвечиваем по отдельности).
 - `Order`: порядок меток совпал с `answer`; неверные позиции подсвечиваем, ожидаемое — метки через пробел.
+- `Stress`: отмеченные цели совпали со `stressed` (в слове — ровно один слог, во фразе — может ни одной);
+  ожидаемое — ударные части заглавными (`aCROSS`). `Sort`: выбрана колонка `answer` (`TapChecker`).
 - При неверном ответе показываем ожидаемый вариант (первый из `answers`) и
   `explain`, если он задан.
 
@@ -178,7 +180,7 @@ data class Task(           // одно задание книги: «2a Complete 
 
 **Unit (JVM, быстрые, гоняются на каждом шаге):**
 - нормализатор: апострофы, пробелы, регистр, финальная пунктуация;
-- проверка ответа по всем типам — верно и неверно; `Order` — позиции и перестановка (`OrderCheckTest`);
+- проверка ответа по всем типам — верно и неверно; `Order` — позиции и перестановка (`OrderCheckTest`); `Stress`/`Sort` — `StressSortCheckTest`;
 - FSRS: верный ответ растит интервал, ошибка сбрасывает на ~1 день, потолок 180, расчёт `dueOn`;
 - **валидация контента** — механическая, ловит ошибки переноса, но не смысла:
   id уникальны по всем главам, `answers` непусты, в `Blank` число `{}` в `text`

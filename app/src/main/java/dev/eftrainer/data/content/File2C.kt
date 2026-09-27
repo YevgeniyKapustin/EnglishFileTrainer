@@ -523,101 +523,101 @@ val File2C = Chapter(
                 Task(
                     id = "2C-sb2a",
                     origin = Origin.SB,
-                    instruction = "Which syllable is stressed? Write it. Then listen and check",
+                    instruction = "Tap the stressed syllable. Then listen and check",
                     audio = "2.20",
                     exercises = listOf(
-                        Blank(
+                        Stress(
                             "2C-sb2a-01",
-                            text = "a|cross → {}",
-                            gaps = listOf(listOf("cross")),
+                            parts = listOf("a", "cross"),
+                            stressed = listOf(1),
                             explain = "aCROSS — a preposition: second syllable.",
                             source = AnswerSource.CONFIRMED,
                             clip = Clip(2450, 3770),
                         ),
-                        Blank(
+                        Stress(
                             "2C-sb2a-02",
-                            text = "af|ter → {}",
-                            gaps = listOf(listOf("af")),
+                            parts = listOf("af", "ter"),
+                            stressed = listOf(0),
                             explain = "AFter — first syllable.",
                             source = AnswerSource.CONFIRMED,
                             clip = Clip(5290, 6510),
                         ),
-                        Blank(
+                        Stress(
                             "2C-sb2a-03",
-                            text = "a|gain → {}",
-                            gaps = listOf(listOf("gain")),
+                            parts = listOf("a", "gain"),
+                            stressed = listOf(1),
                             explain = "aGAIN — second syllable.",
                             source = AnswerSource.CONFIRMED,
                             clip = Clip(8000, 9220),
                         ),
-                        Blank(
+                        Stress(
                             "2C-sb2a-04",
-                            text = "a|long → {}",
-                            gaps = listOf(listOf("long")),
+                            parts = listOf("a", "long"),
+                            stressed = listOf(1),
                             explain = "aLONG — a preposition: second syllable.",
                             source = AnswerSource.CONFIRMED,
                             clip = Clip(10710, 11950),
                         ),
-                        Blank(
+                        Stress(
                             "2C-sb2a-05",
-                            text = "al|though → {}",
-                            gaps = listOf(listOf("though")),
+                            parts = listOf("al", "though"),
+                            stressed = listOf(1),
                             explain = "alTHOUGH — a connector: second syllable.",
                             source = AnswerSource.CONFIRMED,
                             clip = Clip(13430, 14740),
                         ),
-                        Blank(
+                        Stress(
                             "2C-sb2a-06",
-                            text = "aw|ful → {}",
-                            gaps = listOf(listOf("aw")),
+                            parts = listOf("aw", "ful"),
+                            stressed = listOf(0),
                             explain = "AWful — an adjective: first syllable.",
                             source = AnswerSource.CONFIRMED,
                             clip = Clip(16230, 17410),
                         ),
-                        Blank(
+                        Stress(
                             "2C-sb2a-07",
-                            text = "be|cause → {}",
-                            gaps = listOf(listOf("cause")),
+                            parts = listOf("be", "cause"),
+                            stressed = listOf(1),
                             explain = "beCAUSE — a connector: second syllable.",
                             source = AnswerSource.CONFIRMED,
                             clip = Clip(18900, 20150),
                         ),
-                        Blank(
+                        Stress(
                             "2C-sb2a-08",
-                            text = "birth|day → {}",
-                            gaps = listOf(listOf("birth")),
+                            parts = listOf("birth", "day"),
+                            stressed = listOf(0),
                             explain = "BIRTHday — a noun: first syllable.",
                             source = AnswerSource.CONFIRMED,
                             clip = Clip(21660, 22940),
                         ),
-                        Blank(
+                        Stress(
                             "2C-sb2a-09",
-                            text = "eve|ning → {}",
-                            gaps = listOf(listOf("eve")),
+                            parts = listOf("eve", "ning"),
+                            stressed = listOf(0),
                             explain = "EVEning — a noun: first syllable.",
                             source = AnswerSource.CONFIRMED,
                             clip = Clip(24430, 25710),
                         ),
-                        Blank(
+                        Stress(
                             "2C-sb2a-10",
-                            text = "in|vite → {}",
-                            gaps = listOf(listOf("vite")),
+                            parts = listOf("in", "vite"),
+                            stressed = listOf(1),
                             explain = "inVITE — a verb: second syllable.",
                             source = AnswerSource.CONFIRMED,
                             clip = Clip(27200, 28490),
                         ),
-                        Blank(
+                        Stress(
                             "2C-sb2a-11",
-                            text = "per|fect → {}",
-                            gaps = listOf(listOf("per")),
+                            parts = listOf("per", "fect"),
+                            stressed = listOf(0),
                             explain = "PERfect — an adjective: first syllable.",
                             source = AnswerSource.CONFIRMED,
                             clip = Clip(29980, 31280),
                         ),
-                        Blank(
+                        Stress(
                             "2C-sb2a-12",
-                            text = "quick|ly → {}",
-                            gaps = listOf(listOf("quick")),
+                            parts = listOf("quick", "ly"),
+                            stressed = listOf(0),
                             explain = "QUICKly — an adverb: first syllable.",
                             source = AnswerSource.CONFIRMED,
                             clip = Clip(32760, 33980),
@@ -720,77 +720,91 @@ val File2C = Chapter(
                 Task(
                     id = "2C-wb2a",
                     origin = Origin.WB,
-                    instruction = "Is the first or the second syllable stressed? Write 1 or 2",
+                    instruction = "Put the words in the chart",
                     exercises = listOf(
-                        Blank(
+                        Sort(
                             "2C-wb2a-01",
-                            text = "a|gain → {}",
-                            gaps = listOf(listOf("2", "second", "2nd")),
+                            word = "a|gain",
+                            columns = listOf("1 First syllable stressed", "2 Second syllable stressed"),
+                            answer = 1,
                         ),
-                        Blank(
+                        Sort(
                             "2C-wb2a-02",
-                            text = "a|long → {}",
-                            gaps = listOf(listOf("2", "second", "2nd")),
+                            word = "a|long",
+                            columns = listOf("1 First syllable stressed", "2 Second syllable stressed"),
+                            answer = 1,
                         ),
-                        Blank(
+                        Sort(
                             "2C-wb2a-03",
-                            text = "al|though → {}",
-                            gaps = listOf(listOf("2", "second", "2nd")),
+                            word = "al|though",
+                            columns = listOf("1 First syllable stressed", "2 Second syllable stressed"),
+                            answer = 1,
                         ),
-                        Blank(
+                        Sort(
                             "2C-wb2a-04",
-                            text = "aw|ful → {}",
-                            gaps = listOf(listOf("1", "first", "1st")),
+                            word = "aw|ful",
+                            columns = listOf("1 First syllable stressed", "2 Second syllable stressed"),
+                            answer = 0,
                         ),
-                        Blank(
+                        Sort(
                             "2C-wb2a-05",
-                            text = "be|cause → {}",
-                            gaps = listOf(listOf("2", "second", "2nd")),
+                            word = "be|cause",
+                            columns = listOf("1 First syllable stressed", "2 Second syllable stressed"),
+                            answer = 1,
                         ),
-                        Blank(
+                        Sort(
                             "2C-wb2a-06",
-                            text = "be|fore → {}",
-                            gaps = listOf(listOf("2", "second", "2nd")),
+                            word = "be|fore",
+                            columns = listOf("1 First syllable stressed", "2 Second syllable stressed"),
+                            answer = 1,
                         ),
-                        Blank(
+                        Sort(
                             "2C-wb2a-07",
-                            text = "be|hind → {}",
-                            gaps = listOf(listOf("2", "second", "2nd")),
+                            word = "be|hind",
+                            columns = listOf("1 First syllable stressed", "2 Second syllable stressed"),
+                            answer = 1,
                         ),
-                        Blank(
+                        Sort(
                             "2C-wb2a-08",
-                            text = "birth|day → {}",
-                            gaps = listOf(listOf("1", "first", "1st")),
+                            word = "birth|day",
+                            columns = listOf("1 First syllable stressed", "2 Second syllable stressed"),
+                            answer = 0,
                         ),
-                        Blank(
+                        Sort(
                             "2C-wb2a-09",
-                            text = "eve|ning → {}",
-                            gaps = listOf(listOf("1", "first", "1st")),
+                            word = "eve|ning",
+                            columns = listOf("1 First syllable stressed", "2 Second syllable stressed"),
+                            answer = 0,
                         ),
-                        Blank(
+                        Sort(
                             "2C-wb2a-10",
-                            text = "hur|ry → {}",
-                            gaps = listOf(listOf("1", "first", "1st")),
+                            word = "hu|rry",
+                            columns = listOf("1 First syllable stressed", "2 Second syllable stressed"),
+                            answer = 0,
                         ),
-                        Blank(
+                        Sort(
                             "2C-wb2a-11",
-                            text = "in|vite → {}",
-                            gaps = listOf(listOf("2", "second", "2nd")),
+                            word = "in|vite",
+                            columns = listOf("1 First syllable stressed", "2 Second syllable stressed"),
+                            answer = 1,
                         ),
-                        Blank(
+                        Sort(
                             "2C-wb2a-12",
-                            text = "per|fect → {}",
-                            gaps = listOf(listOf("1", "first", "1st")),
+                            word = "per|fect",
+                            columns = listOf("1 First syllable stressed", "2 Second syllable stressed"),
+                            answer = 0,
                         ),
-                        Blank(
+                        Sort(
                             "2C-wb2a-13",
-                            text = "quick|ly → {}",
-                            gaps = listOf(listOf("1", "first", "1st")),
+                            word = "quick|ly",
+                            columns = listOf("1 First syllable stressed", "2 Second syllable stressed"),
+                            answer = 0,
                         ),
-                        Blank(
+                        Sort(
                             "2C-wb2a-14",
-                            text = "sum|mer → {}",
-                            gaps = listOf(listOf("1", "first", "1st")),
+                            word = "su|mmer",
+                            columns = listOf("1 First syllable stressed", "2 Second syllable stressed"),
+                            answer = 0,
                         ),
                     ),
                 ),
@@ -1866,41 +1880,41 @@ val File2C = Chapter(
                 Task(
                     id = "2C-rcpd",
                     origin = Origin.SB,
-                    instruction = "Which syllable is stressed? Write it",
+                    instruction = "Tap the stressed syllable",
                     exercises = listOf(
-                        Blank(
+                        Stress(
                             "2C-rcpd-01",
-                            text = "ex|tro|vert → {}",
-                            gaps = listOf(listOf("ex")),
+                            parts = listOf("ex", "tro", "vert"),
+                            stressed = listOf(0),
                             explain = "EXtrovert.",
                             source = AnswerSource.MODEL,
                         ),
-                        Blank(
+                        Stress(
                             "2C-rcpd-02",
-                            text = "o|ver|weight → {}",
-                            gaps = listOf(listOf("o")),
-                            explain = "Overweight – stress on the first syllable (secondary stress on weight).",
+                            parts = listOf("o", "ver", "weight"),
+                            stressed = listOf(2),
+                            explain = "overWEIGHT – the stress is on weight.",
                             source = AnswerSource.MODEL,
                         ),
-                        Blank(
+                        Stress(
                             "2C-rcpd-03",
-                            text = "brace|let → {}",
-                            gaps = listOf(listOf("brace")),
+                            parts = listOf("brace", "let"),
+                            stressed = listOf(0),
                             explain = "BRACElet.",
                             source = AnswerSource.MODEL,
                         ),
-                        Blank(
+                        Stress(
                             "2C-rcpd-04",
-                            text = "on|line → {}",
-                            gaps = listOf(listOf("line")),
+                            parts = listOf("on", "line"),
+                            stressed = listOf(1),
                             explain = "onLINE.",
                             source = AnswerSource.MODEL,
                         ),
-                        Blank(
+                        Stress(
                             "2C-rcpd-05",
-                            text = "com|for|ta|ble → {}",
-                            gaps = listOf(listOf("com")),
-                            explain = "COMfortable.",
+                            parts = listOf("comfor", "ta", "ble"),
+                            stressed = listOf(0),
+                            explain = "The stress is on comfor: /ˈkʌmftəbl/ – the second o is almost silent.",
                             source = AnswerSource.MODEL,
                         ),
                     ),

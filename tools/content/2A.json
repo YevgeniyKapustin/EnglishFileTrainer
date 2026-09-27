@@ -2367,186 +2367,22 @@
         {
           "id": "2A-sb3c",
           "origin": "SB",
-          "instruction": "Write the past simple of these verbs. Then listen and check. In which ones is -ed pronounced /ɪd/?",
-          "note": "SB 3c + 3d (Listen and check 2.5) → пишем форму, звук — в explain; формы по аудио 2.5, звуки — по правилу",
+          "instruction": "How is -ed pronounced? Put the verbs in the chart. Then listen and check",
+          "note": "SB 3c + 3d (Listen and check 2.5) → Sort по колонкам 3a (tie /t/, dog /d/, /ɪd/); формы по аудио 2.5, звуки — по правилу",
           "audio": "2.5",
+          "columns": ["tie /t/", "dog /d/", "/ɪd/"],
           "exercises": [
-            {
-              "n": 1,
-              "type": "blank",
-              "text": "ask → {}",
-              "gaps": [
-                [
-                  "asked"
-                ]
-              ],
-              "explain": "/t/",
-              "source": "CONFIRMED",
-              "clip": [
-                2.59,
-                3.77
-              ]
-            },
-            {
-              "n": 2,
-              "type": "blank",
-              "text": "call → {}",
-              "gaps": [
-                [
-                  "called"
-                ]
-              ],
-              "explain": "/d/",
-              "source": "CONFIRMED",
-              "clip": [
-                5.28,
-                6.41
-              ]
-            },
-            {
-              "n": 3,
-              "type": "blank",
-              "text": "check → {}",
-              "gaps": [
-                [
-                  "checked"
-                ]
-              ],
-              "explain": "/t/",
-              "source": "CONFIRMED",
-              "clip": [
-                7.92,
-                9.02
-              ]
-            },
-            {
-              "n": 4,
-              "type": "blank",
-              "text": "decide → {}",
-              "gaps": [
-                [
-                  "decided"
-                ]
-              ],
-              "explain": "/ɪd/ – d before -ed.",
-              "source": "CONFIRMED",
-              "clip": [
-                10.53,
-                11.81
-              ]
-            },
-            {
-              "n": 5,
-              "type": "blank",
-              "text": "happen → {}",
-              "gaps": [
-                [
-                  "happened"
-                ]
-              ],
-              "explain": "/d/",
-              "source": "CONFIRMED",
-              "clip": [
-                13.29,
-                14.55
-              ]
-            },
-            {
-              "n": 6,
-              "type": "blank",
-              "text": "live → {}",
-              "gaps": [
-                [
-                  "lived"
-                ]
-              ],
-              "explain": "/d/",
-              "source": "CONFIRMED",
-              "clip": [
-                16.03,
-                17.15
-              ]
-            },
-            {
-              "n": 7,
-              "type": "blank",
-              "text": "rent → {}",
-              "gaps": [
-                [
-                  "rented"
-                ]
-              ],
-              "explain": "/ɪd/ – t before -ed.",
-              "source": "CONFIRMED",
-              "clip": [
-                18.65,
-                19.93
-              ]
-            },
-            {
-              "n": 8,
-              "type": "blank",
-              "text": "start → {}",
-              "gaps": [
-                [
-                  "started"
-                ]
-              ],
-              "explain": "/ɪd/ – t before -ed.",
-              "source": "CONFIRMED",
-              "clip": [
-                21.42,
-                22.6
-              ]
-            },
-            {
-              "n": 9,
-              "type": "blank",
-              "text": "stop → {}",
-              "gaps": [
-                [
-                  "stopped"
-                ]
-              ],
-              "explain": "/t/ – and double the p.",
-              "source": "CONFIRMED",
-              "clip": [
-                24.09,
-                25.35
-              ]
-            },
-            {
-              "n": 10,
-              "type": "blank",
-              "text": "thank → {}",
-              "gaps": [
-                [
-                  "thanked"
-                ]
-              ],
-              "explain": "/t/",
-              "source": "CONFIRMED",
-              "clip": [
-                26.87,
-                27.97
-              ]
-            },
-            {
-              "n": 11,
-              "type": "blank",
-              "text": "want → {}",
-              "gaps": [
-                [
-                  "wanted"
-                ]
-              ],
-              "explain": "/ɪd/ – t before -ed.",
-              "source": "CONFIRMED",
-              "clip": [
-                29.45,
-                30.68
-              ]
-            }
+            {"n": 1, "type": "sort", "word": "ask[ed]", "column": 1, "source": "CONFIRMED", "clip": [2.59, 3.77]},
+            {"n": 2, "type": "sort", "word": "call[ed]", "column": 2, "source": "CONFIRMED", "clip": [5.28, 6.41]},
+            {"n": 3, "type": "sort", "word": "check[ed]", "column": 1, "source": "CONFIRMED", "clip": [7.92, 9.02]},
+            {"n": 4, "type": "sort", "word": "decid[ed]", "column": 3, "explain": "d before -ed, so it is /ɪd/.", "source": "CONFIRMED", "clip": [10.53, 11.81]},
+            {"n": 5, "type": "sort", "word": "happen[ed]", "column": 2, "source": "CONFIRMED", "clip": [13.29, 14.55]},
+            {"n": 6, "type": "sort", "word": "liv[ed]", "column": 2, "source": "CONFIRMED", "clip": [16.03, 17.15]},
+            {"n": 7, "type": "sort", "word": "rent[ed]", "column": 3, "explain": "t before -ed, so it is /ɪd/.", "source": "CONFIRMED", "clip": [18.65, 19.93]},
+            {"n": 8, "type": "sort", "word": "start[ed]", "column": 3, "explain": "t before -ed, so it is /ɪd/.", "source": "CONFIRMED", "clip": [21.42, 22.6]},
+            {"n": 9, "type": "sort", "word": "stopp[ed]", "column": 1, "explain": "Double the p: stopped /stɒpt/.", "source": "CONFIRMED", "clip": [24.09, 25.35]},
+            {"n": 10, "type": "sort", "word": "thank[ed]", "column": 1, "source": "CONFIRMED", "clip": [26.87, 27.97]},
+            {"n": 11, "type": "sort", "word": "want[ed]", "column": 3, "explain": "t before -ed, so it is /ɪd/.", "source": "CONFIRMED", "clip": [29.45, 30.68]}
           ]
         },
         {

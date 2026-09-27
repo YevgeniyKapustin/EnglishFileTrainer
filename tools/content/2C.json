@@ -281,22 +281,22 @@
         {
           "id": "2C-sb2a",
           "origin": "SB",
-          "instruction": "Which syllable is stressed? Write it. Then listen and check",
-          "note": "SB 2a «Underline the stressed syllable» + 2b «Listen and check» → Blank: пишем ударный слог. Сверено с ключом WB 2a (те же слова) и аудио 2.20",
+          "instruction": "Tap the stressed syllable. Then listen and check",
+          "note": "SB 2a «Underline the stressed syllable» + 2b «Listen and check» → Stress: тап по ударному слогу, слоги как в книге. Сверено с ключом WB 2a (те же слова) и аудио 2.20",
           "audio": "2.20",
           "exercises": [
-            {"n": 1, "type": "blank", "text": "a|cross → {}", "gaps": [["cross"]], "explain": "aCROSS — a preposition: second syllable.", "source": "CONFIRMED", "clip": [2.45, 3.77]},
-            {"n": 2, "type": "blank", "text": "af|ter → {}", "gaps": [["af"]], "explain": "AFter — first syllable.", "source": "CONFIRMED", "clip": [5.29, 6.51]},
-            {"n": 3, "type": "blank", "text": "a|gain → {}", "gaps": [["gain"]], "explain": "aGAIN — second syllable.", "source": "CONFIRMED", "clip": [8.0, 9.22]},
-            {"n": 4, "type": "blank", "text": "a|long → {}", "gaps": [["long"]], "explain": "aLONG — a preposition: second syllable.", "source": "CONFIRMED", "clip": [10.71, 11.95]},
-            {"n": 5, "type": "blank", "text": "al|though → {}", "gaps": [["though"]], "explain": "alTHOUGH — a connector: second syllable.", "source": "CONFIRMED", "clip": [13.43, 14.74]},
-            {"n": 6, "type": "blank", "text": "aw|ful → {}", "gaps": [["aw"]], "explain": "AWful — an adjective: first syllable.", "source": "CONFIRMED", "clip": [16.23, 17.41]},
-            {"n": 7, "type": "blank", "text": "be|cause → {}", "gaps": [["cause"]], "explain": "beCAUSE — a connector: second syllable.", "source": "CONFIRMED", "clip": [18.9, 20.15]},
-            {"n": 8, "type": "blank", "text": "birth|day → {}", "gaps": [["birth"]], "explain": "BIRTHday — a noun: first syllable.", "source": "CONFIRMED", "clip": [21.66, 22.94]},
-            {"n": 9, "type": "blank", "text": "eve|ning → {}", "gaps": [["eve"]], "explain": "EVEning — a noun: first syllable.", "source": "CONFIRMED", "clip": [24.43, 25.71]},
-            {"n": 10, "type": "blank", "text": "in|vite → {}", "gaps": [["vite"]], "explain": "inVITE — a verb: second syllable.", "source": "CONFIRMED", "clip": [27.2, 28.49]},
-            {"n": 11, "type": "blank", "text": "per|fect → {}", "gaps": [["per"]], "explain": "PERfect — an adjective: first syllable.", "source": "CONFIRMED", "clip": [29.98, 31.28]},
-            {"n": 12, "type": "blank", "text": "quick|ly → {}", "gaps": [["quick"]], "explain": "QUICKly — an adverb: first syllable.", "source": "CONFIRMED", "clip": [32.76, 33.98]}
+            {"n": 1, "type": "stress", "text": "a|cross", "stressed": [2], "explain": "aCROSS — a preposition: second syllable.", "source": "CONFIRMED", "clip": [2.45, 3.77]},
+            {"n": 2, "type": "stress", "text": "af|ter", "stressed": [1], "explain": "AFter — first syllable.", "source": "CONFIRMED", "clip": [5.29, 6.51]},
+            {"n": 3, "type": "stress", "text": "a|gain", "stressed": [2], "explain": "aGAIN — second syllable.", "source": "CONFIRMED", "clip": [8.0, 9.22]},
+            {"n": 4, "type": "stress", "text": "a|long", "stressed": [2], "explain": "aLONG — a preposition: second syllable.", "source": "CONFIRMED", "clip": [10.71, 11.95]},
+            {"n": 5, "type": "stress", "text": "al|though", "stressed": [2], "explain": "alTHOUGH — a connector: second syllable.", "source": "CONFIRMED", "clip": [13.43, 14.74]},
+            {"n": 6, "type": "stress", "text": "aw|ful", "stressed": [1], "explain": "AWful — an adjective: first syllable.", "source": "CONFIRMED", "clip": [16.23, 17.41]},
+            {"n": 7, "type": "stress", "text": "be|cause", "stressed": [2], "explain": "beCAUSE — a connector: second syllable.", "source": "CONFIRMED", "clip": [18.9, 20.15]},
+            {"n": 8, "type": "stress", "text": "birth|day", "stressed": [1], "explain": "BIRTHday — a noun: first syllable.", "source": "CONFIRMED", "clip": [21.66, 22.94]},
+            {"n": 9, "type": "stress", "text": "eve|ning", "stressed": [1], "explain": "EVEning — a noun: first syllable.", "source": "CONFIRMED", "clip": [24.43, 25.71]},
+            {"n": 10, "type": "stress", "text": "in|vite", "stressed": [2], "explain": "inVITE — a verb: second syllable.", "source": "CONFIRMED", "clip": [27.2, 28.49]},
+            {"n": 11, "type": "stress", "text": "per|fect", "stressed": [1], "explain": "PERfect — an adjective: first syllable.", "source": "CONFIRMED", "clip": [29.98, 31.28]},
+            {"n": 12, "type": "stress", "text": "quick|ly", "stressed": [1], "explain": "QUICKly — an adverb: first syllable.", "source": "CONFIRMED", "clip": [32.76, 33.98]}
           ]
         },
         {
@@ -341,23 +341,24 @@
         {
           "id": "2C-wb2a",
           "origin": "WB",
-          "instruction": "Is the first or the second syllable stressed? Write 1 or 2",
-          "note": "WB 2a «Write the words in the chart» (колонки 1 First / 2 Second syllable stressed) → Blank на номер колонки; after и across — примеры; n — по порядку слов в списке",
+          "instruction": "Put the words in the chart",
+          "note": "WB 2a «Write the words in the chart» → Sort по двум колонкам; after и across — примеры; слоги как в WB (hu|rry, su|mmer); n — по порядку слов в списке",
+          "columns": ["1 First syllable stressed", "2 Second syllable stressed"],
           "exercises": [
-            {"n": 1, "type": "blank", "text": "a|gain → {}", "gaps": [["2", "second", "2nd"]]},
-            {"n": 2, "type": "blank", "text": "a|long → {}", "gaps": [["2", "second", "2nd"]]},
-            {"n": 3, "type": "blank", "text": "al|though → {}", "gaps": [["2", "second", "2nd"]]},
-            {"n": 4, "type": "blank", "text": "aw|ful → {}", "gaps": [["1", "first", "1st"]]},
-            {"n": 5, "type": "blank", "text": "be|cause → {}", "gaps": [["2", "second", "2nd"]]},
-            {"n": 6, "type": "blank", "text": "be|fore → {}", "gaps": [["2", "second", "2nd"]]},
-            {"n": 7, "type": "blank", "text": "be|hind → {}", "gaps": [["2", "second", "2nd"]]},
-            {"n": 8, "type": "blank", "text": "birth|day → {}", "gaps": [["1", "first", "1st"]]},
-            {"n": 9, "type": "blank", "text": "eve|ning → {}", "gaps": [["1", "first", "1st"]]},
-            {"n": 10, "type": "blank", "text": "hur|ry → {}", "gaps": [["1", "first", "1st"]]},
-            {"n": 11, "type": "blank", "text": "in|vite → {}", "gaps": [["2", "second", "2nd"]]},
-            {"n": 12, "type": "blank", "text": "per|fect → {}", "gaps": [["1", "first", "1st"]]},
-            {"n": 13, "type": "blank", "text": "quick|ly → {}", "gaps": [["1", "first", "1st"]]},
-            {"n": 14, "type": "blank", "text": "sum|mer → {}", "gaps": [["1", "first", "1st"]]}
+            {"n": 1, "type": "sort", "word": "a|gain", "column": 2},
+            {"n": 2, "type": "sort", "word": "a|long", "column": 2},
+            {"n": 3, "type": "sort", "word": "al|though", "column": 2},
+            {"n": 4, "type": "sort", "word": "aw|ful", "column": 1},
+            {"n": 5, "type": "sort", "word": "be|cause", "column": 2},
+            {"n": 6, "type": "sort", "word": "be|fore", "column": 2},
+            {"n": 7, "type": "sort", "word": "be|hind", "column": 2},
+            {"n": 8, "type": "sort", "word": "birth|day", "column": 1},
+            {"n": 9, "type": "sort", "word": "eve|ning", "column": 1},
+            {"n": 10, "type": "sort", "word": "hu|rry", "column": 1},
+            {"n": 11, "type": "sort", "word": "in|vite", "column": 2},
+            {"n": 12, "type": "sort", "word": "per|fect", "column": 1},
+            {"n": 13, "type": "sort", "word": "quick|ly", "column": 1},
+            {"n": 14, "type": "sort", "word": "su|mmer", "column": 1}
           ]
         },
         {
@@ -761,14 +762,14 @@
         {
           "id": "2C-rcpd",
           "origin": "SB",
-          "instruction": "Which syllable is stressed? Write it",
-          "note": "Revise and Check 1&2 Pronunciation d «Underline the stressed syllable» → Blank: ударный слог. MODEL",
+          "instruction": "Tap the stressed syllable",
+          "note": "Revise and Check 1&2 Pronunciation d «Underline the stressed syllable» → Stress, слоги как в книге (comfor|ta|ble). MODEL; overweight — ударение на weight (VB p.150)",
           "exercises": [
-            {"n": 1, "type": "blank", "text": "ex|tro|vert → {}", "gaps": [["ex"]], "explain": "EXtrovert.", "source": "MODEL"},
-            {"n": 2, "type": "blank", "text": "o|ver|weight → {}", "gaps": [["o"]], "explain": "Overweight – stress on the first syllable (secondary stress on weight).", "source": "MODEL"},
-            {"n": 3, "type": "blank", "text": "brace|let → {}", "gaps": [["brace"]], "explain": "BRACElet.", "source": "MODEL"},
-            {"n": 4, "type": "blank", "text": "on|line → {}", "gaps": [["line"]], "explain": "onLINE.", "source": "MODEL"},
-            {"n": 5, "type": "blank", "text": "com|for|ta|ble → {}", "gaps": [["com"]], "explain": "COMfortable.", "source": "MODEL"}
+            {"n": 1, "type": "stress", "text": "ex|tro|vert", "stressed": [1], "explain": "EXtrovert.", "source": "MODEL"},
+            {"n": 2, "type": "stress", "text": "o|ver|weight", "stressed": [3], "explain": "overWEIGHT – the stress is on weight.", "source": "MODEL"},
+            {"n": 3, "type": "stress", "text": "brace|let", "stressed": [1], "explain": "BRACElet.", "source": "MODEL"},
+            {"n": 4, "type": "stress", "text": "on|line", "stressed": [2], "explain": "onLINE.", "source": "MODEL"},
+            {"n": 5, "type": "stress", "text": "comfor|ta|ble", "stressed": [1], "explain": "The stress is on comfor: /ˈkʌmftəbl/ – the second o is almost silent.", "source": "MODEL"}
           ]
         },
         {

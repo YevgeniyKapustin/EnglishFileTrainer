@@ -20,7 +20,7 @@ KINDS = {"GRAMMAR", "VOCABULARY", "PRONUNCIATION", "SKILLS", "PRACTICAL_ENGLISH"
 ORIGINS = {"WB", "SB", "SB_GRAMMAR_BANK", "GENERATED"}
 SOURCES = {"KEY", "MODEL", "CONFIRMED"}
 AI_CHECKED_TYPES = ("talk", "write")
-CLIPPABLE_TYPES = ("blank", "rewrite", "speak")
+CLIPPABLE_TYPES = ("blank", "rewrite", "speak", "stress", "sort")
 IMAGE_TYPES = ("blank", "rewrite")
 PRESET_TYPES = ("blank", "rewrite")
 PRESET_SECTION_KINDS = ("GRAMMAR", "VOCABULARY")
@@ -31,6 +31,8 @@ DIALOGUE_LINES = 2
 BOLD_MARK = "**"
 SPEAKER_LABEL = re.compile(r"^\s*[A-Z]:\s")
 FIRST_LETTER_HINT = re.compile(r"(?<![\w'’])[b-hj-z](?:…|\.\.\.|_{2,})")
+STRESS_TARGET = re.compile(r"\[([^\[\]]+)\]")
+MIN_COLUMNS = 2
 
 
 @dataclass
@@ -246,6 +248,59 @@ def order_answers(eid: str, exercise: Json, report: Report) -> list[str | None]:
     return [*labels, *(card_caption(card) for card in cards)] or [None]
 
 
+def stress_parts(exercise: Json) -> tuple[list[str], list[int]]:
+    text: str = exercise["text"]
+    if "[" not in text:
+        syllables = text.split("|")
+        return syllables, list(range(len(syllables)))
+    parts: list[str] = []
+    targets: list[int] = []
+    for i, piece in enumerate(STRESS_TARGET.split(text)):
+        if i % 2:
+            targets.append(len(parts))
+            parts.append(piece)
+        elif piece:
+            parts.append(piece)
+    return parts, targets
+
+
+def unbalanced(text: str) -> bool:
+    rest = re.sub(r"\[[^\[\]|]+\]", "", text)
+    return "[" in rest or "]" in rest
+
+
+def stress_indices(exercise: Json) -> list[int]:
+    _, targets = stress_parts(exercise)
+    return [targets[n - 1] for n in exercise["stressed"]]
+
+
+def stress_answers(eid: str, exercise: Json, report: Report) -> list[str | None]:
+    text: str = exercise["text"]
+    parts, targets = stress_parts(exercise)
+    stressed = exercise["stressed"]
+    syllables = "[" not in text
+    if unbalanced(text):
+        report.errors.append(f"{eid}: непарные [ ] в text")
+    if syllables and ("\n" in text or len(parts) < MIN_COLUMNS):
+        report.errors.append(f"{eid}: слово делится на слоги через | (минимум два)")
+    if syllables and len(stressed) != 1:
+        report.errors.append(f"{eid}: в слове ровно один ударный слог")
+    if len(set(stressed)) != len(stressed) or any(not 1 <= n <= len(targets) for n in stressed):
+        report.errors.append(f"{eid}: stressed — номера 1..{len(targets)} без повторов")
+    return [part.strip() or "-" for part in parts] or [None]
+
+
+def sort_answers(eid: str, exercise: Json, report: Report) -> list[str | None]:
+    columns: list[str] = exercise.get("columns", [])
+    if len(columns) < MIN_COLUMNS:
+        report.errors.append(f"{eid}: columns — минимум две колонки")
+    if not 1 <= exercise["column"] <= len(columns):
+        report.errors.append(f"{eid}: column вне 1..{len(columns)}")
+    if unbalanced(exercise["word"]) or not re.sub(r"[\[\]|]", "", exercise["word"]).strip():
+        report.errors.append(f"{eid}: word — текст с [розовыми] буквами и | между слогами")
+    return [exercise["word"], *columns]
+
+
 ANSWER_VALIDATORS: dict[str, Callable[[str, Json, Report], list[str | None]]] = {
     "blank": blank_answers,
     "rewrite": rewrite_answers,
@@ -253,6 +308,8 @@ ANSWER_VALIDATORS: dict[str, Callable[[str, Json, Report], list[str | None]]] = 
     "talk": talk_answers,
     "write": write_answers,
     "order": order_answers,
+    "stress": stress_answers,
+    "sort": sort_answers,
 }
 
 
@@ -455,12 +512,33 @@ def order_arguments(exercise: Json) -> list[str]:
     return [f"pictures = listOf({pictures})", f"answer = {kotlin_strings(exercise['answer'])}"]
 
 
+def stress_arguments(exercise: Json) -> list[str]:
+    parts, targets = stress_parts(exercise)
+    arguments = [
+        f"parts = {kotlin_strings(parts)}",
+        "stressed = listOf(" + ", ".join(str(i) for i in stress_indices(exercise)) + ")",
+    ]
+    if len(targets) != len(parts):
+        arguments.append("targets = listOf(" + ", ".join(str(i) for i in targets) + ")")
+    return arguments
+
+
+def sort_arguments(exercise: Json) -> list[str]:
+    return [
+        f"word = {kotlin_string(exercise['word'])}",
+        f"columns = {kotlin_strings(exercise['columns'])}",
+        f"answer = {exercise['column'] - 1}",
+    ]
+
+
 CONSTRUCTORS: dict[str, tuple[str, Callable[[Json], list[str]]]] = {
     "blank": ("Blank", blank_arguments),
     "speak": ("Speak", speak_arguments),
     "talk": ("Talk", talk_arguments),
     "write": ("Write", write_arguments),
     "order": ("Order", order_arguments),
+    "stress": ("Stress", stress_arguments),
+    "sort": ("Sort", sort_arguments),
 }
 
 
@@ -555,9 +633,18 @@ def count_exercises(chapter: Json, *, generated: bool) -> int:
     )
 
 
+def share_columns(chapter: Json) -> None:
+    for section in chapter["sections"]:
+        for task in section["tasks"]:
+            for exercise in task["exercises"]:
+                if exercise["type"] == "sort" and "columns" in task:
+                    exercise.setdefault("columns", task["columns"])
+
+
 def main() -> None:
     chapter_id = sys.argv[1]
     chapter: Json = json.loads((ROOT / f"tools/content/{chapter_id}.json").read_text(encoding="utf-8"))
+    share_columns(chapter)
     report = validate(chapter)
     for warning in report.warnings:
         print("Предупреждение:", warning)

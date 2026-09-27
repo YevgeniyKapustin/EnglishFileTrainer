@@ -102,6 +102,42 @@ data class Order(
     }
 }
 
+data class Stress(
+    override val id: String,
+    val parts: List<String>,
+    val stressed: List<Int>,
+    val targets: List<Int> = parts.indices.toList(),
+    override val hint: String? = null,
+    override val explain: String? = null,
+    override val source: AnswerSource = AnswerSource.KEY,
+    override val clip: Clip? = null,
+) : Exercise {
+    val syllables: Boolean get() = targets.size == parts.size
+
+    init {
+        require(parts.isNotEmpty() && targets.isNotEmpty()) { "$id: пустое ударение" }
+        require(targets.all { it in parts.indices }) { "$id: targets вне parts" }
+        require(stressed.all { it in targets }) { "$id: stressed не среди targets" }
+        require(!syllables || stressed.size == 1) { "$id: в слове ровно один ударный слог" }
+    }
+}
+
+data class Sort(
+    override val id: String,
+    val word: String,
+    val columns: List<String>,
+    val answer: Int,
+    override val hint: String? = null,
+    override val explain: String? = null,
+    override val source: AnswerSource = AnswerSource.KEY,
+    override val clip: Clip? = null,
+) : Exercise {
+    init {
+        require(columns.size >= 2) { "$id: меньше двух колонок" }
+        require(answer in columns.indices) { "$id: answer вне колонок" }
+    }
+}
+
 val Exercise.needsAi: Boolean get() = this is Talk || this is Write
 
 val Exercise.optional: Boolean get() = needsAi

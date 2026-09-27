@@ -14,9 +14,14 @@ internal fun TalkStepPrompt(
     modifier: Modifier = Modifier,
 ) {
     val current = steps.indices.firstOrNull { it !in done } ?: return
+    val step = steps[current]
+    if (!step.asksQuestions) return
     Text(
-        steps[current].text,
+        step.text,
         style = T.label.copy(fontSize = 15.sp, lineHeight = 21.sp),
         modifier = modifier,
     )
 }
+
+private val TalkStep.asksQuestions: Boolean
+    get() = text.startsWith("Ask ")

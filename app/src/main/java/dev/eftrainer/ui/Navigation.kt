@@ -2,6 +2,7 @@ package dev.eftrainer.ui
 
 import androidx.compose.animation.AnimatedContentScope
 import androidx.compose.animation.EnterTransition
+import androidx.compose.animation.core.EaseOutCubic
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
@@ -62,7 +63,7 @@ import kotlinx.serialization.Serializable
     val chapterId: String,
 )
 
-private const val SLIDE_MS = 220
+private const val SLIDE_MS = 320
 private const val SLIDE_SHARE = 6
 
 private inline fun <reified T : Any> NavGraphBuilder.screen(
@@ -73,12 +74,12 @@ private inline fun <reified T : Any> NavGraphBuilder.screen(
     composable<T>(
         enterTransition = {
             fadeIn(
-                tween(SLIDE_MS),
-            ) + slideInHorizontally(tween(SLIDE_MS), shift)
+                tween(SLIDE_MS, easing = EaseOutCubic),
+            ) + slideInHorizontally(tween(SLIDE_MS, easing = EaseOutCubic), shift)
         },
         popExitTransition = {
-            fadeOut(tween(SLIDE_MS)) +
-                slideOutHorizontally(tween(SLIDE_MS), shift)
+            fadeOut(tween(SLIDE_MS, easing = EaseOutCubic)) +
+                slideOutHorizontally(tween(SLIDE_MS, easing = EaseOutCubic), shift)
         },
     ) { entry ->
         Box(Modifier.fillMaxSize().background(C.Paper)) { content(entry) }
@@ -97,7 +98,7 @@ fun AppNavigation(
     NavHost(
         nav,
         startDestination = CurrentRoute,
-        exitTransition = { fadeOut(tween(SLIDE_MS), targetAlpha = 1f) },
+        exitTransition = { fadeOut(tween(SLIDE_MS, easing = EaseOutCubic), targetAlpha = 1f) },
         popEnterTransition = { EnterTransition.None },
     ) {
         chapterScreens(nav, onHomeReady)

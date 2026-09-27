@@ -13,9 +13,11 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Rect
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.drawscope.clipRect
 import androidx.compose.ui.graphics.drawscope.rotate
 import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
 import dev.eftrainer.core.theme.FilePalette
 import dev.eftrainer.core.theme.FilePalettes
 
@@ -34,6 +36,7 @@ private const val RAY_EDGE = 4
 private const val LIGHT_EDGE = 5
 private const val ACCENT_EDGE = 6
 private val FullyRevealed = { 1f }
+private val SeamCover = 1.dp
 
 private class WedgePiece(
     val path: Path,
@@ -115,6 +118,7 @@ fun WedgeBand(
             .height(height)
             .drawWithCache {
                 val (pivot, pieces) = wedgePieces(fan, palette, size.height)
+                val seamCover = Stroke(SeamCover.toPx())
                 onDrawBehind {
                     val progress = reveal()
                     clipRect {
@@ -123,6 +127,7 @@ fun WedgeBand(
                             if (shown > 0f) {
                                 rotate((1f - shown) * piece.foldDegrees, pivot) {
                                     drawPath(piece.path, piece.color, alpha = shown)
+                                    drawPath(piece.path, piece.color, alpha = shown, style = seamCover)
                                 }
                             }
                         }

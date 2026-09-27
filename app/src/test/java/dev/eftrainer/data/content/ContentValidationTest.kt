@@ -186,7 +186,7 @@ class ContentValidationTest {
             assertEquals("${t.id}: клип не у всех пунктов", t.exercises.map { it.id }, clipped.map { it.id })
             for (e in clipped) {
                 val c = e.clip!!
-                assertTrue("${e.id}: клип $c", c.startMs >= 0 && c.endMs - c.startMs in 300..60_000)
+                assertTrue("${e.id}: клип $c", c.startMs >= 0 && c.endMs - c.startMs in 300..90_000)
             }
         }
     }

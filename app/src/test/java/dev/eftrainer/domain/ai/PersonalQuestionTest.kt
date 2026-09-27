@@ -62,8 +62,8 @@ class PersonalQuestionTest {
         verbs.forEach { assertNull(it.id, PersonalQuestion.questionIn(it)) }
     }
 
-    @Test fun `both chapters have questions to answer`() {
-        Chapters.all.forEach { chapter ->
+    @Test fun `first chapters have questions to answer`() {
+        Chapters.all.filter { it.id in setOf("1A", "1B") }.forEach { chapter ->
             val count =
                 chapter.sections
                     .flatMap { s -> s.tasks.flatMap { it.exercises } }

@@ -1,0 +1,4255 @@
+{
+  "id": "2A",
+  "title": "OMG! Where’s my passport?",
+  "bubbles": [
+    "Where did you go for your last holiday?",
+    "I went to Paris with some friends."
+  ],
+  "sources": "SB p.14–15 (PDF 15–16), Grammar Bank p.128–129 (PDF 129–130), Vocabulary Bank p.152 (PDF 153), scripts p.120 (PDF 121); WB p.12–13 (PDF 11–12), key WB p.88 (PDF 87)",
+  "sections": [
+    {
+      "id": "2A-skills",
+      "kind": "SKILLS",
+      "title": "Reading, Listening & Speaking",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Useful language for showing interest",
+          "headers": [
+            "A says",
+            "B shows interest"
+          ],
+          "rows": [
+            [
+              "I went to New York last week.",
+              "Wow! Did you like it?"
+            ],
+            [
+              "The weather was terrible – it rained every day.",
+              "Oh no! What a pity! What did you do?"
+            ],
+            [
+              "We went to a show in the West End.",
+              "Fantastic! What show was it?"
+            ],
+            [
+              "I lost my phone on the first day.",
+              "Really? How awful! How did you lose it?"
+            ]
+          ],
+          "audio": "2.9"
+        },
+        {
+          "type": "note",
+          "title": "Showing interest",
+          "text": "React to good news with Wow! Great! Fantastic! and to bad news with Oh no! What a pity! How awful! Say Really? when something is surprising. Then ask a follow-up question: Did you like it? What did you do? How did you lose it? Use an ‘interested’ intonation – your voice goes up and down."
+        },
+        {
+          "type": "note",
+          "title": "Your last holiday – questions",
+          "text": "Where did you go? When did you go? Who did you go with? Where did you stay? What was it like? What was the weather like? What did you do during the day / in the evening? Did you have a good time? Did you have any problems?"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "2A-sb1a",
+          "origin": "SB",
+          "instruction": "Read the title and the introduction to a story. Which of the four things do you think is the worst to lose when you’re on holiday?",
+          "note": "SB 1a — мнение до чтения → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Passport, tickets, money, phone: which is the worst to lose on holiday? Answer in 2–3 sentences and say why.",
+              "questions": [
+                "Which of the four things is the worst to lose when you’re on holiday? Why?"
+              ],
+              "hint": "(I think the worst thing to lose is… because…)",
+              "criteria": [
+                "chooses one of the four things (passport, tickets, money, phone)",
+                "gives at least one reason (e.g. you can’t fly home without your passport)",
+                "writes correct simple sentences"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2A-sb1b",
+          "origin": "SB",
+          "instruction": "Read the story sent by a reader to an online magazine. What did Stuart lose? Did he find it?",
+          "note": "SB 1b; открытые вопросы → Blank, ответы по тексту (MODEL). Фото с горы не нужно",
+          "context": "‘Passport, tickets, money, phone’ – It’s the mantra we always say to ourselves when we go on holiday to make sure we haven’t forgotten anything. But what happens when one of those things is suddenly missing? Last year, I went on holiday to the Alps with a group of friends. One day, we climbed a mountain – well, it wasn’t really a climb, but it was a long walk – and it took about two hours to get to the top. When we got there, we had lunch. The view was amazing – we could see the sea in the distance. We took photos and just sat in the sun for a while. Then we went down again, and when we got back to the car, I wanted to take another photo, but I couldn’t find my phone – it wasn’t in my bag. I thought ‘Oh no! It’s probably at the top of the mountain, where we had lunch.’ I decided the only thing to do was to go back up the mountain to get it, because I didn’t want to leave my phone up there. My friends said ‘OK, but you can’t go on your own’, so in the end we all went up again, which was another two hours. When we got to the top we spent about half an hour looking for the phone, but we couldn’t find it anywhere. Then it started to get colder – it was now late afternoon – so I took my jacket out of my bag, and… my phone was in my jacket pocket! I felt terrible, and really stupid! My friends were very nice about it, but they never let me forget it! (Stuart, from Exeter, UK)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "What did Stuart lose? His {}.",
+              "gaps": [
+                [
+                  "phone",
+                  "mobile",
+                  "mobile phone"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Did he find it? {}, it was in his jacket pocket.",
+              "gaps": [
+                [
+                  "Yes",
+                  "Yes, he did"
+                ]
+              ],
+              "explain": "‘I took my jacket out of my bag, and… my phone was in my jacket pocket!’",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "2A-sb1c",
+          "origin": "SB",
+          "instruction": "Read the story again. Correct the information in brackets. Write the sentence",
+          "note": "SB 1c «correct the bold information» → Rewrite: фраза в prompt, жирное — в hint; 1 his family → his friends — пример. Текст статьи в context (в книге — закрыть текст)",
+          "context": "‘Passport, tickets, money, phone’ – It’s the mantra we always say to ourselves when we go on holiday to make sure we haven’t forgotten anything. But what happens when one of those things is suddenly missing? Last year, I went on holiday to the Alps with a group of friends. One day, we climbed a mountain – well, it wasn’t really a climb, but it was a long walk – and it took about two hours to get to the top. When we got there, we had lunch. The view was amazing – we could see the sea in the distance. We took photos and just sat in the sun for a while. Then we went down again, and when we got back to the car, I wanted to take another photo, but I couldn’t find my phone – it wasn’t in my bag. I thought ‘Oh no! It’s probably at the top of the mountain, where we had lunch.’ I decided the only thing to do was to go back up the mountain to get it, because I didn’t want to leave my phone up there. My friends said ‘OK, but you can’t go on your own’, so in the end we all went up again, which was another two hours. When we got to the top we spent about half an hour looking for the phone, but we couldn’t find it anywhere. Then it started to get colder – it was now late afternoon – so I took my jacket out of my bag, and… my phone was in my jacket pocket! I felt terrible, and really stupid! My friends were very nice about it, but they never let me forget it! (Stuart, from Exeter, UK)",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "One day, they went cycling.",
+              "answers": [
+                "One day, they climbed a mountain.",
+                "One day, they went for a walk.",
+                "One day, they went for a long walk.",
+                "One day, they went walking."
+              ],
+              "hint": "(went cycling)",
+              "explain": "‘we climbed a mountain – well, it wasn’t really a climb, but it was a long walk’",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "It took three hours to get to the top of the mountain.",
+              "answers": [
+                "It took two hours to get to the top of the mountain.",
+                "It took about two hours to get to the top of the mountain."
+              ],
+              "hint": "(three hours)",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "They had a snack at the top of the mountain.",
+              "answers": [
+                "They had lunch at the top of the mountain."
+              ],
+              "hint": "(a snack)",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "The view wasn’t very good.",
+              "answers": [
+                "The view was amazing.",
+                "The view was very good."
+              ],
+              "hint": "(wasn’t very good)",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "Stuart wanted to take another photo, but he couldn’t find his camera.",
+              "answers": [
+                "Stuart wanted to take another photo, but he couldn’t find his phone.",
+                "Stuart wanted to take another photo, but he could not find his phone."
+              ],
+              "hint": "(his camera)",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "He went back up the mountain with one of his friends.",
+              "answers": [
+                "He went back up the mountain with all his friends.",
+                "He went back up the mountain with his friends.",
+                "He went back up the mountain with all of his friends."
+              ],
+              "hint": "(one of his friends)",
+              "explain": "‘so in the end we all went up again’",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prompt": "They spent an hour looking for the phone.",
+              "answers": [
+                "They spent half an hour looking for the phone.",
+                "They spent about half an hour looking for the phone."
+              ],
+              "hint": "(an hour)",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "rewrite",
+              "prompt": "It started to get warmer.",
+              "answers": [
+                "It started to get colder."
+              ],
+              "hint": "(warmer)",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "rewrite",
+              "prompt": "He found his phone in his bag.",
+              "answers": [
+                "He found his phone in his jacket pocket.",
+                "He found his phone in his jacket."
+              ],
+              "hint": "(bag)",
+              "source": "MODEL"
+            },
+            {
+              "n": 11,
+              "type": "rewrite",
+              "prompt": "His friends were angry about it.",
+              "answers": [
+                "His friends were very nice about it.",
+                "His friends were nice about it."
+              ],
+              "hint": "(angry)",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "2A-sb1d",
+          "origin": "SB",
+          "instruction": "Listen to a recording sent to the magazine. What did Marta lose? Did she find it?",
+          "note": "SB 1d; ответы по скрипту 2.1 (SB p.120)",
+          "audio": "2.1",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "What did Marta lose? Her {}.",
+              "gaps": [
+                [
+                  "ID card",
+                  "ID",
+                  "identity card"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Did she find it? {}, she didn’t. She got a new one in Madrid.",
+              "gaps": [
+                [
+                  "No"
+                ]
+              ],
+              "explain": "‘I spent the weekend in Madrid getting my new ID card!’",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "2A-sb1e",
+          "origin": "SB",
+          "instruction": "Listen to Marta’s story again. Answer the questions",
+          "note": "SB 1e; открытые вопросы → Blank на ключевое слово; ответы по скрипту 2.1 (SB p.120)",
+          "audio": "2.1",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "When did it happen? {} years ago.",
+              "gaps": [
+                [
+                  "Two",
+                  "2"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Where did Marta want to go on holiday? Why? To {}, in France, because some friends {} her to come and stay.",
+              "gaps": [
+                [
+                  "Lyon"
+                ],
+                [
+                  "invited"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Why did she fly to Brussels? Because she couldn’t find any {} flights to Lyon.",
+              "gaps": [
+                [
+                  "direct",
+                  "cheap direct"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "What happened at the gate in Brussels airport? She couldn’t find her {}, and her flight to Lyon left without her.",
+              "gaps": [
+                [
+                  "ID card",
+                  "ID",
+                  "identity card"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "How did she feel? It was awful – she cried. She was so {} and unhappy.",
+              "gaps": [
+                [
+                  "stressed"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "What did the policeman say? She couldn’t go to {} because she didn’t have any ID.",
+              "gaps": [
+                [
+                  "France"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Where did she fly in the end? What happened there? She flew to {} and spent the weekend there getting a new ID card.",
+              "gaps": [
+                [
+                  "Madrid",
+                  "Spain"
+                ]
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "2A-sb1f",
+          "origin": "SB",
+          "instruction": "Have you ever lost anything important on holiday? What was it? What happened?",
+          "note": "SB 1f — вопрос для обсуждения → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You talk about losing things on holiday. First ask the student: Have you ever lost anything important on holiday? What was it? What happened? Did you find it? If they say no, ask about a friend or family member, or about something they lost at home. React with interest (Really? Oh no! How awful!) and ask follow-up questions in the past simple (Where were you? What did you do? How did you feel?). Then tell your story: two years ago in Rome you lost your wallet with all your money on a bus; you went to the police, you felt terrible, and the next day a woman phoned the hotel – she found it on the bus. Use short, simple past simple sentences. If the student makes a mistake with a past form (e.g. I losed, I didn’t found), repeat the correct form naturally in your reply.",
+              "goal": "Tell your classmate about a time you (or someone you know) lost something important on holiday: what it was and what happened. Then listen to their story and show interest.",
+              "opener": "Hi! Have you ever lost anything important on holiday?",
+              "criteria": [
+                "says what they lost and where they were",
+                "tells what happened in at least 3 past simple sentences, with correct regular and irregular forms (lost, went, couldn’t find, looked)",
+                "uses didn’t / couldn’t correctly in at least one negative",
+                "reacts to the partner’s story with interest (Really? Oh no! How awful!) or asks a question in the past simple"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2A-sb5a",
+          "origin": "SB",
+          "instruction": "Listen to four conversations. Complete the phrases that B uses to show that he / she is interested in what A is saying",
+          "note": "SB 5a; скрипта 2.9 в книге нет — ответы по расшифровке аудио (CONFIRMED)",
+          "audio": "2.9",
+          "dialogue": true,
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I went to New York last week.\n{}! Did you like it?",
+              "gaps": [
+                [
+                  "Wow"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                3.98,
+                9.31
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The weather was terrible – it rained every day.\nOh {}! What a {}! What did you do?",
+              "gaps": [
+                [
+                  "no"
+                ],
+                [
+                  "pity"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                12.34,
+                19.87
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "We went to a show in the West End.\n{}! What show was it?",
+              "gaps": [
+                [
+                  "Fantastic"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                23.17,
+                29.78
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I lost my phone on the first day.\n{}? How {}! How did you lose it?",
+              "gaps": [
+                [
+                  "Really"
+                ],
+                [
+                  "awful"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                33.05,
+                40.48
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2A-sb5b",
+          "origin": "SB",
+          "instruction": "Listen again and repeat. Copy B’s ‘interested’ intonation",
+          "note": "SB 5b → Speak реплик B; клипы по расшифровке 2.9",
+          "audio": "2.9",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "Wow! Did you like it?",
+              "clip": [
+                6.67,
+                9.31
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "Oh no! What a pity! What did you do?",
+              "clip": [
+                16.12,
+                19.87
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "Fantastic! What show was it?",
+              "clip": [
+                26.25,
+                29.78
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "Really? How awful! How did you lose it?",
+              "clip": [
+                35.9,
+                40.48
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2A-sb5c",
+          "origin": "SB",
+          "instruction": "Look at Your last holiday. What are the questions?",
+          "note": "SB 5c «Your last holiday» → Rewrite: вопрос целиком (MODEL)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "Where / go / ?",
+              "answers": [
+                "Where did you go?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "When / go / ?",
+              "answers": [
+                "When did you go?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Who / go with / ?",
+              "answers": [
+                "Who did you go with?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "Where / stay / ? / What / like / ?",
+              "answers": [
+                "Where did you stay? What was it like?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "What / the weather like / ?",
+              "answers": [
+                "What was the weather like?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "What / do during the day / ?",
+              "answers": [
+                "What did you do during the day?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "What / do in the evening / ?",
+              "answers": [
+                "What did you do in the evening?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prompt": "/ have a good time / ?",
+              "answers": [
+                "Did you have a good time?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "rewrite",
+              "prompt": "/ have any problems / ?",
+              "answers": [
+                "Did you have any problems?"
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "2A-sb5e",
+          "origin": "SB",
+          "instruction": "Work in pairs. Ask your partner about his / her last holiday. Show interest in what he / she says, and try to ask more questions. Then swap roles",
+          "note": "SB 5d–5e (5d «think about your answers» — подготовка к 5e) → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). First the student asks you about your last holiday, using the questions from ‘Your last holiday’ (Where did you go? When? Who with? Where did you stay? What was it like? What was the weather like? What did you do during the day / in the evening? Did you have a good time? Did you have any problems?). Your holiday: last August you went to Barcelona for a week with your sister; you went by plane; you stayed in a small apartment near the beach – it was basic but clean; the weather was hot and sunny; during the day you went sightseeing and sunbathed on the beach; in the evening you went out for dinner; you had a great time, but on the first day your sister lost her sunglasses. Answer only what you are asked, briefly, so the student has to ask more questions. Then swap roles: ask the student about their last holiday with the same questions, and show interest in their answers (Wow! Really? Oh no! What a pity! How awful! Fantastic!), with a follow-up question each time.",
+              "goal": "Ask your classmate about his / her last holiday and show interest in the answers (Wow! Really? Oh no! What a pity!). Then answer their questions about your last holiday.",
+              "opener": "OK, you start. Ask me about my last holiday!",
+              "criteria": [
+                "asks at least 5 past simple questions correctly (Where did you go? What was the weather like? Did you have a good time?)",
+                "shows interest at least twice with phrases from the lesson (Wow! Really? Oh no! What a pity! How awful!)",
+                "describes their own last holiday in the past simple with correct regular and irregular forms",
+                "uses holiday vocabulary (go sightseeing, stay in a hotel, sunbathe, go by plane…)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2A-grammar",
+      "kind": "GRAMMAR",
+      "title": "past simple: regular and irregular verbs",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Past simple",
+          "headers": [
+            "",
+            "regular",
+            "irregular"
+          ],
+          "rows": [
+            [
+              "+",
+              "We stayed at a hotel last summer.",
+              "I went to Turkey twice last year."
+            ],
+            [
+              "−",
+              "He didn’t stay with friends.",
+              "She didn’t go to France."
+            ],
+            [
+              "?",
+              "Did you stay for the weekend?",
+              "Did you go to Madrid?"
+            ],
+            [
+              "✓ ✗",
+              "Yes, I did.",
+              "No, we didn’t."
+            ],
+            [
+              "Wh?",
+              "Where did you stay?",
+              "Why did you go?"
+            ]
+          ],
+          "audio": "2.2"
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "We use the past simple to talk about finished actions that happened once or more than once in the past. The form is the same for all persons. To make the + of regular verbs add -ed. Many common verbs are irregular in +: go → went, see → saw (Irregular verbs p.164)."
+        },
+        {
+          "type": "note",
+          "title": "Negatives and questions",
+          "text": "Use didn’t + infinitive for negatives and Did… + subject + infinitive for questions: I didn’t go. Did you go? Use ASI and QuASI to remember word order in questions (see 1A). was / were and could don’t use did: It wasn’t a climb. Were they happy? I couldn’t find my phone. Could you see the sea?"
+        },
+        {
+          "type": "table",
+          "title": "Spelling rules for regular verbs",
+          "headers": [
+            "infinitive",
+            "past",
+            "spelling"
+          ],
+          "rows": [
+            [
+              "work, stay",
+              "worked, stayed",
+              "add -ed"
+            ],
+            [
+              "like",
+              "liked",
+              "add -d if the verb finishes in e"
+            ],
+            [
+              "study",
+              "studied",
+              "y → ied after a consonant"
+            ],
+            [
+              "stop",
+              "stopped",
+              "consonant–vowel–consonant: double the final consonant"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Irregular verbs in this lesson",
+          "headers": [
+            "infinitive",
+            "past simple"
+          ],
+          "rows": [
+            [
+              "be",
+              "was / were"
+            ],
+            [
+              "buy",
+              "bought"
+            ],
+            [
+              "can",
+              "could"
+            ],
+            [
+              "choose",
+              "chose"
+            ],
+            [
+              "drive",
+              "drove"
+            ],
+            [
+              "eat",
+              "ate"
+            ],
+            [
+              "feel",
+              "felt"
+            ],
+            [
+              "find",
+              "found"
+            ],
+            [
+              "get",
+              "got"
+            ],
+            [
+              "go",
+              "went"
+            ],
+            [
+              "have",
+              "had"
+            ],
+            [
+              "leave",
+              "left"
+            ],
+            [
+              "say",
+              "said"
+            ],
+            [
+              "see",
+              "saw"
+            ],
+            [
+              "sit",
+              "sat"
+            ],
+            [
+              "spend",
+              "spent"
+            ],
+            [
+              "take",
+              "took"
+            ],
+            [
+              "think",
+              "thought"
+            ]
+          ]
+        },
+        {
+          "type": "mistake",
+          "wrong": "Did you went to Madrid?",
+          "right": "Did you go to Madrid?",
+          "why": "After did use the infinitive."
+        },
+        {
+          "type": "mistake",
+          "wrong": "I didn’t found my phone.",
+          "right": "I didn’t find my phone.",
+          "why": "After didn’t use the infinitive."
+        },
+        {
+          "type": "mistake",
+          "wrong": "We goed to the beach.",
+          "right": "We went to the beach.",
+          "why": "go is irregular: went."
+        },
+        {
+          "type": "mistake",
+          "wrong": "The people didn’t be friendly.",
+          "right": "The people weren’t friendly.",
+          "why": "be doesn’t use did: wasn’t / weren’t."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "2A-sb2a",
+          "origin": "SB",
+          "instruction": "Write the past simple form of these verbs. Are they regular or irregular? Check in Stuart’s story",
+          "note": "SB 2a; в книге два столбца без номеров — n по порядку столбцов (go…sit, get…feel); второй пропуск — regular / irregular. Ответы по тексту Стюарта (MODEL)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "go → {} ({})",
+              "gaps": [
+                [
+                  "went"
+                ],
+                [
+                  "irregular"
+                ]
+              ],
+              "hint": "(regular / irregular)",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "climb → {} ({})",
+              "gaps": [
+                [
+                  "climbed"
+                ],
+                [
+                  "regular"
+                ]
+              ],
+              "hint": "(regular / irregular)",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "be → {} / {} ({})",
+              "gaps": [
+                [
+                  "was"
+                ],
+                [
+                  "were"
+                ],
+                [
+                  "irregular"
+                ]
+              ],
+              "hint": "(regular / irregular)",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "take → {} ({})",
+              "gaps": [
+                [
+                  "took"
+                ],
+                [
+                  "irregular"
+                ]
+              ],
+              "hint": "(regular / irregular)",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "have → {} ({})",
+              "gaps": [
+                [
+                  "had"
+                ],
+                [
+                  "irregular"
+                ]
+              ],
+              "hint": "(regular / irregular)",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "can → {} ({})",
+              "gaps": [
+                [
+                  "could"
+                ],
+                [
+                  "irregular"
+                ]
+              ],
+              "hint": "(regular / irregular)",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "sit → {} ({})",
+              "gaps": [
+                [
+                  "sat"
+                ],
+                [
+                  "irregular"
+                ]
+              ],
+              "hint": "(regular / irregular)",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "get → {} ({})",
+              "gaps": [
+                [
+                  "got"
+                ],
+                [
+                  "irregular"
+                ]
+              ],
+              "hint": "(regular / irregular)",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "want → {} ({})",
+              "gaps": [
+                [
+                  "wanted"
+                ],
+                [
+                  "regular"
+                ]
+              ],
+              "hint": "(regular / irregular)",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "think → {} ({})",
+              "gaps": [
+                [
+                  "thought"
+                ],
+                [
+                  "irregular"
+                ]
+              ],
+              "hint": "(regular / irregular)",
+              "source": "MODEL"
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "decide → {} ({})",
+              "gaps": [
+                [
+                  "decided"
+                ],
+                [
+                  "regular"
+                ]
+              ],
+              "hint": "(regular / irregular)",
+              "source": "MODEL"
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "say → {} ({})",
+              "gaps": [
+                [
+                  "said"
+                ],
+                [
+                  "irregular"
+                ]
+              ],
+              "hint": "(regular / irregular)",
+              "source": "MODEL"
+            },
+            {
+              "n": 13,
+              "type": "blank",
+              "text": "spend → {} ({})",
+              "gaps": [
+                [
+                  "spent"
+                ],
+                [
+                  "irregular"
+                ]
+              ],
+              "hint": "(regular / irregular)",
+              "source": "MODEL"
+            },
+            {
+              "n": 14,
+              "type": "blank",
+              "text": "start → {} ({})",
+              "gaps": [
+                [
+                  "started"
+                ],
+                [
+                  "regular"
+                ]
+              ],
+              "hint": "(regular / irregular)",
+              "source": "MODEL"
+            },
+            {
+              "n": 15,
+              "type": "blank",
+              "text": "feel → {} ({})",
+              "gaps": [
+                [
+                  "felt"
+                ],
+                [
+                  "irregular"
+                ]
+              ],
+              "hint": "(regular / irregular)",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "2A-sb2b",
+          "origin": "SB",
+          "instruction": "Complete the negative verbs. Then check in Stuart’s story",
+          "note": "SB 2b; ответы по тексту Стюарта (MODEL)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "It {} really a climb, but it was a long walk.",
+              "gaps": [
+                [
+                  "wasn’t",
+                  "was not"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I wanted to take another photo, but I {} find my phone.",
+              "gaps": [
+                [
+                  "couldn’t",
+                  "could not"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I {} want to leave my phone up there.",
+              "gaps": [
+                [
+                  "didn’t",
+                  "did not"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "2A-sb2c",
+          "origin": "SB",
+          "instruction": "How do you make − and ? in the past simple with was / were, with could, and with other verbs? Rewrite the sentences: (−) = negative, (?) = question",
+          "note": "SB 2c — вопрос о правиле («How do you make − and ?») → Rewrite: по паре (−)/(?) на was/were, could и остальные глаголы (MODEL)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "It was a long walk.",
+              "answers": [
+                "It wasn’t a long walk.",
+                "It was not a long walk."
+              ],
+              "hint": "(−)",
+              "explain": "was / were: add not – wasn’t, weren’t. No did.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "The people were friendly.",
+              "answers": [
+                "Were the people friendly?"
+              ],
+              "hint": "(?)",
+              "explain": "was / were: change the order – Were the people…? No did.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "She could find her ID card.",
+              "answers": [
+                "She couldn’t find her ID card.",
+                "She could not find her ID card."
+              ],
+              "hint": "(−)",
+              "explain": "could: couldn’t + infinitive. No did.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "They could see the sea.",
+              "answers": [
+                "Could they see the sea?"
+              ],
+              "hint": "(?)",
+              "explain": "could: change the order – Could they…? No did.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "We climbed a mountain.",
+              "answers": [
+                "We didn’t climb a mountain.",
+                "We did not climb a mountain."
+              ],
+              "hint": "(−)",
+              "explain": "Other verbs: didn’t + infinitive – climbed → didn’t climb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "He took a lot of photos.",
+              "answers": [
+                "Did he take a lot of photos?"
+              ],
+              "hint": "(?)",
+              "explain": "Other verbs: Did + subject + infinitive – took → Did he take…?",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "2A-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Put the verbs in brackets in the past simple",
+          "note": "GB 2A a; текст разбит по пропускам, had — пример. Ключа к GB нет (MODEL)",
+          "context": "Two summers ago we had a holiday in Scotland. We (drive) there from London, but our car (break) down on the motorway and we (spend) the first night in Birmingham. When we (get) to Edinburgh we (go) to our hotel, but they (not can) find our reservation, and they (be) full. We (not know) what to do, but in the end we (find) a Bed and Breakfast and we (stay) there for the week. We (see) the castle and (buy) a lot of souvenirs. We (want) to go to Loch Ness, but we (not have) much time and it (be) quite far away. The weather (not be) very good – it (start) raining on the day we (leave) London, and it never (stop)!",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "We {} there from London,",
+              "gaps": [
+                [
+                  "drove"
+                ]
+              ],
+              "hint": "(drive)",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "but our car {} down on the motorway",
+              "gaps": [
+                [
+                  "broke"
+                ]
+              ],
+              "hint": "(break)",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "and we {} the first night in Birmingham.",
+              "gaps": [
+                [
+                  "spent"
+                ]
+              ],
+              "hint": "(spend)",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "When we {} to Edinburgh",
+              "gaps": [
+                [
+                  "got"
+                ]
+              ],
+              "hint": "(get)",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "we {} to our hotel,",
+              "gaps": [
+                [
+                  "went"
+                ]
+              ],
+              "hint": "(go)",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "but they {} find our reservation,",
+              "gaps": [
+                [
+                  "couldn’t",
+                  "could not"
+                ]
+              ],
+              "hint": "(not can)",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "and they {} full.",
+              "gaps": [
+                [
+                  "were"
+                ]
+              ],
+              "hint": "(be)",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "We {} what to do,",
+              "gaps": [
+                [
+                  "didn’t know",
+                  "did not know"
+                ]
+              ],
+              "hint": "(not know)",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "but in the end we {} a Bed and Breakfast",
+              "gaps": [
+                [
+                  "found"
+                ]
+              ],
+              "hint": "(find)",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "and we {} there for the week.",
+              "gaps": [
+                [
+                  "stayed"
+                ]
+              ],
+              "hint": "(stay)",
+              "source": "MODEL"
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "We {} the castle",
+              "gaps": [
+                [
+                  "saw"
+                ]
+              ],
+              "hint": "(see)",
+              "source": "MODEL"
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "and {} a lot of souvenirs.",
+              "gaps": [
+                [
+                  "bought"
+                ]
+              ],
+              "hint": "(buy)",
+              "source": "MODEL"
+            },
+            {
+              "n": 13,
+              "type": "blank",
+              "text": "We {} to go to Loch Ness,",
+              "gaps": [
+                [
+                  "wanted"
+                ]
+              ],
+              "hint": "(want)",
+              "source": "MODEL"
+            },
+            {
+              "n": 14,
+              "type": "blank",
+              "text": "but we {} much time",
+              "gaps": [
+                [
+                  "didn’t have",
+                  "did not have"
+                ]
+              ],
+              "hint": "(not have)",
+              "source": "MODEL"
+            },
+            {
+              "n": 15,
+              "type": "blank",
+              "text": "and it {} quite far away.",
+              "gaps": [
+                [
+                  "was"
+                ]
+              ],
+              "hint": "(be)",
+              "source": "MODEL"
+            },
+            {
+              "n": 16,
+              "type": "blank",
+              "text": "The weather {} very good –",
+              "gaps": [
+                [
+                  "wasn’t",
+                  "was not"
+                ]
+              ],
+              "hint": "(not be)",
+              "source": "MODEL"
+            },
+            {
+              "n": 17,
+              "type": "blank",
+              "text": "it {} raining on the day",
+              "gaps": [
+                [
+                  "started"
+                ]
+              ],
+              "hint": "(start)",
+              "source": "MODEL"
+            },
+            {
+              "n": 18,
+              "type": "blank",
+              "text": "we {} London,",
+              "gaps": [
+                [
+                  "left"
+                ]
+              ],
+              "hint": "(leave)",
+              "source": "MODEL"
+            },
+            {
+              "n": 19,
+              "type": "blank",
+              "text": "and it never {}!",
+              "gaps": [
+                [
+                  "stopped"
+                ]
+              ],
+              "hint": "(stop)",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "2A-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the questions in the past simple",
+          "note": "GB 2A b; Where did you go — пример. Ключа к GB нет (MODEL)",
+          "dialogue": true,
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Wow! {} a good time?\nYes, we had a great time.",
+              "gaps": [
+                [
+                  "Did you have"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "{} with?\nI went with my family.",
+              "gaps": [
+                [
+                  "Who did you go"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{}?\nWe stayed in a hotel.",
+              "gaps": [
+                [
+                  "Where did you stay"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{} the plane tickets {}?\nThey cost about £2,000.",
+              "gaps": [
+                [
+                  "How much did"
+                ],
+                [
+                  "cost"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{} the weather like?\nIt was hot and sunny.",
+              "gaps": [
+                [
+                  "What was"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "{} in the evening?\nWe usually went out for dinner.",
+              "gaps": [
+                [
+                  "What did you do"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "2A-wb1a",
+          "origin": "WB",
+          "instruction": "Write the past simple of these verbs. Are they regular or irregular?",
+          "note": "WB 1a «write in the correct column» → Blank: форма + regular / irregular; argue, begin — примеры. Пункты без номеров — n по порядку списка",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "arrive → {} ({})",
+              "gaps": [
+                [
+                  "arrived"
+                ],
+                [
+                  "regular"
+                ]
+              ],
+              "hint": "(regular / irregular)"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "ask → {} ({})",
+              "gaps": [
+                [
+                  "asked"
+                ],
+                [
+                  "regular"
+                ]
+              ],
+              "hint": "(regular / irregular)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "buy → {} ({})",
+              "gaps": [
+                [
+                  "bought"
+                ],
+                [
+                  "irregular"
+                ]
+              ],
+              "hint": "(regular / irregular)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "can → {} ({})",
+              "gaps": [
+                [
+                  "could"
+                ],
+                [
+                  "irregular"
+                ]
+              ],
+              "hint": "(regular / irregular)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "choose → {} ({})",
+              "gaps": [
+                [
+                  "chose"
+                ],
+                [
+                  "irregular"
+                ]
+              ],
+              "hint": "(regular / irregular)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "eat → {} ({})",
+              "gaps": [
+                [
+                  "ate"
+                ],
+                [
+                  "irregular"
+                ]
+              ],
+              "hint": "(regular / irregular)"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "feel → {} ({})",
+              "gaps": [
+                [
+                  "felt"
+                ],
+                [
+                  "irregular"
+                ]
+              ],
+              "hint": "(regular / irregular)"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "invite → {} ({})",
+              "gaps": [
+                [
+                  "invited"
+                ],
+                [
+                  "regular"
+                ]
+              ],
+              "hint": "(regular / irregular)"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "rent → {} ({})",
+              "gaps": [
+                [
+                  "rented"
+                ],
+                [
+                  "regular"
+                ]
+              ],
+              "hint": "(regular / irregular)"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "say → {} ({})",
+              "gaps": [
+                [
+                  "said"
+                ],
+                [
+                  "irregular"
+                ]
+              ],
+              "hint": "(regular / irregular)"
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "stay → {} ({})",
+              "gaps": [
+                [
+                  "stayed"
+                ],
+                [
+                  "regular"
+                ]
+              ],
+              "hint": "(regular / irregular)"
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "study → {} ({})",
+              "gaps": [
+                [
+                  "studied"
+                ],
+                [
+                  "regular"
+                ]
+              ],
+              "hint": "(regular / irregular)"
+            }
+          ]
+        },
+        {
+          "id": "2A-wb1b",
+          "origin": "WB",
+          "instruction": "Rewrite the sentences with a negative verb",
+          "note": "WB 1b; 1 We didn’t stay in a hotel — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "They bought some postcards. They {} any souvenirs.",
+              "gaps": [
+                [
+                  "didn’t buy",
+                  "did not buy"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "The people were unfriendly. The people {} very helpful.",
+              "gaps": [
+                [
+                  "weren’t",
+                  "were not"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I swam in the sea. I {} in the swimming pool.",
+              "gaps": [
+                [
+                  "didn’t swim",
+                  "did not swim"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "We rented a flat. We {} a car.",
+              "gaps": [
+                [
+                  "didn’t rent",
+                  "did not rent"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "He spent a month in Bangkok. He {} a week there.",
+              "gaps": [
+                [
+                  "didn’t spend",
+                  "did not spend"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2A-wb1c",
+          "origin": "WB",
+          "instruction": "Complete the text with the past simple form of verbs from the list",
+          "note": "WB 1c «The holiday that wasn’t»; текст разбит по пропускам, 1 decided — пример",
+          "context": "The holiday that wasn’t: Four years ago, we decided to go away for the weekend. … It was a miserable weekend!",
+          "words": [
+            "arrive",
+            "ask",
+            "book",
+            "cannot",
+            "go (x2)",
+            "look",
+            "take",
+            "want"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "We {} to go to Portugal,",
+              "gaps": [
+                [
+                  "wanted"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "so we {} a beautiful apartment online.",
+              "gaps": [
+                [
+                  "booked"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "A week later, we {} a taxi to the airport.",
+              "gaps": [
+                [
+                  "took"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "We {} at the airport at two o’clock,",
+              "gaps": [
+                [
+                  "arrived"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "and we {} to check-in.",
+              "gaps": [
+                [
+                  "went"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "The woman at the desk {} us for our passports.",
+              "gaps": [
+                [
+                  "asked"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "We {} in our bags and in our coat pockets,",
+              "gaps": [
+                [
+                  "looked"
+                ]
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "but we {} find them.",
+              "gaps": [
+                [
+                  "couldn’t",
+                  "could not"
+                ]
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "So we {} home again! It was a miserable weekend!",
+              "gaps": [
+                [
+                  "went"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2A-wb1d",
+          "origin": "WB",
+          "instruction": "Read the text in c again. Complete the questions",
+          "note": "WB 1d; 1 did they decide — пример",
+          "dialogue": true,
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Where {} to go?\nPortugal.",
+              "gaps": [
+                [
+                  "did they want"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "How {} the apartment?\nThey booked it online.",
+              "gaps": [
+                [
+                  "did they book"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "What time {} at the airport?\nAt two o’clock.",
+              "gaps": [
+                [
+                  "did they arrive"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "What {} at check-in ask for?\nThe woman asked for their passports.",
+              "gaps": [
+                [
+                  "did the woman"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Where {} in the end?\nThey went home.",
+              "gaps": [
+                [
+                  "did they go"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2A-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete with the past simple of the verb in brackets.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Last summer we {} to Greece for two weeks.",
+              "gaps": [
+                [
+                  "went"
+                ]
+              ],
+              "hint": "(go)",
+              "explain": "go → went (irregular).",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I {} a lot of photos of the old town.",
+              "gaps": [
+                [
+                  "took"
+                ]
+              ],
+              "hint": "(take)",
+              "explain": "take → took (irregular).",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "My brother {} his phone on the train.",
+              "gaps": [
+                [
+                  "lost"
+                ]
+              ],
+              "hint": "(lose)",
+              "explain": "lose → lost (irregular).",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "We {} in a small apartment near the beach.",
+              "gaps": [
+                [
+                  "stayed"
+                ]
+              ],
+              "hint": "(stay)",
+              "explain": "Regular: stay + -ed. Vowel + y: don’t change the y.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "The children {} the hotel pool.",
+              "gaps": [
+                [
+                  "loved"
+                ]
+              ],
+              "hint": "(love)",
+              "explain": "The verb finishes in e: add -d → loved.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "She {} English at a language school in London.",
+              "gaps": [
+                [
+                  "studied"
+                ]
+              ],
+              "hint": "(study)",
+              "explain": "Consonant + y → -ied: study → studied.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "The bus {} outside our hotel.",
+              "gaps": [
+                [
+                  "stopped"
+                ]
+              ],
+              "hint": "(stop)",
+              "explain": "Consonant–vowel–consonant: double the p → stopped.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "They {} all their money in the first week.",
+              "gaps": [
+                [
+                  "spent"
+                ]
+              ],
+              "hint": "(spend)",
+              "explain": "spend → spent (irregular).",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "2A-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Rewrite the sentences: (−) = negative, (?) = question.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "We went camping.",
+              "answers": [
+                "We didn’t go camping.",
+                "We did not go camping."
+              ],
+              "hint": "(−)",
+              "explain": "didn’t + infinitive: went → didn’t go.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "She bought a new bag.",
+              "answers": [
+                "Did she buy a new bag?"
+              ],
+              "hint": "(?)",
+              "explain": "Did + subject + infinitive: bought → Did she buy…?",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "The hotel was expensive.",
+              "answers": [
+                "The hotel wasn’t expensive.",
+                "The hotel was not expensive."
+              ],
+              "hint": "(−)",
+              "explain": "be: wasn’t / weren’t, no did.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "They were at the beach.",
+              "answers": [
+                "Were they at the beach?"
+              ],
+              "hint": "(?)",
+              "explain": "be: change the order – Were they…? No did.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "He could swim.",
+              "answers": [
+                "He couldn’t swim.",
+                "He could not swim."
+              ],
+              "hint": "(−)",
+              "explain": "could → couldn’t + infinitive, no did.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "Your parents enjoyed the trip.",
+              "answers": [
+                "Did your parents enjoy the trip?"
+              ],
+              "hint": "(?)",
+              "explain": "Did + subject + infinitive: enjoyed → Did… enjoy?",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "2A-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "We goed to the beach every day.",
+              "answers": [
+                "We went to the beach every day."
+              ],
+              "explain": "go is irregular: went.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "Did you saw the castle?",
+              "answers": [
+                "Did you see the castle?"
+              ],
+              "explain": "After did use the infinitive: see.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "I didn’t went out last night.",
+              "answers": [
+                "I didn’t go out last night.",
+                "I did not go out last night."
+              ],
+              "explain": "After didn’t use the infinitive: go.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "She studyed English in London.",
+              "answers": [
+                "She studied English in London."
+              ],
+              "explain": "Consonant + y → -ied: studied.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "They wasn’t very friendly.",
+              "answers": [
+                "They weren’t very friendly.",
+                "They were not very friendly."
+              ],
+              "explain": "they → were / weren’t.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "Where you stayed in Rome?",
+              "answers": [
+                "Where did you stay in Rome?"
+              ],
+              "explain": "Wh- question: Where + did + subject + infinitive.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "2A-grammar-x4",
+          "origin": "GENERATED",
+          "instruction": "Put the words in the correct order.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "did / where / go / you / last summer / ?",
+              "answers": [
+                "Where did you go last summer?"
+              ],
+              "explain": "QuASI: Question word + Auxiliary (did) + Subject + Infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "the / was / what / like / food / ?",
+              "answers": [
+                "What was the food like?"
+              ],
+              "explain": "What was… like? asks for a description.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "didn’t / we / a / hire / car",
+              "answers": [
+                "We didn’t hire a car."
+              ],
+              "explain": "Subject + didn’t + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "they / how / long / in Paris / stay / did / ?",
+              "answers": [
+                "How long did they stay in Paris?"
+              ],
+              "explain": "How long + did + subject + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "the / couldn’t / she / find / hotel",
+              "answers": [
+                "She couldn’t find the hotel."
+              ],
+              "explain": "Subject + couldn’t + infinitive.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2A-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "regular verbs: -ed endings",
+      "reference": [
+        {
+          "type": "table",
+          "title": "-ed endings",
+          "headers": [
+            "Sound",
+            "Word",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "/t/",
+              "tie",
+              "I booked a hotel. We missed our flight."
+            ],
+            [
+              "/d/",
+              "dog",
+              "I arrived at the airport. We phoned our friends."
+            ],
+            [
+              "/ɪd/",
+              "",
+              "She invited us to stay. I needed a new passport."
+            ]
+          ],
+          "audio": "2.4"
+        },
+        {
+          "type": "note",
+          "title": "Regular past simple verbs",
+          "text": "The -ed ending is usually pronounced /t/ or /d/, e.g. booked, arrived. We only pronounce the e in -ed when there is a t or a d before it, e.g. wanted, ended: -ed = /ɪd/."
+        },
+        {
+          "type": "mistake",
+          "wrong": "look-ed /lʊkɪd/",
+          "right": "looked /lʊkt/",
+          "why": "Don’t pronounce the e: -ed = /ɪd/ only after t or d."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "2A-sb3a",
+          "origin": "SB",
+          "instruction": "Listen to three sentences from Marta’s story. What regular verb do you hear in each sentence?",
+          "note": "SB 3a; трек 2.3 — три фразы из скрипта 2.1, вписать услышанный глагол (CONFIRMED)",
+          "audio": "2.3",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I {} everywhere, in my bag, in my case, but it wasn’t there.",
+              "gaps": [
+                [
+                  "looked"
+                ]
+              ],
+              "explain": "looked – -ed = /t/",
+              "source": "CONFIRMED",
+              "clip": [
+                2.42,
+                10.09
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "This {} two years ago.",
+              "gaps": [
+                [
+                  "happened"
+                ]
+              ],
+              "explain": "happened – -ed = /d/",
+              "source": "CONFIRMED",
+              "clip": [
+                11.32,
+                15.33
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I {} another five or six hours.",
+              "gaps": [
+                [
+                  "waited"
+                ]
+              ],
+              "explain": "waited – -ed = /ɪd/ (t before -ed)",
+              "source": "CONFIRMED",
+              "clip": [
+                17.03,
+                21.84
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2A-sb3b",
+          "origin": "SB",
+          "instruction": "Listen and repeat the sentences",
+          "note": "SB 3b «repeat the sounds and sentences» → Speak фраз; слова-звуки tie / dog и буквы не переносим (таблица в reference)",
+          "audio": "2.4",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "I booked a hotel.",
+              "clip": [
+                7.34,
+                9.38
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "We missed our flight.",
+              "clip": [
+                12.45,
+                14.49
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "I arrived at the airport.",
+              "clip": [
+                22.51,
+                24.9
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "We phoned our friends.",
+              "clip": [
+                27.85,
+                29.98
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "She invited us to stay.",
+              "clip": [
+                35.39,
+                37.75
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "I needed a new passport.",
+              "clip": [
+                40.76,
+                43.14
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2A-sb3c",
+          "origin": "SB",
+          "instruction": "Write the past simple of these verbs. Then listen and check. In which ones is -ed pronounced /ɪd/?",
+          "note": "SB 3c + 3d (Listen and check 2.5) → пишем форму, звук — в explain; формы по аудио 2.5, звуки — по правилу",
+          "audio": "2.5",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "ask → {}",
+              "gaps": [
+                [
+                  "asked"
+                ]
+              ],
+              "explain": "/t/",
+              "source": "CONFIRMED",
+              "clip": [
+                2.59,
+                3.77
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "call → {}",
+              "gaps": [
+                [
+                  "called"
+                ]
+              ],
+              "explain": "/d/",
+              "source": "CONFIRMED",
+              "clip": [
+                5.28,
+                6.41
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "check → {}",
+              "gaps": [
+                [
+                  "checked"
+                ]
+              ],
+              "explain": "/t/",
+              "source": "CONFIRMED",
+              "clip": [
+                7.92,
+                9.02
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "decide → {}",
+              "gaps": [
+                [
+                  "decided"
+                ]
+              ],
+              "explain": "/ɪd/ – d before -ed.",
+              "source": "CONFIRMED",
+              "clip": [
+                10.53,
+                11.81
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "happen → {}",
+              "gaps": [
+                [
+                  "happened"
+                ]
+              ],
+              "explain": "/d/",
+              "source": "CONFIRMED",
+              "clip": [
+                13.29,
+                14.55
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "live → {}",
+              "gaps": [
+                [
+                  "lived"
+                ]
+              ],
+              "explain": "/d/",
+              "source": "CONFIRMED",
+              "clip": [
+                16.03,
+                17.15
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "rent → {}",
+              "gaps": [
+                [
+                  "rented"
+                ]
+              ],
+              "explain": "/ɪd/ – t before -ed.",
+              "source": "CONFIRMED",
+              "clip": [
+                18.65,
+                19.93
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "start → {}",
+              "gaps": [
+                [
+                  "started"
+                ]
+              ],
+              "explain": "/ɪd/ – t before -ed.",
+              "source": "CONFIRMED",
+              "clip": [
+                21.42,
+                22.6
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "stop → {}",
+              "gaps": [
+                [
+                  "stopped"
+                ]
+              ],
+              "explain": "/t/ – and double the p.",
+              "source": "CONFIRMED",
+              "clip": [
+                24.09,
+                25.35
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "thank → {}",
+              "gaps": [
+                [
+                  "thanked"
+                ]
+              ],
+              "explain": "/t/",
+              "source": "CONFIRMED",
+              "clip": [
+                26.87,
+                27.97
+              ]
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "want → {}",
+              "gaps": [
+                [
+                  "wanted"
+                ]
+              ],
+              "explain": "/ɪd/ – t before -ed.",
+              "source": "CONFIRMED",
+              "clip": [
+                29.45,
+                30.68
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2A-sb3d",
+          "origin": "SB",
+          "instruction": "Say the past simple of the verbs",
+          "note": "SB 3c «Say the past simple» + 3d → Speak слов, клипы 2.5",
+          "audio": "2.5",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "asked",
+              "clip": [
+                2.59,
+                3.77
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "called",
+              "clip": [
+                5.28,
+                6.41
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "checked",
+              "clip": [
+                7.92,
+                9.02
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "decided",
+              "clip": [
+                10.53,
+                11.81
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "happened",
+              "clip": [
+                13.29,
+                14.55
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "lived",
+              "clip": [
+                16.03,
+                17.15
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "rented",
+              "clip": [
+                18.65,
+                19.93
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "started",
+              "clip": [
+                21.42,
+                22.6
+              ]
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "stopped",
+              "clip": [
+                24.09,
+                25.35
+              ]
+            },
+            {
+              "n": 10,
+              "type": "speak",
+              "text": "thanked",
+              "clip": [
+                26.87,
+                27.97
+              ]
+            },
+            {
+              "n": 11,
+              "type": "speak",
+              "text": "wanted",
+              "clip": [
+                29.45,
+                30.68
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2A-wb2a",
+          "origin": "WB",
+          "instruction": "Which verb has a different -ed sound? Write it",
+          "note": "WB 2a «Circle the verb with a different -ed sound» → Blank; 1 walked asked rented → rented — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "argued, wanted, stayed → {}",
+              "gaps": [
+                [
+                  "wanted"
+                ]
+              ],
+              "explain": "wanted = /ɪd/. argued and stayed = /d/."
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "booked, started, decided → {}",
+              "gaps": [
+                [
+                  "booked"
+                ]
+              ],
+              "explain": "booked = /t/. started and decided = /ɪd/."
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "arrived, invited, phoned → {}",
+              "gaps": [
+                [
+                  "invited"
+                ]
+              ],
+              "explain": "invited = /ɪd/. arrived and phoned = /d/."
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "waited, cooked, watched → {}",
+              "gaps": [
+                [
+                  "waited"
+                ]
+              ],
+              "explain": "waited = /ɪd/. cooked and watched = /t/."
+            }
+          ]
+        },
+        {
+          "id": "2A-wb2b",
+          "origin": "WB",
+          "instruction": "Listen and check. Then listen again and repeat the words",
+          "note": "WB 2b (трек WB 2.1 — аудио WB нет): Speak на ряды из 2a, образец — синтезатор (как 1B-wb3b)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "walked, asked, rented"
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "argued, wanted, stayed"
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "booked, started, decided"
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "arrived, invited, phoned"
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "waited, cooked, watched"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2A-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "holidays",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Phrases with go",
+          "headers": [
+            "Phrase",
+            "Example"
+          ],
+          "rows": [
+            [
+              "go abroad",
+              "We usually go abroad in the summer."
+            ],
+            [
+              "go away for the weekend",
+              "We went away for the weekend to Brighton."
+            ],
+            [
+              "go by bus (or car, plane, train)",
+              "We went by plane."
+            ],
+            [
+              "go camping",
+              "They went camping in the mountains."
+            ],
+            [
+              "go for a walk",
+              "After lunch we went for a walk."
+            ],
+            [
+              "go on holiday",
+              "Where did you go on holiday?"
+            ],
+            [
+              "go out at night",
+              "We went out at night to a club."
+            ],
+            [
+              "go sightseeing",
+              "We went sightseeing in Paris."
+            ],
+            [
+              "go skiing (or walking, cycling)",
+              "I go skiing every winter."
+            ],
+            [
+              "go swimming (or sailing, surfing, fishing)",
+              "The children went swimming every day."
+            ]
+          ],
+          "audio": "2.6"
+        },
+        {
+          "type": "table",
+          "title": "Other holiday phrases",
+          "headers": [
+            "Verb",
+            "Phrase"
+          ],
+          "rows": [
+            [
+              "stay",
+              "in a hotel / at a campsite / with friends"
+            ],
+            [
+              "take",
+              "photos"
+            ],
+            [
+              "buy",
+              "souvenirs"
+            ],
+            [
+              "sunbathe",
+              "on the beach"
+            ],
+            [
+              "have",
+              "a good time"
+            ],
+            [
+              "spend",
+              "money (or time)"
+            ],
+            [
+              "rent",
+              "an apartment"
+            ],
+            [
+              "hire",
+              "a bicycle (or skis)"
+            ],
+            [
+              "book",
+              "a flight online (or a hotel)"
+            ]
+          ],
+          "audio": "2.7"
+        },
+        {
+          "type": "note",
+          "title": "rent or hire?",
+          "text": "Rent and hire mean the same but we normally use rent for a longer period of time, e.g. you rent a flat or an apartment, and hire for a short time, e.g. you hire skis, a bike, a boat, etc. With a car you can use hire or rent."
+        },
+        {
+          "type": "table",
+          "title": "Adjectives",
+          "headers": [
+            "Question",
+            "+",
+            "−"
+          ],
+          "rows": [
+            [
+              "What was the weather like? It was…",
+              "warm, sunny",
+              "very windy, foggy, cloudy"
+            ],
+            [
+              "What was the hotel like? It was…",
+              "comfortable, luxurious",
+              "basic, dirty, uncomfortable"
+            ],
+            [
+              "What was the town like? It was…",
+              "beautiful, lovely",
+              "noisy, crowded"
+            ],
+            [
+              "What were the people like? They were…",
+              "friendly, helpful",
+              "unfriendly, unhelpful"
+            ]
+          ],
+          "audio": "2.8"
+        },
+        {
+          "type": "note",
+          "title": "General positive and negative adjectives",
+          "text": "Positive: great, lovely, wonderful, fantastic. Neutral: OK, not bad, all right. Negative: awful, horrible, terrible."
+        },
+        {
+          "type": "mistake",
+          "wrong": "We went to camping.",
+          "right": "We went camping.",
+          "why": "go + -ing, without to."
+        },
+        {
+          "type": "mistake",
+          "wrong": "I want to go to abroad.",
+          "right": "I want to go abroad.",
+          "why": "abroad is an adverb: no to."
+        },
+        {
+          "type": "mistake",
+          "wrong": "We made a lot of photos.",
+          "right": "We took a lot of photos.",
+          "why": "take photos, not make."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "2A-sb4a",
+          "origin": "SB",
+          "instruction": "In one minute, write down five things you like doing when you’re on holiday",
+          "note": "SB 4a (сравнить с партнёром — нет) → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Write five things you like doing when you’re on holiday, e.g. walking in the mountains, exploring a city, going to museums.",
+              "questions": [
+                "What do you like doing when you’re on holiday?"
+              ],
+              "hint": "(I like… -ing: going sightseeing, sunbathing on the beach…)",
+              "criteria": [
+                "writes five different holiday activities",
+                "uses the -ing form after like (I like going…, walking…)",
+                "uses at least two holiday phrases from the lesson (go sightseeing, sunbathe on the beach, go camping…)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2A-vb1a",
+          "origin": "SB",
+          "instruction": "Match the phrases and photos. Complete the phrases. Then listen and check",
+          "note": "VB Holidays 1a+1b; фото из VB p.152 (tools/images.py) у пункта в image, пропуск — ключевое слово. 1 go sightseeing — пример. Ответы по аудио 2.6 (номера фото диктор называет)",
+          "audio": "2.6",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "go {}",
+              "image": "2a_vb1a_2",
+              "gaps": [
+                [
+                  "swimming"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                54.16,
+                55.58
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "go {} at night",
+              "image": "2a_vb1a_3",
+              "gaps": [
+                [
+                  "out"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                40.09,
+                41.74
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "go by {}",
+              "image": "2a_vb1a_4",
+              "gaps": [
+                [
+                  "bus",
+                  "plane",
+                  "bus or plane"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                21.26,
+                22.79
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "go on {}",
+              "image": "2a_vb1a_5",
+              "gaps": [
+                [
+                  "holiday"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                35.3,
+                36.89
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "go {}",
+              "image": "2a_vb1a_6",
+              "gaps": [
+                [
+                  "skiing"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                49.6,
+                51.12
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "go {}",
+              "image": "2a_vb1a_7",
+              "gaps": [
+                [
+                  "abroad"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                11.26,
+                12.7
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "go {}",
+              "image": "2a_vb1a_8",
+              "gaps": [
+                [
+                  "camping"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                25.85,
+                27.27
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "go for a {}",
+              "image": "2a_vb1a_9",
+              "gaps": [
+                [
+                  "walk"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                30.39,
+                32.02
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "go {} for the weekend",
+              "image": "2a_vb1a_10",
+              "gaps": [
+                [
+                  "away"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                15.86,
+                18.05
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2A-vb1c",
+          "origin": "SB",
+          "instruction": "Test yourself: say the phrases with go",
+          "note": "VB 1c «Cover the phrases and look at the photos» → Speak фраз (speak без картинки), клипы 2.6",
+          "audio": "2.6",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "go abroad",
+              "clip": [
+                11.26,
+                12.7
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "go away for the weekend",
+              "clip": [
+                15.86,
+                18.05
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "go by bus",
+              "clip": [
+                21.26,
+                22.79
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "go camping",
+              "clip": [
+                25.85,
+                27.27
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "go for a walk",
+              "clip": [
+                30.39,
+                32.02
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "go on holiday",
+              "clip": [
+                35.3,
+                36.89
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "go out at night",
+              "clip": [
+                40.09,
+                41.74
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "go sightseeing",
+              "clip": [
+                44.78,
+                46.37
+              ]
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "go skiing",
+              "clip": [
+                49.6,
+                51.12
+              ]
+            },
+            {
+              "n": 10,
+              "type": "speak",
+              "text": "go swimming",
+              "clip": [
+                54.16,
+                55.58
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2A-vb2a",
+          "origin": "SB",
+          "instruction": "Complete the verb phrases. Then listen and check",
+          "note": "VB 2a+2b; stay in a hotel — пример. Ответы по аудио 2.7",
+          "audio": "2.7",
+          "words": [
+            "book",
+            "buy",
+            "have",
+            "hire",
+            "rent",
+            "spend",
+            "sunbathe",
+            "take"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "{} photos",
+              "gaps": [
+                [
+                  "take"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                16.84,
+                18.64
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{} souvenirs",
+              "gaps": [
+                [
+                  "buy"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                20.13,
+                22.06
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{} on the beach",
+              "gaps": [
+                [
+                  "sunbathe"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                23.55,
+                25.65
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{} a good time",
+              "gaps": [
+                [
+                  "have"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                27.1,
+                28.84
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "{} money (or time)",
+              "gaps": [
+                [
+                  "spend"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                30.32,
+                31.93
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "{} an apartment",
+              "gaps": [
+                [
+                  "rent"
+                ]
+              ],
+              "explain": "rent for a longer time (a flat, an apartment); hire for a short time (skis, a bike).",
+              "source": "CONFIRMED",
+              "clip": [
+                33.41,
+                35.37
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "{} a bicycle (or skis)",
+              "gaps": [
+                [
+                  "hire"
+                ]
+              ],
+              "explain": "hire for a short time (skis, a bike, a boat); rent for a longer time.",
+              "source": "CONFIRMED",
+              "clip": [
+                36.86,
+                38.76
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "{} a flight online (or a hotel)",
+              "gaps": [
+                [
+                  "book"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                40.25,
+                42.44
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2A-vb2c",
+          "origin": "SB",
+          "instruction": "Test yourself: say the phrases",
+          "note": "VB 2c «Cover the verbs. Remember the phrases» → Speak фраз, клипы 2.7",
+          "audio": "2.7",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "stay in a hotel",
+              "clip": [
+                6.3,
+                8.32
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "stay at a campsite",
+              "clip": [
+                9.79,
+                11.9
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "stay with friends",
+              "clip": [
+                13.38,
+                15.35
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "take photos",
+              "clip": [
+                16.84,
+                18.64
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "buy souvenirs",
+              "clip": [
+                20.13,
+                22.06
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "sunbathe on the beach",
+              "clip": [
+                23.55,
+                25.65
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "have a good time",
+              "clip": [
+                27.1,
+                28.84
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "spend money",
+              "clip": [
+                30.32,
+                31.93
+              ]
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "rent an apartment",
+              "clip": [
+                33.41,
+                35.37
+              ]
+            },
+            {
+              "n": 10,
+              "type": "speak",
+              "text": "hire a bicycle",
+              "clip": [
+                36.86,
+                38.76
+              ]
+            },
+            {
+              "n": 11,
+              "type": "speak",
+              "text": "book a flight online",
+              "clip": [
+                40.25,
+                42.44
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2A-vb3a",
+          "origin": "SB",
+          "instruction": "Match the questions and answers. Then listen and check",
+          "note": "VB 3a+3b «match 1–4 with the adjectives» → Blank на пару: вопрос к группе прилагательных; ответы по аудио 2.8",
+          "audio": "2.8",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "It was comfortable, luxurious / basic, dirty, uncomfortable. → What was the {} like?",
+              "gaps": [
+                [
+                  "hotel"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                26.97,
+                44.68
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "They were friendly, helpful / unfriendly, unhelpful. → What were the {} like?",
+              "gaps": [
+                [
+                  "people"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                66.57,
+                80.92
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "It was beautiful, lovely / noisy, crowded. → What was the {} like?",
+              "gaps": [
+                [
+                  "town"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                48.35,
+                63.15
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "It was warm, sunny / very windy, foggy, cloudy. → What was the {} like?",
+              "gaps": [
+                [
+                  "weather"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                7.07,
+                23.86
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2A-vbact",
+          "origin": "SB",
+          "instruction": "Talk to a partner. Which do you prefer? Why?",
+          "note": "VB ACTIVATION → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You talk about holiday preferences. Ask the student, one at a time, which they prefer and why: going abroad or going on holiday in your country; going by car, bus, plane, or train; going to the beach or going to a city; staying in a hotel (or apartment) or going camping; sunbathing, going sightseeing, or going for walks; hot, sunny weather or cool, cloudy weather; going on holiday with friends or with your family. After each answer, give your own short opinion (e.g. I prefer going camping – I love sleeping in a tent!) and sometimes ask a follow-up question (Why? Where do you usually go?). Use the vocabulary of the lesson. If the student uses a wrong phrase (go to camping, make photos), repeat the correct phrase naturally.",
+              "goal": "Tell your classmate which you prefer and why: going abroad or in your country, car / bus / plane / train, beach or city, hotel or camping, sunbathing / sightseeing / walks, hot or cool weather, friends or family.",
+              "opener": "Let’s talk about holidays! Do you prefer going abroad or going on holiday in your country?",
+              "criteria": [
+                "gives a preference for at least 4 of the pairs (I prefer… / I like… more)",
+                "gives a reason with because at least twice",
+                "uses holiday phrases correctly (go abroad, go camping, go sightseeing, stay in a hotel, sunbathe)",
+                "uses the -ing form after prefer / like (I prefer going…)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2A-wb3a",
+          "origin": "WB",
+          "instruction": "Complete the holiday phrases with words from the list",
+          "note": "WB 3a; фото WB p.13 вырезать нечем (tools/images.py режет только SB) → список недостающих слов в words; 4 и 8 без фото неоднозначны — принимаем abroad / sightseeing в обоих, подсказка в скобках. 1 go camping — пример",
+          "words": [
+            "abroad",
+            "away",
+            "book",
+            "for",
+            "go",
+            "out",
+            "sightseeing",
+            "stay",
+            "sunbathe",
+            "walk"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "go {} a {}",
+              "gaps": [
+                [
+                  "for"
+                ],
+                [
+                  "walk"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{} a flight online",
+              "gaps": [
+                [
+                  "book"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "go {} (with a passport)",
+              "gaps": [
+                [
+                  "abroad",
+                  "sightseeing"
+                ]
+              ],
+              "explain": "The photo shows a passport and plane tickets: go abroad."
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{} swimming",
+              "gaps": [
+                [
+                  "go"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "go {} at night",
+              "gaps": [
+                [
+                  "out"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "{} in a hotel",
+              "gaps": [
+                [
+                  "stay"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "go {} (to see famous buildings)",
+              "gaps": [
+                [
+                  "sightseeing",
+                  "abroad"
+                ]
+              ],
+              "explain": "The photo shows tourists at an old cathedral: go sightseeing."
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "{} on the beach",
+              "gaps": [
+                [
+                  "sunbathe"
+                ]
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "go {} for the weekend",
+              "gaps": [
+                [
+                  "away"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2A-wb3b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with an adjective from the list",
+          "note": "WB 3b; в книге первые буквы (s…, cr…) — подсказки первой буквой запрещены → список ответов в words; 1 comfortable — пример. 8: в книге l…, принимаем и beautiful",
+          "words": [
+            "basic",
+            "cloudy",
+            "crowded",
+            "friendly",
+            "lovely",
+            "luxurious",
+            "noisy",
+            "sunny",
+            "unhelpful"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The weather was warm and {} every day.",
+              "gaps": [
+                [
+                  "sunny"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "There were a lot of people on the beach. It was very {}.",
+              "gaps": [
+                [
+                  "crowded"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "The hotel was on a busy road, so it was really {}.",
+              "gaps": [
+                [
+                  "noisy"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "The staff in the hotel were very {} and sometimes quite unfriendly.",
+              "gaps": [
+                [
+                  "unhelpful"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "There wasn’t much in the apartment. It was very {}. It didn’t even have a fridge.",
+              "gaps": [
+                [
+                  "basic"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "The other people on the trip were very {}. We made some good friends.",
+              "gaps": [
+                [
+                  "friendly"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "The town was {}. All the houses had flowers on the balcony and were painted different colours.",
+              "gaps": [
+                [
+                  "lovely",
+                  "beautiful"
+                ]
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "It was {} all day, so we couldn’t sunbathe.",
+              "gaps": [
+                [
+                  "cloudy"
+                ]
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "The apartment was very {} – it was full of expensive furniture and very comfortable!",
+              "gaps": [
+                [
+                  "luxurious"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2A-wb3c",
+          "origin": "WB",
+          "instruction": "Look at the chart. Write the questions and Lucy’s answers",
+          "note": "WB 3c; 1 Where did you go? I went to Greece. — пример. n = строка+столбец: 21 = вопрос 2, 22 = ответ Люси 2, … 62",
+          "exercises": [
+            {
+              "n": 21,
+              "type": "rewrite",
+              "prompt": "How / you / get there / ?",
+              "answers": [
+                "How did you get there?"
+              ]
+            },
+            {
+              "n": 22,
+              "type": "rewrite",
+              "prompt": "Lucy: plane",
+              "answers": [
+                "I went by plane.",
+                "I went there by plane.",
+                "I got there by plane."
+              ]
+            },
+            {
+              "n": 31,
+              "type": "rewrite",
+              "prompt": "Where / you / stay / ?",
+              "answers": [
+                "Where did you stay?"
+              ]
+            },
+            {
+              "n": 32,
+              "type": "rewrite",
+              "prompt": "Lucy: hotel",
+              "answers": [
+                "I stayed in a hotel.",
+                "I stayed at a hotel."
+              ]
+            },
+            {
+              "n": 41,
+              "type": "rewrite",
+              "prompt": "How long / you / stay / ?",
+              "answers": [
+                "How long did you stay?"
+              ]
+            },
+            {
+              "n": 42,
+              "type": "rewrite",
+              "prompt": "Lucy: ten days",
+              "answers": [
+                "I stayed for ten days.",
+                "I stayed ten days.",
+                "I stayed for 10 days.",
+                "I stayed 10 days."
+              ]
+            },
+            {
+              "n": 51,
+              "type": "rewrite",
+              "prompt": "What / you / do / ?",
+              "answers": [
+                "What did you do?"
+              ]
+            },
+            {
+              "n": 52,
+              "type": "rewrite",
+              "prompt": "Lucy: went swimming",
+              "answers": [
+                "I went swimming."
+              ]
+            },
+            {
+              "n": 61,
+              "type": "rewrite",
+              "prompt": "What / be / weather like / ?",
+              "answers": [
+                "What was the weather like?"
+              ]
+            },
+            {
+              "n": 62,
+              "type": "rewrite",
+              "prompt": "Lucy: sunny",
+              "answers": [
+                "It was sunny."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2A-wb3d",
+          "origin": "WB",
+          "instruction": "Write sentences about your last holiday",
+          "note": "WB 3d «Students’ own answers» → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Write about your last holiday: answer the questions from the chart in full sentences (On my last holiday, I went to…).",
+              "questions": [
+                "Where did you go?",
+                "How did you get there?",
+                "Where did you stay?",
+                "How long did you stay?",
+                "What did you do?",
+                "What was the weather like?"
+              ],
+              "hint": "(On my last holiday, I went to… I went by… I stayed in…)",
+              "criteria": [
+                "answers all six questions",
+                "uses the past simple correctly, including irregular verbs (went, stayed, was, got)",
+                "uses holiday vocabulary (go by plane, stay in a hotel, go swimming, sunny…)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2A-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the holiday phrases.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I love the snow. Every winter we go {} in the Alps.",
+              "gaps": [
+                [
+                  "skiing"
+                ]
+              ],
+              "explain": "go skiing = ski as a sport or on holiday.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "In Rome we went {} and saw the Colosseum.",
+              "gaps": [
+                [
+                  "sightseeing"
+                ]
+              ],
+              "explain": "go sightseeing = visit famous places as a tourist.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "We didn’t stay in a hotel – we went {} and slept in a tent.",
+              "gaps": [
+                [
+                  "camping"
+                ]
+              ],
+              "explain": "go camping = sleep in a tent.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "On Saturday we went {} at night to a club with some friends.",
+              "gaps": [
+                [
+                  "out"
+                ]
+              ],
+              "explain": "go out (at night) = go to a club, bar, restaurant, etc.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "It was a beautiful day, so after lunch we went for a {} by the river.",
+              "gaps": [
+                [
+                  "walk"
+                ]
+              ],
+              "explain": "go for a walk.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Last year we didn’t go {} – we stayed in our country.",
+              "gaps": [
+                [
+                  "abroad"
+                ]
+              ],
+              "explain": "go abroad = go to another country (no to).",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "We didn’t drive to London – we went {} bus.",
+              "gaps": [
+                [
+                  "by"
+                ]
+              ],
+              "explain": "go by bus / car / plane / train.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Every Friday they go {} for the weekend to their house in the country.",
+              "gaps": [
+                [
+                  "away"
+                ]
+              ],
+              "explain": "go away for the weekend = leave home for a short holiday.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "2A-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete with a verb from the list.",
+          "words": [
+            "book",
+            "buy",
+            "have",
+            "hire",
+            "rent",
+            "spend",
+            "sunbathe",
+            "take"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "We {} a car at the airport for three days.",
+              "gaps": [
+                [
+                  "hired",
+                  "rented"
+                ]
+              ],
+              "explain": "With a car you can use hire or rent.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Don’t {} too much money on the first day!",
+              "gaps": [
+                [
+                  "spend"
+                ]
+              ],
+              "explain": "spend money / time.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "She loves lying in the sun. She can {} for hours.",
+              "gaps": [
+                [
+                  "sunbathe"
+                ]
+              ],
+              "explain": "sunbathe = lie in the sun.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I always {} my hotel online before I travel.",
+              "gaps": [
+                [
+                  "book"
+                ]
+              ],
+              "explain": "book a hotel / a flight = reserve it.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Did you {} anything in the market in Venice?",
+              "gaps": [
+                [
+                  "buy"
+                ]
+              ],
+              "explain": "buy souvenirs, buy things.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "We {} a small flat by the sea for the whole summer.",
+              "gaps": [
+                [
+                  "rented"
+                ]
+              ],
+              "explain": "rent for a longer time (a flat, an apartment).",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Bye! {} a good time in Paris!",
+              "gaps": [
+                [
+                  "Have"
+                ]
+              ],
+              "explain": "have a good time = enjoy yourself.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Can you {} a photo of us, please?",
+              "gaps": [
+                [
+                  "take"
+                ]
+              ],
+              "explain": "take a photo, not make.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "2A-vocabulary-x3",
+          "origin": "GENERATED",
+          "instruction": "Complete with an adjective from the list.",
+          "words": [
+            "basic",
+            "cloudy",
+            "crowded",
+            "foggy",
+            "luxurious",
+            "noisy",
+            "unfriendly"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "There were too many people in the museum. It was really {}.",
+              "gaps": [
+                [
+                  "crowded"
+                ]
+              ],
+              "explain": "crowded = full of people.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The room was very {}: a bed, a chair, and no TV.",
+              "gaps": [
+                [
+                  "basic"
+                ]
+              ],
+              "explain": "basic = with only the things you really need.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "We couldn’t see the mountains because it was {}.",
+              "gaps": [
+                [
+                  "foggy"
+                ]
+              ],
+              "explain": "foggy = with fog, so you can’t see far.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Our room was next to the disco, so it was very {} at night.",
+              "gaps": [
+                [
+                  "noisy"
+                ]
+              ],
+              "explain": "noisy = with a lot of noise.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "The receptionist never smiled or said hello. She was really {}.",
+              "gaps": [
+                [
+                  "unfriendly"
+                ]
+              ],
+              "explain": "unfriendly ≠ friendly.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "The sky was grey all day. It was {}, but it didn’t rain.",
+              "gaps": [
+                [
+                  "cloudy"
+                ]
+              ],
+              "explain": "cloudy = with a lot of clouds.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "The hotel had a big pool, a spa, and beautiful rooms. It was really {}.",
+              "gaps": [
+                [
+                  "luxurious"
+                ]
+              ],
+              "explain": "luxurious = very comfortable and expensive.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "2A-vocabulary-x4",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "We went to camping in the mountains.",
+              "answers": [
+                "We went camping in the mountains."
+              ],
+              "explain": "go + -ing: go camping, without to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "I want to go to abroad next summer.",
+              "answers": [
+                "I want to go abroad next summer."
+              ],
+              "explain": "go abroad, without to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "We made a lot of photos of the beach.",
+              "answers": [
+                "We took a lot of photos of the beach."
+              ],
+              "explain": "take photos, not make.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "They passed a good time at the party.",
+              "answers": [
+                "They had a good time at the party."
+              ],
+              "explain": "have a good time.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "We went on a walk by the lake.",
+              "answers": [
+                "We went for a walk by the lake."
+              ],
+              "explain": "go for a walk.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

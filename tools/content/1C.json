@@ -1,0 +1,4749 @@
+{
+  "id": "1C",
+  "title": "The Remake Project",
+  "bubbles": [
+    "What’s the woman doing?",
+    "She’s pouring milk into a bowl."
+  ],
+  "sources": "SB p.10–11 (PDF 11–12), Grammar Bank p.126–127 (PDF 127–128), Vocabulary Bank p.151 (PDF 152), Communication p.102/108 (PDF 103/109), scripts p.120 (PDF 121), Practical English Episode 1 SB p.12–13 (PDF 13–14); WB p.8–9 (PDF 7–8), Practical English WB p.10 (PDF 9), Can you remember…? 1 WB p.11 (PDF 10), key WB p.88 (PDF 87)",
+  "sections": [
+    {
+      "id": "1C-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "clothes, prepositions of place",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Things you wear",
+          "headers": [
+            "Group",
+            "Words"
+          ],
+          "rows": [
+            [
+              "Clothes",
+              "blouse, cardigan, coat, dress, jacket, jeans, leggings, pyjamas, shirt, shorts, skirt, socks, suit, sweater (= jumper), tights, top, tracksuit, trousers, T-shirt, underwear"
+            ],
+            [
+              "Footwear",
+              "boots, flip-flops, sandals, shoes, trainers"
+            ],
+            [
+              "Accessories",
+              "belt, cap, hat, gloves, scarf, tie"
+            ],
+            [
+              "Jewellery",
+              "bracelet, earrings, necklace, ring"
+            ]
+          ],
+          "audio": "1.23"
+        },
+        {
+          "type": "note",
+          "title": "wear, carry, or dress?",
+          "text": "Use wear for clothes and jewellery / glasses, etc.: She’s wearing a hat. He’s wearing sunglasses. Use carry for bags, cases, etc.: I can’t carry this case. She’s carrying a bag. Use dress (with no object) to describe the kind of clothes people wear: The Italians dress very well. Lucy always dresses in black."
+        },
+        {
+          "type": "note",
+          "title": "a pair",
+          "text": "We often use a pair to talk about plural clothes, e.g. a pair of shoes, trainers, boots, jeans, trousers, etc."
+        },
+        {
+          "type": "table",
+          "title": "Prepositions of place",
+          "headers": [
+            "Preposition",
+            "Example"
+          ],
+          "rows": [
+            [
+              "in",
+              "The young man is in the kitchen."
+            ],
+            [
+              "on",
+              "On the table there are some eggs. There’s a flower on the wall."
+            ],
+            [
+              "under",
+              "There’s a board under the bread."
+            ],
+            [
+              "above",
+              "There’s a flower above the sink."
+            ],
+            [
+              "in front of",
+              "There’s a table in front of him."
+            ],
+            [
+              "behind",
+              "Behind the man, there’s an old washing machine."
+            ],
+            [
+              "next to",
+              "The sink is next to the window."
+            ],
+            [
+              "between",
+              "The bread is between the eggs and the strawberries."
+            ],
+            [
+              "in the middle of",
+              "The bread is in the middle of the table."
+            ],
+            [
+              "on the left / right of",
+              "There’s a window on the left of the photo."
+            ],
+            [
+              "in the corner (of)",
+              "In the corner of the room there’s a sink."
+            ]
+          ],
+          "audio": "1.29"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "1C-sb1b",
+          "origin": "SB",
+          "instruction": "What are the people in the painting (The Milkmaid by Vermeer) and the photo remake wearing? Write W for the woman and M for the man",
+          "note": "SB 1b; W/M → Blank. Одна картинка на пункт — нельзя показать и картину, и фото, поэтому без картинок (TODO). Ответы наши (MODEL)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "a blue apron: {}",
+              "gaps": [
+                [
+                  "W",
+                  "woman",
+                  "the woman"
+                ]
+              ],
+              "hint": "(W = the woman in the painting, M = the man in the photo)",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "blue trousers: {}",
+              "gaps": [
+                [
+                  "M",
+                  "man",
+                  "the man"
+                ]
+              ],
+              "hint": "(W = the woman in the painting, M = the man in the photo)",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "a brown skirt: {}",
+              "gaps": [
+                [
+                  "W",
+                  "woman",
+                  "the woman"
+                ]
+              ],
+              "hint": "(W = the woman in the painting, M = the man in the photo)",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "a yellow and green blouse: {}",
+              "gaps": [
+                [
+                  "W",
+                  "woman",
+                  "the woman"
+                ]
+              ],
+              "hint": "(W = the woman in the painting, M = the man in the photo)",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "a yellow T-shirt: {}",
+              "gaps": [
+                [
+                  "M",
+                  "man",
+                  "the man"
+                ]
+              ],
+              "hint": "(W = the woman in the painting, M = the man in the photo)",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "a white cap: {}",
+              "gaps": [
+                [
+                  "W",
+                  "woman",
+                  "the woman"
+                ]
+              ],
+              "hint": "(W = the woman in the painting, M = the man in the photo)",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1C-vb1a",
+          "origin": "SB",
+          "audio": "1.23",
+          "instruction": "Match the words and photos. Then listen and check",
+          "note": "VB Things you wear 1a+1b; фото из VB p.151 (tools/images.py) в image. 1 shorts — пример. Ответы по аудио 1.23",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "a {}",
+              "gaps": [
+                [
+                  "dress"
+                ]
+              ],
+              "image": "1c_vb1a_2",
+              "source": "CONFIRMED",
+              "clip": [
+                21.43,
+                22.61
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "a {}",
+              "gaps": [
+                [
+                  "coat"
+                ]
+              ],
+              "image": "1c_vb1a_3",
+              "source": "CONFIRMED",
+              "clip": [
+                17.25,
+                18.37
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "a {}",
+              "gaps": [
+                [
+                  "top"
+                ]
+              ],
+              "image": "1c_vb1a_4",
+              "source": "CONFIRMED",
+              "clip": [
+                76.18,
+                77.18
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "jeans"
+                ]
+              ],
+              "image": "1c_vb1a_5",
+              "source": "CONFIRMED",
+              "clip": [
+                30.42,
+                31.71
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "a {}",
+              "gaps": [
+                [
+                  "skirt"
+                ]
+              ],
+              "image": "1c_vb1a_6",
+              "source": "CONFIRMED",
+              "clip": [
+                53.23,
+                54.55
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "a {}",
+              "gaps": [
+                [
+                  "suit"
+                ]
+              ],
+              "image": "1c_vb1a_7",
+              "source": "CONFIRMED",
+              "clip": [
+                62.35,
+                63.54
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "a {}",
+              "gaps": [
+                [
+                  "shirt"
+                ]
+              ],
+              "image": "1c_vb1a_8",
+              "source": "CONFIRMED",
+              "clip": [
+                44.37,
+                45.62
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "a {}",
+              "gaps": [
+                [
+                  "jacket"
+                ]
+              ],
+              "image": "1c_vb1a_9",
+              "source": "CONFIRMED",
+              "clip": [
+                25.89,
+                27.14
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "a {}",
+              "gaps": [
+                [
+                  "tracksuit"
+                ]
+              ],
+              "image": "1c_vb1a_10",
+              "source": "CONFIRMED",
+              "clip": [
+                80.4,
+                81.78
+              ]
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "a {}",
+              "gaps": [
+                [
+                  "blouse"
+                ]
+              ],
+              "image": "1c_vb1a_11",
+              "source": "CONFIRMED",
+              "clip": [
+                8.22,
+                9.47
+              ]
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "trousers"
+                ]
+              ],
+              "image": "1c_vb1a_12",
+              "source": "CONFIRMED",
+              "clip": [
+                85.01,
+                86.41
+              ]
+            },
+            {
+              "n": 13,
+              "type": "blank",
+              "text": "a {}",
+              "gaps": [
+                [
+                  "cardigan"
+                ]
+              ],
+              "image": "1c_vb1a_13",
+              "source": "CONFIRMED",
+              "clip": [
+                12.9,
+                14.14
+              ]
+            },
+            {
+              "n": 14,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "leggings"
+                ]
+              ],
+              "image": "1c_vb1a_14",
+              "source": "CONFIRMED",
+              "clip": [
+                35.3,
+                36.65
+              ]
+            },
+            {
+              "n": 15,
+              "type": "blank",
+              "text": "a {}",
+              "gaps": [
+                [
+                  "T-shirt",
+                  "tshirt",
+                  "t shirt"
+                ]
+              ],
+              "image": "1c_vb1a_15",
+              "source": "CONFIRMED",
+              "clip": [
+                89.92,
+                91.29
+              ]
+            },
+            {
+              "n": 16,
+              "type": "blank",
+              "text": "a {}",
+              "gaps": [
+                [
+                  "sweater",
+                  "jumper"
+                ]
+              ],
+              "image": "1c_vb1a_16",
+              "source": "CONFIRMED",
+              "clip": [
+                67.01,
+                68.22
+              ]
+            },
+            {
+              "n": 17,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "underwear"
+                ]
+              ],
+              "image": "1c_vb1a_17",
+              "source": "CONFIRMED",
+              "clip": [
+                94.86,
+                96.16
+              ]
+            },
+            {
+              "n": 18,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "pyjamas",
+                  "pajamas"
+                ]
+              ],
+              "image": "1c_vb1a_18",
+              "source": "CONFIRMED",
+              "clip": [
+                40.04,
+                41.42
+              ]
+            },
+            {
+              "n": 19,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "tights"
+                ]
+              ],
+              "image": "1c_vb1a_19",
+              "source": "CONFIRMED",
+              "clip": [
+                71.69,
+                72.88
+              ]
+            },
+            {
+              "n": 20,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "socks"
+                ]
+              ],
+              "image": "1c_vb1a_20",
+              "source": "CONFIRMED",
+              "clip": [
+                57.77,
+                59.13
+              ]
+            },
+            {
+              "n": 21,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "trainers",
+                  "sneakers"
+                ]
+              ],
+              "image": "1c_vb1a_21",
+              "source": "CONFIRMED",
+              "clip": [
+                121.54,
+                122.87
+              ]
+            },
+            {
+              "n": 22,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "sandals"
+                ]
+              ],
+              "image": "1c_vb1a_22",
+              "source": "CONFIRMED",
+              "clip": [
+                111.78,
+                113.27
+              ]
+            },
+            {
+              "n": 23,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "shoes"
+                ]
+              ],
+              "image": "1c_vb1a_23",
+              "source": "CONFIRMED",
+              "clip": [
+                116.82,
+                118.16
+              ]
+            },
+            {
+              "n": 24,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "boots"
+                ]
+              ],
+              "image": "1c_vb1a_24",
+              "source": "CONFIRMED",
+              "clip": [
+                101.69,
+                102.98
+              ]
+            },
+            {
+              "n": 25,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "flip-flops",
+                  "flip flops"
+                ]
+              ],
+              "image": "1c_vb1a_25",
+              "source": "CONFIRMED",
+              "clip": [
+                106.65,
+                108.27
+              ]
+            },
+            {
+              "n": 26,
+              "type": "blank",
+              "text": "a {}",
+              "gaps": [
+                [
+                  "belt"
+                ]
+              ],
+              "image": "1c_vb1a_26",
+              "source": "CONFIRMED",
+              "clip": [
+                128.42,
+                129.59
+              ]
+            },
+            {
+              "n": 27,
+              "type": "blank",
+              "text": "a {}",
+              "gaps": [
+                [
+                  "tie"
+                ]
+              ],
+              "image": "1c_vb1a_27",
+              "source": "CONFIRMED",
+              "clip": [
+                151.98,
+                153.19
+              ]
+            },
+            {
+              "n": 28,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "gloves"
+                ]
+              ],
+              "image": "1c_vb1a_28",
+              "source": "CONFIRMED",
+              "clip": [
+                141.81,
+                143.19
+              ]
+            },
+            {
+              "n": 29,
+              "type": "blank",
+              "text": "a {}",
+              "gaps": [
+                [
+                  "scarf"
+                ]
+              ],
+              "image": "1c_vb1a_29",
+              "source": "CONFIRMED",
+              "clip": [
+                146.97,
+                148.47
+              ]
+            },
+            {
+              "n": 30,
+              "type": "blank",
+              "text": "a {}",
+              "gaps": [
+                [
+                  "cap"
+                ]
+              ],
+              "image": "1c_vb1a_30",
+              "source": "CONFIRMED",
+              "clip": [
+                132.74,
+                133.87
+              ]
+            },
+            {
+              "n": 31,
+              "type": "blank",
+              "text": "a {}",
+              "gaps": [
+                [
+                  "hat"
+                ]
+              ],
+              "image": "1c_vb1a_31",
+              "source": "CONFIRMED",
+              "clip": [
+                137.26,
+                138.42
+              ]
+            },
+            {
+              "n": 32,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "earrings"
+                ]
+              ],
+              "image": "1c_vb1a_32",
+              "source": "CONFIRMED",
+              "clip": [
+                163.31,
+                164.6
+              ]
+            },
+            {
+              "n": 33,
+              "type": "blank",
+              "text": "a {}",
+              "gaps": [
+                [
+                  "bracelet"
+                ]
+              ],
+              "image": "1c_vb1a_33",
+              "source": "CONFIRMED",
+              "clip": [
+                158.54,
+                159.74
+              ]
+            },
+            {
+              "n": 34,
+              "type": "blank",
+              "text": "a {}",
+              "gaps": [
+                [
+                  "ring"
+                ]
+              ],
+              "image": "1c_vb1a_34",
+              "source": "CONFIRMED",
+              "clip": [
+                173.13,
+                174.24
+              ]
+            },
+            {
+              "n": 35,
+              "type": "blank",
+              "text": "a {}",
+              "gaps": [
+                [
+                  "necklace"
+                ]
+              ],
+              "image": "1c_vb1a_35",
+              "source": "CONFIRMED",
+              "clip": [
+                168.33,
+                169.56
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1C-vb1c",
+          "origin": "SB",
+          "audio": "1.23",
+          "instruction": "Say the words. Be careful with the stressed syllable",
+          "note": "VB 1c (Test yourself) → Speak на слова с подчёркнутым ударением в VB",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "cardigan",
+              "clip": [
+                12.9,
+                14.14
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "jacket",
+              "clip": [
+                25.89,
+                27.14
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "leggings",
+              "clip": [
+                35.3,
+                36.65
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "pyjamas",
+              "clip": [
+                40.04,
+                41.42
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "sweater",
+              "clip": [
+                67.01,
+                68.22
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "tracksuit",
+              "clip": [
+                80.4,
+                81.78
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "trousers",
+              "clip": [
+                85.01,
+                86.41
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "underwear",
+              "clip": [
+                94.86,
+                96.16
+              ]
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "flip-flops",
+              "clip": [
+                106.65,
+                108.27
+              ]
+            },
+            {
+              "n": 10,
+              "type": "speak",
+              "text": "sandals",
+              "clip": [
+                111.78,
+                113.27
+              ]
+            },
+            {
+              "n": 11,
+              "type": "speak",
+              "text": "trainers",
+              "clip": [
+                121.54,
+                122.87
+              ]
+            },
+            {
+              "n": 12,
+              "type": "speak",
+              "text": "bracelet",
+              "clip": [
+                158.54,
+                159.74
+              ]
+            },
+            {
+              "n": 13,
+              "type": "speak",
+              "text": "earrings",
+              "clip": [
+                163.31,
+                164.6
+              ]
+            },
+            {
+              "n": 14,
+              "type": "speak",
+              "text": "necklace",
+              "clip": [
+                168.33,
+                169.56
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1C-vbact",
+          "origin": "SB",
+          "instruction": "Say what somebody is wearing. Your partner guesses who it is",
+          "note": "VB ACTIVATION (A описывает одежду одноклассника, B угадывает) → разговор с ИИ: одноклассников нет, поэтому описываем одежду людей, которых оба знают по уроку, и свою",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You play a guessing game about clothes. First, you describe what one of these people is wearing and the student guesses who it is: the milkmaid in Vermeer’s painting (a white cap, a yellow and green blouse, a blue apron, a red / brown skirt), the young man in the remake photo (a yellow T-shirt, blue trousers, a blue towel on his shoulder), yourself today (jeans, a grey sweater, white trainers, a black watch). Use the present continuous: She’s wearing… Then ask the student to describe what they are wearing today and what a person they know is wearing, and guess who it is. Correct gently if they say ‘I wear’ for now (I’m wearing) or mix up wear and carry.",
+              "goal": "Guess who your classmate is describing. Then say what you are wearing today, and describe what somebody is wearing so your classmate can guess.",
+              "opener": "Let’s play a game! I’m thinking of a person. She’s wearing a white cap and a blue apron. Who is it?",
+              "criteria": [
+                "uses the present continuous for clothes now (I’m wearing / he’s wearing)",
+                "names at least 5 clothes words from the lesson correctly",
+                "uses carry for a bag and wear for clothes / jewellery"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1C-sb5a",
+          "origin": "SB",
+          "audio": "1.29",
+          "instruction": "Look at the photo. Complete the sentences with a word or phrase from the list. Then listen and check",
+          "note": "SB 5a–b; фото ремейка The Milkmaid (SB p.11) в image. 1 in — пример. Ответы по аудио 1.29",
+          "words": [
+            "above",
+            "behind",
+            "between",
+            "in front of",
+            "in the corner",
+            "in the middle of",
+            "next to",
+            "on (x2)",
+            "on the left of",
+            "under"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "There’s a table {} him.",
+              "gaps": [
+                [
+                  "in front of"
+                ]
+              ],
+              "image": "1c_sb_photo",
+              "source": "CONFIRMED",
+              "clip": [
+                10.36,
+                12.7
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{} the table there are some eggs, some bread, and some strawberries.",
+              "gaps": [
+                [
+                  "On"
+                ]
+              ],
+              "image": "1c_sb_photo",
+              "source": "CONFIRMED",
+              "clip": [
+                15.89,
+                21.9
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "The bread is {} the table. It’s {} the eggs and the strawberries.",
+              "gaps": [
+                [
+                  "in the middle of"
+                ],
+                [
+                  "between"
+                ]
+              ],
+              "image": "1c_sb_photo",
+              "source": "CONFIRMED",
+              "clip": [
+                25.07,
+                32.48
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "There’s a board {} the bread.",
+              "gaps": [
+                [
+                  "under"
+                ]
+              ],
+              "image": "1c_sb_photo",
+              "source": "CONFIRMED",
+              "clip": [
+                35.74,
+                38.42
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "{} the man, there’s an old washing machine.",
+              "gaps": [
+                [
+                  "Behind"
+                ]
+              ],
+              "image": "1c_sb_photo",
+              "source": "CONFIRMED",
+              "clip": [
+                41.67,
+                45.92
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "There’s a window {} the photo.",
+              "gaps": [
+                [
+                  "on the left of"
+                ]
+              ],
+              "image": "1c_sb_photo",
+              "source": "CONFIRMED",
+              "clip": [
+                49.12,
+                52.48
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "{} of the room there’s a sink and some cleaning products.",
+              "gaps": [
+                [
+                  "In the corner"
+                ]
+              ],
+              "image": "1c_sb_photo",
+              "source": "CONFIRMED",
+              "clip": [
+                55.38,
+                61.2
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "There’s a flower {} the wall {} the sink.",
+              "gaps": [
+                [
+                  "on"
+                ],
+                [
+                  "above"
+                ]
+              ],
+              "image": "1c_sb_photo",
+              "source": "CONFIRMED",
+              "clip": [
+                64.37,
+                67.81
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "The sink is {} the window.",
+              "gaps": [
+                [
+                  "next to"
+                ]
+              ],
+              "image": "1c_sb_photo",
+              "source": "CONFIRMED",
+              "clip": [
+                70.94,
+                73.78
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1C-wb1b",
+          "origin": "WB",
+          "instruction": "Match descriptions 1–10 to a–j. Write the word",
+          "note": "WB 1b; пункт 1 (gloves) — пример. Принимаем и слово, и букву",
+          "words": [
+            "a blouse",
+            "b suit",
+            "c earrings",
+            "d flip-flops",
+            "e gloves",
+            "f hat",
+            "g pyjamas",
+            "h scarf",
+            "i socks",
+            "j underwear"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "This is like a shirt, but for women. {}",
+              "gaps": [
+                [
+                  "blouse",
+                  "a"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "They keep your feet warm. {}",
+              "gaps": [
+                [
+                  "socks",
+                  "i"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "This keeps your neck warm. {}",
+              "gaps": [
+                [
+                  "scarf",
+                  "h"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "You wear this on your head. {}",
+              "gaps": [
+                [
+                  "hat",
+                  "f"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "You wear these in your ears. {}",
+              "gaps": [
+                [
+                  "earrings",
+                  "c"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "People often wear this to a job interview. {}",
+              "gaps": [
+                [
+                  "suit",
+                  "b"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "You wear these when you go to bed. {}",
+              "gaps": [
+                [
+                  "pyjamas",
+                  "pajamas",
+                  "g"
+                ]
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "You wear this under your trousers and top. {}",
+              "gaps": [
+                [
+                  "underwear",
+                  "j"
+                ]
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "People wear these shoes to the beach. {}",
+              "gaps": [
+                [
+                  "flip-flops",
+                  "flip flops",
+                  "d"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1C-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with a clothes word.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "It’s very cold today. Wear {} to keep your hands warm.",
+              "gaps": [
+                [
+                  "gloves"
+                ]
+              ],
+              "explain": "gloves = for your hands.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Put a {} round your neck – it’s windy.",
+              "gaps": [
+                [
+                  "scarf"
+                ]
+              ],
+              "explain": "scarf = for your neck.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "He always wears a dark {} and a tie to the office.",
+              "gaps": [
+                [
+                  "suit"
+                ]
+              ],
+              "explain": "suit = jacket + trousers of the same material.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "She’s married – look, she’s wearing a gold {} on her finger.",
+              "gaps": [
+                [
+                  "ring",
+                  "wedding ring"
+                ]
+              ],
+              "explain": "ring = jewellery for your finger.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "At the beach I wear shorts and {} on my feet.",
+              "gaps": [
+                [
+                  "flip-flops",
+                  "flip flops",
+                  "sandals"
+                ]
+              ],
+              "explain": "flip-flops / sandals = open shoes for hot weather.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I’m going to bed. Where are my {}?",
+              "gaps": [
+                [
+                  "pyjamas",
+                  "pajamas"
+                ]
+              ],
+              "explain": "pyjamas = clothes you wear in bed.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "I never wear a skirt in winter, but I sometimes wear a dress with warm {}.",
+              "gaps": [
+                [
+                  "tights",
+                  "leggings"
+                ]
+              ],
+              "explain": "tights = thin clothes for your legs and feet, often under a skirt or a dress.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1C-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with a preposition of place.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "The number 5 is {} 4 and 6.",
+              "gaps": [
+                [
+                  "between"
+                ]
+              ],
+              "explain": "between = with one thing on each side.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Our car is {} the house, so you can’t see it from the street.",
+              "gaps": [
+                [
+                  "behind"
+                ]
+              ],
+              "explain": "behind = at the back of.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "The bank is {} the post office. They’re side by side.",
+              "gaps": [
+                [
+                  "next to",
+                  "beside"
+                ]
+              ],
+              "explain": "next to = very near, at the side of.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "The teacher is standing {} the class and all the students are looking at her.",
+              "gaps": [
+                [
+                  "in front of"
+                ]
+              ],
+              "explain": "in front of ≠ behind.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "There’s a small table {} the room, and chairs all around it.",
+              "gaps": [
+                [
+                  "in the middle of",
+                  "in the centre of"
+                ]
+              ],
+              "explain": "in the middle of = in the centre of.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "My keys aren’t in my bag. They’re {} the table.",
+              "gaps": [
+                [
+                  "on"
+                ]
+              ],
+              "explain": "on = touching the top of something.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "There’s a picture on the wall {} the sofa.",
+              "gaps": [
+                [
+                  "above",
+                  "over"
+                ]
+              ],
+              "explain": "above = higher than something.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1C-vocabulary-x3",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the correct form of wear, carry, or dress.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "She always {} a big bag to work.",
+              "gaps": [
+                [
+                  "carries"
+                ]
+              ],
+              "hint": "(wear / carry / dress)",
+              "explain": "carry for bags, cases, etc.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Look! He’s {} glasses today.",
+              "gaps": [
+                [
+                  "wearing"
+                ]
+              ],
+              "hint": "(wear / carry / dress)",
+              "explain": "wear for clothes, glasses and jewellery.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Italians usually {} very well.",
+              "gaps": [
+                [
+                  "dress"
+                ]
+              ],
+              "hint": "(wear / carry / dress)",
+              "explain": "dress (no object) = the kind of clothes people wear.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Can you help me {} this suitcase? It’s very heavy.",
+              "gaps": [
+                [
+                  "carry"
+                ]
+              ],
+              "hint": "(wear / carry / dress)",
+              "explain": "carry for bags, cases, etc.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "My sister always {} in black.",
+              "gaps": [
+                [
+                  "dresses"
+                ]
+              ],
+              "hint": "(wear / carry / dress)",
+              "explain": "dress in + colour: She dresses in black.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I don’t usually {} jewellery.",
+              "gaps": [
+                [
+                  "wear"
+                ]
+              ],
+              "hint": "(wear / carry / dress)",
+              "explain": "wear for jewellery.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1C-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "/ə/ and /ɜː/",
+      "reference": [
+        {
+          "type": "table",
+          "title": "/ə/ and /ɜː/",
+          "headers": [
+            "Sound",
+            "Word",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "/ə/",
+              "computer",
+              "trousers, trainers, sweater, cardigan, bracelet, necklace"
+            ],
+            [
+              "/ɜː/",
+              "bird",
+              "shirt, skirt, T-shirt"
+            ]
+          ],
+          "audio": "1.24"
+        },
+        {
+          "type": "note",
+          "title": "/ə/ and /ɜː/",
+          "text": "/ə/ is a short sound. It is only in unstressed syllables: computer, trousers, cardigan. /ɜː/ is a long sound. It is in stressed syllables and short words: shirt, first, work. The letters er, ir, ur, and or after w are often /ɜː/ when they are stressed: her, first, curly, work."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "1C-sb2a",
+          "origin": "SB",
+          "audio": "1.24",
+          "instruction": "Listen to these words and sounds. Practise saying them",
+          "note": "SB 2a (1.24) → Speak по словам таблицы",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "computer",
+              "clip": [
+                4.35,
+                5.73
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "trousers",
+              "clip": [
+                9.57,
+                10.9
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "trainers",
+              "clip": [
+                12.47,
+                13.78
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "sweater",
+              "clip": [
+                15.33,
+                16.61
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "cardigan",
+              "clip": [
+                18.12,
+                19.41
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "bracelet",
+              "clip": [
+                20.92,
+                22.22
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "necklace",
+              "clip": [
+                23.72,
+                25.06
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "bird",
+              "clip": [
+                28.15,
+                29.31
+              ]
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "shirt",
+              "clip": [
+                33.34,
+                34.68
+              ]
+            },
+            {
+              "n": 10,
+              "type": "speak",
+              "text": "skirt",
+              "clip": [
+                36.13,
+                37.51
+              ]
+            },
+            {
+              "n": 11,
+              "type": "speak",
+              "text": "T-shirt",
+              "clip": [
+                38.99,
+                40.4
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1C-sb2a2",
+          "origin": "SB",
+          "instruction": "Which sound is only in unstressed syllables?",
+          "note": "SB 2a, вопрос → Blank",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "The sound that is only in unstressed syllables: {}",
+              "gaps": [
+                [
+                  "/ə/",
+                  "ə",
+                  "1",
+                  "computer",
+                  "schwa"
+                ]
+              ],
+              "hint": "(1 computer /ə/ or 2 bird /ɜː/)",
+              "explain": "/ə/ (computer) is never stressed; /ɜː/ (bird) is in stressed syllables.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1C-sb2b",
+          "origin": "SB",
+          "audio": "1.25",
+          "instruction": "Which sound do the pink letters have, 1 or 2? Then listen and check",
+          "note": "SB 2b–c; painter — пример. Подчеркнуть ударный слог нельзя (TODO), розовые буквы — p-er, h-er, f-ir-st, photogr-a-ph, pict-ure, pref-er, c-ur-ly, a-ttractive, occasi-o-n, w-or-k, univ-er-sity. Ответы по аудио 1.25",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "her → sound {}",
+              "gaps": [
+                [
+                  "2",
+                  "bird",
+                  "/ɜː/",
+                  "ɜː",
+                  "/ɜ:/"
+                ]
+              ],
+              "hint": "(1 computer /ə/ or 2 bird /ɜː/)",
+              "source": "CONFIRMED",
+              "clip": [
+                7.08,
+                9.74
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "first → sound {}",
+              "gaps": [
+                [
+                  "2",
+                  "bird",
+                  "/ɜː/",
+                  "ɜː",
+                  "/ɜ:/"
+                ]
+              ],
+              "hint": "(1 computer /ə/ or 2 bird /ɜː/)",
+              "source": "CONFIRMED",
+              "clip": [
+                11.22,
+                14.23
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "photograph → sound {}",
+              "gaps": [
+                [
+                  "1",
+                  "computer",
+                  "/ə/",
+                  "ə"
+                ]
+              ],
+              "hint": "(1 computer /ə/ or 2 bird /ɜː/)",
+              "source": "CONFIRMED",
+              "clip": [
+                15.72,
+                18.83
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "picture → sound {}",
+              "gaps": [
+                [
+                  "1",
+                  "computer",
+                  "/ə/",
+                  "ə"
+                ]
+              ],
+              "hint": "(1 computer /ə/ or 2 bird /ɜː/)",
+              "source": "CONFIRMED",
+              "clip": [
+                20.33,
+                23.1
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "prefer → sound {}",
+              "gaps": [
+                [
+                  "2",
+                  "bird",
+                  "/ɜː/",
+                  "ɜː",
+                  "/ɜ:/"
+                ]
+              ],
+              "hint": "(1 computer /ə/ or 2 bird /ɜː/)",
+              "source": "CONFIRMED",
+              "clip": [
+                24.57,
+                27.47
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "curly → sound {}",
+              "gaps": [
+                [
+                  "2",
+                  "bird",
+                  "/ɜː/",
+                  "ɜː",
+                  "/ɜ:/"
+                ]
+              ],
+              "hint": "(1 computer /ə/ or 2 bird /ɜː/)",
+              "source": "CONFIRMED",
+              "clip": [
+                28.94,
+                31.74
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "attractive → sound {}",
+              "gaps": [
+                [
+                  "1",
+                  "computer",
+                  "/ə/",
+                  "ə"
+                ]
+              ],
+              "hint": "(1 computer /ə/ or 2 bird /ɜː/)",
+              "source": "CONFIRMED",
+              "clip": [
+                33.28,
+                36.23
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "occasion → sound {}",
+              "gaps": [
+                [
+                  "1",
+                  "computer",
+                  "/ə/",
+                  "ə"
+                ]
+              ],
+              "hint": "(1 computer /ə/ or 2 bird /ɜː/)",
+              "source": "CONFIRMED",
+              "clip": [
+                37.7,
+                40.64
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "work → sound {}",
+              "gaps": [
+                [
+                  "2",
+                  "bird",
+                  "/ɜː/",
+                  "ɜː",
+                  "/ɜ:/"
+                ]
+              ],
+              "hint": "(1 computer /ə/ or 2 bird /ɜː/)",
+              "source": "CONFIRMED",
+              "clip": [
+                42.11,
+                44.85
+              ]
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "university → sound {}",
+              "gaps": [
+                [
+                  "2",
+                  "bird",
+                  "/ɜː/",
+                  "ɜː",
+                  "/ɜ:/"
+                ]
+              ],
+              "hint": "(1 computer /ə/ or 2 bird /ɜː/)",
+              "source": "CONFIRMED",
+              "clip": [
+                46.32,
+                49.5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1C-sb2d",
+          "origin": "SB",
+          "instruction": "Ask and answer: What clothes do you usually wear…?",
+          "note": "SB 2d → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You and the student ask and answer: What clothes do you usually wear… for work / university / school? when you go out at night? when you want to relax at the weekend? for a special occasion? Your answers: for work you usually wear trousers, a shirt and a cardigan; at night – jeans, a black top and boots; at the weekend – a tracksuit and trainers; for a wedding – a suit and a tie. Answer one question at a time and then ask the student the same question. Use the present simple for habits (I usually wear…). Say the clothes words clearly, and if the student mispronounces shirt, skirt, T-shirt (/ɜː/) or trousers, sweater, cardigan (/ə/), repeat the word correctly in your answer.",
+              "goal": "Ask your classmate what clothes they usually wear for work or school, when they go out at night, at the weekend, and for a special occasion. Answer the same questions.",
+              "opener": "OK, my turn first. For work I usually wear trousers, a shirt and a cardigan. What about you? What do you usually wear for work or school?",
+              "criteria": [
+                "asks at least two of the questions (What do you usually wear…?)",
+                "answers all four situations with clothes words from the lesson",
+                "uses the present simple for habits (I usually wear…)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1C-wb2a",
+          "origin": "WB",
+          "instruction": "Which sound do the bold letters have, 1 or 2? Write the number",
+          "note": "WB 2a «Write the words in the chart» → Blank 1/2; cardigan и prefer — примеры",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "fashion (io) → sound {}",
+              "gaps": [
+                [
+                  "1",
+                  "computer",
+                  "/ə/",
+                  "ə"
+                ]
+              ],
+              "hint": "(1 computer /ə/ or 2 bird /ɜː/)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "sandals (a in -dals) → sound {}",
+              "gaps": [
+                [
+                  "1",
+                  "computer",
+                  "/ə/",
+                  "ə"
+                ]
+              ],
+              "hint": "(1 computer /ə/ or 2 bird /ɜː/)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "sweater (er) → sound {}",
+              "gaps": [
+                [
+                  "1",
+                  "computer",
+                  "/ə/",
+                  "ə"
+                ]
+              ],
+              "hint": "(1 computer /ə/ or 2 bird /ɜː/)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "trainers (ers) → sound {}",
+              "gaps": [
+                [
+                  "1",
+                  "computer",
+                  "/ə/",
+                  "ə"
+                ]
+              ],
+              "hint": "(1 computer /ə/ or 2 bird /ɜː/)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "trousers (ers) → sound {}",
+              "gaps": [
+                [
+                  "1",
+                  "computer",
+                  "/ə/",
+                  "ə"
+                ]
+              ],
+              "hint": "(1 computer /ə/ or 2 bird /ɜː/)"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "shirt (ir) → sound {}",
+              "gaps": [
+                [
+                  "2",
+                  "bird",
+                  "/ɜː/",
+                  "ɜː",
+                  "/ɜ:/"
+                ]
+              ],
+              "hint": "(1 computer /ə/ or 2 bird /ɜː/)"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "skirt (ir) → sound {}",
+              "gaps": [
+                [
+                  "2",
+                  "bird",
+                  "/ɜː/",
+                  "ɜː",
+                  "/ɜ:/"
+                ]
+              ],
+              "hint": "(1 computer /ə/ or 2 bird /ɜː/)"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "third (ir) → sound {}",
+              "gaps": [
+                [
+                  "2",
+                  "bird",
+                  "/ɜː/",
+                  "ɜː",
+                  "/ɜ:/"
+                ]
+              ],
+              "hint": "(1 computer /ə/ or 2 bird /ɜː/)"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "T-shirt (ir) → sound {}",
+              "gaps": [
+                [
+                  "2",
+                  "bird",
+                  "/ɜː/",
+                  "ɜː",
+                  "/ɜ:/"
+                ]
+              ],
+              "hint": "(1 computer /ə/ or 2 bird /ɜː/)"
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "world (or) → sound {}",
+              "gaps": [
+                [
+                  "2",
+                  "bird",
+                  "/ɜː/",
+                  "ɜː",
+                  "/ɜ:/"
+                ]
+              ],
+              "hint": "(1 computer /ə/ or 2 bird /ɜː/)"
+            }
+          ]
+        },
+        {
+          "id": "1C-wb2b",
+          "origin": "WB",
+          "instruction": "Listen and check. Then listen again and repeat the words",
+          "note": "WB 2b (трек WB 1.3 — аудио WB нет): Speak на ряды из 2a, образец — синтезатор",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "cardigan, fashion, sandals, sweater, trainers, trousers"
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "prefer, shirt, skirt, third, T-shirt, world"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1C-grammar",
+      "kind": "GRAMMAR",
+      "title": "present continuous",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Present continuous: be + verb + -ing",
+          "headers": [
+            "",
+            "I",
+            "you / we / they",
+            "he / she / it"
+          ],
+          "rows": [
+            [
+              "+",
+              "I’m working.",
+              "You’re working.",
+              "He’s working."
+            ],
+            [
+              "−",
+              "I’m not working.",
+              "We aren’t working.",
+              "She isn’t working."
+            ],
+            [
+              "?",
+              "Am I working?",
+              "Are you working?",
+              "Is he working?"
+            ],
+            [
+              "✓ ✗",
+              "Yes, I am. / No, I’m not.",
+              "Yes, we are. / No, we aren’t.",
+              "Yes, he is. / No, he isn’t."
+            ]
+          ],
+          "audio": "1.26"
+        },
+        {
+          "type": "note",
+          "title": "Use",
+          "text": "We use the present continuous: 1 for things happening now, at this moment: A What are you doing? B I’m sending a message to Sarah. 2 for temporary things that are happening around now, this week, etc.: My brother is doing a two-month course in the UK. 3 to describe what’s happening in a picture: In this picture the woman is standing near a table."
+        },
+        {
+          "type": "table",
+          "title": "Spelling: -ing form",
+          "headers": [
+            "Rule",
+            "Example"
+          ],
+          "rows": [
+            [
+              "add -ing",
+              "cook → cooking, study → studying"
+            ],
+            [
+              "cut the final e and add -ing",
+              "live → living"
+            ],
+            [
+              "consonant-vowel-consonant: double the final consonant and add -ing",
+              "run → running"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Present simple or present continuous?",
+          "headers": [
+            "",
+            "Example"
+          ],
+          "rows": [
+            [
+              "present simple: things that are generally true or always happen",
+              "A What do you do? B I work for an IT company."
+            ],
+            [
+              "present continuous: an action happening now, at this moment",
+              "A What are you doing? B I’m checking my messages."
+            ],
+            [
+              "non-action verbs (want, need, like…) — present simple",
+              "I like this painting, it’s beautiful."
+            ]
+          ],
+          "audio": "1.27"
+        },
+        {
+          "type": "mistake",
+          "wrong": "I’m liking Italian food.",
+          "right": "I like Italian food.",
+          "why": "like is a non-action verb (like want, need): we use it in the present simple, not the present continuous."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "1C-sb3a",
+          "origin": "SB",
+          "instruction": "Look at some sentences about the painting (a woman) and the photo (a man). Complete them with He’s, She’s, or They’re",
+          "note": "SB 3a; нужны сразу обе картинки (картина + фото) — одна image на пункт не подходит, поэтому без картинок (TODO). Ответы наши (MODEL)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "{} wearing yellow and blue clothes.",
+              "gaps": [
+                [
+                  "They’re",
+                  "They are"
+                ]
+              ],
+              "hint": "(He’s / She’s / They’re)",
+              "explain": "Both: the woman has a yellow top and a blue apron, the man a yellow T-shirt and blue trousers.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "{} wearing a cap.",
+              "gaps": [
+                [
+                  "She’s",
+                  "She is"
+                ]
+              ],
+              "hint": "(He’s / She’s / They’re)",
+              "explain": "The woman in the painting is wearing a white cap.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{} pouring milk from a bottle.",
+              "gaps": [
+                [
+                  "He’s",
+                  "He is"
+                ]
+              ],
+              "hint": "(He’s / She’s / They’re)",
+              "explain": "The man in the photo is pouring milk from a bottle.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{} pouring milk from a jug.",
+              "gaps": [
+                [
+                  "She’s",
+                  "She is"
+                ]
+              ],
+              "hint": "(He’s / She’s / They’re)",
+              "explain": "The woman in the painting is pouring milk from a jug.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{} looking at the milk.",
+              "gaps": [
+                [
+                  "They’re",
+                  "They are"
+                ]
+              ],
+              "hint": "(He’s / She’s / They’re)",
+              "explain": "Both the woman and the man are looking at the milk.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "{} standing near a window.",
+              "gaps": [
+                [
+                  "She’s",
+                  "She is"
+                ]
+              ],
+              "hint": "(He’s / She’s / They’re)",
+              "explain": "In the painting there’s a window next to the woman.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1C-sb3b",
+          "origin": "SB",
+          "instruction": "Choose the correct form of the verb, present continuous or present simple",
+          "note": "SB 3b Circle → Blank с вариантами в hint",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "In the photo the man {} a cap.",
+              "gaps": [
+                [
+                  "isn’t wearing",
+                  "is not wearing"
+                ]
+              ],
+              "hint": "(isn’t wearing / doesn’t wear)",
+              "image": "1c_sb_photo",
+              "explain": "In the photo = now, at this moment → present continuous.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "People often {} aprons in the kitchen.",
+              "gaps": [
+                [
+                  "wear"
+                ]
+              ],
+              "hint": "(wear / are wearing)",
+              "explain": "often = a habit → present simple.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1C-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Write sentences with the present continuous. Use contractions where you can",
+          "note": "GB 1C a; пример It / snow (−) → It isn’t snowing. Ключа к GB нет — ответы наши (MODEL)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "Oliver / wear a suit today!",
+              "answers": [
+                "Oliver’s wearing a suit today!",
+                "Oliver is wearing a suit today!"
+              ],
+              "hint": "(+)",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "It’s hot. Why / wear a coat / ?",
+              "answers": [
+                "It’s hot. Why are you wearing a coat?",
+                "Why are you wearing a coat?"
+              ],
+              "hint": "(?)",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Jane / sit in her usual place today",
+              "answers": [
+                "Jane isn’t sitting in her usual place today.",
+                "Jane’s not sitting in her usual place today.",
+                "Jane is not sitting in her usual place today."
+              ],
+              "hint": "(−)",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "Hey! You / stand on my foot!",
+              "answers": [
+                "Hey! You’re standing on my foot!",
+                "Hey! You are standing on my foot!"
+              ],
+              "hint": "(+)",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "what book / you read / ?",
+              "answers": [
+                "What book are you reading?"
+              ],
+              "hint": "(?)",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "we / rent a small flat at the moment",
+              "answers": [
+                "We’re renting a small flat at the moment.",
+                "We are renting a small flat at the moment."
+              ],
+              "hint": "(+)",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "she / wear make-up / ?",
+              "answers": [
+                "Is she wearing make-up?"
+              ],
+              "hint": "(?)",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prompt": "I / plan a trip to the USA",
+              "answers": [
+                "I’m planning a trip to the USA.",
+                "I am planning a trip to the USA."
+              ],
+              "hint": "(+)",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "rewrite",
+              "prompt": "your brother / work in London this week / ?",
+              "answers": [
+                "Is your brother working in London this week?"
+              ],
+              "hint": "(?)",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "rewrite",
+              "prompt": "they / get on very well at the moment",
+              "answers": [
+                "They aren’t getting on very well at the moment.",
+                "They’re not getting on very well at the moment.",
+                "They are not getting on very well at the moment."
+              ],
+              "hint": "(−)",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1C-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the sentences with the present simple or present continuous",
+          "note": "GB 1C b; пример The girl in the painting is playing the guitar. Ключа к GB нет — ответы наши (MODEL)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "My dog’s not dangerous. He {}.",
+              "gaps": [
+                [
+                  "doesn’t bite",
+                  "does not bite"
+                ]
+              ],
+              "hint": "(not bite)",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Why {} you {} sunglasses?\nIt {}!",
+              "gaps": [
+                [
+                  "are"
+                ],
+                [
+                  "wearing"
+                ],
+                [
+                  "’s raining",
+                  "is raining"
+                ]
+              ],
+              "hint": "(wear, rain)",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "You can turn off the radio. I {} to it.",
+              "gaps": [
+                [
+                  "’m not listening",
+                  "am not listening"
+                ]
+              ],
+              "hint": "(not listen)",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I {} to find a cash machine.",
+              "gaps": [
+                [
+                  "need"
+                ]
+              ],
+              "hint": "(need)",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Be careful! The baby {} your pen in her mouth!",
+              "gaps": [
+                [
+                  "’s putting",
+                  "is putting"
+                ]
+              ],
+              "hint": "(put)",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "{} you usually {} at weekends?\nNo, we normally {} out.",
+              "gaps": [
+                [
+                  "Do"
+                ],
+                [
+                  "cook"
+                ],
+                [
+                  "eat"
+                ]
+              ],
+              "hint": "(cook, eat)",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "What {} you {} here?\nI {} for Emma. She’s late, as usual.",
+              "gaps": [
+                [
+                  "are"
+                ],
+                [
+                  "doing"
+                ],
+                [
+                  "’m waiting",
+                  "am waiting"
+                ]
+              ],
+              "hint": "(do, wait)",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I usually {} tea, but I {} a coffee today.",
+              "gaps": [
+                [
+                  "drink"
+                ],
+                [
+                  "want"
+                ]
+              ],
+              "hint": "(drink, want)",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "She’s an administrator. She {} from 9.00 to 5.00.",
+              "gaps": [
+                [
+                  "works"
+                ]
+              ],
+              "hint": "(work)",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "Marc {} in Paris, but he {} in Nice at the moment.",
+              "gaps": [
+                [
+                  "lives"
+                ],
+                [
+                  "’s working",
+                  "is working"
+                ]
+              ],
+              "hint": "(live, work)",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1C-wb3a",
+          "origin": "WB",
+          "dialogue": true,
+          "instruction": "Complete the conversation with the present continuous form of the verbs in brackets. Use contractions where possible",
+          "note": "WB 3a; 1 What are you doing — пример. Пункт = реплика с пропуском + предыдущая реплика",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "What are you doing, Stefan?\nI {} at some paintings online. I want to buy a poster of one for the living room.",
+              "gaps": [
+                [
+                  "’m looking",
+                  "am looking"
+                ]
+              ],
+              "hint": "(look)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I’m looking at some paintings online. I want to buy a poster of one for the living room.\nMy sister {} an art course at the moment. Perhaps she can paint something for us.",
+              "gaps": [
+                [
+                  "’s doing",
+                  "is doing"
+                ]
+              ],
+              "hint": "(do)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "My sister’s doing an art course at the moment. Perhaps she can paint something for us.\nUm…perhaps. But look at this one – it’s really beautiful. It’s by Vermeer, and there’s a girl who {} a blue and yellow scarf on her head and a big pearl earring.",
+              "gaps": [
+                [
+                  "’s wearing",
+                  "is wearing"
+                ]
+              ],
+              "hint": "(wear)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Um…perhaps. But look at this one – it’s really beautiful. It’s by Vermeer, and there’s a girl who’s wearing a blue and yellow scarf on her head and a big pearl earring.\nI’m not sure. She {}.",
+              "gaps": [
+                [
+                  "isn’t smiling",
+                  "’s not smiling",
+                  "is not smiling"
+                ]
+              ],
+              "hint": "(not / smile)"
+            }
+          ]
+        },
+        {
+          "id": "1C-wb3b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the present simple or present continuous form of a verb from the list. Use contractions where possible",
+          "note": "WB 3b; 1 like — пример",
+          "words": [
+            "drink",
+            "drive",
+            "like",
+            "live",
+            "rain",
+            "sleep",
+            "study",
+            "wear"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Charles always {} to work.",
+              "gaps": [
+                [
+                  "drives"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Shhhh! The children {}.",
+              "gaps": [
+                [
+                  "are sleeping",
+                  "’re sleeping"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "We can’t play tennis today. It {}.",
+              "gaps": [
+                [
+                  "’s raining",
+                  "is raining"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Fiona {} four cups of coffee every day.",
+              "gaps": [
+                [
+                  "drinks"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Kathy always {} jeans at home.",
+              "gaps": [
+                [
+                  "wears"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "They can’t come to the theatre because they {} for the exam tomorrow.",
+              "gaps": [
+                [
+                  "’re studying",
+                  "are studying"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "My parents {} in a big house in the country.",
+              "gaps": [
+                [
+                  "live"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1C-wb3c",
+          "origin": "WB",
+          "instruction": "A picture of a park. Complete the questions with the present simple or present continuous form of the verb in brackets",
+          "note": "WB 3c; 1 What is the man on the bench reading — пример. Картинку из WB не вырезать (tools/images.py берёт только SB) — вопросы без неё, ответы от картинки не зависят. WB 3d (ответить по картинке) не перенесено (TODO)",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "What {} the boys under the tree {}?",
+              "gaps": [
+                [
+                  "are"
+                ],
+                [
+                  "playing"
+                ]
+              ],
+              "hint": "(play)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "What {} the woman on the left {}?",
+              "gaps": [
+                [
+                  "is"
+                ],
+                [
+                  "doing"
+                ]
+              ],
+              "hint": "(do)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "The woman on the left: What {} she {}?",
+              "gaps": [
+                [
+                  "is"
+                ],
+                [
+                  "wearing"
+                ]
+              ],
+              "hint": "(wear)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "What {} the woman on the right {}?",
+              "gaps": [
+                [
+                  "is"
+                ],
+                [
+                  "wearing"
+                ]
+              ],
+              "hint": "(wear)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "The woman on the right: What {} she {}?",
+              "gaps": [
+                [
+                  "is"
+                ],
+                [
+                  "carrying"
+                ]
+              ],
+              "hint": "(carry)"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "What {} the runner {}?",
+              "gaps": [
+                [
+                  "is"
+                ],
+                [
+                  "wearing"
+                ]
+              ],
+              "hint": "(wear)"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "What {} the man under the tree {}?",
+              "gaps": [
+                [
+                  "is"
+                ],
+                [
+                  "doing"
+                ]
+              ],
+              "hint": "(do)"
+            }
+          ]
+        },
+        {
+          "id": "1C-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the present continuous form of the verb.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Look outside! It {}.",
+              "gaps": [
+                [
+                  "’s snowing",
+                  "is snowing"
+                ]
+              ],
+              "hint": "(snow)",
+              "explain": "Now, at this moment → it’s + verb-ing.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Please be quiet. The baby {}.",
+              "gaps": [
+                [
+                  "’s sleeping",
+                  "is sleeping"
+                ]
+              ],
+              "hint": "(sleep)",
+              "explain": "he / she / it + ’s (is) + verb-ing.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{} you {} to me?",
+              "gaps": [
+                [
+                  "Are"
+                ],
+                [
+                  "listening"
+                ]
+              ],
+              "hint": "(listen)",
+              "explain": "Questions: Are you + verb-ing?",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I {} a jacket today because it’s very hot.",
+              "gaps": [
+                [
+                  "’m not wearing",
+                  "am not wearing"
+                ]
+              ],
+              "hint": "(not wear)",
+              "explain": "Negative: I’m not + verb-ing.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Why {} she {}? Is she sad?",
+              "gaps": [
+                [
+                  "is"
+                ],
+                [
+                  "crying"
+                ]
+              ],
+              "hint": "(cry)",
+              "explain": "Wh- question: Why is she + verb-ing?",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "We {} in a hotel this week because our flat is being painted.",
+              "gaps": [
+                [
+                  "’re staying",
+                  "are staying"
+                ]
+              ],
+              "hint": "(stay)",
+              "explain": "A temporary situation (this week) → present continuous.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "My friends {} for me. I have to go.",
+              "gaps": [
+                [
+                  "are waiting",
+                  "’re waiting"
+                ]
+              ],
+              "hint": "(wait)",
+              "explain": "they + are + verb-ing.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1C-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Write the -ing form of the verbs.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "swim → {}",
+              "gaps": [
+                [
+                  "swimming"
+                ]
+              ],
+              "explain": "consonant-vowel-consonant: double the final consonant.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "write → {}",
+              "gaps": [
+                [
+                  "writing"
+                ]
+              ],
+              "explain": "Cut the final e and add -ing.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "sit → {}",
+              "gaps": [
+                [
+                  "sitting"
+                ]
+              ],
+              "explain": "consonant-vowel-consonant: double the final consonant.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "make → {}",
+              "gaps": [
+                [
+                  "making"
+                ]
+              ],
+              "explain": "Cut the final e and add -ing.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "play → {}",
+              "gaps": [
+                [
+                  "playing"
+                ]
+              ],
+              "explain": "y after a vowel: just add -ing.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "get → {}",
+              "gaps": [
+                [
+                  "getting"
+                ]
+              ],
+              "explain": "consonant-vowel-consonant: double the final consonant.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1C-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the present simple or present continuous.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I {} coffee. I never drink it.",
+              "gaps": [
+                [
+                  "don’t like",
+                  "do not like"
+                ]
+              ],
+              "hint": "(not like)",
+              "explain": "like is a non-action verb → present simple.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Listen! Somebody {} the piano next door.",
+              "gaps": [
+                [
+                  "’s playing",
+                  "is playing"
+                ]
+              ],
+              "hint": "(play)",
+              "explain": "Listen! = now → present continuous.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "She usually {} to work, but today she’s taking the bus.",
+              "gaps": [
+                [
+                  "walks"
+                ]
+              ],
+              "hint": "(walk)",
+              "explain": "usually = a habit → present simple.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "What {} you {} at the moment? I’m reading a novel.",
+              "gaps": [
+                [
+                  "are"
+                ],
+                [
+                  "reading"
+                ]
+              ],
+              "hint": "(read)",
+              "explain": "at the moment → present continuous.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I {} a new phone. This one is very old.",
+              "gaps": [
+                [
+                  "need"
+                ]
+              ],
+              "hint": "(need)",
+              "explain": "need is a non-action verb → present simple.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Water {} at 100 degrees.",
+              "gaps": [
+                [
+                  "boils"
+                ]
+              ],
+              "hint": "(boil)",
+              "explain": "Always true → present simple.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "{} you {} what I mean?",
+              "gaps": [
+                [
+                  "Do"
+                ],
+                [
+                  "understand"
+                ]
+              ],
+              "hint": "(understand)",
+              "explain": "understand is a non-action verb → present simple.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1C-skills",
+      "kind": "SKILLS",
+      "title": "Listening & Speaking",
+      "reference": [
+        {
+          "type": "note",
+          "title": "The Remake Project",
+          "text": "The Remake Project was the idea of Canadian artist Jeff Hamada. He asked readers of his website to remake a famous work of art as a photo. Hundreds of people sent photos to the project and the photos appeared in blogs, in newspapers, and in a book."
+        },
+        {
+          "type": "note",
+          "title": "Describing a picture (a painting or photo)",
+          "text": "When we describe a picture, we normally use There is / There are to say what’s in the picture, and we use the present continuous to say what the people are doing, e.g. There’s a table with some bread on it. The woman is standing next to the table."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "1C-sb4a",
+          "origin": "SB",
+          "audio": "1.28",
+          "instruction": "Listen to an art expert talking about Vermeer and The Milkmaid. Answer the questions",
+          "note": "SB 4a–b; a/b/c → Blank с вариантами в hint. Ответы по скрипту 1.28 (SB p.120)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "What century did Vermeer live in? The {} century.",
+              "gaps": [
+                [
+                  "17th",
+                  "seventeenth"
+                ]
+              ],
+              "hint": "(15th / 17th / 19th)",
+              "explain": "‘Johannes Vermeer was a seventeenth-century painter.’",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Where was he from? {}",
+              "gaps": [
+                [
+                  "Holland",
+                  "from Holland",
+                  "Delft",
+                  "the Netherlands"
+                ]
+              ],
+              "hint": "(Holland / Germany / Russia)",
+              "explain": "‘…from the city of Delft in Holland.’",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "What kind of things did he usually paint? {}",
+              "gaps": [
+                [
+                  "everyday scenes"
+                ]
+              ],
+              "hint": "(everyday scenes / portraits of rich people / trees and flowers)",
+              "explain": "‘He mainly painted the people and things he saw around him… the things they did every day.’",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "What is the milkmaid probably making? {}",
+              "gaps": [
+                [
+                  "a pudding",
+                  "pudding",
+                  "a bread and milk pudding"
+                ]
+              ],
+              "hint": "(butter / bread / a pudding)",
+              "image": "1c_sb_painting",
+              "explain": "‘Perhaps she’s making a bread and milk pudding.’",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "How many of Vermeer’s paintings exist today? {}",
+              "gaps": [
+                [
+                  "34",
+                  "thirty-four"
+                ]
+              ],
+              "hint": "(4 / 34 / 304)",
+              "explain": "‘Today there are only 34 paintings which we can be sure are by him.’",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Why was the painting expensive to make? Because {}.",
+              "gaps": [
+                [
+                  "some of the paints were very expensive",
+                  "the paints were very expensive",
+                  "some paints were very expensive"
+                ]
+              ],
+              "hint": "(it’s very big / some of the paints were very expensive / he rented an expensive studio)",
+              "explain": "‘The blue paint he used for the Milkmaid’s apron was made of lapis lazuli, which was a very expensive stone.’",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "1C-sb4c",
+          "origin": "SB",
+          "audio": "1.28",
+          "instruction": "What can you remember from the expert’s talk? Listen again and complete the notes",
+          "note": "SB 4c «make notes» → Blank по скрипту 1.28; 1 Delft — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Light coming through windows: because of it, people often describe Vermeer’s work as being like {} or film.",
+              "gaps": [
+                [
+                  "photography",
+                  "photographs",
+                  "photos"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "His wife, his daughter, and his servant: most people think Vermeer usually painted them, not {}.",
+              "gaps": [
+                [
+                  "models"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Girl with a Pearl Earring: a famous book and {} about Vermeer and his young servant.",
+              "gaps": [
+                [
+                  "film",
+                  "movie"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "The milkmaid’s apron: the blue paint was made of lapis lazuli, a very expensive {}.",
+              "gaps": [
+                [
+                  "stone"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "175 Dutch guilders: 20 years after Vermeer died, somebody {} the painting for this money.",
+              "gaps": [
+                [
+                  "bought",
+                  "paid"
+                ]
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "1C-sb6b",
+          "origin": "SB",
+          "instruction": "Ask and answer the questions about paintings and pictures",
+          "note": "SB 6b (в группах) → разговор с ИИ; SB 1a (хороший ли ремейк) — сюда же, картинки в разговор не показать",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You talk about art with the student. Ask these questions one at a time and give your own short answers too: Is there a painting you know that you would like to remake? What pictures or posters do you have on the wall in your bedroom or living room? Do you have any favourite painters or paintings? Who or what are they? Why do you like them? What famous painters are there from your country? Do you like any of their paintings? Do you (or did you) paint or draw? What kind of things? Your answers: you’d like to remake Van Gogh’s The Bedroom; you have a poster of The Milkmaid by Vermeer in your living room; your favourite painter is Frida Kahlo; you draw people on the train. When the student describes a picture, encourage There is / There are and the present continuous (A woman is standing…).",
+              "goal": "Talk about art with your classmate: a painting you would like to remake, pictures on your walls, your favourite painters and paintings, famous painters from your country, and whether you paint or draw.",
+              "opener": "I love the Remake Project! Is there a famous painting you would like to remake?",
+              "criteria": [
+                "answers at least four of the questions with a reason",
+                "describes a picture with There is / There are and the present continuous",
+                "asks the classmate at least one question back"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1A-practical",
+      "kind": "PRACTICAL_ENGLISH",
+      "title": "Episode 1 · Hotel problems",
+      "note": "SB Practical English Episode 1 (p.12–13, PDF 13–14). В книге — после File 1 (1A+1B), поэтому в конце 1C; id `1A-pe…` сохранены ради прогресса. Скриптов PE в SB нет — ответы по самим роликам (расшифровка).",
+      "reference": [
+        {
+          "type": "note",
+          "title": "I'll",
+          "text": "A: There's a problem with the air conditioning. B: I'll send somebody to look at it. I'll = I will. We use I'll + verb to offer to do something."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "1A-pe1a",
+          "origin": "SB",
+          "video": "ep1_introduction",
+          "instruction": "Watch Jenny. Number the pictures 1–6 in the order she mentions them",
+          "note": "SB PE1 1a; картинки A–F из SB p.12 (tools/images.py), расставить списком. Порядок — наш (MODEL)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "order",
+              "pictures": [
+                {
+                  "label": "A",
+                  "image": "1a_pe1a_a",
+                  "caption": "Rob in a new shirt"
+                },
+                {
+                  "label": "B",
+                  "image": "1a_pe1a_b",
+                  "caption": "Jenny at Arrivals with her suitcase"
+                },
+                {
+                  "label": "C",
+                  "image": "1a_pe1a_c",
+                  "caption": "Jenny and Rob with coffee"
+                },
+                {
+                  "label": "D",
+                  "image": "1a_pe1a_d",
+                  "caption": "Jenny shakes hands with the manager"
+                },
+                {
+                  "label": "E",
+                  "image": "1a_pe1a_e",
+                  "caption": "Rob next to a yellow taxi"
+                },
+                {
+                  "label": "F",
+                  "image": "1a_pe1a_f",
+                  "caption": "Jenny and Rob under an umbrella by the river"
+                }
+              ],
+              "answer": [
+                "B",
+                "D",
+                "C",
+                "F",
+                "A",
+                "E"
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1A-pe1b",
+          "origin": "SB",
+          "video": "ep1_introduction",
+          "instruction": "Watch again and answer the questions",
+          "note": "SB PE1 1b; свободные ответы переделаны в пропуски по тексту ролика",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "What does Jenny do? She's the assistant {} of a magazine called New York 24seven.",
+              "gaps": [
+                [
+                  "editor"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Where did she go a few months ago? She visited the magazine's office in {}.",
+              "gaps": [
+                [
+                  "London"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Who's Rob Walker? He's one of the {} on the London magazine.",
+              "gaps": [
+                [
+                  "writers"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "What did they do together? They had {} together and they went {}.",
+              "gaps": [
+                [
+                  "coffees",
+                  "coffee"
+                ],
+                [
+                  "sightseeing"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "What does she think of Rob? He was {} to be with. She liked him a lot.",
+              "gaps": [
+                [
+                  "fun"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "What's Rob's one negative quality? He isn't the most {} person in the world.",
+              "gaps": [
+                [
+                  "punctual"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "How long is Rob going to be in New York? For a {}.",
+              "gaps": [
+                [
+                  "month"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1A-pe2a",
+          "origin": "SB",
+          "video": "ep1_calling_reception",
+          "instruction": "Watch Rob. Who does Rob call? Why?",
+          "note": "SB PE1 2a",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "He calls {}.",
+              "gaps": [
+                [
+                  "reception",
+                  "the reception",
+                  "hotel reception",
+                  "the hotel reception"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "First there's a problem with the {}, and then with the {}.",
+              "gaps": [
+                [
+                  "air conditioning",
+                  "air-conditioning",
+                  "air con"
+                ],
+                [
+                  "wi-fi",
+                  "wifi",
+                  "internet"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1A-pe2b",
+          "origin": "SB",
+          "video": "ep1_calling_reception",
+          "instruction": "Watch again. Complete the You hear phrases",
+          "note": "SB PE1 2b; ответы — дословно из ролика",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Receptionist: How can I {} you?",
+              "gaps": [
+                [
+                  "help"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                19.65,
+                21.2
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Receptionist: I'm sorry, sir. I'll {} somebody up to look at it right now.",
+              "gaps": [
+                [
+                  "send"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                26.4,
+                30.1
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Receptionist: Good {}, reception.",
+              "gaps": [
+                [
+                  "evening"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                38.8,
+                40.7
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Receptionist: I'm sorry, sir. I'll {} you through to IT.",
+              "gaps": [
+                [
+                  "put"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                49.8,
+                53.3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-pe2c",
+          "origin": "SB",
+          "video": "ep1_you_say",
+          "instruction": "Watch and repeat the You say phrases. Copy the rhythm",
+          "note": "SB PE1 2c (1.32)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "Hello. This is room 613.",
+              "source": "CONFIRMED",
+              "answers": [
+                "Hello. This is room 613.",
+                "Hello. This is room 6 1 3.",
+                "Hello. This is room 6 13."
+              ],
+              "clip": [
+                17.02,
+                19.8
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "There's a problem with the air conditioning.",
+              "source": "CONFIRMED",
+              "clip": [
+                28.64,
+                30.8
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "It isn't working, and it's very hot in my room.",
+              "source": "CONFIRMED",
+              "clip": [
+                35.9,
+                39.35
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "Hello. I'm sorry to bother you again. This is room 613.",
+              "source": "CONFIRMED",
+              "answers": [
+                "Hello. I'm sorry to bother you again. This is room 613.",
+                "Hello. I'm sorry to bother you again. This is room 6 1 3.",
+                "Hello. I'm sorry to bother you again. This is room 6 13."
+              ],
+              "clip": [
+                63.34,
+                74.4
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "I have a problem with the wi-fi.",
+              "source": "CONFIRMED",
+              "answers": [
+                "I have a problem with the wi-fi.",
+                "I have a problem with the wifi."
+              ],
+              "clip": [
+                80.68,
+                82.95
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "I can't get a signal.",
+              "source": "CONFIRMED",
+              "clip": [
+                88.0,
+                89.9
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-pe2e",
+          "origin": "SB",
+          "instruction": "Role-play: you are a hotel guest. Call reception about two problems with your room",
+          "note": "SB PE1 2d–e (B — guest)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are the receptionist at a hotel in New York. The student is a guest who calls reception about two problems with their room (they choose the problems). You have already answered the phone. After each problem, offer to do something with I'll + verb (I'll send somebody up to look at it. / I'll put you through to IT.). Call the guest sir or madam. Wait for the second problem; if the guest doesn't mention one, ask 'Is there anything else?'.",
+              "goal": "You are a guest at a hotel. Call reception, say your room number and tell them about two problems with your room.",
+              "opener": "Hello, reception. How can I help you?",
+              "criteria": [
+                "says the room number",
+                "explains two different problems clearly, e.g. There's a problem with… / It isn't working. / I can't…",
+                "is polite (Thank you / I'm sorry to bother you)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-pe2f",
+          "origin": "SB",
+          "instruction": "Swap roles: you are the receptionist. Offer to do something about the guest's problems",
+          "note": "SB PE1 2e–f (A — receptionist)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a guest in room 408 of a hotel in New York. You call reception; the student is the receptionist. You have two problems: first the TV isn't working, then (after the receptionist answers) there are no towels in the bathroom. Tell one problem at a time and wait for the receptionist to offer to do something. Thank them after each offer.",
+              "goal": "You are the hotel receptionist. Answer the phone, ask how you can help, and offer to do something about each problem with I'll + verb.",
+              "opener": "Hello? Is that reception?",
+              "criteria": [
+                "answers politely, e.g. Hello, reception. How can I help you?",
+                "offers to do something about each of the two problems with I'll + verb (I'll send…, I'll bring…)",
+                "the offers are correct English"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-pe3a",
+          "origin": "SB",
+          "video": "ep1_meet_again",
+          "instruction": "That evening Jenny goes to the hotel to meet Rob and they go out for a drink. Watch and correct the false sentences. If a sentence is true, leave it as it is",
+          "note": "SB PE1 3a (1.33) «mark T or F» → Rewrite: неверное исправить, верное переписать как есть",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "Rob says he doesn't like the hotel.",
+              "answers": [
+                "Rob says he likes the hotel.",
+                "Rob says the hotel is fine.",
+                "Rob says he does like the hotel."
+              ],
+              "explain": "False: Rob says the hotel is fine. His room is really nice.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "Jenny is going to show him round the city tomorrow.",
+              "answers": [
+                "Jenny is going to show him round the office tomorrow."
+              ],
+              "explain": "False: she is going to show him round the office, not the city.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Barbara is Jenny's boss.",
+              "answers": [
+                "Barbara is Jenny's boss."
+              ],
+              "explain": "True: leave the sentence as it is.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "Rob is hungry.",
+              "answers": [
+                "Rob isn't hungry.",
+                "Rob is not hungry.",
+                "Rob is tired.",
+                "Rob isn't hungry. He's really tired."
+              ],
+              "explain": "False: Rob isn't hungry. He's really tired.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "It's four in the morning for Rob.",
+              "answers": [
+                "It's two in the morning for Rob.",
+                "It is two in the morning for Rob.",
+                "It's 2 in the morning for Rob."
+              ],
+              "explain": "False: it's two o'clock in the morning for Rob.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "They're going to meet at eleven.",
+              "answers": [
+                "They're going to meet at eleven.",
+                "They are going to meet at eleven."
+              ],
+              "explain": "True: leave the sentence as it is.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "Jenny thinks that Rob is going to get lost.",
+              "answers": [
+                "Jenny thinks that Rob is going to be late.",
+                "Jenny thinks Rob is going to be late."
+              ],
+              "explain": "False: Jenny thinks that Rob is going to be late.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1A-pe3b",
+          "origin": "SB",
+          "video": "ep1_meet_again",
+          "instruction": "Watch again. Say why the F sentences are false",
+          "note": "SB PE1 3b; номера = номера предложений 3a",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Rob says the hotel is {}. His room is really nice.",
+              "gaps": [
+                [
+                  "fine",
+                  "OK",
+                  "okay",
+                  "good"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Jenny is going to show him round the {} tomorrow.",
+              "gaps": [
+                [
+                  "office"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Rob isn't hungry. He's really {}.",
+              "gaps": [
+                [
+                  "tired"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "It's {} o'clock in the morning for Rob.",
+              "gaps": [
+                [
+                  "two",
+                  "2"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Jenny thinks that Rob is going to be {}.",
+              "gaps": [
+                [
+                  "late"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1A-pe3c",
+          "origin": "SB",
+          "video": "ep1_social_english",
+          "instruction": "Complete the Social English phrases. Then watch and check",
+          "note": "SB PE1 3c–d (1.34); ответы — дословно из ролика",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Rob: It's {} to be here.",
+              "gaps": [
+                [
+                  "great"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                5.86,
+                7.93
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Jenny: Do you have a {} view?",
+              "gaps": [
+                [
+                  "good"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                13.33,
+                14.99
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Jenny: You {} be really tired.",
+              "gaps": [
+                [
+                  "must"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                20.42,
+                23.19
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Rob: I guess you're {}.",
+              "gaps": [
+                [
+                  "right"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                28.45,
+                30.52
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Rob: By the {}…",
+              "gaps": [
+                [
+                  "way"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                35.73,
+                37.14
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Jenny: It's great to see you, {}.",
+              "gaps": [
+                [
+                  "too"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                42.51,
+                44.37
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-pe3d",
+          "origin": "SB",
+          "video": "ep1_social_english",
+          "instruction": "Watch and repeat the Social English phrases",
+          "note": "SB PE1 3d (1.34)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "It's great to be here.",
+              "source": "CONFIRMED",
+              "clip": [
+                5.86,
+                7.93
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "Do you have a good view?",
+              "source": "CONFIRMED",
+              "clip": [
+                13.33,
+                14.99
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "You must be really tired.",
+              "source": "CONFIRMED",
+              "clip": [
+                20.42,
+                23.19
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "I guess you're right.",
+              "source": "CONFIRMED",
+              "clip": [
+                28.45,
+                30.52
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "By the way…",
+              "source": "CONFIRMED",
+              "clip": [
+                35.73,
+                37.14
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "It's great to see you, too.",
+              "source": "CONFIRMED",
+              "clip": [
+                42.51,
+                44.37
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-pe3e",
+          "origin": "SB",
+          "instruction": "Complete conversations A–E with the Social English phrases",
+          "note": "SB PE1 3e; какая фраза в какую клетку — наше решение (MODEL)",
+          "words": [
+            "It's great to be here",
+            "Do you have a good view?",
+            "You must be really tired",
+            "I guess you're right",
+            "By the way",
+            "It's great to see you, too"
+          ],
+          "dialogue": true,
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "You had a very long flight. {}\nNo, I'm fine. {}",
+              "gaps": [
+                [
+                  "You must be really tired"
+                ],
+                [
+                  "It's great to be here",
+                  "It is great to be here"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "What's your room like? {}\nYes, I can see the mountains.",
+              "gaps": [
+                [
+                  "Do you have a good view"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "It's so good to see you again.\n{}",
+              "gaps": [
+                [
+                  "It's great to see you, too",
+                  "It's great to see you too",
+                  "It is great to see you, too",
+                  "It is great to see you too"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "We need to get up early tomorrow.\nYes, {}",
+              "gaps": [
+                [
+                  "I guess you're right",
+                  "I guess you are right"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "That was a great meal.\nYes, delicious. {} what time's the meeting tomorrow?",
+              "gaps": [
+                [
+                  "By the way",
+                  "By the way,"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "1A-wbpe1a",
+          "origin": "WB",
+          "instruction": "Complete the sentences with a word from the list",
+          "note": "WB Practical English Episode 1 (WB p.10) 1a; 1 have — пример",
+          "words": [
+            "bother",
+            "have",
+            "’s",
+            "put",
+            "send",
+            "this"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I’ll {} you through to IT.",
+              "gaps": [
+                [
+                  "put"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I’ll {} somebody up right now.",
+              "gaps": [
+                [
+                  "send"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I’m sorry to {} you.",
+              "gaps": [
+                [
+                  "bother"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Hello. {} is room 315.",
+              "gaps": [
+                [
+                  "This"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "There{} a problem with the shower.",
+              "gaps": [
+                [
+                  "’s",
+                  "'s",
+                  "is"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-wbpe1b",
+          "origin": "WB",
+          "dialogue": true,
+          "instruction": "Complete the conversations with sentences 1–6 from a",
+          "note": "WB PE1 1b; ¹ This is room 315 — пример. Пункт = разговор целиком",
+          "words": [
+            "I have a problem with the wi-fi.",
+            "I’ll put you through to IT.",
+            "I’ll send somebody up right now.",
+            "I’m sorry to bother you.",
+            "There’s a problem with the shower."
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Hello, reception.\nHello. This is room 315.\nHow can I help you?\n{}. There isn’t any hot water.\nI’m sorry, madam. {}.\nThank you.",
+              "gaps": [
+                [
+                  "There’s a problem with the shower",
+                  "There is a problem with the shower"
+                ],
+                [
+                  "I’ll send somebody up right now",
+                  "I will send somebody up right now"
+                ]
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Hello, reception.\nHello, this is room 315 again. {}, but there’s one more thing.\nHow can I help you?\n{}. I can’t get a signal.\nI’m sorry, madam. {}.\nThanks.",
+              "gaps": [
+                [
+                  "I’m sorry to bother you",
+                  "I am sorry to bother you"
+                ],
+                [
+                  "I have a problem with the wi-fi",
+                  "I have a problem with the wifi"
+                ],
+                [
+                  "I’ll put you through to IT",
+                  "I will put you through to IT"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-wbpe2",
+          "origin": "WB",
+          "instruction": "Match problems 1–4 to offers a–d. Write the offer",
+          "note": "WB PE1 2 (I’ll); 1 → c — пример. Принимаем и фразу, и букву",
+          "words": [
+            "a I’ll see if we have a quieter one.",
+            "b I’ll send two bottles to your room right now.",
+            "c I’ll put you through to IT.",
+            "d I’ll ask her to call you."
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "This room is very noisy.\n{}",
+              "gaps": [
+                [
+                  "I’ll see if we have a quieter one.",
+                  "I will see if we have a quieter one.",
+                  "a"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I want to talk to the manager.\n{}",
+              "gaps": [
+                [
+                  "I’ll ask her to call you.",
+                  "I will ask her to call you.",
+                  "d"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "There’s no water in my mini-bar.\n{}",
+              "gaps": [
+                [
+                  "I’ll send two bottles to your room right now.",
+                  "I will send two bottles to your room right now.",
+                  "b"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1A-wbpe3a",
+          "origin": "WB",
+          "instruction": "Choose the correct words",
+          "note": "WB PE1 3a Circle → Blank с вариантами в hint; 1 view — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "It’s great {} here.",
+              "gaps": [
+                [
+                  "to be"
+                ]
+              ],
+              "hint": "(to be / be)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "You {} be really tired.",
+              "gaps": [
+                [
+                  "must"
+                ]
+              ],
+              "hint": "(can / must)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I {} you’re right.",
+              "gaps": [
+                [
+                  "guess"
+                ]
+              ],
+              "hint": "(want / guess)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "It’s great to see you, {}.",
+              "gaps": [
+                [
+                  "too"
+                ]
+              ],
+              "hint": "(too / two)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "{}, Martha wants to see you while you’re here.",
+              "gaps": [
+                [
+                  "By the way"
+                ]
+              ],
+              "hint": "(By the way / On the way)"
+            }
+          ]
+        },
+        {
+          "id": "1A-wbpe3b",
+          "origin": "WB",
+          "dialogue": true,
+          "instruction": "Complete the conversations with the missing words",
+          "note": "WB PE1 3b; в книге даны первые буквы — у нас без них (правило «без подсказок по первой букве»). 1 great — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Do you have a {} {}?\nYes. I can see the Empire State Building from my window.",
+              "gaps": [
+                [
+                  "good"
+                ],
+                [
+                  "view"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "It’s time to go. You {} {} really tired.\nI {} you’re right.",
+              "gaps": [
+                [
+                  "must"
+                ],
+                [
+                  "be"
+                ],
+                [
+                  "guess"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{} {} {}, it’s great to see you again.\nYes. It’s great to see you, {}.",
+              "gaps": [
+                [
+                  "By"
+                ],
+                [
+                  "the"
+                ],
+                [
+                  "way"
+                ],
+                [
+                  "too"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1C-review",
+      "kind": "REVIEW",
+      "title": "Can you remember…? 1",
+      "reference": [
+        {
+          "type": "note",
+          "title": null,
+          "text": "Revision of File 1 (1A–1C): word order in questions, present simple, present continuous, describing people, clothes, prepositions of place."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "1C-rv1",
+          "origin": "WB",
+          "instruction": "Grammar. Complete with the correct form",
+          "note": "WB «Can you remember…? 1» (WB p.11) 1 Circle → Blank с вариантами в hint; пункт 1 — present continuous (1C)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "It’s great to see you! But what {} here in London?",
+              "gaps": [
+                [
+                  "are you doing"
+                ]
+              ],
+              "hint": "(you are doing / are you doing)"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Dan really likes that restaurant, but I {} the food’s very good.",
+              "gaps": [
+                [
+                  "don’t think",
+                  "do not think"
+                ]
+              ],
+              "hint": "(think not / don’t think)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Excuse me, {} sit here?",
+              "gaps": [
+                [
+                  "can I"
+                ]
+              ],
+              "hint": "(can I / I can)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Don’t worry about Anna. {} late.",
+              "gaps": [
+                [
+                  "She’s always",
+                  "She is always"
+                ]
+              ],
+              "hint": "(She’s always / She always is)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "My dad’s a teacher. What {} your parents do?",
+              "gaps": [
+                [
+                  "do"
+                ]
+              ],
+              "hint": "(does / do)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Ask Jamie to help you. He {} in IT, so he’s really good with computers.",
+              "gaps": [
+                [
+                  "works"
+                ]
+              ],
+              "hint": "(works / work)"
+            }
+          ]
+        },
+        {
+          "id": "1C-rv2",
+          "origin": "WB",
+          "instruction": "Vocabulary. Which word is different? Write it",
+          "note": "WB «Can you remember…? 1» 2; пункты 4–6 — лексика 1C",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "long, curly, straight, slim → {}",
+              "gaps": [
+                [
+                  "slim"
+                ]
+              ],
+              "explain": "slim is about the body; the others describe hair."
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "hair, height, beard, moustache → {}",
+              "gaps": [
+                [
+                  "height"
+                ]
+              ],
+              "explain": "hair, beard and moustache grow on your head / face."
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "stupid, lazy, unkind, generous → {}",
+              "gaps": [
+                [
+                  "generous"
+                ]
+              ],
+              "explain": "generous is positive; the others are negative."
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "kind, behind, above, between → {}",
+              "gaps": [
+                [
+                  "kind"
+                ]
+              ],
+              "explain": "behind, above, between are prepositions of place (1C)."
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "boots, trainers, jeans, sandals → {}",
+              "gaps": [
+                [
+                  "jeans"
+                ]
+              ],
+              "explain": "jeans are clothes; the others are shoes (1C)."
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "bracelet, earrings, tights, necklace → {}",
+              "gaps": [
+                [
+                  "tights"
+                ]
+              ],
+              "explain": "tights are clothes; the others are jewellery (1C)."
+            }
+          ]
+        },
+        {
+          "id": "1C-rv3",
+          "origin": "WB",
+          "instruction": "Pronunciation. Which word or letter has a different sound? Write it",
+          "note": "WB «Can you remember…? 1» 3; звуки computer / bird — из 1C",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "computer /ə/: shirt, trousers, sweater, cardigan → {}",
+              "gaps": [
+                [
+                  "shirt"
+                ]
+              ],
+              "explain": "shirt = /ɜː/ (bird)."
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "bird /ɜː/: university, work, curly, painter → {}",
+              "gaps": [
+                [
+                  "painter"
+                ]
+              ],
+              "explain": "painter ends with /ə/ (computer)."
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "tree /iː/: A, B, C, D → {}",
+              "gaps": [
+                [
+                  "A"
+                ]
+              ],
+              "explain": "A = /eɪ/ (train)."
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "zebra /z/: meals, clothes, balls, dates → {}",
+              "gaps": [
+                [
+                  "dates"
+                ]
+              ],
+              "explain": "dates = /s/."
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "/ɪz/: likes, washes, uses, watches → {}",
+              "gaps": [
+                [
+                  "likes"
+                ]
+              ],
+              "explain": "likes = /s/."
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "snake /s/: concerts, hats, glasses, coats → {}",
+              "gaps": [
+                [
+                  "glasses"
+                ]
+              ],
+              "explain": "glasses = /ɪz/."
+            }
+          ]
+        },
+        {
+          "id": "1C-rv4",
+          "origin": "WB",
+          "instruction": "Grammar and vocabulary. Read the article ‘The Invisible Man’ and complete it",
+          "note": "WB «Can you remember…? 1» 4 «Circle a, b or c» → Blank с вариантами в hint; фото (Лю Болинь сливается с брёвнами) не нужно",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Liu Bolin is an artist from China who is now famous {} countries all over the world.",
+              "gaps": [
+                [
+                  "in"
+                ]
+              ],
+              "hint": "(under / in / on)"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Liu {} in Shandong, China, in 1973.",
+              "gaps": [
+                [
+                  "was born"
+                ]
+              ],
+              "hint": "(was born / was from / is born)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "He {} and works in Beijing,",
+              "gaps": [
+                [
+                  "lives"
+                ]
+              ],
+              "hint": "(live / living / lives)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "but he {} travels to other countries.",
+              "gaps": [
+                [
+                  "often"
+                ]
+              ],
+              "hint": "(hardly ever / often / never)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "In this photo, Liu {} in front of some logs.",
+              "gaps": [
+                [
+                  "is standing"
+                ]
+              ],
+              "hint": "(standing / stands / is standing)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "He’s in the {} of the photo,",
+              "gaps": [
+                [
+                  "middle"
+                ]
+              ],
+              "hint": "(middle / left / front)"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "and if you look carefully, you can see his {} and jacket.",
+              "gaps": [
+                [
+                  "trousers"
+                ]
+              ],
+              "hint": "(shorts / trousers / sweater)"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "He chooses a place to stand, and then his assistant {} him paint his clothes and his face.",
+              "gaps": [
+                [
+                  "helps"
+                ]
+              ],
+              "hint": "(is helping / helps / helping)"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Sometimes people who are {} past him in the street don’t know that he’s there.",
+              "gaps": [
+                [
+                  "walking"
+                ]
+              ],
+              "hint": "(walking / walk / walks)"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "Liu’s work is popular because it’s different and fun, but his work also has a {} message.",
+              "gaps": [
+                [
+                  "serious"
+                ]
+              ],
+              "hint": "(serious / generous / funny)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

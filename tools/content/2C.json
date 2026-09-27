@@ -1,0 +1,832 @@
+{
+  "id": "2C",
+  "title": "One dark October evening",
+  "bubbles": ["Why did the DJ wait for Hannah?", "Because he wanted to see her again."],
+  "sources": "SB p.18–19 (PDF 19–20), Grammar Bank p.128–129 (PDF 129–130), Communication p.103/109 (PDF 104/110), Revise and Check 1&2 p.20–21 (PDF 21–22); WB p.16–17 (PDF 15–16), key WB p.89 (PDF 88). Scripts 2.16–2.23 are not printed in the SB (answers by the recordings)",
+  "sections": [
+    {
+      "id": "2C-grammar",
+      "kind": "GRAMMAR",
+      "title": "time sequencers and connectors",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Time sequencers",
+          "headers": ["Sequencer", "Example"],
+          "rows": [
+            ["After that", "On their first date they went to a restaurant. After that they started meeting every day."],
+            ["The next day", "On Thursday I had an argument with my boss. The next day I decided to look for a new job."],
+            ["Two minutes later", "We sat down to eat. Two minutes later my phone rang."],
+            ["When", "When I came out of the club, he was waiting for me."],
+            ["when", "The accident happened when I was crossing the road."]
+          ],
+          "audio": "2.17"
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "We use time sequencers to say when or in what order things happen. We use when as a time sequencer and also to join two actions: I was watching TV when the phone rang."
+        },
+        {
+          "type": "note",
+          "title": "then, after that",
+          "text": "The most common way of linking consecutive actions is with then or after that, but NOT after: I got up and got dressed. Then / After that I made a cup of coffee."
+        },
+        {
+          "type": "mistake",
+          "wrong": "I got up and got dressed. After I made a cup of coffee.",
+          "right": "I got up and got dressed. Then / After that I made a cup of coffee.",
+          "why": "after alone does not link two separate sentences."
+        },
+        {
+          "type": "table",
+          "title": "because and so",
+          "headers": ["Connector", "Example"],
+          "rows": [
+            ["because (a reason)", "She was driving fast because she was in a hurry."],
+            ["so (a result)", "She was in a hurry, so she was driving fast."]
+          ],
+          "audio": "2.18"
+        },
+        {
+          "type": "table",
+          "title": "but and although",
+          "headers": ["Connector", "Example"],
+          "rows": [
+            ["but", "She tried to stop the car, but she hit the man. She was very tired, but she couldn’t sleep."],
+            ["although", "Although she tried to stop the car, she hit the man. She couldn’t sleep, although she was very tired."]
+          ],
+          "audio": "2.19"
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "We use but and although to show a contrast. Although can go at the beginning or in the middle of the sentence."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "2C-sb1b",
+          "origin": "SB",
+          "instruction": "Read the story. Then complete it with a word or phrase from the list. Listen to the story and check",
+          "note": "SB 1b; 1 Two minutes later — пример. Ответы по напечатанной истории и аудио 2.16. В 5 на записи «One afternoon in October», в списке книги «One evening in October» — принимаем оба",
+          "audio": "2.16",
+          "context": "One dark October evening. Hannah met Jamie last summer. It was Hannah’s birthday and she and her friends went to a club. They wanted to dance, but they didn’t like the music, so Hannah went to speak to the DJ. ‘This music is awful,’ she said. ‘Could you play something else?’ The DJ looked at her and said, ‘Don’t worry, I have the perfect song for you.’ Two minutes later he said, ‘The next song is by Pink. It’s called Get the Party Started and it’s for a beautiful girl over there who’s wearing a pink dress.’ Hannah knew that he was playing the song for her.",
+          "words": ["After that", "One evening in October", "Suddenly", "The next day", "Two minutes later", "When"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "{} Hannah and her friends left the club, the DJ was waiting for her at the door.", "gaps": [["When"]], "source": "CONFIRMED", "clip": [56.61, 63.08]},
+            {"n": 3, "type": "blank", "text": "{} Jamie phoned Hannah and invited her to dinner.", "gaps": [["The next day"]], "source": "CONFIRMED", "clip": [75.45, 80.27]},
+            {"n": 4, "type": "blank", "text": "{} Jamie and Hannah saw each other every day.", "gaps": [["After that"]], "source": "CONFIRMED", "clip": [101.25, 105.85]},
+            {"n": 5, "type": "blank", "text": "{} Hannah was at work. As usual she was going to meet Jamie at 5.30.", "gaps": [["One evening in October", "One afternoon in October"]], "explain": "The recording says ‘One afternoon in October’.", "source": "CONFIRMED", "clip": [116.05, 119.6]},
+            {"n": 6, "type": "blank", "text": "She was going very fast because she was in a hurry. {}, a man ran across the road.", "gaps": [["Suddenly"]], "source": "CONFIRMED", "clip": [143.96, 151.94]}
+          ]
+        },
+        {
+          "id": "2C-sb1d",
+          "origin": "SB",
+          "instruction": "From memory, complete the sentences from the story with so, because, or although. Then check in the story",
+          "note": "SB 1d; ответы по напечатанной истории",
+          "words": ["so", "because", "although"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "She was going very fast {} she was in a hurry.", "gaps": [["because"]], "explain": "because + a reason.", "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "{} the food wasn’t very good, they had a great time.", "gaps": [["Although"]], "explain": "although shows a contrast and can start the sentence.", "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "He was wearing a dark coat, {} Hannah didn’t see him at first.", "gaps": [["so"]], "explain": "so + a result.", "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "2C-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Put the sentences in the correct order. Write the number (1–8) for each sentence",
+          "note": "GB 2C a «Put the sentences in the correct order» (A–H, C = 1 — пример). Картинок нет, тип order без картинок не предусмотрен → Blank: номер места у каждой фразы; n = буква по порядку (A=1 … H=8, C пропущен). Ответы MODEL",
+          "context": "A He explained that he was looking for a thief, and then he got on the bus. B Then another man tried to do the same. C (1) Last week I was waiting for a bus. D The next day, I saw the story on a local news website. E When I asked the second man what he was doing, he told me that he was a policeman. F A few seconds later, he got off the bus with the thief. G The bus arrived, but suddenly a man ran in front of me and got on. H After that, a police car came and took the thief away.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "A He explained that he was looking for a thief, and then he got on the bus. → {}", "gaps": [["5", "five"]], "hint": "(1–8)", "explain": "Order: C, G, B, E, A, F, H, D.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "B Then another man tried to do the same. → {}", "gaps": [["3", "three"]], "hint": "(1–8)", "explain": "Order: C, G, B, E, A, F, H, D.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "D The next day, I saw the story on a local news website. → {}", "gaps": [["8", "eight"]], "hint": "(1–8)", "explain": "Order: C, G, B, E, A, F, H, D.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "E When I asked the second man what he was doing, he told me that he was a policeman. → {}", "gaps": [["4", "four"]], "hint": "(1–8)", "explain": "Order: C, G, B, E, A, F, H, D.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "F A few seconds later, he got off the bus with the thief. → {}", "gaps": [["6", "six"]], "hint": "(1–8)", "explain": "Order: C, G, B, E, A, F, H, D.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "G The bus arrived, but suddenly a man ran in front of me and got on. → {}", "gaps": [["2", "two"]], "hint": "(1–8)", "explain": "Order: C, G, B, E, A, F, H, D.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "H After that, a police car came and took the thief away. → {}", "gaps": [["7", "seven"]], "hint": "(1–8)", "explain": "Order: C, G, B, E, A, F, H, D.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "2C-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the sentences with so, because, but, or although",
+          "note": "GB 2C b; пример We couldn’t find a taxi, so we walked home. Ответы MODEL",
+          "words": ["so", "because", "but", "although"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "{} it was very cold, she wasn’t wearing a coat.", "gaps": [["Although"]], "explain": "A contrast at the beginning of the sentence: although (not but).", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "I woke up in the night {} there was a noise.", "gaps": [["because"]], "explain": "because + the reason.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "I called him, {} his mobile was turned off.", "gaps": [["but", "although"]], "explain": "A contrast: but (although is also possible in the middle).", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "{} she’s very nice, she doesn’t have many friends.", "gaps": [["Although"]], "explain": "A contrast at the beginning of the sentence: although.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "There was nothing on TV, {} I went to bed.", "gaps": [["so"]], "explain": "so + the result.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "All the cafés were full {} it was a public holiday.", "gaps": [["because"]], "explain": "because + the reason.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "She wanted to be a doctor, {} she failed her exams.", "gaps": [["but", "although"]], "explain": "A contrast: but.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "The garden looked very beautiful, {} I took a photograph.", "gaps": [["so"]], "explain": "so + the result.", "source": "MODEL"},
+            {"n": 9, "type": "blank", "text": "{} the team played well, they didn’t win.", "gaps": [["Although"]], "explain": "A contrast at the beginning of the sentence: although.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "2C-sb1f",
+          "origin": "SB",
+          "instruction": "Complete the sentences in your own words",
+          "note": "SB 1f «Complete the sentences in your own words. Then compare with a partner» → Write, проверяет ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Finish each sentence in your own words.",
+              "questions": [
+                "We fell in love on our first date. Two months later…",
+                "I went to bed early last night because…",
+                "The weather was beautiful, so we decided…",
+                "It was really cold last night, and when I woke up this morning…",
+                "Although we didn’t play well in the final…",
+                "I was driving along the high street listening to the radio. Suddenly…"
+              ],
+              "hint": "(Two months later we got married. / …because I was very tired.)",
+              "criteria": [
+                "finishes all six sentences so that they make sense",
+                "the endings fit the connector: a reason after because, a result after so, a contrast after although",
+                "uses the past simple (and past continuous where needed) correctly"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2C-wb1a",
+          "origin": "WB",
+          "instruction": "Complete the text with phrases from the list",
+          "note": "WB 1a «An amazing holiday»; 1 One summer — пример",
+          "context": "An amazing holiday. One summer, I decided to travel to Peru. I flew to Lima and then travelled to a town near Machu Picchu to spend the night. … In fact, we got married two years later, and we now have a beautiful daughter called Beth.",
+          "words": ["After that", "One summer", "Suddenly", "The next day", "Two minutes later", "when"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "I flew to Lima and then travelled to a town near Machu Picchu to spend the night. {}, I climbed the mountain to visit the monument.", "gaps": [["The next day"]]},
+            {"n": 3, "type": "blank", "text": "I was quite tired {} I reached the top!", "gaps": [["when"]]},
+            {"n": 4, "type": "blank", "text": "{}, I saw a man who was at the same university as me.", "gaps": [["Suddenly"]]},
+            {"n": 5, "type": "blank", "text": "{}, he came over to speak to me, and he was just as surprised as I was.", "gaps": [["Two minutes later"]]},
+            {"n": 6, "type": "blank", "text": "{}, we decided to travel together. We had a great summer, and we carried on seeing each other when we got home.", "gaps": [["After that"]]}
+          ]
+        },
+        {
+          "id": "2C-wb1b",
+          "origin": "WB",
+          "instruction": "Which ending is correct? Write the sentence",
+          "note": "WB 1b «Circle the correct ending, a or b» → Rewrite: оба варианта в prompt, ответ — верное предложение целиком; 1 — пример",
+          "exercises": [
+            {"n": 2, "type": "rewrite", "prompt": "I got up late, so I didn’t have time for breakfast.\nI got up late, so I didn’t hear the alarm clock.", "answers": ["I got up late, so I didn’t have time for breakfast."], "explain": "so + a result. Not hearing the alarm clock is the reason, not the result."},
+            {"n": 3, "type": "rewrite", "prompt": "The tickets were really expensive, but I decided not to buy one.\nThe tickets were really expensive, but I decided to buy one.", "answers": ["The tickets were really expensive, but I decided to buy one."], "explain": "but shows a contrast: expensive, but I bought one."},
+            {"n": 4, "type": "rewrite", "prompt": "Laura ran to the station because she was late.\nLaura ran to the station because she missed the train.", "answers": ["Laura ran to the station because she was late."], "explain": "because + the reason for running."},
+            {"n": 5, "type": "rewrite", "prompt": "Although my flat is small, I need a bigger one.\nAlthough my flat is small, it’s perfect for me.", "answers": ["Although my flat is small, it’s perfect for me.", "Although my flat is small, it is perfect for me."], "explain": "although shows a contrast: small, but perfect."}
+          ]
+        },
+        {
+          "id": "2C-wb1c",
+          "origin": "WB",
+          "instruction": "Complete the sentences with a word from the list",
+          "note": "WB 1c; список although (x2), because, but (x2), so (x2); 1 so — пример",
+          "words": ["although", "because", "but", "so"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "It was really hot, {} I had a great holiday in Egypt.", "gaps": [["but"]]},
+            {"n": 3, "type": "blank", "text": "{} I don’t really like Ryan, I went on a date with him.", "gaps": [["Although"]]},
+            {"n": 4, "type": "blank", "text": "The door to my flat was open, {} I called the police.", "gaps": [["so"]]},
+            {"n": 5, "type": "blank", "text": "{} Mark has a lot of money, he’s really mean.", "gaps": [["Although"]]},
+            {"n": 6, "type": "blank", "text": "Mandy cancelled her credit cards {} she couldn’t find her purse.", "gaps": [["because"]]},
+            {"n": 7, "type": "blank", "text": "We wanted to go for a meal after the cinema {} all the restaurants were closed.", "gaps": [["but"]]}
+          ]
+        },
+        {
+          "id": "2C-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with so, because, but, or although.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "I didn’t go to the party {} I was very tired.", "gaps": [["because"]], "explain": "because + the reason.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "It was raining, {} we stayed at home and watched a film.", "gaps": [["so"]], "explain": "so + the result.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "{} the hotel was very basic, we had a great holiday.", "gaps": [["Although"]], "explain": "A contrast at the beginning of the sentence: although.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "My brother is very clever, {} he’s really lazy.", "gaps": [["but"]], "explain": "but shows a contrast in the middle of the sentence.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "The shop was closed, {} I couldn’t buy any bread.", "gaps": [["so"]], "explain": "so + the result.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "She was wearing a coat {} it was really cold.", "gaps": [["because"]], "explain": "because + the reason.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "We waited for an hour, {} nobody came.", "gaps": [["but"]], "explain": "but shows a contrast.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "2C-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete the story with a time sequencer: After that, The next day, Two minutes later, Suddenly, or when.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "I was walking in the park {} I saw an old friend from school.", "gaps": [["when"]], "explain": "when joins two actions: a longer one (past continuous) and a short one (past simple).", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "We had lunch in a small café. {} we went to the museum.", "gaps": [["After that", "Then"]], "explain": "After that / Then links consecutive actions (not After).", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "On Monday I lost my passport. {} I went to the police station.", "gaps": [["The next day"]], "explain": "The next day = on the following day (Tuesday).", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "We were sitting on the beach. {} it started to rain very hard.", "gaps": [["Suddenly"]], "explain": "Suddenly = quickly and when you don’t expect it.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "I sent him a message. {} he called me back.", "gaps": [["Two minutes later"]], "explain": "Two minutes later = a short time after the first action.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "2C-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Join the two sentences with the word in brackets.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "I was hungry. I made a sandwich.", "answers": ["I was hungry, so I made a sandwich.", "I was hungry so I made a sandwich."], "hint": "(so)", "explain": "so + the result: …, so I made a sandwich.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "She didn’t come to class. She was ill.", "answers": ["She didn’t come to class because she was ill.", "She did not come to class because she was ill."], "hint": "(because)", "explain": "because + the reason.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "The film was very long. We enjoyed it.", "answers": ["Although the film was very long, we enjoyed it.", "We enjoyed the film, although it was very long.", "We enjoyed it, although the film was very long."], "hint": "(although)", "explain": "although + the contrast; it can start the sentence: Although the film was very long, …", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "He studied a lot. He failed the exam.", "answers": ["He studied a lot, but he failed the exam.", "He studied a lot but he failed the exam."], "hint": "(but)", "explain": "but shows a contrast in the middle of the sentence.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "2C-grammar-x4",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes. If a sentence is correct, leave it as it is.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "We had dinner. After we went for a walk.", "answers": ["We had dinner. After that we went for a walk.", "We had dinner. Then we went for a walk.", "We had dinner. After that, we went for a walk."], "explain": "After alone can’t link two sentences: use After that or Then.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "Although it was late, but we didn’t go home.", "answers": ["Although it was late, we didn’t go home.", "It was late, but we didn’t go home."], "explain": "Use although or but, not both.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "I was tired, because I went to bed early.", "answers": ["I was tired, so I went to bed early.", "I was tired so I went to bed early."], "explain": "Going to bed early is the result, so use so.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "The phone rang when I was having a shower.", "answers": ["The phone rang when I was having a shower."], "explain": "Correct: when joins the short action (rang) and the longer one (was having).", "source": "MODEL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2C-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "word stress",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Stress in two-syllable words",
+          "text": "Approximately 80% of two-syllable words are stressed on the first syllable. Most two-syllable nouns, adjectives, and adverbs are stressed on the first syllable, e.g. MOther, HAPpy, MADly. However, many two-syllable verbs and prepositions or connectors are stressed on the second syllable, e.g. arRIVE, beHIND, beFORE."
+        },
+        {
+          "type": "table",
+          "title": "Word stress",
+          "headers": ["First syllable stressed", "Second syllable stressed"],
+          "rows": [
+            ["AFter, AWful, BIRTHday", "aCROSS, aGAIN, aLONG"],
+            ["EVEning, PERfect, QUICKly", "alTHOUGH, beCAUSE, inVITE"],
+            ["HURry, SUMmer", "beFORE, beHIND"]
+          ],
+          "audio": "2.20"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "2C-sb2a",
+          "origin": "SB",
+          "instruction": "Which syllable is stressed? Write it. Then listen and check",
+          "note": "SB 2a «Underline the stressed syllable» + 2b «Listen and check» → Blank: пишем ударный слог. Сверено с ключом WB 2a (те же слова) и аудио 2.20",
+          "audio": "2.20",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "a|cross → {}", "gaps": [["cross"]], "explain": "aCROSS — a preposition: second syllable.", "source": "CONFIRMED", "clip": [2.45, 3.77]},
+            {"n": 2, "type": "blank", "text": "af|ter → {}", "gaps": [["af"]], "explain": "AFter — first syllable.", "source": "CONFIRMED", "clip": [5.29, 6.51]},
+            {"n": 3, "type": "blank", "text": "a|gain → {}", "gaps": [["gain"]], "explain": "aGAIN — second syllable.", "source": "CONFIRMED", "clip": [8.0, 9.22]},
+            {"n": 4, "type": "blank", "text": "a|long → {}", "gaps": [["long"]], "explain": "aLONG — a preposition: second syllable.", "source": "CONFIRMED", "clip": [10.71, 11.95]},
+            {"n": 5, "type": "blank", "text": "al|though → {}", "gaps": [["though"]], "explain": "alTHOUGH — a connector: second syllable.", "source": "CONFIRMED", "clip": [13.43, 14.74]},
+            {"n": 6, "type": "blank", "text": "aw|ful → {}", "gaps": [["aw"]], "explain": "AWful — an adjective: first syllable.", "source": "CONFIRMED", "clip": [16.23, 17.41]},
+            {"n": 7, "type": "blank", "text": "be|cause → {}", "gaps": [["cause"]], "explain": "beCAUSE — a connector: second syllable.", "source": "CONFIRMED", "clip": [18.9, 20.15]},
+            {"n": 8, "type": "blank", "text": "birth|day → {}", "gaps": [["birth"]], "explain": "BIRTHday — a noun: first syllable.", "source": "CONFIRMED", "clip": [21.66, 22.94]},
+            {"n": 9, "type": "blank", "text": "eve|ning → {}", "gaps": [["eve"]], "explain": "EVEning — a noun: first syllable.", "source": "CONFIRMED", "clip": [24.43, 25.71]},
+            {"n": 10, "type": "blank", "text": "in|vite → {}", "gaps": [["vite"]], "explain": "inVITE — a verb: second syllable.", "source": "CONFIRMED", "clip": [27.2, 28.49]},
+            {"n": 11, "type": "blank", "text": "per|fect → {}", "gaps": [["per"]], "explain": "PERfect — an adjective: first syllable.", "source": "CONFIRMED", "clip": [29.98, 31.28]},
+            {"n": 12, "type": "blank", "text": "quick|ly → {}", "gaps": [["quick"]], "explain": "QUICKly — an adverb: first syllable.", "source": "CONFIRMED", "clip": [32.76, 33.98]}
+          ]
+        },
+        {
+          "id": "2C-sb2b",
+          "origin": "SB",
+          "instruction": "Listen and practise saying the words",
+          "note": "SB 2b «Practise saying the words» → Speak по отрезкам 2.20",
+          "audio": "2.20",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "across", "clip": [2.45, 3.77]},
+            {"n": 2, "type": "speak", "text": "after", "clip": [5.29, 6.51]},
+            {"n": 3, "type": "speak", "text": "again", "clip": [8.0, 9.22]},
+            {"n": 4, "type": "speak", "text": "along", "clip": [10.71, 11.95]},
+            {"n": 5, "type": "speak", "text": "although", "clip": [13.43, 14.74]},
+            {"n": 6, "type": "speak", "text": "awful", "clip": [16.23, 17.41]},
+            {"n": 7, "type": "speak", "text": "because", "clip": [18.9, 20.15]},
+            {"n": 8, "type": "speak", "text": "birthday", "clip": [21.66, 22.94]},
+            {"n": 9, "type": "speak", "text": "evening", "clip": [24.43, 25.71]},
+            {"n": 10, "type": "speak", "text": "invite", "clip": [27.2, 28.49]},
+            {"n": 11, "type": "speak", "text": "perfect", "clip": [29.98, 31.28]},
+            {"n": 12, "type": "speak", "text": "quickly", "clip": [32.76, 33.98]}
+          ]
+        },
+        {
+          "id": "2C-sb2c",
+          "origin": "SB",
+          "instruction": "Invent a sentence using two or more of the words in a",
+          "note": "SB 2c «With a partner, invent a sentence» → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Write two sentences. Use two or more of these words in each: across, after, again, along, although, awful, because, birthday, evening, invite, perfect, quickly.",
+              "hint": "(After dinner, we walked home across the park.)",
+              "criteria": [
+                "each sentence uses at least two words from the list correctly",
+                "the sentences are grammatically correct and make sense"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2C-wb2a",
+          "origin": "WB",
+          "instruction": "Is the first or the second syllable stressed? Write 1 or 2",
+          "note": "WB 2a «Write the words in the chart» (колонки 1 First / 2 Second syllable stressed) → Blank на номер колонки; after и across — примеры; n — по порядку слов в списке",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "a|gain → {}", "gaps": [["2", "second", "2nd"]]},
+            {"n": 2, "type": "blank", "text": "a|long → {}", "gaps": [["2", "second", "2nd"]]},
+            {"n": 3, "type": "blank", "text": "al|though → {}", "gaps": [["2", "second", "2nd"]]},
+            {"n": 4, "type": "blank", "text": "aw|ful → {}", "gaps": [["1", "first", "1st"]]},
+            {"n": 5, "type": "blank", "text": "be|cause → {}", "gaps": [["2", "second", "2nd"]]},
+            {"n": 6, "type": "blank", "text": "be|fore → {}", "gaps": [["2", "second", "2nd"]]},
+            {"n": 7, "type": "blank", "text": "be|hind → {}", "gaps": [["2", "second", "2nd"]]},
+            {"n": 8, "type": "blank", "text": "birth|day → {}", "gaps": [["1", "first", "1st"]]},
+            {"n": 9, "type": "blank", "text": "eve|ning → {}", "gaps": [["1", "first", "1st"]]},
+            {"n": 10, "type": "blank", "text": "hur|ry → {}", "gaps": [["1", "first", "1st"]]},
+            {"n": 11, "type": "blank", "text": "in|vite → {}", "gaps": [["2", "second", "2nd"]]},
+            {"n": 12, "type": "blank", "text": "per|fect → {}", "gaps": [["1", "first", "1st"]]},
+            {"n": 13, "type": "blank", "text": "quick|ly → {}", "gaps": [["1", "first", "1st"]]},
+            {"n": 14, "type": "blank", "text": "sum|mer → {}", "gaps": [["1", "first", "1st"]]}
+          ]
+        },
+        {
+          "id": "2C-wb2b",
+          "origin": "WB",
+          "instruction": "Listen and check. Then listen again and repeat the words",
+          "note": "WB 2b (трек WB 2.3 — аудио WB нет): Speak на столбцы из 2a, образец — синтезатор (как 1B-wb3b)",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "after, awful, birthday, evening, hurry, perfect, quickly, summer"},
+            {"n": 2, "type": "speak", "text": "across, again, along, although, because, before, behind, invite"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2C-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "verb phrases",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Verb phrases from the story",
+          "headers": ["Verb", "Phrase"],
+          "rows": [
+            ["invite", "somebody to dinner"],
+            ["have", "a great time"],
+            ["drive", "along the high street"],
+            ["meet", "in a coffee bar"],
+            ["give", "somebody your phone number"],
+            ["take", "somebody to a restaurant"],
+            ["wait", "for somebody"],
+            ["be", "in a hurry"],
+            ["play", "a song"],
+            ["leave", "the club (very late)"],
+            ["run", "across the road"]
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Past simple of the verbs",
+          "text": "invite → invited, have → had, drive → drove, meet → met, give → gave, take → took, wait → waited, be → was / were, play → played, leave → left, run → ran."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "2C-sb3a",
+          "origin": "SB",
+          "instruction": "Make verb phrases with a verb from list 1 and a phrase from list 2. All the phrases are from the story",
+          "note": "SB 3a → Blank: пропуск — глагол из списка 1; n — место фразы в списке 2, invite somebody to dinner (9) — пример. Ответы по напечатанной истории",
+          "words": ["invite", "have", "drive", "meet", "give", "take", "wait", "be", "play", "leave", "run"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "{} along the high street", "gaps": [["drive"]], "explain": "At 5.25 she was driving along the high street.", "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "{} somebody your phone number", "gaps": [["give"]], "explain": "So Hannah gave him her phone number.", "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "{} a song", "gaps": [["play"]], "explain": "Hannah knew that he was playing the song for her.", "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "{} across the road", "gaps": [["run"]], "explain": "Suddenly, a man ran across the road.", "source": "CONFIRMED"},
+            {"n": 5, "type": "blank", "text": "{} in a hurry", "gaps": [["be"]], "explain": "She was going very fast because she was in a hurry.", "source": "CONFIRMED"},
+            {"n": 6, "type": "blank", "text": "{} in a coffee bar", "gaps": [["meet"]], "explain": "They met at 5.30 in a coffee bar in the high street.", "source": "CONFIRMED"},
+            {"n": 7, "type": "blank", "text": "{} for somebody", "gaps": [["wait"]], "explain": "The DJ was waiting for her at the door.", "source": "CONFIRMED"},
+            {"n": 8, "type": "blank", "text": "{} the club (very late)", "gaps": [["leave"]], "explain": "When Hannah and her friends left the club…", "source": "CONFIRMED"},
+            {"n": 10, "type": "blank", "text": "{} somebody to a restaurant", "gaps": [["take"]], "explain": "He took her to a very romantic French restaurant.", "source": "CONFIRMED"},
+            {"n": 11, "type": "blank", "text": "{} a great time", "gaps": [["have"]], "explain": "Although the food wasn’t very good, they had a great time.", "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "2C-sb3b",
+          "origin": "SB",
+          "instruction": "Say the verb phrases",
+          "note": "SB 3b «Cover list 1. Try to remember the verb for each phrase» → Speak полных фраз (трека нет, образец — синтезатор)",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "drive along the high street"},
+            {"n": 2, "type": "speak", "text": "give somebody your phone number"},
+            {"n": 3, "type": "speak", "text": "play a song"},
+            {"n": 4, "type": "speak", "text": "run across the road"},
+            {"n": 5, "type": "speak", "text": "be in a hurry"},
+            {"n": 6, "type": "speak", "text": "meet in a coffee bar"},
+            {"n": 7, "type": "speak", "text": "wait for somebody"},
+            {"n": 8, "type": "speak", "text": "leave the club very late"},
+            {"n": 9, "type": "speak", "text": "invite somebody to dinner"},
+            {"n": 10, "type": "speak", "text": "take somebody to a restaurant"},
+            {"n": 11, "type": "speak", "text": "have a great time"}
+          ]
+        },
+        {
+          "id": "2C-sb3d",
+          "origin": "SB",
+          "instruction": "Re-tell the story of Hannah and Jamie. Use connectors and the verb phrases in 3",
+          "note": "SB 3d (пересказ в парах по фото 1–6: A — Jamie, фото 1–3; B — Hannah, фото 4–6) → разговор с ИИ: ученик — Jamie, ИИ — Hannah. 3c (прослушать историю ещё раз) отдельным заданием не переносили — трек 2.16 уже в 2C-sb1b",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "Speaking practice in an English class (level: pre-intermediate). You and the student re-tell the story ‘One dark October evening’ from the characters’ point of view. The student is Jamie, the DJ, and tells the first part (photos 1–3): Hannah came to the club on her birthday with some friends, she didn’t like the music, Jamie played Get the Party Started by Pink for her because she was wearing a pink dress, he waited for her at the door when she left the club, she gave him her phone number, the next day he phoned her and invited her to dinner, he took her to a romantic French restaurant; the food wasn’t very good but they had a great time. You are Hannah. Listen, react briefly (Yes, I remember! / That’s right…), and gently correct wrong facts. Then tell the second part yourself (photos 4–6) in 4–6 short sentences: after that we met every day in a coffee bar in the high street at 5.30; one evening in October I was at work, it was dark and raining, I was late, so I was driving fast along the high street; suddenly a man ran across the road; he was wearing a dark coat, so I didn’t see him at first. Stop there and ask the student: What do you think happened next? Use time sequencers (After that, The next day, Two minutes later, Suddenly, When) and connectors (so, because, but, although).",
+              "goal": "You are Jamie, the DJ. Tell the first part of the story (the club, the song, the door, the dinner) with time sequencers, connectors and the verb phrases. Then listen to Hannah’s part.",
+              "opener": "Hi Jamie! Let’s tell our story. You start – how did we meet?",
+              "criteria": [
+                "tells the first part of the story in the right order (club → song → door and phone number → dinner)",
+                "uses at least three time sequencers or connectors (The next day, When, so, because, although…)",
+                "uses at least three verb phrases from the lesson (play a song, wait for somebody, give somebody your phone number, invite somebody to dinner, have a great time…)",
+                "uses the past simple (and past continuous) correctly"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2C-wb3a",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the correct ending from the list",
+          "note": "WB 3a «Match the sentence halves» → Blank: вписать окончание; 1 Jamie and Hannah met in a club — пример",
+          "words": ["her to dinner.", "for her at the door.", "a great time.", "in a club.", "to a nice restaurant.", "the club very late.", "a song for her.", "him her phone number."],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "He played {}.", "gaps": [["a song for her"]]},
+            {"n": 3, "type": "blank", "text": "She left {}.", "gaps": [["the club very late"]]},
+            {"n": 4, "type": "blank", "text": "He waited {}.", "gaps": [["for her at the door"]]},
+            {"n": 5, "type": "blank", "text": "She gave {}.", "gaps": [["him her phone number"]]},
+            {"n": 6, "type": "blank", "text": "He invited {}.", "gaps": [["her to dinner"]]},
+            {"n": 7, "type": "blank", "text": "He took her {}.", "gaps": [["to a nice restaurant"]]},
+            {"n": 8, "type": "blank", "text": "They had {}.", "gaps": [["a great time"]]}
+          ]
+        },
+        {
+          "id": "2C-wb3b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with a verb from the list",
+          "note": "WB 3b; 1 left — пример. В 4 в списке «’m» — в пропуск пишется I’m",
+          "words": ["’m", "driving", "gave", "invited", "left", "played", "ran", "waiting"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "Sally was alone in the restaurant, but I think she was {} for somebody.", "gaps": [["waiting"]]},
+            {"n": 3, "type": "blank", "text": "Oliver liked Helena, so he {} her to dinner.", "gaps": [["invited"]]},
+            {"n": 4, "type": "blank", "text": "I can’t talk now because {} in a hurry.", "gaps": [["I’m", "I am"]]},
+            {"n": 5, "type": "blank", "text": "When I saw Harry, he was {} along the high street in his new car.", "gaps": [["driving"]]},
+            {"n": 6, "type": "blank", "text": "Lara spoke to the DJ, and he {} her favourite song.", "gaps": [["played"]]},
+            {"n": 7, "type": "blank", "text": "The cat {} across the road, but I stopped the car in time.", "gaps": [["ran"]]},
+            {"n": 8, "type": "blank", "text": "Jane wanted to stay in touch, so I {} her my phone number.", "gaps": [["gave"]]}
+          ]
+        },
+        {
+          "id": "2C-wb3c",
+          "origin": "WB",
+          "instruction": "Answer the questions about you. Write full sentences",
+          "note": "WB 3c «Students’ own answers» → Write, проверяет ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Answer the questions about you in full sentences.",
+              "questions": [
+                "When was the last time someone invited you to dinner?",
+                "How often do you leave home late for work / class?",
+                "When you go to parties, do you usually have a good time?",
+                "Where do you usually meet your friends?",
+                "Have you ever waited more than an hour for somebody who was late?"
+              ],
+              "hint": "(My friend invited me to dinner last Saturday.)",
+              "criteria": [
+                "answers all five questions in full sentences",
+                "uses the verb phrases from the questions correctly (invite somebody to dinner, leave home, have a good time, meet friends, wait for somebody)",
+                "uses the right tense: past simple for the last time, present simple for usually / how often"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2C-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the past simple of the verb phrases.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "It was my birthday, so my friends {} me to dinner at a nice restaurant.", "gaps": [["invited", "took"]], "explain": "invite somebody to dinner → invited.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "The party was fantastic. We {} a great time.", "gaps": [["had"]], "explain": "have a great time → had.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "I wanted to call her, so she {} me her phone number.", "gaps": [["gave"]], "explain": "give somebody your phone number → gave.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "The band {} my favourite song at the end of the concert.", "gaps": [["played"]], "explain": "play a song → played.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "We {} the party very late – at three in the morning.", "gaps": [["left"]], "explain": "leave → left (irregular).", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "A dog {} across the road in front of my car.", "gaps": [["ran"]], "explain": "run across the road → ran (irregular).", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "My sister and I {} in a café in the city centre and had a coffee.", "gaps": [["met"]], "explain": "meet in a coffee bar / café → met (irregular).", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "I {} for my friend for forty minutes, but she didn’t come.", "gaps": [["waited"]], "explain": "wait for somebody → waited.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "2C-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete the verb phrases with the missing word.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "I can’t stop now – I’m {} a hurry.", "gaps": [["in"]], "explain": "be in a hurry.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Can you wait {} me after class?", "gaps": [["for"]], "explain": "wait for somebody.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "He was driving {} the high street when he saw her.", "gaps": [["along", "down"]], "explain": "drive along the street.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Look left and right before you run {} the road!", "gaps": [["across"]], "explain": "run across the road.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "Last night Tom invited me {} dinner.", "gaps": [["to", "for"]], "explain": "invite somebody to dinner.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "My parents took us {} an Italian restaurant.", "gaps": [["to"]], "explain": "take somebody to a restaurant.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "2C-vocabulary-x3",
+          "origin": "GENERATED",
+          "instruction": "Put the words in the correct order.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "time / a / had / great / we", "answers": ["We had a great time."], "explain": "have a great time: We had a great time.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "number / gave / my / I / phone / him", "answers": ["I gave him my phone number."], "explain": "give somebody your phone number.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "was / the / waiting / for / at / she / us / station", "answers": ["She was waiting for us at the station."], "explain": "wait for somebody + place.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "hurry / because / we / in / a / were / ran / we", "answers": ["We ran because we were in a hurry."], "explain": "be in a hurry; because + the reason.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "the / club / late / left / very / they", "answers": ["They left the club very late."], "explain": "leave the club very late: the adverb phrase goes at the end.", "source": "MODEL"},
+            {"n": 6, "type": "rewrite", "prompt": "invite / dinner / did / you / who / to / ?", "answers": ["Who did you invite to dinner?"], "explain": "Question word + did + subject + infinitive.", "source": "MODEL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2C-skills",
+      "kind": "SKILLS",
+      "title": "Reading & Listening",
+      "reference": [
+        {
+          "type": "note",
+          "title": "One dark October evening",
+          "text": "Hannah met Jamie, a DJ, in a club on her birthday. He played Get the Party Started for her and waited for her at the door. The next day he invited her to dinner, and after that they met every day at 5.30 in a coffee bar in the high street. One evening in October Hannah was late and was driving fast along the high street. Suddenly, a man ran across the road… There are two endings: a happy one (2.21) and a sad one (2.22)."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "2C-sb1c",
+          "origin": "SB",
+          "instruction": "Read the story again and answer the questions",
+          "note": "SB 1c (With a partner… answer the questions) — открытые вопросы → Blank на ключевое слово по напечатанной истории (MODEL). 1a (угадать сюжет по фото) не переносили",
+          "context": "One dark October evening. Hannah met Jamie last summer. It was Hannah’s birthday and she and her friends went to a club. They wanted to dance, but they didn’t like the music, so Hannah went to speak to the DJ. ‘This music is awful,’ she said. ‘Could you play something else?’ The DJ looked at her and said, ‘Don’t worry, I have the perfect song for you.’ Two minutes later he said, ‘The next song is by Pink. It’s called Get the Party Started and it’s for a beautiful girl over there who’s wearing a pink dress.’ Hannah knew that he was playing the song for her. When Hannah and her friends left the club, the DJ was waiting for her at the door. ‘Hi, I’m Jamie,’ he said to Hannah. ‘Can I see you again?’ So Hannah gave him her phone number. The next day Jamie phoned Hannah and invited her to dinner. He took her to a very romantic French restaurant and they talked all evening. Although the food wasn’t very good, they had a great time. After that Jamie and Hannah saw each other every day. Every evening when Hannah finished work they met at 5.30 in a coffee bar in the high street. They were madly in love. One evening in October Hannah was at work. As usual she was going to meet Jamie at 5.30. It was dark and it was raining. She looked at her watch. It was 5.20! She was going to be late! She ran to her car and got in. At 5.25 she was driving along the high street. She was going very fast because she was in a hurry. Suddenly, a man ran across the road. He was wearing a dark coat, so Hannah didn’t see him at first. Quickly, she put her foot on the brake…",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Why did Hannah go and speak to Jamie? Because she and her friends didn’t like the {}.", "gaps": [["music"]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Why did Jamie play Get the Party Started? Because it was for Hannah – she was wearing a {} dress.", "gaps": [["pink"]], "explain": "The song is by Pink, and Hannah was wearing a pink dress.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "What happened when Hannah left the club? Jamie was {} for her at the door.", "gaps": [["waiting"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "What was the restaurant like? It was a very {} French restaurant, but the food wasn’t very good.", "gaps": [["romantic"]], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "Where did they go every evening after that? To a {} in the high street.", "gaps": [["coffee bar", "café", "cafe"]], "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "What was the weather like that evening in October? It was dark and it was {}.", "gaps": [["raining"]], "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "Why was Hannah driving fast? Because she was in a {}.", "gaps": [["hurry"]], "explain": "It was 5.20 and she was going to be late.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "Why didn’t she see the man? Because he was wearing a {} coat.", "gaps": [["dark"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "2C-sb4c",
+          "origin": "SB",
+          "instruction": "Happy ending. Listen and answer the questions",
+          "note": "SB 4b (2.21 — аудиоверсия видео, роликов 2C в english_file/videos нет) + Communication Happy ending (p.103): вопросы → Blank. 4a (голосование в классе) не переносили. Скрипта 2.21 в книге нет — ответы по расшифровке",
+          "audio": "2.21",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Why didn’t Hannah see the man who was crossing the road? Because he was wearing a {} coat.", "gaps": [["dark"]], "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "Who was the man? {}", "gaps": [["Jamie", "It was Jamie"]], "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "Why did he cross without looking? Because he was in a {}.", "gaps": [["hurry"]], "explain": "‘I was in a hurry and I ran across the road without looking.’", "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "Where did they go after that? To the {}.", "gaps": [["coffee bar", "café", "cafe"]], "source": "CONFIRMED"},
+            {"n": 5, "type": "blank", "text": "What did they order? Two {}.", "gaps": [["cappuccinos", "cups of coffee", "coffees"]], "explain": "‘Here you are, two cappuccinos.’", "source": "CONFIRMED"},
+            {"n": 6, "type": "blank", "text": "Why was Jamie in the High Street? He went to the {} to buy tickets for the Pink concert.", "gaps": [["theatre", "theater"]], "source": "CONFIRMED"},
+            {"n": 7, "type": "blank", "text": "What and when was the concert? A Pink concert on the {} of October, next Saturday.", "gaps": [["15th", "fifteenth", "15"]], "source": "CONFIRMED"},
+            {"n": 8, "type": "blank", "text": "What was special about the day? It was their {} – three months since they first met.", "gaps": [["anniversary"]], "explain": "They met on Saturday the 15th of July.", "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "2C-sb4c2",
+          "origin": "SB",
+          "instruction": "Sad ending. Listen and answer the questions",
+          "note": "SB 4b (2.22) + Communication Sad ending (p.109): вопросы → Blank. Скрипта 2.22 в книге нет — ответы по расшифровке",
+          "audio": "2.22",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Why didn’t Hannah see the man who was crossing the road? He was wearing a dark {}.", "gaps": [["coat"]], "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "What happened? Hannah tried to stop, but she couldn’t. She {} the man.", "gaps": [["hit"]], "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "Where did she go after the accident? What did she do there? She drove to the coffee bar and waited for {} minutes.", "gaps": [["ten", "10"]], "explain": "Jamie wasn’t there and his phone was turned off.", "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "Then where did she go? Who arrived there a bit later? She went {}. Two hours later a {} arrived.", "gaps": [["home"], ["policewoman", "police woman", "police officer"]], "source": "CONFIRMED"},
+            {"n": 5, "type": "blank", "text": "What news did she have for Hannah? Jamie had an {} this evening.", "gaps": [["accident"]], "source": "CONFIRMED"},
+            {"n": 6, "type": "blank", "text": "How was Jamie? He was in {} with a bad injury to his head and two broken legs.", "gaps": [["hospital", "intensive care"]], "source": "CONFIRMED"},
+            {"n": 7, "type": "blank", "text": "What did she tell Hannah about the car and the driver? The driver was a {} in a black car, and she didn’t stop.", "gaps": [["woman"]], "source": "CONFIRMED"},
+            {"n": 8, "type": "blank", "text": "What happened in the end? Hannah has a {} car outside, and the policewoman asks where she was at 25 past 5.", "gaps": [["black"]], "explain": "Somebody saw the number of the car – it was Hannah’s car.", "source": "CONFIRMED"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2C-review",
+      "kind": "REVIEW",
+      "title": "Revise and Check 1&2",
+      "reference": [
+        {
+          "type": "note",
+          "title": "File 1",
+          "text": "Word order in questions: (question word) + auxiliary + subject + infinitive: Where do you live? Did you have a good time? Present simple: I work, he works; don’t / doesn’t + infinitive; adverbs of frequency go before the main verb but after be: I never listen… She’s always late. Present continuous (am / is / are + -ing) for actions happening now: What are you doing? She’s wearing a blue skirt."
+        },
+        {
+          "type": "note",
+          "title": "File 2",
+          "text": "Past simple: regular -ed, irregular (went, saw); didn’t + infinitive, Did…? + infinitive. Past continuous (was / were + -ing) for an action in progress in the past: When I got home, my parents were sitting on the sofa. Time sequencers: Then / After that (not After). Connectors: because (reason), so (result), but / although (contrast)."
+        },
+        {
+          "type": "table",
+          "title": "at, in, on",
+          "headers": ["", "Time", "Place"],
+          "rows": [
+            ["at", "at night, at 6.00, at the weekend", "at school, at home, at work"],
+            ["in", "in 1989, in March, in the morning", "in the kitchen, in a hotel, in Paris"],
+            ["on", "on 13th March, on Monday", "on the shelf, on the beach, on a bus"]
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "2C-rcg",
+          "origin": "SB",
+          "instruction": "Grammar. Complete with the correct form",
+          "note": "Revise and Check 1&2 (SB p.20) Grammar «Circle a, b, or c» → Blank, варианты в hint. Ключа нет — MODEL",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "{} any brothers or sisters?", "gaps": [["Do you have"]], "hint": "(Have you / Do you / Do you have)", "explain": "have is a normal verb here: Do you have…?", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "{} last night?", "gaps": [["Where did you go"]], "hint": "(Where you went / Where did you go / Where you did go)", "explain": "Question word + did + subject + infinitive.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "My brother {} football.", "gaps": [["doesn’t like", "does not like"]], "hint": "(doesn’t like / don’t like / doesn’t likes)", "explain": "he / she / it: doesn’t + infinitive (no -s).", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Her parents {} a small business.", "gaps": [["have"]], "hint": "(has / haves / have)", "explain": "they → have.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "I {} to music when I’m working.", "gaps": [["never listen"]], "hint": "(never listen / don’t never listen / listen never)", "explain": "Adverbs of frequency go before the main verb; never is already negative.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "In the picture the woman {} a blue skirt.", "gaps": [["is wearing", "’s wearing"]], "hint": "(wears / wearing / is wearing)", "explain": "Present continuous to describe a picture.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "What {}? – I’m looking for my keys.", "gaps": [["are you doing"]], "hint": "(you are doing / do you do / are you doing)", "explain": "Present continuous question: are + subject + -ing.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "She’s at university. She {} history.", "gaps": [["’s studying", "is studying"]], "hint": "(’s studing / ’s studying / studying)", "explain": "study → studying (keep the y).", "source": "MODEL"},
+            {"n": 9, "type": "blank", "text": "We {} to Malta last August.", "gaps": [["went"]], "hint": "(were / went / did go)", "explain": "go → went (past simple +).", "source": "MODEL"},
+            {"n": 10, "type": "blank", "text": "I saw the film, but I {} it.", "gaps": [["didn’t like", "did not like"]], "hint": "(didn’t liked / don’t liked / didn’t like)", "explain": "didn’t + infinitive.", "source": "MODEL"},
+            {"n": 11, "type": "blank", "text": "When I got home, my parents {} on the sofa.", "gaps": [["were sitting"]], "hint": "(were sitting / was sitting / were siting)", "explain": "they → were; sit → sitting (double t).", "source": "MODEL"},
+            {"n": 12, "type": "blank", "text": "What {} at 11 p.m.? You didn’t answer my call.", "gaps": [["were you doing"]], "hint": "(you were doing / you was doing / were you doing)", "explain": "Past continuous question: were + you + -ing.", "source": "MODEL"},
+            {"n": 13, "type": "blank", "text": "She couldn’t see him because she {} her glasses.", "gaps": [["wasn’t wearing", "was not wearing"]], "hint": "(wasn’t wearing / didn’t wear / didn’t wearing)", "explain": "Past continuous: an action in progress at that moment.", "source": "MODEL"},
+            {"n": 14, "type": "blank", "text": "We had lunch in a restaurant. {} we decided to go for a walk.", "gaps": [["Then"]], "hint": "(After / Then / When)", "explain": "Then / After that link two sentences, not After.", "source": "MODEL"},
+            {"n": 15, "type": "blank", "text": "We had a great time, {} the weather wasn’t very good.", "gaps": [["although"]], "hint": "(so / because / although)", "explain": "A contrast: although.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "2C-rcva",
+          "origin": "SB",
+          "instruction": "Vocabulary. Complete the phrases with a verb from the list",
+          "note": "Revise and Check 1&2 Vocabulary a; MODEL",
+          "words": ["book", "do", "drive", "invite", "leave", "look", "play", "stay", "take", "wear"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "What do you {}? – I’m a doctor.", "gaps": [["do"]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "What does she {} like? – She’s tall and slim.", "gaps": [["look"]], "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "She doesn’t usually {} jewellery, only her wedding ring.", "gaps": [["wear"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Did you {} any photos? – No, I didn’t.", "gaps": [["take"]], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "Where did you {}? – In a small hotel.", "gaps": [["stay"]], "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Did you {} your flight online?", "gaps": [["book"]], "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "Let’s {} your parents to dinner. – Good idea.", "gaps": [["invite"]], "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "Are you going to {} there? – No, we’re going to get the train.", "gaps": [["drive"]], "source": "MODEL"},
+            {"n": 9, "type": "blank", "text": "Go on! Ask the DJ to {} our song! – OK.", "gaps": [["play"]], "source": "MODEL"},
+            {"n": 10, "type": "blank", "text": "What time do we need to {} home tomorrow? – About 6.00. Our flight is at 9.00.", "gaps": [["leave"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "2C-rcvb",
+          "origin": "SB",
+          "instruction": "Complete with at, in, or on",
+          "note": "Revise and Check 1&2 Vocabulary b; MODEL",
+          "words": ["at", "in", "on"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "The meeting is {} 13th March.", "gaps": [["on"]], "explain": "on + a date.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Where’s Mum? – She’s {} the kitchen.", "gaps": [["in"]], "explain": "in + a room.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "He was born {} 1989.", "gaps": [["in"]], "explain": "in + a year.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Where’s the dictionary? – It’s {} the shelf in my room.", "gaps": [["on"]], "explain": "on + a surface.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "Mark’s not back yet – he’s still {} school.", "gaps": [["at"]], "explain": "at school, at work, at home.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "It’s a very quiet town, especially {} night.", "gaps": [["at"]], "explain": "at night.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "We went on holiday to Iceland {} 2017.", "gaps": [["in"]], "explain": "in + a year.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "2C-rcvc",
+          "origin": "SB",
+          "instruction": "Which word is different? Write it",
+          "note": "Revise and Check 1&2 Vocabulary c «Circle the word that is different» → Blank; MODEL. 4 (dress) — сомнительно",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "straight, long, curly, beard → {}", "gaps": [["beard"]], "explain": "straight, long, curly describe hair; a beard is a noun.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "kind, lazy, generous, funny → {}", "gaps": [["lazy"]], "explain": "lazy is negative; the others are positive.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "clever, mean, unfriendly, unkind → {}", "gaps": [["clever"]], "explain": "clever is positive; the others are negative.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "dress, shirt, tie, jacket → {}", "gaps": [["dress"]], "explain": "A shirt, a tie and a jacket go together (a man’s suit); a dress is for women.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "socks, gloves, trainers, sandals → {}", "gaps": [["gloves"]], "explain": "You wear gloves on your hands; the others on your feet.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "necklace, bracelet, ring, scarf → {}", "gaps": [["scarf"]], "explain": "A scarf is clothes; the others are jewellery.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "windy, foggy, noisy, sunny → {}", "gaps": [["noisy"]], "explain": "noisy is not about the weather.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "basic, dirty, luxurious, uncomfortable → {}", "gaps": [["luxurious"]], "explain": "luxurious is positive; the others are negative.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "2C-rcpa",
+          "origin": "SB",
+          "instruction": "Pronunciation. Practise the words and sounds",
+          "note": "Revise and Check 1&2 Pronunciation a → Speak слов-звуков (трека нет, образец — синтезатор). b (Sound Bank p.166–167: назвать ещё слова на каждый звук) не переносили — открытое задание",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "tree"},
+            {"n": 2, "type": "speak", "text": "car"},
+            {"n": 3, "type": "speak", "text": "fish"},
+            {"n": 4, "type": "speak", "text": "bike"},
+            {"n": 5, "type": "speak", "text": "snake"},
+            {"n": 6, "type": "speak", "text": "zebra"},
+            {"n": 7, "type": "speak", "text": "dog"},
+            {"n": 8, "type": "speak", "text": "tie"}
+          ]
+        },
+        {
+          "id": "2C-rcpc",
+          "origin": "SB",
+          "instruction": "What sound in a do the letters in brackets have in these words? Write the sound word",
+          "note": "Revise and Check 1&2 Pronunciation c; розовые буквы книги → в скобках. MODEL",
+          "words": ["tree", "car", "fish", "bike", "snake", "zebra", "dog", "tie"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "quiet (i) → {}", "gaps": [["bike"]], "explain": "quiet /aɪ/ – like bike.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "skiing (ii) → {}", "gaps": [["tree"]], "explain": "skiing /iː/ – like tree.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "booked (ed) → {}", "gaps": [["tie"]], "explain": "booked – -ed = /t/ after /k/.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "listened (ed) → {}", "gaps": [["dog"]], "explain": "listened – -ed = /d/ after /n/.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "noisy (s) → {}", "gaps": [["zebra"]], "explain": "noisy – s = /z/.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "2C-rcpd",
+          "origin": "SB",
+          "instruction": "Which syllable is stressed? Write it",
+          "note": "Revise and Check 1&2 Pronunciation d «Underline the stressed syllable» → Blank: ударный слог. MODEL",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "ex|tro|vert → {}", "gaps": [["ex"]], "explain": "EXtrovert.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "o|ver|weight → {}", "gaps": [["o"]], "explain": "Overweight – stress on the first syllable (secondary stress on weight).", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "brace|let → {}", "gaps": [["brace"]], "explain": "BRACElet.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "on|line → {}", "gaps": [["line"]], "explain": "onLINE.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "com|for|ta|ble → {}", "gaps": [["com"]], "explain": "COMfortable.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "2C-rcra",
+          "origin": "SB",
+          "instruction": "Can you understand this text? Read the article and match the headings to the tips",
+          "note": "Revise and Check 1&2 «Can you understand this text?» a → Blank по советам 1–3, заголовки — в words. MODEL",
+          "context": "How to take better holiday photos. Holiday time is the one time we all take photos. We’re in a strange new place, the sun is shining, and we want to record our surroundings and happy memories. So how do we take the perfect holiday photos? Here are three useful tips… Tip 1: I took this photo in Bruges in Belgium. I got up and, when my friends were having breakfast, I went for a walk with my camera. This gave me three advantages: the sun was low in the sky and the light was beautiful and warm; there were no people around; my friends didn’t need to wait patiently when I was taking photos. The light in the evening is also good, but there are a lot more people around. There are times, in the local market, for example, when having lots of people in the photo can be a good thing, but most of the time I prefer my photos to be less crowded. Tip 2: I took these two photos of the Forbidden City in Beijing, and I think the picture on the right is much better. Try not to take exactly the same picture as millions of other people – look for little details that other photographers haven’t seen. Although I am a very enthusiastic photographer, I often buy a nice postcard of the places I visit – much better than going home with pictures that aren’t very good. Tip 3: These are the gardens outside the Louvre in Paris. We spent all day looking at the paintings, and we were walking back to the hotel when we saw someone feeding the birds. I only had my little camera with me, but it was all I needed. I quickly took maybe 30 photos from different angles, and this one is the best.",
+          "words": ["Take more than one", "Start early", "Zoom in"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Tip 1 (Bruges): {}", "gaps": [["Start early"]], "explain": "He went out when his friends were having breakfast.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Tip 2 (the Forbidden City): {}", "gaps": [["Zoom in"]], "explain": "Look for little details that other photographers haven’t seen.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Tip 3 (the Louvre gardens): {}", "gaps": [["Take more than one"]], "explain": "He took maybe 30 photos from different angles.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "2C-rcrb",
+          "origin": "SB",
+          "instruction": "Read the article again. Are the sentences true? Write each sentence so that it is true",
+          "note": "Revise and Check 1&2 «Can you understand this text?» b T/F → Rewrite: верное — как есть, неверное — исправить. MODEL",
+          "context": "How to take better holiday photos. Tip 1: I took this photo in Bruges in Belgium. I got up and, when my friends were having breakfast, I went for a walk with my camera. The sun was low in the sky and the light was beautiful and warm; there were no people around. The light in the evening is also good, but there are a lot more people around. Most of the time I prefer my photos to be less crowded. Tip 2: Try not to take exactly the same picture as millions of other people – look for little details that other photographers haven’t seen. Although I am a very enthusiastic photographer, I often buy a nice postcard of the places I visit – much better than going home with pictures that aren’t very good. Tip 3: These are the gardens outside the Louvre in Paris. We spent all day looking at the paintings, and we were walking back to the hotel when we saw someone feeding the birds. I only had my little camera with me, but it was all I needed.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "The best time to take photos is early evening.", "answers": ["The best time to take photos is early morning.", "The best time to take photos is early in the morning.", "The best time to take photos is in the early morning."], "explain": "False: he went out early in the morning, when his friends were having breakfast.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "The writer prefers taking photos with people in them.", "answers": ["The writer prefers taking photos without people in them.", "The writer doesn’t prefer taking photos with people in them.", "The writer prefers taking photos with no people in them."], "explain": "False: most of the time he prefers his photos to be less crowded.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "Try to make your photos different from other people’s.", "answers": ["Try to make your photos different from other people’s."], "explain": "True: don’t take exactly the same picture as millions of other people.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "Your own photos are always better than postcards.", "answers": ["Your own photos aren’t always better than postcards.", "Your own photos are not always better than postcards.", "Postcards are sometimes better than your own photos."], "explain": "False: he often buys a nice postcard – better than pictures that aren’t very good.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "The writer went to the Louvre to see the paintings.", "answers": ["The writer went to the Louvre to see the paintings."], "explain": "True: they spent all day looking at the paintings.", "source": "MODEL"},
+            {"n": 6, "type": "rewrite", "prompt": "He was sorry that he only had his small camera.", "answers": ["He wasn’t sorry that he only had his small camera.", "He was not sorry that he only had his small camera.", "He was happy with his small camera."], "explain": "False: ‘I only had my little camera with me, but it was all I needed.’", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "2C-rcl",
+          "origin": "SB",
+          "instruction": "Can you understand these people? Listen and complete the sentences",
+          "note": "Revise and Check 1&2 «Can you understand these people?» 2.23 (Circle a, b, or c → Blank, варианты в hint); клип — ответ одного человека. Скрипта нет — по расшифровке. 1 — сомнительно: «people say I look like my dad a lot», но волосы и глаза мамины",
+          "audio": "2.23",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Lewis looks like {}.", "gaps": [["his mother and his father"]], "hint": "(his father / his mother / his mother and his father)", "explain": "Same nose and face shape as his dad, but his mum’s hair colour and eyes.", "source": "MODEL", "clip": [3.35, 29.27]},
+            {"n": 2, "type": "blank", "text": "In the Dali painting that Susie likes there are some dripping {}.", "gaps": [["clocks"]], "hint": "(clocks / rocks / socks)", "source": "CONFIRMED", "clip": [33.45, 57.0]},
+            {"n": 3, "type": "blank", "text": "Shosanna went to Guyana because she wanted to learn {}.", "gaps": [["about her family history"]], "hint": "(about the animals and plants there / about her family history / the language)", "explain": "Guyana is her parents’ country: she saw how her parents grew up.", "source": "CONFIRMED", "clip": [60.67, 81.1]},
+            {"n": 4, "type": "blank", "text": "Susan doesn’t put photos of {} on Instagram.", "gaps": [["her family"]], "hint": "(gardens / flowers / her family)", "explain": "She takes photos of family, but posts gardens and flowers.", "source": "CONFIRMED", "clip": [84.07, 111.2]},
+            {"n": 5, "type": "blank", "text": "Sam only likes watching {}.", "gaps": [["good films"]], "hint": "(films with a sad ending / films with a happy ending / good films)", "explain": "‘It just has to be a good film. I don’t mind if it’s a happy ending or a sad ending.’", "source": "CONFIRMED", "clip": [114.4, 124.92]}
+          ]
+        },
+        {
+          "id": "2C-rcs",
+          "origin": "SB",
+          "instruction": "Can you say this in English? Talk about yourself",
+          "note": "Revise and Check 1&2 «Can you say this in English?» (6 пунктов «Can you…?», самопроверка) → один разговор с ИИ по всем пунктам",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "A friendly revision chat in an English class (level: pre-intermediate) after Files 1 and 2. Check that the student can do these things, one by one, with short questions and reactions: 1) answer and ask questions about home and family, work / studies and free time (ask two, then say ‘Now ask me something!’); 2) describe the appearance and personality of a person they know well; 3) say what somebody is wearing and doing right now (e.g. people around them or in a photo); 4) answer and ask questions about their last holiday (Where did you go? Who did you go with? What did you do?); 5) describe a favourite photo and say what was happening when they took it; 6) say a true sentence with so, because and although. Keep it natural, one question at a time; if the student makes a mistake with word order in questions, present simple / continuous, past simple / continuous or connectors, repeat the correct form naturally in your reply.",
+              "goal": "Show that you can talk about yourself, describe people, talk about a past holiday and a favourite photo, and use so, because and although.",
+              "opener": "Hi! Let’s see what you remember from Files 1 and 2. First, tell me a bit about you – where do you live, and who do you live with?",
+              "criteria": [
+                "asks at least two correct questions (right word order, do / does / did)",
+                "describes a person’s appearance and personality with vocabulary from File 1",
+                "uses the present continuous to say what someone is wearing or doing",
+                "talks about a holiday and a photo with the past simple and past continuous",
+                "uses so, because and although correctly at least once each"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

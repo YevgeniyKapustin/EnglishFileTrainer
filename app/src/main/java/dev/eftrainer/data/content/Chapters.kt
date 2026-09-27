@@ -7,7 +7,7 @@ import java.util.concurrent.ConcurrentHashMap
 object Chapters {
     private const val FRESH = "Fresh practice"
 
-    val all: List<Chapter> = listOf(File1A, File1B)
+    val all: List<Chapter> = listOf(File1A, File1B, File1C, File2A, File2B, File2C)
 
     data class Location(
         val chapter: Chapter,

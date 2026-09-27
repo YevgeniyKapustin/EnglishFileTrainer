@@ -43,6 +43,7 @@ import dev.eftrainer.ui.toPercent
 fun AllChaptersScreen(
     onBack: () -> Unit,
     onChapter: (chapterId: String) -> Unit,
+    onCurrent: () -> Unit,
     modifier: Modifier = Modifier,
     vm: AllChaptersViewModel = allChaptersViewModel(),
 ) {
@@ -65,7 +66,7 @@ fun AllChaptersScreen(
                     divider = i != rows.lastIndex,
                     onClick = {
                         vm.choose(row.chapter.id)
-                        if (row.status == ChapterStatus.CURRENT) onBack() else onChapter(row.chapter.id)
+                        if (row.status == ChapterStatus.CURRENT) onCurrent() else onChapter(row.chapter.id)
                     },
                 )
             }

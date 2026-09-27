@@ -88,6 +88,8 @@ private class ScreenNav(
     fun home() = leave { nav.popBackStack(CurrentRoute, inclusive = false) }
 
     fun <R : Any> open(route: R) = leave { nav.navigate(route) }
+
+    fun <R : Any> openFromHome(route: R) = leave { nav.navigate(route) { popUpTo(CurrentRoute) } }
 }
 
 private inline fun <reified T : Any> NavGraphBuilder.screen(
@@ -204,7 +206,8 @@ private fun NavGraphBuilder.chapterScreens(
     screen<ChaptersRoute>(nav, fromLeft = true) { screen ->
         AllChaptersScreen(
             onBack = screen::back,
-            onChapter = { screen.open(ChapterRoute(it)) },
+            onChapter = { screen.openFromHome(ChapterRoute(it)) },
+            onCurrent = screen::home,
         )
     }
     screen<ChapterRoute>(nav) { screen ->

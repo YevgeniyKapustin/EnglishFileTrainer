@@ -50,7 +50,6 @@ import dev.eftrainer.core.theme.Golos
 import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.ui.Icons
 import dev.eftrainer.core.ui.ListRow
-import dev.eftrainer.core.ui.PrimaryButton
 import dev.eftrainer.data.ai.AiException
 import dev.eftrainer.data.ai.Provider
 import dev.eftrainer.data.ai.detectProvider
@@ -58,48 +57,37 @@ import dev.eftrainer.data.ai.detectProvider
 @Composable
 internal fun AiKey(
     key: String?,
+    input: String,
     checking: Boolean,
     error: AiException.Reason?,
-    onEdit: () -> Unit,
-    onSave: (String, () -> Unit) -> Unit,
+    onEdit: (String) -> Unit,
     onRemove: () -> Unit,
 ) {
     var open by rememberSaveable { mutableStateOf(false) }
-    var input by rememberSaveable { mutableStateOf("") }
-    val close = {
-        open = false
-        input = ""
-    }
 
-    AiKeyRow(key) {
-        open = !open
-        input = ""
-        onEdit()
-    }
+    AiKeyRow(key) { open = !open }
     AnimatedVisibility(open, enter = expandVertically() + fadeIn(), exit = shrinkVertically() + fadeOut()) {
         val typed = input.trim()
         val hit = detectProvider(typed)
         Column(Modifier.padding(top = 4.dp, bottom = 16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-            KeyField(input) {
-                input = it
-                onEdit()
-            }
+            KeyField(input, onEdit)
             KeyHint(typed, hit)
             ProviderList(hit)
             Text(stringResource(R.string.ai_key_local), style = T.label)
-            error?.let { KeyError(it) }
-            PrimaryButton(
-                stringResource(if (checking) R.string.ai_key_checking else R.string.save),
-                onClick = { onSave(typed, close) },
-                enabled = hit != null && !checking,
-            )
-            if (key != null) {
-                RemoveKeyLink {
-                    onRemove()
-                    close()
-                }
-            }
+            KeyStatus(checking, error)
+            if (key != null) RemoveKeyLink(onRemove)
         }
+    }
+}
+
+@Composable
+private fun KeyStatus(
+    checking: Boolean,
+    error: AiException.Reason?,
+) {
+    when {
+        checking -> Text(stringResource(R.string.ai_key_checking), style = T.label)
+        error != null -> KeyError(error)
     }
 }
 

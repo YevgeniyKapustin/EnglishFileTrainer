@@ -7,7 +7,10 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dev.eftrainer.AppContainer
 import dev.eftrainer.data.ai.AiException
+import dev.eftrainer.data.ai.detectProvider
 import dev.eftrainer.data.settings.ThemeMode
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import java.time.LocalTime
 
@@ -24,6 +27,15 @@ class SettingsViewModel(
         private set
 
     var error by mutableStateOf<AiException.Reason?>(null)
+        private set
+
+    var keyInput by mutableStateOf(
+        container.ai.key.value
+            .orEmpty(),
+    )
+        private set
+
+    private var verifying: Job? = null
 
     fun setTheme(mode: ThemeMode) = container.theme.set(mode)
 
@@ -37,25 +49,41 @@ class SettingsViewModel(
         container.reschedule()
     }
 
-    fun save(
-        value: String,
-        onSaved: () -> Unit,
-    ) {
-        if (checking) return
-        checking = true
+    fun editKey(value: String) {
+        keyInput = value
         error = null
-        viewModelScope.launch {
-            try {
-                container.aiClient.verify(value.trim())
-                container.ai.setKey(value)
-                onSaved()
-            } catch (e: AiException) {
-                error = e.reason
-            } finally {
-                checking = false
-            }
+        verifying?.cancel()
+        val typed = value.trim()
+        when {
+            typed.isEmpty() -> container.ai.setKey(null)
+            detectProvider(typed) != null -> saveAndVerify(typed)
         }
     }
 
-    fun remove() = container.ai.setKey(null)
+    private fun saveAndVerify(typed: String) {
+        container.ai.setKey(typed)
+        verifying =
+            viewModelScope.launch {
+                delay(VERIFY_DELAY_MS)
+                checking = true
+                try {
+                    container.aiClient.verify(typed)
+                } catch (e: AiException) {
+                    error = e.reason
+                } finally {
+                    checking = false
+                }
+            }
+    }
+
+    fun remove() {
+        verifying?.cancel()
+        keyInput = ""
+        error = null
+        container.ai.setKey(null)
+    }
+
+    private companion object {
+        const val VERIFY_DELAY_MS = 500L
+    }
 }

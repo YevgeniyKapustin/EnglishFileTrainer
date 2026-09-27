@@ -89,10 +89,10 @@ fun SettingsScreen(
             SettingsFold(stringResource(R.string.ai_explanations)) {
                 AiKey(
                     key = key,
+                    input = vm.keyInput,
                     checking = vm.checking,
                     error = vm.error,
-                    onEdit = { vm.error = null },
-                    onSave = vm::save,
+                    onEdit = vm::editKey,
                     onRemove = vm::remove,
                 )
             }

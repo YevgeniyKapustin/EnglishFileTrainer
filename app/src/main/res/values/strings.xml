@@ -129,7 +129,6 @@
     <string name="ai_key_offline">No connection. Try again.</string>
     <string name="ai_key_failed">Something went wrong. Try again.</string>
     <string name="ai_key_remove">Remove key</string>
-    <string name="save">Save</string>
 
     <string name="ef_grammar_bank">Grammar Bank %1$s</string>
     <string name="ef_score">%1$d/%2$d</string>

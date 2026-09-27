@@ -22,7 +22,7 @@ internal fun keyboard(ime: ImeAction) =
     KeyboardOptions(
         capitalization = KeyboardCapitalization.None,
         autoCorrectEnabled = false,
-        keyboardType = KeyboardType.Text,
+        keyboardType = KeyboardType.Password,
         imeAction = ime,
     )
 

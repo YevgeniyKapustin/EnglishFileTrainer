@@ -64,7 +64,7 @@ fun SettingsScreen(
     val reminder by vm.reminder.collectAsStateWithLifecycle()
     val reminderTime by vm.reminderTime.collectAsStateWithLifecycle()
     Column(modifier.fillMaxSize()) {
-        BackLink(stringResource(R.string.back), onBack)
+        BackLink(stringResource(R.string.back), onBack, Modifier.align(Alignment.End), closesRight = true)
         Text(
             stringResource(R.string.settings),
             style = T.title,

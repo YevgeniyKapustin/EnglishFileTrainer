@@ -90,6 +90,7 @@ fun BackLink(
     onClick: () -> Unit,
     modifier: Modifier = Modifier,
     tint: Color = C.Muted,
+    closesRight: Boolean = false,
 ) {
     Row(
         modifier.height(56.dp).padding(horizontal = 12.dp),
@@ -105,8 +106,9 @@ fun BackLink(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(4.dp),
         ) {
-            Icon(Icons.ChevronLeft, null, Modifier.size(18.dp), tint = tint)
+            if (!closesRight) Icon(Icons.ChevronLeft, null, Modifier.size(18.dp), tint = tint)
             Text(text, style = TextStyle(fontFamily = Golos, fontSize = 15.sp, color = tint))
+            if (closesRight) Icon(Icons.ChevronRight, null, Modifier.size(18.dp), tint = tint)
         }
     }
 }

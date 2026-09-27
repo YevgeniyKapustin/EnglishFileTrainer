@@ -28,6 +28,11 @@ object Mastery {
         if (exercises.isEmpty()) {
             0.0
         } else {
-            exercises.count { isMastered(progress[it.id]) }.toDouble() / exercises.size
+            exercises.sumOf { credit(progress[it.id]) } / exercises.size
         }
+
+    fun credit(progress: Progress?): Double =
+        (progress?.streak ?: 0).coerceAtMost(STREAK_TO_MASTER).toDouble() / STREAK_TO_MASTER
+
+    fun isPassed(progress: Progress?): Boolean = progress != null && progress.streak > 0
 }

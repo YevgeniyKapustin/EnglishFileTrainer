@@ -34,9 +34,20 @@ class MasteryTest {
         assertEquals(1, answer(0L to true, 1L to false, 1L to true, 2L to true).streak)
     }
 
-    @Test fun `share counts mastered`() {
+    @Test fun `share gives a third per correct day up to mastered`() {
         val s = section("s", 4)
         val progress = listOf(mastered("s-1"), mastered("s-2"), progress("s-3", streak = 2)).byId()
-        assertEquals(0.5, Mastery.share(s.tasks.single().exercises, progress), 1e-9)
+        assertEquals((1 + 1 + 2.0 / 3) / 4, Mastery.share(s.tasks.single().exercises, progress), 1e-9)
+    }
+
+    @Test fun `first correct pass moves share off zero`() {
+        val s = section("s", 3)
+        val progress =
+            s.tasks
+                .single()
+                .exercises
+                .map { progress(it.id, streak = 1) }
+                .byId()
+        assertEquals(1.0 / 3, Mastery.share(s.tasks.single().exercises, progress), 1e-9)
     }
 }

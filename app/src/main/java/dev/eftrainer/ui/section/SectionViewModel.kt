@@ -55,7 +55,7 @@ class SectionViewModel(
         chapterId = chapterId,
         tasks =
             section.tasks.filter { it.origin != Origin.GENERATED }.map { t ->
-                TaskRow(t, t.exercises.count { Mastery.isMastered(progress[it.id]) }, t.exercises.size)
+                TaskRow(t, t.exercises.count { Mastery.isPassed(progress[it.id]) }, t.exercises.size)
             },
         aiOn = aiOn,
     )

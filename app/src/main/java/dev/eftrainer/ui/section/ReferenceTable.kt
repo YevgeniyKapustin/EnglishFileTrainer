@@ -38,7 +38,7 @@ fun TableBlock(
 ) {
     Panel(modifier) {
         PanelHeader(table.title)
-        table.audio?.let { Box(Modifier.padding(bottom = 8.dp)) { AudioBar(it) } }
+        table.audio?.let { AudioBar(it, Modifier.padding(vertical = 8.dp)) }
         BoxWithConstraints(Modifier.fillMaxWidth()) {
             val fontScale = LocalDensity.current.fontScale
             when (tableForm(table.headers.size, maxWidth.value, fontScale)) {

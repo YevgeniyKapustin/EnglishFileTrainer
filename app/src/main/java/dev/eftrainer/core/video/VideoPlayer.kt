@@ -10,6 +10,7 @@ import androidx.compose.runtime.mutableLongStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.runtime.withFrameNanos
 import androidx.compose.ui.platform.LocalContext
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
@@ -20,7 +21,6 @@ import dev.eftrainer.core.audio.assetItem
 import dev.eftrainer.core.audio.buildPlayer
 import dev.eftrainer.core.audio.listAssets
 import dev.eftrainer.data.content.Clip
-import kotlinx.coroutines.delay
 
 object VideoAssets {
     @Volatile private var names: Set<String>? = null
@@ -131,8 +131,7 @@ fun rememberVideoPlayer(
     }
     LaunchedEffect(state, state?.playing) {
         while (state != null && state.playing) {
-            state.sync()
-            delay(200)
+            withFrameNanos { state.sync() }
         }
     }
     return state

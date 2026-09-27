@@ -11,6 +11,7 @@ import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.runtime.withFrameNanos
 import androidx.compose.ui.platform.LocalContext
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
@@ -25,7 +26,6 @@ import androidx.media3.exoplayer.source.DefaultMediaSourceFactory
 import androidx.media3.extractor.DefaultExtractorsFactory
 import androidx.media3.extractor.mp3.Mp3Extractor
 import dev.eftrainer.data.content.Clip
-import kotlinx.coroutines.delay
 
 object AudioAssets {
     @Volatile private var names: Set<String>? = null
@@ -210,8 +210,7 @@ fun rememberAudioPlayer(
     LifecycleEventEffect(Lifecycle.Event.ON_PAUSE) { state?.pause() }
     LaunchedEffect(state, state?.playing) {
         while (state != null && state.playing) {
-            state.sync()
-            delay(200)
+            withFrameNanos { state.sync() }
         }
     }
     return state

@@ -13,7 +13,7 @@ RATE = 44100
 MAIN_PEAK_DBFS = -14.0
 TICK_PEAK_DBFS = -28.0
 FAN_PEAK_DBFS = -27.0
-BUMP_PEAK_DBFS = -16.0
+BUMP_PEAK_DBFS = -21.0
 NOISE_SEED = 7
 FADE_OUT_SECONDS = 0.02
 VORBIS_ARGS = ["-ac", "1", "-c:a", "libvorbis", "-q:a", "2"]
@@ -139,12 +139,16 @@ def fan() -> Wave:
 
 
 def bump() -> Wave:
-    seconds = 0.14
-    body = render([Note(0.0, 190.0, 0.035, glide_to=120.0, overtones=(0.3,))], seconds, -6.0, attack=0.002)
+    seconds = 0.16
+    squish = render(
+        [Note(0.0, 240.0, 0.06, glide_to=330.0, overtones=(0.06,)), Note(0.0, 243.0, 0.05, 0.5, glide_to=335.0)],
+        seconds,
+        -6.0,
+        attack=0.012,
+    )
     t = timeline(seconds)
-    thud = swept_noise(seconds, 900.0, 300.0) * np.exp(-t / 0.012)
-    mix = peaked(body) + 0.4 * peaked(thud)
-    return normalized(mix, BUMP_PEAK_DBFS)
+    air = swept_noise(seconds, 400.0, 250.0) * envelope(t, 0.015, 0.03)
+    return normalized(peaked(squish) + 0.15 * peaked(air), BUMP_PEAK_DBFS)
 
 
 def write_ogg(name: str, samples: Wave) -> Path:

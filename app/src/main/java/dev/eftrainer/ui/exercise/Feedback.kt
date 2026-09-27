@@ -55,8 +55,6 @@ internal fun FeedbackSheet(
     onExplain: (question: String?) -> Unit,
     tts: TextToSpeechState,
     sayId: String,
-    answerBack: AnswerBack? = null,
-    onAnswerBack: (String) -> Unit = {},
 ) {
     val color = if (f.correct) C.Ok else C.Bad
     val aiShown = aiOn || explanation?.answered == true
@@ -75,7 +73,6 @@ internal fun FeedbackSheet(
             ExpectedAnswer(f, tts, sayId)
             if (aiShown) AiExplanation(explanation, aiOn, onExplain)
         }
-        answerBack?.let { AnswerBackBlock(it, onAnswerBack) }
         if (f.correct && !aiGraded && aiShown) {
             AskAi(explanation, aiOn, onExplain)
         }

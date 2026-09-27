@@ -226,6 +226,7 @@ private fun QuestionScreen(
                     onHear = { onCheck(listOf(it)) },
                     onGrade = onGrade,
                 )
+                q.answerBack?.let { AnswerBackBlock(it, onAnswerBack) }
             }
         }
 
@@ -241,8 +242,6 @@ private fun QuestionScreen(
                 onExplain = onExplain,
                 tts = tts,
                 sayId = "answer-${e.id}-${q.attempt}",
-                answerBack = q.answerBack,
-                onAnswerBack = onAnswerBack,
             )
         }
     }

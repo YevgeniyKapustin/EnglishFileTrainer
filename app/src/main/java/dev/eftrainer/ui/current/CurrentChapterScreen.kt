@@ -1,7 +1,10 @@
 package dev.eftrainer.ui.current
 
+import androidx.compose.animation.core.Animatable
+import androidx.compose.animation.core.AnimationVector1D
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxScope
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -22,11 +25,17 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.clipToBounds
+import androidx.compose.ui.graphics.BlendMode
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.CompositingStrategy
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -45,7 +54,8 @@ import dev.eftrainer.core.ui.ListRow
 import dev.eftrainer.core.ui.PrimaryButton
 import dev.eftrainer.core.ui.ProgressBar
 import dev.eftrainer.core.ui.SectionTag
-import dev.eftrainer.core.ui.SpeechBubble
+import dev.eftrainer.core.ui.SpeechBubbleShape
+import dev.eftrainer.core.ui.SpeechBubbleText
 import dev.eftrainer.core.ui.WedgeBand
 import dev.eftrainer.data.content.Bubbles
 import dev.eftrainer.data.content.Chapter
@@ -187,7 +197,7 @@ private fun ChapterBand(
     content: @Composable () -> Unit,
 ) {
     val intro = rememberHeaderIntro()
-    WedgeBand(150.dp, reveal = { intro.rays.value }) {
+    WedgeBand(150.dp, Modifier.clipToBounds(), reveal = { intro.rays.value }) {
         chapter?.bubbles?.let { b -> BandBubbles(b, intro) }
         Row(
             Modifier.fillMaxWidth().height(56.dp).padding(horizontal = 12.dp),
@@ -228,33 +238,50 @@ private fun ChapterBand(
     }
 }
 
+private class BandBubble(
+    val text: String,
+    val color: Color,
+    val tailLeft: Boolean,
+    val size: Dp,
+    val end: Dp,
+    val bottom: Dp,
+    val pop: Animatable<Float, AnimationVector1D>,
+    val drag: BubbleDrag,
+)
+
 @Composable
 private fun BoxScope.BandBubbles(
     lines: Bubbles,
     intro: HeaderIntro,
 ) {
-    SpeechBubble(
-        lines.first,
-        EF.Sky,
-        tailLeft = true,
-        size = 92.dp,
-        modifier =
-            Modifier
-                .align(Alignment.BottomEnd)
-                .padding(end = 108.dp, bottom = 12.dp)
-                .bubbleMotion(intro.firstBubble, rememberBubbleDrag(), tailLeft = true),
-    )
-    SpeechBubble(
-        lines.second,
-        EF.Lime,
-        tailLeft = false,
-        size = 88.dp,
-        modifier =
-            Modifier
-                .align(Alignment.BottomEnd)
-                .padding(end = 40.dp, bottom = 24.dp)
-                .bubbleMotion(intro.secondBubble, rememberBubbleDrag(), tailLeft = false),
-    )
+    val firstDrag = rememberBubbleDrag()
+    val secondDrag = rememberBubbleDrag()
+    val bubbles =
+        listOf(
+            BandBubble(lines.first, EF.Sky, true, 92.dp, 108.dp, 12.dp, intro.firstBubble, firstDrag),
+            BandBubble(lines.second, EF.Lime, false, 88.dp, 40.dp, 24.dp, intro.secondBubble, secondDrag),
+        )
+
+    fun BandBubble.placed() =
+        Modifier
+            .align(Alignment.BottomEnd)
+            .padding(end = end, bottom = bottom)
+            .bubbleMotion(pop, drag, tailLeft)
+
+    Box(Modifier.matchParentSize().graphicsLayer { compositingStrategy = CompositingStrategy.Offscreen }) {
+        bubbles.forEach { bubble ->
+            SpeechBubbleShape(
+                bubble.color,
+                bubble.tailLeft,
+                bubble.size,
+                bubble.placed(),
+                blendMode = BlendMode.Multiply,
+            )
+        }
+    }
+    bubbles.forEach { bubble ->
+        SpeechBubbleText(bubble.text, bubble.size, bubble.placed().bubbleGrip(bubble.drag))
+    }
 }
 
 @Composable

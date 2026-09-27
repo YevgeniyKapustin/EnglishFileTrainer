@@ -25,11 +25,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Rect
+import androidx.compose.ui.graphics.BlendMode
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.graphics.drawscope.clipRect
 import androidx.compose.ui.graphics.drawscope.rotate
 import androidx.compose.ui.graphics.vector.ImageVector
@@ -106,28 +108,36 @@ fun WedgeBand(
 }
 
 @Composable
-fun SpeechBubble(
-    text: String,
+fun SpeechBubbleShape(
     color: Color,
     tailLeft: Boolean,
     size: Dp,
     modifier: Modifier = Modifier,
+    blendMode: BlendMode = DrawScope.DefaultBlendMode,
+) {
+    Canvas(modifier.size(size)) {
+        val k = this.size.width / 100f
+        val a1 = if (tailLeft) 125f else 75f
+        val tip = if (tailLeft) Offset(16f, 96f) else Offset(84f, 96f)
+        val rad = Math.toRadians(a1.toDouble())
+        val path =
+            Path().apply {
+                moveTo((50 + 44 * cos(rad)).toFloat() * k, (46 + 44 * sin(rad)).toFloat() * k)
+                arcTo(Rect(6f * k, 2f * k, 94f * k, 90f * k), a1, 340f, false)
+                lineTo(tip.x * k, tip.y * k)
+                close()
+            }
+        drawPath(path, color, alpha = .8f, blendMode = blendMode)
+    }
+}
+
+@Composable
+fun SpeechBubbleText(
+    text: String,
+    size: Dp,
+    modifier: Modifier = Modifier,
 ) {
     Box(modifier.size(size), contentAlignment = Alignment.Center) {
-        Canvas(Modifier.matchParentSize()) {
-            val k = this.size.width / 100f
-            val a1 = if (tailLeft) 125f else 75f
-            val tip = if (tailLeft) Offset(16f, 96f) else Offset(84f, 96f)
-            val rad = Math.toRadians(a1.toDouble())
-            val path =
-                Path().apply {
-                    moveTo((50 + 44 * cos(rad)).toFloat() * k, (46 + 44 * sin(rad)).toFloat() * k)
-                    arcTo(Rect(6f * k, 2f * k, 94f * k, 90f * k), a1, 340f, false)
-                    lineTo(tip.x * k, tip.y * k)
-                    close()
-                }
-            drawPath(path, color, alpha = .8f)
-        }
         Text(
             text,
             style = bubbleText,

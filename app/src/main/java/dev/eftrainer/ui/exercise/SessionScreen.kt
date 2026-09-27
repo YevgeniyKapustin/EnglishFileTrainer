@@ -289,7 +289,7 @@ private fun SessionTopBar(
     counter: String? = null,
 ) {
     Row(
-        Modifier.fillMaxWidth().height(56.dp).padding(start = 8.dp, end = 24.dp),
+        Modifier.fillMaxWidth().height(56.dp).padding(start = 12.dp, end = 24.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(12.dp),
     ) {

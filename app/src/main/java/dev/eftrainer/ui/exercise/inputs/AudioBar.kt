@@ -64,7 +64,7 @@ fun AudioBar(
             .clip(shape)
             .background(C.Field)
             .border(1.dp, C.Line, shape)
-            .padding(start = 8.dp, end = 6.dp, top = 8.dp, bottom = 8.dp),
+            .padding(8.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(10.dp),
     ) {

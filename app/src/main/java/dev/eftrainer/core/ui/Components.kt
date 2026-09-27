@@ -26,8 +26,11 @@ import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.layout.layout
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.Constraints
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import dev.eftrainer.core.theme.C
@@ -157,7 +160,10 @@ fun ListRow(
         Row(
             Modifier
                 .fillMaxWidth()
+                .bleed(RowBleed)
+                .clip(RoundedCornerShape(12.dp))
                 .then(if (onClick != null) Modifier.clickable(onClick = onClick) else Modifier)
+                .padding(horizontal = RowBleed)
                 .heightIn(min = 64.dp)
                 .padding(vertical = 12.dp),
             verticalAlignment = Alignment.CenterVertically,
@@ -167,3 +173,27 @@ fun ListRow(
         if (divider) HorizontalDivider(color = C.Line)
     }
 }
+
+val RowBleed = 12.dp
+
+fun Modifier.bleed(horizontal: Dp): Modifier =
+    layout { measurable, constraints ->
+        val extra = horizontal.roundToPx() * 2
+        val maxWidth = if (constraints.hasBoundedWidth) constraints.maxWidth + extra else Constraints.Infinity
+        val wider = constraints.copy(minWidth = constraints.minWidth + extra, maxWidth = maxWidth)
+        val placeable = measurable.measure(wider)
+        layout((placeable.width - extra).coerceAtLeast(0), placeable.height) {
+            placeable.place(-extra / 2, 0)
+        }
+    }
+
+fun Modifier.linkClickable(
+    enabled: Boolean = true,
+    onClick: () -> Unit,
+): Modifier =
+    bleed(LinkBleed)
+        .clip(RoundedCornerShape(8.dp))
+        .clickable(enabled = enabled, onClick = onClick)
+        .padding(horizontal = LinkBleed)
+
+private val LinkBleed = 8.dp

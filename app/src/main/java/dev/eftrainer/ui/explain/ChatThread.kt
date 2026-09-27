@@ -47,6 +47,7 @@ import androidx.compose.ui.unit.sp
 import dev.eftrainer.R
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.T
+import dev.eftrainer.core.ui.linkClickable
 import dev.eftrainer.domain.ai.AiChat
 import dev.eftrainer.ui.exercise.aiErrorRes
 
@@ -100,7 +101,7 @@ fun ChatThread(
                     Text(
                         stringResource(aiErrorRes(chat.error)),
                         style = small.copy(color = C.Bad),
-                        modifier = Modifier.clickable(onClick = onRetry).padding(vertical = 4.dp),
+                        modifier = Modifier.linkClickable(onClick = onRetry).padding(vertical = 4.dp),
                     )
                 }
             }
@@ -203,6 +204,6 @@ fun LinkText(
                 color = if (enabled) C.Accent else C.Off,
                 fontWeight = FontWeight.SemiBold,
             ),
-        modifier = modifier.clickable(enabled = enabled, onClick = onClick).padding(vertical = 4.dp),
+        modifier = modifier.linkClickable(enabled = enabled, onClick = onClick).padding(vertical = 4.dp),
     )
 }

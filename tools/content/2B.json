@@ -676,25 +676,10 @@
           ]
         },
         {
-          "id": "2B-sb4c2",
-          "origin": "SB",
-          "instruction": "Listen and repeat the sentences. Use the weak forms of was and were",
-          "note": "SB 4c, добавлено нами: сказать вслух шесть фраз 2.14 (в книге только «listen again»)",
-          "audio": "2.14",
-          "exercises": [
-            {"n": 1, "type": "speak", "text": "It was my first term at university.", "source": "CONFIRMED", "clip": [4.23, 6.95]},
-            {"n": 2, "type": "speak", "text": "I was staying with him in the Easter holidays.", "source": "CONFIRMED", "clip": [10.0, 12.68]},
-            {"n": 3, "type": "speak", "text": "We were doing a music course.", "source": "CONFIRMED", "clip": [15.83, 18.03]},
-            {"n": 4, "type": "speak", "text": "We were at school together.", "source": "CONFIRMED", "clip": [21.19, 22.92]},
-            {"n": 5, "type": "speak", "text": "She took this when we were visiting the Colosseum.", "source": "CONFIRMED", "clip": [26.2, 29.46]},
-            {"n": 6, "type": "speak", "text": "We were all drinking champagne, and Roz was doing the hard work!", "source": "CONFIRMED", "clip": [32.66, 37.72]}
-          ]
-        },
-        {
           "id": "2B-wb3a",
           "origin": "WB",
           "instruction": "Tap was / were where they are stressed",
-          "note": "WB 3a → Stress по предложению; 1 U — пример. Ключ: 2 U, 3 U, 4 S S, 5 U S S, 6 U. Пункт 2 (weren’t → U в ключе) противоречит правилу (отрицание ударное), вероятно опечатка ключа — ответ S, MODEL",
+          "note": "WB 3a → Stress по предложению; 1 U — пример. Ключ: 2 U, 3 U, 4 S S, 5 U S S, 6 U. Пункт 2 (weren’t → U в ключе) противоречит правилу (отрицание ударное): ключ WB p.89 проверен, текст задания совпадает — опечатка ключа, ответ S, MODEL",
           "exercises": [
             {"n": 2, "type": "stress", "text": "We met our new neighbours yesterday – they [weren’t] very friendly.", "stressed": [1], "explain": "weren’t is a negative, and negatives are stressed. (The Workbook key says U here.)", "source": "MODEL"},
             {"n": 3, "type": "stress", "text": "What [were] you doing when I phoned you?", "stressed": [], "explain": "In wh- questions were is weak: /wə/."},

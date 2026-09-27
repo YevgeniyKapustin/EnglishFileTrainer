@@ -16,33 +16,36 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
-import dev.eftrainer.R
 import dev.eftrainer.core.ui.AssetImage
-import dev.eftrainer.data.content.Picture
 
 private val PictureShape = RoundedCornerShape(12.dp)
 
 @Composable
-internal fun TalkPictures(
-    pictures: List<Picture>,
+fun ExercisePictures(
+    images: List<String>,
     modifier: Modifier = Modifier,
 ) {
     var opened by rememberSaveable { mutableStateOf<String?>(null) }
-    val single = pictures.singleOrNull()?.image
+    val single = images.singleOrNull()
     if (single != null) {
-        PictureThumb(pictures.single(), single, null, modifier.fillMaxWidth())
+        AssetImage(single, null, modifier.fillMaxWidth().clip(PictureShape))
     } else {
         Row(
             modifier.horizontalScroll(rememberScrollState()),
             horizontalArrangement = Arrangement.spacedBy(8.dp),
         ) {
-            pictures.forEach { picture ->
-                val image = picture.image ?: return@forEach
-                PictureThumb(picture, image, { opened = image }, Modifier.height(150.dp))
+            images.forEach { image ->
+                AssetImage(
+                    image,
+                    null,
+                    Modifier
+                        .height(150.dp)
+                        .clip(PictureShape)
+                        .clickable { opened = image },
+                )
             }
         }
     }
@@ -62,19 +65,4 @@ internal fun TalkPictures(
             )
         }
     }
-}
-
-@Composable
-private fun PictureThumb(
-    picture: Picture,
-    image: String,
-    onOpen: (() -> Unit)?,
-    modifier: Modifier = Modifier,
-) {
-    val shaped = modifier.clip(PictureShape)
-    AssetImage(
-        image,
-        stringResource(R.string.talk_picture, picture.label),
-        if (onOpen == null) shaped else shaped.clickable(onClick = onOpen),
-    )
 }

@@ -68,13 +68,13 @@ import dev.eftrainer.data.content.needsAi
 import dev.eftrainer.ui.appContainer
 import dev.eftrainer.ui.exercise.inputs.AudioBar
 import dev.eftrainer.ui.exercise.inputs.BlankLayout
+import dev.eftrainer.ui.exercise.inputs.ExercisePictures
 import dev.eftrainer.ui.exercise.inputs.GapState
 import dev.eftrainer.ui.exercise.inputs.RewriteInput
 import dev.eftrainer.ui.exercise.inputs.SpeakInput
 import dev.eftrainer.ui.exercise.inputs.TalkInput
 import dev.eftrainer.ui.exercise.inputs.TapAnswer
 import dev.eftrainer.ui.exercise.inputs.TapInput
-import dev.eftrainer.ui.exercise.inputs.TaskImages
 import dev.eftrainer.ui.exercise.inputs.VideoBar
 import dev.eftrainer.ui.exercise.inputs.WordBox
 import dev.eftrainer.ui.exercise.inputs.WriteInput
@@ -234,6 +234,7 @@ private fun QuestionScreen(
                         onGrade = onGrade,
                     )
                 }
+                QuestionPictures(q)
                 q.answerBack?.let { AnswerBackBlock(it, onAnswerBack) }
             }
         }
@@ -330,16 +331,6 @@ private fun TaskHeader(q: SessionUi.Question) {
         }
         q.task.video?.let { VideoBar(it, clip = e.clip) }
         q.task.audio?.let { AudioBar(it, clip = e.clip) }
-        if (q.task.images.isNotEmpty()) TaskImages(q.task.images)
-        e.image?.let {
-            AssetImage(
-                it,
-                null,
-                Modifier
-                    .heightIn(max = 180.dp)
-                    .clip(RoundedCornerShape(12.dp)),
-            )
-        }
         q.task.context?.let {
             Text(
                 it,
@@ -429,4 +420,14 @@ private fun ExerciseInput(
             )
         }
     }
+}
+
+@Composable
+private fun QuestionPictures(q: SessionUi.Question) {
+    val e = q.exercise
+    val pictures =
+        remember(e.id) {
+            q.task.images + listOfNotNull(e.image) + (e as? Talk)?.pictures?.mapNotNull { it.image }.orEmpty()
+        }
+    if (pictures.isNotEmpty()) ExercisePictures(pictures)
 }

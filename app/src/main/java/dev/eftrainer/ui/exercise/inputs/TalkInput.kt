@@ -88,7 +88,6 @@ fun TalkInput(
                 onMic = tts::stop,
                 modifier = Modifier.bringIntoViewRequester(bottom),
             )
-            if (exercise.pictures.isNotEmpty()) TalkPictures(exercise.pictures, Modifier.padding(top = 6.dp))
         }
     }
 }

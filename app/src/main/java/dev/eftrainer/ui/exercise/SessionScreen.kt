@@ -67,6 +67,7 @@ import dev.eftrainer.data.content.Talk
 import dev.eftrainer.data.content.Write
 import dev.eftrainer.data.content.needsAi
 import dev.eftrainer.ui.appContainer
+import dev.eftrainer.ui.exercise.inputs.AiCheckStatus
 import dev.eftrainer.ui.exercise.inputs.AudioBar
 import dev.eftrainer.ui.exercise.inputs.BlankLayout
 import dev.eftrainer.ui.exercise.inputs.ExercisePictures
@@ -237,6 +238,7 @@ private fun QuestionScreen(
                         onGrade = onGrade,
                     )
                 }
+                if (e !is Write) AiCheckStatus(q.aiCheck, onRetry = action)
                 QuestionPictures(q)
                 q.answerBack?.let {
                     AnswerBackBlock(it, onAnswerBack, Modifier.onFocusChanged { f -> answering = f.hasFocus })
@@ -355,6 +357,7 @@ private fun ExerciseInput(
 ) {
     val feedback = q.feedback
     val checked = feedback != null
+    val locked = q.aiCheck == AiCheck.Checking
     val fields = answer.values
     val focus = answer.focus
     when (val e = q.exercise) {
@@ -362,7 +365,7 @@ private fun ExerciseInput(
             RewriteInput(
                 exercise = e,
                 value = fields[0],
-                onChange = { fields[0] = it },
+                onChange = { if (!locked) fields[0] = it },
                 checked = checked,
                 correct = feedback?.correct == true,
                 focus = focus[0],
@@ -376,7 +379,7 @@ private fun ExerciseInput(
                 GapState(
                     exercise = e,
                     values = fields,
-                    onChange = { i, v -> fields[i] = v },
+                    onChange = { i, v -> if (!locked) fields[i] = v },
                     checked = checked,
                     wrongGaps = feedback?.wrongGaps.orEmpty(),
                     focus = focus,

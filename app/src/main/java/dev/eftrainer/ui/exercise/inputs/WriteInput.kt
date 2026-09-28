@@ -129,7 +129,7 @@ private fun WriteField(
 }
 
 @Composable
-private fun AiCheckStatus(
+internal fun AiCheckStatus(
     aiCheck: AiCheck?,
     onRetry: () -> Unit,
 ) {

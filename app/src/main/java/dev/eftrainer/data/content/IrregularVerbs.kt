@@ -121,12 +121,7 @@ object IrregularVerbs {
     private fun IrregularVerb.exercise(): Blank =
         Blank(
             id = ID_PREFIX + base,
-            text =
-                listOfNotNull(
-                    base,
-                    "past simple {}",
-                    "past participle {}".takeIf { pastParticiple.isNotEmpty() },
-                ).joinToString("\n"),
+            text = listOfNotNull(base, "{}", "{}".takeIf { pastParticiple.isNotEmpty() }).joinToString(" – "),
             gaps = listOfNotNull(pastSimple, pastParticiple.takeIf { it.isNotEmpty() }),
         )
 }

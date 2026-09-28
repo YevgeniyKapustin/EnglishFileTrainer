@@ -146,14 +146,31 @@
               "type": "write",
               "prompt": "Finish each sentence in your own words.",
               "questions": [
-                "We fell in love on our first date. Two months later…",
-                "I went to bed early last night because…",
-                "The weather was beautiful, so we decided…",
-                "It was really cold last night, and when I woke up this morning…",
-                "Although we didn’t play well in the final…",
-                "I was driving along the high street listening to the radio. Suddenly…"
+                {
+                  "text": "We fell in love on our first date. Two months later…",
+                  "hint": "(…we got married / moved to…)"
+                },
+                {
+                  "text": "I went to bed early last night because…",
+                  "hint": "(…I was very tired / I had to…)"
+                },
+                {
+                  "text": "The weather was beautiful, so we decided…",
+                  "hint": "(…to go to the beach / to have a…)"
+                },
+                {
+                  "text": "It was really cold last night, and when I woke up this morning…",
+                  "hint": "(…there was snow on… / the car…)"
+                },
+                {
+                  "text": "Although we didn’t play well in the final…",
+                  "hint": "(…we won / the fans were…)"
+                },
+                {
+                  "text": "I was driving along the high street listening to the radio. Suddenly…",
+                  "hint": "(…a dog ran across the road / my phone…)"
+                }
               ],
-              "hint": "(Two months later we got married. / …because I was very tired.)",
               "criteria": [
                 "finishes all six sentences so that they make sense",
                 "the endings fit the connector: a reason after because, a result after so, a contrast after although",
@@ -554,13 +571,27 @@
               "type": "write",
               "prompt": "Answer the questions about you in full sentences.",
               "questions": [
-                "When was the last time someone invited you to dinner?",
-                "How often do you leave home late for work / class?",
-                "When you go to parties, do you usually have a good time?",
-                "Where do you usually meet your friends?",
-                "Have you ever waited more than an hour for somebody who was late?"
+                {
+                  "text": "When was the last time someone invited you to dinner?",
+                  "hint": "(My friend invited me to dinner last…)"
+                },
+                {
+                  "text": "How often do you leave home late for work / class?",
+                  "hint": "(I usually / sometimes / never leave home late because…)"
+                },
+                {
+                  "text": "When you go to parties, do you usually have a good time?",
+                  "hint": "(Yes, I usually have a good time because… / Not really, because…)"
+                },
+                {
+                  "text": "Where do you usually meet your friends?",
+                  "hint": "(I usually meet my friends in / at…)"
+                },
+                {
+                  "text": "Have you ever waited more than an hour for somebody who was late?",
+                  "hint": "(Yes, once I waited for my… for… / No, never. I usually…)"
+                }
               ],
-              "hint": "(My friend invited me to dinner last Saturday.)",
               "criteria": [
                 "answers all five questions in full sentences",
                 "uses the verb phrases from the questions correctly (invite somebody to dinner, leave home, have a good time, meet friends, wait for somebody)",

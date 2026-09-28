@@ -19,11 +19,14 @@ import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.TextFieldValue
+import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import dev.eftrainer.core.speech.TextToSpeechState
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.T
 import dev.eftrainer.data.content.Blank
@@ -73,9 +76,13 @@ class GapState(
 @Composable
 fun BlankInput(
     gaps: GapState,
+    voice: TextToSpeechState?,
     modifier: Modifier = Modifier,
 ) {
-    GapFlow(tokenize(gaps.exercise.text), gaps, T.question, gaps.exercise.hint, modifier)
+    val e = gaps.exercise
+    Voiced(voice, QuestionSpeech.text(e.text), "question-${e.id}", modifier) {
+        GapFlow(tokenize(e.text), gaps, T.question, e.hint)
+    }
 }
 
 @OptIn(ExperimentalLayoutApi::class)
@@ -115,6 +122,8 @@ internal fun GapFlow(
 }
 
 private const val HINT_SCALE = 0.78f
+private val GAP_MIN_WIDTH = 80.dp
+private val GAP_CURSOR_ROOM = 16.dp
 
 @Composable
 private fun GapField(
@@ -129,22 +138,23 @@ private fun GapField(
     val onAction = gaps.onAction
     val last = index == exercise.gaps.lastIndex
     val start = remember(exercise.id) { Capitals.gapStarts(exercise.text) }.getOrElse(index) { false }
-    val longest = exercise.gaps[index].maxOf { it.length }
+    val value = gaps.values[index]
     val color = fieldColor(checked, index in gaps.wrongGaps)
     val line = if (checked) color else C.Accent
-    val charWidth = style.fontSize.value / 2
+    val measurer = rememberTextMeasurer()
+    val typed = measurer.measure(value.text, style, softWrap = false)
+    val typedWidth = with(LocalDensity.current) { typed.size.width.toDp() }
     BasicTextField(
-        value = gaps.values[index],
+        value = value,
         onValueChange = { if (!checked) gaps.onChange(index, it.copy(text = Capitals.fix(it.text, start))) },
         readOnly = checked,
-        singleLine = true,
         textStyle = style.copy(color = color, textAlign = TextAlign.Center),
         cursorBrush = SolidColor(C.Accent),
         keyboardOptions = keyboard(if (last) ImeAction.Done else ImeAction.Next),
         keyboardActions = actions { if (last || checked) onAction() else focus[index + 1].requestFocus() },
         modifier =
             modifier
-                .width((longest * charWidth + 24).coerceIn(90f, 260f).dp)
+                .width(maxOf(GAP_MIN_WIDTH, typedWidth + GAP_CURSOR_ROOM))
                 .focusRequester(focus[index])
                 .drawBehind {
                     val y = size.height - 1.dp.toPx()

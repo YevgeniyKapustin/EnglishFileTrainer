@@ -4,9 +4,12 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.relocation.BringIntoViewRequester
+import androidx.compose.foundation.relocation.bringIntoViewRequester
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -20,6 +23,7 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import dev.eftrainer.R
+import dev.eftrainer.core.speech.TextToSpeechState
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.ui.linkClickable
@@ -28,6 +32,7 @@ import dev.eftrainer.data.ai.AiException
 import dev.eftrainer.domain.ai.AnswerBackPrompt
 import dev.eftrainer.domain.ai.WritePrompt
 import dev.eftrainer.ui.exercise.inputs.AnswerField
+import dev.eftrainer.ui.exercise.inputs.Voiced
 import dev.eftrainer.ui.explain.LinkText
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -39,6 +44,7 @@ data class AnswerBack(
     val grade: WritePrompt.Grade? = null,
 ) {
     val canCheck: Boolean get() = grade == null && check != AiCheck.Checking
+    val settled: Boolean get() = grade != null || check is AiCheck.Failed
 }
 
 class AnswerBackChecks(
@@ -78,18 +84,26 @@ private suspend fun AnswerBack.graded(
 internal fun AnswerBackBlock(
     answerBack: AnswerBack,
     onCheck: (String) -> Unit,
+    voice: TextToSpeechState,
     modifier: Modifier = Modifier,
 ) {
     var value by remember(answerBack.question) { mutableStateOf(TextFieldValue()) }
     val focus = remember { FocusRequester() }
     val grade = answerBack.grade
     val send = { if (answerBack.canCheck && value.text.isNotBlank()) onCheck(value.text) }
-    Column(modifier.padding(top = 4.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+    val shown = remember { BringIntoViewRequester() }
+    LaunchedEffect(answerBack) { shown.bringIntoView() }
+    Column(
+        modifier.bringIntoViewRequester(shown).padding(top = 4.dp),
+        verticalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
         Text(
             stringResource(R.string.answer_back),
             style = T.label.copy(fontSize = 15.sp, fontWeight = FontWeight.SemiBold),
         )
-        Text(answerBack.question, style = T.rowEn.copy(fontSize = 17.sp, lineHeight = 24.sp))
+        Voiced(voice, answerBack.question, "answer-back-${answerBack.question.hashCode()}") {
+            Text(answerBack.question, style = T.rowEn.copy(fontSize = 17.sp, lineHeight = 24.sp))
+        }
         AnswerField(
             value = value,
             onChange = { value = it },

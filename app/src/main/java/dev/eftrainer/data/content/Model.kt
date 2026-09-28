@@ -78,7 +78,7 @@ data class Talk(
 data class Write(
     override val id: String,
     val prompt: String,
-    val questions: List<String> = emptyList(),
+    val questions: List<WriteQuestion> = emptyList(),
     val criteria: List<String>,
     val scene: String? = null,
     override val hint: String? = null,
@@ -86,6 +86,11 @@ data class Write(
     override val source: AnswerSource = AnswerSource.CONFIRMED,
     override val clip: Clip? = null,
 ) : Exercise
+
+data class WriteQuestion(
+    val text: String,
+    val hint: String,
+)
 
 data class TalkStep(
     val text: String,

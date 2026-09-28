@@ -237,9 +237,12 @@ def write_answers(eid: str, exercise: Json, report: Report) -> list[str | None]:
     if not exercise.get("prompt", "").strip():
         report.errors.append(f"{eid}: пустое поле prompt")
     criteria: list[str | None] = exercise.get("criteria") or [None]
-    questions: list[str] = exercise.get("questions", [])
+    questions: list[Json] = exercise.get("questions", [])
+    if questions and "hint" in exercise:
+        report.errors.append(f"{eid}: при questions подсказка — у каждого вопроса, не общая")
+    question_texts = [question.get(key) for question in questions for key in ("text", "hint")]
     scene: list[str | None] = [exercise["scene"]] if "scene" in exercise else []
-    return criteria + questions + scene
+    return criteria + question_texts + scene
 
 
 def card_caption(card: Json) -> str:
@@ -415,7 +418,8 @@ def check_bold(eid: str, exercise: Json, report: Report) -> None:
 
 
 def first_letter_hints(exercise: Json) -> bool:
-    fields = [exercise.get("hint"), exercise.get("text"), exercise.get("prompt")]
+    question_hints = [question.get("hint") for question in exercise.get("questions", [])]
+    fields = [exercise.get("hint"), exercise.get("text"), exercise.get("prompt"), *question_hints]
     return any(FIRST_LETTER_HINT.search(value) for value in fields if value)
 
 
@@ -515,6 +519,14 @@ def steps_code(steps: list[Json]) -> str:
     )
 
 
+def questions_code(questions: list[Json]) -> str:
+    return (
+        "listOf("
+        + ", ".join(f"WriteQuestion({kotlin_string(q['text'])}, {kotlin_string(q['hint'])})" for q in questions)
+        + ")"
+    )
+
+
 def talk_arguments(exercise: Json) -> list[str]:
     arguments = [
         f"situation = {kotlin_string(exercise['situation'])}",
@@ -531,7 +543,7 @@ def talk_arguments(exercise: Json) -> list[str]:
 def write_arguments(exercise: Json) -> list[str]:
     arguments = [f"prompt = {kotlin_string(exercise['prompt'])}"]
     if exercise.get("questions"):
-        arguments.append(f"questions = {kotlin_strings(exercise['questions'])}")
+        arguments.append(f"questions = {questions_code(exercise['questions'])}")
     arguments.append(f"criteria = {kotlin_strings(exercise['criteria'])}")
     if exercise.get("scene"):
         arguments.append(f"scene = {kotlin_string(exercise['scene'])}")

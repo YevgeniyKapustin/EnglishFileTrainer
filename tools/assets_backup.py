@@ -1,4 +1,5 @@
 import argparse
+import io
 import shutil
 import sys
 from pathlib import Path
@@ -41,7 +42,8 @@ def only_in(first: Path, second: Path) -> list[Path]:
 
 
 def main() -> None:
-    sys.stdout.reconfigure(encoding="utf-8")
+    if isinstance(sys.stdout, io.TextIOWrapper):
+        sys.stdout.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser(description="Копия ассетов вне репозитория; ничего не удаляет ни с одной стороны")
     parser.add_argument("mode", choices=["backup", "restore", "status"])
     parser.add_argument("--to", type=Path, default=DEFAULT_BACKUP, help="папка копии")
@@ -57,7 +59,8 @@ def main() -> None:
         return
     source, target = (ASSETS, backup) if args.mode == "backup" else (backup, ASSETS)
     if not source.exists():
-        raise SystemExit(f"нет папки {source}")
+        missing = f"нет папки {source}"
+        raise SystemExit(missing)
     copied, kept = mirror(source, target)
     print(f"{args.mode}: скопировано {copied}, без изменений {kept} → {target}")
 

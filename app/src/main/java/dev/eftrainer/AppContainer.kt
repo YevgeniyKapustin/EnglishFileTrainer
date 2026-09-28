@@ -16,6 +16,7 @@ import dev.eftrainer.data.ai.aiAvailable
 import dev.eftrainer.data.content.Chapters
 import dev.eftrainer.data.db.AppDatabase
 import dev.eftrainer.data.generated.GeneratedRepository
+import dev.eftrainer.data.settings.DayRuns
 import dev.eftrainer.data.settings.DaySettings
 import dev.eftrainer.data.settings.ReminderSettings
 import dev.eftrainer.data.settings.SoundSettings
@@ -62,6 +63,7 @@ class AppContainer(
     val sounds = UiSounds(context, soundSettings)
     val reminder = ReminderSettings(context)
     val taskRuns = TaskRuns(context)
+    val dayRuns = DayRuns(context)
 
     init {
         appScope.launch { learning.syncCompleted() }

@@ -7,6 +7,7 @@ import dev.eftrainer.data.ai.AiClient
 import dev.eftrainer.data.ai.AiException
 import dev.eftrainer.data.content.Chapter
 import dev.eftrainer.data.content.Exercise
+import dev.eftrainer.data.content.IrregularVerbs
 import dev.eftrainer.data.content.Section
 import dev.eftrainer.data.content.SectionKind
 import dev.eftrainer.data.content.exercises
@@ -92,13 +93,17 @@ class Generation(
         val progress = progress.getAll()
         val bySection = generated.bySection()
         val studied = all.take(all.indexOf(chapter) + 1)
+        val verbs = IrregularVerbs.met(progress.keys)
         for ((section, need) in GenerationPlan.refill(chapter, progress, bySection, skips.getAll())) {
             val existing = (section.presets + bySection[section.id].orEmpty()).toMutableList()
             var left = need
             repeat(MAX_REQUESTS) {
                 if (left <= 0) return@repeat
                 val count = minOf(BATCH, left)
-                val reply = ai.chat(GeneratePrompt.build(chapter, section, studied, section.exercises, existing, count))
+                val reply =
+                    ai.chat(
+                        GeneratePrompt.build(chapter, section, studied, section.exercises, existing, count, verbs),
+                    )
                 val items = GeneratedResponse.parse(reply, section.id, section.exercises, existing, count)
                 if (items.isEmpty()) {
                     retryAfter = now() + COOLDOWN_MS

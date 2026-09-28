@@ -1,6 +1,7 @@
 package dev.eftrainer.domain.ai
 
 import dev.eftrainer.data.content.Write
+import dev.eftrainer.data.content.WriteQuestion
 import dev.eftrainer.domain.ai.WritePrompt.Correction
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
@@ -13,7 +14,11 @@ class WritePromptTest {
         Write(
             "t-write",
             "Answer the questions about you.",
-            questions = listOf("Where do you live?", "What did you do last night?"),
+            questions =
+                listOf(
+                    WriteQuestion("Where do you live?", "(I live in…)"),
+                    WriteQuestion("What did you do last night?", "(Last night I…)"),
+                ),
             criteria = listOf("answers every question in a full sentence"),
         )
 
@@ -110,6 +115,7 @@ Well done",
             assertTrue(part, text.contains(part))
         }
         assertFalse(text.contains("recording"))
+        assertFalse(text.contains("(Last night I…)"))
     }
 
     @Test fun `hidden scene of the recording goes before the criteria`() {

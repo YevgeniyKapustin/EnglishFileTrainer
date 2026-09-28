@@ -59,6 +59,11 @@ class IrregularVerbsContentTest {
         assertFalse(Checker.check(blank("go"), listOf("goed", "gone")).correct)
     }
 
+    @Test fun `the correct answer shows just the forms`() {
+        assertEquals("go – went – gone", Checker.check(blank("go"), listOf("", "")).expected)
+        assertEquals("can – could", Checker.check(blank("can"), listOf("")).expected)
+    }
+
     @Test fun `verbs stay out of chapters`() {
         assertTrue(IrregularVerbs.chapter !in Chapters.all)
         assertEquals(IrregularVerbs.section, Chapters.locate("iv-go").section)

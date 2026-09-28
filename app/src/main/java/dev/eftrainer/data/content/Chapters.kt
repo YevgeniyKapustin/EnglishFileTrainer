@@ -46,6 +46,9 @@ object Chapters {
             exerciseId,
         ) ?: throw NoSuchElementException("нет упражнения $exerciseId")
 
+    fun exerciseOrNull(exerciseId: String): Exercise? =
+        (locations[exerciseId] ?: locateGenerated(exerciseId))?.task?.exercises?.find { it.id == exerciseId }
+
     private fun locateGenerated(exerciseId: String): Location? {
         val (chapter, section) = GeneratedIds.sectionOf(exerciseId)?.let(sections::get) ?: return null
         val item = generated[exerciseId]

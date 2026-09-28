@@ -194,6 +194,7 @@ object ExplainPrompt {
                 "written answer. $prompt" +
                     questions.joinToString(
                         " ",
+                        transform = { it.text },
                         prefix = if (questions.isEmpty()) "" else " Questions: ",
                     )
             }

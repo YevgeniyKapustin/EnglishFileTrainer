@@ -49,7 +49,7 @@ object WritePrompt {
                 appendLine("What to write: ${write.prompt}")
                 if (write.questions.isNotEmpty()) {
                     appendLine("Questions:")
-                    write.questions.forEachIndexed { i, q -> appendLine("${i + 1} $q") }
+                    write.questions.forEachIndexed { i, q -> appendLine("${i + 1} ${q.text}") }
                 }
                 write.scene?.let {
                     appendLine("The student listened to a recording. You cannot hear it; this is what happens in it:")

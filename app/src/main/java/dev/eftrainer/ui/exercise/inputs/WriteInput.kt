@@ -30,11 +30,13 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import dev.eftrainer.R
+import dev.eftrainer.core.speech.TextToSpeechState
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.EF
 import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.ui.linkClickable
 import dev.eftrainer.data.content.Write
+import dev.eftrainer.data.content.WriteQuestion
 import dev.eftrainer.ui.exercise.AiCheck
 import dev.eftrainer.ui.exercise.aiErrorRes
 
@@ -47,10 +49,22 @@ fun WriteInput(
     focus: FocusRequester,
     aiCheck: AiCheck?,
     onRetry: () -> Unit,
+    voice: TextToSpeechState?,
     modifier: Modifier = Modifier,
 ) {
     Column(modifier, verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        Text(exercise.prompt, style = T.question.copy(fontSize = 19.sp, lineHeight = 28.sp))
+        Voiced(
+            voice,
+            QuestionSpeech.lines(
+                listOf(exercise.prompt) +
+                    exercise.questions.map {
+                        it.text
+                    },
+            ),
+            "question-${exercise.id}",
+        ) {
+            Text(exercise.prompt, style = T.question.copy(fontSize = 19.sp, lineHeight = 28.sp))
+        }
         if (exercise.questions.isNotEmpty()) WriteQuestions(exercise.questions)
         exercise.hint?.let { Text(it, style = T.hint) }
         WriteField(
@@ -64,8 +78,8 @@ fun WriteInput(
 }
 
 @Composable
-private fun WriteQuestions(questions: List<String>) {
-    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+private fun WriteQuestions(questions: List<WriteQuestion>) {
+    Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
         questions.forEachIndexed { i, q ->
             Row {
                 Text(
@@ -73,11 +87,10 @@ private fun WriteQuestions(questions: List<String>) {
                     style = T.rowEn.copy(color = EF.Title, fontWeight = FontWeight.Bold),
                     modifier = Modifier.width(26.dp),
                 )
-                Text(
-                    q,
-                    style = T.rowEn.copy(fontSize = 17.sp, lineHeight = 24.sp),
-                    modifier = Modifier.weight(1f),
-                )
+                Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                    Text(q.text, style = T.rowEn.copy(fontSize = 17.sp, lineHeight = 24.sp))
+                    Text(q.hint, style = T.hint)
+                }
             }
         }
     }
@@ -129,7 +142,7 @@ private fun WriteField(
 }
 
 @Composable
-private fun AiCheckStatus(
+internal fun AiCheckStatus(
     aiCheck: AiCheck?,
     onRetry: () -> Unit,
 ) {

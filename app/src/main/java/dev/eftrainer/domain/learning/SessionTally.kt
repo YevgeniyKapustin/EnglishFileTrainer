@@ -25,6 +25,11 @@ class SessionTally(
     val firstTry: Int get() = total - wrong.size
     val seenIds: Set<String> get() = answered + queue.map { it.id }
     val run: TaskRun get() = TaskRun(correctInputs.toMap(), wrong.mapTo(mutableSetOf()) { it.id }, skipped.toSet())
+    val order: List<String>
+        get() {
+            val waiting = queue.map { it.id }
+            return (correctInputs.keys + skipped + wrong.map { it.id }).filterNot { it in waiting } + waiting
+        }
 
     fun add(more: List<Exercise>) {
         queue.addAll(more)

@@ -32,6 +32,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.TextFieldValue
@@ -66,16 +67,19 @@ import dev.eftrainer.data.content.Talk
 import dev.eftrainer.data.content.Write
 import dev.eftrainer.data.content.needsAi
 import dev.eftrainer.ui.appContainer
+import dev.eftrainer.ui.exercise.inputs.AiCheckStatus
 import dev.eftrainer.ui.exercise.inputs.AudioBar
 import dev.eftrainer.ui.exercise.inputs.BlankLayout
 import dev.eftrainer.ui.exercise.inputs.ExercisePictures
 import dev.eftrainer.ui.exercise.inputs.GapState
+import dev.eftrainer.ui.exercise.inputs.QuestionSpeech
 import dev.eftrainer.ui.exercise.inputs.RewriteInput
 import dev.eftrainer.ui.exercise.inputs.SpeakInput
 import dev.eftrainer.ui.exercise.inputs.TalkInput
 import dev.eftrainer.ui.exercise.inputs.TapAnswer
 import dev.eftrainer.ui.exercise.inputs.TapInput
 import dev.eftrainer.ui.exercise.inputs.VideoBar
+import dev.eftrainer.ui.exercise.inputs.Voiced
 import dev.eftrainer.ui.exercise.inputs.WordBox
 import dev.eftrainer.ui.exercise.inputs.WriteInput
 import dev.eftrainer.ui.exercise.inputs.rememberVoice
@@ -201,6 +205,7 @@ private fun QuestionScreen(
 
     val feedback = q.feedback
     HideKeyboardWhen(feedback != null)
+    var answering by remember(q.attempt) { mutableStateOf(false) }
     val filled = answer.filled
     val action = {
         if (feedback != null) {
@@ -224,26 +229,31 @@ private fun QuestionScreen(
                     .padding(top = 16.dp, bottom = 24.dp),
                 verticalArrangement = Arrangement.spacedBy(18.dp),
             ) {
-                TaskHeader(q)
+                val voice = tts.takeIf { q.task.audio == null && q.task.video == null }
+                TaskHeader(q, voice)
                 CompositionLocalProvider(LocalEdgeScroll provides edgeScroll) {
                     ExerciseInput(
                         q = q,
                         answer = answer,
                         tts = tts,
+                        voice = voice,
                         onAction = action,
                         onHear = { onCheck(listOf(it)) },
                         onGrade = onGrade,
                     )
                 }
+                if (e !is Write) AiCheckStatus(q.aiCheck, onRetry = action)
                 QuestionPictures(q)
-                q.answerBack?.let { AnswerBackBlock(it, onAnswerBack) }
+                q.answerBack?.let {
+                    AnswerBackBlock(it, onAnswerBack, tts, Modifier.onFocusChanged { f -> answering = f.hasFocus })
+                }
             }
         }
 
         if (feedback == null) {
             ActionBar(e, enabled = filled && q.aiCheck != AiCheck.Checking, onCheck = action, onSkip = onSkip)
         } else {
-            QuestionFeedback(q, feedback, aiOn, tts, onNext, onExplain)
+            QuestionFeedback(q, feedback, aiOn, tts, onNext, onExplain, answering)
         }
     }
 }
@@ -300,7 +310,10 @@ private fun SessionTopBar(
 }
 
 @Composable
-private fun TaskHeader(q: SessionUi.Question) {
+private fun TaskHeader(
+    q: SessionUi.Question,
+    voice: TextToSpeechState?,
+) {
     val e = q.exercise
     val kind = remember(e.id) { Chapters.locate(e.id).section.kind }
     Column(verticalArrangement = Arrangement.spacedBy(18.dp)) {
@@ -324,17 +337,19 @@ private fun TaskHeader(q: SessionUi.Question) {
         q.task.video?.let { VideoBar(it, clip = e.clip) }
         q.task.audio?.let { AudioBar(it, clip = e.clip) }
         q.task.context?.let {
-            Text(
-                it,
-                style = T.rowEn.copy(fontSize = 16.sp, lineHeight = 24.sp),
-                modifier =
-                    Modifier
-                        .fillMaxWidth()
-                        .clip(RoundedCornerShape(12.dp))
-                        .background(C.Field)
-                        .border(1.dp, C.Line, RoundedCornerShape(12.dp))
-                        .padding(16.dp),
-            )
+            Voiced(voice, QuestionSpeech.text(it), "context-${q.task.id}") {
+                Text(
+                    it,
+                    style = T.rowEn.copy(fontSize = 16.sp, lineHeight = 24.sp),
+                    modifier =
+                        Modifier
+                            .fillMaxWidth()
+                            .clip(RoundedCornerShape(12.dp))
+                            .background(C.Field)
+                            .border(1.dp, C.Line, RoundedCornerShape(12.dp))
+                            .padding(16.dp),
+                )
+            }
         }
         if (q.task.words.isNotEmpty()) WordBox(q.task.words, used = q.usedWords)
     }
@@ -345,12 +360,14 @@ private fun ExerciseInput(
     q: SessionUi.Question,
     answer: AnswerFields,
     tts: TextToSpeechState,
+    voice: TextToSpeechState?,
     onAction: () -> Unit,
     onHear: (String) -> Unit,
     onGrade: (correct: Boolean, summary: String, transcript: List<String>) -> Unit,
 ) {
     val feedback = q.feedback
     val checked = feedback != null
+    val locked = q.aiCheck == AiCheck.Checking
     val fields = answer.values
     val focus = answer.focus
     when (val e = q.exercise) {
@@ -358,11 +375,12 @@ private fun ExerciseInput(
             RewriteInput(
                 exercise = e,
                 value = fields[0],
-                onChange = { fields[0] = it },
+                onChange = { if (!locked) fields[0] = it },
                 checked = checked,
                 correct = feedback?.correct == true,
                 focus = focus[0],
                 onAction = onAction,
+                voice = voice,
             )
         }
 
@@ -372,18 +390,18 @@ private fun ExerciseInput(
                 GapState(
                     exercise = e,
                     values = fields,
-                    onChange = { i, v -> fields[i] = v },
+                    onChange = { i, v -> if (!locked) fields[i] = v },
                     checked = checked,
                     wrongGaps = feedback?.wrongGaps.orEmpty(),
                     focus = focus,
                     onAction = onAction,
                 ),
+                voice,
             )
         }
 
         is Speak -> {
-            val bookAudio = q.task.audio != null || q.task.video != null
-            SpeakInput(e, q.attempt, onHear, checked, feedback?.correct == true, tts, bookAudio)
+            SpeakInput(e, q.attempt, onHear, checked, feedback?.correct == true, tts, bookAudio = voice == null)
         }
 
         is Talk -> {
@@ -403,6 +421,7 @@ private fun ExerciseInput(
                 focus = focus[0],
                 aiCheck = q.aiCheck,
                 onRetry = onAction,
+                voice = voice,
             )
         }
     }

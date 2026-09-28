@@ -62,9 +62,11 @@
               "type": "write",
               "prompt": "Passport, tickets, money, phone: which is the worst to lose on holiday? Answer in 2–3 sentences and say why.",
               "questions": [
-                "Which of the four things is the worst to lose when you’re on holiday? Why?"
+                {
+                  "text": "Which of the four things is the worst to lose when you’re on holiday? Why?",
+                  "hint": "(I think the worst thing to lose is… because…)"
+                }
               ],
-              "hint": "(I think the worst thing to lose is… because…)",
               "criteria": [
                 "chooses one of the four things (passport, tickets, money, phone)",
                 "gives at least one reason (e.g. you can’t fly home without your passport)",
@@ -2796,9 +2798,11 @@
               "type": "write",
               "prompt": "Write five things you like doing when you’re on holiday, e.g. walking in the mountains, exploring a city, going to museums.",
               "questions": [
-                "What do you like doing when you’re on holiday?"
+                {
+                  "text": "What do you like doing when you’re on holiday?",
+                  "hint": "(I like… -ing: going sightseeing, sunbathing on the beach…)"
+                }
               ],
-              "hint": "(I like… -ing: going sightseeing, sunbathing on the beach…)",
               "criteria": [
                 "writes five different holiday activities",
                 "uses the -ing form after like (I like going…, walking…)",
@@ -3762,14 +3766,31 @@
               "type": "write",
               "prompt": "Write about your last holiday: answer the questions from the chart in full sentences (On my last holiday, I went to…).",
               "questions": [
-                "Where did you go?",
-                "How did you get there?",
-                "Where did you stay?",
-                "How long did you stay?",
-                "What did you do?",
-                "What was the weather like?"
+                {
+                  "text": "Where did you go?",
+                  "hint": "(On my last holiday, I went to…)"
+                },
+                {
+                  "text": "How did you get there?",
+                  "hint": "(I went by… / We flew to…)"
+                },
+                {
+                  "text": "Where did you stay?",
+                  "hint": "(I stayed in a… / We stayed with…)"
+                },
+                {
+                  "text": "How long did you stay?",
+                  "hint": "(We stayed there for…)"
+                },
+                {
+                  "text": "What did you do?",
+                  "hint": "(I went sightseeing… / We spent the day…)"
+                },
+                {
+                  "text": "What was the weather like?",
+                  "hint": "(The weather was… / It was…)"
+                }
               ],
-              "hint": "(On my last holiday, I went to… I went by… I stayed in…)",
               "criteria": [
                 "answers all six questions",
                 "uses the past simple correctly, including irregular verbs (went, stayed, was, got)",

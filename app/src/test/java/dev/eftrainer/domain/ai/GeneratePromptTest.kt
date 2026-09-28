@@ -3,9 +3,11 @@ package dev.eftrainer.domain.ai
 import dev.eftrainer.data.content.AnswerSource
 import dev.eftrainer.data.content.Blank
 import dev.eftrainer.data.content.Chapters
+import dev.eftrainer.data.content.IrregularVerbs
 import dev.eftrainer.data.content.Rewrite
 import dev.eftrainer.data.content.exercises
 import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Test
 
@@ -98,6 +100,26 @@ class GeneratePromptTest {
         assertTrue(text.contains("Rules of this section:"))
         assertTrue(text.contains("Where ___ born? (you / be) -> Where were you born?"))
         assertTrue(text.endsWith("Write 6 new exercises."))
+    }
+
+    @Test fun `met irregular verbs are offered without changing the target`() {
+        val chapter = Chapters.all.first()
+        val section = chapter.sections.first()
+        val verbs = IrregularVerbs.met(setOf("iv-go", "iv-buy", "iv-can", "1A-g-1"))
+        val text = GeneratePrompt.build(chapter, section, listOf(chapter), section.exercises, book, 6, verbs)[1].second
+        assertTrue(text.contains("buy, bought, bought; can, could; go, went, gone."))
+        assertTrue(text.contains("prefer these verbs"))
+        assertTrue(text.contains("Never change the grammar or vocabulary this section practises"))
+        assertTrue(text.indexOf("Irregular verbs") < text.indexOf("Examples from the book"))
+        assertTrue(text.endsWith("Write 6 new exercises."))
+    }
+
+    @Test fun `no met verbs means no verb block`() {
+        val chapter = Chapters.all.first()
+        val section = chapter.sections.first()
+        val text = GeneratePrompt.build(chapter, section, listOf(chapter), section.exercises, book, 6)[1].second
+        assertFalse(text.contains("Irregular verbs"))
+        assertEquals(emptyList<Any>(), IrregularVerbs.met(setOf("1A-g-1")))
     }
 
     @Test fun `sample spreads over the book`() {

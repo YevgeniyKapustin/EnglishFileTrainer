@@ -7,11 +7,8 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.heightIn
-import androidx.compose.foundation.layout.ime
-import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -29,16 +26,15 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
-import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.withStyle
-import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import dev.eftrainer.R
@@ -67,9 +63,9 @@ internal fun FeedbackSheet(
     tts: TextToSpeechState,
     sayId: String,
     modifier: Modifier = Modifier,
+    canContinue: Boolean = true,
 ) {
     val color = if (f.correct) C.Ok else C.Bad
-    val aiShown = aiOn || explanation?.answered == true
     val rise = remember { Animatable(1f) }
     LaunchedEffect(Unit) { rise.animateTo(0f, tween(SHEET_RISE_MILLIS, easing = EaseOutCubic)) }
     Column(
@@ -78,25 +74,42 @@ internal fun FeedbackSheet(
             .fillMaxWidth()
             .clip(RoundedCornerShape(topStart = 20.dp, topEnd = 20.dp))
             .background(if (f.correct) C.OkBg else C.BadBg)
+            .verticalScroll(rememberScrollState())
             .padding(start = 24.dp, end = 24.dp, top = 20.dp, bottom = 24.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
         FeedbackTitle(f, aiGraded, color, tts, sayId)
-        if (aiGraded) {
-            AiGradedFeedback(f.expected, f.corrections)
-        } else if (!f.correct) {
-            ExpectedAnswer(f, tts, sayId)
-            if (aiShown) AiExplanation(explanation, aiOn, onExplain)
+        FeedbackBody(f, explanation, aiOn, aiGraded, onExplain, tts, sayId)
+        if (canContinue) {
+            PrimaryButton(
+                stringResource(R.string.continue_),
+                onClick = onNext,
+                color = color,
+                modifier = Modifier.padding(top = 8.dp),
+            )
         }
-        if (f.correct && !aiGraded && aiShown) {
-            AskAi(explanation, aiOn, onExplain)
-        }
-        PrimaryButton(
-            stringResource(R.string.continue_),
-            onClick = onNext,
-            color = color,
-            modifier = Modifier.padding(top = 8.dp),
-        )
+    }
+}
+
+@Composable
+private fun FeedbackBody(
+    f: Feedback,
+    explanation: Explanation?,
+    aiOn: Boolean,
+    aiGraded: Boolean,
+    onExplain: (question: String?) -> Unit,
+    tts: TextToSpeechState,
+    sayId: String,
+) {
+    val aiShown = aiOn || explanation?.answered == true
+    if (aiGraded) {
+        AiGradedFeedback(f.expected, f.corrections)
+    } else if (!f.correct) {
+        ExpectedAnswer(f, tts, sayId)
+        if (aiShown) AiExplanation(explanation, aiOn, onExplain)
+    }
+    if (f.correct && !aiGraded && aiShown) {
+        AskAi(explanation, aiOn, onExplain)
     }
 }
 
@@ -108,7 +121,9 @@ internal fun QuestionFeedback(
     tts: TextToSpeechState,
     onNext: () -> Unit,
     onExplain: (question: String?) -> Unit,
+    answering: Boolean,
 ) {
+    var typing by remember { mutableStateOf(false) }
     FeedbackSheet(
         f = feedback,
         explanation = q.explanation,
@@ -118,24 +133,15 @@ internal fun QuestionFeedback(
         onExplain = onExplain,
         tts = tts,
         sayId = "answer-${q.exercise.id}-${q.attempt}",
-        modifier = Modifier.belowKeyboard(),
+        modifier =
+            Modifier
+                .onFocusChanged { typing = it.hasFocus }
+                .belowKeyboardUnless(typing || answering),
+        canContinue = q.answerBack?.settled != false,
     )
 }
 
 private const val SHEET_RISE_MILLIS = 260
-
-@Composable
-internal fun HideKeyboardWhen(hidden: Boolean) {
-    val keyboard = LocalSoftwareKeyboardController.current
-    LaunchedEffect(hidden) { if (hidden) keyboard?.hide() }
-}
-
-@Composable
-internal fun Modifier.belowKeyboard(): Modifier {
-    val ime = WindowInsets.ime
-    val bars = WindowInsets.navigationBars
-    return offset { IntOffset(0, (ime.getBottom(this) - bars.getBottom(this)).coerceAtLeast(0)) }
-}
 
 private fun feedbackTitle(
     correct: Boolean,

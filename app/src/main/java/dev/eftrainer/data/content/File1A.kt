@@ -931,9 +931,8 @@ val File1A = Chapter(
                         Write(
                             "1A-wb2d-01",
                             prompt = "Answer the questions about you in full sentences.",
-                            questions = listOf("Where do you live?", "What did you do last night?", "What TV series do you watch?", "When is your birthday?", "Where are you from?", "Where did you go on holiday last year?", "What kind of books do you read?"),
+                            questions = listOf(WriteQuestion("Where do you live?", "(I live in…)"), WriteQuestion("What did you do last night?", "(Last night I…)"), WriteQuestion("What TV series do you watch?", "(I watch… / I don’t watch TV series, but…)"), WriteQuestion("When is your birthday?", "(My birthday is in… / on…)"), WriteQuestion("Where are you from?", "(I’m from…)"), WriteQuestion("Where did you go on holiday last year?", "(Last year I went to…)"), WriteQuestion("What kind of books do you read?", "(I usually read…)")),
                             criteria = listOf("answers at least 6 of the 7 questions in full sentences", "uses the right tense: present simple for questions 1, 3, 4, 5, 7 and past simple for 2 and 6", "past simple forms are correct (went, watched, did…)", "each answer fits the question asked"),
-                            hint = "(I live in… / Last night I… / My birthday is in…)",
                         ),
                     ),
                 ),

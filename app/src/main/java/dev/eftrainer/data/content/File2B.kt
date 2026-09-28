@@ -1442,7 +1442,7 @@ val File2B = Chapter(
                         Write(
                             "2B-sb1d-01",
                             prompt = "Describe a photo with you in it that you really love, and say why you like it so much.",
-                            questions = listOf("Where and when was the photo taken?", "Who is in it, and what were you doing?", "Why do you like it so much?"),
+                            questions = listOf(WriteQuestion("Where and when was the photo taken?", "(My… took this photo in… when we were in…)"), WriteQuestion("Who is in it, and what were you doing?", "(My… and I are in it. We were…)"), WriteQuestion("Why do you like it so much?", "(I love this photo because…)")),
                             criteria = listOf("says where and when the photo was taken", "describes what the people were doing (past continuous)", "explains why they like the photo", "uses at, in, on correctly with times and places"),
                         ),
                     ),
@@ -1648,7 +1648,7 @@ val File2B = Chapter(
                         Write(
                             "2B-wr2d-01",
                             prompt = "Write about your favourite photo for the My favourite photo blog (three paragraphs, about 100–150 words). Use the highlighted phrases if you can: This is one of my favourite photos. I took the photo… when I was… I love this photo because… reminds me of… I have it…",
-                            questions = listOf("What’s your favourite photo? Who took it? When? Where were you, and who with?", "What was happening when you took the photo?", "Why do you like it? Where do you keep it?"),
+                            questions = listOf(WriteQuestion("What’s your favourite photo? Who took it? When? Where were you, and who with?", "(This is one of my favourite photos. My… took it when we were in… with…)"), WriteQuestion("What was happening when you took the photo?", "(We were… -ing, and it was…)"), WriteQuestion("Why do you like it? Where do you keep it?", "(I love this photo because it reminds me of… I have it on…)")),
                             criteria = listOf("three paragraphs that answer the questions in order", "uses the past continuous for what was happening and the past simple for what happened", "uses at least two of the highlighted phrases", "correct prepositions of time and place (in the spring of…, on holiday, on my phone)", "no mistakes with grammar, punctuation, and spelling"),
                         ),
                     ),

@@ -106,6 +106,8 @@ object IrregularVerbs {
 
     fun find(exerciseId: String): IrregularVerb? = byId[exerciseId]
 
+    fun met(answered: Set<String>): List<IrregularVerb> = list.filter { ID_PREFIX + it.base in answered }
+
     private fun verb(
         base: String,
         pastSimple: String,
@@ -121,12 +123,7 @@ object IrregularVerbs {
     private fun IrregularVerb.exercise(): Blank =
         Blank(
             id = ID_PREFIX + base,
-            text =
-                listOfNotNull(
-                    base,
-                    "past simple {}",
-                    "past participle {}".takeIf { pastParticiple.isNotEmpty() },
-                ).joinToString("\n"),
+            text = listOfNotNull(base, "{}", "{}".takeIf { pastParticiple.isNotEmpty() }).joinToString(" – "),
             gaps = listOfNotNull(pastSimple, pastParticiple.takeIf { it.isNotEmpty() }),
         )
 }

@@ -118,10 +118,12 @@ class SessionViewModel(
 
     val answerBacks = AnswerBackChecks(_state, viewModelScope, container.aiClient)
 
+    private val secondOpinion = SecondOpinion(_state, viewModelScope, container.aiClient)
+
     private var tally = SessionTally(emptyList())
     private var attempt = 0
     private val writes = mutableListOf<Deferred<Chapter?>>()
-    private val run = SessionRun(container.taskRuns, taskId.takeIf { sectionId != null })
+    private var run: SessionRun = SessionRun.ForTask(container.taskRuns, null)
     private var chapter: Chapter? = null
     private var before = 0
     private var arrivals = 0
@@ -152,7 +154,10 @@ class SessionViewModel(
                 ?: ChapterCompletion.current(Chapters.all, inputs.review.completed)
         before = chapter?.let { Mastery.share(it.exercises, progress) }?.toPercent() ?: 0
 
-        tally = run.tally(exercises)
+        run = SessionRun.resolve(container, day?.step, inputs.review.generated, picked?.second)
+        val resumed = run.start(exercises)
+        tally = resumed.tally
+        arrivals = resumed.arrivals
         if (tally.finished) _state.value = SessionUi.Empty else show()
     }
 
@@ -165,6 +170,7 @@ class SessionViewModel(
                 if (added.isEmpty()) return@collect
                 tally.add(added)
                 arrivals += added.size
+                run.save(tally, arrivals)
                 val q = _state.value
                 if (empty) {
                     show()
@@ -190,7 +196,13 @@ class SessionViewModel(
                 is Talk -> return
                 is Write -> return gradeWriting(q, e, inputs.single())
             }
-        record(q, result.correct, result.expected, result.wrongGaps, ExplainPrompt.answerText(e, inputs), inputs)
+        val answer = ExplainPrompt.answerText(e, inputs)
+        if (!result.correct && SecondOpinion.fits(e, aiOn.value)) {
+            return secondOpinion.ask(q, inputs) { now, accepted ->
+                record(now, accepted, result.expected, if (accepted) emptySet() else result.wrongGaps, answer, inputs)
+            }
+        }
+        record(q, result.correct, result.expected, result.wrongGaps, answer, inputs)
     }
 
     fun grade(
@@ -265,14 +277,18 @@ class SessionViewModel(
                     }
                 }
         }
-        run.save(tally)
+        run.save(tally, arrivals)
         container.sounds.play(Cue.forAnswer(result.correct))
         _state.value =
             q.copy(
                 done = tally.done,
                 feedback = result,
                 usedWords = tally.usedWords(q.task),
-                answerBack = PersonalQuestion.questionIn(e)?.takeIf { correct && aiOn.value }?.let(::AnswerBack),
+                answerBack =
+                    PersonalQuestion
+                        .questionIn(e, q.task)
+                        ?.takeIf { correct && aiOn.value }
+                        ?.let(::AnswerBack),
             )
     }
 
@@ -310,8 +326,14 @@ class SessionViewModel(
     fun next() {
         val q = _state.value as? SessionUi.Question ?: return
         val f = q.feedback ?: return
+        if (q.answerBack?.settled == false) return
         tally.next(f.correct)
-        if (tally.finished) finish() else show()
+        if (tally.finished) {
+            finish()
+        } else {
+            run.save(tally, arrivals)
+            show()
+        }
     }
 
     fun skip() {
@@ -319,7 +341,7 @@ class SessionViewModel(
         if (q.feedback != null || q.exercise !is Speak) return
         writes += container.appScope.async { container.learning.skip(q.exercise) }
         tally.skip()
-        run.save(tally)
+        run.save(tally, arrivals)
         if (tally.finished) finish() else show()
     }
 

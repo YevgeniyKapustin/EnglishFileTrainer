@@ -17,11 +17,12 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
 import dev.eftrainer.core.audio.AudioPlayerState
+import java.io.File
 import java.util.Locale
 
 @Stable
 class TextToSpeechState internal constructor(
-    context: Context,
+    private val context: Context,
 ) {
     var available by mutableStateOf(false)
         private set
@@ -75,7 +76,7 @@ class TextToSpeechState internal constructor(
         t.setOnUtteranceProgressListener(
             object : UtteranceProgressListener() {
                 override fun onStart(id: String?) {
-                    main.post { if (!released) speaking = id }
+                    main.post { if (!released && id != WARM_UP_ID) speaking = id }
                 }
 
                 override fun onDone(id: String?) {
@@ -103,8 +104,13 @@ class TextToSpeechState internal constructor(
             },
         )
         available = true
-        pending?.let { (text, id) -> speak(text, id) }
+        val waiting = pending
         pending = null
+        if (waiting != null) {
+            speak(waiting.first, waiting.second)
+        } else {
+            runCatching { t.synthesizeToFile(WARM_UP_TEXT, Bundle(), File(context.cacheDir, WARM_UP_FILE), WARM_UP_ID) }
+        }
     }
 
     private fun pickEnglish(t: TextToSpeech): Boolean =
@@ -224,6 +230,9 @@ class TextToSpeechState internal constructor(
     }
 }
 
+private const val WARM_UP_TEXT = "Hello."
+private const val WARM_UP_FILE = "tts-warm-up.wav"
+private const val WARM_UP_ID = "warm-up"
 private val LOCALES = listOf(Locale.US, Locale.UK)
 private val broken = mutableSetOf<Locale>()
 private val brokenVoices = mutableSetOf<String>()
@@ -232,7 +241,7 @@ private var knownVoices = emptyList<VoiceInfo>()
 @Composable
 fun rememberTextToSpeech(): TextToSpeechState {
     val context = LocalContext.current
-    val state = remember { TextToSpeechState(context) }
+    val state = remember { TextToSpeechState(context.applicationContext) }
     LifecycleEventEffect(Lifecycle.Event.ON_STOP) { state.stop() }
     DisposableEffect(state) { onDispose { state.shutdown() } }
     return state

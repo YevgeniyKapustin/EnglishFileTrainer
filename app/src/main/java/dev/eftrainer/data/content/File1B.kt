@@ -1171,9 +1171,8 @@ val File1B = Chapter(
                         Write(
                             "1B-wb2e-01",
                             prompt = "Write a paragraph (60–100 words) about the differences between you and a good friend. Use the text about Jamie and the questions in d.",
-                            questions = listOf("What do you and your friend do?", "Where do you live?", "Who do you live with?", "Do you like going to parties?", "Are you shy or extrovert?"),
+                            questions = listOf(WriteQuestion("What do you and your friend do?", "(I’m a…, but my friend… works in…)"), WriteQuestion("Where do you live?", "(I live in…, and my friend lives in…)"), WriteQuestion("Who do you live with?", "(I live with…, but she lives with…)"), WriteQuestion("Do you like going to parties?", "(I love parties, but my friend doesn’t…)"), WriteQuestion("Are you shy or extrovert?", "(I’m quite…, but my friend is very…)")),
                             criteria = listOf("compares the writer and the friend in at least 4 things (job / studies, where they live, who they live with, personality, free time)", "uses the present simple correctly, including -s / -es with he / she (he lives, she studies, she watches)", "uses at least two negatives with don’t / doesn’t correctly", "uses at least one adverb or expression of frequency in the right place (often, never, every day…)"),
-                            hint = "(I’m a student, but my friend Anna works in… / She lives…, and I live…)",
                         ),
                     ),
                 ),
@@ -1763,7 +1762,7 @@ val File1B = Chapter(
                         Write(
                             "1B-sb1e-01",
                             prompt = "Answer the questions about the article in 1–2 sentences each.",
-                            questions = listOf("Why does Charlotte want to find Clint a partner?", "How do we know that Charlotte and Clint are close?", "What was dating like when Clint was young?", "How does Clint find dates now, and how has Charlotte helped him?"),
+                            questions = listOf(WriteQuestion("Why does Charlotte want to find Clint a partner?", "(She wants to find him a partner because…)"), WriteQuestion("How do we know that Charlotte and Clint are close?", "(We know they’re close because they…)"), WriteQuestion("What was dating like when Clint was young?", "(When Clint was young, people…)"), WriteQuestion("How does Clint find dates now, and how has Charlotte helped him?", "(Now he finds dates… Charlotte…)")),
                             criteria = listOf("1: she doesn’t want him to end up alone – her mum has remarried and she has a boyfriend", "2: they often go out together in the evening, they’re planning a trip to India, and they both like Bruce Springsteen", "3: people met face to face, you could walk over to a woman and offer her a drink, and there was sometimes a ‘spark’", "4: he uses internet / online dating; Charlotte wrote his dating profile", "answers are the student’s own sentences, not whole lines copied from the article"),
                         ),
                     ),
@@ -1798,9 +1797,8 @@ val File1B = Chapter(
                         Write(
                             "1B-sb1g-01",
                             prompt = "Give your opinion in 2–4 sentences.",
-                            questions = listOf("Do you think Charlotte is the best person to help find her dad a date? Why (not)?"),
+                            questions = listOf(WriteQuestion("Do you think Charlotte is the best person to help find her dad a date? Why (not)?", "(I think she is / isn’t the best person because…)")),
                             criteria = listOf("gives a clear opinion (I think… / I don’t think…)", "gives at least one reason connected to the article (e.g. they are very close, she knows him well, she is young and knows internet dating)", "uses the present simple correctly (she knows, he doesn’t…)"),
-                            hint = "(I think she is / isn’t… because…)",
                         ),
                     ),
                 ),
@@ -1983,9 +1981,8 @@ val File1B = Chapter(
                         Write(
                             "1B-sb4f-01",
                             prompt = "Answer both questions in 2–4 sentences.",
-                            questions = listOf("Do you think a member of your family could choose a good date for you?", "Do you think you could choose one for them?"),
+                            questions = listOf(WriteQuestion("Do you think a member of your family could choose a good date for you?", "(I think my… could / couldn’t choose a good date for me because…)"), WriteQuestion("Do you think you could choose one for them?", "(I think I could / couldn’t choose one for my… because…)")),
                             criteria = listOf("answers both questions with a clear yes / no opinion", "gives a reason for each answer (e.g. my mum knows me well / we like different things)", "uses the present simple correctly (she knows, we don’t like…)"),
-                            hint = "(I think my… could / couldn’t… because…)",
                         ),
                     ),
                 ),
@@ -1997,7 +1994,7 @@ val File1B = Chapter(
                         Write(
                             "1B-sb5a-01",
                             prompt = "Complete the form ‘Do you know somebody who is looking for a partner? Help him / her to find one!’ Write short notes or sentences.",
-                            questions = listOf("Name", "Relationship (single / divorced / separated)", "Age", "Job", "Appearance", "Personality (+ and −)", "Likes", "Doesn’t like"),
+                            questions = listOf(WriteQuestion("Name", "(My friend’s name is…)"), WriteQuestion("Relationship (single / divorced / separated)", "(She’s single. / He’s divorced.)"), WriteQuestion("Age", "(She’s about…)"), WriteQuestion("Job", "(He’s a… / She works in…)"), WriteQuestion("Appearance", "(She’s tall and slim, with long… hair.)"), WriteQuestion("Personality (+ and −)", "(+ She’s kind and… − She’s a bit…)"), WriteQuestion("Likes", "(He likes… -ing: dancing, travelling…)"), WriteQuestion("Doesn’t like", "(He doesn’t like…)")),
                             criteria = listOf("fills in all 8 fields", "appearance uses words from the lesson (tall, slim, curly dark hair…)", "personality has at least one positive and one negative adjective", "likes / doesn’t like use a noun or verb + -ing (travelling, loud music)"),
                         ),
                     ),

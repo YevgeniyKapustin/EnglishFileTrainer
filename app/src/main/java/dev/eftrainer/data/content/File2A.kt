@@ -33,9 +33,8 @@ val File2A = Chapter(
                         Write(
                             "2A-sb1a-01",
                             prompt = "Passport, tickets, money, phone: which is the worst to lose on holiday? Answer in 2–3 sentences and say why.",
-                            questions = listOf("Which of the four things is the worst to lose when you’re on holiday? Why?"),
+                            questions = listOf(WriteQuestion("Which of the four things is the worst to lose when you’re on holiday? Why?", "(I think the worst thing to lose is… because…)")),
                             criteria = listOf("chooses one of the four things (passport, tickets, money, phone)", "gives at least one reason (e.g. you can’t fly home without your passport)", "writes correct simple sentences"),
-                            hint = "(I think the worst thing to lose is… because…)",
                         ),
                     ),
                 ),
@@ -1647,9 +1646,8 @@ val File2A = Chapter(
                         Write(
                             "2A-sb4a-01",
                             prompt = "Write five things you like doing when you’re on holiday, e.g. walking in the mountains, exploring a city, going to museums.",
-                            questions = listOf("What do you like doing when you’re on holiday?"),
+                            questions = listOf(WriteQuestion("What do you like doing when you’re on holiday?", "(I like… -ing: going sightseeing, sunbathing on the beach…)")),
                             criteria = listOf("writes five different holiday activities", "uses the -ing form after like (I like going…, walking…)", "uses at least two holiday phrases from the lesson (go sightseeing, sunbathe on the beach, go camping…)"),
-                            hint = "(I like… -ing: going sightseeing, sunbathing on the beach…)",
                         ),
                     ),
                 ),
@@ -2175,9 +2173,8 @@ val File2A = Chapter(
                         Write(
                             "2A-wb3d-01",
                             prompt = "Write about your last holiday: answer the questions from the chart in full sentences (On my last holiday, I went to…).",
-                            questions = listOf("Where did you go?", "How did you get there?", "Where did you stay?", "How long did you stay?", "What did you do?", "What was the weather like?"),
+                            questions = listOf(WriteQuestion("Where did you go?", "(On my last holiday, I went to…)"), WriteQuestion("How did you get there?", "(I went by… / We flew to…)"), WriteQuestion("Where did you stay?", "(I stayed in a… / We stayed with…)"), WriteQuestion("How long did you stay?", "(We stayed there for…)"), WriteQuestion("What did you do?", "(I went sightseeing… / We spent the day…)"), WriteQuestion("What was the weather like?", "(The weather was… / It was…)")),
                             criteria = listOf("answers all six questions", "uses the past simple correctly, including irregular verbs (went, stayed, was, got)", "uses holiday vocabulary (go by plane, stay in a hotel, go swimming, sunny…)"),
-                            hint = "(On my last holiday, I went to… I went by… I stayed in…)",
                         ),
                     ),
                 ),

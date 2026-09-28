@@ -98,7 +98,7 @@ PNG → `tools/out/`.
 - говорение с партнёром, Communication, вопросы «about you» устно → `talk` (situation, goal — ситуация в одну строку, opener, criteria,
   `steps` `[{text, example}]` — обязательный план на экране: короткие шаги «что спросить/сказать» с вопросами книги
   и пример фразы для Hint; разговор по картинкам книги — `pictures` как у `order`, `caption` видит только ИИ);
-- письмо своими словами (Writing, «write about…», ответы на вопросы о себе) → `write` (prompt, questions, criteria;
+- письмо своими словами (Writing, «write about…», ответы на вопросы о себе) → `write` (prompt, questions `[{text, hint}]` — у каждого вопроса своё начало ответа «(I live in…)», общего `hint` при questions нет, criteria;
   «listen to the sounds and write» — по пункту на звук с `clip` и скрытым `scene`: что слышно, для ИИ).
 `talk`/`write` нужны ИИ: без ключа их не видно, в «освоено» не входят — поэтому весь книжный материал,
 который можно проверить офлайн, делать `blank`/`rewrite`/`speak`, а не `write`.

@@ -218,9 +218,8 @@ val File2C = Chapter(
                         Write(
                             "2C-sb1f-01",
                             prompt = "Finish each sentence in your own words.",
-                            questions = listOf("We fell in love on our first date. Two months later…", "I went to bed early last night because…", "The weather was beautiful, so we decided…", "It was really cold last night, and when I woke up this morning…", "Although we didn’t play well in the final…", "I was driving along the high street listening to the radio. Suddenly…"),
+                            questions = listOf(WriteQuestion("We fell in love on our first date. Two months later…", "(…we got married / moved to…)"), WriteQuestion("I went to bed early last night because…", "(…I was very tired / I had to…)"), WriteQuestion("The weather was beautiful, so we decided…", "(…to go to the beach / to have a…)"), WriteQuestion("It was really cold last night, and when I woke up this morning…", "(…there was snow on… / the car…)"), WriteQuestion("Although we didn’t play well in the final…", "(…we won / the fans were…)"), WriteQuestion("I was driving along the high street listening to the radio. Suddenly…", "(…a dog ran across the road / my phone…)")),
                             criteria = listOf("finishes all six sentences so that they make sense", "the endings fit the connector: a reason after because, a result after so, a contrast after although", "uses the past simple (and past continuous where needed) correctly"),
-                            hint = "(Two months later we got married. / …because I was very tired.)",
                         ),
                     ),
                 ),
@@ -1101,9 +1100,8 @@ val File2C = Chapter(
                         Write(
                             "2C-wb3c-01",
                             prompt = "Answer the questions about you in full sentences.",
-                            questions = listOf("When was the last time someone invited you to dinner?", "How often do you leave home late for work / class?", "When you go to parties, do you usually have a good time?", "Where do you usually meet your friends?", "Have you ever waited more than an hour for somebody who was late?"),
+                            questions = listOf(WriteQuestion("When was the last time someone invited you to dinner?", "(My friend invited me to dinner last…)"), WriteQuestion("How often do you leave home late for work / class?", "(I usually / sometimes / never leave home late because…)"), WriteQuestion("When you go to parties, do you usually have a good time?", "(Yes, I usually have a good time because… / Not really, because…)"), WriteQuestion("Where do you usually meet your friends?", "(I usually meet my friends in / at…)"), WriteQuestion("Have you ever waited more than an hour for somebody who was late?", "(Yes, once I waited for my… for… / No, never. I usually…)")),
                             criteria = listOf("answers all five questions in full sentences", "uses the verb phrases from the questions correctly (invite somebody to dinner, leave home, have a good time, meet friends, wait for somebody)", "uses the right tense: past simple for the last time, present simple for usually / how often"),
-                            hint = "(My friend invited me to dinner last Saturday.)",
                         ),
                     ),
                 ),

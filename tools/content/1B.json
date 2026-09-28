@@ -2127,13 +2127,27 @@
               "type": "write",
               "prompt": "Write a paragraph (60–100 words) about the differences between you and a good friend. Use the text about Jamie and the questions in d.",
               "questions": [
-                "What do you and your friend do?",
-                "Where do you live?",
-                "Who do you live with?",
-                "Do you like going to parties?",
-                "Are you shy or extrovert?"
+                {
+                  "text": "What do you and your friend do?",
+                  "hint": "(I’m a…, but my friend… works in…)"
+                },
+                {
+                  "text": "Where do you live?",
+                  "hint": "(I live in…, and my friend lives in…)"
+                },
+                {
+                  "text": "Who do you live with?",
+                  "hint": "(I live with…, but she lives with…)"
+                },
+                {
+                  "text": "Do you like going to parties?",
+                  "hint": "(I love parties, but my friend doesn’t…)"
+                },
+                {
+                  "text": "Are you shy or extrovert?",
+                  "hint": "(I’m quite…, but my friend is very…)"
+                }
               ],
-              "hint": "(I’m a student, but my friend Anna works in… / She lives…, and I live…)",
               "criteria": [
                 "compares the writer and the friend in at least 4 things (job / studies, where they live, who they live with, personality, free time)",
                 "uses the present simple correctly, including -s / -es with he / she (he lives, she studies, she watches)",
@@ -3068,10 +3082,22 @@
               "type": "write",
               "prompt": "Answer the questions about the article in 1–2 sentences each.",
               "questions": [
-                "Why does Charlotte want to find Clint a partner?",
-                "How do we know that Charlotte and Clint are close?",
-                "What was dating like when Clint was young?",
-                "How does Clint find dates now, and how has Charlotte helped him?"
+                {
+                  "text": "Why does Charlotte want to find Clint a partner?",
+                  "hint": "(She wants to find him a partner because…)"
+                },
+                {
+                  "text": "How do we know that Charlotte and Clint are close?",
+                  "hint": "(We know they’re close because they…)"
+                },
+                {
+                  "text": "What was dating like when Clint was young?",
+                  "hint": "(When Clint was young, people…)"
+                },
+                {
+                  "text": "How does Clint find dates now, and how has Charlotte helped him?",
+                  "hint": "(Now he finds dates… Charlotte…)"
+                }
               ],
               "criteria": [
                 "1: she doesn’t want him to end up alone – her mum has remarried and she has a boyfriend",
@@ -3129,9 +3155,11 @@
               "type": "write",
               "prompt": "Give your opinion in 2–4 sentences.",
               "questions": [
-                "Do you think Charlotte is the best person to help find her dad a date? Why (not)?"
+                {
+                  "text": "Do you think Charlotte is the best person to help find her dad a date? Why (not)?",
+                  "hint": "(I think she is / isn’t the best person because…)"
+                }
               ],
-              "hint": "(I think she is / isn’t… because…)",
               "criteria": [
                 "gives a clear opinion (I think… / I don’t think…)",
                 "gives at least one reason connected to the article (e.g. they are very close, she knows him well, she is young and knows internet dating)",
@@ -3464,10 +3492,15 @@
               "type": "write",
               "prompt": "Answer both questions in 2–4 sentences.",
               "questions": [
-                "Do you think a member of your family could choose a good date for you?",
-                "Do you think you could choose one for them?"
+                {
+                  "text": "Do you think a member of your family could choose a good date for you?",
+                  "hint": "(I think my… could / couldn’t choose a good date for me because…)"
+                },
+                {
+                  "text": "Do you think you could choose one for them?",
+                  "hint": "(I think I could / couldn’t choose one for my… because…)"
+                }
               ],
-              "hint": "(I think my… could / couldn’t… because…)",
               "criteria": [
                 "answers both questions with a clear yes / no opinion",
                 "gives a reason for each answer (e.g. my mum knows me well / we like different things)",
@@ -3487,14 +3520,38 @@
               "type": "write",
               "prompt": "Complete the form ‘Do you know somebody who is looking for a partner? Help him / her to find one!’ Write short notes or sentences.",
               "questions": [
-                "Name",
-                "Relationship (single / divorced / separated)",
-                "Age",
-                "Job",
-                "Appearance",
-                "Personality (+ and −)",
-                "Likes",
-                "Doesn’t like"
+                {
+                  "text": "Name",
+                  "hint": "(My friend’s name is…)"
+                },
+                {
+                  "text": "Relationship (single / divorced / separated)",
+                  "hint": "(She’s single. / He’s divorced.)"
+                },
+                {
+                  "text": "Age",
+                  "hint": "(She’s about…)"
+                },
+                {
+                  "text": "Job",
+                  "hint": "(He’s a… / She works in…)"
+                },
+                {
+                  "text": "Appearance",
+                  "hint": "(She’s tall and slim, with long… hair.)"
+                },
+                {
+                  "text": "Personality (+ and −)",
+                  "hint": "(+ She’s kind and… − She’s a bit…)"
+                },
+                {
+                  "text": "Likes",
+                  "hint": "(He likes… -ing: dancing, travelling…)"
+                },
+                {
+                  "text": "Doesn’t like",
+                  "hint": "(He doesn’t like…)"
+                }
               ],
               "criteria": [
                 "fills in all 8 fields",

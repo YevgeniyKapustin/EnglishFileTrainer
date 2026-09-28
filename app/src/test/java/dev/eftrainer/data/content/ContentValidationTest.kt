@@ -172,7 +172,8 @@ class ContentValidationTest {
         for (e in exercises.filterIsInstance<Write>()) {
             assertTrue("${e.id}: пустой prompt", e.prompt.isNotBlank())
             assertTrue("${e.id}: нет criteria", e.criteria.isNotEmpty())
-            assertTrue("${e.id}: пустой вопрос", e.questions.all { it.isNotBlank() })
+            assertTrue("${e.id}: пустой вопрос", e.questions.all { it.text.isNotBlank() && it.hint.isNotBlank() })
+            assertTrue("${e.id}: общая подсказка при вопросах", e.questions.isEmpty() || e.hint == null)
             assertTrue("${e.id}: пустая scene", e.scene?.isNotBlank() ?: true)
             assertTrue("${e.id}: scene без клипа", e.scene == null || e.clip != null)
             assertTrue("${e.id}: Write должен быть необязательным", e.optional && sections.none { e in it.exercises })

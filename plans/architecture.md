@@ -118,7 +118,7 @@ data class Order(                          // "Number the pictures 1–6": 1A-pe
 data class Write(
     override val id: String,
     val prompt: String,                   // задача ученику
-    val questions: List<String> = emptyList(),  // на что отвечать, по порядку (вопросы 2c)
+    val questions: List<WriteQuestion> = emptyList(),  // на что отвечать, по порядку; у каждого свой hint-начало фразы, общего hint тогда нет
     val criteria: List<String>,           // по чему ИИ ставит зачёт
     val scene: String? = null,            // скрытое описание клипа для ИИ (2B-sb3c: что слышно)
     override val clip: Clip? = null,

@@ -764,9 +764,18 @@
               "type": "write",
               "prompt": "Describe a photo with you in it that you really love, and say why you like it so much.",
               "questions": [
-                "Where and when was the photo taken?",
-                "Who is in it, and what were you doing?",
-                "Why do you like it so much?"
+                {
+                  "text": "Where and when was the photo taken?",
+                  "hint": "(My… took this photo in… when we were in…)"
+                },
+                {
+                  "text": "Who is in it, and what were you doing?",
+                  "hint": "(My… and I are in it. We were…)"
+                },
+                {
+                  "text": "Why do you like it so much?",
+                  "hint": "(I love this photo because…)"
+                }
               ],
               "criteria": [
                 "says where and when the photo was taken",
@@ -906,9 +915,18 @@
               "type": "write",
               "prompt": "Write about your favourite photo for the My favourite photo blog (three paragraphs, about 100–150 words). Use the highlighted phrases if you can: This is one of my favourite photos. I took the photo… when I was… I love this photo because… reminds me of… I have it…",
               "questions": [
-                "What’s your favourite photo? Who took it? When? Where were you, and who with?",
-                "What was happening when you took the photo?",
-                "Why do you like it? Where do you keep it?"
+                {
+                  "text": "What’s your favourite photo? Who took it? When? Where were you, and who with?",
+                  "hint": "(This is one of my favourite photos. My… took it when we were in… with…)"
+                },
+                {
+                  "text": "What was happening when you took the photo?",
+                  "hint": "(We were… -ing, and it was…)"
+                },
+                {
+                  "text": "Why do you like it? Where do you keep it?",
+                  "hint": "(I love this photo because it reminds me of… I have it on…)"
+                }
               ],
               "criteria": [
                 "three paragraphs that answer the questions in order",

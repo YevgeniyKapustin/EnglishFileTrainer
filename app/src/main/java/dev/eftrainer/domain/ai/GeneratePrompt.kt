@@ -3,6 +3,7 @@ package dev.eftrainer.domain.ai
 import dev.eftrainer.data.content.Blank
 import dev.eftrainer.data.content.Chapter
 import dev.eftrainer.data.content.Exercise
+import dev.eftrainer.data.content.IrregularVerb
 import dev.eftrainer.data.content.Reference
 import dev.eftrainer.data.content.Rewrite
 import dev.eftrainer.data.content.Section
@@ -30,6 +31,15 @@ object GeneratePrompt {
         "hint" is optional. Keep every text shorter than 120 characters.
         """.trimIndent()
 
+    private val VERBS_ADVICE =
+        """
+        Where the rule of this section naturally allows one of these verbs (for example past simple sentences,
+        past questions and negatives, or any sentence that simply needs a common verb), prefer these verbs
+        so the student practises them in context, especially their past forms.
+        Never change the grammar or vocabulary this section practises to fit them in, and do not force them
+        where they sound unnatural: the target of the exercise stays the same.
+        """.trimIndent()
+
     fun build(
         chapter: Chapter,
         section: Section,
@@ -37,6 +47,7 @@ object GeneratePrompt {
         book: List<Exercise>,
         avoid: List<Exercise>,
         count: Int,
+        verbs: List<IrregularVerb> = emptyList(),
     ): List<Pair<String, String>> {
         val user =
             buildString {
@@ -46,6 +57,12 @@ object GeneratePrompt {
                     appendLine()
                     appendLine("Rules of this section:")
                     section.reference.forEach { appendLine(it.asText()) }
+                }
+                if (verbs.isNotEmpty()) {
+                    appendLine()
+                    appendLine("Irregular verbs the student has already learnt (base, past simple, past participle):")
+                    appendLine(verbs.joinToString("; ") { it.asText() } + ".")
+                    appendLine(VERBS_ADVICE)
                 }
                 appendLine()
                 appendLine("Examples from the book (with answers):")
@@ -65,6 +82,9 @@ object GeneratePrompt {
         items: List<T>,
         n: Int,
     ): List<T> = if (items.size <= n) items else List(n) { items[it * items.size / n] }
+
+    private fun IrregularVerb.asText(): String =
+        (listOf(base, pastSimple.first()) + pastParticiple.take(1)).joinToString(", ")
 
     private fun Exercise.asExample(): String =
         when (this) {

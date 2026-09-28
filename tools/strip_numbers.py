@@ -82,7 +82,8 @@ def track_rel(track: str) -> str:
 def load_samples(path: Path) -> np.ndarray:
     from faster_whisper.audio import decode_audio
 
-    return decode_audio(str(path), sampling_rate=SAMPLE_RATE)
+    samples: np.ndarray = decode_audio(str(path), sampling_rate=SAMPLE_RATE)
+    return samples
 
 
 def hear(model: WhisperModel, samples: np.ndarray, start: float, end: float) -> str:

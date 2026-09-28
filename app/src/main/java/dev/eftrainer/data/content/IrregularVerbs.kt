@@ -106,6 +106,8 @@ object IrregularVerbs {
 
     fun find(exerciseId: String): IrregularVerb? = byId[exerciseId]
 
+    fun met(answered: Set<String>): List<IrregularVerb> = list.filter { ID_PREFIX + it.base in answered }
+
     private fun verb(
         base: String,
         pastSimple: String,

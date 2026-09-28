@@ -9,16 +9,23 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import dev.eftrainer.core.speech.TextToSpeechState
 import dev.eftrainer.core.theme.T
 
 @Composable
 fun KeyWordInput(
     item: KeyWord,
     gaps: GapState,
+    voice: TextToSpeechState?,
     modifier: Modifier = Modifier,
 ) {
     Column(modifier, verticalArrangement = Arrangement.spacedBy(14.dp)) {
-        Text(item.key, style = T.question.copy(fontSize = 30.sp, lineHeight = 36.sp, fontWeight = FontWeight.SemiBold))
+        Voiced(voice, QuestionSpeech.text(item.key), "question-${gaps.exercise.id}") {
+            Text(
+                item.key,
+                style = T.question.copy(fontSize = 30.sp, lineHeight = 36.sp, fontWeight = FontWeight.SemiBold),
+            )
+        }
         gaps.exercise.hint?.let { Text(it, style = T.hint) }
         if (item.options.isNotEmpty()) WordBox(item.options)
         AnswerField(

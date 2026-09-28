@@ -20,6 +20,7 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import dev.eftrainer.R
+import dev.eftrainer.core.speech.TextToSpeechState
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.ui.linkClickable
@@ -28,6 +29,7 @@ import dev.eftrainer.data.ai.AiException
 import dev.eftrainer.domain.ai.AnswerBackPrompt
 import dev.eftrainer.domain.ai.WritePrompt
 import dev.eftrainer.ui.exercise.inputs.AnswerField
+import dev.eftrainer.ui.exercise.inputs.Voiced
 import dev.eftrainer.ui.explain.LinkText
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -78,6 +80,7 @@ private suspend fun AnswerBack.graded(
 internal fun AnswerBackBlock(
     answerBack: AnswerBack,
     onCheck: (String) -> Unit,
+    voice: TextToSpeechState,
     modifier: Modifier = Modifier,
 ) {
     var value by remember(answerBack.question) { mutableStateOf(TextFieldValue()) }
@@ -89,7 +92,9 @@ internal fun AnswerBackBlock(
             stringResource(R.string.answer_back),
             style = T.label.copy(fontSize = 15.sp, fontWeight = FontWeight.SemiBold),
         )
-        Text(answerBack.question, style = T.rowEn.copy(fontSize = 17.sp, lineHeight = 24.sp))
+        Voiced(voice, answerBack.question, "answer-back-${answerBack.question.hashCode()}") {
+            Text(answerBack.question, style = T.rowEn.copy(fontSize = 17.sp, lineHeight = 24.sp))
+        }
         AnswerField(
             value = value,
             onChange = { value = it },

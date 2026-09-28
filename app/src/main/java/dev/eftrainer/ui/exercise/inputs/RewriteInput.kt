@@ -23,6 +23,7 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import dev.eftrainer.core.speech.TextToSpeechState
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.EF
 import dev.eftrainer.core.theme.T
@@ -38,11 +39,14 @@ fun RewriteInput(
     correct: Boolean,
     focus: FocusRequester,
     onAction: () -> Unit,
+    voice: TextToSpeechState?,
     modifier: Modifier = Modifier,
 ) {
     Column(modifier, verticalArrangement = Arrangement.spacedBy(12.dp)) {
         val lines = exercise.prompt.lines().filter { it.isNotBlank() }
-        if (lines.size > 1) Options(lines) else Text(boldMarkup(exercise.prompt), style = T.question)
+        Voiced(voice, QuestionSpeech.lines(lines), "question-${exercise.id}") {
+            if (lines.size > 1) Options(lines) else Text(boldMarkup(exercise.prompt), style = T.question)
+        }
         exercise.hint?.let { Text(it, style = T.hint) }
         AnswerField(
             value = value,

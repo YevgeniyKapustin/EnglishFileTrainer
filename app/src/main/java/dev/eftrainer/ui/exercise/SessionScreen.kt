@@ -32,6 +32,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.TextFieldValue
@@ -201,6 +202,7 @@ private fun QuestionScreen(
 
     val feedback = q.feedback
     HideKeyboardWhen(feedback != null)
+    var answering by remember(q.attempt) { mutableStateOf(false) }
     val filled = answer.filled
     val action = {
         if (feedback != null) {
@@ -236,14 +238,16 @@ private fun QuestionScreen(
                     )
                 }
                 QuestionPictures(q)
-                q.answerBack?.let { AnswerBackBlock(it, onAnswerBack) }
+                q.answerBack?.let {
+                    AnswerBackBlock(it, onAnswerBack, Modifier.onFocusChanged { f -> answering = f.hasFocus })
+                }
             }
         }
 
         if (feedback == null) {
             ActionBar(e, enabled = filled && q.aiCheck != AiCheck.Checking, onCheck = action, onSkip = onSkip)
         } else {
-            QuestionFeedback(q, feedback, aiOn, tts, onNext, onExplain)
+            QuestionFeedback(q, feedback, aiOn, tts, onNext, onExplain, answering)
         }
     }
 }

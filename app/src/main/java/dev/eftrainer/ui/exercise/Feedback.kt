@@ -26,6 +26,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.res.stringResource
@@ -73,6 +74,7 @@ internal fun FeedbackSheet(
             .fillMaxWidth()
             .clip(RoundedCornerShape(topStart = 20.dp, topEnd = 20.dp))
             .background(if (f.correct) C.OkBg else C.BadBg)
+            .verticalScroll(rememberScrollState())
             .padding(start = 24.dp, end = 24.dp, top = 20.dp, bottom = 24.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
@@ -119,7 +121,9 @@ internal fun QuestionFeedback(
     tts: TextToSpeechState,
     onNext: () -> Unit,
     onExplain: (question: String?) -> Unit,
+    answering: Boolean,
 ) {
+    var typing by remember { mutableStateOf(false) }
     FeedbackSheet(
         f = feedback,
         explanation = q.explanation,
@@ -129,7 +133,10 @@ internal fun QuestionFeedback(
         onExplain = onExplain,
         tts = tts,
         sayId = "answer-${q.exercise.id}-${q.attempt}",
-        modifier = Modifier.belowKeyboard(),
+        modifier =
+            Modifier
+                .onFocusChanged { typing = it.hasFocus }
+                .belowKeyboardUnless(typing || answering),
         canContinue = q.answerBack?.settled != false,
     )
 }

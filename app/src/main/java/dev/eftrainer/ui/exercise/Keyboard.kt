@@ -17,6 +17,9 @@ internal fun HideKeyboardWhen(hidden: Boolean) {
 }
 
 @Composable
+internal fun Modifier.belowKeyboardUnless(typing: Boolean): Modifier = if (typing) this else belowKeyboard()
+
+@Composable
 internal fun Modifier.belowKeyboard(): Modifier {
     val ime = WindowInsets.ime
     val bars = WindowInsets.navigationBars

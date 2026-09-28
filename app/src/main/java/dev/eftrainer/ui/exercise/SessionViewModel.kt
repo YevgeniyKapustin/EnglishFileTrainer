@@ -121,7 +121,7 @@ class SessionViewModel(
     private var tally = SessionTally(emptyList())
     private var attempt = 0
     private val writes = mutableListOf<Deferred<Chapter?>>()
-    private val run = SessionRun(container.taskRuns, taskId.takeIf { sectionId != null })
+    private var run: SessionRun = SessionRun.ForTask(container.taskRuns, null)
     private var chapter: Chapter? = null
     private var before = 0
     private var arrivals = 0
@@ -152,7 +152,10 @@ class SessionViewModel(
                 ?: ChapterCompletion.current(Chapters.all, inputs.review.completed)
         before = chapter?.let { Mastery.share(it.exercises, progress) }?.toPercent() ?: 0
 
-        tally = run.tally(exercises)
+        run = SessionRun.resolve(container, day?.step, inputs.review.generated, picked?.second)
+        val resumed = run.start(exercises)
+        tally = resumed.tally
+        arrivals = resumed.arrivals
         if (tally.finished) _state.value = SessionUi.Empty else show()
     }
 
@@ -165,6 +168,7 @@ class SessionViewModel(
                 if (added.isEmpty()) return@collect
                 tally.add(added)
                 arrivals += added.size
+                run.save(tally, arrivals)
                 val q = _state.value
                 if (empty) {
                     show()
@@ -265,7 +269,7 @@ class SessionViewModel(
                     }
                 }
         }
-        run.save(tally)
+        run.save(tally, arrivals)
         container.sounds.play(Cue.forAnswer(result.correct))
         _state.value =
             q.copy(
@@ -311,7 +315,12 @@ class SessionViewModel(
         val q = _state.value as? SessionUi.Question ?: return
         val f = q.feedback ?: return
         tally.next(f.correct)
-        if (tally.finished) finish() else show()
+        if (tally.finished) {
+            finish()
+        } else {
+            run.save(tally, arrivals)
+            show()
+        }
     }
 
     fun skip() {
@@ -319,7 +328,7 @@ class SessionViewModel(
         if (q.feedback != null || q.exercise !is Speak) return
         writes += container.appScope.async { container.learning.skip(q.exercise) }
         tally.skip()
-        run.save(tally)
+        run.save(tally, arrivals)
         if (tally.finished) finish() else show()
     }
 

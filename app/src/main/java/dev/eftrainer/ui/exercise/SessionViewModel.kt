@@ -272,7 +272,11 @@ class SessionViewModel(
                 done = tally.done,
                 feedback = result,
                 usedWords = tally.usedWords(q.task),
-                answerBack = PersonalQuestion.questionIn(e)?.takeIf { correct && aiOn.value }?.let(::AnswerBack),
+                answerBack =
+                    PersonalQuestion
+                        .questionIn(e, q.task)
+                        ?.takeIf { correct && aiOn.value }
+                        ?.let(::AnswerBack),
             )
     }
 

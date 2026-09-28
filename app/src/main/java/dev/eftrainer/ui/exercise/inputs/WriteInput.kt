@@ -30,6 +30,7 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import dev.eftrainer.R
+import dev.eftrainer.core.speech.TextToSpeechState
 import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.EF
 import dev.eftrainer.core.theme.T
@@ -47,10 +48,13 @@ fun WriteInput(
     focus: FocusRequester,
     aiCheck: AiCheck?,
     onRetry: () -> Unit,
+    voice: TextToSpeechState?,
     modifier: Modifier = Modifier,
 ) {
     Column(modifier, verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        Text(exercise.prompt, style = T.question.copy(fontSize = 19.sp, lineHeight = 28.sp))
+        Voiced(voice, QuestionSpeech.lines(listOf(exercise.prompt) + exercise.questions), "question-${exercise.id}") {
+            Text(exercise.prompt, style = T.question.copy(fontSize = 19.sp, lineHeight = 28.sp))
+        }
         if (exercise.questions.isNotEmpty()) WriteQuestions(exercise.questions)
         exercise.hint?.let { Text(it, style = T.hint) }
         WriteField(

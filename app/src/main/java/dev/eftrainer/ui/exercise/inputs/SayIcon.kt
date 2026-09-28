@@ -1,7 +1,9 @@
 package dev.eftrainer.ui.exercise.inputs
 
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Icon
@@ -70,5 +72,19 @@ fun SayIcon(
             Modifier.size(size),
             tint = if (speaking) EF.Title else C.Muted,
         )
+    }
+}
+
+@Composable
+fun Voiced(
+    tts: TextToSpeechState?,
+    text: String,
+    id: String,
+    modifier: Modifier = Modifier,
+    content: @Composable () -> Unit,
+) {
+    Row(modifier, verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(4.dp)) {
+        Box(Modifier.weight(1f)) { content() }
+        tts?.let { SayIcon(it, text, id) }
     }
 }

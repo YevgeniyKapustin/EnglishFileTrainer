@@ -10,8 +10,10 @@ import androidx.compose.foundation.layout.widthIn
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import dev.eftrainer.core.speech.TextToSpeechState
 import dev.eftrainer.core.theme.T
 
 internal fun dialogueLines(tokens: List<Token>): List<List<Token>> =
@@ -24,12 +26,26 @@ internal fun dialogueLines(tokens: List<Token>): List<List<Token>> =
 @Composable
 fun DialogueInput(
     gaps: GapState,
+    voice: TextToSpeechState?,
     modifier: Modifier = Modifier,
 ) {
-    val lines = dialogueLines(tokenize(gaps.exercise.text))
+    val e = gaps.exercise
+    val lines = dialogueLines(tokenize(e.text))
     val hintLine = lines.indexOfFirst { line -> line.any { it is Token.Gap } }
     val style = T.question.copy(fontSize = 19.sp, lineHeight = 34.sp)
-    Column(modifier.padding(top = 6.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+    Voiced(voice, QuestionSpeech.text(e.text), "question-${e.id}", modifier.padding(top = 6.dp)) {
+        DialogueBubbles(lines, hintLine, gaps, style)
+    }
+}
+
+@Composable
+private fun DialogueBubbles(
+    lines: List<List<Token>>,
+    hintLine: Int,
+    gaps: GapState,
+    style: TextStyle,
+) {
+    Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
         lines.forEachIndexed { i, line ->
             val look = bubbleLook(student = i % 2 == 1)
             Box(Modifier.fillMaxWidth(), contentAlignment = look.alignment) {

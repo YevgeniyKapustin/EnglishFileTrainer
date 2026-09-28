@@ -118,6 +118,8 @@ class SessionViewModel(
 
     val answerBacks = AnswerBackChecks(_state, viewModelScope, container.aiClient)
 
+    private val secondOpinion = SecondOpinion(_state, viewModelScope, container.aiClient)
+
     private var tally = SessionTally(emptyList())
     private var attempt = 0
     private val writes = mutableListOf<Deferred<Chapter?>>()
@@ -194,7 +196,13 @@ class SessionViewModel(
                 is Talk -> return
                 is Write -> return gradeWriting(q, e, inputs.single())
             }
-        record(q, result.correct, result.expected, result.wrongGaps, ExplainPrompt.answerText(e, inputs), inputs)
+        val answer = ExplainPrompt.answerText(e, inputs)
+        if (!result.correct && SecondOpinion.fits(e, aiOn.value)) {
+            return secondOpinion.ask(q, inputs) { now, accepted ->
+                record(now, accepted, result.expected, if (accepted) emptySet() else result.wrongGaps, answer, inputs)
+            }
+        }
+        record(q, result.correct, result.expected, result.wrongGaps, answer, inputs)
     }
 
     fun grade(
@@ -276,7 +284,11 @@ class SessionViewModel(
                 done = tally.done,
                 feedback = result,
                 usedWords = tally.usedWords(q.task),
-                answerBack = PersonalQuestion.questionIn(e)?.takeIf { correct && aiOn.value }?.let(::AnswerBack),
+                answerBack =
+                    PersonalQuestion
+                        .questionIn(e, q.task)
+                        ?.takeIf { correct && aiOn.value }
+                        ?.let(::AnswerBack),
             )
     }
 
@@ -314,6 +326,7 @@ class SessionViewModel(
     fun next() {
         val q = _state.value as? SessionUi.Question ?: return
         val f = q.feedback ?: return
+        if (q.answerBack?.settled == false) return
         tally.next(f.correct)
         if (tally.finished) {
             finish()

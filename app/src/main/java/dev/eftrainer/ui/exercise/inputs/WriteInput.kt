@@ -53,7 +53,16 @@ fun WriteInput(
     modifier: Modifier = Modifier,
 ) {
     Column(modifier, verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        Voiced(voice, QuestionSpeech.lines(listOf(exercise.prompt) + exercise.questions), "question-${exercise.id}") {
+        Voiced(
+            voice,
+            QuestionSpeech.lines(
+                listOf(exercise.prompt) +
+                    exercise.questions.map {
+                        it.text
+                    },
+            ),
+            "question-${exercise.id}",
+        ) {
             Text(exercise.prompt, style = T.question.copy(fontSize = 19.sp, lineHeight = 28.sp))
         }
         if (exercise.questions.isNotEmpty()) WriteQuestions(exercise.questions)
@@ -133,7 +142,7 @@ private fun WriteField(
 }
 
 @Composable
-private fun AiCheckStatus(
+internal fun AiCheckStatus(
     aiCheck: AiCheck?,
     onRetry: () -> Unit,
 ) {

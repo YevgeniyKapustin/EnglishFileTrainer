@@ -139,9 +139,12 @@ PNG → `tools/out/`.
 - добавить в `CROPS` (SB) или `WB_CROPS` (WB, рендер `wb … --dpi 96`) в `tools/images.py`:
   `"<id главы строчными>_<задание>_<n>": (страница PDF, (x0, y0, x1, y1))`,
   пример книги (пункт 1) не резать;
-- `PYTHONIOENCODING=utf-8 uv run --no-project --with pymupdf --with pillow python tools/images.py <имена>` →
-  `app/src/main/assets/image/<name>.webp` (≤ 480 px по ширине, webp q80; папка не в git). Открыть файлы и
-  убедиться, что не залезли соседние фото и подписи.
+- номера/буквы пунктов, напечатанные на фото (кружки, белые клетки для ответа), — в `ERASE` (координаты от угла
+  кропа); надписи внутри самой сцены не трогать;
+- `PYTHONIOENCODING=utf-8 uv run --no-project --python 3.12 --with realesrgan-ncnn-py --with simple-lama-inpainting --with pymupdf --with pillow python tools/images.py <имена>` →
+  `app/src/main/assets/image/<name>.webp` (апскейл Real-ESRGAN, 1080 px по ширине, webp q82; папка не в git).
+  Открыть файлы и убедиться, что не залезли соседние фото и подписи и номера стёрты; потом
+  `python tools/assets_backup.py backup`.
 
 ## 5. Генерация и подключение
 

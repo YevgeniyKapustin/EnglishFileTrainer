@@ -4,9 +4,12 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.relocation.BringIntoViewRequester
+import androidx.compose.foundation.relocation.bringIntoViewRequester
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -39,6 +42,7 @@ data class AnswerBack(
     val grade: WritePrompt.Grade? = null,
 ) {
     val canCheck: Boolean get() = grade == null && check != AiCheck.Checking
+    val settled: Boolean get() = grade != null || check is AiCheck.Failed
 }
 
 class AnswerBackChecks(
@@ -84,7 +88,12 @@ internal fun AnswerBackBlock(
     val focus = remember { FocusRequester() }
     val grade = answerBack.grade
     val send = { if (answerBack.canCheck && value.text.isNotBlank()) onCheck(value.text) }
-    Column(modifier.padding(top = 4.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+    val shown = remember { BringIntoViewRequester() }
+    LaunchedEffect(answerBack) { shown.bringIntoView() }
+    Column(
+        modifier.bringIntoViewRequester(shown).padding(top = 4.dp),
+        verticalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
         Text(
             stringResource(R.string.answer_back),
             style = T.label.copy(fontSize = 15.sp, fontWeight = FontWeight.SemiBold),

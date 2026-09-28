@@ -314,6 +314,7 @@ class SessionViewModel(
     fun next() {
         val q = _state.value as? SessionUi.Question ?: return
         val f = q.feedback ?: return
+        if (q.answerBack?.settled == false) return
         tally.next(f.correct)
         if (tally.finished) finish() else show()
     }

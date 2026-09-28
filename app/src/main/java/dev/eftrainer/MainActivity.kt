@@ -31,6 +31,7 @@ import dev.eftrainer.data.settings.ThemeMode
 import dev.eftrainer.reminder.Notifier
 import dev.eftrainer.ui.AppNavigation
 import dev.eftrainer.ui.current.IntroGate
+import dev.eftrainer.ui.exercise.inputs.ProvideVoice
 
 class MainActivity : ComponentActivity() {
     private var homeReady = false
@@ -65,7 +66,7 @@ class MainActivity : ComponentActivity() {
             }
             AppTheme(dark) {
                 Box(Modifier.fillMaxSize().background(C.Paper).windowInsetsPadding(WindowInsets.safeDrawing)) {
-                    AppNavigation(onHomeReady = ::markHomeReady)
+                    ProvideVoice { AppNavigation(onHomeReady = ::markHomeReady) }
                 }
             }
         }

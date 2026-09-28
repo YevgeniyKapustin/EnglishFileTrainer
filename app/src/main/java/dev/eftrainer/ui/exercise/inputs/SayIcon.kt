@@ -6,8 +6,11 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.SideEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -22,8 +25,10 @@ import dev.eftrainer.core.theme.C
 import dev.eftrainer.core.theme.EF
 import dev.eftrainer.ui.appContainer
 
+private val LocalVoice = staticCompositionLocalOf<TextToSpeechState?> { null }
+
 @Composable
-fun rememberVoice(): TextToSpeechState {
+fun ProvideVoice(content: @Composable () -> Unit) {
     val voice = appContainer().voice
     val tts = rememberTextToSpeech()
     val volume by voice.volume.collectAsStateWithLifecycle()
@@ -32,6 +37,13 @@ fun rememberVoice(): TextToSpeechState {
     tts.volume = volume
     tts.rate = rate.factor
     SideEffect { tts.voiceName = name }
+    CompositionLocalProvider(LocalVoice provides tts, content)
+}
+
+@Composable
+fun rememberVoice(): TextToSpeechState {
+    val tts = checkNotNull(LocalVoice.current) { "rememberVoice needs ProvideVoice above it" }
+    DisposableEffect(tts) { onDispose { tts.stop() } }
     return tts
 }
 

@@ -1,0 +1,691 @@
+{
+  "id": "8B",
+  "title": "Murphy’s Law",
+  "bubbles": ["If we don’t take umbrellas, it’ll rain.", "Yes, that always happens!"],
+  "sources": "SB p.64–65 (PDF 65–66), Grammar Bank p.140–141 (PDF 141–142), Vocabulary Bank p.160 (PDF 161), Listening script 8.14 p.124 (PDF 125); WB p.56–57 (PDF 55–56), key WB p.92 (PDF 91). Scripts 8.13, 8.15–8.17 are not printed in the SB (answers by the recordings)",
+  "sections": [
+    {
+      "id": "8B-grammar",
+      "kind": "GRAMMAR",
+      "title": "if + present, will + infinitive (first conditional)",
+      "reference": [
+        {
+          "type": "table",
+          "title": "First conditional",
+          "headers": ["if + present", "will / won’t + infinitive"],
+          "rows": [
+            ["If we get to the airport early,", "the flight will be delayed."],
+            ["If you tell her the truth,", "she won’t believe you."],
+            ["What will you do", "if you don’t find a job?"],
+            ["If you don’t go,", "she won’t be very pleased."],
+            ["She won’t be very pleased", "if you don’t go."],
+            ["If you miss the last bus,", "get a taxi."],
+            ["If you miss the last bus,", "you can get a taxi."]
+          ],
+          "audio": "8.12"
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "We use if + present to talk about a possible situation and will / won’t + infinitive to talk about the consequence."
+        },
+        {
+          "type": "note",
+          "title": "Word order",
+          "text": "The if-clause can come first or second. If the if-clause comes first, we usually put a comma before the next clause: If you don’t go, she won’t be pleased. / She won’t be pleased if you don’t go."
+        },
+        {
+          "type": "note",
+          "title": "Imperative or can",
+          "text": "We can also use the imperative or can + infinitive instead of will + infinitive in the other clause: If you miss the last bus, get a taxi. / If you miss the last bus, you can get a taxi."
+        },
+        {
+          "type": "mistake",
+          "wrong": "If it will rain, I’ll take an umbrella.",
+          "right": "If it rains, I’ll take an umbrella.",
+          "why": "After if we use the present, not will — even when we talk about the future."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "8B-sb2b",
+          "origin": "SB",
+          "instruction": "Look at the laws again. What tense is the verb after if? What form is the other verb?",
+          "note": "SB 2b (вопросы о форме) → Blank; ответы по Grammar Bank 8B. 2a (вспомнить законы по памяти) не переносили — это делает 8B-sb1c",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "If you lose a glove and buy a new pair, you’ll find the lost one. The verb after if (lose, buy) is in the {} simple.", "gaps": [["present"]], "explain": "if + present simple for the possible situation.", "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "The other verb is will / won’t + {}: you’ll find, it won’t rain.", "gaps": [["infinitive", "the infinitive"]], "explain": "will / won’t + infinitive (without to) for the consequence.", "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "8B-sb2d",
+          "origin": "SB",
+          "instruction": "Complete these examples of Murphy’s Law",
+          "note": "SB 2d «In pairs, complete…» + 2e (сравнить с другими) → Write, проверяет ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Finish these examples of Murphy’s Law: something will go wrong!",
+              "questions": [
+                {"text": "If you find a pair of shoes that you really like in a shop,…", "hint": "(…they won’t have your size.)"},
+                {"text": "If you’re in the street and you need a taxi,…", "hint": "(…all the taxis will…)"},
+                {"text": "If you wear a new white shirt,…", "hint": "(…you’ll drop…)"},
+                {"text": "If you leave your phone at home,…", "hint": "(…somebody important will…)"},
+                {"text": "If there’s a football match on TV and you leave the room for 30 seconds,…", "hint": "(…a team will…)"}
+              ],
+              "criteria": [
+                "finishes all five sentences so that something goes wrong (Murphy’s Law)",
+                "uses will / won’t + infinitive in the second clause (they won’t have, you’ll miss)",
+                "does not use will after if"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8B-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the sentences with the correct ending from the list",
+          "note": "GB 8B a «Match the sentence halves» → Blank: вписать окончание; If you leave now, you’ll catch the 8.00 train (C) — пример. Ответы MODEL",
+          "words": ["if you don’t have enough lessons", "will you remember to give it back", "if you book it early", "if you come to every class", "will you earn more money", "call me this evening"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "The hotel will be cheaper {}.", "gaps": [["if you book it early"]], "explain": "will be cheaper (consequence) + if + present (book).", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "If you don’t hear from me this afternoon, {}.", "gaps": [["call me this evening"]], "explain": "An imperative (call) can replace will in the other clause.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "You’ll learn more quickly {}.", "gaps": [["if you come to every class"]], "explain": "The if-clause can come second — then there is no comma.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "If you get that new job, {}?", "gaps": [["will you earn more money"]], "explain": "A question in the will-clause: will + subject + infinitive.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "You won’t pass your driving test {}.", "gaps": [["if you don’t have enough lessons"]], "explain": "won’t pass + if + negative present (don’t have).", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "If I lend you this book, {}?", "gaps": [["will you remember to give it back"]], "explain": "lend a book → give it back: a question with will.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "8B-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the sentences with the correct form of the verbs",
+          "note": "GB 8B b; If we start walking, the bus will come — пример. Ответы MODEL",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "If you {} me what really happened, I {} anybody else.", "gaps": [["tell"], ["won’t tell"]], "hint": "(tell, not tell)", "explain": "if + present (tell), won’t + infinitive (won’t tell).", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "If I {} it down, I {} it.", "gaps": [["don’t write"], ["won’t remember"]], "hint": "(not write, not remember)", "explain": "Negative present after if (don’t write), won’t + infinitive in the other clause.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "{} you {} me if you {} any news?", "gaps": [["Will"], ["call"], ["get"]], "hint": "(call, get)", "explain": "A question: Will you + infinitive…? — but the if-clause stays in the present (get).", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "She {} you if you {} her nicely.", "gaps": [["will help"], ["ask"]], "hint": "(help, ask)", "explain": "will help (consequence) + if + present (ask).", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "I {} you if I {} from Alex.", "gaps": [["will phone"], ["hear"]], "hint": "(phone, hear)", "explain": "will phone + if + present (hear).", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "You {} your friends if you {} to Paris.", "gaps": [["will miss"], ["move"]], "hint": "(miss, move)", "explain": "will miss + if + present (move).", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "If you {} carefully, you {} everything.", "gaps": [["listen"], ["will understand"]], "hint": "(listen, understand)", "explain": "if + present (listen), will + infinitive (will understand).", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "Your boss {} pleased if you {} late for work today.", "gaps": [["won’t be"], ["are"]], "hint": "(not be, be)", "explain": "won’t be + if + present of be (you are).", "source": "MODEL"},
+            {"n": 9, "type": "blank", "text": "I {} you home if you {} me directions.", "gaps": [["will drive"], ["give"]], "hint": "(drive, give)", "explain": "will drive + if + present (give).", "source": "MODEL"},
+            {"n": 10, "type": "blank", "text": "If you {} an umbrella, it {}!", "gaps": [["don’t take"], ["will rain"]], "hint": "(not take, rain)", "explain": "Murphy’s Law again: if + don’t take, it will rain.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "8B-wb1a",
+          "origin": "WB",
+          "instruction": "Here are six more examples of Murphy’s Law. Complete the sentences with the correct ending from the list",
+          "note": "WB 1a «Match 1–6 to a–f» → Blank: вписать окончание; 1 If you lose something, you’ll find it in the last place you look (c) — пример",
+          "words": ["you’ll feel better before you see him or her", "you’ll drop something on it the first day", "your phone will ring", "all the other people will be late", "your teacher will ask you for it"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "If you arrive early at a party, {}.", "gaps": [["all the other people will be late"]], "source": "KEY"},
+            {"n": 3, "type": "blank", "text": "If you make an appointment to see a doctor, {}.", "gaps": [["you’ll feel better before you see him or her"]], "source": "KEY"},
+            {"n": 4, "type": "blank", "text": "If you don’t do your homework, {}.", "gaps": [["your teacher will ask you for it"]], "source": "KEY"},
+            {"n": 5, "type": "blank", "text": "If you buy a new carpet, {}.", "gaps": [["you’ll drop something on it the first day"]], "source": "KEY"},
+            {"n": 6, "type": "blank", "text": "If you get into a hot bath, {}.", "gaps": [["your phone will ring"]], "source": "KEY"}
+          ]
+        },
+        {
+          "id": "8B-wb1b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the correct form",
+          "note": "WB 1b «Circle the correct words» → Blank, варианты в подсказке; 1 I’ll miss — пример",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "If {} an accident, call the police!", "gaps": [["you see"]], "hint": "(you see / you’ll see)", "explain": "After if — the present, not will.", "source": "KEY"},
+            {"n": 3, "type": "blank", "text": "We won’t get lost if {} our satnav.", "gaps": [["we use"]], "hint": "(we use / we’ll use)", "explain": "The if-clause is second, but it still takes the present.", "source": "KEY"},
+            {"n": 4, "type": "blank", "text": "We {} to the cinema in time if we don’t leave now.", "gaps": [["won’t get"]], "hint": "(don’t get / won’t get)", "explain": "The consequence: won’t + infinitive.", "source": "KEY"},
+            {"n": 5, "type": "blank", "text": "If you {} an umbrella, it’ll definitely rain!", "gaps": [["don’t take"]], "hint": "(don’t take / won’t take)", "explain": "After if — the present: don’t take.", "source": "KEY"},
+            {"n": 6, "type": "blank", "text": "If there {} much traffic when we leave, it won’t take long to get there.", "gaps": [["isn’t"]], "hint": "(isn’t / won’t be)", "explain": "After if — the present: there isn’t.", "source": "KEY"}
+          ]
+        },
+        {
+          "id": "8B-wb1c",
+          "origin": "WB",
+          "instruction": "Good luck, bad luck. Complete the sentences with the correct form of the verbs in brackets",
+          "note": "WB 1c; картинки A–F (WB p.56, tools/images.py) у пунктов в image, поэтому сопоставление с буквами не нужно. 1 Giving a knife (gives, give, ’ll always be; D) — пример",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "Horseshoe. If you {} a horseshoe and {} it above your door, it {} good luck to you and your family.", "image": "8b_wb1c_2", "gaps": [["find"], ["put"], ["will bring"]], "hint": "(find, put, bring)", "source": "KEY"},
+            {"n": 3, "type": "blank", "text": "Ladders. If you {} under a ladder, you {} bad luck.", "image": "8b_wb1c_3", "gaps": [["walk"], ["will have"]], "hint": "(walk, have)", "source": "KEY"},
+            {"n": 4, "type": "blank", "text": "Throwing a coin into a well. If you {} a coin into a well and {} for something, your dreams {} true.", "image": "8b_wb1c_4", "gaps": [["throw"], ["ask"], ["will come"]], "hint": "(throw, ask, come)", "source": "KEY"},
+            {"n": 5, "type": "blank", "text": "Falling leaves. If you {} a falling leaf, you {} ill all winter.", "image": "8b_wb1c_5", "gaps": [["catch"], ["won’t be"]], "hint": "(catch, not be)", "source": "KEY"},
+            {"n": 6, "type": "blank", "text": "Mirrors. If you {} a mirror, you {} bad luck for seven years.", "image": "8b_wb1c_6", "gaps": [["break"], ["will have"]], "hint": "(break, have)", "source": "KEY"}
+          ]
+        },
+        {
+          "id": "8B-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the correct form of the verbs in brackets.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "If it {} tomorrow, we {} to the beach.", "gaps": [["rains"], ["won’t go"]], "hint": "(rain, not go)", "explain": "if + present simple (rains), won’t + infinitive (won’t go).", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "You {} the exam if you {} harder.", "gaps": [["won’t pass"], ["don’t study"]], "hint": "(not pass, not study)", "explain": "won’t pass + if + negative present (don’t study).", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "If she {} the bus, she {} late for work.", "gaps": [["misses"], ["will be"]], "hint": "(miss, be)", "explain": "she misses (present, he / she / it + -es), she will be.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "I {} you a message if I {} time.", "gaps": [["will send"], ["have"]], "hint": "(send, have)", "explain": "will send + if + present (have).", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "If we {} now, we {} the start of the film.", "gaps": [["don’t leave"], ["will miss"]], "hint": "(not leave, miss)", "explain": "if + don’t leave, will miss.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "If my brother {} the job, he {} to London.", "gaps": [["gets"], ["will move"]], "hint": "(get, move)", "explain": "if + gets (present), will move.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "8B-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes. If a sentence is correct, leave it as it is.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "If it will be sunny tomorrow, we’ll have a picnic.", "answers": ["If it’s sunny tomorrow, we’ll have a picnic.", "If it is sunny tomorrow, we will have a picnic."], "explain": "After if we use the present, not will: If it’s sunny…", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "I call you if I hear any news.", "answers": ["I’ll call you if I hear any news.", "I will call you if I hear any news."], "explain": "The consequence needs will: I’ll call you.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "If you don’t hurry, you’ll miss the train.", "answers": ["If you don’t hurry, you’ll miss the train."], "explain": "Correct: if + present, will + infinitive.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "What you will do if you lose your job?", "answers": ["What will you do if you lose your job?"], "explain": "Question word order: What will you do…?", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "If he doesn’t come, we will to start without him.", "answers": ["If he doesn’t come, we’ll start without him.", "If he doesn’t come, we will start without him."], "explain": "will + infinitive without to: we’ll start.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "8B-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Join the two sentences to make one sentence with if.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "It rains. We won’t play tennis.", "hint": "(If…)", "answers": ["If it rains, we won’t play tennis.", "If it rains, we will not play tennis."], "explain": "if + present (rains), comma, won’t + infinitive.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "You eat all that cake. You’ll feel sick.", "hint": "(If…)", "answers": ["If you eat all that cake, you’ll feel sick.", "If you eat all that cake, you will feel sick."], "explain": "The if-clause comes first, so we put a comma after it.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "You won’t get a good job. You don’t speak English.", "hint": "(…if…)", "answers": ["You won’t get a good job if you don’t speak English.", "You will not get a good job if you do not speak English."], "explain": "The if-clause comes second: no comma.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "You see Anna. Say hello from me.", "hint": "(If…)", "answers": ["If you see Anna, say hello from me.", "If you see Anna, say hello to her from me."], "explain": "An imperative (say) can replace will in the other clause.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "You finish early. You can go home.", "hint": "(If…)", "answers": ["If you finish early, you can go home."], "explain": "can + infinitive can replace will in the other clause.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "8B-grammar-x4",
+          "origin": "GENERATED",
+          "instruction": "Complete the questions with the correct form of the verbs in brackets.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "What {} you {} if you {} the last bus?", "gaps": [["will"], ["do"], ["miss"]], "hint": "(do, miss)", "explain": "What will you do…? + if + present (miss).", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "{} you {} me if I {} help?", "gaps": [["Will"], ["help"], ["need"]], "hint": "(help, need)", "explain": "Will you help…? + if + present (need).", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Where {} you {} if the hotel {} full?", "gaps": [["will"], ["stay"], ["is"]], "hint": "(stay, be)", "explain": "Where will you stay…? + if + present of be (is).", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "If it {} tomorrow, {} you {} at home?", "gaps": [["snows"], ["will"], ["stay"]], "hint": "(snow, stay)", "explain": "if + snows (present), will you stay…?", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "What {} your parents {} if you {} home late?", "gaps": [["will"], ["say"], ["come"]], "hint": "(say, come)", "explain": "What will your parents say…? + if + present (come).", "source": "MODEL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8B-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "confusing verbs",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Confusing verbs",
+          "headers": ["Verb", "Examples"],
+          "rows": [
+            ["wear", "jewellery, clothes"],
+            ["carry", "a bag, a baby"],
+            ["win", "a match, a medal, a prize"],
+            ["earn", "a salary, money"],
+            ["know", "somebody well, something"],
+            ["meet", "somebody for the first time, at 11 o’clock"],
+            ["hope", "that something good will happen, to do sth"],
+            ["wait", "for a bus, for a long time"],
+            ["watch", "TV, a match"],
+            ["look at", "a photo, a view"],
+            ["look", "happy, about 25 years old"],
+            ["look like", "your mother, a model"],
+            ["miss", "the bus, a class"],
+            ["lose", "a match, your glasses"],
+            ["bring", "your dictionary (to class), sth back from holiday"],
+            ["take", "an umbrella (with you), your children to school"],
+            ["look for", "your glasses, a job"],
+            ["find", "your glasses, a job"],
+            ["say", "sorry, hello, something to sb"],
+            ["tell", "a joke, a lie, somebody something"],
+            ["lend", "money to sb"],
+            ["borrow", "money from sb"],
+            ["hear", "a noise, the doorbell"],
+            ["listen to", "music, the radio"]
+          ],
+          "audio": "8.15"
+        },
+        {
+          "type": "note",
+          "title": "hope and expect",
+          "text": "hope = to want sth to happen, always for positive things, e.g. I hope I’ll pass the exam. expect = to think sth will happen, usually for a reason, e.g. I expect I’ll fail because I haven’t worked very hard."
+        },
+        {
+          "type": "note",
+          "title": "bring and take",
+          "text": "bring = movement towards here: Please bring your dictionaries to class tomorrow. take = movement away from here: Don’t forget to take all your things when you leave."
+        },
+        {
+          "type": "mistake",
+          "wrong": "The guide said Sue that there was only one tiger.",
+          "right": "The guide told Sue that there was only one tiger.",
+          "why": "tell somebody something; say something (to somebody) — say is never followed directly by a person."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "8B-sb4a",
+          "origin": "SB",
+          "instruction": "Look at the sentences about Peter and Sue. The verb in brackets is a mistake. Correct the sentence",
+          "note": "SB 4a (подчёркнутый глагол → в подсказке) → Rewrite. Ответы по скрипту 8.14 (MODEL)",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "Peter was unemployed, and was finding a job.", "hint": "(finding)", "answers": ["Peter was unemployed, and was looking for a job.", "Peter was unemployed and was looking for a job."], "explain": "look for = try to find; find = the moment you get it.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "The guide said Sue that there was only one tiger in the whole park.", "hint": "(said)", "answers": ["The guide told Sue that there was only one tiger in the whole park."], "explain": "tell somebody something; say something (to somebody).", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "8B-vb1a",
+          "origin": "SB",
+          "instruction": "Look at the photo. Which two verbs go with these words? Then listen and check",
+          "note": "VB Confusing verbs a+b; фото из VB p.160 (tools/images.py) у пункта в image, в пропусках — пара глаголов. wear / carry (фото 2) и hope / wait (фото 1) — примеры. n — строка пары в книге",
+          "audio": "8.15",
+          "words": ["win", "earn", "know", "meet", "watch", "look at", "look", "look like", "miss", "lose", "bring", "take", "look for", "find", "say", "tell", "lend", "borrow", "hear", "listen to"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "{} a match, a medal, a prize\n{} a salary, money", "image": "8b_vb1a_8", "gaps": [["win"], ["earn"]], "source": "CONFIRMED", "clip": [15.9, 31.0]},
+            {"n": 3, "type": "blank", "text": "{} somebody well, something\n{} somebody for the first time, at 11 o’clock", "image": "8b_vb1a_5", "gaps": [["know"], ["meet"]], "source": "CONFIRMED", "clip": [32.0, 45.4]},
+            {"n": 5, "type": "blank", "text": "{} TV, a match\n{} a photo, a view", "image": "8b_vb1a_3", "gaps": [["watch"], ["look at"]], "source": "CONFIRMED", "clip": [61.0, 72.8]},
+            {"n": 6, "type": "blank", "text": "{} happy, about 25 years old\n{} your mother, a model", "image": "8b_vb1a_11", "gaps": [["look"], ["look like"]], "source": "CONFIRMED", "clip": [73.8, 87.0]},
+            {"n": 7, "type": "blank", "text": "{} the bus, a class\n{} a match, your glasses", "image": "8b_vb1a_4", "gaps": [["miss"], ["lose"]], "source": "CONFIRMED", "clip": [87.0, 100.0]},
+            {"n": 8, "type": "blank", "text": "{} your dictionary (to class), sth back from holiday\n{} an umbrella (with you), your children to school", "image": "8b_vb1a_9", "gaps": [["bring"], ["take"]], "source": "CONFIRMED", "clip": [101.5, 115.0]},
+            {"n": 9, "type": "blank", "text": "{} your glasses, a job (you are trying to find them)\n{} your glasses, a job (you have them now)", "image": "8b_vb1a_6", "gaps": [["look for"], ["find"]], "source": "CONFIRMED", "clip": [116.2, 128.3]},
+            {"n": 10, "type": "blank", "text": "{} sorry, hello, something to sb\n{} a joke, a lie, somebody something", "image": "8b_vb1a_10", "gaps": [["say"], ["tell"]], "source": "CONFIRMED", "clip": [129.5, 147.5]},
+            {"n": 11, "type": "blank", "text": "{} money to sb\n{} money from sb", "image": "8b_vb1a_7", "gaps": [["lend"], ["borrow"]], "source": "CONFIRMED", "clip": [148.7, 155.5]},
+            {"n": 12, "type": "blank", "text": "{} a noise, the doorbell\n{} music, the radio", "image": "8b_vb1a_12", "gaps": [["hear"], ["listen to"]], "source": "CONFIRMED", "clip": [156.5, 165.0]}
+          ]
+        },
+        {
+          "id": "8B-vbact",
+          "origin": "SB",
+          "instruction": "Activation. Say a verb, your partner says a possible continuation. Then swap",
+          "note": "VB Activation (A — глагол, B — продолжение) → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "Vocabulary game in an English class (level: pre-intermediate) with the confusing verbs: wear / carry, win / earn, know / meet, hope / wait, watch / look at, look / look like, miss / lose, bring / take, look for / find, say / tell, lend / borrow, hear / listen to. Take turns. First you say a verb (e.g. Wait…) and the student says a possible continuation (for a bus). If the continuation is wrong (e.g. earn a match, say me), say the correct pair briefly (No — win a match, earn money) and go on. After about six verbs, swap: the student says a verb and you give a continuation; sometimes make a small mistake on purpose (say a lie) and see if the student corrects you. Keep each turn very short.",
+              "goal": "Say a good continuation for each verb, then give verbs to your partner.",
+              "opener": "Let’s play! I say a verb, you finish it. Ready? Wait…",
+              "criteria": [
+                "gives correct continuations for at least five verbs (wait for a bus, earn money, tell a lie…)",
+                "does not confuse the pairs (win / earn, say / tell, lend / borrow, hear / listen to)",
+                "swaps roles and says verbs for the partner"
+              ],
+              "steps": [
+                {"text": "Finish the verbs your partner says", "example": "Wait… — for a bus. Earn… — a salary."},
+                {"text": "Swap: say a verb to your partner", "example": "Tell…"},
+                {"text": "Correct your partner if the continuation is wrong", "example": "Not say a lie — tell a lie!"}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8B-sb4c",
+          "origin": "SB",
+          "instruction": "Complete the questions with the correct verb",
+          "note": "SB 4c «Circle the correct verb» → Blank, варианты в подсказке. Ответы MODEL; «ask and answer» — отдельным разговором 8B-sb4c2",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Who do you {} in your family?", "gaps": [["look like"]], "hint": "(look / look like)", "explain": "look like + a person = be similar in appearance.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "How many English classes have you {} this year?", "gaps": [["missed"]], "hint": "(missed / lost)", "explain": "miss a class = not go to it.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "What music do you like {} in the car?", "gaps": [["listening to"]], "hint": "(hearing / listening to)", "explain": "listen to music = pay attention; hear = a sound comes to your ears.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Do you think football players {} too much money?", "gaps": [["earn"]], "hint": "(win / earn)", "explain": "earn money (for work); win a match or a prize.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "What is the best way to {} new friends?", "gaps": [["meet"]], "hint": "(know / meet)", "explain": "meet somebody for the first time.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Is it sometimes OK to {} a lie?", "gaps": [["tell"]], "hint": "(say / tell)", "explain": "tell a lie, tell a joke.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "Have you ever {} money to a family member?", "gaps": [["lent"]], "hint": "(lent / borrowed)", "explain": "lend money to sb; borrow money from sb.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "Do you know anyone who’s {} a flat?", "gaps": [["looking for"]], "hint": "(looking for / finding)", "explain": "look for = try to find (a process, so -ing is natural).", "source": "MODEL"},
+            {"n": 9, "type": "blank", "text": "What clothes do you usually {} during the week?", "gaps": [["wear"]], "hint": "(carry / wear)", "explain": "wear clothes; carry a bag.", "source": "MODEL"},
+            {"n": 10, "type": "blank", "text": "Do you ever {} films on your phone?", "gaps": [["watch"]], "hint": "(look at / watch)", "explain": "watch films, TV (moving pictures); look at a photo.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "8B-sb4c2",
+          "origin": "SB",
+          "instruction": "Ask and answer the questions with a partner",
+          "note": "SB 4c, вторая часть «ask and answer» → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate): Marta, 28, a nurse. You and the student ask and answer these questions: 1 Who do you look like in your family? 2 How many English classes have you missed this year? 3 What music do you like listening to in the car? 4 Do you think football players earn too much money? 5 What is the best way to meet new friends? 6 Is it sometimes OK to tell a lie? 7 Have you ever lent money to a family member? 8 Do you know anyone who’s looking for a flat? 9 What clothes do you usually wear during the week? 10 Do you ever watch films on your phone? Take turns: ask one question, listen, react briefly, then answer the student’s question yourself in one or two sentences (I look like my dad — we both have curly hair. / I’ve missed two classes because I was ill.). If the student confuses the verbs (win money, say a lie, borrow money to), repeat the phrase correctly in your next reply without a long explanation.",
+              "goal": "Ask and answer the ten questions about confusing verbs.",
+              "opener": "Hi! Let’s start with question 1. Who do you look like in your family?",
+              "criteria": [
+                "answers at least five questions in full sentences",
+                "asks the partner at least three of the questions",
+                "uses the confusing verbs correctly (look like, miss a class, listen to, earn money, meet friends, tell a lie, lend money to)"
+              ],
+              "steps": [
+                {"text": "Answer your partner’s question", "example": "I look like my mum. We both have dark hair."},
+                {"text": "Ask a question from the list", "example": "What music do you like listening to in the car?"},
+                {"text": "Give your opinion", "example": "Yes, I think football players earn too much money."}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8B-wb2a",
+          "origin": "WB",
+          "instruction": "Look at the pictures. Complete the sentences with a verb from the list",
+          "note": "WB 2a; картинки 2–5 (a — слева, b — справа; WB p.57, tools/images.py) у пунктов в image. 1 carrying / wearing — пример",
+          "words": ["earns", "found", "heard", "listened to", "looking at", "looking for", "watching", "wins"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "a He’s {} a picture.\nb He’s {} TV.", "image": "8b_wb2a_2", "gaps": [["looking at"], ["watching"]], "source": "KEY"},
+            {"n": 3, "type": "blank", "text": "a She’s {} her keys.\nb She’s {} her keys.", "image": "8b_wb2a_3", "gaps": [["looking for"], ["found"]], "source": "KEY"},
+            {"n": 4, "type": "blank", "text": "a He {} a lot of matches.\nb He {} a lot of money.", "image": "8b_wb2a_4", "gaps": [["wins"], ["earns"]], "source": "KEY"},
+            {"n": 5, "type": "blank", "text": "a We {} the ambulance.\nb We {} the radio.", "image": "8b_wb2a_5", "gaps": [["heard"], ["listened to"]], "source": "KEY"}
+          ]
+        },
+        {
+          "id": "8B-wb2b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the verbs in brackets in the correct tense",
+          "note": "WB 2b; 1 look / look like — пример",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "I {} my ticket and had to buy another one, so I {} the train.", "gaps": [["lost"], ["missed"]], "hint": "(miss, lose)", "source": "KEY"},
+            {"n": 3, "type": "blank", "text": "My son doesn’t often {} lies, but if he does, he always {} sorry.", "gaps": [["tell"], ["says"]], "hint": "(say, tell)", "source": "KEY"},
+            {"n": 4, "type": "blank", "text": "I’m {} for the bus. I {} it’ll come soon because it’s raining.", "gaps": [["waiting"], ["hope"]], "hint": "(hope, wait)", "source": "KEY"},
+            {"n": 5, "type": "blank", "text": "Laura {} Sam on a safari last summer, so she’s {} him for a year now.", "gaps": [["met"], ["known"]], "hint": "(know, meet)", "source": "KEY"},
+            {"n": 6, "type": "blank", "text": "If you need to {} some money, I can {} you £50.", "gaps": [["borrow"], ["lend"]], "hint": "(borrow, lend)", "source": "KEY"},
+            {"n": 7, "type": "blank", "text": "I can {} you to the shopping centre, but I can’t {} you home.", "gaps": [["take"], ["bring"]], "hint": "(bring, take)", "source": "KEY"}
+          ]
+        },
+        {
+          "id": "8B-wb2c",
+          "origin": "WB",
+          "instruction": "Complete the questions with a confusing verb in the correct form",
+          "note": "WB 2c «verb from a or b»; 1 watch — пример (What will you do if there’s nothing to watch on TV tonight?)",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "Have you ever {} something important and then found it? What was it?", "gaps": [["lost"]], "source": "KEY"},
+            {"n": 3, "type": "blank", "text": "How often do you {} old photos?", "gaps": [["look at"]], "source": "KEY"},
+            {"n": 4, "type": "blank", "text": "What kind of music do you {} to?", "gaps": [["listen"]], "source": "KEY"},
+            {"n": 5, "type": "blank", "text": "Have you ever {} a prize? What for?", "gaps": [["won"]], "source": "KEY"}
+          ]
+        },
+        {
+          "id": "8B-wb2d",
+          "origin": "WB",
+          "instruction": "Answer the questions about you. Write full sentences",
+          "note": "WB 2d «Students’ own answers» → Write, проверяет ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Answer the questions about you in full sentences.",
+              "questions": [
+                {"text": "What will you do if there’s nothing to watch on TV tonight?", "hint": "(If there’s nothing to watch, I’ll…)"},
+                {"text": "Have you ever lost something important and then found it? What was it?", "hint": "(Yes, I once lost my… I found it…)"},
+                {"text": "How often do you look at old photos?", "hint": "(I look at old photos…)"},
+                {"text": "What kind of music do you listen to?", "hint": "(I usually listen to…)"},
+                {"text": "Have you ever won a prize? What for?", "hint": "(Yes, I won a prize for… / No, I’ve never…)"}
+              ],
+              "criteria": [
+                "answers all five questions in full sentences",
+                "the first answer uses the first conditional correctly (If there’s nothing…, I’ll…)",
+                "uses the confusing verbs correctly (lose / find, look at, listen to, win)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8B-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with a verb from the list in the correct form.",
+          "words": ["borrow", "carry", "earn", "hope", "lose", "meet", "say", "take"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Can I {} your pen? I’ll give it back in a minute.", "gaps": [["borrow"]], "explain": "borrow sth from sb — you get it for a short time.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "My sister {} a lot of money — she’s a lawyer.", "gaps": [["earns"]], "explain": "earn money for your work; he / she + -s.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "I {} you have a great holiday!", "gaps": [["hope"]], "explain": "hope = want something good to happen.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Don’t forget to {} your passport with you to the airport.", "gaps": [["take"]], "explain": "take = movement away from here.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "Our team {} the final 3–0. We were so sad!", "gaps": [["lost"]], "explain": "lose a match (past: lost).", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Let’s {} outside the cinema at 7.30.", "gaps": [["meet"]], "explain": "meet at a time or a place.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "He left the party without {} goodbye.", "gaps": [["saying"]], "explain": "say hello / goodbye / sorry; after without — -ing.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "Can you help me {} these bags to the car?", "gaps": [["carry"]], "explain": "carry a bag (in your hands).", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "8B-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the correct verb.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Can you {} me the time, please?", "gaps": [["tell"]], "hint": "(say / tell)", "explain": "tell somebody something.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Did you {} that noise? I think somebody’s at the door.", "gaps": [["hear"]], "hint": "(hear / listen to)", "explain": "hear a noise — it just comes to your ears.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "I’ve {} Tom since we were at school together.", "gaps": [["known"]], "hint": "(known / met)", "explain": "know somebody for a long time (present perfect: have known).", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "She {} really tired today. Is she OK?", "gaps": [["looks"]], "hint": "(looks / looks like)", "explain": "look + adjective (tired); look like + noun.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "Hurry up or we’ll {} the train!", "gaps": [["miss"]], "hint": "(miss / lose)", "explain": "miss a train, a bus, a class.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Could you {} me £10 until Friday?", "gaps": [["lend"]], "hint": "(lend / borrow)", "explain": "lend sb money — you give it for a short time.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "8B-vocabulary-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes. If a sentence is correct, leave it as it is.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "He won a lot of money in his last job.", "answers": ["He earned a lot of money in his last job."], "explain": "You earn money for work; you win money in a competition or lottery.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "Please bring your dictionaries to class tomorrow.", "answers": ["Please bring your dictionaries to class tomorrow."], "explain": "Correct: bring = movement towards here (the class).", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "I’m waiting that you’ll like the present.", "answers": ["I hope that you’ll like the present.", "I hope you’ll like the present.", "I hope you like the present."], "explain": "hope = want something good to happen; wait for sb / sth.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "I’m looking at my keys. Have you seen them?", "answers": ["I’m looking for my keys. Have you seen them?"], "explain": "look for = try to find; look at = direct your eyes to.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "She looks her mother — they have the same eyes.", "answers": ["She looks like her mother — they have the same eyes.", "She looks like her mother – they have the same eyes.", "She looks like her mother, they have the same eyes."], "explain": "look like + a person (noun).", "source": "MODEL"},
+            {"n": 6, "type": "rewrite", "prompt": "Do you often watch TV in the evening?", "answers": ["Do you often watch TV in the evening?"], "explain": "Correct: watch TV.", "source": "MODEL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8B-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "homophones",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Homophones",
+          "text": "Homophones are words with different spellings, but the same pronunciation. Some of the confusing verbs are homophones, e.g. I can’t hear you. Please come here."
+        },
+        {
+          "type": "table",
+          "title": "Homophones",
+          "headers": ["Word", "Homophone"],
+          "rows": [
+            ["wear /weə/", "where"],
+            ["know /nəʊ/", "no"],
+            ["meet /miːt/", "meat"],
+            ["weight /weɪt/", "wait"],
+            ["write /raɪt/", "right"],
+            ["one /wʌn/", "won"],
+            ["see /siː/", "sea"],
+            ["war /wɔː/", "wore"],
+            ["hear /hɪə/", "here"]
+          ],
+          "audio": "8.16"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "8B-sb5a",
+          "origin": "SB",
+          "instruction": "Listen to the pairs of sentences, and complete sentence b with a homophone of the first word in capitals",
+          "note": "SB 5a (жирное слово → заглавными); ответы по аудио 8.16",
+          "audio": "8.16",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "a What are you going to WEAR tonight?\nb A {} are you from? B I’m from Warsaw.", "gaps": [["Where"]], "source": "CONFIRMED", "clip": [0.0, 6.4]},
+            {"n": 2, "type": "blank", "text": "a I don’t KNOW what to do.\nb There’s {} milk in the fridge!", "gaps": [["no"]], "source": "CONFIRMED", "clip": [7.5, 13.0]},
+            {"n": 3, "type": "blank", "text": "a Hi. Nice to MEET you.\nb Do you want {} or fish?", "gaps": [["meat"]], "source": "CONFIRMED", "clip": [14.3, 20.2]},
+            {"n": 4, "type": "blank", "text": "a The maximum WEIGHT for hand luggage is ten kilos.\nb I’m coming! {} for me!", "gaps": [["Wait"]], "source": "CONFIRMED", "clip": [21.4, 29.0]},
+            {"n": 5, "type": "blank", "text": "a Please WRITE soon.\nb Is it on the left or on the {}?", "gaps": [["right"]], "source": "CONFIRMED", "clip": [30.0, 35.5]},
+            {"n": 6, "type": "blank", "text": "a There’s only ONE ticket left.\nb Brazil {} the match 5–1.", "gaps": [["won"]], "source": "CONFIRMED", "clip": [36.9, 43.0]},
+            {"n": 7, "type": "blank", "text": "a I can’t SEE the board!\nb I love swimming in the {}.", "gaps": [["sea"]], "source": "CONFIRMED", "clip": [44.3, 49.4]},
+            {"n": 8, "type": "blank", "text": "a Have you ever read WAR and Peace?\nb It was cold, so she {} a coat.", "gaps": [["wore"]], "source": "CONFIRMED", "clip": [50.8, 57.0]}
+          ]
+        },
+        {
+          "id": "8B-sb5b",
+          "origin": "SB",
+          "instruction": "Listen and write the sentences",
+          "note": "SB 5b, диктант 8.17 → Blank на всё предложение с клипом; ответы по расшифровке аудио",
+          "audio": "8.17",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "{}", "gaps": [["I can see the sea from here."]], "clip": [0.2, 2.26], "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "{}", "gaps": [["I write with my right hand."]], "clip": [3.97, 6.33], "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "{}", "gaps": [["He won one game."]], "clip": [8.07, 10.08], "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "{}", "gaps": [["I know there’s no hope."]], "clip": [11.78, 14.12], "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "8B-sb5b2",
+          "origin": "SB",
+          "instruction": "Practise saying the sentences",
+          "note": "SB 5b «Then practise saying them» → Speak с клипами 8.17",
+          "audio": "8.17",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "I can see the sea from here.", "clip": [0.2, 2.26]},
+            {"n": 2, "type": "speak", "text": "I write with my right hand.", "clip": [3.97, 6.33]},
+            {"n": 3, "type": "speak", "text": "He won one game.", "clip": [8.07, 10.08]},
+            {"n": 4, "type": "speak", "text": "I know there’s no hope.", "clip": [11.78, 14.12]}
+          ]
+        },
+        {
+          "id": "8B-wb3a",
+          "origin": "WB",
+          "instruction": "Write a homophone of the word",
+          "note": "WB 3a «Listen and tick the words you hear» (трек WB 8.2 — аудио WB нет) → Blank: написать омофон; 1 know → no — пример. Какие слова звучат в треке (ключ 3b), без аудио не проверить",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "where → {}", "gaps": [["wear"]], "explain": "where and wear are both /weə/.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "sea → {}", "gaps": [["see"]], "explain": "sea and see are both /siː/.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "war → {}", "gaps": [["wore"]], "explain": "war and wore are both /wɔː/.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "right → {}", "gaps": [["write"]], "explain": "right and write are both /raɪt/.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "meat → {}", "gaps": [["meet"]], "explain": "meat and meet are both /miːt/.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "wait → {}", "gaps": [["weight"]], "explain": "wait and weight are both /weɪt/.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "one → {}", "gaps": [["won"]], "explain": "one and won are both /wʌn/.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "8B-wb3b",
+          "origin": "WB",
+          "instruction": "Listen and repeat the words",
+          "note": "WB 3b (трек WB 8.3 — аудио WB нет): Speak на пары из 3a, образец — синтезатор (как 1B-wb3b)",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "know, no"},
+            {"n": 2, "type": "speak", "text": "where, wear"},
+            {"n": 3, "type": "speak", "text": "sea, see"},
+            {"n": 4, "type": "speak", "text": "war, wore"},
+            {"n": 5, "type": "speak", "text": "right, write"},
+            {"n": 6, "type": "speak", "text": "meat, meet"},
+            {"n": 7, "type": "speak", "text": "wait, weight"},
+            {"n": 8, "type": "speak", "text": "one, won"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8B-skills",
+      "kind": "SKILLS",
+      "title": "Reading & Listening",
+      "reference": [
+        {
+          "type": "note",
+          "title": "If something can go wrong…",
+          "text": "Murphy’s Law says: ‘If there is something that can go wrong, it will go wrong.’ It took its name from Captain Edward Murphy, an American aerospace engineer from the 1940s. Examples: if you change to a faster queue, your old queue will start moving faster; it will only rain if you forget your umbrella."
+        },
+        {
+          "type": "note",
+          "title": "Two Murphy’s Law stories",
+          "text": "Peter was unemployed for months. When a company finally phoned him about a job, he got cut off because his bus went into a tunnel. Sue chose the tiger trip on a free morning at a conference in Thailand — her group didn’t see the tiger, but the people on the bird trip did."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "8B-sb1b",
+          "origin": "SB",
+          "instruction": "Read the first two paragraphs of the article and answer the questions",
+          "note": "SB 1a (предсказание) + 1b «Who was Murphy? What is his ‘Law’?» → Blank по напечатанной статье",
+          "context": "If something can go wrong… If you’re in a queue at the supermarket and you change to another queue which is moving more quickly, what will happen? The queue you were in before will suddenly start moving faster. What will happen if you take your umbrella because you think it’s going to rain later? It won’t rain, of course. It will only rain if you forget to take your umbrella. These are examples of Murphy’s Law, which says, ‘If there is something that can go wrong, it will go wrong’. Murphy’s Law took its name from Captain Edward Murphy, an American aerospace engineer from the 1940s. He was trying to improve safety for pilots flying military planes. Not surprisingly, he got a reputation for always thinking of the worst thing that could happen in every situation. Here are some more examples of Murphy’s Law.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "If you’re in a slow queue at the supermarket and you change to a different queue, the queue you were in before will start moving {}.", "gaps": [["faster", "more quickly"]], "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "Who was Murphy? An American aerospace {} from the 1940s.", "gaps": [["engineer"]], "explain": "Captain Edward Murphy — he was trying to improve safety for pilots.", "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "What is his ‘Law’? ‘If there is something that can go {}, it will go wrong.’", "gaps": [["wrong"]], "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "8B-sb1c",
+          "origin": "SB",
+          "instruction": "Complete the eight examples of Murphy’s Law with the endings from the list",
+          "note": "SB 1c «match them to sentences A–H» → Blank: вписать окончание. Ответы MODEL (ключа нет; однозначны по смыслу)",
+          "words": ["it will immediately start working", "three will come at the same time", "all the traffic lights will be red", "you’ll find the lost one", "your flight will be delayed", "the printer won’t have any paper", "there’ll be a long queue at security", "you’ll be out when they deliver it"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Shopping. If you lose a glove and buy a new pair, {}.", "gaps": [["you’ll find the lost one"]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Shopping. If you order something online, {}.", "gaps": [["you’ll be out when they deliver it"]], "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Transport. If you stop waiting for a bus and start walking, {}.", "gaps": [["three will come at the same time"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Transport. If you’re in a taxi and you’re late for something important, {}.", "gaps": [["all the traffic lights will be red"]], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "Technology. If a technician comes to fix your computer, {}.", "gaps": [["it will immediately start working"]], "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Technology. If you need to print a document urgently, {}.", "gaps": [["the printer won’t have any paper"]], "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "Air travel. If you get to the airport early, {}.", "gaps": [["your flight will be delayed"]], "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "Air travel. If you’re late for your flight, {}.", "gaps": [["there’ll be a long queue at security"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "8B-sb3a",
+          "origin": "SB",
+          "instruction": "You’re going to listen to two stories. Listen to six extracts and complete them with the words you hear",
+          "note": "SB 3a «circle the words and phrases you hear. What do you think they mean?» → Blank, варианты в подсказке, значение — в explain. Ответы по скрипту 8.14 (8.13 — отрывки из него)",
+          "audio": "8.13",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Peter: It was the {} and it was very difficult to get a job.", "gaps": [["recession"]], "hint": "(recession / depression)", "explain": "recession = a time when the economy is bad and there are few jobs.", "source": "CONFIRMED", "clip": [0.2, 4.42]},
+            {"n": 2, "type": "blank", "text": "Peter: I {} lots of different jobs.", "gaps": [["applied for"]], "hint": "(tried for / applied for)", "explain": "apply for a job = formally ask for it (send a CV, fill in a form).", "source": "CONFIRMED", "clip": [6.16, 8.91]},
+            {"n": 3, "type": "blank", "text": "Peter: We {} because the bus went into a tunnel.", "gaps": [["got cut off"]], "hint": "(got cut off / got off)", "explain": "get cut off = a phone call suddenly stops.", "source": "CONFIRMED", "clip": [10.64, 14.71]},
+            {"n": 4, "type": "blank", "text": "Sue: I was interested in {} a trip to see birds {} a trip to see a tiger.", "gaps": [["either"], ["or"]], "hint": "(either / neither, nor / or)", "explain": "either… or… = one of the two things; neither… nor… = not one and not the other.", "source": "CONFIRMED", "clip": [16.53, 22.2]},
+            {"n": 5, "type": "blank", "text": "Sue: I thought it would be really cool to see a tiger {}.", "gaps": [["in the wild"]], "hint": "(in the wild / in Thailand)", "explain": "in the wild = in nature, not in a zoo.", "source": "CONFIRMED", "clip": [24.03, 28.03]},
+            {"n": 6, "type": "blank", "text": "Sue: We spent {} looking for the tiger.", "gaps": [["the whole morning"]], "hint": "(the whole morning / all morning)", "explain": "the whole morning = all the morning, from beginning to end.", "source": "CONFIRMED", "clip": [29.67, 33.06]}
+          ]
+        },
+        {
+          "id": "8B-sb3b",
+          "origin": "SB",
+          "instruction": "Listen to the stories once. Why are they examples of Murphy’s Law?",
+          "note": "SB 3b (открытый вопрос) → Blank на ключевое слово по скрипту 8.14",
+          "audio": "8.14",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Peter waited four months for a phone call about a job, and when the company finally rang, he got {}.", "gaps": [["cut off"]], "explain": "The bus went into a tunnel, and the number wasn’t on his phone.", "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "Sue went on the tiger trip and didn’t see the tiger, but the people on the {} trip saw it.", "gaps": [["bird"]], "explain": "‘You go on the tiger trip and you don’t see the tiger, but the people on the bird trip see the tiger!’", "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "8B-sb3c",
+          "origin": "SB",
+          "instruction": "Listen again. If the sentence is true, write it again. If it is false, correct it",
+          "note": "SB 3c T/F → Rewrite: верное предложение переписать, неверное исправить. Ответы по скрипту 8.14 (4 — T: «very busy… but we had one free morning»)",
+          "audio": "8.14",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "Peter didn’t have any qualifications.", "answers": ["Peter had qualifications.", "Peter had some qualifications.", "Peter had a degree in maths.", "Peter had a maths degree.", "Peter did maths at university.", "Peter had a university degree."], "explain": "False: he did maths at university.", "source": "CONFIRMED"},
+            {"n": 2, "type": "rewrite", "prompt": "He wasn’t expecting to get a phone call about a job.", "answers": ["He wasn’t expecting to get a phone call about a job."], "explain": "True: he applied months before, and the call was a surprise on the bus.", "source": "CONFIRMED"},
+            {"n": 3, "type": "rewrite", "prompt": "He couldn’t call them back because his phone had no battery.", "answers": ["He couldn’t call them back because he didn’t have their number.", "He couldn’t call them back because he didn’t know their number.", "He couldn’t call them back because he didn’t know the number.", "He couldn’t call them back because the number wasn’t on his phone.", "He couldn’t call them back because it said unknown number.", "He couldn’t call them back because he didn’t have the number."], "explain": "False: the number wasn’t on his phone (‘unknown number’), and he couldn’t remember the name of the company.", "source": "CONFIRMED"},
+            {"n": 4, "type": "rewrite", "prompt": "Sue didn’t have much free time at the conference.", "answers": ["Sue didn’t have much free time at the conference."], "explain": "True: ‘We were very busy with talks and meetings most of the time, but we had one free morning.’", "source": "CONFIRMED"},
+            {"n": 5, "type": "rewrite", "prompt": "The guide was optimistic about seeing the tiger.", "answers": ["The guide wasn’t optimistic about seeing the tiger.", "The guide was pessimistic about seeing the tiger.", "The guide said they probably wouldn’t see the tiger.", "The guide wasn’t very optimistic about seeing the tiger."], "explain": "False: ‘our guide said that we probably wouldn’t see the tiger’.", "source": "CONFIRMED"},
+            {"n": 6, "type": "rewrite", "prompt": "Sue didn’t really enjoy her trip.", "answers": ["Sue enjoyed her trip.", "Sue really enjoyed her trip.", "Sue did enjoy her trip.", "Sue enjoyed her trip a lot."], "explain": "False: ‘it was fun… we felt we’d had a really good morning’.", "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "8B-sb3d",
+          "origin": "SB",
+          "instruction": "Whose experience was more annoying? Have you ever had a Murphy’s Law experience?",
+          "note": "SB 3d + SB 1d («Do any of these things often happen to you?») → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "Speaking practice in an English class (level: pre-intermediate) after the lesson ‘Murphy’s Law’ (‘If there is something that can go wrong, it will go wrong’). Two stories: Peter, unemployed for four months, finally got a call about a job on a bus, but was cut off in a tunnel and didn’t have the number (they called back the next day and he got the job). Sue chose the tiger trip at a conference in Thailand, didn’t see the tiger, but the people on the bird trip saw it. Laws from the article: if you order something online, you’ll be out when they deliver it; if you stop waiting for a bus and start walking, three will come at the same time; if you need to print a document urgently, the printer won’t have any paper; if you get to the airport early, your flight will be delayed. First ask the student whose experience was more annoying, Peter’s or Sue’s, and why; give your own opinion briefly. Then ask which of the laws often happen to them. Then ask about their own Murphy’s Law experience and ask two or three follow-up questions (When was it? What happened in the end?). Tell a short experience of your own too (e.g. you washed your car and it rained the same afternoon). Use the first conditional naturally (If I wash my car, it always rains!).",
+              "goal": "Say whose experience was more annoying, and tell your own Murphy’s Law story.",
+              "opener": "So, two stories — Peter and the phone call, Sue and the tiger. Whose experience do you think was more annoying?",
+              "criteria": [
+                "says whose experience was more annoying and gives a reason",
+                "says which Murphy’s laws happen to them, using if + present, will + infinitive",
+                "tells a short personal story in the past simple",
+                "answers the partner’s follow-up questions"
+              ],
+              "steps": [
+                {"text": "Whose experience was more annoying?", "example": "I think Peter’s experience was more annoying, because he really needed the job."},
+                {"text": "Which laws often happen to you?", "example": "If I stop waiting for a bus and start walking, the bus always comes!"},
+                {"text": "Tell your own Murphy’s Law story", "example": "Last year I got to the airport three hours early, and my flight was delayed."}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3435 @@
+{
+  "id": "8C",
+  "title": "Who is Vivienne?",
+  "bubbles": [
+    "You must be mine.",
+    "Yes. I’ll be yours."
+  ],
+  "sources": "SB p.66–67 (PDF 67–68), Grammar Bank p.140–141 (PDF 141–142), Revise and Check 7&8 p.68–69 (PDF 69–70); WB p.58–59 (PDF 57–58), key WB p.92 (PDF 91). Scripts 8.18–8.26: Parts 1–2 printed in the SB, the rest by the recordings; script 8.27 (Revise and Check) is not printed",
+  "sections": [
+    {
+      "id": "8C-skills",
+      "kind": "SKILLS",
+      "title": "Reading & Listening",
+      "reference": [],
+      "tasks": [
+        {
+          "id": "8C-sb1b",
+          "origin": "SB",
+          "instruction": "Read and listen to Part 1 of a short story. Answer the questions",
+          "note": "SB 1b; 1a (угадать век по фото) не переносили — это разговор по картинкам без проверяемого ответа. Вопросы разбиты на короткие пропуски по тексту Part 1. «Think about the story» — в 8C-sb1d",
+          "audio": "8.18",
+          "images": [
+            "8c_sb1_detective"
+          ],
+          "context": "“I’ve found where she lives,” said the detective quietly. “Here is the address.” Hartley took the piece of paper. On it were the words “Vivienne Arlington, No. 341 East 49th Street.” “She moved there a week ago,” said the detective. “I can follow her if you want. It will only cost you $7 a day and expenses…” “No, thank you,” interrupted Hartley. “I only wanted the address. How much is it?” “One day’s work,” said the detective. “Ten dollars.” Hartley paid the man. Then he left his office and took a tram to Broadway. After walking a short distance he arrived at the building that he was looking for. He went up the stairs, into her apartment, and saw her standing by the window. Vivienne was about twenty-one. Her hair was red gold, and her eyes were sea-blue. She was wearing a white top and a dark skirt. “Vivienne,” said Hartley angrily, “you didn’t answer my last letter. It took me a week to find your new address! Why didn’t you answer me? You knew I was waiting to see you and hear from you.”",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "What did the detective give Hartley? A piece of paper with Vivienne’s {} on it. What did he offer to do? To {} her for $7 a day and expenses.",
+              "gaps": [
+                [
+                  "address",
+                  "new address"
+                ],
+                [
+                  "follow"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "What did Hartley do when he got the address? He paid the detective {} dollars, and then he took a {} to Broadway and went to her apartment.",
+              "gaps": [
+                [
+                  "ten",
+                  "10"
+                ],
+                [
+                  "tram"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "What did Vivienne look like? She was about {}. Her hair was red {}, and her eyes were sea-{}.",
+              "gaps": [
+                [
+                  "twenty-one",
+                  "21",
+                  "twenty one"
+                ],
+                [
+                  "gold"
+                ],
+                [
+                  "blue"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Why was Hartley angry? She didn’t answer his last {}, and it took him a {} to find her new address.",
+              "gaps": [
+                [
+                  "letter"
+                ],
+                [
+                  "week"
+                ]
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "8C-sb1c",
+          "origin": "SB",
+          "instruction": "Read and listen to Part 2. Answer the questions",
+          "note": "SB 1c, вопросы 1–4 по тексту Part 2; вопрос 5 («What do you think Hartley wanted Vivienne to do?») — догадка, перенесён в 8C-sb1d",
+          "audio": "8.19",
+          "images": [
+            "8c_sb1_vivienne"
+          ],
+          "context": "The girl looked out the window dreamily. “Mr Hartley,” she said slowly, “I don’t know what to say to you. I understand all the advantages of your offer, and sometimes I feel sure that I could be happy with you. But, then sometimes I am less sure. I was born a city girl, and I am not sure that I would enjoy living a quiet life in the suburbs.” “My dear girl,” said Hartley, “You will have everything that you want. You can come to the city for the theatre, for shopping, and to visit your friends as often as you want. You can trust me, can’t you?” “I can trust you completely,” she said, smiling at him. “I know you are the kindest of men, and that the girl who you get will be very lucky. I heard all about you when I was at the Montgomerys’.” “Ah!” exclaimed Hartley, “I remember so well the evening I first saw you at the Montgomerys’. I will never forget that dinner. Come on, Vivienne, promise me. I want you. Nobody else will ever give you such a happy home.” Vivienne didn’t answer. Suddenly Hartley was suspicious. “Tell me, Vivienne, is there,” he asked, “is there – is there someone else?” “You shouldn’t ask that, Mr. Hartley,” she said. “But I will tell you. There is one other person – but I haven’t promised him anything.” “Vivienne,” said Hartley masterfully, “You must be mine.” Vivienne looked him in the eye. “Do you think for one moment,” she said calmly, “that I could come to your home while Héloise is there?”",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Why wasn’t Vivienne sure about accepting Hartley’s offer? She was born a {} girl, and she wasn’t sure she would enjoy a quiet life in the {}.",
+              "gaps": [
+                [
+                  "city"
+                ],
+                [
+                  "suburbs"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "How did Hartley try to persuade her? He said she would have everything she wanted, and she could come to the city for the {}, for {}, and to visit her friends.",
+              "gaps": [
+                [
+                  "theatre",
+                  "theater"
+                ],
+                [
+                  "shopping"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Where did they first meet? At a dinner at the {}’.",
+              "gaps": [
+                [
+                  "Montgomerys",
+                  "Montgomerys’"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "What did Hartley think was the reason she didn’t say yes? He thought there was {} else.",
+              "gaps": [
+                [
+                  "someone",
+                  "somebody",
+                  "another man"
+                ]
+              ],
+              "explain": "‘Is there someone else?’ – and Vivienne says there is one other person.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "8C-sb1d",
+          "origin": "SB",
+          "instruction": "Think about the story. What do you think is happening?",
+          "note": "SB 1b «Think about the story» + 1c вопрос 5 — догадки до развязки → Write, проверяет ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Answer in 1–2 sentences each. Guess – you will find out in Parts 3 and 4.",
+              "questions": [
+                {
+                  "text": "Who do you think Hartley is, and what is his relationship with Vivienne?",
+                  "hint": "(I think Hartley is… / I think he wants…)"
+                },
+                {
+                  "text": "What do you think Hartley wanted Vivienne to do?",
+                  "hint": "(I think he wanted her to…)"
+                },
+                {
+                  "text": "Who do you think Héloise is?",
+                  "hint": "(Maybe Héloise is his…)"
+                }
+              ],
+              "criteria": [
+                "answers all three questions with a clear guess",
+                "the guesses fit the facts of Parts 1 and 2",
+                "uses I think / maybe / probably and correct past or present tenses"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8C-sb4b",
+          "origin": "SB",
+          "instruction": "Listen to Part 3. Answer the questions",
+          "note": "SB 4b; видео 8C нет — только аудио 8.24. Ответы по записи",
+          "audio": "8.24",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "What did Hartley say about Héloise? Héloise must {} before he can take Vivienne home.",
+              "gaps": [
+                [
+                  "go",
+                  "leave"
+                ]
+              ],
+              "explain": "‘Héloise will go… Héloise must go before I can take you home. But she will go. I have decided.’",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "What did Vivienne promise to do? She said yes: ‘I will be {}.’",
+              "gaps": [
+                [
+                  "yours"
+                ]
+              ],
+              "explain": "‘Then my answer is yes. I will be yours.’ – ‘I promise,’ repeated Vivienne softly.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "8C-sb4c",
+          "origin": "SB",
+          "instruction": "Listen to Part 4. Answer the questions",
+          "note": "SB 4c; аудио 8.25. «The lady on the stairs» — женщина, которая бросилась Хартли на шею в конце Part 3 (жена); ответ MODEL. 4a (послушать Parts 1–2 ещё раз) не переносили — треки уже в 8C-sb1b/1c",
+          "audio": "8.25",
+          "images": [
+            "8c_sb4_stairs"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Who was the lady on the stairs? Hartley’s {}.",
+              "gaps": [
+                [
+                  "wife"
+                ]
+              ],
+              "explain": "‘A woman ran into his arms and they kissed.’ – ‘His wife screamed… the sound of a woman whose husband loved her.’",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Who was Vivienne? A {} – she worked for the Montgomerys.",
+              "gaps": [
+                [
+                  "cook"
+                ]
+              ],
+              "explain": "‘Vivienne is coming to be our cook. She is the cook that was with the Montgomerys.’",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Who was Héloise? Hartley’s old {}. His wife wanted her to leave because she was drunk.",
+              "gaps": [
+                [
+                  "cook"
+                ]
+              ],
+              "explain": "‘Tell Héloise to leave. She has been drunk again all day.’",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "8C-sb4d",
+          "origin": "SB",
+          "instruction": "Did the ending surprise you? Why (not)?",
+          "note": "SB 4d «Did the ending surprise you? Why (not)?» → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Answer in 2–3 sentences.",
+              "questions": [
+                {
+                  "text": "Did the ending of the story surprise you? Why (not)?",
+                  "hint": "(The ending surprised me because I thought Vivienne was…)"
+                }
+              ],
+              "criteria": [
+                "says clearly if the ending was a surprise and gives a reason",
+                "mentions who Vivienne and Héloise really were",
+                "uses the past simple correctly"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8C-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "reading aloud",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Reading aloud",
+          "text": "Reading stories or poems aloud gives you the opportunity to focus on pronunciation, especially sentence rhythm. Pause at commas and full stops, and use the adverb after said to decide how to say the line: said slowly, said calmly, said masterfully."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "8C-sb2a",
+          "origin": "SB",
+          "instruction": "Listen to the last four lines of Part 2. What tells the speakers where to pause and in what way to say the dialogue?",
+          "note": "SB 2a → два коротких пропуска; ответ MODEL (запятые/пунктуация и наречия после said)",
+          "audio": "8.20",
+          "context": "“Vivienne,” said Hartley masterfully, “You must be mine.” Vivienne looked him in the eye. “Do you think for one moment,” she said calmly, “that I could come to your home while Héloise is there?”",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "What tells the speakers where to pause? The {}.",
+              "gaps": [
+                [
+                  "commas",
+                  "punctuation",
+                  "commas and full stops",
+                  "the commas"
+                ]
+              ],
+              "explain": "The readers pause at each comma and full stop: “Vivienne,” | said Hartley masterfully, | “You must be mine.”",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "What tells the speakers in what way to say the dialogue? The {} after said.",
+              "gaps": [
+                [
+                  "adverbs",
+                  "adverb",
+                  "adverbs of manner"
+                ]
+              ],
+              "explain": "said masterfully – in a strong, dominant way; said calmly – in a calm, quiet way.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8C-sb2b",
+          "origin": "SB",
+          "instruction": "Listen and repeat the names",
+          "note": "SB 2b; Hartley /ˈhɑːtli/, the Montgomerys /mɒntˈɡɒmeriz/, Vivienne /ˈvɪviən/, Héloise /ˌeləʊˈiːz/",
+          "audio": "8.21",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "Hartley",
+              "clip": [
+                0.0,
+                1.28
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "the Montgomerys",
+              "clip": [
+                3.02,
+                4.02
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "Vivienne",
+              "clip": [
+                6.12,
+                7.4
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "Héloise",
+              "clip": [
+                8.91,
+                10.3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8C-sb2c",
+          "origin": "SB",
+          "instruction": "Read Part 2 aloud. Pause at the commas and say the lines in the way the adverbs tell you",
+          "note": "SB 2c «Practise reading Part 2 aloud with a partner» → Speak по ключевым строкам Part 2, образец — клипы 8.19",
+          "audio": "8.19",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "The girl looked out the window dreamily.",
+              "clip": [
+                6.72,
+                12.24
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "“Mr Hartley,” she said slowly, “I don’t know what to say to you.”",
+              "clip": [
+                12.4,
+                18.68
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "“My dear girl,” said Hartley, “You will have everything that you want.”",
+              "clip": [
+                37.52,
+                43.33
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "“I can trust you completely,” she said, smiling at him.",
+              "clip": [
+                53.6,
+                58.67
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "“Come on, Vivienne, promise me. I want you.”",
+              "clip": [
+                80.02,
+                84.82
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "“Tell me, Vivienne, is there,” he asked, “is there – is there someone else?”",
+              "clip": [
+                94.69,
+                100.39
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "“You shouldn’t ask that, Mr. Hartley,” she said.",
+              "clip": [
+                100.39,
+                103.92
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "“Vivienne,” said Hartley masterfully, “You must be mine.”",
+              "clip": [
+                110.3,
+                115.35
+              ]
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "“Do you think for one moment,” she said calmly, “that I could come to your home while Héloise is there?”",
+              "clip": [
+                118.76,
+                127.62
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8C-wb1b",
+          "origin": "WB",
+          "instruction": "Repeat the sentences. Copy the rhythm and intonation",
+          "note": "WB 1b (трек WB 8.5 — аудио WB нет): образец — синтезатор. WB 1a (выбрать версию a/b по записи 8.4) не переносили — нужна запись WB",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "‘Mr Watson,’ she said slowly, ‘I am beginning to understand.’"
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "‘Sit down,’ he said calmly, ‘and tell me what you know.’"
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "‘Catherine,’ he said nervously. ‘There’s something I have to tell you.’"
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "‘Here you are,’ the old woman said kindly. ‘A nice cup of tea for you.’"
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "The detective looked at her suspiciously. ‘Tell me, what were you doing at 12.00 on 11th May?’"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8C-grammar",
+      "kind": "GRAMMAR",
+      "title": "possessive pronouns",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Possessive pronouns",
+          "headers": [
+            "Whose… is it?",
+            "Possessive adjective",
+            "Possessive pronoun"
+          ],
+          "rows": [
+            [
+              "Whose coat is it?",
+              "It’s my coat.",
+              "It’s mine."
+            ],
+            [
+              "Whose jacket is it?",
+              "It’s your jacket.",
+              "It’s yours."
+            ],
+            [
+              "Whose phone is it?",
+              "It’s his phone.",
+              "It’s his."
+            ],
+            [
+              "Whose bag is it?",
+              "It’s her bag.",
+              "It’s hers."
+            ],
+            [
+              "Whose dog is it?",
+              "It’s our dog.",
+              "It’s ours."
+            ],
+            [
+              "Whose house is it?",
+              "It’s their house.",
+              "It’s theirs."
+            ]
+          ],
+          "audio": "8.22"
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "Use possessive pronouns to talk about possession: Is it yours? Yes, it’s mine. Use Whose to ask about possession: Whose book is it? Whose is that bag?"
+        },
+        {
+          "type": "mistake",
+          "wrong": "It’s mine book.",
+          "right": "It’s my book. / It’s mine.",
+          "why": "A possessive pronoun is used without a noun; before a noun use a possessive adjective (my, your, her…)."
+        },
+        {
+          "type": "mistake",
+          "wrong": "Is this the yours?",
+          "right": "Is this yours?",
+          "why": "Don’t use the with possessive pronouns."
+        },
+        {
+          "type": "table",
+          "title": "Pronouns and possessive adjectives",
+          "headers": [
+            "subject",
+            "object",
+            "possessive adjective",
+            "possessive pronoun"
+          ],
+          "rows": [
+            [
+              "I",
+              "me",
+              "my",
+              "mine"
+            ],
+            [
+              "you",
+              "you",
+              "your",
+              "yours"
+            ],
+            [
+              "he",
+              "him",
+              "his",
+              "his"
+            ],
+            [
+              "she",
+              "her",
+              "her",
+              "hers"
+            ],
+            [
+              "it",
+              "it",
+              "its",
+              "its"
+            ],
+            [
+              "we",
+              "us",
+              "our",
+              "ours"
+            ],
+            [
+              "they",
+              "them",
+              "their",
+              "theirs"
+            ]
+          ],
+          "audio": null
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "I can come. She loves me. This is my seat. It’s mine. Subject pronouns go before the verb, object pronouns after it; a possessive adjective goes before a noun, a possessive pronoun replaces it."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "8C-sb3a",
+          "origin": "SB",
+          "instruction": "Complete the sentences from the story with my or mine",
+          "note": "SB 3a; ответы по тексту истории",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "‘Vivienne, you didn’t answer {} last letter.’",
+              "gaps": [
+                [
+                  "my"
+                ]
+              ],
+              "hint": "(my / mine)",
+              "explain": "my + noun: my last letter.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "‘Vivienne… you must be {}.’",
+              "gaps": [
+                [
+                  "mine"
+                ]
+              ],
+              "hint": "(my / mine)",
+              "explain": "No noun after it: mine.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "8C-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Circle the correct form",
+          "note": "GB 8C a; пример Whose car is that? It’s hers (без номера). Выбор из двух → Blank с вариантами в hint. Ответы MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "This isn’t {} pen, it’s Susan’s.",
+              "gaps": [
+                [
+                  "my"
+                ]
+              ],
+              "hint": "(my / mine)",
+              "explain": "Before a noun (pen): my.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I think this book is {}.",
+              "gaps": [
+                [
+                  "yours"
+                ]
+              ],
+              "hint": "(your / yours)",
+              "explain": "No noun after it: yours.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "This isn’t your suitcase, it’s {}.",
+              "gaps": [
+                [
+                  "ours"
+                ]
+              ],
+              "hint": "(ours / our)",
+              "explain": "No noun after it: ours.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Where’s Mary? I think these are {} gloves.",
+              "gaps": [
+                [
+                  "her"
+                ]
+              ],
+              "hint": "(her / hers)",
+              "explain": "Before a noun (gloves): her.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "These keys are {}.",
+              "gaps": [
+                [
+                  "mine"
+                ]
+              ],
+              "hint": "(mine / the mine)",
+              "explain": "No the with possessive pronouns.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "They showed us all {} holiday photographs.",
+              "gaps": [
+                [
+                  "their"
+                ]
+              ],
+              "hint": "(theirs / their)",
+              "explain": "Before a noun (holiday photographs): their.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "These seats are {}, not ours.",
+              "gaps": [
+                [
+                  "theirs"
+                ]
+              ],
+              "hint": "(theirs / their)",
+              "explain": "No noun after it: theirs.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Is this {} bag?",
+              "gaps": [
+                [
+                  "your"
+                ]
+              ],
+              "hint": "(yours / your)",
+              "explain": "Before a noun (bag): your.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "This isn’t my jacket. It’s {}.",
+              "gaps": [
+                [
+                  "hers"
+                ]
+              ],
+              "hint": "(her / hers)",
+              "explain": "No noun after it: hers.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8C-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete with a pronoun or possessive adjective",
+          "note": "GB 8C b; пример This isn’t my coffee, it’s yours. Where’s mine? Ответы MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "A: Is that Sue’s car?\nB: No, it’s her boyfriend’s. {} is a white Peugeot.",
+              "gaps": [
+                [
+                  "Hers"
+                ]
+              ],
+              "explain": "Hers = her car; no noun after it.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Maya has a new boyfriend, but I haven’t met {} yet.",
+              "gaps": [
+                [
+                  "him"
+                ]
+              ],
+              "explain": "Object pronoun after the verb meet: him.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Look. Here’s a photo of Alex and Kim with {} new baby.",
+              "gaps": [
+                [
+                  "their"
+                ]
+              ],
+              "explain": "Before a noun (new baby): their.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "We’ve finished paying for our house, so it’s {} now.",
+              "gaps": [
+                [
+                  "ours"
+                ]
+              ],
+              "explain": "No noun after it: ours.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "These are your tickets. Can you give Maria and Marta {}?",
+              "gaps": [
+                [
+                  "theirs",
+                  "them theirs"
+                ]
+              ],
+              "explain": "theirs = their tickets.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "We’re lost. Can you tell {} how to get to the station?",
+              "gaps": [
+                [
+                  "us"
+                ]
+              ],
+              "explain": "Object pronoun after tell: us.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Would you like to see {} garden? We’ve got some beautiful flowers.",
+              "gaps": [
+                [
+                  "our"
+                ]
+              ],
+              "explain": "Before a noun (garden): our.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "London is famous for {} beautiful parks.",
+              "gaps": [
+                [
+                  "its"
+                ]
+              ],
+              "explain": "its (no apostrophe) = belonging to it (London).",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8C-sb3c",
+          "origin": "SB",
+          "instruction": "Say the sentences with a possessive pronoun",
+          "note": "SB 3c; пример It’s my book. → It’s mine. Ответы по записи 8.23; произношение — в 8C-sb3c2",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "It’s her scarf.",
+              "answers": [
+                "It’s hers.",
+                "It is hers."
+              ],
+              "explain": "It’s her scarf → It’s hers.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "They’re our coats.",
+              "answers": [
+                "They’re ours.",
+                "They are ours."
+              ],
+              "explain": "They’re our coats → They’re ours.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "It’s his bike.",
+              "answers": [
+                "It’s his.",
+                "It is his."
+              ],
+              "explain": "It’s his bike → It’s his.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "It’s your phone.",
+              "answers": [
+                "It’s yours.",
+                "It is yours."
+              ],
+              "explain": "It’s your phone → It’s yours.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "It’s their house.",
+              "answers": [
+                "It’s theirs.",
+                "It is theirs."
+              ],
+              "explain": "It’s their house → It’s theirs.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "They’re your sweets.",
+              "answers": [
+                "They’re yours.",
+                "They are yours."
+              ],
+              "explain": "They’re your sweets → They’re yours.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "8C-sb3c2",
+          "origin": "SB",
+          "instruction": "Listen and repeat",
+          "note": "SB 3c — повторить ответы за записью 8.23",
+          "audio": "8.23",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "It’s hers.",
+              "clip": [
+                12.72,
+                14.2
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "They’re ours.",
+              "clip": [
+                20.64,
+                21.99
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "It’s his.",
+              "clip": [
+                28.05,
+                29.45
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "It’s yours.",
+              "clip": [
+                35.65,
+                37.09
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "It’s theirs.",
+              "clip": [
+                43.49,
+                45.0
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "They’re yours.",
+              "clip": [
+                51.94,
+                53.47
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8C-wb2a",
+          "origin": "WB",
+          "instruction": "Complete the questions and answers in the chart",
+          "note": "WB 2a; строка 1 (Whose bag is that? It’s my bag. It’s mine.) — пример. В строке 2 вопрос напечатан",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Whose books are those? They’re your books. They’re {}.",
+              "gaps": [
+                [
+                  "yours"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{}? It’s his laptop. It’s {}.",
+              "gaps": [
+                [
+                  "Whose laptop is that",
+                  "Whose laptop is this",
+                  "Whose is that laptop",
+                  "Whose is this laptop"
+                ],
+                [
+                  "his"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{}? They’re her keys. They’re {}.",
+              "gaps": [
+                [
+                  "Whose keys are those",
+                  "Whose keys are these",
+                  "Whose are those keys",
+                  "Whose are these keys"
+                ],
+                [
+                  "hers"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{}? It’s our car. It’s {}.",
+              "gaps": [
+                [
+                  "Whose car is that",
+                  "Whose car is this",
+                  "Whose is that car",
+                  "Whose is this car"
+                ],
+                [
+                  "ours"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "{}? They’re your coats. They’re {}.",
+              "gaps": [
+                [
+                  "Whose coats are those",
+                  "Whose coats are these",
+                  "Whose are those coats",
+                  "Whose are these coats"
+                ],
+                [
+                  "yours"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "{}? It’s their house. It’s {}.",
+              "gaps": [
+                [
+                  "Whose house is that",
+                  "Whose house is this",
+                  "Whose is that house",
+                  "Whose is this house"
+                ],
+                [
+                  "theirs"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8C-wb2b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with a possessive adjective (my, your, etc.) or pronoun (mine, yours, etc.)",
+          "note": "WB 2b; 1 (Are those my glasses? No, they’re mine. Yours are in your pocket!) — пример. Картинки 2–4 под ответом",
+          "dialogue": true,
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Whose coats are these? Are they {}?\nYes, they’re {}. Thanks a lot.",
+              "image": "8c_wb2b_2",
+              "gaps": [
+                [
+                  "yours"
+                ],
+                [
+                  "ours"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Is that your boyfriend’s car? It looks like {}.\nNo, it isn’t. {} car is bigger than that.",
+              "image": "8c_wb2b_3",
+              "gaps": [
+                [
+                  "his"
+                ],
+                [
+                  "His"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Whose cat is that? Is it {}?\nNo, it isn’t. I’ve seen it in the neighbours’ garden. I think it’s {}.",
+              "image": "8c_wb2b_4",
+              "gaps": [
+                [
+                  "yours"
+                ],
+                [
+                  "theirs"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8C-wb2c",
+          "origin": "WB",
+          "instruction": "Circle the correct word",
+          "note": "WB 2c; 1 (That laptop is mine) — пример. Выбор → Blank с вариантами в hint",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I left {} wallet at home. Can I borrow some money?",
+              "gaps": [
+                [
+                  "my"
+                ]
+              ],
+              "hint": "(my / mine)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "You’ll have to ask James if you want to use this bike. It’s {}, not mine.",
+              "gaps": [
+                [
+                  "his"
+                ]
+              ],
+              "hint": "(his / him)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Melissa can’t come out tonight because she has to look after {} sisters.",
+              "gaps": [
+                [
+                  "her"
+                ]
+              ],
+              "hint": "(her / hers)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Wendy and I bought this house, so now it’s {}.",
+              "gaps": [
+                [
+                  "ours"
+                ]
+              ],
+              "hint": "(our / ours)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I’ll tidy my room if you do {}.",
+              "gaps": [
+                [
+                  "yours"
+                ]
+              ],
+              "hint": "(your / yours)"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "My sister bought a new phone, and now {} is better than mine.",
+              "gaps": [
+                [
+                  "hers"
+                ]
+              ],
+              "hint": "(her / hers)"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Toby and Sam had to get a taxi because {} car’s in the garage.",
+              "gaps": [
+                [
+                  "their"
+                ]
+              ],
+              "hint": "(their / theirs)"
+            }
+          ]
+        },
+        {
+          "id": "8C-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete with a possessive adjective or pronoun",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Is this your umbrella? – No, it isn’t {}. Mine is black.",
+              "gaps": [
+                [
+                  "mine"
+                ]
+              ],
+              "explain": "No noun after it: mine.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Tom can’t find {} car keys.",
+              "gaps": [
+                [
+                  "his"
+                ]
+              ],
+              "explain": "Before a noun (car keys): his.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "That isn’t Anna’s phone. {} is pink.",
+              "gaps": [
+                [
+                  "Hers"
+                ]
+              ],
+              "explain": "Hers = her phone.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "We love {} new flat. It’s very light.",
+              "gaps": [
+                [
+                  "our"
+                ]
+              ],
+              "explain": "Before a noun (new flat): our.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Their garden is bigger than {}. We only have a small one.",
+              "gaps": [
+                [
+                  "ours"
+                ]
+              ],
+              "explain": "ours = our garden.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Excuse me, I think you’re sitting in {} seat. Here’s my ticket.",
+              "gaps": [
+                [
+                  "my"
+                ]
+              ],
+              "explain": "Before a noun (seat): my.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "The children took {} bikes and went to the park.",
+              "gaps": [
+                [
+                  "their"
+                ]
+              ],
+              "explain": "Before a noun (bikes): their.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I’ve got my ticket. Have you got {}?",
+              "gaps": [
+                [
+                  "yours"
+                ]
+              ],
+              "explain": "yours = your ticket.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "The dog is eating {} dinner.",
+              "gaps": [
+                [
+                  "its"
+                ]
+              ],
+              "explain": "its (no apostrophe) = belonging to it.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "{} is this coat? – I think it’s Peter’s.",
+              "gaps": [
+                [
+                  "Whose"
+                ]
+              ],
+              "explain": "Whose asks about possession.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8C-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Rewrite the sentence with a possessive pronoun",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "This is my bag.",
+              "answers": [
+                "This is mine.",
+                "This bag is mine.",
+                "It’s mine."
+              ],
+              "explain": "my bag → mine.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "Those are her shoes.",
+              "answers": [
+                "Those are hers.",
+                "Those shoes are hers.",
+                "They’re hers."
+              ],
+              "explain": "her shoes → hers.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Is this your pen?",
+              "answers": [
+                "Is this yours?",
+                "Is this pen yours?"
+              ],
+              "explain": "your pen → yours.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "That’s their car.",
+              "answers": [
+                "That’s theirs.",
+                "That car is theirs.",
+                "That is theirs.",
+                "It’s theirs."
+              ],
+              "explain": "their car → theirs.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "These are our tickets.",
+              "answers": [
+                "These are ours.",
+                "These tickets are ours.",
+                "They’re ours."
+              ],
+              "explain": "our tickets → ours.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "Those are my keys.",
+              "answers": [
+                "Those are mine.",
+                "Those keys are mine.",
+                "They’re mine."
+              ],
+              "explain": "my keys → mine.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8C-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistake",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "It’s mine book.",
+              "answers": [
+                "It’s my book.",
+                "It is my book.",
+                "It’s mine.",
+                "It is mine."
+              ],
+              "explain": "Before a noun use my; mine stands alone.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "Are these seats the ours?",
+              "answers": [
+                "Are these seats ours?",
+                "Are these ours?"
+              ],
+              "explain": "No the with possessive pronouns.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Who’s bag is that?",
+              "answers": [
+                "Whose bag is that?",
+                "Whose is that bag?"
+              ],
+              "explain": "Whose = possession; who’s = who is.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "These books are her’s.",
+              "answers": [
+                "These books are hers.",
+                "These are hers."
+              ],
+              "explain": "Possessive pronouns have no apostrophe: hers, ours, yours, theirs.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "The cat is drinking it’s milk.",
+              "answers": [
+                "The cat is drinking its milk."
+              ],
+              "explain": "its = belonging to it; it’s = it is.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8C-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "adverbs of manner",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Adverbs of manner",
+          "headers": [
+            "Adjective",
+            "Adverb"
+          ],
+          "rows": [
+            [
+              "quiet",
+              "quietly"
+            ],
+            [
+              "slow",
+              "slowly"
+            ],
+            [
+              "calm",
+              "calmly"
+            ],
+            [
+              "serious",
+              "seriously"
+            ],
+            [
+              "angry",
+              "angrily"
+            ],
+            [
+              "lazy",
+              "lazily"
+            ],
+            [
+              "masterful",
+              "masterfully"
+            ],
+            [
+              "good",
+              "well"
+            ]
+          ],
+          "audio": null
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "Adverbs of manner say how somebody does something. They usually go after the verb (and its object): ‘I’ve found where she lives,’ said the detective quietly. Most adverbs are adjective + -ly; after a consonant, y becomes i: angry → angrily, lazy → lazily. good → well is irregular."
+        },
+        {
+          "type": "mistake",
+          "wrong": "She spoke very quiet.",
+          "right": "She spoke very quietly.",
+          "why": "To describe a verb (spoke), use an adverb; adjectives describe nouns: a quiet voice."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "8C-sb5a",
+          "origin": "SB",
+          "instruction": "Complete the sentences from Part 2 with six adverbs of manner",
+          "note": "SB 5a «Look at Part 2 and underline six adverbs of manner» → Blank по предложениям истории. Ответы MODEL (в тексте Part 2 ровно шесть наречий образа действия на -ly после глагола)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "The girl looked out the window {}.",
+              "gaps": [
+                [
+                  "dreamily"
+                ]
+              ],
+              "explain": "dream → dreamily: in a dreamy way.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "“Mr Hartley,” she said {}, “I don’t know what to say to you.”",
+              "gaps": [
+                [
+                  "slowly"
+                ]
+              ],
+              "explain": "slow → slowly.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "“I can trust you {},” she said, smiling at him.",
+              "gaps": [
+                [
+                  "completely"
+                ]
+              ],
+              "explain": "complete → completely.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Vivienne didn’t answer. {} Hartley was suspicious.",
+              "gaps": [
+                [
+                  "Suddenly"
+                ]
+              ],
+              "explain": "sudden → suddenly.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "“Vivienne,” said Hartley {}, “You must be mine.”",
+              "gaps": [
+                [
+                  "masterfully"
+                ]
+              ],
+              "explain": "masterful → masterfully: in a dominant way.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "“Do you think for one moment,” she said {}, “that I could come to your home while Héloise is there?”",
+              "gaps": [
+                [
+                  "calmly"
+                ]
+              ],
+              "explain": "calm → calmly.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8C-sb5b",
+          "origin": "SB",
+          "instruction": "Make adverbs from these adjectives",
+          "note": "SB 5b; ответы MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "angry → {}",
+              "gaps": [
+                [
+                  "angrily"
+                ]
+              ],
+              "explain": "consonant + y → -ily.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "lazy → {}",
+              "gaps": [
+                [
+                  "lazily"
+                ]
+              ],
+              "explain": "consonant + y → -ily.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "quiet → {}",
+              "gaps": [
+                [
+                  "quietly"
+                ]
+              ],
+              "explain": "adjective + -ly.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "sad → {}",
+              "gaps": [
+                [
+                  "sadly"
+                ]
+              ],
+              "explain": "adjective + -ly.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "serious → {}",
+              "gaps": [
+                [
+                  "seriously"
+                ]
+              ],
+              "explain": "adjective + -ly.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "slow → {}",
+              "gaps": [
+                [
+                  "slowly"
+                ]
+              ],
+              "explain": "adjective + -ly.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8C-sb5c",
+          "origin": "SB",
+          "instruction": "Listen to the sentences. How does the person say them? Add an adverb from b after said",
+          "note": "SB 5c; на записи 8.26 наречия не звучат — только интонация; ответы MODEL по интонации и списку 5b",
+          "audio": "8.26",
+          "words": [
+            "angrily",
+            "lazily",
+            "quietly",
+            "sadly",
+            "seriously",
+            "slowly"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "‘I’m sorry, but I don’t love you,’ he said {}.",
+              "gaps": [
+                [
+                  "sadly",
+                  "seriously",
+                  "slowly",
+                  "quietly"
+                ]
+              ],
+              "explain": "The speaker sounds sad.",
+              "source": "MODEL",
+              "clip": [
+                0.2,
+                5.57
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "‘Give me back all my letters,’ she said {}.",
+              "gaps": [
+                [
+                  "angrily"
+                ]
+              ],
+              "explain": "The speaker sounds angry.",
+              "source": "MODEL",
+              "clip": [
+                7.62,
+                10.16
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "‘I think… I have an idea,’ he said {}.",
+              "gaps": [
+                [
+                  "slowly",
+                  "dreamily",
+                  "quietly"
+                ]
+              ],
+              "explain": "The speaker sounds slow.",
+              "source": "MODEL",
+              "clip": [
+                11.25,
+                15.29
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "‘Don’t make a noise. Everyone is asleep,’ she said {}.",
+              "gaps": [
+                [
+                  "quietly"
+                ]
+              ],
+              "explain": "The speaker sounds quiet.",
+              "source": "MODEL",
+              "clip": [
+                17.11,
+                21.72
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "‘I don’t feel like doing anything,’ he said {}.",
+              "gaps": [
+                [
+                  "lazily"
+                ]
+              ],
+              "explain": "The speaker sounds lazy.",
+              "source": "MODEL",
+              "clip": [
+                23.08,
+                26.62
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "‘This is a very important matter,’ she said {}.",
+              "gaps": [
+                [
+                  "seriously"
+                ]
+              ],
+              "explain": "The speaker sounds serious.",
+              "source": "MODEL",
+              "clip": [
+                28.03,
+                30.74
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8C-sb5d",
+          "origin": "SB",
+          "instruction": "Write the final scene between Hartley and Héloise",
+          "note": "SB 5d «With a partner, write a final scene… use at least two adverbs after said» → Write, проверяет ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Write a short final scene (6–10 lines) between Hartley and Héloise. Use at least two adverbs after said.",
+              "hint": "(‘Héloise,’ said Hartley nervously, ‘I have something to tell you…’)",
+              "criteria": [
+                "the scene continues the story logically: Hartley and Héloise talk about Vivienne coming to the house",
+                "uses at least two adverbs of manner after said, spelled correctly",
+                "uses direct speech with quotation marks and correct punctuation"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8C-wb3a",
+          "origin": "WB",
+          "instruction": "Circle the correct word",
+          "note": "WB 3a; 1 (angry) — пример. Выбор прилагательное / наречие → Blank с вариантами в hint",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "‘Come with me, my darling,’ he said {}. ‘You’ll always be safe with me.’",
+              "gaps": [
+                [
+                  "masterfully"
+                ]
+              ],
+              "hint": "(masterful / masterfully)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I had a very {} morning. I didn’t get up until 10.30.",
+              "gaps": [
+                [
+                  "lazy"
+                ]
+              ],
+              "hint": "(lazy / lazily)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Oliver had a {} accident, but he’s fine now.",
+              "gaps": [
+                [
+                  "serious"
+                ]
+              ],
+              "hint": "(serious / seriously)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "This film is very {}. I can’t watch any more!",
+              "gaps": [
+                [
+                  "sad"
+                ]
+              ],
+              "hint": "(sad / sadly)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "There were no seats on the train. It was {} full.",
+              "gaps": [
+                [
+                  "completely"
+                ]
+              ],
+              "hint": "(complete / completely)"
+            }
+          ]
+        },
+        {
+          "id": "8C-wb3b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with an adverb made from an adjective in the list",
+          "note": "WB 3b; 1 (slowly) — пример",
+          "words": [
+            "calm",
+            "dream",
+            "lazy",
+            "quiet",
+            "serious",
+            "slow"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Sorry? I can’t hear you. You’re speaking very {}.",
+              "gaps": [
+                [
+                  "quietly"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Maria hardly ever laughs. She takes things very {}.",
+              "gaps": [
+                [
+                  "seriously"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "‘I don’t feel like doing anything today,’ he said {}.",
+              "gaps": [
+                [
+                  "lazily"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "‘I’d like to retire early and live by the sea,’ Mark said {}.",
+              "gaps": [
+                [
+                  "dreamily"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Although the passengers were worried, the flight attendant spoke {} and explained the problem.",
+              "gaps": [
+                [
+                  "calmly"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8C-wb3c",
+          "origin": "WB",
+          "instruction": "Complete the sentences with a possessive pronoun and an adverb from the list",
+          "note": "WB 3c; 1 (ours / slowly) — пример, пара вычеркнута в списке",
+          "words": [
+            "ours / calmly",
+            "mine / completely",
+            "mine / well",
+            "ours / seriously",
+            "mine / quietly"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I’m surprised your plane was so empty yesterday. Today {} was {} full.",
+              "gaps": [
+                [
+                  "mine"
+                ],
+                [
+                  "completely"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Your football coach seems very angry. {} always talks to us {}.",
+              "gaps": [
+                [
+                  "Ours"
+                ],
+                [
+                  "calmly"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I’m sorry to hear your exams went badly. {} went quite {}.",
+              "gaps": [
+                [
+                  "Mine"
+                ],
+                [
+                  "well"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Your teacher doesn’t think pronunciation is important, but {} takes it very {}.",
+              "gaps": [
+                [
+                  "ours"
+                ],
+                [
+                  "seriously"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Your dog is very noisy. {} just lies {} in front of the fire and sleeps.",
+              "gaps": [
+                [
+                  "Mine"
+                ],
+                [
+                  "quietly"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8C-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete with the adverb of the adjective in brackets",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Please drive {}. The roads are icy.",
+              "gaps": [
+                [
+                  "carefully"
+                ]
+              ],
+              "hint": "(careful)",
+              "explain": "careful + -ly → carefully.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The children were playing {} in the garden.",
+              "gaps": [
+                [
+                  "happily"
+                ]
+              ],
+              "hint": "(happy)",
+              "explain": "consonant + y → -ily: happily.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "She speaks English very {}.",
+              "gaps": [
+                [
+                  "well"
+                ]
+              ],
+              "hint": "(good)",
+              "explain": "good → well (irregular).",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "He opened the door {} because the baby was asleep.",
+              "gaps": [
+                [
+                  "quietly"
+                ]
+              ],
+              "hint": "(quiet)",
+              "explain": "quiet + -ly → quietly.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "‘Where have you been?’ my mother asked {}.",
+              "gaps": [
+                [
+                  "angrily"
+                ]
+              ],
+              "hint": "(angry)",
+              "explain": "consonant + y → -ily: angrily.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Our team played very {} and lost 4–0.",
+              "gaps": [
+                [
+                  "badly"
+                ]
+              ],
+              "hint": "(bad)",
+              "explain": "bad + -ly → badly.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "‘I’m leaving tomorrow,’ she said {}. ‘I’ll miss you.’",
+              "gaps": [
+                [
+                  "sadly"
+                ]
+              ],
+              "hint": "(sad)",
+              "explain": "sad + -ly → sadly.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Can you speak more {}, please? I can’t understand you.",
+              "gaps": [
+                [
+                  "slowly"
+                ]
+              ],
+              "hint": "(slow)",
+              "explain": "slow + -ly → slowly.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "{}, the lights went out.",
+              "gaps": [
+                [
+                  "Suddenly"
+                ]
+              ],
+              "hint": "(sudden)",
+              "explain": "sudden + -ly → suddenly.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "The old man walked {} across the road.",
+              "gaps": [
+                [
+                  "slowly"
+                ]
+              ],
+              "hint": "(slow)",
+              "explain": "slow + -ly → slowly.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8C-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Adjective or adverb? Complete the sentence",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "She has a very {} voice. I can hardly hear her.",
+              "gaps": [
+                [
+                  "quiet"
+                ]
+              ],
+              "hint": "(quiet / quietly)",
+              "explain": "Before a noun (voice): the adjective quiet.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "He answered the question {}.",
+              "gaps": [
+                [
+                  "seriously"
+                ]
+              ],
+              "hint": "(serious / seriously)",
+              "explain": "Describing the verb answered: the adverb seriously.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "The detective looked at her {}.",
+              "gaps": [
+                [
+                  "suspiciously"
+                ]
+              ],
+              "hint": "(suspicious / suspiciously)",
+              "explain": "Describing the verb looked at: the adverb suspiciously.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Don’t worry. It’s a {} problem.",
+              "gaps": [
+                [
+                  "small"
+                ]
+              ],
+              "hint": "(small / smally)",
+              "explain": "Before a noun: the adjective small.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Everyone stayed {} when the fire alarm rang.",
+              "gaps": [
+                [
+                  "calm"
+                ]
+              ],
+              "hint": "(calm / calmly)",
+              "explain": "After stay (like be): the adjective calm.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "The waiter spoke to us very {}.",
+              "gaps": [
+                [
+                  "politely"
+                ]
+              ],
+              "hint": "(polite / politely)",
+              "explain": "Describing the verb spoke: the adverb politely.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "It was a {} day, so we stayed at home and watched films.",
+              "gaps": [
+                [
+                  "lazy"
+                ]
+              ],
+              "hint": "(lazy / lazily)",
+              "explain": "Before a noun (day): the adjective lazy.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "My brother is a very {} cook.",
+              "gaps": [
+                [
+                  "good"
+                ]
+              ],
+              "hint": "(good / well)",
+              "explain": "Before a noun (cook): the adjective good. He cooks well.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Vivienne looked out of the window {}.",
+              "gaps": [
+                [
+                  "dreamily"
+                ]
+              ],
+              "hint": "(dreamy / dreamily)",
+              "explain": "Describing the verb looked: the adverb dreamily.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "I’m {} sure I locked the door.",
+              "gaps": [
+                [
+                  "completely"
+                ]
+              ],
+              "hint": "(complete / completely)",
+              "explain": "Before an adjective (sure): the adverb completely.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8C-review",
+      "kind": "REVIEW",
+      "title": "Revise and Check 7&8",
+      "reference": [
+        {
+          "type": "note",
+          "title": "File 7",
+          "text": "The infinitive with to: after some verbs (want, need, would like, learn, forget, promise), after adjectives (It’s difficult to explain), after question words (I don’t know what to do) and to say why (I came here to learn English – NOT for learn). The gerund (verb + -ing): as the subject (Swimming is good exercise), after some verbs (like, love, hate, enjoy, mind, finish, feel like) and after prepositions (I’m good at dancing). have to / don’t have to: have to = an obligation or rule; don’t have to = it isn’t necessary; questions with do / does: Do we have to…? must / mustn’t + infinitive without to: must = an obligation; mustn’t = it’s prohibited. Adjectives + prepositions: afraid of, angry with, bad at / for, good at, interested in."
+        },
+        {
+          "type": "note",
+          "title": "File 8",
+          "text": "should / shouldn’t + infinitive without to for advice: You should get a new job. I don’t think you should… (NOT I think you shouldn’t…). First conditional: if + present simple, will / won’t + infinitive: If you don’t find a taxi, call me (never will after if). Possessive pronouns without a noun and without the: It’s mine / yours / his / hers / ours / theirs. Whose book is it? get = obtain / receive / arrive / become: get tickets, get presents, get home, get lost, get better, get divorced, get on with somebody. Confusing verbs: meet / know, tell / say, miss / lose, hope / wait, wear / carry."
+        },
+        {
+          "type": "table",
+          "title": "Possessive adjectives and pronouns",
+          "headers": [
+            "Possessive adjective",
+            "Possessive pronoun"
+          ],
+          "rows": [
+            [
+              "It’s my coat.",
+              "It’s mine."
+            ],
+            [
+              "It’s your jacket.",
+              "It’s yours."
+            ],
+            [
+              "It’s his phone.",
+              "It’s his."
+            ],
+            [
+              "It’s her bag.",
+              "It’s hers."
+            ],
+            [
+              "It’s our dog.",
+              "It’s ours."
+            ],
+            [
+              "It’s their house.",
+              "It’s theirs."
+            ]
+          ]
+        },
+        {
+          "type": "mistake",
+          "wrong": "If you will find a taxi, call me.",
+          "right": "If you find a taxi, call me.",
+          "why": "After if we use the present simple, not will."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "8C-rcg",
+          "origin": "SB",
+          "instruction": "Grammar. Complete with the correct form",
+          "note": "Revise and Check 7&8 (SB p.68) Grammar «Circle a, b, or c» → Blank, варианты в hint. Ключа нет — MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I need {} some emails.",
+              "gaps": [
+                [
+                  "to answer"
+                ]
+              ],
+              "hint": "(to answer / answer / answering)",
+              "explain": "need + to + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The situation is difficult {}.",
+              "gaps": [
+                [
+                  "to explain"
+                ]
+              ],
+              "hint": "(for explain / explain / to explain)",
+              "explain": "Adjective + to + infinitive: difficult to explain.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I don’t know what {}.",
+              "gaps": [
+                [
+                  "to do"
+                ]
+              ],
+              "hint": "(do / to do / that I do)",
+              "explain": "Question word + to + infinitive: what to do.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I don’t really mind {} housework.",
+              "gaps": [
+                [
+                  "doing"
+                ]
+              ],
+              "hint": "(do / to do / doing)",
+              "explain": "mind + gerund (-ing).",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{} is one of the best forms of exercise.",
+              "gaps": [
+                [
+                  "Swimming"
+                ]
+              ],
+              "hint": "(Swiming / Swimming / Swim)",
+              "explain": "A gerund as the subject; swim → swimming (double m).",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "{} bring our books tomorrow?",
+              "gaps": [
+                [
+                  "Do we have to"
+                ]
+              ],
+              "hint": "(Do we have to / Have we to / Do we must)",
+              "explain": "Questions with have to use do / does: Do we have to…?",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "It’s free. You {} pay.",
+              "gaps": [
+                [
+                  "don’t have to",
+                  "do not have to"
+                ]
+              ],
+              "hint": "(don’t have to / mustn’t / haven’t to)",
+              "explain": "don’t have to = it isn’t necessary. mustn’t = it’s prohibited.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "You must {} your grandmother.",
+              "gaps": [
+                [
+                  "call"
+                ]
+              ],
+              "hint": "(to call / calling / call)",
+              "explain": "must + infinitive without to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "You {} drink so much coffee.",
+              "gaps": [
+                [
+                  "shouldn’t",
+                  "should not"
+                ]
+              ],
+              "hint": "(not should / don’t should / shouldn’t)",
+              "explain": "should / shouldn’t + infinitive, no do / don’t.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "I think you should {} to her about it.",
+              "gaps": [
+                [
+                  "talk"
+                ]
+              ],
+              "hint": "(to talk / talk / talking)",
+              "explain": "should + infinitive without to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "If she {}, she won’t come back.",
+              "gaps": [
+                [
+                  "goes"
+                ]
+              ],
+              "hint": "(goes / went / ’ll go)",
+              "explain": "First conditional: if + present simple, will / won’t + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "If they don’t come soon, we {} them.",
+              "gaps": [
+                [
+                  "won’t see",
+                  "will not see"
+                ]
+              ],
+              "hint": "(don’t see / won’t see / aren’t see)",
+              "explain": "The consequence: will / won’t + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 13,
+              "type": "blank",
+              "text": "Call me if you {} a taxi.",
+              "gaps": [
+                [
+                  "don’t find",
+                  "do not find"
+                ]
+              ],
+              "hint": "(won’t find / don’t find / didn’t find)",
+              "explain": "After if we use the present, not will: if you don’t find.",
+              "source": "MODEL"
+            },
+            {
+              "n": 14,
+              "type": "blank",
+              "text": "Whose book is that? – It’s {}.",
+              "gaps": [
+                [
+                  "mine"
+                ]
+              ],
+              "hint": "(my / the mine / mine)",
+              "explain": "A possessive pronoun without a noun and without the: It’s mine.",
+              "source": "MODEL"
+            },
+            {
+              "n": 15,
+              "type": "blank",
+              "text": "She forgot his birthday, but he didn’t forget {}.",
+              "gaps": [
+                [
+                  "hers"
+                ]
+              ],
+              "hint": "(her / hers / she)",
+              "explain": "hers = her birthday.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8C-rcva",
+          "origin": "SB",
+          "instruction": "Vocabulary. Complete with the correct verb",
+          "note": "Revise and Check 7&8 Vocabulary a «Circle the correct verb» → Blank, оба глагола в hint; MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "When did you {} your husband?",
+              "gaps": [
+                [
+                  "meet"
+                ]
+              ],
+              "hint": "(know / meet)",
+              "explain": "meet = see somebody for the first time.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Did you {} Mark about the party?",
+              "gaps": [
+                [
+                  "tell"
+                ]
+              ],
+              "hint": "(tell / say)",
+              "explain": "tell somebody about something; say something (to somebody).",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "If we don’t run, we’ll {} the train!",
+              "gaps": [
+                [
+                  "miss"
+                ]
+              ],
+              "hint": "(miss / lose)",
+              "explain": "miss a train / a bus = not catch it.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I really {} she’s passed the exam.",
+              "gaps": [
+                [
+                  "hope"
+                ]
+              ],
+              "hint": "(wait / hope)",
+              "explain": "hope = want something to happen.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "My mother always {} a lot of jewellery.",
+              "gaps": [
+                [
+                  "wears"
+                ]
+              ],
+              "hint": "(carries / wears)",
+              "explain": "wear clothes and jewellery; carry a bag.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8C-rcvb",
+          "origin": "SB",
+          "instruction": "Complete with a verb from the list",
+          "note": "Revise and Check 7&8 Vocabulary b; MODEL",
+          "words": [
+            "enjoy",
+            "feel like",
+            "finish",
+            "forget",
+            "hate",
+            "learn",
+            "mind",
+            "promise"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Don’t {} to turn off the light before you go.",
+              "gaps": [
+                [
+                  "forget"
+                ]
+              ],
+              "explain": "forget + to + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I want to {} to speak Italian before my trip to Verona.",
+              "gaps": [
+                [
+                  "learn"
+                ]
+              ],
+              "explain": "learn + to + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Do you {} going out for dinner later?",
+              "gaps": [
+                [
+                  "feel like"
+                ]
+              ],
+              "explain": "feel like + gerund = want to do something now.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I {} to pay you back next week.",
+              "gaps": [
+                [
+                  "promise"
+                ]
+              ],
+              "explain": "promise + to + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "My parents are very punctual – they {} being late.",
+              "gaps": [
+                [
+                  "hate"
+                ]
+              ],
+              "explain": "hate + gerund.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Do you {} waiting here until I’m ready?",
+              "gaps": [
+                [
+                  "mind"
+                ]
+              ],
+              "explain": "Do you mind + gerund…? = Is it a problem for you?",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "I really {} making cakes, it’s so relaxing.",
+              "gaps": [
+                [
+                  "enjoy"
+                ]
+              ],
+              "explain": "enjoy + gerund.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "When are you going to {} using the printer? I need it!",
+              "gaps": [
+                [
+                  "finish"
+                ]
+              ],
+              "explain": "finish + gerund.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8C-rcvc",
+          "origin": "SB",
+          "instruction": "Complete the sentences with a preposition",
+          "note": "Revise and Check 7&8 Vocabulary c; MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "She was really angry {} me because I was late.",
+              "gaps": [
+                [
+                  "with"
+                ]
+              ],
+              "explain": "angry with somebody.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Are you interested {} this TV programme?",
+              "gaps": [
+                [
+                  "in"
+                ]
+              ],
+              "explain": "interested in.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "When I was a child I was afraid {} dogs.",
+              "gaps": [
+                [
+                  "of"
+                ]
+              ],
+              "explain": "afraid of.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I’d really like to be good {} dancing.",
+              "gaps": [
+                [
+                  "at"
+                ]
+              ],
+              "explain": "good at + gerund.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Eating too many sweets and biscuits is bad {} you.",
+              "gaps": [
+                [
+                  "for"
+                ]
+              ],
+              "explain": "bad for you = not healthy.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8C-rcvd",
+          "origin": "SB",
+          "instruction": "Complete the get phrases",
+          "note": "Revise and Check 7&8 Vocabulary d; в книге первая буква слова напечатана (got l…) — по правилу проекта первую букву не показываем, пишется слово целиком. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "We didn’t have the satnav and we got {} on the way home from Edinburgh.",
+              "gaps": [
+                [
+                  "lost"
+                ]
+              ],
+              "explain": "get lost = not know where you are.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I’m always really hungry when I get {} from school.",
+              "gaps": [
+                [
+                  "home"
+                ]
+              ],
+              "explain": "get home = arrive home.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "She was very ill, but luckily she’s getting {}.",
+              "gaps": [
+                [
+                  "better"
+                ]
+              ],
+              "explain": "get better = become healthy again.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "We got two {} for the theatre to see a show.",
+              "gaps": [
+                [
+                  "tickets"
+                ]
+              ],
+              "explain": "get = buy / obtain: get tickets.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I get {} very well with my brothers and sisters.",
+              "gaps": [
+                [
+                  "on"
+                ]
+              ],
+              "explain": "get on (well) with somebody = have a good relationship.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "They were married for ten years, but six months ago they got {}.",
+              "gaps": [
+                [
+                  "divorced"
+                ]
+              ],
+              "explain": "get divorced = end a marriage.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "When I was young I got a lot of {} on my birthday.",
+              "gaps": [
+                [
+                  "presents"
+                ]
+              ],
+              "explain": "get = receive: get presents.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8C-rcpa",
+          "origin": "SB",
+          "instruction": "Pronunciation. Practise the words and sounds",
+          "note": "Revise and Check 7&8 Pronunciation a → Speak слов-звуков (трека нет, образец — синтезатор). b (Sound Bank p.166–167: назвать ещё слова на каждый звук) не переносили — открытое задание",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "bull"
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "boot"
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "singer"
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "vase"
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "bag"
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "monkey"
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "nose"
+            }
+          ]
+        },
+        {
+          "id": "8C-rcpc",
+          "origin": "SB",
+          "instruction": "What sound do the pink letters have?",
+          "note": "Revise and Check 7&8 Pronunciation c → Sort по семи звукам из a; розовые буквы как в книге (в know розовые kn). MODEL",
+          "columns": [
+            "bull /ʊ/",
+            "boot /uː/",
+            "singer /ŋ/",
+            "vase /v/",
+            "bag /b/",
+            "monkey /m/",
+            "nose /n/"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "sort",
+              "word": "ch[oo]se",
+              "column": 2,
+              "explain": "choose /uː/ – like boot.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "sort",
+              "word": "l[oo]k",
+              "column": 1,
+              "explain": "look /ʊ/ – like bull.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "sort",
+              "word": "lo[v]e",
+              "column": 4,
+              "explain": "love – v = /v/, like vase.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "sort",
+              "word": "doi[ng]",
+              "column": 3,
+              "explain": "doing – ng = /ŋ/, like singer.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "sort",
+              "word": "[kn]ow",
+              "column": 7,
+              "explain": "know – the k is silent: kn = /n/, like nose.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8C-rcpd",
+          "origin": "SB",
+          "instruction": "Tap the stressed syllable",
+          "note": "Revise and Check 7&8 Pronunciation d «Underline the stressed syllable» → Stress, слоги как в книге (ha|ppi|ness, bo|rrow). MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "stress",
+              "text": "sur|vive",
+              "stressed": [
+                2
+              ],
+              "explain": "surVIVE – a verb: second syllable.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "stress",
+              "text": "ha|ppi|ness",
+              "stressed": [
+                1
+              ],
+              "explain": "HAPpiness.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "stress",
+              "text": "a|fraid",
+              "stressed": [
+                2
+              ],
+              "explain": "aFRAID.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "stress",
+              "text": "pre|tend",
+              "stressed": [
+                2
+              ],
+              "explain": "preTEND – a verb: second syllable.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "stress",
+              "text": "bo|rrow",
+              "stressed": [
+                1
+              ],
+              "explain": "BORrow.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8C-rcra",
+          "origin": "SB",
+          "instruction": "Can you understand this text? Read the article. What does it give you?",
+          "note": "Revise and Check 7&8 «Can you understand this text?» a «Does it give you 1, 2 or 3?» → Blank, варианты в hint. MODEL",
+          "context": "How to be a queue winner. Do you know why the queues at the other checkouts in the supermarket always seem to move faster than yours? A new book by David Andrews, Why Does the Other Line Always Move Faster?, has the answer: because you only notice how fast the other queues are moving when yours is moving slowly. If your queue moves fast, then you won’t notice the slower queues at all, because you’re busy unloading your trolley, putting things into bags, and paying. Of course another part of the answer is simple probability. If there are three queues in the supermarket and you join the middle one, there is a two in three chance that one of the other queues will be the fastest, whereas yours only has a one in three chance. So how can you be a queue winner? According to Andrews, this is what you should do: 1 Choose a queue that has more men in it. Men are less patient than women, and sometimes give up and leave the queue if it’s moving very slowly. 2 Choose a queue on the left. Most people are right-handed, and choose queues on the right, so queues on the left are often shorter. 3 Don’t use the express lane. Lots of people with a few items can be slower than a few people with lots of items. 4 If you can, choose a checkout which is ‘cash only’. Using cash is usually quicker than paying by card. 5 Don’t think too much! Sometimes it’s best just to join the queue with the fewest people. (queue = British English, line = American English)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "The article gives you {}.",
+              "gaps": [
+                [
+                  "explanations and tips about queuing",
+                  "explanations and tips"
+                ]
+              ],
+              "hint": "(explanations and tips about queuing / the history of queuing / stories about queuing)",
+              "explain": "It explains why the other queues seem faster and gives five tips.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8C-rcrb",
+          "origin": "SB",
+          "instruction": "Read the article again. Complete the sentences with the correct ending",
+          "note": "Revise and Check 7&8 «Can you understand this text?» b «Match the sentence halves» → Blank: вписать окончание из списка. MODEL",
+          "context": "How to be a queue winner. Do you know why the queues at the other checkouts in the supermarket always seem to move faster than yours? A new book by David Andrews, Why Does the Other Line Always Move Faster?, has the answer: because you only notice how fast the other queues are moving when yours is moving slowly. If your queue moves fast, then you won’t notice the slower queues at all, because you’re busy unloading your trolley, putting things into bags, and paying. Of course another part of the answer is simple probability. If there are three queues in the supermarket and you join the middle one, there is a two in three chance that one of the other queues will be the fastest, whereas yours only has a one in three chance. So how can you be a queue winner? According to Andrews, this is what you should do: 1 Choose a queue that has more men in it. Men are less patient than women, and sometimes give up and leave the queue if it’s moving very slowly. 2 Choose a queue on the left. Most people are right-handed, and choose queues on the right, so queues on the left are often shorter. 3 Don’t use the express lane. Lots of people with a few items can be slower than a few people with lots of items. 4 If you can, choose a checkout which is ‘cash only’. Using cash is usually quicker than paying by card. 5 Don’t think too much! Sometimes it’s best just to join the queue with the fewest people. (queue = British English, line = American English)",
+          "words": [
+            "yours will probably not be the fastest.",
+            "it will move more slowly than a normal lane.",
+            "you’ll be too busy to notice the other queues.",
+            "they’ll pay more quickly than with cards.",
+            "you will probably spend less time waiting.",
+            "it will move more slowly than a queue with lots of men."
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "If your queue moves fast, {}",
+              "gaps": [
+                [
+                  "you’ll be too busy to notice the other queues",
+                  "you will be too busy to notice the other queues"
+                ]
+              ],
+              "explain": "You’re busy unloading your trolley, putting things into bags and paying.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "If there are three queues, {}",
+              "gaps": [
+                [
+                  "yours will probably not be the fastest"
+                ]
+              ],
+              "explain": "There is a two in three chance that one of the other queues will be the fastest.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "If there are a lot of women in the queue, {}",
+              "gaps": [
+                [
+                  "it will move more slowly than a queue with lots of men",
+                  "it’ll move more slowly than a queue with lots of men"
+                ]
+              ],
+              "explain": "Men are less patient and sometimes give up and leave the queue.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "If you choose a queue on the left, {}",
+              "gaps": [
+                [
+                  "you will probably spend less time waiting",
+                  "you’ll probably spend less time waiting"
+                ]
+              ],
+              "explain": "Most people are right-handed and choose queues on the right.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "If there are a lot of people in the express lane, {}",
+              "gaps": [
+                [
+                  "it will move more slowly than a normal lane",
+                  "it’ll move more slowly than a normal lane"
+                ]
+              ],
+              "explain": "Lots of people with a few items can be slower than a few people with lots of items.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "If people pay cash, {}",
+              "gaps": [
+                [
+                  "they’ll pay more quickly than with cards",
+                  "they will pay more quickly than with cards"
+                ]
+              ],
+              "explain": "Using cash is usually quicker than paying by card.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8C-rcl",
+          "origin": "SB",
+          "instruction": "Can you understand these people? Listen and complete the sentences",
+          "note": "Revise and Check 7&8 «Can you understand these people?» 8.27 (Circle a, b, or c → Blank, варианты в hint); клип — вопрос и ответ одного человека, фото говорящего из книги. Скрипта нет — по расшифровке",
+          "audio": "8.27",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "For Susie happiness is {} and having good food and music.",
+              "gaps": [
+                [
+                  "being at home with friends"
+                ]
+              ],
+              "hint": "(going out with friends / being at home with friends / going to a friend’s house)",
+              "explain": "‘Relaxing with friends in my home, listening to nice music with lovely food for everyone.’",
+              "source": "MODEL",
+              "clip": [
+                0.0,
+                18.9
+              ],
+              "image": "8c_rcl_1"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Tarquin speaks {} French.",
+              "gaps": [
+                [
+                  "quite good"
+                ]
+              ],
+              "hint": "(very good / very fluent / quite good)",
+              "explain": "‘Quite well. Not fluently, but well enough to get around.’",
+              "source": "MODEL",
+              "clip": [
+                19.0,
+                29.95
+              ],
+              "image": "8c_rcl_2"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Katelyn doesn’t usually ask her parents for advice {}.",
+              "gaps": [
+                [
+                  "because they are much older than she is",
+                  "because they’re much older than she is"
+                ]
+              ],
+              "hint": "(because she doesn’t get on with them / because they are much older than she is / because she lives far away from them)",
+              "explain": "‘My parents are a lot older than me’, so she usually asks close friends.",
+              "source": "MODEL",
+              "clip": [
+                30.0,
+                52.55
+              ],
+              "image": "8c_rcl_3"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Joseph suggests that people who can’t sleep {}.",
+              "gaps": [
+                [
+                  "shouldn’t have their phone in their bedroom",
+                  "should not have their phone in their bedroom"
+                ]
+              ],
+              "hint": "(should have the window open at night / should buy a really comfortable bed / shouldn’t have their phone in their bedroom)",
+              "explain": "‘Maybe kick their phone out of the bedroom.’",
+              "source": "MODEL",
+              "clip": [
+                52.6,
+                75.0
+              ],
+              "image": "8c_rcl_4"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Alison thinks the British are bad at learning languages {}.",
+              "gaps": [
+                [
+                  "because they don’t think they need to",
+                  "because they do not think they need to"
+                ]
+              ],
+              "hint": "(because they don’t think they need to / because they don’t have good teachers / because English is easier than most other languages)",
+              "explain": "‘We can be a bit lazy because everybody else speaks English.’",
+              "source": "MODEL",
+              "clip": [
+                75.05,
+                95.7
+              ],
+              "image": "8c_rcl_5"
+            }
+          ]
+        },
+        {
+          "id": "8C-rcs",
+          "origin": "SB",
+          "instruction": "Can you say this in English? Talk about yourself",
+          "note": "Revise and Check 7&8 «Can you say this in English?» (6 пунктов «Can you…?», самопроверка) → один разговор с ИИ по всем пунктам",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "A friendly revision chat in an English class (level: pre-intermediate) after Files 7 and 8. Check that the student can do these things, one by one, with short questions and reactions: 1) say something they would like to learn to do, and somebody they think would be interesting to meet; 2) say three things they like, love and hate doing; 3) describe rules in their school or language school with must, mustn’t, have to and don’t have to; 4) give you advice about learning English with should and shouldn’t (say you want to improve your English); 5) give three examples of Murphy’s Law (things that go wrong, e.g. The other queue always moves faster); 6) say two true sentences with mine and yours. Keep it natural, one question at a time; if the student makes a mistake with the infinitive or gerund, must / have to, should, the first conditional or possessive pronouns, repeat the correct form naturally in your reply.",
+              "goal": "Show what you can say after Files 7 and 8.",
+              "opener": "Hi! Let’s see what you remember from Files 7 and 8. First, what would you really like to learn to do?",
+              "criteria": [
+                "uses would like to + infinitive and a verb + gerund (like / love / hate doing) correctly",
+                "describes rules with must / mustn’t and have to / don’t have to",
+                "gives advice with should / shouldn’t + infinitive without to",
+                "describes things that go wrong, e.g. with if + present, will / won’t",
+                "uses mine and yours without a noun after them"
+              ],
+              "steps": [
+                {
+                  "text": "Say what you would like to learn and who you would like to meet",
+                  "example": "I’d like to learn to play the guitar. I think it would be interesting to meet Elon Musk."
+                },
+                {
+                  "text": "Say three things you like, love and hate doing",
+                  "example": "I like cooking, I love travelling and I hate getting up early."
+                },
+                {
+                  "text": "Describe the rules in your school",
+                  "example": "We have to arrive on time. We mustn’t use our phones in class, but we don’t have to wear a uniform."
+                },
+                {
+                  "text": "Give advice about learning English",
+                  "example": "You should watch films in English. You shouldn’t be afraid of making mistakes."
+                },
+                {
+                  "text": "Give three examples of Murphy’s Law",
+                  "example": "If I take an umbrella, it won’t rain. The other queue always moves faster."
+                },
+                {
+                  "text": "Say two sentences with mine and yours",
+                  "example": "My phone is new, but yours is old. Is this pen yours? – No, it isn’t mine."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

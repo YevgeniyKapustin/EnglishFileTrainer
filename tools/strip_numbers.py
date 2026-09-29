@@ -32,7 +32,9 @@ UNITS = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
 TEENS = ["ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"]
 TENS = ["twenty", "thirty", "forty", "fifty"]
 NUMBER_WORDS = set(UNITS + TEENS + TENS)
-NUMBER_HOMOPHONES = {"won", "to", "too", "for", "ate"}
+HOMOPHONE_VALUES = {"won": 1, "to": 2, "too": 2, "for": 4, "ate": 8}
+NUMBER_HOMOPHONES = set(HOMOPHONE_VALUES)
+LABEL_COUNT_SLACK = 2
 LABEL_PREFIX = "number"
 COMPOUND_NUMBER_WORDS = 2
 ANNOUNCEMENT_EXTRAS = {"point", "track", "and", "oh"}
@@ -140,6 +142,36 @@ def label_candidates(model: WhisperModel, samples: np.ndarray, regions: list[Reg
     return labels
 
 
+def number_value(heard: str) -> int | None:
+    words = [word for word in tokens(heard) if word != LABEL_PREFIX]
+    total = 0
+    for word in words:
+        if DIGITS.match(word):
+            total += int(word)
+        elif word in UNITS:
+            total += UNITS.index(word) + 1
+        elif word in TEENS:
+            total += TEENS.index(word) + len(TEENS)
+        elif word in TENS:
+            total += (TENS.index(word) + COMPOUND_NUMBER_WORDS) * len(TEENS)
+        elif word in NUMBER_HOMOPHONES:
+            total += HOMOPHONE_VALUES.get(word, 0)
+    return total or None
+
+
+def plausible_labels(labels: list[Label]) -> list[Label]:
+    highest = len(labels) + LABEL_COUNT_SLACK
+    kept: list[Label] = []
+    seen: set[int] = set()
+    for label in labels:
+        value = number_value(label.cut.heard)
+        if value is None or value > highest or value in seen:
+            continue
+        kept.append(label)
+        seen.add(value)
+    return kept
+
+
 def numbers_follow_their_items(labels: list[Label]) -> bool:
     trailing = sum(label.pause_after > label.pause_before for label in labels)
     return trailing * 2 > len(labels)
@@ -153,7 +185,7 @@ def find_cuts(model: WhisperModel, track: str) -> list[Cut]:
     cuts = [leading] if leading else []
     if track in TRACKS_WHERE_ITEM_NUMBERS_ANSWER_THE_TASK:
         return cuts
-    labels = label_candidates(model, samples, regions if leading else [Region(0, 0), *regions])
+    labels = plausible_labels(label_candidates(model, samples, regions if leading else [Region(0, 0), *regions]))
     if numbers_follow_their_items(labels):
         return cuts
     return cuts + [label.cut for label in labels]
@@ -249,7 +281,7 @@ def describe(track: str, cuts: list[Cut]) -> str:
     return f"{track}: {listed}"
 
 
-def run_strip(tracks: list[str], *, dry_run: bool) -> None:
+def run_strip(tracks: list[str], *, dry_run: bool, remap: bool) -> None:
     manifest = load_manifest()
     model = None
     stripped: dict[str, list[Cut]] = {}
@@ -272,8 +304,10 @@ def run_strip(tracks: list[str], *, dry_run: bool) -> None:
             stripped[track] = cuts
         manifest[track] = [list(cut) for cut in cuts]
         MANIFEST.write_text(json.dumps(dict(sorted(manifest.items())), ensure_ascii=False, indent=2) + "\n", "utf-8")
-    if stripped:
+    if stripped and remap:
         print("clips remapped in: " + ", ".join(remap_clips(stripped)))
+    elif stripped:
+        print("clips left as they are; measure new clips on the stripped tracks")
 
 
 def run_check(tracks: list[str]) -> None:
@@ -287,12 +321,13 @@ def main() -> None:
     parser.add_argument("tracks", nargs="*")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--check", action="store_true")
+    parser.add_argument("--remap-clips", action="store_true")
     args = parser.parse_args()
     tracks = args.tracks or all_tracks()
     if args.check:
         run_check(tracks)
     else:
-        run_strip(tracks, dry_run=args.dry_run)
+        run_strip(tracks, dry_run=args.dry_run, remap=args.remap_clips)
 
 
 if __name__ == "__main__":

@@ -21,6 +21,16 @@ val localProperties =
 
 fun localString(name: String) = "\"${localProperties.getProperty(name, "").trim()}\""
 
+fun git(vararg args: String) =
+    providers
+        .exec { commandLine("git", *args) }
+        .standardOutput.asText
+        .get()
+        .trim()
+
+val commitCount = git("rev-list", "--count", "HEAD").toInt()
+val releaseCount = git("tag", "--list", "v*").lines().count { it.isNotBlank() }
+
 android {
     namespace = "dev.eftrainer"
     compileSdk = 37
@@ -29,8 +39,8 @@ android {
         applicationId = "dev.eftrainer"
         minSdk = 31
         targetSdk = 37
-        versionCode = 1
-        versionName = "0.1"
+        versionCode = commitCount
+        versionName = "0.$releaseCount.$commitCount"
         buildConfigField("String", "AI_SERVER_URL", localString("ai.serverUrl"))
         buildConfigField("String", "AI_APP_KEY", localString("ai.appKey"))
     }

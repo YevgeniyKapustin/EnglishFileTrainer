@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
@@ -32,6 +33,7 @@ import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
+import dev.eftrainer.BuildConfig
 import dev.eftrainer.R
 import dev.eftrainer.core.speech.TextToSpeechState
 import dev.eftrainer.core.speech.groupVoices
@@ -72,7 +74,19 @@ fun SettingsScreen(
             VoiceFold(vm.voice, onVoice)
             SoundsFold(sounds, soundVolume, vm::setSounds, vm::setSoundVolume, vm::sampleSound)
             ReminderFold(reminder, reminderTime, vm::setReminder, vm::setReminderTime)
+            AboutFooter()
         }
+    }
+}
+
+@Composable
+private fun AboutFooter() {
+    Column(
+        Modifier.fillMaxWidth().padding(top = 40.dp, bottom = 16.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+    ) {
+        Text(stringResource(R.string.app_version, BuildConfig.VERSION_NAME), style = T.rowSub)
+        Text(stringResource(R.string.made_by), style = T.rowSub)
     }
 }
 

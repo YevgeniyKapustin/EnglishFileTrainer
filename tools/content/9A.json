@@ -1,0 +1,709 @@
+{
+  "id": "9A",
+  "title": "Beware of the dog",
+  "bubbles": ["What would you do if you saw a bear?", "I'd run away."],
+  "sources": "SB p.70–71 (PDF 71–72), Grammar Bank p.142–143 (PDF 143–144), Vocabulary Bank p.161 (PDF 162), Communication p.105/110/107 (PDF 106/111/108), script 9.4 p.124 (PDF 125); WB p.60–61 (PDF 59–60), key WB p.93 (PDF 92). Scripts 9.1–9.3 and 9.5 are not printed in the SB (answers by the recordings)",
+  "sections": [
+    {
+      "id": "9A-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "animals and insects",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Animals",
+          "headers": ["Group", "Words"],
+          "rows": [
+            ["Insects", "bee, butterfly, fly, mosquito, spider, wasp"],
+            ["Farm animals", "bull, chicken, cow, goat, horse, pig, sheep"],
+            ["Wild animals", "bat, bear, bird, camel, crocodile, deer, elephant, giraffe, kangaroo, lion, monkey, mouse, rabbit, rat, snake, tiger"],
+            ["Sea animals", "dolphin, jellyfish, shark, whale"]
+          ],
+          "audio": "9.2"
+        },
+        {
+          "type": "note",
+          "title": "bite and sting",
+          "text": "Some insects sting (= inject venom into your skin), e.g. bees and wasps, and also some sea animals, e.g. jellyfish. Other insects bite, e.g. mosquitoes and spiders, and also snakes and all animals with teeth."
+        },
+        {
+          "type": "note",
+          "title": "Irregular plurals",
+          "text": "mouse → mice, deer → deer, sheep → sheep, fish → fish."
+        },
+        {
+          "type": "mistake",
+          "wrong": "I saw three deers in the forest.",
+          "right": "I saw three deer in the forest.",
+          "why": "The plural of deer is deer."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "9A-vb1a",
+          "origin": "SB",
+          "instruction": "Match the words and photos. Then listen and check",
+          "note": "VB Animals a+b; фото из VB p.161 (tools/images.py) в image. 1 mosquito — пример. Ответы по аудио 9.2 (CONFIRMED)",
+          "audio": "9.2",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "a {}", "gaps": [["butterfly"]], "image": "9a_vb1a_2", "source": "CONFIRMED", "clip": [7.59, 8.91]},
+            {"n": 3, "type": "blank", "text": "a {}", "gaps": [["wasp"]], "image": "9a_vb1a_3", "source": "CONFIRMED", "clip": [19.67, 20.82]},
+            {"n": 4, "type": "blank", "text": "a {}", "gaps": [["spider"]], "image": "9a_vb1a_4", "source": "CONFIRMED", "clip": [16.7, 17.98]},
+            {"n": 5, "type": "blank", "text": "a {}", "gaps": [["bee"]], "image": "9a_vb1a_5", "source": "CONFIRMED", "clip": [4.85, 5.87]},
+            {"n": 6, "type": "blank", "text": "a {}", "gaps": [["fly"]], "image": "9a_vb1a_6", "source": "CONFIRMED", "clip": [10.61, 11.8]},
+            {"n": 7, "type": "blank", "text": "a {}", "gaps": [["goat"]], "image": "9a_vb1a_7", "source": "CONFIRMED", "clip": [33.15, 34.18]},
+            {"n": 8, "type": "blank", "text": "a {}", "gaps": [["bull"]], "image": "9a_vb1a_8", "source": "CONFIRMED", "clip": [24.81, 25.84]},
+            {"n": 9, "type": "blank", "text": "a {}", "gaps": [["sheep"]], "image": "9a_vb1a_9", "source": "CONFIRMED", "clip": [41.47, 42.54]},
+            {"n": 10, "type": "blank", "text": "a {}", "gaps": [["chicken"]], "image": "9a_vb1a_10", "source": "CONFIRMED", "clip": [27.55, 28.69]},
+            {"n": 11, "type": "blank", "text": "a {}", "gaps": [["pig"]], "image": "9a_vb1a_11", "source": "CONFIRMED", "clip": [38.75, 39.75]},
+            {"n": 12, "type": "blank", "text": "a {}", "gaps": [["cow"]], "image": "9a_vb1a_12", "source": "CONFIRMED", "clip": [30.36, 31.45]},
+            {"n": 13, "type": "blank", "text": "a {}", "gaps": [["horse"]], "image": "9a_vb1a_13", "source": "CONFIRMED", "clip": [35.98, 37.08]},
+            {"n": 14, "type": "blank", "text": "a {}", "gaps": [["camel"]], "image": "9a_vb1a_14", "source": "CONFIRMED", "clip": [54.96, 55.99]},
+            {"n": 15, "type": "blank", "text": "a {}", "gaps": [["giraffe"]], "image": "9a_vb1a_15", "source": "CONFIRMED", "clip": [66.64, 67.87]},
+            {"n": 16, "type": "blank", "text": "a {}", "gaps": [["bat"]], "image": "9a_vb1a_16", "source": "CONFIRMED", "clip": [46.63, 47.66]},
+            {"n": 17, "type": "blank", "text": "an {}", "gaps": [["elephant"]], "image": "9a_vb1a_17", "source": "CONFIRMED", "clip": [63.62, 64.86]},
+            {"n": 18, "type": "blank", "text": "a {}", "gaps": [["bear"]], "image": "9a_vb1a_18", "source": "CONFIRMED", "clip": [49.37, 50.45]},
+            {"n": 19, "type": "blank", "text": "a {}", "gaps": [["monkey"]], "image": "9a_vb1a_19", "source": "CONFIRMED", "clip": [75.57, 76.73]},
+            {"n": 20, "type": "blank", "text": "a {}", "gaps": [["lion"]], "image": "9a_vb1a_20", "source": "CONFIRMED", "clip": [72.68, 73.89]},
+            {"n": 21, "type": "blank", "text": "a {}", "gaps": [["bird"]], "image": "9a_vb1a_21", "source": "CONFIRMED", "clip": [52.16, 53.26]},
+            {"n": 22, "type": "blank", "text": "a {}", "gaps": [["kangaroo"]], "image": "9a_vb1a_22", "source": "CONFIRMED", "clip": [69.63, 70.98]},
+            {"n": 23, "type": "blank", "text": "a {}", "gaps": [["mouse"]], "image": "9a_vb1a_23", "source": "CONFIRMED", "clip": [78.51, 79.71]},
+            {"n": 24, "type": "blank", "text": "a {}", "gaps": [["tiger"]], "image": "9a_vb1a_24", "source": "CONFIRMED", "clip": [89.89, 91.0]},
+            {"n": 25, "type": "blank", "text": "a {}", "gaps": [["rabbit"]], "image": "9a_vb1a_25", "source": "CONFIRMED", "clip": [81.4, 82.56]},
+            {"n": 26, "type": "blank", "text": "a {}", "gaps": [["crocodile"]], "image": "9a_vb1a_26", "source": "CONFIRMED", "clip": [57.79, 59.12]},
+            {"n": 27, "type": "blank", "text": "a {}", "gaps": [["rat"]], "image": "9a_vb1a_27", "source": "CONFIRMED", "clip": [84.25, 85.26]},
+            {"n": 28, "type": "blank", "text": "a {}", "gaps": [["deer"]], "image": "9a_vb1a_28", "source": "CONFIRMED", "clip": [60.92, 61.94]},
+            {"n": 29, "type": "blank", "text": "a {}", "gaps": [["snake"]], "image": "9a_vb1a_29", "source": "CONFIRMED", "clip": [87.02, 88.19]},
+            {"n": 30, "type": "blank", "text": "a {}", "gaps": [["jellyfish"]], "image": "9a_vb1a_30", "source": "CONFIRMED", "clip": [97.89, 99.19]},
+            {"n": 31, "type": "blank", "text": "a {}", "gaps": [["whale"]], "image": "9a_vb1a_31", "source": "CONFIRMED", "clip": [103.83, 104.96]},
+            {"n": 32, "type": "blank", "text": "a {}", "gaps": [["dolphin"]], "image": "9a_vb1a_32", "source": "CONFIRMED", "clip": [95.02, 96.21]},
+            {"n": 33, "type": "blank", "text": "a {}", "gaps": [["shark"]], "image": "9a_vb1a_33", "source": "CONFIRMED", "clip": [100.89, 102.16]}
+          ]
+        },
+        {
+          "id": "9A-vb1b",
+          "origin": "SB",
+          "instruction": "Say the words. Be careful with the stressed syllable",
+          "note": "VB ACTIVATION (Test yourself) → Speak на слова с подчёркнутым ударением в VB, образец — 9.2",
+          "audio": "9.2",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "butterfly", "source": "CONFIRMED", "clip": [7.59, 8.91]},
+            {"n": 2, "type": "speak", "text": "mosquito", "source": "CONFIRMED", "clip": [13.49, 14.97]},
+            {"n": 3, "type": "speak", "text": "spider", "source": "CONFIRMED", "clip": [16.7, 17.98]},
+            {"n": 4, "type": "speak", "text": "chicken", "source": "CONFIRMED", "clip": [27.55, 28.69]},
+            {"n": 5, "type": "speak", "text": "camel", "source": "CONFIRMED", "clip": [54.96, 55.99]},
+            {"n": 6, "type": "speak", "text": "crocodile", "source": "CONFIRMED", "clip": [57.79, 59.12]},
+            {"n": 7, "type": "speak", "text": "elephant", "source": "CONFIRMED", "clip": [63.62, 64.86]},
+            {"n": 8, "type": "speak", "text": "giraffe", "source": "CONFIRMED", "clip": [66.64, 67.87]},
+            {"n": 9, "type": "speak", "text": "kangaroo", "source": "CONFIRMED", "clip": [69.63, 70.98]},
+            {"n": 10, "type": "speak", "text": "lion", "source": "CONFIRMED", "clip": [72.68, 73.89]},
+            {"n": 11, "type": "speak", "text": "monkey", "source": "CONFIRMED", "clip": [75.57, 76.73]},
+            {"n": 12, "type": "speak", "text": "rabbit", "source": "CONFIRMED", "clip": [81.4, 82.56]},
+            {"n": 13, "type": "speak", "text": "tiger", "source": "CONFIRMED", "clip": [89.89, 91.0]},
+            {"n": 14, "type": "speak", "text": "dolphin", "source": "CONFIRMED", "clip": [95.02, 96.21]},
+            {"n": 15, "type": "speak", "text": "jellyfish", "source": "CONFIRMED", "clip": [97.89, 99.19]}
+          ]
+        },
+        {
+          "id": "9A-sb1e",
+          "origin": "SB",
+          "instruction": "Ask and answer the questions about animals",
+          "note": "SB 1e (в парах) → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You and the student ask and answer these questions about animals, one at a time: 1 Do you have (or have you ever had) a pet? What was it? 2 What's your favourite film about an animal? 3 What's your favourite cartoon animal? 4 What animal would you most like to see on a safari? 5 Are there any animals or insects you are really afraid of? 6 Are you allergic to any animals or insects? 7 What are the most dangerous animals or insects in your country? Invent simple, consistent answers for yourself (you had a dog called Max as a child, you are afraid of spiders, you would like to see lions on a safari). Answer in 1–2 sentences and return the question. Use animal words from the lesson.",
+              "goal": "Talk about pets, animal films and dangerous animals.",
+              "opener": "Hi! Let's talk about animals. Do you have a pet, or have you ever had one?",
+              "criteria": ["answers at least 5 of the questions in full sentences", "asks at least 3 of the questions back", "uses at least 5 animal or insect words correctly"],
+              "steps": [
+                {
+                  "text": "Answer: do you have a pet?",
+                  "example": "We had a cat when I was a child. Her name was Luna."
+                },
+                {
+                  "text": "Ask about a favourite film or cartoon animal",
+                  "example": "What's your favourite film about an animal?"
+                },
+                {
+                  "text": "Ask what animal your partner would like to see on a safari",
+                  "example": "What animal would you most like to see on a safari?"
+                },
+                {
+                  "text": "Ask about animals your partner is afraid of",
+                  "example": "Are there any animals or insects you are really afraid of?"
+                },
+                {
+                  "text": "Ask about dangerous animals in their country",
+                  "example": "What are the most dangerous animals in your country?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9A-wb1b",
+          "origin": "WB",
+          "instruction": "Which animal or animals…? Choose one or two",
+          "note": "WB 1b «Circle one or two animals» → Blank, варианты в hint, ответ — одно или два животных через and (любой порядок). 1 — пример. 1a (кроссворд) не перенесён",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "Which can be very dangerous to people? {}", "gaps": [["mosquito and shark", "shark and mosquito", "a mosquito and a shark", "a shark and a mosquito", "mosquitoes and sharks", "sharks and mosquitoes"]], "hint": "(mosquito / butterfly / shark)"},
+            {"n": 3, "type": "blank", "text": "Which do you see on a farm? {}", "gaps": [["goat and pig", "pig and goat", "a goat and a pig", "a pig and a goat", "goats and pigs", "pigs and goats"]], "hint": "(goat / giraffe / pig)"},
+            {"n": 4, "type": "blank", "text": "Which has a painful sting? {}", "gaps": [["bee and wasp", "wasp and bee", "a bee and a wasp", "a wasp and a bee", "bees and wasps", "wasps and bees"]], "hint": "(bee / wasp / rabbit)"},
+            {"n": 5, "type": "blank", "text": "Which can fly? {}", "gaps": [["bird and bat", "bat and bird", "a bird and a bat", "a bat and a bird", "birds and bats", "bats and birds"]], "hint": "(bird / mouse / bat)"},
+            {"n": 6, "type": "blank", "text": "Which lives in the sea? {}", "gaps": [["dolphin", "a dolphin", "dolphins"]], "hint": "(rat / deer / dolphin)"}
+          ]
+        },
+        {
+          "id": "9A-wb1c",
+          "origin": "WB",
+          "instruction": "Complete the sentences with an animal word",
+          "note": "WB 1c; в книге даны первые буквы — у нас без них. 1 — пример",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "Cows are usually quite calm, but {} can be dangerous.", "gaps": [["bulls"]]},
+            {"n": 3, "type": "blank", "text": "African {} are the largest land animals.", "gaps": [["elephants"]]},
+            {"n": 4, "type": "blank", "text": "When we were in Australia, we saw lots of {} jumping near the road.", "gaps": [["kangaroos"]]},
+            {"n": 5, "type": "blank", "text": "Put that food in the fridge or there will be {} all over it!", "gaps": [["flies"]]},
+            {"n": 6, "type": "blank", "text": "In the desert, {} are good working animals because they don't need water every day.", "gaps": [["camels"]]}
+          ]
+        },
+        {
+          "id": "9A-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Write the animal.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "It's black and yellow, it makes honey, and it can sting you. It's a {}.", "gaps": [["bee"]], "explain": "Bees make honey.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "It lives in the sea and it's the biggest animal in the world. It's a {}.", "gaps": [["whale"]], "explain": "The whale is the biggest animal on Earth.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "It has a very long neck and lives in Africa. It's a {}.", "gaps": [["giraffe"]], "explain": "giraffe /dʒəˈrɑːf/ – stress on the second syllable.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "It flies at night and sleeps upside down. It's a {}.", "gaps": [["bat"]], "explain": "A bat is not a bird: it's an animal that can fly.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "It has eight legs and makes webs. It's a {}.", "gaps": [["spider"]], "explain": "Spiders have eight legs; insects have six.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "It's a small insect that bites you and drinks your blood. It's a {}.", "gaps": [["mosquito"]], "explain": "Mosquitoes bite.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "It gives us milk. It's a {}.", "gaps": [["cow"]], "explain": "A cow is a farm animal.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "We get wool from it. It's a {}.", "gaps": [["sheep"]], "explain": "Sheep give us wool.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9A-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete with the plural.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "There are three {} in the kitchen! (mouse)", "gaps": [["mice"]], "explain": "mouse → mice (irregular).", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "We saw some {} in the forest. (deer)", "gaps": [["deer"]], "explain": "deer → deer (no -s).", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "The farmer has 200 {}. (sheep)", "gaps": [["sheep"]], "explain": "sheep → sheep (no -s).", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "There are lots of {} in this room. Close the window! (fly)", "gaps": [["flies"]], "explain": "consonant + y → -ies.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "Mosquitoes and {} bite. (spider)", "gaps": [["spiders"]], "explain": "Regular plural: + s.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Be careful – there are {} in the sea today! (jellyfish)", "gaps": [["jellyfish"]], "explain": "jellyfish → jellyfish (like fish).", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9A-vocabulary-x3",
+          "origin": "GENERATED",
+          "instruction": "Complete with bite, bites, sting or stings.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Bees and wasps {} .", "gaps": [["sting"]], "explain": "Insects that inject venom sting.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Be careful! That dog {}.", "gaps": [["bites"]], "explain": "Animals with teeth bite.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "A jellyfish can {} you if you touch it.", "gaps": [["sting"]], "explain": "Some sea animals sting, e.g. jellyfish.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Mosquitoes usually {} people in the evening.", "gaps": [["bite"]], "explain": "Mosquitoes and spiders bite.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "If a snake {} you, go to hospital immediately.", "gaps": [["bites"]], "explain": "Snakes bite.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Wasps {} more often than bees.", "gaps": [["sting"]], "explain": "Wasps sting.", "source": "MODEL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9A-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "word stress",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Stress in words that are similar in other languages",
+          "text": "Some words in English, e.g. for animals, are similar to the same words in other languages, but the stress is often in a different place."
+        },
+        {
+          "type": "table",
+          "title": "Stressed syllable",
+          "headers": ["Word", "Stress"],
+          "rows": [
+            ["camel", "CAmel"],
+            ["crocodile", "CROcodile"],
+            ["dolphin", "DOLphin"],
+            ["elephant", "Elephant"],
+            ["giraffe", "giRAFFE"],
+            ["kangaroo", "kangaROO"],
+            ["lion", "LIon"],
+            ["mosquito", "mosQUIto"]
+          ],
+          "audio": "9.3"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "9A-sb1c",
+          "origin": "SB",
+          "instruction": "Tap the stressed syllable. Then listen and check",
+          "note": "SB 1c–d (9.3) → Stress",
+          "audio": "9.3",
+          "exercises": [
+            {"n": 1, "type": "stress", "text": "ca|mel", "stressed": [1], "source": "CONFIRMED", "clip": [0, 1.16]},
+            {"n": 2, "type": "stress", "text": "cro|co|dile", "stressed": [1], "source": "CONFIRMED", "clip": [2.64, 3.98]},
+            {"n": 3, "type": "stress", "text": "dol|phin", "stressed": [1], "source": "CONFIRMED", "clip": [5.43, 6.76]},
+            {"n": 4, "type": "stress", "text": "e|le|phant", "stressed": [1], "source": "CONFIRMED", "clip": [8.25, 9.52]},
+            {"n": 5, "type": "stress", "text": "gi|raffe", "stressed": [2], "source": "CONFIRMED", "clip": [11.02, 12.4]},
+            {"n": 6, "type": "stress", "text": "kan|ga|roo", "stressed": [3], "source": "CONFIRMED", "clip": [14.03, 15.55]},
+            {"n": 7, "type": "stress", "text": "li|on", "stressed": [1], "source": "CONFIRMED", "clip": [17.04, 18.35]},
+            {"n": 8, "type": "stress", "text": "mos|qui|to", "stressed": [2], "source": "CONFIRMED", "clip": [19.83, 21.41]}
+          ]
+        },
+        {
+          "id": "9A-wb2a",
+          "origin": "WB",
+          "instruction": "Tap the stressed syllable",
+          "note": "WB 2a «Underline the stressed syllable. Tick if all the same» → Stress по слову (рядов 2–5, ряд 1 — пример); галочки не переносили: ударение видно в самих ответах",
+          "exercises": [
+            {"n": 1, "type": "stress", "text": "mon|key", "stressed": [1]},
+            {"n": 2, "type": "stress", "text": "ti|ger", "stressed": [1]},
+            {"n": 3, "type": "stress", "text": "gi|raffe", "stressed": [2]},
+            {"n": 4, "type": "stress", "text": "but|ter|fly", "stressed": [1]},
+            {"n": 5, "type": "stress", "text": "kan|ga|roo", "stressed": [3]},
+            {"n": 6, "type": "stress", "text": "mos|qui|to", "stressed": [2]},
+            {"n": 7, "type": "stress", "text": "ca|mel", "stressed": [1]},
+            {"n": 8, "type": "stress", "text": "dol|phin", "stressed": [1]},
+            {"n": 9, "type": "stress", "text": "li|on", "stressed": [1]},
+            {"n": 10, "type": "stress", "text": "spi|der", "stressed": [1]},
+            {"n": 11, "type": "stress", "text": "ra|bbit", "stressed": [1]},
+            {"n": 12, "type": "stress", "text": "chi|cken", "stressed": [1]}
+          ]
+        },
+        {
+          "id": "9A-wb2b",
+          "origin": "WB",
+          "instruction": "Listen and check. Then listen again and repeat the words",
+          "note": "WB 2b (трек WB — аудио WB нет): Speak на ряды из 2a, образец — синтезатор",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "monkey, tiger, giraffe"},
+            {"n": 2, "type": "speak", "text": "butterfly, kangaroo, mosquito"},
+            {"n": 3, "type": "speak", "text": "camel, dolphin, lion"},
+            {"n": 4, "type": "speak", "text": "spider, rabbit, chicken"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9A-skills",
+      "kind": "SKILLS",
+      "title": "Listening & Reading",
+      "reference": [
+        {
+          "type": "table",
+          "title": "The five most dangerous animals in the UK",
+          "headers": ["Place", "Animal"],
+          "rows": [
+            ["5th", "snakes (adders)"],
+            ["4th", "cows"],
+            ["3rd", "deer"],
+            ["2nd", "dogs"],
+            ["1st", "wasps and bees"]
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Talking about imaginary situations with would / wouldn't",
+          "text": "I'd (definitely)… / I think I'd (probably)… / I (probably) wouldn't… / I (definitely) wouldn't… / I don't think I'd…"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "9A-sb2b",
+          "origin": "SB",
+          "instruction": "Listen and complete 5th to 1st with the names of the animals or insects",
+          "note": "SB 2a–b; по скрипту 9.4. Номер пункта = место в списке",
+          "audio": "9.4",
+          "exercises": [
+            {"n": 5, "type": "blank", "text": "5th: {}", "gaps": [["snakes", "snake", "adders", "adder"]], "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "4th: {}", "gaps": [["cows", "cow"]], "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "3rd: {}", "gaps": [["deer", "red deer"]], "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "2nd: {}", "gaps": [["dogs", "dog"]], "source": "CONFIRMED"},
+            {"n": 1, "type": "blank", "text": "1st: {} and bees", "gaps": [["wasps", "wasp"]], "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "9A-sb2c",
+          "origin": "SB",
+          "instruction": "Listen again and complete the facts with one or two words in each gap",
+          "note": "SB 2c; ответы по скрипту 9.4 (SB p.124). Номер пункта = номер первого пропуска",
+          "audio": "9.4",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Snakes: They can be about {} long.", "gaps": [["one metre", "1 metre", "a metre", "1m", "1 m"]], "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "Snakes: They only attack when people {} them by accident.", "gaps": [["step on"]], "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "Cows: They kill at least one person {}.", "gaps": [["every year", "a year", "each year"]], "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "Cows: Most attacks happen when people are {} in fields usually in spring or {}.", "gaps": [["walking dogs", "walking their dogs"], ["early summer"]], "source": "CONFIRMED"},
+            {"n": 6, "type": "blank", "text": "Deer: They can weigh {}.", "gaps": [["100 kg", "100 kilos", "100 kilograms", "a hundred kilos", "one hundred kilos", "100kg"]], "source": "CONFIRMED"},
+            {"n": 7, "type": "blank", "text": "Deer: Males can get aggressive in the {}. They also cause about {} car accidents a year.", "gaps": [["autumn"], ["50,000", "50000", "fifty thousand"]], "source": "CONFIRMED"},
+            {"n": 9, "type": "blank", "text": "Dogs: {} attacks cause death.", "gaps": [["Very few"]], "source": "CONFIRMED"},
+            {"n": 10, "type": "blank", "text": "Dogs: Attacks can happen at any time, and some even attack {}.", "gaps": [["their owners", "owners"]], "source": "CONFIRMED"},
+            {"n": 11, "type": "blank", "text": "Wasps and bees: About {} people a year die from an allergic reaction.", "gaps": [["five", "5"]], "source": "CONFIRMED"},
+            {"n": 12, "type": "blank", "text": "Wasps and bees: {} are more aggressive than {}.", "gaps": [["Wasps"], ["bees"]], "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "9A-sb2d",
+          "origin": "SB",
+          "instruction": "Are any of these animals dangerous where you live? Have you ever had a bad experience with any of them?",
+          "note": "SB 2d → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You have just listened to a programme about the five most dangerous animals in the UK: adders (snakes), cows, deer, dogs, and wasps and bees. Ask the student if any of these animals are dangerous where they live and if they have ever had a bad experience with one. Tell your own short story too: a wasp stung you on the hand at a picnic last summer and it hurt a lot. React and ask follow-up questions (What happened? What did you do?).",
+              "goal": "Talk about dangerous animals where you live.",
+              "opener": "Are any of these animals dangerous where you live?",
+              "criteria": ["says which animals are dangerous in their area and why", "tells a short story about a bad experience in the past simple (or says they haven't had one)", "asks at least one question back"],
+              "steps": [
+                {
+                  "text": "Say which animals are dangerous where you live",
+                  "example": "Dogs can be dangerous here because some people don't control them."
+                },
+                {
+                  "text": "Tell your partner about a bad experience",
+                  "example": "Once a bee stung me on the leg when I was playing in the garden."
+                },
+                {
+                  "text": "Ask about your partner's experience",
+                  "example": "Have you ever had a bad experience with an animal?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9A-sb3a",
+          "origin": "SB",
+          "instruction": "Read the quiz questions. Complete each question with an animal or insect from the list",
+          "note": "SB 3a",
+          "context": "WOULD YOU KNOW WHAT TO DO?\nWe all love seeing animals on TV and in zoos, but some animals can be dangerous. If you met one in real life, would you know the right thing to do? Read about some common and some less common situations and decide what you would do.",
+          "words": ["bee", "cows", "dog", "jellyfish", "shark", "snake", "wasp"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "IN THE CITY. What would you do… if a large, aggressive {} ran towards you?", "gaps": [["dog"]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "IN THE CITY. What would you do… if you were driving and a {} or {} flew into the car?", "gaps": [["bee", "wasp"], ["wasp", "bee"]], "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "IN THE COUNTRY. What would you do… if a poisonous {} bit you on the leg, and you were more than 30 minutes from the nearest town?", "gaps": [["snake"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "IN THE COUNTRY. What would you do… if you were walking a dog on a lead and some {} started moving towards you?", "gaps": [["cows"]], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "IN THE WATER. What would you do… if you were in the sea and a {} stung you?", "gaps": [["jellyfish"]], "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "IN THE WATER. What would you do… if you were in the sea quite near the shore and you saw a {}?", "gaps": [["shark"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9A-sb3b",
+          "origin": "SB",
+          "instruction": "Complete the definitions with the highlighted verbs from the quiz",
+          "note": "SB 3b «guess their meaning from the context» → Blank: глагол по определению (определения наши, MODEL)",
+          "words": ["float", "keep still", "rub", "shout", "suck", "tie", "wave"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "{} = say something very loudly", "gaps": [["shout"]], "explain": "I would shout 'down' at it several times.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "{} = not move at all", "gaps": [["keep still"]], "explain": "I would keep completely still and look in its eyes.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "{} = move your hand from side to side", "gaps": [["wave"]], "explain": "I would wave my hand to make it go out.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "{} = pull liquid into your mouth", "gaps": [["suck"]], "explain": "I would suck the bite to get the poison out.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "{} = put something round something else and make a knot", "gaps": [["tie"]], "explain": "I would tie something, e.g. a scarf, on my leg above the bite.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "{} = move something backwards and forwards on a surface", "gaps": [["rub"]], "explain": "I would rub the sting with a towel to clean it.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "{} = stay on the top of the water", "gaps": [["float"]], "explain": "I would float and pretend to be dead.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9A-sb3c",
+          "origin": "SB",
+          "instruction": "Read the quiz again. Write the right answer",
+          "note": "SB 3c–d: a/b/c → Rewrite, ответ — верная фраза целиком; верные ответы из Communication (A p.105, B p.110, C p.107): 1b 2a 3c 4a 5c 6a",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "What would you do if a large, aggressive dog ran towards you?\nI would shout 'down' at it several times.\nI would put my hands in my pockets and walk slowly backwards.\nI would keep completely still and look in its eyes.", "answers": ["I would put my hands in my pockets and walk slowly backwards.", "I'd put my hands in my pockets and walk slowly backwards."], "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "What would you do if you were driving and a bee or wasp flew into the car?\nI would open all the windows and wait for it to fly out.\nI would try to kill it with a map or a newspaper.\nI would wave my hand to make it go out.", "answers": ["I would open all the windows and wait for it to fly out.", "I'd open all the windows and wait for it to fly out."], "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "What would you do if a poisonous snake bit you on the leg, and you were more than 30 minutes from the nearest town?\nI would put something very cold on it, like a water bottle.\nI would suck the bite to get the poison out.\nI would tie something, e.g. a scarf, on my leg above the bite.", "answers": ["I would tie something, e.g. a scarf, on my leg above the bite.", "I'd tie something, e.g. a scarf, on my leg above the bite.", "I would tie something on my leg above the bite.", "I'd tie something on my leg above the bite."], "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "What would you do if you were walking a dog on a lead and some cows started moving towards you?\nI would let the dog run free.\nI would pick the dog up in my arms.\nI would shout and wave my arms.", "answers": ["I would let the dog run free.", "I'd let the dog run free."], "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "What would you do if you were in the sea and a jellyfish stung you?\nI would rub the sting with a towel to clean it.\nI would wash the sting with fresh water.\nI would wash the sting with vinegar or sea water.", "answers": ["I would wash the sting with vinegar or sea water.", "I'd wash the sting with vinegar or sea water."], "source": "MODEL"},
+            {"n": 6, "type": "rewrite", "prompt": "What would you do if you were in the sea quite near the shore and you saw a shark?\nI would swim to the shore as quickly and quietly as possible.\nI would float and pretend to be dead.\nI would shout for help.", "answers": ["I would swim to the shore as quickly and quietly as possible.", "I'd swim to the shore as quickly and quietly as possible."], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9A-sb3e",
+          "origin": "SB",
+          "instruction": "Have you ever been in any of these situations? What did you do?",
+          "note": "SB 3e → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You have both just done the quiz 'Would you know what to do?' (an aggressive dog, a bee or wasp in the car, a snake bite, cows moving towards you and your dog, a jellyfish sting, a shark near the shore). Ask the student if they have ever been in any of these situations and what they did. Tell your own story too: once a wasp flew into your car on the motorway and you opened all the windows. Ask follow-up questions.",
+              "goal": "Talk about real situations from the quiz.",
+              "opener": "Have you ever been in any of the situations in the quiz?",
+              "criteria": ["tells about a real situation (or says clearly that they haven't been in one)", "uses the past simple correctly for the story", "asks at least one question back"],
+              "steps": [
+                {
+                  "text": "Say if you have been in one of the situations",
+                  "example": "Yes, a jellyfish stung me when I was on holiday in Spain."
+                },
+                {
+                  "text": "Say what you did",
+                  "example": "I washed the sting with sea water, but it hurt for hours."
+                },
+                {
+                  "text": "Ask your partner about their experience",
+                  "example": "Have you ever seen a snake?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9A-grammar",
+      "kind": "GRAMMAR",
+      "title": "second conditional",
+      "reference": [
+        {
+          "type": "table",
+          "title": "if + past, would / wouldn't + infinitive",
+          "headers": ["If-clause (past)", "Other clause (would / wouldn't + infinitive)"],
+          "rows": [
+            ["If a cow attacked me,", "I'd run away."],
+            ["If she didn't have a dog,", "she wouldn't do any exercise."],
+            ["if there were sharks in the sea?", "Would you go for a swim"],
+            ["If I had more time,", "I'd do more exercise."],
+            ["If we went by car,", "we could stop at places on the way."]
+          ],
+          "audio": "9.5"
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "We use if + past to talk about an imaginary or hypothetical future situation and would / wouldn't + infinitive to talk about the consequence. We also use would without an if-clause: I'd never have a cat as a pet. would / wouldn't is the same for all persons: 'd = would, wouldn't = would not."
+        },
+        {
+          "type": "note",
+          "title": "Word order",
+          "text": "The if-clause can come first or second. If it comes first, we usually put a comma before the next clause: If I had more time, I'd do more exercise. / I'd do more exercise if I had more time."
+        },
+        {
+          "type": "note",
+          "title": "could",
+          "text": "We can also use could + infinitive instead of would + infinitive: If we went by car, we could stop at places on the way."
+        },
+        {
+          "type": "note",
+          "title": "be in second conditionals",
+          "text": "With be we can use were instead of was after I / he / she / it: If Jack was / were here, he'd know what to do. Use were (not was) in If I were you… – we often use it for advice: If I were you, I wouldn't take that job."
+        },
+        {
+          "type": "table",
+          "title": "First or second conditional?",
+          "headers": ["Conditional", "Example"],
+          "rows": [
+            ["First (possible)", "If I don't have to work tomorrow, I'll help you. (Maybe I will help you.)"],
+            ["Second (imaginary)", "If I didn't have to work tomorrow, I'd help you. (I have to work, so I can't help you.)"]
+          ]
+        },
+        {
+          "type": "mistake",
+          "wrong": "If I would have more money, I would buy a car.",
+          "right": "If I had more money, I would buy a car.",
+          "why": "After if we use the past, not would."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "9A-sb4a",
+          "origin": "SB",
+          "instruction": "Look at quiz questions 1–6 again. Answer the questions",
+          "note": "SB 4a; ответы наши (MODEL)",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Are they about a past situation or an imagined future situation? An {} situation.", "gaps": [["imagined future", "imaginary future", "imagined"]], "explain": "What would you do if a dog ran towards you? – it's not real, it's imagined.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "What tense is the verb after if? The {}.", "gaps": [["past simple", "past", "simple past"]], "explain": "if a dog ran, if you were driving, if a snake bit you…", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "What form is the other verb? {} + infinitive", "gaps": [["would", "would / wouldn't", "would or wouldn't"]], "explain": "What would you do…? I would shout…", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9A-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Match the sentence halves. Write the ending",
+          "note": "GB 9A a; пример You'd feel much better → A. Принимаем и окончание, и букву. Ключа к GB нет (MODEL)",
+          "words": ["B would you come to visit me?", "C if I bought one for you?", "D we could go out tonight.", "E if I didn't have to work on Saturday.", "F we would get there sooner.", "G if I didn't need the money."],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "I'd enjoy the weekend more {}", "gaps": [["if I didn't have to work on Saturday.", "if I didn't have to work on Saturday", "E"]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "If you didn't have to study for your exams, {}", "gaps": [["we could go out tonight.", "we could go out tonight", "D"]], "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Would you really wear a suit {}", "gaps": [["if I bought one for you?", "if I bought one for you", "C"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "If we took a taxi, {}", "gaps": [["we would get there sooner.", "we would get there sooner", "we'd get there sooner.", "F"]], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "I wouldn't work {}", "gaps": [["if I didn't need the money.", "if I didn't need the money", "G"]], "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "If I went to live in London, {}", "gaps": [["would you come to visit me?", "would you come to visit me", "B"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9A-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the sentences with the correct form of the verb to make second conditional sentences",
+          "note": "GB 9A b; пример If I found a good job, I'd move to the USA. Ключа к GB нет (MODEL)",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "We {} a dog if we {} a garden.", "gaps": [["'d get", "would get"], ["had"]], "hint": "(get, have)", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "If you {} Indian food, I'm sure you {} it.", "gaps": [["tried"], ["'d like", "would like"]], "hint": "(try, like)", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "I {} it if I {} it.", "gaps": [["wouldn't buy", "would not buy"], ["didn't like", "did not like"]], "hint": "(not buy, not like)", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "If we {} a car, we {} drive to the mountains.", "gaps": [["hired"], ["could"]], "hint": "(hire, can)", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "We {} our children more often if they {} nearer.", "gaps": [["'d see", "would see"], ["lived"]], "hint": "(see, live)", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "I {} to that restaurant if I {} you – it's very expensive.", "gaps": [["wouldn't go", "would not go"], ["were", "was"]], "hint": "(not go, be)", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "You {} more if you {} more homework.", "gaps": [["'d learn", "would learn"], ["did"]], "hint": "(learn, do)", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "I {} to work if the traffic {} so bad.", "gaps": [["'d cycle", "would cycle"], ["wasn't", "weren't", "was not", "were not"]], "hint": "(cycle, not be)", "source": "MODEL"},
+            {"n": 9, "type": "blank", "text": "{} you {} abroad if you {} a well-paid job?", "gaps": [["Would"], ["work"], ["found"]], "hint": "(work, find)", "source": "MODEL"},
+            {"n": 10, "type": "blank", "text": "I love living here. I {} happy if I {} leave.", "gaps": [["wouldn't be", "would not be"], ["had to"]], "hint": "(not be, have to)", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9A-sb5",
+          "origin": "SB",
+          "instruction": "Choose a question and ask your partner. Then answer it yourself: What would (or wouldn't) you do…?",
+          "note": "SB 5 (в группах по трое) → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). Take turns choosing questions from the list 'What would (or wouldn't) you do…?' and answering them: …if you saw a mouse in your kitchen / …if you saw a dog attacking someone / …if a bird or a bat flew into your bedroom / …if you saw a large spider in the bath / …if it was a very hot day and you were on a beach that was famous for shark attacks / …if someone offered to buy you a fur coat / …if your neighbour's dog barked all night / …if a friend asked you to look after their cat or dog for the weekend / …if you went to somebody's house for dinner and they gave you horse meat, goat or kangaroo. Answer with would / wouldn't (I'd definitely…, I think I'd probably…, I don't think I'd…). Gently correct the student if they use would after if.",
+              "goal": "Ask and answer: What would you do if…?",
+              "opener": "OK, my question first: what would you do if you saw a mouse in your kitchen?",
+              "criteria": ["answers with would / wouldn't + infinitive", "asks at least 3 questions with if + past simple and would", "doesn't use would in the if-clause"],
+              "steps": [
+                {
+                  "text": "Answer: what would you do if you saw a mouse in your kitchen?",
+                  "example": "I'd probably scream and then I'd try to catch it."
+                },
+                {
+                  "text": "Ask about a spider in the bath",
+                  "example": "What would you do if you saw a large spider in the bath?"
+                },
+                {
+                  "text": "Ask about the neighbour's dog",
+                  "example": "What would you do if your neighbour's dog barked all night?"
+                },
+                {
+                  "text": "Ask about dinner with horse meat, goat or kangaroo",
+                  "example": "What would you do if somebody gave you kangaroo for dinner?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9A-wb3a",
+          "origin": "WB",
+          "instruction": "Choose the correct form",
+          "note": "WB 3a Circle → Blank, варианты в hint; 1 — пример",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "If my sister {} a mouse in the kitchen, {}.", "gaps": [["saw"], ["she'd scream", "she would scream"]], "hint": "(would see / saw; she screamed / she'd scream)"},
+            {"n": 3, "type": "blank", "text": "{} pets if {} for work all the time.", "gaps": [["We'd have", "We would have"], ["we didn't travel", "we did not travel"]], "hint": "(We'd have / We had; we wouldn't travel / we didn't travel)"},
+            {"n": 4, "type": "blank", "text": "If my brother {} allergic to animals, {} a cat.", "gaps": [["wasn't", "was not"], ["he'd get", "he would get"]], "hint": "(wouldn't be / wasn't; he got / he'd get)"},
+            {"n": 5, "type": "blank", "text": "If {} in the country, {} to ride a horse.", "gaps": [["I lived"], ["I'd learn", "I would learn"]], "hint": "(I'd live / I lived; I learnt / I'd learn)"},
+            {"n": 6, "type": "blank", "text": "What {} if a bull {} you?", "gaps": [["would you do"], ["attacked"]], "hint": "(did you do / would you do; attacked / would attack)"},
+            {"n": 7, "type": "blank", "text": "If {} a dog, {} a small one.", "gaps": [["I got"], ["I'd choose", "I would choose"]], "hint": "(I got / I'd get; I chose / I'd choose)"},
+            {"n": 8, "type": "blank", "text": "If {} a crocodile, {} away fast.", "gaps": [["I saw"], ["I'd swim", "I would swim"]], "hint": "(I'd see / I saw; I'd swim / I swam)"}
+          ]
+        },
+        {
+          "id": "9A-wb3b",
+          "origin": "WB",
+          "instruction": "Complete the questions with the correct form of the verbs in brackets",
+          "note": "WB 3b; 1 — пример",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "If you {} the chance to have any pet, what animal {}?", "gaps": [["had"], ["would you get"]], "hint": "(have; you / get)"},
+            {"n": 3, "type": "blank", "text": "What {} if you {} a shark in the sea when you were at the beach?", "gaps": [["would you do"], ["saw"]], "hint": "(you / do; see)"},
+            {"n": 4, "type": "blank", "text": "How {} if someone {} you to look after their dog for a week?", "gaps": [["would you feel"], ["asked"]], "hint": "(you / feel; ask)"},
+            {"n": 5, "type": "blank", "text": "What {} if you {} a snake in your house or garden?", "gaps": [["would you do"], ["found"]], "hint": "(you / do; find)"},
+            {"n": 6, "type": "blank", "text": "If there {} a mosquito in your room at night, what {}?", "gaps": [["was", "were"], ["would you do"]], "hint": "(be; you / do)"}
+          ]
+        },
+        {
+          "id": "9A-wb3c",
+          "origin": "WB",
+          "instruction": "Answer the questions in b",
+          "note": "WB 3c → Write (ответы о себе)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Answer the questions about you. Use I'd / I wouldn't.",
+              "questions": [
+                {
+                  "text": "If you had the chance to have any pet, what animal would you get?",
+                  "hint": "(I'd get…)"
+                },
+                {
+                  "text": "What would you do if you saw a shark in the sea when you were at the beach?",
+                  "hint": "(I'd…)"
+                },
+                {
+                  "text": "How would you feel if someone asked you to look after their dog for a week?",
+                  "hint": "(I'd feel…)"
+                },
+                {
+                  "text": "What would you do if you found a snake in your house or garden?",
+                  "hint": "(I'd…)"
+                },
+                {
+                  "text": "If there was a mosquito in your room at night, what would you do?",
+                  "hint": "(I'd…)"
+                }
+              ],
+              "criteria": ["answers at least 4 of the 5 questions in full sentences", "uses would / 'd / wouldn't + infinitive correctly", "each answer fits the question"]
+            }
+          ]
+        },
+        {
+          "id": "9A-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the second conditional sentences.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "If I {} a lot of money, I'd travel round the world.", "gaps": [["had"]], "hint": "(have)", "explain": "if + past simple: had.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "If she lived nearer, we {} her more often.", "gaps": [["'d see", "would see"]], "hint": "(see)", "explain": "Other clause: would + infinitive.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "I {} that dog if I were you. It looks aggressive.", "gaps": [["wouldn't touch", "would not touch"]], "hint": "(not touch)", "explain": "If I were you, I wouldn't… – advice.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "What would you do if a snake {} into your tent?", "gaps": [["came"]], "hint": "(come)", "explain": "if + past simple: came (irregular).", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "If we {} a garden, we'd get a dog.", "gaps": [["had"]], "hint": "(have)", "explain": "if + past simple.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "If he {} so lazy, he'd get a better job.", "gaps": [["wasn't", "weren't", "was not", "were not"]], "hint": "(not be)", "explain": "With be we can use was or were.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "They {} happier if they lived in the country.", "gaps": [["'d be", "would be"]], "hint": "(be)", "explain": "would + infinitive.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "If you went to bed earlier, you {} so tired.", "gaps": [["wouldn't be", "would not be"]], "hint": "(not be)", "explain": "wouldn't + infinitive.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9A-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistake in the sentence.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "If I **would see** a bear, I'd run away.", "answers": ["If I saw a bear, I'd run away.", "If I saw a bear, I would run away."], "explain": "No would in the if-clause: if + past.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "If I had a car, I **drive** to work.", "answers": ["If I had a car, I'd drive to work.", "If I had a car, I would drive to work."], "explain": "The other clause needs would + infinitive.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "If I **was** you, I wouldn't go.", "answers": ["If I were you, I wouldn't go.", "If I were you, I would not go."], "explain": "If I were you… – always were.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "What **you would do** if you won the lottery?", "answers": ["What would you do if you won the lottery?"], "explain": "Question: would + subject + infinitive.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "She'd buy a house if she **has** more money.", "answers": ["She'd buy a house if she had more money.", "She would buy a house if she had more money."], "explain": "Second conditional: if + past simple.", "source": "MODEL"},
+            {"n": 6, "type": "rewrite", "prompt": "If it **wouldn't rain**, we'd go to the beach.", "answers": ["If it didn't rain, we'd go to the beach.", "If it didn't rain, we would go to the beach."], "explain": "Negative past: didn't + infinitive.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9A-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "First or second conditional? Complete the sentences.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "It's sunny today. If it {} sunny tomorrow too, we'll go to the beach.", "gaps": [["is", "'s"]], "hint": "(be)", "explain": "A real possibility → first conditional: if + present.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "I don't have a dog. If I {} a dog, I'd walk it every day.", "gaps": [["had"]], "hint": "(have)", "explain": "Imaginary → second conditional: if + past.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Hurry up! If we don't leave now, we {} the train.", "gaps": [["'ll miss", "will miss"]], "hint": "(miss)", "explain": "Possible future → will + infinitive.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "I'm not the president. If I {} the president, I'd change a lot of things.", "gaps": [["were", "was"]], "hint": "(be)", "explain": "Imaginary → if + past (were).", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "He can't swim. If he {} swim, he'd go in the sea with us.", "gaps": [["could"]], "hint": "(can)", "explain": "Past of can = could.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "If you study hard, you {} the exam.", "gaps": [["'ll pass", "will pass"]], "hint": "(pass)", "explain": "A real possibility → will.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9A-grammar-x4",
+          "origin": "GENERATED",
+          "instruction": "Put the words in order.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "would / you / what / do / if / saw / a / you / shark / ?", "answers": ["What would you do if you saw a shark?"], "hint": "(question)", "explain": "Question: What would you do + if + past.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "if / I / you / were / , / I'd / a / doctor / see", "answers": ["If I were you, I'd see a doctor."], "hint": "(advice)", "explain": "If I were you, I'd… – advice.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "I'd / to / Australia / go / if / I / had / money / the", "answers": ["I'd go to Australia if I had the money."], "hint": "(would first)", "explain": "No comma when the if-clause is second.", "source": "MODEL"}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1191 @@
+{
+  "id": "9C",
+  "title": "Scream queens",
+  "bubbles": ["She's written several books.", "Really? Her mother also wrote books."],
+  "sources": "SB p.74–75 (PDF 75–76), Grammar Bank p.142–143 (PDF 143–144), Writing 6 p.118 (PDF 119), script 9.16 p.124 (PDF 125), Practical English Episode 5 p.76–77 (PDF 77–78); WB p.64–66 (PDF 63–65), Can you remember…? 1–9 WB p.67 (PDF 66), key WB p.93 (PDF 92). Scripts 9.12–9.14 and 9.17–9.22 are not printed in the SB (answers by the recordings and videos)",
+  "sections": [
+    {
+      "id": "9C-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "biographies",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Life events",
+          "headers": ["Stage", "Verb phrases"],
+          "rows": [
+            ["Beginning", "be born"],
+            ["School", "go to primary school, go to secondary school, leave school"],
+            ["After school", "go to university, get a job"],
+            ["Relationships", "fall in love, marry sb / get married, have children"],
+            ["Problems", "separate, divorce sb / get divorced"],
+            ["Later life", "retire, die"]
+          ]
+        },
+        {
+          "type": "note",
+          "title": "marry / get married, divorce / get divorced",
+          "text": "marry and divorce take an object: She married John. He divorced his wife. get married / get divorced have no object: They got married in 2010. They got divorced a year later."
+        },
+        {
+          "type": "mistake",
+          "wrong": "She married with a doctor.",
+          "right": "She married a doctor.",
+          "why": "marry sb – no preposition. Or: She got married to a doctor."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "9C-sb1a",
+          "origin": "SB",
+          "instruction": "Put the events in what you think is a logical order (after be born, before die)",
+          "note": "SB 1a «Number the events» → Order карточками; be born (1) и die (13) даны в книге. Порядок наш (MODEL): в книге «what you think is logical», ключа нет",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "order",
+              "pictures": [
+                {
+                  "label": "B",
+                  "text": "marry sb / get married"
+                },
+                {
+                  "label": "C",
+                  "text": "go to primary school"
+                },
+                {
+                  "label": "D",
+                  "text": "have children"
+                },
+                {
+                  "label": "E",
+                  "text": "go to secondary school"
+                },
+                {
+                  "label": "F",
+                  "text": "go to university"
+                },
+                {
+                  "label": "G",
+                  "text": "leave school"
+                },
+                {
+                  "label": "H",
+                  "text": "separate"
+                },
+                {
+                  "label": "I",
+                  "text": "get a job"
+                },
+                {
+                  "label": "J",
+                  "text": "divorce sb / get divorced"
+                },
+                {
+                  "label": "K",
+                  "text": "retire"
+                },
+                {
+                  "label": "L",
+                  "text": "fall in love"
+                }
+              ],
+              "answer": ["C", "E", "G", "F", "I", "L", "B", "D", "H", "J", "K"],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "9C-wb1a",
+          "origin": "WB",
+          "instruction": "Match the sentence halves. Write the ending",
+          "note": "WB 1a (биография дедушки) → Blank: окончание или буква; 1 — пример",
+          "words": ["a on his 65th birthday.", "b in love with my grandmother at school.", "d to primary school when he was five.", "e three children.", "f school in 1962.", "g a job when he was 17.", "h married in 1968."],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "He went {}", "gaps": [["to primary school when he was five.", "to primary school when he was five", "d"]]},
+            {"n": 3, "type": "blank", "text": "He fell {}", "gaps": [["in love with my grandmother at school.", "in love with my grandmother at school", "b"]]},
+            {"n": 4, "type": "blank", "text": "He left {}", "gaps": [["school in 1962.", "school in 1962", "f"]]},
+            {"n": 5, "type": "blank", "text": "He got {}", "gaps": [["a job when he was 17.", "a job when he was 17", "g"]]},
+            {"n": 6, "type": "blank", "text": "He and my grandmother got {}", "gaps": [["married in 1968.", "married in 1968", "h"]]},
+            {"n": 7, "type": "blank", "text": "They had {}", "gaps": [["three children.", "three children", "e"]]},
+            {"n": 8, "type": "blank", "text": "He retired {}", "gaps": [["on his 65th birthday.", "on his 65th birthday", "a"]]}
+          ]
+        },
+        {
+          "id": "9C-wb1b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the correct form of a verb phrase from 1a",
+          "note": "WB 1b; в книге даны первые буквы — у нас без них; 1 — пример",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "Bob and Sue's marriage wasn't happy. They {} in 2017 and {} a year later.", "gaps": [["separated"], ["got divorced"]]},
+            {"n": 3, "type": "blank", "text": "I would like to {} one day. I'd like a boy and a girl.", "gaps": [["have children"]]},
+            {"n": 4, "type": "blank", "text": "When she leaves school, Kate wants to {} to {}.", "gaps": [["go"], ["university"]]},
+            {"n": 5, "type": "blank", "text": "I'll never forget my first girlfriend. I {} with her at first sight.", "gaps": [["fell in love"]]},
+            {"n": 6, "type": "blank", "text": "My dad worked for the same company for years, but he {} last year when he was 65.", "gaps": [["retired"]]},
+            {"n": 7, "type": "blank", "text": "When Jackie was 11, she moved to a big {} with around 800 students.", "gaps": [["secondary school"]]},
+            {"n": 8, "type": "blank", "text": "My grandfather had a long and happy life, but sadly he {} last year at the age of 96.", "gaps": [["died"]]}
+          ]
+        },
+        {
+          "id": "9C-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete with a verb phrase in the past simple.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "My parents met at university and {} in 1995.", "gaps": [["got married"]], "explain": "get married → got married.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "She {} when she was 18 and went to university.", "gaps": [["left school"]], "explain": "leave school → left school.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "They weren't happy, so they {} after five years.", "gaps": [["separated", "got divorced"]], "explain": "separate / get divorced.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "He {} with a girl he met on holiday.", "gaps": [["fell in love"]], "explain": "fall in love → fell in love.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "My grandfather worked until he was 65 and then he {}.", "gaps": [["retired"]], "explain": "retire = stop working because you are old.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Shakespeare {} in 1564 and {} in 1616.", "gaps": [["was born"], ["died"]], "explain": "be born → was born; die → died.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "After university she {} in a bank.", "gaps": [["got a job"]], "explain": "get a job → got a job.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "They {} three children: two boys and a girl.", "gaps": [["had"]], "explain": "have children → had children.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9C-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistake in the sentence.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "She married **with** a famous actor.", "answers": ["She married a famous actor."], "explain": "marry sb – no preposition.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "They **divorced** last year.", "answers": ["They got divorced last year."], "explain": "Without an object: get divorced.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "He **was died** in 2004.", "answers": ["He died in 2004."], "explain": "die is a normal verb: died.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "I **borned** in 1990.", "answers": ["I was born in 1990."], "explain": "be born: I was born.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "She went to **the** university in London.", "answers": ["She went to university in London."], "explain": "go to university – no article.", "source": "MODEL"},
+            {"n": 6, "type": "rewrite", "prompt": "They fell **on** love at first sight.", "answers": ["They fell in love at first sight."], "explain": "fall in love.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9C-vocabulary-x3",
+          "origin": "GENERATED",
+          "instruction": "Complete with the correct form of marry, get married, divorce or get divorced.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "She {} a doctor in 2015.", "gaps": [["married"]], "explain": "marry + object: She married a doctor.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "When are you going to {}?", "gaps": [["get married"]], "explain": "No object → get married.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "They {} after ten years together.", "gaps": [["got divorced"]], "explain": "No object → get divorced.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "He {} his first wife in 2003.", "gaps": [["divorced"]], "explain": "divorce + object: He divorced his wife.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "My parents {} in a small church.", "gaps": [["got married"]], "explain": "No object → get married.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Will you {} me?", "gaps": [["marry"]], "explain": "marry + object: Will you marry me?", "source": "MODEL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9C-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "word stress, /ɔː/",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Stressed syllable",
+          "headers": ["Word", "Stress"],
+          "rows": [
+            ["marry, married", "MArry, MArried"],
+            ["primary", "PRImary"],
+            ["children", "CHILdren"],
+            ["secondary", "SEcondary"],
+            ["university", "uniVERsity"],
+            ["separate", "SEparate"],
+            ["divorce, divorced", "diVORCE, diVORCED"],
+            ["retire", "reTIRE"]
+          ],
+          "audio": "9.12"
+        },
+        {
+          "type": "table",
+          "title": "/ɔː/ horse",
+          "headers": ["Sound", "Words"],
+          "rows": [
+            ["/ɔː/ horse", "born, divorced, fall, more, small, walk, talk, ball, form, bought, four"],
+            ["/ɜː/ bird", "work, world, worse, word"]
+          ],
+          "audio": "9.14"
+        },
+        {
+          "type": "note",
+          "title": "wor + consonant",
+          "text": "wor + consonant is usually pronounced /ɜː/, e.g. work, world, worse, word."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "9C-sb1b",
+          "origin": "SB",
+          "instruction": "Tap the stressed syllable. Then listen and check",
+          "note": "SB 1b (9.12) → Stress на выделенные слова 1a",
+          "audio": "9.12",
+          "exercises": [
+            {"n": 1, "type": "stress", "text": "ma|rry", "stressed": [1], "source": "CONFIRMED", "clip": [0.0, 1.76]},
+            {"n": 2, "type": "stress", "text": "ma|rried", "stressed": [1], "source": "CONFIRMED", "clip": [2.25, 3.81]},
+            {"n": 3, "type": "stress", "text": "pri|ma|ry", "stressed": [1], "source": "CONFIRMED", "clip": [5.27, 7.35]},
+            {"n": 4, "type": "stress", "text": "chil|dren", "stressed": [1], "source": "CONFIRMED", "clip": [8.85, 10.55]},
+            {"n": 5, "type": "stress", "text": "se|con|da|ry", "stressed": [1], "source": "CONFIRMED", "clip": [12.04, 14.23]},
+            {"n": 6, "type": "stress", "text": "u|ni|ver|si|ty", "stressed": [3], "source": "CONFIRMED", "clip": [15.72, 17.73]},
+            {"n": 7, "type": "stress", "text": "se|pa|rate", "stressed": [1], "source": "CONFIRMED", "clip": [19.21, 20.69]},
+            {"n": 8, "type": "stress", "text": "di|vorce", "stressed": [2], "source": "CONFIRMED", "clip": [22.18, 23.95]},
+            {"n": 9, "type": "stress", "text": "di|vorced", "stressed": [2], "source": "CONFIRMED", "clip": [24.43, 26.14]},
+            {"n": 10, "type": "stress", "text": "re|tire", "stressed": [2], "source": "CONFIRMED", "clip": [27.63, 28.97]}
+          ]
+        },
+        {
+          "id": "9C-sb1c",
+          "origin": "SB",
+          "instruction": "Listen and repeat the words and sound",
+          "note": "SB 1c (9.13) → Speak",
+          "audio": "9.13",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "horse", "source": "CONFIRMED", "clip": [0.0, 2.7]},
+            {"n": 2, "type": "speak", "text": "born", "source": "CONFIRMED", "clip": [3.96, 5.04]},
+            {"n": 3, "type": "speak", "text": "divorced", "source": "CONFIRMED", "clip": [5.7, 7.03]},
+            {"n": 4, "type": "speak", "text": "fall", "source": "CONFIRMED", "clip": [7.64, 8.79]}
+          ]
+        },
+        {
+          "id": "9C-sb1d",
+          "origin": "SB",
+          "instruction": "Which words have the /ɔː/ sound? Then listen and check",
+          "note": "SB 1d–e «Circle the ones with /ɔː/» → Sort: horse /ɔː/ или bird /ɜː/; проверка по 9.14",
+          "audio": "9.14",
+          "columns": ["horse /ɔː/", "bird /ɜː/"],
+          "exercises": [
+            {"n": 1, "type": "sort", "word": "m[or]e", "column": 1, "source": "CONFIRMED", "clip": [0.0, 1.13]},
+            {"n": 2, "type": "sort", "word": "w[or]k", "column": 2, "source": "CONFIRMED", "clip": [2.26, 3.56]},
+            {"n": 3, "type": "sort", "word": "w[or]ld", "column": 2, "source": "CONFIRMED", "clip": [4.95, 6.35]},
+            {"n": 4, "type": "sort", "word": "sm[a]ll", "column": 1, "source": "CONFIRMED", "clip": [7.54, 9.05]},
+            {"n": 5, "type": "sort", "word": "w[a]lk", "column": 1, "source": "CONFIRMED", "clip": [10.51, 11.8]},
+            {"n": 6, "type": "sort", "word": "w[or]se", "column": 2, "source": "CONFIRMED", "clip": [12.82, 14.27]},
+            {"n": 7, "type": "sort", "word": "t[a]lk", "column": 1, "source": "CONFIRMED", "clip": [15.72, 16.91]},
+            {"n": 8, "type": "sort", "word": "b[a]ll", "column": 1, "source": "CONFIRMED", "clip": [18.32, 19.57]},
+            {"n": 9, "type": "sort", "word": "f[or]m", "column": 1, "source": "CONFIRMED", "clip": [20.81, 22.23]},
+            {"n": 10, "type": "sort", "word": "b[ough]t", "column": 1, "source": "CONFIRMED", "clip": [23.56, 24.75]},
+            {"n": 11, "type": "sort", "word": "f[our]", "column": 1, "source": "CONFIRMED", "clip": [26.18, 27.39]},
+            {"n": 12, "type": "sort", "word": "w[or]d", "column": 2, "source": "CONFIRMED", "clip": [28.33, 29.64]}
+          ]
+        },
+        {
+          "id": "9C-wb2a",
+          "origin": "WB",
+          "instruction": "Tap the stressed syllable",
+          "note": "WB 2a; 1 — пример",
+          "exercises": [
+            {"n": 2, "type": "stress", "text": "ma|rried", "stressed": [1]},
+            {"n": 3, "type": "stress", "text": "se|con|da|ry", "stressed": [1]},
+            {"n": 4, "type": "stress", "text": "pri|ma|ry", "stressed": [1]},
+            {"n": 5, "type": "stress", "text": "chil|dren", "stressed": [1]},
+            {"n": 6, "type": "stress", "text": "re|tire", "stressed": [2]},
+            {"n": 7, "type": "stress", "text": "u|ni|ver|si|ty", "stressed": [3]},
+            {"n": 8, "type": "stress", "text": "se|pa|rate", "stressed": [1]}
+          ]
+        },
+        {
+          "id": "9C-wb2b",
+          "origin": "WB",
+          "instruction": "Listen and check. Then listen again and repeat the words",
+          "note": "WB 2b (трек WB — аудио WB нет): Speak на слова 2a, образец — синтезатор",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "married, secondary, primary, children"},
+            {"n": 2, "type": "speak", "text": "retire, university, separate"}
+          ]
+        },
+        {
+          "id": "9C-wb2c",
+          "origin": "WB",
+          "instruction": "Which sound do the words have?",
+          "note": "WB 2c «Tick the pairs where both words have /ɔː/» → Sort по слову (horse /ɔː/, bird /ɜː/, clock /ɒ/); пара 1 short walk — пример",
+          "columns": ["horse /ɔː/", "bird /ɜː/", "clock /ɒ/"],
+          "exercises": [
+            {"n": 1, "type": "sort", "word": "f[or]m", "column": 1},
+            {"n": 2, "type": "sort", "word": "f[our]", "column": 1},
+            {"n": 3, "type": "sort", "word": "w[or]se", "column": 2},
+            {"n": 4, "type": "sort", "word": "sh[or]t", "column": 1},
+            {"n": 5, "type": "sort", "word": "m[or]e", "column": 1},
+            {"n": 6, "type": "sort", "word": "w[or]k", "column": 2},
+            {"n": 7, "type": "sort", "word": "sm[a]ll", "column": 1},
+            {"n": 8, "type": "sort", "word": "b[a]ll", "column": 1},
+            {"n": 9, "type": "sort", "word": "l[o]ng", "column": 3},
+            {"n": 10, "type": "sort", "word": "t[a]lk", "column": 1}
+          ]
+        },
+        {
+          "id": "9C-wb2d",
+          "origin": "WB",
+          "instruction": "Say the phrases",
+          "note": "WB 2d (трек WB — аудио WB нет): Speak, образец — синтезатор",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "Form Four"},
+            {"n": 2, "type": "speak", "text": "worse short"},
+            {"n": 3, "type": "speak", "text": "more work"},
+            {"n": 4, "type": "speak", "text": "small ball"},
+            {"n": 5, "type": "speak", "text": "long talk"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9C-skills",
+      "kind": "SKILLS",
+      "title": "Reading, Listening & Writing",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Clues in the tenses",
+          "text": "Janet Leigh died in 2004, so her paragraphs use the past simple (She was married four times). Jamie Lee Curtis is alive, so hers often use the present perfect (She has been married for more than 20 years)."
+        },
+        {
+          "type": "note",
+          "title": "Writing a biography",
+          "text": "Use the past simple for finished events in the person's life (He was born in 1970. He went to Harvard). Use the present perfect for things that are still true or for experiences up to now (He has appeared in over 70 films. He has been married since 2005)."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "9C-sb2b",
+          "origin": "SB",
+          "instruction": "Read the paragraphs. Is each one about Janet Leigh or Jamie Lee Curtis?",
+          "note": "SB 2a–b «JL or JLC» → Blank (принимаем имя или JL/JLC); ответы по тексту и времени глаголов (MODEL)",
+          "context": "Like mother, like daughter\n\nJanet Leigh (1927–2004) was one of film director Alfred Hitchcock's favourite actresses, and was in more than 50 films and many TV series. Her daughter Jamie Lee Curtis (1958–) is also a successful actress.",
+          "images": ["9c_sb2_scream", "9c_sb2_mother"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "She had two children from her third marriage to actor Tony Curtis. The marriage lasted 11 years. She then married again, and this marriage lasted for the rest of her life.\nThis is about {}.", "gaps": [["Janet Leigh", "JL", "Janet"]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "She has been in many different kinds of films, including the comedies Trading Places, A Fish Called Wanda, and True Lies, for which she won a Golden Globe Award for Best Actress in a Musical or Comedy. She has also starred in the comedy-horror TV series Scream Queens. In one episode she recreated the famous scream from Psycho.\nThis is about {}.", "gaps": [["Jamie Lee Curtis", "JLC", "Jamie"]], "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "She has been married for more than 20 years to actor, screenwriter, and director Christopher Guest. She became Lady Haden-Guest when her husband became Baron Haden-Guest after the death of his father.\nThis is about {}.", "gaps": [["Jamie Lee Curtis", "JLC", "Jamie"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "She was married four times. At the age of 15 (pretending to be 18) she married 18-year-old John Kenneth. They got divorced four months later.\nThis is about {}.", "gaps": [["Janet Leigh", "JL", "Janet"]], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "She has written several bestselling children's books. She says she finds the inspiration for her writing all around her – in the experiences of her children, her godchildren (one is actor Jake Gyllenhaal), her friends, and of course in her own life.\nThis is about {}.", "gaps": [["Jamie Lee Curtis", "JLC", "Jamie"]], "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "She is a fan of World of Warcraft, and has been to events such as ComicCon and BlizzCon.\nThis is about {}.", "gaps": [["Jamie Lee Curtis", "JLC", "Jamie"]], "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "Her most famous role was the victim in Psycho, for which she won the Golden Globe Award for Best Supporting Actress and received an Oscar nomination. However she was traumatized by the iconic shower scene, and for the rest of her life she never had showers, only baths.\nThis is about {}.", "gaps": [["Janet Leigh", "JL", "Janet"]], "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "She is close friends with actress Sigourney Weaver. In an interview, she admitted that she has never watched Weaver's film Alien the whole way through because she was too scared.\nThis is about {}.", "gaps": [["Jamie Lee Curtis", "JLC", "Jamie"]], "source": "MODEL"},
+            {"n": 9, "type": "blank", "text": "She was in five films, including Houdini, with Tony Curtis, and also starred opposite Frank Sinatra and Paul Newman.\nThis is about {}.", "gaps": [["Janet Leigh", "JL", "Janet"]], "source": "MODEL"},
+            {"n": 10, "type": "blank", "text": "She wrote four books. The first, the memoir There really was a Hollywood, became a New York Times bestseller.\nThis is about {}.", "gaps": [["Janet Leigh", "JL", "Janet"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9C-sb2c",
+          "origin": "SB",
+          "instruction": "Tell your partner what you can remember about Janet Leigh or Jamie Lee Curtis",
+          "note": "SB 2c (A — JL, B — JLC, пересказ по памяти) → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You have both read 'Like mother, like daughter' about Janet Leigh (1927–2004: more than 50 films, married four times, the victim in Psycho, never had showers after it, wrote four books) and her daughter Jamie Lee Curtis (born 1958: comedies and Scream Queens, married to Christopher Guest for more than 20 years, children's books, fan of World of Warcraft, never watched Alien). The student tells you what they remember about Janet Leigh; then you tell them about Jamie Lee Curtis. React and help with a question if they get stuck. Notice the tenses: past simple for Janet, present perfect for Jamie.",
+              "goal": "Tell your partner what you remember about Janet Leigh.",
+              "opener": "You start – what can you remember about Janet Leigh?",
+              "criteria": ["remembers at least four facts about Janet Leigh", "uses the past simple for Janet Leigh's life", "asks at least one question about Jamie Lee Curtis"],
+              "steps": [
+                {
+                  "text": "Say something about her films",
+                  "example": "She was in more than 50 films and her most famous role was in Psycho."
+                },
+                {
+                  "text": "Say something about her marriages",
+                  "example": "She was married four times. The first time she was only 15."
+                },
+                {
+                  "text": "Ask about Jamie Lee Curtis",
+                  "example": "What kind of films has Jamie Lee Curtis been in?"
+                }
+              ],
+              "pictures": [
+                {
+                  "label": "A",
+                  "image": "9c_sb2_mother",
+                  "caption": "Janet Leigh, an older woman with grey hair, and her daughter Jamie Lee Curtis, smiling together."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9C-sb4c",
+          "origin": "SB",
+          "instruction": "Listen to the radio programme about Duncan Jones. What is the connection between him and these things?",
+          "note": "SB 4a–c (9.16, скрипт SB p.124) → Blank по фактам; 1 Zowie Bowie — пример",
+          "audio": "9.16",
+          "context": "Duncan Jones is his real name, but when he was very young, he was called Zowie Bowie. His father was the famous singer David Bowie.",
+          "images": ["9c_sb4_duncan"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "UK, 1971: Duncan was {} in the UK in 1971.", "gaps": [["born"]], "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "Angie: She was David Bowie's first {}. He visited her until he was {}.", "gaps": [["wife"], ["13", "thirteen"]], "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "the drums, the saxophone and the piano: His father tried to get him to learn an {}, but he wasn't {}.", "gaps": [["instrument"], ["interested"]], "source": "CONFIRMED"},
+            {"n": 5, "type": "blank", "text": "an 8mm video camera: His father bought him one, and he used it to make {} with his Star Wars toys.", "gaps": [["films"]], "source": "CONFIRMED"},
+            {"n": 6, "type": "blank", "text": "the London Film School: After he left {}, he studied there to be a film {}.", "gaps": [["university"], ["director"]], "source": "CONFIRMED"},
+            {"n": 7, "type": "blank", "text": "commercials for French Connection and Heinz ketchup: In the early years of his career, he {} TV commercials.", "gaps": [["directed"]], "source": "CONFIRMED"},
+            {"n": 8, "type": "blank", "text": "Moon: It was his first {}, in 2006. He won the prize for best new British {}.", "gaps": [["film"], ["director"]], "source": "CONFIRMED"},
+            {"n": 9, "type": "blank", "text": "Source Code and Warcraft: They are more successful {} he has made.", "gaps": [["films"]], "source": "CONFIRMED"},
+            {"n": 10, "type": "blank", "text": "paparazzi: When he was a child there were often paparazzi around, which he {}. Even now he doesn't like being {}.", "gaps": [["hated"], ["photographed"]], "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "9C-sb4d",
+          "origin": "SB",
+          "instruction": "Have Jamie Lee Curtis and Duncan Jones been successful because their parents were famous?",
+          "note": "SB 4d → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). Discuss two questions: 1 Do you think Jamie Lee Curtis and Duncan Jones have been successful because their parents were famous, or because they are genuinely talented? 2 Is it more common for children to want to do the same job as their parents, or to do something completely different? Give your own opinion (Duncan Jones is talented because he never used his father's name; your mother is a teacher but you didn't want to be one). Ask the student for reasons and examples.",
+              "goal": "Give your opinion about children of famous parents.",
+              "opener": "What do you think – are they successful because their parents were famous?",
+              "criteria": ["gives an opinion with at least one reason", "answers the second question with an example", "asks for the partner's opinion"],
+              "steps": [
+                {
+                  "text": "Give your opinion about Jamie Lee Curtis and Duncan Jones",
+                  "example": "I think they are talented, but it was easier for them to start."
+                },
+                {
+                  "text": "Say if children usually do the same job as their parents",
+                  "example": "In my family nobody does the same job as their parents."
+                },
+                {
+                  "text": "Ask your partner's opinion",
+                  "example": "Would you like to do the same job as your parents?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9C-wr6b",
+          "origin": "SB",
+          "instruction": "Read the biography of Matt Damon. Put the verbs in the past simple or present perfect",
+          "note": "Writing 6 A biography (SB p.118) b; 1 was born — пример. Ключа нет (MODEL)",
+          "context": "Matt Damon is an American actor and film producer. He was born in 1970 in Cambridge, Massachusetts. His father Kent worked in finance, and his mother Nancy was a university professor.",
+          "images": ["9c_wr6_damon"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "His parents {} when he was two years old.", "gaps": [["divorced", "got divorced"]], "hint": "(divorce)", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "He {} with his mother and brother in a large house with five other families.", "gaps": [["lived"]], "hint": "(live)", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Matt Damon {} interested in acting when he was at high school,", "gaps": [["became"]], "hint": "(become)", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "and he {} in several school theatre productions.", "gaps": [["appeared"]], "hint": "(appear)", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "When he was 18 he {} to Harvard University to study English.", "gaps": [["went"]], "hint": "(go)", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "He {} a film script as part of his course – the script was for the film Good Will Hunting.", "gaps": [["wrote"]], "hint": "(write)", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "Matt and his friend Ben Affleck {} in the film and it made them famous.", "gaps": [["starred"]], "hint": "(star)", "source": "MODEL"},
+            {"n": 9, "type": "blank", "text": "They both {} an Oscar for Best Original Screenplay for their work on the script.", "gaps": [["won"]], "hint": "(win)", "source": "MODEL"},
+            {"n": 10, "type": "blank", "text": "Matt decided to become an actor and he {} university.", "gaps": [["didn't finish", "did not finish"]], "hint": "(not finish)", "source": "MODEL"},
+            {"n": 11, "type": "blank", "text": "Since then, Matt Damon {} one of the most successful actors in Hollywood.", "gaps": [["has become", "'s become"]], "hint": "(become)", "source": "MODEL"},
+            {"n": 12, "type": "blank", "text": "He {} in over 70 films, but he is most famous for playing Jason Bourne, a CIA assassin, in the Bourne films.", "gaps": [["has appeared", "'s appeared"]], "hint": "(appear)", "source": "MODEL"},
+            {"n": 13, "type": "blank", "text": "He {} many awards,", "gaps": [["has received", "'s received"]], "hint": "(receive)", "source": "MODEL"},
+            {"n": 14, "type": "blank", "text": "and in 2015 he {} a Golden Globe for Best Actor for his performance in The Martian.", "gaps": [["won"]], "hint": "(win)", "source": "MODEL"},
+            {"n": 15, "type": "blank", "text": "He {} married to Luciana Barroso since 2005. They live in Los Angeles with their four daughters.", "gaps": [["has been", "'s been"]], "hint": "(be)", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9C-wr6d",
+          "origin": "SB",
+          "instruction": "Write a biography of a person you know, or a famous person",
+          "note": "Writing 6 c–d + SB 5c → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Write a biography (about 150 words) of a person you know or a famous person. Use the past simple for finished events and the present perfect for things up to now.",
+              "questions": [
+                {
+                  "text": "Who is the person? When and where were they born?",
+                  "hint": "(… was born in…)"
+                },
+                {
+                  "text": "What did they do at school and after they left school?",
+                  "hint": "(When … was at school, …)"
+                },
+                {
+                  "text": "What important things happened later in their life?",
+                  "hint": "(In 20…, …)"
+                },
+                {
+                  "text": "What have they done since then? What do they do now?",
+                  "hint": "(Since then, … has…)"
+                }
+              ],
+              "criteria": ["writes about the person's past and present in logical order", "uses the past simple for finished events", "uses the present perfect (with for / since) for things up to now", "uses at least four biography verb phrases (be born, leave school, get married…)"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9C-grammar",
+      "kind": "GRAMMAR",
+      "title": "present perfect or past simple? (2)",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Finished or unfinished?",
+          "headers": ["Past simple (finished)", "Present perfect (unfinished)"],
+          "rows": [
+            ["How long was Janet Leigh married to Tony Curtis?", "How long has Jamie Lee Curtis been married?"],
+            ["She was married to him for 11 years.", "She's been married since 1984."],
+            ["How many books did she write?", "What kind of books has she written?"],
+            ["She wrote four books.", "She's written children's books."]
+          ],
+          "audio": "9.15"
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "Use the past simple for a finished period of time in the past: Janet Leigh was married to Tony Curtis for 11 years (they are not married now). Use the present perfect + for / since for an unfinished period of time, from the past until now: Jamie Lee Curtis has been married since 1984 (she is married now)."
+        },
+        {
+          "type": "note",
+          "title": "for with past simple and present perfect",
+          "text": "Jack was married for ten years = he isn't married now. Jack has been married for ten years = he is married now."
+        },
+        {
+          "type": "mistake",
+          "wrong": "She has been married to him for 11 years. (they are divorced)",
+          "right": "She was married to him for 11 years.",
+          "why": "A finished period in the past → past simple."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "9C-sb3a",
+          "origin": "SB",
+          "instruction": "Which sentences are about Janet Leigh? Which are about Jamie Lee Curtis?",
+          "note": "SB 3a (JL / JLC, почему разные времена — в explain)",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "She was in more than 50 films. → {}", "gaps": [["Janet Leigh", "JL", "Janet"]], "explain": "Past simple: a finished period – Janet Leigh died in 2004.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "She's been in many different kinds of films. → {}", "gaps": [["Jamie Lee Curtis", "JLC", "Jamie"]], "explain": "Present perfect: her career isn't finished.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "She was married four times. → {}", "gaps": [["Janet Leigh", "JL", "Janet"]], "explain": "Past simple: her life is finished.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "She's been married for more than 20 years. → {}", "gaps": [["Jamie Lee Curtis", "JLC", "Jamie"]], "explain": "Present perfect + for: she is still married.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "She's written several best-selling children's books. → {}", "gaps": [["Jamie Lee Curtis", "JLC", "Jamie"]], "explain": "Present perfect: she can still write more.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "She wrote four books. → {}", "gaps": [["Janet Leigh", "JL", "Janet"]], "explain": "Past simple: she can't write any more.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9C-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Choose the correct form",
+          "note": "GB 9C a Circle → Blank, варианты в hint; пример She's been ill since May. Ключа к GB нет (MODEL)",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Martin {} school two years ago.", "gaps": [["left"]], "hint": "(left / has left)", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "I {} in Cardiff for two years, but then I moved.", "gaps": [["lived"]], "hint": "(lived / 've lived)", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Anna {} in this company since April.", "gaps": [["'s been", "has been"]], "hint": "(was / 's been)", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "My sister {} her baby yesterday.", "gaps": [["had"]], "hint": "(had / has had)", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "I {} there for 20 years.", "gaps": [["'ve worked", "have worked"]], "hint": "(worked / 've worked)", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "The city {} a lot since I was a child.", "gaps": [["has changed", "'s changed"]], "hint": "(changed / has changed)", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "They {} only married for three years.", "gaps": [["were"]], "hint": "(were / have been)", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "I {} Sandra when I {} on holiday.", "gaps": [["met"], ["was"]], "hint": "(met / 've met; was / 've been)", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9C-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the dialogues with the present perfect or past simple",
+          "note": "GB 9C b; реплики диалога через перенос строки. Ключа к GB нет (MODEL)",
+          "dialogue": true,
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "How long {} there?\nHe {} there last September.", "gaps": [["has he lived"], ["moved"]], "hint": "(he / live; move)", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "When {}?\nIn 1973.\nHow long {} in France?\nFor almost 50 years. He {} Spain when he was 25.", "gaps": [["did Picasso die"], ["did he live"], ["left"]], "hint": "(Picasso / die; he / live; leave)", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "How long {} married?\nThey {} married since 1995.\nWhere did they meet?\nThey {} at university.\nWhat university {} to?", "gaps": [["have they been"], ["'ve been", "have been"], ["met"], ["did they go"]], "hint": "(they / be; be; meet; they / go)", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9C-sb5a",
+          "origin": "SB",
+          "instruction": "Interview your partner about an older person they know",
+          "note": "SB 5a–b → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). The student is going to tell you about an older person they know well (a friend or family member who is alive). Interview them with these questions: The past – When was he / she born? Where was he / she born? What did he / she do after he / she left school? The present – Where does he / she live now? How long has he / she lived there? What does he / she do? What does he / she do in his / her free time? Do you think he / she has had a good life? Why (not)? Ask for more information. Then tell them briefly about your grandmother (born in 1948 in a small village, a nurse, retired in 2010, has lived by the sea since then, loves gardening) and find something the two people have in common.",
+              "goal": "Tell your partner about an older person you know.",
+              "opener": "So, who are you going to tell me about?",
+              "criteria": ["answers the past questions with the past simple", "answers How long…? with the present perfect + for / since", "asks at least two questions about the partner's person"],
+              "steps": [
+                {
+                  "text": "Say who the person is and when they were born",
+                  "example": "I'm going to tell you about my grandfather. He was born in 1950."
+                },
+                {
+                  "text": "Say what they did after they left school",
+                  "example": "He got a job in a factory and then he got married."
+                },
+                {
+                  "text": "Say where they live now and how long",
+                  "example": "He lives in a village near the sea. He's lived there since 2012."
+                },
+                {
+                  "text": "Ask about your partner's person",
+                  "example": "When was she born? Where does she live now?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9C-wb3a",
+          "origin": "WB",
+          "instruction": "Is the action finished or unfinished?",
+          "note": "WB 3a «Write F or U» → Blank, варианты в hint; 1 — пример",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "I've been friends with Luke for a long time. → {}", "gaps": [["unfinished", "U"]], "hint": "(finished / unfinished)"},
+            {"n": 3, "type": "blank", "text": "We've lived here since 2010. → {}", "gaps": [["unfinished", "U"]], "hint": "(finished / unfinished)"},
+            {"n": 4, "type": "blank", "text": "Our family lived in Pakistan from 1998 to 2000. → {}", "gaps": [["finished", "F"]], "hint": "(finished / unfinished)"},
+            {"n": 5, "type": "blank", "text": "I've had this phone for nearly two years. → {}", "gaps": [["unfinished", "U"]], "hint": "(finished / unfinished)"},
+            {"n": 6, "type": "blank", "text": "I only had two days off school last year. → {}", "gaps": [["finished", "F"]], "hint": "(finished / unfinished)"},
+            {"n": 7, "type": "blank", "text": "Maria's worked here since 2017. → {}", "gaps": [["unfinished", "U"]], "hint": "(finished / unfinished)"},
+            {"n": 8, "type": "blank", "text": "My first wife and I separated for a year and then got divorced. → {}", "gaps": [["finished", "F"]], "hint": "(finished / unfinished)"}
+          ]
+        },
+        {
+          "id": "9C-wb3b",
+          "origin": "WB",
+          "instruction": "Complete the dialogues with the present perfect or past simple",
+          "note": "WB 3b; 1 — пример",
+          "dialogue": true,
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "When {} they {} married?\nI'm not sure, but they {} together for about ten years now.", "gaps": [["did"], ["get"], ["'ve been", "have been"]], "hint": "(get; be)"},
+            {"n": 3, "type": "blank", "text": "How long {} he {} here?\nNot long. He {} university in June.", "gaps": [["has"], ["worked"], ["finished"]], "hint": "(work; finish)"},
+            {"n": 4, "type": "blank", "text": "How long {} you {} your car?\nA long time! I {} it about ten years ago.", "gaps": [["have"], ["had"], ["bought"]], "hint": "(have; buy)"},
+            {"n": 5, "type": "blank", "text": "When {} Sandra {} her boyfriend?\nI don't know. She {} him for three years now.", "gaps": [["did"], ["meet"], ["'s known", "has known"]], "hint": "(meet; know)"},
+            {"n": 6, "type": "blank", "text": "How long {} you {} in London?\nNot long. I {} six months ago.", "gaps": [["have"], ["lived"], ["arrived"]], "hint": "(live; arrive)"}
+          ]
+        },
+        {
+          "id": "9C-wb3c",
+          "origin": "WB",
+          "instruction": "Write the questions",
+          "note": "WB 3c → Rewrite; 1 — пример",
+          "exercises": [
+            {"n": 2, "type": "rewrite", "prompt": "Where / you live when you were a child / ?", "answers": ["Where did you live when you were a child?"]},
+            {"n": 3, "type": "rewrite", "prompt": "When / you go to primary school / ?", "answers": ["When did you go to primary school?"]},
+            {"n": 4, "type": "rewrite", "prompt": "you enjoy school / ?", "answers": ["Did you enjoy school?"]},
+            {"n": 5, "type": "rewrite", "prompt": "Where / you go to secondary school / ?", "answers": ["Where did you go to secondary school?"]},
+            {"n": 6, "type": "rewrite", "prompt": "Where / you live now / ?", "answers": ["Where do you live now?"]},
+            {"n": 7, "type": "rewrite", "prompt": "How long / you live there / ?", "answers": ["How long have you lived there?"]},
+            {"n": 8, "type": "rewrite", "prompt": "Where / you work or study / ?", "answers": ["Where do you work or study?"]},
+            {"n": 9, "type": "rewrite", "prompt": "How long / you be there / ?", "answers": ["How long have you been there?"]}
+          ]
+        },
+        {
+          "id": "9C-wb3d",
+          "origin": "WB",
+          "instruction": "Answer the questions in c about you",
+          "note": "WB 3d → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Answer the questions about your life.",
+              "questions": [
+                {
+                  "text": "Where were you born?",
+                  "hint": "(I was born in…)"
+                },
+                {
+                  "text": "Where did you live when you were a child?",
+                  "hint": "(I lived…)"
+                },
+                {
+                  "text": "When did you go to primary school? Did you enjoy school?",
+                  "hint": "(I went…)"
+                },
+                {
+                  "text": "Where do you live now? How long have you lived there?",
+                  "hint": "(I live… I've lived there for / since…)"
+                },
+                {
+                  "text": "Where do you work or study? How long have you been there?",
+                  "hint": "(I work / study… I've been there…)"
+                }
+              ],
+              "criteria": ["answers all the questions in full sentences", "uses the past simple for finished periods", "uses the present perfect + for / since for unfinished periods"]
+            }
+          ]
+        },
+        {
+          "id": "9C-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Past simple or present perfect? Complete the sentences.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "I {} in London since 2019.", "gaps": [["'ve lived", "have lived"]], "hint": "(live)", "explain": "since + still true → present perfect.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "I {} in Paris for three years, but now I live in Rome.", "gaps": [["lived"]], "hint": "(live)", "explain": "A finished period → past simple.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Shakespeare {} 37 plays.", "gaps": [["wrote"]], "hint": "(write)", "explain": "He is dead – finished → past simple.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "She {} three novels so far.", "gaps": [["'s written", "has written"]], "hint": "(write)", "explain": "so far = until now → present perfect.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "They {} married for 50 years before he died.", "gaps": [["were"]], "hint": "(be)", "explain": "Finished period → past simple.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "We {} each other for ten years. We're still good friends.", "gaps": [["'ve known", "have known"]], "hint": "(know)", "explain": "Still true → present perfect.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "When {} to this school?", "gaps": [["did you come"]], "hint": "(you / come)", "explain": "When…? asks about a finished time → past simple.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "How long {} at this school?", "gaps": [["have you been"]], "hint": "(you / be)", "explain": "How long…? + unfinished → present perfect.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9C-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistake in the sentence.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "My grandfather **has been** a doctor for 40 years. He retired in 2010.", "answers": ["My grandfather was a doctor for 40 years. He retired in 2010."], "explain": "He retired – finished → past simple.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "I **know** her since we were children.", "answers": ["I've known her since we were children.", "I have known her since we were children."], "explain": "since + still true → present perfect.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "When **have you met** your husband?", "answers": ["When did you meet your husband?"], "explain": "When…? → past simple.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "She**'s left** school in 2015.", "answers": ["She left school in 2015."], "explain": "in 2015 = finished time → past simple.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "How long **are you** married?", "answers": ["How long have you been married?"], "explain": "How long…? + now → present perfect.", "source": "MODEL"},
+            {"n": 6, "type": "rewrite", "prompt": "They **have lived** in Spain from 2001 to 2008.", "answers": ["They lived in Spain from 2001 to 2008."], "explain": "from… to… = finished → past simple.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9C-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Write the question.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "She was married to him for 11 years. (How long…?)", "answers": ["How long was she married to him?"], "explain": "Finished → How long was…?", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "He's lived in Madrid since 2015. (How long…?)", "answers": ["How long has he lived in Madrid?"], "explain": "Unfinished → How long has…?", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "They got married in 2008. (When…?)", "answers": ["When did they get married?"], "explain": "When + past simple.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "I've had this car for two years. (How long…?)", "answers": ["How long have you had this car?", "How long have you had your car?"], "explain": "Unfinished → How long have you had…?", "source": "MODEL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9C-practical",
+      "kind": "PRACTICAL_ENGLISH",
+      "title": "Episode 5 · Getting around",
+      "note": "SB Practical English Episode 5 (p.76–77, PDF 77–78) и WB p.66. В книге — после File 9, поэтому в конце 9C. Скриптов PE в SB нет — ответы по роликам (расшифровка). Блок «Can you…?» — самооценка, не переносится.",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Directions",
+          "headers": ["Picture", "Phrase"],
+          "rows": [
+            ["1", "Turn left."],
+            ["2", "Go straight on."],
+            ["3", "Take the first turning on the right."],
+            ["4", "Turn right at the traffic lights."],
+            ["5", "Go round the roundabout and take the third exit."]
+          ],
+          "audio": "9.18"
+        },
+        {
+          "type": "table",
+          "title": "British and American English",
+          "headers": ["American English", "British English"],
+          "rows": [
+            ["restroom", "toilet"],
+            ["the subway", "the underground"]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Asking how to get there",
+          "headers": ["You say", "You hear"],
+          "rows": [
+            ["How do I get to Greenwich Village on the subway?", "Go to the subway station at Prospect Park. Take the B train to West 4th Street."],
+            ["How many stops is that?", "Six or seven."],
+            ["OK. And then?", "From West 4th Street take the A train, and get off at 14th Street."],
+            ["Could you say that again?", "From Prospect Park take the B train to West 4th Street, and then take the A train to 14th Street."],
+            ["Where's the restaurant?", "Come out of the subway on Eighth Avenue, go straight on for about 50 yards and take the first left."],
+            ["OK, thanks. See you later.", "And don't get lost!"]
+          ],
+          "audio": "9.19"
+        },
+        {
+          "type": "table",
+          "title": "Social English",
+          "headers": ["Situation", "Phrase"],
+          "rows": [
+            ["apologize", "I'm so sorry. / I said I'm sorry."],
+            ["refuse a suggestion", "I don't feel like a walk."],
+            ["say you're tired", "It's been a long day."],
+            ["apologize for what you said", "I didn't mean to say that."]
+          ],
+          "audio": "9.22"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "9C-pe1a",
+          "origin": "SB",
+          "instruction": "Watch Rob and Holly. Correct the false sentences. If a sentence is true, leave it as it is",
+          "note": "SB PE5 1a (9.17) «mark T or F» → Rewrite: неверное исправить, верное переписать как есть. Ответы по ролику: 1 T, 2 T, 3 F (date), 4 F (Rob не хочет — кофе заказывает Холли), 5 F (Jenny), 6 F (eight)",
+          "video": "ep5_holly_and_rob_in_brooklyn",
+          "images": ["9c_pe1_cafe"],
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "Rob has just done an interview.", "answers": ["Rob has just done an interview."], "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "He is in a hurry.", "answers": ["He is in a hurry.", "He's in a hurry."], "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "He has another interview in Manhattan.", "answers": ["He has a date in Manhattan.", "He's got a date in Manhattan.", "He has got a date in Manhattan."], "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "He has another coffee.", "answers": ["He doesn't have another coffee.", "He does not have another coffee.", "He doesn't want another coffee.", "He does not want another coffee."], "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "Barbara phones Rob.", "answers": ["Jenny phones Rob.", "Jennifer phones Rob."], "source": "MODEL"},
+            {"n": 6, "type": "rewrite", "prompt": "The restaurant is booked for seven o'clock.", "answers": ["The restaurant is booked for eight o'clock.", "The restaurant is booked for eight.", "The restaurant is booked for 8 o'clock.", "The restaurant is booked for 8."], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9C-pe1b",
+          "origin": "SB",
+          "instruction": "Watch again. Say why the F sentences are false",
+          "note": "SB PE5 1b; номера = номера предложений 1a",
+          "video": "ep5_holly_and_rob_in_brooklyn",
+          "exercises": [
+            {"n": 3, "type": "blank", "text": "He doesn't have an interview. He has a {} in Manhattan.", "gaps": [["date"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "He doesn't want another coffee because he doesn't want to be {}.", "gaps": [["late"]], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "{} phones Rob. Holly answers his phone.", "gaps": [["Jenny", "Jennifer"]], "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "The reservation at the restaurant is for {} o'clock.", "gaps": [["eight", "8"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9C-pe2a",
+          "origin": "SB",
+          "instruction": "Look at the pictures and complete the phrases. Then watch and check",
+          "note": "SB PE5 2a–b (9.18); картинки 1–5 из SB p.76 без номеров. Ответы по ролику",
+          "video": "ep5_vocab_directions",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Turn {}.", "gaps": [["left"]], "image": "9c_pe2a_1", "source": "CONFIRMED", "clip": [15.08, 16.54]},
+            {"n": 2, "type": "blank", "text": "Go {} on.", "gaps": [["straight"]], "image": "9c_pe2a_2", "source": "CONFIRMED", "clip": [22.15, 24.07]},
+            {"n": 3, "type": "blank", "text": "Take the {} turning on the right.", "gaps": [["second", "2nd"]], "image": "9c_pe2a_3", "source": "CONFIRMED", "clip": [29.81, 32.66]},
+            {"n": 4, "type": "blank", "text": "Turn right at the {} lights.", "gaps": [["traffic"]], "image": "9c_pe2a_4", "source": "CONFIRMED", "clip": [37.66, 40.52]},
+            {"n": 5, "type": "blank", "text": "Go round the {} and take the third exit.", "gaps": [["roundabout"]], "image": "9c_pe2a_5", "source": "CONFIRMED", "clip": [46.57, 50.47]}
+          ]
+        },
+        {
+          "id": "9C-pe2c",
+          "origin": "SB",
+          "instruction": "Look at the pictures and say the phrases",
+          "note": "SB PE5 2c «Cover the phrases… say» → Speak с образцом из ролика",
+          "video": "ep5_vocab_directions",
+          "images": ["9c_pe2a_1", "9c_pe2a_2", "9c_pe2a_3", "9c_pe2a_4", "9c_pe2a_5"],
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "Turn left.", "source": "CONFIRMED", "clip": [15.08, 16.54]},
+            {"n": 2, "type": "speak", "text": "Go straight on.", "source": "CONFIRMED", "clip": [22.15, 24.07]},
+            {"n": 3, "type": "speak", "text": "Take the second turning on the right.", "answers": ["Take the second turning on the right.", "Take the 2nd turning on the right."], "source": "CONFIRMED", "clip": [29.81, 32.66]},
+            {"n": 4, "type": "speak", "text": "Turn right at the traffic lights.", "source": "CONFIRMED", "clip": [37.66, 40.52]},
+            {"n": 5, "type": "speak", "text": "Go round the roundabout and take the third exit.", "answers": ["Go round the roundabout and take the third exit.", "Go around the roundabout and take the third exit.", "Go round the roundabout and take the 3rd exit."], "source": "CONFIRMED", "clip": [46.57, 50.47]}
+          ]
+        },
+        {
+          "id": "9C-pe3a",
+          "origin": "SB",
+          "instruction": "Watch Rob. Complete his route on the map",
+          "note": "SB PE5 3a (9.19) «Mark Rob's route on the map» → Blank по карте (линии и станции)",
+          "video": "ep5_asking_how_to_get_there",
+          "images": ["9c_pe3a_map"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Take the {} train from Prospect Park to {}. Then take the {} train and get off at {}.", "gaps": [["B"], ["West 4th Street", "West 4th St", "West Fourth Street", "W 4th Street"], ["A"], ["14th Street", "14th St", "Fourteenth Street"]], "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "9C-pe3b",
+          "origin": "SB",
+          "instruction": "Watch again. Complete the You hear phrases",
+          "note": "SB PE5 3b; пропуски 4–6 книги в одном пункте (одна реплика). Ответы — дословно из ролика",
+          "video": "ep5_asking_how_to_get_there",
+          "images": ["9c_pe3b_rob"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Go to the subway station at Prospect Park. {} the B train to West 4th Street.", "gaps": [["Take"]], "source": "CONFIRMED", "clip": [12.34, 19.39]},
+            {"n": 2, "type": "blank", "text": "From West 4th Street take the A train, and get {} at 14th Street.", "gaps": [["off"]], "source": "CONFIRMED", "clip": [26.52, 31.78]},
+            {"n": 3, "type": "blank", "text": "OK. From Prospect Park take the B train to West 4th Street, and then take the A train to 14th Street. That's only one {}.", "gaps": [["stop"]], "source": "CONFIRMED", "clip": [33.84, 44.51]},
+            {"n": 4, "type": "blank", "text": "Come out of the subway on Eighth Avenue, go {} on for about 50 yards and take the {} left. That's Greenwich Avenue. The restaurant's on the {}. It's called The Tea Set.", "gaps": [["straight"], ["first", "1st"], ["right"]], "source": "CONFIRMED", "clip": [47.04, 62.43]},
+            {"n": 5, "type": "blank", "text": "And don't get {}!", "gaps": [["lost"]], "source": "CONFIRMED", "clip": [65.78, 67.16]}
+          ]
+        },
+        {
+          "id": "9C-pe3c",
+          "origin": "SB",
+          "instruction": "Watch and repeat the You say phrases. Copy the rhythm",
+          "note": "SB PE5 3c (9.20)",
+          "video": "ep5_you_say",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "How do I get to Greenwich Village on the subway?", "source": "CONFIRMED", "clip": [5.86, 12.47]},
+            {"n": 2, "type": "speak", "text": "How many stops is that?", "source": "CONFIRMED", "clip": [24.64, 27.9]},
+            {"n": 3, "type": "speak", "text": "OK. And then?", "answers": ["OK. And then?", "Okay. And then?"], "source": "CONFIRMED", "clip": [35.92, 37.64]},
+            {"n": 4, "type": "speak", "text": "Could you say that again?", "source": "CONFIRMED", "clip": [49.02, 50.82]},
+            {"n": 5, "type": "speak", "text": "Where's the restaurant?", "answers": ["Where's the restaurant?", "Where is the restaurant?"], "source": "CONFIRMED", "clip": [67.76, 69.24]},
+            {"n": 6, "type": "speak", "text": "OK, thanks. See you later.", "answers": ["OK, thanks. See you later.", "Okay, thanks. See you later."], "source": "CONFIRMED", "clip": [91.74, 94.7]}
+          ]
+        },
+        {
+          "id": "9C-pe3e",
+          "origin": "SB",
+          "instruction": "Role-play: you are at Prospect Park. Ask how to get to a station on the map",
+          "note": "SB PE5 3d–e (B — ищет дорогу)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a New Yorker giving subway directions (level: pre-intermediate). The student is at Prospect Park (on the B line) and asks how to get somewhere. Choose a destination for them: Spring Street (on the A line). Give directions in short steps like the video: 'Go to the subway station at Prospect Park. Take the B train to West 4th Street. Then take the A train to Spring Street. That's only one stop.' Answer 'How many stops is that?' (about seven to West 4th Street) and repeat when they say 'Could you say that again?'. At the end ask them which station they have arrived at.",
+              "goal": "Ask for directions on the subway and follow them to the right station.",
+              "opener": "Hi! You look lost. Can I help you?",
+              "criteria": ["asks How do I get to… on the subway?", "asks How many stops is that? or OK. And then?", "asks Could you say that again? at least once", "says the correct station at the end"],
+              "steps": [
+                {
+                  "text": "Ask how to get to Spring Street",
+                  "example": "How do I get to Spring Street on the subway?"
+                },
+                {
+                  "text": "Ask how many stops",
+                  "example": "How many stops is that?"
+                },
+                {
+                  "text": "Ask what to do next",
+                  "example": "OK. And then?"
+                },
+                {
+                  "text": "Say which station you have arrived at",
+                  "example": "I'm at Spring Street."
+                }
+              ],
+              "pictures": [
+                {
+                  "label": "A",
+                  "image": "9c_pe3a_map",
+                  "caption": "A subway map of Manhattan and Brooklyn with the A line (blue) and the B line (orange). Stations on the B line from Prospect Park: Seventh Av, Atlantic Av, DeKalb Av, Grand St, Broadway-Lafayette St, West 4th St, 14th St, 23rd St, 34th St. The A line: Nostrand Av, Hoyt St-Schermerhorn St, Jay St-Metro Tech, High St, Fulton St, Chambers St, Canal St, Spring St, West 4th St, 14th St, 23rd St, 34th St."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9C-pe3f",
+          "origin": "SB",
+          "instruction": "Swap roles: give directions from Prospect Park to a station on the map",
+          "note": "SB PE5 3e–f (A — объясняет дорогу)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a tourist at Prospect Park in New York (level: pre-intermediate). You want to go to 34th Street (on the A and B lines). Ask the student how to get there on the subway: 'How do I get to 34th Street on the subway?' Then ask 'How many stops is that?', 'OK. And then?' and once 'Could you say that again?'. Follow the directions and at the end say which station you have arrived at. If the directions are wrong, say you are lost and ask again politely.",
+              "goal": "Give a tourist clear directions on the subway.",
+              "opener": "Excuse me, how do I get to 34th Street on the subway?",
+              "criteria": ["starts with Go to the subway station at…", "uses take the … train, get off at…", "answers How many stops is that?", "repeats the directions when asked"],
+              "steps": [
+                {
+                  "text": "Tell the tourist where to start",
+                  "example": "Go to the subway station at Prospect Park."
+                },
+                {
+                  "text": "Say which train to take",
+                  "example": "Take the B train to 34th Street."
+                },
+                {
+                  "text": "Answer the question about stops",
+                  "example": "It's about ten stops."
+                }
+              ],
+              "pictures": [
+                {
+                  "label": "A",
+                  "image": "9c_pe3a_map",
+                  "caption": "A subway map of Manhattan and Brooklyn with the A line (blue) and the B line (orange). Stations on the B line from Prospect Park: Seventh Av, Atlantic Av, DeKalb Av, Grand St, Broadway-Lafayette St, West 4th St, 14th St, 23rd St, 34th St. The A line: Nostrand Av, Hoyt St-Schermerhorn St, Jay St-Metro Tech, High St, Fulton St, Chambers St, Canal St, Spring St, West 4th St, 14th St, 23rd St, 34th St."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9C-pe4a",
+          "origin": "SB",
+          "instruction": "Watch Rob and Jenny. Is the date a success?",
+          "note": "SB PE5 4a (9.21)",
+          "video": "ep5_rob_is_late_again",
+          "images": ["9c_pe4_date"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "{}, it isn't. Rob is late again and Jenny wants to go home.", "gaps": [["No"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9C-pe4b",
+          "origin": "SB",
+          "instruction": "Watch again and answer the questions",
+          "note": "SB PE5 4b; свободные ответы переделаны в пропуски по тексту ролика",
+          "video": "ep5_rob_is_late_again",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "What excuse does Rob give for being late? There was a problem on the {}. The train stopped for about 20 minutes.", "gaps": [["underground", "subway"]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "How long has Jenny waited for him? She's been there since {}. She waited for an {}.", "gaps": [["7.45", "7:45", "quarter to eight", "a quarter to eight"], ["hour"]], "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "What does Rob suggest they do? Go back inside the {}.", "gaps": [["restaurant"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "What does Jenny say that Rob could do? He could meet up with {} again.", "gaps": [["Holly"]], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "Who is Rob interested in: Holly or Jenny? {}", "gaps": [["Jenny"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9C-pe4c",
+          "origin": "SB",
+          "instruction": "Complete the Social English phrases. Then watch and check",
+          "note": "SB PE5 4c–d (9.22); ответы — дословно из ролика",
+          "video": "ep5_social_english",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Rob: I'm so {}.", "gaps": [["sorry"]], "source": "CONFIRMED", "clip": [5.86, 7.82]},
+            {"n": 2, "type": "blank", "text": "Rob: I {} I'm sorry.", "gaps": [["said"]], "source": "CONFIRMED", "clip": [13.03, 14.96]},
+            {"n": 3, "type": "blank", "text": "Jenny: I don't {} like a walk.", "gaps": [["feel"]], "source": "CONFIRMED", "clip": [20.19, 22.28]},
+            {"n": 4, "type": "blank", "text": "Jenny: It's been a {} day.", "gaps": [["long"]], "source": "CONFIRMED", "clip": [27.4, 29.5]},
+            {"n": 5, "type": "blank", "text": "Jenny: I didn't {} to say that.", "gaps": [["mean"]], "source": "CONFIRMED", "clip": [34.75, 36.66]}
+          ]
+        },
+        {
+          "id": "9C-pe4d",
+          "origin": "SB",
+          "instruction": "Watch and repeat the Social English phrases",
+          "note": "SB PE5 4d (9.22)",
+          "video": "ep5_social_english",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "I'm so sorry.", "answers": ["I'm so sorry.", "I am so sorry."], "source": "CONFIRMED", "clip": [5.86, 7.82]},
+            {"n": 2, "type": "speak", "text": "I said I'm sorry.", "answers": ["I said I'm sorry.", "I said I am sorry."], "source": "CONFIRMED", "clip": [13.03, 14.96]},
+            {"n": 3, "type": "speak", "text": "I don't feel like a walk.", "answers": ["I don't feel like a walk.", "I do not feel like a walk."], "source": "CONFIRMED", "clip": [20.19, 22.28]},
+            {"n": 4, "type": "speak", "text": "It's been a long day.", "answers": ["It's been a long day.", "It has been a long day."], "source": "CONFIRMED", "clip": [27.4, 29.5]},
+            {"n": 5, "type": "speak", "text": "I didn't mean to say that.", "answers": ["I didn't mean to say that.", "I did not mean to say that."], "source": "CONFIRMED", "clip": [34.75, 36.66]}
+          ]
+        },
+        {
+          "id": "9C-pe4e",
+          "origin": "SB",
+          "instruction": "Complete conversations A–D with the Social English phrases",
+          "note": "SB PE5 4e; какая фраза в какую клетку — наше решение (MODEL)",
+          "dialogue": true,
+          "words": ["I'm so sorry", "I said I'm sorry", "I don't feel like a walk", "It's been a long day", "I didn't mean to say that"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Let's go to the park.\n{}. And anyway, it's raining.", "gaps": [["I don't feel like a walk", "I do not feel like a walk"]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "You're half an hour late!\n{}.\nThe dinner's cold.\n{}. The traffic was terrible.", "gaps": [["I'm so sorry", "I am so sorry"], ["I said I'm sorry", "I said I am sorry"]], "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Your mother is so annoying!\nMy mother? Annoying?\nSorry, {}.", "gaps": [["I didn't mean to say that", "I did not mean to say that"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Shall we watch a film on TV?\nNo, I'm tired. {}.", "gaps": [["It's been a long day", "It has been a long day"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9C-wbpe1a",
+          "origin": "WB",
+          "instruction": "Look at the picture. Write the phrase",
+          "note": "WB PE5 (WB p.66) 1a «Match the pictures and phrases» → Blank: фраза под картинку; 1 Turn left — c — пример",
+          "words": ["Go round the roundabout and take the third exit.", "Go straight on.", "Take the second turning on the right.", "Turn right at the traffic lights."],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "{}", "gaps": [["Go straight on.", "Go straight on"]], "image": "9c_wbpe1a_e"},
+            {"n": 3, "type": "blank", "text": "{}", "gaps": [["Take the second turning on the right.", "Take the second turning on the right"]], "image": "9c_wbpe1a_b"},
+            {"n": 4, "type": "blank", "text": "{}", "gaps": [["Turn right at the traffic lights.", "Turn right at the traffic lights"]], "image": "9c_wbpe1a_d"},
+            {"n": 5, "type": "blank", "text": "{}", "gaps": [["Go round the roundabout and take the third exit.", "Go round the roundabout and take the third exit"]], "image": "9c_wbpe1a_a"}
+          ]
+        },
+        {
+          "id": "9C-wbpe1b",
+          "origin": "WB",
+          "instruction": "Complete the directions",
+          "note": "WB PE5 1b; в книге даны первые буквы — у нас без них; 1 turn — пример. Пункт = предложение",
+          "context": "To get to the hotel, you need to turn right and go straight on until you get to the roundabout. Go round the roundabout and take the fourth exit. Then turn right at the traffic lights and take the second turning on the left. The hotel is called The King's Head and it's on the right.",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "To get to the hotel, you need to turn right and go {} on until you get to the roundabout.", "gaps": [["straight"]]},
+            {"n": 3, "type": "blank", "text": "Go {} the roundabout and take the fourth {}.", "gaps": [["round", "around"], ["exit"]]},
+            {"n": 4, "type": "blank", "text": "Then turn right at the traffic {} and {} the second turning on the {}.", "gaps": [["lights"], ["take"], ["left"]]},
+            {"n": 5, "type": "blank", "text": "The hotel is called The King's Head and it's on the {}.", "gaps": [["right"]]}
+          ]
+        },
+        {
+          "id": "9C-wbpe2a",
+          "origin": "WB",
+          "instruction": "Match 1–4 to a–d to make sentences",
+          "note": "WB PE5 2a; принимаем и окончание, и букву; 1 → d — пример",
+          "words": ["a OK, and then?", "b is that?", "c say that again?"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "Sorry, could you {}", "gaps": [["say that again?", "say that again", "c"]]},
+            {"n": 3, "type": "blank", "text": "So first I get to Columbus Circle.\n{}", "gaps": [["OK, and then?", "OK, and then", "OK and then?", "a"]]},
+            {"n": 4, "type": "blank", "text": "How many stops {}", "gaps": [["is that?", "is that", "b"]]}
+          ]
+        },
+        {
+          "id": "9C-wbpe2b",
+          "origin": "WB",
+          "instruction": "Complete the conversation with the sentences from the list",
+          "note": "WB PE5 2b; ¹ How do I get to SoHo on the subway? — пример. Пункт = реплика A между репликами B",
+          "dialogue": true,
+          "words": ["OK, thanks. See you later.", "OK. And then?", "How many stops is that?", "Could you say that again?", "Where is it?"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "Go to the subway station at Grand Central – 42nd Street. Take line 6 towards Brooklyn Bridge – City Hall. Get off at Spring Street.\n{}\nOK. Take line 6 from Grand Central – 42nd Street to Spring Street.", "gaps": [["Could you say that again?", "Could you say that again"]]},
+            {"n": 3, "type": "blank", "text": "OK. Take line 6 from Grand Central – 42nd Street to Spring Street.\n{}\nSeven.", "gaps": [["How many stops is that?", "How many stops is that"]]},
+            {"n": 4, "type": "blank", "text": "Seven.\n{}\nThen you can walk to the restaurant.", "gaps": [["OK. And then?", "OK. And then", "OK, and then?"]]},
+            {"n": 5, "type": "blank", "text": "Then you can walk to the restaurant.\n{}\nCome out of the subway on Spring Street. Go straight on for about 80 yards and the restaurant is on the right. It's called Balthazar.", "gaps": [["Where is it?", "Where is it"]]},
+            {"n": 6, "type": "blank", "text": "Come out of the subway on Spring Street. Go straight on for about 80 yards and the restaurant is on the right. It's called Balthazar.\n{}\nAnd don't get lost.", "gaps": [["OK, thanks. See you later.", "OK, thanks. See you later", "OK thanks. See you later."]]}
+          ]
+        },
+        {
+          "id": "9C-wbpe3",
+          "origin": "WB",
+          "instruction": "Complete the conversation with the words from the list",
+          "note": "WB PE5 3; ¹ so — пример",
+          "dialogue": true,
+          "context": "A: I'm so sorry I'm late. I missed the bus.",
+          "words": ["feel", "long", "mean", "said"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "But you're always late! I've already eaten now.\nI {} I'm sorry. Look, why don't we go for a walk? I can get a burger or something.", "gaps": [["said"]]},
+            {"n": 3, "type": "blank", "text": "I said I'm sorry. Look, why don't we go for a walk? I can get a burger or something.\nI don't {} like a walk. It's been a {} day and I'm tired.", "gaps": [["feel"], ["long"]]},
+            {"n": 4, "type": "blank", "text": "Listen. I'll take you home now. And tomorrow I'll make dinner for you at my house.\nOK. I suppose that way you can't be late! Sorry, I didn't {} to say that! I'm sure that'll be lovely.", "gaps": [["mean"]]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9C-review",
+      "kind": "REVIEW",
+      "title": "Can you remember…? 1–9",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Units 1–9",
+          "text": "This review mixes grammar, vocabulary and pronunciation from Files 1–9: should, superlatives, present perfect + for / since, something / anywhere…, have to / don't have to, second conditional."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "9C-rv1",
+          "origin": "WB",
+          "instruction": "Grammar. Choose the correct form",
+          "note": "WB Can you remember…? 1 Grammar, Circle → Blank; примера нет — с 1",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "I think you {} take the job. It's a great opportunity.", "gaps": [["should"]], "hint": "(would / should / need)"},
+            {"n": 2, "type": "blank", "text": "I love my new phone – it's the {} phone I've ever had.", "gaps": [["best"]], "hint": "(good / better / best)"},
+            {"n": 3, "type": "blank", "text": "Louisa {} at our school for three months now.", "gaps": [["'s been", "has been"]], "hint": "(was / 's / 's been)"},
+            {"n": 4, "type": "blank", "text": "We couldn't find {} to park near the cinema.", "gaps": [["anywhere"]], "hint": "(anywhere / somewhere / nowhere)"},
+            {"n": 5, "type": "blank", "text": "We {} get up early tomorrow because there's no school.", "gaps": [["don't have to"]], "hint": "(mustn't / don't have to / must)"},
+            {"n": 6, "type": "blank", "text": "If I had more time, {} all the housework myself.", "gaps": [["I'd do", "I would do"]], "hint": "(I'll do / do / I'd do)"}
+          ]
+        },
+        {
+          "id": "9C-rv2",
+          "origin": "WB",
+          "instruction": "Vocabulary. Write the word or phrase that is different",
+          "note": "WB Can you remember…? 2 «Circle the word that is different» → Blank",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "married, divorced, separated, retired → {}", "gaps": [["retired"]], "explain": "The others are about marriage."},
+            {"n": 2, "type": "blank", "text": "get fit, get to work, get to school, get home → {}", "gaps": [["get fit"]], "explain": "The others mean arrive."},
+            {"n": 3, "type": "blank", "text": "butterfly, wasp, goat, mosquito → {}", "gaps": [["goat"]], "explain": "The others are insects."},
+            {"n": 4, "type": "blank", "text": "extrovert, friendly, talkative, mean → {}", "gaps": [["mean"]], "explain": "The others are positive."},
+            {"n": 5, "type": "blank", "text": "castle, terminal, temple, palace → {}", "gaps": [["terminal"]], "explain": "The others are historic buildings."},
+            {"n": 6, "type": "blank", "text": "windy, dirty, foggy, cloudy → {}", "gaps": [["dirty"]], "explain": "The others are weather words."}
+          ]
+        },
+        {
+          "id": "9C-rv3",
+          "origin": "WB",
+          "instruction": "Pronunciation. Write the word with a different sound",
+          "note": "WB Can you remember…? 3a → Blank (как в 1C-rv3)",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "bird /ɜː/: word, beard, skirt, learn → {}", "gaps": [["beard"]]},
+            {"n": 2, "type": "blank", "text": "bull /ʊ/: good, would, blood, push → {}", "gaps": [["blood"]]},
+            {"n": 3, "type": "blank", "text": "chair /eə/: where, were, wear, bear → {}", "gaps": [["were"]]}
+          ]
+        },
+        {
+          "id": "9C-rv4",
+          "origin": "WB",
+          "instruction": "Pronunciation. Write the word with different stress",
+          "note": "WB Can you remember…? 3b → Blank",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "slowly, after, along → {}", "gaps": [["along"]], "explain": "along is stressed on the second syllable."},
+            {"n": 2, "type": "blank", "text": "exciting, expensive, beautiful → {}", "gaps": [["beautiful"]], "explain": "beautiful is stressed on the first syllable."},
+            {"n": 3, "type": "blank", "text": "decide, practise, repair → {}", "gaps": [["practise"]], "explain": "practise is stressed on the first syllable."}
+          ]
+        },
+        {
+          "id": "9C-rv5",
+          "origin": "WB",
+          "instruction": "Read the text. Complete each gap with the right word",
+          "note": "WB Can you remember…? 4 «Words of wisdom», a/b/c → Blank, варианты в hint",
+          "context": "Words of wisdom\n\nThere's one thing that everybody is happy to give you – their advice. But ___ people love giving advice, not many people ___ for it, and even fewer people actually take it. If we were lucky, our parents probably gave us some good advice when we were children. I remember ___ a good luck card from my mother before my school exams. It said 'You can only do your best, but DO it!' It was just an Irish mother's way of saying 'Be the best you can be!' Here are some words of wisdom ___ celebrities have found useful over the years.\n\nMy mother, Eve, always taught me you should never look back and worry about the mistakes you have ___. When something goes wrong, it's just another one of life's lessons. Move on to the next thing. – Sir Richard Branson, businessman\n\nA long time ago, my lovely grandmother told me: 'When you ___ somebody for the first time, try to ___ something nice to say about them. It always makes them happy.' She really made people happy, and I've always tried to be like her. – Jilly Cooper, writer\n\nThe ___ way to give advice to your children is to find out what they want and advise them to do it. – Harry S Truman, US President\n\n'Everything matters, but nothing matters very much.' I read this ___ and love it because it seems just right. – Deborah Moggach, writer\n\n___ give up, because if you keep believing and trying, anything can happen. – Goran Ivanisevic, tennis player",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "But {} people love giving advice, not many people ask for it.", "gaps": [["although"]], "hint": "(because / although / so)"},
+            {"n": 2, "type": "blank", "text": "Not many people {} for it, and even fewer people actually take it.", "gaps": [["ask"]], "hint": "(ask / tell / answer)"},
+            {"n": 3, "type": "blank", "text": "I remember {} a good luck card from my mother before my school exams.", "gaps": [["getting"]], "hint": "(got / to get / getting)"},
+            {"n": 4, "type": "blank", "text": "Here are some words of wisdom {} celebrities have found useful over the years.", "gaps": [["that"]], "hint": "(who / where / that)"},
+            {"n": 5, "type": "blank", "text": "You should never look back and worry about the mistakes you have {}.", "gaps": [["made"]], "hint": "(made / done / been)"},
+            {"n": 6, "type": "blank", "text": "When you {} somebody for the first time,", "gaps": [["meet"]], "hint": "(meet / know / look)"},
+            {"n": 7, "type": "blank", "text": "try to {} something nice to say about them.", "gaps": [["find"]], "hint": "(found / finding / find)"},
+            {"n": 8, "type": "blank", "text": "The {} way to give advice to your children is to find out what they want and advise them to do it.", "gaps": [["easiest"]], "hint": "(easy / easily / easiest)"},
+            {"n": 9, "type": "blank", "text": "I read this {} and love it because it seems just right.", "gaps": [["somewhere"]], "hint": "(someone / somewhere / something)"},
+            {"n": 10, "type": "blank", "text": "{} give up, because if you keep believing and trying, anything can happen.", "gaps": [["Never"]], "hint": "(Never / Ever / Always)"}
+          ]
+        }
+      ]
+    }
+  ]
+}

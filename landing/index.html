@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>English File Trainer</title>
+<meta name="description" content="An unofficial Android trainer for the English File Pre-Intermediate coursebook: every exercise typed in, with spaced repetition and an optional AI tutor.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <svg class="hero-wedges" viewBox="0 0 1440 720" preserveAspectRatio="none" aria-hidden="true">
+    <polygon points="0,0 900,0 520,720 0,720" fill="#12A3BF"/>
+    <polygon points="560,0 1120,0 700,720 300,720" fill="#1D4E9E" opacity=".9"/>
+    <polygon points="0,180 620,720 0,720" fill="#7FCBE0" opacity=".5"/>
+    <polygon points="820,0 930,0 560,720 470,720" fill="#FFFFFF" opacity=".16"/>
+  </svg>
+
+  <div class="hero-inner">
+    <p class="wordmark"><span class="wordmark-code">1A</span>English File Trainer</p>
+
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <h1>Your English File coursebook, as a daily workout</h1>
+        <p class="hero-lead">An Android app with all of English File Pre-Intermediate, 4th edition, inside. Every exercise from lesson 1A to 12C is on your phone, and whatever you start to forget comes back for review on its own.</p>
+      </div>
+
+      <figure class="hero-phone">
+        <img class="phone" src="img/main.png" width="390" height="844" alt="Home screen: lesson 1A, progress by section and a Review button">
+        <span class="bubble bubble-a" aria-hidden="true">What do you do?</span>
+        <span class="bubble bubble-b" aria-hidden="true">I’m at university.</span>
+      </figure>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="try" aria-labelledby="try-title">
+    <div class="try-card">
+      <h2 id="try-title" class="try-title">Try one</h2>
+      <form class="drill" id="drill" autocomplete="off" novalidate>
+        <p class="drill-instr"><span class="tag tag-g" title="Grammar">G</span>Complete the question</p>
+        <p class="drill-line en">
+          <label for="gap" class="visually-hidden">Missing words</label>
+          Where <input id="gap" class="gap" type="text" spellcheck="false" autocapitalize="off" size="8"> born?
+          <span class="drill-hint">(you / be)</span>
+        </p>
+        <div class="drill-actions">
+          <button class="drill-check" type="submit" id="check">Check</button>
+          <button class="drill-again" type="button" id="again" hidden>Try again</button>
+        </div>
+        <p class="drill-result" id="result" role="status" aria-live="polite"></p>
+      </form>
+      <p class="try-note">There are no options to pick from. You recall the answer and type it, in every exercise of the app.</p>
+    </div>
+  </section>
+
+  <section class="day" aria-labelledby="day-title">
+    <div class="wrap">
+      <h2 id="day-title">How a day goes</h2>
+      <p class="section-lead">The home screen has one button, and it walks you through the day. A session is 20 exercises at most.</p>
+
+      <ol class="steps">
+        <li class="step step-1">
+          <div class="step-head">
+            <span class="step-num" aria-hidden="true">1</span>
+            <h3>Review</h3>
+          </div>
+          <p>First, what is due from earlier lessons. The FSRS algorithm picks the day for each exercise, and irregular verbs join in too.</p>
+          <img class="phone" src="img/session-ok.png" width="390" height="844" loading="lazy" alt="An exercise answered correctly: Where were you born?">
+        </li>
+        <li class="step step-2">
+          <div class="step-head">
+            <span class="step-num" aria-hidden="true">2</span>
+            <h3>Continue</h3>
+          </div>
+          <p>Then the next part of your lesson, in the same order as the book, with the Grammar Bank rules one tap away.</p>
+          <img class="phone" src="img/session-typing.png" width="390" height="844" loading="lazy" alt="A word order exercise: the answer is typed into a field">
+        </li>
+        <li class="step step-3">
+          <div class="step-head">
+            <span class="step-num" aria-hidden="true">3</span>
+            <h3>Practice</h3>
+          </div>
+          <p>Finished the lesson today? Practice goes round it again, starting with your mistakes. The next lesson opens tomorrow.</p>
+          <img class="phone" src="img/sessiondone.png" width="390" height="844" loading="lazy" alt="Session summary: 3 of 4 right first time, day 5 in a row, mistakes back tomorrow">
+        </li>
+      </ol>
+
+      <p class="day-rule">A mistake never just disappears: the exercise comes back at the end of the session. It counts as learned after three right answers in a row, on different days.</p>
+    </div>
+  </section>
+
+  <section class="book" aria-labelledby="book-title">
+    <div class="wrap">
+      <h2 id="book-title">The whole book inside</h2>
+      <p class="section-lead">All 36 lessons, from 1A to 12C, with the book’s own pictures, audio and Practical English videos built in. No internet needed.</p>
+
+      <dl class="counts">
+        <div class="count count-ex"><dt>exercises</dt><dd>7,687</dd></div>
+        <div class="count count-img"><dt>pictures</dt><dd>490</dd></div>
+        <div class="count count-audio"><dt>audio tracks</dt><dd>269</dd></div>
+        <div class="count count-video"><dt>videos</dt><dd>36</dd></div>
+      </dl>
+      <p class="counts-note">6,232 exercises come from the Student’s Book and Workbook. The other 1,455 are extra practice on the same rules, so reviews don’t repeat the same sentences.</p>
+
+      <ol class="files" aria-label="Lessons of the book, by File">
+        <li class="file" style="--file:#12A3BF"><span class="file-name">File 1</span><span class="lesson"><span>1A</span></span><span class="lesson"><span>1B</span></span><span class="lesson"><span>1C</span></span><span class="lesson-extra">PE</span></li>
+        <li class="file" style="--file:#E8762B"><span class="file-name">File 2</span><span class="lesson"><span>2A</span></span><span class="lesson"><span>2B</span></span><span class="lesson"><span>2C</span></span><span class="lesson-extra">R&amp;C</span></li>
+        <li class="file" style="--file:#4FA64A"><span class="file-name">File 3</span><span class="lesson"><span>3A</span></span><span class="lesson"><span>3B</span></span><span class="lesson"><span>3C</span></span><span class="lesson-extra">PE</span></li>
+        <li class="file" style="--file:#1D4E9E"><span class="file-name">File 4</span><span class="lesson"><span>4A</span></span><span class="lesson"><span>4B</span></span><span class="lesson"><span>4C</span></span><span class="lesson-extra">R&amp;C</span></li>
+        <li class="file" style="--file:#C2407E"><span class="file-name">File 5</span><span class="lesson"><span>5A</span></span><span class="lesson"><span>5B</span></span><span class="lesson"><span>5C</span></span><span class="lesson-extra">PE</span></li>
+        <li class="file" style="--file:#2B8C9E"><span class="file-name">File 6</span><span class="lesson"><span>6A</span></span><span class="lesson"><span>6B</span></span><span class="lesson"><span>6C</span></span><span class="lesson-extra">R&amp;C</span></li>
+        <li class="file" style="--file:#12A3BF"><span class="file-name">File 7</span><span class="lesson"><span>7A</span></span><span class="lesson"><span>7B</span></span><span class="lesson"><span>7C</span></span><span class="lesson-extra">PE</span></li>
+        <li class="file" style="--file:#E8762B"><span class="file-name">File 8</span><span class="lesson"><span>8A</span></span><span class="lesson"><span>8B</span></span><span class="lesson"><span>8C</span></span><span class="lesson-extra">R&amp;C</span></li>
+        <li class="file" style="--file:#4FA64A"><span class="file-name">File 9</span><span class="lesson"><span>9A</span></span><span class="lesson"><span>9B</span></span><span class="lesson"><span>9C</span></span><span class="lesson-extra">PE</span></li>
+        <li class="file" style="--file:#1D4E9E"><span class="file-name">File 10</span><span class="lesson"><span>10A</span></span><span class="lesson"><span>10B</span></span><span class="lesson"><span>10C</span></span><span class="lesson-extra">R&amp;C</span></li>
+        <li class="file" style="--file:#C2407E"><span class="file-name">File 11</span><span class="lesson"><span>11A</span></span><span class="lesson"><span>11B</span></span><span class="lesson"><span>11C</span></span><span class="lesson-extra">PE</span></li>
+        <li class="file" style="--file:#2B8C9E"><span class="file-name">File 12</span><span class="lesson"><span>12A</span></span><span class="lesson"><span>12B</span></span><span class="lesson"><span>12C</span></span><span class="lesson-extra">R&amp;C</span></li>
+      </ol>
+      <p class="files-legend"><span class="legend-item"><span class="legend-pe">PE</span> Practical English episode with video</span> <span class="legend-item"><span class="legend-rc">R&amp;C</span> Revise and Check</span></p>
+    </div>
+  </section>
+
+  <section class="kinds" aria-labelledby="kinds-title">
+    <div class="wrap">
+      <h2 id="kinds-title">What you do</h2>
+      <p class="section-lead">Recalling an answer teaches more than recognising it, so everything is typed or said out loud. The number shows how many of each are in the app.</p>
+
+      <ul class="kind-list">
+        <li class="kind" style="--share:100%">
+          <span class="kind-name">Fill the gap</span>
+          <span class="kind-example en">I ___ in a bank. <i>(work)</i></span>
+          <span class="kind-count">5,026</span>
+        </li>
+        <li class="kind" style="--share:21.3%">
+          <span class="kind-name">Rewrite the sentence</span>
+          <span class="kind-example en">girlfriend / student / is / a / your</span>
+          <span class="kind-count">1,069</span>
+        </li>
+        <li class="kind kind-p" style="--share:17%">
+          <span class="kind-name">Say it out loud</span>
+          <span class="kind-example en">What do you do?</span>
+          <span class="kind-count">853</span>
+        </li>
+        <li class="kind kind-p" style="--share:7%">
+          <span class="kind-name">Sort words by sound</span>
+          <span class="kind-example en">fish, tree, big, meet</span>
+          <span class="kind-count">352</span>
+        </li>
+        <li class="kind kind-p" style="--share:3.4%">
+          <span class="kind-name">Mark the stress</span>
+          <span class="kind-example en">pho<u>to</u>grapher</span>
+          <span class="kind-count">171</span>
+        </li>
+        <li class="kind kind-ai" style="--share:2.4%">
+          <span class="kind-name">Talk with AI in a role</span>
+          <span class="kind-example en">Call reception about your room.</span>
+          <span class="kind-count">122</span>
+        </li>
+        <li class="kind kind-ai" style="--share:1.6%">
+          <span class="kind-name">Write, checked by AI</span>
+          <span class="kind-example en">Plan and write your profile.</span>
+          <span class="kind-count">80</span>
+        </li>
+        <li class="kind" style="--share:.3%">
+          <span class="kind-name">Put in order</span>
+          <span class="kind-example en">Number the pictures 1–6.</span>
+          <span class="kind-count">14</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="extras" aria-labelledby="ai-title">
+    <div class="wrap extras-grid">
+      <div class="extras-copy">
+        <h2 id="ai-title">An AI tutor, if you want one</h2>
+        <p>Built in, with no key to paste and no account:</p>
+        <dl class="ai-list">
+          <div><dt class="en">Why?</dt><dd>after a mistake, a short explanation in simple English, based on the rules of the section.</dd></div>
+          <div><dt class="en">Ask AI</dt><dd>after a right answer, ask anything about the exercise.</dd></div>
+          <div><dt class="en">Talk</dt><dd>role-play dialogues from the lessons. The AI plays the other person and checks you did the task.</dd></div>
+          <div><dt class="en">Write</dt><dd>short texts and opinions, marked with up to six corrections.</dd></div>
+        </dl>
+        <p class="offline">Offline these buttons are simply hidden and everything else works. Your progress stays on the phone.</p>
+      </div>
+      <div class="ai-phones">
+        <img class="phone" src="img/session-bad.png" width="390" height="844" loading="lazy" alt="A wrong answer with the correct version, What did you do last night?, and a short explanation">
+        <img class="phone" src="img/talk.png" width="390" height="844" loading="lazy" alt="A Talk role-play: the AI plays a hotel receptionist">
+      </div>
+    </div>
+  </section>
+
+  <section class="progress" aria-labelledby="progress-title">
+    <div class="wrap extras-grid extras-grid-flip">
+      <img class="phone extras-phone" src="img/stats.png" width="390" height="844" loading="lazy" alt="Progress screen: 5 days in a row, activity calendar, weak spots">
+      <div class="extras-copy">
+        <h2 id="progress-title">See where you slip</h2>
+        <p>Your streak, a calendar of the days you practised, and weak spots: the topics with the most mistakes in the last two weeks. Tap a topic to open its section.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <p class="status">A personal project. It is not in any app store yet.</p>
+    <p class="disclaimer">An unofficial trainer for English File Pre-Intermediate (4th edition). The app is not affiliated with the publisher of the coursebook; the book’s texts, audio, pictures and videos belong to their copyright holder.</p>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

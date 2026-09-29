@@ -10,7 +10,7 @@ import dev.eftrainer.data.ChapterRepository
 import dev.eftrainer.data.ProgressRepository
 import dev.eftrainer.data.SkipLog
 import dev.eftrainer.data.ai.AiClient
-import dev.eftrainer.data.ai.AiSettings
+import dev.eftrainer.data.ai.AiServer
 import dev.eftrainer.data.ai.Connectivity
 import dev.eftrainer.data.ai.aiAvailable
 import dev.eftrainer.data.content.Chapters
@@ -49,7 +49,7 @@ class AppContainer(
     val answers = AnswerLog(db.answerDao(), appScope)
     val skips = SkipLog(db.skippedDao())
     val learning = Learning(progress, chapters, clock, answers, skips)
-    val ai = AiSettings(context)
+    val ai = AiServer.fromBuildConfig()
     val aiClient = AiClient(ai)
     val connectivity = Connectivity(context)
     val generated = GeneratedRepository(db.generatedDao())

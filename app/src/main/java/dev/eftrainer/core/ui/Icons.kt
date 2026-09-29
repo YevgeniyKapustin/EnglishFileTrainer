@@ -113,7 +113,6 @@ object Icons {
                 fill = SolidColor(Color.Black),
             ).build()
     val Note = svg("M9 18V5l12-2v13M3 18a3 3 0 1 0 6 0a3 3 0 1 0 -6 0zM15 16a3 3 0 1 0 6 0a3 3 0 1 0 -6 0z")
-    val Key = svg("M4 15a4 4 0 1 0 8 0a4 4 0 1 0 -8 0zM10.8 12.2l8.2-8.2M16 7l3 3M14 9l2 2")
 
     private fun svg(
         d: String,

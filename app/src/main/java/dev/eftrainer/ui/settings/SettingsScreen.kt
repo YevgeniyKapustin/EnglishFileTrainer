@@ -48,8 +48,6 @@ import dev.eftrainer.data.settings.VoiceSettings
 import dev.eftrainer.ui.appContainer
 import dev.eftrainer.ui.exercise.inputs.SpeakerIcon
 
-private val AiTileColor = Color(0xFF7A5BC7)
-
 @Composable
 fun SettingsScreen(
     onBack: () -> Unit,
@@ -57,7 +55,6 @@ fun SettingsScreen(
     modifier: Modifier = Modifier,
     vm: SettingsViewModel = settingsViewModel(),
 ) {
-    val key by vm.key.collectAsStateWithLifecycle()
     val mode by vm.theme.collectAsStateWithLifecycle()
     val sounds by vm.sounds.collectAsStateWithLifecycle()
     val soundVolume by vm.soundVolume.collectAsStateWithLifecycle()
@@ -75,16 +72,6 @@ fun SettingsScreen(
             VoiceFold(vm.voice, onVoice)
             SoundsFold(sounds, soundVolume, vm::setSounds, vm::setSoundVolume, vm::sampleSound)
             ReminderFold(reminder, reminderTime, vm::setReminder, vm::setReminderTime)
-            SettingsFold(stringResource(R.string.ai_key), AiTileColor to Icons.Key, summary = { AiKeySummary(key) }) {
-                AiKey(
-                    key = key,
-                    input = vm.keyInput,
-                    checking = vm.checking,
-                    error = vm.error,
-                    onEdit = vm::editKey,
-                    onRemove = vm::remove,
-                )
-            }
         }
     }
 }

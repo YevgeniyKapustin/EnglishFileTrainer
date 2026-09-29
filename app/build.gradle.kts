@@ -10,6 +10,17 @@ plugins {
     alias(libs.plugins.ktlint)
 }
 
+val localProperties =
+    Properties().apply {
+        rootProject
+            .file("local.properties")
+            .takeIf { it.exists() }
+            ?.inputStream()
+            ?.use(::load)
+    }
+
+fun localString(name: String) = "\"${localProperties.getProperty(name, "").trim()}\""
+
 android {
     namespace = "dev.eftrainer"
     compileSdk = 37
@@ -20,6 +31,8 @@ android {
         targetSdk = 37
         versionCode = 1
         versionName = "0.1"
+        buildConfigField("String", "AI_SERVER_URL", localString("ai.serverUrl"))
+        buildConfigField("String", "AI_APP_KEY", localString("ai.appKey"))
     }
 
     val keystore =
@@ -56,6 +69,7 @@ android {
 
     buildFeatures {
         compose = true
+        buildConfig = true
     }
 
     lint {

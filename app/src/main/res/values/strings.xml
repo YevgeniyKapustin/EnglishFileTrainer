@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">English File</string>
 
     <string name="all_chapters">All chapters</string>
@@ -18,7 +18,6 @@
         <item quantity="other">%1$d days</item>
     </plurals>
     <string name="in_a_row">in a row</string>
-    <string name="best_streak">best %1$d</string>
     <string name="day_in_a_row">Day %1$d in a row</string>
     <plurals name="week_days">
         <item quantity="one">%1$d day</item>
@@ -31,6 +30,8 @@
     <string name="week_minutes">%1$d min</string>
     <string name="this_week">This week:</string>
     <string name="weak_spots">Weak spots</string>
+    <string name="weak_spots_hint">Topics with the most mistakes in the last 2 weeks</string>
+    <string name="right_of" tools:ignore="PluralsCandidate">%1$d of %2$d right</string>
     <plurals name="chapters_of">
         <item quantity="one">%1$d of %2$d chapters</item>
         <item quantity="other">%1$d of %2$d chapters</item>
@@ -63,7 +64,8 @@
     <string name="ask_ai">Ask</string>
     <string name="answer_back">Now answer it</string>
     <string name="thinking">Thinking…</string>
-    <string name="ai_bad_key">The AI key doesn’t work. Check it in Settings.</string>
+    <string name="ai_unavailable">AI isn’t available right now.</string>
+    <string name="ai_limit">AI limit reached. Try again later.</string>
     <string name="ai_no_connection">No connection. Tap to try again.</string>
     <string name="ai_failed">Something went wrong. Tap to try again.</string>
 
@@ -95,19 +97,6 @@
     <string name="voice_current">%1$s · %2$d</string>
     <string name="voice_more">Get more voices</string>
     <string name="voice_preview">Hi, nice to meet you. Where are you from?</string>
-    <string name="ai_key">AI key</string>
-    <string name="ai_key_not_set">Not set</string>
-    <string name="ai_key_state">On · %1$s · …%2$s</string>
-    <string name="ai_key_placeholder">Paste your API key</string>
-    <string name="ai_key_any">Works with any of these:</string>
-    <string name="ai_key_of">%1$s key</string>
-    <string name="ai_key_unknown">This doesn’t look like a key from these:</string>
-    <string name="ai_key_local">The key stays on this phone.</string>
-    <string name="ai_key_checking">Checking…</string>
-    <string name="ai_key_bad">This key doesn’t work.</string>
-    <string name="ai_key_offline">No connection. Try again.</string>
-    <string name="ai_key_failed">Something went wrong. Try again.</string>
-    <string name="ai_key_remove">Remove key</string>
 
     <string name="ef_grammar_bank">Grammar Bank %1$s</string>
     <string name="ef_score">%1$d/%2$d</string>

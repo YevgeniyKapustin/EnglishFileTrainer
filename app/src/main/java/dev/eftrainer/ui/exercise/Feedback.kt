@@ -267,7 +267,8 @@ private fun AskAi(
 
 fun aiErrorRes(reason: AiException.Reason): Int =
     when (reason) {
-        AiException.Reason.BAD_KEY, AiException.Reason.NO_KEY -> R.string.ai_bad_key
+        AiException.Reason.UNAVAILABLE -> R.string.ai_unavailable
+        AiException.Reason.LIMIT -> R.string.ai_limit
         AiException.Reason.NETWORK -> R.string.ai_no_connection
         AiException.Reason.SERVER -> R.string.ai_failed
     }

@@ -1,0 +1,619 @@
+{
+  "id": "9B",
+  "title": "Fearof.net",
+  "bubbles": ["Do you have any phobias?", "Yes, I've been afraid of heights since I was a child."],
+  "sources": "SB p.72–73 (PDF 73–74), Grammar Bank p.142–143 (PDF 143–144), script 9.6 p.124 (PDF 125); WB p.62–63 (PDF 61–62), key WB p.93 (PDF 92). Scripts 9.8–9.11 are not printed in the SB (answers by the recordings)",
+  "sections": [
+    {
+      "id": "9B-skills",
+      "kind": "SKILLS",
+      "title": "Reading & Listening",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Phobias",
+          "headers": ["Fear of…", "Example"],
+          "rows": [
+            ["driving", "Some people are anxious on motorways or certain roads."],
+            ["butterflies", "People with this phobia are afraid of most insects with wings."],
+            ["doctors", "Many are especially afraid of having vaccinations or blood tests."],
+            ["heights", "People with this phobia usually avoid tall buildings, skiing, or standing on balconies."],
+            ["crowds", "These people feel very anxious if they are in a noisy place where there are a lot of people."]
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Reading comments",
+          "text": "Look for key words in each comment (dentists, bridges, flying near me, a lot of people, high places) to match it to a phobia."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "9B-sb1b",
+          "origin": "SB",
+          "instruction": "Read the website and complete the headings with a phobia from the list",
+          "note": "SB 1b; фото из SB p.72 (images). Ответы наши (MODEL)",
+          "images": ["9b_sb1b_photos", "9b_sb1b_butterfly"],
+          "words": ["butterflies", "crowds", "doctors", "driving", "heights"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Fear of {}: Some people with this phobia find it difficult to pass the test. Others are anxious on motorways or certain roads. In extreme cases, people are afraid of being a passenger in a vehicle.", "gaps": [["driving"]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Fear of {}: People say that actress Nicole Kidman suffers from this phobia. It is closely linked to a general fear of insects. People with this phobia are afraid of most insects with wings, and they feel nauseous or they panic if they see them.", "gaps": [["butterflies"]], "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Fear of {}: This phobia is quite common in young children, but adults suffer from it, too. Many are especially afraid of having vaccinations or blood tests.", "gaps": [["doctors"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Fear of {}: This fear affects nearly one in every 20 adults. People with this phobia usually avoid tall buildings, skiing, or standing on balconies.", "gaps": [["heights"]], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "Fear of {}: This phobia affects many people, but women more than men. These people feel very anxious or scared if they are in a noisy place where there are a lot of people, for example a shopping mall or a sports stadium. They often avoid these kinds of places.", "gaps": [["crowds"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9B-sb1c",
+          "origin": "SB",
+          "instruction": "Read some comments from the website. Which phobia is each person talking about?",
+          "note": "SB 1c: A–E → 1–5 → Blank «Fear of {}» (принимаем и фобию, и номер). A=3, B=1, C=2, D=5, E=4 (MODEL)",
+          "words": ["butterflies", "crowds", "doctors", "driving", "heights"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Carl: I am so scared that I haven't been to see one for more than 15 years. I hate thinking about them! I feel the same way about dentists, too.\nFear of {}", "gaps": [["doctors", "3"]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Becky: I have a fear of going over bridges, and on motorways at over 60 mph. I'm OK at 45 mph. I once went over a bridge and I had to stop in the middle – I was really frightened. I haven't driven that way since then, and that was seven years ago.\nFear of {}", "gaps": [["driving", "1"]], "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Mina: I thought I was the only person that had this fear! I'm OK with the small ones, but I'm terrified of the big ones. I'm OK if they aren't close to me, but as soon as they start flying near me I run away. I like looking at pictures of them because they can be beautiful, but if they fly towards me, especially towards my face, I panic.\nFear of {}", "gaps": [["butterflies", "2"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Simon: I suffer from this phobia, and what works best for me, if I know that I'm going to be in a situation where there'll be a lot of people, is to arrive early. Then other people arrive little by little, and that helps me. The worst thing is walking into a place that is already full of people.\nFear of {}", "gaps": [["crowds", "5"]], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "Keith: I've had this phobia for about 20 years. It started when I was a child, about six I think. I had a bad dream where I was in a block of flats high up on a hill and I nearly fell out of the window. I woke up and started crying. I haven't been to any really high places since then. Even if I imagine I'm in a high place, I feel dizzy.\nFear of {}", "gaps": [["heights", "4"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9B-sb1e",
+          "origin": "SB",
+          "instruction": "Do you have a phobia? Do you know anyone who has one?",
+          "note": "SB 1a+1e → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You have both read the fearof.net website about phobias (driving, butterflies, doctors, heights, crowds). Ask the student if they have a phobia or know anyone who has one: what are they afraid of, how long have they had it, how does it affect their life. Say that your brother has been afraid of flying since he was a teenager and he always goes on holiday by train. Use and encourage the present perfect with for and since.",
+              "goal": "Talk about phobias you or people you know have.",
+              "opener": "Do you have any phobias? Or do you know anyone who has one?",
+              "criteria": ["says what they (or someone they know) are afraid of", "says how long with the present perfect + for / since", "uses at least two words from the lesson (afraid of, scared, terrified, panic, dizzy, suffer from)"],
+              "steps": [
+                {
+                  "text": "Say if you have a phobia",
+                  "example": "I'm terrified of spiders."
+                },
+                {
+                  "text": "Say how long you have had it",
+                  "example": "I've been afraid of them since I was a child."
+                },
+                {
+                  "text": "Ask about someone your partner knows",
+                  "example": "Do you know anyone who has a phobia?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9B-sb2a",
+          "origin": "SB",
+          "instruction": "Listen to Julia and Chloe talking about their phobias. Complete the chart",
+          "note": "SB 2a–b (таблица Julia/Chloe) → Blank по фактам; ответы по скрипту 9.6 (SB p.124)",
+          "audio": "9.6",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Julia is afraid of {}.", "gaps": [["spiders"]], "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "Julia has been afraid since she was about {}, so for more than {} years.", "gaps": [["12", "twelve"], ["30", "thirty"]], "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "It started when a big spider came out from under the {} in her flat.", "gaps": [["TV", "television"]], "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "In the past she couldn't sit in the same room as a spider, and she kept doors and {} shut.", "gaps": [["windows"]], "source": "CONFIRMED"},
+            {"n": 5, "type": "blank", "text": "Julia had therapy for about {} weeks. It was {}.", "gaps": [["six", "6"], ["hypnosis"]], "source": "CONFIRMED"},
+            {"n": 6, "type": "blank", "text": "Now she can put a spider in a {} and take it outside.", "gaps": [["glass"]], "source": "CONFIRMED"},
+            {"n": 7, "type": "blank", "text": "Chloe has a phobia of {}.", "gaps": [["buttons"]], "source": "CONFIRMED"},
+            {"n": 8, "type": "blank", "text": "She has had it all her {}.", "gaps": [["life"]], "source": "CONFIRMED"},
+            {"n": 9, "type": "blank", "text": "When she was six or seven months old, her mother tried to dress her in a woollen {} with buttons.", "gaps": [["cardigan"]], "source": "CONFIRMED"},
+            {"n": 10, "type": "blank", "text": "It affects the clothes she can buy, especially {} in winter.", "gaps": [["coats"]], "source": "CONFIRMED"},
+            {"n": 11, "type": "blank", "text": "When she was younger, her mother had to adapt her school {}.", "gaps": [["uniform"]], "source": "CONFIRMED"},
+            {"n": 12, "type": "blank", "text": "She has never had therapy because she thinks it's such a {} thing to be afraid of.", "gaps": [["silly"]], "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "9B-sb2c",
+          "origin": "SB",
+          "instruction": "Which of the two phobias do you think would be worse to have? Why?",
+          "note": "SB 2c → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You have both listened to Julia (afraid of spiders for more than 30 years, had hypnosis, now much better) and Chloe (phobia of buttons all her life, affects the clothes she can buy, never had therapy). Ask the student which phobia would be worse to have and why. Give your opinion: you think Chloe's is worse because buttons are everywhere. Ask follow-up questions.",
+              "goal": "Say which phobia would be worse and why.",
+              "opener": "Which phobia do you think would be worse – Julia's or Chloe's?",
+              "criteria": ["chooses one phobia and gives at least two reasons", "uses would / because correctly", "asks for the partner's opinion"],
+              "steps": [
+                {
+                  "text": "Say which phobia would be worse",
+                  "example": "I think a phobia of buttons would be worse."
+                },
+                {
+                  "text": "Give reasons",
+                  "example": "Because there are buttons on lots of clothes, so it affects your life every day."
+                },
+                {
+                  "text": "Ask your partner's opinion",
+                  "example": "What do you think?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9B-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "words related to fear, for and since",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Words related to fear",
+          "headers": ["Word", "Meaning"],
+          "rows": [
+            ["fear (n)", "the noun from afraid"],
+            ["terrified (adj)", "very afraid"],
+            ["frightened, scared (adj)", "afraid"],
+            ["dizzy (adj)", "when you feel that everything is going round in circles"],
+            ["panic (v)", "to suddenly feel afraid and not be able to think clearly"],
+            ["suffer from (v)", "to be badly affected by something"]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "for or since?",
+          "headers": ["for + a period of time", "since + a point in time"],
+          "rows": [
+            ["for about 20 years", "since 1990"],
+            ["for a long time", "since I was a child"],
+            ["for ages", "since the 4th of May"],
+            ["for six months", "since then"],
+            ["for a few weeks", "since 8.15"],
+            ["for five minutes", "since I got up this morning"]
+          ],
+          "audio": "9.8"
+        },
+        {
+          "type": "mistake",
+          "wrong": "I've lived here since three years.",
+          "right": "I've lived here for three years.",
+          "why": "for + a period of time (three years), since + a point in time (2021)."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "9B-sb1d",
+          "origin": "SB",
+          "instruction": "Look at the highlighted words and phrases related to fear. Write the word for each definition",
+          "note": "SB 1d; ответы по тексту (MODEL)",
+          "context": "fearof.net – the phobia website\n\n1 Fear of ___\nSome people with this phobia find it difficult to pass the test. Others are anxious on motorways or certain roads. In extreme cases, people are afraid of being a passenger in a vehicle.\n\n2 Fear of ___\nPeople say that actress Nicole Kidman suffers from this phobia. It is closely linked to a general fear of insects. People with this phobia are afraid of most insects with wings, and they feel nauseous or they panic if they see them.\n\n3 Fear of ___\nThis phobia is quite common in young children, but adults suffer from it, too. Many are especially afraid of having vaccinations or blood tests.\n\n4 Fear of ___\nThis fear affects nearly one in every 20 adults. People with this phobia usually avoid tall buildings, skiing, or standing on balconies.\n\n5 Fear of ___\nThis phobia affects many people, but women more than men. These people feel very anxious or scared if they are in a noisy place where there are a lot of people, for example a shopping mall or a sports stadium. They often avoid these kinds of places.\n\nComments\n\nA Carl: I am so scared that I haven't been to see one for more than 15 years. I hate thinking about them! I feel the same way about dentists, too.\n\nB Becky: I have a fear of going over bridges, and on motorways at over 60 mph. I'm OK at 45 mph. I once went over a bridge and I had to stop in the middle – I was really frightened. I haven't driven that way since then, and that was seven years ago.\n\nC Mina: I thought I was the only person that had this fear! I'm OK with the small ones, but I'm terrified of the big ones. I'm OK if they aren't close to me, but as soon as they start flying near me I run away. I like looking at pictures of them because they can be beautiful, but if they fly towards me, especially towards my face, I panic.\n\nD Simon: I suffer from this phobia, and what works best for me, if I know that I'm going to be in a situation where there'll be a lot of people, is to arrive early. Then other people arrive little by little, and that helps me. The worst thing is walking into a place that is already full of people.\n\nE Keith: I've had this phobia for about 20 years. It started when I was a child, about six I think. I had a bad dream where I was in a block of flats high up on a hill and I nearly fell out of the window. I woke up and started crying. I haven't been to any really high places since then. Even if I imagine I'm in a high place, I feel dizzy.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "{} = the noun from afraid", "gaps": [["fear"]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "{} = an adjective meaning very afraid", "gaps": [["terrified"]], "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "{} and {} = two synonyms for afraid", "gaps": [["frightened", "scared"], ["scared", "frightened"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "{} = when you feel that everything is going round in circles", "gaps": [["dizzy"]], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "{} = to suddenly feel afraid and not be able to think clearly", "gaps": [["panic"]], "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "{} = to be badly affected by something", "gaps": [["suffer from"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9B-sb3c",
+          "origin": "SB",
+          "instruction": "Complete with for or since. Then listen and check",
+          "note": "SB 3c–d «Write the words in the chart» (две колонки for / since) → Blank по фразе; проверка по 9.8",
+          "audio": "9.8",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "{} 1990", "gaps": [["since"]], "source": "CONFIRMED", "clip": [0.0, 2.27]},
+            {"n": 2, "type": "blank", "text": "{} about 20 years", "gaps": [["for"]], "source": "CONFIRMED", "clip": [7.07, 9.29]},
+            {"n": 3, "type": "blank", "text": "{} I was a child", "gaps": [["since"]], "source": "CONFIRMED", "clip": [13.79, 15.81]},
+            {"n": 4, "type": "blank", "text": "{} the 4th of May", "gaps": [["since"]], "source": "CONFIRMED", "clip": [20.49, 22.48]},
+            {"n": 5, "type": "blank", "text": "{} then", "gaps": [["since"]], "source": "CONFIRMED", "clip": [27.34, 28.83]},
+            {"n": 6, "type": "blank", "text": "{} 8.15", "gaps": [["since"]], "source": "CONFIRMED", "clip": [34.03, 36.25]},
+            {"n": 7, "type": "blank", "text": "{} a long time", "gaps": [["for"]], "source": "CONFIRMED", "clip": [3.88, 5.53]},
+            {"n": 8, "type": "blank", "text": "{} ages", "gaps": [["for"]], "source": "CONFIRMED", "clip": [10.86, 12.26]},
+            {"n": 9, "type": "blank", "text": "{} six months", "gaps": [["for"]], "source": "CONFIRMED", "clip": [17.32, 18.97]},
+            {"n": 10, "type": "blank", "text": "{} a few weeks", "gaps": [["for"]], "source": "CONFIRMED", "clip": [23.97, 25.77]},
+            {"n": 11, "type": "blank", "text": "{} I got up this morning", "gaps": [["since"]], "source": "CONFIRMED", "clip": [30.32, 32.53]},
+            {"n": 12, "type": "blank", "text": "{} five minutes", "gaps": [["for"]], "source": "CONFIRMED", "clip": [37.74, 39.52]}
+          ]
+        },
+        {
+          "id": "9B-wb2a",
+          "origin": "WB",
+          "instruction": "Choose the correct words",
+          "note": "WB 2a Circle → Blank, варианты в hint; 1 — пример. 2b (переписать по сегодняшней дате) не перенесён — ответ зависит от дня",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "I haven't seen Amy for {}.", "gaps": [["ages"]], "hint": "(age / ages)"},
+            {"n": 3, "type": "blank", "text": "We've known Claire for {}.", "gaps": [["a long time"]], "hint": "(a long time / long time)"},
+            {"n": 4, "type": "blank", "text": "I'm worried about our cat. It hasn't been home since {}.", "gaps": [["the weekend"]], "hint": "(the weekend / a week)"},
+            {"n": 5, "type": "blank", "text": "I saw Jacob on Friday, but I haven't spoken to him since {}.", "gaps": [["then"]], "hint": "(then / after)"}
+          ]
+        },
+        {
+          "id": "9B-wb2c",
+          "origin": "WB",
+          "instruction": "Write questions with How long and the present perfect",
+          "note": "WB 2c → Rewrite; 1 — пример",
+          "exercises": [
+            {"n": 2, "type": "rewrite", "prompt": "you / know / your best friend / ?", "answers": ["How long have you known your best friend?"]},
+            {"n": 3, "type": "rewrite", "prompt": "you / have / your computer or tablet / ?", "answers": ["How long have you had your computer or tablet?", "How long have you had your computer?", "How long have you had your tablet?"]},
+            {"n": 4, "type": "rewrite", "prompt": "you / live / where you live now / ?", "answers": ["How long have you lived where you live now?"]},
+            {"n": 5, "type": "rewrite", "prompt": "you / be / in your English class / ?", "answers": ["How long have you been in your English class?"]},
+            {"n": 6, "type": "rewrite", "prompt": "you / be / on Facebook or Twitter / ?", "answers": ["How long have you been on Facebook or Twitter?", "How long have you been on Facebook?", "How long have you been on Twitter?"]}
+          ]
+        },
+        {
+          "id": "9B-wb2d",
+          "origin": "WB",
+          "instruction": "Answer the questions in c about you. Use for or since",
+          "note": "WB 2d → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Answer the How long questions about you. Use for or since.",
+              "questions": [
+                {
+                  "text": "How long have you had your phone?",
+                  "hint": "(I've had my phone…)"
+                },
+                {
+                  "text": "How long have you known your best friend?",
+                  "hint": "(I've known my…)"
+                },
+                {
+                  "text": "How long have you had your computer or tablet?",
+                  "hint": "(I've had…)"
+                },
+                {
+                  "text": "How long have you lived where you live now?",
+                  "hint": "(I've lived…)"
+                },
+                {
+                  "text": "How long have you been in your English class?",
+                  "hint": "(I've been…)"
+                },
+                {
+                  "text": "How long have you been on Facebook or Twitter?",
+                  "hint": "(I've been… / I'm not on…)"
+                }
+              ],
+              "criteria": ["answers at least 5 questions in full sentences", "uses the present perfect correctly", "uses for with a period and since with a point in time"]
+            }
+          ]
+        },
+        {
+          "id": "9B-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete with for or since.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "I've had this car {} 2019.", "gaps": [["since"]], "explain": "2019 is a point in time → since.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "She's lived in Rome {} ten years.", "gaps": [["for"]], "explain": "ten years is a period → for.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "We've been here {} two hours.", "gaps": [["for"]], "explain": "two hours is a period → for.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "He's worked in this shop {} he left school.", "gaps": [["since"]], "explain": "since + a moment in the past (a clause).", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "I haven't seen them {} Christmas.", "gaps": [["since"]], "explain": "Christmas is a point in time → since.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "They've been married {} a long time.", "gaps": [["for"]], "explain": "a long time is a period → for.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "I've known her {} we were at school together.", "gaps": [["since"]], "explain": "since + past simple clause.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "It's been cold {} last week.", "gaps": [["since"]], "explain": "last week is a point in time → since.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9B-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete with a word related to fear.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "I'm {} of the dark.", "gaps": [["afraid", "scared", "frightened"]], "explain": "be afraid / scared / frightened of something.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "When I look down from a high building I feel {}.", "gaps": [["dizzy"]], "explain": "dizzy = everything is going round.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Don't {}! Keep calm and call the police.", "gaps": [["panic"]], "explain": "panic = suddenly feel afraid and not think clearly.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "My dad {} from a fear of flying, so we never go abroad by plane.", "gaps": [["suffers"]], "explain": "suffer from + a problem; he → suffers.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "She's {} of snakes – she screams if she sees one on TV.", "gaps": [["terrified"]], "explain": "terrified = very afraid.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Many children have a {} of the dark.", "gaps": [["fear"]], "explain": "fear is the noun: a fear of something.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9B-vocabulary-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistake in the sentence.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "I've been a teacher **since** five years.", "answers": ["I've been a teacher for five years."], "explain": "five years = a period → for.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "We've lived here **for** 2015.", "answers": ["We've lived here since 2015."], "explain": "2015 = a point in time → since.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "I haven't seen him **for** Monday.", "answers": ["I haven't seen him since Monday."], "explain": "Monday = a point in time → since.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "She's afraid **from** spiders.", "answers": ["She's afraid of spiders."], "explain": "afraid of something.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "He suffers **of** a fear of heights.", "answers": ["He suffers from a fear of heights."], "explain": "suffer from something.", "source": "MODEL"},
+            {"n": 6, "type": "rewrite", "prompt": "They've been friends **since** ages.", "answers": ["They've been friends for ages."], "explain": "ages = a long period → for ages.", "source": "MODEL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9B-grammar",
+      "kind": "GRAMMAR",
+      "title": "present perfect + for and since",
+      "reference": [
+        {
+          "type": "table",
+          "title": "How long…? + present perfect",
+          "headers": ["Question", "Answer"],
+          "rows": [
+            ["Where do you live now?", "In Manchester."],
+            ["How long have you lived there?", "I've lived there for 20 years."],
+            ["Where do you work?", "In a primary school."],
+            ["How long have you worked there?", "I've worked there since 2015."]
+          ],
+          "audio": "9.7"
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "We use the present perfect + for or since to talk about actions and states which started in the past and are still true now: I've lived in Manchester for twenty years = I came to live in Manchester twenty years ago and I live in Manchester now. NOT I live in Manchester for twenty years."
+        },
+        {
+          "type": "note",
+          "title": "How long…?",
+          "text": "Use How long…? + present perfect to ask about an unfinished period of time (from the past until now): How long have you lived there?"
+        },
+        {
+          "type": "note",
+          "title": "for and since",
+          "text": "Use for + a period of time: I've had this car for three months. Use since + a point of time: I've been afraid of spiders since I was a child."
+        },
+        {
+          "type": "mistake",
+          "wrong": "I live here for five years.",
+          "right": "I've lived here for five years.",
+          "why": "For an action that started in the past and is still true, use the present perfect, not the present simple."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "9B-sb3a",
+          "origin": "SB",
+          "instruction": "Look at the extract from the interview with Julia. Answer the questions",
+          "note": "SB 3a",
+          "context": "'How long have you had this phobia?' 'I've had it since I was about 12, so for more than 30 years.'",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "When did she begin to be afraid of spiders? When she was about {}.", "gaps": [["12", "twelve"]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Is she afraid of them now? {}", "gaps": [["Yes", "Yes, she is", "yes"]], "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "What tense is the question How long have you had this phobia? The {}.", "gaps": [["present perfect", "present perfect simple"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9B-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Write questions with How long and the present perfect",
+          "note": "GB 9B a → Rewrite; пример you / be married. Ключа к GB нет (MODEL)",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "you / be afraid of flying / ?", "answers": ["How long have you been afraid of flying?"], "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "your sister / have her new car / ?", "answers": ["How long has your sister had her new car?"], "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "they / live in this town / ?", "answers": ["How long have they lived in this town?"], "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "your dad / be a teacher / ?", "answers": ["How long has your dad been a teacher?"], "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "you / know your boyfriend / ?", "answers": ["How long have you known your boyfriend?"], "source": "MODEL"},
+            {"n": 6, "type": "rewrite", "prompt": "Spain / be in the EU / ?", "answers": ["How long has Spain been in the EU?"], "source": "MODEL"},
+            {"n": 7, "type": "rewrite", "prompt": "you / have your cat / ?", "answers": ["How long have you had your cat?"], "source": "MODEL"},
+            {"n": 8, "type": "rewrite", "prompt": "Dan / be in this class / ?", "answers": ["How long has Dan been in this class?"], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9B-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Answer the questions in a. Use the present perfect and for or since",
+          "note": "GB 9B b; пример I've been married for 20 years. Глагол и for/since — один пропуск. Ключа к GB нет (MODEL)",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "I {} I was about 15.", "gaps": [["'ve been afraid of flying since", "have been afraid of flying since", "'ve been afraid of it since", "have been afraid of it since"]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "She {} three weeks.", "gaps": [["'s had it for", "has had it for", "'s had her new car for", "has had her new car for"]], "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "They {} a long time.", "gaps": [["'ve lived here for", "have lived here for", "'ve lived there for", "have lived there for", "'ve lived in this town for", "have lived in this town for"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "He {} more than 20 years.", "gaps": [["'s been a teacher for", "has been a teacher for"]], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "I {} May.", "gaps": [["'ve known him since", "have known him since"]], "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "It {} 1986.", "gaps": [["'s been in the EU since", "has been in the EU since"]], "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "We {} about two years.", "gaps": [["'ve had it for", "have had it for", "'ve had our cat for", "have had our cat for"]], "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "He {} last month.", "gaps": [["'s been in this class since", "has been in this class since", "'s been here since", "has been here since"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9B-sb5a",
+          "origin": "SB",
+          "instruction": "Complete the questions. Then listen and check",
+          "note": "SB 5a–b (таблица have / live / know / be) → Blank на вопрос How long…?; проверка по 9.11",
+          "audio": "9.11",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Do you have a pet? What is it? How long {} it?", "gaps": [["have you had"]], "source": "CONFIRMED", "clip": [1.66, 8.07]},
+            {"n": 2, "type": "blank", "text": "Do you have a tablet? What kind? How long {} it?", "gaps": [["have you had"]], "source": "CONFIRMED", "clip": [9.59, 16.22]},
+            {"n": 3, "type": "blank", "text": "Do you live in a modern flat? How old is it? How long {} there?", "gaps": [["have you lived"]], "source": "CONFIRMED", "clip": [19.4, 26.38]},
+            {"n": 4, "type": "blank", "text": "Do you live near this school? Where exactly? How long {} there?", "gaps": [["have you lived"]], "source": "CONFIRMED", "clip": [27.96, 34.84]},
+            {"n": 5, "type": "blank", "text": "Do you know anybody from another country? Where's he (or she) from? How long {} him (or her)?", "gaps": [["have you known"]], "source": "CONFIRMED", "clip": [38.18, 47.2]},
+            {"n": 6, "type": "blank", "text": "Are you a fan of a football team? Which team? How long {} a fan?", "gaps": [["have you been"]], "source": "CONFIRMED", "clip": [50.44, 57.11]},
+            {"n": 7, "type": "blank", "text": "Are you a member of a club or organization? Which one? How long {} a member?", "gaps": [["have you been"]], "source": "CONFIRMED", "clip": [58.67, 66.79]},
+            {"n": 8, "type": "blank", "text": "Are you married? What's your partner's name? How long {} married?", "gaps": [["have you been"]], "source": "CONFIRMED", "clip": [68.47, 75.08]}
+          ]
+        },
+        {
+          "id": "9B-sb5c",
+          "origin": "SB",
+          "instruction": "Ask and answer the questions in a",
+          "note": "SB 5c → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). Take turns asking the questions: Do you have a pet? What is it? How long have you had it? / Do you have a tablet? What kind? How long have you had it? / Do you live in a modern flat? How old is it? How long have you lived there? / Do you live near this school? Where exactly? How long have you lived there? / Do you know anybody from another country? Where's he (or she) from? How long have you known him (or her)? / Are you a fan of a football team? Which team? How long have you been a fan? / Are you a member of a club or organization? Which one? How long have you been a member? / Are you married? What's your partner's name? How long have you been married? Answer yes or no; if yes, answer the next questions with the present perfect + for / since. Invent consistent answers for yourself (you have a cat called Tom for three years, you have lived in a flat near the centre since 2020).",
+              "goal": "Ask and answer How long…? questions about your life.",
+              "opener": "OK, first question: do you have a pet?",
+              "criteria": ["answers with the present perfect + for or since", "asks at least 3 How long…? questions correctly", "uses for with a period and since with a point in time"],
+              "steps": [
+                {
+                  "text": "Answer: do you have a pet?",
+                  "example": "Yes, I have a dog. I've had him for two years."
+                },
+                {
+                  "text": "Ask about where your partner lives",
+                  "example": "Do you live in a modern flat? How long have you lived there?"
+                },
+                {
+                  "text": "Ask about a football team",
+                  "example": "Are you a fan of a football team? How long have you been a fan?"
+                },
+                {
+                  "text": "Ask about a friend from another country",
+                  "example": "Do you know anybody from another country? How long have you known him?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9B-wb1a",
+          "origin": "WB",
+          "instruction": "Complete the dialogues with the present perfect of the verbs in brackets",
+          "note": "WB 1a; 1 — пример",
+          "dialogue": true,
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "Do you like snakes?\nNo, I {} a phobia of them since I was a child.", "gaps": [["'ve had", "have had"]], "hint": "(have)"},
+            {"n": 3, "type": "blank", "text": "How long {} in Prague?\nWe've been here since 2005.", "gaps": [["have you lived"]], "hint": "(you / live)"},
+            {"n": 4, "type": "blank", "text": "Does your sister work at the local school?\nYes, she {} there since she left university.", "gaps": [["'s worked", "has worked"]], "hint": "(work)"},
+            {"n": 5, "type": "blank", "text": "How's John these days?\nI don't know. I {} from him since he moved to Washington.", "gaps": [["haven't heard", "have not heard"]], "hint": "(not hear)"},
+            {"n": 6, "type": "blank", "text": "Is that a new coat?\nNo, I {} it for years.", "gaps": [["'ve had", "have had"]], "hint": "(have)"}
+          ]
+        },
+        {
+          "id": "9B-wb1b",
+          "origin": "WB",
+          "instruction": "Correct the mistakes in the bold phrases",
+          "note": "WB 1b → Rewrite, фраза целиком; 1 — пример",
+          "exercises": [
+            {"n": 2, "type": "rewrite", "prompt": "**Gill hates spiders** since she was a child.", "answers": ["Gill's hated spiders since she was a child.", "Gill has hated spiders since she was a child."]},
+            {"n": 3, "type": "rewrite", "prompt": "**How much time** has your brother been an actor?", "answers": ["How long has your brother been an actor?"]},
+            {"n": 4, "type": "rewrite", "prompt": "**We're married** for ten years, and we're very happy.", "answers": ["We've been married for ten years, and we're very happy.", "We have been married for ten years, and we're very happy."]},
+            {"n": 5, "type": "rewrite", "prompt": "My cousin's been in the USA **for February**.", "answers": ["My cousin's been in the USA since February.", "My cousin has been in the USA since February."]},
+            {"n": 6, "type": "rewrite", "prompt": "He's had the same job **since eight years**.", "answers": ["He's had the same job for eight years.", "He has had the same job for eight years."]},
+            {"n": 7, "type": "rewrite", "prompt": "I've had this bike **since a long time**.", "answers": ["I've had this bike for a long time.", "I have had this bike for a long time."]}
+          ]
+        },
+        {
+          "id": "9B-wb1c",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the present perfect and for or since",
+          "note": "WB 1c; глагол и for/since — один пропуск; 1 — пример",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "This is our new dog. We {} October.", "gaps": [["'ve only had him since", "have only had him since"]], "hint": "(only have him)"},
+            {"n": 3, "type": "blank", "text": "The garden is very dry. It {} weeks.", "gaps": [["hasn't rained for", "has not rained for"]], "hint": "(not rain)"},
+            {"n": 4, "type": "blank", "text": "I think Dan and Lucy will get married soon. They {} three years now.", "gaps": [["'ve been together for", "have been together for"]], "hint": "(be together)"},
+            {"n": 5, "type": "blank", "text": "Christina is very excited about going to Italy. She {} a long time.", "gaps": [["hasn't been on holiday for", "has not been on holiday for"]], "hint": "(not be on holiday)"},
+            {"n": 6, "type": "blank", "text": "I don't ever want to leave London. I {} I was five.", "gaps": [["'ve lived here since", "have lived here since"]], "hint": "(live here)"},
+            {"n": 7, "type": "blank", "text": "I'm really hungry. I {} breakfast.", "gaps": [["haven't eaten anything since", "have not eaten anything since"]], "hint": "(not eat anything)"},
+            {"n": 8, "type": "blank", "text": "He {} two years.", "gaps": [["'s played in the band for", "has played in the band for"]], "hint": "(play in the band)"}
+          ]
+        },
+        {
+          "id": "9B-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete with the present perfect.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "I {} here since 2018.", "gaps": [["'ve lived", "have lived"]], "hint": "(live)", "explain": "I + have + past participle.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "She {} him for ten years.", "gaps": [["'s known", "has known"]], "hint": "(know)", "explain": "know → known (irregular).", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "How long {} your car?", "gaps": [["have you had"]], "hint": "(you / have)", "explain": "How long + have + subject + past participle.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "We {} married since 2010.", "gaps": [["'ve been", "have been"]], "hint": "(be)", "explain": "be → been.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "He {} a teacher for six years.", "gaps": [["'s been", "has been"]], "hint": "(be)", "explain": "he → has been.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "They {} each other since they were children.", "gaps": [["'ve known", "have known"]], "hint": "(know)", "explain": "They + have + known.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "How long {} in this company?", "gaps": [["has she worked"]], "hint": "(she / work)", "explain": "How long + has + she + worked.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "I {} him since last summer.", "gaps": [["haven't seen", "have not seen"]], "hint": "(not see)", "explain": "Negative: haven't + past participle.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9B-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Write the How long question.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "She lives in Paris. (How long…?)", "answers": ["How long has she lived in Paris?"], "explain": "How long + has + she + lived.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "They're married. (How long…?)", "answers": ["How long have they been married?"], "explain": "be married → have been married.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "You know Tom. (How long…?)", "answers": ["How long have you known Tom?"], "explain": "know → have known.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "He has a motorbike. (How long…?)", "answers": ["How long has he had a motorbike?", "How long has he had his motorbike?"], "explain": "have → has had.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "You work here. (How long…?)", "answers": ["How long have you worked here?"], "explain": "work → have worked.", "source": "MODEL"},
+            {"n": 6, "type": "rewrite", "prompt": "Your parents are in Spain. (How long…?)", "answers": ["How long have your parents been in Spain?"], "explain": "are → have been.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "9B-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistake in the sentence.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "I **live** here for five years.", "answers": ["I've lived here for five years.", "I have lived here for five years."], "explain": "Still true now + for → present perfect.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "How long **do you know** her?", "answers": ["How long have you known her?"], "explain": "How long…? + present perfect.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "She's **work** here since May.", "answers": ["She's worked here since May.", "She has worked here since May."], "explain": "has + past participle: worked.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "We've **be** friends since school.", "answers": ["We've been friends since school.", "We have been friends since school."], "explain": "be → been.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "How long **you have had** your dog?", "answers": ["How long have you had your dog?"], "explain": "Question: have + subject + past participle.", "source": "MODEL"},
+            {"n": 6, "type": "rewrite", "prompt": "He **is** in hospital since Monday.", "answers": ["He's been in hospital since Monday.", "He has been in hospital since Monday."], "explain": "Started in the past, still true → has been.", "source": "MODEL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9B-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "sentence stress",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Sentence stress",
+          "text": "In sentences with the present perfect, have / has is usually unstressed and contracted ('ve / 's). We stress the important words: I've WORKED HERE for TEN YEARS."
+        },
+        {
+          "type": "table",
+          "title": "Build a sentence",
+          "headers": ["Short", "Longer", "Full sentence"],
+          "rows": [
+            ["I've worked", "I've worked here", "I've worked here for ten years."],
+            ["We've lived", "We've lived in London", "We've lived in London since 2012."],
+            ["How long", "How long have you known", "How long have you known your best friend?"]
+          ],
+          "audio": "9.9"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "9B-sb4a",
+          "origin": "SB",
+          "instruction": "Listen and repeat. Copy the rhythm",
+          "note": "SB 4a (9.9) → Speak",
+          "audio": "9.9",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "I've worked", "source": "CONFIRMED", "clip": [0.2, 1.7]},
+            {"n": 2, "type": "speak", "text": "I've worked here", "source": "CONFIRMED", "clip": [5.21, 6.88]},
+            {"n": 3, "type": "speak", "text": "I've worked here for ten years.", "source": "CONFIRMED", "clip": [10.39, 13.02]},
+            {"n": 4, "type": "speak", "text": "We've lived", "source": "CONFIRMED", "clip": [16.73, 18.11]},
+            {"n": 5, "type": "speak", "text": "We've lived in London", "source": "CONFIRMED", "clip": [21.61, 23.46]},
+            {"n": 6, "type": "speak", "text": "We've lived in London since 2012.", "source": "CONFIRMED", "clip": [26.91, 30.05]},
+            {"n": 7, "type": "speak", "text": "How long", "source": "CONFIRMED", "clip": [33.86, 35.25]},
+            {"n": 8, "type": "speak", "text": "How long have you known", "source": "CONFIRMED", "clip": [38.78, 40.96]},
+            {"n": 9, "type": "speak", "text": "How long have you known your best friend?", "source": "CONFIRMED", "clip": [44.44, 47.48]}
+          ]
+        },
+        {
+          "id": "9B-sb4b",
+          "origin": "SB",
+          "instruction": "Listen and write the sentences",
+          "note": "SB 4b «Listen and write five sentences» (9.10) → диктовка: Blank на всё предложение, клип на пункт. Текст — по записи (скрипта в SB нет)",
+          "audio": "9.10",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "{}", "gaps": [["How long have you worked here?"]], "source": "CONFIRMED", "clip": [0.19, 2.4]},
+            {"n": 2, "type": "blank", "text": "{}", "gaps": [["They've been married for twenty years.", "They have been married for twenty years.", "They've been married for 20 years.", "They have been married for 20 years."]], "source": "CONFIRMED", "clip": [6.2, 8.94]},
+            {"n": 3, "type": "blank", "text": "{}", "gaps": [["She hasn't travelled by plane since 2005.", "She has not travelled by plane since 2005.", "She hasn't traveled by plane since 2005.", "She has not traveled by plane since 2005."]], "source": "CONFIRMED", "clip": [12.77, 16.8]},
+            {"n": 4, "type": "blank", "text": "{}", "gaps": [["How long has he lived in Italy?"]], "source": "CONFIRMED", "clip": [23.8, 26.42]},
+            {"n": 5, "type": "blank", "text": "{}", "gaps": [["We've known them for a long time.", "We have known them for a long time."]], "source": "CONFIRMED", "clip": [30.76, 33.24]}
+          ]
+        },
+        {
+          "id": "9B-wb3a",
+          "origin": "WB",
+          "instruction": "Say the sentences. Copy the rhythm",
+          "note": "WB 3a–b (трек WB 9.2 — аудио WB нет): Speak на предложения из ключа, образец — синтезатор; 1 — пример",
+          "exercises": [
+            {"n": 2, "type": "speak", "text": "I've studied English for three years.", "source": "KEY"},
+            {"n": 3, "type": "speak", "text": "We've lived here for six months.", "source": "KEY"},
+            {"n": 4, "type": "speak", "text": "How long have they been married?", "source": "KEY"},
+            {"n": 5, "type": "speak", "text": "How long has she known Andrew?", "source": "KEY"},
+            {"n": 6, "type": "speak", "text": "How long have you worked here?", "source": "KEY"}
+          ]
+        }
+      ]
+    }
+  ]
+}

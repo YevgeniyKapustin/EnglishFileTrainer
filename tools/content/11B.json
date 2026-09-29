@@ -1,0 +1,2969 @@
+{
+  "id": "11B",
+  "title": "Help! I can’t decide!",
+  "bubbles": [
+    "Why are you taking a raincoat?",
+    "Because it might rain."
+  ],
+  "sources": "SB p.88–89, Grammar Bank 11B p.146–147; WB p.76–77",
+  "sections": [
+    {
+      "id": "11B-grammar",
+      "kind": "GRAMMAR",
+      "title": "might",
+      "reference": [
+        {
+          "type": "table",
+          "title": "might / might not",
+          "headers": [
+            "",
+            "Example"
+          ],
+          "rows": [
+            [
+              "+",
+              "We might have a picnic tomorrow, but it depends on the weather."
+            ],
+            [
+              "+",
+              "Karen might come with us tomorrow, but she’s not sure yet."
+            ],
+            [
+              "−",
+              "I might not take my laptop on holiday. I haven’t decided yet."
+            ],
+            [
+              "−",
+              "We might not see the boss today. I think she’s away."
+            ]
+          ],
+          "audio": "11.10"
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "We use might / might not + infinitive without to to say that perhaps something will happen or perhaps it is true now: I might have a picnic = Perhaps I will have a picnic. might is the same for all persons (I / you / he / she / we / they might). might not is not usually contracted."
+        },
+        {
+          "type": "note",
+          "title": "may / may not",
+          "text": "We can also use may / may not with the same meaning: We may have a picnic tomorrow. It may not be your size."
+        },
+        {
+          "type": "mistake",
+          "wrong": "It might to rain later.",
+          "right": "It might rain later.",
+          "why": "After might we use the verb without to."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "11B-sb1a",
+          "origin": "SB",
+          "instruction": "Are you indecisive? Answer the questionnaire and ask for more information",
+          "note": "SB 1a (анкета «Are you indecisive?»)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You interview the student with a questionnaire called ‘Are you indecisive?’. Ask one question at a time and ask for more information: Do you have problems deciding what to pack when you’re going away? What to buy when you go shopping? What to wear in the morning? What to order in a restaurant? Where to go on holiday? Do you often change your mind about things? What kind of things? Do you think you are indecisive? At the end, say if you think they are indecisive.",
+              "goal": "Answer a questionnaire about being indecisive.",
+              "opener": "Do you have problems deciding what to pack when you’re going away?",
+              "criteria": [
+                "answers every question and gives examples",
+                "uses the present simple for habits (I usually…, I often change my mind…)",
+                "says if they think they are indecisive"
+              ],
+              "steps": [
+                {
+                  "text": "Say if packing is a problem for you",
+                  "example": "Yes, I always pack too many things."
+                },
+                {
+                  "text": "Talk about shopping, clothes, and restaurants",
+                  "example": "I never know what to order in a restaurant."
+                },
+                {
+                  "text": "Say what you often change your mind about",
+                  "example": "I often change my mind about what to wear."
+                },
+                {
+                  "text": "Say if you are indecisive",
+                  "example": "I think I’m quite indecisive."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11B-sb1b",
+          "origin": "SB",
+          "audio": "11.8",
+          "instruction": "Nancy and Brian are going on holiday. Nancy is packing. Listen. What four things does Brian think Nancy doesn’t need to take?",
+          "note": "SB 1b",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "her {}",
+              "gaps": [
+                [
+                  "trainers"
+                ]
+              ],
+              "explain": "You don’t need your trainers. We’re going to be on the beach most of the time.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "a {}",
+              "gaps": [
+                [
+                  "raincoat"
+                ]
+              ],
+              "explain": "Why are you taking a raincoat? It’s not going to rain in Greece in June.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "her {}",
+              "gaps": [
+                [
+                  "hair dryer",
+                  "hairdryer"
+                ]
+              ],
+              "explain": "But the hotel will have a hair dryer.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "two pairs of {}",
+              "gaps": [
+                [
+                  "jeans"
+                ]
+              ],
+              "explain": "And two pairs of jeans? We’re only going to be there for a week.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "11B-sb1c",
+          "origin": "SB",
+          "audio": "11.8",
+          "instruction": "Listen again. Complete Nancy’s reasons for taking the things",
+          "note": "SB 1c",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Trainers: I might {}.",
+              "gaps": [
+                [
+                  "go to the gym"
+                ]
+              ],
+              "explain": "Yes, but I might go to the gym. There’s one in the hotel.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Raincoat: It might {}.",
+              "gaps": [
+                [
+                  "rain"
+                ]
+              ],
+              "explain": "It might rain. It sometimes rains in the summer.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Hair dryer: The hotel might not {}.",
+              "gaps": [
+                [
+                  "have one",
+                  "have a hair dryer"
+                ]
+              ],
+              "explain": "It might not have one. Hotels don’t always have hair dryers.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Jeans: They’re {}.",
+              "gaps": [
+                [
+                  "different styles"
+                ]
+              ],
+              "explain": "Different styles. I’m not sure which ones I’ll want to wear.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "11B-sb1d",
+          "origin": "SB",
+          "audio": "11.9",
+          "instruction": "Listen to them at the airport. What happens?",
+          "note": "SB 1d",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Nancy’s case weighs {} kilos, but she can only take 15.",
+              "gaps": [
+                [
+                  "17.5",
+                  "17,5",
+                  "seventeen and a half",
+                  "17 and a half"
+                ]
+              ],
+              "explain": "That’s 17.5 kilos. You can only take 15.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The extra two and a half kilos cost £{}.",
+              "gaps": [
+                [
+                  "25",
+                  "twenty-five"
+                ]
+              ],
+              "explain": "That’ll be 25 pounds.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Nancy doesn’t pay. She puts some things in {} case.",
+              "gaps": [
+                [
+                  "Brian’s",
+                  "Brian's",
+                  "his"
+                ]
+              ],
+              "explain": "Brian, I can put some things in your case. Yours was only 10 kilos.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "11B-sb1e",
+          "origin": "SB",
+          "instruction": "Look at sentences 1–3 in c. Complete the rule",
+          "context": "I might go to the gym.\nIt might rain.\nThe hotel might not have one.",
+          "note": "SB 1e «Do we use might for 1 an obligation or 2 a possibility?» → Blank с вариантами в hint",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "We use might for {}.",
+              "gaps": [
+                [
+                  "a possibility",
+                  "possibility"
+                ]
+              ],
+              "hint": "(an obligation / a possibility)",
+              "explain": "might = perhaps.",
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "11B-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Match the sentences. Write the second sentence",
+          "note": "Grammar Bank 11B a; «Take some sun cream. — D It might be really hot» — пример. Соответствия — MODEL",
+          "words": [
+            "Someone might want some for breakfast.",
+            "It may not be your size.",
+            "We might get lost.",
+            "We may not have enough money.",
+            "You might cut yourself.",
+            "It may be closed on Sundays.",
+            "We might win.",
+            "I may finish work late."
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Let’s buy a lottery ticket. {}",
+              "gaps": [
+                [
+                  "We might win."
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Can you phone the restaurant? {}",
+              "gaps": [
+                [
+                  "It may be closed on Sundays."
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Don’t finish the milk. {}",
+              "gaps": [
+                [
+                  "Someone might want some for breakfast."
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Let’s use the satnav. {}",
+              "gaps": [
+                [
+                  "We might get lost."
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "You should try the shirt on. {}",
+              "gaps": [
+                [
+                  "It may not be your size."
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Don’t wait for me tonight. {}",
+              "gaps": [
+                [
+                  "I may finish work late."
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Be careful with that knife! {}",
+              "gaps": [
+                [
+                  "You might cut yourself."
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Ask how much it costs. {}",
+              "gaps": [
+                [
+                  "We may not have enough money."
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "11B-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the sentences with might + a verb phrase from the list",
+          "note": "Grammar Bank 11B b; «I might go to the cinema» — пример",
+          "words": [
+            "be cold",
+            "be ill",
+            "be in a meeting",
+            "not have time",
+            "not like it",
+            "have the pasta"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Kim isn’t at school today. She {}.",
+              "gaps": [
+                [
+                  "might be ill"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "His phone is turned off. He {}.",
+              "gaps": [
+                [
+                  "might be in a meeting"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "It’s an unusual book. You {}.",
+              "gaps": [
+                [
+                  "might not like it"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I don’t know if I’ll finish this today. I {}.",
+              "gaps": [
+                [
+                  "might not have time"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I’m not sure what to order. I {}.",
+              "gaps": [
+                [
+                  "might have the pasta"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Take a warm jacket. It {} later.",
+              "gaps": [
+                [
+                  "might be cold"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "11B-sb1g",
+          "origin": "SB",
+          "instruction": "Answer the questions. Use I’m not sure. I might… or I might… and give two possibilities each time",
+          "note": "SB 1g",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "Ask the student these questions one at a time: What are you going to do after class? What are you going to have for dinner tonight? What are you going to do on Saturday night? Where are you going to have lunch on Sunday? Where are you going to go for your next holiday? They should answer with I’m not sure. I might… or I might… If they give only one possibility, ask ‘Anything else?’.",
+              "goal": "You aren’t sure about your plans. Give two possibilities with might.",
+              "opener": "What are you going to do after class?",
+              "criteria": [
+                "starts with I’m not sure and gives two possibilities each time",
+                "uses might + verb without to (I might go…, not I might to go…)",
+                "answers all five questions"
+              ],
+              "steps": [
+                {
+                  "text": "Say what you might do after class",
+                  "example": "I’m not sure. I might go home or I might meet a friend."
+                },
+                {
+                  "text": "Say what you might have for dinner",
+                  "example": "I might have pasta or I might order a pizza."
+                },
+                {
+                  "text": "Say what you might do on Saturday night",
+                  "example": "I might go to the cinema or I might stay at home."
+                },
+                {
+                  "text": "Say where you might have lunch on Sunday",
+                  "example": "I might have lunch with my parents or I might go to a café."
+                },
+                {
+                  "text": "Say where you might go for your next holiday",
+                  "example": "I might go to Spain or I might go to the mountains."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11B-wb1a",
+          "origin": "WB",
+          "instruction": "Complete the sentences with might or might not and a verb from the list",
+          "note": "WB 1a; 1 might not go out — пример",
+          "words": [
+            "be",
+            "come",
+            "fail",
+            "get",
+            "give",
+            "go",
+            "have",
+            "miss",
+            "rain"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Miguel speaks English very well, so he {} the job with the American company.",
+              "gaps": [
+                [
+                  "might get"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "If you have a temperature, you {} flu.",
+              "gaps": [
+                [
+                  "might have"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "If the taxi doesn’t come soon, we {} the train.",
+              "gaps": [
+                [
+                  "might miss"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I haven’t seen Johnny with Vanessa for a long time. They {} together anymore.",
+              "gaps": [
+                [
+                  "might not be"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Mike and Karen {} to our party – they’re thinking of going on holiday then.",
+              "gaps": [
+                [
+                  "might not come"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "We love skiing, so we {} to Switzerland for our next holiday.",
+              "gaps": [
+                [
+                  "might go"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Sue hasn’t had much time to practise, so she {} her driving test tomorrow.",
+              "gaps": [
+                [
+                  "might fail"
+                ]
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Let’s have something to eat before we board our flight. They {} us a meal on the plane.",
+              "gaps": [
+                [
+                  "might not give"
+                ]
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "Take an umbrella. I think it {} later.",
+              "gaps": [
+                [
+                  "might rain"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11B-wb1b",
+          "origin": "WB",
+          "instruction": "Read the article ‘The Future is Robots’ and complete it with words from the list",
+          "note": "WB 1b (три списка в книге объединены в один); 1 might be — пример",
+          "words": [
+            "might see",
+            "might succeed",
+            "might learn",
+            "might not be",
+            "might start",
+            "might begin",
+            "might have",
+            "might lose"
+          ],
+          "context": "In the future, robots might be good for us or bad for us, but we can be sure about one thing – we’re going to see a lot more of them. The Henn-na hotel in Japan is known as the world’s first robot hotel. They hope robots will do 90% of the work. The robots, which look like humans, already greet people, answer questions, and help guests with their bags.",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "If the hotel does well, and there are signs that it {}, then this is the kind of thing that we {} in other kinds of business soon, too.",
+              "gaps": [
+                [
+                  "might succeed"
+                ],
+                [
+                  "might see"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "We used to think that robots could only do simple jobs like cooking or cleaning, but there are signs that this {} true.",
+              "gaps": [
+                [
+                  "might not be"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Now some scientists are saying that robots {} how to do more difficult jobs and {} doing the kind of work that doctors, teachers, and other professionals do at the moment.",
+              "gaps": [
+                [
+                  "might learn"
+                ],
+                [
+                  "might start"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "If businesses start using robots, a lot of people {} their jobs, but it’s also true that people {} to do new and more interesting jobs – making robots, for example.",
+              "gaps": [
+                [
+                  "might lose"
+                ],
+                [
+                  "might begin"
+                ]
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "If robots do a lot of the boring work, people {} more free time to enjoy themselves and get away from the computer screen.",
+              "gaps": [
+                [
+                  "might have"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11B-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with might or might not and the verb in brackets.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Take your umbrella. It {} this afternoon.",
+              "gaps": [
+                [
+                  "might rain"
+                ]
+              ],
+              "hint": "(rain)",
+              "explain": "Perhaps it will rain → might + verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I’m not sure about the party. I {} – I’m very tired.",
+              "gaps": [
+                [
+                  "might not go"
+                ]
+              ],
+              "hint": "(go)",
+              "explain": "Perhaps I won’t go → might not + verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Don’t call Tom now. He {} asleep.",
+              "gaps": [
+                [
+                  "might be"
+                ]
+              ],
+              "hint": "(be)",
+              "explain": "Perhaps it’s true now → might be.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Book a table. The restaurant {} very busy on Friday.",
+              "gaps": [
+                [
+                  "might be"
+                ]
+              ],
+              "hint": "(be)",
+              "explain": "A possibility in the future → might be.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "We {} a new car this year, but it depends on the money.",
+              "gaps": [
+                [
+                  "might buy"
+                ]
+              ],
+              "hint": "(buy)",
+              "explain": "Not decided yet → might + verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Ask Sara before you buy it. She {} that colour.",
+              "gaps": [
+                [
+                  "might not like"
+                ]
+              ],
+              "hint": "(like)",
+              "explain": "Perhaps she doesn’t like it → might not like.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Let’s leave early. There {} a lot of traffic.",
+              "gaps": [
+                [
+                  "might be"
+                ]
+              ],
+              "hint": "(be)",
+              "explain": "There might be = perhaps there will be.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I {} you later, but I’m not sure I’ll have time.",
+              "gaps": [
+                [
+                  "might call",
+                  "might phone"
+                ]
+              ],
+              "hint": "(call)",
+              "explain": "Perhaps I will call → might call.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Don’t wait for the bus. It {} at all today – there’s a strike.",
+              "gaps": [
+                [
+                  "might not come"
+                ]
+              ],
+              "hint": "(come)",
+              "explain": "Perhaps it won’t come → might not come.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "They {} to Italy in the summer. They haven’t decided yet.",
+              "gaps": [
+                [
+                  "might go"
+                ]
+              ],
+              "hint": "(go)",
+              "explain": "They haven’t decided → might go.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "11B-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Rewrite the sentences with might or might not.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "Perhaps I’ll stay at home tonight.",
+              "answers": [
+                "I might stay at home tonight."
+              ],
+              "explain": "Perhaps I’ll + verb = I might + verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "Perhaps she won’t come to class tomorrow.",
+              "answers": [
+                "She might not come to class tomorrow."
+              ],
+              "explain": "Perhaps she won’t = she might not.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Perhaps it will snow at the weekend.",
+              "answers": [
+                "It might snow at the weekend."
+              ],
+              "explain": "Perhaps it will = it might.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "Perhaps they won’t have your size.",
+              "answers": [
+                "They might not have your size."
+              ],
+              "explain": "Perhaps they won’t = they might not.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "Perhaps he is at the gym now.",
+              "answers": [
+                "He might be at the gym now."
+              ],
+              "explain": "might also means perhaps now: he might be.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "11B-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes. If a sentence is correct, leave it as it is.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "We might to go to the beach tomorrow.",
+              "answers": [
+                "We might go to the beach tomorrow."
+              ],
+              "explain": "might + verb without to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "She mights be late.",
+              "answers": [
+                "She might be late."
+              ],
+              "explain": "might is the same for all persons: no -s.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "I don’t might see you tonight.",
+              "answers": [
+                "I might not see you tonight."
+              ],
+              "explain": "Negative: might not + verb (no don’t).",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "It may not be open on Sundays.",
+              "answers": [
+                "It may not be open on Sundays."
+              ],
+              "explain": "Correct: may not = might not.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "They might going to the concert.",
+              "answers": [
+                "They might go to the concert."
+              ],
+              "explain": "might + verb without -ing.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11B-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "diphthongs",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Diphthongs",
+          "headers": [
+            "Sound",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "bike /aɪ/",
+              "might, buy, decide"
+            ],
+            [
+              "train /eɪ/",
+              "may, fail, break"
+            ],
+            [
+              "phone /əʊ/",
+              "know, although, won’t"
+            ],
+            [
+              "chair /eə/",
+              "there, wear, scared"
+            ],
+            [
+              "ear /ɪə/",
+              "here, idea, souvenir"
+            ],
+            [
+              "tourist /ʊə/",
+              "sure, Europe, curious"
+            ],
+            [
+              "owl /aʊ/",
+              "round, towel, south"
+            ],
+            [
+              "boy /ɔɪ/",
+              "noisy, enjoy, annoy"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "A diphthong is two vowel sounds together, e.g. /aɪ/ = /a/ + /ɪ/. Be careful: since /ɪ/, key /iː/, trousers /aʊ/, fear /ɪə/, where /eə/, bus /ʌ/, throw /əʊ/, and town /aʊ/ are different."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "11B-sb2a",
+          "origin": "SB",
+          "audio": "11.11",
+          "instruction": "Listen and repeat the words and sounds",
+          "note": "SB 2a",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "bike",
+              "clip": [
+                0.2,
+                2.82
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "train",
+              "clip": [
+                4.04,
+                6.69
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "phone",
+              "clip": [
+                7.67,
+                10.26
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "chair",
+              "clip": [
+                11.34,
+                14.08
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "ear",
+              "clip": [
+                14.92,
+                17.84
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "tourist",
+              "clip": [
+                19.05,
+                21.7
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "owl",
+              "clip": [
+                22.81,
+                25.73
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "boy",
+              "clip": [
+                27.1,
+                29.95
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11B-sb2b",
+          "origin": "SB",
+          "audio": "11.12",
+          "instruction": "Look at the words next to the sounds. Which one has a different sound? Then listen and check",
+          "note": "SB 2b–c",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "bike /aɪ/: might, buy, decide, since → {}",
+              "gaps": [
+                [
+                  "since"
+                ]
+              ],
+              "explain": "since = /ɪ/.",
+              "source": "KEY",
+              "clip": [
+                0.2,
+                15.08
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "train /eɪ/: may, fail, key, break → {}",
+              "gaps": [
+                [
+                  "key"
+                ]
+              ],
+              "explain": "key = /iː/.",
+              "source": "KEY",
+              "clip": [
+                16.75,
+                31.22
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "phone /əʊ/: know, although, trousers, won’t → {}",
+              "gaps": [
+                [
+                  "trousers"
+                ]
+              ],
+              "explain": "trousers = /aʊ/ (owl).",
+              "source": "KEY",
+              "clip": [
+                32.94,
+                48.34
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "chair /eə/: fear, there, wear, scared → {}",
+              "gaps": [
+                [
+                  "fear"
+                ]
+              ],
+              "explain": "fear = /ɪə/ (ear).",
+              "source": "KEY",
+              "clip": [
+                50.07,
+                64.9
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "ear /ɪə/: here, idea, souvenir, where → {}",
+              "gaps": [
+                [
+                  "where"
+                ]
+              ],
+              "explain": "where = /eə/ (chair).",
+              "source": "KEY",
+              "clip": [
+                66.62,
+                81.73
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "tourist /ʊə/: sure, bus, Europe, curious → {}",
+              "gaps": [
+                [
+                  "bus"
+                ]
+              ],
+              "explain": "bus = /ʌ/.",
+              "source": "KEY",
+              "clip": [
+                83.44,
+                98.37
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "owl /aʊ/: round, towel, south, throw → {}",
+              "gaps": [
+                [
+                  "throw"
+                ]
+              ],
+              "explain": "throw = /əʊ/ (phone).",
+              "source": "KEY",
+              "clip": [
+                100.05,
+                115.13
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "boy /ɔɪ/: town, noisy, enjoy, annoy → {}",
+              "gaps": [
+                [
+                  "town"
+                ]
+              ],
+              "explain": "town = /aʊ/ (owl).",
+              "source": "KEY",
+              "clip": [
+                116.81,
+                131.88
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11B-sb2d",
+          "origin": "SB",
+          "audio": "11.13",
+          "instruction": "Listen and repeat the sentences",
+          "note": "SB 2d",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "I might buy a white tie.",
+              "clip": [
+                0.2,
+                2.85
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "It may rain later.",
+              "clip": [
+                4.69,
+                6.57
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "We don’t know where to go.",
+              "clip": [
+                8.34,
+                10.41
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "There’s a hairdresser in the square.",
+              "clip": [
+                12.18,
+                14.92
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "Here’s a really good idea for a souvenir.",
+              "clip": [
+                16.7,
+                20.18
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "The tourists are curious about Europe.",
+              "clip": [
+                22.12,
+                25.35
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "We’re now in a small town in the south.",
+              "clip": [
+                27.14,
+                30.28
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "Those noisy boys are annoying me.",
+              "clip": [
+                32.11,
+                35.26
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11B-wb2a",
+          "origin": "WB",
+          "instruction": "Which sound do the pink letters have? Put the words in the chart",
+          "note": "WB 2a «Circle three words with the same sound in the word square» (сетка) → Sort по звукам; might–decide–buy — пример, поэтому колонка /aɪ/ не нужна",
+          "columns": [
+            "phone /əʊ/",
+            "owl /aʊ/",
+            "ear /ɪə/",
+            "chair /eə/",
+            "boy /ɔɪ/",
+            "train /eɪ/"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "sort",
+              "word": "w[o]n’t",
+              "column": 1
+            },
+            {
+              "n": 2,
+              "type": "sort",
+              "word": "al|th[ough]",
+              "column": 1
+            },
+            {
+              "n": 3,
+              "type": "sort",
+              "word": "kn[ow]",
+              "column": 1
+            },
+            {
+              "n": 4,
+              "type": "sort",
+              "word": "s[ou]th",
+              "column": 2
+            },
+            {
+              "n": 5,
+              "type": "sort",
+              "word": "[ow]l",
+              "column": 2
+            },
+            {
+              "n": 6,
+              "type": "sort",
+              "word": "n[ow]",
+              "column": 2
+            },
+            {
+              "n": 7,
+              "type": "sort",
+              "word": "h[ere]",
+              "column": 3
+            },
+            {
+              "n": 8,
+              "type": "sort",
+              "word": "i|d[ea]",
+              "column": 3
+            },
+            {
+              "n": 9,
+              "type": "sort",
+              "word": "sou|ve|n[ir]",
+              "column": 3
+            },
+            {
+              "n": 10,
+              "type": "sort",
+              "word": "w[ear]",
+              "column": 4
+            },
+            {
+              "n": 11,
+              "type": "sort",
+              "word": "h[air]",
+              "column": 4
+            },
+            {
+              "n": 12,
+              "type": "sort",
+              "word": "th[ere]",
+              "column": 4
+            },
+            {
+              "n": 13,
+              "type": "sort",
+              "word": "n[oi]|sy",
+              "column": 5
+            },
+            {
+              "n": 14,
+              "type": "sort",
+              "word": "en|j[oy]",
+              "column": 5
+            },
+            {
+              "n": 15,
+              "type": "sort",
+              "word": "b[oy]",
+              "column": 5
+            },
+            {
+              "n": 16,
+              "type": "sort",
+              "word": "br[ea]k",
+              "column": 6
+            },
+            {
+              "n": 17,
+              "type": "sort",
+              "word": "m[ay]",
+              "column": 6
+            },
+            {
+              "n": 18,
+              "type": "sort",
+              "word": "f[ai]l",
+              "column": 6
+            }
+          ]
+        },
+        {
+          "id": "11B-wb2b",
+          "origin": "WB",
+          "instruction": "Say the words. Be careful with the diphthongs",
+          "note": "WB 2b «Listen and check. Then listen again and repeat»: аудио WB нет → Speak (образец — TTS)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "might, decide, buy"
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "won’t, although, know"
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "south, owl, now"
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "here, idea, souvenir"
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "wear, hair, there"
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "noisy, enjoy, boy"
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "break, may, fail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11B-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "word building: noun formation",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Making nouns from verbs",
+          "text": "With some verbs you can make a noun by adding -ion, -sion, -ation, or -ition, e.g. decide → decision. With some other verbs, the noun is a new word, e.g. choose (verb) → choice (noun)."
+        },
+        {
+          "type": "table",
+          "title": "Noun + -ion, -sion, -ation / -ition",
+          "headers": [
+            "Verb",
+            "Noun"
+          ],
+          "rows": [
+            [
+              "decide",
+              "decision"
+            ],
+            [
+              "revise",
+              "revision"
+            ],
+            [
+              "confuse",
+              "confusion"
+            ],
+            [
+              "invent",
+              "invention"
+            ],
+            [
+              "compete",
+              "competition"
+            ],
+            [
+              "educate",
+              "education"
+            ],
+            [
+              "invite",
+              "invitation"
+            ],
+            [
+              "pronounce",
+              "pronunciation"
+            ]
+          ],
+          "audio": "11.15"
+        },
+        {
+          "type": "table",
+          "title": "Noun: new words",
+          "headers": [
+            "Verb",
+            "Noun"
+          ],
+          "rows": [
+            [
+              "choose",
+              "choice"
+            ],
+            [
+              "advise",
+              "advice"
+            ],
+            [
+              "fly",
+              "flight"
+            ],
+            [
+              "live",
+              "life"
+            ],
+            [
+              "die",
+              "death"
+            ],
+            [
+              "succeed",
+              "success"
+            ]
+          ]
+        },
+        {
+          "type": "mistake",
+          "wrong": "Your pronounciation is very good.",
+          "right": "Your pronunciation is very good.",
+          "why": "pronounce → pronunciation: the noun has no o after the first n."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "11B-sb4a",
+          "origin": "SB",
+          "instruction": "Look at some extracts from the listening. Are the highlighted words verbs or nouns?",
+          "note": "SB 4a «Are the highlighted words verbs or nouns?» → Blank с вариантами в hint",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Being able to choose from a lot of options is a good thing. choose → {}",
+              "gaps": [
+                [
+                  "verb"
+                ]
+              ],
+              "hint": "(verb / noun)",
+              "source": "KEY"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "We feel happier when we have less choice. choice → {}",
+              "gaps": [
+                [
+                  "noun"
+                ]
+              ],
+              "hint": "(verb / noun)",
+              "source": "KEY"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "We should try to relax when we have to decide what to buy. decide → {}",
+              "gaps": [
+                [
+                  "verb"
+                ]
+              ],
+              "hint": "(verb / noun)",
+              "source": "KEY"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "We get stressed every time we have to make a decision. decision → {}",
+              "gaps": [
+                [
+                  "noun"
+                ]
+              ],
+              "hint": "(verb / noun)",
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "11B-sb4b",
+          "origin": "SB",
+          "instruction": "Write the verbs for the nouns. Then listen and check",
+          "audio": "11.15",
+          "note": "SB 4b–c; 1 decide – decision — пример. Ответы проверены по 11.15",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "{} → revision",
+              "gaps": [
+                [
+                  "revise"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                5.95,
+                10.19
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{} → confusion",
+              "gaps": [
+                [
+                  "confuse"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                11.91,
+                16.38
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{} → invention",
+              "gaps": [
+                [
+                  "invent"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                18.11,
+                22.25
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{} → competition",
+              "gaps": [
+                [
+                  "compete"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                23.97,
+                28.14
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "{} → education",
+              "gaps": [
+                [
+                  "educate"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                29.78,
+                34.14
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "{} → invitation",
+              "gaps": [
+                [
+                  "invite"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                35.86,
+                40.1
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "{} → pronunciation",
+              "gaps": [
+                [
+                  "pronounce"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                41.78,
+                46.26
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "{} → choice",
+              "gaps": [
+                [
+                  "choose"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                47.99,
+                51.91
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "{} → advice",
+              "gaps": [
+                [
+                  "advise"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                53.66,
+                57.82
+              ]
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "{} → flight",
+              "gaps": [
+                [
+                  "fly"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                59.53,
+                63.41
+              ]
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "{} → life",
+              "gaps": [
+                [
+                  "live"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                65.09,
+                68.98
+              ]
+            },
+            {
+              "n": 13,
+              "type": "blank",
+              "text": "{} → death",
+              "gaps": [
+                [
+                  "die"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                70.75,
+                74.42
+              ]
+            },
+            {
+              "n": 14,
+              "type": "blank",
+              "text": "{} → success",
+              "gaps": [
+                [
+                  "succeed"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                76.18,
+                80.51
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11B-sb4c",
+          "origin": "SB",
+          "audio": "11.15",
+          "instruction": "Listen and underline the stressed syllable in the multisyllable verbs and nouns",
+          "note": "SB 4c",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "stress",
+              "text": "de|cide",
+              "stressed": [
+                2
+              ],
+              "source": "KEY",
+              "clip": [
+                0.21,
+                1.51
+              ]
+            },
+            {
+              "n": 2,
+              "type": "stress",
+              "text": "de|ci|sion",
+              "stressed": [
+                2
+              ],
+              "source": "KEY",
+              "clip": [
+                2.99,
+                4.27
+              ]
+            },
+            {
+              "n": 3,
+              "type": "stress",
+              "text": "re|vise",
+              "stressed": [
+                2
+              ],
+              "source": "KEY",
+              "clip": [
+                5.95,
+                7.4
+              ]
+            },
+            {
+              "n": 4,
+              "type": "stress",
+              "text": "re|vi|sion",
+              "stressed": [
+                2
+              ],
+              "source": "KEY",
+              "clip": [
+                8.89,
+                10.19
+              ]
+            },
+            {
+              "n": 5,
+              "type": "stress",
+              "text": "con|fuse",
+              "stressed": [
+                2
+              ],
+              "source": "KEY",
+              "clip": [
+                11.91,
+                13.37
+              ]
+            },
+            {
+              "n": 6,
+              "type": "stress",
+              "text": "con|fu|sion",
+              "stressed": [
+                2
+              ],
+              "source": "KEY",
+              "clip": [
+                14.87,
+                16.38
+              ]
+            },
+            {
+              "n": 7,
+              "type": "stress",
+              "text": "in|vent",
+              "stressed": [
+                2
+              ],
+              "source": "KEY",
+              "clip": [
+                18.11,
+                19.4
+              ]
+            },
+            {
+              "n": 8,
+              "type": "stress",
+              "text": "in|ven|tion",
+              "stressed": [
+                2
+              ],
+              "source": "KEY",
+              "clip": [
+                20.88,
+                22.25
+              ]
+            },
+            {
+              "n": 9,
+              "type": "stress",
+              "text": "com|pete",
+              "stressed": [
+                2
+              ],
+              "source": "KEY",
+              "clip": [
+                23.97,
+                25.2
+              ]
+            },
+            {
+              "n": 10,
+              "type": "stress",
+              "text": "com|pe|ti|tion",
+              "stressed": [
+                3
+              ],
+              "source": "KEY",
+              "clip": [
+                26.72,
+                28.14
+              ]
+            },
+            {
+              "n": 11,
+              "type": "stress",
+              "text": "ed|u|cate",
+              "stressed": [
+                1
+              ],
+              "source": "KEY",
+              "clip": [
+                29.78,
+                31.14
+              ]
+            },
+            {
+              "n": 12,
+              "type": "stress",
+              "text": "ed|u|ca|tion",
+              "stressed": [
+                3
+              ],
+              "source": "KEY",
+              "clip": [
+                32.67,
+                34.14
+              ]
+            },
+            {
+              "n": 13,
+              "type": "stress",
+              "text": "in|vite",
+              "stressed": [
+                2
+              ],
+              "source": "KEY",
+              "clip": [
+                35.86,
+                37.12
+              ]
+            },
+            {
+              "n": 14,
+              "type": "stress",
+              "text": "in|vi|ta|tion",
+              "stressed": [
+                3
+              ],
+              "source": "KEY",
+              "clip": [
+                38.61,
+                40.1
+              ]
+            },
+            {
+              "n": 15,
+              "type": "stress",
+              "text": "pro|nounce",
+              "stressed": [
+                2
+              ],
+              "source": "KEY",
+              "clip": [
+                41.78,
+                43.09
+              ]
+            },
+            {
+              "n": 16,
+              "type": "stress",
+              "text": "pro|nun|ci|a|tion",
+              "stressed": [
+                4
+              ],
+              "source": "KEY",
+              "clip": [
+                44.64,
+                46.26
+              ]
+            },
+            {
+              "n": 17,
+              "type": "stress",
+              "text": "ad|vise",
+              "stressed": [
+                2
+              ],
+              "source": "KEY",
+              "clip": [
+                53.66,
+                55.03
+              ]
+            },
+            {
+              "n": 18,
+              "type": "stress",
+              "text": "ad|vice",
+              "stressed": [
+                2
+              ],
+              "source": "KEY",
+              "clip": [
+                56.52,
+                57.82
+              ]
+            },
+            {
+              "n": 19,
+              "type": "stress",
+              "text": "suc|ceed",
+              "stressed": [
+                2
+              ],
+              "source": "KEY",
+              "clip": [
+                76.18,
+                77.57
+              ]
+            },
+            {
+              "n": 20,
+              "type": "stress",
+              "text": "suc|cess",
+              "stressed": [
+                2
+              ],
+              "source": "KEY",
+              "clip": [
+                79.06,
+                80.51
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11B-sb4d",
+          "origin": "SB",
+          "instruction": "Complete the questions with a noun from the chart",
+          "note": "SB 4d",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "When was the last time you had to make a big {}?",
+              "gaps": [
+                [
+                  "decision"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "When was the last time you got an {} to a wedding or party?",
+              "gaps": [
+                [
+                  "invitation"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "When was the last time you got an international {}?",
+              "gaps": [
+                [
+                  "flight"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "When was the last time you got excited about a new {}?",
+              "gaps": [
+                [
+                  "invention"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Have you ever won a {}?",
+              "gaps": [
+                [
+                  "competition"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Have you ever given someone {} about something, e.g. a relationship?",
+              "gaps": [
+                [
+                  "advice"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Have you ever been in a {} or {} situation?",
+              "gaps": [
+                [
+                  "life"
+                ],
+                [
+                  "death"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Have you ever not understood somebody because of their {}?",
+              "gaps": [
+                [
+                  "pronunciation"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "11B-sb4e",
+          "origin": "SB",
+          "instruction": "Answer the questions in d",
+          "note": "SB 4e",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "Ask the student the questions one at a time and ask for more details (When? Where? What happened?): When was the last time you had to make a big decision? … got an invitation to a wedding or party? … got an international flight? … got excited about a new invention? Have you ever won a competition? … given someone advice about something? … been in a life or death situation? … not understood somebody because of their pronunciation? Answer their questions too if they ask.",
+              "goal": "Answer questions about decisions, invitations, flights, and competitions.",
+              "opener": "When was the last time you had to make a big decision?",
+              "criteria": [
+                "answers with details (when, where, what happened)",
+                "uses the past simple for finished times and the present perfect with ever",
+                "uses the nouns correctly (decision, invitation, flight, advice)"
+              ],
+              "steps": [
+                {
+                  "text": "Talk about a big decision",
+                  "example": "Last year I had to decide which university to go to."
+                },
+                {
+                  "text": "Talk about an invitation or a flight",
+                  "example": "I got an invitation to my cousin’s wedding last month."
+                },
+                {
+                  "text": "Say if you have ever won a competition",
+                  "example": "Yes, I have. I won a photography competition when I was 15."
+                },
+                {
+                  "text": "Talk about advice or pronunciation",
+                  "example": "I once didn’t understand a waiter in Scotland because of his pronunciation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11B-wb3a",
+          "origin": "WB",
+          "instruction": "Write the nouns for the verbs",
+          "note": "WB 3a «Complete the chart»; 1 choose – choice — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "confuse → {}",
+              "gaps": [
+                [
+                  "confusion"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "decide → {}",
+              "gaps": [
+                [
+                  "decision"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "die → {}",
+              "gaps": [
+                [
+                  "death"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "compete → {}",
+              "gaps": [
+                [
+                  "competition"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "educate → {}",
+              "gaps": [
+                [
+                  "education"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "invite → {}",
+              "gaps": [
+                [
+                  "invitation"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "live → {}",
+              "gaps": [
+                [
+                  "life"
+                ]
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "invent → {}",
+              "gaps": [
+                [
+                  "invention"
+                ]
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "fly → {}",
+              "gaps": [
+                [
+                  "flight"
+                ]
+              ]
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "succeed → {}",
+              "gaps": [
+                [
+                  "success"
+                ]
+              ]
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "revise → {}",
+              "gaps": [
+                [
+                  "revision"
+                ]
+              ]
+            },
+            {
+              "n": 13,
+              "type": "blank",
+              "text": "advise → {}",
+              "gaps": [
+                [
+                  "advice"
+                ]
+              ]
+            },
+            {
+              "n": 14,
+              "type": "blank",
+              "text": "pronounce → {}",
+              "gaps": [
+                [
+                  "pronunciation"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11B-wb3b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with a verb or noun from the chart",
+          "note": "WB 3b; 1 decide — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "After the {} of our dog, we were all really sad for weeks.",
+              "gaps": [
+                [
+                  "death"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "They’re going to {} all their friends to their party.",
+              "gaps": [
+                [
+                  "invite"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "The {} was very long, but I watched three films on the plane.",
+              "gaps": [
+                [
+                  "flight"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "The documentary was about the {} of the author, Charles Dickens.",
+              "gaps": [
+                [
+                  "life"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Have you done enough {} for your exam tomorrow?",
+              "gaps": [
+                [
+                  "revision"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "The computer was a very important {}.",
+              "gaps": [
+                [
+                  "invention"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "The new Chinese restaurant has been a big {}. It’s full every night.",
+              "gaps": [
+                [
+                  "success"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11B-wb3c",
+          "origin": "WB",
+          "instruction": "Complete the sentences with might or might not and a noun from the chart",
+          "note": "WB 3c; 1 might, decision — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "We {} win the {} tomorrow. The team we’re playing isn’t very good.",
+              "gaps": [
+                [
+                  "might"
+                ],
+                [
+                  "competition"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "The children {} get a better {} if we teach them at home. The local school is terrible.",
+              "gaps": [
+                [
+                  "might"
+                ],
+                [
+                  "education"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I {} book the {} to Miami. It’s very expensive and I don’t have much money.",
+              "gaps": [
+                [
+                  "might not"
+                ],
+                [
+                  "flight"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I {} take Marta’s {}. She’s usually wrong.",
+              "gaps": [
+                [
+                  "might not"
+                ],
+                [
+                  "advice"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Carlos {} watch some English films to improve his {}.",
+              "gaps": [
+                [
+                  "might"
+                ],
+                [
+                  "pronunciation"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11B-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the noun form of the verb in brackets.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Can you give me some {}? I don’t know what to do.",
+              "gaps": [
+                [
+                  "advice"
+                ]
+              ],
+              "hint": "(advise)",
+              "explain": "advise (verb) → advice (noun). The noun ends in -ice.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "We got an {} to their wedding.",
+              "gaps": [
+                [
+                  "invitation"
+                ]
+              ],
+              "hint": "(invite)",
+              "explain": "invite → invitation (+ -ation).",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "There are too many types of phone. The {} is enormous.",
+              "gaps": [
+                [
+                  "choice"
+                ]
+              ],
+              "hint": "(choose)",
+              "explain": "choose → choice: a new word.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Our {} to Rome was two hours late.",
+              "gaps": [
+                [
+                  "flight"
+                ]
+              ],
+              "hint": "(fly)",
+              "explain": "fly → flight: a new word.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "She had a long and happy {}.",
+              "gaps": [
+                [
+                  "life"
+                ]
+              ],
+              "hint": "(live)",
+              "explain": "live → life.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "The telephone was one of the greatest {} of the 19th century.",
+              "gaps": [
+                [
+                  "inventions"
+                ]
+              ],
+              "hint": "(invent)",
+              "explain": "invent → invention (+ -ion), plural inventions.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "His English is good, but his {} is sometimes difficult to understand.",
+              "gaps": [
+                [
+                  "pronunciation"
+                ]
+              ],
+              "hint": "(pronounce)",
+              "explain": "pronounce → pronunciation (no o after the first n).",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Leaving my job was the best {} I’ve ever made.",
+              "gaps": [
+                [
+                  "decision"
+                ]
+              ],
+              "hint": "(decide)",
+              "explain": "decide → decision; make a decision.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "The film was a huge {} – millions of people saw it.",
+              "gaps": [
+                [
+                  "success"
+                ]
+              ],
+              "hint": "(succeed)",
+              "explain": "succeed → success.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "The {} of Princess Diana in 1997 shocked the world.",
+              "gaps": [
+                [
+                  "death"
+                ]
+              ],
+              "hint": "(die)",
+              "explain": "die → death.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "11B-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the verb form of the noun in brackets.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I can’t {} which dress to buy.",
+              "gaps": [
+                [
+                  "decide"
+                ]
+              ],
+              "hint": "(decision)",
+              "explain": "decision → decide.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "How do you {} this word?",
+              "gaps": [
+                [
+                  "pronounce"
+                ]
+              ],
+              "hint": "(pronunciation)",
+              "explain": "pronunciation → pronounce.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I need to {} for my history exam tonight.",
+              "gaps": [
+                [
+                  "revise"
+                ]
+              ],
+              "hint": "(revision)",
+              "explain": "revision → revise.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Too many rules {} the students.",
+              "gaps": [
+                [
+                  "confuse"
+                ]
+              ],
+              "hint": "(confusion)",
+              "explain": "confusion → confuse.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Twenty teams will {} in the tournament.",
+              "gaps": [
+                [
+                  "compete"
+                ]
+              ],
+              "hint": "(competition)",
+              "explain": "competition → compete.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "If you work hard, you will {}.",
+              "gaps": [
+                [
+                  "succeed"
+                ]
+              ],
+              "hint": "(success)",
+              "explain": "success → succeed.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "The doctor {} me to stay in bed for a few days.",
+              "gaps": [
+                [
+                  "advised"
+                ]
+              ],
+              "hint": "(advice)",
+              "explain": "advice → advise; past simple advised.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Schools should {} children about healthy food.",
+              "gaps": [
+                [
+                  "educate"
+                ]
+              ],
+              "hint": "(education)",
+              "explain": "education → educate.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11B-skills",
+      "kind": "SKILLS",
+      "title": "Listening",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Is too much choice making us unhappy?",
+          "text": "Nowadays there are hundreds of kinds of jeans, milk, hotels, and TV channels. Researchers have discovered that too much choice makes us stressed and dissatisfied: we worry about making the wrong decision. In a study, Professor Mark Lepper found that people who tried six kinds of jam were happier with their choice than people who tried 24. His advice: relax and choose quickly."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "11B-sb3a",
+          "origin": "SB",
+          "instruction": "Look at the photos. What style of jeans do you usually buy? What colour? Do you sometimes have problems finding the right ones?",
+          "note": "SB 3a",
+          "images": [
+            "11b_sb3a_jeans"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You and the student are talking about jeans. Ask what style of jeans they usually buy (ripped, bootcut, straight, skinny, or boyfriend), what colour, and if they sometimes have problems finding the right ones. Ask for more details. Say that you always buy straight dark blue jeans and it takes you hours to find the right size.",
+              "goal": "Talk about the jeans you usually buy.",
+              "opener": "What style of jeans do you usually buy?",
+              "criteria": [
+                "names a style of jeans (skinny, straight, bootcut, ripped, boyfriend)",
+                "says what colour they usually buy",
+                "says if it is easy or difficult to find the right ones and why"
+              ],
+              "steps": [
+                {
+                  "text": "Say what style of jeans you usually buy",
+                  "example": "I usually buy skinny jeans."
+                },
+                {
+                  "text": "Say what colour",
+                  "example": "Normally dark blue or black."
+                },
+                {
+                  "text": "Say if it’s easy to find the right ones",
+                  "example": "It’s quite difficult. There are so many sizes and styles."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11B-sb3b",
+          "origin": "SB",
+          "audio": "11.14",
+          "instruction": "Listen to a talk called ‘Is too much choice making us unhappy?’. Does the speaker think the answer is yes or no?",
+          "note": "SB 3b; скрипт 11.14 напечатан в SB",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Is too much choice making us unhappy? The speaker thinks the answer is {}.",
+              "gaps": [
+                [
+                  "yes"
+                ]
+              ],
+              "hint": "(yes / no)",
+              "explain": "Researchers have discovered that too much choice is making us feel unhappy and dissatisfied.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "11B-sb3c",
+          "origin": "SB",
+          "audio": "11.14",
+          "instruction": "Listen again. Complete the five main points in the talk",
+          "note": "SB 3c «Choose a, b, or c» → Blank с вариантами в hint; ответы по скрипту 11.14",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Nowadays, it is {} to buy jeans than in the past because there is so much choice.",
+              "gaps": [
+                [
+                  "more difficult"
+                ]
+              ],
+              "hint": "(easier / more difficult / more fun)",
+              "explain": "Buying jeans isn’t as easy as it used to be.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "One of the examples the speaker gives of where we have a lot of choice today is {}.",
+              "gaps": [
+                [
+                  "finding a boyfriend or girlfriend"
+                ]
+              ],
+              "hint": "(buying coffee in supermarkets / choosing which airline to travel with / finding a boyfriend or girlfriend)",
+              "explain": "…or even choosing a future partner on a dating website.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Research has shown that when we have a lot of choice we often {}.",
+              "gaps": [
+                [
+                  "worry that we’ve chosen the wrong thing",
+                  "worry that we have chosen the wrong thing"
+                ]
+              ],
+              "hint": "(worry that we’ve chosen the wrong thing / can’t decide what to buy / buy more than we really need)",
+              "explain": "We’re worried about making the wrong one… we feel bad because we think we are missing other opportunities.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "In another study, about jams, Professor Lepper found that people were happier when they had {} jams to choose from than when they had 24.",
+              "gaps": [
+                [
+                  "six",
+                  "6"
+                ]
+              ],
+              "hint": "(sixteen / six / sixty)",
+              "explain": "People who tried six kinds of jam… felt happier.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Professor Lepper suggests that when we go shopping we should {}.",
+              "gaps": [
+                [
+                  "relax and choose quickly"
+                ]
+              ],
+              "hint": "(do research in advance / look at all the options carefully / relax and choose quickly)",
+              "explain": "‘If you pick a sofa from IKEA in 30 seconds, you’ll feel better…’",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "11B-sb3d",
+          "origin": "SB",
+          "instruction": "In your country is there a lot of choice in the following? Do you think it’s a good or bad thing?",
+          "note": "SB 3d",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "Ask the student if in their country there is a lot of choice in supermarkets, on TV, in clothes shops, in coffee shops, and in restaurants, and if they think it’s a good or bad thing. One place at a time. Give your own opinion briefly: you think there are too many TV channels, but you like choice in restaurants.",
+              "goal": "Say if there is a lot of choice in your country and if it’s good or bad.",
+              "opener": "In your country, is there a lot of choice in supermarkets?",
+              "criteria": [
+                "talks about at least three of the places",
+                "says if the choice is a good or bad thing and gives a reason",
+                "uses there is / there are and too much / too many correctly"
+              ],
+              "steps": [
+                {
+                  "text": "Talk about supermarkets",
+                  "example": "Yes, there’s too much choice. There are twenty kinds of yogurt!"
+                },
+                {
+                  "text": "Talk about TV",
+                  "example": "There are hundreds of channels, but I only watch two or three."
+                },
+                {
+                  "text": "Talk about clothes shops or restaurants",
+                  "example": "I like having a lot of choice in restaurants."
+                },
+                {
+                  "text": "Say if choice is good or bad in general",
+                  "example": "I think it’s a bad thing, because it takes a long time to decide."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

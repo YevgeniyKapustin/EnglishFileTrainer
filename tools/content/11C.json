@@ -1,0 +1,3533 @@
+{
+  "id": "11C",
+  "title": "Twinstrangers.net",
+  "bubbles": [
+    "I have a son called James.",
+    "So do I."
+  ],
+  "sources": "SB p.90–91, Grammar Bank 11C p.146–147, Practical English Episode 6 p.92–93; WB p.78–80",
+  "sections": [
+    {
+      "id": "11C-skills",
+      "kind": "SKILLS",
+      "title": "Reading & Listening",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Twin Strangers",
+          "text": "Twin Strangers is an online project that helps people find a stranger who looks just like them. It was set up by Niamh Geaney from Dublin and two friends."
+        },
+        {
+          "type": "note",
+          "title": "Glossary",
+          "text": "Erasmus scholarships — a programme which allows students from the European Union to study in another country."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "11C-sb1a",
+          "origin": "SB",
+          "instruction": "Look at the photos. One of them is of identical twins, but two of them are of complete strangers. Read about the project Twin Strangers. Which photo is of twins?",
+          "note": "SB 1a–b (угадать → проверить по тексту) → Blank с вариантами в hint",
+          "images": [
+            "11c_sb1_cordelia_ciara",
+            "11c_sb1_thomas_toby",
+            "11c_sb1_niamh_luisa"
+          ],
+          "context": "Two women recently met by chance at Bremen University, in Germany. One was English, and one was Irish, and they were both on Erasmus scholarships. Nothing unusual there, except for one thing. The two girls look identical. Their hair is the same colour and length, they’re the same age and size, and when you see them together, in the photo they put on social media, you would think that they were identical twins. In fact, Cordelia Roberts and Ciara Murphy are unrelated.\nIt seems that it is not uncommon for people who are unrelated to look almost identical. Niamh Geaney, from Dublin, and two friends were so interested in trying to find their ‘twins’ that they set up an online project called Twin Strangers. Very quickly, Niamh found a remarkably similar-looking stranger who lived just a few miles away. It’s perhaps not so surprising, as both young women look typically Irish, with dark hair and very pale skin, but then Niamh found another lookalike – Luisa Guizzardi, who is from Genoa in Italy!",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "The identical twins are {}.",
+              "gaps": [
+                [
+                  "Thomas and Toby",
+                  "Toby and Thomas"
+                ]
+              ],
+              "hint": "(Cordelia and Ciara / Thomas and Toby / Niamh and Luisa)",
+              "explain": "Cordelia and Ciara are unrelated, and Luisa is a stranger from Italy, so Thomas and Toby are the twins.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "11C-sb1c",
+          "origin": "SB",
+          "instruction": "Read the text again. Who set up the website? What was surprising about one of the ‘twins’ that Niamh found?",
+          "note": "SB 1c; текст — в 1a",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "{} from Dublin and two friends set up the website.",
+              "gaps": [
+                [
+                  "Niamh Geaney",
+                  "Niamh"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "One of Niamh’s ‘twins’, Luisa Guizzardi, is from {} in Italy.",
+              "gaps": [
+                [
+                  "Genoa"
+                ]
+              ],
+              "explain": "It was surprising because Niamh looks typically Irish, but Luisa is Italian.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "11C-sb1d",
+          "origin": "SB",
+          "audio": "11.16",
+          "instruction": "Journalist Maggie Alderson decided to try the website for herself. Listen to her talking. Did she find a ‘twin’? How did she feel about the experience?",
+          "note": "SB 1d; скрипт 11.16 напечатан в SB",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Did Maggie find a ‘twin’? {}",
+              "gaps": [
+                [
+                  "yes",
+                  "yes, she did"
+                ]
+              ],
+              "hint": "(yes / no)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "She felt it was a {} experience, but she was happy.",
+              "gaps": [
+                [
+                  "strange"
+                ]
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "11C-sb1e",
+          "origin": "SB",
+          "audio": "11.16",
+          "instruction": "Listen again and answer the questions",
+          "note": "SB 1e; свободные ответы → пропуски по скрипту 11.16",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "How does Maggie describe her appearance? She has an {} face, {} eyes, and thin lips.",
+              "gaps": [
+                [
+                  "oval"
+                ],
+                [
+                  "blue"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "What was her first reaction when she saw her ‘twins’? They all looked totally {} from her.",
+              "gaps": [
+                [
+                  "different"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Who in Maggie’s family did one woman look like? Her {}.",
+              "gaps": [
+                [
+                  "brother"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "What did her husband think of one of her ‘twins’? He said she had the same {} as Maggie. Did Maggie agree? {}",
+              "gaps": [
+                [
+                  "mouth"
+                ],
+                [
+                  "yes",
+                  "yes, she did"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "How did she change her profile? She put her age ten years {}.",
+              "gaps": [
+                [
+                  "younger"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "What did Maggie’s brother think of the woman on her Facebook page? He said she looked like Maggie and their {}.",
+              "gaps": [
+                [
+                  "sister"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "In what ways does Maggie look like this woman? They both have {} hair, thin lips, and something in the eyes.",
+              "gaps": [
+                [
+                  "blonde",
+                  "blond"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Have they been in contact with each other? {}. Maggie sent a message, but the woman hasn’t replied yet.",
+              "gaps": [
+                [
+                  "No",
+                  "Not yet"
+                ]
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "11C-sb1f",
+          "origin": "SB",
+          "instruction": "Talk about twins and lookalikes",
+          "note": "SB 1f",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "Ask the student three questions one at a time and ask follow-up questions: Would you like to try the Twin Strangers website? Why (not)? Do you know any identical twins? Can you tell the difference between them? Do you know anyone who looks very like you?",
+              "goal": "Talk about twins and people who look like you.",
+              "opener": "Would you like to try the Twin Strangers website?",
+              "criteria": [
+                "answers all three questions and gives reasons",
+                "uses look like / look similar / the same… as correctly",
+                "gives some details (who, how they are similar or different)"
+              ],
+              "steps": [
+                {
+                  "text": "Say if you would like to try the website and why",
+                  "example": "Yes, I would. I’d love to know if I have a twin."
+                },
+                {
+                  "text": "Talk about identical twins you know",
+                  "example": "My neighbours are identical twins. I can’t tell the difference between them."
+                },
+                {
+                  "text": "Say if anyone looks like you",
+                  "example": "People say I look like my cousin. We have the same eyes."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11C-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "similarities and differences",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Similarities and differences",
+          "headers": [
+            "Phrase",
+            "Example"
+          ],
+          "rows": [
+            [
+              "both",
+              "Cordelia and Ciara were both on Erasmus scholarships."
+            ],
+            [
+              "identical",
+              "The two girls looked identical."
+            ],
+            [
+              "different from",
+              "The first photos were totally different from her."
+            ],
+            [
+              "look like",
+              "She looked just like her brother."
+            ],
+            [
+              "the same… as",
+              "She has the same mouth as you."
+            ],
+            [
+              "similar to",
+              "Maggie’s ‘twin’ looks very similar to her."
+            ]
+          ],
+          "audio": "11.17"
+        },
+        {
+          "type": "mistake",
+          "wrong": "She has the same eyes than her mother.",
+          "right": "She has the same eyes as her mother.",
+          "why": "the same + noun + as."
+        },
+        {
+          "type": "mistake",
+          "wrong": "He looks like to his father.",
+          "right": "He looks like his father.",
+          "why": "look like + person, without to."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "11C-sb2a",
+          "origin": "SB",
+          "audio": "11.17",
+          "instruction": "Complete the sentences about the people in 1 with a word from the list. Then listen and check",
+          "note": "SB 2a–b; ответы проверены по 11.17",
+          "words": [
+            "as",
+            "both",
+            "from",
+            "identical",
+            "like",
+            "similar"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Cordelia and Ciara were {} on Erasmus scholarships.",
+              "gaps": [
+                [
+                  "both"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                0.2,
+                4.21
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The two girls looked {}.",
+              "gaps": [
+                [
+                  "identical"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                5.96,
+                8.82
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "The first photos Maggie looked at were totally different {} her.",
+              "gaps": [
+                [
+                  "from"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                10.53,
+                15.3
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Maggie found one woman who looked just {} her brother.",
+              "gaps": [
+                [
+                  "like"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                17.14,
+                20.96
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Her husband said ‘She has the same mouth {} you’.",
+              "gaps": [
+                [
+                  "as"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                22.89,
+                27.3
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Maggie’s ‘twin’ looks very {} to her.",
+              "gaps": [
+                [
+                  "similar"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                29.13,
+                32.75
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11C-sb2c",
+          "origin": "SB",
+          "instruction": "Complete the sentences about you and your family",
+          "note": "SB 2c",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Write four sentences about you and your family: I have the same colour eyes as my… / I look like my… / My personality is quite similar to my…’s. / My… and I both like…",
+              "criteria": [
+                "four true sentences about you and your family",
+                "the same… as, look like, similar to, both used correctly",
+                "family words spelled correctly"
+              ],
+              "questions": [
+                {
+                  "text": "I have the same colour eyes as my…",
+                  "hint": "I have the same colour eyes as my mother."
+                },
+                {
+                  "text": "I look like my…",
+                  "hint": "I look like my grandfather."
+                },
+                {
+                  "text": "My personality is quite similar to my…’s.",
+                  "hint": "My personality is quite similar to my sister’s."
+                },
+                {
+                  "text": "My… and I both like…",
+                  "hint": "My brother and I both like football."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11C-wb1a",
+          "origin": "WB",
+          "instruction": "Choose the correct word",
+          "note": "WB 1a Circle → Blank с вариантами в hint; 1 identical — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I have the same colour eyes {} my dad.",
+              "gaps": [
+                [
+                  "as"
+                ]
+              ],
+              "hint": "(as / that)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "My brother and I are {} in a band. I’m a guitarist and he’s a drummer.",
+              "gaps": [
+                [
+                  "both"
+                ]
+              ],
+              "hint": "(both / same)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "My cousin and I are quite {}, but she’s taller than me.",
+              "gaps": [
+                [
+                  "similar"
+                ]
+              ],
+              "hint": "(similar / identical)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Do you look {} your mother?",
+              "gaps": [
+                [
+                  "like"
+                ]
+              ],
+              "hint": "(like / as)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "When we went back to the house where we used to live, it seemed very different {} how I remembered it.",
+              "gaps": [
+                [
+                  "from"
+                ]
+              ],
+              "hint": "(from / as)"
+            }
+          ]
+        },
+        {
+          "id": "11C-wb1b",
+          "origin": "WB",
+          "instruction": "Read ‘The same but different’ and complete the text with words from the list",
+          "note": "WB 1b; 1 similar — пример",
+          "words": [
+            "as",
+            "both",
+            "different",
+            "identical",
+            "like"
+          ],
+          "context": "People think my best friend Sam and I are sisters, because we’re very similar.",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Sam’s from the same town {} me, and we look {} each other, but we aren’t {} because her eyes are {} from mine.",
+              "gaps": [
+                [
+                  "as"
+                ],
+                [
+                  "like"
+                ],
+                [
+                  "identical"
+                ],
+                [
+                  "different"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "We {} like shopping, and we have the same taste in clothes, too. We even have the same surname – Johnson. This confuses a lot of people!",
+              "gaps": [
+                [
+                  "both"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11C-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with as, both, from, identical, like, or similar.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "You look just {} your father when you smile.",
+              "gaps": [
+                [
+                  "like"
+                ]
+              ],
+              "explain": "look like + person.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "My flat is quite {} to yours, but it’s a bit smaller.",
+              "gaps": [
+                [
+                  "similar"
+                ]
+              ],
+              "explain": "similar to = almost the same.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "We {} work in the same office.",
+              "gaps": [
+                [
+                  "both"
+                ]
+              ],
+              "explain": "both = the two of us; it goes before the main verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Her new car is the same colour {} her old one.",
+              "gaps": [
+                [
+                  "as"
+                ]
+              ],
+              "explain": "the same + noun + as.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Life in a village is very different {} life in a big city.",
+              "gaps": [
+                [
+                  "from"
+                ]
+              ],
+              "explain": "different from.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "The two paintings are {} – nobody can tell which one is the original.",
+              "gaps": [
+                [
+                  "identical"
+                ]
+              ],
+              "explain": "identical = exactly the same.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "My sister and I {} have curly hair.",
+              "gaps": [
+                [
+                  "both"
+                ]
+              ],
+              "explain": "both before the main verb have.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Tom doesn’t look {} his brother at all.",
+              "gaps": [
+                [
+                  "like"
+                ]
+              ],
+              "explain": "not look like = be different in appearance.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "I went to the same school {} my mother.",
+              "gaps": [
+                [
+                  "as"
+                ]
+              ],
+              "explain": "the same school as.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "British English is a bit different {} American English.",
+              "gaps": [
+                [
+                  "from"
+                ]
+              ],
+              "explain": "different from.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "11C-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes. If a sentence is correct, leave it as it is.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "She has the same eyes than her mother.",
+              "answers": [
+                "She has the same eyes as her mother."
+              ],
+              "explain": "the same… as, not than.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "He looks like to his grandfather.",
+              "answers": [
+                "He looks like his grandfather."
+              ],
+              "explain": "look like + person, no to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "My jacket is similar with yours.",
+              "answers": [
+                "My jacket is similar to yours."
+              ],
+              "explain": "similar to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "We both are teachers.",
+              "answers": [
+                "We are both teachers.",
+                "We’re both teachers."
+              ],
+              "explain": "both goes after be.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "This phone is different from my old one.",
+              "answers": [
+                "This phone is different from my old one."
+              ],
+              "explain": "Correct: different from.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "They are identical twins, so they look the same.",
+              "answers": [
+                "They are identical twins, so they look the same.",
+                "They’re identical twins, so they look the same."
+              ],
+              "explain": "Correct: look the same.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11C-grammar",
+      "kind": "GRAMMAR",
+      "title": "so, neither + auxiliaries",
+      "reference": [
+        {
+          "type": "table",
+          "title": "So / Neither + auxiliary + I",
+          "headers": [
+            "",
+            "A",
+            "B"
+          ],
+          "rows": [
+            [
+              "present simple",
+              "I love classical music. / I don’t like classical music.",
+              "So do I. / Neither do I."
+            ],
+            [
+              "present continuous",
+              "I’m having a great time.",
+              "So am I."
+            ],
+            [
+              "can / can’t",
+              "I can swim.",
+              "So can I."
+            ],
+            [
+              "past simple",
+              "I went to a concert last night. / I didn’t like the film.",
+              "So did I. / Neither did I."
+            ],
+            [
+              "be (past)",
+              "I was very tired.",
+              "So was I."
+            ],
+            [
+              "be (present)",
+              "I’m not married.",
+              "Neither am I."
+            ],
+            [
+              "would / wouldn’t",
+              "I wouldn’t like to go there.",
+              "Neither would I."
+            ],
+            [
+              "present perfect",
+              "I’ve been to Brazil.",
+              "So have I."
+            ]
+          ],
+          "audio": "11.19"
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "We use So… I / Neither… I to say that we have something in common with somebody. So + auxiliary + I responds to positive sentences; Neither + auxiliary + I responds to negative sentences. The auxiliary depends on the tense of the verb that the other speaker uses. We can also use Nor instead of Neither: Nor did I. Neither is usually pronounced /ˈnaɪðə/, but also /ˈniːðə/."
+        },
+        {
+          "type": "mistake",
+          "wrong": "So I do. / Neither I do.",
+          "right": "So do I. / Neither do I.",
+          "why": "Word order: So / Neither + auxiliary + I."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "11C-sb3a",
+          "origin": "SB",
+          "instruction": "Read about two more twins and answer the questions",
+          "note": "SB 3a; свободные ответы → пропуски по тексту",
+          "context": "In the USA, identical twin brothers were adopted soon after they were born. One brother was adopted by a couple named Lewis in Lima, Ohio, and his brother was adopted by a couple named Springer in Dayton, Ohio. By coincidence, both boys were called ‘Jim’ by their new parents. Jim Springer’s parents told him that he had an identical twin brother, but that he was dead. But Jim Lewis knew the truth. For many years he did nothing about it, but when he was 39, he decided to try to find his brother. Six weeks later, the two Jims met for the first time in a café in Dayton, and they probably had a conversation something like this…",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Who are Jim Springer and Jim Lewis? They are identical {} brothers.",
+              "gaps": [
+                [
+                  "twin"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Why didn’t they know each other? They were {} by different couples soon after they were born.",
+              "gaps": [
+                [
+                  "adopted"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "What did Jim Lewis decide to do when he was 39? He decided to try to {} his brother.",
+              "gaps": [
+                [
+                  "find"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "How long did it take him? {} weeks.",
+              "gaps": [
+                [
+                  "Six",
+                  "6"
+                ]
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "11C-sb3c",
+          "origin": "SB",
+          "audio": "11.18",
+          "dialogue": true,
+          "instruction": "Listen to the conversation and complete the gaps",
+          "note": "SB 3b–c",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Hi! I’m Jim.\nSo {} I. Great to meet you. Sit down. Are you married, Jim?",
+              "gaps": [
+                [
+                  "am"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                4.1,
+                9.66
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Yes… well, I’ve been married twice.\nYeah? So {} I. Do you have any children?",
+              "gaps": [
+                [
+                  "have"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                13.32,
+                19.26
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I have one son.\nSo {} I. What’s his name?",
+              "gaps": [
+                [
+                  "do"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                20.88,
+                24.02
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Did you go to college, Jim?\nNo, I didn’t.\nNeither {} I. I was a terrible student.",
+              "gaps": [
+                [
+                  "did"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                33.46,
+                38.17
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I was a terrible student.\nSo {} I. Hey, this is my dog Toy.",
+              "gaps": [
+                [
+                  "was"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                38.17,
+                41.48
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I don’t do any exercise at all.\nDon’t worry. Neither {} I. I drive everywhere.",
+              "gaps": [
+                [
+                  "do"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                54.18,
+                59.98
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "What car do you have?\nA Chevrolet.\nSo {} I!",
+              "gaps": [
+                [
+                  "do"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                62.21,
+                67.09
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "What beer do you drink?\nMiller Lite.\nSo {} I!",
+              "gaps": [
+                [
+                  "do"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                69.7,
+                74.68
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11C-sb3d",
+          "origin": "SB",
+          "instruction": "Look at the conversation again. Answer the questions",
+          "note": "SB 3d",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "When the twins have something positive in common, they say So… I, e.g. So {} I. When they have something negative in common, they say Neither… I, e.g. Neither {} I.",
+              "gaps": [
+                [
+                  "am",
+                  "have",
+                  "do",
+                  "was"
+                ],
+                [
+                  "did",
+                  "do"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The part of the phrase that changes is the {} verb.",
+              "gaps": [
+                [
+                  "auxiliary"
+                ]
+              ],
+              "hint": "(main / auxiliary)",
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "11C-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete B’s answers with an auxiliary verb",
+          "note": "Grammar Bank 11C a; «I love chocolate ice cream. So do I» — пример",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I’m really thirsty. — So {} I.",
+              "gaps": [
+                [
+                  "am"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I didn’t go out last night. — Neither {} I.",
+              "gaps": [
+                [
+                  "did"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I was born in Rome. — So {} I.",
+              "gaps": [
+                [
+                  "was"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I don’t eat meat. — Neither {} I.",
+              "gaps": [
+                [
+                  "do"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I’ve been to Moscow. — So {} I.",
+              "gaps": [
+                [
+                  "have"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I can’t sing. — Neither {} I.",
+              "gaps": [
+                [
+                  "can"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "I’d like to go to Bali. — So {} I.",
+              "gaps": [
+                [
+                  "would"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I saw a great film last week. — So {} I.",
+              "gaps": [
+                [
+                  "did"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "I wouldn’t like to be famous. — Neither {} I.",
+              "gaps": [
+                [
+                  "would"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "I can play rugby. — So {} I.",
+              "gaps": [
+                [
+                  "can"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "11C-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Respond to A. Say you are the same. Use So… I or Neither… I",
+          "note": "Grammar Bank 11C b; «I don’t like Indian food. Neither do I» — пример",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "I live near the football stadium.",
+              "answers": [
+                "So do I.",
+                "Me too."
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "I’m not afraid of snakes.",
+              "answers": [
+                "Neither am I.",
+                "Nor am I."
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "I went to bed late last night.",
+              "answers": [
+                "So did I."
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "I haven’t been to Canada.",
+              "answers": [
+                "Neither have I.",
+                "Nor have I."
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "I don’t have any pets.",
+              "answers": [
+                "Neither do I.",
+                "Nor do I."
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "I can speak three languages.",
+              "answers": [
+                "So can I."
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "I’ll have the chicken with rice.",
+              "answers": [
+                "So will I."
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prompt": "I’m waiting for Maria.",
+              "answers": [
+                "So am I."
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "11C-sb3f",
+          "origin": "SB",
+          "audio": "11.20",
+          "instruction": "Listen and respond. Say you’re the same",
+          "note": "SB 3f",
+          "context": "Example: I catch the bus to work. → So do I.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "I like chocolate.",
+              "answers": [
+                "So do I."
+              ],
+              "explain": "I like chocolate. → So do I.",
+              "source": "CONFIRMED",
+              "clip": [
+                9.84,
+                11.77
+              ]
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "I’m happy.",
+              "answers": [
+                "So am I."
+              ],
+              "explain": "I’m happy. → So am I.",
+              "source": "CONFIRMED",
+              "clip": [
+                19.14,
+                20.51
+              ]
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "I’m not angry.",
+              "answers": [
+                "Neither am I.",
+                "Nor am I."
+              ],
+              "explain": "I’m not angry. → Neither am I.",
+              "source": "CONFIRMED",
+              "clip": [
+                27.55,
+                29.27
+              ]
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "I don’t like football.",
+              "answers": [
+                "Neither do I.",
+                "Nor do I."
+              ],
+              "explain": "I don’t like football. → Neither do I.",
+              "source": "CONFIRMED",
+              "clip": [
+                37.08,
+                38.94
+              ]
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "I’m going out tonight.",
+              "answers": [
+                "So am I."
+              ],
+              "explain": "I’m going out tonight. → So am I.",
+              "source": "CONFIRMED",
+              "clip": [
+                46.54,
+                48.36
+              ]
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "I have a big family.",
+              "answers": [
+                "So do I."
+              ],
+              "explain": "I have a big family. → So do I.",
+              "source": "CONFIRMED",
+              "clip": [
+                55.14,
+                56.96
+              ]
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "I’m not English.",
+              "answers": [
+                "Neither am I.",
+                "Nor am I."
+              ],
+              "explain": "I’m not English. → Neither am I.",
+              "source": "CONFIRMED",
+              "clip": [
+                64.38,
+                65.99
+              ]
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prompt": "I live in a flat.",
+              "answers": [
+                "So do I."
+              ],
+              "explain": "I live in a flat. → So do I.",
+              "source": "CONFIRMED",
+              "clip": [
+                73.36,
+                75.05
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11C-wb2a",
+          "origin": "WB",
+          "instruction": "Match the sentences with the replies. Write the reply",
+          "note": "WB 2a; 1 → g — пример. Принимаем и фразу, и букву",
+          "words": [
+            "a So did I. It was very boring.",
+            "b So am I. What day is your birthday?",
+            "c So did I. I stayed until five in the morning.",
+            "d So was I. I could never remember all those dates.",
+            "e Neither have I. That’s why we want to go there.",
+            "f Neither do I. Why don’t you take the bus?"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I really hated the film.\n{}",
+              "gaps": [
+                [
+                  "So did I. It was very boring.",
+                  "a"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I’m going to be 21 this month.\n{}",
+              "gaps": [
+                [
+                  "So am I. What day is your birthday?",
+                  "b"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I was really bad at history at school.\n{}",
+              "gaps": [
+                [
+                  "So was I. I could never remember all those dates.",
+                  "d"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Dave doesn’t have time to take me to the airport.\n{}",
+              "gaps": [
+                [
+                  "Neither do I. Why don’t you take the bus?",
+                  "f"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I had a great time at the party.\n{}",
+              "gaps": [
+                [
+                  "So did I. I stayed until five in the morning.",
+                  "c"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Caroline has never been to Greece.\n{}",
+              "gaps": [
+                [
+                  "Neither have I. That’s why we want to go there.",
+                  "e"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11C-wb2b",
+          "origin": "WB",
+          "dialogue": true,
+          "instruction": "Complete the conversation with phrases from the list",
+          "note": "WB 2b; ¹ Neither did I — пример. Пункт = разговор целиком",
+          "words": [
+            "Neither have I",
+            "Neither was I",
+            "So am I (×2)",
+            "So would I"
+          ],
+          "context": "A: Hi, Tom. Do you ever watch Who do you think you are? You know, that TV series where celebrities find out about the history of their families?\nB: Yes, I do. But I didn’t see it last night.\nA: Neither did I. I wasn’t at home.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I wasn’t at home.\n{}. But I’m going to watch it on catch-up later.\n{}. I think it’s really interesting. I’d love to find out about my family.\n{}. I’m thinking about doing some research online.\n{}. But I haven’t done anything about it yet.\n{}.",
+              "gaps": [
+                [
+                  "Neither was I"
+                ],
+                [
+                  "So am I"
+                ],
+                [
+                  "So would I"
+                ],
+                [
+                  "So am I"
+                ],
+                [
+                  "Neither have I"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11C-wb2c",
+          "origin": "WB",
+          "instruction": "Respond to the statements with So or Neither to say that you are the same",
+          "note": "WB 2c; 1 So am I — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "I went away last weekend.",
+              "answers": [
+                "So did I."
+              ]
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "I haven’t done my English homework.",
+              "answers": [
+                "Neither have I.",
+                "Nor have I."
+              ]
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "I got up late today.",
+              "answers": [
+                "So did I."
+              ]
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "I’m not very hungry.",
+              "answers": [
+                "Neither am I.",
+                "Nor am I."
+              ]
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "I can’t drive.",
+              "answers": [
+                "Neither can I.",
+                "Nor can I."
+              ]
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "I’d love to travel round the world.",
+              "answers": [
+                "So would I."
+              ]
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prompt": "I don’t have any pets.",
+              "answers": [
+                "Neither do I.",
+                "Nor do I."
+              ]
+            },
+            {
+              "n": 9,
+              "type": "rewrite",
+              "prompt": "I didn’t sleep very well last night.",
+              "answers": [
+                "Neither did I.",
+                "Nor did I."
+              ]
+            },
+            {
+              "n": 10,
+              "type": "rewrite",
+              "prompt": "I hate queuing.",
+              "answers": [
+                "So do I."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11C-sb5",
+          "origin": "SB",
+          "instruction": "Say sentences about you. Find out if your partner is the same",
+          "note": "SB 5a–b (ходить по классу → диалог с ИИ)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "The student will tell you true sentences about themselves: I love… (a kind of music), I don’t like… (a drink), I’m very… (personality), I’m not very good at… (sport or activity), I’m going to… after class, I have to… every day, I don’t eat… (a kind of food). React to each one: if you are the same, say So do / am I or Neither do / am I; if you are different, say Really? and how you are different. Be the same about half the time. If they respond to you incorrectly, continue naturally.",
+              "goal": "Say true sentences about you. Your partner reacts. Then react to your partner’s sentences.",
+              "opener": "OK, tell me something about you. What kind of music do you love?",
+              "criteria": [
+                "says at least five true sentences using the prompts",
+                "correct verb forms (I love…, I’m going to…, I have to…)",
+                "if the AI tells something about itself, reacts with the correct So / Neither + auxiliary + I, or Really?"
+              ],
+              "steps": [
+                {
+                  "text": "Say what music you love",
+                  "example": "I love heavy metal."
+                },
+                {
+                  "text": "Say what drink you don’t like",
+                  "example": "I don’t like Coke."
+                },
+                {
+                  "text": "Describe your personality and what you’re not good at",
+                  "example": "I’m very organized. I’m not very good at swimming."
+                },
+                {
+                  "text": "Say your plans and obligations",
+                  "example": "I’m going to meet a friend after class. I have to get up at seven every day."
+                },
+                {
+                  "text": "Say what food you don’t eat",
+                  "example": "I don’t eat fish."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11C-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Say you are the same. Complete the answers with So or Neither and an auxiliary verb.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I love Italian food. — {} I.",
+              "gaps": [
+                [
+                  "So do"
+                ]
+              ],
+              "explain": "Positive present simple → So do I.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I didn’t like the concert. — {} I.",
+              "gaps": [
+                [
+                  "Neither did",
+                  "Nor did"
+                ]
+              ],
+              "explain": "Negative past simple → Neither did I.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I’m very tired today. — {} I.",
+              "gaps": [
+                [
+                  "So am"
+                ]
+              ],
+              "explain": "be (present) → So am I.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I can’t swim very well. — {} I.",
+              "gaps": [
+                [
+                  "Neither can",
+                  "Nor can"
+                ]
+              ],
+              "explain": "can’t → Neither can I.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I’ve seen that film three times. — {} I.",
+              "gaps": [
+                [
+                  "So have"
+                ]
+              ],
+              "explain": "Present perfect → So have I.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I wasn’t at home yesterday. — {} I.",
+              "gaps": [
+                [
+                  "Neither was",
+                  "Nor was"
+                ]
+              ],
+              "explain": "was not → Neither was I.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "I’d love a cup of tea. — {} I.",
+              "gaps": [
+                [
+                  "So would"
+                ]
+              ],
+              "explain": "I’d = I would → So would I.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I don’t like getting up early. — {} I.",
+              "gaps": [
+                [
+                  "Neither do",
+                  "Nor do"
+                ]
+              ],
+              "explain": "Negative present simple → Neither do I.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "I bought a new phone last week. — {} I.",
+              "gaps": [
+                [
+                  "So did"
+                ]
+              ],
+              "explain": "Positive past simple → So did I.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "I’m not going to the party. — {} I.",
+              "gaps": [
+                [
+                  "Neither am",
+                  "Nor am"
+                ]
+              ],
+              "explain": "Present continuous / going to → Neither am I.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "11C-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete the answers with the correct auxiliary verb.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I play tennis every Sunday. — So {} I.",
+              "gaps": [
+                [
+                  "do"
+                ]
+              ],
+              "explain": "play (present simple) → do.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I haven’t finished my homework. — Neither {} I.",
+              "gaps": [
+                [
+                  "have"
+                ]
+              ],
+              "explain": "haven’t finished (present perfect) → have.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I was really scared. — So {} I.",
+              "gaps": [
+                [
+                  "was"
+                ]
+              ],
+              "explain": "was → was.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I wouldn’t like to live there. — Neither {} I.",
+              "gaps": [
+                [
+                  "would"
+                ]
+              ],
+              "explain": "wouldn’t → would.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I’m learning to drive. — So {} I.",
+              "gaps": [
+                [
+                  "am"
+                ]
+              ],
+              "explain": "I’m learning (present continuous) → am.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I can cook really well. — So {} I.",
+              "gaps": [
+                [
+                  "can"
+                ]
+              ],
+              "explain": "can → can.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "I didn’t have breakfast this morning. — Neither {} I.",
+              "gaps": [
+                [
+                  "did"
+                ]
+              ],
+              "explain": "didn’t have (past simple) → did.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I don’t watch the news. — Neither {} I.",
+              "gaps": [
+                [
+                  "do"
+                ]
+              ],
+              "explain": "don’t watch → do.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "I’m not very good at maths. — Neither {} I.",
+              "gaps": [
+                [
+                  "am"
+                ]
+              ],
+              "explain": "I’m not → am.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "I met my best friend at school. — So {} I.",
+              "gaps": [
+                [
+                  "did"
+                ]
+              ],
+              "explain": "met (past simple) → did.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11C-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "/ð/ and /θ/",
+      "reference": [
+        {
+          "type": "table",
+          "title": "th: /ð/ and /θ/",
+          "headers": [
+            "Sound",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "mother /ð/",
+              "neither, they, brother"
+            ],
+            [
+              "thumb /θ/",
+              "both, thirty, throw"
+            ]
+          ],
+          "audio": "11.21"
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "th can be pronounced /ð/ (voiced, like in mother) or /θ/ (unvoiced, like in thumb). Put your tongue between your teeth."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "11C-sb4a",
+          "origin": "SB",
+          "audio": "11.21",
+          "instruction": "Listen and repeat the words and sounds",
+          "note": "SB 4a",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "mother, neither, they, brother",
+              "clip": [
+                0.0,
+                10.54
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "thumb, both, thirty, throw",
+              "clip": [
+                12.29,
+                19.29
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11C-sb4b",
+          "origin": "SB",
+          "audio": "11.22",
+          "instruction": "Listen and write four more words in each group",
+          "note": "SB 4b; слова — по записи 11.22",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "mother /ð/: {}, {}, {}, {}",
+              "gaps": [
+                [
+                  "although"
+                ],
+                [
+                  "other"
+                ],
+                [
+                  "these"
+                ],
+                [
+                  "without"
+                ]
+              ],
+              "explain": "th = /ð/ in although, other, these, without.",
+              "source": "CONFIRMED",
+              "clip": [
+                0.0,
+                14.36
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "thumb /θ/: {}, {}, {}, {}",
+              "gaps": [
+                [
+                  "maths",
+                  "math"
+                ],
+                [
+                  "thing"
+                ],
+                [
+                  "thirsty"
+                ],
+                [
+                  "through"
+                ]
+              ],
+              "explain": "th = /θ/ in maths, thing, thirsty, through.",
+              "source": "CONFIRMED",
+              "clip": [
+                15.85,
+                30.01
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11C-wb3a",
+          "origin": "WB",
+          "instruction": "Which word has a different sound? Write it",
+          "note": "WB 3a Circle; 1 brother — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "thumb /θ/: three, thirty, father → {}",
+              "gaps": [
+                [
+                  "father"
+                ]
+              ],
+              "explain": "father = /ð/ (mother)."
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "mother /ð/: think, neither, other → {}",
+              "gaps": [
+                [
+                  "think"
+                ]
+              ],
+              "explain": "think = /θ/ (thumb)."
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "mother /ð/: they, throw, with → {}",
+              "gaps": [
+                [
+                  "throw"
+                ]
+              ],
+              "explain": "throw = /θ/ (thumb)."
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "thumb /θ/: sunbathe, thing, south → {}",
+              "gaps": [
+                [
+                  "sunbathe"
+                ]
+              ],
+              "explain": "sunbathe = /ð/ (mother)."
+            }
+          ]
+        },
+        {
+          "id": "11C-wb3b",
+          "origin": "WB",
+          "instruction": "Say the words. Be careful with th",
+          "note": "WB 3b «Listen and check. Then listen again and repeat» — аудио WB нет → Speak (образец — TTS)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "thin, brother, both"
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "three, thirty, father"
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "think, neither, other"
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "they, throw, with"
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "sunbathe, thing, south"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11C-practical",
+      "kind": "PRACTICAL_ENGLISH",
+      "title": "Episode 6 · Time to go home",
+      "note": "SB Practical English Episode 6 (p.92–93, PDF 93–94) и WB Practical English 6 (p.79). В книге — после File 11, поэтому в конце 11C. Скриптов PE в SB нет — ответы по самим роликам (расшифровка).",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Phone language",
+          "headers": [
+            "You hear",
+            "You say"
+          ],
+          "rows": [
+            [
+              "How can I help you?",
+              "Can I speak to Barbara Keaton, please?"
+            ],
+            [
+              "Just a second. I’ll put you through.",
+              "OK, I’ll hold."
+            ],
+            [
+              "She’s not at her desk right now.",
+              "Can I leave a message, please?"
+            ],
+            [
+              "I’ll give her the message.",
+              "Can you tell her Rob Walker called? I’ll call back later."
+            ],
+            [
+              "The line’s busy. Do you want to hold?",
+              "Hello, Barbara. This is Rob returning your call."
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "title": "American and British English",
+          "text": "You just missed him (AmE) = You’ve just missed him (BrE). cell phone (AmE) = mobile phone (BrE)."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "11C-pe1a",
+          "origin": "SB",
+          "video": "ep6_future",
+          "instruction": "Watch Rob and Jenny talk about the future. Correct the false sentences. If a sentence is true, leave it as it is",
+          "note": "SB PE6 1a–b (11.23) «mark T or F, say why F is false» → Rewrite: неверное исправить, верное переписать как есть",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "Rob is going home today.",
+              "answers": [
+                "Rob is going home tomorrow.",
+                "Rob’s going home tomorrow."
+              ],
+              "explain": "False: Rob’s month in New York is nearly over — he’s going home tomorrow; tonight they’re going out for dinner.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "He says it will be difficult to stay in touch.",
+              "answers": [
+                "He says they’ll still be in touch.",
+                "He says they will still be in touch.",
+                "Jenny says it won’t be the same."
+              ],
+              "explain": "False: Jenny says it won’t be the same; Rob says they’ll still be in touch.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Jenny suggests that she could go to London.",
+              "answers": [
+                "Jenny suggests that she could go to London."
+              ],
+              "explain": "True: ‘Maybe I could come back to London with you.’",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "Rob thinks it’s a good idea.",
+              "answers": [
+                "Rob doesn’t think it’s a good idea.",
+                "Rob thinks it’s a bad idea."
+              ],
+              "explain": "False: Rob says she can’t do that because she’s just got this job.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "They’re going to a restaurant tonight.",
+              "answers": [
+                "They’re going to a restaurant tonight.",
+                "They are going to a restaurant tonight."
+              ],
+              "explain": "True: they’re going out for dinner tonight, somewhere really nice.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "Barbara wants to talk to Jenny.",
+              "answers": [
+                "Barbara wants to talk to Rob."
+              ],
+              "explain": "False: Barbara wants to talk to Rob and leaves him a message.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "11C-pe2a",
+          "origin": "SB",
+          "video": "ep6_on_the_phone",
+          "instruction": "Watch Rob on the phone. Answer the questions",
+          "note": "SB PE6 2a (11.24)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Who does Rob want to speak to? {}",
+              "gaps": [
+                [
+                  "Barbara",
+                  "Barbara Keaton"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "How many times does he have to call? {}",
+              "gaps": [
+                [
+                  "four",
+                  "4",
+                  "four times",
+                  "4 times"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "explain": "Broadway Grill (wrong number), the office, Barbara’s cell phone, the office again."
+            }
+          ]
+        },
+        {
+          "id": "11C-pe2b",
+          "origin": "SB",
+          "video": "ep6_on_the_phone",
+          "instruction": "Watch again. Complete the You hear phrases",
+          "note": "SB PE6 2b (11.24)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "New York 24seven. {} can I help you?",
+              "gaps": [
+                [
+                  "How"
+                ]
+              ],
+              "source": "KEY",
+              "clip": [
+                22.4,
+                25.6
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Just a second. I’ll {} you through… Hello.",
+              "gaps": [
+                [
+                  "put"
+                ]
+              ],
+              "source": "KEY",
+              "clip": [
+                28.86,
+                32.53
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "No, I’m sorry. She’s not at her {} right now.",
+              "gaps": [
+                [
+                  "desk"
+                ]
+              ],
+              "source": "KEY",
+              "clip": [
+                33.84,
+                37.2
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I’ll give her the {}. You could try her cell phone.",
+              "gaps": [
+                [
+                  "message"
+                ]
+              ],
+              "source": "KEY",
+              "clip": [
+                43.35,
+                46.95
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I’m sorry, I can’t take your {} at the moment. Please {} a message after the beep.",
+              "gaps": [
+                [
+                  "call"
+                ],
+                [
+                  "leave"
+                ]
+              ],
+              "source": "KEY",
+              "clip": [
+                66.81,
+                72.6
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Just a second. I’m sorry, the line’s {}. Do you want to hold?",
+              "gaps": [
+                [
+                  "busy"
+                ]
+              ],
+              "source": "KEY",
+              "clip": [
+                89.89,
+                94.2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11C-pe2c",
+          "origin": "SB",
+          "video": "ep6_you_say",
+          "instruction": "Watch and repeat the You say phrases. Copy the rhythm",
+          "note": "SB PE6 2c (11.25)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "Oh, sorry. I have the wrong number.",
+              "clip": [
+                15.54,
+                17.68
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "Hello. Can I speak to Barbara Keaton, please?",
+              "clip": [
+                32.06,
+                34.72
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "Hi, is that Barbara?",
+              "clip": [
+                44.44,
+                45.82
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "Can I leave a message, please?",
+              "clip": [
+                55.12,
+                56.92
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "Can you tell her Rob Walker called? I’ll call back later.",
+              "clip": [
+                63.9,
+                73.6
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "Yes, I’ll do that. Thank you.",
+              "clip": [
+                83.26,
+                85.48
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "Hello, Barbara. This is Rob returning your call.",
+              "clip": [
+                115.3,
+                118.24
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "Hello. It’s Rob again. Can I speak to Barbara, please?",
+              "clip": [
+                133.75,
+                143.6
+              ]
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "OK, I’ll hold.",
+              "clip": [
+                153.9,
+                155.4
+              ]
+            },
+            {
+              "n": 10,
+              "type": "speak",
+              "text": "Hi, Barbara. It’s me, Rob.",
+              "clip": [
+                163.75,
+                166.4
+              ]
+            },
+            {
+              "n": 11,
+              "type": "speak",
+              "text": "What did you want to talk about?",
+              "clip": [
+                174.98,
+                177.52
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11C-pe2e",
+          "origin": "SB",
+          "instruction": "Role-play: you want to speak to Barbara. Call the office",
+          "note": "SB PE6 2d–f (B — звонящий)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are the receptionist at New York 24seven. The student calls and wants to speak to Barbara Keaton. First say she’s not at her desk and offer to take a message. When they call again, say the line’s busy and ask if they want to hold. Then put them through and say ‘Hello, Barbara Keaton.’ as Barbara.",
+              "goal": "Phone the office and speak to Barbara. Leave a message the first time.",
+              "opener": "New York 24seven. How can I help you?",
+              "criteria": [
+                "asks to speak to Barbara politely (Can I speak to…, please?)",
+                "leaves a message with their name (Can you tell her… called? I’ll call back later.)",
+                "agrees to hold (OK, I’ll hold.) and greets Barbara"
+              ],
+              "steps": [
+                {
+                  "text": "Ask to speak to Barbara",
+                  "example": "Hello. Can I speak to Barbara Keaton, please?"
+                },
+                {
+                  "text": "Leave a message",
+                  "example": "Can I leave a message, please? Can you tell her Anna called? I’ll call back later."
+                },
+                {
+                  "text": "Call again and agree to hold",
+                  "example": "Hello. It’s Anna again. Can I speak to Barbara, please? … OK, I’ll hold."
+                },
+                {
+                  "text": "Greet Barbara",
+                  "example": "Hi, Barbara. It’s Anna. Thanks for calling me."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11C-pe2f",
+          "origin": "SB",
+          "instruction": "Swap roles: you are the receptionist. Answer the phone and help the caller",
+          "note": "SB PE6 2d–f (A — секретарь)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You call the Broadway Grill restaurant; the student is the receptionist. You want to speak to the manager, Mr Grant. Wait for them to answer. When they say he isn’t available, leave a message: your name is Tom Baker and you want to book a table for a big party on Saturday; you’ll call back later. If they offer to put you through or ask you to hold, agree.",
+              "goal": "You are the receptionist at the Broadway Grill. Answer the phone and take a message.",
+              "opener": "Hello? Is that the Broadway Grill?",
+              "criteria": [
+                "answers politely (Broadway Grill. How can I help you?)",
+                "uses phone phrases: Just a second. / I’ll put you through. / He’s not at his desk. / Do you want to hold?",
+                "takes the message and promises to give it (I’ll give him the message.)"
+              ],
+              "steps": [
+                {
+                  "text": "Answer the phone",
+                  "example": "Yes, Broadway Grill. How can I help you?"
+                },
+                {
+                  "text": "Say the manager isn’t available",
+                  "example": "Just a second… I’m sorry, he’s not at his desk right now."
+                },
+                {
+                  "text": "Offer to take a message",
+                  "example": "Can I take a message?"
+                },
+                {
+                  "text": "Promise to give the message",
+                  "example": "OK, I’ll give him the message. Goodbye."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11C-pe3a",
+          "origin": "SB",
+          "video": "ep6_central_park",
+          "instruction": "Watch the end of the story. Is it a happy or a sad ending?",
+          "note": "SB PE6 3a (11.26)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "It’s a {} ending.",
+              "gaps": [
+                [
+                  "happy"
+                ]
+              ],
+              "hint": "(happy / sad)",
+              "source": "CONFIRMED",
+              "explain": "Rob gets a job in New York, so Jenny doesn’t need to leave — she asks Barbara to delete her email."
+            }
+          ]
+        },
+        {
+          "id": "11C-pe3b",
+          "origin": "SB",
+          "video": "ep6_central_park",
+          "instruction": "Watch again and answer the questions",
+          "note": "SB PE6 3b; свободные ответы → пропуски по ролику",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Who has some news? {}",
+              "gaps": [
+                [
+                  "both",
+                  "both of them",
+                  "Rob and Jenny",
+                  "Jenny and Rob"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "explain": "Jenny: I have something to tell you. — Rob: I have something to tell you too."
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "What did Barbara offer Rob? A {} in New York.",
+              "gaps": [
+                [
+                  "job"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "explain": "She offered me a job here in New York."
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "What did Jenny do this morning? She sent Barbara an email and told her she was {}.",
+              "gaps": [
+                [
+                  "quitting",
+                  "leaving"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "explain": "I sent Barbara an email this morning, and I told her I was quitting. I’m moving to London."
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "What does Jenny ask Barbara to do? To {} her email.",
+              "gaps": [
+                [
+                  "delete",
+                  "not open"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "explain": "Don’t open it. Delete it. Please just delete it."
+            }
+          ]
+        },
+        {
+          "id": "11C-pe3c",
+          "origin": "SB",
+          "video": "ep6_central_park",
+          "instruction": "Complete the Social English phrases. Then watch and check",
+          "note": "SB PE6 3c–d (11.26–11.27)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Rob: You {} first.",
+              "gaps": [
+                [
+                  "go"
+                ]
+              ],
+              "source": "KEY",
+              "clip": [
+                43.96,
+                45.18
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Jenny: That’s great {}.",
+              "gaps": [
+                [
+                  "news"
+                ]
+              ],
+              "source": "KEY",
+              "clip": [
+                61.8,
+                63.66
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Jenny: I’ll {} her.",
+              "gaps": [
+                [
+                  "call"
+                ]
+              ],
+              "source": "KEY",
+              "clip": [
+                83.81,
+                84.76
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Jenny: I’ll explain {}.",
+              "gaps": [
+                [
+                  "later"
+                ]
+              ],
+              "source": "KEY",
+              "clip": [
+                105.56,
+                106.91
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Barbara: Is everything {}?",
+              "gaps": [
+                [
+                  "all right",
+                  "OK",
+                  "okay",
+                  "alright"
+                ]
+              ],
+              "source": "KEY",
+              "clip": [
+                109.45,
+                110.97
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Jenny: {} better.",
+              "gaps": [
+                [
+                  "Never"
+                ]
+              ],
+              "source": "KEY",
+              "clip": [
+                113.57,
+                114.49
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11C-pe3d",
+          "origin": "SB",
+          "video": "ep6_you_say_2",
+          "instruction": "Watch and repeat the Social English phrases",
+          "note": "SB PE6 3d (11.27)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "You go first.",
+              "clip": [
+                6.02,
+                7.76
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "That’s great news.",
+              "clip": [
+                12.85,
+                15.68
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "I’ll call her.",
+              "clip": [
+                20.78,
+                22.68
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "I’ll explain later.",
+              "clip": [
+                27.81,
+                29.9
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "Is everything all right?",
+              "clip": [
+                35.29,
+                36.82
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "Never better.",
+              "clip": [
+                42.18,
+                44.05
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11C-pe3e",
+          "origin": "SB",
+          "dialogue": true,
+          "instruction": "Complete conversations A–F with the Social English phrases",
+          "note": "SB PE6 3e",
+          "words": [
+            "You go first",
+            "That’s great news",
+            "I’ll call her",
+            "I’ll explain later",
+            "Is everything all right?",
+            "Never better"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Carol needs to speak to you. It’s urgent.\nOK, {}.",
+              "gaps": [
+                [
+                  "I’ll call her",
+                  "I will call her"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "So what’s the problem with your parents?\nIt’s very complicated. {}.",
+              "gaps": [
+                [
+                  "I’ll explain later",
+                  "I will explain later"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "You look worried. {}\nNo. I’ve just heard that my sister’s ill.",
+              "gaps": [
+                [
+                  "Is everything all right?",
+                  "Is everything OK?"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Did you know Mark and Allie are getting married?\nWow! {}!",
+              "gaps": [
+                [
+                  "That’s great news",
+                  "That is great news"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Are you OK, Roz?\nYes, I’m fine. {}.",
+              "gaps": [
+                [
+                  "Never better"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I’ve got some news for you.\nSo have I.\n{}.",
+              "gaps": [
+                [
+                  "You go first"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "11C-wbpe1a",
+          "origin": "WB",
+          "instruction": "Choose the correct words",
+          "note": "WB Practical English 6 (WB p.79) 1a Circle a, b, or c → Blank с вариантами в hint; 1 — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Can I speak {} Laura Jones, please?",
+              "gaps": [
+                [
+                  "to"
+                ]
+              ],
+              "hint": "(on / at / to)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I’ll put you {} now.",
+              "gaps": [
+                [
+                  "through"
+                ]
+              ],
+              "hint": "(across / over / through)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Hello, {} is Laura Jones.",
+              "gaps": [
+                [
+                  "this"
+                ]
+              ],
+              "hint": "(here / these / this)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I’m sorry, I have the {} number.",
+              "gaps": [
+                [
+                  "wrong"
+                ]
+              ],
+              "hint": "(wrong / bad / false)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Can I {} a message?",
+              "gaps": [
+                [
+                  "leave"
+                ]
+              ],
+              "hint": "(make / say / leave)"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "I’ll call {} later.",
+              "gaps": [
+                [
+                  "back"
+                ]
+              ],
+              "hint": "(over / back / into)"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I’m sorry, the line’s {}.",
+              "gaps": [
+                [
+                  "busy"
+                ]
+              ],
+              "hint": "(occupied / busy / full)"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "I’m sorry, she isn’t {} her desk.",
+              "gaps": [
+                [
+                  "at"
+                ]
+              ],
+              "hint": "(by / with / at)"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "Sure, I’ll {} him a message.",
+              "gaps": [
+                [
+                  "give"
+                ]
+              ],
+              "hint": "(say / tell / give)"
+            }
+          ]
+        },
+        {
+          "id": "11C-wbpe1b",
+          "origin": "WB",
+          "dialogue": true,
+          "instruction": "Complete the phone conversations with the missing words",
+          "note": "WB PE6 1b; в книге даны первые буквы — у нас без них. take — пример",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I’m sorry, I can’t take your call at the moment. Please {} a message after the beep.\nHi, Oliver, this is Mark {} your call.",
+              "gaps": [
+                [
+                  "leave"
+                ],
+                [
+                  "returning"
+                ]
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Hi, Amy.\nI’m {}, you have the {} number.",
+              "gaps": [
+                [
+                  "sorry"
+                ],
+                [
+                  "wrong"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Hello, this is Reception. How can I help you?\nGood morning. Mr Clarke, please.\nI’m sorry, the {} is {}.\nOK, can I {} a {}?\nYes, of course.\nCan you tell him Fiona called? I’ll {} {} later.",
+              "gaps": [
+                [
+                  "line"
+                ],
+                [
+                  "busy"
+                ],
+                [
+                  "leave"
+                ],
+                [
+                  "message"
+                ],
+                [
+                  "call"
+                ],
+                [
+                  "back"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Good morning, London 24seven.\nHello, can I speak to Alison, please?\nJust a second, I’ll {} you through.",
+              "gaps": [
+                [
+                  "put"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11C-wbpe1c",
+          "origin": "WB",
+          "instruction": "What do you say in these situations?",
+          "note": "WB PE6 1c; 1 Can I speak to the manager, please? — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Someone phones you, but they haven’t called the right number. — I’m sorry, you {}.",
+              "gaps": [
+                [
+                  "have the wrong number"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Someone calls you at work. You offer to help them. — How {}?",
+              "gaps": [
+                [
+                  "can I help you"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "You call an office, but Mrs Jones is not at her desk. You want to tell her something. — Can I {}?",
+              "gaps": [
+                [
+                  "leave a message",
+                  "leave a message, please"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Someone asks you if it’s OK for you to wait. You want to say that’s fine. — OK, I’ll {}.",
+              "gaps": [
+                [
+                  "hold"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "The person you want to talk to is not there. You want to say that you will phone again in a few hours. — I’ll call {}.",
+              "gaps": [
+                [
+                  "back later",
+                  "back"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Someone says your colleague is not answering her office phone. Suggest ringing her mobile. — You could {}.",
+              "gaps": [
+                [
+                  "try her mobile",
+                  "call her mobile",
+                  "try her mobile phone",
+                  "call her on her mobile"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11C-wbpe2",
+          "origin": "WB",
+          "dialogue": true,
+          "instruction": "Social English. Choose the correct words",
+          "note": "WB PE6 2 Circle → Blank с вариантами в hint; 1 call her — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I have a new job!\nThat’s {}!",
+              "gaps": [
+                [
+                  "great news"
+                ]
+              ],
+              "hint": "(great news / a great news)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I’ve got something to tell you.\nMe, too. But you {}.",
+              "gaps": [
+                [
+                  "go first"
+                ]
+              ],
+              "hint": "(do first / go first)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "What are you doing here?\nI’ll explain {}.",
+              "gaps": [
+                [
+                  "later"
+                ]
+              ],
+              "hint": "(after / later)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Is everything all right?\n{}!",
+              "gaps": [
+                [
+                  "Never better"
+                ]
+              ],
+              "hint": "(Never better / Ever better)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11C-review",
+      "kind": "REVIEW",
+      "title": "Can you remember…? 1–11",
+      "reference": [
+        {
+          "type": "note",
+          "title": null,
+          "text": "Revision of Files 1–11: second conditional, phrasal verbs, past simple, passive, have to, used to, school subjects, sports, adjectives, adverbs, shopping, clothes, and sounds."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "11C-rv1",
+          "origin": "WB",
+          "instruction": "Grammar. Complete with the correct form",
+          "note": "WB «Can you remember…? 1–11» (WB p.80) 1 Circle a, b, or c → Blank с вариантами в hint",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "If we {} London, I’d have to find another job.",
+              "gaps": [
+                [
+                  "left"
+                ]
+              ],
+              "hint": "(would leave / will leave / left)"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "We can’t find the TV remote control so we can’t {}.",
+              "gaps": [
+                [
+                  "turn it on"
+                ]
+              ],
+              "hint": "(turn on it / turn up it / turn it on)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Leonardo da Vinci {} in France from 1516 to 1519.",
+              "gaps": [
+                [
+                  "lived"
+                ]
+              ],
+              "hint": "(was living / has lived / lived)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "These glasses are very expensive because {} by hand.",
+              "gaps": [
+                [
+                  "they are made",
+                  "they’re made"
+                ]
+              ],
+              "hint": "(they are made / they make / they have made)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I’m lucky because I don’t {} work at weekends.",
+              "gaps": [
+                [
+                  "have to"
+                ]
+              ],
+              "hint": "(have to / should / must)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Sue is a woman I {} know a long time ago.",
+              "gaps": [
+                [
+                  "used to"
+                ]
+              ],
+              "hint": "(used / use to / used to)"
+            }
+          ]
+        },
+        {
+          "id": "11C-rv2",
+          "origin": "WB",
+          "instruction": "Vocabulary. Which word is different? Write it",
+          "note": "WB «Can you remember…? 1–11» 2",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "geography, history, classroom, art → {}",
+              "gaps": [
+                [
+                  "classroom"
+                ]
+              ],
+              "explain": "classroom is a place; the others are school subjects."
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "cycling, sightseeing, tennis, skiing → {}",
+              "gaps": [
+                [
+                  "sightseeing"
+                ]
+              ],
+              "explain": "sightseeing is a holiday activity; the others are sports."
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "noisy, exciting, dangerous, polluted → {}",
+              "gaps": [
+                [
+                  "exciting"
+                ]
+              ],
+              "explain": "exciting is positive; the others are negative things about a city."
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "quite, quickly, very, really → {}",
+              "gaps": [
+                [
+                  "quickly"
+                ]
+              ],
+              "explain": "quickly is an adverb of manner; the others are modifiers like very."
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "checkout, changing room, rubbish, receipt → {}",
+              "gaps": [
+                [
+                  "rubbish"
+                ]
+              ],
+              "explain": "The others are shopping words."
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "cap, sandals, trainers, boots → {}",
+              "gaps": [
+                [
+                  "cap"
+                ]
+              ],
+              "explain": "You wear a cap on your head; the others are shoes."
+            }
+          ]
+        },
+        {
+          "id": "11C-rv3",
+          "origin": "WB",
+          "instruction": "Pronunciation. Which word has a different sound? Write it",
+          "note": "WB «Can you remember…? 1–11» 3",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "mother /ð/: neither, weather, bath, those → {}",
+              "gaps": [
+                [
+                  "bath"
+                ]
+              ],
+              "explain": "bath = /θ/ (thumb)."
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "chair /eə/: hair, wear, there, near → {}",
+              "gaps": [
+                [
+                  "near"
+                ]
+              ],
+              "explain": "near = /ɪə/ (ear)."
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "horse /ɔː/: call, part, talk, four → {}",
+              "gaps": [
+                [
+                  "part"
+                ]
+              ],
+              "explain": "part = /ɑː/ (car)."
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "jazz /dʒ/: imagine, jeans, German, Greek → {}",
+              "gaps": [
+                [
+                  "Greek"
+                ]
+              ],
+              "explain": "Greek starts with /g/."
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "-ed = /ɪd/: invited, needed, arrived, wanted → {}",
+              "gaps": [
+                [
+                  "arrived"
+                ]
+              ],
+              "explain": "arrived = /d/."
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "computer /ə/: person, trainer, sweater, arrive → {}",
+              "gaps": [
+                [
+                  "person"
+                ]
+              ],
+              "explain": "person = /ɜː/ (bird) in the first syllable."
+            }
+          ]
+        },
+        {
+          "id": "11C-rv4",
+          "origin": "WB",
+          "instruction": "Grammar and vocabulary. Read the article ‘Cycling superstar’ and complete it",
+          "note": "WB «Can you remember…? 1–11» 4 «Circle a, b, or c» → Blank с вариантами в hint; фото не нужно",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Danny MacAskill, who comes from Dunvegan in Scotland, is one of the {} trials bike riders in the world.",
+              "gaps": [
+                [
+                  "best"
+                ]
+              ],
+              "hint": "(well / good / best)"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "If you don’t know what a trials bike is, it’s a bit smaller than a mountain bike, and you can do some amazing things on it. Or at least, Danny MacAskill can. When he {} on his bike, he can go up or down steps, fly over walls, or climb mountains.",
+              "gaps": [
+                [
+                  "gets"
+                ]
+              ],
+              "hint": "(got / gets / will get)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Sometimes it’s difficult {} that this is just a bike…",
+              "gaps": [
+                [
+                  "to believe"
+                ]
+              ],
+              "hint": "(to believe / believe / believing)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "…and not a {} of magic machine.",
+              "gaps": [
+                [
+                  "kind"
+                ]
+              ],
+              "hint": "(kind / way / piece)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Danny’s professional career began when he was 23 and his flatmate David Sowerby made a short video of him on his bike. Danny put it up on YouTube, where it {} by millions of people.",
+              "gaps": [
+                [
+                  "was seen"
+                ]
+              ],
+              "hint": "(has seen / saw / was seen)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "From that moment on, Danny discovered that he was {} becoming an internet superstar.",
+              "gaps": [
+                [
+                  "quickly"
+                ]
+              ],
+              "hint": "(quick / quickly / quicker)"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "In the United States, the New York Times and National Geographic wrote stories about him. He {} up his job as a bicycle mechanic and moved to Edinburgh to ride his bike full time.",
+              "gaps": [
+                [
+                  "gave"
+                ]
+              ],
+              "hint": "(gave / set / got)"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "He {} lots of awards, and he was chosen to carry the Olympic torch through the city of Glasgow.",
+              "gaps": [
+                [
+                  "won"
+                ]
+              ],
+              "hint": "(earned / won / beat)"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Since then, Danny {} other great videos such as ‘Way Back Home’ and ‘The Ridge’.",
+              "gaps": [
+                [
+                  "has made"
+                ]
+              ],
+              "hint": "(has made / made / makes)"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "He is now {} to travel across Europe, and this new video will show people some of his most famous tricks.",
+              "gaps": [
+                [
+                  "planning"
+                ]
+              ],
+              "hint": "(planning / deciding / pretending)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

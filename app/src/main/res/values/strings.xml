@@ -147,6 +147,6 @@
     <string name="kind_stress">Mark the stress</string>
     <string name="kind_sort">Sort the words</string>
     <string name="kind_needs_key">%1$s · add an AI key in Settings</string>
-    <string name="app_version">Version %1$s</string>
+    <string name="app_version">English File · Version %1$s</string>
     <string name="made_by">Made by Yevgeniy</string>
 </resources>

@@ -1,0 +1,513 @@
+{
+  "id": "7A",
+  "title": "First day nerves",
+  "bubbles": ["What do I need to do?", "It’s important not to be late."],
+  "sources": "SB p.54–55 (PDF 55–56), Grammar Bank p.138–139 (PDF 139–140), Vocabulary Bank Verb forms p.158 Part 1 (PDF 159), Communication p.104/110 (PDF 105/111), script 7.1 p.122 (PDF 123); WB p.46–47 (PDF 45–46), key WB p.91–92 (PDF 90–91)",
+  "sections": [
+    {
+      "id": "7A-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "verbs + infinitive: try to, forget to, etc.",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Verbs + to + infinitive",
+          "headers": ["Verb", "Example"],
+          "rows": [
+            ["decide", "We’ve decided to go to Italy on holiday."],
+            ["forget", "Don’t forget to turn off all the lights."],
+            ["hope", "We hope to see you again soon."],
+            ["learn", "I’m learning to drive."],
+            ["need", "I need to go to the supermarket."],
+            ["offer", "He offered to help me with my case."],
+            ["plan", "They’re planning to get married soon."],
+            ["pretend", "He pretended to be ill."],
+            ["promise", "He’s promised to pay me back."],
+            ["remember", "Remember to bring your dictionaries."],
+            ["start", "It started to rain."],
+            ["try", "I’m trying to find a job."],
+            ["want", "I want to catch the six o’clock train."],
+            ["would like", "I’d like to buy a new car."]
+          ],
+          "audio": "7.2"
+        },
+        {"type": "note", "title": "Negative infinitive", "text": "Put not before to: Try not to be late. I promise not to tell anybody."},
+        {"type": "mistake", "wrong": "I want go home.", "right": "I want to go home.", "why": "want, need, hope, decide, etc. + to + infinitive."},
+        {"type": "mistake", "wrong": "Try to not be late.", "right": "Try not to be late.", "why": "not goes before to."}
+      ],
+      "tasks": [
+        {
+          "id": "7A-sb3a",
+          "origin": "SB",
+          "instruction": "Complete the missing verbs from the article How to survive your first day in a new office",
+          "note": "SB 3a; первые буквы из книги (Pl…, O…, w…, Tr…) убраны — правило «без подсказок по первой букве». Ответы — по статье",
+          "context": "Plan to arrive at least ten minutes early, but not more than 20 – you don’t want to look too enthusiastic.\nOffer to make coffee or to bring water for your colleagues.\nIf you go to a meeting, listen, keep quiet and take notes. You don’t want to annoy other people on day one.\nBe prepared to have problems. Try to solve the problem yourself first. If you can’t, don’t be afraid to ask for help.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "{} to arrive at least ten minutes early.", "gaps": [["Plan"]], "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "{} to make coffee.", "gaps": [["Offer"]], "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "You don’t {} to annoy other people on day one.", "gaps": [["want"]], "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "{} to solve the problem yourself first.", "gaps": [["Try"]], "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "7A-vb1a",
+          "origin": "SB",
+          "instruction": "Complete the sentences with the infinitive of a verb from the list. Then listen and check",
+          "note": "VB Verb forms Part 1 a+b (7.2); 1 decide to go — пример",
+          "audio": "7.2",
+          "words": ["be", "bring", "buy", "catch", "drive", "find", "get married", "help", "pay", "rain", "see", "turn off", "go"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "Don’t forget {} all the lights.", "gaps": [["to turn off"]], "source": "CONFIRMED", "clip": [12.6, 15.39]},
+            {"n": 3, "type": "blank", "text": "We hope {} you again soon.", "gaps": [["to see"]], "source": "CONFIRMED", "clip": [17.21, 19.69]},
+            {"n": 4, "type": "blank", "text": "I’m learning {}. My test is next month.", "gaps": [["to drive"]], "source": "CONFIRMED", "clip": [21.49, 25.99]},
+            {"n": 5, "type": "blank", "text": "I need {} to the supermarket. We don’t have any milk.", "gaps": [["to go"]], "source": "CONFIRMED", "clip": [27.8, 32.11]},
+            {"n": 6, "type": "blank", "text": "He offered {} me with my case.", "gaps": [["to help"]], "source": "CONFIRMED", "clip": [33.88, 36.49]},
+            {"n": 7, "type": "blank", "text": "They’re planning {} soon.", "gaps": [["to get married"]], "source": "CONFIRMED", "clip": [38.21, 40.88]},
+            {"n": 8, "type": "blank", "text": "He pretended {} ill, but he wasn’t really.", "gaps": [["to be"]], "source": "CONFIRMED", "clip": [42.59, 46.36]},
+            {"n": 9, "type": "blank", "text": "He’s promised {} me back when he gets a job.", "gaps": [["to pay"]], "source": "CONFIRMED", "clip": [48.09, 51.48]},
+            {"n": 10, "type": "blank", "text": "Remember {} your dictionaries to class tomorrow.", "gaps": [["to bring"]], "source": "CONFIRMED", "clip": [53.23, 57.33]},
+            {"n": 11, "type": "blank", "text": "It was very cloudy and it started {}.", "gaps": [["to rain"]], "source": "CONFIRMED", "clip": [59.04, 62.72]},
+            {"n": 12, "type": "blank", "text": "I’m trying {} a job, but it’s very hard.", "gaps": [["to find"]], "source": "CONFIRMED", "clip": [64.51, 68.46]},
+            {"n": 13, "type": "blank", "text": "I want {} the six o’clock train.", "gaps": [["to catch"]], "source": "CONFIRMED", "clip": [69.84, 73.9]},
+            {"n": 14, "type": "blank", "text": "I’d like {} a new car next month.", "gaps": [["to buy"]], "source": "CONFIRMED", "clip": [75.36, 78.25]}
+          ]
+        },
+        {
+          "id": "7A-wb1a",
+          "origin": "WB",
+          "instruction": "Read the article A lesson for Charlie. Choose the correct verb",
+          "note": "WB 1a Circle → Blank с вариантами в hint; 1 started — пример. Фото Чарли не нужно",
+          "context": "Charlie didn’t really like his job, so he started to apply for new jobs.",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "A few weeks later, a company called him and {} to give him an interview.", "gaps": [["offered"]], "hint": "(needed / offered)"},
+            {"n": 3, "type": "blank", "text": "Charlie {} to tell his boss,", "gaps": [["didn’t want", "did not want"]], "hint": "(didn’t want / didn’t remember)"},
+            {"n": 4, "type": "blank", "text": "so he {} to be ill.", "gaps": [["pretended"]], "hint": "(pretended / hoped)"},
+            {"n": 5, "type": "blank", "text": "He told his boss that he had a stomach ache, and that he {} to go to the doctor.", "gaps": [["needed"]], "hint": "(tried / needed)"},
+            {"n": 6, "type": "blank", "text": "He {} to call his boss later and tell him how he was feeling.", "gaps": [["promised"]], "hint": "(promised / learnt)"},
+            {"n": 7, "type": "blank", "text": "Charlie was really hoping to get the job, so he was a bit nervous. He {} to drive to the interview,", "gaps": [["planned"]], "hint": "(promised / planned)"},
+            {"n": 8, "type": "blank", "text": "but when he saw that there was a lot of traffic, he {} to get the Underground.", "gaps": [["decided"]], "hint": "(decided / hoped)"},
+            {"n": 9, "type": "blank", "text": "He was very late, and he {} to turn his phone off. Unfortunately, it rang while he was in the interview.", "gaps": [["forgot"]], "hint": "(forgot / tried)"},
+            {"n": 10, "type": "blank", "text": "The interview didn’t go well, and on the way home, his boss saw him. It was a terrible day, and Charlie {} not to lie to his boss again and to prepare well for job interviews.", "gaps": [["learnt", "learned"]], "hint": "(tried / learnt)"}
+          ]
+        },
+        {
+          "id": "7A-wb1b",
+          "origin": "WB",
+          "instruction": "Complete the conversations with a verb from the list",
+          "note": "WB 1b; 1 clean — пример",
+          "dialogue": true,
+          "words": ["close", "go", "improve", "learn", "stay", "tell", "rain"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "Can you drive?\nNo, but I’m planning to {} this year.", "gaps": [["learn"]]},
+            {"n": 3, "type": "blank", "text": "Why did you talk to Sophie about this?\nDon’t worry, she’s promised not to {} anybody.", "gaps": [["tell"]]},
+            {"n": 4, "type": "blank", "text": "Are you going to go to evening classes?\nYes, I want to {} my French.", "gaps": [["improve"]]},
+            {"n": 5, "type": "blank", "text": "Did you remember to {} the window?\nI’m not sure. I think so.", "gaps": [["close"]]},
+            {"n": 6, "type": "blank", "text": "What’s the weather like where you are?\nNot very nice. It’s starting to {}.", "gaps": [["rain"]]},
+            {"n": 7, "type": "blank", "text": "What’s Helen going to do when she leaves school?\nShe’s hoping to {} to university.", "gaps": [["go"]]},
+            {"n": 8, "type": "blank", "text": "Have your parents moved house yet?\nNo, they’ve decided to {} where they are.", "gaps": [["stay"]]}
+          ]
+        },
+        {
+          "id": "7A-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with to + a verb from the list.",
+          "words": ["call", "carry", "finish", "lose", "open", "say", "study", "take"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "I forgot {} my mum on her birthday. She was very upset.", "gaps": [["to call"]], "explain": "forget + to + infinitive.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "The bag was heavy, so he offered {} it for me.", "gaps": [["to carry"]], "explain": "offer + to + infinitive.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "We need {} this report by Friday.", "gaps": [["to finish"]], "explain": "need + to + infinitive.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "She’s trying {} weight before the summer.", "gaps": [["to lose"]], "explain": "try + to + infinitive.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "They’re planning {} a new restaurant in the city centre.", "gaps": [["to open"]], "explain": "plan + to + infinitive.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "He left without saying goodbye. He didn’t want {} anything.", "gaps": [["to say"]], "explain": "want + to + infinitive.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "My sister has decided {} medicine at university.", "gaps": [["to study"]], "explain": "decide + to + infinitive.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "Remember {} your umbrella. It’s going to rain.", "gaps": [["to take"]], "explain": "remember + to + infinitive (= don’t forget).", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7A-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the correct form of the verb in brackets + to.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Last year I {} swim. Now I go to the pool every week.", "gaps": [["learnt to", "learned to"]], "hint": "(learn)", "explain": "Past simple of learn + to + infinitive.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "He {} be asleep when his mum came into the room.", "gaps": [["pretended to"]], "hint": "(pretend)", "explain": "pretend + to: he wasn’t really asleep.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Don’t worry. I {} be careful.", "gaps": [["promise to"]], "hint": "(promise)", "explain": "promise + to + infinitive.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "We {} see you at the party on Saturday.", "gaps": [["hope to"]], "hint": "(hope)", "explain": "hope + to + infinitive.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "I {} get a job abroad next year.", "gaps": [["would like to", "’d like to", "'d like to"]], "hint": "(would like)", "explain": "would like + to + infinitive.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Try {} forget your passport this time!", "gaps": [["not to"]], "hint": "(not)", "explain": "Negative infinitive: not to + verb.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7A-vocabulary-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "I decided go home early.", "answers": ["I decided to go home early."], "explain": "decide + to + infinitive.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "She promised to not tell anybody.", "answers": ["She promised not to tell anybody."], "explain": "not goes before to: not to tell.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "We’re planning to going to Spain.", "answers": ["We’re planning to go to Spain.", "We are planning to go to Spain."], "explain": "to + infinitive, not to + -ing.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "Did you remember to turned off the oven?", "answers": ["Did you remember to turn off the oven?", "Did you remember to turn the oven off?"], "explain": "After to, use the infinitive (turn), not the past.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "He needs find a new flat.", "answers": ["He needs to find a new flat."], "explain": "need + to + infinitive.", "source": "MODEL"},
+            {"n": 6, "type": "rewrite", "prompt": "I’d like buy a new phone.", "answers": ["I’d like to buy a new phone.", "I would like to buy a new phone."], "explain": "would like + to + infinitive.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7A-vocabulary-x4",
+          "origin": "GENERATED",
+          "instruction": "Put the words in the correct order.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "to / forgot / I / my keys / bring / .", "answers": ["I forgot to bring my keys."], "explain": "Subject + forgot + to + infinitive.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "offered / she / me / to / help / .", "answers": ["She offered to help me."], "explain": "offer + to + infinitive.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "are / to / what / you / planning / do / ?", "answers": ["What are you planning to do?"], "explain": "Question word + are + you + planning + to + infinitive.", "source": "MODEL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7A-grammar",
+      "kind": "GRAMMAR",
+      "title": "uses of the infinitive with to",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Uses of the infinitive with to",
+          "headers": ["Use", "Examples"],
+          "rows": [
+            ["after some verbs (want, need, would like, etc.)", "You need to be on time. Try not to talk too much."],
+            ["after adjectives", "It’ll be nice to meet new people. It’s important not to be late."],
+            ["after question words (what, where, how, etc.)", "I don’t know where to go or what to do."],
+            ["to say why you do something", "Why did you wear a suit? To make a good impression."]
+          ],
+          "audio": "7.3"
+        },
+        {"type": "note", "title": "Negative infinitive", "text": "not to + verb: Try not to be late. It’s important not to talk too much."},
+        {
+          "type": "note",
+          "title": "Infinitive without to",
+          "text": "After auxiliary verbs (do / does / didn’t) and most modal verbs (can, could, will, would, etc.) use the infinitive without to: Do you like it? I can’t come. I’ll help you."
+        },
+        {
+          "type": "mistake",
+          "wrong": "I came to this school for learn English.",
+          "right": "I came to this school to learn English.",
+          "why": "To say why, use to + infinitive, not for."
+        },
+        {"type": "mistake", "wrong": "It’s difficult say.", "right": "It’s difficult to say.", "why": "Adjective + to + infinitive."},
+        {"type": "mistake", "wrong": "I don’t know what do.", "right": "I don’t know what to do.", "why": "Question word + to + infinitive."}
+      ],
+      "tasks": [
+        {
+          "id": "7A-sb3c",
+          "origin": "SB",
+          "instruction": "Match sentences a–c to rules 1–3: 1 after adjectives, 2 to give a reason for doing something, 3 after a question word, e.g. who, what, how",
+          "note": "SB 3c; буквы a–c → номера пунктов 1–3, ответ — номер правила. Ответы MODEL",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Check the weather forecast to make sure your clothes are right. → rule {}", "gaps": [["2", "two"]], "hint": "(1 / 2 / 3)", "explain": "to make sure = why you check the forecast (a reason).", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Decide what to wear the night before. → rule {}", "gaps": [["3", "three"]], "hint": "(1 / 2 / 3)", "explain": "what + to wear: after a question word.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "…don’t be afraid to ask for help. → rule {}", "gaps": [["1", "one"]], "hint": "(1 / 2 / 3)", "explain": "afraid + to ask: after an adjective.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7A-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the sentences with an infinitive phrase from the list",
+          "note": "GB 7A a «Match the sentence halves» → Blank: вписать нужный конец; «You need to be ready» (B) — пример",
+          "words": ["to give us a lift to the station", "to feel nervous", "to dress smartly", "to park", "to stay awake for the party"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "I know you’re tired, but try {}.", "gaps": [["to stay awake for the party"]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "In my job it’s important {}.", "gaps": [["to dress smartly"]], "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "I don’t know where {}.", "gaps": [["to park"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "We were late, so Simon offered {}.", "gaps": [["to give us a lift to the station"]], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "When you give a presentation it’s normal {}.", "gaps": [["to feel nervous"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7A-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the sentences with the correct form of a verb from the list. Use a positive or negative infinitive",
+          "note": "GB 7A b; ответы MODEL",
+          "words": ["not be", "do", "not drive", "learn", "look for", "not make", "meet", "pay"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Hi, I’m Donna.\nI’m Renée. Nice {} you.", "gaps": [["to meet"]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "What do you want {} tonight? Stay in or go out?", "gaps": [["to do"]], "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Let’s meet outside the cinema. I promise {} late.", "gaps": [["not to be"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Try {} a noise. Your father’s asleep.", "gaps": [["not to make"]], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "I’d really like {} a new language.", "gaps": [["to learn"]], "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Be careful {} too fast – the roads are icy.", "gaps": [["not to drive"]], "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "My brother has decided {} a new job.", "gaps": [["to look for"]], "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "The museum is free. You don’t need {} to go in.", "gaps": [["to pay"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7A-sb3e",
+          "origin": "SB",
+          "instruction": "Communication: How to survive… Tell your partner the tips from your article. Then listen to your partner’s tips and decide together which tip is the most important",
+          "note": "SB 3e + Communication 7A (A p.104, B p.110): ученик — A (статья о встрече с родителями партнёра — в context), ИИ — B (первое свидание; текст B не переписан — ИИ даёт пять советов по заголовку)",
+          "context": "How to survive meeting your partner’s parents for the first time\n1 Do some ‘homework’ before you go. Ask your partner about his or her parents. Where do they work? Do you have any common interests? If you do this, it will be easy to have a conversation with them.\n2 Be ready to answer questions about yourself! Most parents want to know about their son or daughter’s future partner, for example about their ambitions. Try to make a good impression!\n3 If you are invited for a meal, eat everything! It’s also a good idea to say something positive about the meal, like ‘This is absolutely delicious!’ Offer to help with the washing-up after the meal.\n4 Be yourself and don’t just agree with everything they say. If they ask you for your opinion, be honest. However, try not to talk about controversial subjects – this isn’t the moment to give your views on religion and politics!\n5 Avoid embarrassing silences. If the conversation is dying and you can’t think what to say, ask them what your partner was like as a child. All parents love talking about their children.",
+          "exercises": [
+            {"n": 1, "type": "talk", "situation": "You are a classmate in an English class (level: pre-intermediate), Student B in a pair activity. The student (Student A) has read an article ‘How to survive meeting your partner’s parents for the first time’ (tips: do some homework before you go; be ready to answer questions about yourself; if you are invited for a meal, eat everything and offer to help with the washing-up; be yourself but don’t talk about religion and politics; avoid embarrassing silences – ask what your partner was like as a child). First listen while the student tells you the five tips with details; react and ask a short question now and then. Then you tell the student five tips from your article ‘How to survive a first date (and make a success of it)’, one at a time, with a detail each, using the infinitive with to (e.g. Try to arrive on time. It’s important not to talk about your ex. Decide where to go before the date. Remember to ask questions and listen. Offer to pay half.). At the end, ask which tip from each article is the most important and agree on one. If the student forgets to in an infinitive (e.g. it’s important be…), repeat the phrase correctly in your next reply.", "goal": "Tell your partner five tips and choose the most important one.", "opener": "Hi! You read about meeting your partner’s parents, right? Tell me the tips.", "criteria": ["tells at least four of the five tips from the article, with a detail each", "uses the infinitive with to correctly (try to…, it’s important to…, don’t forget to…)", "reacts to the partner’s tips", "says which tip is the most important and why"], "steps": [{"text": "Tell the first tips: homework, questions about yourself", "example": "First, do some homework before you go. Ask your partner where his parents work."}, {"text": "Tell the tips about the meal and being yourself", "example": "If they invite you for a meal, it’s important to eat everything. Try not to talk about politics."}, {"text": "Tell the last tip about silences", "example": "If the conversation is dying, ask what your partner was like as a child."}, {"text": "Listen to your partner’s first date tips", "example": "That’s a good idea!"}, {"text": "Say which tip is the most important", "example": "I think the most important tip is to be yourself."}]}
+          ]
+        },
+        {
+          "id": "7A-wb2a",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the adjective and the correct form of the verb",
+          "note": "WB 2a; 1 important not to say — пример",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "Do you find it {} to my mum?", "gaps": [["difficult to talk"]], "hint": "(difficult / talk)"},
+            {"n": 3, "type": "blank", "text": "It’s {} presents for my nephew – he’s only two.", "gaps": [["easy to buy"]], "hint": "(easy / buy)"},
+            {"n": 4, "type": "blank", "text": "Thanks for calling. It was {} from you.", "gaps": [["great to hear"]], "hint": "(great / hear)"},
+            {"n": 5, "type": "blank", "text": "It’s {} with your family.", "gaps": [["fun to be"]], "hint": "(fun / be)"}
+          ]
+        },
+        {
+          "id": "7A-wb2b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the infinitive (with to) of a verb from the list",
+          "note": "WB 2b; 1 to wash up — пример",
+          "words": ["find", "not finish", "not tell", "rent", "see", "take out"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "Thanks for coming. We hope {} you again soon.", "gaps": [["to see"]]},
+            {"n": 3, "type": "blank", "text": "She wasn’t enjoying the lasagne, so she decided {} it.", "gaps": [["not to finish"]]},
+            {"n": 4, "type": "blank", "text": "My boyfriend is unemployed. He needs {} a job.", "gaps": [["to find"]]},
+            {"n": 5, "type": "blank", "text": "I’ll tell you what she said, but please promise {} anybody.", "gaps": [["not to tell"]]},
+            {"n": 6, "type": "blank", "text": "They want to live together. They’re planning {} a flat.", "gaps": [["to rent"]]},
+            {"n": 7, "type": "blank", "text": "You forgot {} the rubbish last night. It’s still in the kitchen.", "gaps": [["to take out"]]}
+          ]
+        },
+        {
+          "id": "7A-wb2c",
+          "origin": "WB",
+          "instruction": "Complete the sentences with a word from the list + to and the verb in brackets",
+          "note": "WB 2c; 1 how to get — пример",
+          "words": ["how many", "how much", "what", "when", "where", "who"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "My brother is always busy so I don’t know {} him.", "gaps": [["when to call"]], "hint": "(call)"},
+            {"n": 3, "type": "blank", "text": "My mum asked me to get some eggs, but she didn’t say {}.", "gaps": [["how many to buy"]], "hint": "(buy)"},
+            {"n": 4, "type": "blank", "text": "We’d like to travel around the world, but we don’t know {} first.", "gaps": [["where to go"]], "hint": "(go)"},
+            {"n": 5, "type": "blank", "text": "Sally wants to go to university, but she doesn’t know {}.", "gaps": [["what to study"]], "hint": "(study)"},
+            {"n": 6, "type": "blank", "text": "Who’s going to be here for lunch? We’re having pasta, but I need to know {}.", "gaps": [["how much to make"]], "hint": "(make)"},
+            {"n": 7, "type": "blank", "text": "We’ve got an extra ticket for the concert, but we don’t know {}.", "gaps": [["who to take"]], "hint": "(take)"}
+          ]
+        },
+        {
+          "id": "7A-wb2d",
+          "origin": "WB",
+          "instruction": "Read the questions. Re-order the words to make answers",
+          "note": "WB 2d; 1 I’d like to visit New Zealand — пример. Вопрос — в prompt, точка — среди слов",
+          "exercises": [
+            {"n": 2, "type": "rewrite", "prompt": "What are you planning to do this weekend? tennis / to / I’m / friends / my / play / with / hoping / .", "answers": ["I’m hoping to play tennis with my friends."]},
+            {"n": 3, "type": "rewrite", "prompt": "What are you doing tonight? to / planning / stay / in / I’m / .", "answers": ["I’m planning to stay in."]},
+            {"n": 4, "type": "rewrite", "prompt": "Are you learning anything that is very difficult at the moment? learn / trying / Japanese / to / I’m / .", "answers": ["I’m trying to learn Japanese."]},
+            {"n": 5, "type": "rewrite", "prompt": "Why are you learning English? get / to / a / job / better / .", "answers": ["To get a better job."]},
+            {"n": 6, "type": "rewrite", "prompt": "What do you find difficult about English? difficult / vocabulary / it’s / to / remember / .", "answers": ["It’s difficult to remember vocabulary."]}
+          ]
+        },
+        {
+          "id": "7A-wb2e",
+          "origin": "WB",
+          "instruction": "Answer the questions in 2d about you",
+          "note": "WB 2e → Write с началами ответов из книги",
+          "exercises": [
+            {"n": 1, "type": "write", "prompt": "Answer the questions about you. Use the infinitive with to.", "questions": [{"text": "What countries would you like to visit?", "hint": "(I’d like to visit…)"}, {"text": "What are you planning to do this weekend?", "hint": "(I’m hoping to…)"}, {"text": "What are you doing tonight?", "hint": "(I’m planning…)"}, {"text": "Are you learning anything that is very difficult at the moment?", "hint": "(I’m…)"}, {"text": "Why are you learning English?", "hint": "(To…)"}, {"text": "What do you find difficult about English?", "hint": "(It’s…)"}], "criteria": ["answers all six questions about themselves", "uses to + infinitive after would like, hope, plan, try and adjectives", "uses To + infinitive to give a reason", "no mistakes with the infinitive (not to go, not to going)"]}
+          ]
+        },
+        {
+          "id": "7A-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with to + the verb in brackets.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "It’s dangerous {} in the sea here.", "gaps": [["to swim"]], "hint": "(swim)", "explain": "Adjective + to + infinitive.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "I went to the bank {} some money.", "gaps": [["to get"]], "hint": "(get)", "explain": "to + infinitive says why (the reason).", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Can you show me how {} this machine?", "gaps": [["to use"]], "hint": "(use)", "explain": "Question word + to + infinitive.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "It was nice {} your parents last night.", "gaps": [["to meet"]], "hint": "(meet)", "explain": "Adjective + to + infinitive.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "She’s saving money {} a car.", "gaps": [["to buy"]], "hint": "(buy)", "explain": "to + infinitive for a reason.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "I can’t decide what {} to the party.", "gaps": [["to wear"]], "hint": "(wear)", "explain": "what + to + infinitive.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "It’s important {} late for an interview.", "gaps": [["not to be"]], "hint": "(not be)", "explain": "Negative infinitive: not to be.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7A-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Answer the questions. Use to + infinitive to give a reason.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Why did you go to the chemist’s? {} some aspirin.", "gaps": [["To buy", "To get"]], "hint": "(buy)", "explain": "To + infinitive answers Why…?", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Why are you learning English? {} with people when I travel.", "gaps": [["To speak", "To talk"]], "hint": "(speak)", "explain": "To + infinitive answers Why…?", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Why did she call you? {} me to her party.", "gaps": [["To invite"]], "hint": "(invite)", "explain": "To + infinitive answers Why…?", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7A-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "I went to the gym for get fit.", "answers": ["I went to the gym to get fit."], "explain": "Give a reason with to + infinitive, not for + verb.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "It’s easy make friends here.", "answers": ["It’s easy to make friends here.", "It is easy to make friends here."], "explain": "Adjective + to + infinitive.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "I don’t know what say.", "answers": ["I don’t know what to say.", "I do not know what to say."], "explain": "Question word + to + infinitive.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "Can you to help me?", "answers": ["Can you help me?"], "explain": "After modal verbs (can, will, would) use the infinitive without to.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "It’s important to not forget your passport.", "answers": ["It’s important not to forget your passport.", "It is important not to forget your passport."], "explain": "not goes before to.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7A-grammar-x4",
+          "origin": "GENERATED",
+          "instruction": "Put the words in the correct order.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "to / where / I / don’t / go / know / .", "answers": ["I don’t know where to go."], "explain": "Question word + to + infinitive.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "is / it / to / difficult / learn / Chinese / .", "answers": ["It is difficult to learn Chinese."], "explain": "It + be + adjective + to + infinitive.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "the station / went / to / I / meet / to / my friend / .", "answers": ["I went to the station to meet my friend."], "explain": "to + infinitive at the end gives the reason.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "nice / was / to / it / see / you / .", "answers": ["It was nice to see you."], "explain": "It + was + adjective + to + infinitive.", "source": "MODEL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7A-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "weak form of to, linking",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Weak form of to",
+          "text": "to is usually unstressed and pronounced /tə/: I want to come. It’s difficult to say. Try not to be late."
+        },
+        {
+          "type": "note",
+          "title": "Linking words with the same consonant sound",
+          "text": "When a word ends in a consonant sound and the next word begins with the same sound, we often link the words together and only make the consonant sound once. This happens when a word ends in /t/ before to, so, e.g. want to is pronounced /ˈwɒntə/."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "7A-sb4a",
+          "origin": "SB",
+          "instruction": "Listen to three sentences. Is to stressed? Tap to if it is stressed",
+          "note": "SB 4a (7.4) → Stress: to в [ ]; во всех трёх to безударное /tə/ (правило из рамки)",
+          "audio": "7.4",
+          "exercises": [
+            {"n": 1, "type": "stress", "text": "I want [to] come.", "stressed": [], "explain": "to is unstressed: /tə/. want to is linked: /ˈwɒntə/.", "source": "MODEL", "clip": [0.0, 1.47]},
+            {"n": 2, "type": "stress", "text": "It’s difficult [to] say.", "stressed": [], "explain": "to is unstressed: /tə/.", "source": "MODEL", "clip": [3.2, 5.09]},
+            {"n": 3, "type": "stress", "text": "Try not [to] be late.", "stressed": [], "explain": "to is unstressed: /tə/. not to is linked: /ˈnɒtə/.", "source": "MODEL", "clip": [6.76, 8.37]}
+          ]
+        },
+        {
+          "id": "7A-sb4b",
+          "origin": "SB",
+          "instruction": "Listen and complete questions 1–10 with three or four words",
+          "note": "SB 4b (7.5) диктовка; ответы сверены с записью",
+          "audio": "7.5",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Have you ever {} something new and failed?", "gaps": [["tried to learn"]], "source": "CONFIRMED", "clip": [0.21, 3.95]},
+            {"n": 2, "type": "blank", "text": "How important is it to know {}?", "gaps": [["how to drive"]], "source": "CONFIRMED", "clip": [5.7, 9.21]},
+            {"n": 3, "type": "blank", "text": "How long do you usually spend deciding {} in the morning?", "gaps": [["what to wear"]], "source": "CONFIRMED", "clip": [11.04, 15.68]},
+            {"n": 4, "type": "blank", "text": "Have you ever {} your phone during a class or concert?", "gaps": [["forgotten to turn off", "forgot to turn off"]], "source": "CONFIRMED", "clip": [17.48, 21.56]},
+            {"n": 5, "type": "blank", "text": "Where are you {} for your next holiday?", "gaps": [["hoping to go"]], "source": "CONFIRMED", "clip": [23.42, 26.22]},
+            {"n": 6, "type": "blank", "text": "Are you {} next weekend?", "gaps": [["planning to go anywhere"]], "source": "CONFIRMED", "clip": [27.88, 30.34]},
+            {"n": 7, "type": "blank", "text": "Would you like {} in another country?", "gaps": [["to work or study"]], "source": "CONFIRMED", "clip": [32.13, 35.36]},
+            {"n": 8, "type": "blank", "text": "Have you ever {} when you weren’t?", "gaps": [["pretended to be ill"]], "source": "CONFIRMED", "clip": [37.06, 40.52]},
+            {"n": 9, "type": "blank", "text": "Do you think it’s important {} at school?", "gaps": [["to learn to cook"]], "source": "CONFIRMED", "clip": [42.18, 45.49]},
+            {"n": 10, "type": "blank", "text": "Do you think it’s possible {} with an ex-boyfriend or girlfriend?", "gaps": [["to stay friends"]], "source": "CONFIRMED", "clip": [47.22, 51.7]}
+          ]
+        },
+        {
+          "id": "7A-sb4c",
+          "origin": "SB",
+          "instruction": "Answer your partner’s questions from 4b and ask him or her the others. Give as much information as you can",
+          "note": "SB 4c: ИИ задаёт вопросы 1–5, ученик — вопросы 6–10",
+          "exercises": [
+            {"n": 1, "type": "talk", "situation": "You are a classmate in an English class (level: pre-intermediate). First ask the student these questions one at a time and react to the answers with a short follow-up question: Have you ever tried to learn something new and failed? How important is it to know how to cook? How long do you usually spend deciding what to wear in the morning? Have you ever forgotten to turn off your phone during a class or concert? Where are you planning to go for your next holiday? Then say 'Now you ask me' and answer the student’s questions (Are you going to go out next weekend? Would you like to live and work in another country? Have you ever pretended to be ill when you weren’t? Do you think it’s important to wear a uniform at school? Do you think it’s possible to be friends with an ex-boyfriend or girlfriend?) with two or three sentences each. If the student forgets to before an infinitive, repeat the phrase correctly in your next reply.", "goal": "Answer five questions, then ask your partner the other five.", "opener": "Hi! Let’s start. Have you ever tried to learn something new and failed?", "criteria": ["answers each question with some details", "asks at least four of questions 6–10 correctly", "uses to + infinitive correctly (planning to go, pretended to be, important to wear)", "reacts to the partner’s answers"], "steps": [{"text": "Answer questions 1–5 with details", "example": "Yes, I tried to learn the guitar, but it was too difficult."}, {"text": "Ask about next weekend and living abroad", "example": "Are you going to go out next weekend? Would you like to live and work in another country?"}, {"text": "Ask about pretending to be ill", "example": "Have you ever pretended to be ill when you weren’t?"}, {"text": "Ask about school uniforms and exes", "example": "Do you think it’s important to wear a uniform at school? Do you think it’s possible to be friends with an ex?"}]}
+          ]
+        },
+        {
+          "id": "7A-wb3a",
+          "origin": "WB",
+          "instruction": "Listen and repeat the sentences. Copy the rhythm",
+          "note": "WB 3a–b (трек WB 7.1 — аудио WB нет): диктовка и повтор → Speak на фразы из ключа, образец — синтезатор. 1 — пример, оставлен для повтора",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "It started to rain as soon as we left."},
+            {"n": 2, "type": "speak", "text": "I really don’t know what to do."},
+            {"n": 3, "type": "speak", "text": "She learnt to swim when she was very young."},
+            {"n": 4, "type": "speak", "text": "He told us not to come tonight."},
+            {"n": 5, "type": "speak", "text": "Do you want to send Tom a card?"},
+            {"n": 6, "type": "speak", "text": "I think I forgot to turn my phone off."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7A-skills",
+      "kind": "SKILLS",
+      "title": "Reading, Listening & Writing",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Giving tips",
+          "text": "Start each tip with an imperative: Wear smart clothes. Don’t be late. Try to remember everybody’s name. Then explain why: …because you don’t want to look too enthusiastic."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "7A-sb1a",
+          "origin": "SB",
+          "instruction": "Imagine that somebody you know is starting a new office job tomorrow. Think of two important tips you could give him or her to make the first day go well",
+          "note": "SB 1a → Write (Do / Don’t); 1b «Are your tips there?» — сравнение с 1c",
+          "exercises": [
+            {"n": 1, "type": "write", "prompt": "Write two tips for somebody’s first day in a new office job.", "questions": [{"text": "What should he or she do?", "hint": "(Do…)"}, {"text": "What shouldn’t he or she do?", "hint": "(Don’t…)"}], "criteria": ["one positive and one negative tip", "each tip starts with an imperative (Do… / Don’t…)", "the tips are sensible for a first day at work"]}
+          ]
+        },
+        {
+          "id": "7A-sb1c",
+          "origin": "SB",
+          "instruction": "Read Top tips A–G. Then read the article again, and put them in the correct place (1–7)",
+          "note": "SB 1c → Order: карточки A–G в порядке мест 1–7 статьи. Ответ MODEL",
+          "context": "How to survive your first day in a new office\nEverybody gets nervous on their first day at any job, but these tips can help you to get it right…\n6.30 Wake up early, have breakfast, wash, and get dressed. Wear smart work clothes, but not too smart. Check the weather forecast to make sure your clothes are right, and if you’re driving, check traffic reports to see if there are any problems. TOP TIP: 1 ___\n8.50 Plan to arrive at least ten minutes early, but not more than 20 – you don’t want to look too enthusiastic. Say hello to people, smile, and use this time to ask questions. TOP TIP: 2 ___ If you can’t, admit it and say ‘Sorry, I’ve forgotten your name.’\n11.00 Offer to make coffee or to bring water for your colleagues. TOP TIP: 3 ___ If it’s very bad, people will always remember it. If it’s very good, they’ll always ask you to make it.\n12.00 Don’t be the first person to ask about lunch. Wait to see what everybody else does. TOP TIP: 4 ___\n13.00 Be prepared to have problems. Many bosses give new employees some difficult work on their first day to see how they manage. TOP TIP: 5 ___ If you can’t, don’t be afraid to ask for help.\n15.00 If you go to a meeting, listen, keep quiet and take notes. TOP TIP: 6 ___ You don’t want to annoy other people on day one.\n17.00 Don’t think that staying late will impress your boss. It won’t, at least not on your first day. Go home. TOP TIP: 7 ___ If you made any mistakes, make sure you don’t make them again tomorrow.",
+          "images": ["7a_sb1_office"],
+          "exercises": [
+            {"n": 1, "type": "order", "pictures": [{"label": "A", "text": "Don’t make it either very well or very badly."}, {"label": "B", "text": "Try to remember everybody’s name."}, {"label": "C", "text": "If they invite you to go with them, go!"}, {"label": "D", "text": "Decide what to wear the night before."}, {"label": "E", "text": "Think about everything that you’ve learned today."}, {"label": "F", "text": "Keep your good ideas for the next meeting."}, {"label": "G", "text": "Try to solve the problem yourself first."}], "answer": ["D", "B", "A", "C", "G", "F", "E"], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7A-sb1d",
+          "origin": "SB",
+          "instruction": "Which tip do you think is the most important? Do you think any of the tips could also be useful for the first day in a new class or on a course?",
+          "note": "SB 1d + 3f (подходят ли советы для вашей страны) → Talk",
+          "exercises": [
+            {"n": 1, "type": "talk", "situation": "You are a classmate in an English class (level: pre-intermediate). You have both read the article ‘How to survive your first day in a new office’ (tips: decide what to wear the night before; try to remember everybody’s name; don’t make the coffee very well or very badly; if they invite you to lunch, go; try to solve problems yourself first; keep your good ideas for the next meeting; think about what you’ve learned today). Ask the student: Which tip do you think is the most important? Why? Could any of the tips be useful for the first day in a new class or on a course? Are the tips appropriate in your country? If not, why not? Give your own opinion briefly too.", "goal": "Discuss the first day tips: which is best, and do they work in your country?", "opener": "So, which tip in the article do you think is the most important?", "criteria": ["chooses the most important tip and gives a reason", "says which tips could work for a new class or course", "says whether the tips are appropriate in their country and why", "uses to + infinitive at least twice (it’s important to…, try to…)"], "steps": [{"text": "Say which tip is the most important and why", "example": "I think the most important tip is to remember everybody’s name."}, {"text": "Say which tips are useful for a new class", "example": "It’s a good idea to arrive early on the first day of a course too."}, {"text": "Say if the tips work in your country", "example": "In my country it’s normal to stay late, so…"}]}
+          ]
+        },
+        {
+          "id": "7A-sb2b",
+          "origin": "SB",
+          "instruction": "Listen to Simon and Claire describing their first day at work. Who…? Write Simon, Claire, or both",
+          "note": "SB 2a–2b (7.1): «S / C / B» → Blank с вариантами в hint; картинки Саймона и Клэр — у задания. Ответы по скрипту 7.1 (MODEL); 5 — спорный: плохо почувствовала себя только Клэр",
+          "audio": "7.1",
+          "images": ["7a_sb2_simon", "7a_sb2_claire"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Who wasn’t expecting to work on his / her first day? {}", "gaps": [["Claire"]], "hint": "(Simon / Claire / both)", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Who didn’t have the training to do the job? {}", "gaps": [["Claire"]], "hint": "(Simon / Claire / both)", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Who made a wrong decision because of his / her interview? {}", "gaps": [["Simon"]], "hint": "(Simon / Claire / both)", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Who couldn’t answer the questions that people asked him / her? {}", "gaps": [["Simon"]], "hint": "(Simon / Claire / both)", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "Who felt bad when he / she spoke to the boss? {}", "gaps": [["Claire"]], "hint": "(Simon / Claire / both)", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Who never had the same problem again? {}", "gaps": [["both", "Both"]], "hint": "(Simon / Claire / both)", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7A-sb2c",
+          "origin": "SB",
+          "instruction": "Have you ever had a problem on your first day in a new job, or in a new class or school? What was it?",
+          "note": "SB 2c → Talk",
+          "exercises": [
+            {"n": 1, "type": "talk", "situation": "You are a classmate in an English class (level: pre-intermediate). Ask the student: Have you ever had a problem on your first day in a new job, or in a new class or school? What was it? What happened? How did you feel? Ask two or three follow-up questions (When was it? What did you do? What advice would you give now?). Then briefly tell your own story: on your first day at a new school you went to the wrong classroom and sat there for ten minutes before you realized.", "goal": "Tell your partner about a problem on a first day.", "opener": "Have you ever had a problem on your first day in a new job, or in a new class or school?", "criteria": ["describes a first day and the problem clearly", "uses past tenses correctly", "says how they felt and what happened next", "asks the partner about his or her first day"], "steps": [{"text": "Say where and when your first day was", "example": "It was my first day at university, three years ago."}, {"text": "Say what the problem was and how you felt", "example": "I couldn’t find the classroom and I was really nervous."}, {"text": "Ask your partner about their first day", "example": "What about you? Have you ever had a problem like that?"}]}
+          ]
+        },
+        {
+          "id": "7A-sb5",
+          "origin": "SB",
+          "instruction": "Write a How to survive… article. Choose a title, and write at least four tips in a logical order. Start each one with an imperative. Then explain why",
+          "note": "SB 5 Writing (в паре в книге → самостоятельно)",
+          "exercises": [
+            {"n": 1, "type": "write", "prompt": "Write a How to survive… article: How to survive a job interview, a party where you don’t know anyone, or a family holiday. Write at least four tips in a logical order. Start each one with an imperative (Don’t be late. Wear the right clothes…), then explain why.", "questions": [{"text": "Which title did you choose?", "hint": "(How to survive…)"}, {"text": "Tip 1: what should you do first? Why?", "hint": "(Decide… the night before. It’s important to…)"}, {"text": "Tip 2: why?", "hint": "(Try to… because…)"}, {"text": "Tip 3: what shouldn’t you do? Why?", "hint": "(Don’t… You don’t want to…)"}, {"text": "Tip 4: what should you do at the end?", "hint": "(Remember to…)"}], "criteria": ["a title and at least four tips in a logical order", "each tip starts with an imperative (positive or negative)", "each tip has a reason", "uses the infinitive with to correctly (try to, remember to, it’s important not to)"]}
+          ]
+        }
+      ]
+    }
+  ]
+}

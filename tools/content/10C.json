@@ -1,0 +1,3795 @@
+{
+  "id": "10C",
+  "title": "International inventions",
+  "bubbles": [
+    "The saxophone was invented by a Belgian.",
+    "What was he called?"
+  ],
+  "sources": "SB p.82–83 (PDF 83–84), Grammar Bank p.144–145 (PDF 145–146), Communication p.106/111 (PDF 107/112), Revise and Check 9&10 p.84–85 (PDF 85–86); WB p.72–73 (PDF 71–72), key WB p.94 (PDF 93). Script 10.15 is not printed in the SB (answers by the recording)",
+  "sections": [
+    {
+      "id": "10C-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "people from different countries",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Talking about people from different countries",
+          "text": "We usually use the + nationality adjective + -s to talk about the people from a country, e.g. the Americans, the Belgians. If the nationality adjective ends with /s/, /z/, /ʃ/, or /tʃ/, we don’t add -s, e.g. the English, the Chinese, the Dutch. For some countries there is a special word for the people, e.g. Poland > the Poles, Turkey > the Turks."
+        },
+        {
+          "type": "table",
+          "title": "Countries, adjectives, people",
+          "headers": [
+            "country",
+            "adjective",
+            "people"
+          ],
+          "rows": [
+            [
+              "the United States",
+              "American",
+              "the Americans"
+            ],
+            [
+              "Belgium",
+              "Belgian",
+              "the Belgians"
+            ],
+            [
+              "Italy",
+              "Italian",
+              "the Italians"
+            ],
+            [
+              "Brazil",
+              "Brazilian",
+              "the Brazilians"
+            ],
+            [
+              "Argentina",
+              "Argentinian",
+              "the Argentinians"
+            ],
+            [
+              "Russia",
+              "Russian",
+              "the Russians"
+            ],
+            [
+              "China",
+              "Chinese",
+              "the Chinese"
+            ],
+            [
+              "Japan",
+              "Japanese",
+              "the Japanese"
+            ],
+            [
+              "Switzerland",
+              "Swiss",
+              "the Swiss"
+            ],
+            [
+              "France",
+              "French",
+              "the French"
+            ],
+            [
+              "the Netherlands",
+              "Dutch",
+              "the Dutch"
+            ],
+            [
+              "England",
+              "English",
+              "the English"
+            ],
+            [
+              "Spain",
+              "Spanish",
+              "the Spanish"
+            ],
+            [
+              "Ireland",
+              "Irish",
+              "the Irish"
+            ],
+            [
+              "Poland",
+              "Polish",
+              "the Poles"
+            ],
+            [
+              "Turkey",
+              "Turkish",
+              "the Turks"
+            ]
+          ],
+          "audio": "10.10"
+        },
+        {
+          "type": "mistake",
+          "wrong": "The Chineses invented paper.",
+          "right": "The Chinese invented paper.",
+          "why": "No -s after adjectives ending in /s/, /z/, /ʃ/, /tʃ/: the Chinese, the Swiss, the French."
+        },
+        {
+          "type": "mistake",
+          "wrong": "The Polish are very friendly.",
+          "right": "The Poles are very friendly.",
+          "why": "Some countries have a special word for the people: the Poles, the Turks."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "10C-sb1a",
+          "origin": "SB",
+          "instruction": "What are the nationality adjectives for these countries?",
+          "note": "SB 1a; вопрос «What do the first group have in common?» — в пояснении пункта 1 (прилагательные на -an / -ian, люди — +s). MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "the United States – {}",
+              "gaps": [
+                [
+                  "American"
+                ]
+              ],
+              "source": "MODEL",
+              "explain": "Group 1 adjectives end in -an: the people are the Americans, the Belgians, the Italians."
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Belgium – {}",
+              "gaps": [
+                [
+                  "Belgian"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Italy – {}",
+              "gaps": [
+                [
+                  "Italian"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "China – {}",
+              "gaps": [
+                [
+                  "Chinese"
+                ]
+              ],
+              "source": "MODEL",
+              "explain": "Group 2 adjectives end in /s/, /z/, /ʃ/ or /tʃ/: the people are the Chinese, the Swiss, the French…"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Switzerland – {}",
+              "gaps": [
+                [
+                  "Swiss"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "France – {}",
+              "gaps": [
+                [
+                  "French"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "the Netherlands – {}",
+              "gaps": [
+                [
+                  "Dutch"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "England – {}",
+              "gaps": [
+                [
+                  "English"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Spain – {}",
+              "gaps": [
+                [
+                  "Spanish"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10C-sb1b",
+          "origin": "SB",
+          "instruction": "Complete the chart: the nationality adjective and the people from that country. Then listen and check",
+          "note": "SB 1b+c; таблица → Blank с двумя пропусками. Ответы по аудио 10.10",
+          "audio": "10.10",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "England: {} – the {}",
+              "gaps": [
+                [
+                  "English"
+                ],
+                [
+                  "English"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                0.2,
+                7.63
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Brazil: {} – the {}",
+              "gaps": [
+                [
+                  "Brazilian"
+                ],
+                [
+                  "Brazilians"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                9.32,
+                16.48
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Russia: {} – the {}",
+              "gaps": [
+                [
+                  "Russian"
+                ],
+                [
+                  "Russians"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                18.2,
+                25.33
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Turkey: {} – the {}",
+              "gaps": [
+                [
+                  "Turkish"
+                ],
+                [
+                  "Turks"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                27.06,
+                33.86
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Argentina: {} – the {}",
+              "gaps": [
+                [
+                  "Argentinian"
+                ],
+                [
+                  "Argentinians"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                35.6,
+                43.91
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Poland: {} – the {}",
+              "gaps": [
+                [
+                  "Polish"
+                ],
+                [
+                  "Poles"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                45.59,
+                52.39
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Japan: {} – the {}",
+              "gaps": [
+                [
+                  "Japanese"
+                ],
+                [
+                  "Japanese"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                54.04,
+                61.69
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Spain: {} – the {}",
+              "gaps": [
+                [
+                  "Spanish"
+                ],
+                [
+                  "Spanish"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                63.4,
+                70.54
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10C-wb1a",
+          "origin": "WB",
+          "instruction": "Complete the chart with the missing words",
+          "note": "WB 1a; строки таблицы → Blank; Turkey — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "America – {} – the Americans",
+              "gaps": [
+                [
+                  "American"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{} – Chinese – the {}",
+              "gaps": [
+                [
+                  "China"
+                ],
+                [
+                  "Chinese"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{} – {} – the Swiss",
+              "gaps": [
+                [
+                  "Switzerland"
+                ],
+                [
+                  "Swiss"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Poland – {} – the {}",
+              "gaps": [
+                [
+                  "Polish"
+                ],
+                [
+                  "Poles"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "{} – Japanese – the {}",
+              "gaps": [
+                [
+                  "Japan"
+                ],
+                [
+                  "Japanese"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "{} – {} – the Spanish",
+              "gaps": [
+                [
+                  "Spain"
+                ],
+                [
+                  "Spanish"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "{} – Irish – the {}",
+              "gaps": [
+                [
+                  "Ireland"
+                ],
+                [
+                  "Irish"
+                ]
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "{} – Russian – the {}",
+              "gaps": [
+                [
+                  "Russia"
+                ],
+                [
+                  "Russians"
+                ]
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "Italy – {} – the {}",
+              "gaps": [
+                [
+                  "Italian"
+                ],
+                [
+                  "Italians"
+                ]
+              ]
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "{} – English – the {}",
+              "gaps": [
+                [
+                  "England"
+                ],
+                [
+                  "English"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10C-wb1b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the correct nationality word",
+          "note": "WB 1b; 1 French — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I really enjoyed living in Rome, and I think the {} are the best cooks.",
+              "gaps": [
+                [
+                  "Italians"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "If you visit Durham, East London, and Cornwall, you’ll realize that the {} have lots of different accents.",
+              "gaps": [
+                [
+                  "English"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I loved New York, and all the {} I met were really friendly.",
+              "gaps": [
+                [
+                  "Americans"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "When we visited Istanbul, we learnt a lot about the {} and their culture and history.",
+              "gaps": [
+                [
+                  "Turks"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "You can understand why the {} are proud of cities like Seville and Granada.",
+              "gaps": [
+                [
+                  "Spanish"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "The {} have super-fast trains which run between cities like Tokyo and Osaka.",
+              "gaps": [
+                [
+                  "Japanese"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10C-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete with the nationality adjective or the word for the people.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Pizza is an {} dish.",
+              "gaps": [
+                [
+                  "Italian"
+                ]
+              ],
+              "hint": "(Italy)",
+              "explain": "Italy – Italian (adjective).",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The {} drink a lot of tea.",
+              "gaps": [
+                [
+                  "English",
+                  "British"
+                ]
+              ],
+              "hint": "(England)",
+              "explain": "England – the English (no -s after /ʃ/).",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "My new car is {}.",
+              "gaps": [
+                [
+                  "German"
+                ]
+              ],
+              "hint": "(Germany)",
+              "explain": "Germany – German.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "The {} are famous for their chocolate and watches.",
+              "gaps": [
+                [
+                  "Swiss"
+                ]
+              ],
+              "hint": "(Switzerland)",
+              "explain": "Switzerland – the Swiss (no -s after /s/).",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "The {} won the World Cup five times.",
+              "gaps": [
+                [
+                  "Brazilians"
+                ]
+              ],
+              "hint": "(Brazil)",
+              "explain": "Brazil – Brazilian – the Brazilians (+s).",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "She speaks {} because her mother is from Warsaw.",
+              "gaps": [
+                [
+                  "Polish"
+                ]
+              ],
+              "hint": "(Poland)",
+              "explain": "Poland – Polish (adjective and language).",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "The {} have lived in Warsaw for centuries.",
+              "gaps": [
+                [
+                  "Poles"
+                ]
+              ],
+              "hint": "(Poland)",
+              "explain": "Poland – the Poles (special word for the people).",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "The {} invented paper.",
+              "gaps": [
+                [
+                  "Chinese"
+                ]
+              ],
+              "hint": "(China)",
+              "explain": "China – the Chinese (no -s after /z/).",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Amsterdam is a {} city.",
+              "gaps": [
+                [
+                  "Dutch"
+                ]
+              ],
+              "hint": "(the Netherlands)",
+              "explain": "the Netherlands – Dutch.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "The {} drink a lot of coffee in Istanbul.",
+              "gaps": [
+                [
+                  "Turks"
+                ]
+              ],
+              "hint": "(Turkey)",
+              "explain": "Turkey – the Turks (special word for the people).",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10C-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistake.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "The Frenches make great cheese.",
+              "answers": [
+                "The French make great cheese."
+              ],
+              "explain": "No -s: the French.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "The Italian are very good at design.",
+              "answers": [
+                "The Italians are very good at design."
+              ],
+              "explain": "Adjectives in -an / -ian add -s: the Italians.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "I met two Japaneses on the train.",
+              "answers": [
+                "I met two Japanese people on the train."
+              ],
+              "explain": "Japanese has no plural -s; say Japanese people.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "The Turkish are very friendly people.",
+              "answers": [
+                "The Turks are very friendly people."
+              ],
+              "explain": "Special word: the Turks.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "He is a Spain footballer.",
+              "answers": [
+                "He is a Spanish footballer."
+              ],
+              "explain": "Before a noun use the adjective: Spanish.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "The Russian people are called the Russian.",
+              "answers": [
+                "The Russian people are called the Russians."
+              ],
+              "explain": "Russian – the Russians (+s).",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "She’s from Holland – she’s Holland.",
+              "answers": [
+                "She's from Holland – she's Dutch.",
+                "She's from Holland, she's Dutch.",
+                "She is from Holland – she is Dutch."
+              ],
+              "explain": "the Netherlands / Holland – Dutch.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prompt": "The Swisses are very punctual.",
+              "answers": [
+                "The Swiss are very punctual."
+              ],
+              "explain": "No -s: the Swiss.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "rewrite",
+              "prompt": "We had dinner at an Argentina restaurant.",
+              "answers": [
+                "We had dinner at an Argentinian restaurant."
+              ],
+              "explain": "Adjective: Argentinian.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "rewrite",
+              "prompt": "The Brazilian love football.",
+              "answers": [
+                "The Brazilians love football."
+              ],
+              "explain": "Brazilian – the Brazilians (+s).",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10C-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "/ʃ/, /tʃ/, and /dʒ/",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Three sounds",
+          "headers": [
+            "sound",
+            "key word",
+            "examples"
+          ],
+          "rows": [
+            [
+              "/ʃ/",
+              "shower",
+              "Spanish, Swedish, invention, musician, Russia, shop, shut"
+            ],
+            [
+              "/tʃ/",
+              "chess",
+              "Chinese, French, cheese, watch, chocolate, chair"
+            ],
+            [
+              "/dʒ/",
+              "jazz",
+              "Japanese, German, Belgian, technology, giraffe"
+            ]
+          ],
+          "audio": "10.11"
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "/ʃ/ is often spelt sh or -tion / -cian; /tʃ/ is often spelt ch or tch; /dʒ/ is often spelt j, g (before e, i, y) or dge."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "10C-sb1d",
+          "origin": "SB",
+          "instruction": "Listen and repeat the words and sounds",
+          "note": "SB 1d → Speak по отрезкам 10.11",
+          "audio": "10.11",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "shower",
+              "clip": [
+                2.06,
+                2.66
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "chess",
+              "clip": [
+                8.72,
+                9.54
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "jazz",
+              "clip": [
+                15.28,
+                16.42
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10C-sb1e",
+          "origin": "SB",
+          "instruction": "Put the words with pink letters in the correct column. Then listen and check",
+          "note": "SB 1e «What sound do the pink letters make, a, b, or c?» → Sort; слова из предложений 1–5. Ответы по аудио 10.12",
+          "audio": "10.12",
+          "columns": [
+            "/ʃ/ shower",
+            "/tʃ/ chess",
+            "/dʒ/ jazz"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "sort",
+              "word": "[Ch]inese",
+              "column": 2,
+              "explain": "ch = /tʃ/.",
+              "source": "CONFIRMED",
+              "clip": [
+                0.2,
+                2.38
+              ]
+            },
+            {
+              "n": 2,
+              "type": "sort",
+              "word": "inven[t]ion",
+              "column": 1,
+              "explain": "-tion = /ʃn/.",
+              "source": "CONFIRMED",
+              "clip": [
+                0.2,
+                2.38
+              ]
+            },
+            {
+              "n": 3,
+              "type": "sort",
+              "word": "Fren[ch]",
+              "column": 2,
+              "explain": "ch = /tʃ/.",
+              "source": "CONFIRMED",
+              "clip": [
+                4.11,
+                8.32
+              ]
+            },
+            {
+              "n": 4,
+              "type": "sort",
+              "word": "[ch]eese",
+              "column": 2,
+              "explain": "ch = /tʃ/.",
+              "source": "CONFIRMED",
+              "clip": [
+                4.11,
+                8.32
+              ]
+            },
+            {
+              "n": 5,
+              "type": "sort",
+              "word": "Spani[sh]",
+              "column": 1,
+              "explain": "sh = /ʃ/.",
+              "source": "CONFIRMED",
+              "clip": [
+                4.11,
+                8.32
+              ]
+            },
+            {
+              "n": 6,
+              "type": "sort",
+              "word": "[J]apanese",
+              "column": 3,
+              "explain": "j = /dʒ/.",
+              "source": "CONFIRMED",
+              "clip": [
+                10.08,
+                12.58
+              ]
+            },
+            {
+              "n": 7,
+              "type": "sort",
+              "word": "wa[tch]",
+              "column": 2,
+              "explain": "tch = /tʃ/.",
+              "source": "CONFIRMED",
+              "clip": [
+                10.08,
+                12.58
+              ]
+            },
+            {
+              "n": 8,
+              "type": "sort",
+              "word": "[G]erman",
+              "column": 3,
+              "explain": "g before e = /dʒ/.",
+              "source": "CONFIRMED",
+              "clip": [
+                14.34,
+                17.34
+              ]
+            },
+            {
+              "n": 9,
+              "type": "sort",
+              "word": "technolo[g]y",
+              "column": 3,
+              "explain": "g before y = /dʒ/.",
+              "source": "CONFIRMED",
+              "clip": [
+                14.34,
+                17.34
+              ]
+            },
+            {
+              "n": 10,
+              "type": "sort",
+              "word": "Bel[g]ian",
+              "column": 3,
+              "explain": "g before i = /dʒ/.",
+              "source": "CONFIRMED",
+              "clip": [
+                19.15,
+                21.51
+              ]
+            },
+            {
+              "n": 11,
+              "type": "sort",
+              "word": "musi[c]ian",
+              "column": 1,
+              "explain": "-cian = /ʃn/.",
+              "source": "CONFIRMED",
+              "clip": [
+                19.15,
+                21.51
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10C-sb1e2",
+          "origin": "SB",
+          "instruction": "Practise saying the sentences",
+          "note": "SB 1e (Practise saying the sentences) → Speak по отрезкам 10.12",
+          "audio": "10.12",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "It’s a Chinese invention.",
+              "clip": [
+                0.2,
+                2.38
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "I love French cheese and Spanish wine.",
+              "clip": [
+                4.11,
+                8.32
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "He has a Japanese watch.",
+              "clip": [
+                10.08,
+                12.58
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "It’s a German technology company.",
+              "clip": [
+                14.34,
+                17.34
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "He’s a Belgian musician.",
+              "clip": [
+                19.15,
+                21.51
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10C-wb2a",
+          "origin": "WB",
+          "instruction": "Write the word with a different sound",
+          "note": "WB 2a «Circle the word with a different sound» → Blank, слова в hint; 1 Belgian — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "/dʒ/ jazz: {}",
+              "gaps": [
+                [
+                  "Swedish"
+                ]
+              ],
+              "hint": "(Japanese / German / Swedish)",
+              "explain": "Swedish has /ʃ/, not /dʒ/."
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "/tʃ/ chess: {}",
+              "gaps": [
+                [
+                  "shop"
+                ]
+              ],
+              "hint": "(shop / watch / cheese)",
+              "explain": "shop has /ʃ/, not /tʃ/."
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "/tʃ/ chess: {}",
+              "gaps": [
+                [
+                  "shut"
+                ]
+              ],
+              "hint": "(chocolate / chair / shut)",
+              "explain": "shut has /ʃ/, not /tʃ/."
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "/ʃ/ shower: {}",
+              "gaps": [
+                [
+                  "cheap"
+                ]
+              ],
+              "hint": "(ship / cheap / Russia)",
+              "explain": "cheap has /tʃ/, not /ʃ/."
+            }
+          ]
+        },
+        {
+          "id": "10C-wb2b",
+          "origin": "WB",
+          "instruction": "Listen and repeat the words",
+          "note": "WB 2b (трек WB 10.3 — аудио WB нет): Speak, образец — синтезатор",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "shower: Belgian, Spanish, musician"
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "jazz: Japanese, German, Swedish"
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "chess: shop, watch, cheese"
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "chess: chocolate, chair, shut"
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "shower: ship, cheap, Russia"
+            }
+          ]
+        },
+        {
+          "id": "10C-wb2c",
+          "origin": "WB",
+          "instruction": "Say the sentences",
+          "note": "WB 2c+d «Listen and write the sentences» (трек WB 10.4 — аудио WB нет): диктант без аудио невозможен → Speak, предложения из ключа, образец — синтезатор",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "Fish and chips is an English dish."
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "This shop sells Belgian chocolate."
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "She showed me the shoes."
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "Which garage has a cash machine?"
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "The cheese I chose was cheap."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10C-grammar",
+      "kind": "GRAMMAR",
+      "title": "the passive: be + past participle",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Present and past passive",
+          "headers": [
+            "",
+            "present: am / is / are + past participle",
+            "past: was / were + past participle"
+          ],
+          "rows": [
+            [
+              "+",
+              "20 billion pieces of Lego are produced every year.",
+              "The hot-air balloon was invented by two Frenchmen."
+            ],
+            [
+              "–",
+              "CDs aren’t used very much nowadays.",
+              "Stamps weren’t invented until 1840."
+            ],
+            [
+              "?",
+              "Is Spanish spoken in New Mexico?",
+              "When was the watch invented?"
+            ]
+          ],
+          "audio": "10.14"
+        },
+        {
+          "type": "note",
+          "title": "Active or passive?",
+          "text": "Alfred Nobel invented dynamite. (active – the focus is on Alfred Nobel) Dynamite was invented by Alfred Nobel. (passive – the focus is on dynamite). We often use the passive when it isn’t known or isn’t important who does or did the action: My car was stolen last week. Volvo cars are made in Sweden. We use by to say who did the action: The Lord of the Rings was written by Tolkien."
+        },
+        {
+          "type": "mistake",
+          "wrong": "The Mona Lisa painted by Leonardo.",
+          "right": "The Mona Lisa was painted by Leonardo.",
+          "why": "The passive needs be + past participle."
+        },
+        {
+          "type": "mistake",
+          "wrong": "Hamlet was written from Shakespeare.",
+          "right": "Hamlet was written by Shakespeare.",
+          "why": "Use by to say who did the action."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "10C-sb2a",
+          "origin": "SB",
+          "instruction": "Complete the sentences with the inventions from the list. Then listen and check",
+          "note": "SB 2a+b; ответы по аудио 10.13",
+          "audio": "10.13",
+          "words": [
+            "CDs",
+            "dynamite",
+            "glasses",
+            "guns",
+            "the hot-air balloon",
+            "Lego",
+            "the mobile phone",
+            "the saxophone",
+            "stamps",
+            "the wristwatch"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "{} were invented by the Chinese.",
+              "gaps": [
+                [
+                  "Guns"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                3.29,
+                5.94
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "{} were invented by the Italians.",
+              "gaps": [
+                [
+                  "Glasses"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                16.16,
+                18.7
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{} was invented by two French brothers.",
+              "gaps": [
+                [
+                  "The hot-air balloon",
+                  "The hot air balloon",
+                  "Hot-air balloon"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                30.38,
+                33.46
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{} were invented by an English teacher.",
+              "gaps": [
+                [
+                  "Stamps"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                47.93,
+                52.04
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{} was invented by a Belgian musician.",
+              "gaps": [
+                [
+                  "The saxophone",
+                  "Saxophone"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                62.5,
+                65.32
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "{} was invented by a Swedish scientist.",
+              "gaps": [
+                [
+                  "Dynamite"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                78.13,
+                82.87
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "{} was invented by the Swiss.",
+              "gaps": [
+                [
+                  "The wristwatch",
+                  "Wristwatch",
+                  "The watch"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                97.37,
+                100.4
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "{} was invented by the Americans.",
+              "gaps": [
+                [
+                  "The mobile phone",
+                  "Mobile phone"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                114.9,
+                118.42
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "{} was invented by a Danish businessman.",
+              "gaps": [
+                [
+                  "Lego"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                137.3,
+                142.24
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "{} were invented by a Dutch company.",
+              "gaps": [
+                [
+                  "CDs"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                153.89,
+                157.76
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10C-sb2d",
+          "origin": "SB",
+          "instruction": "Make five true sentences using the words in the chart",
+          "note": "SB 2d; таблица (подлежащее / глагол / окончание) → Rewrite: из слов собрать верное предложение. Glasses were invented in about 1286 — пример. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "The first stamp / was called / …",
+              "answers": [
+                "The first stamp was called the Penny Black."
+              ],
+              "hint": "(after the inventor of dynamite / by Adolphe Sax / the Penny Black / every year)",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "Twenty billion pieces of Lego / are produced / …",
+              "answers": [
+                "Twenty billion pieces of Lego are produced every year."
+              ],
+              "hint": "(after the inventor of dynamite / by Adolphe Sax / the Penny Black / every year)",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "The saxophone / was invented / …",
+              "answers": [
+                "The saxophone was invented by Adolphe Sax."
+              ],
+              "hint": "(after the inventor of dynamite / by Adolphe Sax / the Penny Black / every year)",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "The Nobel Prize / is named / …",
+              "answers": [
+                "The Nobel Prize is named after the inventor of dynamite."
+              ],
+              "hint": "(after the inventor of dynamite / by Adolphe Sax / the Penny Black / every year)",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10C-sb2e",
+          "origin": "SB",
+          "instruction": "a The Swiss invented the watch. b The watch was invented by the Swiss. Answer the questions",
+          "note": "SB 2e; MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Do the sentences mean the same thing? {}",
+              "gaps": [
+                [
+                  "yes",
+                  "Yes, they do"
+                ]
+              ],
+              "hint": "(yes / no)",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "In which sentence is the focus more on the watch? {}",
+              "gaps": [
+                [
+                  "b"
+                ]
+              ],
+              "hint": "(a / b)",
+              "source": "MODEL",
+              "explain": "The passive sentence puts the watch first."
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "In which sentence is the focus more on the Swiss? {}",
+              "gaps": [
+                [
+                  "a"
+                ]
+              ],
+              "hint": "(a / b)",
+              "source": "MODEL",
+              "explain": "The active sentence puts the Swiss first."
+            }
+          ]
+        },
+        {
+          "id": "10C-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete with the present or past passive",
+          "note": "GB 10C a; The Eiffel Tower was completed in 1889 — пример. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Many of the things we use every day {} by women.",
+              "gaps": [
+                [
+                  "were invented",
+                  "are invented",
+                  "have been invented"
+                ]
+              ],
+              "hint": "(invent)",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "In the UK most children {} in state schools.",
+              "gaps": [
+                [
+                  "are educated"
+                ]
+              ],
+              "hint": "(educate)",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "DNA {} by Watson and Crick in 1953.",
+              "gaps": [
+                [
+                  "was discovered"
+                ]
+              ],
+              "hint": "(discover)",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "This morning I {} by the neighbour’s dog.",
+              "gaps": [
+                [
+                  "was woken up"
+                ]
+              ],
+              "hint": "(wake up)",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Cricket {} in the summer in the UK.",
+              "gaps": [
+                [
+                  "is played"
+                ]
+              ],
+              "hint": "(play)",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "The songs on this album {} last year.",
+              "gaps": [
+                [
+                  "were written"
+                ]
+              ],
+              "hint": "(write)",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Millions of toys {} in China every year.",
+              "gaps": [
+                [
+                  "are made"
+                ]
+              ],
+              "hint": "(make)",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Carols are songs which {} at Christmas.",
+              "gaps": [
+                [
+                  "are sung"
+                ]
+              ],
+              "hint": "(sing)",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "These birds {} in northern Europe.",
+              "gaps": [
+                [
+                  "aren't usually seen",
+                  "are not usually seen"
+                ]
+              ],
+              "hint": "(not usually see)",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "The London Eye {} on 31 December 1999 to celebrate the new millennium.",
+              "gaps": [
+                [
+                  "was opened"
+                ]
+              ],
+              "hint": "(open)",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10C-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Rewrite the sentences in the passive, beginning with the words in brackets",
+          "note": "GB 10C b; выделенные слова даны в скобках; Hamlet was written by Shakespeare in 1603 — пример. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "Christopher Wren designed St Paul’s Cathedral. (St Paul’s Cathedral)",
+              "answers": [
+                "St Paul's Cathedral was designed by Christopher Wren."
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "A small Italian company produces this olive oil. (this olive oil)",
+              "answers": [
+                "This olive oil is produced by a small Italian company."
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "The Russians discovered Antarctica in 1820. (Antarctica)",
+              "answers": [
+                "Antarctica was discovered by the Russians in 1820.",
+                "Antarctica was discovered in 1820 by the Russians."
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "Spielberg didn’t direct the Star Wars films. (the Star Wars films)",
+              "answers": [
+                "The Star Wars films weren't directed by Spielberg.",
+                "The Star Wars films were not directed by Spielberg."
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "Van Gogh painted Sunflowers in 1888. (Sunflowers)",
+              "answers": [
+                "Sunflowers was painted by Van Gogh in 1888.",
+                "Sunflowers was painted in 1888 by Van Gogh."
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "The Chinese didn’t invent glass. (glass)",
+              "answers": [
+                "Glass wasn't invented by the Chinese.",
+                "Glass was not invented by the Chinese."
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "J.K. Rowling wrote the Harry Potter books. (the Harry Potter books)",
+              "answers": [
+                "The Harry Potter books were written by J.K. Rowling."
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prompt": "They make Skoda cars in the Czech Republic. (Skoda cars)",
+              "answers": [
+                "Skoda cars are made in the Czech Republic."
+              ],
+              "source": "MODEL",
+              "explain": "We don’t need by them – it isn’t important who makes them."
+            }
+          ]
+        },
+        {
+          "id": "10C-sb3a",
+          "origin": "SB",
+          "instruction": "Passives quiz A. Complete the sentences with the verb in the passive and choose the correct answer",
+          "note": "SB 3 + Communication Passives quiz A p.106 (ответы — в «A’s answers» на p.111); варианты a/b/c в hint → Blank: глагол + ответ. CONFIRMED",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Until 1664 New York {} {}.",
+              "gaps": [
+                [
+                  "was called"
+                ],
+                [
+                  "New Amsterdam"
+                ]
+              ],
+              "hint": "(call) (New Amsterdam / New Hampshire / New Liberty)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The Lord of the Rings films {} by {}.",
+              "gaps": [
+                [
+                  "were directed"
+                ],
+                [
+                  "Peter Jackson"
+                ]
+              ],
+              "hint": "(direct) (Ridley Scott / James Cameron / Peter Jackson)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "The noun which {} most frequently in conversation is {}.",
+              "gaps": [
+                [
+                  "is used"
+                ],
+                [
+                  "time"
+                ]
+              ],
+              "hint": "(use) (money / time / work)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Penguins {} {}.",
+              "gaps": [
+                [
+                  "are found"
+                ],
+                [
+                  "at the South Pole"
+                ]
+              ],
+              "hint": "(find) (at the South Pole / at the North Pole / in Alaska)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "The Italian flag {} by {}.",
+              "gaps": [
+                [
+                  "was designed"
+                ],
+                [
+                  "Napoleon"
+                ]
+              ],
+              "hint": "(design) (Garibaldi / Mussolini / Napoleon)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "The first mobile phones {} in {}.",
+              "gaps": [
+                [
+                  "were sold"
+                ],
+                [
+                  "1983"
+                ]
+              ],
+              "hint": "(sell) (1963 / 1973 / 1983)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "The British politician Winston Churchill {} {}.",
+              "gaps": [
+                [
+                  "was born"
+                ],
+                [
+                  "in a toilet"
+                ]
+              ],
+              "hint": "(be born) (on a train / in a toilet / under a bridge)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "The Statue of Liberty {} to the United States by {}.",
+              "gaps": [
+                [
+                  "was given"
+                ],
+                [
+                  "France"
+                ]
+              ],
+              "hint": "(give) (Germany / the UK / France)",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "10C-sb3b",
+          "origin": "SB",
+          "instruction": "Passives quiz B. Complete the sentences with the verb in the passive and choose the correct answer",
+          "note": "SB 3 + Communication Passives quiz B p.111 (ответы — в «B’s answers» на p.106). В пункте 5 книга даёт the Chinese; по истории шахматы появились в Индии — принимаются оба ответа",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "The smartphone {} by {}.",
+              "gaps": [
+                [
+                  "was invented"
+                ],
+                [
+                  "IBM"
+                ]
+              ],
+              "hint": "(invent) (Apple / Nokia / IBM)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Star Wars {} by {}.",
+              "gaps": [
+                [
+                  "was created"
+                ],
+                [
+                  "George Lucas"
+                ]
+              ],
+              "hint": "(create) (George Lucas / Steven Spielberg / Stanley Kubrick)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "The book which {} most often from libraries is {}.",
+              "gaps": [
+                [
+                  "is stolen"
+                ],
+                [
+                  "The Guinness Book of Records",
+                  "the Guinness Book of Records"
+                ]
+              ],
+              "hint": "(steal) (The Bible / The Guinness Book of Records / The Lord of the Rings)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "In the world 16,000 babies {} {}.",
+              "gaps": [
+                [
+                  "are born"
+                ],
+                [
+                  "every hour"
+                ]
+              ],
+              "hint": "(be born) (every second / every hour / every day)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Chess {} by {}.",
+              "gaps": [
+                [
+                  "was invented"
+                ],
+                [
+                  "the Chinese",
+                  "the Indians"
+                ]
+              ],
+              "hint": "(invent) (the Egyptians / the Indians / the Chinese)",
+              "source": "MODEL",
+              "explain": "The book’s answer is the Chinese; most historians say chess comes from India, so both are accepted."
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "The first Skype call {} in {}.",
+              "gaps": [
+                [
+                  "was made"
+                ],
+                [
+                  "2003"
+                ]
+              ],
+              "hint": "(make) (1993 / 2003 / 2013)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Football {} first {} by {}.",
+              "gaps": [
+                [
+                  "was"
+                ],
+                [
+                  "played"
+                ],
+                [
+                  "the British"
+                ]
+              ],
+              "hint": "(play) (the British / the Romans / the Greeks)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "In 1962 the original London Bridge {} by {}.",
+              "gaps": [
+                [
+                  "was bought"
+                ],
+                [
+                  "a rich American"
+                ]
+              ],
+              "hint": "(buy) (a rich American / a museum / the Royal family)",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "10C-wb3a",
+          "origin": "WB",
+          "instruction": "Choose the correct words",
+          "note": "WB 3a «Circle the correct words» → Blank, варианты в hint; 1 was discovered — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Today most of the food we eat {} in supermarkets.",
+              "gaps": [
+                [
+                  "is bought"
+                ]
+              ],
+              "hint": "(is bought / bought)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Spanish {} widely in North and South America.",
+              "gaps": [
+                [
+                  "is spoken"
+                ]
+              ],
+              "hint": "(speaks / is spoken)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "The Indian film industry {} Bollywood, and they {} lots of films every year.",
+              "gaps": [
+                [
+                  "is called"
+                ],
+                [
+                  "make"
+                ]
+              ],
+              "hint": "(calls / is called; make / are made)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "When {} and who {} them?",
+              "gaps": [
+                [
+                  "were the Pyramids built"
+                ],
+                [
+                  "built"
+                ]
+              ],
+              "hint": "(were the Pyramids built / built the Pyramids; built / was built)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "My grandfather {} me this lovely old watch.",
+              "gaps": [
+                [
+                  "gave"
+                ]
+              ],
+              "hint": "(gave / was given)"
+            }
+          ]
+        },
+        {
+          "id": "10C-wb3b",
+          "origin": "WB",
+          "instruction": "Write sentences and questions in the present or past passive",
+          "note": "WB 3b; 1 What’s your new baby called? — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "contact lenses / invent / a Czech chemist",
+              "answers": [
+                "Contact lenses were invented by a Czech chemist."
+              ]
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "where / olives / grow?",
+              "answers": [
+                "Where are olives grown?"
+              ]
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "the VW Beetle / design / in the 1930s",
+              "answers": [
+                "The VW Beetle was designed in the 1930s."
+              ]
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "diamonds / find / in many different colours",
+              "answers": [
+                "Diamonds are found in many different colours."
+              ]
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "when / vitamins / discover?",
+              "answers": [
+                "When were vitamins discovered?"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10C-wb3c",
+          "origin": "WB",
+          "instruction": "Complete the conversations with a verb from the list in the correct present or past passive form",
+          "note": "WB 3c; 1 Were you born — пример, be born убрано",
+          "words": [
+            "build",
+            "grow",
+            "invent",
+            "make"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "A Are these cars 100% British? B No, the engines {} in Japan.",
+              "gaps": [
+                [
+                  "were made",
+                  "are made"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "A Does tea come from China? B Some of it does, but it {} in India and some other countries, too.",
+              "gaps": [
+                [
+                  "is grown"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "A Is the Tower of London very old? B Yes, the oldest part {} in 1078.",
+              "gaps": [
+                [
+                  "was built"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "A Who invented the ballpoint pen? B It {} by a Hungarian called László Bíró.",
+              "gaps": [
+                [
+                  "was invented"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10C-wb3d",
+          "origin": "WB",
+          "instruction": "Write sentences about the inventions",
+          "note": "WB 3d; фото WB p.73 (tools/images.py, WB_CROPS); 1 The first electric battery was made by Alessandro Volta in 1800 — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "The first photograph: take / Joseph Niépce / 1826",
+              "answers": [
+                "The first photograph was taken by Joseph Niépce in 1826.",
+                "The first photograph was taken by Joseph Niepce in 1826."
+              ],
+              "image": "10c_wb3d_2"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "The first car: drive / Karl Benz / 1886",
+              "answers": [
+                "The first car was driven by Karl Benz in 1886."
+              ],
+              "image": "10c_wb3d_3"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "The first X-ray: take / Wilhelm Röntgen / 1895",
+              "answers": [
+                "The first X-ray was taken by Wilhelm Röntgen in 1895.",
+                "The first X-ray was taken by Wilhelm Rontgen in 1895.",
+                "The first X-ray was taken by Wilhelm Roentgen in 1895."
+              ],
+              "image": "10c_wb3d_4"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "The first aeroplane: fly / the Wright brothers / 1903",
+              "answers": [
+                "The first aeroplane was flown by the Wright brothers in 1903."
+              ],
+              "image": "10c_wb3d_5"
+            }
+          ]
+        },
+        {
+          "id": "10C-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete with the present or past passive of the verb in brackets.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "English {} all over the world.",
+              "gaps": [
+                [
+                  "is spoken"
+                ]
+              ],
+              "hint": "(speak)",
+              "explain": "Present passive: is + past participle (spoken).",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The Mona Lisa {} by Leonardo da Vinci.",
+              "gaps": [
+                [
+                  "was painted"
+                ]
+              ],
+              "hint": "(paint)",
+              "explain": "Past passive: was + painted.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "These phones {} in Korea.",
+              "gaps": [
+                [
+                  "are made"
+                ]
+              ],
+              "hint": "(make)",
+              "explain": "Present passive, plural: are made.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "My bike {} last night.",
+              "gaps": [
+                [
+                  "was stolen"
+                ]
+              ],
+              "hint": "(steal)",
+              "explain": "Past passive: was stolen (steal – stole – stolen).",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "The first Harry Potter book {} in 1997.",
+              "gaps": [
+                [
+                  "was published"
+                ]
+              ],
+              "hint": "(publish)",
+              "explain": "Past passive: was published.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "{} coffee {} in Brazil?",
+              "gaps": [
+                [
+                  "Is"
+                ],
+                [
+                  "grown"
+                ]
+              ],
+              "hint": "(grow)",
+              "explain": "Present passive question: Is + subject + past participle.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "The tickets {} yet – you can still buy one.",
+              "gaps": [
+                [
+                  "aren't sold",
+                  "haven't been sold",
+                  "are not sold"
+                ]
+              ],
+              "hint": "(not sell)",
+              "explain": "Negative: aren’t + past participle.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "When {} the Eiffel Tower {}?",
+              "gaps": [
+                [
+                  "was"
+                ],
+                [
+                  "built"
+                ]
+              ],
+              "hint": "(build)",
+              "explain": "Past passive question: was + subject + built.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "The windows {} every week.",
+              "gaps": [
+                [
+                  "are cleaned"
+                ]
+              ],
+              "hint": "(clean)",
+              "explain": "Present passive: are cleaned.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "Penicillin {} by Alexander Fleming.",
+              "gaps": [
+                [
+                  "was discovered"
+                ]
+              ],
+              "hint": "(discover)",
+              "explain": "Past passive + by.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10C-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Rewrite the sentence in the passive.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "Tolkien wrote The Hobbit.",
+              "answers": [
+                "The Hobbit was written by Tolkien."
+              ],
+              "explain": "Object becomes subject; was + written + by.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "They grow rice in China.",
+              "answers": [
+                "Rice is grown in China."
+              ],
+              "explain": "No by them – who grows it isn’t important.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Bell invented the telephone.",
+              "answers": [
+                "The telephone was invented by Bell."
+              ],
+              "explain": "was invented by Bell.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "Millions of people watch the World Cup.",
+              "answers": [
+                "The World Cup is watched by millions of people."
+              ],
+              "explain": "Present passive: is watched by.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "They didn’t build this house in 1900.",
+              "answers": [
+                "This house wasn't built in 1900.",
+                "This house was not built in 1900."
+              ],
+              "explain": "Negative past passive: wasn’t built.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "Someone stole my wallet.",
+              "answers": [
+                "My wallet was stolen."
+              ],
+              "explain": "Who did it isn’t known – no by.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "They speak French in Quebec.",
+              "answers": [
+                "French is spoken in Quebec."
+              ],
+              "explain": "is spoken – no by them.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prompt": "Picasso painted Guernica in 1937.",
+              "answers": [
+                "Guernica was painted by Picasso in 1937.",
+                "Guernica was painted in 1937 by Picasso."
+              ],
+              "explain": "was painted by Picasso.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "rewrite",
+              "prompt": "Do they make these cars in Germany?",
+              "answers": [
+                "Are these cars made in Germany?"
+              ],
+              "explain": "Passive question: Are + subject + made.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "rewrite",
+              "prompt": "The Beatles recorded this song in 1965.",
+              "answers": [
+                "This song was recorded by the Beatles in 1965.",
+                "This song was recorded by The Beatles in 1965."
+              ],
+              "explain": "was recorded by.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10C-skills",
+      "kind": "SKILLS",
+      "title": "Listening & Speaking",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Talking about inventions",
+          "text": "… was invented by … in … . I think the most important invention is … because … . I could live without … , but I couldn’t live without … ."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "10C-sb2c",
+          "origin": "SB",
+          "instruction": "Listen again. Write down one other piece of information about each invention",
+          "note": "SB 2c → Blank по деталям из аудио 10.13 (скрипта в SB нет — по расшифровке)",
+          "audio": "10.13",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Guns: the oldest gun that still exists today was made in about {}.",
+              "gaps": [
+                [
+                  "1280"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                9.97,
+                14.48
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Glasses: sunglasses were invented even earlier, in the {} century.",
+              "gaps": [
+                [
+                  "12th",
+                  "twelfth"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                20.89,
+                25.15
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "The hot-air balloon: the first flight with people was in {}, and the balloon flew three kilometres over {}.",
+              "gaps": [
+                [
+                  "1783"
+                ],
+                [
+                  "Paris"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                35.64,
+                43.37
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Stamps: the first stamp was called the {}, and it showed the head of the young Queen {}.",
+              "gaps": [
+                [
+                  "Penny Black"
+                ],
+                [
+                  "Victoria"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                52.43,
+                60.12
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "The saxophone: saxophones were first used mainly in {} bands.",
+              "gaps": [
+                [
+                  "military"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                69.76,
+                76.65
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Dynamite: it was invented by Alfred Nobel, and the {} is named after him.",
+              "gaps": [
+                [
+                  "Nobel Prize",
+                  "Nobel prize"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                78.13,
+                85.85
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "The wristwatch: the first one was made for a Hungarian {} in 1868.",
+              "gaps": [
+                [
+                  "Countess"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                100.4,
+                106.64
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "The mobile phone: the first mobile phone call was made in {}, and the phone weighed {} kg.",
+              "gaps": [
+                [
+                  "1973"
+                ],
+                [
+                  "1.1",
+                  "1,1"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                122.58,
+                135.83
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Lego: the name comes from a Danish phrase which means ‘{}’.",
+              "gaps": [
+                [
+                  "play well"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                142.25,
+                147.97
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "CDs: they were designed to play {} minutes of music – the length of Beethoven’s 9th symphony.",
+              "gaps": [
+                [
+                  "74"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                160.93,
+                168.04
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10C-sb4a",
+          "origin": "SB",
+          "instruction": "Look at the photos. Which six things do you think were invented by women? Write yes or no",
+          "note": "SB 4a; фото SB p.83 (tools/images.py). Ответы — по видео Invented by women (в приложении видео нет; 4b–c не перенесены). MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "a dishwasher: {}",
+              "gaps": [
+                [
+                  "yes"
+                ]
+              ],
+              "hint": "(yes / no)",
+              "image": "10c_sb4a_1",
+              "explain": "Josephine Cochrane invented the dishwasher.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "disposable nappies: {}",
+              "gaps": [
+                [
+                  "yes"
+                ]
+              ],
+              "hint": "(yes / no)",
+              "image": "10c_sb4a_2",
+              "explain": "Marion Donovan invented the waterproof nappy.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "windscreen wipers: {}",
+              "gaps": [
+                [
+                  "yes"
+                ]
+              ],
+              "hint": "(yes / no)",
+              "image": "10c_sb4a_3",
+              "explain": "Mary Anderson invented windscreen wipers.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "lipstick: {}",
+              "gaps": [
+                [
+                  "no"
+                ]
+              ],
+              "hint": "(yes / no)",
+              "image": "10c_sb4a_4",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "a life raft: {}",
+              "gaps": [
+                [
+                  "yes"
+                ]
+              ],
+              "hint": "(yes / no)",
+              "image": "10c_sb4a_5",
+              "explain": "Maria Beasley invented an improved life raft.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "a solar-heated house: {}",
+              "gaps": [
+                [
+                  "yes"
+                ]
+              ],
+              "hint": "(yes / no)",
+              "image": "10c_sb4a_6",
+              "explain": "Mária Telkes designed the first solar-heated house in 1948.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "a washing machine: {}",
+              "gaps": [
+                [
+                  "no"
+                ]
+              ],
+              "hint": "(yes / no)",
+              "image": "10c_sb4a_7",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "a home security system: {}",
+              "gaps": [
+                [
+                  "yes"
+                ]
+              ],
+              "hint": "(yes / no)",
+              "image": "10c_sb4a_8",
+              "explain": "Marie Van Brittan Brown invented a home security system.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "leg hair removal: {}",
+              "gaps": [
+                [
+                  "no"
+                ]
+              ],
+              "hint": "(yes / no)",
+              "image": "10c_sb4a_9",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10C-sb4d",
+          "origin": "SB",
+          "instruction": "Talk about the inventions in this lesson",
+          "note": "SB 4d → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You have both studied these inventions: guns, glasses, the hot-air balloon, stamps, the saxophone, dynamite, the wristwatch, the mobile phone, Lego, CDs, the dishwasher, nappies, windscreen wipers, the life raft, the solar-heated house and the home security system. Ask: Which three of these inventions do you think are the most important? Why? Which ones could you live without? Do you know who invented them or where they were invented? Ask follow-up questions and give your own opinion too: for you, the mobile phone, glasses and the dishwasher are the most important, and you could live without Lego and CDs. Use the passive naturally in your answers (was invented by…) and gently repeat the correct form if the student makes a mistake with the passive.",
+              "goal": "Choose the three most important inventions and explain why.",
+              "opener": "Which three inventions from this lesson do you think are the most important?",
+              "criteria": [
+                "names three important inventions and gives reasons",
+                "says which inventions they could live without",
+                "uses the passive correctly (was invented by / in…)",
+                "uses nationality words correctly (the Chinese, the Swiss…)"
+              ],
+              "steps": [
+                {
+                  "text": "Name the three most important inventions",
+                  "example": "I think the most important are glasses, the mobile phone and the dishwasher."
+                },
+                {
+                  "text": "Say why",
+                  "example": "Glasses are important because millions of people can’t see well without them."
+                },
+                {
+                  "text": "Say who invented one of them",
+                  "example": "Glasses were invented by the Italians in the 13th century."
+                },
+                {
+                  "text": "Say which ones you could live without",
+                  "example": "I could live without Lego and CDs."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10C-review",
+      "kind": "REVIEW",
+      "title": "Revise and Check 9&10",
+      "reference": [
+        {
+          "type": "note",
+          "title": "File 9",
+          "text": "Second conditional: if + past simple, would / wouldn’t + infinitive for imaginary situations: If a bear attacked me, I’d run away. If I were you, I wouldn’t buy it. Present perfect + for / since to say how long: I’ve lived here for ten years / since 2015. How long have you had this car? Present perfect or past simple: I was married for 15 years (finished) – I’ve been married for 15 years (still married)."
+        },
+        {
+          "type": "note",
+          "title": "File 10",
+          "text": "Expressing movement: verb + preposition (went into, came out of, ran across, along, down, over, past, through, towards). Phrasal verbs: with some, a pronoun goes between the verb and the particle: Pick it up (not Pick up it); with others it doesn’t: look for them, look after him. The passive: am / is / are or was / were + past participle: The watch was invented by the Swiss."
+        },
+        {
+          "type": "table",
+          "title": "for or since?",
+          "headers": [
+            "for + a period of time",
+            "since + a point in time"
+          ],
+          "rows": [
+            [
+              "for three weeks",
+              "since 2015"
+            ],
+            [
+              "for a very long time",
+              "since I was ten years old"
+            ],
+            [
+              "for five years",
+              "since Monday"
+            ]
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "10C-rcg",
+          "origin": "SB",
+          "instruction": "Grammar. Complete the sentences",
+          "note": "Revise and Check 9&10 (SB p.84) Grammar «Circle a, b, or c» → Blank, варианты в hint. Ключа нет — MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "If I {} a snake, I’d be terrified.",
+              "gaps": [
+                [
+                  "saw"
+                ]
+              ],
+              "hint": "(see / saw / would see)",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "What {} if a large dog attacked you?",
+              "gaps": [
+                [
+                  "would you do"
+                ]
+              ],
+              "hint": "(will you do / would you do / did you do)",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I {} that bike if I were you.",
+              "gaps": [
+                [
+                  "wouldn't buy",
+                  "would not buy"
+                ]
+              ],
+              "hint": "(won’t buy / didn’t buy / wouldn’t buy)",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I {} in this house since I was 12.",
+              "gaps": [
+                [
+                  "have lived",
+                  "'ve lived"
+                ]
+              ],
+              "hint": "(live / am living / have lived)",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "We haven’t seen my uncle {} a long time.",
+              "gaps": [
+                [
+                  "for"
+                ]
+              ],
+              "hint": "(for / since / from)",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "{} have you had this car?",
+              "gaps": [
+                [
+                  "How long"
+                ]
+              ],
+              "hint": "(How long / How much time / When)",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "I {} married for 15 years. I got divorced in 2017.",
+              "gaps": [
+                [
+                  "was"
+                ]
+              ],
+              "hint": "(have been / am / was)",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "When {} Queen Victoria die?",
+              "gaps": [
+                [
+                  "did"
+                ]
+              ],
+              "hint": "(has / did / was)",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "The golf ball {} the hole.",
+              "gaps": [
+                [
+                  "went into"
+                ]
+              ],
+              "hint": "(went into / went in / went inside)",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "The door opened and two men {}.",
+              "gaps": [
+                [
+                  "came out"
+                ]
+              ],
+              "hint": "(came out / came out of / came off)",
+              "source": "MODEL"
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "Your phone’s on the floor. {}!",
+              "gaps": [
+                [
+                  "Pick it up"
+                ]
+              ],
+              "hint": "(Pick up it / Pick it up / Pick up)",
+              "source": "MODEL"
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "I’ve lost my keys. Can you help me {}?",
+              "gaps": [
+                [
+                  "look for them"
+                ]
+              ],
+              "hint": "(look for them / look them for / look for)",
+              "source": "MODEL"
+            },
+            {
+              "n": 13,
+              "type": "blank",
+              "text": "The first book in the series was {} ten years ago.",
+              "gaps": [
+                [
+                  "written"
+                ]
+              ],
+              "hint": "(write / wrote / written)",
+              "source": "MODEL"
+            },
+            {
+              "n": 14,
+              "type": "blank",
+              "text": "The watch {} in the nineteenth century.",
+              "gaps": [
+                [
+                  "was invented"
+                ]
+              ],
+              "hint": "(invented / is invented / was invented)",
+              "source": "MODEL"
+            },
+            {
+              "n": 15,
+              "type": "blank",
+              "text": "The Milkmaid was painted {} Vermeer.",
+              "gaps": [
+                [
+                  "by"
+                ]
+              ],
+              "hint": "(from / by / for)",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10C-rcva",
+          "origin": "SB",
+          "instruction": "Which word is different? Write it",
+          "note": "Revise and Check 9&10 Vocabulary a «Circle the word that is different» → Blank; MODEL. В 4 ключа нет: retire — единственное не про брак",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "butterfly, goat, fly, mosquito: {}",
+              "gaps": [
+                [
+                  "goat"
+                ]
+              ],
+              "explain": "The others are insects.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "pig, sheep, cow, lion: {}",
+              "gaps": [
+                [
+                  "lion"
+                ]
+              ],
+              "explain": "The others are farm animals.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "spider, shark, jellyfish, whale: {}",
+              "gaps": [
+                [
+                  "spider"
+                ]
+              ],
+              "explain": "The others live in the sea.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "marry, separate, divorce, retire: {}",
+              "gaps": [
+                [
+                  "retire"
+                ]
+              ],
+              "explain": "The others are about marriage; retire is about work.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "basketball, cycling, rugby, volleyball: {}",
+              "gaps": [
+                [
+                  "cycling"
+                ]
+              ],
+              "explain": "The others are team ball games.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10C-rcvb",
+          "origin": "SB",
+          "instruction": "Write for or since",
+          "note": "Revise and Check 9&10 Vocabulary b; MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "{} three weeks",
+              "gaps": [
+                [
+                  "for"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "{} a very long time",
+              "gaps": [
+                [
+                  "for"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{} 2015",
+              "gaps": [
+                [
+                  "since"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{} I was ten years old",
+              "gaps": [
+                [
+                  "since"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{} five years",
+              "gaps": [
+                [
+                  "for"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10C-rcvc",
+          "origin": "SB",
+          "instruction": "Complete the sentences with a word from the list",
+          "note": "Revise and Check 9&10 Vocabulary c; MODEL",
+          "words": [
+            "along",
+            "down",
+            "forward",
+            "into",
+            "off",
+            "out",
+            "past",
+            "through",
+            "towards",
+            "up"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "We drove {} a lot of tunnels on our way to St Moritz.",
+              "gaps": [
+                [
+                  "through"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "When it started to rain, we went {} a café to wait until it stopped.",
+              "gaps": [
+                [
+                  "into"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "She walked {} the street, looking in the shop windows.",
+              "gaps": [
+                [
+                  "along",
+                  "down"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "When the cow started running {} me, I was terrified.",
+              "gaps": [
+                [
+                  "towards"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Go {} the petrol station, and it’s the next turning on the right.",
+              "gaps": [
+                [
+                  "past"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "You have to take {} your shoes before going into the temple.",
+              "gaps": [
+                [
+                  "off"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "If you don’t know the meaning of a word, look it {}.",
+              "gaps": [
+                [
+                  "up"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Can you turn the heating {}? It’s very hot in here.",
+              "gaps": [
+                [
+                  "down"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "She’s looking {} to her holiday.",
+              "gaps": [
+                [
+                  "forward"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "Can you find {} what time the film finishes?",
+              "gaps": [
+                [
+                  "out"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10C-rcvd",
+          "origin": "SB",
+          "instruction": "Complete with the nationality word",
+          "note": "Revise and Check 9&10 Vocabulary d; MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "The {} are very good at judo.",
+              "gaps": [
+                [
+                  "Japanese"
+                ]
+              ],
+              "hint": "(Japan)",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "There are three {} students in my class.",
+              "gaps": [
+                [
+                  "French"
+                ]
+              ],
+              "hint": "(France)",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I’d love to have a {} watch.",
+              "gaps": [
+                [
+                  "Swiss"
+                ]
+              ],
+              "hint": "(Switzerland)",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Some {} speak French, and some speak Dutch.",
+              "gaps": [
+                [
+                  "Belgians"
+                ]
+              ],
+              "hint": "(Belgium)",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "We met a really friendly {} couple.",
+              "gaps": [
+                [
+                  "Spanish"
+                ]
+              ],
+              "hint": "(Spain)",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10C-rcpa",
+          "origin": "SB",
+          "instruction": "Pronunciation. Practise the words and sounds",
+          "note": "Revise and Check 9&10 Pronunciation a → Speak слов-звуков (трека нет, образец — синтезатор); b (Sound Bank) не перенесено",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "horse"
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "bird"
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "shower"
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "chess"
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "jazz"
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "television"
+            }
+          ]
+        },
+        {
+          "id": "10C-rcpc",
+          "origin": "SB",
+          "instruction": "What sound do the pink letters have?",
+          "note": "Revise and Check 9&10 Pronunciation c → Sort по шести звукам из a; MODEL",
+          "columns": [
+            "horse /ɔː/",
+            "bird /ɜː/",
+            "shower /ʃ/",
+            "chess /tʃ/",
+            "jazz /dʒ/",
+            "television /ʒ/"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "sort",
+              "word": "[g]iraffe",
+              "column": 5,
+              "explain": "giraffe /dʒ/ – like jazz.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "sort",
+              "word": "w[or]k",
+              "column": 2,
+              "explain": "work /ɜː/ – like bird.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "sort",
+              "word": "div[or]ce",
+              "column": 1,
+              "explain": "divorce /ɔː/ – like horse.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "sort",
+              "word": "inven[t]ion",
+              "column": 3,
+              "explain": "invention /ʃ/ – like shower.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "sort",
+              "word": "Du[tch]",
+              "column": 4,
+              "explain": "Dutch /tʃ/ – like chess.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10C-rcpd",
+          "origin": "SB",
+          "instruction": "Tap the stressed syllable",
+          "note": "Revise and Check 9&10 Pronunciation d «Underline the stressed syllable» → Stress; MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "stress",
+              "text": "bu|tter|fly",
+              "stressed": [
+                1
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "stress",
+              "text": "re|tire",
+              "stressed": [
+                2
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "stress",
+              "text": "se|con|da|ry",
+              "stressed": [
+                1
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "stress",
+              "text": "ath|le|tics",
+              "stressed": [
+                2
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "stress",
+              "text": "ka|ra|te",
+              "stressed": [
+                2
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10C-rcrb",
+          "origin": "SB",
+          "instruction": "Can you understand this text? Read the article. Who…?",
+          "note": "Revise and Check 9&10 «Can you understand this text?» b → Blank по именам; a (кто вёл себя хуже всех) — в разговоре ниже. MODEL",
+          "context": "Bad losers? The hardest lesson to learn in sport is how to lose like a true sportsperson, without blaming your defeat on others. Here are some famous moments when losing was just too hard…\n\nNelson Piquet. In the 1982 German Grand Prix, the Brazilian driver Nelson Piquet crashed into the Chilean driver Eliseo Salazar and had to leave the race. Piquet was so angry that he got out of his car, ran towards Salazar, and tried to hit and kick him.\n\nAhn Jung-Hwan and Luciano Gaucci. When South Korea beat Italy in the 2002 World Cup, the winning goal was scored by Ahn Jung-Hwan, who played for the Italian club Perugia. The club’s owner, Luciano Gaucci, was furious: ‘That gentleman will never set foot in Perugia again… I have no intention of paying a salary to somebody who has ruined Italian football.’ Gaucci later apologized, but Ahn never went back to an Italian club.\n\nJon Drummond. At the 2003 World Athletics Championships, the American sprinter Jon Drummond was disqualified for a false start. He refused to leave, lay down on the track, and cried. Later his coach said, ‘He’s still crying. We’re making him drink water because he’s becoming dehydrated.’\n\nAngel Matos. At the 2008 Beijing Olympics, the Cuban tae kwon do fighter Angel Matos was disqualified in the bronze medal match. He kicked the referee in the head and attacked a Swedish judge. He was banned for life.\n\nRobert Bauer. At the 2016 Rio Olympics, when the Brazilian crowd booed the German football team, the German player Robert Bauer showed the fans seven fingers to remind them of Germany’s 7–1 win over Brazil in the 2014 World Cup semi-final.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "{} insulted the people in the crowd.",
+              "gaps": [
+                [
+                  "Robert Bauer",
+                  "Bauer"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "{} became very emotional when he couldn’t take part.",
+              "gaps": [
+                [
+                  "Jon Drummond",
+                  "Drummond"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{} attacked two officials.",
+              "gaps": [
+                [
+                  "Angel Matos",
+                  "Matos"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{} tried to hit an opponent.",
+              "gaps": [
+                [
+                  "Nelson Piquet",
+                  "Piquet"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{} said sorry after the event.",
+              "gaps": [
+                [
+                  "Luciano Gaucci",
+                  "Gaucci"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10C-rcl",
+          "origin": "SB",
+          "instruction": "Can you understand these people? Listen and complete the sentences",
+          "note": "Revise and Check 9&10 «Can you understand these people?» 10.15 (Circle a, b, or c → Blank, варианты в hint); клип — ответ одного человека. Скрипта нет — по расшифровке",
+          "audio": "10.15",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Hope would like to see {} in the wild.",
+              "gaps": [
+                [
+                  "elephants"
+                ]
+              ],
+              "hint": "(kangaroos / crocodiles / elephants)",
+              "source": "CONFIRMED",
+              "explain": "‘Probably an elephant… I think they’re amazing.’",
+              "clip": [
+                0.27,
+                19.05
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Mairi has been frightened of spiders {}.",
+              "gaps": [
+                [
+                  "since she was five or six"
+                ]
+              ],
+              "hint": "(since she was five or six / for five or six years / since 2005 or 2006)",
+              "source": "CONFIRMED",
+              "explain": "‘Since I was about five or six.’",
+              "clip": [
+                21.25,
+                48.05
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Dave’s great aunt {}.",
+              "gaps": [
+                [
+                  "is more than a hundred years old"
+                ]
+              ],
+              "hint": "(is travelling to California / is more than a hundred years old / has had a difficult life)",
+              "source": "CONFIRMED",
+              "explain": "‘My great aunt is 104.’ She lives in California and has had a great life.",
+              "clip": [
+                50.22,
+                70.7
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Sarah {}.",
+              "gaps": [
+                [
+                  "prefers outdoor activities to indoor activities"
+                ]
+              ],
+              "hint": "(prefers running to hiking / does yoga and pilates / prefers outdoor activities to indoor activities)",
+              "source": "CONFIRMED",
+              "explain": "‘I just love being in nature and outdoors.’",
+              "clip": [
+                72.8,
+                89.64
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Kathy gets up early {}.",
+              "gaps": [
+                [
+                  "every day"
+                ]
+              ],
+              "hint": "(every day / during the week / at weekends)",
+              "source": "CONFIRMED",
+              "explain": "‘I tend to get up early even when I’m not at work.’",
+              "clip": [
+                91.23,
+                107.02
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10C-rcs",
+          "origin": "SB",
+          "instruction": "Can you say this in English? Talk about yourself",
+          "note": "Revise and Check 9&10 «Can you say this in English?» (6 пунктов «Can you…?») + «Can you understand this text?» a → один разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "A friendly revision chat in an English class (level: pre-intermediate) after Files 9 and 10. Check that the student can do these things, one by one, with short questions and reactions: 1) say what they would do if a dog attacked them, if they won the lottery, and if they had more free time; 2) say how long they have lived where they live now, had their laptop or phone, and been at their school or job; 3) tell you their life story briefly (where they were born, school, important moments); 4) say three things you have to do in some sports, using a verb and a preposition of movement (e.g. in golf you hit the ball into the hole); 5) say true sentences with take off, turn down and look after; 6) say when three things were invented or built. At the end ask which sportsperson from the article ‘Bad losers?’ (Nelson Piquet, Luciano Gaucci, Jon Drummond, Angel Matos, Robert Bauer) they think behaved the worst and why. Keep it natural, one question at a time; if the student makes a mistake with the second conditional, for / since, the present perfect, prepositions of movement, phrasal verb word order or the passive, repeat the correct form naturally in your reply.",
+              "goal": "Show what you can say after Files 9 and 10.",
+              "opener": "Hi! Let’s see what you remember from Files 9 and 10. First question: what would you do if a big dog attacked you?",
+              "criteria": [
+                "uses the second conditional correctly (If I…, I’d…)",
+                "uses the present perfect with for and since correctly",
+                "tells a life story with the past simple",
+                "uses verbs + prepositions of movement and phrasal verbs with correct word order",
+                "uses the passive to say when things were invented or built"
+              ],
+              "steps": [
+                {
+                  "text": "Say what you would do in three situations",
+                  "example": "If a dog attacked me, I’d stand still. If I won the lottery, I’d travel."
+                },
+                {
+                  "text": "Say how long you have had or done things",
+                  "example": "I’ve lived in this flat for five years. I’ve had my phone since 2023."
+                },
+                {
+                  "text": "Tell your life story",
+                  "example": "I was born in 1995. I went to school in Kazan, and I moved to Moscow in 2017."
+                },
+                {
+                  "text": "Describe three things in a sport",
+                  "example": "In football you kick the ball into the goal. In the high jump you jump over the bar."
+                },
+                {
+                  "text": "Say sentences with take off, turn down and look after",
+                  "example": "I take off my shoes at home. I look after my little brother."
+                },
+                {
+                  "text": "Say when three things were invented or built",
+                  "example": "The telephone was invented in 1876. The Eiffel Tower was built in 1889."
+                },
+                {
+                  "text": "Say who behaved worst in ‘Bad losers?’",
+                  "example": "I think Angel Matos behaved worst because he kicked the referee."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2791 @@
+{
+  "id": "10B",
+  "title": "Early birds",
+  "bubbles": [
+    "The alarm goes off at 2.35 a.m.",
+    "Do you get up then?"
+  ],
+  "sources": "SB p.80–81 (PDF 81–82), Communication p.105 / p.111 (PDF 106 / 112), Grammar Bank p.144–145 (PDF 145–146), Vocabulary Bank p.163 (PDF 164); WB p.70–71 (PDF 69–70), key WB p.93 (PDF 92)",
+  "sections": [
+    {
+      "id": "10B-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "phrasal verbs",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Phrasal verbs",
+          "text": "Wake up, get up, go out, give up, etc. are common phrasal verbs (verbs with a preposition or adverb). Sometimes the meaning of the two separate words can help you guess the meaning, e.g. go out. Sometimes it does not help you, e.g. give up."
+        },
+        {
+          "type": "table",
+          "title": "Phrasal verbs (Vocabulary Bank)",
+          "headers": [
+            "phrasal verb",
+            "example"
+          ],
+          "rows": [
+            [
+              "be over",
+              "The match will be over at about 5.30."
+            ],
+            [
+              "go off",
+              "My alarm goes off at six o’clock every morning."
+            ],
+            [
+              "set off",
+              "We set off for the airport at 6.30."
+            ],
+            [
+              "give up",
+              "I want to give up chocolate."
+            ],
+            [
+              "throw away",
+              "Don’t throw away that letter!"
+            ],
+            [
+              "turn down / turn up",
+              "Turn down the music! Turn up the TV!"
+            ],
+            [
+              "look up",
+              "He looked up the words in a dictionary."
+            ],
+            [
+              "fill in",
+              "Could you fill in this form?"
+            ],
+            [
+              "find out",
+              "I want to find out about hotels in Madrid."
+            ],
+            [
+              "put on / take off",
+              "Put on your pyjamas. Take off your boots."
+            ],
+            [
+              "look after",
+              "My sister’s looking after Jimmy for me today."
+            ],
+            [
+              "look forward to",
+              "I’m really looking forward to the holidays."
+            ]
+          ],
+          "audio": "10.5"
+        },
+        {
+          "type": "table",
+          "title": "More phrasal verbs from Files 1–10",
+          "headers": [
+            "type",
+            "phrasal verbs"
+          ],
+          "rows": [
+            [
+              "1 – no object",
+              "check in (for a flight), come on, get up, go away (for the weekend), go back (to work), go out (at night), sit down, stand up, wake up"
+            ],
+            [
+              "2 – object, separable",
+              "call back (later), drop off (somebody at the airport), give back, pay back, pick up, put away, send back, take back, take out (the rubbish), try on (clothes), turn off / turn on (the TV), write down (the words)"
+            ],
+            [
+              "3 – object, inseparable",
+              "go on (doing something), get on / off (a bus), get on with (a person), look for (something you’ve lost), look round (a shop, city, museum), run out of (petrol, printer ink)"
+            ]
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "10B-sb2a",
+          "origin": "SB",
+          "instruction": "What do the highlighted phrasal verbs mean? Write the phrasal verb for each definition",
+          "note": "SB 2a «explain what the highlighted verbs mean» → Blank: фраза Эллы/Питера и определение, вписать глагол. MODEL",
+          "words": [
+            "give up",
+            "go off",
+            "go out",
+            "get up",
+            "wake up"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "‘The alarm {} at 2.35.’ (= starts ringing)",
+              "gaps": [
+                [
+                  "goes off"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "‘I {} on time because I have an alarm that repeats.’ (= stop sleeping)",
+              "gaps": [
+                [
+                  "wake up"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "‘I {} at about 4.45.’ (= get out of bed)",
+              "gaps": [
+                [
+                  "get up"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "‘During the week we don’t {} at all.’ (= leave the house to have fun)",
+              "gaps": [
+                [
+                  "go out"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "‘I really love my breakfast show, and I never want to {} it {}.’ (= stop doing it)",
+              "gaps": [
+                [
+                  "give"
+                ],
+                [
+                  "up"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10B-sb2b",
+          "origin": "SB",
+          "instruction": "Can you think of a phrasal verb which means…?",
+          "note": "SB 2b; подсказки первыми буквами (l___ f___) по правилам убраны — вместо них глаголы-основы в hint. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "to try to find something: {}",
+              "gaps": [
+                [
+                  "look for"
+                ]
+              ],
+              "hint": "(look)",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "to put on clothes in a shop to see if they are the right size: {}",
+              "gaps": [
+                [
+                  "try on"
+                ]
+              ],
+              "hint": "(try)",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "to have a friendly relationship (with somebody): {}",
+              "gaps": [
+                [
+                  "get on",
+                  "get on with",
+                  "get along",
+                  "get along with"
+                ]
+              ],
+              "hint": "(get)",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10B-vb1a",
+          "origin": "SB",
+          "instruction": "Match the sentences and pictures. Complete the phrasal verbs. Then listen and check",
+          "note": "VB Phrasal verbs a+b; картинки VB p.163 (tools/images.py) у пункта в image. 1 Don’t throw away that letter! — пример. Ответы по аудио 10.5",
+          "audio": "10.5",
+          "words": [
+            "be over",
+            "fill in",
+            "find out",
+            "give up",
+            "goes off",
+            "looked up",
+            "looking after",
+            "looking forward",
+            "put on",
+            "set off",
+            "take off",
+            "Turn down",
+            "Turn up"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Could you {} this form?",
+              "gaps": [
+                [
+                  "fill in"
+                ]
+              ],
+              "image": "10b_vb1a_2",
+              "source": "CONFIRMED",
+              "clip": [
+                45.91,
+                48.04
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "My sister’s {} Jimmy for me today.",
+              "gaps": [
+                [
+                  "looking after"
+                ]
+              ],
+              "image": "10b_vb1a_3",
+              "source": "CONFIRMED",
+              "clip": [
+                66.41,
+                69.97
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I want to {} chocolate.",
+              "gaps": [
+                [
+                  "give up"
+                ]
+              ],
+              "image": "10b_vb1a_4",
+              "source": "CONFIRMED",
+              "clip": [
+                20.76,
+                23.35
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{} the TV! I can’t hear.",
+              "gaps": [
+                [
+                  "Turn up"
+                ]
+              ],
+              "image": "10b_vb1a_5",
+              "source": "CONFIRMED",
+              "clip": [
+                34.9,
+                39.59
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I’m really {} to the holidays.",
+              "gaps": [
+                [
+                  "looking forward"
+                ]
+              ],
+              "image": "10b_vb1a_6",
+              "source": "CONFIRMED",
+              "clip": [
+                71.73,
+                74.98
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "He {} the words in a dictionary.",
+              "gaps": [
+                [
+                  "looked up"
+                ]
+              ],
+              "image": "10b_vb1a_7",
+              "source": "CONFIRMED",
+              "clip": [
+                41.44,
+                44.12
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "It’s bedtime – go and {} your pyjamas.",
+              "gaps": [
+                [
+                  "put on"
+                ]
+              ],
+              "image": "10b_vb1a_8",
+              "source": "CONFIRMED",
+              "clip": [
+                55.2,
+                59.5
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "The match will {} at about 5.30.",
+              "gaps": [
+                [
+                  "be over"
+                ]
+              ],
+              "image": "10b_vb1a_9",
+              "source": "CONFIRMED",
+              "clip": [
+                3.11,
+                6.34
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "{} the music! It’s very loud.",
+              "gaps": [
+                [
+                  "Turn down"
+                ]
+              ],
+              "image": "10b_vb1a_10",
+              "source": "CONFIRMED",
+              "clip": [
+                29.48,
+                33.05
+              ]
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "My alarm {} at six o’clock every morning.",
+              "gaps": [
+                [
+                  "goes off"
+                ]
+              ],
+              "image": "10b_vb1a_11",
+              "source": "CONFIRMED",
+              "clip": [
+                9.16,
+                13.48
+              ]
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "Could you {} your boots, please?",
+              "gaps": [
+                [
+                  "take off"
+                ]
+              ],
+              "image": "10b_vb1a_12",
+              "source": "CONFIRMED",
+              "clip": [
+                61.19,
+                64.53
+              ]
+            },
+            {
+              "n": 13,
+              "type": "blank",
+              "text": "I want to {} about hotels in Madrid.",
+              "gaps": [
+                [
+                  "find out"
+                ]
+              ],
+              "image": "10b_vb1a_13",
+              "source": "CONFIRMED",
+              "clip": [
+                49.82,
+                53.32
+              ]
+            },
+            {
+              "n": 14,
+              "type": "blank",
+              "text": "We {} for the airport at 6.30.",
+              "gaps": [
+                [
+                  "set off"
+                ]
+              ],
+              "image": "10b_vb1a_14",
+              "source": "CONFIRMED",
+              "clip": [
+                15.21,
+                19.01
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10B-vbact",
+          "origin": "SB",
+          "instruction": "Listen and say the sentences",
+          "note": "VB ACTIVATION a «Cover the sentences and look at the pictures. Remember the phrasal verbs» → Speak по отрезкам 10.5",
+          "audio": "10.5",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "Don’t throw away that letter!",
+              "clip": [
+                25.2,
+                27.69
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "Could you fill in this form?",
+              "clip": [
+                45.91,
+                48.04
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "My sister’s looking after Jimmy for me today.",
+              "clip": [
+                66.41,
+                69.97
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "I want to give up chocolate.",
+              "clip": [
+                20.76,
+                23.35
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "Turn up the TV! I can’t hear.",
+              "clip": [
+                34.9,
+                39.59
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "I’m really looking forward to the holidays.",
+              "clip": [
+                71.73,
+                74.98
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "He looked up the words in a dictionary.",
+              "clip": [
+                41.44,
+                44.12
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "It’s bedtime – go and put on your pyjamas.",
+              "clip": [
+                55.2,
+                59.5
+              ]
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "The match will be over at about 5.30.",
+              "clip": [
+                3.11,
+                6.34
+              ]
+            },
+            {
+              "n": 10,
+              "type": "speak",
+              "text": "Turn down the music! It’s very loud.",
+              "clip": [
+                29.48,
+                33.05
+              ]
+            },
+            {
+              "n": 11,
+              "type": "speak",
+              "text": "My alarm goes off at six o’clock every morning.",
+              "clip": [
+                9.16,
+                13.48
+              ]
+            },
+            {
+              "n": 12,
+              "type": "speak",
+              "text": "Could you take off your boots, please?",
+              "clip": [
+                61.19,
+                64.53
+              ]
+            },
+            {
+              "n": 13,
+              "type": "speak",
+              "text": "I want to find out about hotels in Madrid.",
+              "clip": [
+                49.82,
+                53.32
+              ]
+            },
+            {
+              "n": 14,
+              "type": "speak",
+              "text": "We set off for the airport at 6.30.",
+              "clip": [
+                15.21,
+                19.01
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10B-wb1a",
+          "origin": "WB",
+          "instruction": "Complete what the people are saying in each picture",
+          "note": "WB 1a; картинки WB p.70 (tools/images.py, WB_CROPS); 1 Can you turn down the radio? — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Don’t worry! The match will be {} soon.",
+              "gaps": [
+                [
+                  "over"
+                ]
+              ],
+              "image": "10b_wb1a_2"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "We need someone who can look {} our dog while we’re on holiday.",
+              "gaps": [
+                [
+                  "after"
+                ]
+              ],
+              "image": "10b_wb1a_3"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Take {} your shoes before you come in!",
+              "gaps": [
+                [
+                  "off"
+                ]
+              ],
+              "image": "10b_wb1a_4"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Can you fill {} this form, please?",
+              "gaps": [
+                [
+                  "in"
+                ]
+              ],
+              "image": "10b_wb1a_5"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Why don’t you put {} a different jacket? That one looks awful!",
+              "gaps": [
+                [
+                  "on"
+                ]
+              ],
+              "image": "10b_wb1a_6"
+            }
+          ]
+        },
+        {
+          "id": "10B-wb1b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with a verb from the list",
+          "note": "WB 1b; 1 find — пример, убрано из списка",
+          "words": [
+            "get",
+            "go",
+            "look",
+            "set",
+            "take",
+            "throw",
+            "turn"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I never {} away old books, I sell them on eBay.",
+              "gaps": [
+                [
+                  "throw"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "It’s very cold in here. Can you {} up the heating?",
+              "gaps": [
+                [
+                  "turn"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Use your dictionaries to {} up the words you don’t understand.",
+              "gaps": [
+                [
+                  "look"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I don’t {} on with my boss. He thinks he’s always right.",
+              "gaps": [
+                [
+                  "get"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "They always {} off really early when they go to the airport as they don’t want to miss their flight.",
+              "gaps": [
+                [
+                  "set"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Can you wake me up if my alarm doesn’t {} off?",
+              "gaps": [
+                [
+                  "go"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "We’re going to {} back our new coffee machine because it doesn’t work properly.",
+              "gaps": [
+                [
+                  "take"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10B-wb1c",
+          "origin": "WB",
+          "instruction": "Complete the conversations with a phrasal verb from the list",
+          "note": "WB 1c; 1 don’t get on — пример, убрано из списка",
+          "words": [
+            "drop you off",
+            "give up",
+            "goes off",
+            "looking forward to it",
+            "pick you up",
+            "run out",
+            "try it on",
+            "turn it off"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "A I don’t smoke anymore. B That’s fantastic – well done. When did you {}?",
+              "gaps": [
+                [
+                  "give up"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "A Jilly is excited about our holiday! B Yes, she’s really {}.",
+              "gaps": [
+                [
+                  "looking forward to it"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "A Can you help me? I want to see if this dress fits. B Sure. You can {} in the changing room over there.",
+              "gaps": [
+                [
+                  "try it on"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "A When you go to bed, please don’t leave the TV on all night. B Don’t worry. I promise I’ll {}.",
+              "gaps": [
+                [
+                  "turn it off"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "A Our neighbour’s car alarm started in the middle of the night. B That’s really annoying. Our neighbour’s house alarm {} all the time.",
+              "gaps": [
+                [
+                  "goes off"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "A Jack’s dad can’t take me to school today. He’s ill. B Don’t worry. I can {} on my way to work and {} this afternoon.",
+              "gaps": [
+                [
+                  "drop you off"
+                ],
+                [
+                  "pick you up"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "A I’m a bit worried that we don’t have enough petrol. B It’s only 10 miles to the next petrol station – I don’t think we’ll {}.",
+              "gaps": [
+                [
+                  "run out"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10B-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the phrasal verb with the correct particle.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Please turn {} the lights when you leave the room.",
+              "gaps": [
+                [
+                  "off"
+                ]
+              ],
+              "hint": "(on / off / up)",
+              "explain": "turn off = stop a machine or light working.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I’m looking {} my keys. Have you seen them?",
+              "gaps": [
+                [
+                  "for"
+                ]
+              ],
+              "hint": "(for / after / up)",
+              "explain": "look for = try to find.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Can you look {} my cat while I’m away?",
+              "gaps": [
+                [
+                  "after"
+                ]
+              ],
+              "hint": "(for / after / up)",
+              "explain": "look after = take care of.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "It’s cold outside – put {} a warm jumper.",
+              "gaps": [
+                [
+                  "on"
+                ]
+              ],
+              "hint": "(on / off / in)",
+              "explain": "put on = start wearing clothes.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "We need to find {} what time the train leaves.",
+              "gaps": [
+                [
+                  "out"
+                ]
+              ],
+              "hint": "(out / up / over)",
+              "explain": "find out = get information.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "She gave {} smoking last year.",
+              "gaps": [
+                [
+                  "up"
+                ]
+              ],
+              "hint": "(up / back / away)",
+              "explain": "give up = stop doing something.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "I can’t hear the music. Can you turn it {}?",
+              "gaps": [
+                [
+                  "up"
+                ]
+              ],
+              "hint": "(up / down / off)",
+              "explain": "turn up = make louder.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "The film was {} at midnight, so we got home late.",
+              "gaps": [
+                [
+                  "over"
+                ]
+              ],
+              "hint": "(over / off / out)",
+              "explain": "be over = finish.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Don’t throw {} those boxes – we can use them again.",
+              "gaps": [
+                [
+                  "away"
+                ]
+              ],
+              "hint": "(away / off / out)",
+              "explain": "throw away = put in the rubbish.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "We set {} at 5 a.m. to avoid the traffic.",
+              "gaps": [
+                [
+                  "off"
+                ]
+              ],
+              "hint": "(off / up / out)",
+              "explain": "set off = start a journey.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10B-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete with a phrasal verb from the list in the correct form.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I’m really {} to seeing you next week!",
+              "gaps": [
+                [
+                  "looking forward"
+                ]
+              ],
+              "hint": "(look forward / look up / fill in)",
+              "explain": "look forward to + -ing = feel happy about something in the future.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "If you don’t know a word, {} it {} in a dictionary.",
+              "gaps": [
+                [
+                  "look"
+                ],
+                [
+                  "up"
+                ]
+              ],
+              "hint": "(look up / take off / go off)",
+              "explain": "look up = find information in a dictionary or online.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Please {} this form and give it to the receptionist.",
+              "gaps": [
+                [
+                  "fill in"
+                ]
+              ],
+              "hint": "(fill in / turn down / try on)",
+              "explain": "fill in = complete a form.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "My alarm didn’t {} this morning, so I was late.",
+              "gaps": [
+                [
+                  "go off"
+                ]
+              ],
+              "hint": "(go off / get on / give up)",
+              "explain": "go off = start ringing (an alarm).",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "The music is too loud. Can you {} it {}?",
+              "gaps": [
+                [
+                  "turn"
+                ],
+                [
+                  "down"
+                ]
+              ],
+              "hint": "(turn down / look after / set off)",
+              "explain": "turn down = make quieter; pronoun between verb and particle.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "You can {} your coat – it’s warm in here.",
+              "gaps": [
+                [
+                  "take off"
+                ]
+              ],
+              "hint": "(take off / put on / be over)",
+              "explain": "take off = remove clothes.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Can I {} these jeans before I buy them?",
+              "gaps": [
+                [
+                  "try on"
+                ]
+              ],
+              "hint": "(try on / throw away / find out)",
+              "explain": "try on = put on clothes in a shop to see if they fit.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Do you {} well with your brother?",
+              "gaps": [
+                [
+                  "get on"
+                ]
+              ],
+              "hint": "(get on / go out / wake up)",
+              "explain": "get on (with) = have a friendly relationship.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "We usually {} on Friday night – to a restaurant or the cinema.",
+              "gaps": [
+                [
+                  "go out"
+                ]
+              ],
+              "hint": "(go out / get up / set off)",
+              "explain": "go out = leave home to have fun.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "I can’t {} early at the weekend. I stay in bed until ten.",
+              "gaps": [
+                [
+                  "get up"
+                ]
+              ],
+              "hint": "(get up / give up / look up)",
+              "explain": "get up = get out of bed.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10B-grammar",
+      "kind": "GRAMMAR",
+      "title": "word order of phrasal verbs",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Three types of phrasal verbs",
+          "headers": [
+            "type",
+            "rule",
+            "example"
+          ],
+          "rows": [
+            [
+              "1 no object",
+              "verb + particle together",
+              "What time do you get up? I don’t usually go out during the week."
+            ],
+            [
+              "2 object, separable",
+              "noun: before or after the particle; pronoun: always between",
+              "Put on your coat. Put your coat on. Put it on!"
+            ],
+            [
+              "3 object, inseparable",
+              "verb + particle never separated",
+              "I’m looking for my glasses. I’m still looking for them."
+            ]
+          ],
+          "audio": "10.6"
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "A phrasal verb = verb + particle (preposition or adverb), e.g. get up, go out, turn on, look for. When the object is a pronoun (me, it, him, them…) it always goes between the verb and the particle: Here’s your coat. Put it on."
+        },
+        {
+          "type": "mistake",
+          "wrong": "Here’s your coat. Put on it.",
+          "right": "Here’s your coat. Put it on.",
+          "why": "With separable phrasal verbs, a pronoun goes between the verb and the particle."
+        },
+        {
+          "type": "mistake",
+          "wrong": "I’m looking my glasses for.",
+          "right": "I’m looking for my glasses.",
+          "why": "look for is inseparable – verb and particle stay together."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "10B-sb2e",
+          "origin": "SB",
+          "instruction": "Complete the rules about separable phrasal verbs with noun or pronoun",
+          "note": "SB 2d+e; фото с будильником (Turn off the alarm clock / Turn the alarm clock off / Turn it off) — в тексте пункта 1. MODEL",
+          "words": [
+            "noun",
+            "pronoun"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Turn off the alarm clock. Turn the alarm clock off. If the object of a phrasal verb is a {}, you can put it after the verb + up, on, etc. OR between the verb + up, on, etc.",
+              "gaps": [
+                [
+                  "noun"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Turn it off. If the object of a phrasal verb is a {}, you must put it between the verb + up, on, etc.",
+              "gaps": [
+                [
+                  "pronoun"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10B-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Write the correct form. If both are correct, write either",
+          "note": "GB 10B a «Circle the correct form. If both are correct, tick the box» → Blank, варианты в hint; если верны оба — принимаются оба. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Tonight I have to {}.",
+              "gaps": [
+                [
+                  "look after my little sister"
+                ]
+              ],
+              "hint": "(look my little sister after / look after my little sister)",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Let’s {}.",
+              "gaps": [
+                [
+                  "go out this evening"
+                ]
+              ],
+              "hint": "(go out this evening / go this evening out)",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I’ll {} at school.",
+              "gaps": [
+                [
+                  "drop off the children",
+                  "drop the children off"
+                ]
+              ],
+              "hint": "(drop off the children / drop the children off)",
+              "source": "MODEL",
+              "explain": "Both are correct: with a noun object, the particle can go before or after it."
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "My brother is {}.",
+              "gaps": [
+                [
+                  "looking for a new job"
+                ]
+              ],
+              "hint": "(looking for a new job / looking a new job for)",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "You should {}.",
+              "gaps": [
+                [
+                  "throw away those old jeans",
+                  "throw those old jeans away"
+                ]
+              ],
+              "hint": "(throw away those old jeans / throw those old jeans away)",
+              "source": "MODEL",
+              "explain": "Both are correct: with a noun object, the particle can go before or after it."
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I don’t like shopping for clothes online – I prefer to {} before I buy them.",
+              "gaps": [
+                [
+                  "try them on"
+                ]
+              ],
+              "hint": "(try them on / try on them)",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "{} before you come in.",
+              "gaps": [
+                [
+                  "Take off your shoes",
+                  "Take your shoes off"
+                ]
+              ],
+              "hint": "(Take off your shoes / Take your shoes off)",
+              "source": "MODEL",
+              "explain": "Both are correct: with a noun object, the particle can go before or after it."
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "We’re meeting my mother tomorrow – I think you’ll really {}.",
+              "gaps": [
+                [
+                  "get on with her"
+                ]
+              ],
+              "hint": "(get on with her / get on her with)",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "If the jacket doesn’t fit, {} to the shop.",
+              "gaps": [
+                [
+                  "take it back"
+                ]
+              ],
+              "hint": "(take back it / take it back)",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "What time do you {}?",
+              "gaps": [
+                [
+                  "get up in the morning"
+                ]
+              ],
+              "hint": "(get up in the morning / get in the morning up)",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10B-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the sentences with it or them and a word from the list",
+          "note": "GB 10B b; I can’t hear the radio. Turn it up — пример. MODEL",
+          "words": [
+            "back",
+            "in",
+            "on (x2)",
+            "up (x2)"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Your clothes are all over the floor. Pick {}.",
+              "gaps": [
+                [
+                  "them up"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Here’s your coat. Put {}.",
+              "gaps": [
+                [
+                  "it on"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "A What does this word mean? B Look {}.",
+              "gaps": [
+                [
+                  "it up"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "To get your passport there are three forms. Please fill {} now.",
+              "gaps": [
+                [
+                  "them in"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "You remember that money I lent you? When can you give {}?",
+              "gaps": [
+                [
+                  "it back"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "A Is the match on TV? B I don’t know. Turn {} and see.",
+              "gaps": [
+                [
+                  "it on"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10B-wb2a",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the correct ending",
+          "note": "WB 2a «Match 1–7 to a–g» → Blank, концовки в words; 1 go off — пример, убрано",
+          "words": [
+            "after it",
+            "for it",
+            "it down",
+            "it in",
+            "it up",
+            "over"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I wasn’t sure how to spell ‘practice’, so I looked {}.",
+              "gaps": [
+                [
+                  "it up"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "The sound in this cinema is too loud! I don’t understand why they don’t turn {}.",
+              "gaps": [
+                [
+                  "it down"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "It was a really boring film – I couldn’t wait till it was {}.",
+              "gaps": [
+                [
+                  "over"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Jemma can’t take her cat on holiday, so I’m going to look {}.",
+              "gaps": [
+                [
+                  "after it"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I have the application form, so now I just have to fill {}.",
+              "gaps": [
+                [
+                  "it in"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "I’ve lost my bank card. Can you help me look {}?",
+              "gaps": [
+                [
+                  "for it"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10B-wb2b",
+          "origin": "WB",
+          "instruction": "Write the correct words. If both options are correct, write either",
+          "note": "WB 2b «tick / circle» → Blank, варианты в hint; если верны оба — принимаются оба; 1 get up early — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "My diet’s going OK, but {} has been really difficult.",
+              "gaps": [
+                [
+                  "giving up bread",
+                  "giving bread up"
+                ]
+              ],
+              "hint": "(giving up bread / giving bread up)",
+              "explain": "Both are correct: noun object."
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "My daughter isn’t very well, so I’m staying at home today to {}.",
+              "gaps": [
+                [
+                  "look after her"
+                ]
+              ],
+              "hint": "(look her after / look after her)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Sorry – I didn’t know you were on the phone. I’ll {} a bit.",
+              "gaps": [
+                [
+                  "turn down the TV",
+                  "turn the TV down"
+                ]
+              ],
+              "hint": "(turn down the TV / turn the TV down)",
+              "explain": "Both are correct: noun object."
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "It’s freezing. {}.",
+              "gaps": [
+                [
+                  "Put your coat on",
+                  "Put on your coat"
+                ]
+              ],
+              "hint": "(Put your coat on / Put on your coat)",
+              "explain": "Both are correct: noun object."
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "You’re wearing shoes. If you want to go into the mosque, you’ll have to {}.",
+              "gaps": [
+                [
+                  "take them off"
+                ]
+              ],
+              "hint": "(take them off / take off them)"
+            }
+          ]
+        },
+        {
+          "id": "10B-wb2c",
+          "origin": "WB",
+          "instruction": "Rewrite the sentences with a pronoun. Change the word order if necessary",
+          "note": "WB 2c; выделенные слова даны в скобках; 1 Can you write it down? — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "The teacher will give back the exams on Friday. (the exams)",
+              "answers": [
+                "The teacher will give them back on Friday."
+              ]
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Are you looking forward to your weekend in Paris? (your weekend in Paris)",
+              "answers": [
+                "Are you looking forward to it?"
+              ]
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "I called back my mother when I arrived at the station. (my mother)",
+              "answers": [
+                "I called her back when I arrived at the station."
+              ]
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "We don’t get on with our new neighbours. (our new neighbours)",
+              "answers": [
+                "We don't get on with them.",
+                "We do not get on with them."
+              ]
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "Can you turn on the TV? (the TV)",
+              "answers": [
+                "Can you turn it on?"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10B-wb2d",
+          "origin": "WB",
+          "instruction": "Complete the questions with a phrasal verb from the list",
+          "note": "WB 2d; 1 go off — пример, убрано; 2e (ответить о себе) — в 10B-wb2e",
+          "words": [
+            "get up",
+            "go away",
+            "go out",
+            "set off"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "A What time do you {}? B Usually at about 6.45.",
+              "gaps": [
+                [
+                  "get up"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "A What time do you {} for work? B At 8.00. I get the 8.15 train.",
+              "gaps": [
+                [
+                  "set off"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "A Do you usually {} on Saturday night? B Yes, I often meet up with friends and we go to a bar or have dinner.",
+              "gaps": [
+                [
+                  "go out"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "A Do you ever {} for the weekend? B Not often – I don’t have enough money!",
+              "gaps": [
+                [
+                  "go away"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10B-wb2e",
+          "origin": "WB",
+          "instruction": "Answer the questions about you",
+          "note": "WB 2e → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Answer the questions about your day. Use full sentences with phrasal verbs.",
+              "questions": [
+                {
+                  "text": "What time does your alarm clock go off?",
+                  "hint": "(My alarm goes off at…)"
+                },
+                {
+                  "text": "What time do you get up?",
+                  "hint": "(I get up at…)"
+                },
+                {
+                  "text": "What time do you set off for work or school?",
+                  "hint": "(I set off at…)"
+                },
+                {
+                  "text": "Do you usually go out on Saturday night?",
+                  "hint": "(Yes, I usually go out with… / No, I…)"
+                },
+                {
+                  "text": "Do you ever go away for the weekend?",
+                  "hint": "(I sometimes go away to…)"
+                }
+              ],
+              "criteria": [
+                "answers all five questions",
+                "uses the phrasal verbs correctly (go off, get up, set off, go out, go away)",
+                "correct present simple forms"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10B-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Rewrite the sentence. Replace the highlighted words with it or them.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "Turn off the TV. (the TV)",
+              "answers": [
+                "Turn it off."
+              ],
+              "explain": "Separable: pronoun goes between verb and particle.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "Can you pick up the children at 4? (the children)",
+              "answers": [
+                "Can you pick them up at 4?"
+              ],
+              "explain": "Separable: pick them up.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Please put away your toys. (your toys)",
+              "answers": [
+                "Please put them away."
+              ],
+              "explain": "Separable: put them away.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "I’m looking for my phone. (my phone)",
+              "answers": [
+                "I'm looking for it.",
+                "I am looking for it."
+              ],
+              "explain": "look for is inseparable: looking for it.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "Did you write down the address? (the address)",
+              "answers": [
+                "Did you write it down?"
+              ],
+              "explain": "Separable: write it down.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "She gets on with her boss. (her boss)",
+              "answers": [
+                "She gets on with him.",
+                "She gets on with her."
+              ],
+              "explain": "get on with is inseparable: gets on with him / her.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "Try on this dress. (this dress)",
+              "answers": [
+                "Try it on."
+              ],
+              "explain": "Separable: try it on.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prompt": "He looks after his grandmother. (his grandmother)",
+              "answers": [
+                "He looks after her."
+              ],
+              "explain": "look after is inseparable: looks after her.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "rewrite",
+              "prompt": "Don’t throw away the newspapers. (the newspapers)",
+              "answers": [
+                "Don't throw them away.",
+                "Do not throw them away."
+              ],
+              "explain": "Separable: throw them away.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "rewrite",
+              "prompt": "I gave back the money yesterday. (the money)",
+              "answers": [
+                "I gave it back yesterday."
+              ],
+              "explain": "Separable: gave it back.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10B-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistake in the word order.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "It’s cold. Put on it.",
+              "answers": [
+                "It's cold. Put it on.",
+                "It is cold. Put it on."
+              ],
+              "explain": "Pronoun between verb and particle: put it on.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "I’m looking my keys for.",
+              "answers": [
+                "I'm looking for my keys.",
+                "I am looking for my keys."
+              ],
+              "explain": "look for is inseparable.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "What time do you up get?",
+              "answers": [
+                "What time do you get up?"
+              ],
+              "explain": "get up has no object – verb + particle together.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "The music is too loud. Turn down it.",
+              "answers": [
+                "The music is too loud. Turn it down."
+              ],
+              "explain": "Pronoun between verb and particle: turn it down.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "Can you look my dog after this weekend?",
+              "answers": [
+                "Can you look after my dog this weekend?"
+              ],
+              "explain": "look after is inseparable.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "I don’t know this word. I’ll look up it.",
+              "answers": [
+                "I don't know this word. I'll look it up.",
+                "I do not know this word. I will look it up."
+              ],
+              "explain": "Pronoun between verb and particle: look it up.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "These shoes don’t fit. I’ll take back them.",
+              "answers": [
+                "These shoes don't fit. I'll take them back.",
+                "These shoes do not fit. I will take them back."
+              ],
+              "explain": "Pronoun between verb and particle: take them back.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prompt": "We don’t get on with very well them.",
+              "answers": [
+                "We don't get on with them very well.",
+                "We do not get on with them very well."
+              ],
+              "explain": "get on with is inseparable; the object follows it.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "rewrite",
+              "prompt": "Please fill in them before you leave.",
+              "answers": [
+                "Please fill them in before you leave."
+              ],
+              "explain": "Pronoun between verb and particle: fill them in.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "rewrite",
+              "prompt": "He went last night out.",
+              "answers": [
+                "He went out last night."
+              ],
+              "explain": "go out has no object – keep verb and particle together.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10B-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "linking",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Linking",
+          "text": "When a word ends in a consonant sound and the next word starts with a vowel sound, we link them and say them together, like one word: turn it off /tɜːnɪtɒf/, pick it up, look after it, take it off."
+        },
+        {
+          "type": "table",
+          "title": "Phrasal verb + pronoun",
+          "headers": [
+            "sentence",
+            "say it as"
+          ],
+          "rows": [
+            [
+              "Turn it off.",
+              "turnitoff"
+            ],
+            [
+              "Pick it up.",
+              "pickitup"
+            ],
+            [
+              "Look it up.",
+              "lookitup"
+            ],
+            [
+              "Put it on.",
+              "putiton"
+            ],
+            [
+              "Look after it.",
+              "lookafterit"
+            ],
+            [
+              "Take it off.",
+              "takeitoff"
+            ]
+          ],
+          "audio": "10.9"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "10B-sb4a",
+          "origin": "SB",
+          "instruction": "Listen and write the missing words",
+          "note": "SB 4a; 1 turn it off — пример книги оставлен первым пунктом. Ответы по аудио 10.9",
+          "audio": "10.9",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "There’s a wet towel on the floor. {}.",
+              "gaps": [
+                [
+                  "Pick it up"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                9.25,
+                10.51
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "If you don’t know what the word means, {}.",
+              "gaps": [
+                [
+                  "look it up"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                14.48,
+                15.78
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Why have you taken your coat off? {}!",
+              "gaps": [
+                [
+                  "Put it on"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                19.91,
+                21.25
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "This book was very expensive. Please {}.",
+              "gaps": [
+                [
+                  "look after it"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                25.69,
+                27.43
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Why are you wearing your coat in here? {}!",
+              "gaps": [
+                [
+                  "Take it off"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                31.81,
+                33.23
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10B-sb4b",
+          "origin": "SB",
+          "instruction": "Listen again. Say the sentences. Link the phrasal verbs and pronouns",
+          "note": "SB 4b → Speak по отрезкам 10.9",
+          "audio": "10.9",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "I can’t concentrate with the radio on. Please turn it off.",
+              "clip": [
+                3.04,
+                4.78
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "There’s a wet towel on the floor. Pick it up.",
+              "clip": [
+                9.25,
+                10.51
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "If you don’t know what the word means, look it up.",
+              "clip": [
+                14.48,
+                15.78
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "Why have you taken your coat off? Put it on!",
+              "clip": [
+                19.91,
+                21.25
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "This book was very expensive. Please look after it.",
+              "clip": [
+                25.69,
+                27.43
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "Why are you wearing your coat in here? Take it off!",
+              "clip": [
+                31.81,
+                33.23
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10B-wb3a",
+          "origin": "WB",
+          "instruction": "Write the missing words",
+          "note": "WB 3a (трек WB 10.2 — аудио WB нет): Blank по смыслу, ответы по ключу; 1 give it up — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "My laptop’s broken. I can’t {}.",
+              "gaps": [
+                [
+                  "turn it on"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "That’s my jacket! {}!",
+              "gaps": [
+                [
+                  "Take it off"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "This camera cost a lot of money. Please {}!",
+              "gaps": [
+                [
+                  "look after it"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "This jumper looks nice. Is there anywhere I can {}?",
+              "gaps": [
+                [
+                  "try it on"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Your pen doesn’t work. You should {}.",
+              "gaps": [
+                [
+                  "throw it away"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10B-wb3b",
+          "origin": "WB",
+          "instruction": "Listen and repeat the sentences",
+          "note": "WB 3b (трек WB 10.2 — аудио WB нет): Speak, образец — синтезатор",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "I eat too much chocolate. I’m going to try and give it up."
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "My laptop’s broken. I can’t turn it on."
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "That’s my jacket! Take it off!"
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "This camera cost a lot of money. Please look after it!"
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "This jumper looks nice. Is there anywhere I can try it on?"
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "Your pen doesn’t work. You should throw it away."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10B-skills",
+      "kind": "SKILLS",
+      "title": "Reading, Listening & Speaking",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Talking about your morning",
+          "text": "What time do you wake up / get up? – I usually wake up at… My alarm goes off at… I get up straight away. / I stay in bed for a bit. I feel awful / quite sleepy / awake and energetic."
+        },
+        {
+          "type": "note",
+          "title": "Morning person or evening person?",
+          "text": "I’m a morning person – I get up early and I’m full of energy. I’m an evening person – I go to bed late and find it hard to get up."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "10B-sb1a",
+          "origin": "SB",
+          "instruction": "Talk about your mornings with a partner",
+          "note": "SB 1a + 1d → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You talk about getting up in the morning. Ask these questions one at a time and react naturally: What time do you wake up during the week? Do you use an alarm to wake up? If not, what makes you wake up? Do you get up immediately after you wake up? When you first get up, do you feel awful, quite sleepy, or awake and energetic? In general, are you a morning or an evening person? Would you like to work the hours of a baker who gets up at 2.35 a.m., or a radio presenter who gets up at 4.45 a.m.? Why (not)? Do you know people who get up very early for work? When the student asks you, answer too: your alarm goes off at 7.00, you stay in bed for ten minutes, you feel awful until you have coffee, you are an evening person. If the student makes a mistake with a phrasal verb, repeat the phrase correctly in your answer.",
+              "goal": "Talk about your morning routine using phrasal verbs.",
+              "opener": "Hi! So, what time do you usually wake up during the week?",
+              "criteria": [
+                "answers the questions with extra details",
+                "uses phrasal verbs correctly (wake up, get up, go off, go out)",
+                "says if they are a morning or an evening person and why",
+                "asks the partner at least one question back"
+              ],
+              "steps": [
+                {
+                  "text": "Say what time you wake up",
+                  "example": "I usually wake up at about 6.30 during the week."
+                },
+                {
+                  "text": "Say how you wake up",
+                  "example": "My alarm goes off at 6.30, but I use the snooze button."
+                },
+                {
+                  "text": "Say if you get up immediately and how you feel",
+                  "example": "I don’t get up straight away. I feel quite sleepy."
+                },
+                {
+                  "text": "Say if you are a morning or an evening person",
+                  "example": "I’m an evening person – I love staying up late."
+                },
+                {
+                  "text": "Say if you would like Ella’s or Peter’s hours",
+                  "example": "I wouldn’t like to get up at 2.35! It’s much too early."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10B-sb1c-ella",
+          "origin": "SB",
+          "instruction": "Read about Ella’s day and answer the questions with short notes",
+          "note": "SB 1b–c + Communication Early birds A p.105 (текст Эллы — в context, фото — image). MODEL",
+          "context": "The alarm goes off at 2.35 a.m. I use my phone, and my partner also sets the alarm on his phone, because I don’t feel very secure if I just have one alarm. I get up straight away. I usually feel terrible! It’s always really hard to get out of bed. Luckily I don’t have to think about clothes, because I always wear a white chef’s jacket and a pair of jeans.\n\nI don’t have breakfast – I just get dressed and go straight to work. I live very near the shop, so I walk to work – it only takes five minutes. I start baking at 3.00 a.m. I’m always desperate for a cup of tea, and as soon as I have time I make one. I can’t really function without a cup of tea. I make all the bread and cakes between 3.00 and 8.30 – that’s when I open the shop.\n\nI usually finish work at about 3.00 in the afternoon, so I’m often at work for about 12 hours. I go to bed at 8.30. Because we go to bed so early, during the week we don’t go out at all. I sometimes go out on a Saturday evening, but I feel exhausted the next day.\n\nWould I like to change my working hours? Yes. I love my job, and I don’t mind getting up early, but I would like to sleep more.\n\nstraight away = immediately; baking = making bread and cakes",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "What time does she get up? {}",
+              "gaps": [
+                [
+                  "2.35",
+                  "at 2.35",
+                  "2.35 a.m.",
+                  "at 2.35 a.m."
+                ]
+              ],
+              "image": "10b_sb1_ella",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "How does she wake up on time? She has two {}.",
+              "gaps": [
+                [
+                  "alarms",
+                  "phone alarms"
+                ]
+              ],
+              "explain": "Her phone and her partner’s phone.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "How does she feel when she wakes up? {}",
+              "gaps": [
+                [
+                  "terrible",
+                  "She feels terrible"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Does she have anything to eat or drink before she goes to work? {}",
+              "gaps": [
+                [
+                  "no",
+                  "No, she doesn't",
+                  "nothing"
+                ]
+              ],
+              "explain": "She doesn’t have breakfast; she makes a cup of tea at work.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "How does she get to work? She {}.",
+              "gaps": [
+                [
+                  "walks",
+                  "walks to work"
+                ]
+              ],
+              "explain": "It only takes five minutes.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "What time does she start and finish work? She starts at {} and finishes at {}.",
+              "gaps": [
+                [
+                  "3.00",
+                  "3.00 a.m.",
+                  "3",
+                  "3 a.m."
+                ],
+                [
+                  "3.00",
+                  "3.00 p.m.",
+                  "3",
+                  "3 p.m.",
+                  "about 3.00"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "What time does she usually go to bed? {}",
+              "gaps": [
+                [
+                  "8.30",
+                  "at 8.30",
+                  "8.30 p.m."
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Would she like to change her working hours? {}",
+              "gaps": [
+                [
+                  "yes",
+                  "Yes, she would"
+                ]
+              ],
+              "explain": "She would like to sleep more.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10B-sb1c-peter",
+          "origin": "SB",
+          "instruction": "Read about Peter’s day and answer the questions with short notes",
+          "note": "SB 1b–c + Communication Early birds B p.111 (текст Питера — в context, фото — image). MODEL",
+          "context": "The Peter Gordon Breakfast Show starts at exactly 6.00, so I need to be at work at 5.30 a.m. on weekday mornings. I’m lucky because I live very near the studio – it’s only three to four minutes by car – so I get up at about 4.45. I wake up on time because I have an alarm that repeats, and I wear a Fitbit which vibrates as well. When that goes off I know that I really have to get up!\n\nFor the first few minutes I feel a bit sleepy, but then I wake up quickly. I choose my clothes the night before, and that way everything’s ready. I have a cup of tea, and then I leave the house at about 5.15. I have breakfast during the radio show, while I’m playing music – perhaps a smoothie and some cereal. I’m a director of the radio station, so after my show I usually work in the office until late afternoon – it’s a long working day!\n\nI go to bed quite late, usually at about 11.00. I find it very difficult to go to bed early, it’s always been a problem for me. So I only get about five or six hours’ sleep – but that’s enough for me. Because I get up early, I try not to go out with friends during the week. I only go to necessary events, like work events. Weekends are different!\n\nI know I get up really early, but I don’t want to change my hours because I really love my breakfast show, and I never want to give it up.\n\nFitbit = an electronic bracelet that measures your physical activity; smoothie = a drink made with fruit or fruit juice mixed with milk",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "What time does he get up? {}",
+              "gaps": [
+                [
+                  "about 4.45",
+                  "4.45",
+                  "at about 4.45",
+                  "at 4.45"
+                ]
+              ],
+              "image": "10b_sb1_peter",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "How does he wake up on time? He has an alarm that repeats and a {} which vibrates.",
+              "gaps": [
+                [
+                  "Fitbit"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "How does he feel when he wakes up? A bit {} for the first few minutes.",
+              "gaps": [
+                [
+                  "sleepy"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Does he have anything to eat or drink before he goes to work? He has a cup of {}.",
+              "gaps": [
+                [
+                  "tea"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "How does he get to work? By {}.",
+              "gaps": [
+                [
+                  "car"
+                ]
+              ],
+              "explain": "It’s only three to four minutes by car.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "What time does he start and finish work? He starts at {} and works until late {}.",
+              "gaps": [
+                [
+                  "5.30",
+                  "5.30 a.m."
+                ],
+                [
+                  "afternoon"
+                ]
+              ],
+              "explain": "He needs to be at work at 5.30; the show starts at 6.00.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "What time does he usually go to bed? {}",
+              "gaps": [
+                [
+                  "about 11.00",
+                  "11.00",
+                  "at about 11.00",
+                  "at 11.00",
+                  "11"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Would he like to change his working hours? {}",
+              "gaps": [
+                [
+                  "no",
+                  "No, he wouldn't"
+                ]
+              ],
+              "explain": "He loves his breakfast show and never wants to give it up.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "10B-sb3a",
+          "origin": "SB",
+          "instruction": "Listen to a radio programme about getting up early. What does Tim Powell do at these times / for these periods of time?",
+          "note": "SB 3a+b; 1 5.45 He wakes up at 5.45 — пример. Ответы по аудио 10.7",
+          "audio": "10.7",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "30 minutes: He {} for 30 minutes in his home gym.",
+              "gaps": [
+                [
+                  "does exercise",
+                  "does exercises",
+                  "exercises"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                12.29,
+                15.58
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Just before 9.00 a.m.: He goes for a {} around a local park.",
+              "gaps": [
+                [
+                  "walk"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                24.54,
+                27.53
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "9.00 a.m.: He starts {}.",
+              "gaps": [
+                [
+                  "work"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                27.53,
+                31.39
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "5.20 a.m. on Thursdays: He gets up to study {}.",
+              "gaps": [
+                [
+                  "German"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                31.49,
+                38.36
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "70 hours: He {} 70 hours a week.",
+              "gaps": [
+                [
+                  "works"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                40.76,
+                43.04
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Tim gets up early because it helps him to do {} during the day.",
+              "gaps": [
+                [
+                  "more"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                44.02,
+                47.86
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10B-sb3c",
+          "origin": "SB",
+          "instruction": "Listen to the second part of the programme. Complete three reasons why it’s good to get up early",
+          "note": "SB 3c+d; ответы по аудио 10.8",
+          "audio": "10.8",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "The first reason why it’s good to get up early is that the early morning is {}.",
+              "gaps": [
+                [
+                  "quiet"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                8.86,
+                14.6
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Nobody phones you at 6 a.m. There aren’t any important emails or messages, meetings or {}.",
+              "gaps": [
+                [
+                  "people"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                14.74,
+                25.19
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "The second reason is that if you get up early, you {} {} {} early.",
+              "gaps": [
+                [
+                  "go"
+                ],
+                [
+                  "to"
+                ],
+                [
+                  "bed"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                28.19,
+                33.62
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "People who go to bed late spend many hours watching {}, seeing their friends, and spending time on social media.",
+              "gaps": [
+                [
+                  "TV"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                37.55,
+                42.71
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "The third reason is that it’s better to {} {} in the morning, when you have {}.",
+              "gaps": [
+                [
+                  "do"
+                ],
+                [
+                  "things"
+                ],
+                [
+                  "energy"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                56.15,
+                61.81
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Advice: set your alarm {} minutes earlier than you usually get up, and the next day, {} minutes earlier again.",
+              "gaps": [
+                [
+                  "five",
+                  "5"
+                ],
+                [
+                  "five",
+                  "5"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                79.25,
+                88.0
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "After three weeks, you’ll have nearly {} hours that you never had before.",
+              "gaps": [
+                [
+                  "two",
+                  "2"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                88.06,
+                93.55
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10B-sb5",
+          "origin": "SB",
+          "instruction": "Phrasal verb questionnaire. Interview your partner",
+          "note": "SB 3e + 5 (Phrasal verb questionnaire) → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). Interview the student with this phrasal verb questionnaire, one question at a time, and ask for more details: Do you ever get up very late or very early? Why? When? What’s the first thing you turn on after you wake up in the morning? Have you ever forgotten to turn your phone off in a concert or the cinema? Do you throw away old clothes or do you give them to other people? Do you enjoy trying on clothes when you go shopping? When you go shopping, do you usually write down what you have to buy? What kind of shops do you enjoy looking round? Do you often go away at the weekend? Where to? Do you enjoy looking after small children? Have you ever asked your neighbours to turn the TV or the music down? How do you usually get around your town during the day and late at night? Finally ask: Do you think getting up very early is a good idea? If you got up an hour earlier, what would you do with your extra hour? Answer the student’s questions too: you turn on the coffee machine first, you give old clothes to a charity shop, you hate trying on clothes.",
+              "goal": "Answer the questionnaire using phrasal verbs.",
+              "opener": "OK, first question: do you ever get up very late or very early? Why?",
+              "criteria": [
+                "answers at least six questions with extra details",
+                "uses the phrasal verbs from the questions correctly",
+                "puts pronouns between verb and particle (turn it off, throw them away)",
+                "says what they would do with an extra hour"
+              ],
+              "steps": [
+                {
+                  "text": "Say when you get up late or early",
+                  "example": "I get up very early when I have a flight."
+                },
+                {
+                  "text": "Say what you turn on first",
+                  "example": "The first thing I turn on is my phone."
+                },
+                {
+                  "text": "Talk about clothes: throwing away and trying on",
+                  "example": "I don’t throw them away – I give them to my sister."
+                },
+                {
+                  "text": "Talk about shopping and weekends",
+                  "example": "I enjoy looking round bookshops. I sometimes go away to the mountains."
+                },
+                {
+                  "text": "Say what you would do with an extra hour",
+                  "example": "If I got up an hour earlier, I would go running."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

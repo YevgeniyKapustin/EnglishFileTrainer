@@ -1,0 +1,3025 @@
+{
+  "id": "5A",
+  "title": "I want it NOW!",
+  "bubbles": [
+    "Are we living faster?",
+    "Yes, we need to slow down."
+  ],
+  "sources": "SB p.38–39 (PDF 39–40), Grammar Bank p.134–135 (PDF 135–136), Communication p.109 (PDF 110), scripts p.121 (PDF 122); WB p.32–33 (PDF 31–32), key WB p.90 (PDF 89)",
+  "sections": [
+    {
+      "id": "5A-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "types of numbers",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Saying numbers",
+          "headers": [
+            "Type",
+            "Written",
+            "Said"
+          ],
+          "rows": [
+            [
+              "big numbers",
+              "184 · 3,025 · 2,500",
+              "a / one hundred and eighty-four · three thousand and twenty-five · two thousand five hundred"
+            ],
+            [
+              "millions",
+              "125m · $6,000,000",
+              "a hundred and twenty-five million · six million dollars"
+            ],
+            [
+              "dates",
+              "25th May",
+              "the twenty-fifth of May / May the twenty-fifth"
+            ],
+            [
+              "percentages",
+              "50% · 75%",
+              "fifty per cent · seventy-five per cent"
+            ],
+            [
+              "fractions",
+              "½ · ⅓ · ¾ · ⅔",
+              "a half · a / one third · three-quarters · two thirds"
+            ],
+            [
+              "decimals",
+              "9.2 · 4.3",
+              "nine point two · four point three"
+            ]
+          ],
+          "audio": "5.2"
+        },
+        {
+          "type": "note",
+          "title": "hundred, thousand, million",
+          "text": "Say and after hundred: two hundred and ten. hundred, thousand, and million have no -s after a number: five thousand, six million. In decimals say point, not dot: four point three."
+        },
+        {
+          "type": "note",
+          "title": "Saying approximate numbers",
+          "text": "about 500 · at least 12 a day · between 2,000 and 3,000"
+        },
+        {
+          "type": "mistake",
+          "wrong": "five thousands",
+          "right": "five thousand",
+          "why": "No -s on thousand after a number."
+        },
+        {
+          "type": "mistake",
+          "wrong": "two hundred ten thousand",
+          "right": "two hundred and ten thousand",
+          "why": "British English uses and after hundred."
+        },
+        {
+          "type": "mistake",
+          "wrong": "forty-seven per cents",
+          "right": "forty-seven per cent",
+          "why": "per cent never takes -s."
+        },
+        {
+          "type": "mistake",
+          "wrong": "four dot three",
+          "right": "four point three",
+          "why": "Decimals use point."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "5A-sb2a",
+          "origin": "SB",
+          "audio": "5.1",
+          "images": [
+            "5a_sb1_infographic"
+          ],
+          "instruction": "Look at the green numbers in the top row of the infographic. Write how you say them. Then listen and check",
+          "note": "SB 2a+2b; три зелёных числа верхнего ряда инфографики (фото из SB p.38) → Blank словами, клипы по 5.1",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "More than 125m Google searches are made every hour. 125m → {}",
+              "gaps": [
+                [
+                  "a hundred and twenty-five million",
+                  "one hundred and twenty-five million",
+                  "a hundred and twenty five million",
+                  "one hundred and twenty five million"
+                ]
+              ],
+              "explain": "m = million; say and after hundred.",
+              "source": "CONFIRMED",
+              "clip": [
+                2.77,
+                8.27
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "50% of users leave a web page that doesn’t load in ten seconds. 50% → {}",
+              "gaps": [
+                [
+                  "fifty per cent",
+                  "fifty percent"
+                ]
+              ],
+              "explain": "% = per cent, with no -s.",
+              "source": "CONFIRMED",
+              "clip": [
+                9.47,
+                14.75
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "⅓ of British people expect a ‘like’ on a Facebook picture in less than a minute after posting it. ⅓ → {}",
+              "gaps": [
+                [
+                  "a third",
+                  "one third",
+                  "one-third"
+                ]
+              ],
+              "explain": "⅓ = a third (or one third).",
+              "source": "CONFIRMED",
+              "clip": [
+                20.62,
+                27.42
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5A-sb2b",
+          "origin": "SB",
+          "audio": "5.1",
+          "instruction": "Listen and repeat the sentences from the infographic",
+          "note": "SB 2b «Listen and check» → Speak по фразам 5.1 (клипы)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "More than a hundred and twenty-five million Google searches are made every hour.",
+              "answers": [
+                "More than a hundred and twenty-five million Google searches are made every hour.",
+                "More than 125 million Google searches are made every hour."
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                2.77,
+                8.27
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "Fifty per cent of users leave a web page that doesn’t load in ten seconds.",
+              "answers": [
+                "Fifty per cent of users leave a web page that doesn’t load in ten seconds.",
+                "50% of users leave a webpage that doesn't load in 10 seconds."
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                9.47,
+                14.75
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "Three out of five people don’t return to that site.",
+              "answers": [
+                "Three out of five people don’t return to that site.",
+                "3 out of 5 people don't return to that site."
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                15.37,
+                19.37
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "A third of British people expect a like on a Facebook picture in less than a minute after posting it.",
+              "source": "CONFIRMED",
+              "clip": [
+                20.62,
+                27.42
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5A-sb2c",
+          "origin": "SB",
+          "audio": "5.2",
+          "instruction": "How do you say these numbers and dates? Write them in words. Then listen and check",
+          "note": "SB 2c+2d → Blank словами, клипы по 5.2",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "184 → {}",
+              "gaps": [
+                [
+                  "a hundred and eighty-four",
+                  "one hundred and eighty-four",
+                  "a hundred and eighty four",
+                  "one hundred and eighty four"
+                ]
+              ],
+              "explain": "Say and after hundred.",
+              "source": "CONFIRMED",
+              "clip": [
+                0.0,
+                2.31
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "3,025 → {}",
+              "gaps": [
+                [
+                  "three thousand and twenty-five",
+                  "three thousand and twenty five"
+                ]
+              ],
+              "explain": "When there are no hundreds, say and before the last part: three thousand and twenty-five.",
+              "source": "CONFIRMED",
+              "clip": [
+                3.94,
+                6.46
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "2,500 → {}",
+              "gaps": [
+                [
+                  "two thousand five hundred",
+                  "two thousand, five hundred",
+                  "twenty-five hundred"
+                ]
+              ],
+              "explain": "No -s on thousand or hundred.",
+              "source": "CONFIRMED",
+              "clip": [
+                8.04,
+                10.48
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "25th May → {}",
+              "gaps": [
+                [
+                  "the twenty-fifth of May",
+                  "twenty-fifth of May",
+                  "May the twenty-fifth",
+                  "the twenty fifth of May",
+                  "May twenty-fifth"
+                ]
+              ],
+              "explain": "Dates use ordinal numbers: the twenty-fifth of May.",
+              "source": "CONFIRMED",
+              "clip": [
+                12.05,
+                14.09
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "$6,000,000 → {}",
+              "gaps": [
+                [
+                  "six million dollars"
+                ]
+              ],
+              "explain": "Say the number first, then dollars; million has no -s.",
+              "source": "CONFIRMED",
+              "clip": [
+                15.54,
+                17.83
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "75% → {}",
+              "gaps": [
+                [
+                  "seventy-five per cent",
+                  "seventy five per cent",
+                  "seventy-five percent"
+                ]
+              ],
+              "explain": "% = per cent.",
+              "source": "CONFIRMED",
+              "clip": [
+                19.26,
+                21.16
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "⅔ → {}",
+              "gaps": [
+                [
+                  "two thirds",
+                  "two-thirds"
+                ]
+              ],
+              "explain": "Two thirds: the fraction word takes -s after two.",
+              "source": "CONFIRMED",
+              "clip": [
+                22.65,
+                24.25
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "9.2 → {}",
+              "gaps": [
+                [
+                  "nine point two"
+                ]
+              ],
+              "explain": "Decimals: point, then each number.",
+              "source": "CONFIRMED",
+              "clip": [
+                25.77,
+                27.47
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5A-sb2d",
+          "origin": "SB",
+          "audio": "5.2",
+          "instruction": "Listen and repeat the numbers and dates",
+          "note": "SB 2d → Speak, клипы как у 5A-sb2c",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "a hundred and eighty-four",
+              "answers": [
+                "a hundred and eighty-four",
+                "184"
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                0.0,
+                2.31
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "three thousand and twenty-five",
+              "answers": [
+                "three thousand and twenty-five",
+                "3,025"
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                3.94,
+                6.46
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "two thousand five hundred",
+              "answers": [
+                "two thousand five hundred",
+                "2,500"
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                8.04,
+                10.48
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "the twenty-fifth of May",
+              "answers": [
+                "the twenty-fifth of May",
+                "25th May",
+                "the 25th of May",
+                "25 May"
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                12.05,
+                14.09
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "six million dollars",
+              "answers": [
+                "six million dollars",
+                "$6,000,000",
+                "6 million dollars"
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                15.54,
+                17.83
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "seventy-five per cent",
+              "answers": [
+                "seventy-five per cent",
+                "75%",
+                "75 percent"
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                19.26,
+                21.16
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "two thirds",
+              "answers": [
+                "two thirds",
+                "2 thirds"
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                22.65,
+                24.25
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "nine point two",
+              "answers": [
+                "nine point two",
+                "9.2"
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                25.77,
+                27.47
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5A-sb2e",
+          "origin": "SB",
+          "audio": "5.3",
+          "instruction": "Listen and write the numbers",
+          "note": "SB 2e; 1 213 — пример. Ответы — дословно по 5.3 (скрипта в SB нет, расшифровка). Вопрос диктора — в text, число — в пропуске",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "When’s your birthday? The {} of June.",
+              "gaps": [
+                [
+                  "20th",
+                  "twentieth",
+                  "20"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                7.12,
+                10.43
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "So, how many people live here? About {}, I think.",
+              "gaps": [
+                [
+                  "120,000",
+                  "120000",
+                  "120 000",
+                  "a hundred and twenty thousand",
+                  "one hundred and twenty thousand"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                12.16,
+                17.98
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "How much did the house cost? A lot. {} dollars.",
+              "gaps": [
+                [
+                  "795,000",
+                  "795000",
+                  "795 000",
+                  "$795,000"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                19.81,
+                28.08
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "How much of your salary do you spend on rent? At least {}, I think.",
+              "gaps": [
+                [
+                  "a third",
+                  "⅓",
+                  "1/3",
+                  "one third"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                29.99,
+                35.8
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "What percentage of your day do you spend working or studying? Between {} and {}%, maybe.",
+              "gaps": [
+                [
+                  "60",
+                  "sixty"
+                ],
+                [
+                  "70",
+                  "seventy"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                37.77,
+                46.6
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5A-sb2f",
+          "origin": "SB",
+          "instruction": "Answer the questions with a partner. Use approximate numbers where you can",
+          "note": "SB 2f + блок Saying approximate numbers → Talk: ИИ спрашивает, ученик отвечает, потом спрашивает сам",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). Ask the student these questions one at a time: When’s your birthday? What’s the number of your house or building? What’s the population of your town or city? What’s the average price of buying or renting a two-bedroom flat there? What percentage of the day do you normally spend working or studying? React briefly to each answer. After the last question, invite the student to ask you two of the questions and answer them with approximate numbers (about 300,000 people, at least 800 euros a month, between 30 and 40 per cent). If the student says a number wrongly (five thousands, two hundred ten, per cents), repeat it correctly in your next reply without a long explanation.",
+              "goal": "Talk about numbers in your life.",
+              "opener": "Hi! Let’s talk about numbers. First question: when’s your birthday?",
+              "criteria": [
+                "says a date correctly (the twelfth of May / May the twelfth)",
+                "says big numbers correctly, with and after hundred and no -s on thousand / million",
+                "uses at least two approximate expressions: about, at least, between … and …",
+                "says a percentage correctly (per cent)",
+                "asks at least one question back"
+              ],
+              "steps": [
+                {
+                  "text": "Say your birthday and your house number",
+                  "example": "It’s on the twenty-third of October. I live at number forty-seven."
+                },
+                {
+                  "text": "Say the population of your town and the price of a flat",
+                  "example": "About a hundred and fifty thousand people live there. A two-bedroom flat costs at least five hundred euros a month."
+                },
+                {
+                  "text": "Say what percentage of the day you work or study",
+                  "example": "Between thirty and forty per cent, I think."
+                },
+                {
+                  "text": "Ask your partner two of the questions",
+                  "example": "What’s the population of your town? What percentage of the day do you spend studying?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5A-wb1a",
+          "origin": "WB",
+          "instruction": "Choose the correct way of saying the numbers",
+          "note": "WB 1a Circle → Blank с вариантами в hint; 1 three-quarters — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "47% → {}",
+              "gaps": [
+                [
+                  "forty-seven per cent"
+                ]
+              ],
+              "hint": "(forty-seven per cent / forty-seven per cents)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "5,000 → {}",
+              "gaps": [
+                [
+                  "five thousand"
+                ]
+              ],
+              "hint": "(five thousands / five thousand)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "4.3 → {}",
+              "gaps": [
+                [
+                  "four point three"
+                ]
+              ],
+              "hint": "(four point three / four dot three)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "1,850 trees → {} trees",
+              "gaps": [
+                [
+                  "one thousand eight hundred and fifty"
+                ]
+              ],
+              "hint": "(eighteen fifty / one thousand eight hundred and fifty)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "210,000 → {}",
+              "gaps": [
+                [
+                  "two hundred and ten thousand"
+                ]
+              ],
+              "hint": "(two hundred ten thousand / two hundred and ten thousand)"
+            }
+          ]
+        },
+        {
+          "id": "5A-wb1b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with a number (in figures or in words)",
+          "note": "WB 1b; в книге — и цифрами, и словами, у нас принимается любое из двух. 1 1st / the first — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Half of 56 is {}.",
+              "gaps": [
+                [
+                  "28",
+                  "twenty-eight",
+                  "twenty eight"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Is 0.75 the same as ½? No, it’s the same as {}.",
+              "gaps": [
+                [
+                  "¾",
+                  "3/4",
+                  "three-quarters",
+                  "three quarters"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Half of 3,500 is {}.",
+              "gaps": [
+                [
+                  "1,750",
+                  "1750",
+                  "one thousand seven hundred and fifty"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "As a percentage, ½ is {}.",
+              "gaps": [
+                [
+                  "50%",
+                  "fifty per cent",
+                  "50 per cent",
+                  "fifty percent"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5A-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Write the numbers in words.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "365 → {}",
+              "gaps": [
+                [
+                  "three hundred and sixty-five",
+                  "three hundred and sixty five"
+                ]
+              ],
+              "explain": "Say and after hundred.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "1,200 → {}",
+              "gaps": [
+                [
+                  "one thousand two hundred",
+                  "a thousand two hundred",
+                  "twelve hundred"
+                ]
+              ],
+              "explain": "No -s on thousand or hundred.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "40,000 → {}",
+              "gaps": [
+                [
+                  "forty thousand"
+                ]
+              ],
+              "explain": "thousand has no -s after a number.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "3rd July → {}",
+              "gaps": [
+                [
+                  "the third of July",
+                  "July the third",
+                  "third of July"
+                ]
+              ],
+              "explain": "Dates use ordinal numbers: the third of July.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "¼ → {}",
+              "gaps": [
+                [
+                  "a quarter",
+                  "one quarter"
+                ]
+              ],
+              "explain": "¼ = a quarter.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "½ → {}",
+              "gaps": [
+                [
+                  "a half",
+                  "one half",
+                  "half"
+                ]
+              ],
+              "explain": "½ = a half.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "6.5 → {}",
+              "gaps": [
+                [
+                  "six point five"
+                ]
+              ],
+              "explain": "Decimals use point.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "90% → {}",
+              "gaps": [
+                [
+                  "ninety per cent",
+                  "ninety percent"
+                ]
+              ],
+              "explain": "per cent, without -s.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "2,000,000 → {}",
+              "gaps": [
+                [
+                  "two million"
+                ]
+              ],
+              "explain": "million has no -s after a number.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "31st December → {}",
+              "gaps": [
+                [
+                  "the thirty-first of December",
+                  "December the thirty-first",
+                  "the thirty first of December"
+                ]
+              ],
+              "explain": "Dates use ordinal numbers: thirty-first.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5A-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "About three thousands people live in my village.",
+              "answers": [
+                "About three thousand people live in my village."
+              ],
+              "explain": "No -s on thousand after a number.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "The ticket costs two hundred fifty euros.",
+              "answers": [
+                "The ticket costs two hundred and fifty euros."
+              ],
+              "explain": "British English: and after hundred.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Prices went up by ten per cents last year.",
+              "answers": [
+                "Prices went up by ten per cent last year.",
+                "Prices went up by ten percent last year."
+              ],
+              "explain": "per cent never takes -s.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "The average is three dot five.",
+              "answers": [
+                "The average is three point five."
+              ],
+              "explain": "Decimals use point, not dot.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "My birthday is on the fifteen of March.",
+              "answers": [
+                "My birthday is on the fifteenth of March."
+              ],
+              "explain": "Dates use ordinal numbers: fifteenth.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "Two third of the students passed the exam.",
+              "answers": [
+                "Two thirds of the students passed the exam."
+              ],
+              "explain": "After two, the fraction takes -s: two thirds.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5A-vocabulary-x3",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with about, at least, or between.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I’m not sure how many people came – {} 200, I think.",
+              "gaps": [
+                [
+                  "about"
+                ]
+              ],
+              "explain": "about = approximately.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "You should drink {} two litres of water a day – more is fine.",
+              "gaps": [
+                [
+                  "at least"
+                ]
+              ],
+              "explain": "at least = this number or more.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "A flat here costs {} 600 and 800 euros a month.",
+              "gaps": [
+                [
+                  "between"
+                ]
+              ],
+              "explain": "between … and … gives two numbers.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I spend {} three hours a day online, maybe a bit more.",
+              "gaps": [
+                [
+                  "about",
+                  "at least"
+                ]
+              ],
+              "explain": "about = approximately; at least = three or more.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5A-grammar",
+      "kind": "GRAMMAR",
+      "title": "comparative adjectives and adverbs, as…as",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Comparative adjectives: examples",
+          "headers": [
+            "Example"
+          ],
+          "rows": [
+            [
+              "I’m busier than I was five years ago."
+            ],
+            [
+              "People are more impatient today than in the past."
+            ],
+            [
+              "I’m less relaxed this year than I was last year."
+            ],
+            [
+              "The service in this restaurant isn’t as good as it was."
+            ]
+          ],
+          "audio": "5.4"
+        },
+        {
+          "type": "table",
+          "title": "Comparative adjectives",
+          "headers": [
+            "Adjective",
+            "Comparative",
+            "Rule"
+          ],
+          "rows": [
+            [
+              "short",
+              "shorter",
+              "one syllable: + -er"
+            ],
+            [
+              "hot",
+              "hotter",
+              "one vowel + one consonant: double the consonant"
+            ],
+            [
+              "stressed",
+              "more stressed",
+              "one-syllable adjectives ending in -ed: more + adjective"
+            ],
+            [
+              "busy",
+              "busier",
+              "two syllables, consonant + y: y → -ier"
+            ],
+            [
+              "relaxed, patient",
+              "more relaxed, more patient",
+              "two or more syllables: more + adjective"
+            ],
+            [
+              "good · bad · far",
+              "better · worse · further (farther)",
+              "irregular"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Comparative adverbs: examples",
+          "headers": [
+            "Example"
+          ],
+          "rows": [
+            [
+              "People walk more quickly than in the past."
+            ],
+            [
+              "My brother speaks French, but less fluently than me."
+            ],
+            [
+              "She doesn’t drive as fast as her brother."
+            ]
+          ],
+          "audio": "5.5"
+        },
+        {
+          "type": "table",
+          "title": "Comparative adverbs",
+          "headers": [
+            "Adverb",
+            "Comparative",
+            "Rule"
+          ],
+          "rows": [
+            [
+              "quickly",
+              "more quickly",
+              "adverbs ending in -ly: more + adverb"
+            ],
+            [
+              "fast · hard",
+              "faster · harder",
+              "same form as the adjective: + -er"
+            ],
+            [
+              "well · badly",
+              "better · worse",
+              "irregular"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "title": "less, (not) as…as",
+          "text": "I’m less relaxed this year than I was last year. (less + adjective / adverb = the opposite of more). The service isn’t as good as it was. She doesn’t drive as fast as her brother. (not) as + adjective / adverb + as."
+        },
+        {
+          "type": "note",
+          "title": "Comparatives with pronouns",
+          "text": "My brother’s taller than me / than I am. He’s not as intelligent as her / as she is."
+        },
+        {
+          "type": "mistake",
+          "wrong": "Life is more fast than before.",
+          "right": "Life is faster than before.",
+          "why": "One-syllable adjectives take -er."
+        },
+        {
+          "type": "mistake",
+          "wrong": "People aren’t as patient than they were.",
+          "right": "People aren’t as patient as they were.",
+          "why": "as … as, not as … than."
+        },
+        {
+          "type": "mistake",
+          "wrong": "We do everything quicklier.",
+          "right": "We do everything more quickly.",
+          "why": "Adverbs ending in -ly take more."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "5A-sb3a",
+          "origin": "SB",
+          "instruction": "Look at the highlighted words in the sentences. Are they adjectives or adverbs?",
+          "note": "SB 3a; выделенные слова даны после стрелки, ответ — adjective / adverb (hint). Ответы MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "My husband’s life is very busy, and he’s sometimes stressed. busy → {}, stressed → {}",
+              "gaps": [
+                [
+                  "adjective"
+                ],
+                [
+                  "adjective"
+                ]
+              ],
+              "hint": "(adjective / adverb)",
+              "explain": "Both describe a noun or a person (life, he).",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "My sister walks and talks very quickly. quickly → {}",
+              "gaps": [
+                [
+                  "adverb"
+                ]
+              ],
+              "hint": "(adjective / adverb)",
+              "explain": "quickly describes the verbs walks and talks.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Some young people eat a lot of fast food. fast → {}",
+              "gaps": [
+                [
+                  "adjective"
+                ]
+              ],
+              "hint": "(adjective / adverb)",
+              "explain": "fast describes the noun food.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "If things don’t happen as fast as I want them to, I get impatient. fast → {}, impatient → {}",
+              "gaps": [
+                [
+                  "adverb"
+                ],
+                [
+                  "adjective"
+                ]
+              ],
+              "hint": "(adjective / adverb)",
+              "explain": "fast describes the verb happen; impatient comes after get and describes I.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Some people don’t think living faster is a bad thing. bad → {}",
+              "gaps": [
+                [
+                  "adjective"
+                ]
+              ],
+              "hint": "(adjective / adverb)",
+              "explain": "bad describes the noun thing.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I think in general I live well. well → {}",
+              "gaps": [
+                [
+                  "adverb"
+                ]
+              ],
+              "hint": "(adjective / adverb)",
+              "explain": "well describes the verb live (the adverb of good).",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5A-sb3b",
+          "origin": "SB",
+          "instruction": "Choose the correct form",
+          "note": "SB 3b Circle → Blank с вариантами в hint; ответы подтверждены аудио 5.6",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Life is {} than before.",
+              "gaps": [
+                [
+                  "faster"
+                ]
+              ],
+              "hint": "(faster / more fast)",
+              "explain": "One syllable: + -er.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Traffic in cities is {} than it was.",
+              "gaps": [
+                [
+                  "worse"
+                ]
+              ],
+              "hint": "(more bad / worse)",
+              "explain": "bad → worse (irregular).",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Everybody is {} than they were five years ago.",
+              "gaps": [
+                [
+                  "busier"
+                ]
+              ],
+              "hint": "(busyer / busier)",
+              "explain": "Consonant + y → -ier.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "We are {} than our grandparents were.",
+              "gaps": [
+                [
+                  "more stressed"
+                ]
+              ],
+              "hint": "(more stressed / stresseder)",
+              "explain": "One-syllable adjectives ending in -ed take more.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "We do everything {}.",
+              "gaps": [
+                [
+                  "more quickly"
+                ]
+              ],
+              "hint": "(more quickly / quicklier)",
+              "explain": "Adverbs ending in -ly take more.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "People aren’t {} they were before.",
+              "gaps": [
+                [
+                  "as patient as"
+                ]
+              ],
+              "hint": "(as patient as / as patient than)",
+              "explain": "as … as, not as … than.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "5A-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the sentences with the comparative form of the adjective or adverb and than",
+          "note": "GB 5A a; пример New York is more expensive than Miami — не перенесён. Ключа к GB нет — ответы MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Modern computers are much {} the early ones.",
+              "gaps": [
+                [
+                  "faster than"
+                ]
+              ],
+              "hint": "(fast)",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "My sister is {} me.",
+              "gaps": [
+                [
+                  "shorter than"
+                ]
+              ],
+              "hint": "(short)",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "This exercise is {} the last one.",
+              "gaps": [
+                [
+                  "easier than"
+                ]
+              ],
+              "hint": "(easy)",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Newcastle is {} from London {} Leeds.",
+              "gaps": [
+                [
+                  "further",
+                  "farther"
+                ],
+                [
+                  "than"
+                ]
+              ],
+              "hint": "(far)",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I thought the third Bridget Jones film was {} the first two.",
+              "gaps": [
+                [
+                  "worse than"
+                ]
+              ],
+              "hint": "(bad)",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Manchester United played {} Arsenal.",
+              "gaps": [
+                [
+                  "better than"
+                ]
+              ],
+              "hint": "(good)",
+              "explain": "played + adverb: well → better.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "I’m {} this year {} I was last year.",
+              "gaps": [
+                [
+                  "more stressed"
+                ],
+                [
+                  "than"
+                ]
+              ],
+              "hint": "(stressed)",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I’m working {} this year {} last year.",
+              "gaps": [
+                [
+                  "harder"
+                ],
+                [
+                  "than"
+                ]
+              ],
+              "hint": "(hard)",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "The new airport is {} the old one.",
+              "gaps": [
+                [
+                  "bigger than"
+                ]
+              ],
+              "hint": "(big)",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "I’m not lazy – I just work {} you!",
+              "gaps": [
+                [
+                  "more slowly than"
+                ]
+              ],
+              "hint": "(slowly)",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5A-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the second sentence so that it means the same as the first. Use as…as",
+          "note": "GB 5A b; пример Luke / Peter (картинка) — не перенесён. Ответы MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Adam is shorter than Jerry. → Jerry isn’t {} Adam.",
+              "gaps": [
+                [
+                  "as short as"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Your bag is nicer than mine. → My bag isn’t {} yours.",
+              "gaps": [
+                [
+                  "as nice as"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Tokyo is bigger than London. → London isn’t {} Tokyo.",
+              "gaps": [
+                [
+                  "as big as"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Tennis is more popular than cricket. → Cricket isn’t {} tennis.",
+              "gaps": [
+                [
+                  "as popular as"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Children learn languages faster than adults. → Adults don’t {} children.",
+              "gaps": [
+                [
+                  "learn languages as fast as",
+                  "learn languages as quickly as"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I work harder than you. → You don’t {} me.",
+              "gaps": [
+                [
+                  "work as hard as"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "England played better than France. → France didn’t {} England.",
+              "gaps": [
+                [
+                  "play as well as"
+                ]
+              ],
+              "explain": "better here is the comparative of the adverb well.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5A-wb2a",
+          "origin": "WB",
+          "instruction": "Choose the correct word, adjective or adverb",
+          "note": "WB 2a Circle → Blank с вариантами в hint; 1 quickly — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I lived in Dubai for ten years, so I speak Arabic {}.",
+              "gaps": [
+                [
+                  "fluently"
+                ]
+              ],
+              "hint": "(fluent / fluently)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "The meal was very {}, but it was very expensive.",
+              "gaps": [
+                [
+                  "good"
+                ]
+              ],
+              "hint": "(good / well)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "When you’ve finished writing your article, go back and check it {}.",
+              "gaps": [
+                [
+                  "carefully"
+                ]
+              ],
+              "hint": "(careful / carefully)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "It’s {} to lose weight if you do lots of exercise.",
+              "gaps": [
+                [
+                  "easy"
+                ]
+              ],
+              "hint": "(easy / easily)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "It was a great holiday, but we had really {} weather.",
+              "gaps": [
+                [
+                  "bad"
+                ]
+              ],
+              "hint": "(bad / badly)"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "I’ve met Matt a few times, but I don’t know him {}.",
+              "gaps": [
+                [
+                  "well"
+                ]
+              ],
+              "hint": "(good / well)"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I really like our new teacher because she explains everything very {}.",
+              "gaps": [
+                [
+                  "clearly"
+                ]
+              ],
+              "hint": "(clear / clearly)"
+            }
+          ]
+        },
+        {
+          "id": "5A-wb2b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the comparative form of the adjective or adverb in brackets",
+          "note": "WB 2b; 1 more patient — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "We aren’t in a hurry. You can drive a bit {}.",
+              "gaps": [
+                [
+                  "more slowly",
+                  "slower"
+                ]
+              ],
+              "hint": "(slow)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "The summers here are {} than they were in the past.",
+              "gaps": [
+                [
+                  "hotter"
+                ]
+              ],
+              "hint": "(hot)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I failed the exam. I’ll work {} next time.",
+              "gaps": [
+                [
+                  "harder"
+                ]
+              ],
+              "hint": "(hard)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "It’s {} to my parents’ house than it is to my boyfriend’s.",
+              "gaps": [
+                [
+                  "further",
+                  "farther"
+                ]
+              ],
+              "hint": "(far)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "My husband is a {} cook than me.",
+              "gaps": [
+                [
+                  "better"
+                ]
+              ],
+              "hint": "(good)"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "A motorbike is {} than a car.",
+              "gaps": [
+                [
+                  "more dangerous"
+                ]
+              ],
+              "hint": "(dangerous)"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "You type {} than me.",
+              "gaps": [
+                [
+                  "more quickly",
+                  "quicker"
+                ]
+              ],
+              "hint": "(quick)"
+            }
+          ]
+        },
+        {
+          "id": "5A-wb2c",
+          "origin": "WB",
+          "instruction": "Rewrite the sentences with as…as",
+          "note": "WB 2c; 1 My old car doesn’t go as fast as my new one — пример. Начало второго предложения дано в text",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Her shoes were more expensive than her handbag. → Her handbag wasn’t {}.",
+              "gaps": [
+                [
+                  "as expensive as her shoes"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "My sister’s office is bigger than mine. → My office isn’t {}.",
+              "gaps": [
+                [
+                  "as big as my sister’s",
+                  "as big as my sister’s office",
+                  "as big as my sister's",
+                  "as big as my sister's office"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Spain played better than Germany. → Germany didn’t {}.",
+              "gaps": [
+                [
+                  "play as well as Spain",
+                  "play as well as Spain did"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "You drive more carefully than me. → I don’t {}.",
+              "gaps": [
+                [
+                  "drive as carefully as you",
+                  "drive as carefully as you do"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Harry looks more relaxed than Sally. → Sally doesn’t {}.",
+              "gaps": [
+                [
+                  "look as relaxed as Harry",
+                  "look as relaxed as Harry does"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5A-wb2d",
+          "origin": "WB",
+          "images": [
+            "5a_wb2d_chart"
+          ],
+          "instruction": "Look at the chart comparing life today and five years ago. Complete the sentences",
+          "note": "WB 2d; таблица «Daily life in numbers» — картинкой из WB p.33 (WB_CROPS). 1 Food is more expensive than it was five years ago — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "popular: Phones are {} they were five years ago.",
+              "gaps": [
+                [
+                  "more popular than"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "expensive: Electric cars aren’t as {} they were five years ago.",
+              "gaps": [
+                [
+                  "expensive as"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "small: Cinema audiences are {}.",
+              "gaps": [
+                [
+                  "smaller than they were five years ago",
+                  "smaller than five years ago"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "bad: The traffic {}.",
+              "gaps": [
+                [
+                  "is worse than it was five years ago",
+                  "is worse than five years ago",
+                  "’s worse than it was five years ago"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "happy: People {}.",
+              "gaps": [
+                [
+                  "are less happy than they were five years ago",
+                  "aren’t as happy as they were five years ago",
+                  "are not as happy as they were five years ago",
+                  "are less happy than five years ago",
+                  "aren't as happy as they were five years ago"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5A-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the comparative form of the adjective.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "My new flat is {} than my old one.",
+              "gaps": [
+                [
+                  "bigger"
+                ]
+              ],
+              "hint": "(big)",
+              "explain": "One vowel + one consonant: double it – bigger.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Trains are {} than buses.",
+              "gaps": [
+                [
+                  "more comfortable"
+                ]
+              ],
+              "hint": "(comfortable)",
+              "explain": "Long adjectives take more.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Today is {} than yesterday.",
+              "gaps": [
+                [
+                  "sunnier"
+                ]
+              ],
+              "hint": "(sunny)",
+              "explain": "Consonant + y → -ier.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "This film is {} than the book.",
+              "gaps": [
+                [
+                  "worse"
+                ]
+              ],
+              "hint": "(bad)",
+              "explain": "bad → worse.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I feel {} now that the exams are over.",
+              "gaps": [
+                [
+                  "more relaxed"
+                ]
+              ],
+              "hint": "(relaxed)",
+              "explain": "Adjectives ending in -ed take more.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "The station is {} than I thought.",
+              "gaps": [
+                [
+                  "further",
+                  "farther"
+                ]
+              ],
+              "hint": "(far)",
+              "explain": "far → further / farther.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "My brother is {} than me – he never gets angry.",
+              "gaps": [
+                [
+                  "calmer"
+                ]
+              ],
+              "hint": "(calm)",
+              "explain": "One syllable: + -er.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Your English is {} than mine.",
+              "gaps": [
+                [
+                  "better"
+                ]
+              ],
+              "hint": "(good)",
+              "explain": "good → better.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5A-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the comparative form of the adverb.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Could you speak {}, please? I can’t understand you.",
+              "gaps": [
+                [
+                  "more slowly",
+                  "slower"
+                ]
+              ],
+              "hint": "(slowly)",
+              "explain": "-ly adverbs take more.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "She runs {} than anyone in her class.",
+              "gaps": [
+                [
+                  "faster"
+                ]
+              ],
+              "hint": "(fast)",
+              "explain": "fast → faster.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I sleep {} when I don’t drink coffee in the evening.",
+              "gaps": [
+                [
+                  "better"
+                ]
+              ],
+              "hint": "(well)",
+              "explain": "well → better.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "He played {} today than last week – he lost every game.",
+              "gaps": [
+                [
+                  "worse"
+                ]
+              ],
+              "hint": "(badly)",
+              "explain": "badly → worse.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "You need to drive {} in the city centre.",
+              "gaps": [
+                [
+                  "more carefully"
+                ]
+              ],
+              "hint": "(carefully)",
+              "explain": "-ly adverbs take more.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "My dad works {} than he did ten years ago.",
+              "gaps": [
+                [
+                  "harder"
+                ]
+              ],
+              "hint": "(hard)",
+              "explain": "hard → harder.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5A-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Rewrite the sentences with (not) as…as.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "My car is faster than yours.",
+              "hint": "(Your car isn’t…)",
+              "answers": [
+                "Your car isn’t as fast as mine.",
+                "Your car is not as fast as mine.",
+                "Your car isn't as fast as mine."
+              ],
+              "explain": "not as + adjective + as.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "London is more expensive than Madrid.",
+              "hint": "(Madrid isn’t…)",
+              "answers": [
+                "Madrid isn’t as expensive as London.",
+                "Madrid is not as expensive as London.",
+                "Madrid isn't as expensive as London."
+              ],
+              "explain": "not as + adjective + as.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Anna sings better than Maria.",
+              "hint": "(Maria doesn’t…)",
+              "answers": [
+                "Maria doesn’t sing as well as Anna.",
+                "Maria does not sing as well as Anna.",
+                "Maria doesn't sing as well as Anna."
+              ],
+              "explain": "The adverb of good is well: as well as.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "Last winter was colder than this winter.",
+              "hint": "(This winter isn’t…)",
+              "answers": [
+                "This winter isn’t as cold as last winter.",
+                "This winter is not as cold as last winter.",
+                "This winter isn't as cold as last winter."
+              ],
+              "explain": "not as + adjective + as.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "Tom walks more quickly than his dad.",
+              "hint": "(His dad doesn’t…)",
+              "answers": [
+                "His dad doesn’t walk as quickly as Tom.",
+                "His dad does not walk as quickly as Tom.",
+                "His dad doesn't walk as quickly as Tom."
+              ],
+              "explain": "not as + adverb + as.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "I’m less patient than my sister.",
+              "hint": "(I’m not…)",
+              "answers": [
+                "I’m not as patient as my sister.",
+                "I am not as patient as my sister.",
+                "I'm not as patient as my sister."
+              ],
+              "explain": "less + adjective = not as + adjective + as.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5A-grammar-x4",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "My sister is more tall than me.",
+              "answers": [
+                "My sister is taller than me.",
+                "My sister is taller than I am."
+              ],
+              "explain": "One syllable: + -er.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "This test is easyer than the last one.",
+              "answers": [
+                "This test is easier than the last one."
+              ],
+              "explain": "Consonant + y → -ier.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "He isn’t as friendly than his brother.",
+              "answers": [
+                "He isn’t as friendly as his brother.",
+                "He is not as friendly as his brother.",
+                "He isn't as friendly as his brother."
+              ],
+              "explain": "as … as, not as … than.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "She speaks English more good than me.",
+              "answers": [
+                "She speaks English better than me.",
+                "She speaks English better than I do."
+              ],
+              "explain": "well → better.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "The weather is more bad today.",
+              "answers": [
+                "The weather is worse today."
+              ],
+              "explain": "bad → worse.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5A-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "/ə/",
+      "reference": [
+        {
+          "type": "note",
+          "title": "/ə/ in comparatives",
+          "text": "The final -er in comparatives, and the words as and than in a sentence, are unstressed and have the sound /ə/ (computer): faster /ˈfɑːstə/, as patient as /əz ˈpeɪʃnt əz/, than /ðən/."
+        },
+        {
+          "type": "note",
+          "title": "Rhythm",
+          "text": "Stress the important words (the adjective, the nouns) and say as, than, and -er quickly: Life is FASTer than beFORE. People AREn’t as PAtient as they WERE beFORE."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "5A-sb3d",
+          "origin": "SB",
+          "instruction": "Listen to the sentences in 3b. Which vowel sound do the pink letters have?",
+          "note": "SB 3d «What is the vowel sound for…?» → Sort по колонкам computer /ə/ и cat /æ/ (сильная форма as / than — для выбора). Ответ MODEL (правило)",
+          "columns": [
+            "computer /ə/",
+            "cat /æ/"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "sort",
+              "word": "fast[er]",
+              "column": 1,
+              "explain": "The final -er in a comparative is unstressed: /ə/.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "sort",
+              "word": "[a]s patient [a]s",
+              "column": 1,
+              "explain": "as in a sentence is weak: /əz/.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "sort",
+              "word": "th[a]n",
+              "column": 1,
+              "explain": "than in a sentence is weak: /ðən/.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5A-sb3e",
+          "origin": "SB",
+          "audio": "5.6",
+          "instruction": "Listen again and repeat the sentences. Copy the rhythm and try to get the /ə/ sound right",
+          "note": "SB 3e → Speak по фразам 5.6 (клипы). В записи «Traffic in the cities», в книге «in cities» — принимаются оба",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "Life is faster than before.",
+              "source": "CONFIRMED",
+              "clip": [
+                0.2,
+                3.04
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "Traffic in cities is worse than it was.",
+              "answers": [
+                "Traffic in cities is worse than it was.",
+                "Traffic in the cities is worse than it was."
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                4.8,
+                8.06
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "Everybody is busier than they were five years ago.",
+              "source": "CONFIRMED",
+              "clip": [
+                9.84,
+                13.63
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "We are more stressed than our grandparents were.",
+              "source": "CONFIRMED",
+              "clip": [
+                15.41,
+                19.13
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "We do everything more quickly.",
+              "source": "CONFIRMED",
+              "clip": [
+                20.95,
+                23.37
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "People aren’t as patient as they were before.",
+              "source": "CONFIRMED",
+              "clip": [
+                25.04,
+                28.31
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5A-wb3a",
+          "origin": "WB",
+          "instruction": "Tap the parts with the /ə/ sound",
+          "note": "WB 3a «Circle the /ə/ sounds» → Stress: слоги (|) или слова ([…]), отметить те, где /ə/; 1 busier — пример. Ключ: as, as / -er / as, as / than / -er",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "stress",
+              "text": "[not] [as] [old] [as]",
+              "stressed": [
+                2,
+                4
+              ]
+            },
+            {
+              "n": 3,
+              "type": "stress",
+              "text": "bet|ter",
+              "stressed": [
+                2
+              ]
+            },
+            {
+              "n": 4,
+              "type": "stress",
+              "text": "[as] [good] [as]",
+              "stressed": [
+                1,
+                3
+              ]
+            },
+            {
+              "n": 5,
+              "type": "stress",
+              "text": "[more] [than]",
+              "stressed": [
+                2
+              ]
+            },
+            {
+              "n": 6,
+              "type": "stress",
+              "text": "quick|er",
+              "stressed": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5A-wb3b",
+          "origin": "WB",
+          "instruction": "Listen and repeat the words and phrases",
+          "note": "WB 3b (трек WB 5.1 — аудио WB нет): Speak, образец — синтезатор (как 2B-wb3b)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "busier"
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "not as old as"
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "better"
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "as good as"
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "more than"
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "quicker"
+            }
+          ]
+        },
+        {
+          "id": "5A-wb3c",
+          "origin": "WB",
+          "instruction": "Look at the words in brackets. Tap the ones with the /ə/ sound",
+          "note": "WB 3c «Look at the bold letters. Circle the /ə/ sounds» → Stress: слова с жирными буквами в […]; 1 — пример. Ключ: as, as / -er, than / -er, of / as, as / as, as",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "stress",
+              "text": "His last book [wasn’t] [as] good [as] his first one.",
+              "stressed": [
+                2,
+                3
+              ]
+            },
+            {
+              "n": 3,
+              "type": "stress",
+              "text": "I’m [busier] [than] I was [last] year.",
+              "stressed": [
+                1,
+                2
+              ]
+            },
+            {
+              "n": 4,
+              "type": "stress",
+              "text": "It’s [cheaper] to buy that kind [of] thing [online].",
+              "stressed": [
+                1,
+                2
+              ]
+            },
+            {
+              "n": 5,
+              "type": "stress",
+              "text": "I don’t spend [as] much time [working] [as] before.",
+              "stressed": [
+                1,
+                3
+              ]
+            },
+            {
+              "n": 6,
+              "type": "stress",
+              "text": "This test isn’t [as] [easy] [as] it looks.",
+              "stressed": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5A-wb3d",
+          "origin": "WB",
+          "instruction": "Listen and repeat the sentences",
+          "note": "WB 3d (трек WB 5.2 — аудио WB нет): Speak на фразы из 3c, образец — синтезатор",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "The 10.15 train’s much faster than the 9.55.",
+              "answers": [
+                "The 10.15 train’s much faster than the 9.55.",
+                "The ten fifteen train’s much faster than the nine fifty-five."
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "His last book wasn’t as good as his first one."
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "I’m busier than I was last year."
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "It’s cheaper to buy that kind of thing online."
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "I don’t spend as much time working as before."
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "This test isn’t as easy as it looks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5A-skills",
+      "kind": "SKILLS",
+      "title": "Reading, Speaking & Listening",
+      "reference": [
+        {
+          "type": "note",
+          "title": "often, sometimes, never",
+          "text": "Answer questions about habits with often, sometimes, or never: Do you get impatient in queues? – Yes, often. / Sometimes. / No, never."
+        },
+        {
+          "type": "note",
+          "title": "Comparing then and now",
+          "text": "I spend more / less time cooking than before. I have less free time than I did three years ago. I don’t have time for… I’d like to have more time for…"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "5A-sb1a",
+          "origin": "SB",
+          "instruction": "How fast is your life? Answer the questionnaire with often, sometimes, or never. Then listen to your result",
+          "note": "SB 1a+1b + Communication 5A (p.109): ИИ задаёт 6 вопросов анкеты, считает баллы (never 1, sometimes 2, often 3) и читает результат из книги; ученик говорит, согласен ли",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate) doing the questionnaire ‘How fast is your life?’. Ask the student these questions one at a time and wait for an answer with often, sometimes, or never (ask ‘Why?’ or ‘Can you give an example?’ once or twice): 1 Do people tell you that you talk too quickly? 2 Do you get impatient when other people are talking? 3 Are you the first person to finish at mealtimes? 4 When you are walking along a street, do you feel frustrated when you are behind people who are walking more slowly? 5 Do you get irritable if you sit for an hour without doing anything, e.g. waiting for the doctor? 6 Do you walk out of shops and restaurants if there is a queue? Count the points: never = 1, sometimes = 2, often = 3. Then tell the student the total and read the result. 6–9: ‘You are living life in the slow lane. Compared to most people, you take things easy and don’t get stressed by modern-day living. You are patient, relaxed, and easy-going. Most of the time this is good news, but sometimes it can be a problem. For example, are you sometimes late for appointments?’ 10–14: ‘You have a medium pace of life. You are probably somebody who can change the speed at which you live depending on the situation.’ 15–18: ‘You are living life in the fast lane, rushing around and trying to do many different activities and projects at the same time. You are impatient and you find it difficult to relax. You are probably very productive, but your relationships and health could suffer as a result.’ Then ask: Do you agree?",
+              "goal": "How fast is your life? Answer the questionnaire.",
+              "opener": "Let’s do the questionnaire ‘How fast is your life?’. Question 1: do people tell you that you talk too quickly?",
+              "criteria": [
+                "answers all six questions with often, sometimes, or never",
+                "adds a reason or an example to at least two answers",
+                "says if they agree with the result and why",
+                "uses a comparative at least once (e.g. I walk faster than my friends)"
+              ],
+              "steps": [
+                {
+                  "text": "Answer questions 1–3 with often, sometimes, or never",
+                  "example": "Sometimes. My friends say I talk more quickly when I’m nervous."
+                },
+                {
+                  "text": "Answer questions 4–6",
+                  "example": "Often. I hate walking behind people who are walking more slowly than me."
+                },
+                {
+                  "text": "Listen to your result and say if you agree",
+                  "example": "Yes, I agree. I’m quite impatient, especially in the morning."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5A-sb1c",
+          "origin": "SB",
+          "images": [
+            "5a_sb1_infographic"
+          ],
+          "context": "I WANT IT, AND I WANT IT NOW! Why are we so impatient?\nTuesday 22 Oct 6:00 am\n\nWhatever happened to patience? We don’t like waiting for things anymore. With faster broadband, instant searches, and immediate downloads, we expect things to happen immediately, and if they don’t we get impatient.\n\nFast food restaurants have changed the way we eat. The growth of mobile phone apps like Tinder has changed the way we meet new people. We don’t need to wait a week to see the next episode of a TV series – we can download it on Netflix. We are even walking 10% faster than 20 years ago, and talking more quickly. Everything is getting faster, but is it getting better? That depends on how fast you like to live.",
+          "instruction": "Read the article. What is the main reason why life is faster today?",
+          "note": "SB 1c; текст статьи — в context, инфографика — картинкой из SB p.38. Ответ MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "The main reason is {}: faster broadband, instant searches, and immediate downloads.",
+              "gaps": [
+                [
+                  "technology",
+                  "modern technology",
+                  "the internet",
+                  "the Internet",
+                  "new technology"
+                ]
+              ],
+              "explain": "The article says that with faster broadband, instant searches, and downloads, we expect things to happen immediately.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5A-sb1d",
+          "origin": "SB",
+          "images": [
+            "5a_sb1_infographic"
+          ],
+          "context": "Whatever happened to patience? We don’t like waiting for things anymore. With faster broadband, instant searches, and immediate downloads, we expect things to happen immediately, and if they don’t we get impatient.\n\nFast food restaurants have changed the way we eat. The growth of mobile phone apps like Tinder has changed the way we meet new people. We don’t need to wait a week to see the next episode of a TV series – we can download it on Netflix. We are even walking 10% faster than 20 years ago, and talking more quickly. Everything is getting faster, but is it getting better? That depends on how fast you like to live.",
+          "instruction": "Find the answers to questions 1–8 in the article and the infographic",
+          "note": "SB 1d; свободные ответы → пропуск по тексту статьи и инфографики (картинка). Ответы MODEL, по напечатанному тексту",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "How do we feel when things don’t happen immediately? We get {}.",
+              "gaps": [
+                [
+                  "impatient"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "What has changed the way we meet people? Mobile phone {} like Tinder.",
+              "gaps": [
+                [
+                  "apps"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "How much faster are we walking than in the past? {} faster than 20 years ago.",
+              "gaps": [
+                [
+                  "10%",
+                  "10 per cent",
+                  "ten per cent",
+                  "10 percent"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "How many Google searches are made every hour? More than {}.",
+              "gaps": [
+                [
+                  "125m",
+                  "125 million",
+                  "a hundred and twenty-five million",
+                  "125,000,000"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "How many people decide not to go back to a web page if it takes more than ten seconds to load? {} out of five.",
+              "gaps": [
+                [
+                  "Three",
+                  "3"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "What do some Facebook users expect to get less than a minute after posting a picture? A {}.",
+              "gaps": [
+                [
+                  "like",
+                  "‘like’"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "How long are British people prepared to wait for a bus? {} minutes.",
+              "gaps": [
+                [
+                  "6",
+                  "six"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Which activity do they find more annoying? Waiting for a replacement {}.",
+              "gaps": [
+                [
+                  "credit card"
+                ]
+              ],
+              "hint": "(credit card / shopping delivery)",
+              "explain": "In the list it is number 2; waiting for a shopping delivery is number 3.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5A-sb1e",
+          "origin": "SB",
+          "instruction": "Find technology words in the article that match the definitions",
+          "note": "SB 1e «Underline six technology words» → Blank по определениям (наши, MODEL)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "a fast internet connection: {}",
+              "gaps": [
+                [
+                  "broadband"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "things you look for on the internet, e.g. on Google: {}",
+              "gaps": [
+                [
+                  "searches"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "files, films, or music that you copy from the internet: {}",
+              "gaps": [
+                [
+                  "downloads"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "programs on a mobile phone, e.g. Tinder: {}",
+              "gaps": [
+                [
+                  "apps"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "one page of a website: a {}",
+              "gaps": [
+                [
+                  "web page",
+                  "webpage"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "a place on the internet with information, e.g. a website: a {}",
+              "gaps": [
+                [
+                  "site"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5A-sb1f",
+          "origin": "SB",
+          "instruction": "Answer the questions about the article with a partner",
+          "note": "SB 1f → Talk",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You both read an article about how impatient people are today (50% of users leave a web page that doesn’t load in ten seconds; a third of British people expect a like on Facebook in less than a minute; people wait only 4 minutes for a drink in a bar and 6 minutes for a bus; the most hated time-wasting activities: waiting to be connected on the phone, waiting for a replacement credit card, waiting for a shopping delivery, waiting for a delayed flight, being stuck in traffic). Ask the student the three questions one at a time and give your own short opinion after each answer: 1 Do you think the statistics are true in your country? 2 Which of the ‘time-wasting’ activities annoys you the most? Why? 3 Do you think it’s a good thing that life is getting faster? Why (not)?",
+              "goal": "Discuss the article about impatience.",
+              "opener": "Interesting article! Do you think the statistics are true in your country?",
+              "criteria": [
+                "answers all three questions with reasons (because…)",
+                "names one of the time-wasting activities and explains why it annoys them",
+                "uses at least one comparative or as…as (e.g. People here are more patient than in Britain)"
+              ],
+              "steps": [
+                {
+                  "text": "Say if the statistics are true in your country",
+                  "example": "I think they’re true. People here are even more impatient than in Britain."
+                },
+                {
+                  "text": "Say which time-wasting activity annoys you most",
+                  "example": "Being stuck in traffic, because I can’t do anything and I’m always late."
+                },
+                {
+                  "text": "Say if faster life is a good thing",
+                  "example": "Not really. We do everything more quickly, but we’re more stressed."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5A-sb4a",
+          "origin": "SB",
+          "audio": "5.7",
+          "instruction": "Listen to five people talking about how their life has changed over the last three years. What are they talking about?",
+          "note": "SB 4a «Write the numbers of the speakers next to the topics» → Blank: тема каждого говорящего словами из списка; ответы по скрипту 5.8 (SB p.121)",
+          "words": [
+            "working or studying",
+            "getting to work, university, or school",
+            "sitting in traffic",
+            "talking on the phone",
+            "seeing friends",
+            "online",
+            "sleeping",
+            "cooking",
+            "shopping",
+            "using your computer"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Speaker 1 is talking about {}.",
+              "gaps": [
+                [
+                  "shopping"
+                ]
+              ],
+              "explain": "She buys most things online now, so shopping takes less time.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Speaker 2 is talking about {}.",
+              "gaps": [
+                [
+                  "getting to work",
+                  "getting to work, university, or school"
+                ]
+              ],
+              "explain": "He cycles to work now, so it takes longer.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Speaker 3 is talking about {}.",
+              "gaps": [
+                [
+                  "cooking"
+                ]
+              ],
+              "explain": "She cooks for about an hour a day now.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Speaker 4 is talking about {}.",
+              "gaps": [
+                [
+                  "working",
+                  "working or studying"
+                ]
+              ],
+              "explain": "He’s a freelance writer and works the same hours on average.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Speaker 5 is talking about {}.",
+              "gaps": [
+                [
+                  "seeing friends"
+                ]
+              ],
+              "explain": "She moved to the country, so she sees her friends less.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "5A-sb4b",
+          "origin": "SB",
+          "audio": "5.8",
+          "instruction": "Listen again. Answer the questions with the number of the speaker. Who…?",
+          "note": "SB 4b; ответ — номер говорящего цифрой или словом, по скрипту 5.8",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "spends the same time on something as before, but divides his / her time differently: Speaker {}",
+              "gaps": [
+                [
+                  "4",
+                  "four"
+                ]
+              ],
+              "explain": "Speaker 4 works 50 hours one week and 20 the next – the same on average.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "spends more time doing something online: Speaker {}",
+              "gaps": [
+                [
+                  "1",
+                  "one"
+                ]
+              ],
+              "explain": "Speaker 1 buys food, books, and clothes online.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "spends less time on something because of not living in the city now: Speaker {}",
+              "gaps": [
+                [
+                  "5",
+                  "five"
+                ]
+              ],
+              "explain": "Speaker 5 moved from the city to the country two years ago.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "spends more time on something because it’s good for him / her: Speaker {}",
+              "gaps": [
+                [
+                  "2",
+                  "two"
+                ]
+              ],
+              "explain": "Speaker 2 cycles to work – it takes longer, but it’s healthier.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "spends more time on something because of living with his / her partner: Speaker {}",
+              "gaps": [
+                [
+                  "3",
+                  "three"
+                ]
+              ],
+              "explain": "Speaker 3 started cooking when she moved in with her boyfriend.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "5A-sb4c",
+          "origin": "SB",
+          "instruction": "How has your life changed over the last three years? Answer the questions",
+          "note": "SB 4a (вопросы 1–3 анкеты) + 4c → Talk: ИИ спрашивает, ученик отвечает с comparatives",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). Ask the student about how their life has changed over the last three years, one question at a time: 1 Do you spend more or less time… working or studying / getting to work, university, or school / sitting in traffic / talking on the phone / seeing friends / online / sleeping / cooking / shopping / using your computer? Why? (choose four or five of these, one at a time) 2 Do you have more or less free time? Why? 3 What don’t you have time for nowadays? What would you like to have more time for? React to each answer and say something about your own life (e.g. I spend more time studying than before because I’m in my last year at university.). At the end, say whose life has changed more, yours or theirs.",
+              "goal": "How has your life changed over the last three years?",
+              "opener": "Let’s compare our lives now and three years ago. Do you spend more or less time working or studying? Why?",
+              "criteria": [
+                "uses more / less time + -ing or + noun correctly (I spend more time cooking)",
+                "gives a reason with because for most answers",
+                "uses comparatives or as…as correctly at least three times",
+                "says what they don’t have time for and what they’d like more time for"
+              ],
+              "steps": [
+                {
+                  "text": "Say if you spend more or less time on different things and why",
+                  "example": "I spend less time sitting in traffic than before because I work from home now."
+                },
+                {
+                  "text": "Say if you have more or less free time",
+                  "example": "I have less free time than I did three years ago because I’ve got a baby."
+                },
+                {
+                  "text": "Say what you don’t have time for and what you’d like more time for",
+                  "example": "I don’t have time for reading. I’d like to have more time for sport."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

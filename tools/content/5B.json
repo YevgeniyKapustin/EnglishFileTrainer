@@ -1,0 +1,720 @@
+{
+  "id": "5B",
+  "title": "Twelve lost wallets",
+  "bubbles": [
+    "What’s the most beautiful beach you’ve ever been to?",
+    "Isla Cristina in Andalucia, Spain."
+  ],
+  "sources": "SB p.40–41 (PDF 41–42), Vocabulary Bank p.156 (PDF 157), Grammar Bank p.134–135 (PDF 135–136), Writing p.116 (PDF 117), scripts p.121–122 (PDF 122–123); WB p.34–35 (PDF 33–34), key WB p.90–91 (PDF 89–90)",
+  "sections": [
+    {
+      "id": "5B-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "describing a town or city",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Where is it? How big is it?",
+          "text": "York is a city in the north of England, on the River Ouse. It’s about 25 miles east of Leeds. It’s a medium-sized city and it has a population of about 200,000. It’s famous for its cathedral."
+        },
+        {
+          "type": "table",
+          "title": "What’s it like?",
+          "headers": ["Adjective", "Opposite"],
+          "rows": [
+            ["boring", "exciting, interesting"],
+            ["crowded", "empty"],
+            ["dangerous", "safe"],
+            ["modern", "historic"],
+            ["noisy", "quiet"],
+            ["polluted", "clean"]
+          ],
+          "audio": "5.10"
+        },
+        {
+          "type": "table",
+          "title": "What is there to see?",
+          "headers": ["Group", "Places"],
+          "rows": [
+            ["religious buildings", "cathedral, church, mosque, synagogue, temple"],
+            ["places where you can buy things", "department store, market, shopping centre (mall)"],
+            ["historic buildings and monuments", "castle, city walls, museum, palace, ruins, statue, town hall"],
+            ["others", "bridge, canal, harbour, hill, lake"]
+          ],
+          "audio": "5.11"
+        },
+        {
+          "type": "mistake",
+          "wrong": "It’s in the north England.",
+          "right": "It’s in the north of England.",
+          "why": "in the north / south / east / west of + a country or region."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "5B-sb1a",
+          "origin": "SB",
+          "instruction": "Answer these questions about where you live",
+          "note": "SB 1a + Vocabulary Bank ACTIVATION (p.156) → Talk: ИИ спрашивает про город ученика",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). Ask the student about the place where they live, one question at a time: Do you live in a village, a town, or a city? Where is it? How big is it? What’s the population? What’s it like? What is there to see? React to each answer. If the student can’t continue, give an example about your own city in the same way as the book’s example: ‘York is a city in the north of England, on the River Ouse. It’s about 25 miles east of Leeds. It’s a medium-sized city with a population of about 200,000. It’s famous for its cathedral.’ At the end ask which places (a castle, a market, a harbour, a museum…) are there or aren’t there in their town.",
+              "goal": "Describe the place where you live.",
+              "opener": "So, tell me about where you live. Do you live in a village, a town, or a city?",
+              "criteria": [
+                "says where the place is (in the north / south… of, on the river / coast, … miles / kilometres from…)",
+                "says how big it is and the population with a correct number",
+                "uses at least three adjectives from the lesson (noisy, polluted, historic, safe…)",
+                "names at least three places to see (cathedral, market, castle, bridge…)"
+              ],
+              "steps": [
+                {"text": "Say if you live in a village, a town, or a city, and where it is", "example": "I live in a city in the south of Poland, on the River Vistula."},
+                {"text": "Say how big it is and what the population is", "example": "It’s a large city with a population of about 800,000."},
+                {"text": "Say what it’s like", "example": "It’s quite historic and safe, but it’s crowded and a bit polluted in winter."},
+                {"text": "Say what there is to see", "example": "There’s a castle, a big market square, and a lot of churches and museums."}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5B-vb1a",
+          "origin": "SB",
+          "audio": "5.9",
+          "images": ["5b_vb1a_map"],
+          "instruction": "Look at the map. Then read the description of York and choose the correct words",
+          "note": "Vocabulary Bank 1a+1b Circle → Blank с вариантами в hint; north — пример. Карта — картинкой (SB p.156). Ответы подтверждены аудио 5.9",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "York is a city in the north of England, on {}.", "gaps": [["the River Ouse"]], "hint": "(the River Ouse / the coast)", "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "It’s about 25 miles {} of Leeds.", "gaps": [["east"]], "hint": "(east / west)", "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "It’s a {} city and it has a population of about 200,000.", "gaps": [["medium-sized", "medium sized"]], "hint": "(small / medium-sized / large)", "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "5B-vb2a",
+          "origin": "SB",
+          "audio": "5.10",
+          "instruction": "Which adjective describes each sentence?",
+          "note": "Vocabulary Bank 2a Match → Blank; 5 There’s nothing to do → boring — пример. Ответы подтверждены аудио 5.10",
+          "words": ["crowded", "dangerous", "modern", "noisy", "polluted"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "There are a lot of bars and clubs with loud music. → {}", "gaps": [["noisy"]], "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "The air is very dirty. → {}", "gaps": [["polluted"]], "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "There are too many people. → {}", "gaps": [["crowded"]], "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "The buildings were all built quite recently. → {}", "gaps": [["modern"]], "source": "CONFIRMED"},
+            {"n": 6, "type": "blank", "text": "You have to be careful, especially at night. → {}", "gaps": [["dangerous"]], "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "5B-vb2b",
+          "origin": "SB",
+          "audio": "5.10",
+          "instruction": "Write the opposites of the adjectives",
+          "note": "Vocabulary Bank 2b Match → Blank; boring – exciting — пример, но interesting тоже пара к boring, поэтому boring оставлен с interesting. Ответы подтверждены аудио 5.10",
+          "words": ["clean", "empty", "historic", "interesting", "quiet", "safe"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "boring ↔ exciting, {}", "gaps": [["interesting"]], "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "crowded ↔ {}", "gaps": [["empty"]], "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "dangerous ↔ {}", "gaps": [["safe"]], "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "modern ↔ {}", "gaps": [["historic"]], "source": "CONFIRMED"},
+            {"n": 5, "type": "blank", "text": "noisy ↔ {}", "gaps": [["quiet"]], "source": "CONFIRMED"},
+            {"n": 6, "type": "blank", "text": "polluted ↔ {}", "gaps": [["clean"]], "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "5B-vb3a",
+          "origin": "SB",
+          "audio": "5.11",
+          "instruction": "Which group does each place belong to?",
+          "note": "Vocabulary Bank 3a «Put the words in the correct column» → Blank на каждое слово с группами в hint (как 2A); cathedral, department store, castle, bridge, canal — примеры. Ответы подтверждены аудио 5.11",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "church → {}", "gaps": [["religious buildings"]], "hint": "(religious buildings / places where you can buy things / historic buildings and monuments / others)", "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "mosque → {}", "gaps": [["religious buildings"]], "hint": "(religious buildings / places where you can buy things / historic buildings and monuments / others)", "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "synagogue → {}", "gaps": [["religious buildings"]], "hint": "(religious buildings / places where you can buy things / historic buildings and monuments / others)", "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "temple → {}", "gaps": [["religious buildings"]], "hint": "(religious buildings / places where you can buy things / historic buildings and monuments / others)", "source": "CONFIRMED"},
+            {"n": 5, "type": "blank", "text": "market → {}", "gaps": [["places where you can buy things"]], "hint": "(religious buildings / places where you can buy things / historic buildings and monuments / others)", "source": "CONFIRMED"},
+            {"n": 6, "type": "blank", "text": "shopping centre (mall) → {}", "gaps": [["places where you can buy things"]], "hint": "(religious buildings / places where you can buy things / historic buildings and monuments / others)", "source": "CONFIRMED"},
+            {"n": 7, "type": "blank", "text": "city walls → {}", "gaps": [["historic buildings and monuments"]], "hint": "(religious buildings / places where you can buy things / historic buildings and monuments / others)", "source": "CONFIRMED"},
+            {"n": 8, "type": "blank", "text": "museum → {}", "gaps": [["historic buildings and monuments"]], "hint": "(religious buildings / places where you can buy things / historic buildings and monuments / others)", "source": "CONFIRMED"},
+            {"n": 9, "type": "blank", "text": "palace → {}", "gaps": [["historic buildings and monuments"]], "hint": "(religious buildings / places where you can buy things / historic buildings and monuments / others)", "source": "CONFIRMED"},
+            {"n": 10, "type": "blank", "text": "ruins → {}", "gaps": [["historic buildings and monuments"]], "hint": "(religious buildings / places where you can buy things / historic buildings and monuments / others)", "source": "CONFIRMED"},
+            {"n": 11, "type": "blank", "text": "statue → {}", "gaps": [["historic buildings and monuments"]], "hint": "(religious buildings / places where you can buy things / historic buildings and monuments / others)", "source": "CONFIRMED"},
+            {"n": 12, "type": "blank", "text": "town hall → {}", "gaps": [["historic buildings and monuments"]], "hint": "(religious buildings / places where you can buy things / historic buildings and monuments / others)", "source": "CONFIRMED"},
+            {"n": 13, "type": "blank", "text": "harbour → {}", "gaps": [["others"]], "hint": "(religious buildings / places where you can buy things / historic buildings and monuments / others)", "source": "CONFIRMED"},
+            {"n": 14, "type": "blank", "text": "hill → {}", "gaps": [["others"]], "hint": "(religious buildings / places where you can buy things / historic buildings and monuments / others)", "source": "CONFIRMED"},
+            {"n": 15, "type": "blank", "text": "lake → {}", "gaps": [["others"]], "hint": "(religious buildings / places where you can buy things / historic buildings and monuments / others)", "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "5B-wb1a",
+          "origin": "WB",
+          "images": ["5b_wb1a_map"],
+          "context": "Hi Claire,\nSorry, I’m going to be away when you visit, but I hope you and the family have a great weekend here in Winchester. Here are a few ideas and a link to a map.",
+          "instruction": "Complete the email with words from the list. Use the map to help you",
+          "note": "WB 1a; карта Винчестера — картинкой (WB_CROPS). 1 south — пример",
+          "words": ["coast", "east", "medium-sized", "north", "River", "west"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "There are some other great places to see in the {} of the city, like the Law Courts and the Great Hall.", "gaps": [["west"]]},
+            {"n": 3, "type": "blank", "text": "In the evening, you can usually see something at the Theatre Royal, which is in the {} of the city, near the Discovery Centre.", "gaps": [["north"]]},
+            {"n": 4, "type": "blank", "text": "Your hotel is in the {} of the city, near Durngate Place.", "gaps": [["east"]]},
+            {"n": 5, "type": "blank", "text": "It’s a quiet area, and the hotel has a good view of the {} Itchen.", "gaps": [["River"]]},
+            {"n": 6, "type": "blank", "text": "It’s a {} hotel, with about 50 rooms.", "gaps": [["medium-sized", "medium sized"]]},
+            {"n": 7, "type": "blank", "text": "I don’t know if you want to go to the beach, but it’s very easy. The {} is only about 20 minutes by train.", "gaps": [["coast"]]}
+          ]
+        },
+        {
+          "id": "5B-wb1b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the opposite of the adjectives in brackets",
+          "note": "WB 1b; первые буквы из книги убраны (правило). 1 modern — пример",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "Los Angeles is a {} city.", "gaps": [["polluted"]], "hint": "(clean)"},
+            {"n": 3, "type": "blank", "text": "New York is a {} city these days.", "gaps": [["safe"]], "hint": "(dangerous)"},
+            {"n": 4, "type": "blank", "text": "Mumbai is a very {} city.", "gaps": [["noisy"]], "hint": "(quiet)"},
+            {"n": 5, "type": "blank", "text": "What’s the most {} city you’ve ever been to?", "gaps": [["boring"]], "hint": "(interesting)"},
+            {"n": 6, "type": "blank", "text": "The subway in Tokyo is very {}.", "gaps": [["crowded"]], "hint": "(empty)"}
+          ]
+        },
+        {
+          "id": "5B-wb1d",
+          "origin": "WB",
+          "instruction": "Look at the holiday photos and complete the texts with the missing words. Use plurals where necessary",
+          "note": "WB 1d; фото WB p.35 (WB_CROPS) в image; первые буквы из книги убраны; walls — пример",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "This was in Dubrovnik. We walked around the city walls in the morning, bought some fruit for lunch at the {}, and then we walked to the top of the {} to get an amazing view of the city and the sea.", "gaps": [["market"], ["hill"]], "image": "5b_wb1d_1"},
+            {"n": 2, "type": "blank", "text": "This is a photo of a famous {} over one of the {} in Venice – it goes from the palace to a prison on the other side.", "gaps": [["bridge"], ["canals"]], "image": "5b_wb1d_2"},
+            {"n": 3, "type": "blank", "text": "This is a place called Sukhothai in Thailand – these {} are next to a beautiful {}, and you can see all sorts of lovely {} and {} as you walk around.", "gaps": [["ruins"], ["lake"], ["temples"], ["statues"]], "image": "5b_wb1d_3"}
+          ]
+        },
+        {
+          "id": "5B-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with an adjective from the lesson.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "You can’t breathe in the city centre – the air is so {}.", "gaps": [["polluted", "dirty"]], "explain": "polluted = with dirty air or water.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "The beach was {} – there was nobody there.", "gaps": [["empty"]], "explain": "empty is the opposite of crowded.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "The old town is very {} – some buildings are 800 years old.", "gaps": [["historic"]], "explain": "historic is the opposite of modern.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "I can’t sleep here – the street is so {} at night.", "gaps": [["noisy"]], "explain": "noisy = with a lot of loud sounds.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "It’s a {} area – you can walk around at night without any problems.", "gaps": [["safe"]], "explain": "safe is the opposite of dangerous.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "The trains are always {} in the morning – there are too many people.", "gaps": [["crowded"]], "explain": "crowded = with too many people.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "There’s nothing to do in my village. It’s really {}.", "gaps": [["boring"]], "explain": "boring is the opposite of exciting / interesting.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "After the rain the streets were {} and fresh.", "gaps": [["clean"]], "explain": "clean is the opposite of polluted.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "5B-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Write the place.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "a place where Muslims go to pray: a {}", "gaps": [["mosque"]], "explain": "mosque /mɒsk/.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "a place where boats and ships stay: a {}", "gaps": [["harbour", "harbor"]], "explain": "harbour = a safe place for boats on the coast.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "the old parts of a building that remain after it has fallen down: {}", "gaps": [["ruins"]], "explain": "ruins is usually plural.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "a place with old and interesting objects for people to see: a {}", "gaps": [["museum"]], "explain": "museum /mjuˈziːəm/.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "a big building where a king or queen lives: a {}", "gaps": [["palace"]], "explain": "palace /ˈpæləs/.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "the building where the local government works: the {}", "gaps": [["town hall"]], "explain": "town hall = local government building.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "a place where people sell fruit, vegetables, and other things outside: a {}", "gaps": [["market"]], "explain": "market = open-air shops or stalls.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "a man-made river for boats in a city, e.g. in Venice: a {}", "gaps": [["canal"]], "explain": "canal /kəˈnæl/.", "source": "MODEL"},
+            {"n": 9, "type": "blank", "text": "a figure of a person made of stone or metal: a {}", "gaps": [["statue"]], "explain": "statue /ˈstætʃuː/.", "source": "MODEL"},
+            {"n": 10, "type": "blank", "text": "My town is on the coast, about 50 kilometres {} of the capital.", "gaps": [["north", "south", "east", "west"]], "explain": "north / south / east / west of + place.", "source": "MODEL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5B-grammar",
+      "kind": "GRAMMAR",
+      "title": "superlatives (+ ever + present perfect)",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Examples",
+          "headers": ["Example"],
+          "rows": [
+            ["Tokyo is the cleanest capital city in the world."],
+            ["Spain is one of the most popular holiday destinations."],
+            ["Camping is the least expensive way to go on holiday."],
+            ["It’s the most beautiful city I’ve ever been to."],
+            ["It’s the best film I’ve seen this year."]
+          ],
+          "audio": "5.12"
+        },
+        {
+          "type": "table",
+          "title": "Superlative adjectives",
+          "headers": ["Adjective", "Comparative", "Superlative"],
+          "rows": [
+            ["cold", "colder", "the coldest"],
+            ["thin", "thinner", "the thinnest"],
+            ["healthy", "healthier", "the healthiest"],
+            ["beautiful", "more beautiful", "the most beautiful"],
+            ["good", "better", "the best"],
+            ["bad", "worse", "the worst"],
+            ["far", "further", "the furthest (also the farthest)"]
+          ]
+        },
+        {
+          "type": "note",
+          "title": "in, the least",
+          "text": "After superlatives we use in + names of places or singular words for groups of people: It’s the noisiest city in the world. Ann’s the oldest in the class. We can also use the least + adjective: the least expensive = the cheapest."
+        },
+        {
+          "type": "note",
+          "title": "superlative + ever + present perfect",
+          "text": "We often use the + superlative with the present perfect + ever: It’s the most beautiful city I’ve ever been to. What’s the best film you’ve ever seen?"
+        },
+        {
+          "type": "mistake",
+          "wrong": "It’s the noisiest city of the world.",
+          "right": "It’s the noisiest city in the world.",
+          "why": "Use in with places and groups."
+        },
+        {
+          "type": "mistake",
+          "wrong": "It’s the best film I ever saw.",
+          "right": "It’s the best film I’ve ever seen.",
+          "why": "superlative + ever + present perfect."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "5B-sb2b",
+          "origin": "SB",
+          "instruction": "Seven cities did very well in a TripAdvisor survey. Look at the photos and guess which city won each category",
+          "note": "SB 2a+2b; фото городов (SB p.40, tools/images.py) с затёртыми подписями, по фото на категорию. Ключа нет, ответы MODEL (по подсказкам на фото)",
+          "context": "TripAdvisor World Cities Survey is based on responses from over 54,000 travellers’ reviews for cities around the world. The survey looked at different categories, from how clean the cities were to how friendly the taxi drivers were.",
+          "words": ["Budapest", "Dubrovnik", "New York", "Rome", "Stockholm", "Tokyo", "Vienna"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Overall winner: {}. It came first in five of the categories, with the cleanest streets and the best public transport.", "gaps": [["Tokyo"]], "image": "5b_sb2_tokyo", "explain": "The photo shows people cleaning the street.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "The easiest to get around: {}", "gaps": [["Vienna"]], "image": "5b_sb2_vienna", "explain": "The photo shows clear street signs.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "The best value for money: {}", "gaps": [["Budapest"]], "image": "5b_sb2_budapest", "explain": "The photo shows a cheap tourist menu.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "The friendliest taxi drivers: {}", "gaps": [["Dubrovnik"]], "image": "5b_sb2_dubrovnik", "explain": "The photo shows taxis.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "The most exciting nightlife: {}", "gaps": [["New York"]], "image": "5b_sb2_newyork", "explain": "The photo shows theatres at night.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "The most family-friendly: {}", "gaps": [["Stockholm"]], "image": "5b_sb2_stockholm", "explain": "The photo shows children playing.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "The best attractions: {}", "gaps": [["Rome"]], "image": "5b_sb2_rome", "explain": "The photo shows a famous fountain and a lot of tourists.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "5B-sb2c",
+          "origin": "SB",
+          "instruction": "Look at the categories in the survey. Think about your city. Would it do well in any of them?",
+          "note": "SB 2c → Talk",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You both looked at a TripAdvisor survey with these categories: the cleanest streets, the best public transport, the easiest to get around, the best value for money, the friendliest taxi drivers, the most exciting nightlife, the most family-friendly, the best attractions. Ask the student which categories their city (or the nearest big city) would do well in, and which it wouldn’t, and why. Ask one or two follow-up questions. Then say something about your own city using superlatives (e.g. ‘I think Manchester has some of the friendliest people in England, but it isn’t the cleanest city.’). If the student makes a mistake with a superlative (the most cheap, of the world), use the correct form in your next reply.",
+              "goal": "Would your city do well in the survey?",
+              "opener": "Think about your city. Would it win any of the categories in the survey?",
+              "criteria": [
+                "uses at least three superlatives correctly (the cleanest, the most exciting, the best)",
+                "uses in after a superlative with a place (the … in my country)",
+                "gives reasons for their opinions",
+                "says at least one category their city would not do well in"
+              ],
+              "steps": [
+                {"text": "Say which category your city would do well in and why", "example": "I think it has the best attractions in my country – there’s a castle and a lot of museums."},
+                {"text": "Say which category it wouldn’t do well in", "example": "It isn’t the easiest city to get around because the traffic is terrible."},
+                {"text": "Ask your partner about their city", "example": "What about your city? Does it have the friendliest taxi drivers?"}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5B-sb2d",
+          "origin": "SB",
+          "instruction": "Look at the highlighted superlatives in the survey. How do you make the superlative of…?",
+          "note": "SB 2d; вопрос о правиле → Blank: превосходная степень прилагательного из статьи + правило в explain. Ответы MODEL",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "a one-syllable adjective: clean → {}", "gaps": [["the cleanest"]], "explain": "the + adjective + -est.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "a two-syllable adjective that ends in consonant + y: easy → {}", "gaps": [["the easiest"]], "explain": "the + y → -iest.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "a three-syllable adjective: exciting → {}", "gaps": [["the most exciting"]], "explain": "the most + adjective.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "good → {}", "gaps": [["the best"]], "explain": "good is irregular: better, the best.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "5B-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the sentences with a superlative",
+          "note": "GB 5B a; пример Is Shanghai the biggest city… — не перенесён. Ключа к GB нет — ответы MODEL",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "The Polish are {} people I’ve ever met.", "gaps": [["the most generous"]], "hint": "(generous)", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Yesterday was {} day of the year.", "gaps": [["the hottest"]], "hint": "(hot)", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Early morning is {} time to drive in the city centre.", "gaps": [["the worst"]], "hint": "(bad)", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "She’s {} girl at school.", "gaps": [["the friendliest"]], "hint": "(friendly)", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "This is {} part of the exam.", "gaps": [["the most important"]], "hint": "(important)", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "{} time to visit New England is autumn.", "gaps": [["The best"]], "hint": "(good)", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "Delhi in India is one of {} cities in the world.", "gaps": [["the most polluted"]], "hint": "(polluted)", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "{} I’ve ever flown is to Bali.", "gaps": [["The furthest", "The farthest"]], "hint": "(far)", "source": "MODEL"},
+            {"n": 9, "type": "blank", "text": "It was {} film I’ve ever seen.", "gaps": [["the funniest"]], "hint": "(funny)", "source": "MODEL"},
+            {"n": 10, "type": "blank", "text": "Rob’s daughters are all pretty, but I think Emily is {}.", "gaps": [["the prettiest"]], "hint": "(pretty)", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "5B-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Write sentences with a superlative + ever + the present perfect",
+          "note": "GB 5B b; пример It’s the best film I’ve ever seen — не перенесён. Ответы MODEL",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "It / windy place / I / be to", "answers": ["It’s the windiest place I’ve ever been to.", "It is the windiest place I have ever been to."], "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "She / unfriendly person / I / meet", "answers": ["She’s the unfriendliest person I’ve ever met.", "She’s the most unfriendly person I’ve ever met.", "She is the unfriendliest person I have ever met."], "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "It / easy exam / we / do", "answers": ["It’s the easiest exam we’ve ever done.", "It is the easiest exam we have ever done."], "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "They / expensive trousers / I / buy", "answers": ["They’re the most expensive trousers I’ve ever bought.", "They are the most expensive trousers I have ever bought."], "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "This / long book / I / read", "answers": ["This is the longest book I’ve ever read.", "This is the longest book I have ever read."], "source": "MODEL"},
+            {"n": 6, "type": "rewrite", "prompt": "He / attractive man / I / see", "answers": ["He’s the most attractive man I’ve ever seen.", "He is the most attractive man I have ever seen."], "source": "MODEL"},
+            {"n": 7, "type": "rewrite", "prompt": "It / bad meal / I / eat", "answers": ["It’s the worst meal I’ve ever eaten.", "It is the worst meal I have ever eaten."], "source": "MODEL"},
+            {"n": 8, "type": "rewrite", "prompt": "He / interesting teacher / we / have", "answers": ["He’s the most interesting teacher we’ve ever had.", "He is the most interesting teacher we have ever had."], "source": "MODEL"},
+            {"n": 9, "type": "rewrite", "prompt": "It / exciting job / I / do", "answers": ["It’s the most exciting job I’ve ever done.", "It is the most exciting job I have ever done."], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "5B-wb2a",
+          "origin": "WB",
+          "instruction": "Complete the conversations with the superlative form of the adjective in brackets",
+          "note": "WB 2a; 1 the best — пример",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "A: What were the people like in Canada? B: They were {} people I’ve ever met.", "gaps": [["the friendliest"]], "hint": "(friendly)"},
+            {"n": 3, "type": "blank", "text": "A: Is it really dangerous to go out at night in this city? B: Yes. {} place to be is here in the hotel.", "gaps": [["The safest"]], "hint": "(safe)"},
+            {"n": 4, "type": "blank", "text": "A: What was the hotel like? B: Really awful. And it was in {} part of the city.", "gaps": [["the least attractive"]], "hint": "(less / attractive)"},
+            {"n": 5, "type": "blank", "text": "A: Is August a good time to visit the south of Sri Lanka? B: No, that’s {} time of year.", "gaps": [["the wettest"]], "hint": "(wet)"},
+            {"n": 6, "type": "blank", "text": "A: What’s {} you have ever driven? B: I once drove from Calais to Bordeaux in a day.", "gaps": [["the furthest", "the farthest"]], "hint": "(far)"}
+          ]
+        },
+        {
+          "id": "5B-wb2b",
+          "origin": "WB",
+          "instruction": "Write sentences with the superlative + ever. Use contractions where possible",
+          "note": "WB 2b; 1 He’s the rudest person I’ve ever met — пример",
+          "exercises": [
+            {"n": 2, "type": "rewrite", "prompt": "It / beautiful building / we / see", "answers": ["It’s the most beautiful building we’ve ever seen."]},
+            {"n": 3, "type": "rewrite", "prompt": "That / expensive thing / I / buy", "answers": ["That’s the most expensive thing I’ve ever bought."]},
+            {"n": 4, "type": "rewrite", "prompt": "It / good photo / you / take", "answers": ["It’s the best photo you’ve ever taken."]},
+            {"n": 5, "type": "rewrite", "prompt": "That / bad flight / we / have", "answers": ["That’s the worst flight we’ve ever had."]}
+          ]
+        },
+        {
+          "id": "5B-wb2c",
+          "origin": "WB",
+          "instruction": "Write questions with the superlative + ever",
+          "note": "WB 2c; 1 What’s the most beautiful city you’ve ever been to? — пример",
+          "exercises": [
+            {"n": 2, "type": "rewrite", "prompt": "What / bad hotel / you / stay in?", "answers": ["What’s the worst hotel you’ve ever stayed in?"]},
+            {"n": 3, "type": "rewrite", "prompt": "What / good holiday / you / have?", "answers": ["What’s the best holiday you’ve ever had?"]},
+            {"n": 4, "type": "rewrite", "prompt": "What / interesting museum / you / visit?", "answers": ["What’s the most interesting museum you’ve ever visited?"]},
+            {"n": 5, "type": "rewrite", "prompt": "What / nice restaurant / you / be to?", "answers": ["What’s the nicest restaurant you’ve ever been to?"]}
+          ]
+        },
+        {
+          "id": "5B-wb2d",
+          "origin": "WB",
+          "instruction": "Answer the questions in 2c about you",
+          "note": "WB 2d «Students’ own answers» → Write, проверяет ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Answer the questions about you in full sentences.",
+              "questions": [
+                {"text": "What’s the most beautiful city you’ve ever been to?", "hint": "(The most beautiful city I’ve ever been to is…)"},
+                {"text": "What’s the worst hotel you’ve ever stayed in?", "hint": "(The worst hotel I’ve ever stayed in was…)"},
+                {"text": "What’s the best holiday you’ve ever had?", "hint": "(The best holiday I’ve ever had was…)"},
+                {"text": "What’s the most interesting museum you’ve ever visited?", "hint": "(The most interesting museum I’ve ever visited is…)"},
+                {"text": "What’s the nicest restaurant you’ve ever been to?", "hint": "(The nicest restaurant I’ve ever been to is…)"}
+              ],
+              "criteria": [
+                "answers all five questions in full sentences",
+                "repeats the superlative correctly (the most beautiful, the worst, the best, the nicest)",
+                "uses the present perfect after ever (I’ve ever been to / stayed in / had / visited)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5B-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the superlative form of the adjective.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Mount Everest is {} mountain in the world.", "gaps": [["the highest"]], "hint": "(high)", "explain": "One syllable: the + -est.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "August is {} month of the year here.", "gaps": [["the hottest"]], "hint": "(hot)", "explain": "One vowel + one consonant: double it – hottest.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "This is {} café in town – everybody goes there.", "gaps": [["the busiest"]], "hint": "(busy)", "explain": "Consonant + y → -iest.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "It was {} day of my life.", "gaps": [["the worst"]], "hint": "(bad)", "explain": "bad → worse → the worst.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "She’s {} person in our office.", "gaps": [["the most organized", "the most organised"]], "hint": "(organized)", "explain": "Long adjectives: the most + adjective.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Which planet is {} from the sun?", "gaps": [["the furthest", "the farthest"]], "hint": "(far)", "explain": "far → the furthest / the farthest.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "That was {} exam I’ve ever done.", "gaps": [["the easiest"]], "hint": "(easy)", "explain": "Consonant + y → -iest.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "Camping is {} way to go on holiday.", "gaps": [["the least expensive", "the cheapest"]], "hint": "(least / expensive)", "explain": "the least + adjective = the opposite of the most.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "5B-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Write sentences with the superlative + ever + present perfect.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "It / good pizza / I / eat", "answers": ["It’s the best pizza I’ve ever eaten.", "It is the best pizza I have ever eaten."], "explain": "the best + noun + I’ve ever + past participle (eaten).", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "That / funny joke / I / hear", "answers": ["That’s the funniest joke I’ve ever heard.", "That is the funniest joke I have ever heard."], "explain": "funny → the funniest; hear → heard.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "What / long journey / you / make?", "answers": ["What’s the longest journey you’ve ever made?", "What is the longest journey you have ever made?"], "explain": "Question: What’s the + superlative + you’ve ever…?", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "She / clever person / I / meet", "answers": ["She’s the cleverest person I’ve ever met.", "She is the cleverest person I have ever met.", "She’s the most clever person I’ve ever met."], "explain": "clever → the cleverest; meet → met.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "It / boring film / we / see", "answers": ["It’s the most boring film we’ve ever seen.", "It is the most boring film we have ever seen."], "explain": "boring → the most boring; see → seen.", "source": "MODEL"},
+            {"n": 6, "type": "rewrite", "prompt": "Who / famous person / you / meet?", "answers": ["Who’s the most famous person you’ve ever met?", "Who is the most famous person you have ever met?"], "explain": "famous → the most famous.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "5B-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "It’s the most cheap hotel in the city.", "answers": ["It’s the cheapest hotel in the city.", "It is the cheapest hotel in the city."], "explain": "One syllable: the + -est.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "Tokyo is the biggest city of the world.", "answers": ["Tokyo is the biggest city in the world."], "explain": "in + places after a superlative.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "He’s the goodest player in the team.", "answers": ["He’s the best player in the team.", "He is the best player in the team."], "explain": "good → the best.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "It’s the most beautiful place I ever visited.", "answers": ["It’s the most beautiful place I’ve ever visited.", "It is the most beautiful place I have ever visited."], "explain": "superlative + ever + present perfect.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "She’s tallest girl in the class.", "answers": ["She’s the tallest girl in the class.", "She is the tallest girl in the class."], "explain": "Superlatives need the.", "source": "MODEL"},
+            {"n": 6, "type": "rewrite", "prompt": "This is the prettyest village in the area.", "answers": ["This is the prettiest village in the area."], "explain": "Consonant + y → -iest.", "source": "MODEL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5B-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "sentence stress",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Stress in superlative questions",
+          "text": "Stress the important words – the superlative, the noun, and the main verb – and say the other words quickly: What’s the MOST BEAUtiful CIty you’ve EVer BEEN to?"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "5B-sb4a",
+          "origin": "SB",
+          "audio": "5.14",
+          "instruction": "Listen and complete the questions with a superlative adjective",
+          "note": "SB 4a; 1 the most beautiful — пример. Ответы — по аудио 5.14 (расшифровка), клипы по фразам",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "What’s the {} holiday you’ve ever had?", "gaps": [["most relaxing"]], "source": "CONFIRMED", "clip": [5.22, 9.03]},
+            {"n": 3, "type": "blank", "text": "What’s the {} film you’ve ever seen?", "gaps": [["most frightening"]], "source": "CONFIRMED", "clip": [10.98, 14.12]},
+            {"n": 4, "type": "blank", "text": "What’s the {} sporting event you’ve ever watched?", "gaps": [["most exciting"]], "source": "CONFIRMED", "clip": [15.91, 19.79]},
+            {"n": 5, "type": "blank", "text": "What’s the {} thing you’ve ever bought?", "gaps": [["most expensive"]], "source": "CONFIRMED", "clip": [21.5, 24.99]},
+            {"n": 6, "type": "blank", "text": "Who’s the {} person you’ve ever met?", "gaps": [["most generous"]], "source": "CONFIRMED", "clip": [26.83, 30.13]},
+            {"n": 7, "type": "blank", "text": "What’s the {} sport you’ve ever done?", "gaps": [["most dangerous"]], "source": "CONFIRMED", "clip": [31.86, 34.82]},
+            {"n": 8, "type": "blank", "text": "What’s the {} subject you’ve ever studied?", "gaps": [["most difficult"]], "source": "CONFIRMED", "clip": [36.56, 40.03]}
+          ]
+        },
+        {
+          "id": "5B-sb4b",
+          "origin": "SB",
+          "audio": "5.14",
+          "instruction": "Listen again and repeat the questions. Copy the rhythm",
+          "note": "SB 4b → Speak, клипы по фразам 5.14",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "What’s the most beautiful city you’ve ever been to?", "source": "CONFIRMED", "clip": [0.2, 3.49]},
+            {"n": 2, "type": "speak", "text": "What’s the most relaxing holiday you’ve ever had?", "source": "CONFIRMED", "clip": [5.22, 9.03]},
+            {"n": 3, "type": "speak", "text": "What’s the most frightening film you’ve ever seen?", "source": "CONFIRMED", "clip": [10.98, 14.12]},
+            {"n": 4, "type": "speak", "text": "What’s the most exciting sporting event you’ve ever watched?", "source": "CONFIRMED", "clip": [15.91, 19.79]},
+            {"n": 5, "type": "speak", "text": "What’s the most expensive thing you’ve ever bought?", "source": "CONFIRMED", "clip": [21.5, 24.99]},
+            {"n": 6, "type": "speak", "text": "Who’s the most generous person you’ve ever met?", "source": "CONFIRMED", "clip": [26.83, 30.13]},
+            {"n": 7, "type": "speak", "text": "What’s the most dangerous sport you’ve ever done?", "source": "CONFIRMED", "clip": [31.86, 34.82]},
+            {"n": 8, "type": "speak", "text": "What’s the most difficult subject you’ve ever studied?", "source": "CONFIRMED", "clip": [36.56, 40.03]}
+          ]
+        },
+        {
+          "id": "5B-sb4c",
+          "origin": "SB",
+          "instruction": "Answer the questions in 4a with a sentence. Your partner asks for more information",
+          "note": "SB 4c → Talk: ИИ спрашивает вопросы 4a, ученик отвечает предложением и сам задаёт вопросы",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). Take turns with the student. Ask them some of these questions, one at a time: What’s the most beautiful city you’ve ever been to? What’s the most relaxing holiday you’ve ever had? What’s the most frightening film you’ve ever seen? What’s the most exciting sporting event you’ve ever watched? What’s the most expensive thing you’ve ever bought? Who’s the most generous person you’ve ever met? What’s the most dangerous sport you’ve ever done? What’s the most difficult subject you’ve ever studied? The student should answer with a full sentence (e.g. The most beautiful city I’ve ever been to is Rio de Janeiro.). Ask one follow-up question in the past simple (When did you go there? Who did you go with?). After three questions, let the student ask you and answer with full sentences.",
+              "goal": "Answer and ask superlative questions.",
+              "opener": "OK, my first question: what’s the most beautiful city you’ve ever been to?",
+              "criteria": [
+                "answers with a full sentence: The most… I’ve ever… is / was…",
+                "uses the present perfect after ever and the past simple for details",
+                "asks at least two of the questions with correct word order",
+                "asks at least one follow-up question (When did you…? Why…?)"
+              ],
+              "steps": [
+                {"text": "Answer with a full sentence", "example": "The most beautiful city I’ve ever been to is Prague."},
+                {"text": "Give more information in the past simple", "example": "I went there two years ago with my sister. We walked across the Charles Bridge at night."},
+                {"text": "Ask your partner a question from 4a", "example": "What’s the most frightening film you’ve ever seen?"},
+                {"text": "Ask for more information", "example": "When did you see it? Who did you see it with?"}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5B-wb3a",
+          "origin": "WB",
+          "instruction": "Say the questions. Copy the rhythm",
+          "note": "WB 3a (диктант WB 5.3) + 3b: аудио WB нет, поэтому диктант невозможен → Speak на вопросы из ключа, образец — синтезатор. 1 — пример из книги",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "What’s the most romantic city you’ve ever been to?"},
+            {"n": 2, "type": "speak", "text": "What’s the funniest film you’ve ever seen?"},
+            {"n": 3, "type": "speak", "text": "What’s the most famous building you’ve ever seen?"},
+            {"n": 4, "type": "speak", "text": "What’s the most interesting thing you’ve learnt this year?", "answers": ["What’s the most interesting thing you’ve learnt this year?", "What’s the most interesting thing you’ve learned this year?"]},
+            {"n": 5, "type": "speak", "text": "What’s the best meal you’ve ever had?"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5B-skills",
+      "kind": "SKILLS",
+      "title": "Listening & Writing",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Ranking things in order",
+          "text": "Things are normally ranked from first to last. If two things have the same ranking, e.g. if they are both second, they are called joint second, etc. USA won the most Olympic medals. China and Germany were joint second (= they won the same number of medals)."
+        },
+        {
+          "type": "note",
+          "title": "Describing where you live",
+          "text": "Useful phrases: It’s near the famous… · There are a lot of… · for example… · … is typical of… · It’s famous for… · … is the symbol of the city · It has many local specialities like… · What I like best about… is…"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "5B-sb3a",
+          "origin": "SB",
+          "context": "What are the most (and least) honest cities in the world? Reader’s Digest organized an experiment to try to find out…\n\nTheir reporters ‘lost’ 12 wallets in 16 cities around the world. They left the wallets in different areas of each of the chosen cities, places like shopping malls, or in parks, or on the pavement. In each wallet there was the equivalent of 50 dollars in local currency, a family photo, and a couple of business cards with a name and phone number. A reporter waited somewhere near each wallet to see what happened. Another reporter answered the phone when people called to report the lost wallet, and then met the people and asked them why they returned the wallet.",
+          "instruction": "Read about a recent experiment. Then explain in your own words how the experiment worked",
+          "note": "SB 3a «cover the text and in your own words explain» → Write (текст статьи в context)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Explain in your own words how the experiment worked (three or four sentences).",
+              "hint": "(Reporters left… in… There was… in each wallet. Then they…)",
+              "criteria": [
+                "says that reporters left 12 wallets in each of 16 cities",
+                "says what was in the wallets (money, a family photo, business cards)",
+                "explains how the reporters found out who returned the wallets and why",
+                "uses the past simple correctly and their own words, not whole sentences from the text"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5B-sb3c",
+          "origin": "SB",
+          "audio": "5.13",
+          "instruction": "Listen to a reporter talking about the results of the experiment. Rank the nine cities he mentions",
+          "note": "SB 3b (угадать — опущено, сразу проверка) + 3c: список 16 городов в words, место → пропуск. Ответы по скрипту 5.13 (SB p.121–122)",
+          "words": ["Amsterdam", "Berlin", "Budapest", "Bucharest", "Helsinki", "Lisbon", "Ljubljana", "London", "Madrid", "Moscow", "Mumbai", "New York", "Prague", "Rio de Janeiro", "Warsaw", "Zurich"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "1st (the most honest): {}", "gaps": [["Helsinki"]], "explain": "People returned 11 of the 12 wallets.", "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "2nd: {}", "gaps": [["Mumbai"]], "explain": "People returned 9 out of the 12 wallets.", "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "joint 3rd: {} and {}", "gaps": [["New York", "Budapest"], ["Budapest", "New York"]], "explain": "People gave back eight wallets in both places.", "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "joint 5th: {} and {}", "gaps": [["Moscow", "Amsterdam"], ["Amsterdam", "Moscow"]], "explain": "7 out of 12 wallets were returned in both places.", "source": "CONFIRMED"},
+            {"n": 5, "type": "blank", "text": "joint 9th: {} and {}", "gaps": [["London", "Warsaw"], ["Warsaw", "London"]], "explain": "Just five of the wallets were returned in each place.", "source": "CONFIRMED"},
+            {"n": 6, "type": "blank", "text": "16th (the least honest): {}", "gaps": [["Lisbon"]], "explain": "Only one person phoned – a tourist from Holland.", "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "5B-sb3d",
+          "origin": "SB",
+          "audio": "5.13",
+          "instruction": "Listen again for more details. Answer the questions",
+          "note": "SB 3d; 1a–e → город в пропуске; 2 → два пропуска. Ответы по скрипту 5.13",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "In which city did someone say his wife once lost her wallet? {}", "gaps": [["Amsterdam"]], "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "In which city did someone say people in his country were very honest? {}", "gaps": [["Helsinki"]], "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "In which city did someone say people need to help each other? {}", "gaps": [["Moscow"]], "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "In which city did someone say she teaches her children to be honest? {}", "gaps": [["Mumbai"]], "source": "CONFIRMED"},
+            {"n": 5, "type": "blank", "text": "In which city did someone say you can never know if the wallet belongs to a poor person? {}", "gaps": [["London"]], "source": "CONFIRMED"},
+            {"n": 6, "type": "blank", "text": "What percentage of the wallets were returned? {}%", "gaps": [["47", "forty-seven"]], "explain": "That’s nearly half.", "source": "CONFIRMED"},
+            {"n": 7, "type": "blank", "text": "Did the people who gave them back have anything in common? {}", "gaps": [["No", "no", "No, they didn’t", "No, nothing"]], "explain": "There was no common factor: young and old, men and women, rich and poor cities.", "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "5B-sb3e",
+          "origin": "SB",
+          "instruction": "Think about your city. In this experiment, would it come in the top three, the bottom three, or somewhere in the middle? Why?",
+          "note": "SB 3e → Talk",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You both listened to the results of the Reader’s Digest lost wallet experiment: reporters ‘lost’ 12 wallets in each of 16 cities; Helsinki was first (11 wallets returned), Mumbai second, Lisbon last (only one). Ask the student: if the experiment happened in their city (or the nearest big city), would it come in the top three, the bottom three, or somewhere in the middle? Why? Then ask: Have you ever found or lost a wallet? What happened? Share your own short opinion and story.",
+              "goal": "Would your city be honest in the experiment?",
+              "opener": "So, what do you think? If they did the experiment in your city, would it come in the top three?",
+              "criteria": [
+                "gives a clear opinion (top three / bottom three / in the middle)",
+                "gives at least two reasons",
+                "uses at least one superlative (the most honest, the friendliest)",
+                "tells a short story in the past if they have one"
+              ],
+              "steps": [
+                {"text": "Say where your city would come", "example": "I think it would come somewhere in the middle."},
+                {"text": "Say why", "example": "Most people are honest, but it’s one of the most crowded cities in the country."},
+                {"text": "Tell a story about a lost wallet or phone", "example": "Once I lost my phone on a bus, and the driver gave it back to me the next day."}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5B-wr4a",
+          "origin": "SB",
+          "context": "The place where I live",
+          "instruction": "Writing: Describing where you live. Read the description and complete it with the words from the list",
+          "note": "Writing 4 (SB p.116) a; текст про Кайсери разбит по пропускам, 1 city — пример. Ответы MODEL (ключа нет)",
+          "words": ["area", "food", "historic", "modern", "nature", "population", "rivers", "weather"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "I live in Kayseri, which is an important city in Central Anatolia in Turkey. It has a {} of over 1,000,000 people.", "gaps": [["population"]], "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "It’s near the famous Cappadocia {}, so there are a lot of tourists in the summer.", "gaps": [["area"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "There are also many {} buildings, for example Kayseri Castle, Hunat Hatun Mosque, and the Grand Bazaar around Cumhuriyet Square, with its famous statue of Atatürk.", "gaps": [["historic"]], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "But Kayseri also has {} residential areas full of luxury blocks of flats, shopping centres, and stylish restaurants.", "gaps": [["modern"]], "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "The {} in Kayseri is typical of the Middle Anatolia Region. Winters are cold and snowy – great for skiing – and summers are hot and dry.", "gaps": [["weather"]], "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "It’s also famous for its {} and has many local specialities like pastirma, which is dried beef with spices, and manti, which is a kind of Turkish ravioli.", "gaps": [["food"]], "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "What I like best about Kayseri is that we are so close to {}.", "gaps": [["nature"]], "source": "MODEL"},
+            {"n": 9, "type": "blank", "text": "When I’m tired of city life, I can easily get out and enjoy the mountains, {}, waterfalls, and thermal spas, which are only a short distance away.", "gaps": [["rivers"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "5B-wr4b",
+          "origin": "SB",
+          "context": "1 I live in Kayseri, which is an important city in Central Anatolia in Turkey. It has a population of over 1,000,000 people. It’s near the famous Cappadocia area, so there are a lot of tourists in the summer.\n2 Kayseri is one of the richest cities in Turkey because it has a lot of industry. It is a university town with four universities. There are also many historic buildings, for example Kayseri Castle, Hunat Hatun Mosque, and the Grand Bazaar. But Kayseri also has modern residential areas full of luxury blocks of flats, shopping centres, and stylish restaurants.\n3 The weather in Kayseri is typical of the Middle Anatolia Region. Winters are cold and snowy – great for skiing – and summers are hot and dry.\n4 Kayseri is famous for its mountains. Mount Erciyes is the symbol of the city and it has a well-known ski resort. It’s also famous for its food and has many local specialities.\n5 What I like best about Kayseri is that we are so close to nature.",
+          "instruction": "Match the questions to paragraphs 1–5. Write the number of the paragraph",
+          "note": "Writing 4b; вопросы без номеров → n по порядку книги. Ответы MODEL",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "What’s it famous for? → paragraph {}", "gaps": [["4", "four"]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "What’s the weather like? → paragraph {}", "gaps": [["3", "three"]], "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "What’s the best thing about it? Do you like living there? → paragraph {}", "gaps": [["5", "five"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "What’s your town like? What is there to see there? → paragraph {}", "gaps": [["2", "two"]], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "Where do you live? Where is it? How big is it? → paragraph {}", "gaps": [["1", "one"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "5B-wr4d",
+          "origin": "SB",
+          "instruction": "Write a description of your town or city in five paragraphs. Then check it for mistakes (grammar, punctuation, and spelling)",
+          "note": "Writing 4c–e + SB 5 «Write a description of your town or city» → один Write (план c и самопроверка e в criteria)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Write a description of the place where you live (five paragraphs, about 150 words). Use the highlighted phrases if you can: It’s near the famous… There are a lot of… for example… is typical of… It’s famous for… is the symbol of the city… What I like best about… is…",
+              "questions": [
+                {"text": "Where do you live? Where is it? How big is it?", "hint": "(I live in…, which is a… in the north / south… of… It has a population of…)"},
+                {"text": "What’s your town like? What is there to see there?", "hint": "(It’s a… city. There are a lot of…, for example…)"},
+                {"text": "What’s the weather like?", "hint": "(The weather in… is typical of… Winters are… and summers are…)"},
+                {"text": "What’s it famous for?", "hint": "(… is famous for its… It has many local specialities like…)"},
+                {"text": "What’s the best thing about it? Do you like living there?", "hint": "(What I like best about… is…)"}
+              ],
+              "criteria": [
+                "five paragraphs that answer the questions in order",
+                "says where the place is and how big it is, with the population",
+                "uses vocabulary from the lesson (adjectives like historic, modern, crowded; places like castle, market, harbour)",
+                "uses at least one superlative (one of the… -est / most…)",
+                "correct grammar, punctuation, and spelling"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

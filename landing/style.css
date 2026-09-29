@@ -74,6 +74,12 @@ h2 {
   box-shadow: 0 24px 48px -24px rgba(18, 36, 63, .45);
 }
 
+.phone-live {
+  aspect-ratio: 720 / 1448;
+  object-fit: cover;
+  object-position: center 44%;
+}
+
 .hero {
   position: relative;
   color: #fff;

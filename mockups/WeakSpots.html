@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Weak spots</title><link rel="stylesheet" href="style.css"><script src="theme.js"></script>
+<style>
+.variants{display:flex;gap:28px;justify-content:center;flex-wrap:wrap;padding:24px 16px}
+.variant{width:390px}
+.variant h2{font-size:15px;font-weight:600;margin:0 0 4px}
+.variant p.why{font-size:13px;color:var(--muted);margin:0 0 12px;line-height:1.4}
+.variant .phone{height:auto;padding-bottom:24px}
+.row .pct.bad{color:var(--bad)}
+.hint{font-size:14px;color:var(--muted);margin:2px 0 6px;line-height:1.4}
+.meter{height:6px;border-radius:3px;background:var(--line);margin-top:6px;overflow:hidden}
+.meter i{display:block;height:100%;background:var(--bad)}
+.meter i.mid{background:var(--muted)}
+.go{font-size:14px;font-weight:600;color:var(--accent);white-space:nowrap}
+</style></head>
+<body>
+<div class="variants">
+
+  <div class="variant">
+    <h2>Сейчас</h2>
+    <p class="why">Непонятно, что значит процент и что будет по нажатию.</p>
+    <div class="phone"><div class="pad">
+      <div class="kind" style="color:var(--ef-teal);margin:22px 0 2px">Weak spots</div>
+      <div class="list">
+        <a class="row"><span class="tag g">G</span><div class="grow"><div class="t en">present continuous</div><div class="s">1B</div></div><div class="pct bad">58%</div><svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 6 6 6-6 6"/></svg></a>
+        <a class="row"><span class="tag p">P</span><div class="grow"><div class="t en">vowel sounds</div><div class="s">1A</div></div><div class="pct bad">64%</div><svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 6 6 6-6 6"/></svg></a>
+        <a class="row"><span class="tag g">G</span><div class="grow"><div class="t en">word order in questions</div><div class="s">1A</div></div><div class="pct">71%</div><svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 6 6 6-6 6"/></svg></a>
+      </div>
+    </div></div>
+  </div>
+
+  <div class="variant">
+    <h2>A. Счёт словами + подсказка</h2>
+    <p class="why">Под заголовком одна строка, откуда список. Вместо процента — «7 of 12 right». Нажатие как сейчас открывает раздел.</p>
+    <div class="phone"><div class="pad">
+      <div class="kind" style="color:var(--ef-teal);margin:22px 0 2px">Weak spots</div>
+      <div class="hint">Topics with the most mistakes in the last 2 weeks</div>
+      <div class="list">
+        <a class="row"><span class="tag g">G</span><div class="grow"><div class="t en">present continuous</div><div class="s">1B · <span style="color:var(--bad)">7 of 12 right</span></div></div><svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 6 6 6-6 6"/></svg></a>
+        <a class="row"><span class="tag p">P</span><div class="grow"><div class="t en">vowel sounds</div><div class="s">1A · <span style="color:var(--bad)">9 of 14 right</span></div></div><svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 6 6 6-6 6"/></svg></a>
+        <a class="row"><span class="tag g">G</span><div class="grow"><div class="t en">word order in questions</div><div class="s">1A · 5 of 7 right</div></div><svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 6 6 6-6 6"/></svg></a>
+      </div>
+    </div></div>
+  </div>
+
+  <div class="variant">
+    <h2>B. Полоска + «Practice»</h2>
+    <p class="why">Полоска доли верных ответов и явное действие справа. Нажатие сразу запускает тренировку ошибок этого раздела, без захода в раздел.</p>
+    <div class="phone"><div class="pad">
+      <div class="kind" style="color:var(--ef-teal);margin:22px 0 2px">Weak spots</div>
+      <div class="hint">Most mistakes in the last 2 weeks</div>
+      <div class="list">
+        <a class="row"><span class="tag g">G</span><div class="grow"><div class="t en">present continuous</div><div class="s">1B · 7 of 12 right</div><div class="meter"><i style="width:58%"></i></div></div><span class="go">Practice</span></a>
+        <a class="row"><span class="tag p">P</span><div class="grow"><div class="t en">vowel sounds</div><div class="s">1A · 9 of 14 right</div><div class="meter"><i style="width:64%"></i></div></div><span class="go">Practice</span></a>
+        <a class="row"><span class="tag g">G</span><div class="grow"><div class="t en">word order in questions</div><div class="s">1A · 5 of 7 right</div><div class="meter"><i class="mid" style="width:71%"></i></div></div><span class="go">Practice</span></a>
+      </div>
+    </div></div>
+  </div>
+
+</div>
+</body></html>

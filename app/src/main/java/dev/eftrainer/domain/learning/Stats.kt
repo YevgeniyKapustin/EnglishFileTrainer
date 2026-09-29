@@ -22,8 +22,11 @@ data class Week(
 data class WeakSpot(
     val chapter: Chapter,
     val section: Section,
-    val accuracy: Double,
-)
+    val right: Int,
+    val total: Int,
+) {
+    val accuracy: Double get() = right.toDouble() / total
+}
 
 object Stats {
     const val BOOK_CHAPTERS = 36
@@ -130,11 +133,7 @@ object Stats {
             .groupBy({ it.first }, { it.second })
             .filterValues { it.size >= WEAK_MIN_ANSWERS }
             .map { (where, results) ->
-                WeakSpot(
-                    where.first,
-                    where.second,
-                    results.count { it }.toDouble() / results.size,
-                )
+                WeakSpot(where.first, where.second, results.count { it }, results.size)
             }.filter { it.accuracy < WEAK_BELOW }
             .sortedBy { it.accuracy }
             .take(WEAK_MAX)

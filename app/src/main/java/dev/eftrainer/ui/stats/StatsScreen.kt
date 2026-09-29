@@ -44,18 +44,15 @@ import dev.eftrainer.core.theme.Golos
 import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.ui.BackLink
 import dev.eftrainer.core.ui.BandInk
-import dev.eftrainer.core.ui.Bubble
 import dev.eftrainer.core.ui.Icons
 import dev.eftrainer.core.ui.ListRow
 import dev.eftrainer.core.ui.ProgressBar
 import dev.eftrainer.core.ui.SectionTag
 import dev.eftrainer.core.ui.WedgeBand
-import dev.eftrainer.core.ui.bubbleText
 import dev.eftrainer.domain.learning.Stats
 import dev.eftrainer.domain.learning.WeakSpot
 import dev.eftrainer.domain.learning.Week
 import dev.eftrainer.ui.appContainer
-import dev.eftrainer.ui.toPercent
 import java.util.Locale
 import kotlin.math.roundToInt
 import java.time.format.TextStyle as DateStyle
@@ -109,30 +106,25 @@ private fun StreakBand(
     val days = (state.streak.current * intro.share(0f, .5f)).roundToInt()
     WedgeBand(150.dp, chapterId = state.chapterId, reveal = { intro.share(0f, RAYS_SHARE, LinearEasing) }) {
         BackLink(stringResource(R.string.back), onBack, tint = BandInk)
-        Text(
-            pluralStringResource(R.plurals.streak_days, days, days),
-            style =
-                TextStyle(
-                    fontFamily = Golos,
-                    fontSize = 44.sp,
-                    lineHeight = 44.sp,
-                    fontWeight = FontWeight.Bold,
-                    color = BandInk,
-                ),
-            modifier = Modifier.align(Alignment.BottomStart).padding(start = 24.dp, bottom = 16.dp),
-        )
-        Bubble(
-            96.dp,
-            EF.Lime,
-            Modifier
-                .align(Alignment.BottomEnd)
-                .padding(end = 32.dp, bottom = 14.dp)
-                .popIn(intro, .2f, .55f),
+        Row(
+            Modifier.align(Alignment.BottomStart).padding(start = 24.dp, bottom = 16.dp),
+            verticalAlignment = Alignment.Bottom,
         ) {
-            Text(stringResource(R.string.in_a_row), style = bubbleText)
             Text(
-                stringResource(R.string.best_streak, state.streak.best),
-                style = bubbleText.copy(fontSize = 13.sp, fontWeight = FontWeight.Bold),
+                pluralStringResource(R.plurals.streak_days, days, days),
+                style =
+                    TextStyle(
+                        fontFamily = Golos,
+                        fontSize = 44.sp,
+                        lineHeight = 44.sp,
+                        fontWeight = FontWeight.Bold,
+                        color = BandInk,
+                    ),
+            )
+            Text(
+                stringResource(R.string.in_a_row),
+                style = T.label.copy(fontSize = 17.sp, color = BandInk),
+                modifier = Modifier.padding(start = 10.dp, bottom = 5.dp).popIn(intro, .2f, .55f),
             )
         }
     }
@@ -260,6 +252,11 @@ private fun WeakSpots(
 ) {
     Column {
         Heading(stringResource(R.string.weak_spots), Modifier.rise(intro, .5f, .75f))
+        Text(
+            stringResource(R.string.weak_spots_hint),
+            style = T.label.copy(fontSize = 14.sp),
+            modifier = Modifier.padding(top = 2.dp, bottom = 6.dp).rise(intro, .5f, .75f),
+        )
         spots.forEachIndexed { i, spot ->
             val start = .55f + ROW_STAGGER * i
             ListRow(
@@ -270,27 +267,27 @@ private fun WeakSpots(
                 SectionTag(spot.section.kind)
                 Column(Modifier.weight(1f)) {
                     Text(spot.section.title, style = T.rowEn)
-                    Text(spot.chapter.id, style = T.rowSub, modifier = Modifier.padding(top = 2.dp))
+                    WeakScore(spot)
                 }
-                Text(
-                    stringResource(R.string.percent, spot.accuracy.toPercent()),
-                    style =
-                        T.label.copy(
-                            fontSize = 15.sp,
-                            color =
-                                if (spot.accuracy <
-                                    Stats.BAD_BELOW
-                                ) {
-                                    C.Bad
-                                } else {
-                                    C.Muted
-                                },
-                        ),
-                )
                 Icon(Icons.ChevronRight, null, Modifier.size(20.dp), tint = C.Chevron)
             }
         }
     }
+}
+
+@Composable
+private fun WeakScore(spot: WeakSpot) {
+    val score = stringResource(R.string.right_of, spot.right, spot.total)
+    val scoreColor = if (spot.accuracy < Stats.BAD_BELOW) C.Bad else C.Muted
+    Text(
+        buildAnnotatedString {
+            append(spot.chapter.id)
+            append(" · ")
+            withStyle(SpanStyle(color = scoreColor)) { append(score) }
+        },
+        style = T.rowSub,
+        modifier = Modifier.padding(top = 2.dp),
+    )
 }
 
 @Composable

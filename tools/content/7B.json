@@ -1,0 +1,497 @@
+{
+  "id": "7B",
+  "title": "Happiness is…",
+  "bubbles": ["What’s your idea of happiness?", "Reading a really good book."],
+  "sources": "SB p.56–57 (PDF 57–58), Grammar Bank p.138–139 (PDF 139–140), Vocabulary Bank Verb forms p.158 Part 2 (PDF 159), scripts 7.8 p.122 (PDF 123); WB p.48–49 (PDF 47–48), key WB p.91–92 (PDF 91–92)",
+  "sections": [
+    {
+      "id": "7B-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "verbs + gerund",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Verbs + gerund (verb + -ing)",
+          "headers": ["Verb", "Example"],
+          "rows": [
+            ["finish", "Have you finished reading the paper?"],
+            ["go on (= continue)", "I want to go on working until I’m 70."],
+            ["hate", "I hate being late when I’m meeting someone."],
+            ["like", "I like having breakfast in a café."],
+            ["love", "I love waking up early on a sunny morning."],
+            ["not mind", "I don’t mind doing the ironing."],
+            ["spend (time)", "She spends hours talking on the phone."],
+            ["start", "It started raining at 5.30 in the morning."],
+            ["stop", "Please stop making such a noise."],
+            ["feel like", "I don’t feel like cooking today."]
+          ],
+          "audio": "7.6"
+        },
+        {
+          "type": "note",
+          "title": "start + gerund or infinitive",
+          "text": "After start you can use the gerund or the infinitive: It started raining. = It started to rain."
+        },
+        {
+          "type": "note",
+          "title": "like, love, hate",
+          "text": "like, love and hate are usually followed by the gerund: I love reading. After would like / would love / would hate use to + infinitive: I’d like to go."
+        },
+        {
+          "type": "mistake",
+          "wrong": "I don’t mind to do the ironing.",
+          "right": "I don’t mind doing the ironing.",
+          "why": "don’t mind + verb + -ing."
+        },
+        {"type": "mistake", "wrong": "I don’t feel like to cook.", "right": "I don’t feel like cooking.", "why": "feel like + verb + -ing."}
+      ],
+      "tasks": [
+        {
+          "id": "7B-sb1c",
+          "origin": "SB",
+          "instruction": "Look at the first cartoon. Which verb form do we use after the verb finish? Complete the caption",
+          "note": "SB 1b–1c; картинка — первый мультфильм Happiness is…",
+          "images": ["7b_sb1_1"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Happiness is… when a song ends the exact moment you finish {}.", "gaps": [["parking"]], "explain": "finish + verb + -ing (the gerund).", "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "7B-vb2a",
+          "origin": "SB",
+          "instruction": "Complete the sentences with the gerund of a verb from the list. Then listen and check",
+          "note": "VB Verb forms Part 2 a+b (7.6); 1 reading — пример",
+          "audio": "7.6",
+          "words": ["be", "cook", "do", "have", "make", "rain", "talk", "tidy", "wake up", "work"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "Have you finished {} your room?", "gaps": [["tidying"]], "source": "CONFIRMED", "clip": [9.24, 11.59]},
+            {"n": 3, "type": "blank", "text": "I want to go on {} until I’m 70.", "gaps": [["working"]], "source": "CONFIRMED", "clip": [13.38, 16.33]},
+            {"n": 4, "type": "blank", "text": "I hate {} late when I’m meeting someone.", "gaps": [["being"]], "source": "CONFIRMED", "clip": [18.06, 21.09]},
+            {"n": 5, "type": "blank", "text": "I like {} breakfast in a café.", "gaps": [["having"]], "source": "CONFIRMED", "clip": [22.83, 25.15]},
+            {"n": 6, "type": "blank", "text": "I love {} early on a sunny morning.", "gaps": [["waking up"]], "source": "CONFIRMED", "clip": [26.86, 30.18]},
+            {"n": 7, "type": "blank", "text": "I don’t mind {} the ironing. It’s quite relaxing.", "gaps": [["doing"]], "source": "CONFIRMED", "clip": [31.88, 35.72]},
+            {"n": 8, "type": "blank", "text": "She spends hours {} on the phone.", "gaps": [["talking"]], "source": "CONFIRMED", "clip": [37.41, 40.36]},
+            {"n": 9, "type": "blank", "text": "It started {} at 5.30 in the morning.", "gaps": [["raining", "to rain"]], "explain": "start + gerund or infinitive: started raining = started to rain.", "source": "CONFIRMED", "clip": [42.14, 45.16]},
+            {"n": 10, "type": "blank", "text": "Please stop {} such a noise. I can’t think.", "gaps": [["making"]], "source": "CONFIRMED", "clip": [46.87, 50.49]},
+            {"n": 11, "type": "blank", "text": "I don’t feel like {} today. Let’s go out for lunch.", "gaps": [["cooking"]], "source": "CONFIRMED", "clip": [52.18, 56.33]}
+          ]
+        },
+        {
+          "id": "7B-wb1a",
+          "origin": "WB",
+          "instruction": "Complete the second sentence so that it means the same as the first. Use one word",
+          "note": "WB 1a «Match sentences 1–5 to a–e» → Blank: вписать ключевое слово ответа; 1 c — пример",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "He feels like going for a run. = He {} to do it now.", "gaps": [["wants"]], "explain": "feel like doing = want to do (now)."},
+            {"n": 3, "type": "blank", "text": "He doesn’t mind cooking all the meals. = It isn’t a {} for him to do it.", "gaps": [["problem"]], "explain": "not mind doing = it isn’t a problem."},
+            {"n": 4, "type": "blank", "text": "He’s stopped playing football. = He doesn’t do it any {}.", "gaps": [["more"]], "explain": "stop doing = not do it any more."},
+            {"n": 5, "type": "blank", "text": "He loves being with his friends. = He really {} it.", "gaps": [["likes"]], "explain": "love doing = really like doing."}
+          ]
+        },
+        {
+          "id": "7B-wb1b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the correct verb",
+          "note": "WB 1b «Circle the correct words» → Blank с вариантами в hint; 1 doesn’t enjoy — пример",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "Please don’t {} eating until everyone has their food.", "gaps": [["start"]], "hint": "(start / go on)"},
+            {"n": 3, "type": "blank", "text": "I can go with you, but I need to {} an hour doing homework first.", "gaps": [["spend"]], "hint": "(stop / spend)"},
+            {"n": 4, "type": "blank", "text": "My dad always gets to the airport very early because he {} arriving late.", "gaps": [["hates"]], "hint": "(hates / loves)"},
+            {"n": 5, "type": "blank", "text": "I really {} taking photos. It’s probably my favourite hobby.", "gaps": [["love"]], "hint": "(start / love)"},
+            {"n": 6, "type": "blank", "text": "My brother doesn’t do much sport, but he {} watching it on TV.", "gaps": [["likes"]], "hint": "(spends / likes)"},
+            {"n": 7, "type": "blank", "text": "Let’s hire a car when we get there. I {} driving.", "gaps": [["don’t mind"]], "hint": "(don’t mind / don’t like)"},
+            {"n": 8, "type": "blank", "text": "I’m going to {} studying English next year. I’m really enjoying the classes.", "gaps": [["go on"]], "hint": "(go on / stop)"},
+            {"n": 9, "type": "blank", "text": "I don’t {} going out tonight. I’m too tired.", "gaps": [["feel like"]], "hint": "(like / feel like)"},
+            {"n": 10, "type": "blank", "text": "A Why did you {} going to the gym? B It was too boring!", "gaps": [["stop"]], "hint": "(stop / start)"}
+          ]
+        },
+        {
+          "id": "7B-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the -ing form of the verb in brackets.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Have you finished {} that email yet?", "gaps": [["writing"]], "hint": "(write)", "explain": "finish + verb + -ing. write → writing (drop the e).", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "I don’t mind {} at the weekend if it’s important.", "gaps": [["working"]], "hint": "(work)", "explain": "not mind + verb + -ing.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "My sister spends hours {} in front of the mirror.", "gaps": [["sitting"]], "hint": "(sit)", "explain": "spend time + verb + -ing. sit → sitting (double the t).", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "I don’t feel like {} out tonight.", "gaps": [["going"]], "hint": "(go)", "explain": "feel like + verb + -ing.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "He stopped {} when he was 40.", "gaps": [["smoking"]], "hint": "(smoke)", "explain": "stop + verb + -ing. smoke → smoking.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Please go on {}. I’m listening.", "gaps": [["talking"]], "hint": "(talk)", "explain": "go on (= continue) + verb + -ing.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "We love {} in the sea in summer.", "gaps": [["swimming"]], "hint": "(swim)", "explain": "love + verb + -ing. swim → swimming.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7B-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the correct form of a verb from the list.",
+          "words": ["finish", "hate", "feel like", "spend", "stop", "go on"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "I’m tired. I don’t {} cooking tonight.", "gaps": [["feel like"]], "explain": "don’t feel like doing = don’t want to do now.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "She {} waiting for buses. She always gets angry.", "gaps": [["hates"]], "explain": "hate + -ing; she → hates.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Can you {} making that noise? I’m trying to work.", "gaps": [["stop"]], "explain": "stop doing = not do it any more.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "When I {} reading this book, you can borrow it.", "gaps": [["finish"]], "explain": "finish + -ing; present simple after when for the future.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "Teenagers {} a lot of time chatting online.", "gaps": [["spend"]], "explain": "spend time + verb + -ing.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Don’t stop! {} playing – it sounds great.", "gaps": [["Go on"]], "explain": "go on doing = continue doing.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7B-vocabulary-x3",
+          "origin": "GENERATED",
+          "instruction": "Rewrite the sentences using the verb in brackets + -ing.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "I want to have a pizza now. (feel like)", "answers": ["I feel like having a pizza.", "I feel like having a pizza now."], "explain": "feel like + -ing = want to do now.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "It isn’t a problem for me to do the washing-up. (not mind)", "answers": ["I don’t mind doing the washing-up.", "I do not mind doing the washing-up."], "explain": "not mind + -ing = it isn’t a problem.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "He doesn’t play tennis any more. (stop)", "answers": ["He’s stopped playing tennis.", "He has stopped playing tennis.", "He stopped playing tennis."], "explain": "stop + -ing = not do it any more.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "She really doesn’t like getting up early. (hate)", "answers": ["She hates getting up early."], "explain": "hate + -ing.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "They continued working until midnight. (go on)", "answers": ["They went on working until midnight."], "explain": "go on + -ing = continue. go → went.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7B-vocabulary-x4",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistake in each sentence.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "I don’t mind to wait for you.", "answers": ["I don’t mind waiting for you.", "I do not mind waiting for you."], "explain": "not mind + -ing, not to + infinitive.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "Have you finished to eat?", "answers": ["Have you finished eating?"], "explain": "finish + -ing.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "I spend a lot of time to play computer games.", "answers": ["I spend a lot of time playing computer games."], "explain": "spend time + -ing.", "source": "MODEL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7B-grammar",
+      "kind": "GRAMMAR",
+      "title": "uses of the gerund (verb + -ing)",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Uses of the gerund",
+          "headers": ["Use", "Examples"],
+          "rows": [
+            [
+              "as the subject of a sentence (like a noun)",
+              "Eating outside in the summer makes me feel good. Happiness is getting up late and not going to work."
+            ],
+            ["after some verbs (love, hate, don’t mind, etc.)", "I love having breakfast in bed. I hate not getting to the airport early."],
+            ["after prepositions", "I’m thinking of buying a new car. Jim left without saying goodbye."]
+          ],
+          "audio": "7.7"
+        },
+        {"type": "note", "title": "Negative gerund", "text": "not + verb + -ing: I love not having to get up early. Happiness is not going to work."},
+        {
+          "type": "note",
+          "title": "Spelling",
+          "text": "Spelling rules for the -ing form are the same as for the present continuous: live → living, stop → stopping, study → studying."
+        },
+        {
+          "type": "mistake",
+          "wrong": "Jim left without say goodbye.",
+          "right": "Jim left without saying goodbye.",
+          "why": "After a preposition use verb + -ing."
+        },
+        {
+          "type": "mistake",
+          "wrong": "Eat outside makes me feel good.",
+          "right": "Eating outside makes me feel good.",
+          "why": "As the subject of a sentence use verb + -ing."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "7B-sb1e",
+          "origin": "SB",
+          "instruction": "Look at the cartoons again. Find an example of a gerund",
+          "note": "SB 1e; картинки — мультфильмы Happiness is… (2 without asking, 9 not having)",
+          "images": ["7b_sb1_2", "7b_sb1_4", "7b_sb1_9"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "after a preposition: …a free coffee refill without {}.", "gaps": [["asking"]], "explain": "without + verb + -ing.", "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "used as a noun: Happiness is… {} next to someone nice on a plane.", "gaps": [["sitting"]], "explain": "The gerund is used like a noun after Happiness is…", "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "in the negative form: Happiness is… {} to set the alarm for the next day.", "gaps": [["not having"]], "explain": "Negative gerund: not + verb + -ing.", "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "7B-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the sentences with a gerund from the list",
+          "note": "GB 7B a",
+          "words": ["not know", "message", "practise", "remember", "study", "swim", "teach", "travel"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "One thing that always makes me happy is {} in the sea.", "gaps": [["swimming"]], "source": "KEY"},
+            {"n": 2, "type": "blank", "text": "You can’t learn to play a musical instrument well without {} regularly.", "gaps": [["practising", "practicing"]], "source": "KEY"},
+            {"n": 3, "type": "blank", "text": "My mother’s very bad at {} names.", "gaps": [["remembering"]], "source": "KEY"},
+            {"n": 4, "type": "blank", "text": "{} teenagers is very hard work.", "gaps": [["Teaching"]], "source": "KEY"},
+            {"n": 5, "type": "blank", "text": "My sister spends hours {} her friends.", "gaps": [["messaging"]], "source": "KEY"},
+            {"n": 6, "type": "blank", "text": "I hate {} the answer when somebody asks me a question.", "gaps": [["not knowing"]], "source": "KEY"},
+            {"n": 7, "type": "blank", "text": "{} by train is usually cheaper than by plane.", "gaps": [["Travelling", "Traveling"]], "source": "KEY"},
+            {"n": 8, "type": "blank", "text": "My brother wants to go on {} French for as long as he can. He’d like to speak it really fluently!", "gaps": [["studying"]], "source": "KEY"}
+          ]
+        },
+        {
+          "id": "7B-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the sentences with the verb in brackets in the -ing form or the infinitive (with to)",
+          "note": "GB 7B b",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "{} Pilates is good for your health.", "gaps": [["Doing"]], "hint": "(do)", "explain": "Subject of the sentence → -ing.", "source": "KEY"},
+            {"n": 2, "type": "blank", "text": "We offered {} for the meal.", "gaps": [["to pay"]], "hint": "(pay)", "explain": "offer + to + infinitive.", "source": "KEY"},
+            {"n": 3, "type": "blank", "text": "We won’t take the car. It’s so expensive {}.", "gaps": [["to park"]], "hint": "(park)", "explain": "Adjective + to + infinitive.", "source": "KEY"},
+            {"n": 4, "type": "blank", "text": "I’m not very good at {} directions.", "gaps": [["giving"]], "hint": "(give)", "explain": "Preposition (at) + -ing.", "source": "KEY"},
+            {"n": 5, "type": "blank", "text": "You can borrow the car if you remember {} some petrol.", "gaps": [["to get"]], "hint": "(get)", "explain": "remember + to + infinitive.", "source": "KEY"},
+            {"n": 6, "type": "blank", "text": "Has it stopped {} yet?", "gaps": [["raining"]], "hint": "(rain)", "explain": "stop + -ing.", "source": "KEY"},
+            {"n": 7, "type": "blank", "text": "I don’t mind {}, but I don’t like {} the washing-up.", "gaps": [["cooking"], ["doing"]], "hint": "(cook, do)", "explain": "not mind + -ing; like + -ing.", "source": "KEY"},
+            {"n": 8, "type": "blank", "text": "I hate {} in the dark during the winter.", "gaps": [["getting up"]], "hint": "(get up)", "explain": "hate + -ing.", "source": "KEY"}
+          ]
+        },
+        {
+          "id": "7B-sb1g",
+          "origin": "SB",
+          "instruction": "Write your own continuation for Happiness is…",
+          "note": "SB 1g → Write",
+          "exercises": [
+            {"n": 1, "type": "write", "prompt": "Write two or three of your own continuations for Happiness is… Use a gerund in each one.", "questions": [{"text": "What makes you happy at home?", "hint": "(Happiness is… waking up…)"}, {"text": "What makes you happy with other people?", "hint": "(Happiness is… meeting…)"}, {"text": "What small thing makes you happy?", "hint": "(Happiness is… not having to…)"}], "criteria": ["each idea starts with Happiness is… + verb + -ing", "uses at least one gerund after a preposition (without, after, before…)", "uses one negative gerund (not having, not going…)", "correct spelling of the -ing forms"]}
+          ]
+        },
+        {
+          "id": "7B-sb1h",
+          "origin": "SB",
+          "instruction": "Read your idea of happiness to your partner. Do you agree with each other’s ideas?",
+          "note": "SB 1a + 1h → Talk",
+          "exercises": [
+            {"n": 1, "type": "talk", "situation": "You are a classmate in an English class (level: pre-intermediate). You have both read the Happiness is… cartoons (a song ending the moment you finish parking, a free coffee refill without asking, sitting next to someone nice on a plane, landing in a new country, reading a good book and finding it’s a series, not having to set the alarm). First ask: Is there a book, a film or a song that makes you feel happy? Then ask the student to read you his or her own idea of Happiness is…, say if you agree and why, and share yours: Happiness is… getting a message from an old friend.", "goal": "Talk about what makes you happy and share your Happiness is… idea.", "opener": "Is there a book, a film or a song that makes you feel happy?", "criteria": ["names a book, film or song and says why it makes them happy", "gives at least two ideas starting with Happiness is… + -ing", "says if they agree with the partner’s idea and why"], "steps": [{"text": "Say what book, film or song makes you happy", "example": "Yes, the song Happy by Pharrell Williams. It always makes me want to dance."}, {"text": "Read your idea of happiness", "example": "Happiness is… finishing work early on a Friday."}, {"text": "Say if you agree with your partner", "example": "I agree! Getting a message from an old friend is great."}]}
+          ]
+        },
+        {
+          "id": "7B-wb2a",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the -ing form of the verb in brackets",
+          "note": "WB 2a; 1 being — пример",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "We stopped {} German because we didn’t like the classes.", "gaps": [["studying"]], "hint": "(study)"},
+            {"n": 3, "type": "blank", "text": "James is celebrating because he’s finished {} his book.", "gaps": [["writing"]], "hint": "(write)"},
+            {"n": 4, "type": "blank", "text": "I’m bored. I feel like {} for a walk.", "gaps": [["going"]], "hint": "(go)"},
+            {"n": 5, "type": "blank", "text": "I don’t mind {} up early in the morning.", "gaps": [["getting"]], "hint": "(get)"},
+            {"n": 6, "type": "blank", "text": "Kate really enjoys {} to music while she’s running.", "gaps": [["listening"]], "hint": "(listen)"}
+          ]
+        },
+        {
+          "id": "7B-wb2b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the -ing form of a verb from the list",
+          "note": "WB 2b «Match sentences 1–6 to a–f» → Blank: вписать герундий из конца предложения; 1 c — пример",
+          "words": ["park", "say", "see", "thank", "use"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "Read the instructions before {} the machine for the first time.", "gaps": [["using"]]},
+            {"n": 3, "type": "blank", "text": "He started his speech by {} everybody for coming.", "gaps": [["thanking"]]},
+            {"n": 4, "type": "blank", "text": "I’m not very good at {} my dad’s car. It’s very big.", "gaps": [["parking"]]},
+            {"n": 5, "type": "blank", "text": "Miriam left the party without {} goodbye to me.", "gaps": [["saying"]]},
+            {"n": 6, "type": "blank", "text": "I’m really looking forward to {} you tonight.", "gaps": [["seeing"]]}
+          ]
+        },
+        {
+          "id": "7B-wb2c",
+          "origin": "WB",
+          "instruction": "Complete the text What makes you feel good? with the -ing form of the verbs from the list",
+          "note": "WB 2c; 1 Writing, 2 sending — пример",
+          "words": ["drive", "feel", "go", "have", "imagine", "leave", "listen", "not get up", "not talk", "read", "stay", "take", "turn off", "walk", "work"],
+          "context": "What makes you feel good? We asked our readers, and here’s what they said.",
+          "exercises": [
+            {"n": 3, "type": "blank", "text": "Writing and then sending a funny email or message to my friends. And of course, {} their faces when they read it.", "gaps": [["imagining"]]},
+            {"n": 4, "type": "blank", "text": "I really like {} my car at night when there’s no traffic, {} to my favourite music. I feel completely free.", "gaps": [["driving"], ["listening"]]},
+            {"n": 6, "type": "blank", "text": "{} in bed on Sunday morning and {} the newspaper. {} until about 12 and then {} my dog for a long walk.", "gaps": [["Staying"], ["reading"], ["Not getting up"], ["taking"]]},
+            {"n": 10, "type": "blank", "text": "I enjoy {} to the gym and really {} hard, then {} a long hot shower followed by a nice cold drink. There’s nothing better.", "gaps": [["going"], ["working"], ["having"]]},
+            {"n": 13, "type": "blank", "text": "I love {} alone in the mountains, {} the wind in my hair and {} to anyone.", "gaps": [["walking"], ["feeling"], ["not talking"]]},
+            {"n": 16, "type": "blank", "text": "{} my computer at the end of the day and {} work! It’s the best moment of the day. I love it!", "gaps": [["Turning off"], ["leaving"]]}
+          ]
+        },
+        {
+          "id": "7B-wb2e",
+          "origin": "WB",
+          "instruction": "How do you feel about these activities? Write sentences. Say what you love, don’t mind, or hate doing",
+          "note": "WB 2d (смайлики-самооценка) + 2e → Write",
+          "exercises": [
+            {"n": 1, "type": "write", "prompt": "Write six sentences about you. Say what you love, don’t mind, or hate doing.", "questions": [{"text": "Going to the gym", "hint": "(I love / don’t mind / hate going to the gym.)"}, {"text": "Chatting to my friends on social media", "hint": "(I… chatting…)"}, {"text": "Being alone", "hint": "(I… being…)"}, {"text": "Walking on the beach", "hint": "(I… walking…)"}, {"text": "Going shopping for clothes", "hint": "(I… going…)"}, {"text": "Getting up late", "hint": "(I… getting up…)"}], "criteria": ["six sentences with love / don’t mind / hate + verb + -ing", "the verb after love, don’t mind, hate is in the -ing form", "correct present simple form (I don’t mind, not I not mind)"]}
+          ]
+        },
+        {
+          "id": "7B-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the -ing form of the verb in brackets.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "{} vegetables is good for you.", "gaps": [["Eating"]], "hint": "(eat)", "explain": "The gerund can be the subject of a sentence.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "She’s interested in {} photos.", "gaps": [["taking"]], "hint": "(take)", "explain": "Preposition (in) + -ing.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "He went out without {} the door.", "gaps": [["locking"]], "hint": "(lock)", "explain": "without + -ing.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "I’m thinking of {} a new phone.", "gaps": [["buying"]], "hint": "(buy)", "explain": "think of + -ing.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "{} in a big city can be stressful.", "gaps": [["Living"]], "hint": "(live)", "explain": "Gerund as the subject. live → living.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Wash your hands before {} dinner.", "gaps": [["having"]], "hint": "(have)", "explain": "before + -ing.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7B-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the negative gerund (not + -ing) of the verb in brackets.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Happiness is {} to work on Monday.", "gaps": [["not going"]], "hint": "(go)", "explain": "Negative gerund: not + verb + -ing.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "I hate {} what to say.", "gaps": [["not knowing"]], "hint": "(know)", "explain": "hate + not + -ing.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "{} enough is bad for your health.", "gaps": [["Not sleeping"]], "hint": "(sleep)", "explain": "Negative gerund as the subject.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "She’s worried about {} the exam.", "gaps": [["not passing"]], "hint": "(pass)", "explain": "Preposition + not + -ing.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7B-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the verb in brackets: -ing form or to + infinitive.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "I’d like {} to Japan one day.", "gaps": [["to go"]], "hint": "(go)", "explain": "would like + to + infinitive.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "I don’t mind {} late tonight.", "gaps": [["working"]], "hint": "(work)", "explain": "not mind + -ing.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "It’s difficult {} a job in this town.", "gaps": [["to find"]], "hint": "(find)", "explain": "Adjective + to + infinitive.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "She’s good at {} people’s names.", "gaps": [["remembering"]], "hint": "(remember)", "explain": "Preposition (at) + -ing.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "We decided {} a taxi.", "gaps": [["to get"]], "hint": "(get)", "explain": "decide + to + infinitive.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "He spends all his money on {} clothes.", "gaps": [["buying"]], "hint": "(buy)", "explain": "Preposition (on) + -ing.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7B-grammar-x4",
+          "origin": "GENERATED",
+          "instruction": "Rewrite the sentences. Start with the -ing form.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "It’s fun to go to concerts.", "answers": ["Going to concerts is fun."], "explain": "The gerund as the subject: Going… is…", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "It’s expensive to eat in restaurants.", "answers": ["Eating in restaurants is expensive."], "explain": "The gerund as the subject.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "It’s relaxing to walk by the sea.", "answers": ["Walking by the sea is relaxing."], "explain": "The gerund as the subject.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "It isn’t easy to learn a language.", "answers": ["Learning a language isn’t easy.", "Learning a language is not easy."], "explain": "The gerund as the subject.", "source": "MODEL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7B-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "-ing, the letter o",
+      "reference": [
+        {
+          "type": "note",
+          "title": "-ing /ɪŋ/",
+          "text": "The -ing ending is pronounced /ɪŋ/ (singer). Don’t pronounce a /g/ or /k/ at the end: doing /ˈduːɪŋ/, not /ˈduːɪŋk/. Compare sing /sɪŋ/ and sink /sɪŋk/."
+        },
+        {
+          "type": "note",
+          "title": "The letter o",
+          "text": "The letter o can be pronounced in many different ways: going /əʊ/, boring /ɔː/, ironing /ə/, shopping /ɒ/, doing /uː/, nothing /ʌ/."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "7B-sb3b",
+          "origin": "SB",
+          "instruction": "Listen. How is the letter o pronounced in these words? Put them in the correct column",
+          "note": "SB 3a–b (7.9) → Sort по шести звукам-картинкам",
+          "audio": "7.9",
+          "columns": ["phone /əʊ/", "horse /ɔː/", "computer /ə/", "clock /ɒ/", "boot /uː/", "up /ʌ/"],
+          "exercises": [
+            {"n": 1, "type": "sort", "word": "sh[o]pping", "column": 4, "source": "MODEL", "clip": [5.26, 6.54]},
+            {"n": 2, "type": "sort", "word": "n[o]thing", "column": 6, "source": "MODEL", "clip": [8.02, 9.33]},
+            {"n": 3, "type": "sort", "word": "b[o]ring", "column": 2, "source": "MODEL", "clip": [10.85, 12.13]},
+            {"n": 4, "type": "sort", "word": "ir[o]ning", "column": 3, "source": "MODEL", "clip": [13.62, 14.96]},
+            {"n": 5, "type": "sort", "word": "g[o]ing", "column": 1, "source": "MODEL", "clip": [16.47, 17.75]},
+            {"n": 6, "type": "sort", "word": "d[o]ing", "column": 5, "source": "MODEL", "clip": [19.26, 20.49]}
+          ]
+        },
+        {
+          "id": "7B-sb3c",
+          "origin": "SB",
+          "instruction": "Listen to the pairs of words. Can you hear the difference? Say them",
+          "note": "SB 3c (7.10) → Speak",
+          "audio": "7.10",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "bang – bank", "clip": [0.2, 4.19]},
+            {"n": 2, "type": "speak", "text": "thing – think", "clip": [5.89, 9.78]},
+            {"n": 3, "type": "speak", "text": "sing – sink", "clip": [11.5, 15.42]},
+            {"n": 4, "type": "speak", "text": "ping – pink", "clip": [17.15, 20.85]}
+          ]
+        },
+        {
+          "id": "7B-sb3d",
+          "origin": "SB",
+          "instruction": "Listen. Which word do you hear? Complete the sentence",
+          "note": "SB 3d (7.11) «Circle the word you hear» → Blank с парой слов в hint; ответы по записи",
+          "audio": "7.11",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "The news about the {} really surprised me.", "gaps": [["bank"]], "hint": "(bang / bank)", "source": "CONFIRMED", "clip": [0.2, 3.41]},
+            {"n": 2, "type": "blank", "text": "One {} I hate about supermarkets is queuing.", "gaps": [["thing"]], "hint": "(thing / think)", "source": "CONFIRMED", "clip": [5.15, 8.6]},
+            {"n": 3, "type": "blank", "text": "Could you put the dirty dishes in the {}?", "gaps": [["sink"]], "hint": "(sing / sink)", "source": "CONFIRMED", "clip": [10.49, 13.69]},
+            {"n": 4, "type": "blank", "text": "I think you have a message. I just heard your phone {}.", "gaps": [["ping"]], "hint": "(ping / pink)", "source": "CONFIRMED", "clip": [15.4, 19.13]}
+          ]
+        },
+        {
+          "id": "7B-wb3a",
+          "origin": "WB",
+          "instruction": "Say the sentences. Be careful with -ing and the letter o",
+          "note": "WB 3a–b (аудио WB нет) → Speak с предложениями из ключа; 3c (картинки + аудио WB) не перенесено",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "There’s nothing to eat."},
+            {"n": 2, "type": "speak", "text": "This film is really boring."},
+            {"n": 3, "type": "speak", "text": "I hate ironing."},
+            {"n": 4, "type": "speak", "text": "We’re going shopping this afternoon."},
+            {"n": 5, "type": "speak", "text": "What are you doing?"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7B-skills",
+      "kind": "SKILLS",
+      "title": "Listening & Speaking",
+      "reference": [
+        {
+          "type": "note",
+          "title": "The Bank of Happiness",
+          "text": "A radio money programme about the Bank of Happiness in Tallinn, Estonia. People post what they can do for others and what they need. Nobody pays money: you help somebody, and then somebody else helps you."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "7B-sb2b",
+          "origin": "SB",
+          "instruction": "Listen once. How does the Bank of Happiness work? Complete the description",
+          "note": "SB 2a–2b (7.8) «choose the correct description» → Blank; ответ — описание 3",
+          "audio": "7.8",
+          "images": ["7b_sb2_airi"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "You help somebody, and then {} helps you.", "gaps": [["somebody else", "someone else"]], "explain": "Not 1 (you don’t pay money) and not 2 (the bank doesn’t pay you).", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7B-sb2c",
+          "origin": "SB",
+          "instruction": "Listen again and complete the sentences with one word",
+          "note": "SB 2c «choose a, b, or c» → Blank: ключевое слово верного варианта (1a, 2b, 3c, 4a, 5b, 6c)",
+          "audio": "7.8",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Tallinn is one of the world’s smart cities because the people who live and work there use a lot of {}.", "gaps": [["technology"]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "The Bank of Happiness makes it possible for people to get services without {} for them.", "gaps": [["paying"]], "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "On the Bank of Happiness you could post: ‘I need somebody to give me English {}.’", "gaps": [["lessons"]], "explain": "Not a partner and not money: the bank is for services.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Airi Kivi started the Bank of Happiness because she wanted people to {} each other.", "gaps": [["help"]], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "If somebody takes your dog for a walk, you don’t need to do {} for them.", "gaps": [["anything"]], "explain": "People don’t need to pay each other back.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "The principle of the bank is that {} other people makes people happy.", "gaps": [["helping"]], "explain": "Gerund as the subject: helping other people.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7B-sb2d",
+          "origin": "SB",
+          "instruction": "Answer the questions about the Bank of Happiness with a partner",
+          "note": "SB 2d → Talk",
+          "exercises": [
+            {"n": 1, "type": "talk", "situation": "You are a classmate in an English class (level: pre-intermediate). You have both listened to a radio programme about the Bank of Happiness in Tallinn: people offer services for free (English lessons, walking a dog, fixing a computer) and somebody else helps them later; nobody pays money. Ask the student: Do you think the Bank of Happiness is a good idea? Could it work in your country? Have you heard of any similar projects? Imagine you’re a member of the bank. What can you offer to do? What would you like other people to do for you? Give your own opinion briefly too (you could offer to teach guitar).", "goal": "Discuss the Bank of Happiness: is it a good idea, and what could you offer?", "opener": "So, what do you think of the Bank of Happiness? Is it a good idea?", "criteria": ["gives an opinion about the bank with a reason", "says if it could work in their country", "says what they can offer to do and what they need", "uses verb + -ing or to + infinitive correctly (I’m good at…, I’d like somebody to…)"], "steps": [{"text": "Say if you think it’s a good idea", "example": "I think it’s a great idea because people help each other."}, {"text": "Say if it could work in your country", "example": "I’m not sure it could work here. People don’t trust strangers."}, {"text": "Say what you could offer to do", "example": "I’m good at cooking, so I could cook for somebody."}, {"text": "Say what you would like other people to do for you", "example": "I’d like somebody to help me with my computer."}]}
+          ]
+        },
+        {
+          "id": "7B-sb4",
+          "origin": "SB",
+          "instruction": "Choose five things from the list and tell your partner about them. Say why",
+          "note": "SB 4a–b → Talk",
+          "exercises": [
+            {"n": 1, "type": "talk", "situation": "You are a classmate in an English class (level: pre-intermediate). The student chooses five things to talk about from this list: something you don’t mind doing in the house, something you like doing with your family, something you don’t feel like doing at weekends, something you spend too much time doing, something you are very good (or very bad) at doing, somewhere you love going to in the summer, somewhere you don’t like going to alone, somewhere you are thinking of going to this weekend, somewhere you dream of going to in the future, somewhere you hate going to. For each thing ask a follow-up question (Why? How often? Who with?). Then briefly tell one of yours: you don’t mind cooking, you quite like it and often cook at weekends.", "goal": "Tell your partner about five things you like, don’t mind, or hate doing, and say why.", "opener": "OK, tell me about the first thing on your list.", "criteria": ["talks about five things from the list", "uses verb + -ing after don’t mind, like, spend time, good at, thinking of, dream of", "gives a reason for each one", "answers the follow-up questions"], "steps": [{"text": "Say something you don’t mind doing in the house", "example": "I don’t mind cooking. I quite like it, and I often cook at weekends."}, {"text": "Say something you spend too much time doing", "example": "I spend too much time looking at my phone."}, {"text": "Say somewhere you dream of going to", "example": "I dream of going to Australia one day."}, {"text": "Say somewhere you hate going to", "example": "I hate going to the dentist."}, {"text": "Say something you are good or bad at doing", "example": "I’m very bad at singing!"}]}
+          ]
+        }
+      ]
+    }
+  ]
+}

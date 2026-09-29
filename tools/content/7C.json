@@ -1,0 +1,966 @@
+{
+  "id": "7C",
+  "title": "Could you pass the test?",
+  "bubbles": ["What do I have to do?", "You have to take four tests."],
+  "sources": "SB p.58–59 (PDF 59–60), Grammar Bank p.138–139 (PDF 139–140), Communication p.105/110 (PDF 106/111), Writing p.117 (PDF 118), Practical English Episode 4 p.60–61 (PDF 61–62); WB p.50–53 (PDF 49–52), key WB p.91–92 (PDF 91–92)",
+  "sections": [
+    {
+      "id": "7C-grammar",
+      "kind": "GRAMMAR",
+      "title": "have to, don’t have to, must, mustn’t",
+      "reference": [
+        {
+          "type": "table",
+          "title": "have to, don’t have to",
+          "headers": ["Form", "Examples"],
+          "rows": [
+            ["+", "I have to speak English at work. She has to get up at seven every day."],
+            ["–", "We don’t have to wear a uniform at this school. He doesn’t have to work on Saturdays."],
+            ["?", "Do I have to buy a grammar book? What time does she have to get up in the morning?"]
+          ],
+          "audio": "7.13"
+        },
+        {
+          "type": "table",
+          "title": "must, mustn’t",
+          "headers": ["Form", "Examples"],
+          "rows": [
+            ["+", "You must do your homework tonight. She must tidy her room before she goes out."],
+            ["–", "You mustn’t leave your bags here. I mustn’t forget to call her tonight. (mustn’t = must not)"],
+            ["?", "Must I go to bed now? When must we decide about the party?"]
+          ],
+          "audio": "7.14"
+        },
+        {
+          "type": "note",
+          "title": "have to / don’t have to",
+          "text": "have to + infinitive = rules and obligations. don’t have to + infinitive = there is no obligation, it isn’t necessary. Use do / does in questions and negatives: Do I have to go? NOT Have I to go? Don’t contract have or has: I have to go. NOT I’ve to go."
+        },
+        {
+          "type": "note",
+          "title": "must / mustn’t",
+          "text": "must / mustn’t + infinitive without to. They are the same for all persons (he must, not he musts). mustn’t = something is prohibited."
+        },
+        {
+          "type": "note",
+          "title": "must and have to",
+          "text": "They are very similar. We normally use have to for a general obligation (a rule at work / school or a law): We have to start work at seven. We normally use must for a personal obligation (one that the speaker imposes): You must go to bed now! But often we can use either."
+        },
+        {
+          "type": "note",
+          "title": "mustn’t and don’t have to",
+          "text": "They have completely different meanings. You mustn’t go. = It’s prohibited. Don’t go. You don’t have to go. = You can go if you want to, but it isn’t necessary."
+        },
+        {
+          "type": "note",
+          "title": "Impersonal you",
+          "text": "We often use have to and must with you = people in general: You have to wear a seatbelt in a car. You mustn’t take photos in the museum."
+        },
+        {
+          "type": "mistake",
+          "wrong": "You don’t have to smoke here. (It’s prohibited.)",
+          "right": "You mustn’t smoke here.",
+          "why": "Prohibited = mustn’t. don’t have to = not necessary."
+        },
+        {
+          "type": "mistake",
+          "wrong": "She must to wear a uniform.",
+          "right": "She must wear a uniform. / She has to wear a uniform.",
+          "why": "must + infinitive without to; have to / has to + infinitive."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "7C-sb3a",
+          "origin": "SB",
+          "instruction": "Listen to Max talking about the tests and complete the gaps",
+          "note": "SB 3a (7.12)",
+          "audio": "7.12",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "You have to order a drink and a {} in a bar, ask the price and understand it.", "gaps": [["sandwich"]], "source": "CONFIRMED", "clip": [3.47, 6.52]},
+            {"n": 2, "type": "blank", "text": "You have to ask for directions in the street (and {} them).", "gaps": [["follow", "understand"]], "source": "CONFIRMED", "clip": [8.89, 12.82]},
+            {"n": 3, "type": "blank", "text": "You have to get a {} to a famous place.", "gaps": [["taxi"]], "source": "CONFIRMED", "clip": [12.82, 15.56]},
+            {"n": 4, "type": "blank", "text": "You mustn’t use a {} or phrase book app.", "gaps": [["dictionary"]], "source": "CONFIRMED", "clip": [22.53, 25.74]},
+            {"n": 5, "type": "blank", "text": "You must only {}.", "gaps": [["speak Spanish"]], "source": "CONFIRMED", "clip": [25.8, 27.82]},
+            {"n": 6, "type": "blank", "text": "You mustn’t use your {} or mime, or write anything down.", "gaps": [["hands"]], "source": "CONFIRMED", "clip": [27.83, 31.85]}
+          ]
+        },
+        {
+          "id": "7C-sb3b",
+          "origin": "SB",
+          "instruction": "Look at the rules again. Which phrase means…?",
+          "note": "SB 3b–3c; 3c «Does don’t have to mean 1 or 2?» → ответ 1 (I don’t need to do this)",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Do this. It’s important. = You {} speak Spanish.", "gaps": [["must", "have to"]], "explain": "must / have to = it’s necessary, it’s important.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Don’t do this. It’s a bad idea. = You {} use a dictionary.", "gaps": [["mustn’t", "must not"]], "explain": "mustn’t = it’s prohibited.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "‘I don’t have to learn a foreign language.’ = I don’t {} to do this.", "gaps": [["need"]], "explain": "don’t have to = I don’t need to, not I can’t.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7C-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the sentences with the correct form of have to",
+          "note": "GB 7C a",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Janice {} study very hard – she has exams soon.", "gaps": [["has to"]], "source": "KEY"},
+            {"n": 2, "type": "blank", "text": "You {} buy a ticket before you get on the bus. It costs £4 and the machine is over there.", "gaps": [["have to"]], "source": "KEY"},
+            {"n": 3, "type": "blank", "text": "{} your sister {} go to London for her job interview?", "gaps": [["Does"], ["have to"]], "source": "KEY"},
+            {"n": 4, "type": "blank", "text": "Mike {} wear a really ugly uniform at his new school. He hates it.", "gaps": [["has to"]], "source": "KEY"},
+            {"n": 5, "type": "blank", "text": "We {} get up early tomorrow. Our flight leaves at 6.30.", "gaps": [["have to"]], "source": "KEY"},
+            {"n": 6, "type": "blank", "text": "Harry {} work today – he has a day off.", "gaps": [["doesn’t have to", "does not have to"]], "source": "KEY"},
+            {"n": 7, "type": "blank", "text": "Can you wait a moment? I {} make a phone call.", "gaps": [["have to"]], "source": "KEY"},
+            {"n": 8, "type": "blank", "text": "{} we {} go to bed? It’s only ten o’clock!", "gaps": [["Do"], ["have to"]], "source": "KEY"}
+          ]
+        },
+        {
+          "id": "7C-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete with the correct form. If both are possible, write both",
+          "note": "GB 7C b «Circle… Tick if both are possible» → Blank с вариантами в hint; где верны оба — принимается любой",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "You {} cross the road when the traffic lights are red.", "gaps": [["mustn’t", "must not"]], "hint": "(don’t have to / mustn’t)", "explain": "It’s prohibited → mustn’t.", "source": "KEY"},
+            {"n": 2, "type": "blank", "text": "What {} do when I finish this exercise?", "gaps": [["do I have to", "must I", "both"]], "hint": "(do I have to / must I)", "explain": "Both are possible.", "source": "KEY"},
+            {"n": 3, "type": "blank", "text": "The concert is free. You {} pay.", "gaps": [["don’t have to", "do not have to"]], "hint": "(don’t have to / mustn’t)", "explain": "It isn’t necessary → don’t have to.", "source": "KEY"},
+            {"n": 4, "type": "blank", "text": "We’re late for the meeting. We {} go now.", "gaps": [["have to", "must", "both"]], "hint": "(have to / must)", "explain": "Both are possible.", "source": "KEY"},
+            {"n": 5, "type": "blank", "text": "You {} leave the door open – the dog will get out.", "gaps": [["mustn’t", "must not"]], "hint": "(don’t have to / mustn’t)", "explain": "Don’t do it → mustn’t.", "source": "KEY"},
+            {"n": 6, "type": "blank", "text": "I {} pay Jane back the money she lent me.", "gaps": [["have to", "must", "both"]], "hint": "(have to / must)", "explain": "Both are possible.", "source": "KEY"},
+            {"n": 7, "type": "blank", "text": "In Britain you {} drive on the left.", "gaps": [["have to"]], "hint": "(have to / must)", "explain": "A law, a general obligation → have to.", "source": "KEY"},
+            {"n": 8, "type": "blank", "text": "You {} be tall to be good at football.", "gaps": [["don’t have to", "do not have to"]], "hint": "(don’t have to / mustn’t)", "explain": "It isn’t necessary → don’t have to.", "source": "KEY"}
+          ]
+        },
+        {
+          "id": "7C-comm-a",
+          "origin": "SB",
+          "instruction": "What are the rules? Look at the photo and complete the rule with have to, don’t have to, must or mustn’t and a verb from the list",
+          "note": "SB 3e Communication Student A (фото 1–6); картинка знака — у каждого пункта",
+          "words": ["be", "pay", "take", "touch", "turn off", "wear"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "You {} your phone.", "gaps": [["must turn off", "have to turn off"]], "image": "7c_comm_1", "explain": "A sign with a crossed-out phone: it’s necessary to turn it off.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Children {}.", "gaps": [["don’t have to pay", "do not have to pay"]], "image": "7c_comm_2", "explain": "Children – free: it isn’t necessary to pay.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "You {} a jacket.", "gaps": [["have to wear", "must wear"]], "image": "7c_comm_3", "explain": "Jacket required = it’s obligatory.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "You {} the door.", "gaps": [["mustn’t touch", "must not touch"]], "image": "7c_comm_4", "explain": "Wet paint: don’t touch it.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "You {} over 18 to see this film.", "gaps": [["have to be", "must be"]], "image": "7c_comm_5", "explain": "An 18 film: it’s a rule.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "You {} photos here.", "gaps": [["mustn’t take", "must not take"]], "image": "7c_comm_6", "explain": "A crossed-out camera: it’s prohibited.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7C-comm-b",
+          "origin": "SB",
+          "instruction": "What are the rules? Look at the photo and complete the rule with have to, don’t have to, must or mustn’t and a verb from the list",
+          "note": "SB 3e Communication Student B (фото 7–12)",
+          "words": ["come", "drive", "pay", "play", "put", "wear"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "You {} anything now.", "gaps": [["don’t have to pay", "do not have to pay"]], "image": "7c_comm_7", "explain": "Nothing to pay until January: it isn’t necessary to pay now.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "You {} football here at night.", "gaps": [["mustn’t play", "must not play"]], "image": "7c_comm_8", "explain": "No ball games 8 p.m. – 7 a.m.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "You {} your feet on the seats.", "gaps": [["mustn’t put", "must not put"]], "image": "7c_comm_9", "explain": "A crossed-out picture: it’s prohibited.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "You {} to class on Mondays.", "gaps": [["don’t have to come", "do not have to come"]], "image": "7c_comm_10", "explain": "Mondays are optional: it isn’t necessary.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "You {} in one direction.", "gaps": [["have to drive", "must drive"]], "image": "7c_comm_11", "explain": "One way: it’s a rule.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "You {} sports shoes here.", "gaps": [["have to wear", "must wear"]], "image": "7c_comm_12", "explain": "Sport shoes obligatory.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7C-wb1a",
+          "origin": "WB",
+          "instruction": "Look at the picture. Complete the conversation with the correct form of have to",
+          "note": "WB 1a; картинка — у каждого разговора; 1 A Do… have to — пример",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "A Do teachers in your country have to look smart? B Not very smart. They {} wear formal clothes, but they {} look tidy.", "gaps": [["don’t have to", "do not have to"], ["have to"]], "image": "7c_wb1a_1"},
+            {"n": 2, "type": "blank", "text": "A {} British taxi drivers {} work night shifts? B Yes, we sometimes {} work at night, but we {} work every night.", "gaps": [["Do"], ["have to"], ["have to"], ["don’t have to", "do not have to"]], "image": "7c_wb1a_2"},
+            {"n": 3, "type": "blank", "text": "A {} I {} cook meals? B No. You {} do the cooking, but you {} help the children to eat.", "gaps": [["Do"], ["have to"], ["don’t have to", "do not have to"], ["have to"]], "image": "7c_wb1a_3"},
+            {"n": 4, "type": "blank", "text": "A {} your daughter {} travel abroad in her job? B No, she {} travel abroad, but she {} speak foreign languages.", "gaps": [["Does"], ["have to"], ["doesn’t have to", "does not have to"], ["has to"]], "image": "7c_wb1a_4"}
+          ]
+        },
+        {
+          "id": "7C-wb1b",
+          "origin": "WB",
+          "instruction": "What does the sign mean? Complete the sentence with You must or You mustn’t",
+          "note": "WB 1b; 1 You must pay in cash — пример",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "{} turn left here.", "gaps": [["You must"]], "image": "7c_wb1b_2"},
+            {"n": 3, "type": "blank", "text": "{} make a noise.", "gaps": [["You mustn’t", "You must not"]], "image": "7c_wb1b_3"},
+            {"n": 4, "type": "blank", "text": "{} use your phone.", "gaps": [["You mustn’t", "You must not"]], "image": "7c_wb1b_4"},
+            {"n": 5, "type": "blank", "text": "{} stop here.", "gaps": [["You must"]], "image": "7c_wb1b_5"},
+            {"n": 6, "type": "blank", "text": "{} play football here.", "gaps": [["You mustn’t", "You must not"]], "image": "7c_wb1b_6"}
+          ]
+        },
+        {
+          "id": "7C-wb1c",
+          "origin": "WB",
+          "instruction": "Complete the sentences with mustn’t or don’t have to",
+          "note": "WB 1c; 1 don’t have to — пример. В ключе к 6 напечатано must — не подходит к заданию (mustn’t / don’t have to), принят MODEL don’t have to",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "You have to wear smart clothes. You {} wear jeans.", "gaps": [["mustn’t", "must not"]]},
+            {"n": 3, "type": "blank", "text": "The speed limit is 120 km/h. You {} drive faster.", "gaps": [["mustn’t", "must not"]]},
+            {"n": 4, "type": "blank", "text": "Your hours will be 9–5 Monday to Friday. You {} work at weekends.", "gaps": [["don’t have to", "do not have to"]]},
+            {"n": 5, "type": "blank", "text": "That river is dangerous. You {} swim in it.", "gaps": [["mustn’t", "must not"]]},
+            {"n": 6, "type": "blank", "text": "It’s a very small flat. You {} clean it every day.", "gaps": [["don’t have to", "do not have to"]], "explain": "A small flat doesn’t get dirty quickly: it isn’t necessary to clean it every day.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7C-wb1d",
+          "origin": "WB",
+          "instruction": "Complete the second sentence so it has a similar meaning to the first sentence. Use the verb in brackets in the positive or negative form",
+          "note": "WB 1d; 1 don’t have to — пример",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "The rules say we must be at school by 8. = We {} be at school by 8.", "gaps": [["have to"]], "hint": "(have)"},
+            {"n": 3, "type": "blank", "text": "It’s very important that you start doing some exercise. = You {} start doing some exercise.", "gaps": [["must"]], "hint": "(must)"},
+            {"n": 4, "type": "blank", "text": "For homework tonight, you can leave exercise 1, but do exercises 2 and 3. = For homework tonight, you {} do exercise 1, but do exercises 2 and 3.", "gaps": [["don’t have to", "do not have to"]], "hint": "(have)"},
+            {"n": 5, "type": "blank", "text": "It’s important that you don’t eat any chocolate on this diet. = You {} eat any chocolate on this diet.", "gaps": [["mustn’t", "must not"]], "hint": "(must)"}
+          ]
+        },
+        {
+          "id": "7C-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the correct form of have to.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "My brother {} wear a suit at work.", "gaps": [["has to"]], "explain": "he / she / it → has to.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "{} you {} work on Saturdays?", "gaps": [["Do"], ["have to"]], "explain": "Questions: Do you have to…? NOT Have you to…?", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "She {} cook – her husband does it.", "gaps": [["doesn’t have to", "does not have to"]], "explain": "Negative: doesn’t have to = it isn’t necessary.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "What time {} your son {} be at school?", "gaps": [["does"], ["have to"]], "explain": "Wh- question: What time does he have to…?", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "We {} hurry. The train leaves in five minutes.", "gaps": [["have to"]], "explain": "we → have to (don’t contract: NOT we’ve to).", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "You {} bring food. There’s a café there.", "gaps": [["don’t have to", "do not have to"]], "explain": "It isn’t necessary → don’t have to.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7C-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with mustn’t or don’t have to.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "You {} smoke in the hospital.", "gaps": [["mustn’t", "must not"]], "explain": "It’s prohibited → mustn’t.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "It’s Sunday tomorrow. I {} get up early.", "gaps": [["don’t have to", "do not have to"]], "explain": "It isn’t necessary → don’t have to.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "You {} tell anybody. It’s a secret!", "gaps": [["mustn’t", "must not"]], "explain": "Don’t do it → mustn’t.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "You {} come to the meeting if you’re busy.", "gaps": [["don’t have to", "do not have to"]], "explain": "You can come if you want, but it isn’t necessary.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "You {} use your phone during the exam.", "gaps": [["mustn’t", "must not"]], "explain": "It’s prohibited → mustn’t.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7C-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Rewrite the sentences with the word in brackets.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "It isn’t necessary for you to wear a tie. (have)", "answers": ["You don’t have to wear a tie.", "You do not have to wear a tie."], "explain": "Not necessary → don’t have to.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "Don’t park here. (must)", "answers": ["You mustn’t park here.", "You must not park here."], "explain": "Prohibited → mustn’t.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "It’s necessary for her to work late today. (has)", "answers": ["She has to work late today."], "explain": "Obligation → has to.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "Is it necessary for me to bring my passport? (have)", "answers": ["Do I have to bring my passport?"], "explain": "Question: Do I have to…?", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "It’s very important for you to call your mother tonight. (must)", "answers": ["You must call your mother tonight."], "explain": "A personal obligation → must + infinitive without to.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7C-grammar-x4",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistake in each sentence.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "She musts wear a uniform.", "answers": ["She must wear a uniform."], "explain": "must is the same for all persons: she must.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "You must to be quiet in the library.", "answers": ["You must be quiet in the library."], "explain": "must + infinitive without to.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "Have I to pay now?", "answers": ["Do I have to pay now?"], "explain": "Questions with have to use do / does.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "I’ve to go now.", "answers": ["I have to go now."], "explain": "Don’t contract have in have to.", "source": "MODEL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7C-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "adjectives + prepositions: afraid of, etc.",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Adjectives + prepositions",
+          "headers": ["Adjective + preposition", "Example"],
+          "rows": [
+            ["afraid of", "Are you afraid of going to places where you don’t speak the language?"],
+            ["angry with", "Do you get angry with tourists who don’t try to speak your language?"],
+            ["bad at", "Is there anything about learning English that you’re bad at?"],
+            ["different from", "Are people in the capital city very different from people in the rest of the country?"],
+            ["famous for", "The British are famous for being bad at learning languages."],
+            ["full of", "Which towns are full of tourists in the summer?"],
+            ["good at", "Do you think you’re good at learning languages?"],
+            ["good for / bad for", "Is listening to pop music good for your English? Sugar is bad for your teeth."],
+            ["interested in", "What English-speaking countries are you most interested in?"],
+            ["nice to", "Are people in your country usually nice to tourists?"]
+          ],
+          "audio": "7.16"
+        },
+        {
+          "type": "note",
+          "title": "Preposition + -ing",
+          "text": "After a preposition use a noun or verb + -ing: I’m good at learning languages. She’s afraid of flying."
+        },
+        {"type": "mistake", "wrong": "I’m interested on history.", "right": "I’m interested in history.", "why": "interested in."},
+        {
+          "type": "mistake",
+          "wrong": "He’s very different of his brother.",
+          "right": "He’s very different from his brother.",
+          "why": "different from."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "7C-sb5a",
+          "origin": "SB",
+          "instruction": "Complete the questions with a preposition from the list. Then listen and check",
+          "note": "SB 5a–b (7.16)",
+          "audio": "7.16",
+          "words": ["at (x2)", "for (x2)", "from", "in", "of (x2)", "to", "with"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Do you think you’re good {} learning languages?", "gaps": [["at"]], "source": "CONFIRMED", "clip": [2.23, 4.91]},
+            {"n": 2, "type": "blank", "text": "Is there anything about learning English that you’re bad {}? What?", "gaps": [["at"]], "source": "CONFIRMED", "clip": [6.58, 10.47]},
+            {"n": 3, "type": "blank", "text": "Do you think listening to pop music is good {} your English? Why (not)?", "gaps": [["for"]], "source": "CONFIRMED", "clip": [12.16, 15.67]},
+            {"n": 4, "type": "blank", "text": "Are you afraid {} going to places where you don’t speak the language? Why (not)?", "gaps": [["of"]], "source": "CONFIRMED", "clip": [17.42, 21.08]},
+            {"n": 5, "type": "blank", "text": "What English-speaking countries are you most interested {}? Why?", "gaps": [["in"]], "source": "CONFIRMED", "clip": [22.85, 26.35]},
+            {"n": 6, "type": "blank", "text": "Which towns or cities in your country are full {} tourists in the summer?", "gaps": [["of"]], "source": "CONFIRMED", "clip": [30.21, 34.86]},
+            {"n": 7, "type": "blank", "text": "What tourist attractions is your country famous {}?", "gaps": [["for"]], "source": "CONFIRMED", "clip": [36.72, 40.24]},
+            {"n": 8, "type": "blank", "text": "Are people in your country usually nice {} tourists?", "gaps": [["to"]], "source": "CONFIRMED", "clip": [41.95, 45.82]},
+            {"n": 9, "type": "blank", "text": "Do you get angry {} tourists who don’t try to speak your language? Why (not)?", "gaps": [["with"]], "source": "CONFIRMED", "clip": [47.6, 51.6]},
+            {"n": 10, "type": "blank", "text": "Are people in the capital city very different {} people in the rest of the country?", "gaps": [["from"]], "source": "CONFIRMED", "clip": [53.33, 58.56]}
+          ]
+        },
+        {
+          "id": "7C-sb5d",
+          "origin": "SB",
+          "instruction": "Ask and answer the questions in 5a with a partner",
+          "note": "SB 5d → Talk",
+          "exercises": [
+            {"n": 1, "type": "talk", "situation": "You are a classmate in an English class (level: pre-intermediate). Ask the student some of these questions, one at a time, and react to the answers: Do you think you’re good at learning languages? Is there anything about learning English that you’re bad at? Do you think listening to pop music is good for your English? Are you afraid of going to places where you don’t speak the language? What English-speaking countries are you most interested in? Which towns or cities in your country are full of tourists in the summer? What tourist attractions is your country famous for? Are people in your country usually nice to tourists? Answer briefly when the student asks you.", "goal": "Answer questions about languages and tourism. Use adjectives + prepositions.", "opener": "Do you think you’re good at learning languages?", "criteria": ["answers at least four questions with a reason", "uses adjectives with the correct prepositions (good at, afraid of, interested in, famous for…)", "uses verb + -ing after a preposition (good at learning)", "asks the partner at least one question back"], "steps": [{"text": "Say if you are good at learning languages", "example": "I think I’m quite good at learning languages, but I’m bad at grammar."}, {"text": "Say which country you are interested in", "example": "I’m really interested in Australia."}, {"text": "Say what your country is famous for", "example": "My country is famous for its mountains and its food."}, {"text": "Ask your partner a question", "example": "What about you? Are you afraid of flying?"}]}
+          ]
+        },
+        {
+          "id": "7C-wb2a",
+          "origin": "WB",
+          "instruction": "Complete the sentences with a phrase from the list",
+          "note": "WB 2a; 1 bad at — пример",
+          "words": ["bad at (x2)", "bad for", "good at (x2)", "good for"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "Wow! You’re very {} English. Where did you learn it?", "gaps": [["good at"]]},
+            {"n": 3, "type": "blank", "text": "I really like playing the guitar, but I’m not very {} it.", "gaps": [["good at"]]},
+            {"n": 4, "type": "blank", "text": "Everybody knows that smoking is {} you.", "gaps": [["bad for"]]},
+            {"n": 5, "type": "blank", "text": "Our school football team is great, but we’re very {} rugby. We’ve lost every match this year.", "gaps": [["bad at"]]},
+            {"n": 6, "type": "blank", "text": "Cycling is lots of fun, and it’s {} you, too.", "gaps": [["good for"]]}
+          ]
+        },
+        {
+          "id": "7C-wb2b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with a preposition from the list",
+          "note": "WB 2b; 1 for — пример",
+          "words": ["from", "in", "of (x2)", "to", "with"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "I’m very different {} my younger brother. Sometimes people can’t believe we’re brothers.", "gaps": [["from"]]},
+            {"n": 3, "type": "blank", "text": "We went to a nightclub which was full {} tourists.", "gaps": [["of"]]},
+            {"n": 4, "type": "blank", "text": "People always get angry {} my uncle because he drives so slowly.", "gaps": [["with"]]},
+            {"n": 5, "type": "blank", "text": "My husband is afraid {} flying, so we always travel by car or train.", "gaps": [["of"]]},
+            {"n": 6, "type": "blank", "text": "I love going to Italy because I’m very interested {} old churches.", "gaps": [["in"]]},
+            {"n": 7, "type": "blank", "text": "Jack’s parents were very nice {} me when I stayed with them.", "gaps": [["to"]]}
+          ]
+        },
+        {
+          "id": "7C-wb2c",
+          "origin": "WB",
+          "instruction": "Complete the tips with the words in brackets and the correct prepositions",
+          "note": "WB 2c; 1 interested in — пример",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "If you’re interested in visiting museums, Berlin has some great ones, and the Alte Nationalgalerie is {} amazing paintings.", "gaps": [["full of"]], "hint": "(full)"},
+            {"n": 2, "type": "blank", "text": "New York is {} its top restaurants. If you’re {} spending too much money, there are lots of cheaper places to eat, too.", "gaps": [["famous for"], ["afraid of"]], "hint": "(afraid / famous)"},
+            {"n": 3, "type": "blank", "text": "In most countries, people who live in the country are {} people in cities. They’re often friendlier and much {} tourists.", "gaps": [["different from"], ["nicer to"]], "hint": "(nice / different)"},
+            {"n": 4, "type": "blank", "text": "Hiring a car in a new city can be difficult. Even if you’re quite {} driving, it’s easy to make mistakes, and other drivers can get {} you.", "gaps": [["good at"], ["angry with"]], "hint": "(good / angry)"}
+          ]
+        },
+        {
+          "id": "7C-wb2d",
+          "origin": "WB",
+          "instruction": "Read the teacher’s notes and write the reports for Hugo and Ana",
+          "note": "WB 2d → Write; ключ — в критериях",
+          "exercises": [
+            {"n": 1, "type": "write", "prompt": "Teacher’s notes. Hugo: good at speaking; bad at doing homework; interested in reading English magazines; must work harder. Ana: good at speaking; bad at grammar; interested in watching English / American films; must read more. Example: Marc’s worked quite hard this year. He’s good at grammar, but he’s still quite bad at listening. He’s interested in writing, but he must check his work.", "questions": [{"text": "I haven’t been happy with Hugo this term.", "hint": "(He’s good at speaking, but…)"}, {"text": "In some ways, Ana is doing well in class.", "hint": "(She’s good at…)"}], "criteria": ["Hugo: he’s still quite bad at doing homework; he’s interested in reading English magazines; he must work harder", "Ana: she’s good at speaking, but is still quite bad at grammar; she’s interested in watching English / American films; she must read more", "correct prepositions: good at, bad at, interested in", "must + infinitive without to"]}
+          ]
+        },
+        {
+          "id": "7C-wb2e",
+          "origin": "WB",
+          "instruction": "Write your report and say how well (or badly) you think you are doing in your English class",
+          "note": "WB 2e → Write",
+          "exercises": [
+            {"n": 1, "type": "write", "prompt": "Write your own report for your English class.", "questions": [{"text": "What are you good at?", "hint": "(I’m good at…)"}, {"text": "What are you bad at?", "hint": "(I’m bad at…)"}, {"text": "What are you interested in?", "hint": "(I’m interested in…)"}, {"text": "What must you do?", "hint": "(I must…)"}], "criteria": ["four sentences about their English", "correct prepositions: good at, bad at, interested in", "a noun or verb + -ing after the preposition", "must + infinitive without to"]}
+          ]
+        },
+        {
+          "id": "7C-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the correct preposition.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "My little sister is afraid {} the dark.", "gaps": [["of"]], "explain": "afraid of.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Paris is famous {} the Eiffel Tower.", "gaps": [["for"]], "explain": "famous for.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "I’m not very interested {} politics.", "gaps": [["in"]], "explain": "interested in.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "The streets were full {} people.", "gaps": [["of"]], "explain": "full of.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "Why are you angry {} me? What did I do?", "gaps": [["with"]], "explain": "angry with somebody.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "My new phone is very different {} my old one.", "gaps": [["from"]], "explain": "different from.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "The hotel staff were very nice {} us.", "gaps": [["to"]], "explain": "nice to somebody.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7C-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with good or bad and the correct preposition.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Fruit and vegetables are {} you.", "gaps": [["good for"]], "explain": "good for = healthy for.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "I can’t draw at all. I’m really {} art.", "gaps": [["bad at"]], "explain": "bad at = you can’t do it well.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "She always wins at tennis. She’s very {} sport.", "gaps": [["good at"]], "explain": "good at = you can do it well.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Too much coffee is {} your heart.", "gaps": [["bad for"]], "explain": "bad for = unhealthy for.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7C-vocabulary-x3",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the adjective and preposition + the -ing form of the verb in brackets.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "He’s {} spiders.", "gaps": [["afraid of"]], "hint": "(afraid)", "explain": "afraid of + noun.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "I’m good at {} people’s names.", "gaps": [["remembering"]], "hint": "(remember)", "explain": "Preposition + verb + -ing.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Are you interested in {} a new language?", "gaps": [["learning"]], "hint": "(learn)", "explain": "interested in + -ing.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "She’s afraid of {} in public.", "gaps": [["speaking"]], "hint": "(speak)", "explain": "afraid of + -ing.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "This town is famous for {} the best pizza in Italy.", "gaps": [["making"]], "hint": "(make)", "explain": "famous for + -ing.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7C-vocabulary-x4",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistake in each sentence.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "I’m very bad in maths.", "answers": ["I’m very bad at maths.", "I am very bad at maths."], "explain": "bad at.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "She’s interested on art.", "answers": ["She’s interested in art.", "She is interested in art."], "explain": "interested in.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "My city is famous of its bridges.", "answers": ["My city is famous for its bridges."], "explain": "famous for.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "Are you afraid of fly?", "answers": ["Are you afraid of flying?"], "explain": "After a preposition use verb + -ing.", "source": "MODEL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7C-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "stress on prepositions",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Stress on prepositions",
+          "text": "Prepositions are usually unstressed: I’m good at /ət/ tennis. Sugar is bad for /fə/ your teeth. But when a preposition comes at the end of a question or sentence, it is stressed and has its strong form: What are you interested in? What’s she famous for /fɔː/?"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "7C-sb5c",
+          "origin": "SB",
+          "instruction": "Listen to questions 1, 2, 3 and 7 again. Is the preposition stressed? Tap it if it is stressed",
+          "note": "SB 5c (7.17) → Stress: предлог в [ ]; ударный в конце вопроса (2, 7)",
+          "audio": "7.17",
+          "exercises": [
+            {"n": 1, "type": "stress", "text": "Do you think you’re good [at] learning languages?", "stressed": [], "explain": "at is in the middle of the sentence: unstressed /ət/.", "source": "MODEL", "clip": [0.2, 2.87]},
+            {"n": 2, "type": "stress", "text": "Is there anything about learning English that you’re bad [at]?", "stressed": [1], "explain": "at is at the end of the question: stressed /æt/.", "source": "MODEL", "clip": [4.53, 8.43]},
+            {"n": 3, "type": "stress", "text": "Do you think listening to pop music is good [for] your English?", "stressed": [], "explain": "for is in the middle of the sentence: unstressed /fə/.", "source": "MODEL", "clip": [10.11, 13.62]},
+            {"n": 7, "type": "stress", "text": "What tourist attractions is your country famous [for]?", "stressed": [1], "explain": "for is at the end of the question: stressed /fɔː/.", "source": "MODEL", "clip": [15.33, 18.86]}
+          ]
+        },
+        {
+          "id": "7C-wb3a",
+          "origin": "WB",
+          "instruction": "Is the preposition stressed? Tap it if it is stressed. Then say the sentences",
+          "note": "WB 3a–b (аудио WB нет) → Stress; 1 What’s she famous for? — пример (ударный); ключ: 3 и 7",
+          "exercises": [
+            {"n": 2, "type": "stress", "text": "Why are you angry [with] him?", "stressed": [], "explain": "with is followed by him: unstressed."},
+            {"n": 3, "type": "stress", "text": "There’s nothing to be afraid [of].", "stressed": [1], "explain": "of is at the end of the sentence: stressed."},
+            {"n": 4, "type": "stress", "text": "I’m quite good [at] tennis.", "stressed": [], "explain": "at is followed by a noun: unstressed."},
+            {"n": 5, "type": "stress", "text": "Sugar is bad [for] your teeth.", "stressed": [], "explain": "for is followed by a noun: unstressed."},
+            {"n": 6, "type": "stress", "text": "You’re always full [of] great ideas.", "stressed": [], "explain": "of is followed by a noun: unstressed."},
+            {"n": 7, "type": "stress", "text": "What are you interested [in]?", "stressed": [1], "explain": "in is at the end of the question: stressed."},
+            {"n": 8, "type": "stress", "text": "They weren’t very nice [to] me.", "stressed": [], "explain": "to is followed by me: unstressed."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7C-skills",
+      "kind": "SKILLS",
+      "title": "Speaking, Reading, Listening & Writing",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Topic sentences",
+          "text": "Paragraphs usually begin with a topic sentence. This tells you what the paragraph is about."
+        },
+        {
+          "type": "table",
+          "title": "Formal and informal emails",
+          "headers": ["Formal", "Informal"],
+          "rows": [
+            ["Dear Sir / Madam,", "Hi / Dear + first name,"],
+            ["I am writing", "I’m writing"],
+            ["I would like", "I’d like"],
+            ["however", "but"],
+            ["I look forward to hearing from you.", "Hope to hear from you soon."],
+            ["Yours faithfully,", "Best wishes / Love,"]
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "7C-sb1",
+          "origin": "SB",
+          "instruction": "Have you ever used English outside the classroom? Talk to your partner",
+          "note": "SB 1 Speaking + 2a → Talk",
+          "exercises": [
+            {"n": 1, "type": "talk", "situation": "You are a classmate in an English class (level: pre-intermediate). Ask the student some of these questions, one at a time, with a follow-up question each time: Have you ever spoken to a tourist in English? When? Why? Have you ever needed to speak in English on the phone? Who to? Have you ever sent an email in English? Have you ever seen a film or video clip in English? How much did you understand? Have you ever asked for directions in English in a foreign city? Have you ever used an app or website to improve your English? At the end ask: Are people from your country good at learning languages? Why (not)? Answer briefly when asked.", "goal": "Talk about times you have used English outside the classroom.", "opener": "Have you ever spoken to a tourist in English?", "criteria": ["answers with Yes, I have / No, I haven’t and gives details", "uses the past simple for details (When? What happened?)", "says if people from their country are good at learning languages and why"], "steps": [{"text": "Say if you have spoken to a tourist in English", "example": "Yes, I have. Last summer a tourist asked me the way to the station."}, {"text": "Say if you have seen a film in English", "example": "Yes, I’ve seen a lot of films in English, but I use subtitles."}, {"text": "Say if people from your country are good at languages", "example": "I think we’re quite good at learning languages because we start at school."}]}
+          ]
+        },
+        {
+          "id": "7C-sb2b",
+          "origin": "SB",
+          "instruction": "Read the article Are the British really so bad at learning languages? Put the topic sentences in the order of the paragraphs 1–6",
+          "note": "SB 2b → Order: карточки A–F по порядку абзацев 1–6 (1 E — пример в книге, оставлен в порядке)",
+          "images": ["7c_sb2_bar"],
+          "context": "1 ___ That’s been true for a long time. In any city around the world you can hear British tourists asking for the restaurant menu in English. Sometimes they try to say a couple of phrases in the local language, but they stop making an effort as soon as they discover that the waiter knows a little English. Some British people who live abroad often spend all their time with other Brits, and never learn the language at all.\n2 ___ Many British people think ‘I don’t have to learn a foreign language because everyone speaks English nowadays’. This is partly true. In many multinational companies, for example, employees have to speak English as it is the company’s official language of communication.\n3 ___ Children only have to learn a language until they are 14. After that, they don’t have to continue if they don’t want to. Thirty per cent of young people say that they don’t want to carry on with a foreign language because ‘it’s too difficult’.\n4 ___ A newspaper decided to find out by sending Max, one of its journalists, on an intensive language course. He then had to go to the country and do some ‘tests’ to see if he could ‘survive’ in different situations.\n5 ___ ‘I’d like to visit Spain and Latin America in the future. If I go, I don’t want to be the typical Brit who expects everyone else to speak English.’ He did a one-month intensive course at a language school in London.\n6 ___ When his course finished he went to Madrid for the weekend to do his tests. A teacher called Paula met him there and gave him a mark out of ten for each test and then a final mark for everything.",
+          "exercises": [
+            {"n": 1, "type": "order", "pictures": [{"label": "A", "text": "So what happened after four weeks?"}, {"label": "B", "text": "But what happens when a Brit tries to learn a new language after leaving school?"}, {"label": "C", "text": "Max decided to learn Spanish."}, {"label": "D", "text": "Motivation is obviously a problem."}, {"label": "E", "text": "The British are famous for being bad at learning languages."}, {"label": "F", "text": "The situation in British schools doesn’t help either."}], "answer": "EDFBCA", "explain": "1 E (famous for being bad), 2 D (they think they don’t have to), 3 F (schools), 4 B (after leaving school → the newspaper experiment), 5 C (Max and Spanish), 6 A (after four weeks → the tests).", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7C-sb2c",
+          "origin": "SB",
+          "instruction": "Read the article again. Answer the questions",
+          "note": "SB 2c → Write (ответы по статье — в критериях)",
+          "exercises": [
+            {"n": 1, "type": "write", "prompt": "Answer the questions about the article Are the British really so bad at learning languages?", "questions": [{"text": "What two examples does the writer give to show that the British are bad at learning languages?", "hint": "(Tourists… / People who live abroad…)"}, {"text": "Why does the writer think that British people aren’t motivated to learn languages?", "hint": "(They think…)"}, {"text": "What reason do many schoolchildren give for not wanting to study a foreign language?", "hint": "(They say…)"}, {"text": "How did a British newspaper try to find out if the British really are bad at learning languages?", "hint": "(It sent…)"}, {"text": "Why did Max decide to learn Spanish? How did he learn?", "hint": "(He’d like to… He did…)"}, {"text": "What did he do when he finished the course?", "hint": "(He went to…)"}], "criteria": ["1: British tourists ask for the menu in English; British people who live abroad spend their time with other Brits and never learn the language", "2: they think they don’t have to because everyone speaks English", "3: it’s too difficult", "4: it sent a journalist, Max, on an intensive language course and then to the country to do tests", "5: he wants to visit Spain and Latin America and not be a typical Brit; a one-month intensive course in London", "6: he went to Madrid to do his tests with a teacher, Paula"]}
+          ]
+        },
+        {
+          "id": "7C-sb4a",
+          "origin": "SB",
+          "instruction": "Listen to Max talking about his tests. Which tests were the easiest and the most difficult for him?",
+          "note": "SB 4a (7.15); по 8 баллов — бар и голосовое сообщение, 5 — такси",
+          "audio": "7.15",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "The easiest tests were ordering in the {} and leaving a message on {}. He got 8 for each.", "gaps": [["bar"], ["voicemail"]], "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "The most difficult test was getting a {}. He got 5.", "gaps": [["taxi"]], "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "7C-sb4b",
+          "origin": "SB",
+          "instruction": "Listen again. Correct the false sentences. If a sentence is true, leave it as it is",
+          "note": "SB 4b (7.15) «mark T or F» → Rewrite: неверное исправить, верное переписать как есть",
+          "audio": "7.15",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "The waiter didn’t understand Max.", "answers": ["The waiter understood Max.", "The waiter understood Max first time.", "The waiter understood Max the first time.", "The waiter did understand Max."], "explain": "False: the waiter understood him first time.", "source": "CONFIRMED"},
+            {"n": 2, "type": "rewrite", "prompt": "The bill was €6.90.", "answers": ["The bill was €6.90."], "explain": "True.", "source": "CONFIRMED"},
+            {"n": 3, "type": "rewrite", "prompt": "The chemist’s was the first street on the right.", "answers": ["The chemist’s was the second street on the right.", "The chemist’s was in the second street on the right."], "explain": "False: it was the second street on the right.", "source": "CONFIRMED"},
+            {"n": 4, "type": "rewrite", "prompt": "The driver understood the name of the stadium.", "answers": ["The driver didn’t understand the name of the stadium.", "The driver did not understand the name of the stadium."], "explain": "False: the driver didn’t understand it.", "source": "CONFIRMED"},
+            {"n": 5, "type": "rewrite", "prompt": "Max made a grammar mistake when he left the voicemail message.", "answers": ["Max made a grammar mistake when he left the voicemail message."], "explain": "True.", "source": "CONFIRMED"},
+            {"n": 6, "type": "rewrite", "prompt": "Max’s final mark was eight.", "answers": ["Max’s final mark was seven.", "Max’s final mark was 7."], "explain": "False: his final mark was seven.", "source": "CONFIRMED"},
+            {"n": 7, "type": "rewrite", "prompt": "Max says you can learn the language in a month.", "answers": ["Max says you can’t learn the language in a month.", "Max says you cannot learn the language in a month.", "Max says you can’t learn the language in a month, but you can learn enough to survive."], "explain": "False: you can’t learn it in a month, but you can learn enough to survive.", "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "7C-sb4c",
+          "origin": "SB",
+          "instruction": "How well do you think you could do Max’s four tests in English? What do you have to say?",
+          "note": "SB 4c → Talk",
+          "exercises": [
+            {"n": 1, "type": "talk", "situation": "You play four people in a city in the UK, one after the other, so the student can do Max’s four tests in English. 1) You are a waiter in a bar: the student orders a drink and a sandwich and asks the price (it’s £7.50). 2) You are a person in the street: the student asks for directions to the nearest chemist’s (second street on the left, then it’s next to the bank). 3) You are a taxi driver: the student tells you where to go. 4) Finally ask the student to say the voicemail message they would leave to ask somebody to call them back. Say which role you are playing at each step. At the end give a mark out of ten.", "goal": "Do Max’s four tests in English: a bar, directions, a taxi, and a voicemail message.", "opener": "Test one. I’m the waiter. Hi, what can I get you?", "criteria": ["orders a drink and a sandwich and asks the price politely", "asks for directions and checks they understood", "tells the taxi driver clearly where to go", "leaves a clear voicemail: name, reason, please call back"], "steps": [{"text": "Order a drink and a sandwich and ask the price", "example": "Can I have an orange juice and a cheese sandwich, please? How much is that?"}, {"text": "Ask for directions to the nearest chemist’s", "example": "Excuse me, is there a chemist’s near here?"}, {"text": "Tell the taxi driver where you want to go", "example": "Can you take me to the British Museum, please?"}, {"text": "Leave a voicemail message", "example": "Hi, this is Anna. I’m calling about the flat. Could you call me back, please? Thanks."}]}
+          ]
+        },
+        {
+          "id": "7C-wr5a",
+          "origin": "SB",
+          "instruction": "Read Marek’s email to a language school. Does Marek want the school to answer the question? Write yes or no",
+          "note": "Writing p.117 5a «Tick the questions» → Blank с yes / no в hint",
+          "context": "Dear Sir / Madam,\nI am writing to ask for information about your language courses. I am 31 years old and I work in the library at Comenius University in Bratislava, Slovakia. I can read English quite well, but I need to improve my listening and speaking. The book I am currently studying is ‘Pre-intermediate’ (Common European Framework level A2–B1).\nI would like to do an intensive course for three weeks next summer. Is it possible to do three hours of General English and two hours of Business English every day? Could you please send me some information about dates and prices? I would also like some more information about accommodation. If possible I would like to stay with a family, however my wife would like to visit me for a week when I am at the school. Could she stay with me in the same family?\nI look forward to hearing from you.\nYours faithfully,\nMarek Farbiak",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "How much do the courses cost? {}", "gaps": [["yes"]], "hint": "(yes / no)", "explain": "information about … prices", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "When do the courses start and finish? {}", "gaps": [["yes"]], "hint": "(yes / no)", "explain": "information about dates", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "How many students are there in a class? {}", "gaps": [["no"]], "hint": "(yes / no)", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Can I combine two kinds of classes? {}", "gaps": [["yes"]], "hint": "(yes / no)", "explain": "General English and Business English every day", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "Can my wife stay with me? {}", "gaps": [["yes"]], "hint": "(yes / no)", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Where are the teachers from? {}", "gaps": [["no"]], "hint": "(yes / no)", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7C-wr5b",
+          "origin": "SB",
+          "instruction": "How would the formal phrases be different in an informal email? Write the informal phrase",
+          "note": "Writing p.117 5b",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Dear Sir / Madam, → {} Anna,", "gaps": [["Hi", "Dear", "Hello"]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "I am writing → {}", "gaps": [["I’m writing"]], "explain": "Informal emails use contractions.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "I would like → {}", "gaps": [["I’d like"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "however → {}", "gaps": [["but"]], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "I look forward to hearing from you. → {}", "gaps": [["Hope to hear from you soon.", "Hope to hear from you soon", "Write soon.", "Write soon"]], "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Yours faithfully, → {}", "gaps": [["Best wishes,", "Best wishes", "Love,", "Love"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7C-wr5d",
+          "origin": "SB",
+          "instruction": "Write a formal email to Dublin English First asking for information. Write two paragraphs",
+          "note": "Writing p.117 5c–e → Write",
+          "context": "Learn English in Dublin. Come and improve your English this summer! We run courses from two to four weeks. You can have classes from three to six hours a day or you can combine studying with cultural activities like theatre trips or museum visits. There are General English courses from Beginner to Advanced, as well as Business English and exam preparation classes. You can stay with a local family, or in student accommodation. Write to us for more information. Tell us about yourself and what you are looking for, and we will suggest the perfect course for you.",
+          "exercises": [
+            {"n": 1, "type": "write", "prompt": "Write a formal email to the school. Decide how long you want to study for, what kind of course, and where you want to stay. Ask two or three questions.", "questions": [{"text": "Paragraph 1: Why are you writing? Give some personal information (your age, occupation, and your level of English).", "hint": "(Dear Sir / Madam, I am writing to ask for information about… I am … years old and I…)"}, {"text": "Paragraph 2: What would you like to do? Ask your questions and ask them to send you the information.", "hint": "(I would like to… Is it possible to…? Could you please send me…?)"}, {"text": "How do you finish the email?", "hint": "(I look forward to hearing from you. Yours faithfully,)"}], "criteria": ["starts with Dear Sir / Madam and ends with I look forward to hearing from you. Yours faithfully,", "two paragraphs: personal information, then the course and questions", "formal style: no contractions (I am, I would like), however instead of but", "at least two polite questions (Is it possible to…? Could you please…?)"]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7C-practical",
+      "kind": "PRACTICAL_ENGLISH",
+      "title": "Episode 4 · At the pharmacy",
+      "note": "Rob and Jenny go running in Central Park. The next day Rob isn’t feeling well and goes to a pharmacy. In the evening he has dinner at Jenny’s apartment.",
+      "reference": [
+        {
+          "type": "table",
+          "title": "What’s the matter?",
+          "headers": ["Phrase", "Pronunciation"],
+          "rows": [
+            ["I have a headache.", "/ˈhedeɪk/"],
+            ["I have a cough.", "/kɒf/"],
+            ["I have flu.", "/fluː/"],
+            ["I have a temperature.", "/ˈtemprətʃə/"],
+            ["I have a bad stomach.", "/ˈstʌmək/"],
+            ["I have a cold.", "/kəʊld/"]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Going to a pharmacy",
+          "headers": ["You hear", "You say"],
+          "rows": [
+            ["Good morning. Can I help you?", "I’m not feeling very well. I think I have flu."],
+            ["What are your symptoms?", "I have a headache and a cough."],
+            ["Do you have a temperature?", "No, I don’t think so."],
+            ["Are you allergic to any drugs?", "I’m allergic to penicillin."],
+            ["No problem. This is ibuprofen. It’ll make you feel better.", "How many do I have to take?"],
+            ["Two every four hours.", "Sorry? How often?"],
+            ["Two every four hours. If you don’t feel better in 48 hours, you should see a doctor.", "OK, thanks. How much is that?"],
+            ["That’s $6.99, please.", "Thank you."]
+          ]
+        },
+        {
+          "type": "note",
+          "title": "have got",
+          "text": "We sometimes use have got instead of have to talk about possession. I’ve got a busy day tomorrow. Have you got any children? Yes, I have. I’ve got a girl and a boy. / No, I haven’t. I haven’t got children."
+        },
+        {
+          "type": "note",
+          "title": "British and American English",
+          "text": "pharmacy = American English (and sometimes British English); chemist’s = British English. drugs = medicine in American English; drugs = illegal substances in British and American English."
+        },
+        {
+          "type": "table",
+          "title": "Social English",
+          "headers": ["Phrase", "Use"],
+          "rows": [
+            ["That was a lovely meal.", "thanking after dinner"],
+            ["That isn’t very good for you.", "giving an opinion"],
+            ["I’m glad you’re feeling better.", "reacting to good news"],
+            ["I think I should get back to the hotel now.", "saying you want to leave"],
+            ["I’m sure I’ll be fine.", "reassuring somebody"],
+            ["Thanks again for a great evening.", "saying goodbye"]
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "7C-pe1",
+          "origin": "SB",
+          "instruction": "Watch Rob and Jenny running in Central Park. Complete the sentences",
+          "note": "SB PE4 1a–b (7.18) «Answer the questions» → Blank по ответам из видео",
+          "video": "ep4_running_in_central_park",
+          "images": ["7c_pe1_1", "7c_pe1_2"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "How does Rob say he feels? ‘Never {}.’", "gaps": [["better"]], "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "Jenny says Central Park is her {} place in New York.", "gaps": [["favourite", "favorite"]], "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "Is Rob happy he came to New York? {}. He says it’s fantastic.", "gaps": [["Yes"]], "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "Rob is tired of {} out all the time.", "gaps": [["eating"]], "source": "CONFIRMED"},
+            {"n": 5, "type": "blank", "text": "Jenny invites Rob to her {} after work. She can make him something healthier.", "gaps": [["place", "apartment", "flat"]], "source": "CONFIRMED"},
+            {"n": 6, "type": "blank", "text": "They are going to run round the park {} more times.", "gaps": [["two", "2"]], "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "7C-pe2a",
+          "origin": "SB",
+          "instruction": "What’s the matter? Look at the photo and complete the phrase",
+          "note": "SB PE4 2a–b (7.19) «Match the phrases and photos» → Blank с фото у каждого пункта",
+          "video": "ep4_vocab_feeling_ill",
+          "words": ["a bad stomach", "a cold", "a cough", "flu", "a headache", "a temperature"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "I have {}.", "gaps": [["flu"]], "image": "7c_pe2_1", "explain": "flu without a: I have flu.", "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "I have {}.", "gaps": [["a headache"]], "image": "7c_pe2_2", "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "I have {}.", "gaps": [["a cold"]], "image": "7c_pe2_3", "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "I have {}.", "gaps": [["a cough"]], "image": "7c_pe2_4", "source": "CONFIRMED"},
+            {"n": 5, "type": "blank", "text": "I have {}.", "gaps": [["a temperature"]], "image": "7c_pe2_5", "source": "CONFIRMED"},
+            {"n": 6, "type": "blank", "text": "I have {}.", "gaps": [["a bad stomach"]], "image": "7c_pe2_6", "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "7C-pe3a",
+          "origin": "SB",
+          "instruction": "Watch Rob at the pharmacy. Complete the sentences",
+          "note": "SB PE4 3a (7.20) «Circle the correct answer» → Blank с вариантами в hint",
+          "video": "ep4_going_to_a_pharmacy",
+          "images": ["7c_pe3_pharmacy"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Rob thinks he has {}.", "gaps": [["flu"]], "hint": "(a cold / flu)", "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "The pharmacist gives Rob {}.", "gaps": [["ibuprofen"]], "hint": "(ibuprofen / penicillin)", "explain": "Rob is allergic to penicillin.", "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "He has to take the medicine every {}.", "gaps": [["four hours", "4 hours"]], "hint": "(four hours / eight hours)", "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "It costs {}.", "gaps": [["$6.99"]], "hint": "($16.99 / $6.99)", "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "7C-pe3b",
+          "origin": "SB",
+          "instruction": "Watch again. Complete the You hear phrases",
+          "note": "SB PE4 3b",
+          "video": "ep4_going_to_a_pharmacy",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Do you have a {}?", "gaps": [["temperature"]], "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "No {}. This is ibuprofen.", "gaps": [["problem"]], "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "It’ll make you feel {}.", "gaps": [["better"]], "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "{} every four hours.", "gaps": [["Two", "Take two", "2"]], "source": "CONFIRMED"},
+            {"n": 5, "type": "blank", "text": "{} every four hours. If you don’t feel better in 48 hours, you should see a doctor.", "gaps": [["Two", "Take two", "2"]], "source": "CONFIRMED"},
+            {"n": 6, "type": "blank", "text": "If you don’t feel better in {} hours, you should see a doctor.", "gaps": [["48", "forty-eight", "forty eight"]], "source": "CONFIRMED"},
+            {"n": 7, "type": "blank", "text": "You’re {}.", "gaps": [["welcome"]], "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "7C-pe3c",
+          "origin": "SB",
+          "instruction": "Watch and repeat the You say phrases. Copy the rhythm",
+          "note": "SB PE4 3c–d (7.21) → Speak",
+          "video": "ep4_you_say",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "I’m not feeling very well. I think I have flu."},
+            {"n": 2, "type": "speak", "text": "I have a headache and a cough."},
+            {"n": 3, "type": "speak", "text": "No, I don’t think so."},
+            {"n": 4, "type": "speak", "text": "I’m allergic to penicillin."},
+            {"n": 5, "type": "speak", "text": "How many do I have to take?"},
+            {"n": 6, "type": "speak", "text": "Sorry? How often?"},
+            {"n": 7, "type": "speak", "text": "OK, thanks. How much is that?"},
+            {"n": 8, "type": "speak", "text": "Thank you."}
+          ]
+        },
+        {
+          "id": "7C-pe3e",
+          "origin": "SB",
+          "instruction": "Role-play: you don’t feel very well. Go to a pharmacy and get some medicine",
+          "note": "SB PE4 3e (A — клиент)",
+          "exercises": [
+            {"n": 1, "type": "talk", "situation": "You are a pharmacist in a pharmacy in New York. The student is a customer who doesn’t feel very well (they choose the symptoms). You begin. Ask about the symptoms, if they have a temperature and if they are allergic to any drugs. Then give them some medicine (cough sweets, ibuprofen, etc.), say how many to take and how often (e.g. two every four hours), and say the price. If they don’t feel better in 48 hours they should see a doctor.", "goal": "You don’t feel very well. Go to a pharmacy and get some medicine.", "opener": "Good morning. Can I help you?", "criteria": ["says they don’t feel well and describes at least two symptoms (I have a headache / a cough / a temperature…)", "answers about allergies (I’m allergic to… / No, I don’t think so.)", "asks how many to take and how often, and the price", "thanks the pharmacist"], "steps": [{"text": "Say how you feel", "example": "I’m not feeling very well. I think I have a cold."}, {"text": "Describe your symptoms", "example": "I have a headache and a bad cough."}, {"text": "Answer about allergies", "example": "I’m allergic to aspirin."}, {"text": "Ask how many and how often", "example": "How many do I have to take? Sorry, how often?"}, {"text": "Ask the price and say thank you", "example": "OK, thanks. How much is that?"}]}
+          ]
+        },
+        {
+          "id": "7C-pe3f",
+          "origin": "SB",
+          "instruction": "Role-play: you are the pharmacist. Help a customer who doesn’t feel well",
+          "note": "SB PE4 3e–f (B — фармацевт, swap roles)",
+          "exercises": [
+            {"n": 1, "type": "talk", "situation": "You are a customer in a pharmacy in New York. You don’t feel very well: you have a sore throat, a cough and a temperature. You are allergic to penicillin. The student is the pharmacist. Answer their questions. Ask how many tablets to take and how often, and how much it costs. If the student doesn’t ask about allergies, mention it yourself before you leave.", "goal": "You are the pharmacist. Help the customer and give them some medicine.", "opener": "Hello. I’m not feeling very well.", "criteria": ["starts politely (Can I help you?) and asks about the symptoms", "asks about a temperature and allergies (Do you have a temperature? Are you allergic to any drugs?)", "explains how many and how often (Take two every four hours.)", "gives advice (If you don’t feel better in 48 hours, you should see a doctor.) and the price"], "steps": [{"text": "Offer help and ask about the symptoms", "example": "Good morning. Can I help you? What are your symptoms?"}, {"text": "Ask about a temperature and allergies", "example": "Do you have a temperature? Are you allergic to any drugs?"}, {"text": "Give the medicine and explain how to take it", "example": "This is ibuprofen. Take two every four hours."}, {"text": "Give advice and say the price", "example": "If you don’t feel better in 48 hours, you should see a doctor. That’s $5.50, please."}]}
+          ]
+        },
+        {
+          "id": "7C-pe4a",
+          "origin": "SB",
+          "instruction": "Watch Rob and Jenny at dinner. Correct the false sentences. If a sentence is true, leave it as it is",
+          "note": "SB PE4 4a (7.22) «mark T or F» → Rewrite: неверное исправить, верное переписать как есть",
+          "video": "ep4_dinner_at_jennys_apartment",
+          "images": ["7c_pe4_dinner"],
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "Rob broke up with his girlfriend a year before he met Jenny.", "answers": ["Rob broke up with his girlfriend a few months before he met Jenny.", "Rob broke up with his girlfriend a few months before he met her."], "explain": "False: it was a few months before he met Jenny.", "source": "CONFIRMED"},
+            {"n": 2, "type": "rewrite", "prompt": "Jenny hasn’t had much time for relationships.", "answers": ["Jenny hasn’t had much time for relationships."], "explain": "True: she’s been too busy with her job at the magazine.", "source": "CONFIRMED"},
+            {"n": 3, "type": "rewrite", "prompt": "Jenny knew that Rob wasn’t feeling well in the morning.", "answers": ["Jenny didn’t know that Rob wasn’t feeling well in the morning.", "Jenny did not know that Rob wasn’t feeling well in the morning."], "explain": "False: Why didn’t you tell me you weren’t feeling well this morning?", "source": "CONFIRMED"},
+            {"n": 4, "type": "rewrite", "prompt": "Rob wants to go back to his hotel because he’s tired.", "answers": ["Rob wants to go back to his hotel because he’s got a busy day tomorrow.", "Rob wants to go back to his hotel because he has a busy day tomorrow.", "Rob wants to go back to his hotel because he’s got a really busy day tomorrow."], "explain": "False: he’s got a really busy day tomorrow.", "source": "CONFIRMED"},
+            {"n": 5, "type": "rewrite", "prompt": "Jenny is going to call a taxi.", "answers": ["Jenny isn’t going to call a taxi.", "Jenny is not going to call a taxi.", "Rob is going to get a taxi on the street.", "Rob is going to get a cab on the street."], "explain": "False: she says it’s much easier to get a cab on the street.", "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "7C-pe4c",
+          "origin": "SB",
+          "instruction": "Watch and repeat the phrases with have got",
+          "note": "SB PE4 4c (7.23) → Speak",
+          "video": "ep4_have_got",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "I’ve got a busy day tomorrow."},
+            {"n": 2, "type": "speak", "text": "Have you got any children?"},
+            {"n": 3, "type": "speak", "text": "Yes, I have. I’ve got a girl and a boy."},
+            {"n": 4, "type": "speak", "text": "No, I haven’t. I haven’t got children."}
+          ]
+        },
+        {
+          "id": "7C-pe4d",
+          "origin": "SB",
+          "instruction": "Ask and answer with a partner. Use Have you got…? Yes, I have. / No, I haven’t. Give more information if you can",
+          "note": "SB PE4 4d → Talk",
+          "exercises": [
+            {"n": 1, "type": "talk", "situation": "You are a classmate in an English class (level: pre-intermediate). Ask the student with have got, one at a time: Have you got any pets? Have you got a bike or a motorbike? Have you got a garden? Ask for more information after each answer. Then the student asks you about any brothers and sisters, a car and a laptop: answer with Yes, I have. / No, I haven’t. and give more information (you’ve got one brother, you haven’t got a car, you’ve got an old laptop).", "goal": "Ask and answer about possessions with have got.", "opener": "Have you got any pets?", "criteria": ["answers with short answers Yes, I have. / No, I haven’t.", "gives more information with I’ve got / I haven’t got", "asks at least two questions with Have you got…?"], "steps": [{"text": "Answer about pets", "example": "Yes, I have. I’ve got two dogs."}, {"text": "Answer about a bike or motorbike", "example": "No, I haven’t. But I’ve got a scooter."}, {"text": "Ask your partner about brothers and sisters", "example": "Have you got any brothers and sisters?"}, {"text": "Ask about a car or a laptop", "example": "Have you got a car?"}]}
+          ]
+        },
+        {
+          "id": "7C-pe4e",
+          "origin": "SB",
+          "instruction": "Complete the Social English phrases. Then watch and check",
+          "note": "SB PE4 4e–f (7.25)",
+          "video": "ep4_social_english",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Rob: That was a lovely {}.", "gaps": [["meal"]], "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "Rob: That isn’t very {} for you.", "gaps": [["good"]], "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "Jenny: I’m {} you’re feeling better.", "gaps": [["glad"]], "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "Rob: I think I {} get back to the hotel now.", "gaps": [["should"]], "source": "CONFIRMED"},
+            {"n": 5, "type": "blank", "text": "Rob: I’m {} I’ll be fine.", "gaps": [["sure"]], "source": "CONFIRMED"},
+            {"n": 6, "type": "blank", "text": "Rob: Thanks again for a {} evening.", "gaps": [["great"]], "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "7C-pe4g",
+          "origin": "SB",
+          "instruction": "Complete the conversations with a Social English phrase",
+          "note": "SB PE4 4g; ответы — выбор по смыслу (MODEL)",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "A My cold has completely disappeared. B {}", "gaps": [["I’m glad you’re feeling better."]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "A {} Thanks so much for inviting me. B It was a pleasure.", "gaps": [["That was a lovely meal."]], "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "A It’s getting late. {} B Shall I call you a taxi?", "gaps": [["I think I should get back to the hotel now."]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "A Do you think you’ll be OK for tonight? B {} Don’t worry.", "gaps": [["I’m sure I’ll be fine."]], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "A This is my third coffee this morning. B {} You won’t sleep tonight.", "gaps": [["That isn’t very good for you."]], "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "A I hope you enjoyed the party. B We certainly did. {}", "gaps": [["Thanks again for a great evening."]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "7C-wbpe1",
+          "origin": "WB",
+          "instruction": "Complete the sentences with a word or phrase from the list",
+          "note": "WB PE4 1 «Re-order the letters» → Blank со списком слов (анаграммы убраны — без подсказок по буквам); 1 flu — пример",
+          "words": ["bad stomach", "cold", "cough", "headache", "temperature"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "I need to buy some tissues. I have a {}.", "gaps": [["cold"]]},
+            {"n": 3, "type": "blank", "text": "That fish wasn’t very nice, and now I have a {}.", "gaps": [["bad stomach"]]},
+            {"n": 4, "type": "blank", "text": "You feel very hot. I think you have a {}.", "gaps": [["temperature"]]},
+            {"n": 5, "type": "blank", "text": "Please turn that music down. I have a {}.", "gaps": [["headache"]]},
+            {"n": 6, "type": "blank", "text": "Kate’s had a bad {} for three weeks now.", "gaps": [["cough"]]}
+          ]
+        },
+        {
+          "id": "7C-wbpe2",
+          "origin": "WB",
+          "instruction": "Complete the conversation at the pharmacy with words from the list",
+          "note": "WB PE4 2; 1 help — пример",
+          "images": ["7c_wbpe_pharmacy"],
+          "words": ["allergic", "better", "every", "have", "much", "often", "symptoms", "take", "well"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "A Good afternoon. Can I help you? B I’m not feeling very {}.", "gaps": [["well"]]},
+            {"n": 3, "type": "blank", "text": "A What are your {}? B I have a bad cough.", "gaps": [["symptoms"]]},
+            {"n": 4, "type": "blank", "text": "A Do you {} a temperature? B No, I don’t.", "gaps": [["have"]]},
+            {"n": 5, "type": "blank", "text": "A Are you {} to any drugs? B No, I don’t think so.", "gaps": [["allergic"]]},
+            {"n": 6, "type": "blank", "text": "A Take these cough sweets. They’ll make you feel {}.", "gaps": [["better"]]},
+            {"n": 7, "type": "blank", "text": "B How many do I have to {}?", "gaps": [["take"]]},
+            {"n": 8, "type": "blank", "text": "A Take one {} three hours.", "gaps": [["every"]]},
+            {"n": 9, "type": "blank", "text": "B Sorry? How {}? A One every three hours.", "gaps": [["often"]]},
+            {"n": 10, "type": "blank", "text": "B OK, thanks. How {} is that? A That’s $4.50, please.", "gaps": [["much"]]}
+          ]
+        },
+        {
+          "id": "7C-wbpe3",
+          "origin": "WB",
+          "instruction": "Complete the conversations with the correct form of have got",
+          "note": "WB PE4 3; 1 Have you got any aspirin? — пример",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "A {}? B Yes, my brother’s got two children, a girl and a boy.", "gaps": [["Has your brother got any children"]]},
+            {"n": 3, "type": "blank", "text": "A Have you got any pets at home? B No, we {}.", "gaps": [["haven’t", "haven’t got any pets", "have not"]]},
+            {"n": 4, "type": "blank", "text": "A What sort of car {}? B I’ve got a Mini.", "gaps": [["have you got"]]},
+            {"n": 5, "type": "blank", "text": "A {}? B I’ve got one sister, but I haven’t got any brothers.", "gaps": [["Have you got any brothers and sisters", "Have you got any brothers or sisters"]]},
+            {"n": 6, "type": "blank", "text": "A Have you got a printer? B Yes, I {}.", "gaps": [["have"]]}
+          ]
+        },
+        {
+          "id": "7C-wbpe4",
+          "origin": "WB",
+          "instruction": "Complete the conversations with one word",
+          "note": "WB PE4 4 Social English; первые буквы (gl…, f…, sh…, s…, gr…) убраны; 1 lovely — пример",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "A That was a lovely meal. And my cough has gone, too! B I’m {} you’re feeling better.", "gaps": [["glad"]]},
+            {"n": 2, "type": "blank", "text": "A Can I have some more cake, please? B There isn’t any more. Anyway, too much cake isn’t very good {} you.", "gaps": [["for"]]},
+            {"n": 3, "type": "blank", "text": "A I think I {} get back to the hotel now. B Shall I drive you back? A No, I’ll walk. I’m {} I’ll be fine. Thanks again for a {} evening.", "gaps": [["should"], ["sure"], ["great"]]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7C-review",
+      "kind": "REVIEW",
+      "title": "Can you remember…? 1–7",
+      "reference": [
+        {
+          "type": "note",
+          "title": null,
+          "text": "Revision of Files 1–7: comparatives and superlatives, present perfect, quantifiers, will, question words, have to / must, verbs + gerund, adjectives, the body, describing people, holidays, sounds."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "7C-rv1",
+          "origin": "WB",
+          "instruction": "Grammar. Complete the sentences with the correct option",
+          "note": "WB «Can you remember…? 1–7» 1 «Circle a, b, or c» → Blank с вариантами в hint",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "The weather isn’t great, but it was {} last year.", "gaps": [["worse"]], "hint": "(bad / worse / the worst)", "explain": "Comparative: bad → worse."},
+            {"n": 2, "type": "blank", "text": "We want to go to Slovenia because {} there before.", "gaps": [["we’ve never been", "we have never been"]], "hint": "(we’ve never been / we weren’t / we went)", "explain": "Present perfect for experience: we’ve never been."},
+            {"n": 3, "type": "blank", "text": "I have problems sleeping because I drink {} coffee.", "gaps": [["too much"]], "hint": "(enough / too much / too many)", "explain": "coffee is uncountable → too much."},
+            {"n": 4, "type": "blank", "text": "Do you think {} tomorrow? It’s cold enough.", "gaps": [["it’ll snow", "it will snow"]], "hint": "(it’ll snow / it’s snowing / it snows)", "explain": "Prediction: will."},
+            {"n": 5, "type": "blank", "text": "Do you know {} can come to the party?", "gaps": [["who"]], "hint": "(which / what / who)", "explain": "who = which people."},
+            {"n": 6, "type": "blank", "text": "In the UK you {} carry your passport or ID with you, but you can if you want to.", "gaps": [["don’t have to", "do not have to"]], "hint": "(haven’t / mustn’t / don’t have to)", "explain": "Not necessary → don’t have to."}
+          ]
+        },
+        {
+          "id": "7C-rv2",
+          "origin": "WB",
+          "instruction": "Vocabulary. Which word or phrase is different? Write it",
+          "note": "WB «Can you remember…? 1–7» 2",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "enjoy, like, love, hate → {}", "gaps": [["hate"]], "explain": "hate is negative; the others are positive."},
+            {"n": 2, "type": "blank", "text": "interesting, depressing, relaxing, exciting → {}", "gaps": [["depressing"]], "explain": "depressing is negative."},
+            {"n": 3, "type": "blank", "text": "heart, muscle, harbour, liver → {}", "gaps": [["harbour"]], "explain": "harbour isn’t a part of the body."},
+            {"n": 4, "type": "blank", "text": "dangerous, clean, crowded, polluted → {}", "gaps": [["clean"]], "explain": "clean is positive."},
+            {"n": 5, "type": "blank", "text": "bald, moustache, beard, long → {}", "gaps": [["long"]], "explain": "long describes hair; the others are about a man’s face and head."},
+            {"n": 6, "type": "blank", "text": "hire a car, do the ironing, sunbathe, go sightseeing → {}", "gaps": [["do the ironing"]], "explain": "The others are holiday activities."}
+          ]
+        },
+        {
+          "id": "7C-rv3",
+          "origin": "WB",
+          "instruction": "Pronunciation. Which word has a different sound? Write it",
+          "note": "WB «Can you remember…? 1–7» 3",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "singer /ŋ/: thing, sing, thank, ring → {}", "gaps": [["thank"]], "explain": "thank = /ŋk/."},
+            {"n": 2, "type": "blank", "text": "zebra /z/: likes, reads, feels, knows → {}", "gaps": [["likes"]], "explain": "likes = /s/."},
+            {"n": 3, "type": "blank", "text": "girl /g/: guarantee, gate, gift, general → {}", "gaps": [["general"]], "explain": "general = /dʒ/."},
+            {"n": 4, "type": "blank", "text": "boot /uː/: going, doing, moving, losing → {}", "gaps": [["going"]], "explain": "going = /əʊ/."},
+            {"n": 5, "type": "blank", "text": "up /ʌ/: enough, blood, put, shut → {}", "gaps": [["put"]], "explain": "put = /ʊ/."},
+            {"n": 6, "type": "blank", "text": "tree /iː/: easy, break, mean, beach → {}", "gaps": [["break"]], "explain": "break = /eɪ/."}
+          ]
+        },
+        {
+          "id": "7C-rv4",
+          "origin": "WB",
+          "instruction": "Grammar and vocabulary. Read the article Bhutan – Kingdom of happiness. Complete it with the correct option",
+          "note": "WB «Can you remember…? 1–7» 4 «Circle a, b, or c» → Blank с вариантами в hint",
+          "context": "The mountain kingdom of Bhutan is a very small country with a population of only 800,000 people.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Countries usually want {} more cars and planes, build more houses and roads, and have more teachers and doctors, because this all improves the economy.", "gaps": [["to make"]], "hint": "(making / to make / to making)", "explain": "want + to + infinitive."},
+            {"n": 2, "type": "blank", "text": "However, in Bhutan, King Jigme Wangchuck decided {} the 1970s that other things were more important and the government had to think about what makes people happy.", "gaps": [["in"]], "hint": "(on / in / at)", "explain": "in + decades: in the 1970s."},
+            {"n": 3, "type": "blank", "text": "The people of Bhutan are now healthier, and they live longer than they did before. The country has {} roads, schools and hospitals,", "gaps": [["better"]], "hint": "(better / well / best)", "explain": "Comparative adjective: better."},
+            {"n": 4, "type": "blank", "text": "but the people also believe {} looking after the environment.", "gaps": [["in"]], "hint": "(at / in / for)", "explain": "believe in."},
+            {"n": 5, "type": "blank", "text": "In fact, it’s one of the {} polluted countries in the world.", "gaps": [["least"]], "hint": "(less / last / least)", "explain": "Superlative: the least polluted."},
+            {"n": 6, "type": "blank", "text": "The teachers say that school mustn’t just be about {} exams; it should be about teaching students to be good people.", "gaps": [["passing"]], "hint": "(winning / passing / failing)", "explain": "pass an exam."},
+            {"n": 7, "type": "blank", "text": "The people of Bhutan want to keep their special culture. Some {} ideas and inventions have come to Bhutan,", "gaps": [["modern"]], "hint": "(modern / crowded / quiet)", "explain": "modern ideas and inventions."},
+            {"n": 8, "type": "blank", "text": "but they’ve come {}.", "gaps": [["slowly"]], "hint": "(slow / slowly / more slow)", "explain": "Adverb after a verb: come slowly."},
+            {"n": 9, "type": "blank", "text": "Bhutan finally got TVs, but that {} only in 1999.", "gaps": [["was"]], "hint": "(was / is / has been)", "explain": "Past simple with a past date: in 1999."},
+            {"n": 10, "type": "blank", "text": "Only a small number of tourists can visit, and they {} to pay $250 each a day just to be there.", "gaps": [["have"]], "hint": "(has / must / have)", "explain": "they have to pay."}
+          ]
+        }
+      ]
+    }
+  ]
+}

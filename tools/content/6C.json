@@ -1,0 +1,3435 @@
+{
+  "id": "6C",
+  "title": "The meaning of dreaming",
+  "bubbles": [
+    "I dreamed about a road.",
+    "That means you’re going to travel."
+  ],
+  "sources": "SB p.50–51 (PDF 51–52), Grammar Bank p.136–137 (PDF 137–138), Communication Revision questionnaire p.104/111 (PDF 105/112), Revise and Check 5&6 p.52–53 (PDF 53–54); WB p.44–45 (PDF 43–44), key WB p.91 (PDF 90). Scripts 6.14–6.21 are not printed on the lesson pages (answers by the recordings)",
+  "sections": [
+    {
+      "id": "6C-skills",
+      "kind": "SKILLS",
+      "title": "Listening",
+      "reference": [
+        {
+          "type": "note",
+          "title": "The patient’s dream",
+          "text": "A patient tells a psychoanalyst, Dr Melloni, about his dream: a party, champagne, a garden with flowers, somebody playing the violin, an owl in a tree, and very cold feet. Dr Melloni then interprets each thing in the dream."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "6C-sb1a",
+          "origin": "SB",
+          "instruction": "Ask and answer the questions about dreams",
+          "note": "SB 1a → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "Speaking practice in an English class (level: pre-intermediate), topic dreams. Ask the student these questions one at a time, react, and answer their questions too: Do you often remember your dreams? Have you ever had the same dream more than once? Have you ever dreamed about something that then happened? Do you think dreams can tell us anything about the future?",
+              "goal": "Talk about your dreams.",
+              "opener": "Do you often remember your dreams?",
+              "criteria": [
+                "answers the four questions with details",
+                "uses the present perfect for experiences (I’ve had… / I’ve never dreamed…) and the past simple for details",
+                "asks at least one question back"
+              ],
+              "steps": [
+                {
+                  "text": "Answer about remembering dreams",
+                  "example": "Not very often, but sometimes I remember them in the morning."
+                },
+                {
+                  "text": "Say if you’ve had the same dream more than once",
+                  "example": "Yes, I have. I often dream that I’m late for an exam."
+                },
+                {
+                  "text": "Ask about dreams and the future",
+                  "example": "Do you think dreams can tell us anything about the future?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6C-sb1b",
+          "origin": "SB",
+          "instruction": "Listen to a psychoanalyst talking to a patient about his dreams. Put the pictures in the correct order",
+          "note": "SB 1b (6.14) → Order по картинкам A–F; сверено с 6.14 — CONFIRMED",
+          "audio": "6.14",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "order",
+              "pictures": [
+                {
+                  "label": "A",
+                  "image": "6c_sb1b_a",
+                  "caption": "flowers"
+                },
+                {
+                  "label": "B",
+                  "image": "6c_sb1b_b",
+                  "caption": "an owl"
+                },
+                {
+                  "label": "C",
+                  "image": "6c_sb1b_c",
+                  "caption": "a violin"
+                },
+                {
+                  "label": "D",
+                  "image": "6c_sb1b_d",
+                  "caption": "a party"
+                },
+                {
+                  "label": "E",
+                  "image": "6c_sb1b_e",
+                  "caption": "champagne"
+                },
+                {
+                  "label": "F",
+                  "image": "6c_sb1b_f",
+                  "caption": "feet"
+                }
+              ],
+              "answer": [
+                "D",
+                "E",
+                "A",
+                "C",
+                "B",
+                "F"
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "6C-sb1c",
+          "origin": "SB",
+          "instruction": "Listen again and complete the gaps with a verb in the correct form",
+          "note": "SB 1c (6.14) → Blank по репликам, клип на реплику. Ответы по расшифровке",
+          "audio": "6.14",
+          "dialogue": true,
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "What were they {}?\nThey were drinking and {}.",
+              "gaps": [
+                [
+                  "doing"
+                ],
+                [
+                  "talking"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                7.8,
+                12.75
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Were you drinking?\nYes, I was {} champagne.",
+              "gaps": [
+                [
+                  "drinking"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                12.7,
+                17.1
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "And then what happened?\nThen, suddenly I was in a garden. There {} a lot of flowers.",
+              "gaps": [
+                [
+                  "were"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                17.4,
+                25.1
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "What kind of flowers?\nI {} see – it was a bit dark. And I could hear music – somebody was {} the violin.",
+              "gaps": [
+                [
+                  "couldn’t",
+                  "could not"
+                ],
+                [
+                  "playing"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                27.8,
+                39.45
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "The violin? Go on.\nAnd then I {} an owl, a really big owl, in a tree…",
+              "gaps": [
+                [
+                  "saw"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                39.45,
+                49.0
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "How did you {}? Were you frightened of it?\nNo, not frightened really, no, but I {} I felt incredibly cold. Especially my feet – they were freezing. And then I {}.",
+              "gaps": [
+                [
+                  "feel"
+                ],
+                [
+                  "remember"
+                ],
+                [
+                  "woke up"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                49.6,
+                66.6
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Were you {} any shoes?\nNo, no, I wasn’t.",
+              "gaps": [
+                [
+                  "wearing"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                73.6,
+                78.6
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Have you ever {} this dream before?\nNo, never. So what does it {}, Doctor?",
+              "gaps": [
+                [
+                  "had"
+                ],
+                [
+                  "mean"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                78.65,
+                86.9
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6C-sb1d",
+          "origin": "SB",
+          "instruction": "What do you think the patient’s dream means? Match the things in his dream to the interpretations. Then listen and check",
+          "note": "SB 1d + 1e (6.15) → Blank: ключевое слово толкования (1 feeling positive, 2 very busy, 3 romance, 4 an older person, 5 successful) из words; сверено с 6.15 — CONFIRMED, клип на толкование",
+          "audio": "6.15",
+          "words": [
+            "busy",
+            "older",
+            "positive",
+            "romance",
+            "successful"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "You dream that you are at a party. → You are going to be very {}.",
+              "gaps": [
+                [
+                  "busy"
+                ]
+              ],
+              "explain": "A party is a group of people – you’re going to have a lot of meetings.",
+              "source": "CONFIRMED",
+              "clip": [
+                3.5,
+                28.5
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "You dream that you are drinking champagne. → You’ll be {} in the future.",
+              "gaps": [
+                [
+                  "successful"
+                ]
+              ],
+              "explain": "Champagne means a celebration – it’s a symbol of success.",
+              "source": "CONFIRMED",
+              "clip": [
+                28.4,
+                60.8
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "You dream about flowers. → You’re feeling {} about the future.",
+              "gaps": [
+                [
+                  "positive"
+                ]
+              ],
+              "explain": "Flowers are a positive symbol.",
+              "source": "CONFIRMED",
+              "clip": [
+                60.8,
+                85.6
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "You dream that somebody is playing the violin. → You want some {} in your life.",
+              "gaps": [
+                [
+                  "romance"
+                ]
+              ],
+              "explain": "The violin music tells me you want some romance in your life.",
+              "source": "CONFIRMED",
+              "clip": [
+                104.5,
+                115.6
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "You dream about an owl. → You need to ask an {} person for help.",
+              "gaps": [
+                [
+                  "older"
+                ]
+              ],
+              "explain": "The owl represents an older person.",
+              "source": "CONFIRMED",
+              "clip": [
+                124.9,
+                141.3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6C-sb1f",
+          "origin": "SB",
+          "instruction": "Dr Melloni is now going to explain what picture 6 means. Listen and find out",
+          "note": "SB 1f (6.16) → Blank по расшифровке",
+          "audio": "6.16",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Picture 6: at the end of his dream the patient was feeling {}. His feet were very cold.",
+              "gaps": [
+                [
+                  "cold"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                7.2,
+                16.0
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Dr Melloni thinks the woman doesn’t {} him.",
+              "gaps": [
+                [
+                  "love"
+                ]
+              ],
+              "explain": "‘You mean she doesn’t love me?’ – ‘No, I don’t think so.’",
+              "source": "CONFIRMED",
+              "clip": [
+                16.0,
+                27.6
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6C-grammar",
+      "kind": "GRAMMAR",
+      "title": "review of verb forms: present, past, and future",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Verb forms",
+          "headers": [
+            "Tense",
+            "Example",
+            "Use"
+          ],
+          "rows": [
+            [
+              "present simple",
+              "I live in the city centre. She doesn’t smoke.",
+              "things that always or usually happen"
+            ],
+            [
+              "present continuous",
+              "He’s looking for a new job. I’m leaving tomorrow.",
+              "things happening now or around now; future arrangements"
+            ],
+            [
+              "past simple",
+              "We saw a good film last night. We didn’t do anything yesterday.",
+              "finished actions in the past"
+            ],
+            [
+              "past continuous",
+              "He was working in Paris. What were you doing at 7.00?",
+              "actions in progress at a time in the past"
+            ],
+            [
+              "be going to + infinitive",
+              "I’m going to see Tom tonight. Look! It’s going to snow.",
+              "future plans; predictions when you can see something"
+            ],
+            [
+              "will / won’t + infinitive",
+              "You’ll love New York. I’ll phone her later. I’ll help you. I’ll pay you back tomorrow.",
+              "predictions, instant decisions, offers, promises"
+            ],
+            [
+              "present perfect",
+              "I’ve finished the book. Have you ever been to Iran?",
+              "recently finished actions; past experiences"
+            ]
+          ],
+          "audio": "6.17"
+        },
+        {
+          "type": "note",
+          "title": "Auxiliary verbs in questions",
+          "text": "Each tense has its own auxiliary: Do / Does (present simple), am / is / are (present continuous, going to), Did (past simple), was / were (past continuous), will (future), have / has (present perfect)."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "6C-sb2a",
+          "origin": "SB",
+          "instruction": "Which sentence is the present perfect? What time do the other sentences refer to?",
+          "note": "SB 2a «Mark PP, P, PR, F» → Blank, варианты в hint. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I was drinking champagne. → {}",
+              "hint": "(present perfect / past / present / future)",
+              "gaps": [
+                [
+                  "past",
+                  "P"
+                ]
+              ],
+              "explain": "Past continuous – the past.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I saw an owl. → {}",
+              "hint": "(present perfect / past / present / future)",
+              "gaps": [
+                [
+                  "past",
+                  "P"
+                ]
+              ],
+              "explain": "Past simple – the past.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Have you ever had this dream before? → {}",
+              "hint": "(present perfect / past / present / future)",
+              "gaps": [
+                [
+                  "present perfect",
+                  "PP"
+                ]
+              ],
+              "explain": "have + past participle.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "You’re going to meet a lot of people. → {}",
+              "hint": "(present perfect / past / present / future)",
+              "gaps": [
+                [
+                  "future",
+                  "F"
+                ]
+              ],
+              "explain": "be going to – the future.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "You work in an office. → {}",
+              "hint": "(present perfect / past / present / future)",
+              "gaps": [
+                [
+                  "present",
+                  "PR"
+                ]
+              ],
+              "explain": "Present simple – the present.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Maybe you’ll have a meeting with your boss. → {}",
+              "hint": "(present perfect / past / present / future)",
+              "gaps": [
+                [
+                  "future",
+                  "F"
+                ]
+              ],
+              "explain": "will – the future.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "You are feeling positive. → {}",
+              "hint": "(present perfect / past / present / future)",
+              "gaps": [
+                [
+                  "present",
+                  "PR"
+                ]
+              ],
+              "explain": "Present continuous for now – the present.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I’m meeting her tonight. → {}",
+              "hint": "(present perfect / past / present / future)",
+              "gaps": [
+                [
+                  "future",
+                  "F"
+                ]
+              ],
+              "explain": "Present continuous for an arrangement – the future.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6C-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the questions with the correct auxiliary verb",
+          "note": "GB 6C a; пример книги без номера. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "{} you often remember your dreams?",
+              "gaps": [
+                [
+                  "Do"
+                ]
+              ],
+              "explain": "Present simple: Do you…?",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "{} you watch the match last night?",
+              "gaps": [
+                [
+                  "Did"
+                ]
+              ],
+              "explain": "last night → past simple: Did…?",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Who do you think {} win the election next year?",
+              "gaps": [
+                [
+                  "will"
+                ]
+              ],
+              "explain": "Prediction: will.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{} you been to the supermarket?",
+              "gaps": [
+                [
+                  "Have"
+                ]
+              ],
+              "explain": "Present perfect: Have you been…?",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{} your brother like rock music?",
+              "gaps": [
+                [
+                  "Does"
+                ]
+              ],
+              "explain": "he / she → Does.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "What {} you going to watch on TV tonight?",
+              "gaps": [
+                [
+                  "are"
+                ]
+              ],
+              "explain": "be going to: are you going to…?",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "{} it snowing when you left?",
+              "gaps": [
+                [
+                  "Was"
+                ]
+              ],
+              "explain": "Past continuous: Was it snowing?",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "{} you at the party last night?",
+              "gaps": [
+                [
+                  "Were"
+                ]
+              ],
+              "explain": "Past of be with you: Were.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "{} the film finished yet?",
+              "gaps": [
+                [
+                  "Has"
+                ]
+              ],
+              "explain": "Present perfect with yet: Has…?",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6C-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the dialogue with the correct form of the verbs in brackets",
+          "note": "GB 6C b; пример (What are we doing tonight?) не нумерован. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "What are we doing tonight?\nWe {} dinner with Jack and Mary.",
+              "hint": "(have)",
+              "gaps": [
+                [
+                  "’re having",
+                  "are having"
+                ]
+              ],
+              "explain": "Future arrangement: present continuous.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "But we {} dinner with them last week!",
+              "hint": "(have)",
+              "gaps": [
+                [
+                  "had"
+                ]
+              ],
+              "explain": "last week → past simple.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Yes, but they {} to tell us some good news.",
+              "hint": "(want)",
+              "gaps": [
+                [
+                  "want"
+                ]
+              ],
+              "explain": "want is not used in the continuous: present simple.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Oh, OK then. {} I {} some champagne?",
+              "hint": "(buy)",
+              "gaps": [
+                [
+                  "Shall"
+                ],
+                [
+                  "buy"
+                ]
+              ],
+              "explain": "Offer: Shall I…?",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "It’s eight o’clock! Where {} you {}?",
+              "hint": "(be)",
+              "gaps": [
+                [
+                  "have"
+                ],
+                [
+                  "been"
+                ]
+              ],
+              "explain": "Present perfect: Where have you been?",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I’m sorry. When I {} home…",
+              "hint": "(walk)",
+              "gaps": [
+                [
+                  "was walking"
+                ]
+              ],
+              "explain": "Action in progress: past continuous.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "…I {} to buy the champagne.",
+              "hint": "(decide)",
+              "gaps": [
+                [
+                  "decided"
+                ]
+              ],
+              "explain": "Finished past action: past simple.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "And then I {} Mark in the shop…",
+              "hint": "(see)",
+              "gaps": [
+                [
+                  "saw"
+                ]
+              ],
+              "explain": "see – saw.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Well, hurry up. We {} late!",
+              "hint": "(be)",
+              "gaps": [
+                [
+                  "’re going to be",
+                  "are going to be",
+                  "’ll be",
+                  "will be"
+                ]
+              ],
+              "explain": "Prediction: going to / will.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "It’s OK. I {} a taxi…",
+              "hint": "(already book)",
+              "gaps": [
+                [
+                  "’ve already booked",
+                  "have already booked"
+                ]
+              ],
+              "explain": "Present perfect with already.",
+              "source": "MODEL"
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "…and I {} ready in five minutes.",
+              "hint": "(be)",
+              "gaps": [
+                [
+                  "’ll be",
+                  "will be"
+                ]
+              ],
+              "explain": "Promise: I’ll be ready.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6C-sb3",
+          "origin": "SB",
+          "instruction": "Revision questionnaire. Ask and answer questions in different tenses",
+          "note": "SB 3 Communication p.104 (A) / p.111 (B) → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "Speaking practice in an English class (level: pre-intermediate), Communication ‘Revision questionnaire’. Ask the student your questions one at a time: 1 What do you usually have for breakfast? 2 Are you studying for an exam at the moment? 3 Where did you go on holiday last year? 4 Where were you at ten o’clock last night? What were you doing? 5 Have you ever broken a bone? 6 What are you going to do next summer? 7 What do you think the weather will be like tomorrow? 8 What are you doing tonight? Ask follow-up questions. The student has their own questionnaire and asks you: What languages can you speak? Are you watching any TV series at the moment? What did you do last summer? What were you wearing the last time you came to class? Have you been to the cinema recently? What are you going to do next weekend? Who do you think will win the next football World Cup? Are you going to a concert or a sporting event soon? Answer them naturally.",
+              "goal": "Ask and answer questions in different tenses.",
+              "opener": "What do you usually have for breakfast?",
+              "criteria": [
+                "answers in the tense of the question (present simple, present continuous, past simple, past continuous, present perfect, going to, will)",
+                "asks at least four questions from the list with the correct auxiliary",
+                "gives extra details in the answers"
+              ],
+              "steps": [
+                {
+                  "text": "Answer in the same tense",
+                  "example": "I usually have coffee and toast."
+                },
+                {
+                  "text": "Ask about languages and TV series",
+                  "example": "What languages can you speak? Are you watching any TV series at the moment?"
+                },
+                {
+                  "text": "Ask about last summer and the cinema",
+                  "example": "What did you do last summer? Have you been to the cinema recently?"
+                },
+                {
+                  "text": "Ask about the future",
+                  "example": "Who do you think will win the next football World Cup?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6C-wb1a",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the correct form",
+          "note": "WB 1a «Circle a, b, or c» → Blank, варианты в hint; 1 — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "My dad {} to that school when he was young.",
+              "hint": "(goes / went / has been)",
+              "gaps": [
+                [
+                  "went"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Thanks for lending me your car. I promise {} after it.",
+              "hint": "(I look / I’ll look / I’m going to look)",
+              "gaps": [
+                [
+                  "I’ll look",
+                  "I will look"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "My brother wants to find a new job because he never {} any free time.",
+              "hint": "(has / had / is having)",
+              "gaps": [
+                [
+                  "has"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I’m sorry, what did you say? I {}.",
+              "hint": "(haven’t listened / didn’t listen / wasn’t listening)",
+              "gaps": [
+                [
+                  "wasn’t listening"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Could you get me some butter from the shop? {} a birthday cake for Tim.",
+              "hint": "(I make / I’ll make / I’m going to make)",
+              "gaps": [
+                [
+                  "I’m going to make"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Mum, turn the TV down! {} to do my homework.",
+              "hint": "(I try / I’m trying / I’ve tried)",
+              "gaps": [
+                [
+                  "I’m trying"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I’ll always remember that holiday in Italy. {} a great time.",
+              "hint": "(We had / We’ve had / We’re having)",
+              "gaps": [
+                [
+                  "We had"
+                ]
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Oh no! I think {} my leg.",
+              "hint": "(I was breaking / I’ve broken / I broke)",
+              "gaps": [
+                [
+                  "I’ve broken",
+                  "I have broken"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6C-wb1b",
+          "origin": "WB",
+          "instruction": "Complete the conversations with the correct form of the verbs",
+          "note": "WB 1b: вопрос дан, ответ-глагол в пропуск; формы по ключу. Первая половина 1 — пример",
+          "dialogue": true,
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Are you going to go out tonight?\nNo, I’m really tired. I {} to bed early.",
+              "gaps": [
+                [
+                  "’m going to go",
+                  "am going to go"
+                ]
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "What time do you usually go to bed?\nAt 10.30. Then I {} for an hour before I go to sleep.",
+              "gaps": [
+                [
+                  "read"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Do you think England will win tonight?\nNo, I think they {}.",
+              "gaps": [
+                [
+                  "’ll lose",
+                  "will lose"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "What were you doing at midnight on New Year’s Eve?\nNothing special. I {} TV.",
+              "gaps": [
+                [
+                  "was watching"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Have you ever dreamt that you were flying?\nNo, I {} that dream.",
+              "gaps": [
+                [
+                  "’ve never had",
+                  "have never had"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "What are you doing? It’s five o’clock in the morning!\nI can’t sleep so I {}.",
+              "gaps": [
+                [
+                  "’m reading",
+                  "am reading"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "What time are you leaving tomorrow?\nEarly. The taxi {} at six o’clock.",
+              "gaps": [
+                [
+                  "’s coming",
+                  "is coming"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Did you sleep well last night?\nNo, I {} up in the middle of the night, and I couldn’t go back to sleep.",
+              "gaps": [
+                [
+                  "woke"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6C-wb1c",
+          "origin": "WB",
+          "instruction": "Complete the text with the correct form of the verbs in brackets",
+          "note": "WB 1c «What colour are our dreams?»; 1 Do…dream — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Do we dream in colour or in black and white? Scientists {} a lot of research into this question.",
+              "hint": "(do)",
+              "gaps": [
+                [
+                  "have done",
+                  "’ve done",
+                  "are doing",
+                  "’re doing"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "One of these scientists is a psychologist who {} at Dundee University.",
+              "hint": "(work)",
+              "gaps": [
+                [
+                  "works"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Her name is Eva Murzyn, and right now she {} the effect of television on our dreams.",
+              "hint": "(study)",
+              "gaps": [
+                [
+                  "’s studying",
+                  "is studying"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Eva {} just {} the results of her latest study.",
+              "hint": "(publish)",
+              "gaps": [
+                [
+                  "has",
+                  "’s"
+                ],
+                [
+                  "published"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Sixty people {} Eva with her research. They completed a questionnaire and kept a diary of their dreams.",
+              "hint": "(help)",
+              "gaps": [
+                [
+                  "helped"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "She {} people who were either under 25 or over 55.",
+              "hint": "(choose)",
+              "gaps": [
+                [
+                  "chose"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "When Eva analyzed their diaries, she {} that the younger people usually dreamed in colour…",
+              "hint": "(discover)",
+              "gaps": [
+                [
+                  "discovered"
+                ]
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "…whereas many in the older group often {} black-and-white dreams.",
+              "hint": "(have)",
+              "gaps": [
+                [
+                  "had"
+                ]
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "Eva thinks that this is because the older group {} TV programmes in black and white when they were very young.",
+              "hint": "(see)",
+              "gaps": [
+                [
+                  "saw"
+                ]
+              ]
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "She believes that something happened to their brains while they {} TV at that time.",
+              "hint": "(watch)",
+              "gaps": [
+                [
+                  "were watching"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6C-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete with the correct form of the verb in brackets.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I {} to the gym three times a week.",
+              "hint": "(go)",
+              "gaps": [
+                [
+                  "go"
+                ]
+              ],
+              "explain": "Routine: present simple.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Be quiet! The baby {}.",
+              "hint": "(sleep)",
+              "gaps": [
+                [
+                  "’s sleeping",
+                  "is sleeping"
+                ]
+              ],
+              "explain": "Happening now: present continuous.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "We {} a great film last Saturday.",
+              "hint": "(see)",
+              "gaps": [
+                [
+                  "saw"
+                ]
+              ],
+              "explain": "Finished past time: past simple.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "What {} you {} when I called you?",
+              "hint": "(do)",
+              "gaps": [
+                [
+                  "were"
+                ],
+                [
+                  "doing"
+                ]
+              ],
+              "explain": "In progress at a past moment: past continuous.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{} you ever {} sushi?",
+              "hint": "(eat)",
+              "gaps": [
+                [
+                  "Have"
+                ],
+                [
+                  "eaten"
+                ]
+              ],
+              "explain": "Experience: present perfect.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Look at those clouds! It {} rain.",
+              "hint": "(be going to)",
+              "gaps": [
+                [
+                  "’s going to",
+                  "is going to"
+                ]
+              ],
+              "explain": "Prediction with evidence: going to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "I’m sure you {} the exam.",
+              "hint": "(pass)",
+              "gaps": [
+                [
+                  "’ll pass",
+                  "will pass"
+                ]
+              ],
+              "explain": "Prediction with I’m sure: will.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I {} my grandparents next Sunday – we arranged it last week.",
+              "hint": "(visit)",
+              "gaps": [
+                [
+                  "’m visiting",
+                  "am visiting"
+                ]
+              ],
+              "explain": "Arrangement: present continuous.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6C-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Make questions. Use the correct tense.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "you / ever / be / to Japan",
+              "hint": "(experience)",
+              "answers": [
+                "Have you ever been to Japan?"
+              ],
+              "explain": "Present perfect for experiences.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "what / you / do / last weekend",
+              "hint": "(finished past)",
+              "answers": [
+                "What did you do last weekend?"
+              ],
+              "explain": "Past simple: What did you do…?",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "where / she / work",
+              "hint": "(usually)",
+              "answers": [
+                "Where does she work?"
+              ],
+              "explain": "Present simple with she: does.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "what / you / do / tomorrow evening",
+              "hint": "(plan)",
+              "answers": [
+                "What are you going to do tomorrow evening?",
+                "What are you doing tomorrow evening?"
+              ],
+              "explain": "Plans: going to / present continuous.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "it / rain / when you got up",
+              "hint": "(in progress)",
+              "answers": [
+                "Was it raining when you got up?"
+              ],
+              "explain": "Past continuous: Was it raining…?",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "who / you / think / win the match",
+              "hint": "(prediction)",
+              "answers": [
+                "Who do you think will win the match?"
+              ],
+              "explain": "Who do you think will…?",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6C-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "I have seen him yesterday.",
+              "answers": [
+                "I saw him yesterday."
+              ],
+              "explain": "yesterday = finished time → past simple.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "I’m not understanding this word.",
+              "answers": [
+                "I don’t understand this word.",
+                "I do not understand this word."
+              ],
+              "explain": "understand is not used in the continuous.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "When I arrived, they had dinner, so I waited.",
+              "answers": [
+                "When I arrived, they were having dinner, so I waited."
+              ],
+              "explain": "In progress when I arrived: past continuous.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "It’s cold. I close the window.",
+              "answers": [
+                "It’s cold. I’ll close the window.",
+                "It’s cold. I will close the window."
+              ],
+              "explain": "Instant decision / offer: I’ll.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "Did you ever go to Paris?",
+              "answers": [
+                "Have you ever been to Paris?"
+              ],
+              "explain": "Experience with ever: present perfect.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "She work in a bank.",
+              "answers": [
+                "She works in a bank."
+              ],
+              "explain": "Present simple: she works.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6C-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "modifiers",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Modifiers",
+          "headers": [
+            "Strongest → weakest",
+            "Example"
+          ],
+          "rows": [
+            [
+              "incredibly",
+              "The room was incredibly dark."
+            ],
+            [
+              "really",
+              "The room was really dark."
+            ],
+            [
+              "very",
+              "The room was very dark."
+            ],
+            [
+              "quite",
+              "The room was quite dark."
+            ],
+            [
+              "a bit",
+              "The room was a bit dark."
+            ],
+            [
+              "not very",
+              "The room wasn’t very dark."
+            ]
+          ],
+          "audio": "6.18"
+        },
+        {
+          "type": "note",
+          "title": "a bit",
+          "text": "Use a bit before negative adjectives and adverbs, e.g. a bit dark, a bit slowly, and before comparatives, e.g. a bit better, a bit faster. Not: a bit nice."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "6C-sb4a",
+          "origin": "SB",
+          "instruction": "Complete the chart with the words from the list, from the strongest to the weakest. Then listen and check",
+          "note": "SB 4a + 4b (6.18) → Blank; very и not very даны в книге",
+          "audio": "6.18",
+          "words": [
+            "a bit",
+            "incredibly",
+            "quite",
+            "really"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "The room was {} dark. (the strongest)",
+              "gaps": [
+                [
+                  "incredibly"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                0.2,
+                2.97
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The room was {} dark. (stronger than very)",
+              "gaps": [
+                [
+                  "really"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                4.68,
+                6.84
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "The room was {} dark. (weaker than very)",
+              "gaps": [
+                [
+                  "quite"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                12.98,
+                15.07
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "The room was {} dark. (stronger than not very)",
+              "gaps": [
+                [
+                  "a bit"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                16.87,
+                19.2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6C-sb4c",
+          "origin": "SB",
+          "instruction": "Complete the sentences with a noun or a verb + -ing and is or are",
+          "note": "SB 4c → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Complete the sentences about your opinions. Use a noun or a verb + -ing and is or are.",
+              "questions": [
+                {
+                  "text": "I think … a bit boring.",
+                  "hint": "(watching football on TV is…)"
+                },
+                {
+                  "text": "I think … incredibly stressful.",
+                  "hint": "(exams are… / driving in the city is…)"
+                },
+                {
+                  "text": "I think … really interesting.",
+                  "hint": "(learning languages is…)"
+                },
+                {
+                  "text": "I think … very expensive.",
+                  "hint": "(flats in my city are…)"
+                },
+                {
+                  "text": "I think … quite difficult.",
+                  "hint": "(English pronunciation is…)"
+                }
+              ],
+              "criteria": [
+                "completes all five sentences with a noun or a verb + -ing",
+                "uses is with -ing / singular nouns and are with plural nouns",
+                "keeps the modifier + adjective from the prompt"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6C-wb2a",
+          "origin": "WB",
+          "instruction": "Put the letters in the correct order to make modifiers",
+          "note": "WB 2a; 1 very — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I had a {} strange dream last night, but I can’t remember all of it.",
+              "hint": "(aeryll)",
+              "gaps": [
+                [
+                  "really"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I can play the guitar, but I’m {} good.",
+              "hint": "(nto yvre)",
+              "gaps": [
+                [
+                  "not very"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "That test was {} difficult, but I think I got most of the answers right.",
+              "hint": "(uiqet)",
+              "gaps": [
+                [
+                  "quite"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "It’s often cold here in April, but it’s usually a {} better in May.",
+              "hint": "(ibt)",
+              "gaps": [
+                [
+                  "bit"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "You’ll love Natalia. She’s {} nice.",
+              "hint": "(eydlibricn)",
+              "gaps": [
+                [
+                  "incredibly"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6C-wb2b",
+          "origin": "WB",
+          "instruction": "Complete the conversations with the words in brackets in the correct order and tense",
+          "note": "WB 2b; 1 — пример",
+          "dialogue": true,
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Why don’t you want to go in Caroline’s car?\nBecause she {}.",
+              "hint": "(dangerously / drive / really)",
+              "gaps": [
+                [
+                  "drives really dangerously"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "What’s Jack planning for your birthday?\nHe {}.",
+              "hint": "(take me to a / expensive restaurant / very)",
+              "gaps": [
+                [
+                  "’s taking me to a very expensive restaurant",
+                  "is taking me to a very expensive restaurant",
+                  "’s going to take me to a very expensive restaurant",
+                  "is going to take me to a very expensive restaurant"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Did you like the museum?\nYes, it {}.",
+              "hint": "(quite / be / interesting)",
+              "gaps": [
+                [
+                  "was quite interesting"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Why didn’t you answer the phone when I called?\nI {}.",
+              "hint": "(be / really / busy)",
+              "gaps": [
+                [
+                  "was really busy"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Did you enjoy the film?\nNot really. It {}.",
+              "hint": "(a bit / boring / be)",
+              "gaps": [
+                [
+                  "was a bit boring"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6C-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete with a modifier. Use the clue in brackets.",
+          "words": [
+            "incredibly",
+            "really",
+            "very",
+            "quite",
+            "a bit",
+            "not very"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "The test was {} easy – I finished in ten minutes!",
+              "hint": "(the strongest)",
+              "gaps": [
+                [
+                  "incredibly"
+                ]
+              ],
+              "explain": "incredibly = the strongest modifier.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The film was {} good, but the ending was bad.",
+              "hint": "(= fairly)",
+              "gaps": [
+                [
+                  "quite"
+                ]
+              ],
+              "explain": "quite = fairly, less than very.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I’m {} tired today. I’ll go to bed early.",
+              "hint": "(= a little; negative adjective)",
+              "gaps": [
+                [
+                  "a bit"
+                ]
+              ],
+              "explain": "a bit + negative adjective.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "The hotel was {} nice, so we won’t go there again.",
+              "hint": "(negative)",
+              "gaps": [
+                [
+                  "not very"
+                ]
+              ],
+              "explain": "not very nice = quite bad.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Can you speak {} slower, please?",
+              "hint": "(+ comparative)",
+              "gaps": [
+                [
+                  "a bit"
+                ]
+              ],
+              "explain": "a bit + comparative.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "It’s {} hot today – 40 degrees!",
+              "hint": "(stronger than very)",
+              "gaps": [
+                [
+                  "incredibly",
+                  "really"
+                ]
+              ],
+              "explain": "really / incredibly are stronger than very.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6C-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "She’s a bit nice.",
+              "answers": [
+                "She’s quite nice.",
+                "She’s very nice.",
+                "She’s really nice.",
+                "She is quite nice."
+              ],
+              "explain": "a bit goes with negative adjectives, not nice.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "It’s very more expensive now.",
+              "answers": [
+                "It’s a bit more expensive now.",
+                "It’s much more expensive now.",
+                "It is a bit more expensive now."
+              ],
+              "explain": "Before a comparative: a bit / much, not very.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "The exam was incredible difficult.",
+              "answers": [
+                "The exam was incredibly difficult."
+              ],
+              "explain": "Modifier = adverb: incredibly.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "He drives really dangerous.",
+              "answers": [
+                "He drives really dangerously."
+              ],
+              "explain": "drive + adverb: dangerously.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6C-vocabulary-x3",
+          "origin": "GENERATED",
+          "instruction": "Rewrite the sentence with the modifier in brackets.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "The book was boring.",
+              "hint": "(a bit)",
+              "answers": [
+                "The book was a bit boring."
+              ],
+              "explain": "a bit + negative adjective.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "My job is stressful.",
+              "hint": "(incredibly)",
+              "answers": [
+                "My job is incredibly stressful."
+              ],
+              "explain": "Modifier goes before the adjective.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "The museum was interesting.",
+              "hint": "(not very)",
+              "answers": [
+                "The museum wasn’t very interesting.",
+                "The museum was not very interesting."
+              ],
+              "explain": "not very: make the verb negative.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "She speaks English well.",
+              "hint": "(really)",
+              "answers": [
+                "She speaks English really well."
+              ],
+              "explain": "Modifier before the adverb well.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "Today is warmer than yesterday.",
+              "hint": "(a bit)",
+              "answers": [
+                "Today is a bit warmer than yesterday."
+              ],
+              "explain": "a bit + comparative.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6C-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "the letters ea",
+      "reference": [
+        {
+          "type": "table",
+          "title": "ea and ear",
+          "headers": [
+            "Sound",
+            "Words"
+          ],
+          "rows": [
+            [
+              "tree /iː/",
+              "dream, mean, beach, clean, easy, jeans, meat, speak"
+            ],
+            [
+              "egg /e/",
+              "already, breakfast, sweater, weather"
+            ],
+            [
+              "train /eɪ/",
+              "break, great"
+            ],
+            [
+              "chair /eə/",
+              "wear"
+            ],
+            [
+              "ear /ɪə/",
+              "really, clear, dear, hear, idea, near, theatre"
+            ],
+            [
+              "bird /ɜː/",
+              "earn, learn"
+            ]
+          ],
+          "audio": "6.19"
+        },
+        {
+          "type": "note",
+          "title": "The most common pronunciation",
+          "text": "ea is usually /iː/ (dream, speak); ear is usually /ɪə/ (hear, near). Learn the exceptions: bread, weather (/e/), break, great (/eɪ/), wear (/eə/), learn (/ɜː/)."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "6C-sb5a",
+          "origin": "SB",
+          "instruction": "How are ea and ear pronounced in these words? Put them in the correct column. Then listen and check",
+          "note": "SB 5a + 5b (6.19) → Sort по шести звукам; сверено с 6.19 — CONFIRMED. Вопрос о самом частом произношении — в заметке раздела",
+          "audio": "6.19",
+          "columns": [
+            "tree /iː/",
+            "egg /e/",
+            "train /eɪ/",
+            "chair /eə/",
+            "ear /ɪə/",
+            "bird /ɜː/"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "sort",
+              "word": "dr[ea]m",
+              "column": 1,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "sort",
+              "word": "m[ea]n",
+              "column": 1,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "sort",
+              "word": "r[ea]lly",
+              "column": 5,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "sort",
+              "word": "alr[ea]dy",
+              "column": 2,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "sort",
+              "word": "b[ea]ch",
+              "column": 1,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "sort",
+              "word": "br[ea]k",
+              "column": 3,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 7,
+              "type": "sort",
+              "word": "br[ea]kfast",
+              "column": 2,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 8,
+              "type": "sort",
+              "word": "cl[ea]n",
+              "column": 1,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 9,
+              "type": "sort",
+              "word": "cl[ear]",
+              "column": 5,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 10,
+              "type": "sort",
+              "word": "d[ear]",
+              "column": 5,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 11,
+              "type": "sort",
+              "word": "[ear]n",
+              "column": 6,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 12,
+              "type": "sort",
+              "word": "[ea]sy",
+              "column": 1,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 13,
+              "type": "sort",
+              "word": "gr[ea]t",
+              "column": 3,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 14,
+              "type": "sort",
+              "word": "h[ear]",
+              "column": 5,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 15,
+              "type": "sort",
+              "word": "id[ea]",
+              "column": 5,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 16,
+              "type": "sort",
+              "word": "j[ea]ns",
+              "column": 1,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 17,
+              "type": "sort",
+              "word": "l[ear]n",
+              "column": 6,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 18,
+              "type": "sort",
+              "word": "m[ea]t",
+              "column": 1,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 19,
+              "type": "sort",
+              "word": "n[ear]",
+              "column": 5,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 20,
+              "type": "sort",
+              "word": "sp[ea]k",
+              "column": 1,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 21,
+              "type": "sort",
+              "word": "sw[ea]ter",
+              "column": 2,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 22,
+              "type": "sort",
+              "word": "th[ea]tre",
+              "column": 5,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 23,
+              "type": "sort",
+              "word": "w[ear]",
+              "column": 4,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 24,
+              "type": "sort",
+              "word": "w[ea]ther",
+              "column": 2,
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "6C-sb5c",
+          "origin": "SB",
+          "instruction": "Listen and write four sentences",
+          "note": "SB 5c (6.20) диктовка → Blank на всю фразу с клипом; по расшифровке. «Practise saying them» — Speak 6C-sb5c2",
+          "audio": "6.20",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "What does my dream about the beach mean?"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                0.2,
+                3.58
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "We’ve already had breakfast.",
+                  "We have already had breakfast."
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                7.43,
+                9.58
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "Great. It’s time for a break.",
+                  "Great! It’s time for a break.",
+                  "Great, it’s time for a break.",
+                  "Great. It is time for a break."
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                13.33,
+                16.8
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "Oh dear. I hear nobody likes your idea.",
+                  "Oh dear! I hear nobody likes your idea.",
+                  "Oh dear, I hear nobody likes your idea."
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                20.66,
+                25.42
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6C-sb5c2",
+          "origin": "SB",
+          "instruction": "Practise saying the sentences",
+          "note": "SB 5c «Practise saying them» → Speak по отрезкам 6.20",
+          "audio": "6.20",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "What does my dream about the beach mean?",
+              "clip": [
+                0.2,
+                3.58
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "We’ve already had breakfast.",
+              "clip": [
+                7.43,
+                9.58
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "Great. It’s time for a break.",
+              "clip": [
+                13.33,
+                16.8
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "Oh dear. I hear nobody likes your idea.",
+              "clip": [
+                20.66,
+                25.42
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6C-wb3a",
+          "origin": "WB",
+          "instruction": "Are the pink letters the same sound in all three words?",
+          "note": "WB 3a «Tick the groups where all three sounds are the same»; 1 — пример → Blank same / different, варианты в hint",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "already, bread, hear → {}",
+              "hint": "(same / different)",
+              "gaps": [
+                [
+                  "different"
+                ]
+              ],
+              "explain": "already, bread /e/; hear /ɪə/."
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "easy, earn, beach → {}",
+              "hint": "(same / different)",
+              "gaps": [
+                [
+                  "different"
+                ]
+              ],
+              "explain": "easy, beach /iː/; earn /ɜː/."
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "weather, break, sweater → {}",
+              "hint": "(same / different)",
+              "gaps": [
+                [
+                  "different"
+                ]
+              ],
+              "explain": "weather, sweater /e/; break /eɪ/."
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "jeans, dream, clean → {}",
+              "hint": "(same / different)",
+              "gaps": [
+                [
+                  "same"
+                ]
+              ],
+              "explain": "All /iː/."
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "great, speak, wear → {}",
+              "hint": "(same / different)",
+              "gaps": [
+                [
+                  "different"
+                ]
+              ],
+              "explain": "great /eɪ/, speak /iː/, wear /eə/."
+            }
+          ]
+        },
+        {
+          "id": "6C-wb3c",
+          "origin": "WB",
+          "instruction": "Complete the sentences with a word that rhymes with the bold word",
+          "note": "WB 3c; 1 — пример; 3b и 3d (повторить) → Speak с синтезатором (6C-wb3d)",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "You’ll feel much better if you wear a warm {}.",
+              "gaps": [
+                [
+                  "sweater"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Do your make-up, do your hair, and buy some nice new clothes to {}.",
+              "gaps": [
+                [
+                  "wear"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Things aren’t always as they seem when you see them in a {}.",
+              "gaps": [
+                [
+                  "dream"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6C-wb3d",
+          "origin": "WB",
+          "instruction": "Say the rhymes",
+          "note": "WB 3b + 3d (аудио WB нет) → Speak, образец — синтезатор",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "Doctors are very clear – smoking is a bad idea."
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "You’ll feel much better if you wear a warm sweater."
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "Do your make-up, do your hair, and buy some nice new clothes to wear."
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "Things aren’t always as they seem when you see them in a dream."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6C-review",
+      "kind": "REVIEW",
+      "title": "Revise and Check 5&6",
+      "reference": [
+        {
+          "type": "note",
+          "title": "File 5",
+          "text": "Comparatives: -er / more + adjective + than; (not) as… as; less… than; adverbs: faster, more carefully. Superlatives: the -est / the most + adjective; the… I’ve ever… Quantifiers: too much + uncountable, too many + plural, too + adjective, enough + noun, adjective + enough."
+        },
+        {
+          "type": "note",
+          "title": "File 6",
+          "text": "will / won’t + infinitive for predictions (I don’t think it’ll rain), instant decisions (I’ll have the fish), offers (I’ll help you. Shall I…?) and promises (I won’t tell anybody). Review of verb forms: present simple and continuous, past simple and continuous, be going to, will, present perfect."
+        },
+        {
+          "type": "table",
+          "title": "Modifiers",
+          "headers": [
+            "Strongest → weakest"
+          ],
+          "rows": [
+            [
+              "incredibly"
+            ],
+            [
+              "really"
+            ],
+            [
+              "very"
+            ],
+            [
+              "quite"
+            ],
+            [
+              "a bit (usually with negative adjectives)"
+            ],
+            [
+              "not very"
+            ]
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "6C-rcg",
+          "origin": "SB",
+          "instruction": "Grammar. Complete with the correct form",
+          "note": "Revise and Check 5&6 (SB p.52) Grammar «Circle a, b, or c» → Blank, варианты в hint. Ключа нет — MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "She drives {} than her brother.",
+              "gaps": [
+                [
+                  "faster"
+                ]
+              ],
+              "hint": "(faster / more fast / more fastly)",
+              "explain": "fast – faster: one syllable, add -er.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "His new book isn’t as good {} his last one.",
+              "gaps": [
+                [
+                  "as"
+                ]
+              ],
+              "hint": "(than / that / as)",
+              "explain": "(not) as + adjective + as.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I’m {} tired this week than I was last week.",
+              "gaps": [
+                [
+                  "less"
+                ]
+              ],
+              "hint": "(less / as / most)",
+              "explain": "less + adjective + than.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Friday is {} day of the week for me.",
+              "gaps": [
+                [
+                  "the busiest"
+                ]
+              ],
+              "hint": "(the busier / the busiest / the most busy)",
+              "explain": "busy – the busiest (y → iest).",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "It’s {} road in the world.",
+              "gaps": [
+                [
+                  "the most dangerous"
+                ]
+              ],
+              "hint": "(the more dangerous / most dangerous / the most dangerous)",
+              "explain": "Long adjective: the most + adjective.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "It’s the hottest country I’ve {} been to.",
+              "gaps": [
+                [
+                  "ever"
+                ]
+              ],
+              "hint": "(never / always / ever)",
+              "explain": "superlative + I’ve ever…",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "My sister drinks {} coffee.",
+              "gaps": [
+                [
+                  "too much"
+                ]
+              ],
+              "hint": "(too / too much / too many)",
+              "explain": "coffee is uncountable: too much.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "These jeans are {} small. Do you have them one size bigger?",
+              "gaps": [
+                [
+                  "too"
+                ]
+              ],
+              "hint": "(too / too much / too many)",
+              "explain": "too + adjective.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "You haven’t spent {} on your homework.",
+              "gaps": [
+                [
+                  "enough time"
+                ]
+              ],
+              "hint": "(time enough / enough time / many time)",
+              "explain": "enough goes before a noun.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "They’re playing really badly. They {} the match.",
+              "gaps": [
+                [
+                  "won’t win"
+                ]
+              ],
+              "hint": "(don’t win / won’t win / won’t to win)",
+              "explain": "Prediction: won’t + infinitive without to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "My exam is today. – Don’t worry. {}.",
+              "gaps": [
+                [
+                  "You’ll pass"
+                ]
+              ],
+              "hint": "(You’ll pass / You pass / You’re passing)",
+              "explain": "Prediction: will.",
+              "source": "MODEL"
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "It’s cold in here. – {} the window.",
+              "gaps": [
+                [
+                  "I’ll close"
+                ]
+              ],
+              "hint": "(I close / I’m closing / I’ll close)",
+              "explain": "Offer / instant decision: I’ll.",
+              "source": "MODEL"
+            },
+            {
+              "n": 13,
+              "type": "blank",
+              "text": "They met for the first time when they {} in Madrid.",
+              "gaps": [
+                [
+                  "were living"
+                ]
+              ],
+              "hint": "(were living / are living / was living)",
+              "explain": "Past continuous with they: were living.",
+              "source": "MODEL"
+            },
+            {
+              "n": 14,
+              "type": "blank",
+              "text": "Have you been to the USA? – Yes, I {} to New York last year.",
+              "gaps": [
+                [
+                  "went"
+                ]
+              ],
+              "hint": "(’ve been / went / was going)",
+              "explain": "last year → past simple.",
+              "source": "MODEL"
+            },
+            {
+              "n": 15,
+              "type": "blank",
+              "text": "{} today? – No, she’s on holiday.",
+              "gaps": [
+                [
+                  "Is she working"
+                ]
+              ],
+              "hint": "(Does she work / Is she working / Will she work)",
+              "explain": "Now / around now: present continuous.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6C-rcva",
+          "origin": "SB",
+          "instruction": "Vocabulary. Complete with the correct word",
+          "note": "Revise and Check 5&6 Vocabulary a «Circle the correct word» → Blank, варианты в hint. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "{} of adults wear glasses.",
+              "gaps": [
+                [
+                  "Two-thirds"
+                ]
+              ],
+              "hint": "(Two-third / Two-thirds)",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "There are {} students here.",
+              "gaps": [
+                [
+                  "five hundred and fifty"
+                ]
+              ],
+              "hint": "(five hundred and fifty / five hundreds and fifty)",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Can you {} me 50 euros?",
+              "gaps": [
+                [
+                  "lend"
+                ]
+              ],
+              "hint": "(lend / borrow)",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I’m leaving tonight and I’m {} on Friday.",
+              "gaps": [
+                [
+                  "coming back"
+                ]
+              ],
+              "hint": "(coming / coming back)",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "This is Ben. He’s {} me to play the piano.",
+              "gaps": [
+                [
+                  "teaching"
+                ]
+              ],
+              "hint": "(learning / teaching)",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6C-rcvb",
+          "origin": "SB",
+          "instruction": "Write the opposite verbs",
+          "note": "Revise and Check 5&6 Vocabulary b; MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "buy → {}",
+              "gaps": [
+                [
+                  "sell"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "push → {}",
+              "gaps": [
+                [
+                  "pull"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "remember → {}",
+              "gaps": [
+                [
+                  "forget"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "pass → {}",
+              "gaps": [
+                [
+                  "fail"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "find → {}",
+              "gaps": [
+                [
+                  "lose"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6C-rcvc",
+          "origin": "SB",
+          "instruction": "Complete the words",
+          "note": "Revise and Check 5&6 Vocabulary c: первые буквы — в тексте, пропуск — остаток слова; слово целиком тоже принимается. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "cr{} (adj) full of people or things",
+              "gaps": [
+                [
+                  "owded",
+                  "crowded"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "s{} (adj) opposite of dangerous",
+              "gaps": [
+                [
+                  "afe",
+                  "safe"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "n{} (adj) opposite of quiet (for a place)",
+              "gaps": [
+                [
+                  "oisy",
+                  "noisy"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "s{} (adj, noun) opposite of north",
+              "gaps": [
+                [
+                  "outh",
+                  "south"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "m{} (noun) a building where you can see old things",
+              "gaps": [
+                [
+                  "useum",
+                  "museum"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "p{} (noun) the place where a king or queen lives",
+              "gaps": [
+                [
+                  "alace",
+                  "palace"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "h{} (noun) a place on the coast where ships stop",
+              "gaps": [
+                [
+                  "arbour",
+                  "harbour"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "b{} (noun) you have 206 of these in your body",
+              "gaps": [
+                [
+                  "ones",
+                  "bones"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "h{} (noun) the organ which sends blood round your body",
+              "gaps": [
+                [
+                  "eart",
+                  "heart"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "d{} (noun) another word for illness",
+              "gaps": [
+                [
+                  "isease",
+                  "disease"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6C-rcvd",
+          "origin": "SB",
+          "instruction": "Complete with the correct modifier",
+          "note": "Revise and Check 5&6 Vocabulary d «Circle the correct word» → Blank, варианты в hint. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "How are you? – {} well, thanks. And you?",
+              "gaps": [
+                [
+                  "Very"
+                ]
+              ],
+              "hint": "(Very / Not very)",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I was {} lucky – I won £10,000.",
+              "gaps": [
+                [
+                  "incredibly"
+                ]
+              ],
+              "hint": "(incredibly / a bit)",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "She’s {} tired – she needs to rest.",
+              "gaps": [
+                [
+                  "a bit"
+                ]
+              ],
+              "hint": "(a bit / not very)",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "You’re driving {} fast – slow down!",
+              "gaps": [
+                [
+                  "really"
+                ]
+              ],
+              "hint": "(really / quite)",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "My bag is {} heavy because I have my laptop in it.",
+              "gaps": [
+                [
+                  "quite"
+                ]
+              ],
+              "hint": "(quite / not very)",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6C-rcpa",
+          "origin": "SB",
+          "instruction": "Pronunciation. Practise the words and sounds",
+          "note": "Revise and Check 5&6 Pronunciation a → Speak слов-звуков (трека нет, образец — синтезатор). b (Sound Bank: назвать ещё слова на каждый звук) не переносили — открытое задание",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "computer"
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "up"
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "egg"
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "chair"
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "leg"
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "flower"
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "parrot"
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "witch"
+            }
+          ]
+        },
+        {
+          "id": "6C-rcpc",
+          "origin": "SB",
+          "instruction": "What sound do the pink letters have?",
+          "note": "Revise and Check 5&6 Pronunciation c → Sort по восьми звукам из a. MODEL",
+          "columns": [
+            "computer /ə/",
+            "up /ʌ/",
+            "egg /e/",
+            "chair /eə/",
+            "leg /l/",
+            "flower /f/",
+            "parrot /p/",
+            "witch /w/"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "sort",
+              "word": "bett[er]",
+              "column": 1,
+              "explain": "better – weak /ə/, like computer.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "sort",
+              "word": "m[a]ny",
+              "column": 3,
+              "explain": "many /e/ – like egg.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "sort",
+              "word": "enou[gh]",
+              "column": 6,
+              "explain": "gh = /f/ in enough.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "sort",
+              "word": "[wh]y",
+              "column": 8,
+              "explain": "wh = /w/ in why.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "sort",
+              "word": "w[ear]",
+              "column": 4,
+              "explain": "wear /eə/ – like chair.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6C-rcpd",
+          "origin": "SB",
+          "instruction": "Tap the stressed syllable",
+          "note": "Revise and Check 5&6 Pronunciation d «Underline the stressed syllable» → Stress. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "stress",
+              "text": "im|pa|tient",
+              "stressed": [
+                2
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "stress",
+              "text": "ea|si|est",
+              "stressed": [
+                1
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "stress",
+              "text": "op|ti|mist",
+              "stressed": [
+                1
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "stress",
+              "text": "de|pend",
+              "stressed": [
+                2
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "stress",
+              "text": "for|get",
+              "stressed": [
+                2
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6C-rcra",
+          "origin": "SB",
+          "instruction": "Can you understand this text? Read the article. How did Mahalia Jackson help Martin Luther King?",
+          "note": "Revise and Check 5&6 «Can you understand this text?» a (открытый вопрос) → Blank по статье. MODEL",
+          "context": "Mahalia Jackson was a musical legend who helped to bring gospel music from the church to large audiences. She was Aretha Franklin’s mentor, and in 1961 she was the first gospel singer to win a Grammy Award. She was also an important member of the Civil Rights Movement in the USA, and she was a close friend of Martin Luther King. Mahalia often went with King on civil rights demonstrations and marches, including into the most hostile parts of the South, and she sang at the events. As a presenter from National Public Radio said, ‘her voice became the soundtrack of the Civil Rights Movement’. On 28th August 1963, there was a famous march in Washington against racism. Mahalia was with King, who was going to give a five-minute speech. Before the day itself, he and his advisers decided what he was going to say. King began speaking to an audience of more than 250,000 people. But towards the end, he felt that his speech was not going well. Suddenly Mahalia shouted ‘Tell them about the dream, Martin. Tell them about the dream’. She knew about it because she was at a previous event in Detroit, in June of that year, where King talked about his dream for African Americans. It was, in the words of King’s adviser Clarence Jones, ‘one of the world’s greatest gospel singers shouting to one of the world’s greatest preachers’. King looked at Mahalia. Then he threw away his written speech, and looked at the audience. ‘I have a dream… I have a dream that my four little children will one day live in a nation where they will not be judged by the colour of their skin, but by the content of their character…’ And so he continued, and he gave one of the best-loved speeches in American history.\n\nCivil Rights Movement – the campaign in the 1950s and 1960s to change the laws so that African Americans have the same rights as others. preacher – a person who gives inspiring talks about religion.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "During King’s speech Mahalia shouted ‘Tell them about the {}, Martin’.",
+              "gaps": [
+                [
+                  "dream"
+                ]
+              ],
+              "explain": "Towards the end he felt his speech was not going well, and she shouted to him.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Mahalia knew about the dream because she heard King talk about it in {}.",
+              "gaps": [
+                [
+                  "Detroit"
+                ]
+              ],
+              "explain": "She was at a previous event in Detroit, in June of that year.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "After that, King threw away his written {} and spoke about his dream.",
+              "gaps": [
+                [
+                  "speech"
+                ]
+              ],
+              "explain": "Then he threw away his written speech, and looked at the audience.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6C-rcrb",
+          "origin": "SB",
+          "instruction": "Read the article again. Put the events in the order they happened",
+          "note": "Revise and Check 5&6 «Can you understand this text?» b (A–F по порядку) → Order текстовыми карточками. MODEL",
+          "context": "Mahalia Jackson was a musical legend who helped to bring gospel music from the church to large audiences. She was Aretha Franklin’s mentor, and in 1961 she was the first gospel singer to win a Grammy Award. She was also an important member of the Civil Rights Movement in the USA, and she was a close friend of Martin Luther King. Mahalia often went with King on civil rights demonstrations and marches, including into the most hostile parts of the South, and she sang at the events. As a presenter from National Public Radio said, ‘her voice became the soundtrack of the Civil Rights Movement’. On 28th August 1963, there was a famous march in Washington against racism. Mahalia was with King, who was going to give a five-minute speech. Before the day itself, he and his advisers decided what he was going to say. King began speaking to an audience of more than 250,000 people. But towards the end, he felt that his speech was not going well. Suddenly Mahalia shouted ‘Tell them about the dream, Martin. Tell them about the dream’. She knew about it because she was at a previous event in Detroit, in June of that year, where King talked about his dream for African Americans. It was, in the words of King’s adviser Clarence Jones, ‘one of the world’s greatest gospel singers shouting to one of the world’s greatest preachers’. King looked at Mahalia. Then he threw away his written speech, and looked at the audience. ‘I have a dream… I have a dream that my four little children will one day live in a nation where they will not be judged by the colour of their skin, but by the content of their character…’ And so he continued, and he gave one of the best-loved speeches in American history.\n\nCivil Rights Movement – the campaign in the 1950s and 1960s to change the laws so that African Americans have the same rights as others. preacher – a person who gives inspiring talks about religion.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "order",
+              "pictures": [
+                {
+                  "label": "A",
+                  "text": "King and his advisers planned the Washington speech."
+                },
+                {
+                  "label": "B",
+                  "text": "King decided not to use his notes for the speech."
+                },
+                {
+                  "label": "C",
+                  "text": "King started his speech in Washington."
+                },
+                {
+                  "label": "D",
+                  "text": "King finished his most famous speech."
+                },
+                {
+                  "label": "E",
+                  "text": "Mahalia heard King speak in Detroit."
+                },
+                {
+                  "label": "F",
+                  "text": "Mahalia told King to talk about his dream."
+                }
+              ],
+              "answer": [
+                "E",
+                "A",
+                "C",
+                "F",
+                "B",
+                "D"
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6C-rcl",
+          "origin": "SB",
+          "instruction": "Can you understand these people? Listen and complete the sentences",
+          "audio": "6.21",
+          "note": "Revise and Check 5&6 «Can you understand these people?» 6.21 (Circle a, b, or c → Blank, варианты в hint); клип — ответ одного человека. Скрипта нет — по расшифровке",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Katelyn has more free time than three years ago because she {}.",
+              "gaps": [
+                [
+                  "only works during the day",
+                  "works during the day"
+                ]
+              ],
+              "hint": "(has started college / only works during the day / doesn’t have a full-time job)",
+              "explain": "She just graduated and works full-time, nine to five, so her evenings are free.",
+              "source": "CONFIRMED",
+              "clip": [
+                0.0,
+                19.2
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Susie likes Athens because of {}.",
+              "gaps": [
+                [
+                  "the monuments",
+                  "monuments"
+                ]
+              ],
+              "hint": "(the people and the weather / the cafés and restaurants / the monuments)",
+              "explain": "‘The Acropolis, the Parthenon, the sights are beautiful.’",
+              "source": "CONFIRMED",
+              "clip": [
+                21.3,
+                39.5
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Anna is trying to drink {}.",
+              "gaps": [
+                [
+                  "more water"
+                ]
+              ],
+              "hint": "(less coffee / more juice / more water)",
+              "explain": "‘I don’t drink enough water most days, but I’m trying to get better.’",
+              "source": "CONFIRMED",
+              "clip": [
+                41.5,
+                67.2
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Laura describes herself as {}.",
+              "gaps": [
+                [
+                  "more a pessimist than an optimist"
+                ]
+              ],
+              "hint": "(more an optimist than a pessimist / more a pessimist than an optimist / a realist but also an optimist)",
+              "explain": "‘I am a realist… more pessimistic than optimistic.’",
+              "source": "CONFIRMED",
+              "clip": [
+                69.1,
+                78.4
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Paula often dreams about a teacher that {}.",
+              "gaps": [
+                [
+                  "she didn’t like",
+                  "she did not like"
+                ]
+              ],
+              "hint": "(she didn’t like / taught her at university / helped her to pass her A levels)",
+              "explain": "She had a really awful history teacher at high school who was always mean.",
+              "source": "CONFIRMED",
+              "clip": [
+                81.0,
+                110.6
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6C-rcs",
+          "origin": "SB",
+          "instruction": "Can you say this in English? Talk about yourself",
+          "note": "Revise and Check 5&6 «Can you say this in English?» (5 пунктов «Can you…?», самопроверка) → один разговор с ИИ по всем пунктам",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "A friendly revision chat in an English class (level: pre-intermediate) after Files 5 and 6. Check that the student can do these things, one by one, with short questions and reactions: 1) compare two people in their family using adjectives and adverbs; 2) talk about their town or city using four superlatives; 3) talk about what they drink using (not) enough and too much / too many; 4) make three predictions about the future with will / won’t; 5) make a promise, an offer and a decision with will / won’t. Move to the next point after the student has done one. Correct gently.",
+              "goal": "Show that you can do the five things from Files 5 and 6.",
+              "opener": "Let’s start with your family. Can you compare two people in your family?",
+              "criteria": [
+                "compares two family members with a comparative adjective and a comparative adverb",
+                "uses four superlatives about their town",
+                "uses too much / too many / (not) enough correctly about drinks",
+                "makes three predictions with will / won’t",
+                "makes a promise, an offer and a decision with will / won’t or Shall I…?"
+              ],
+              "steps": [
+                {
+                  "text": "Compare two people in your family",
+                  "example": "My brother is older than me, but I drive more carefully than him."
+                },
+                {
+                  "text": "Describe your town with four superlatives",
+                  "example": "The oldest building in my town is the church."
+                },
+                {
+                  "text": "Say what you drink",
+                  "example": "I drink too much coffee and I don’t drink enough water."
+                },
+                {
+                  "text": "Make three predictions",
+                  "example": "I think it’ll rain tomorrow. I don’t think I’ll be rich."
+                },
+                {
+                  "text": "Make a promise, an offer and a decision",
+                  "example": "I’ll call you tonight. Shall I help you? I think I’ll have the pasta."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

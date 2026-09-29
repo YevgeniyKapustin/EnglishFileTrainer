@@ -1,0 +1,2455 @@
+{
+  "id": "6B",
+  "title": "I’ll always love you",
+  "bubbles": [
+    "Shall I ask for the bill?",
+    "OK, but I’ll pay."
+  ],
+  "sources": "SB p.48–49 (PDF 49–50), Grammar Bank p.136–137 (PDF 137–138); WB p.42–43 (PDF 41–42), key WB p.91 (PDF 90). Script 6.9 is not printed on the lesson page (answers by the recording)",
+  "sections": [
+    {
+      "id": "6B-skills",
+      "kind": "SKILLS",
+      "title": "Reading & Listening",
+      "reference": [
+        {
+          "type": "note",
+          "title": "‘I’ll never forget you’",
+          "text": "Steve Smith from Devon met Carmen Ruiz-Perez from Spain 17 years ago in Torbay, where she was studying English. They got engaged, but Carmen moved to France and the relationship ended. Steve sent a letter to her mother’s address in Spain, but it fell down behind the fireplace and stayed there for ten years."
+        },
+        {
+          "type": "note",
+          "title": "Time expressions",
+          "text": "17 years ago (= 17 years before now), a year after the engagement (= one year later than it), a few years later, for ten years (= during ten years)."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "6B-sb1a",
+          "origin": "SB",
+          "instruction": "Look at the two photos of the couple. How old do you think they are in each photo? What do you think happened between the two photos?",
+          "note": "SB 1a → Write по фото",
+          "images": [
+            "6b_sb1a_couple"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Look at the two photos of the couple and answer the questions.",
+              "questions": [
+                {
+                  "text": "How old do you think they are in each photo?",
+                  "hint": "(In the first photo they are about… In the second…)"
+                },
+                {
+                  "text": "What do you think happened between the two photos?",
+                  "hint": "(I think they… Then…)"
+                }
+              ],
+              "criteria": [
+                "gives an age guess for both photos",
+                "tells a short story in the past simple",
+                "sentences are grammatically correct"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6B-sb1b",
+          "origin": "SB",
+          "instruction": "Read the article. Complete it with the time expressions",
+          "note": "SB 1b → Blank по статье, слова из рамки. MODEL",
+          "words": [
+            "a few years later",
+            "17 years ago",
+            "for ten years",
+            "a year after"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Steve Smith from Devon in the UK met Carmen Ruiz-Perez from Spain {}, when they were both in their twenties. Carmen was studying English at a language school in Torbay, where Steve lived.",
+              "gaps": [
+                [
+                  "17 years ago"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "They fell in love and decided to get married. But {} the engagement, Carmen moved to France to work, and the long-distance relationship first cooled and then ended.",
+              "gaps": [
+                [
+                  "a year after"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Steve tried to get in touch with Carmen again {}, but she had changed her address in Paris. So he sent a letter to her mother’s address in Spain. In the letter he asked her if she was married and if she ever thought of him or of coming back to England. He gave her his phone number and asked her to get in touch.",
+              "gaps": [
+                [
+                  "a few years later"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "But Carmen’s mother didn’t send the letter to her daughter and it fell down behind the fireplace, where it stayed {}.",
+              "gaps": [
+                [
+                  "for ten years"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6B-sb1c",
+          "origin": "SB",
+          "instruction": "Read the article again and answer the questions",
+          "note": "SB 1c → Blank на ключевые слова ответа по статье. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "What were Carmen and Steve doing in Torbay? Carmen was {} English at a language school, and Steve {} there.",
+              "gaps": [
+                [
+                  "studying"
+                ],
+                [
+                  "lived",
+                  "was living"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Why didn’t they get married? Carmen moved to {} to work, and the long-distance relationship ended.",
+              "gaps": [
+                [
+                  "France"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Why didn’t Steve’s letter get to Carmen? Her mother didn’t {} it to her, and it fell down behind the {}.",
+              "gaps": [
+                [
+                  "send"
+                ],
+                [
+                  "fireplace"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6B-sb1d",
+          "origin": "SB",
+          "instruction": "Listen to part of a news programme about Steve and Carmen. What happened…?",
+          "note": "SB 1d (6.9) → Blank по расшифровке, клип на пункт",
+          "audio": "6.9",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Ten years after Steve sent the letter, some builders were renovating Carmen’s mother’s living room and they {} the letter.",
+              "gaps": [
+                [
+                  "found"
+                ]
+              ],
+              "explain": "When they were working on the fireplace, they found Steve’s letter. Carmen’s sister sent it to Carmen in Paris.",
+              "source": "CONFIRMED",
+              "clip": [
+                0.0,
+                20.0
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "When Carmen got the letter, she didn’t call Steve immediately because she was very {}.",
+              "gaps": [
+                [
+                  "nervous"
+                ]
+              ],
+              "explain": "She kept picking up the phone and putting it down again.",
+              "source": "CONFIRMED",
+              "clip": [
+                25.3,
+                42.9
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "When Carmen called Steve, he was {} too. Luckily, he still had his old phone number.",
+              "gaps": [
+                [
+                  "single"
+                ]
+              ],
+              "explain": "He was also now 42, and he was also single. They arranged to meet in Paris.",
+              "source": "CONFIRMED",
+              "clip": [
+                43.1,
+                68.9
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "When the couple met again at the airport, they fell in {} all over again.",
+              "gaps": [
+                [
+                  "love"
+                ]
+              ],
+              "explain": "Within 30 seconds of seeing each other again, they were kissing.",
+              "source": "CONFIRMED",
+              "clip": [
+                69.5,
+                85.8
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Last week, the couple got {}, 17 years after they first met.",
+              "gaps": [
+                [
+                  "married"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                86.0,
+                100.8
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6B-sb1e",
+          "origin": "SB",
+          "instruction": "Why do you think Carmen’s mother didn’t send the letter? Do you think ‘I’ll never forget you’ is a promise people usually keep or break?",
+          "note": "SB 1e → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Give your opinion about the story.",
+              "questions": [
+                {
+                  "text": "Why do you think Carmen’s mother didn’t send the letter?",
+                  "hint": "(Maybe she… / I think she didn’t want…)"
+                },
+                {
+                  "text": "Do you think ‘I’ll never forget you’ is a promise people usually keep or break? Why?",
+                  "hint": "(I think people usually… because…)"
+                }
+              ],
+              "criteria": [
+                "gives a possible reason for the mother’s action",
+                "gives an opinion about the promise with a reason",
+                "sentences are grammatically correct"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6B-wb1a",
+          "origin": "WB",
+          "instruction": "Read the extract from a novel. Complete it with phrases a–g",
+          "note": "WB 1a «Love at first sight»; c — пример (1). Фраза-вариант в hint не даём — список фраз в words",
+          "words": [
+            "I’ll lose everything.",
+            "Shall I give you my phone number?",
+            "Shall I stay?",
+            "the next stop will be Reading",
+            "you will have with me",
+            "And I’ll never forget you."
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "‘I know. This is so strange. I’ve only just met you, but I already know that I’ll always remember you.’ ‘{},’ he said.",
+              "gaps": [
+                [
+                  "And I’ll never forget you",
+                  "And I’ll never forget you."
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "‘This is Oxford,’ the man said, suddenly looking worried. ‘That means {}. That’s where I get off.’",
+              "gaps": [
+                [
+                  "the next stop will be Reading"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "‘We need to meet again,’ she said. ‘{}’ ‘Yes, please,’ he replied.",
+              "gaps": [
+                [
+                  "Shall I give you my phone number?"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "There was silence. ‘{}’ he asked. ‘Yes, yes please. Please don’t go. Come to London with me.’",
+              "gaps": [
+                [
+                  "Shall I stay?"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "‘I will lose my house, my friends, my family. {}’",
+              "gaps": [
+                [
+                  "I’ll lose everything."
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "‘I know,’ she said, ‘but think of the life {}.’",
+              "gaps": [
+                [
+                  "you will have with me"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6B-grammar",
+      "kind": "GRAMMAR",
+      "title": "will / won’t / shall (other uses)",
+      "reference": [
+        {
+          "type": "table",
+          "title": "will / won’t / shall",
+          "headers": [
+            "Use",
+            "Example"
+          ],
+          "rows": [
+            [
+              "decisions",
+              "I won’t stay for dinner. I think I’ll go home early."
+            ],
+            [
+              "offers",
+              "I’ll help you with your homework. Shall I open the window?"
+            ],
+            [
+              "promises",
+              "I’ll always love you. I won’t tell anybody."
+            ]
+          ],
+          "audio": "6.10"
+        },
+        {
+          "type": "note",
+          "title": "Instant decisions, offers, promises",
+          "text": "Use will / won’t + infinitive for decisions you make at the moment of speaking, offers and promises: I’ll have the fish. I’ll carry that for you. I’ll call you tonight."
+        },
+        {
+          "type": "mistake",
+          "wrong": "I help you with those bags.",
+          "right": "I’ll help you with those bags.",
+          "why": "For an offer, use will, not the present simple."
+        },
+        {
+          "type": "note",
+          "title": "Shall I / we…?",
+          "text": "For an offer as a question, use Shall I / we + infinitive: Shall I pay? Shall we do the washing-up?"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "6B-sb2a",
+          "origin": "SB",
+          "instruction": "Read the sentences and write them in speech bubbles A–F",
+          "note": "SB 2a → Blank: предложение из списка к картинке (image у пункта). MODEL",
+          "words": [
+            "I’ll tidy my room now.",
+            "I won’t have any more.",
+            "Shall I drive?",
+            "This won’t hurt.",
+            "I’ll have what she’s having.",
+            "I’ll come back tomorrow and finish it."
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "A: {}",
+              "image": "6b_sb2a_a",
+              "gaps": [
+                [
+                  "This won’t hurt.",
+                  "This won’t hurt"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "B: {}",
+              "image": "6b_sb2a_b",
+              "gaps": [
+                [
+                  "I’ll tidy my room now.",
+                  "I’ll tidy my room now"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "C: {}",
+              "image": "6b_sb2a_c",
+              "gaps": [
+                [
+                  "Shall I drive?",
+                  "Shall I drive"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "D: {}",
+              "image": "6b_sb2a_d",
+              "gaps": [
+                [
+                  "I won’t have any more.",
+                  "I won’t have any more"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "E: {}",
+              "image": "6b_sb2a_e",
+              "gaps": [
+                [
+                  "I’ll come back tomorrow and finish it.",
+                  "I’ll come back tomorrow and finish it"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "F: {}",
+              "image": "6b_sb2a_f",
+              "gaps": [
+                [
+                  "I’ll have what she’s having.",
+                  "I’ll have what she’s having"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6B-sb2b",
+          "origin": "SB",
+          "instruction": "Which people are offering, deciding, or promising to do something?",
+          "note": "SB 2b; B (offering) — пример. Blank, варианты в hint. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "A This won’t hurt. → {}",
+              "hint": "(offering / deciding / promising)",
+              "gaps": [
+                [
+                  "promising"
+                ]
+              ],
+              "explain": "The nurse promises that the injection won’t hurt.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "C Shall I drive? → {}",
+              "hint": "(offering / deciding / promising)",
+              "gaps": [
+                [
+                  "offering"
+                ]
+              ],
+              "explain": "Shall I…? is an offer.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "D I won’t have any more. → {}",
+              "hint": "(offering / deciding / promising)",
+              "gaps": [
+                [
+                  "deciding"
+                ]
+              ],
+              "explain": "She decides at the moment of speaking.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "E I’ll come back tomorrow and finish it. → {}",
+              "hint": "(offering / deciding / promising)",
+              "gaps": [
+                [
+                  "promising"
+                ]
+              ],
+              "explain": "The plumber promises to come back.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "F I’ll have what she’s having. → {}",
+              "hint": "(offering / deciding / promising)",
+              "gaps": [
+                [
+                  "deciding"
+                ]
+              ],
+              "explain": "He decides what to eat now.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6B-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Match the sentences and responses. Write the response",
+          "note": "GB 6B a: сопоставление → Blank, ответ-реплика из списка; It’s hot in here → G (пример). MODEL",
+          "words": [
+            "I’ll lend you some money.",
+            "Shall I make you a sandwich?",
+            "I’ll get you a glass of water.",
+            "I’ll help you to do it.",
+            "I’ll buy some on my way home.",
+            "I’ll email it to you now.",
+            "Shall I get you some paracetamol?",
+            "Shall I carry one for you?"
+          ],
+          "dialogue": true,
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I’m thirsty.\n{}",
+              "gaps": [
+                [
+                  "I’ll get you a glass of water."
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I have a headache.\n{}",
+              "gaps": [
+                [
+                  "Shall I get you some paracetamol?"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "This exercise is hard.\n{}",
+              "gaps": [
+                [
+                  "I’ll help you to do it."
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I’m hungry.\n{}",
+              "gaps": [
+                [
+                  "Shall I make you a sandwich?"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "These bags are heavy.\n{}",
+              "gaps": [
+                [
+                  "Shall I carry one for you?"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I left my wallet at home.\n{}",
+              "gaps": [
+                [
+                  "I’ll lend you some money."
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "I need that photo urgently.\n{}",
+              "gaps": [
+                [
+                  "I’ll email it to you now."
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "We haven’t got any milk.\n{}",
+              "gaps": [
+                [
+                  "I’ll buy some on my way home."
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6B-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete with will / won’t or shall and a verb from the list",
+          "note": "GB 6B b; пример книги без номера. MODEL",
+          "words": [
+            "buy",
+            "call",
+            "forget",
+            "get",
+            "help",
+            "pay",
+            "take",
+            "tell"
+          ],
+          "dialogue": true,
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I can’t do this crossword.\n{} I {} you?",
+              "gaps": [
+                [
+                  "Shall"
+                ],
+                [
+                  "help"
+                ]
+              ],
+              "explain": "Offer as a question: Shall I…?",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "It’s a secret.\nI {} anyone, I promise.",
+              "gaps": [
+                [
+                  "won’t tell",
+                  "will not tell"
+                ]
+              ],
+              "explain": "Promise: won’t + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "When will I hear from you again?\nI {} you tonight.",
+              "gaps": [
+                [
+                  "’ll call",
+                  "will call"
+                ]
+              ],
+              "explain": "Promise: ’ll + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Can I borrow €50?\nWhen {} you {} me back?",
+              "gaps": [
+                [
+                  "will"
+                ],
+                [
+                  "pay"
+                ]
+              ],
+              "explain": "Question: When will you…?",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "It’s my birthday next week.\nDon’t worry. I {}.",
+              "gaps": [
+                [
+                  "won’t forget",
+                  "will not forget"
+                ]
+              ],
+              "explain": "Promise: I won’t forget.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I feel ill.\n{} I {} you home?",
+              "gaps": [
+                [
+                  "Shall"
+                ],
+                [
+                  "take"
+                ]
+              ],
+              "explain": "Offer: Shall I take you home?",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "These shoes are too small.\nI {} a bigger pair for you, madam.",
+              "gaps": [
+                [
+                  "’ll get",
+                  "will get"
+                ]
+              ],
+              "explain": "Offer: I’ll + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "This chocolate you bought isn’t very nice.\nYes, I know. I {} it again.",
+              "gaps": [
+                [
+                  "won’t buy",
+                  "will not buy"
+                ]
+              ],
+              "explain": "Decision: I won’t buy it again.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6B-sb2d",
+          "origin": "SB",
+          "instruction": "Think of two offers to make to a friend, two promises to make to your teacher, and two decisions about what to do this evening",
+          "note": "SB 2d → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Write two offers, two promises and two decisions.",
+              "questions": [
+                {
+                  "text": "Two offers to a friend",
+                  "hint": "(Shall I…? / I’ll… for you.)"
+                },
+                {
+                  "text": "Two promises to your teacher",
+                  "hint": "(I’ll always… / I won’t…)"
+                },
+                {
+                  "text": "Two decisions about this evening",
+                  "hint": "(I think I’ll… / I won’t…)"
+                }
+              ],
+              "criteria": [
+                "writes two offers, two promises and two decisions",
+                "uses I’ll / I won’t + infinitive and Shall I…? correctly",
+                "no present simple instead of will (NOT I help you)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6B-wb1b",
+          "origin": "WB",
+          "instruction": "Is each sentence a promise, a decision or an offer?",
+          "note": "WB 1b «Write P, D or O»; 1 — пример. Варианты в hint",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "It’s too late to get the bus. I’ll call a taxi. → {}",
+              "hint": "(promise / decision / offer)",
+              "gaps": [
+                [
+                  "decision",
+                  "D"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Don’t worry. I’ll remember to tell her. → {}",
+              "hint": "(promise / decision / offer)",
+              "gaps": [
+                [
+                  "promise",
+                  "P"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Shall I get you some water? → {}",
+              "hint": "(promise / decision / offer)",
+              "gaps": [
+                [
+                  "offer",
+                  "O"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I’ll help you clean your room if you like. → {}",
+              "hint": "(promise / decision / offer)",
+              "gaps": [
+                [
+                  "offer",
+                  "O"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I’ll have the chocolate cake, please. → {}",
+              "hint": "(promise / decision / offer)",
+              "gaps": [
+                [
+                  "decision",
+                  "D"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6B-wb1c",
+          "origin": "WB",
+          "instruction": "Complete the sentences with will, won’t or shall",
+          "note": "WB 1c; 1 — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "{} I carry your bag for you? It looks very heavy.",
+              "gaps": [
+                [
+                  "Shall"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Come and sit down, Sophie. Peter {} do the washing-up.",
+              "gaps": [
+                [
+                  "’ll",
+                  "will"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I can’t find a cheap hotel in Venice, so I think I {} look at Airbnb.",
+              "gaps": [
+                [
+                  "’ll",
+                  "will"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Don’t worry, we {} say anything to your parents about this.",
+              "gaps": [
+                [
+                  "won’t",
+                  "will not"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6B-wb1d",
+          "origin": "WB",
+          "instruction": "Look at the pictures. Write offers, promises and decisions with the words in brackets and I’ll, I won’t or Shall I",
+          "note": "WB 1d; картинки из WB p.43 у пунктов; 1 — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "{}",
+              "hint": "(lend / you some money?)",
+              "image": "6b_wb1d_2",
+              "gaps": [
+                [
+                  "Shall I lend you some money?"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{}",
+              "hint": "(have / the chicken, please)",
+              "image": "6b_wb1d_3",
+              "gaps": [
+                [
+                  "I’ll have the chicken, please.",
+                  "I will have the chicken, please."
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{}",
+              "hint": "(take / your coat?)",
+              "image": "6b_wb1d_4",
+              "gaps": [
+                [
+                  "Shall I take your coat?"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Don’t worry! {}",
+              "hint": "(forget / to feed the dog)",
+              "image": "6b_wb1d_5",
+              "gaps": [
+                [
+                  "I won’t forget to feed the dog.",
+                  "I will not forget to feed the dog."
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "It’s very hot in here. {}",
+              "hint": "(turn on / the air conditioning?)",
+              "image": "6b_wb1d_6",
+              "gaps": [
+                [
+                  "Shall I turn on the air conditioning?",
+                  "Shall I turn the air conditioning on?"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6B-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Respond with an offer. Use Shall I…? or I’ll… and the verb in brackets.",
+          "dialogue": true,
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "It’s really dark in here.\n{} I {} on the light?",
+              "hint": "(turn)",
+              "gaps": [
+                [
+                  "Shall"
+                ],
+                [
+                  "turn"
+                ]
+              ],
+              "explain": "Offer as a question: Shall I + infinitive?",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I haven’t got a pen.\nI {} you mine.",
+              "hint": "(lend)",
+              "gaps": [
+                [
+                  "’ll lend",
+                  "will lend"
+                ]
+              ],
+              "explain": "Offer: I’ll + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I’m cold.\n{} I {} the window?",
+              "hint": "(close)",
+              "gaps": [
+                [
+                  "Shall"
+                ],
+                [
+                  "close"
+                ]
+              ],
+              "explain": "Shall I…? = offer.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "The phone’s ringing!\nI {} it.",
+              "hint": "(answer)",
+              "gaps": [
+                [
+                  "’ll answer",
+                  "will answer"
+                ]
+              ],
+              "explain": "Instant decision / offer: I’ll answer it.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I don’t understand this word.\n{} I {} it for you?",
+              "hint": "(explain)",
+              "gaps": [
+                [
+                  "Shall"
+                ],
+                [
+                  "explain"
+                ]
+              ],
+              "explain": "Shall I explain it?",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6B-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Make a promise with I’ll or I won’t and the verb in brackets.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Please don’t tell anyone. – I {} anyone.",
+              "hint": "(tell)",
+              "gaps": [
+                [
+                  "won’t tell",
+                  "will not tell"
+                ]
+              ],
+              "explain": "Promise: I won’t + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Can I borrow your car? I {} very carefully.",
+              "hint": "(drive)",
+              "gaps": [
+                [
+                  "’ll drive",
+                  "will drive"
+                ]
+              ],
+              "explain": "Promise: I’ll + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "You’re always late! – Sorry. I {} late again.",
+              "hint": "(be)",
+              "gaps": [
+                [
+                  "won’t be",
+                  "will not be"
+                ]
+              ],
+              "explain": "Promise: I won’t be late.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Thanks for the money. I {} you back on Friday.",
+              "hint": "(pay)",
+              "gaps": [
+                [
+                  "’ll pay",
+                  "will pay"
+                ]
+              ],
+              "explain": "Promise: I’ll pay you back.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Don’t forget to call me! – I {}.",
+              "hint": "(forget)",
+              "gaps": [
+                [
+                  "won’t",
+                  "won’t forget",
+                  "will not forget"
+                ]
+              ],
+              "explain": "Short promise: I won’t.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6B-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Make an instant decision with I’ll or I won’t.",
+          "dialogue": true,
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "What would you like to drink?\nI {} an orange juice, please.",
+              "hint": "(have)",
+              "gaps": [
+                [
+                  "’ll have",
+                  "will have"
+                ]
+              ],
+              "explain": "Decision at the moment of speaking: I’ll have…",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "It’s raining!\nOh no. I {} my umbrella, then.",
+              "hint": "(take)",
+              "gaps": [
+                [
+                  "’ll take",
+                  "will take"
+                ]
+              ],
+              "explain": "Instant decision: I’ll take…",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "The coffee here is terrible.\nYou’re right. I {} it.",
+              "hint": "(not drink)",
+              "gaps": [
+                [
+                  "won’t drink",
+                  "will not drink"
+                ]
+              ],
+              "explain": "Negative decision: I won’t…",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "The last bus has gone.\nThen I {} a taxi.",
+              "hint": "(get)",
+              "gaps": [
+                [
+                  "’ll get",
+                  "will get"
+                ]
+              ],
+              "explain": "Instant decision: I’ll get a taxi.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Do you want the red one or the blue one?\nI think I {} the blue one.",
+              "hint": "(buy)",
+              "gaps": [
+                [
+                  "’ll buy",
+                  "will buy"
+                ]
+              ],
+              "explain": "I think I’ll… = decision.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6B-grammar-x4",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "These bags look heavy. I carry one for you.",
+              "answers": [
+                "These bags look heavy. I’ll carry one for you.",
+                "These bags look heavy. I will carry one for you."
+              ],
+              "explain": "Offer: I’ll + infinitive, not the present simple.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "Will I open the window?",
+              "answers": [
+                "Shall I open the window?"
+              ],
+              "explain": "Offer as a question: Shall I…?",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "I promise I don’t tell anybody.",
+              "answers": [
+                "I promise I won’t tell anybody.",
+                "I promise I will not tell anybody."
+              ],
+              "explain": "Promise: won’t + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "Shall I to help you?",
+              "answers": [
+                "Shall I help you?"
+              ],
+              "explain": "Shall I + infinitive without to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "I’m tired. I think I go to bed.",
+              "answers": [
+                "I’m tired. I think I’ll go to bed.",
+                "I’m tired. I think I will go to bed."
+              ],
+              "explain": "Decision: I think I’ll…",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6B-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "word stress: two-syllable verbs",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Two-syllable verbs",
+          "headers": [
+            "1st syllable",
+            "2nd syllable"
+          ],
+          "rows": [
+            [
+              "OFfer, PROmise, BORrow, HAPpen, PRACtise",
+              "deCIDE, aGREE, arRIVE, comPLAIN, dePEND, forGET, inVITE, preFER, reCEIVE, rePAIR"
+            ]
+          ],
+          "audio": "6.12"
+        },
+        {
+          "type": "note",
+          "title": "Stress in two-syllable verbs",
+          "text": "Most two-syllable verbs are stressed on the second syllable (deCIDE, forGET). Some common verbs are stressed on the first (OFfer, BORrow, HAPpen)."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "6B-sb3a",
+          "origin": "SB",
+          "instruction": "Which syllable are the two-syllable verbs stressed on? Put them in the correct column. Then listen and check",
+          "note": "SB 3a + 3b (6.11 — проверка) → Sort",
+          "audio": "6.11",
+          "columns": [
+            "1st syllable",
+            "2nd syllable"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "sort",
+              "word": "de|cide",
+              "column": 2
+            },
+            {
+              "n": 2,
+              "type": "sort",
+              "word": "o|ffer",
+              "column": 1
+            },
+            {
+              "n": 3,
+              "type": "sort",
+              "word": "pro|mise",
+              "column": 1
+            },
+            {
+              "n": 4,
+              "type": "sort",
+              "word": "a|gree",
+              "column": 2
+            },
+            {
+              "n": 5,
+              "type": "sort",
+              "word": "a|rrive",
+              "column": 2
+            },
+            {
+              "n": 6,
+              "type": "sort",
+              "word": "bo|rrow",
+              "column": 1
+            },
+            {
+              "n": 7,
+              "type": "sort",
+              "word": "com|plain",
+              "column": 2
+            },
+            {
+              "n": 8,
+              "type": "sort",
+              "word": "de|pend",
+              "column": 2
+            },
+            {
+              "n": 9,
+              "type": "sort",
+              "word": "for|get",
+              "column": 2
+            },
+            {
+              "n": 10,
+              "type": "sort",
+              "word": "ha|ppen",
+              "column": 1
+            },
+            {
+              "n": 11,
+              "type": "sort",
+              "word": "in|vite",
+              "column": 2
+            },
+            {
+              "n": 12,
+              "type": "sort",
+              "word": "prac|tise",
+              "column": 1
+            },
+            {
+              "n": 13,
+              "type": "sort",
+              "word": "pre|fer",
+              "column": 2
+            },
+            {
+              "n": 14,
+              "type": "sort",
+              "word": "re|ceive",
+              "column": 2
+            },
+            {
+              "n": 15,
+              "type": "sort",
+              "word": "re|pair",
+              "column": 2
+            }
+          ]
+        },
+        {
+          "id": "6B-sb3b",
+          "origin": "SB",
+          "instruction": "Listen to the sentences and check. Then say them",
+          "note": "SB 3b (6.11: сначала глаголы с ударением на 1-й слог, потом на 2-й) → Speak по отрезкам; сама проверка — в Sort 6B-sb3a",
+          "audio": "6.11",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "We’ll offer him the job.",
+              "clip": [
+                2.98,
+                4.87
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "I promise to come.",
+              "clip": [
+                6.44,
+                8.26
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "Can I borrow your car?",
+              "clip": [
+                9.76,
+                11.83
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "It’ll never happen.",
+              "clip": [
+                13.35,
+                15.25
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "Please practise the sentences.",
+              "clip": [
+                16.78,
+                19.15
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "We’ll decide later.",
+              "clip": [
+                23.49,
+                25.54
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "I don’t agree.",
+              "clip": [
+                27.03,
+                28.71
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "When do you arrive?",
+              "clip": [
+                30.2,
+                31.99
+              ]
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "They complain about everything.",
+              "clip": [
+                33.52,
+                36.06
+              ]
+            },
+            {
+              "n": 10,
+              "type": "speak",
+              "text": "It’ll depend on the weather.",
+              "clip": [
+                37.56,
+                39.74
+              ]
+            },
+            {
+              "n": 11,
+              "type": "speak",
+              "text": "Don’t forget your keys.",
+              "clip": [
+                41.24,
+                43.22
+              ]
+            },
+            {
+              "n": 12,
+              "type": "speak",
+              "text": "Let’s invite her.",
+              "clip": [
+                44.71,
+                46.37
+              ]
+            },
+            {
+              "n": 13,
+              "type": "speak",
+              "text": "Which do you prefer?",
+              "clip": [
+                47.91,
+                49.93
+              ]
+            },
+            {
+              "n": 14,
+              "type": "speak",
+              "text": "You’ll receive it in a week.",
+              "clip": [
+                51.43,
+                53.7
+              ]
+            },
+            {
+              "n": 15,
+              "type": "speak",
+              "text": "Can you repair this, please?",
+              "clip": [
+                55.29,
+                57.58
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6B-sb3c",
+          "origin": "SB",
+          "instruction": "Listen and repeat the verbs in the chart",
+          "note": "SB 3c (6.12) → Speak по отрезкам трека",
+          "audio": "6.12",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "decide",
+              "clip": [
+                0.0,
+                1.29
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "offer",
+              "clip": [
+                2.78,
+                3.81
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "promise",
+              "clip": [
+                5.31,
+                6.47
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "agree",
+              "clip": [
+                7.98,
+                9.24
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "arrive",
+              "clip": [
+                10.72,
+                12.04
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "borrow",
+              "clip": [
+                13.52,
+                14.64
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "complain",
+              "clip": [
+                16.12,
+                17.51
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "depend",
+              "clip": [
+                19.0,
+                20.27
+              ]
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "forget",
+              "clip": [
+                21.78,
+                23.07
+              ]
+            },
+            {
+              "n": 10,
+              "type": "speak",
+              "text": "happen",
+              "clip": [
+                24.57,
+                25.7
+              ]
+            },
+            {
+              "n": 11,
+              "type": "speak",
+              "text": "invite",
+              "clip": [
+                26.54,
+                27.84
+              ]
+            },
+            {
+              "n": 12,
+              "type": "speak",
+              "text": "practise",
+              "clip": [
+                29.95,
+                31.26
+              ]
+            },
+            {
+              "n": 13,
+              "type": "speak",
+              "text": "prefer",
+              "clip": [
+                32.75,
+                34.02
+              ]
+            },
+            {
+              "n": 14,
+              "type": "speak",
+              "text": "receive",
+              "clip": [
+                35.51,
+                36.83
+              ]
+            },
+            {
+              "n": 15,
+              "type": "speak",
+              "text": "repair",
+              "clip": [
+                38.32,
+                39.61
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6B-sb3d",
+          "origin": "SB",
+          "instruction": "Complete the sentences in your own words",
+          "note": "SB 3d → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Complete the sentences in your own words.",
+              "questions": [
+                {
+                  "text": "I never complain…",
+                  "hint": "(about…)"
+                },
+                {
+                  "text": "I won’t forget…",
+                  "hint": "(to… / the day when…)"
+                },
+                {
+                  "text": "Shall I invite…?",
+                  "hint": "(… to my party?)"
+                },
+                {
+                  "text": "I need to borrow…",
+                  "hint": "(… from…)"
+                },
+                {
+                  "text": "I prefer… to…",
+                  "hint": "(tea to coffee)"
+                }
+              ],
+              "criteria": [
+                "completes all five sentences logically",
+                "uses the right prepositions (complain about, borrow from, prefer… to…)",
+                "sentences are grammatically correct"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6B-wb2a",
+          "origin": "WB",
+          "instruction": "Underline the stressed syllable",
+          "note": "WB 2a «Circle the word with a different stress»; 1 — пример → Stress по каждому слову",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "stress",
+              "text": "de|cide",
+              "stressed": [
+                2
+              ]
+            },
+            {
+              "n": 2,
+              "type": "stress",
+              "text": "e|mail",
+              "stressed": [
+                1
+              ]
+            },
+            {
+              "n": 3,
+              "type": "stress",
+              "text": "pro|mise",
+              "stressed": [
+                1
+              ]
+            },
+            {
+              "n": 4,
+              "type": "stress",
+              "text": "prac|tise",
+              "stressed": [
+                1
+              ]
+            },
+            {
+              "n": 5,
+              "type": "stress",
+              "text": "li|sten",
+              "stressed": [
+                1
+              ]
+            },
+            {
+              "n": 6,
+              "type": "stress",
+              "text": "re|pair",
+              "stressed": [
+                2
+              ]
+            },
+            {
+              "n": 7,
+              "type": "stress",
+              "text": "bo|rrow",
+              "stressed": [
+                1
+              ]
+            },
+            {
+              "n": 8,
+              "type": "stress",
+              "text": "for|get",
+              "stressed": [
+                2
+              ]
+            },
+            {
+              "n": 9,
+              "type": "stress",
+              "text": "a|gree",
+              "stressed": [
+                2
+              ]
+            },
+            {
+              "n": 10,
+              "type": "stress",
+              "text": "sun|bathe",
+              "stressed": [
+                1
+              ]
+            },
+            {
+              "n": 11,
+              "type": "stress",
+              "text": "in|vite",
+              "stressed": [
+                2
+              ]
+            },
+            {
+              "n": 12,
+              "type": "stress",
+              "text": "com|plain",
+              "stressed": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6B-wb2b",
+          "origin": "WB",
+          "instruction": "Say the words. Copy the stress",
+          "note": "WB 2b (аудио WB нет) → Speak, образец — синтезатор",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "decide, email, promise"
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "practise, listen, repair"
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "borrow, forget, agree"
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "sunbathe, invite, complain"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6B-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "verb + back",
+      "reference": [
+        {
+          "type": "note",
+          "title": "come and come back",
+          "text": "Carmen came to England (= she travelled there). Carmen came back to England (= she returned there, she was there before)."
+        },
+        {
+          "type": "table",
+          "title": "verb + back",
+          "headers": [
+            "Phrase",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "go / come back",
+              "return to a place"
+            ],
+            [
+              "call somebody back",
+              "phone somebody who phoned you"
+            ],
+            [
+              "give something back",
+              "return something you borrowed"
+            ],
+            [
+              "pay somebody back",
+              "return money you borrowed"
+            ],
+            [
+              "send something back",
+              "return something by post"
+            ],
+            [
+              "take something back",
+              "return something to a shop"
+            ]
+          ],
+          "audio": "6.13"
+        },
+        {
+          "type": "note",
+          "title": "Word order",
+          "text": "With a pronoun, put it between the verb and back: I’ll give it back. I’ll call you back (NOT I’ll give back it)."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "6B-sb4b",
+          "origin": "SB",
+          "instruction": "Complete 1–6 with a phrase from the list. Then listen and check",
+          "note": "SB 4b + 4c (6.13) → Blank, фразы из рамки; сверено с 6.13 — CONFIRMED, клип на диалог",
+          "audio": "6.13",
+          "words": [
+            "call you back",
+            "go back",
+            "give it back",
+            "pay you back",
+            "send them back",
+            "take it back"
+          ],
+          "dialogue": true,
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Are you feeling better?\nYes, I think I’ll {} to work tomorrow.",
+              "gaps": [
+                [
+                  "go back"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                0.2,
+                5.4
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The shirt you bought me is too small.\nDon’t worry. I’ll {} to the shop and change it. I still have the receipt.",
+              "gaps": [
+                [
+                  "take it back"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                6.7,
+                15.7
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Hi, Jack. It’s me, Karen.\nI can’t talk now, I’m driving – I’ll {} in 15 minutes.",
+              "gaps": [
+                [
+                  "call you back"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                17.8,
+                26.8
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "That’s my pen you’re using!\nIs it? Sorry. I’ll {} in a minute.",
+              "gaps": [
+                [
+                  "give it back"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                31.3,
+                37.7
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Can you lend me £20? I’ll {} next week.\nOK – here you are.",
+              "gaps": [
+                [
+                  "pay you back"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                38.7,
+                47.1
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Where did you buy those shoes?\nI got them online, but they’re too big. I think I’ll {}.",
+              "gaps": [
+                [
+                  "send them back"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                51.4,
+                59.2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6B-sb4d",
+          "origin": "SB",
+          "instruction": "Ask and answer. Give examples or reasons",
+          "note": "SB 4d + рамка Giving examples and reasons → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "Speaking practice in an English class (level: pre-intermediate), topic verb + back. Ask the student these questions one at a time and answer theirs: 1 When someone leaves you a message on your phone, do you usually call them back immediately? 2 If you buy something online that isn’t exactly what you wanted, do you always send it back? 3 Have you ever lent somebody money and they didn’t pay you back? 4 When you come back after a holiday do you usually feel better or worse than before? 5 When you borrow something from a friend, do you usually remember to give it back? 6 If you buy something to wear from a shop and then decide you don’t like it, do you usually take it back? Encourage the student to give examples and reasons (For example,… For instance,… I usually… because… It depends. When…, I usually…).",
+              "goal": "Answer the questions about verb + back with examples and reasons.",
+              "opener": "When someone leaves you a message on your phone, do you usually call them back immediately?",
+              "criteria": [
+                "answers each question with an example or a reason",
+                "uses at least four verb + back phrases correctly (call back, send back, pay back, give back, take back, come back)",
+                "puts a pronoun between the verb and back (call them back, give it back)",
+                "uses For example / It depends / because"
+              ],
+              "steps": [
+                {
+                  "text": "Answer with a reason",
+                  "example": "It depends. When it’s my boss, I usually call him back immediately."
+                },
+                {
+                  "text": "Give an example",
+                  "example": "Yes. For example, last month I sent back a jacket because it was too small."
+                },
+                {
+                  "text": "Ask about lending money",
+                  "example": "Have you ever lent somebody money and they didn’t pay you back?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6B-wb3a",
+          "origin": "WB",
+          "instruction": "Match the sentence halves. Write the second half",
+          "note": "WB 3a; 1 e — пример. Вторые половины в words",
+          "words": [
+            "Give it back now.",
+            "so I sent them back.",
+            "I really want to go back one day.",
+            "You can pay me back next week.",
+            "you can take it back and get a refund."
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "That’s my phone! {}",
+              "gaps": [
+                [
+                  "Give it back now.",
+                  "Give it back now!"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "If you have the receipt for the dress, {}",
+              "gaps": [
+                [
+                  "you can take it back and get a refund."
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Here’s £20. {}",
+              "gaps": [
+                [
+                  "You can pay me back next week."
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "The trousers I bought online didn’t fit, {}",
+              "gaps": [
+                [
+                  "so I sent them back."
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I thought Dubrovnik was beautiful. {}",
+              "gaps": [
+                [
+                  "I really want to go back one day."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6B-wb3b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the correct form of a verb + back",
+          "note": "WB 3b (головоломка в книге; предложения самостоятельны — перенесли как Blank); 1 came — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I bought these trainers online but they don’t fit. I think I’ll {} them back.",
+              "gaps": [
+                [
+                  "send"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "That’s my wallet. {} it back!",
+              "gaps": [
+                [
+                  "Give"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Jack left a message and wants you to {} him back – it’s important.",
+              "gaps": [
+                [
+                  "call",
+                  "phone",
+                  "ring"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I left my phone at home. I’m going to {} back and get it.",
+              "gaps": [
+                [
+                  "go"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "These trainers are too small. I’m going to {} them back.",
+              "gaps": [
+                [
+                  "take"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Tom lent me £50 last week, and I {} him back yesterday.",
+              "gaps": [
+                [
+                  "paid"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6B-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete with the correct form of a verb + back.",
+          "words": [
+            "call",
+            "come",
+            "give",
+            "pay",
+            "send",
+            "take"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I’m busy right now. Can I {} you back later?",
+              "gaps": [
+                [
+                  "call",
+                  "phone",
+                  "ring"
+                ]
+              ],
+              "explain": "call somebody back = phone them later.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "She {} back from Italy last Sunday.",
+              "gaps": [
+                [
+                  "came"
+                ]
+              ],
+              "explain": "come back = return; past came.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Can you {} me back my book when you finish it?",
+              "gaps": [
+                [
+                  "give"
+                ]
+              ],
+              "explain": "give something back = return it.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "He borrowed €100 and never {} me back.",
+              "gaps": [
+                [
+                  "paid"
+                ]
+              ],
+              "explain": "pay somebody back = return money.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "The camera I ordered was broken, so I {} it back.",
+              "gaps": [
+                [
+                  "sent"
+                ]
+              ],
+              "explain": "send back = return by post.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "This jumper doesn’t fit. I’ll {} it back to the shop.",
+              "gaps": [
+                [
+                  "take"
+                ]
+              ],
+              "explain": "take something back to a shop.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "When are you going to {} back home?",
+              "gaps": [
+                [
+                  "go",
+                  "come"
+                ]
+              ],
+              "explain": "go / come back home = return home.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6B-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Put the words in the correct order.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "back / I’ll / it / give / tomorrow / .",
+              "answers": [
+                "I’ll give it back tomorrow."
+              ],
+              "explain": "A pronoun goes between the verb and back.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "you / call / back / I’ll / .",
+              "answers": [
+                "I’ll call you back."
+              ],
+              "explain": "call you back, NOT call back you.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "them / sent / back / she / .",
+              "answers": [
+                "She sent them back."
+              ],
+              "explain": "send them back.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "pay / when / me / will / back / you / ?",
+              "answers": [
+                "When will you pay me back?"
+              ],
+              "explain": "pay me back.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6B-vocabulary-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "Can I borrow your pen? I’ll give back it after the class.",
+              "answers": [
+                "Can I borrow your pen? I’ll give it back after the class.",
+                "Can I borrow your pen? I will give it back after the class."
+              ],
+              "explain": "With a pronoun: give it back.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "Can you call back me in ten minutes?",
+              "answers": [
+                "Can you call me back in ten minutes?"
+              ],
+              "explain": "call me back.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "When did you come from your holiday?",
+              "answers": [
+                "When did you come back from your holiday?"
+              ],
+              "explain": "Returning = come back.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "I lent him money and he paid back me.",
+              "answers": [
+                "I lent him money and he paid me back."
+              ],
+              "explain": "pay me back.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

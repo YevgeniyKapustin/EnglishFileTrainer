@@ -1,0 +1,3320 @@
+{
+  "id": "6A",
+  "title": "Think positive – or negative?",
+  "bubbles": [
+    "You’ll miss your flight.",
+    "No, I won’t!"
+  ],
+  "sources": "SB p.46–47 (PDF 47–48), Grammar Bank p.136–137 (PDF 137–138), Vocabulary Bank Opposite verbs p.157 (PDF 158), Communication You’re a pessimist! p.104/109 (PDF 105/110); WB p.40–41 (PDF 39–40), key WB p.91 (PDF 90). Scripts 6.1–6.8 are not printed on the lesson pages (answers by the recordings)",
+  "sections": [
+    {
+      "id": "6A-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "opposite verbs",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Opposite verbs",
+          "headers": [
+            "Verb",
+            "Opposite"
+          ],
+          "rows": [
+            [
+              "arrive (early)",
+              "leave (early)"
+            ],
+            [
+              "break (your phone)",
+              "mend / repair (your phone)"
+            ],
+            [
+              "buy (a house)",
+              "sell (a house)"
+            ],
+            [
+              "download (a song)",
+              "upload (a song)"
+            ],
+            [
+              "find (your keys)",
+              "lose (your keys)"
+            ],
+            [
+              "forget (a name)",
+              "remember (a name)"
+            ],
+            [
+              "lend (money to somebody)",
+              "borrow (money from somebody)"
+            ],
+            [
+              "love (cooking)",
+              "hate (cooking)"
+            ],
+            [
+              "miss (a train)",
+              "catch (a train)"
+            ],
+            [
+              "pass (an exam)",
+              "fail (an exam)"
+            ],
+            [
+              "pick up (somebody at the airport)",
+              "drop off (somebody at the airport)"
+            ],
+            [
+              "push (the door)",
+              "pull (the door)"
+            ],
+            [
+              "send (an email)",
+              "receive / get (an email)"
+            ],
+            [
+              "start (a race)",
+              "finish (a race)"
+            ],
+            [
+              "teach (maths)",
+              "learn (maths)"
+            ],
+            [
+              "turn on (the TV)",
+              "turn off (the TV)"
+            ],
+            [
+              "win (a match)",
+              "lose (a match)"
+            ]
+          ],
+          "audio": "6.2"
+        },
+        {
+          "type": "note",
+          "title": "lend and borrow",
+          "text": "lend = give something to somebody for a time: Can you lend me £20? borrow = take something from somebody for a time: Can I borrow £20 from you?"
+        },
+        {
+          "type": "mistake",
+          "wrong": "Can you borrow me your pen?",
+          "right": "Can you lend me your pen? / Can I borrow your pen?",
+          "why": "You lend something TO somebody and borrow something FROM somebody."
+        },
+        {
+          "type": "note",
+          "title": "lose",
+          "text": "lose is the opposite of two verbs: find (I lost my keys) and win (We lost the match). miss is the opposite of catch (I missed the train), not of find."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "6A-sb1a",
+          "origin": "SB",
+          "instruction": "Listen to five sentences and questions. Write the main verb in each one and its opposite",
+          "note": "SB 1a (6.1) → Blank на два пропуска: глагол из фразы и противоположный. Скрипта в книге нет — по расшифровке",
+          "audio": "6.1",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Verb: {}   Opposite: {}",
+              "gaps": [
+                [
+                  "find"
+                ],
+                [
+                  "lose"
+                ]
+              ],
+              "explain": "find – lose",
+              "source": "CONFIRMED",
+              "clip": [
+                0.2,
+                2.27
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Verb: {}   Opposite: {}",
+              "gaps": [
+                [
+                  "send"
+                ],
+                [
+                  "receive",
+                  "get"
+                ]
+              ],
+              "explain": "send – receive",
+              "source": "CONFIRMED",
+              "clip": [
+                4.0,
+                6.03
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Verb: {}   Opposite: {}",
+              "gaps": [
+                [
+                  "remember"
+                ],
+                [
+                  "forget"
+                ]
+              ],
+              "explain": "remember – forget",
+              "source": "CONFIRMED",
+              "clip": [
+                7.85,
+                10.64
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Verb: {}   Opposite: {}",
+              "gaps": [
+                [
+                  "start"
+                ],
+                [
+                  "finish",
+                  "end"
+                ]
+              ],
+              "explain": "start – finish",
+              "source": "CONFIRMED",
+              "clip": [
+                12.55,
+                14.84
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Verb: {}   Opposite: {}",
+              "gaps": [
+                [
+                  "turn on"
+                ],
+                [
+                  "turn off"
+                ]
+              ],
+              "explain": "turn on – turn off",
+              "source": "CONFIRMED",
+              "clip": [
+                16.57,
+                18.96
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6A-vb1a",
+          "origin": "SB",
+          "instruction": "Match the verbs and photos. Write the verb",
+          "note": "VB Opposite verbs a (p.157): фото из VB (tools/images.py) у пункта в image, пропуск — глагол из списка; 1 push (the door) — пример. MODEL",
+          "words": [
+            "arrive",
+            "break",
+            "buy",
+            "download",
+            "find",
+            "forget",
+            "lend",
+            "love",
+            "miss",
+            "pass",
+            "pick up",
+            "send",
+            "start",
+            "teach",
+            "turn on",
+            "win"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "{} money to somebody",
+              "image": "6a_vb1a_2",
+              "gaps": [
+                [
+                  "lend"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{} your keys",
+              "image": "6a_vb1a_3",
+              "gaps": [
+                [
+                  "find"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{} a house",
+              "image": "6a_vb1a_4",
+              "gaps": [
+                [
+                  "buy"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{} a race",
+              "image": "6a_vb1a_5",
+              "gaps": [
+                [
+                  "start"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "{} your phone",
+              "image": "6a_vb1a_6",
+              "gaps": [
+                [
+                  "break"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "{} a name",
+              "image": "6a_vb1a_7",
+              "gaps": [
+                [
+                  "forget"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "{} an exam",
+              "image": "6a_vb1a_8",
+              "gaps": [
+                [
+                  "pass"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "{} the TV",
+              "image": "6a_vb1a_9",
+              "gaps": [
+                [
+                  "turn on"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "{} early",
+              "image": "6a_vb1a_10",
+              "gaps": [
+                [
+                  "arrive"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "{} maths",
+              "image": "6a_vb1a_11",
+              "gaps": [
+                [
+                  "teach"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "{} an email",
+              "image": "6a_vb1a_12",
+              "gaps": [
+                [
+                  "send"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 13,
+              "type": "blank",
+              "text": "{} a match",
+              "image": "6a_vb1a_13",
+              "gaps": [
+                [
+                  "win"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 14,
+              "type": "blank",
+              "text": "{} a train",
+              "image": "6a_vb1a_14",
+              "gaps": [
+                [
+                  "miss"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 15,
+              "type": "blank",
+              "text": "{} a song",
+              "image": "6a_vb1a_15",
+              "gaps": [
+                [
+                  "download"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 16,
+              "type": "blank",
+              "text": "{} cooking",
+              "image": "6a_vb1a_16",
+              "gaps": [
+                [
+                  "love"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 17,
+              "type": "blank",
+              "text": "{} somebody at the airport",
+              "image": "6a_vb1a_17",
+              "gaps": [
+                [
+                  "pick up"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6A-vb1b",
+          "origin": "SB",
+          "instruction": "Write the opposite verbs. Then listen and check",
+          "note": "VB Opposite verbs b+c (6.2): противоположный глагол; arrive – leave — пример",
+          "audio": "6.2",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "break → {}",
+              "gaps": [
+                [
+                  "mend",
+                  "repair"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                8.46,
+                15.28
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "buy → {}",
+              "gaps": [
+                [
+                  "sell"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                16.7,
+                21.0
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "download → {}",
+              "gaps": [
+                [
+                  "upload"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                22.2,
+                26.94
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "find → {}",
+              "gaps": [
+                [
+                  "lose"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                29.2,
+                32.6
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "forget → {}",
+              "gaps": [
+                [
+                  "remember"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                35.02,
+                38.42
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "lend → {}",
+              "gaps": [
+                [
+                  "borrow"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                40.5,
+                43.9
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "love → {}",
+              "gaps": [
+                [
+                  "hate"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                46.02,
+                49.42
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "miss → {}",
+              "gaps": [
+                [
+                  "catch"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                51.4,
+                54.8
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "pass → {}",
+              "gaps": [
+                [
+                  "fail"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                55.68,
+                60.56
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "pick up → {}",
+              "gaps": [
+                [
+                  "drop off"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                62.32,
+                66.44
+              ]
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "push → {}",
+              "gaps": [
+                [
+                  "pull"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                68.24,
+                71.72
+              ]
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "send → {}",
+              "gaps": [
+                [
+                  "get",
+                  "receive"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                73.62,
+                79.48
+              ]
+            },
+            {
+              "n": 13,
+              "type": "blank",
+              "text": "start → {}",
+              "gaps": [
+                [
+                  "finish"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                80.46,
+                84.5
+              ]
+            },
+            {
+              "n": 14,
+              "type": "blank",
+              "text": "teach → {}",
+              "gaps": [
+                [
+                  "learn"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                84.5,
+                90.48
+              ]
+            },
+            {
+              "n": 15,
+              "type": "blank",
+              "text": "turn on → {}",
+              "gaps": [
+                [
+                  "turn off"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                91.82,
+                96.66
+              ]
+            },
+            {
+              "n": 16,
+              "type": "blank",
+              "text": "win → {}",
+              "gaps": [
+                [
+                  "lose"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                97.96,
+                102.04
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6A-wb1a",
+          "origin": "WB",
+          "instruction": "Write the opposite verb for each phrase",
+          "note": "WB 1a; 1 arrive / leave at 6.00 — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "teach / {} English",
+              "gaps": [
+                [
+                  "learn"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "fail / {} an exam",
+              "gaps": [
+                [
+                  "pass"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "push / {} the door",
+              "gaps": [
+                [
+                  "pull"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "mend / {} your glasses",
+              "gaps": [
+                [
+                  "break"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "lend / {} a pen",
+              "gaps": [
+                [
+                  "borrow"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "win / {} the match",
+              "gaps": [
+                [
+                  "lose"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "turn off / {} the light",
+              "gaps": [
+                [
+                  "turn on"
+                ]
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "get / {} emails",
+              "gaps": [
+                [
+                  "send"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6A-wb1b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the correct form of the opposite verb in brackets",
+          "note": "WB 1b; 1 I hate doing exams (love) — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Look at those clouds! It’s going to {} raining soon.",
+              "hint": "(finish)",
+              "gaps": [
+                [
+                  "start"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Did you {} your old car?",
+              "hint": "(buy)",
+              "gaps": [
+                [
+                  "sell"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I’m going to the station to {} Tim.",
+              "hint": "(drop off)",
+              "gaps": [
+                [
+                  "pick up"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I can’t {} my keys. Have you seen them?",
+              "hint": "(lose)",
+              "gaps": [
+                [
+                  "find"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Are you going to {} the photos to Instagram?",
+              "hint": "(download)",
+              "gaps": [
+                [
+                  "upload"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Why do you always {} my birthday?",
+              "hint": "(remember)",
+              "gaps": [
+                [
+                  "forget"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "If we run, we can {} the 6.14 train.",
+              "hint": "(miss)",
+              "gaps": [
+                [
+                  "catch"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6A-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the second sentence with the opposite of the verb in brackets.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I didn’t catch the bus. I {} it.",
+              "gaps": [
+                [
+                  "missed"
+                ]
+              ],
+              "explain": "miss ≠ catch (a bus, a train). Past: missed.",
+              "source": "MODEL",
+              "hint": "(catch)"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "She didn’t pass her driving test. She {} it.",
+              "gaps": [
+                [
+                  "failed"
+                ]
+              ],
+              "explain": "fail ≠ pass (an exam, a test).",
+              "source": "MODEL",
+              "hint": "(pass)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "We didn’t win the match. We {} it 3–0.",
+              "gaps": [
+                [
+                  "lost"
+                ]
+              ],
+              "explain": "lose ≠ win; lose – lost.",
+              "source": "MODEL",
+              "hint": "(win)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "He doesn’t remember people’s names. He always {} them.",
+              "gaps": [
+                [
+                  "forgets"
+                ]
+              ],
+              "explain": "forget ≠ remember; he → forgets.",
+              "source": "MODEL",
+              "hint": "(remember)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Don’t pull the door – {} it!",
+              "gaps": [
+                [
+                  "push"
+                ]
+              ],
+              "explain": "push ≠ pull.",
+              "source": "MODEL",
+              "hint": "(pull)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I didn’t sell my flat. I {} a bigger one!",
+              "gaps": [
+                [
+                  "bought"
+                ]
+              ],
+              "explain": "buy ≠ sell; buy – bought.",
+              "source": "MODEL",
+              "hint": "(sell)"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Don’t turn on the TV. {} it, please.",
+              "gaps": [
+                [
+                  "Turn off"
+                ]
+              ],
+              "explain": "turn off ≠ turn on.",
+              "source": "MODEL",
+              "hint": "(turn on)"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "The film didn’t finish at nine. It {} at nine.",
+              "gaps": [
+                [
+                  "started"
+                ]
+              ],
+              "explain": "start ≠ finish.",
+              "source": "MODEL",
+              "hint": "(finish)"
+            }
+          ]
+        },
+        {
+          "id": "6A-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete with lend or borrow in the correct form.",
+          "words": [
+            "lend",
+            "borrow"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Can I {} your umbrella? It’s raining.",
+              "gaps": [
+                [
+                  "borrow"
+                ]
+              ],
+              "explain": "Can I borrow…? = Can I take it for a time?",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Could you {} me ten euros until Friday?",
+              "gaps": [
+                [
+                  "lend"
+                ]
+              ],
+              "explain": "lend somebody something = give it for a time.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I {} this book from the library last week.",
+              "gaps": [
+                [
+                  "borrowed"
+                ]
+              ],
+              "explain": "borrow something FROM somebody / a place.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "My sister never {} me her clothes.",
+              "gaps": [
+                [
+                  "lends"
+                ]
+              ],
+              "explain": "she → lends (to me).",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I’ve {} my brother some money.",
+              "gaps": [
+                [
+                  "lent"
+                ]
+              ],
+              "explain": "lend – lent – lent.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6A-vocabulary-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistake with the verb.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "Hurry up or we’ll lose the train!",
+              "answers": [
+                "Hurry up or we’ll miss the train!",
+                "Hurry up or we will miss the train!"
+              ],
+              "explain": "You miss a train (≠ catch). You lose keys or a match.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "Can you borrow me your phone?",
+              "answers": [
+                "Can you lend me your phone?",
+                "Can I borrow your phone?"
+              ],
+              "explain": "lend somebody something / borrow something from somebody.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "My dad learns maths at a secondary school.",
+              "answers": [
+                "My dad teaches maths at a secondary school."
+              ],
+              "explain": "A teacher teaches; students learn.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "I can’t take you to the airport, but I can pick you up at the station on the way.",
+              "answers": [
+                "I can’t take you to the airport, but I can drop you off at the station on the way.",
+                "I can’t take you to the airport, but I can drop you at the station on the way."
+              ],
+              "explain": "drop off = leave somebody somewhere in your car; pick up = collect them.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "Did you receive the email I sent you? – No, I didn’t send it.",
+              "answers": [
+                "Did you receive the email I sent you? – No, I didn’t get it.",
+                "Did you receive the email I sent you? – No, I didn’t receive it."
+              ],
+              "explain": "send ≠ receive / get.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "Can you fix my bike? I mended it yesterday.",
+              "answers": [
+                "Can you fix my bike? I broke it yesterday."
+              ],
+              "explain": "break ≠ mend / repair / fix.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "I always win my keys!",
+              "answers": [
+                "I always lose my keys!"
+              ],
+              "explain": "lose ≠ find (keys) and ≠ win (a match).",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6A-grammar",
+      "kind": "GRAMMAR",
+      "title": "will / won’t (predictions)",
+      "reference": [
+        {
+          "type": "table",
+          "title": "will / won’t",
+          "headers": [
+            "",
+            "Form",
+            "Example"
+          ],
+          "rows": [
+            [
+              "+",
+              "I / you / he / she / it / we / they ’ll (will) + infinitive",
+              "I’m seeing Jessica at six. – She’ll be late."
+            ],
+            [
+              "−",
+              "I / you / he / she / it / we / they won’t (will not) + infinitive",
+              "The film’s in French. We won’t understand anything."
+            ],
+            [
+              "?",
+              "Will + subject + infinitive…?",
+              "Will it rain tomorrow? – Yes, it will. / No, it won’t."
+            ]
+          ],
+          "audio": "6.4"
+        },
+        {
+          "type": "note",
+          "title": "Predictions",
+          "text": "Use will / won’t + infinitive to make predictions, i.e. to say what you think will happen: It’s a great book. I’m sure you’ll like it. We often use I think / I don’t think / I’m sure + will: I don’t think it’ll rain tomorrow."
+        },
+        {
+          "type": "mistake",
+          "wrong": "I think he won’t pass.",
+          "right": "I don’t think he’ll pass.",
+          "why": "With think, make the verb think negative, not will."
+        },
+        {
+          "type": "note",
+          "title": "be going to for predictions",
+          "text": "You can also use be going to for predictions, especially when you can see or know that something is going to happen: Look at the clouds. It’s going to rain. They’re playing very well. They’re going to win."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "6A-sb2a",
+          "origin": "SB",
+          "instruction": "Read the conversations. Is each response optimistic or pessimistic? Then listen and check",
+          "note": "SB 2a «Label the responses O or P» + 2b (6.3) → Blank: optimist / pessimist, варианты в hint. Сверено с 6.3 (диктор называет optimist / pessimist) — CONFIRMED. 2d (present or future? — о будущем) — в заметке раздела",
+          "audio": "6.3",
+          "images": [
+            "6a_sb2a_cats"
+          ],
+          "dialogue": true,
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "This check-in queue is really slow!\nDon’t worry. It’ll start moving soon. → {}",
+              "hint": "(optimist / pessimist)",
+              "gaps": [
+                [
+                  "optimist",
+                  "O",
+                  "an optimist",
+                  "optimistic"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                3.4,
+                9.84
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "This check-in queue is really slow!\nI know. We’ll miss the flight. → {}",
+              "hint": "(optimist / pessimist)",
+              "gaps": [
+                [
+                  "pessimist",
+                  "P",
+                  "a pessimist",
+                  "pessimistic"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                12.6,
+                18.34
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Let’s drive to the restaurant.\nWe’ll never find anywhere to park. → {}",
+              "hint": "(optimist / pessimist)",
+              "gaps": [
+                [
+                  "pessimist",
+                  "P",
+                  "a pessimist",
+                  "pessimistic"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                21.7,
+                26.6
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Let’s drive to the restaurant.\nYes, it’ll be quicker. → {}",
+              "hint": "(optimist / pessimist)",
+              "gaps": [
+                [
+                  "optimist",
+                  "O",
+                  "an optimist",
+                  "optimistic"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                30.0,
+                34.64
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I’ve lent my brother some money.\nI’m sure he’ll pay you back. → {}",
+              "hint": "(optimist / pessimist)",
+              "gaps": [
+                [
+                  "optimist",
+                  "O",
+                  "an optimist",
+                  "optimistic"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                38.2,
+                42.78
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I’ve lent my brother some money.\nYou won’t see it again. → {}",
+              "hint": "(optimist / pessimist)",
+              "gaps": [
+                [
+                  "pessimist",
+                  "P",
+                  "a pessimist",
+                  "pessimistic"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                46.0,
+                50.26
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "I’m taking my driving test tomorrow.\nIt’ll go well, you’ll see. → {}",
+              "hint": "(optimist / pessimist)",
+              "gaps": [
+                [
+                  "optimist",
+                  "O",
+                  "an optimist",
+                  "optimistic"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                53.5,
+                58.78
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I’m taking my driving test tomorrow.\nYou won’t pass. → {}",
+              "hint": "(optimist / pessimist)",
+              "gaps": [
+                [
+                  "pessimist",
+                  "P",
+                  "a pessimist",
+                  "pessimistic"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                61.9,
+                66.2
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "I’m selling my old laptop on eBay.\nYou’ll sell it easily. → {}",
+              "hint": "(optimist / pessimist)",
+              "gaps": [
+                [
+                  "optimist",
+                  "O",
+                  "an optimist",
+                  "optimistic"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                69.8,
+                74.18
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "I’m selling my old laptop on eBay.\nNobody will buy it. → {}",
+              "hint": "(optimist / pessimist)",
+              "gaps": [
+                [
+                  "pessimist",
+                  "P",
+                  "a pessimist",
+                  "pessimistic"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                77.4,
+                82.6
+              ]
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "Hooray! We’re in the final!\nYes. But we’ll lose. → {}",
+              "hint": "(optimist / pessimist)",
+              "gaps": [
+                [
+                  "pessimist",
+                  "P",
+                  "a pessimist",
+                  "pessimistic"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                86.3,
+                91.58
+              ]
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "Hooray! We’re in the final!\nYes! I’m sure we’ll win! → {}",
+              "hint": "(optimist / pessimist)",
+              "gaps": [
+                [
+                  "optimist",
+                  "O",
+                  "an optimist",
+                  "optimistic"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                95.0,
+                100.26
+              ]
+            },
+            {
+              "n": 13,
+              "type": "blank",
+              "text": "I’m having Japanese classes next week.\nThat’ll be interesting! → {}",
+              "hint": "(optimist / pessimist)",
+              "gaps": [
+                [
+                  "optimist",
+                  "O",
+                  "an optimist",
+                  "optimistic"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                104.0,
+                108.46
+              ]
+            },
+            {
+              "n": 14,
+              "type": "blank",
+              "text": "I’m having Japanese classes next week.\nYou’ll never learn it. → {}",
+              "hint": "(optimist / pessimist)",
+              "gaps": [
+                [
+                  "pessimist",
+                  "P",
+                  "a pessimist",
+                  "pessimistic"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                112.0,
+                116.76
+              ]
+            },
+            {
+              "n": 15,
+              "type": "blank",
+              "text": "We’re going to see the film in English.\nYou won’t understand a word. → {}",
+              "hint": "(optimist / pessimist)",
+              "gaps": [
+                [
+                  "pessimist",
+                  "P",
+                  "a pessimist",
+                  "pessimistic"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                119.7,
+                125.6
+              ]
+            },
+            {
+              "n": 16,
+              "type": "blank",
+              "text": "We’re going to see the film in English.\nYou’ll love it. And it’ll be good practice. → {}",
+              "hint": "(optimist / pessimist)",
+              "gaps": [
+                [
+                  "optimist",
+                  "O",
+                  "an optimist",
+                  "optimistic"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                128.7,
+                135.76
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6A-sb2c",
+          "origin": "SB",
+          "instruction": "Which response would you probably say in each situation? Are you an optimist or a pessimist?",
+          "note": "SB 2c → Write, проверяет ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Answer your friend in each situation with your own prediction (will / won’t). Then say if you are an optimist or a pessimist.",
+              "questions": [
+                {
+                  "text": "This check-in queue is really slow!",
+                  "hint": "(Don’t worry. It’ll… / I know. We’ll…)"
+                },
+                {
+                  "text": "I’m taking my driving test tomorrow.",
+                  "hint": "(It’ll… / I don’t think you’ll…)"
+                },
+                {
+                  "text": "I’m selling my old laptop on eBay.",
+                  "hint": "(I’m sure you’ll… / Nobody will…)"
+                },
+                {
+                  "text": "I’m having Japanese classes next week.",
+                  "hint": "(That’ll be… / You’ll never…)"
+                },
+                {
+                  "text": "So, are you an optimist or a pessimist?",
+                  "hint": "(I think I’m… because…)"
+                }
+              ],
+              "criteria": [
+                "each answer is a prediction with ’ll / will / won’t + infinitive",
+                "uses I think / I don’t think / I’m sure correctly (I don’t think… will, not I think… won’t)",
+                "the last answer says optimist or pessimist and gives a reason"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6A-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Write sentences and questions with will / won’t. Use contractions where possible",
+          "note": "GB 6A a: + − ? → Rewrite, знак в hint. Пример книги без номера, 1–10 все. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "I think they / lose the match",
+              "hint": "(+)",
+              "answers": [
+                "I think they’ll lose the match.",
+                "I think they will lose the match."
+              ],
+              "explain": "+ ’ll (will) + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "the meeting / be long",
+              "hint": "(?)",
+              "answers": [
+                "Will the meeting be long?"
+              ],
+              "explain": "? Will + subject + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "she / get the job – she’s not qualified enough",
+              "hint": "(−)",
+              "answers": [
+                "She won’t get the job – she’s not qualified enough.",
+                "She will not get the job – she’s not qualified enough.",
+                "She won’t get the job – she isn’t qualified enough."
+              ],
+              "explain": "− won’t + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "you / see him at work later",
+              "hint": "(?)",
+              "answers": [
+                "Will you see him at work later?"
+              ],
+              "explain": "? Will you + infinitive…?",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "I don’t want to go. it / be impossible to park",
+              "hint": "(+)",
+              "answers": [
+                "I don’t want to go. It’ll be impossible to park.",
+                "I don’t want to go. It will be impossible to park."
+              ],
+              "explain": "+ It’ll be…",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "you / like that book",
+              "hint": "(−)",
+              "answers": [
+                "You won’t like that book.",
+                "You will not like that book."
+              ],
+              "explain": "− won’t + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "I’m sure she / love the present I bought her",
+              "hint": "(+)",
+              "answers": [
+                "I’m sure she’ll love the present I bought her.",
+                "I’m sure she will love the present I bought her."
+              ],
+              "explain": "I’m sure + will.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prompt": "there / be a lot of traffic in the morning",
+              "hint": "(−)",
+              "answers": [
+                "There won’t be a lot of traffic in the morning.",
+                "There will not be a lot of traffic in the morning."
+              ],
+              "explain": "There won’t be…",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "rewrite",
+              "prompt": "you / find a good job, I’m sure",
+              "hint": "(+)",
+              "answers": [
+                "You’ll find a good job, I’m sure.",
+                "You will find a good job, I’m sure."
+              ],
+              "explain": "+ You’ll + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "rewrite",
+              "prompt": "everything / be OK, so there’s no need to worry",
+              "hint": "(+)",
+              "answers": [
+                "Everything’ll be OK, so there’s no need to worry.",
+                "Everything will be OK, so there’s no need to worry."
+              ],
+              "explain": "+ Everything will (’ll) be OK.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6A-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete with will / won’t and a verb from the list",
+          "note": "GB 6A b; пример книги без номера. MODEL",
+          "words": [
+            "be (x2)",
+            "get",
+            "like",
+            "pass",
+            "snow"
+          ],
+          "dialogue": true,
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Do you like this band?\nYes, I think they {} famous one day.",
+              "gaps": [
+                [
+                  "’ll be",
+                  "will be"
+                ]
+              ],
+              "explain": "I think + will.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Is this a good film?\nYes, I’m sure you {} it.",
+              "gaps": [
+                [
+                  "’ll like",
+                  "will like"
+                ]
+              ],
+              "explain": "I’m sure + will.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Do you think it {}?\nNo, it’s not cold enough.",
+              "gaps": [
+                [
+                  "will snow"
+                ]
+              ],
+              "explain": "Do you think + will…?",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "What do you think James {} me?\nI’m sure it {} something nice.",
+              "gaps": [
+                [
+                  "will get"
+                ],
+                [
+                  "will be",
+                  "’ll be"
+                ]
+              ],
+              "explain": "will + infinitive for predictions.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I’m so worried about the exam!\nDon’t worry. I’m sure you {}.",
+              "gaps": [
+                [
+                  "’ll pass",
+                  "will pass"
+                ]
+              ],
+              "explain": "I’m sure you’ll pass.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6A-wb2a",
+          "origin": "WB",
+          "instruction": "Write predictions with the words in brackets and will / won’t. Use contractions where possible",
+          "note": "WB 2a; 1 you’ll love — пример",
+          "dialogue": true,
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Do you want me to wash the car?\nYes, please, or {} it.",
+              "hint": "(nobody / buy)",
+              "gaps": [
+                [
+                  "nobody will buy",
+                  "nobody’ll buy"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Do you think you’ll go to the beach tomorrow?\nI don’t think so. I’m sure {} all day.",
+              "hint": "(it / rain)",
+              "gaps": [
+                [
+                  "it’ll rain",
+                  "it will rain"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Have we got enough time to get to the airport?\nYes, don’t worry. {} your flight.",
+              "hint": "(you / not miss)",
+              "gaps": [
+                [
+                  "You won’t miss",
+                  "You will not miss"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Do you think you’ll win the marathon next week?\nNo, but I think {} in about three hours.",
+              "hint": "(I / finish)",
+              "gaps": [
+                [
+                  "I’ll finish",
+                  "I will finish"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "How do you feel about tomorrow’s test?\nI think {}, but {} an ‘A’.",
+              "hint": "(I / pass / I / not get)",
+              "gaps": [
+                [
+                  "I’ll pass",
+                  "I will pass"
+                ],
+                [
+                  "I won’t get",
+                  "I will not get"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Do you think we’ll leave work on time tonight?\nI doubt it. {} until late.",
+              "hint": "(our meeting / not finish)",
+              "gaps": [
+                [
+                  "Our meeting won’t finish",
+                  "Our meeting will not finish"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6A-wb2b",
+          "origin": "WB",
+          "instruction": "Complete the conversations with a verb from the list and will / won’t. Use contractions where possible",
+          "note": "WB 2b; 1 you’ll have — пример",
+          "words": [
+            "catch",
+            "forget",
+            "not find",
+            "not sell",
+            "not win",
+            "pass"
+          ],
+          "dialogue": true,
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Are you in the tennis final tomorrow?\nYes, but I’m playing Andy, so I’m sure I {}.",
+              "gaps": [
+                [
+                  "won’t win",
+                  "will not win"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I told Nick that it’s Jane’s birthday on Friday.\nThanks, but you know Nick! He {}.",
+              "gaps": [
+                [
+                  "’ll forget",
+                  "will forget"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "It’s Louisa’s exam tomorrow.\nI’m sure she {}. She’s worked very hard.",
+              "gaps": [
+                [
+                  "’ll pass",
+                  "will pass"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I’m getting the 8.50 train.\nIt’s 8.40 now. {} you {} it?",
+              "gaps": [
+                [
+                  "Will"
+                ],
+                [
+                  "catch"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "We can park near the cinema.\nAt this time? We {} a parking space.",
+              "gaps": [
+                [
+                  "won’t find",
+                  "will not find"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "I’m going to put my tablet on eBay.\nIt’s too old. You {} it.",
+              "gaps": [
+                [
+                  "won’t sell",
+                  "will not sell"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6A-wb2c",
+          "origin": "WB",
+          "instruction": "Look at the picture. Write the predictions with the words in brackets and will / won’t",
+          "note": "WB 2c «Your future is in your hands»; картинка ладони из WB p.41; 1 — пример",
+          "images": [
+            "6a_wb2c_hand"
+          ],
+          "context": "Line of heart: a long, strong and unbroken line means your relationships will be happy. Line of health: a long, strong and unbroken line means you’ll be healthy. Line of success: a long, strong and unbroken line means you’ll have a lot of money. Line of fate: a long, strong and unbroken line means your job will be important to you and you’ll have a job for a long time. Line of life: a long, strong and unbroken line means you’ll live for a long time. Line of head: a long, strong and unbroken line means you’ll be clever and like learning.",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Your line of health is unbroken. {}",
+              "hint": "(You / have a healthy life)",
+              "gaps": [
+                [
+                  "You’ll have a healthy life.",
+                  "You will have a healthy life."
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "This line of success isn’t very strong. {}",
+              "hint": "(You / not be very rich)",
+              "gaps": [
+                [
+                  "You won’t be very rich.",
+                  "You will not be very rich."
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Your line of fate shows that {}",
+              "hint": "(you / not always have / same job)",
+              "gaps": [
+                [
+                  "you won’t always have the same job.",
+                  "you will not always have the same job."
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Your line of life is quite strong. {}",
+              "hint": "(You / have a long life)",
+              "gaps": [
+                [
+                  "You’ll have a long life.",
+                  "You will have a long life."
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "You have a strong line of head. {}",
+              "hint": "(You enjoy / learning new things)",
+              "gaps": [
+                [
+                  "You’ll enjoy learning new things.",
+                  "You will enjoy learning new things."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6A-wb2d",
+          "origin": "WB",
+          "instruction": "Look at the lines on your own hand and write predictions about your future",
+          "note": "WB 2d «Students’ own answers» → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Look at the lines on your hand. Write four or five predictions about your future with will / won’t.",
+              "hint": "(My line of life is long, so I’ll live for a long time. I don’t think I’ll…)",
+              "criteria": [
+                "writes at least four predictions",
+                "uses ’ll / will / won’t + infinitive correctly",
+                "uses the information about the lines (heart, health, success, fate, life, head)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6A-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the predictions with will / won’t and the verb in brackets. Use contractions.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Take an umbrella. I think it {} later.",
+              "hint": "(rain)",
+              "gaps": [
+                [
+                  "’ll rain",
+                  "will rain"
+                ]
+              ],
+              "explain": "I think + ’ll + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Don’t tell Tom – he {} it.",
+              "hint": "(not understand)",
+              "gaps": [
+                [
+                  "won’t understand",
+                  "will not understand"
+                ]
+              ],
+              "explain": "− won’t + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{} the shops {} open on Sunday?",
+              "hint": "(be)",
+              "gaps": [
+                [
+                  "Will"
+                ],
+                [
+                  "be"
+                ]
+              ],
+              "explain": "? Will + subject + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I’m sure you {} your new school.",
+              "hint": "(love)",
+              "gaps": [
+                [
+                  "’ll love",
+                  "will love"
+                ]
+              ],
+              "explain": "I’m sure + will.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "There {} any tickets left – it’s a very popular concert.",
+              "hint": "(not be)",
+              "gaps": [
+                [
+                  "won’t be",
+                  "will not be"
+                ]
+              ],
+              "explain": "There won’t be…",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Hurry up! We {} late.",
+              "hint": "(be)",
+              "gaps": [
+                [
+                  "’ll be",
+                  "will be"
+                ]
+              ],
+              "explain": "A prediction: We’ll be late.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Do you think Anna {} the job?",
+              "hint": "(get)",
+              "gaps": [
+                [
+                  "will get"
+                ]
+              ],
+              "explain": "Do you think + will + infinitive?",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6A-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Write the opposite prediction. Start with the words in brackets.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "I think he’ll pass.",
+              "hint": "(I don’t think…)",
+              "answers": [
+                "I don’t think he’ll pass.",
+                "I don’t think he will pass."
+              ],
+              "explain": "Make think negative: I don’t think he’ll pass (NOT I think he won’t pass).",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "I think it’ll be sunny tomorrow.",
+              "hint": "(I don’t think…)",
+              "answers": [
+                "I don’t think it’ll be sunny tomorrow.",
+                "I don’t think it will be sunny tomorrow."
+              ],
+              "explain": "I don’t think + will.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "You’ll find a parking space.",
+              "hint": "(You…)",
+              "answers": [
+                "You won’t find a parking space.",
+                "You will not find a parking space."
+              ],
+              "explain": "’ll → won’t.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "They won’t win the match.",
+              "hint": "(They…)",
+              "answers": [
+                "They’ll win the match.",
+                "They will win the match."
+              ],
+              "explain": "won’t → ’ll.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "I don’t think she’ll like the present.",
+              "hint": "(I’m sure…)",
+              "answers": [
+                "I’m sure she’ll like the present.",
+                "I’m sure she will like the present.",
+                "I am sure she will like the present."
+              ],
+              "explain": "I’m sure + will.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6A-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes. If a sentence is correct, leave it as it is.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "I think you won’t like the film.",
+              "answers": [
+                "I don’t think you’ll like the film.",
+                "I don’t think you will like the film."
+              ],
+              "explain": "Make think negative, not will.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "She’ll to be here at six.",
+              "answers": [
+                "She’ll be here at six.",
+                "She will be here at six."
+              ],
+              "explain": "will + infinitive without to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Do you think it will rain?",
+              "answers": [
+                "Do you think it will rain?"
+              ],
+              "explain": "Correct: Do you think + will…?",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "Will you are at home tonight?",
+              "answers": [
+                "Will you be at home tonight?"
+              ],
+              "explain": "Will + subject + infinitive (be).",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "Don’t worry. You don’t miss your flight.",
+              "answers": [
+                "Don’t worry. You won’t miss your flight.",
+                "Don’t worry. You will not miss your flight."
+              ],
+              "explain": "A prediction about the future: won’t, not don’t.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6A-grammar-x4",
+          "origin": "GENERATED",
+          "instruction": "Put the words in the correct order.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "sure / I’m / you’ll / it / enjoy / .",
+              "answers": [
+                "I’m sure you’ll enjoy it."
+              ],
+              "explain": "I’m sure + you’ll + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "think / don’t / I / they’ll / come / .",
+              "answers": [
+                "I don’t think they’ll come."
+              ],
+              "explain": "I don’t think + ’ll.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "be / the / will / exam / difficult / ?",
+              "answers": [
+                "Will the exam be difficult?"
+              ],
+              "explain": "? Will + subject + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "won’t / a / we / taxi / get / .",
+              "answers": [
+                "We won’t get a taxi."
+              ],
+              "explain": "subject + won’t + infinitive.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6A-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "’ll, won’t",
+      "reference": [
+        {
+          "type": "table",
+          "title": "’ll",
+          "headers": [
+            "Contraction",
+            "Phrase",
+            "Sentence"
+          ],
+          "rows": [
+            [
+              "I’ll",
+              "I’ll be late",
+              "I’ll be late for work."
+            ],
+            [
+              "You’ll",
+              "You’ll never",
+              "You’ll never learn."
+            ],
+            [
+              "He’ll",
+              "He’ll pay",
+              "He’ll pay you back."
+            ],
+            [
+              "It’ll",
+              "It’ll go",
+              "It’ll go well."
+            ],
+            [
+              "We’ll",
+              "We’ll miss",
+              "We’ll miss the flight."
+            ]
+          ],
+          "audio": "6.5"
+        },
+        {
+          "type": "note",
+          "title": "won’t and want",
+          "text": "won’t /wəʊnt/ has the same sound as phone; want /wɒnt/ has the same sound as dog. Don’t confuse them: I won’t go (future) – I want to go (present)."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "6A-sb3a",
+          "origin": "SB",
+          "instruction": "Listen and repeat the words and phrases. Copy the rhythm",
+          "note": "SB 3a (6.5) → Speak по отрезкам трека",
+          "audio": "6.5",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "I’ll – I’ll be late – I’ll be late for work.",
+              "clip": [
+                0.0,
+                7.4
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "You’ll – you’ll never – you’ll never learn.",
+              "clip": [
+                9.88,
+                17.31
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "He’ll – he’ll pay – he’ll pay you back.",
+              "clip": [
+                19.8,
+                26.96
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "It’ll – it’ll go – it’ll go well.",
+              "clip": [
+                29.45,
+                36.75
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "We’ll – we’ll miss – we’ll miss the flight.",
+              "clip": [
+                39.23,
+                46.41
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6A-sb3b",
+          "origin": "SB",
+          "instruction": "Listen and write the sentences",
+          "note": "SB 3b (6.6) диктовка → Blank на всю фразу с клипом; скрипта нет — по расшифровке. Вопрос «what sound do the pink letters have in won’t and want» — в заметке раздела",
+          "audio": "6.6",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "I want to go with you."
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                0.2,
+                1.82
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "They won’t come tonight.",
+                  "They will not come tonight."
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                3.52,
+                5.5
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "You won’t find a job.",
+                  "You will not find a job."
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                7.26,
+                9.07
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "We want to learn Russian."
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                10.79,
+                12.81
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "They want to sell their house."
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                14.55,
+                16.69
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "I’m sure she won’t win.",
+                  "I am sure she won’t win.",
+                  "I’m sure she will not win."
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                18.39,
+                20.44
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6A-sb3c",
+          "origin": "SB",
+          "instruction": "Listen and say the responses from 2a",
+          "note": "SB 3c «Practise in pairs… say the optimist’s / pessimist’s responses» → Speak ответов из 2a по отрезкам 6.3",
+          "audio": "6.3",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "Don’t worry. It’ll start moving soon.",
+              "clip": [
+                6.98,
+                9.84
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "I know. We’ll miss the flight.",
+              "clip": [
+                15.78,
+                18.34
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "We’ll never find anywhere to park.",
+              "clip": [
+                24.26,
+                26.6
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "Yes, it’ll be quicker.",
+              "clip": [
+                32.84,
+                34.64
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "I’m sure he’ll pay you back.",
+              "clip": [
+                40.64,
+                42.78
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "You won’t see it again.",
+              "clip": [
+                48.6,
+                50.26
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "It’ll go well, you’ll see.",
+              "clip": [
+                56.56,
+                58.78
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "You won’t pass.",
+              "clip": [
+                64.68,
+                66.2
+              ]
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "You’ll sell it easily.",
+              "clip": [
+                72.56,
+                74.18
+              ]
+            },
+            {
+              "n": 10,
+              "type": "speak",
+              "text": "Nobody will buy it.",
+              "clip": [
+                80.54,
+                82.6
+              ]
+            },
+            {
+              "n": 11,
+              "type": "speak",
+              "text": "Yes. But we’ll lose.",
+              "clip": [
+                88.9,
+                91.58
+              ]
+            },
+            {
+              "n": 12,
+              "type": "speak",
+              "text": "Yes! I’m sure we’ll win!",
+              "clip": [
+                97.6,
+                100.26
+              ]
+            },
+            {
+              "n": 13,
+              "type": "speak",
+              "text": "That’ll be interesting!",
+              "clip": [
+                106.76,
+                108.46
+              ]
+            },
+            {
+              "n": 14,
+              "type": "speak",
+              "text": "You’ll never learn it.",
+              "clip": [
+                114.66,
+                116.76
+              ]
+            },
+            {
+              "n": 15,
+              "type": "speak",
+              "text": "You won’t understand a word.",
+              "clip": [
+                123.78,
+                125.6
+              ]
+            },
+            {
+              "n": 16,
+              "type": "speak",
+              "text": "You’ll love it. And it’ll be good practice.",
+              "clip": [
+                132.34,
+                135.76
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6A-sb3d",
+          "origin": "SB",
+          "instruction": "You’re a pessimist! Make predictions",
+          "note": "SB 3d Communication p.104 (A) / p.109 (B): партнёр говорит фразы, другой отвечает пессимистичным прогнозом, потом наоборот → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "Speaking practice in an English class (level: pre-intermediate), Communication ‘You’re a pessimist!’. First you say your sentences one by one and the student answers each with a pessimistic prediction with will / won’t (e.g. ‘You’ll lose.’ ‘It won’t be very good.’). Your sentences: 1 I’m going to watch the Barcelona – Real Madrid match tonight. 2 I’m going to buy Jamie’s old car. 3 We’re going to that new Italian restaurant tonight. 4 I’ve just started going to a gym. 5 I’m looking for a cheap flat to rent in the city centre. Then swap: the student says their sentences (first skiing lesson next week; the new Spielberg film tonight; my train leaves in 20 minutes; a party in the garden on Saturday; an interview for a new job tomorrow) and you answer each one with a pessimistic prediction. Keep it light and funny. If the student says ‘I think… won’t’, answer naturally with ‘I don’t think… will’.",
+              "goal": "Answer each sentence with a pessimistic prediction, then tell your news.",
+              "opener": "I’m going to watch the Barcelona – Real Madrid match tonight!",
+              "criteria": [
+                "answers each sentence with a pessimistic prediction with ’ll / will / won’t + infinitive",
+                "uses I don’t think… will (not I think… won’t)",
+                "tells at least four pieces of news from the list with the right tense (be going to / present continuous)",
+                "pronounces the contractions I’ll / you’ll / it’ll / won’t"
+              ],
+              "steps": [
+                {
+                  "text": "Answer each sentence with a pessimistic prediction",
+                  "example": "Barcelona will lose. And it won’t be a good match."
+                },
+                {
+                  "text": "Now tell your news: a skiing lesson, a film, your train",
+                  "example": "I’m having my first skiing lesson next week."
+                },
+                {
+                  "text": "Then: a party, a job interview",
+                  "example": "I’m having a party in the garden on Saturday."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6A-wb3a",
+          "origin": "WB",
+          "instruction": "Say the sentences. Copy the rhythm",
+          "note": "WB 3a–b (трек WB 6.1, аудио WB нет): фразы из ключа → Speak, образец — синтезатор. 3c–d (want / won’t по треку WB 6.2 — фразы в книге не напечатаны, аудио нет) не переносили",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "I’ll learn a lot."
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "He’ll meet somebody new."
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "You’ll have a good time."
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "She won’t get the job."
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "They won’t lend you the money."
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "We won’t arrive on time."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6A-skills",
+      "kind": "SKILLS",
+      "title": "Listening & Reading",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Think positive",
+          "text": "A radio programme about positive thinking: callers give their tips – live in the present, think positive thoughts, don’t follow the news too much, make a list of good things every week, use positive language."
+        },
+        {
+          "type": "note",
+          "title": "Why negative thinking can be positive",
+          "text": "‘Defensive pessimism’ (Julie K. Norem, Wellesley College) is a strategy to manage anxiety, fear, and worry: defensive pessimists imagine all the things that can go wrong in a future situation and then plan how to avoid each problem. So they are prepared and in control."
+        },
+        {
+          "type": "note",
+          "title": "wrong",
+          "text": "go to the wrong place, the wrong number; go wrong (= not happen as planned): Sometimes everything goes wrong. There’s something wrong with the printer (= it doesn’t work well)."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "6A-sb4a",
+          "origin": "SB",
+          "instruction": "Listen to the introduction to a radio programme. Why is positive thinking good for you?",
+          "note": "SB 4a (6.7) → Blank по расшифровке",
+          "audio": "6.7",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Positive people enjoy life {} than people who are negative and pessimistic.",
+              "gaps": [
+                [
+                  "more"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                11.7,
+                18.5
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Positive people are also {}: they get better more quickly when they are ill.",
+              "gaps": [
+                [
+                  "healthier"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                18.5,
+                28.1
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Optimistic people live on average {} years longer than pessimistic people.",
+              "gaps": [
+                [
+                  "nine",
+                  "9"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                28.0,
+                38.8
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6A-sb4b",
+          "origin": "SB",
+          "instruction": "Complete the callers’ tips. Then listen and check",
+          "note": "SB 4b (угадать слова) + 4c (6.8 — проверить) → Blank; первые буквы из книги не даём (генератор запрещает подсказку первой буквой). Сверено с 6.8 — CONFIRMED, клип на совет",
+          "audio": "6.8",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Caller 1: Live in the {}, not in the {}.",
+              "gaps": [
+                [
+                  "present"
+                ],
+                [
+                  "past"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                9.6,
+                14.5
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Caller 2: Think {} thoughts, not {} ones.",
+              "gaps": [
+                [
+                  "positive"
+                ],
+                [
+                  "negative"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                36.8,
+                41.8
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Caller 3: Don’t spend a lot of time following the {} online or on TV.",
+              "gaps": [
+                [
+                  "news"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                78.9,
+                87.0
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Caller 4: Every week, make a list of all the {} {} that happened to you.",
+              "gaps": [
+                [
+                  "good"
+                ],
+                [
+                  "things"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                109.8,
+                116.0
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Caller 5: Try to use positive {} when you speak to other people.",
+              "gaps": [
+                [
+                  "language"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                132.5,
+                137.5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6A-sb4d",
+          "origin": "SB",
+          "instruction": "Listen again. What extra information do you hear for each tip?",
+          "note": "SB 4d «write down any extra information» → Blank по расшифровке 6.8; вторая часть (какие советы полезны, свои советы) — Write 6A-sb4d2",
+          "audio": "6.8",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Andy: Don’t think about {} you made in the past. You can’t change things now.",
+              "gaps": [
+                [
+                  "mistakes"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                14.2,
+                24.7
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Julie: If you think ‘I’m sure I’ll fail’ before an exam, you’ll fail. Just think to yourself: ‘I’ll {} that exam.’",
+              "gaps": [
+                [
+                  "pass"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                50.2,
+                70.3
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Martin: The news is always bad and it makes you feel {}. Read a book or listen to your favourite music instead.",
+              "gaps": [
+                [
+                  "depressed"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                86.6,
+                95.9
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Miriam: If you’re feeling a bit sad, read the list and it’ll make you feel {}.",
+              "gaps": [
+                [
+                  "better"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                115.7,
+                122.0
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Michael: If your friend has a problem, don’t say ‘Oh, poor you.’ Say ‘Don’t worry, everything will be {}.’",
+              "gaps": [
+                [
+                  "OK",
+                  "okay",
+                  "fine",
+                  "all right"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                137.2,
+                152.2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6A-sb4d2",
+          "origin": "SB",
+          "instruction": "Which tips do you think are the most useful? Do you have any tips of your own?",
+          "note": "SB 4d (вторая часть) → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Answer the questions about the tips for positive thinking.",
+              "questions": [
+                {
+                  "text": "Which two tips do you think are the most useful? Why?",
+                  "hint": "(I think the most useful tip is… because…)"
+                },
+                {
+                  "text": "Is there a tip you don’t agree with? Why?",
+                  "hint": "(I don’t agree with… because…)"
+                },
+                {
+                  "text": "What’s your own tip for positive thinking?",
+                  "hint": "(My tip is: …)"
+                }
+              ],
+              "criteria": [
+                "names at least two tips from the programme and gives reasons",
+                "gives one tip of their own (an imperative or ‘Try to…’)",
+                "sentences are grammatically correct"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6A-sb5a",
+          "origin": "SB",
+          "instruction": "Look at the cartoon. Is the girl an optimist or a pessimist?",
+          "note": "SB 5a → Blank, варианты в hint; картинка статьи (девушка перед экзаменом). MODEL",
+          "images": [
+            "6a_sb5_exam"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "The girl is {}.",
+              "hint": "(an optimist / a pessimist)",
+              "gaps": [
+                [
+                  "a pessimist",
+                  "pessimist"
+                ]
+              ],
+              "explain": "She thinks of everything that can go wrong: I’ll be late, I’ll be tired…",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6A-sb5b",
+          "origin": "SB",
+          "instruction": "Read the article. What is defensive pessimism? How do defensive pessimists prepare for an exam?",
+          "note": "SB 5b (вопрос по статье) → Blank на ключевые слова по напечатанной статье (MODEL); пункты 3–7 — как защитные пессимисты решают каждую проблему из картинки",
+          "context": "Why negative thinking can be positive. Everybody thinks that it’s better to be an optimist than a pessimist (even pessimists think it, of course). People always say ‘Cheer up. Don’t worry, be happy. Smile.’ But in fact there’s a kind of pessimism – called ‘defensive pessimism’ – that can lead to very positive results, according to Julie K. Norem, a professor of psychology at Wellesley College, Massachusetts. ‘Defensive pessimism is a strategy used in specific situations to manage anxiety, fear, and worry,’ says Norem. Studies show that 30 to 35 per cent of Americans use it to help them in their lives, and they’re often very successful people. Defensive pessimists think about future situations and prepare for them by imagining all the things that can go wrong. For example, if a defensive pessimist has an important exam, they think this: I’ll go to the wrong place. I’ll feel thirsty or hungry. My pen will run out or my pencil will break. I’ll be tired. I’ll be late. Then they look at each possible problem and plan how to avoid it. So for the exam situation, they go to bed early and have a good night’s sleep; they find out in advance exactly where the exam is; they eat a good breakfast, and take lots of pens and pencils, and a bottle of water; and they leave home early. That puts them in control, and it means that the exam will be better than for an optimist, who just thinks ‘Oh, everything will be fine!’ Because sometimes everything goes wrong, and it’s good to be prepared.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Defensive pessimism is a strategy to manage {}, fear, and worry.",
+              "gaps": [
+                [
+                  "anxiety"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Defensive pessimists imagine all the things that can go {}, and then plan how to avoid them.",
+              "gaps": [
+                [
+                  "wrong"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "‘I’ll be tired.’ → They go to bed {} and have a good night’s sleep.",
+              "gaps": [
+                [
+                  "early"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "‘I’ll go to the wrong place.’ → They find out in {} exactly where the exam is.",
+              "gaps": [
+                [
+                  "advance"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "‘I’ll feel thirsty or hungry.’ → They eat a good {} and take a bottle of {}.",
+              "gaps": [
+                [
+                  "breakfast"
+                ],
+                [
+                  "water"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "‘My pen will run out.’ → They take lots of {} and pencils.",
+              "gaps": [
+                [
+                  "pens"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "‘I’ll be late.’ → They {} home early.",
+              "gaps": [
+                [
+                  "leave"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "How many Americans use defensive pessimism? {} per cent.",
+              "gaps": [
+                [
+                  "30 to 35",
+                  "30–35",
+                  "thirty to thirty-five",
+                  "30-35"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6A-sb5c",
+          "origin": "SB",
+          "instruction": "Complete the phrases from the article with the same word",
+          "note": "SB 5c → Blank, по статье",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I’ll go to the {} place.",
+              "gaps": [
+                [
+                  "wrong"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Sometimes everything goes {}.",
+              "gaps": [
+                [
+                  "wrong"
+                ]
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "6A-sb5d",
+          "origin": "SB",
+          "instruction": "What do the phrases with wrong mean? Complete the sentences",
+          "note": "SB 5d «What do they mean?» → Blank-перефраз, MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "There’s something wrong with the printer. = The printer isn’t {} properly.",
+              "gaps": [
+                [
+                  "working"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Sorry, you’ve got the wrong number. = You called the {} person by mistake.",
+              "gaps": [
+                [
+                  "wrong"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Don’t worry – nothing went wrong. = There weren’t any {}.",
+              "gaps": [
+                [
+                  "problems"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "6A-sb5e",
+          "origin": "SB",
+          "instruction": "Look at the cartoon. What’s the man worried about? How can he avoid the problems?",
+          "note": "SB 5e (в парах: как избежать проблем из картинки) → Write по картинке",
+          "images": [
+            "6a_sb5e_flight"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "The man is a defensive pessimist and he is flying tomorrow. Write how he can avoid each problem.",
+              "questions": [
+                {
+                  "text": "I’ll miss the airport bus.",
+                  "hint": "(He can… / He should…)"
+                },
+                {
+                  "text": "I’ll go to the wrong terminal.",
+                  "hint": "(He can check… online)"
+                },
+                {
+                  "text": "I’ll have too much luggage.",
+                  "hint": "(He can weigh…)"
+                },
+                {
+                  "text": "It’ll be too cold on the plane.",
+                  "hint": "(He can take…)"
+                },
+                {
+                  "text": "The airline food will be terrible.",
+                  "hint": "(He can buy…)"
+                }
+              ],
+              "criteria": [
+                "gives a sensible solution for each of the five problems",
+                "uses can / should / will + infinitive or imperatives correctly",
+                "sentences are clear and grammatically correct"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6A-sb5f",
+          "origin": "SB",
+          "instruction": "Do you think defensive pessimism is a good strategy? Do you ever use it?",
+          "note": "SB 5f → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Write your opinion about defensive pessimism.",
+              "questions": [
+                {
+                  "text": "Do you think defensive pessimism is a good strategy? Why (not)?",
+                  "hint": "(I think it’s… because…)"
+                },
+                {
+                  "text": "Do you ever use it? When?",
+                  "hint": "(Before an exam / a trip I…)"
+                }
+              ],
+              "criteria": [
+                "gives an opinion with a reason",
+                "gives a real example from their life",
+                "uses will / won’t for predictions correctly if they write what they imagine"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6A-sb6",
+          "origin": "SB",
+          "instruction": "Ask and answer the questions. Say why",
+          "note": "SB 6 Speaking «Do you think…?» + ответы из рамки (I hope so / I doubt it…) → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "Speaking practice in an English class (level: pre-intermediate). You and the student ask each other ‘Do you think…?’ questions and answer with I hope so / I hope not / I think so / I don’t think so / Maybe / Perhaps / I doubt it / Probably (not) / Definitely (not), and then say why. The questions: Do you think you’ll… have a nice weekend? pass your next English exam? get a good (or better) job in the future? make some new friends on your next holiday? live to be 100? get to the end of this book? find the love of your life? Ask the student a question, listen to the answer and the reason, react, and answer their questions too. One question at a time.",
+              "goal": "Ask and answer ‘Do you think you’ll…?’ and say why.",
+              "opener": "Do you think you’ll have a nice weekend?",
+              "criteria": [
+                "answers with a short response from the box (I hope so, I doubt it, Probably not…) and a reason",
+                "asks at least three questions with Do you think you’ll…?",
+                "uses will / won’t + infinitive correctly in the reasons"
+              ],
+              "steps": [
+                {
+                  "text": "Answer and say why",
+                  "example": "I hope so. I think the weather will be good and I’m going to the beach."
+                },
+                {
+                  "text": "Ask about an English exam and a job",
+                  "example": "Do you think you’ll pass your next English exam?"
+                },
+                {
+                  "text": "Ask about living to be 100",
+                  "example": "Do you think you’ll live to be 100?"
+                },
+                {
+                  "text": "Ask about the love of your life",
+                  "example": "Do you think you’ll find the love of your life?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

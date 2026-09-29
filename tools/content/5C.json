@@ -1,0 +1,4356 @@
+{
+  "id": "5C",
+  "title": "How much is enough?",
+  "bubbles": [
+    "How much water do you drink?",
+    "Not enough!"
+  ],
+  "sources": "SB p.42–45 (PDF 43–46), Grammar Bank p.134–135 (PDF 135–136); WB p.36–39 (PDF 35–38) with WB key",
+  "sections": [
+    {
+      "id": "5C-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "health and the body",
+      "reference": [
+        {
+          "type": "table",
+          "title": "The body",
+          "headers": [
+            "Word",
+            "Example"
+          ],
+          "rows": [
+            [
+              "liver",
+              "Alcohol is bad for the liver."
+            ],
+            [
+              "heart",
+              "Red wine can cut the risk of heart attack."
+            ],
+            [
+              "teeth (sing. tooth)",
+              "Orange juice is bad for your teeth."
+            ],
+            [
+              "muscles",
+              "Coffee makes your muscles stronger."
+            ],
+            [
+              "bones",
+              "Young children need calcium for their bones."
+            ],
+            [
+              "blood",
+              "Coffee is connected with high blood pressure."
+            ]
+          ],
+          "audio": "5.16"
+        },
+        {
+          "type": "note",
+          "title": "heart attack, blood pressure",
+          "text": "a heart attack = when your heart suddenly stops working properly. blood pressure = how strongly your blood moves around your body; high blood pressure is bad for your heart."
+        },
+        {
+          "type": "mistake",
+          "wrong": "I brushed my tooths.",
+          "right": "I brushed my teeth.",
+          "why": "tooth – teeth is an irregular plural."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "5C-sb2b",
+          "origin": "SB",
+          "context": "ARE THEY REALLY GOOD AND BAD?\nHow do we know what to believe when doctors give us advice about what to drink and what not to drink? Every week, it seems, a scientific study contradicts last week’s research. Jeremy Laurance reviews the latest medical research into drinks.\n\nALCOHOL\nGOOD: For the heart, in small amounts, according to some studies. Two small glasses of red wine a day can cut the risk of heart attack by 30%, especially for middle-aged men.\nBAD: For the liver. Liver disease is increasing. Some studies also say that one drink a day increases a woman’s risk of all types of cancer by 6%. Other recent studies suggest that no alcohol at all is the ideal for both men and women.\n\nCOFFEE\nGOOD: Coffee contains caffeine, which is a stimulant drug, and millions of people drink coffee every day. It improves short-term memory, makes your muscles stronger, keeps you awake, and tastes delicious.\nBAD: It’s sometimes connected with heart disease, arthritis, and high blood pressure.\n\nJUICE\nGOOD: For people who don’t like fruit and prefer to have it as juice.\nBAD: For teeth, especially orange juice which contains a lot of acid. Juice also has a lot of natural sugar, so drinking a lot can add to weight problems.\n\nMILK\nGOOD: For very young children, who need the calcium for their bones.\nBAD: For adults and older children. They don’t need the extra calcium, and high fat foods like full-fat milk, butter, and cheese can cause heart disease.\n\nTEA\nGOOD: Black tea cuts the risk of heart disease. It also reduces stress, makes you more alert, and may help the immune system and prevent diabetes.\nBAD: If you add milk, the good effects of tea disappear. Sugar makes it worse.\n\nWATER\nGOOD: We can’t live without it, but how much is enough? Typical advice is that you need 2.5 litres a day, but that includes liquid you get from other drinks and from food.\nBAD: Too much water can cause problems, e.g. low salt levels. A few people have actually died from drinking too much water.",
+          "instruction": "Read the article. Match the highlighted medical words to the pictures",
+          "note": "SB 2b; картинки 1–6 (SB p.42, tools/images.py) у пунктов, слова из статьи в words. Ответы подтверждены аудио 5.16",
+          "words": [
+            "blood",
+            "bones",
+            "heart",
+            "liver",
+            "muscles",
+            "teeth"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "liver"
+                ]
+              ],
+              "image": "5c_sb2b_1",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "heart"
+                ]
+              ],
+              "image": "5c_sb2b_2",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "teeth"
+                ]
+              ],
+              "image": "5c_sb2b_3",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "muscles"
+                ]
+              ],
+              "image": "5c_sb2b_4",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "bones"
+                ]
+              ],
+              "image": "5c_sb2b_5",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "blood"
+                ]
+              ],
+              "image": "5c_sb2b_6",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "5C-sb2c",
+          "origin": "SB",
+          "audio": "5.16",
+          "instruction": "Listen and check. Practise saying the words",
+          "note": "SB 2c → Speak по словам 5.16 (клипы по участкам звука)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "liver",
+              "source": "CONFIRMED",
+              "clip": [
+                0.2,
+                1.31
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "heart",
+              "source": "CONFIRMED",
+              "clip": [
+                3.01,
+                4.28
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "teeth",
+              "source": "CONFIRMED",
+              "clip": [
+                6.01,
+                7.05
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "muscles",
+              "source": "CONFIRMED",
+              "clip": [
+                8.8,
+                10.34
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "bones",
+              "source": "CONFIRMED",
+              "clip": [
+                12.1,
+                13.41
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "blood",
+              "source": "CONFIRMED",
+              "clip": [
+                15.09,
+                16.2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-sb2c2",
+          "origin": "SB",
+          "instruction": "What do you think heart attack and blood pressure mean? Complete the sentences",
+          "note": "SB 2c, вопрос о значении → Blank по определениям. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "When your heart suddenly stops working properly, you have a heart {}.",
+              "gaps": [
+                [
+                  "attack"
+                ]
+              ],
+              "explain": "a heart attack – a serious medical problem with the heart.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The doctor checked my blood {}. It was a bit high.",
+              "gaps": [
+                [
+                  "pressure"
+                ]
+              ],
+              "explain": "blood pressure = how strongly your blood moves around your body.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5C-wb1a",
+          "origin": "WB",
+          "instruction": "Order the letters to make words that complete the sentences",
+          "note": "WB 1a; 1 teeth — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Exercise helps to keep your {} strong.",
+              "gaps": [
+                [
+                  "muscles"
+                ]
+              ],
+              "hint": "(esslcum)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Doing exercise every day can cut the risk of a {} attack.",
+              "gaps": [
+                [
+                  "heart"
+                ]
+              ],
+              "hint": "(earth)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Drinking a lot of alcohol is bad for your {}.",
+              "gaps": [
+                [
+                  "liver"
+                ]
+              ],
+              "hint": "(viler)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "You can lose a lot of {} if you cut your hand badly.",
+              "gaps": [
+                [
+                  "blood"
+                ]
+              ],
+              "hint": "(dobol)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "If you have a skiing accident, you can easily break a {}.",
+              "gaps": [
+                [
+                  "bone"
+                ]
+              ],
+              "hint": "(nobe)"
+            }
+          ]
+        },
+        {
+          "id": "5C-wb1b",
+          "origin": "WB",
+          "context": "FASCINATING FACTS",
+          "instruction": "Complete the sentences with a word from a. Use plurals where necessary",
+          "note": "WB 1b; инфографика с телом — не нужна, предложения самодостаточны",
+          "words": [
+            "blood",
+            "bone",
+            "heart",
+            "liver",
+            "muscle",
+            "tooth"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Most parts of your body can repair themselves, but your {} can’t.",
+              "gaps": [
+                [
+                  "teeth"
+                ]
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Your {} cleans your body of alcohol and caffeine.",
+              "gaps": [
+                [
+                  "liver"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "The {} in your legs are very strong.",
+              "gaps": [
+                [
+                  "bones"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "You use 17 {} in your face when you smile.",
+              "gaps": [
+                [
+                  "muscles"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "In an average lifetime, your {} beats 2.5 billion times.",
+              "gaps": [
+                [
+                  "heart"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "There are about 5 litres of {} in an adult body.",
+              "gaps": [
+                [
+                  "blood"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Write the part of the body.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "It pumps blood around your body: your {}",
+              "gaps": [
+                [
+                  "heart"
+                ]
+              ],
+              "explain": "heart /hɑːt/.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "You use them to eat and you clean them twice a day: your {}",
+              "gaps": [
+                [
+                  "teeth"
+                ]
+              ],
+              "explain": "one tooth, two teeth.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "They make your body move and they get bigger at the gym: your {}",
+              "gaps": [
+                [
+                  "muscles"
+                ]
+              ],
+              "explain": "muscle /ˈmʌsl/ – the c is silent.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "It’s red and it moves around your body: {}",
+              "gaps": [
+                [
+                  "blood"
+                ]
+              ],
+              "explain": "blood /blʌd/ – oo sounds like up.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "They are hard and white, and a skeleton is made of them: {}",
+              "gaps": [
+                [
+                  "bones"
+                ]
+              ],
+              "explain": "bone /bəʊn/.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "It cleans your body of alcohol: your {}",
+              "gaps": [
+                [
+                  "liver"
+                ]
+              ],
+              "explain": "Alcohol is bad for the liver.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5C-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with a word from the lesson.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "My grandfather had a heart {} last year, but he’s fine now.",
+              "gaps": [
+                [
+                  "attack"
+                ]
+              ],
+              "explain": "heart attack.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Too much salt can give you high blood {}.",
+              "gaps": [
+                [
+                  "pressure"
+                ]
+              ],
+              "explain": "high / low blood pressure.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Children need calcium for strong {}.",
+              "gaps": [
+                [
+                  "bones",
+                  "teeth"
+                ]
+              ],
+              "explain": "Milk is good for bones.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Don’t eat so many sweets – they’re bad for your {}.",
+              "gaps": [
+                [
+                  "teeth"
+                ]
+              ],
+              "explain": "Sugar is bad for your teeth.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Coffee contains {}, so it keeps you awake.",
+              "gaps": [
+                [
+                  "caffeine"
+                ]
+              ],
+              "explain": "caffeine /ˈkæfiːn/ is a stimulant.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I fell off my bike and broke a {} in my arm.",
+              "gaps": [
+                [
+                  "bone"
+                ]
+              ],
+              "explain": "break a bone.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5C-vocabulary-x3",
+          "origin": "GENERATED",
+          "instruction": "Write the container.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "a {} of milk (made of paper)",
+              "gaps": [
+                [
+                  "carton"
+                ]
+              ],
+              "explain": "a carton of milk / juice.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "a {} of Coke (made of metal)",
+              "gaps": [
+                [
+                  "can"
+                ]
+              ],
+              "explain": "a can of Coke / beer.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "a {} of water (made of plastic or glass)",
+              "gaps": [
+                [
+                  "bottle"
+                ]
+              ],
+              "explain": "a bottle of water / wine.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "a {} of coffee (it has a handle)",
+              "gaps": [
+                [
+                  "cup",
+                  "mug"
+                ]
+              ],
+              "explain": "a cup of tea / coffee.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "a {} of orange juice (made of glass, no handle)",
+              "gaps": [
+                [
+                  "glass"
+                ]
+              ],
+              "explain": "a glass of juice / wine.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5C-grammar",
+      "kind": "GRAMMAR",
+      "title": "quantifiers, too, (not) enough",
+      "reference": [
+        {
+          "type": "table",
+          "title": "too much, too many, too",
+          "headers": [
+            "Example",
+            "Rule"
+          ],
+          "rows": [
+            [
+              "I’m very stressed today. I have too much work. My boss talks too much.",
+              "too much + uncountable noun, or after a verb"
+            ],
+            [
+              "My diet is unhealthy. I eat too many cakes and sweets.",
+              "too many + countable noun"
+            ],
+            [
+              "I don’t want to go out tonight. I’m too tired.",
+              "too + adjective (NOT I’m too much tired)"
+            ]
+          ],
+          "audio": "5.17"
+        },
+        {
+          "type": "table",
+          "title": "(not) enough",
+          "headers": [
+            "Example",
+            "Rule"
+          ],
+          "rows": [
+            [
+              "Do you eat enough vegetables? I don’t drink enough water.",
+              "enough before a noun = ‘all that is necessary’"
+            ],
+            [
+              "Jane doesn’t sleep enough. She’s always tired.",
+              "enough after a verb with no object"
+            ],
+            [
+              "Our fridge isn’t big enough for a family of five. I don’t go to bed early enough during the week.",
+              "enough after an adjective or adverb"
+            ]
+          ],
+          "audio": "5.18"
+        },
+        {
+          "type": "table",
+          "title": "Quantifiers",
+          "headers": [
+            "",
+            "Uncountable (water, milk)",
+            "Countable (cups, cans)"
+          ],
+          "rows": [
+            [
+              "large quantity",
+              "a lot of milk; not much water",
+              "a lot of cans; not many cups"
+            ],
+            [
+              "small quantity",
+              "a little wine",
+              "a few cans"
+            ],
+            [
+              "questions",
+              "How much water…?",
+              "How many cups…?"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "title": "a lot / a lot of",
+          "text": "Use a lot of before a noun: I drink a lot of milk. Use a lot without a noun: My parents don’t drink a lot."
+        },
+        {
+          "type": "mistake",
+          "wrong": "This suitcase isn’t enough big.",
+          "right": "This suitcase isn’t big enough.",
+          "why": "enough goes after an adjective."
+        },
+        {
+          "type": "mistake",
+          "wrong": "I’m too much busy.",
+          "right": "I’m too busy.",
+          "why": "too + adjective."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "5C-sb3a",
+          "origin": "SB",
+          "instruction": "Are the words countable or uncountable?",
+          "note": "SB 3a → Sort по двум колонкам. MODEL",
+          "columns": [
+            "countable",
+            "uncountable"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "sort",
+              "word": "juice",
+              "column": 2,
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "sort",
+              "word": "bottle",
+              "column": 1,
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "sort",
+              "word": "can",
+              "column": 1,
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "sort",
+              "word": "milk",
+              "column": 2,
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "sort",
+              "word": "carton",
+              "column": 1,
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "sort",
+              "word": "water",
+              "column": 2,
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "sort",
+              "word": "wine",
+              "column": 2,
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "sort",
+              "word": "cup",
+              "column": 1,
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "sort",
+              "word": "glass",
+              "column": 1,
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5C-sb3b",
+          "origin": "SB",
+          "instruction": "Choose the correct word or phrase for each sentence",
+          "note": "SB 3b Circle → Blank с вариантами в hint; «say why» — в explain. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "How {} cups of coffee do you drink a day?",
+              "gaps": [
+                [
+                  "many"
+                ]
+              ],
+              "hint": "(much / many)",
+              "explain": "cups are countable: many.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I don’t drink {} water.",
+              "gaps": [
+                [
+                  "much"
+                ]
+              ],
+              "hint": "(much / many)",
+              "explain": "water is uncountable: much.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I drink {} milk.",
+              "gaps": [
+                [
+                  "a lot of"
+                ]
+              ],
+              "hint": "(a lot of / many)",
+              "explain": "many is not common in positive sentences, and milk is uncountable.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Drinking {} red wine can be good for you.",
+              "gaps": [
+                [
+                  "a little"
+                ]
+              ],
+              "hint": "(a few / a little)",
+              "explain": "wine is uncountable: a little.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I only have {} cans of Coke a week.",
+              "gaps": [
+                [
+                  "a few"
+                ]
+              ],
+              "hint": "(a few / a little)",
+              "explain": "cans are countable: a few.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "My parents don’t drink {}.",
+              "gaps": [
+                [
+                  "a lot"
+                ]
+              ],
+              "hint": "(a lot / a lot of)",
+              "explain": "No noun after it: a lot.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5C-sb3c",
+          "origin": "SB",
+          "context": "ARE THEY REALLY GOOD AND BAD?\nHow do we know what to believe when doctors give us advice about what to drink and what not to drink? Every week, it seems, a scientific study contradicts last week’s research. Jeremy Laurance reviews the latest medical research into drinks.\n\nALCOHOL\nGOOD: For the heart, in small amounts, according to some studies. Two small glasses of red wine a day can cut the risk of heart attack by 30%, especially for middle-aged men.\nBAD: For the liver. Liver disease is increasing. Some studies also say that one drink a day increases a woman’s risk of all types of cancer by 6%. Other recent studies suggest that no alcohol at all is the ideal for both men and women.\n\nCOFFEE\nGOOD: Coffee contains caffeine, which is a stimulant drug, and millions of people drink coffee every day. It improves short-term memory, makes your muscles stronger, keeps you awake, and tastes delicious.\nBAD: It’s sometimes connected with heart disease, arthritis, and high blood pressure.\n\nJUICE\nGOOD: For people who don’t like fruit and prefer to have it as juice.\nBAD: For teeth, especially orange juice which contains a lot of acid. Juice also has a lot of natural sugar, so drinking a lot can add to weight problems.\n\nMILK\nGOOD: For very young children, who need the calcium for their bones.\nBAD: For adults and older children. They don’t need the extra calcium, and high fat foods like full-fat milk, butter, and cheese can cause heart disease.\n\nTEA\nGOOD: Black tea cuts the risk of heart disease. It also reduces stress, makes you more alert, and may help the immune system and prevent diabetes.\nBAD: If you add milk, the good effects of tea disappear. Sugar makes it worse.\n\nWATER\nGOOD: We can’t live without it, but how much is enough? Typical advice is that you need 2.5 litres a day, but that includes liquid you get from other drinks and from food.\nBAD: Too much water can cause problems, e.g. low salt levels. A few people have actually died from drinking too much water.",
+          "instruction": "Look at the paragraphs about WATER in the article again. Find a word or phrase which means…",
+          "note": "SB 3c. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "the right amount → {}",
+              "gaps": [
+                [
+                  "enough"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "more than you need → {}",
+              "gaps": [
+                [
+                  "too much"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5C-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Choose the correct form",
+          "note": "GB 5C a Circle → Blank с вариантами в hint; пример How much coffee — не перенесён. Ключа к GB нет — MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I eat {} chocolate.",
+              "gaps": [
+                [
+                  "too much"
+                ]
+              ],
+              "hint": "(too / too much)",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I eat {} crisps.",
+              "gaps": [
+                [
+                  "too many"
+                ]
+              ],
+              "hint": "(too much / too many)",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Do you drink {}?",
+              "gaps": [
+                [
+                  "enough water"
+                ]
+              ],
+              "hint": "(enough water / water enough)",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I can’t come. I’m {}.",
+              "gaps": [
+                [
+                  "too busy"
+                ]
+              ],
+              "hint": "(too busy / too much busy)",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "This suitcase isn’t {}.",
+              "gaps": [
+                [
+                  "big enough"
+                ]
+              ],
+              "hint": "(enough big / big enough)",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I worry {}.",
+              "gaps": [
+                [
+                  "too much"
+                ]
+              ],
+              "hint": "(too much / too many)",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "You’re always at home! You don’t {}.",
+              "gaps": [
+                [
+                  "go out enough"
+                ]
+              ],
+              "hint": "(enough go out / go out enough)",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I don’t eat {}.",
+              "gaps": [
+                [
+                  "enough vegetables"
+                ]
+              ],
+              "hint": "(enough vegetables / vegetables enough)",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5C-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the sentences with too, too much, too many, or enough",
+          "note": "GB 5C b; пример You eat too much red meat — не перенесён. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I’m not very fit. I don’t do {} exercise.",
+              "gaps": [
+                [
+                  "enough"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I can’t walk to school. It’s {} far.",
+              "gaps": [
+                [
+                  "too"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "There are {} cars on the roads today.",
+              "gaps": [
+                [
+                  "too many"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I spend {} time on the computer – it gives me headaches.",
+              "gaps": [
+                [
+                  "too much"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I don’t read {} – only five or six books a year.",
+              "gaps": [
+                [
+                  "enough"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I didn’t buy the coat because it was {} expensive.",
+              "gaps": [
+                [
+                  "too"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "There were {} people at the hospital, so it was impossible to see a doctor.",
+              "gaps": [
+                [
+                  "too many"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I don’t like watching films on my phone because the screen isn’t big {}.",
+              "gaps": [
+                [
+                  "enough"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5C-wb2a",
+          "origin": "WB",
+          "instruction": "Complete the sentences with a few, a little, much, many, or a lot of",
+          "note": "WB 2a; 1 a lot of — пример",
+          "words": [
+            "a few (x2)",
+            "a little (x2)",
+            "much",
+            "many",
+            "a lot of"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Excuse me! Can I ask you {} questions about your diet?",
+              "gaps": [
+                [
+                  "a few"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "How {} pieces of fruit do you eat a day?",
+              "gaps": [
+                [
+                  "many"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "How {} sugar do you have in your coffee?",
+              "gaps": [
+                [
+                  "much"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Could I have {} more tea, please?",
+              "gaps": [
+                [
+                  "a little"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I watch {} TV – usually four or five hours a day.",
+              "gaps": [
+                [
+                  "a lot of"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "{} sunshine is good for you, but no more than 15 minutes a day.",
+              "gaps": [
+                [
+                  "A little"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I only drink {} cups of coffee a day – maybe two or three.",
+              "gaps": [
+                [
+                  "a few"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-wb2b",
+          "origin": "WB",
+          "instruction": "Match 1–6 to a–f to make sentences. Write the ending",
+          "note": "WB 2b; 1 → c (too much sugar) — пример. Принимаем и окончание, и букву",
+          "words": [
+            "a too tired.",
+            "b early enough.",
+            "d too much coffee late at night.",
+            "e enough exercise.",
+            "f too many people and not enough machines."
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "You’re probably having problems sleeping because you drink {}",
+              "gaps": [
+                [
+                  "too much coffee late at night.",
+                  "d"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "If you want to lose weight, make sure you do {}",
+              "gaps": [
+                [
+                  "enough exercise.",
+                  "e"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I don’t like the gym because there are {}",
+              "gaps": [
+                [
+                  "too many people and not enough machines.",
+                  "f"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I know I need to do more exercise, but when I finish work, I’m just {}",
+              "gaps": [
+                [
+                  "too tired.",
+                  "a"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Jason’s dad had a heart attack, but luckily they got to the hospital {}",
+              "gaps": [
+                [
+                  "early enough.",
+                  "b"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-wb2c",
+          "origin": "WB",
+          "instruction": "Rewrite the sentences with the words in brackets",
+          "note": "WB 2c; 1 You don’t do enough exercise — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "You need to drink less beer. (too much)",
+              "answers": [
+                "You drink too much beer."
+              ],
+              "hint": "(You drink…)"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "You go to bed too late. (early enough)",
+              "answers": [
+                "You don’t go to bed early enough.",
+                "You do not go to bed early enough."
+              ],
+              "hint": "(You don’t…)"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "Are you getting all the sleep that you need? (enough)",
+              "answers": [
+                "Are you getting enough sleep?"
+              ],
+              "hint": "(Are you getting…)"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "You need to stop eating all those biscuits – they’re bad for your teeth. (too many)",
+              "answers": [
+                "You eat too many biscuits."
+              ],
+              "hint": "(You eat…)"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "I think my diet includes the right amount of fruit and vegetables. (enough)",
+              "answers": [
+                "I think I eat enough fruit and vegetables."
+              ],
+              "hint": "(I think I eat…)"
+            }
+          ]
+        },
+        {
+          "id": "5C-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete with much, many, a lot of, a few, or a little.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "How {} brothers and sisters have you got?",
+              "gaps": [
+                [
+                  "many"
+                ]
+              ],
+              "explain": "brothers – countable: How many…?",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "We haven’t got {} time. Hurry up!",
+              "gaps": [
+                [
+                  "much"
+                ]
+              ],
+              "explain": "time – uncountable, negative: not much.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Can I have {} milk in my tea, please? Just a bit.",
+              "gaps": [
+                [
+                  "a little"
+                ]
+              ],
+              "explain": "milk – uncountable, small quantity: a little.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I’ve got {} friends in London – maybe three or four.",
+              "gaps": [
+                [
+                  "a few"
+                ]
+              ],
+              "explain": "friends – countable, small quantity: a few.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "She drinks {} coffee – about six cups a day.",
+              "gaps": [
+                [
+                  "a lot of"
+                ]
+              ],
+              "explain": "Positive sentence, large quantity: a lot of.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "How {} money did you spend?",
+              "gaps": [
+                [
+                  "much"
+                ]
+              ],
+              "explain": "money – uncountable: How much…?",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "There weren’t {} people at the party – only ten.",
+              "gaps": [
+                [
+                  "many"
+                ]
+              ],
+              "explain": "people – countable, negative: not many.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "My brother doesn’t eat {} – he’s very thin.",
+              "gaps": [
+                [
+                  "a lot",
+                  "much"
+                ]
+              ],
+              "explain": "No noun after it: a lot (or much in negatives).",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5C-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete with too, too much, too many, or enough.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I can’t sleep. It’s {} hot in here.",
+              "gaps": [
+                [
+                  "too"
+                ]
+              ],
+              "explain": "too + adjective.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "You watch {} TV. Go outside!",
+              "gaps": [
+                [
+                  "too much"
+                ]
+              ],
+              "explain": "TV – uncountable: too much.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "He isn’t old {} to drive.",
+              "gaps": [
+                [
+                  "enough"
+                ]
+              ],
+              "explain": "adjective + enough.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "There are {} tourists in the city centre in summer.",
+              "gaps": [
+                [
+                  "too many"
+                ]
+              ],
+              "explain": "tourists – countable: too many.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "We haven’t got {} chairs for everybody.",
+              "gaps": [
+                [
+                  "enough"
+                ]
+              ],
+              "explain": "enough + noun.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Don’t eat {} – you’ll feel ill.",
+              "gaps": [
+                [
+                  "too much"
+                ]
+              ],
+              "explain": "after a verb: too much.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "I didn’t finish the exam. I didn’t write fast {}.",
+              "gaps": [
+                [
+                  "enough"
+                ]
+              ],
+              "explain": "adverb + enough.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "This coffee is {} strong. Can I have some milk?",
+              "gaps": [
+                [
+                  "too"
+                ]
+              ],
+              "explain": "too + adjective.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5C-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "I’m too much tired to go out.",
+              "answers": [
+                "I’m too tired to go out.",
+                "I am too tired to go out."
+              ],
+              "explain": "too + adjective, not too much.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "This room isn’t enough big for us.",
+              "answers": [
+                "This room isn’t big enough for us.",
+                "This room is not big enough for us."
+              ],
+              "explain": "adjective + enough.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "How many water do you drink?",
+              "answers": [
+                "How much water do you drink?"
+              ],
+              "explain": "water – uncountable: How much.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "I eat too much sweets.",
+              "answers": [
+                "I eat too many sweets."
+              ],
+              "explain": "sweets – countable: too many.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "I drink a lot of.",
+              "answers": [
+                "I drink a lot."
+              ],
+              "explain": "No noun after it: a lot.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "She doesn’t sleep enough hours enough.",
+              "answers": [
+                "She doesn’t sleep enough hours.",
+                "She doesn’t sleep enough."
+              ],
+              "explain": "enough once: before the noun or after the verb.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5C-grammar-x4",
+          "origin": "GENERATED",
+          "instruction": "Rewrite the sentences with the word in brackets.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "The water isn’t warm enough to swim. (too)",
+              "answers": [
+                "The water is too cold to swim.",
+                "The water’s too cold to swim."
+              ],
+              "hint": "(cold)",
+              "explain": "not warm enough = too cold.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "You need to eat less salt. (too much)",
+              "answers": [
+                "You eat too much salt."
+              ],
+              "explain": "too much + uncountable noun.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "He needs to do more exercise. (enough)",
+              "answers": [
+                "He doesn’t do enough exercise.",
+                "He does not do enough exercise."
+              ],
+              "explain": "not + enough + noun.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "The bag is very small – my laptop doesn’t fit. (big enough)",
+              "answers": [
+                "The bag isn’t big enough.",
+                "The bag is not big enough.",
+                "The bag isn’t big enough for my laptop."
+              ],
+              "explain": "not + adjective + enough.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "There are more people here than there are seats. (too many)",
+              "answers": [
+                "There are too many people here.",
+                "There are too many people."
+              ],
+              "explain": "too many + countable noun.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5C-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "/ʌ/",
+      "reference": [
+        {
+          "type": "table",
+          "title": "up /ʌ/",
+          "headers": [
+            "Spelling",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "u (between consonants) – typical",
+              "much, drug, muscles"
+            ],
+            [
+              "o – but also",
+              "none"
+            ],
+            [
+              "ou – but also",
+              "enough"
+            ],
+            [
+              "oo (very rare) – but also",
+              "blood"
+            ]
+          ],
+          "audio": "5.19"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "5C-sb4a",
+          "origin": "SB",
+          "audio": "5.19",
+          "instruction": "Look at the spelling rules for the /ʌ/ sound. Then listen and repeat the words",
+          "note": "SB 4a → Speak по словам 5.19 (клипы по участкам звука)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "up",
+              "source": "CONFIRMED",
+              "clip": [
+                0.0,
+                1.02
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "much",
+              "source": "CONFIRMED",
+              "clip": [
+                2.5,
+                3.4
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "drug",
+              "source": "CONFIRMED",
+              "clip": [
+                4.89,
+                6.14
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "muscles",
+              "source": "CONFIRMED",
+              "clip": [
+                10.35,
+                11.86
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "none",
+              "source": "CONFIRMED",
+              "clip": [
+                13.34,
+                14.62
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "enough",
+              "source": "CONFIRMED",
+              "clip": [
+                16.1,
+                17.44
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "blood",
+              "source": "CONFIRMED",
+              "clip": [
+                18.93,
+                20.04
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-sb4b",
+          "origin": "SB",
+          "audio": "5.20",
+          "instruction": "Listen and write the last word in each sentence",
+          "note": "SB 4b; предложения — по аудио 5.20 (расшифровка), клипы по фразам",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Can you pass me the {}?",
+              "gaps": [
+                [
+                  "butter"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                0.2,
+                1.94
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Do you work or {}?",
+              "gaps": [
+                [
+                  "study"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                4.63,
+                6.84
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Everything’s going to be fine, don’t {}.",
+              "gaps": [
+                [
+                  "worry"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                9.6,
+                12.46
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Your sister’s very {}.",
+              "gaps": [
+                [
+                  "young"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                15.2,
+                17.45
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I don’t have any {}.",
+              "gaps": [
+                [
+                  "money"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                20.19,
+                22.01
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Please can you take out the {}?",
+              "gaps": [
+                [
+                  "rubbish"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                24.72,
+                27.09
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Is today going to be {}?",
+              "gaps": [
+                [
+                  "sunny"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                29.78,
+                31.93
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "The weather’s going to be {}.",
+              "gaps": [
+                [
+                  "lovely"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                34.64,
+                36.91
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Two single rooms please, and one {}.",
+              "gaps": [
+                [
+                  "double"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                39.58,
+                42.84
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "What do you want for {}?",
+              "gaps": [
+                [
+                  "lunch"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                45.55,
+                47.35
+              ]
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "What’s the biggest city in your {}?",
+              "gaps": [
+                [
+                  "country"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                50.08,
+                52.48
+              ]
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "She’s usually serious, but she can be very {}.",
+              "gaps": [
+                [
+                  "funny"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                55.17,
+                59.02
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-sb4c",
+          "origin": "SB",
+          "audio": "5.20",
+          "instruction": "Listen again and repeat the sentences",
+          "note": "SB 4c → Speak по фразам 5.20",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "Can you pass me the butter?",
+              "source": "CONFIRMED",
+              "clip": [
+                0.2,
+                1.94
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "Do you work or study?",
+              "source": "CONFIRMED",
+              "clip": [
+                4.63,
+                6.84
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "Everything’s going to be fine, don’t worry.",
+              "source": "CONFIRMED",
+              "clip": [
+                9.6,
+                12.46
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "Your sister’s very young.",
+              "source": "CONFIRMED",
+              "clip": [
+                15.2,
+                17.45
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "I don’t have any money.",
+              "source": "CONFIRMED",
+              "clip": [
+                20.19,
+                22.01
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "Please can you take out the rubbish?",
+              "source": "CONFIRMED",
+              "clip": [
+                24.72,
+                27.09
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "Is today going to be sunny?",
+              "source": "CONFIRMED",
+              "clip": [
+                29.78,
+                31.93
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "The weather’s going to be lovely.",
+              "source": "CONFIRMED",
+              "clip": [
+                34.64,
+                36.91
+              ]
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "Two single rooms please, and one double.",
+              "source": "CONFIRMED",
+              "clip": [
+                39.58,
+                42.84
+              ]
+            },
+            {
+              "n": 10,
+              "type": "speak",
+              "text": "What do you want for lunch?",
+              "source": "CONFIRMED",
+              "clip": [
+                45.55,
+                47.35
+              ]
+            },
+            {
+              "n": 11,
+              "type": "speak",
+              "text": "What’s the biggest city in your country?",
+              "source": "CONFIRMED",
+              "clip": [
+                50.08,
+                52.48
+              ]
+            },
+            {
+              "n": 12,
+              "type": "speak",
+              "text": "She’s usually serious, but she can be very funny.",
+              "source": "CONFIRMED",
+              "clip": [
+                55.17,
+                59.02
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-wb3a",
+          "origin": "WB",
+          "instruction": "Write the word that has an /ʌ/ sound",
+          "note": "WB 3a Tick → Blank: пара слов в hint, пишется слово с /ʌ/; 1 cut — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "muscle"
+                ]
+              ],
+              "hint": "(muscle / cute)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "enough"
+                ]
+              ],
+              "hint": "(through / enough)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "blood"
+                ]
+              ],
+              "hint": "(food / blood)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "none"
+                ]
+              ],
+              "hint": "(none / bone)"
+            }
+          ]
+        },
+        {
+          "id": "5C-wb3c",
+          "origin": "WB",
+          "instruction": "Tap the TWO words in each sentence that have an /ʌ/ sound",
+          "note": "WB 3c «Circle the TWO bold letters» → Stress: слова с жирными буквами в […]; 1 — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "stress",
+              "text": "Being in hospital [wasn’t] [much] [fun].",
+              "stressed": [
+                2,
+                3
+              ]
+            },
+            {
+              "n": 3,
+              "type": "stress",
+              "text": "I like to give [blood] every [few] [months].",
+              "stressed": [
+                1,
+                3
+              ]
+            },
+            {
+              "n": 4,
+              "type": "stress",
+              "text": "We all need to [get] [enough] [sun].",
+              "stressed": [
+                2,
+                3
+              ]
+            },
+            {
+              "n": 5,
+              "type": "stress",
+              "text": "I don’t really [do] [much] [running].",
+              "stressed": [
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-wb3d",
+          "origin": "WB",
+          "instruction": "Listen and repeat the sentences",
+          "note": "WB 3b+3d (треки WB 5.4, 5.5 — аудио WB нет): Speak, образец — синтезатор",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "Did it hurt when you cut your thumb?"
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "Being in hospital wasn’t much fun."
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "I like to give blood every few months."
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "We all need to get enough sun."
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "I don’t really do much running."
+            }
+          ]
+        },
+        {
+          "id": "5C-sb4d",
+          "origin": "SB",
+          "instruction": "Ask and answer the questions with a partner. Say why",
+          "note": "SB 4d → Talk по списку «Do you think you…?»",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). Take turns asking ‘Do you think you…?’ questions from this list: drink enough water; do enough sport or exercise; have enough free time; spend too much time online; spend too much time in the sun; spend too much money on things you don’t need; read enough; spend too many hours working or studying; have too many clothes; do too much housework; get too much homework. Ask the student three or four of them, one at a time, and ask why. Answer the student’s questions too, with a reason (e.g. ‘Yes, I think so. I always carry a bottle of mineral water…’).",
+              "goal": "Talk about your habits with too much / too many / enough.",
+              "opener": "Do you think you drink enough water?",
+              "criteria": [
+                "answers with a reason",
+                "uses too much / too many / enough correctly",
+                "asks the partner at least two Do you think you…? questions"
+              ],
+              "steps": [
+                {
+                  "text": "Answer and say why",
+                  "example": "Yes, I think so. I always carry a bottle of mineral water."
+                },
+                {
+                  "text": "Ask your partner a question from the list",
+                  "example": "Do you think you spend too much time online?"
+                },
+                {
+                  "text": "Ask another question",
+                  "example": "Do you think you get too much homework?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5C-skills",
+      "kind": "SKILLS",
+      "title": "Speaking, Listening & Reading",
+      "reference": [
+        {
+          "type": "note",
+          "title": "What should we drink?",
+          "text": "Water should be most of what we drink every day. Drinks with a lot of sugar are the ones we should never drink."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "5C-sb1a",
+          "origin": "SB",
+          "instruction": "Answer the questions in the quiz What do you drink?",
+          "note": "SB 1a → Talk: ИИ задаёт вопросы анкеты",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). Ask the student the questions from the quiz ‘What do you drink?’, one at a time: What did you have to drink yesterday? (at what time, how much) What do you usually drink for breakfast, mid-morning, mid-afternoon, with lunch and dinner, before you go to bed, when you go out for a drink with friends, when you are celebrating something? Is there anything you never drink? Why? Do you ever drink out of a can or a bottle? What? React to each answer and say what you drink too.",
+              "goal": "Talk about what you drink.",
+              "opener": "What did you have to drink yesterday?",
+              "criteria": [
+                "says what, when and how much they drank yesterday",
+                "describes what they usually drink at different times of the day",
+                "says if there is anything they never drink and why"
+              ],
+              "steps": [
+                {
+                  "text": "Say what you drank yesterday, at what time and how much",
+                  "example": "I had two cups of coffee in the morning and a bottle of water at lunch."
+                },
+                {
+                  "text": "Say what you usually drink at different times",
+                  "example": "I usually drink tea for breakfast and water with lunch."
+                },
+                {
+                  "text": "Say what you never drink and why",
+                  "example": "I never drink energy drinks – they have too much sugar."
+                },
+                {
+                  "text": "Say if you drink out of cans or bottles",
+                  "example": "Yes, I often drink water out of a bottle."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-sb1b",
+          "origin": "SB",
+          "audio": "5.15",
+          "images": [
+            "5c_sb1b_jug"
+          ],
+          "instruction": "Listen to a nutritionist talking about what kind of liquids we should drink. Write the drinks in the correct place on the jug",
+          "note": "SB 1b; кувшин (SB p.42) картинкой, номера слоёв оставлены. Порядок — по аудио 5.15 и цветам слоёв; 4–6 — MODEL",
+          "words": [
+            "alcohol",
+            "diet coke",
+            "fruit juice",
+            "low-fat milk",
+            "tea and coffee",
+            "water"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "1 → {}",
+              "gaps": [
+                [
+                  "water"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "2 → {}",
+              "gaps": [
+                [
+                  "tea and coffee"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "3 → {}",
+              "gaps": [
+                [
+                  "low-fat milk"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "4 → {}",
+              "gaps": [
+                [
+                  "alcohol"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "5 → {}",
+              "gaps": [
+                [
+                  "diet coke",
+                  "diet cola"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "6 → {}",
+              "gaps": [
+                [
+                  "fruit juice"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "What kind of drinks should we never drink? Drinks with a lot of {}.",
+              "gaps": [
+                [
+                  "sugar"
+                ]
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "5C-sb1c",
+          "origin": "SB",
+          "instruction": "Do you agree with what the nutritionist says? How similar is her advice to what you drink every day?",
+          "note": "SB 1c → Talk",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You both listened to a nutritionist. Her advice: most of what we drink should be water; then tea and coffee, then low-fat milk; only a little alcohol, diet drinks and fruit juice; and we should never drink drinks with a lot of sugar. Ask the student if they agree and how similar the advice is to what they drink every day. Ask one follow-up question.",
+              "goal": "Compare the nutritionist’s advice with what you drink.",
+              "opener": "So, do you agree with the nutritionist?",
+              "criteria": [
+                "says if they agree or not and why",
+                "compares the advice with what they drink every day"
+              ],
+              "steps": [
+                {
+                  "text": "Say if you agree",
+                  "example": "Yes, I agree. Water is the most important drink."
+                },
+                {
+                  "text": "Compare it with what you drink",
+                  "example": "But I drink too much coffee and not enough water."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-sb2a",
+          "origin": "SB",
+          "instruction": "Is there anything you drink that some people say is good for you and other people say is bad?",
+          "note": "SB 2a → Talk",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). Ask the student if there is anything they drink that some people say is good for you and other people say is bad (e.g. coffee, red wine, milk, juice). Ask what people say and what they think.",
+              "goal": "Talk about a drink that is good and bad for you.",
+              "opener": "Is there anything you drink that some people say is good for you and other people say is bad?",
+              "criteria": [
+                "names a drink",
+                "says why some people think it is good and others bad"
+              ],
+              "steps": [
+                {
+                  "text": "Name a drink",
+                  "example": "Yes, coffee."
+                },
+                {
+                  "text": "Say what people say about it",
+                  "example": "Some people say it’s good for your memory, but others say it’s bad for your heart."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-sb2d",
+          "origin": "SB",
+          "context": "ARE THEY REALLY GOOD AND BAD?\nHow do we know what to believe when doctors give us advice about what to drink and what not to drink? Every week, it seems, a scientific study contradicts last week’s research. Jeremy Laurance reviews the latest medical research into drinks.\n\nALCOHOL\nGOOD: For the heart, in small amounts, according to some studies. Two small glasses of red wine a day can cut the risk of heart attack by 30%, especially for middle-aged men.\nBAD: For the liver. Liver disease is increasing. Some studies also say that one drink a day increases a woman’s risk of all types of cancer by 6%. Other recent studies suggest that no alcohol at all is the ideal for both men and women.\n\nCOFFEE\nGOOD: Coffee contains caffeine, which is a stimulant drug, and millions of people drink coffee every day. It improves short-term memory, makes your muscles stronger, keeps you awake, and tastes delicious.\nBAD: It’s sometimes connected with heart disease, arthritis, and high blood pressure.\n\nJUICE\nGOOD: For people who don’t like fruit and prefer to have it as juice.\nBAD: For teeth, especially orange juice which contains a lot of acid. Juice also has a lot of natural sugar, so drinking a lot can add to weight problems.\n\nMILK\nGOOD: For very young children, who need the calcium for their bones.\nBAD: For adults and older children. They don’t need the extra calcium, and high fat foods like full-fat milk, butter, and cheese can cause heart disease.\n\nTEA\nGOOD: Black tea cuts the risk of heart disease. It also reduces stress, makes you more alert, and may help the immune system and prevent diabetes.\nBAD: If you add milk, the good effects of tea disappear. Sugar makes it worse.\n\nWATER\nGOOD: We can’t live without it, but how much is enough? Typical advice is that you need 2.5 litres a day, but that includes liquid you get from other drinks and from food.\nBAD: Too much water can cause problems, e.g. low salt levels. A few people have actually died from drinking too much water.",
+          "instruction": "Read about each drink again. Which drink…?",
+          "note": "SB 2d «decide which drinks have more advantages» → детальные вопросы по статье (Blank) + мнение в sb2e (Talk). MODEL",
+          "words": [
+            "alcohol",
+            "coffee",
+            "juice",
+            "milk",
+            "tea",
+            "water"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "…can cut the risk of heart attack by 30% in small amounts? {}",
+              "gaps": [
+                [
+                  "alcohol",
+                  "red wine"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "…improves short-term memory and keeps you awake? {}",
+              "gaps": [
+                [
+                  "coffee"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "…contains a lot of acid, which is bad for your teeth? {}",
+              "gaps": [
+                [
+                  "juice",
+                  "orange juice"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "…is good for very young children because of the calcium? {}",
+              "gaps": [
+                [
+                  "milk"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "…loses its good effects if you add milk? {}",
+              "gaps": [
+                [
+                  "tea",
+                  "black tea"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "…can cause low salt levels if you drink too much? {}",
+              "gaps": [
+                [
+                  "water"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5C-sb2e",
+          "origin": "SB",
+          "instruction": "Which drinks have more advantages than disadvantages? Do you agree with the information in the article?",
+          "note": "SB 2d (в парах) + 2e → Talk",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You both read the article ‘Are they really good and bad?’ about alcohol, coffee, juice, milk, tea and water. Ask the student which drinks they think have more advantages than disadvantages, and which have more disadvantages. Then ask if they agree with the article and if they have read or heard anything recently which contradicts it.",
+              "goal": "Decide which drinks are good or bad for you.",
+              "opener": "Which drinks do you think have more advantages than disadvantages?",
+              "criteria": [
+                "names drinks with more advantages and with more disadvantages",
+                "gives reasons from the article",
+                "says if they agree with the article"
+              ],
+              "steps": [
+                {
+                  "text": "Say which drinks have more advantages",
+                  "example": "I think tea and water have more advantages."
+                },
+                {
+                  "text": "Say which have more disadvantages",
+                  "example": "Juice has more disadvantages because it has a lot of sugar."
+                },
+                {
+                  "text": "Say if you agree with the article",
+                  "example": "I don’t agree about milk. I think it’s good for adults too."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5C-practical",
+      "kind": "PRACTICAL_ENGLISH",
+      "title": "Episode 3 · The wrong shoes",
+      "note": "SB Practical English Episode 3 (p.44–45, PDF 45–46) + WB Practical English Episode 3 (WB p.38). В книге — после File 5, поэтому в конце 5C. Скриптов PE в SB нет — ответы по самим роликам (расшифровка).",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Making suggestions",
+          "headers": [
+            "Suggestion",
+            "Response"
+          ],
+          "rows": [
+            [
+              "Why don’t you get a bike?",
+              "That’s a good idea, but I’m only here for a month."
+            ],
+            [
+              "Why don’t you come and play basketball?",
+              "That’s a great idea!"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "British and American English",
+          "headers": [
+            "British",
+            "American"
+          ],
+          "rows": [
+            [
+              "trainers",
+              "sneakers"
+            ],
+            [
+              "shop",
+              "store"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Prices",
+          "text": "£25.99 = twenty-five pounds ninety-nine; 75p = seventy-five pence (p); $45 = forty-five dollars; 15c = fifteen cents; €12.50 = twelve euros fifty."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "5C-pe1a",
+          "origin": "SB",
+          "video": "ep3_rob_has_a_problem",
+          "instruction": "Watch and answer the questions",
+          "note": "SB PE3 1a (5.21); свободные ответы переделаны в пропуски по тексту ролика. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "What’s Rob’s problem? He’s eating too {}.",
+              "gaps": [
+                [
+                  "much"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Why? He eats out all the time and the portions in American restaurants are {}.",
+              "gaps": [
+                [
+                  "enormous",
+                  "huge",
+                  "very big"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "What does he usually do to keep fit? He {}.",
+              "gaps": [
+                [
+                  "cycles",
+                  "rides a bike",
+                  "goes cycling"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Why doesn’t he want to get a bike in New York? He’s only there for another {} weeks.",
+              "gaps": [
+                [
+                  "three",
+                  "3"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "What does Holly do to keep fit? She goes {} before and after work.",
+              "gaps": [
+                [
+                  "running"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Why doesn’t Rob want to do the same? Running’s so {}.",
+              "gaps": [
+                [
+                  "boring"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "What does Holly suggest? Play {} with her and her friends.",
+              "gaps": [
+                [
+                  "basketball"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "What does Rob need to buy? Some {}.",
+              "gaps": [
+                [
+                  "trainers",
+                  "sneakers"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5C-pe1b",
+          "origin": "SB",
+          "video": "ep3_making_suggestions",
+          "instruction": "Watch and repeat the phrases. Copy the rhythm and intonation",
+          "note": "SB PE3 1b (5.22) → Speak по фразам из рамки Making suggestions",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "Why don’t you get a bike?",
+              "source": "CONFIRMED",
+              "clip": [
+                7.5,
+                10.1
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "That’s a good idea, but I’m only here for a month.",
+              "source": "CONFIRMED",
+              "clip": [
+                18.64,
+                23.52
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "Why don’t you come and play basketball?",
+              "source": "CONFIRMED",
+              "clip": [
+                30.01,
+                33.19
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "That’s a great idea!",
+              "source": "CONFIRMED",
+              "clip": [
+                41.29,
+                43.85
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-pe1c",
+          "origin": "SB",
+          "instruction": "Role-play: you have problems remembering English vocabulary. Listen to your partner’s suggestions and respond",
+          "note": "SB PE3 1c (A — problem, B — suggestions): ученик — A",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). The student has problems remembering new English vocabulary. Listen to the problem and make two suggestions, one at a time, with Why don’t you…? (e.g. write new words on cards, use an app, read in English). Wait for the student to respond to each suggestion.",
+              "goal": "Tell your partner your problem and respond to their suggestions.",
+              "opener": "You look worried. What’s the matter?",
+              "criteria": [
+                "explains the problem",
+                "responds to each suggestion (That’s a good idea / That’s a great idea / That’s a good idea, but…)"
+              ],
+              "steps": [
+                {
+                  "text": "Explain your problem",
+                  "example": "I can’t remember new English words."
+                },
+                {
+                  "text": "Respond to the first suggestion",
+                  "example": "That’s a good idea, but I don’t have much time."
+                },
+                {
+                  "text": "Respond to the second suggestion",
+                  "example": "That’s a great idea! I’ll try it."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-pe1d",
+          "origin": "SB",
+          "instruction": "Swap roles: your partner is a foreigner in your country and has problems meeting new people. Make two suggestions",
+          "note": "SB PE3 1c (B — problem, A — suggestions): ученик — A",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a foreigner living in the student’s country and you have problems meeting new people. Tell the student your problem. Listen to each suggestion and respond (That’s a good idea / That’s a great idea! / That’s a good idea, but…). After two suggestions, thank the student.",
+              "goal": "Make two suggestions with Why don’t you…?",
+              "opener": "I really like it here, but I don’t know anybody. It’s difficult to meet new people.",
+              "criteria": [
+                "makes two suggestions with Why don’t you + verb",
+                "the suggestions are useful for meeting people"
+              ],
+              "steps": [
+                {
+                  "text": "Make a suggestion",
+                  "example": "Why don’t you join a gym?"
+                },
+                {
+                  "text": "Make another suggestion",
+                  "example": "Why don’t you go to a language exchange?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-pe2a",
+          "origin": "SB",
+          "video": "ep3_vocab_quiz",
+          "instruction": "Shopping quiz. Answer the questions. Then watch and check",
+          "note": "SB PE3 2a–b (5.23); ответы проверены по ролику",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "What four letters do you often see in clothes which tell you the size? {}, {}, {}, {}",
+              "gaps": [
+                [
+                  "S"
+                ],
+                [
+                  "M"
+                ],
+                [
+                  "L"
+                ],
+                [
+                  "XL"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                9.8,
+                19.46
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "What do the letters mean? {}, {}, {}, {}",
+              "gaps": [
+                [
+                  "small"
+                ],
+                [
+                  "medium"
+                ],
+                [
+                  "large"
+                ],
+                [
+                  "extra large",
+                  "extra-large"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                23.5,
+                35.9
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "What do you call the room where you try on clothes? the {}",
+              "gaps": [
+                [
+                  "changing room",
+                  "changing rooms"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                40.98,
+                42.8
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "What do you call the piece of paper you get when you pay for something? a {}",
+              "gaps": [
+                [
+                  "receipt"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                47.43,
+                48.84
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-pe2c",
+          "origin": "SB",
+          "video": "ep3_vocab_quiz",
+          "instruction": "How do you say these prices? Write them in words",
+          "note": "SB PE3 2a вопрос 5 → Blank: цена словами",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "£25.99 → {}",
+              "gaps": [
+                [
+                  "twenty-five pounds ninety-nine",
+                  "twenty-five ninety-nine",
+                  "twenty five pounds ninety nine"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                53.57,
+                56.45
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "75p → {}",
+              "gaps": [
+                [
+                  "seventy-five pence",
+                  "seventy-five p",
+                  "seventy five pence"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                57.54,
+                59.76
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "$45 → {}",
+              "gaps": [
+                [
+                  "forty-five dollars",
+                  "forty five dollars"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                60.75,
+                62.92
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "15c → {}",
+              "gaps": [
+                [
+                  "fifteen cents"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                64.48,
+                66.52
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "€12.50 → {}",
+              "gaps": [
+                [
+                  "twelve euros fifty",
+                  "twelve euros and fifty cents",
+                  "twelve fifty"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                67.6,
+                69.88
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-pe3a",
+          "origin": "SB",
+          "video": "ep3_taking_something_back",
+          "instruction": "Watch Rob buying some trainers and then taking them back",
+          "note": "SB PE3 3a (5.24); вопросы переделаны в пропуски. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "What’s the problem with the trainers? They’re too {}.",
+              "gaps": [
+                [
+                  "small"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "What happens in the end? He takes a {} pair.",
+              "gaps": [
+                [
+                  "different",
+                  "another"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5C-pe3b",
+          "origin": "SB",
+          "video": "ep3_taking_something_back",
+          "instruction": "Watch again. Complete the You hear phrases",
+          "note": "SB PE3 3b; ответы — дословно из ролика",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Just a {}, I’ll go and check.",
+              "gaps": [
+                [
+                  "minute"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                22.87,
+                24.96
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Do you want to {} them on?",
+              "gaps": [
+                [
+                  "try"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                33.2,
+                34.73
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "In New York, there’s a sales tax of {}%.",
+              "gaps": [
+                [
+                  "15"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                44.4,
+                48.33
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Yes, I remember. Is there a {}?",
+              "gaps": [
+                [
+                  "problem"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                64.8,
+                67.67
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "What {} are they?",
+              "gaps": [
+                [
+                  "size"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                70.07,
+                71.41
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I’m {}, but we don’t have these in a nine.",
+              "gaps": [
+                [
+                  "sorry"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                86.63,
+                89.63
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "But we do have these, and they’re the {} price.",
+              "gaps": [
+                [
+                  "same"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                89.61,
+                92.72
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Do you have the {}?",
+              "gaps": [
+                [
+                  "receipt"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                99.31,
+                100.93
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-pe3c",
+          "origin": "SB",
+          "video": "ep3_you_say",
+          "instruction": "Watch and repeat the You say phrases. Copy the rhythm",
+          "note": "SB PE3 3c–d (5.25)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "Yes. Do you have these in an eight?",
+              "source": "CONFIRMED",
+              "clip": [
+                20.1,
+                22.9
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "No, thanks. I’m sure they’ll be fine. How much are they?",
+              "source": "CONFIRMED",
+              "clip": [
+                39.9,
+                48.95
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "Oh, it says $72.99.",
+              "source": "CONFIRMED",
+              "clip": [
+                55.0,
+                59.6
+              ],
+              "answers": [
+                "Oh, it says $72.99.",
+                "Oh, it says 72.99 dollars.",
+                "Oh, it says seventy-two ninety-nine."
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "Oh, OK. Do you take Mastercard?",
+              "source": "CONFIRMED",
+              "clip": [
+                68.2,
+                71.79
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "Yes, I bought these about half an hour ago.",
+              "source": "CONFIRMED",
+              "clip": [
+                86.8,
+                90.52
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "Yes, I’m afraid they’re too small.",
+              "source": "CONFIRMED",
+              "clip": [
+                96.5,
+                99.16
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "They’re an eight. But I take a UK eight.",
+              "source": "CONFIRMED",
+              "clip": [
+                105.7,
+                113.88
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "Do you have a pair?",
+              "source": "CONFIRMED",
+              "clip": [
+                122.3,
+                124.11
+              ]
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "Erm… I’ll take this pair then, please.",
+              "source": "CONFIRMED",
+              "clip": [
+                143.6,
+                146.83
+              ]
+            },
+            {
+              "n": 10,
+              "type": "speak",
+              "text": "Yes, here you are.",
+              "source": "CONFIRMED",
+              "clip": [
+                154.2,
+                156.2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-pe3e",
+          "origin": "SB",
+          "instruction": "Role-play: you are a customer. You bought some jeans yesterday, but they’re too big. Take them back",
+          "note": "SB PE3 3e (A — customer)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a shop assistant in a clothes shop. The student is a customer who bought some jeans yesterday; they are too big. Ask what the problem is and what size they are. You don’t have the jeans in the right size, so offer a different pair at the same price or a refund. Ask for the receipt. Call the customer sir or madam.",
+              "goal": "Take the jeans back to the shop.",
+              "opener": "Can I help you, sir or madam?",
+              "criteria": [
+                "says when they bought the jeans and what the problem is (I’m afraid they’re too big)",
+                "says what size they are and asks for a smaller size",
+                "chooses a different pair or a refund"
+              ],
+              "steps": [
+                {
+                  "text": "Say why you are there",
+                  "example": "Yes, I bought these jeans yesterday."
+                },
+                {
+                  "text": "Explain the problem",
+                  "example": "I’m afraid they’re too big."
+                },
+                {
+                  "text": "Say the size",
+                  "example": "They’re a 34. Do you have a 32?"
+                },
+                {
+                  "text": "Choose a different pair or a refund",
+                  "example": "I’ll take this pair then, please."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-pe3f",
+          "origin": "SB",
+          "instruction": "Swap roles: you are the shop assistant. A customer brings back some boots",
+          "note": "SB PE3 3e (B — assistant)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a customer in a shoe shop. You bought some boots yesterday, but they are too small. You take a size 39 and need a 40. Answer the shop assistant’s questions. If they offer a different pair or a refund, choose one. Give the receipt when asked.",
+              "goal": "Help the customer with the boots.",
+              "opener": "Hello. I bought these boots here yesterday.",
+              "criteria": [
+                "asks if there is a problem and what size",
+                "offers to check (I’ll go and check. Just a minute…)",
+                "offers a different pair or a refund and asks for the receipt"
+              ],
+              "steps": [
+                {
+                  "text": "Ask about the problem",
+                  "example": "Yes, I remember. Is there a problem?"
+                },
+                {
+                  "text": "Ask about the size",
+                  "example": "What size are they?"
+                },
+                {
+                  "text": "Offer to check",
+                  "example": "I’ll go and check. Just a minute…"
+                },
+                {
+                  "text": "Offer a solution and ask for the receipt",
+                  "example": "I’m sorry, we don’t have a 40, but you can have a refund. Do you have the receipt?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-pe4a",
+          "origin": "SB",
+          "video": "ep3_rob_decides_exercise",
+          "instruction": "Watch and choose the correct words",
+          "note": "SB PE3 4a (5.26) Circle → Blank с вариантами в hint; ответы проверены по ролику",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Rob went to {}.",
+              "gaps": [
+                [
+                  "Brooklyn"
+                ]
+              ],
+              "hint": "(Boston / Brooklyn)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "He {} Jenny his new trainers.",
+              "gaps": [
+                [
+                  "shows"
+                ]
+              ],
+              "hint": "(shows / doesn’t show)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Jenny goes running every {} in Central Park.",
+              "gaps": [
+                [
+                  "morning"
+                ]
+              ],
+              "hint": "(morning / evening)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "She wants to go running with him at {}.",
+              "gaps": [
+                [
+                  "6.45"
+                ]
+              ],
+              "hint": "(6.45 / 7.45)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Rob thinks it’s too {}.",
+              "gaps": [
+                [
+                  "early"
+                ]
+              ],
+              "hint": "(early / late)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "They agree to meet at {}.",
+              "gaps": [
+                [
+                  "7.15"
+                ]
+              ],
+              "hint": "(6.45 / 7.15)",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Holly thinks Rob {} a lot of energy.",
+              "gaps": [
+                [
+                  "has"
+                ]
+              ],
+              "hint": "(has / doesn’t have)",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "5C-pe4b",
+          "origin": "SB",
+          "video": "ep3_social_english",
+          "instruction": "Complete the Social English phrases. Then watch and check",
+          "note": "SB PE3 4b–c (5.27); ответы — дословно из ролика",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Rob: Have you {} a good day?",
+              "gaps": [
+                [
+                  "had"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                5.4,
+                7.9
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Jenny: Oh, you {}. Meetings!",
+              "gaps": [
+                [
+                  "know"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                13.0,
+                15.57
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Jenny: Why {} you come with me?",
+              "gaps": [
+                [
+                  "don’t"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                20.8,
+                22.94
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Rob: Can we {} it a bit later?",
+              "gaps": [
+                [
+                  "make"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                27.8,
+                30.69
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Jenny: {} make it seven fifteen.",
+              "gaps": [
+                [
+                  "Let’s"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                35.6,
+                38.87
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-pe4c",
+          "origin": "SB",
+          "video": "ep3_social_english",
+          "instruction": "Watch and repeat the Social English phrases",
+          "note": "SB PE3 4c (5.27)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "Have you had a good day?",
+              "source": "CONFIRMED",
+              "clip": [
+                5.4,
+                7.9
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "Oh, you know. Meetings!",
+              "source": "CONFIRMED",
+              "clip": [
+                13.0,
+                15.57
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "Why don’t you come with me?",
+              "source": "CONFIRMED",
+              "clip": [
+                20.8,
+                22.94
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "Can we make it a bit later?",
+              "source": "CONFIRMED",
+              "clip": [
+                27.8,
+                30.69
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "Let’s make it seven fifteen.",
+              "source": "CONFIRMED",
+              "clip": [
+                35.6,
+                38.87
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-pe4d",
+          "origin": "SB",
+          "dialogue": true,
+          "instruction": "Complete conversations A–E with the Social English phrases",
+          "note": "SB PE3 4d; какая фраза в какой разговор — наше решение (MODEL)",
+          "words": [
+            "Have you had a good day?",
+            "Oh, you know.",
+            "Why don’t you come with me?",
+            "Can we make it a bit later?",
+            "Let’s make it…"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I’m going to the cinema tonight. {}\nThanks. I’d love to.",
+              "gaps": [
+                [
+                  "Why don’t you come with me?",
+                  "Why don’t you come with me"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Let’s meet for a drink at 5.30.\n{} I don’t finish work till six.",
+              "gaps": [
+                [
+                  "Can we make it a bit later?",
+                  "Can we make it a bit later"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Hi. {}\nNot really. I had a lot of problems at work.",
+              "gaps": [
+                [
+                  "Have you had a good day?",
+                  "Have you had a good day"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Is seven o’clock too early for you?\nYes, a bit. {} half past seven.",
+              "gaps": [
+                [
+                  "Let’s make it",
+                  "Can we make it"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "How was your first day back at work?\n{} Not very exciting.",
+              "gaps": [
+                [
+                  "Oh, you know.",
+                  "Oh, you know",
+                  "You know."
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "5C-wbpe1",
+          "origin": "WB",
+          "instruction": "Make suggestions with Why don’t you…? and a phrase from the list",
+          "note": "WB Practical English Episode 3 (WB p.38) 1; 1 Why don’t you buy two pairs? — пример",
+          "words": [
+            "buy her some flowers",
+            "get something from the chemist",
+            "take it back",
+            "try it on"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I bought this yesterday, but it doesn’t work.\n{}",
+              "gaps": [
+                [
+                  "Why don’t you take it back?",
+                  "Why don’t you take it back"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I’m not sure if this dress is the right size.\n{}",
+              "gaps": [
+                [
+                  "Why don’t you try it on?",
+                  "Why don’t you try it on"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I have a bit of a headache.\n{}",
+              "gaps": [
+                [
+                  "Why don’t you get something from the chemist?",
+                  "Why don’t you get something from the chemist"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "It’s my mum’s birthday tomorrow.\n{}",
+              "gaps": [
+                [
+                  "Why don’t you buy her some flowers?",
+                  "Why don’t you buy her some flowers"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-wbpe2a",
+          "origin": "WB",
+          "instruction": "Match the prices to the words. Write the words",
+          "note": "WB PE3 2a; 1 79c → c — пример. Принимаем и слова, и букву",
+          "words": [
+            "a thirteen pounds ninety-nine",
+            "b fifty-nine pence",
+            "d three dollars eighty-nine",
+            "e thirty euros forty-nine"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "€30.49 → {}",
+              "gaps": [
+                [
+                  "thirty euros forty-nine",
+                  "thirty euros forty nine",
+                  "e"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "$3.89 → {}",
+              "gaps": [
+                [
+                  "three dollars eighty-nine",
+                  "three dollars eighty nine",
+                  "d"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "59p → {}",
+              "gaps": [
+                [
+                  "fifty-nine pence",
+                  "fifty nine pence",
+                  "b"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "£13.99 → {}",
+              "gaps": [
+                [
+                  "thirteen pounds ninety-nine",
+                  "thirteen pounds ninety nine",
+                  "a"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-wbpe2b",
+          "origin": "WB",
+          "instruction": "Write the words for the letters and symbols in brackets",
+          "note": "WB PE3 2b «write the words for the bold letters» → Blank, символ в hint; 1 pence — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The {} feels a bit big. Can I try the L?",
+              "gaps": [
+                [
+                  "extra large",
+                  "extra-large"
+                ]
+              ],
+              "hint": "(XL)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "In the USA, this phone costs about 300 {}.",
+              "gaps": [
+                [
+                  "dollars"
+                ]
+              ],
+              "hint": "($)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "A cappuccino here costs about two {}.",
+              "gaps": [
+                [
+                  "euros"
+                ]
+              ],
+              "hint": "(€)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Can I have a plastic bag? That’ll cost 50 {}.",
+              "gaps": [
+                [
+                  "cents"
+                ]
+              ],
+              "hint": "(c)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "What size is this T-shirt? It’s a {}.",
+              "gaps": [
+                [
+                  "medium"
+                ]
+              ],
+              "hint": "(M)"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "A return ticket is 22 {}.",
+              "gaps": [
+                [
+                  "pounds"
+                ]
+              ],
+              "hint": "(£)"
+            }
+          ]
+        },
+        {
+          "id": "5C-wbpe3",
+          "origin": "WB",
+          "dialogue": true,
+          "instruction": "Complete the conversation with the missing words",
+          "note": "WB PE3 3; в книге даны первые буквы — у нас без них. 1 madam — пример",
+          "words": [
+            "afraid",
+            "bought",
+            "changing rooms",
+            "check",
+            "medium",
+            "problem",
+            "receipt",
+            "refund",
+            "size",
+            "small",
+            "sorry"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Can I help you, madam?\nYes, I {} this sweater yesterday.\nYes, I remember. Is there a {}?\nYes, I’m {} it’s too small.\nWhat {} is it?",
+              "gaps": [
+                [
+                  "bought"
+                ],
+                [
+                  "problem"
+                ],
+                [
+                  "afraid"
+                ],
+                [
+                  "size"
+                ]
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "It’s a {}. Do you have a {}?\nI’ll go and {}. Just a minute… I’m {}, but we don’t have this sweater in your size. But we do have this one, and it’s the same price. Or you can have a {}.",
+              "gaps": [
+                [
+                  "small"
+                ],
+                [
+                  "medium"
+                ],
+                [
+                  "check"
+                ],
+                [
+                  "sorry"
+                ],
+                [
+                  "refund"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Erm… I’ll take this one then, please. Can I try it on?\nYes, of course. The {} are over there… Is everything OK?\nYes, this one fits perfectly.\nGood. Do you have the {} for the other sweater?\nYes, here you are.\nBrilliant.",
+              "gaps": [
+                [
+                  "changing rooms"
+                ],
+                [
+                  "receipt"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-wbpe4",
+          "origin": "WB",
+          "dialogue": true,
+          "instruction": "Complete the conversation with the phrases from the list",
+          "note": "WB PE3 4 (Social English); 1 Have you had a good day? — пример",
+          "words": [
+            "Can we make it a bit later",
+            "let’s make it eight",
+            "Why don’t we go out for dinner",
+            "you know"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Hi! You’re back early.\nI finish at 4.00 on Fridays. Have you had a good day?\nOh, {}. Writing essays, learning grammar.\nListen, it’s a lovely evening. {}?\nThat sounds like a nice idea. What time?\nSeven?\n{}?\nOK, {}. I’ll book a table.",
+              "gaps": [
+                [
+                  "you know"
+                ],
+                [
+                  "Why don’t we go out for dinner"
+                ],
+                [
+                  "Can we make it a bit later"
+                ],
+                [
+                  "let’s make it eight"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5C-review",
+      "kind": "REVIEW",
+      "title": "Can you remember…? 1–5",
+      "reference": [
+        {
+          "type": "note",
+          "title": null,
+          "text": "Revision of Files 1–5: questions, past simple, present perfect, comparatives and superlatives, something / anything / nothing, quantifiers."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "5C-rv1",
+          "origin": "WB",
+          "instruction": "Grammar. Complete the sentences with a word from the list",
+          "note": "WB «Can you remember…? 1–5» (WB p.39) 1; примера нет — все шесть пунктов",
+          "words": [
+            "anything",
+            "as",
+            "because",
+            "come",
+            "taking",
+            "yet"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Do you {} from Italy?",
+              "gaps": [
+                [
+                  "come"
+                ]
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I didn’t eat {} for lunch.",
+              "gaps": [
+                [
+                  "anything"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I haven’t finished my homework {}.",
+              "gaps": [
+                [
+                  "yet"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I’m not as tall {} my brother.",
+              "gaps": [
+                [
+                  "as"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "We had breakfast in the garden {} it was a lovely morning.",
+              "gaps": [
+                [
+                  "because"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Dad’s {} me to the airport.",
+              "gaps": [
+                [
+                  "taking"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5C-rv2",
+          "origin": "WB",
+          "instruction": "Vocabulary. Which word is different? Write it",
+          "note": "WB «Can you remember…? 1–5» 2",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "arriving, ironing, washing, hoovering → {}",
+              "gaps": [
+                [
+                  "arriving"
+                ]
+              ],
+              "explain": "ironing, washing and hoovering are housework."
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "bored, stressed, depressed, excited → {}",
+              "gaps": [
+                [
+                  "excited"
+                ]
+              ],
+              "explain": "excited is a positive feeling."
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "church, mosque, lake, temple → {}",
+              "gaps": [
+                [
+                  "lake"
+                ]
+              ],
+              "explain": "church, mosque and temple are religious buildings."
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "dangerous, clean, quiet, safe → {}",
+              "gaps": [
+                [
+                  "dangerous"
+                ]
+              ],
+              "explain": "dangerous is a negative adjective about a place."
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "website, account, delivery, trolley → {}",
+              "gaps": [
+                [
+                  "trolley"
+                ]
+              ],
+              "explain": "website, account and delivery are about online shopping; you use a trolley in a supermarket."
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "campsite, terminal, departures, gate → {}",
+              "gaps": [
+                [
+                  "campsite"
+                ]
+              ],
+              "explain": "terminal, departures and gate are in an airport."
+            }
+          ]
+        },
+        {
+          "id": "5C-rv3",
+          "origin": "WB",
+          "instruction": "Pronunciation. Which word has a different sound? Write it",
+          "note": "WB «Can you remember…? 1–5» 3",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "snake /s/: card, centre, succeed, city → {}",
+              "gaps": [
+                [
+                  "card"
+                ]
+              ],
+              "explain": "card = /k/ (key)."
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "girl /g/: gift, foggy, large, flag → {}",
+              "gaps": [
+                [
+                  "large"
+                ]
+              ],
+              "explain": "large = /dʒ/ (jazz)."
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "up /ʌ/: much, muscle, enough, nowhere → {}",
+              "gaps": [
+                [
+                  "nowhere"
+                ]
+              ],
+              "explain": "nowhere = /əʊ/ (phone)."
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "phone /əʊ/: know, show, nothing, note → {}",
+              "gaps": [
+                [
+                  "nothing"
+                ]
+              ],
+              "explain": "nothing = /ʌ/ (up)."
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "yacht /j/: yet, joke, you, yesterday → {}",
+              "gaps": [
+                [
+                  "joke"
+                ]
+              ],
+              "explain": "joke = /dʒ/ (jazz)."
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "computer /ə/: where, faster, about, older → {}",
+              "gaps": [
+                [
+                  "where"
+                ]
+              ],
+              "explain": "where = /eə/ (chair)."
+            }
+          ]
+        },
+        {
+          "id": "5C-rv4",
+          "origin": "WB",
+          "instruction": "Grammar and vocabulary. Read the interview ‘The book that changed my life’ and complete it",
+          "note": "WB «Can you remember…? 1–5» 4 «Circle a, b or c» → Blank с вариантами в hint",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I’m talking {} Jim Watts about the book that changed his life.",
+              "gaps": [
+                [
+                  "to"
+                ]
+              ],
+              "hint": "(at / to / for)"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The ideas in Carl Honoré’s book In Praise of Slow were very {}.",
+              "gaps": [
+                [
+                  "interesting"
+                ]
+              ],
+              "hint": "(interesting / interested / interest)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Honoré says that everything is {} than in the past.",
+              "gaps": [
+                [
+                  "faster"
+                ]
+              ],
+              "hint": "(faster / fast / more fast)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Is slow always better? Well, it depends {} what you’re talking about.",
+              "gaps": [
+                [
+                  "on"
+                ]
+              ],
+              "hint": "(from / of / on)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I {} that journey last year by bicycle.",
+              "gaps": [
+                [
+                  "did"
+                ]
+              ],
+              "hint": "(have done / did / was doing)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I {} lots of people on the way.",
+              "gaps": [
+                [
+                  "met"
+                ]
+              ],
+              "hint": "(met / was meeting / have met)"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "When I arrived {} Bruges, I felt really relaxed.",
+              "gaps": [
+                [
+                  "in"
+                ]
+              ],
+              "hint": "(in / at / on)"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Is there anything else {} is better if you do it slowly?",
+              "gaps": [
+                [
+                  "that"
+                ]
+              ],
+              "hint": "(who / where / that)"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "For a holiday, it’s better to go {} more traditional.",
+              "gaps": [
+                [
+                  "somewhere"
+                ]
+              ],
+              "hint": "(anywhere / somewhere / nowhere)"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "We don’t need to {} in a hurry all the time.",
+              "gaps": [
+                [
+                  "be"
+                ]
+              ],
+              "hint": "(go / be / do)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

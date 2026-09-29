@@ -1,0 +1,2518 @@
+{
+  "id": "11A",
+  "title": "Ask the teacher",
+  "bubbles": [
+    "Did you like school?",
+    "Yes, I did. I used to have a great time."
+  ],
+  "sources": "SB p.86–87, Grammar Bank 11A p.146–147; WB p.74–75",
+  "sections": [
+    {
+      "id": "11A-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "school subjects",
+      "reference": [
+        {
+          "type": "table",
+          "title": "School subjects",
+          "headers": [
+            "Subject",
+            "What you study"
+          ],
+          "rows": [
+            [
+              "art",
+              "painting and drawing"
+            ],
+            [
+              "foreign languages",
+              "English, French, German, etc."
+            ],
+            [
+              "geography",
+              "countries, capitals, rivers, and mountains"
+            ],
+            [
+              "history",
+              "the past: kings, queens, wars, and revolutions"
+            ],
+            [
+              "IT (= information technology)",
+              "computers and programming"
+            ],
+            [
+              "literature",
+              "books, poems, and writers"
+            ],
+            [
+              "maths",
+              "numbers"
+            ],
+            [
+              "PE (= physical education)",
+              "sport"
+            ],
+            [
+              "science: physics, chemistry, and biology",
+              "how the world works, chemicals, and living things"
+            ]
+          ],
+          "audio": "11.3"
+        },
+        {
+          "type": "table",
+          "title": "Education in the UK and the US",
+          "headers": [
+            "UK",
+            "US"
+          ],
+          "rows": [
+            [
+              "primary school",
+              "elementary school"
+            ],
+            [
+              "secondary school",
+              "high school"
+            ],
+            [
+              "maths",
+              "math"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "title": "good at, bad at",
+          "text": "We say good at / OK at / bad at + subject: I was very bad at maths. She was good at languages."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "11A-sb1a",
+          "origin": "SB",
+          "audio": "11.1",
+          "instruction": "Listen. Match the lessons you hear to the subjects",
+          "note": "SB 1a",
+          "words": [
+            "art",
+            "foreign languages",
+            "geography",
+            "history",
+            "IT",
+            "literature",
+            "maths",
+            "PE",
+            "science"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Lesson 1 is {}.",
+              "gaps": [
+                [
+                  "foreign languages",
+                  "French",
+                  "a foreign language",
+                  "languages"
+                ]
+              ],
+              "clip": [
+                1.5,
+                20.5
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Lesson 2 is {}.",
+              "gaps": [
+                [
+                  "maths",
+                  "math"
+                ]
+              ],
+              "clip": [
+                23.5,
+                45.3
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Lesson 3 is {}.",
+              "gaps": [
+                [
+                  "history"
+                ]
+              ],
+              "clip": [
+                47.5,
+                71.5
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Lesson 4 is {}.",
+              "gaps": [
+                [
+                  "IT",
+                  "information technology"
+                ]
+              ],
+              "clip": [
+                73.5,
+                113.5
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Lesson 5 is {}.",
+              "gaps": [
+                [
+                  "literature"
+                ]
+              ],
+              "clip": [
+                115.5,
+                136.5
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Lesson 6 is {}.",
+              "gaps": [
+                [
+                  "science",
+                  "chemistry"
+                ]
+              ],
+              "clip": [
+                138.3,
+                163.5
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Lesson 7 is {}.",
+              "gaps": [
+                [
+                  "art"
+                ]
+              ],
+              "clip": [
+                165.5,
+                192.5
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Lesson 8 is {}.",
+              "gaps": [
+                [
+                  "PE",
+                  "physical education"
+                ]
+              ],
+              "clip": [
+                193.8,
+                211.2
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Lesson 9 is {}.",
+              "gaps": [
+                [
+                  "geography"
+                ]
+              ],
+              "clip": [
+                213.0,
+                250.4
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "11A-sb1c",
+          "origin": "SB",
+          "audio": "11.3",
+          "instruction": "Listen and repeat the subjects",
+          "note": "SB 1c",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "art",
+              "clip": [
+                0.0,
+                1.05
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "foreign languages",
+              "clip": [
+                2.54,
+                4.31
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "geography",
+              "clip": [
+                5.84,
+                7.14
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "history",
+              "clip": [
+                8.64,
+                9.93
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "IT",
+              "clip": [
+                11.42,
+                12.64
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "literature",
+              "clip": [
+                14.16,
+                15.63
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "maths",
+              "clip": [
+                17.13,
+                18.33
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "PE",
+              "clip": [
+                19.86,
+                21.16
+              ]
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "science: physics, chemistry, and biology",
+              "clip": [
+                22.7,
+                26.7
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11A-sb1d",
+          "origin": "SB",
+          "instruction": "Talk about the subjects you had at school. Which subjects were you good at, OK at, and bad at?",
+          "note": "SB 1d",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You and the student are talking about school subjects. Ask which subjects they had at primary or secondary school, which they were good at, OK at, and bad at, and why. Tell them briefly about yourself too (you were good at history and bad at physics). Ask one question at a time.",
+              "goal": "Talk about the subjects you were good at, OK at, and bad at.",
+              "opener": "So, which subjects did you have at secondary school?",
+              "criteria": [
+                "names at least three school subjects correctly",
+                "uses good at / OK at / bad at + subject",
+                "uses the past simple (I was…, I had…, I liked…)"
+              ],
+              "steps": [
+                {
+                  "text": "Say what subjects you had",
+                  "example": "We had maths, history, geography, IT, and two foreign languages."
+                },
+                {
+                  "text": "Say which subject you were good at",
+                  "example": "I was good at languages."
+                },
+                {
+                  "text": "Say which subject you were bad at and why",
+                  "example": "I was very bad at maths. I didn’t understand it."
+                },
+                {
+                  "text": "Ask about your partner",
+                  "example": "What about you? Were you good at science?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11A-wb1a",
+          "origin": "WB",
+          "instruction": "Which school subject is each question from? Write the subject",
+          "note": "WB 1a «Match the subjects to the questions» → Blank: к вопросу вписать предмет; 1 foreign languages — c (How do you say ‘Thank you’ in German?) — пример",
+          "words": [
+            "geography",
+            "history",
+            "literature",
+            "maths",
+            "PE",
+            "chemistry",
+            "IT",
+            "art",
+            "biology"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "What’s the capital of Sweden? → {}",
+              "gaps": [
+                [
+                  "geography"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Which English king had six wives? → {}",
+              "gaps": [
+                [
+                  "history"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Who wrote Macbeth? → {}",
+              "gaps": [
+                [
+                  "literature"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "What’s 15 times 99? → {}",
+              "gaps": [
+                [
+                  "maths",
+                  "math"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "How many metres is one lap of an athletics track? → {}",
+              "gaps": [
+                [
+                  "PE",
+                  "physical education"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "What’s the chemical symbol for water? → {}",
+              "gaps": [
+                [
+                  "chemistry"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "How do you create an XML document? → {}",
+              "gaps": [
+                [
+                  "IT",
+                  "information technology"
+                ]
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Where was Pablo Picasso from? → {}",
+              "gaps": [
+                [
+                  "art"
+                ]
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "Are snakes warm-blooded or cold-blooded? → {}",
+              "gaps": [
+                [
+                  "biology"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11A-wb1b",
+          "origin": "WB",
+          "instruction": "Answer the questions. Use the answers from the list",
+          "note": "WB 1b «Match the questions in a to the answers» → Blank со списком ответов; 1 Stockholm — пример",
+          "words": [
+            "Spain",
+            "Danke",
+            "1,485",
+            "William Shakespeare",
+            "H2O",
+            "400 metres",
+            "Click on the link and find out.",
+            "Henry VIII",
+            "Cold-blooded"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Where was Pablo Picasso from? {}",
+              "gaps": [
+                [
+                  "Spain"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "How do you say ‘Thank you’ in German? {}",
+              "gaps": [
+                [
+                  "Danke"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "What’s 15 times 99? {}",
+              "gaps": [
+                [
+                  "1,485",
+                  "1485"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Who wrote Macbeth? {}",
+              "gaps": [
+                [
+                  "William Shakespeare",
+                  "Shakespeare"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "What’s the chemical symbol for water? {}",
+              "gaps": [
+                [
+                  "H2O"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "How many metres is one lap of an athletics track? {}",
+              "gaps": [
+                [
+                  "400 metres",
+                  "400 meters",
+                  "400"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "How do you create an XML document? {}",
+              "gaps": [
+                [
+                  "Click on the link and find out.",
+                  "Click on the link and find out"
+                ]
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Which English king had six wives? {}",
+              "gaps": [
+                [
+                  "Henry VIII",
+                  "Henry the Eighth"
+                ]
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "Are snakes warm-blooded or cold-blooded? {}",
+              "gaps": [
+                [
+                  "Cold-blooded",
+                  "cold blooded"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11A-wb1c",
+          "origin": "WB",
+          "instruction": "Complete the sentences with a school subject",
+          "note": "WB 1c (кроссворд-пазл с тайным словом learning) → Blank по предложениям; 1 languages — пример; тайное слово не переносим",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Jason loves studying English {} – especially writers like George Orwell.",
+              "gaps": [
+                [
+                  "literature"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{} is my worst subject – I’m terrible with numbers.",
+              "gaps": [
+                [
+                  "Maths",
+                  "Math"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Kitty loves {} – she’s really good at painting and drawing.",
+              "gaps": [
+                [
+                  "art"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "You have to be good at {} if you want to be a doctor.",
+              "gaps": [
+                [
+                  "science",
+                  "biology",
+                  "chemistry"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "In our {} class we’re learning about the Russian Revolution.",
+              "gaps": [
+                [
+                  "history"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "I think Karen likes programming because her Information {} teacher is really good.",
+              "gaps": [
+                [
+                  "Technology"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "In the {} test tomorrow, we have to remember the names of all the big rivers in the USA.",
+              "gaps": [
+                [
+                  "geography"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11A-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Which school subject is it? Write the subject.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "We learn about kings, queens, and wars. → {}",
+              "gaps": [
+                [
+                  "history"
+                ]
+              ],
+              "explain": "history = the study of the past.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "We play football, basketball, and volleyball. → {}",
+              "gaps": [
+                [
+                  "PE",
+                  "physical education"
+                ]
+              ],
+              "explain": "PE = physical education, the sport lesson.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "We read novels and poems and talk about the writers. → {}",
+              "gaps": [
+                [
+                  "literature"
+                ]
+              ],
+              "explain": "literature = books, poems, and writers.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "We study plants, animals, and the human body. → {}",
+              "gaps": [
+                [
+                  "biology"
+                ]
+              ],
+              "explain": "biology is the science of living things.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "We learn how to use computers and write programs. → {}",
+              "gaps": [
+                [
+                  "IT",
+                  "information technology"
+                ]
+              ],
+              "explain": "IT = information technology.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "We mix chemicals and do experiments with them. → {}",
+              "gaps": [
+                [
+                  "chemistry"
+                ]
+              ],
+              "explain": "chemistry is the science of chemicals.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "We study countries, mountains, rivers, and the weather. → {}",
+              "gaps": [
+                [
+                  "geography"
+                ]
+              ],
+              "explain": "geography = countries, capitals, rivers, and mountains.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "We paint and draw pictures. → {}",
+              "gaps": [
+                [
+                  "art"
+                ]
+              ],
+              "explain": "art = painting and drawing.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "We learn about electricity, light, and energy. → {}",
+              "gaps": [
+                [
+                  "physics"
+                ]
+              ],
+              "explain": "physics is the science of energy, light, and movement.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "We add, subtract, and multiply numbers. → {}",
+              "gaps": [
+                [
+                  "maths",
+                  "math"
+                ]
+              ],
+              "explain": "maths (UK) = math (US).",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "11A-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with one word.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I was very bad {} maths – I never understood it.",
+              "gaps": [
+                [
+                  "at"
+                ]
+              ],
+              "explain": "good at / bad at + subject.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "In the US, children go to elementary school. In the UK, they go to {} school.",
+              "gaps": [
+                [
+                  "primary"
+                ]
+              ],
+              "explain": "elementary school (US) = primary school (UK).",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "In the UK, children go to secondary school when they are 11. In the US, it’s called {} school.",
+              "gaps": [
+                [
+                  "high"
+                ]
+              ],
+              "explain": "secondary school (UK) = high school (US).",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "My sister speaks four foreign {}: English, French, German, and Italian.",
+              "gaps": [
+                [
+                  "languages"
+                ]
+              ],
+              "explain": "foreign languages = English, French, etc.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Americans say math, but British people say {}.",
+              "gaps": [
+                [
+                  "maths"
+                ]
+              ],
+              "explain": "maths (UK) = math (US).",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Physics, chemistry, and biology are all {} subjects.",
+              "gaps": [
+                [
+                  "science"
+                ]
+              ],
+              "explain": "science = physics, chemistry, and biology.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "PE means physical {}.",
+              "gaps": [
+                [
+                  "education"
+                ]
+              ],
+              "explain": "PE = physical education.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I was OK {} history, but I wasn’t very interested in it.",
+              "gaps": [
+                [
+                  "at"
+                ]
+              ],
+              "explain": "OK at + subject, like good at / bad at.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Our {} teacher took us to the museum to see paintings by Picasso.",
+              "gaps": [
+                [
+                  "art"
+                ]
+              ],
+              "explain": "art = painting and drawing.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "IT means information {}.",
+              "gaps": [
+                [
+                  "technology"
+                ]
+              ],
+              "explain": "IT = information technology.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11A-grammar",
+      "kind": "GRAMMAR",
+      "title": "used to",
+      "reference": [
+        {
+          "type": "table",
+          "title": "used to / didn’t use to",
+          "headers": [
+            "",
+            "Example"
+          ],
+          "rows": [
+            [
+              "+",
+              "When I was a child I used to play in the streets."
+            ],
+            [
+              "+",
+              "My brother used to have very long hair when he was a student."
+            ],
+            [
+              "−",
+              "Nick didn’t use to go out much, but now he goes out every night."
+            ],
+            [
+              "−",
+              "I didn’t use to like vegetables, but now I love them."
+            ],
+            [
+              "?",
+              "Did you use to wear a uniform at school? Yes, I did."
+            ],
+            [
+              "?",
+              "Did you use to like your teachers? No, I didn’t."
+            ]
+          ],
+          "audio": "11.4"
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "We use used to / didn’t use to + verb for things that happened repeatedly or were true for a long time in the past, and usually are not true now. used to is the same for all persons (I / you / he / she / we / they used to). We can also use the past simple, often with an adverb of frequency: When I was a child I often played in the street."
+        },
+        {
+          "type": "mistake",
+          "wrong": "I didn’t used to like maths. Did you used to like maths?",
+          "right": "I didn’t use to like maths. Did you use to like maths?",
+          "why": "After didn’t and did we write use to, without -d."
+        },
+        {
+          "type": "mistake",
+          "wrong": "I use to cook in the evenings.",
+          "right": "I usually cook in the evenings.",
+          "why": "used to is only for the past. For present habits we use usually + present simple."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "11A-sb3a",
+          "origin": "SB",
+          "instruction": "Look at sentences 1–3. Complete the rules",
+          "context": "1 Jude Law used to get fantastic reviews in the school magazine.\n2 Alex Turner didn’t use to be very interested in music.\n3 J.K. Rowling used to come and wait outside the science building for her mum.",
+          "note": "SB 3a «Does used to refer to…? a or b» → Blank с вариантами в hint",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "used to / didn’t use to refers to the {}.",
+              "gaps": [
+                [
+                  "past"
+                ]
+              ],
+              "hint": "(present / past)",
+              "explain": "All three sentences are about when they were at school.",
+              "source": "KEY"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "It is for things that happened {}, or that were true for a long time.",
+              "gaps": [
+                [
+                  "repeatedly"
+                ]
+              ],
+              "hint": "(repeatedly / once)",
+              "explain": "used to is for habits and states, not for one action.",
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "11A-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Look at how Alex has changed. Complete the sentences about how he was before with used to or didn’t use to",
+          "note": "Grammar Bank 11A a; He used to be slim — пример. Ответы по картинке (MODEL)",
+          "images": [
+            "11a_gba_alex"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "He {} long hair.",
+              "gaps": [
+                [
+                  "used to have"
+                ]
+              ],
+              "explain": "Then his hair was long, now he doesn’t have much hair.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "He {} glasses.",
+              "gaps": [
+                [
+                  "didn’t use to wear",
+                  "did not use to wear",
+                  "didn’t use to have",
+                  "did not use to have"
+                ]
+              ],
+              "explain": "He wears glasses now, but not in the past.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "He {} a beard.",
+              "gaps": [
+                [
+                  "didn’t use to have",
+                  "did not use to have"
+                ]
+              ],
+              "explain": "He has a beard now, but not in the past.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "He {} football.",
+              "gaps": [
+                [
+                  "used to play"
+                ]
+              ],
+              "explain": "In the first picture he has a football.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "He {} a tie.",
+              "gaps": [
+                [
+                  "didn’t use to wear",
+                  "did not use to wear"
+                ]
+              ],
+              "explain": "He wears a tie now, but in the past he wore a T-shirt.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "11A-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Make sentences with used to, didn’t use to, or Did… use to? (+) = positive, (−) = negative, (?) = question",
+          "note": "Grammar Bank 11A b; «? you / have long hair → Did you use to have long hair?» — пример",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "Angie / hate maths, but she loves it now",
+              "hint": "(+)",
+              "answers": [
+                "Angie used to hate maths, but she loves it now."
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "you / work when you lived in Cairo",
+              "hint": "(?)",
+              "answers": [
+                "Did you use to work when you lived in Cairo?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "I / like reading when I was a child",
+              "hint": "(−)",
+              "answers": [
+                "I didn’t use to like reading when I was a child.",
+                "I did not use to like reading when I was a child."
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "What / you / do in the summer holidays when you were young",
+              "hint": "(?)",
+              "answers": [
+                "What did you use to do in the summer holidays when you were young?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "The British / cook with olive oil, but now it’s very popular",
+              "hint": "(−)",
+              "answers": [
+                "The British didn’t use to cook with olive oil, but now it’s very popular.",
+                "The British did not use to cook with olive oil, but now it’s very popular."
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "This restaurant / be a cinema in the 1960s",
+              "hint": "(+)",
+              "answers": [
+                "This restaurant used to be a cinema in the 1960s."
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "your sister / eat meat, or has she always been a vegetarian",
+              "hint": "(?)",
+              "answers": [
+                "Did your sister use to eat meat, or has she always been a vegetarian?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prompt": "I / be interested in athletics, but now I always watch it",
+              "hint": "(−)",
+              "answers": [
+                "I didn’t use to be interested in athletics, but now I always watch it.",
+                "I did not use to be interested in athletics, but now I always watch it."
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "rewrite",
+              "prompt": "you / have a motorbike when you were a student",
+              "hint": "(?)",
+              "answers": [
+                "Did you use to have a motorbike when you were a student?"
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "rewrite",
+              "prompt": "Telegrams / be the quickest way to send important messages",
+              "hint": "(+)",
+              "answers": [
+                "Telegrams used to be the quickest way to send important messages."
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "11A-wb2a",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the correct form of used to and the verb in brackets. (+) = positive, (−) = negative, (?) = question",
+          "note": "WB 2a; 1 used to go — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I {} hard at school.",
+              "gaps": [
+                [
+                  "didn’t use to work",
+                  "did not use to work"
+                ]
+              ],
+              "hint": "(− work)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "We {} a uniform at school.",
+              "gaps": [
+                [
+                  "used to wear"
+                ]
+              ],
+              "hint": "(+ wear)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{} a favourite teacher at school?",
+              "gaps": [
+                [
+                  "Did you use to have"
+                ]
+              ],
+              "hint": "(? you / have)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Children {} IT when I was at school.",
+              "gaps": [
+                [
+                  "didn’t use to study",
+                  "did not use to study"
+                ]
+              ],
+              "hint": "(− study)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "My school {} smaller than it is now.",
+              "gaps": [
+                [
+                  "used to be"
+                ]
+              ],
+              "hint": "(+ be)"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "We {} football in PE.",
+              "gaps": [
+                [
+                  "didn’t use to play",
+                  "did not use to play"
+                ]
+              ],
+              "hint": "(− play)"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "{} you a lot of homework?",
+              "gaps": [
+                [
+                  "Did your teachers use to give"
+                ]
+              ],
+              "hint": "(? your teachers / give)"
+            }
+          ]
+        },
+        {
+          "id": "11A-wb2b",
+          "origin": "WB",
+          "instruction": "Correct the mistakes in the bold phrases",
+          "note": "WB 2b «Right or wrong? Correct the wrong phrases»; 1 — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "**Jon used go** to school on Saturday mornings.",
+              "answers": [
+                "Jon used to go to school on Saturday mornings."
+              ]
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "**We didn’t used to understand** our German teacher.",
+              "answers": [
+                "We didn’t use to understand our German teacher.",
+                "We did not use to understand our German teacher."
+              ]
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "**Did you used to** go to school by bus?",
+              "answers": [
+                "Did you use to go to school by bus?"
+              ]
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "**School use to** start at 9.00 but now it starts at 8.30.",
+              "answers": [
+                "School used to start at 9.00 but now it starts at 8.30."
+              ]
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "**Did your friends use help** you with your homework?",
+              "answers": [
+                "Did your friends use to help you with your homework?"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11A-wb2c",
+          "origin": "WB",
+          "instruction": "Write questions with used to",
+          "note": "WB 2c; 1 What school did you use to go to? — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "What subject / you / like most",
+              "hint": "(?)",
+              "answers": [
+                "What subject did you use to like most?"
+              ]
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "What subjects / you / hate",
+              "hint": "(?)",
+              "answers": [
+                "What subjects did you use to hate?"
+              ]
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "Which teacher / you / like most",
+              "hint": "(?)",
+              "answers": [
+                "Which teacher did you use to like most?"
+              ]
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "you / work hard",
+              "hint": "(?)",
+              "answers": [
+                "Did you use to work hard?"
+              ]
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "What sports / you / do",
+              "hint": "(?)",
+              "answers": [
+                "What sports did you use to do?"
+              ]
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "What / you / do after school",
+              "hint": "(?)",
+              "answers": [
+                "What did you use to do after school?"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11A-wb2d",
+          "origin": "WB",
+          "instruction": "Answer the questions in c about you",
+          "note": "WB 2d «Answer the questions in c» → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Write about your school days. Answer the questions with full sentences.",
+              "questions": [
+                {
+                  "text": "What school did you use to go to?",
+                  "hint": "I used to go to…"
+                },
+                {
+                  "text": "What subject did you use to like most?",
+                  "hint": "I used to like… most."
+                },
+                {
+                  "text": "What subjects did you use to hate?",
+                  "hint": "I used to hate…"
+                },
+                {
+                  "text": "Which teacher did you use to like most?",
+                  "hint": "I used to like my… teacher."
+                },
+                {
+                  "text": "Did you use to work hard?",
+                  "hint": "Yes, I did. / No, I didn’t. I used to…"
+                },
+                {
+                  "text": "What sports did you use to do?",
+                  "hint": "I used to play…"
+                },
+                {
+                  "text": "What did you use to do after school?",
+                  "hint": "After school I used to…"
+                }
+              ],
+              "criteria": [
+                "answers every question",
+                "uses used to / didn’t use to + verb correctly (not used to after didn’t)",
+                "full sentences"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11A-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with used to, didn’t use to, or use to and the verb in brackets.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "When I was young, I {} to school every day.",
+              "gaps": [
+                [
+                  "used to walk"
+                ]
+              ],
+              "hint": "(walk)",
+              "explain": "Repeated action in the past → used to + verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "My dad {} coffee, but now he drinks three cups a day.",
+              "gaps": [
+                [
+                  "didn’t use to drink",
+                  "did not use to drink"
+                ]
+              ],
+              "hint": "(not drink)",
+              "explain": "Negative: didn’t use to (no -d after didn’t).",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Did you {} a bike when you were a child?",
+              "gaps": [
+                [
+                  "use to have",
+                  "use to ride"
+                ]
+              ],
+              "hint": "(have)",
+              "explain": "Question: Did + subject + use to + verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "There {} a cinema in our town, but it closed in 2010.",
+              "gaps": [
+                [
+                  "used to be"
+                ]
+              ],
+              "hint": "(be)",
+              "explain": "Something true for a long time in the past, not now → used to be.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "My grandparents {} a car. They went everywhere by bus.",
+              "gaps": [
+                [
+                  "didn’t use to have",
+                  "did not use to have"
+                ]
+              ],
+              "hint": "(not have)",
+              "explain": "didn’t use to + verb for a past situation that isn’t true now.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Where did your family {} on holiday?",
+              "gaps": [
+                [
+                  "use to go"
+                ]
+              ],
+              "hint": "(go)",
+              "explain": "Wh- question: Where did + subject + use to + verb?",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "She {} very shy, but now she loves meeting new people.",
+              "gaps": [
+                [
+                  "used to be"
+                ]
+              ],
+              "hint": "(be)",
+              "explain": "A past state that has changed → used to be.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "We {} a lot of homework at primary school – maybe once a week.",
+              "gaps": [
+                [
+                  "didn’t use to get",
+                  "did not use to get",
+                  "didn’t use to have",
+                  "did not use to have"
+                ]
+              ],
+              "hint": "(not get)",
+              "explain": "Negative: didn’t use to + verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "My brother and I {} all the time when we were kids.",
+              "gaps": [
+                [
+                  "used to argue",
+                  "used to fight"
+                ]
+              ],
+              "hint": "(argue)",
+              "explain": "used to is the same for all persons: I / we / they used to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "{} your teachers use to be strict?",
+              "gaps": [
+                [
+                  "Did"
+                ]
+              ],
+              "explain": "Questions with used to start with Did.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "11A-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Rewrite the sentences with used to or didn’t use to.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "When I was a child, I often played in the park.",
+              "answers": [
+                "When I was a child, I used to play in the park."
+              ],
+              "explain": "past simple + often = used to + verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "In the past he never wore glasses. Now he does.",
+              "answers": [
+                "He didn’t use to wear glasses. Now he does.",
+                "He did not use to wear glasses. Now he does.",
+                "In the past he didn’t use to wear glasses. Now he does."
+              ],
+              "explain": "never in the past, but now yes → didn’t use to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "My sister had long hair at school, but now it’s short.",
+              "answers": [
+                "My sister used to have long hair at school, but now it’s short."
+              ],
+              "explain": "A past state that changed → used to have.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "Did you usually cycle to the beach in the summer?",
+              "answers": [
+                "Did you use to cycle to the beach in the summer?"
+              ],
+              "explain": "Did + subject + use to + verb?",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "They didn’t like vegetables when they were young.",
+              "answers": [
+                "They didn’t use to like vegetables when they were young.",
+                "They did not use to like vegetables when they were young."
+              ],
+              "explain": "didn’t + use to + verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "This café was a bank.",
+              "answers": [
+                "This café used to be a bank."
+              ],
+              "explain": "It isn’t a bank now → used to be.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "11A-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes. If a sentence is correct, leave it as it is.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "I use to cook dinner every evening.",
+              "answers": [
+                "I usually cook dinner every evening."
+              ],
+              "explain": "Present habit → usually + present simple, not use to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "Did she used to live in Paris?",
+              "answers": [
+                "Did she use to live in Paris?"
+              ],
+              "explain": "After did → use to (no -d).",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "We used to go camping every summer.",
+              "answers": [
+                "We used to go camping every summer."
+              ],
+              "explain": "Correct: a repeated action in the past.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "He used to playing the guitar in a band.",
+              "answers": [
+                "He used to play the guitar in a band."
+              ],
+              "explain": "used to + verb without -ing.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11A-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "used to / didn’t use to",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Pronouncing used to",
+          "text": "When we say used to or (didn’t) use to we link the two words together. They are both pronounced /ˈjuːstə/."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "11A-sb4a",
+          "origin": "SB",
+          "audio": "11.5",
+          "instruction": "Listen and repeat. Copy the rhythm",
+          "note": "SB 4a",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "I used to be good at French.",
+              "clip": [
+                7.51,
+                9.72
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "She didn’t use to wear glasses.",
+              "clip": [
+                20.63,
+                23.1
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "Did you use to walk to school?",
+              "clip": [
+                33.84,
+                36.27
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11A-wb3a",
+          "origin": "WB",
+          "instruction": "Say the sentences. Link used to together: /ˈjuːstə/",
+          "note": "WB 3a–b «Listen and write, then repeat»: аудио WB нет, диктант невозможен → Speak по предложениям из ключа (образец — TTS); 1 I used to be good at maths — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "We used to hate the history teacher."
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "My sister didn’t use to like school."
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "We didn’t use to wear a uniform."
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "I used to love languages."
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "Did you use to play football in PE?"
+            }
+          ]
+        },
+        {
+          "id": "11A-sb4b",
+          "origin": "SB",
+          "audio": "11.6",
+          "instruction": "Listen and make positive or negative sentences or questions with used to",
+          "note": "SB 4b",
+          "context": "Example: have a lot of friends → I used to have a lot of friends.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "(+) be lazy",
+              "answers": [
+                "I used to be lazy."
+              ],
+              "explain": "Positive: used to + verb.",
+              "source": "CONFIRMED",
+              "clip": [
+                19.72,
+                21.19
+              ]
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "(+) wear a uniform",
+              "answers": [
+                "I used to wear a uniform."
+              ],
+              "explain": "Positive: used to + verb.",
+              "source": "CONFIRMED",
+              "clip": [
+                35.69,
+                37.41
+              ]
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "(+) play football",
+              "answers": [
+                "I used to play football."
+              ],
+              "explain": "Positive: used to + verb.",
+              "source": "CONFIRMED",
+              "clip": [
+                51.97,
+                53.39
+              ]
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "(−) like exams",
+              "answers": [
+                "I didn’t use to like exams.",
+                "I did not use to like exams."
+              ],
+              "explain": "Negative: didn’t use to + verb (no -d after didn’t).",
+              "source": "CONFIRMED",
+              "clip": [
+                70.36,
+                71.97
+              ]
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "(−) do much homework",
+              "answers": [
+                "I didn’t use to do much homework.",
+                "I did not use to do much homework."
+              ],
+              "explain": "Negative: didn’t use to + verb (no -d after didn’t).",
+              "source": "CONFIRMED",
+              "clip": [
+                86.54,
+                88.15
+              ]
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "(−) be good at maths",
+              "answers": [
+                "I didn’t use to be good at maths.",
+                "I did not use to be good at maths."
+              ],
+              "explain": "Negative: didn’t use to + verb (no -d after didn’t).",
+              "source": "CONFIRMED",
+              "clip": [
+                102.84,
+                104.4
+              ]
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "(−) enjoy PE",
+              "answers": [
+                "I didn’t use to enjoy PE.",
+                "I did not use to enjoy PE."
+              ],
+              "explain": "Negative: didn’t use to + verb (no -d after didn’t).",
+              "source": "CONFIRMED",
+              "clip": [
+                119.23,
+                121.12
+              ]
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prompt": "(?) work hard",
+              "answers": [
+                "Did you use to work hard?"
+              ],
+              "explain": "Question: Did you use to + verb? (no -d after did).",
+              "source": "CONFIRMED",
+              "clip": [
+                136.52,
+                137.98
+              ]
+            },
+            {
+              "n": 9,
+              "type": "rewrite",
+              "prompt": "(?) like school",
+              "answers": [
+                "Did you use to like school?"
+              ],
+              "explain": "Question: Did you use to + verb? (no -d after did).",
+              "source": "CONFIRMED",
+              "clip": [
+                154.42,
+                155.78
+              ]
+            },
+            {
+              "n": 10,
+              "type": "rewrite",
+              "prompt": "(?) do sport",
+              "answers": [
+                "Did you use to do sport?"
+              ],
+              "explain": "Question: Did you use to + verb? (no -d after did).",
+              "source": "CONFIRMED",
+              "clip": [
+                170.31,
+                171.82
+              ]
+            },
+            {
+              "n": 11,
+              "type": "rewrite",
+              "prompt": "(?) have long hair",
+              "answers": [
+                "Did you use to have long hair?"
+              ],
+              "explain": "Question: Did you use to + verb? (no -d after did).",
+              "source": "CONFIRMED",
+              "clip": [
+                186.34,
+                187.91
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11A-skills",
+      "kind": "SKILLS",
+      "title": "Reading & Listening",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Fame Academy",
+          "text": "Three famous people’s teachers remember them at school. Alex Turner (Arctic Monkeys) was very popular and loved sport, not music. J.K. Rowling was a very quiet child; her mum was seriously ill. Jude Law was clever and confident, but some teachers and classmates thought he was arrogant."
+        },
+        {
+          "type": "note",
+          "title": "Glossary",
+          "text": "Professor Snape – the potions teacher in the Harry Potter books. housemaster – teacher in charge of a house in a boarding school. be bullied – be badly treated physically or mentally by other people, e.g. by other children at school."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "11A-sb2a",
+          "origin": "SB",
+          "instruction": "Read the article ‘Fame Academy’. When they were at school, who was the most popular, the most unpopular, and the quietest student?",
+          "note": "SB 2a–b; ответы — по статье (KEY-образно, CONFIRMED)",
+          "images": [
+            "11a_sb2_turner",
+            "11a_sb2_rowling",
+            "11a_sb2_law"
+          ],
+          "words": [
+            "Alex Turner",
+            "J.K. Rowling",
+            "Jude Law"
+          ],
+          "context": "Alex Turner – Mark Coleman, his PE teacher\nEveryone liked Alex at school. He was very good at English. Mr Baker, his English teacher, really liked poetry, and I’m sure Alex was inspired by him because his song lyrics are incredible. But he didn’t use to be very interested in music, he was much more interested in sports – he was possibly the best in the school at basketball. When he was 14 he broke his arm in my PE lesson. He was in hospital for a week, and we collected money and bought him a CD, so he was probably beginning to get interested in music. Everyone at the school is very proud of the band, and I’m sometimes invited to their concerts.\n\nJ.K. Rowling – John Nettleship, her science teacher\nJoanne was about 12 when I taught her. Her school days weren’t very happy. The school was a bit like a prison, and then her mum, Anne, got seriously ill. Anne worked as my technician, and Joanne used to come and wait outside the science building for her mum, so that they could walk home together. She was obviously very worried about her mum. She was a very quiet child. I don’t remember her ever answering a question. I think she was keeping all her experiences in her head to use later in her stories. Joanne has said that no characters in Harry Potter are based more than 10% on a real person. So perhaps it’s just a coincidence that I used to have long, black hair. But to be honest, I think Professor Snape, especially in the later books, is very like me.\n\nJude Law – Mike Jones, his housemaster\nJude was bullied at his first secondary school so he changed schools when he was 14 and came to us. He didn’t know anybody, but that wasn’t a problem for him. He adapted very quickly, which shows his confidence. He quickly started acting in school plays, and he used to get fantastic reviews in the school magazine. He was clever, but some teachers thought he was arrogant. Some of his classmates thought the same and he wasn’t very popular with them. Other boys were jealous of him because the girls usually liked him.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "The most popular student: {}",
+              "gaps": [
+                [
+                  "Alex Turner",
+                  "Alex"
+                ]
+              ],
+              "explain": "Everyone liked Alex at school.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The most unpopular student: {}",
+              "gaps": [
+                [
+                  "Jude Law",
+                  "Jude"
+                ]
+              ],
+              "explain": "Some teachers thought he was arrogant and he wasn’t very popular with his classmates.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "The quietest student: {}",
+              "gaps": [
+                [
+                  "J.K. Rowling",
+                  "JK Rowling",
+                  "Rowling",
+                  "Joanne"
+                ]
+              ],
+              "explain": "She was a very quiet child.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "11A-sb2c",
+          "origin": "SB",
+          "instruction": "Read the article again. Who…? Answer with the name of the famous person (e.g. J.K. Rowling) or their teacher (e.g. J.K. Rowling’s teacher)",
+          "note": "SB 2c; текст статьи — в 11A-sb2a",
+          "words": [
+            "Alex Turner",
+            "Alex Turner’s teacher",
+            "J.K. Rowling",
+            "J.K. Rowling’s teacher",
+            "Jude Law",
+            "Jude Law’s teacher"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "can explain why some people didn’t like his pupil → {}",
+              "gaps": [
+                [
+                  "Jude Law’s teacher",
+                  "Jude Law's teacher",
+                  "Mike Jones"
+                ]
+              ],
+              "explain": "Some teachers thought Jude was arrogant, and other boys were jealous of him.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "had family problems while he / she was at school → {}",
+              "gaps": [
+                [
+                  "J.K. Rowling",
+                  "JK Rowling"
+                ]
+              ],
+              "explain": "Her mum got seriously ill.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "sometimes sees his old pupil perform → {}",
+              "gaps": [
+                [
+                  "Alex Turner’s teacher",
+                  "Alex Turner's teacher",
+                  "Mark Coleman"
+                ]
+              ],
+              "explain": "I’m sometimes invited to their concerts.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "thinks he is similar to a character in his pupil’s books → {}",
+              "gaps": [
+                [
+                  "J.K. Rowling’s teacher",
+                  "J.K. Rowling's teacher",
+                  "JK Rowling’s teacher",
+                  "John Nettleship"
+                ]
+              ],
+              "explain": "I think Professor Snape… is very like me.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "thought he / she was better than other students → {}",
+              "gaps": [
+                [
+                  "Jude Law"
+                ]
+              ],
+              "explain": "Some teachers thought he was arrogant.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "was not very interested in what he / she became famous for → {}",
+              "gaps": [
+                [
+                  "Alex Turner"
+                ]
+              ],
+              "explain": "He didn’t use to be very interested in music.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "11A-sb2d",
+          "origin": "SB",
+          "instruction": "When you were at school, what do you think your teachers thought of you?",
+          "note": "SB 2d → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "When you were at school, what do you think your teachers thought of you? Write 3–4 sentences.",
+              "criteria": [
+                "says what the teachers probably thought (e.g. that you were quiet, clever, lazy, popular)",
+                "gives at least one example of what you used to do at school",
+                "uses used to / didn’t use to or the past simple correctly"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11A-sb5a",
+          "origin": "SB",
+          "instruction": "Look at some answers to the question Did you like school? Mark them P (= positive), N (= negative), or B (= both negative and positive)",
+          "note": "SB 5a; «I didn’t like it, I absolutely loved it!» = P — пример. Разметка — MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "No, not really. I didn’t like it at all. → {}",
+              "gaps": [
+                [
+                  "N"
+                ]
+              ],
+              "hint": "(P / N / B)",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I didn’t hate school, but I don’t think I liked it very much. → {}",
+              "gaps": [
+                [
+                  "N",
+                  "B"
+                ]
+              ],
+              "hint": "(P / N / B)",
+              "explain": "Mostly negative: he didn’t hate it, but didn’t like it much.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Sometimes. Yeah, most of the time. → {}",
+              "gaps": [
+                [
+                  "P",
+                  "B"
+                ]
+              ],
+              "hint": "(P / N / B)",
+              "explain": "Mostly positive, but not always.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Well, yes and no. → {}",
+              "gaps": [
+                [
+                  "B"
+                ]
+              ],
+              "hint": "(P / N / B)",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Yes, definitely. I really enjoyed school. → {}",
+              "gaps": [
+                [
+                  "P"
+                ]
+              ],
+              "hint": "(P / N / B)",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "11A-sb5b",
+          "origin": "SB",
+          "audio": "11.7",
+          "instruction": "Listen to three men and three women answering the question Did you like school? Match the speakers 1–6 to their answers in a",
+          "note": "SB 5b; ответы — по скрипту 11.7",
+          "words": [
+            "I didn’t like it, I absolutely loved it!",
+            "No, not really. I didn’t like it at all.",
+            "I didn’t hate school, but I don’t think I liked it very much.",
+            "Sometimes. Yeah, most of the time.",
+            "Well, yes and no.",
+            "Yes, definitely. I really enjoyed school."
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Speaker 1: {}",
+              "gaps": [
+                [
+                  "I didn’t hate school, but I don’t think I liked it very much."
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                0.0,
+                44.6
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Speaker 2: {}",
+              "gaps": [
+                [
+                  "No, not really. I didn’t like it at all."
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                45.2,
+                58.7
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Speaker 3: {}",
+              "gaps": [
+                [
+                  "Well, yes and no."
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                58.7,
+                91.6
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Speaker 4: {}",
+              "gaps": [
+                [
+                  "I didn’t like it, I absolutely loved it!"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                91.8,
+                119.7
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Speaker 5: {}",
+              "gaps": [
+                [
+                  "Sometimes. Yeah, most of the time."
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                120.8,
+                145.7
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Speaker 6: {}",
+              "gaps": [
+                [
+                  "Yes, definitely. I really enjoyed school."
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                146.2,
+                178.09
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11A-sb5c",
+          "origin": "SB",
+          "audio": "11.7",
+          "instruction": "Listen again. For each speaker, write down the subjects they liked and didn’t like",
+          "note": "SB 5c; ответы — по скрипту 11.7",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Speaker 1 used to enjoy {}, but didn’t like maths, history, or science.",
+              "gaps": [
+                [
+                  "PE",
+                  "sport",
+                  "PE and sport",
+                  "sport and PE"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                0.0,
+                44.6
+              ]
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Speaker 2 went to a boys’ school and didn’t really like {} of the subjects.",
+              "gaps": [
+                [
+                  "any"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                45.2,
+                58.7
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Speaker 3 liked English and {}, but hated geography and {}.",
+              "gaps": [
+                [
+                  "maths",
+                  "math"
+                ],
+                [
+                  "PE"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                58.7,
+                91.6
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Speaker 4 liked {} the subjects, especially English and {}.",
+              "gaps": [
+                [
+                  "all"
+                ],
+                [
+                  "history"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                91.8,
+                119.7
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Speaker 5 hated {} and used to invent excuses so as not to do it.",
+              "gaps": [
+                [
+                  "PE"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                120.8,
+                145.7
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Speaker 6’s favourite subjects were {} and {}.",
+              "gaps": [
+                [
+                  "math",
+                  "maths"
+                ],
+                [
+                  "biology"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                146.2,
+                178.09
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11A-sb5de",
+          "origin": "SB",
+          "instruction": "Talk about when you were at school",
+          "note": "SB 5d–e (вопросы из рамки)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You and the student are talking about when you were at school. Ask the questions one at a time: Did you like school? Why (not)? Did you love or hate certain subjects? Did you use to be disorganized or very organized, be late for school, get a lot of homework, have a teacher you really liked or hated, wear a uniform? After each answer, ask for an example and say something short about yourself, then ask the next question.",
+              "goal": "Answer questions about your school days. Use used to.",
+              "opener": "Did you like school?",
+              "criteria": [
+                "answers with reasons and examples",
+                "uses used to / didn’t use to + verb correctly",
+                "asks at least one question back, e.g. What about you?"
+              ],
+              "steps": [
+                {
+                  "text": "Say if you liked school and why",
+                  "example": "Yes, I did. I had a lot of friends and I really liked my teachers."
+                },
+                {
+                  "text": "Say which subjects you loved or hated",
+                  "example": "I loved history, but I hated chemistry."
+                },
+                {
+                  "text": "Say what you used to do",
+                  "example": "I used to be very disorganized. I was often late for school."
+                },
+                {
+                  "text": "Talk about a teacher",
+                  "example": "I used to have a maths teacher I really liked."
+                },
+                {
+                  "text": "Ask about your partner",
+                  "example": "What about you? Did you use to wear a uniform?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

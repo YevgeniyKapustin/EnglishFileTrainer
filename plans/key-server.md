@@ -1,6 +1,6 @@
 # Сервер-ключник для ИИ
 
-Сделан 29.09.2026, кроме хостинга. Основной план — `../PLAN.md`, ИИ в приложении — `ai.md`, запуск — `../server/README.md`.
+Сделан и запущен 29.09.2026. Основной план — `../PLAN.md`, ИИ в приложении — `ai.md`, запуск — `../server/README.md`.
 
 ## Суть
 
@@ -28,7 +28,7 @@
 
 ## Открыто
 
-- Хостинг — дешёвый VPS или контейнерный хостинг с HTTPS; после него вписать `ai.serverUrl` и собрать release.
+- Хостинг: VPS DigitalOcean `209.38.199.119`, `https://ai-teacher.cow-studio.com` (Cloudflare proxy → nginx + certbot → `127.0.0.1:8090`). Бинарник `/opt/ai-teacher/keyserver`, секреты `/opt/ai-teacher/.env`, служба systemd `ai-teacher`. Обновить: собрать `GOOS=linux GOARCH=amd64 CGO_ENABLED=0`, залить, `systemctl restart ai-teacher`.
 - Потолок расходов в кабинете DeepSeek.
 
 ## Безопасность

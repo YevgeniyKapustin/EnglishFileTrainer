@@ -4,6 +4,7 @@ import (
 	"context"
 	"errors"
 	"log/slog"
+	"net"
 	"net/http"
 	"os"
 	"os/signal"
@@ -30,7 +31,7 @@ func run(logger *slog.Logger) error {
 		return err
 	}
 	server := &http.Server{
-		Addr:              ":" + cfg.port,
+		Addr:              net.JoinHostPort(cfg.host, cfg.port),
 		Handler:           newProxy(cfg, &http.Client{Timeout: upstreamTimeout}, logger, time.Now).routes(),
 		ReadHeaderTimeout: 10 * time.Second,
 		ReadTimeout:       30 * time.Second,

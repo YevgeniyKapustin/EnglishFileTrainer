@@ -19,6 +19,7 @@ const (
 type config struct {
 	upstreamKey     string
 	appKeys         []string
+	host            string
 	port            string
 	ratePerMin      int
 	dailyTokenLimit int64
@@ -31,6 +32,7 @@ func loadConfig(getenv func(string) string) (config, error) {
 	cfg := config{
 		upstreamKey: strings.TrimSpace(getenv("DEEPSEEK_API_KEY")),
 		appKeys:     splitKeys(getenv("APP_KEYS")),
+		host:        strings.TrimSpace(getenv("HOST")),
 		port:        valueOr(getenv("PORT"), defaultPort),
 		upstreamURL: valueOr(getenv("UPSTREAM_URL"), defaultUpstreamURL),
 	}

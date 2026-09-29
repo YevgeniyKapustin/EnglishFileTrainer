@@ -48,7 +48,8 @@ class AllChaptersViewModel(
                     ch == current -> ChapterStatus.CURRENT
                     else -> ChapterStatus.AHEAD
                 }
-            ChapterRow(ch, status, Mastery.share(ch.exercises, progress))
+            val mastered = if (status == ChapterStatus.CURRENT) Mastery.share(ch.exercises, progress) else 0.0
+            ChapterRow(ch, status, mastered)
         }
     }
 

@@ -1,0 +1,2900 @@
+{
+  "id": "8A",
+  "title": "Should I stay or should I go?",
+  "bubbles": [
+    "Should I leave him?",
+    "No, I think you should stay."
+  ],
+  "sources": "SB p.62–63 (PDF 63–64), Grammar Bank p.140–141 (PDF 141–142), Vocabulary Bank p.159 (PDF 160), scripts 8.1, 8.5–8.10 SB p.123 (PDF 124); WB p.54–55 (PDF 53–54), key WB p.92 (PDF 91)",
+  "sections": [
+    {
+      "id": "8A-skills",
+      "kind": "SKILLS",
+      "title": "Reading & Listening",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Dear Graham",
+          "text": "Tracey is 24 and her partner is 46. They have a wonderful relationship, but he has already been married, had children and owned a business, and she is just starting her life. She wants to have children, but he isn’t sure. Should she leave him? Graham Norton answers her in his advice column (8.1)."
+        },
+        {
+          "type": "note",
+          "title": "What’s the problem?",
+          "text": "Three people phone a radio programme and an expert gives them advice: Annabel and Peter, whose 25-year-old son still lives at home (8.5–8.6), Nick, whose girlfriend wants to move to London (8.7–8.8), and Jane, whose friend has invited somebody Jane doesn’t know on their holiday (8.9–8.10)."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "8A-sb1a",
+          "origin": "SB",
+          "instruction": "If you have a problem that you need to talk about, do you talk to a friend or to a member of your family? Why?",
+          "note": "SB 1a — вопрос для обсуждения → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You talk about who you go to with a problem. Ask the student: If you have a problem that you need to talk about, do you talk to a friend or to a member of your family? Why? Who exactly? Do they give good advice? React with interest and ask one or two follow-up questions. Then give your own answer: you usually talk to your best friend Lucy, because she is a good listener and she doesn’t tell anybody, but for money problems you talk to your dad. Use short, simple sentences. If the student makes a mistake with should (e.g. She should to listen, She shoulds), repeat the correct form naturally in your reply.",
+              "goal": "Say who you talk to when you have a problem and why.",
+              "opener": "Hi! If you have a problem, who do you talk to – a friend or somebody in your family?",
+              "criteria": [
+                "says who they talk to (a friend or a member of the family) and gives at least one reason with because",
+                "gives a little more detail (who exactly, what kind of problems, what advice they get)",
+                "reacts to the partner’s answer or asks a question back"
+              ],
+              "steps": [
+                {
+                  "text": "Say who you talk to",
+                  "example": "I usually talk to my sister."
+                },
+                {
+                  "text": "Say why",
+                  "example": "Because she’s a good listener and she always gives good advice."
+                },
+                {
+                  "text": "Ask your classmate the same question",
+                  "example": "What about you? Do you talk to a friend or to your family?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8A-sb1b",
+          "origin": "SB",
+          "instruction": "Read the problem and the three possible options. Which of the three pieces of advice do you agree with? Why?",
+          "note": "SB 1b (прочитать письмо Tracey и три совета, обсудить с партнёром) → Write, проверяет ИИ. Фото Graham Norton из SB p.62 (tools/images.py) в images",
+          "images": [
+            "8a_sb1b_graham"
+          ],
+          "context": "Dear Graham, I’m 24 and my partner is 46. We’ve been together for two years, and we have a wonderful relationship. I also have a great relationship with his children from his previous marriage. But I feel worried when I think about our future together. He has already lived life. He’s been married, he’s had children, and he’s owned a business. I’m just starting my life. I want to have children, but he’s not sure. I love him and I want to be with him, but I also want to share the adventures of life with someone. Should I leave him? Am I making my life more difficult by choosing to be with someone who’s more than 20 years older than me? Tracey\n\nWhat should Tracey do?\na She should leave him and find somebody who is nearer her age and shares her interests.\nb She should think hard about what kind of man she really wants to be with before making a decision.\nc She should stay with him if she loves him. Being with an older man has advantages as well as disadvantages.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Which advice do you agree with? Answer in 2–4 sentences and say why.",
+              "questions": [
+                {
+                  "text": "Which of the three pieces of advice do you agree with?",
+                  "hint": "(I agree with… I think she should…)"
+                },
+                {
+                  "text": "Why?",
+                  "hint": "(because…)"
+                },
+                {
+                  "text": "What do you think she shouldn’t do?",
+                  "hint": "(I don’t think she should…)"
+                }
+              ],
+              "criteria": [
+                "says which advice (a, b, or c) they agree with and gives at least one reason",
+                "uses should / shouldn’t + infinitive without to correctly at least twice",
+                "uses I don’t think she should… (not I think she shouldn’t…) if they give negative advice"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8A-sb1c",
+          "origin": "SB",
+          "instruction": "Listen to Tracey reading Graham’s advice. Which of the three options does Graham think is right? Write the sentence. Then complete the reasons",
+          "note": "SB 1c; выбор a/b/c → Rewrite: три совета в prompt, ответ — верный целиком; «Why?» → Blank по напечатанному скрипту 8.1 (SB p.123)",
+          "audio": "8.1",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "She should leave him and find somebody who is nearer her age and shares her interests.\nShe should think hard about what kind of man she really wants to be with before making a decision.\nShe should stay with him if she loves him. Being with an older man has advantages as well as disadvantages.",
+              "answers": [
+                "She should think hard about what kind of man she really wants to be with before making a decision."
+              ],
+              "explain": "Graham says: You should think carefully about what kind of partner you really want… When you’re clearer about what you want, then you can decide.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The answer to Tracey’s last question is ‘yes’. She’s making her life more {}.",
+              "gaps": [
+                [
+                  "difficult"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Her partner has already done all the things she {} to do.",
+              "gaps": [
+                [
+                  "wants"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "He’ll never get as {} as her about a wedding or having another child.",
+              "gaps": [
+                [
+                  "excited"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "She should think about what kind of {} she really wants.",
+              "gaps": [
+                [
+                  "partner"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "She shouldn’t make a decision in a {}.",
+              "gaps": [
+                [
+                  "hurry"
+                ]
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "8A-sb4b",
+          "origin": "SB",
+          "instruction": "Listen to Annabel and Peter phoning a radio programme. Complete the notes about their son",
+          "note": "SB 4b (make notes about their son) → Blank по напечатанному скрипту 8.5 (SB p.123). 4a (угадать проблему по трём советам) отдельно не переносили — советы есть в 8A-sb4d",
+          "audio": "8.5",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Their son Jamie is {} years old.",
+              "gaps": [
+                [
+                  "25",
+                  "twenty-five"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "He works full-time as a {}.",
+              "gaps": [
+                [
+                  "chef",
+                  "cook"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "He still lives with his parents because it’s too expensive to {} a flat.",
+              "gaps": [
+                [
+                  "rent"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "He gives them a bit of money every month for {}.",
+              "gaps": [
+                [
+                  "bills",
+                  "the bills"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "He’s planning a two-week holiday to {} with his friends.",
+              "gaps": [
+                [
+                  "Mexico"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "His parents think he should save his money so that he can get his own place to {}.",
+              "gaps": [
+                [
+                  "live"
+                ]
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "8A-sb4c",
+          "origin": "SB",
+          "instruction": "You are the expert on the radio programme. Listen to the callers and give them advice",
+          "note": "SB 4c, 4e, 4f («choose the best advice… compare with a partner») → разговор с ИИ: ИИ по очереди играет трёх звонящих (Annabel, Nick, Jane), ученик — эксперт и советует с should",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "Role play for an English class (level: pre-intermediate). The student is the expert on the radio programme ‘What’s the problem?’. You play three callers, one after another. 1) Annabel: your son Jamie is 25, a chef, still lives at home because renting a flat is too expensive, gives you only a little money for bills, and now wants to go on a two-week holiday to Mexico with his friends. Should you tell him he can’t go? 2) Nick: you’ve been with your girlfriend for three years; she wants to move from Bolton to London to get a better job and wants you to come, but you have a good job and a good salary in Bolton. Should you follow her or stay? 3) Jane: you planned a holiday in Turkey with your old friend Susan, but Susan has invited another friend, Angie, whom you don’t know, and she didn’t ask you. What should you do? Tell each problem in 3–4 short sentences, then ask What should I do? Listen to the advice, react (That’s a good idea / But I don’t want to…), and ask one follow-up question before you say thank you and move on to the next caller. If the student says should to or I think you shouldn’t, repeat the advice naturally with the correct form (you should go… / I don’t think you should…).",
+              "goal": "Give advice to three callers with should.",
+              "opener": "Hello, is that ‘What’s the problem?’? I’m Annabel. We’ve got a son, Jamie, and he’s 25…",
+              "criteria": [
+                "gives each caller at least one piece of advice with should / shouldn’t + infinitive without to",
+                "uses I think you should… / I don’t think you should… at least once",
+                "gives a reason for the advice (because…, so…)",
+                "answers the callers’ follow-up questions"
+              ],
+              "steps": [
+                {
+                  "text": "Advice for Annabel and Peter about their son",
+                  "example": "I think you should let him go, but he should start paying rent."
+                },
+                {
+                  "text": "Advice for Nick about London",
+                  "example": "You shouldn’t make a decision in a hurry. You should talk to her about your dreams."
+                },
+                {
+                  "text": "Advice for Jane about the holiday",
+                  "example": "I think you should get to know Angie first."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8A-sb4d",
+          "origin": "SB",
+          "instruction": "Listen to the expert’s advice. Which advice does she give? Write the sentence. Then complete her advice",
+          "note": "SB 4d; три совета из 4a → Rewrite, ответ — совет эксперта целиком; детали — Blank по напечатанному скрипту 8.6 (SB p.123)",
+          "audio": "8.6",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "They should tell their 25-year-old son that he can’t go on holiday – he needs to save money.\nThey should let him go – everybody needs a holiday.\nThey should let him go, but they should ask him to start paying rent.",
+              "answers": [
+                "They should let him go, but they should ask him to start paying rent."
+              ],
+              "explain": "The expert says: you should let him go to Mexico, but when he comes back you should… talk to him about starting to pay rent.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "It’s good that he has a job, and everybody needs a {}.",
+              "gaps": [
+                [
+                  "holiday"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "He needs to start planning for the {}.",
+              "gaps": [
+                [
+                  "future"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "A lot of young people still live at home in their 20s and 30s, so in many ways Annabel and Peter are {}.",
+              "gaps": [
+                [
+                  "lucky"
+                ]
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "8A-sb4e",
+          "origin": "SB",
+          "instruction": "Listen to Nick’s problem. Complete the sentences",
+          "note": "SB 4e, первая часть (8.7) → Blank по напечатанному скрипту (SB p.123); выбор совета — 8A-sb4c (разговор), ответ эксперта — 8A-sb4e2",
+          "audio": "8.7",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Nick has been with his girlfriend for {} years.",
+              "gaps": [
+                [
+                  "three",
+                  "3"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "She’s clever and popular, and he’s quiet and {}.",
+              "gaps": [
+                [
+                  "hard-working",
+                  "hardworking"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "She wants to move to London because she thinks she can get a better {} there.",
+              "gaps": [
+                [
+                  "job"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "They live in {} now.",
+              "gaps": [
+                [
+                  "Bolton"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Nick has a good job there and he gets a good {}.",
+              "gaps": [
+                [
+                  "salary"
+                ]
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "8A-sb4e2",
+          "origin": "SB",
+          "instruction": "Listen to the expert’s advice for Nick. Which advice does she give? Write the sentence. Then complete her advice",
+          "note": "SB 4e, вторая часть (8.8); выбор a/b/c → Rewrite, ответ — совет эксперта целиком, по напечатанному скрипту (SB p.123)",
+          "audio": "8.8",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "He should stay where he has a job, and see his girlfriend at weekends.\nHe should go with her and start a new life.\nHe should tell her to stay where they are if she wants to stay together.",
+              "answers": [
+                "He should stay where he has a job, and see his girlfriend at weekends.",
+                "He should stay where he has a job and see his girlfriend at weekends."
+              ],
+              "explain": "The expert says: maybe she can move there first and you can go at weekends and see how you feel about life there.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "They should sit down together and talk about their {} for the future.",
+              "gaps": [
+                [
+                  "dreams"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "The first thing is for her to look for a {} in London.",
+              "gaps": [
+                [
+                  "job"
+                ]
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "8A-sb4f",
+          "origin": "SB",
+          "instruction": "Listen to Jane’s problem. Complete the sentences",
+          "note": "SB 4f, первая часть (8.9) → Blank по напечатанному скрипту (SB p.123)",
+          "audio": "8.9",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "A month ago Jane and her friend {} decided to go on holiday together.",
+              "gaps": [
+                [
+                  "Susan"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "They are going to {} this summer.",
+              "gaps": [
+                [
+                  "Turkey"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Susan has invited another friend, {}, to come too.",
+              "gaps": [
+                [
+                  "Angie"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Susan never {} Jane what she thought.",
+              "gaps": [
+                [
+                  "asked"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Jane doesn’t want to go on holiday with someone she doesn’t {}.",
+              "gaps": [
+                [
+                  "know"
+                ]
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "8A-sb4f2",
+          "origin": "SB",
+          "instruction": "Listen to the expert’s advice for Jane. Which advice does she give? Write the sentence. Then complete her advice",
+          "note": "SB 4f, вторая часть (8.10); выбор a/b/c → Rewrite, ответ — совет эксперта целиком, по напечатанному скрипту (SB p.123)",
+          "audio": "8.10",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "She should go on holiday with both friends.\nShe should get to know her friend’s friend Angie better, and then decide.\nShe should refuse to go if Angie goes too.",
+              "answers": [
+                "She should get to know her friend’s friend Angie better, and then decide.",
+                "She should get to know her friend’s friend Angie better and then decide."
+              ],
+              "explain": "The expert says: I think you should try to get to know her first. If you like her, then the holiday will probably be a success.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Jane’s friend has been a bit {} and she’s put Jane in a difficult position.",
+              "gaps": [
+                [
+                  "insensitive"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "If she doesn’t like Angie, she should tell her friend she {} going.",
+              "gaps": [
+                [
+                  "isn’t",
+                  "is not",
+                  "aren’t"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "A bad holiday is worse than {} holiday.",
+              "gaps": [
+                [
+                  "no"
+                ]
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8A-grammar",
+      "kind": "GRAMMAR",
+      "title": "should",
+      "reference": [
+        {
+          "type": "table",
+          "title": "should / shouldn’t",
+          "headers": [
+            "Use",
+            "Example"
+          ],
+          "rows": [
+            [
+              "advice",
+              "You should leave your boyfriend."
+            ],
+            [
+              "advice",
+              "She’s very stressed. She shouldn’t work so hard."
+            ],
+            [
+              "advice",
+              "You shouldn’t drink coffee in the evening. It’ll keep you awake."
+            ],
+            [
+              "I think you should…",
+              "I think you should get a new job."
+            ],
+            [
+              "I don’t think you should…",
+              "I don’t think you should speak to him."
+            ]
+          ],
+          "audio": "8.2"
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "Use should / shouldn’t + verb (infinitive without to) to give somebody advice or to say what we think is the right thing to do. should / shouldn’t is the same for all persons: I should, she should, they should."
+        },
+        {
+          "type": "note",
+          "title": "Negatives and questions",
+          "text": "Negative: should not → shouldn’t: You shouldn’t make a decision in a hurry. Question: put should before the subject: Should I leave him? What should I do? Don’t use do / does."
+        },
+        {
+          "type": "note",
+          "title": "I think / I don’t think",
+          "text": "We often use I think you should… or I don’t think you should… to give advice. For negative advice use I don’t think you should…, NOT I think you shouldn’t…"
+        },
+        {
+          "type": "note",
+          "title": "ought to",
+          "text": "You can also use ought to / ought not to instead of should / shouldn’t, e.g. You ought to leave your boyfriend. She ought not to work so hard."
+        },
+        {
+          "type": "mistake",
+          "wrong": "I think you shouldn’t speak to him.",
+          "right": "I don’t think you should speak to him.",
+          "why": "With think, make think negative, not should."
+        },
+        {
+          "type": "mistake",
+          "wrong": "You should to see a doctor.",
+          "right": "You should see a doctor.",
+          "why": "should + infinitive without to."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "8A-sb2a",
+          "origin": "SB",
+          "instruction": "Look at the sentences. Answer the questions",
+          "note": "SB 2a (Should I leave him? / She should stay with him. / You shouldn’t make a decision in a hurry.; вопросы 1–3) → Blank; 1 a/b/c — варианты в hint, 3 — отрицание и вопрос отдельными пунктами. MODEL",
+          "context": "Should I leave him?\nShe should stay with him.\nYou shouldn’t make a decision in a hurry.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "We use should for {}. (rules / advice / permission)",
+              "gaps": [
+                [
+                  "advice"
+                ]
+              ],
+              "explain": "should gives advice or says what we think is the right thing to do.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Does should change in sentences with the third person? {}",
+              "gaps": [
+                [
+                  "No",
+                  "No, it doesn’t",
+                  "No, it does not",
+                  "No, it doesn’t."
+                ]
+              ],
+              "explain": "should is the same for all persons: she should, NOT she shoulds.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Make the negative: You {} make a decision in a hurry.",
+              "gaps": [
+                [
+                  "shouldn’t",
+                  "should not"
+                ]
+              ],
+              "explain": "Negative: should + not → shouldn’t. No don’t / doesn’t.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Make the question: {} I leave him?",
+              "gaps": [
+                [
+                  "Should"
+                ]
+              ],
+              "explain": "Question: should goes before the subject. No do / does.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8A-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete with should or shouldn’t",
+          "note": "GB 8A a; пример You should lose a bit of weight. Картинка врача и пациента из GB p.141 (tools/images.py) в images. Ответы MODEL",
+          "images": [
+            "8a_gba_doctor"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "You {} work really long hours every day.",
+              "gaps": [
+                [
+                  "shouldn’t",
+                  "should not"
+                ]
+              ],
+              "explain": "Working very long hours is bad for you: shouldn’t.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "You {} stop smoking.",
+              "gaps": [
+                [
+                  "should"
+                ]
+              ],
+              "explain": "Stopping smoking is a good idea: should.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "You {} eat more fruit and vegetables.",
+              "gaps": [
+                [
+                  "should"
+                ]
+              ],
+              "explain": "A good idea: should.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "You {} put so much sugar in your coffee.",
+              "gaps": [
+                [
+                  "shouldn’t",
+                  "should not"
+                ]
+              ],
+              "explain": "so much sugar is bad for you: shouldn’t.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "You {} start doing some exercise.",
+              "gaps": [
+                [
+                  "should"
+                ]
+              ],
+              "explain": "A good idea: should.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "You {} drink less alcohol.",
+              "gaps": [
+                [
+                  "should"
+                ]
+              ],
+              "explain": "less alcohol is a good idea: should.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "You {} drink more water.",
+              "gaps": [
+                [
+                  "should"
+                ]
+              ],
+              "explain": "A good idea: should.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "You {} go to bed so late.",
+              "gaps": [
+                [
+                  "shouldn’t",
+                  "should not"
+                ]
+              ],
+              "explain": "Going to bed so late is bad for you: shouldn’t.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8A-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the sentences with should or shouldn’t + a verb from the list",
+          "note": "GB 8A b; пример We should leave now (leave — зачёркнуто, в список не вошло). Ответы MODEL",
+          "words": [
+            "be",
+            "buy",
+            "book",
+            "drive",
+            "relax",
+            "spend",
+            "study",
+            "wear"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "You {} a scarf. It’s really cold today.",
+              "gaps": [
+                [
+                  "should wear"
+                ]
+              ],
+              "explain": "It’s cold, so wearing a scarf is a good idea: should wear.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I {} this afternoon. I have an exam tomorrow.",
+              "gaps": [
+                [
+                  "should study"
+                ]
+              ],
+              "explain": "An exam tomorrow → should study.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "You {} a holiday. You need a break.",
+              "gaps": [
+                [
+                  "should book"
+                ]
+              ],
+              "explain": "book a holiday → should book.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "You look really ill. You {} at work.",
+              "gaps": [
+                [
+                  "shouldn’t be",
+                  "should not be"
+                ]
+              ],
+              "explain": "You’re ill, so being at work is a bad idea: shouldn’t be.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "She {} more. She’s very stressed at the moment.",
+              "gaps": [
+                [
+                  "should relax"
+                ]
+              ],
+              "explain": "She’s stressed → should relax.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "You {} so fast – this road’s very dangerous.",
+              "gaps": [
+                [
+                  "shouldn’t drive",
+                  "should not drive"
+                ]
+              ],
+              "explain": "A dangerous road → shouldn’t drive so fast.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Parents {} more time with their children.",
+              "gaps": [
+                [
+                  "should spend"
+                ]
+              ],
+              "explain": "spend time with somebody → should spend.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "You {} him an iPad – he’s only seven years old.",
+              "gaps": [
+                [
+                  "shouldn’t buy",
+                  "should not buy"
+                ]
+              ],
+              "explain": "He’s too young → shouldn’t buy.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8A-sb2c",
+          "origin": "SB",
+          "instruction": "Read the messages. What should the people do? Write a short answer to each message",
+          "note": "SB 2c → Write, проверяет ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Write a short answer with advice to each message.",
+              "questions": [
+                {
+                  "text": "My neighbours have noisy parties every weekend. I can’t sleep and it’s driving me mad!",
+                  "hint": "(You should talk to…)"
+                },
+                {
+                  "text": "It was my girlfriend’s birthday yesterday, and I forgot to get her anything. She isn’t happy.",
+                  "hint": "(I think you should…)"
+                },
+                {
+                  "text": "I share a flat with a friend, but she never does any housework.",
+                  "hint": "(You should ask her to…)"
+                },
+                {
+                  "text": "My ten-year-old son wants a smartphone – he says all his friends have one.",
+                  "hint": "(I don’t think you should…)"
+                }
+              ],
+              "criteria": [
+                "answers all four messages with advice that fits the problem",
+                "uses should / shouldn’t + infinitive without to correctly (no should to, no shoulds)",
+                "uses I think you should… or I don’t think you should… at least once, and not I think you shouldn’t…"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8A-wb1a",
+          "origin": "WB",
+          "instruction": "Read problems A–G. Complete the advice with should / shouldn’t and a verb from the list. Then match the advice to the problem",
+          "note": "WB 1a; 1 You should get a cat (C) — пример, get в список не вошло. Два пропуска: совет + буква проблемы",
+          "context": "A I find it really difficult to get up in the morning, and I’m often late for work. My boss has noticed, and she’s quite angry with me. What should I do?\nB Yesterday, I hurt my foot while I was playing football. It didn’t seem very serious at the time, but now my foot has gone blue. What’s your advice?\nC I want to have a pet, but I work all day and there is nobody at home. What should I do?\nD I really like one of my colleagues at work, and I think she likes me, too. I’d really like to go out with her, but I don’t know how to ask her. Any advice?\nE I have three children, and they all have terrible problems with their teeth. We’re always at the dentist’s and each visit costs a lot of money. Any advice?\nF I have problems sleeping at night. I have a lot of coffee breaks during the day. Perhaps it’s the caffeine? What should I do?\nG I’ve had an argument with my boyfriend, and I don’t know what to do. I feel very stupid, and I really want to see him again. What do you think I should do?",
+          "words": [
+            "call",
+            "drink",
+            "give",
+            "go",
+            "see",
+            "tell"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "You {} coffee all day. Problem {}",
+              "gaps": [
+                [
+                  "shouldn’t drink",
+                  "should not drink"
+                ],
+                [
+                  "F"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "You {} to bed earlier. Problem {}",
+              "gaps": [
+                [
+                  "should go"
+                ],
+                [
+                  "A"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "You {} a doctor. Problem {}",
+              "gaps": [
+                [
+                  "should see"
+                ],
+                [
+                  "B"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Don’t worry. You {} him how you feel. Problem {}",
+              "gaps": [
+                [
+                  "should tell"
+                ],
+                [
+                  "G"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "You {} them sweets. Problem {}",
+              "gaps": [
+                [
+                  "shouldn’t give",
+                  "should not give"
+                ],
+                [
+                  "E"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "You {} her and invite her to dinner. Problem {}",
+              "gaps": [
+                [
+                  "should call"
+                ],
+                [
+                  "D"
+                ]
+              ],
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "8A-wb1b",
+          "origin": "WB",
+          "instruction": "Rewrite the sentences with should or shouldn’t and the verb in brackets",
+          "note": "WB 1b; 1 It isn’t a good idea for you to apologize → I don’t think you should apologize — пример. Начало фразы из книги и глагол «in bold» — в hint, фраза пишется целиком",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "It’s always a good idea to wear a hat in the sun.",
+              "hint": "(You… / wear)",
+              "answers": [
+                "You should wear a hat in the sun.",
+                "You should always wear a hat in the sun."
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "It’s a bad idea to buy that old house.",
+              "hint": "(You… / buy)",
+              "answers": [
+                "You shouldn’t buy that old house.",
+                "You should not buy that old house."
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "If you’re in London, it’s a good idea to visit the British Museum.",
+              "hint": "(If you’re in London, you… / visit)",
+              "answers": [
+                "If you’re in London, you should visit the British Museum.",
+                "If you’re in London you should visit the British Museum."
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "I know it isn’t a good idea for me to have another chocolate.",
+              "hint": "(I know I… / have)",
+              "answers": [
+                "I know I shouldn’t have another chocolate.",
+                "I know I should not have another chocolate."
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "It’s a good idea for us to get a new car.",
+              "hint": "(We… / get)",
+              "answers": [
+                "We should get a new car."
+              ],
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "8A-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the advice with should or shouldn’t and the verb in brackets.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "You’re very tired. You {} to bed. (go)",
+              "gaps": [
+                [
+                  "should go"
+                ]
+              ],
+              "explain": "Tired → going to bed is a good idea: should go.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "It’s very late. The children {} TV now. (watch)",
+              "gaps": [
+                [
+                  "shouldn’t watch",
+                  "should not watch"
+                ]
+              ],
+              "explain": "It’s late → watching TV is a bad idea: shouldn’t watch.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "He {} so much. He spends all his money on clothes. (shop)",
+              "gaps": [
+                [
+                  "shouldn’t shop",
+                  "should not shop"
+                ]
+              ],
+              "explain": "Spending all his money is bad → shouldn’t shop.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "That film is fantastic. You {} it. (see)",
+              "gaps": [
+                [
+                  "should see"
+                ]
+              ],
+              "explain": "A recommendation: should see.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "It’s raining. We {} an umbrella. (take)",
+              "gaps": [
+                [
+                  "should take"
+                ]
+              ],
+              "explain": "Rain → should take an umbrella.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "She {} her phone while she’s driving. (use)",
+              "gaps": [
+                [
+                  "shouldn’t use",
+                  "should not use"
+                ]
+              ],
+              "explain": "Using a phone while driving is dangerous: shouldn’t use.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8A-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Put the words in the correct order.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "I / do / should / What / ?",
+              "answers": [
+                "What should I do?"
+              ],
+              "explain": "Wh- word + should + subject + verb: What should I do?",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "we / should / Should / leave / now / ?",
+              "answers": [
+                "Should we leave now?"
+              ],
+              "explain": "Question: Should + subject + verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "shouldn’t / so much / You / coffee / drink / .",
+              "answers": [
+                "You shouldn’t drink so much coffee."
+              ],
+              "explain": "Subject + shouldn’t + verb + so much + noun.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "think / I / should / you / her / call / .",
+              "answers": [
+                "I think you should call her."
+              ],
+              "explain": "I think + you should + verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "don’t / I / think / should / you / go / .",
+              "answers": [
+                "I don’t think you should go."
+              ],
+              "explain": "Negative advice: I don’t think you should…",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8A-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistake in each sentence.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "You should to see a doctor.",
+              "answers": [
+                "You should see a doctor."
+              ],
+              "explain": "should + infinitive without to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "She shoulds go to bed earlier.",
+              "answers": [
+                "She should go to bed earlier."
+              ],
+              "explain": "should is the same for all persons: she should.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Do I should call him?",
+              "answers": [
+                "Should I call him?"
+              ],
+              "explain": "Questions with should don’t use do: Should I…?",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "He doesn’t should work so hard.",
+              "answers": [
+                "He shouldn’t work so hard.",
+                "He should not work so hard."
+              ],
+              "explain": "Negative: shouldn’t, not doesn’t should.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "I think you shouldn’t buy that car.",
+              "answers": [
+                "I don’t think you should buy that car.",
+                "I do not think you should buy that car."
+              ],
+              "explain": "Make think negative: I don’t think you should…",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8A-grammar-x4",
+          "origin": "GENERATED",
+          "instruction": "Give advice. Rewrite the sentences with the words in brackets.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "It’s a good idea to talk to your boss.",
+              "hint": "(I think you…)",
+              "answers": [
+                "I think you should talk to your boss."
+              ],
+              "explain": "Positive advice: I think you should + verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "It isn’t a good idea to go out tonight.",
+              "hint": "(I don’t think you…)",
+              "answers": [
+                "I don’t think you should go out tonight.",
+                "I do not think you should go out tonight."
+              ],
+              "explain": "Negative advice: I don’t think you should + verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "You should leave your boyfriend.",
+              "hint": "(ought)",
+              "answers": [
+                "You ought to leave your boyfriend."
+              ],
+              "explain": "ought to = should: You ought to leave…",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "She shouldn’t work so hard.",
+              "hint": "(ought)",
+              "answers": [
+                "She ought not to work so hard."
+              ],
+              "explain": "ought not to = shouldn’t.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8A-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "/ʊ/ and /uː/",
+      "reference": [
+        {
+          "type": "table",
+          "title": "/ʊ/ and /uː/",
+          "headers": [
+            "Sound",
+            "Words"
+          ],
+          "rows": [
+            [
+              "bull /ʊ/ (short)",
+              "should, would, good, put"
+            ],
+            [
+              "boot /uː/ (long)",
+              "choose, do, truth, you"
+            ]
+          ],
+          "audio": "8.3"
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "/ʊ/ is a short sound and /uː/ is a long sound. The l in should, would, and could isn’t pronounced."
+        },
+        {
+          "type": "note",
+          "title": "oo",
+          "text": "oo can be /ʊ/ (book, look, good) or /uː/ (cool, food, school). Other spellings of /uː/: ew (flew), o (do, lose), oe (shoes), ou (you), u (truth)."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "8A-sb3a",
+          "origin": "SB",
+          "instruction": "Listen and repeat the words and sounds",
+          "note": "SB 3a → Speak слов и звуков; клипы по аудио 8.3",
+          "audio": "8.3",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "bull",
+              "clip": [
+                0,
+                1.12
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "should",
+              "clip": [
+                4.42,
+                5.54
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "would",
+              "clip": [
+                7.03,
+                8.06
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "good",
+              "clip": [
+                9.55,
+                10.67
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "put",
+              "clip": [
+                12.16,
+                13.13
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "boot",
+              "clip": [
+                14.65,
+                15.79
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "choose",
+              "clip": [
+                19.35,
+                20.68
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "do",
+              "clip": [
+                22.16,
+                23.3
+              ]
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "truth",
+              "clip": [
+                24.79,
+                26.07
+              ]
+            },
+            {
+              "n": 10,
+              "type": "speak",
+              "text": "you",
+              "clip": [
+                27.56,
+                28.75
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8A-sb3a2",
+          "origin": "SB",
+          "instruction": "What’s the difference between the two sounds?",
+          "note": "SB 3a, вопрос → Sort по колонкам bull / boot, чтобы звук выбирали, а не печатали. MODEL",
+          "columns": [
+            "bull /ʊ/",
+            "boot /uː/"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "sort",
+              "word": "a short sound",
+              "column": 1,
+              "explain": "/ʊ/ (bull) is short.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "sort",
+              "word": "a long sound",
+              "column": 2,
+              "explain": "/uː/ (boot) is long – the : shows it.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8A-sb3a3",
+          "origin": "SB",
+          "instruction": "Which consonant isn’t pronounced in should and would?",
+          "note": "SB 3a, вопрос → Blank на букву. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "The {} in should and would isn’t pronounced.",
+              "gaps": [
+                [
+                  "l",
+                  "L"
+                ]
+              ],
+              "explain": "should /ʃʊd/, would /wʊd/ – no l sound. The same in could.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8A-sb3b",
+          "origin": "SB",
+          "instruction": "Which sound do the pink letters have? Put the words in the correct row. Then listen and check",
+          "note": "SB 3b → Sort по колонкам bull / boot, розовые буквы как в книге. Ответы по аудио 8.4",
+          "audio": "8.4",
+          "columns": [
+            "bull /ʊ/",
+            "boot /uː/"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "sort",
+              "word": "b[oo]k",
+              "column": 1,
+              "source": "CONFIRMED",
+              "clip": [
+                4.47,
+                5.54
+              ]
+            },
+            {
+              "n": 2,
+              "type": "sort",
+              "word": "c[oo]l",
+              "column": 2,
+              "source": "CONFIRMED",
+              "clip": [
+                22.31,
+                23.5
+              ]
+            },
+            {
+              "n": 3,
+              "type": "sort",
+              "word": "c[ou]ld",
+              "column": 1,
+              "source": "CONFIRMED",
+              "clip": [
+                7.02,
+                8.09
+              ]
+            },
+            {
+              "n": 4,
+              "type": "sort",
+              "word": "fl[ew]",
+              "column": 2,
+              "source": "CONFIRMED",
+              "clip": [
+                24.99,
+                26.25
+              ]
+            },
+            {
+              "n": 5,
+              "type": "sort",
+              "word": "f[oo]d",
+              "column": 2,
+              "source": "CONFIRMED",
+              "clip": [
+                27.81,
+                29.04
+              ]
+            },
+            {
+              "n": 6,
+              "type": "sort",
+              "word": "l[oo]k",
+              "column": 1,
+              "source": "CONFIRMED",
+              "clip": [
+                9.58,
+                10.75
+              ]
+            },
+            {
+              "n": 7,
+              "type": "sort",
+              "word": "l[o]se",
+              "column": 2,
+              "source": "CONFIRMED",
+              "clip": [
+                30.52,
+                31.83
+              ]
+            },
+            {
+              "n": 8,
+              "type": "sort",
+              "word": "p[u]ll",
+              "column": 1,
+              "source": "CONFIRMED",
+              "clip": [
+                12.25,
+                13.42
+              ]
+            },
+            {
+              "n": 9,
+              "type": "sort",
+              "word": "p[u]sh",
+              "column": 1,
+              "source": "CONFIRMED",
+              "clip": [
+                14.88,
+                16.05
+              ]
+            },
+            {
+              "n": 10,
+              "type": "sort",
+              "word": "sh[oe]s",
+              "column": 2,
+              "source": "CONFIRMED",
+              "clip": [
+                33.34,
+                34.74
+              ]
+            },
+            {
+              "n": 11,
+              "type": "sort",
+              "word": "sch[oo]l",
+              "column": 2,
+              "source": "CONFIRMED",
+              "clip": [
+                36.26,
+                37.57
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8A-sb3c",
+          "origin": "SB",
+          "instruction": "Practise saying the sentences",
+          "note": "SB 3c → Speak; трека у упражнения нет",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "What should I do?"
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "You shouldn’t lose your cool."
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "You should tell the truth."
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "What school should they choose?"
+            }
+          ]
+        },
+        {
+          "id": "8A-wb2a",
+          "origin": "WB",
+          "instruction": "Write the word with a different sound",
+          "note": "WB 2a «Circle the word with a different sound»; 1 bull: pull, food, would → food — пример. Звук ряда в тексте, ответ — слово",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "boot /uː/: could, you, soon → {}",
+              "gaps": [
+                [
+                  "could"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "bull /ʊ/: woman, wouldn’t, soup → {}",
+              "gaps": [
+                [
+                  "soup"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "boot /uː/: book, shoes, two → {}",
+              "gaps": [
+                [
+                  "book"
+                ]
+              ],
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "8A-wb2b",
+          "origin": "WB",
+          "instruction": "Say the words",
+          "note": "WB 2b «Listen and check. Then listen again and repeat the words» → Speak без трека (аудио WB нет)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "pull, food, would"
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "could, you, soon"
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "woman, wouldn’t, soup"
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "book, shoes, two"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8A-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "get",
+      "reference": [
+        {
+          "type": "note",
+          "title": "get",
+          "text": "get is one of the most common verbs in English. It has several different meanings, e.g. arrive, become, and can also be used with many prepositions or adverbs with different meanings, e.g. get up, get on with."
+        },
+        {
+          "type": "table",
+          "title": "get",
+          "headers": [
+            "Meaning",
+            "Phrases"
+          ],
+          "rows": [
+            [
+              "become (+ adjective / past participle)",
+              "get angry, get divorced, get fit, get lost, get married, get nervous, get ready"
+            ],
+            [
+              "become (+ comparative)",
+              "get better / get worse, get colder"
+            ],
+            [
+              "buy / obtain",
+              "get a job, get a newspaper, get a ticket"
+            ],
+            [
+              "+ preposition (phrasal verbs)",
+              "get into (out of) a car, get on (off) a bus, get on with (somebody), get up"
+            ],
+            [
+              "arrive",
+              "get home, get to school, get to work"
+            ],
+            [
+              "receive",
+              "get an email (a text message), get a present, get a prize"
+            ]
+          ],
+          "audio": "8.11"
+        },
+        {
+          "type": "mistake",
+          "wrong": "What time do you get to home?",
+          "right": "What time do you get home?",
+          "why": "get home without to (but get to work, get to school)."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "8A-sb5a",
+          "origin": "SB",
+          "instruction": "What does get mean in each sentence? Write the meaning",
+          "note": "SB 5a (match the highlighted phrases to meanings a–c) → Blank со значением из рамки. MODEL",
+          "words": [
+            "buy / obtain",
+            "receive",
+            "become"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "He will never get as excited as you about, for example, a wedding. get = {}",
+              "gaps": [
+                [
+                  "become"
+                ]
+              ],
+              "explain": "get + adjective = become.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "He should save his money so that he can get his own place to live. get = {}",
+              "gaps": [
+                [
+                  "buy / obtain",
+                  "buy",
+                  "obtain",
+                  "buy/obtain"
+                ]
+              ],
+              "explain": "get a place to live = obtain (buy or rent) one.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I get a good salary. get = {}",
+              "gaps": [
+                [
+                  "receive"
+                ]
+              ],
+              "explain": "get a salary = receive money for your work.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8A-vb1a",
+          "origin": "SB",
+          "instruction": "Look at the picture. Complete the phrase with get. Then listen and check",
+          "note": "VB get a+b; картинки из VB p.159 (tools/images.py) у пункта в image, пропуск — слово фразы. 1 get nervous — пример. Ответы по аудио 8.11",
+          "audio": "8.11",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "get {}",
+              "image": "8a_vb1a_2",
+              "gaps": [
+                [
+                  "married"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                12.85,
+                14.18
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "get {}",
+              "image": "8a_vb1a_3",
+              "gaps": [
+                [
+                  "divorced"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                3.36,
+                4.88
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "get {}",
+              "image": "8a_vb1a_4",
+              "gaps": [
+                [
+                  "lost"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                9.7,
+                11.1
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "get {}",
+              "image": "8a_vb1a_5",
+              "gaps": [
+                [
+                  "fit"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                6.64,
+                7.97
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "get {}",
+              "image": "8a_vb1a_6",
+              "gaps": [
+                [
+                  "ready"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                19.07,
+                20.35
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "get {}",
+              "image": "8a_vb1a_7",
+              "gaps": [
+                [
+                  "angry"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                0.2,
+                1.58
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "get {}",
+              "image": "8a_vb1a_8",
+              "gaps": [
+                [
+                  "colder"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                26.19,
+                27.54
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "get {} / get {}",
+              "image": "8a_vb1a_9",
+              "gaps": [
+                [
+                  "better"
+                ],
+                [
+                  "worse"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                22.03,
+                24.45
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "get a {}",
+              "image": "8a_vb1a_10",
+              "gaps": [
+                [
+                  "ticket"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                35.61,
+                36.91
+              ]
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "get a {}",
+              "image": "8a_vb1a_11",
+              "gaps": [
+                [
+                  "job"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                29.23,
+                30.62
+              ]
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "get a {}",
+              "image": "8a_vb1a_12",
+              "gaps": [
+                [
+                  "newspaper"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                32.27,
+                33.89
+              ]
+            },
+            {
+              "n": 13,
+              "type": "blank",
+              "text": "get on {} somebody",
+              "image": "8a_vb1a_13",
+              "gaps": [
+                [
+                  "with"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                45.54,
+                47.28
+              ]
+            },
+            {
+              "n": 14,
+              "type": "blank",
+              "text": "get {}",
+              "image": "8a_vb1a_14",
+              "gaps": [
+                [
+                  "up"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                49.01,
+                50.11
+              ]
+            },
+            {
+              "n": 15,
+              "type": "blank",
+              "text": "get {} (off) a bus",
+              "image": "8a_vb1a_15",
+              "gaps": [
+                [
+                  "on"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                42.15,
+                43.76
+              ]
+            },
+            {
+              "n": 16,
+              "type": "blank",
+              "text": "get {} (out of) a car",
+              "image": "8a_vb1a_16",
+              "gaps": [
+                [
+                  "into",
+                  "in"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                38.63,
+                40.31
+              ]
+            },
+            {
+              "n": 17,
+              "type": "blank",
+              "text": "get to {}",
+              "image": "8a_vb1a_17",
+              "gaps": [
+                [
+                  "work"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                51.86,
+                53.31
+              ]
+            },
+            {
+              "n": 18,
+              "type": "blank",
+              "text": "get {}",
+              "image": "8a_vb1a_18",
+              "gaps": [
+                [
+                  "home"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                58.25,
+                59.56
+              ]
+            },
+            {
+              "n": 19,
+              "type": "blank",
+              "text": "get to {}",
+              "image": "8a_vb1a_19",
+              "gaps": [
+                [
+                  "school"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                54.98,
+                56.46
+              ]
+            },
+            {
+              "n": 20,
+              "type": "blank",
+              "text": "get a {}",
+              "image": "8a_vb1a_20",
+              "gaps": [
+                [
+                  "present"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                64.48,
+                66.01
+              ]
+            },
+            {
+              "n": 21,
+              "type": "blank",
+              "text": "get an {} / a {}",
+              "image": "8a_vb1a_21",
+              "gaps": [
+                [
+                  "email",
+                  "e-mail"
+                ],
+                [
+                  "text message",
+                  "text"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                61.24,
+                62.76
+              ]
+            },
+            {
+              "n": 22,
+              "type": "blank",
+              "text": "get a {}",
+              "image": "8a_vb1a_22",
+              "gaps": [
+                [
+                  "prize"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                67.75,
+                69.27
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8A-sb5c",
+          "origin": "SB",
+          "instruction": "Ask and answer the questions with get",
+          "note": "SB 5c → разговор с ИИ: ИИ задаёт вопросы книги, в конце ученик спрашивает сам",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You ask the student some of these questions, one at a time, and react to the answers with interest (Really? Me too!), sometimes giving your own short answer: When was the last time you got a present? What was it? Who was it from? Do you usually get nervous before exams or presentations? What do you do to feel more relaxed? What website do you use if you want to get tickets to travel or for the cinema, theatre, or concerts? Who do you get on with best in your family? Is there anybody you don’t get on with? How do you get to work / school / university? How long does it usually take you? What’s the first thing you do when you get home? How many messages do you get a day on your phone? Who are they usually from? Do you have a good sense of direction, or do you often get lost? Ask 5–6 questions, then let the student ask you two questions with get. If the student says get to home, repeat the correct phrase naturally (get home).",
+              "goal": "Answer questions with get, then ask two yourself.",
+              "opener": "Hi! When was the last time you got a present? What was it?",
+              "criteria": [
+                "answers at least five questions in full sentences with the correct get phrase (got a present, get nervous, get on with, get to work, get home, get lost…)",
+                "uses the right tense of get (got for the past, get / gets for routines)",
+                "asks the partner at least two questions with get"
+              ],
+              "steps": [
+                {
+                  "text": "Answer about presents, exams and tickets",
+                  "example": "I got a book from my brother for my birthday. I always get nervous before exams."
+                },
+                {
+                  "text": "Answer about your family and getting to work",
+                  "example": "I get on best with my sister. I get to work by bus – it takes about 20 minutes."
+                },
+                {
+                  "text": "Answer about getting home, messages and getting lost",
+                  "example": "When I get home, I have a shower. I get about 50 messages a day. I often get lost!"
+                },
+                {
+                  "text": "Ask two questions with get",
+                  "example": "How do you get to work? Do you often get lost?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8A-wb3a",
+          "origin": "WB",
+          "instruction": "What does get mean in each sentence? Write the meaning",
+          "note": "WB 3a «Match the bold phrases to the meaning of get. Write a, b, c, or d»; 1 get married = c — пример. Вместо буквы — значение из рамки (букву тоже принимаем)",
+          "words": [
+            "buy / obtain (x2)",
+            "receive (x2)",
+            "become (x3)",
+            "arrive (x2)"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Jack had an interview and he got the job. get = {}",
+              "gaps": [
+                [
+                  "buy / obtain",
+                  "obtain",
+                  "buy",
+                  "buy/obtain",
+                  "a"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "It’s going to get colder next week. get = {}",
+              "gaps": [
+                [
+                  "become",
+                  "c"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I get very nervous when I have to speak in front of a lot of people. get = {}",
+              "gaps": [
+                [
+                  "become",
+                  "c"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "It’s a really great book. I’m sure it’ll get a prize. get = {}",
+              "gaps": [
+                [
+                  "receive",
+                  "b"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Sorry to hear you’re ill. I hope you get better soon. get = {}",
+              "gaps": [
+                [
+                  "become",
+                  "c"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Do you think we’ll get to the airport on time? get = {}",
+              "gaps": [
+                [
+                  "arrive",
+                  "d"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "When you go to the shop, could you get a newspaper? get = {}",
+              "gaps": [
+                [
+                  "buy / obtain",
+                  "buy",
+                  "obtain",
+                  "buy/obtain",
+                  "a"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "I got an email from an old school friend yesterday. get = {}",
+              "gaps": [
+                [
+                  "receive",
+                  "b"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "It was almost 3.00 in the morning when we got home from the party. get = {}",
+              "gaps": [
+                [
+                  "arrive",
+                  "d"
+                ]
+              ],
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "8A-wb3b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the correct form of get and a word from the list",
+          "note": "WB 3b; 1 …they’re going to get divorced — пример, divorced в список не вошло",
+          "words": [
+            "fit",
+            "lost",
+            "on",
+            "ready",
+            "text message",
+            "tickets",
+            "to work",
+            "up",
+            "worse"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I don’t feel like {} today. I’m going to stay in bed.",
+              "gaps": [
+                [
+                  "getting up"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Our satnav wasn’t working and we {} on the way to our friends’ house.",
+              "gaps": [
+                [
+                  "got lost"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I’ve started going to the gym because I want to {}.",
+              "gaps": [
+                [
+                  "get fit"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "The pain in my neck was {}, so I went to the doctor.",
+              "gaps": [
+                [
+                  "getting worse"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "This morning I {} for the concert online. They’re very good ones at the front!",
+              "gaps": [
+                [
+                  "got tickets"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "How well do you {} with your brothers and sisters?",
+              "gaps": [
+                [
+                  "get on"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I {} a {} from my boyfriend saying he’s going to be late.",
+              "gaps": [
+                [
+                  "got"
+                ],
+                [
+                  "text message"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Do you always have a coffee as soon as you {}?",
+              "gaps": [
+                [
+                  "get to work"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "Lucy’s in her bedroom. She’s {} for the party.",
+              "gaps": [
+                [
+                  "getting ready"
+                ]
+              ],
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "8A-wb3c",
+          "origin": "WB",
+          "instruction": "Read Dana’s problems. Then make sentences with should and the phrases in the list",
+          "note": "WB 3c; 1 I spend too much… → She should get better at saving money — пример, get better в список не вошло. Фото Даны из WB p.55 (tools/images.py) в images",
+          "images": [
+            "8a_wb3c_dana"
+          ],
+          "words": [
+            "get fit",
+            "get a new job",
+            "get up earlier",
+            "get the bus",
+            "not get stressed"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "‘I’m bored at work.’",
+              "hint": "(She…)",
+              "answers": [
+                "She should get a new job."
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "‘I never have enough time for breakfast.’",
+              "hint": "(She…)",
+              "answers": [
+                "She should get up earlier."
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "‘It’s difficult for me to relax.’",
+              "hint": "(She…)",
+              "answers": [
+                "She shouldn’t get stressed.",
+                "She should not get stressed."
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "‘I get tired very quickly when I play tennis.’",
+              "hint": "(She…)",
+              "answers": [
+                "She should get fit."
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "‘It takes me an hour to walk to work.’",
+              "hint": "(She…)",
+              "answers": [
+                "She should get the bus."
+              ],
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "8A-wb3d",
+          "origin": "WB",
+          "instruction": "Write three things you think you should do to make your life better",
+          "note": "WB 3d → Write, проверяет ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Write three things you think you should do to make your life better. Use get if you can.",
+              "questions": [
+                {
+                  "text": "Thing 1",
+                  "hint": "(I think I should…)"
+                },
+                {
+                  "text": "Thing 2",
+                  "hint": "(I think I should get…)"
+                },
+                {
+                  "text": "Thing 3",
+                  "hint": "(I don’t think I should…)"
+                }
+              ],
+              "criteria": [
+                "writes three different, sensible things",
+                "uses should / shouldn’t + infinitive without to correctly",
+                "uses at least one phrase with get from the lesson (get fit, get up earlier, get a new job…)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8A-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the phrases with get.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I always get {} before exams – my hands shake.",
+              "gaps": [
+                [
+                  "nervous"
+                ]
+              ],
+              "explain": "get nervous = become nervous.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "They met in 2015 and got {} a year later. They had a big wedding.",
+              "gaps": [
+                [
+                  "married"
+                ]
+              ],
+              "explain": "get married – a wedding.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Hurry up! You need to get {} – we’re leaving in five minutes.",
+              "gaps": [
+                [
+                  "ready"
+                ]
+              ],
+              "explain": "get ready = prepare to go out.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "We didn’t have a map, so we got {} in the old town.",
+              "gaps": [
+                [
+                  "lost"
+                ]
+              ],
+              "explain": "get lost = not know where you are.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I get on {} my brother. We never argue.",
+              "gaps": [
+                [
+                  "well with",
+                  "with"
+                ]
+              ],
+              "explain": "get on (well) with somebody = have a good relationship.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Get {} the bus at the next stop – the museum is on the left.",
+              "gaps": [
+                [
+                  "off"
+                ]
+              ],
+              "explain": "get off a bus = leave it.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "It’s winter. It’s getting {} every day.",
+              "gaps": [
+                [
+                  "colder"
+                ]
+              ],
+              "explain": "get + comparative: get colder.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "My dad was so {} when I crashed his car! He shouted at me for an hour.",
+              "gaps": [
+                [
+                  "angry"
+                ]
+              ],
+              "explain": "get angry – he shouted.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8A-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the correct form of get.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Last night I {} home at midnight.",
+              "gaps": [
+                [
+                  "got"
+                ]
+              ],
+              "explain": "Past simple of get: got.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "She usually {} up at seven.",
+              "gaps": [
+                [
+                  "gets"
+                ]
+              ],
+              "explain": "Present simple with she: gets.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Look! It’s {} dark. Let’s go home.",
+              "gaps": [
+                [
+                  "getting"
+                ]
+              ],
+              "explain": "Present continuous: it’s getting dark.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "What time did you {} to work yesterday?",
+              "gaps": [
+                [
+                  "get"
+                ]
+              ],
+              "explain": "After did: get (infinitive).",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I’m going to {} fit this year. I’m going to run every day.",
+              "gaps": [
+                [
+                  "get"
+                ]
+              ],
+              "explain": "be going to + get.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "He {} a prize for his photo last year.",
+              "gaps": [
+                [
+                  "got"
+                ]
+              ],
+              "explain": "Past simple: got a prize.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "8A-vocabulary-x3",
+          "origin": "GENERATED",
+          "instruction": "Rewrite the sentences with get instead of the verb in bold.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "What time did you **arrive at** the station?",
+              "hint": "(get)",
+              "answers": [
+                "What time did you get to the station?"
+              ],
+              "explain": "arrive at a place = get to a place.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "I **received** a lot of presents for my birthday.",
+              "hint": "(get)",
+              "answers": [
+                "I got a lot of presents for my birthday."
+              ],
+              "explain": "receive = get: I got.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Where can I **buy** a ticket?",
+              "hint": "(get)",
+              "answers": [
+                "Where can I get a ticket?"
+              ],
+              "explain": "buy = get: get a ticket.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "She **became** very angry.",
+              "hint": "(get)",
+              "answers": [
+                "She got very angry."
+              ],
+              "explain": "become + adjective = get + adjective.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "I usually **arrive** home at six.",
+              "hint": "(get)",
+              "answers": [
+                "I usually get home at six."
+              ],
+              "explain": "get home – no to before home.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "The weather is **becoming** worse.",
+              "hint": "(get)",
+              "answers": [
+                "The weather is getting worse.",
+                "The weather’s getting worse."
+              ],
+              "explain": "become + comparative = get worse.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

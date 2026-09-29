@@ -62,6 +62,8 @@
     Revise and Check 3&4…11&12 — `4C/…/12C-review`, «Can you remember…?» — `3C/…/11C-review`. Задания без типа —
     `tools/content/pending/`, список в `PLAN.md` §0. `strip_numbers.py`: клипы сдвигает только `--remap-clips`,
     неправдоподобные «номера» (больше числа пунктов, повторы) не режет.
+  - Звуки без речи (29.09.2026): нового типа не понадобилось — 4A sb4e = Write + клип + скрытая `scene`, 9A sb1a =
+    Blank + клип. Звуки распознаны классификатором AST (AudioSet) + whisper; `tools/content/pending/` удалён.
 - **Э8.5 — Practical English с видео** (эпизоды 1–6 сделаны):
   - PE-урок в SB — после юнитов 1, 3, 5, 7, 9, 11 (SB PDF 13, 29, 45, 61, 77, 93). Видео 4e:
     `english_file/videos/EF4e_Pre-int_PracticalEng_Ep{1..6}_*.mp4`, 36 роликов, 124 МБ.

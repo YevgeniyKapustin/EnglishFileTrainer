@@ -40,6 +40,23 @@
       ],
       "tasks": [
         {
+          "id": "9A-sb1a",
+          "origin": "SB",
+          "instruction": "Listen. Which animals can you hear?",
+          "note": "SB 1a; звуки 9.1 без слов → Blank с клипом на каждый звук. Животные распознаны классификатором звуков (на слух не проверено; №3 — уханье и визг, скорее всего обезьяна)",
+          "audio": "9.1",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "a {}", "gaps": [["chicken", "hen", "rooster", "cockerel"]], "clip": [0.2, 6.99], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "a {}", "gaps": [["horse"]], "clip": [6.99, 13.47], "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "a {}", "gaps": [["monkey", "chimpanzee", "chimp"]], "clip": [13.47, 21.76], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "a {}", "gaps": [["snake"]], "clip": [21.76, 30.51], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "a {}", "gaps": [["cat"]], "clip": [30.51, 37.64], "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "a {}", "gaps": [["dog"]], "clip": [37.64, 43.51], "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "a {}", "gaps": [["lion"]], "clip": [43.51, 51.15], "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "a {}", "gaps": [["cow"]], "clip": [51.15, 64.2], "source": "MODEL"}
+          ]
+        },
+        {
           "id": "9A-vb1a",
           "origin": "SB",
           "instruction": "Match the words and photos. Then listen and check",

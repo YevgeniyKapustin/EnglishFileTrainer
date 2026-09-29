@@ -1,11 +1,15 @@
 package dev.eftrainer.ui.chapters
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
@@ -44,6 +48,7 @@ fun AllChaptersScreen(
     onBack: () -> Unit,
     onChapter: (chapterId: String) -> Unit,
     onCurrent: () -> Unit,
+    onStats: () -> Unit,
     modifier: Modifier = Modifier,
     vm: AllChaptersViewModel = allChaptersViewModel(),
 ) {
@@ -52,11 +57,26 @@ fun AllChaptersScreen(
     Column(modifier.fillMaxSize()) {
         BackLink(stringResource(R.string.back), onBack)
         Column(Modifier.weight(1f).verticalScroll(rememberScrollState()).padding(horizontal = 24.dp)) {
-            Text(
-                stringResource(R.string.all_chapters),
-                style = T.title,
-                modifier = Modifier.padding(top = 8.dp, bottom = 16.dp),
-            )
+            Row(
+                Modifier.fillMaxWidth().padding(top = 8.dp, bottom = 16.dp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Text(stringResource(R.string.all_chapters), style = T.title, modifier = Modifier.weight(1f))
+                Row(
+                    Modifier
+                        .heightIn(min = 44.dp)
+                        .clip(RoundedCornerShape(8.dp))
+                        .clickable(onClick = onStats)
+                        .padding(horizontal = 8.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
+                    Text(
+                        stringResource(R.string.stats),
+                        style = T.label.copy(fontSize = 15.sp, color = C.Accent, fontWeight = FontWeight.SemiBold),
+                    )
+                    Icon(Icons.ChevronRight, null, Modifier.size(18.dp), tint = C.Accent)
+                }
+            }
             rows.forEachIndexed { i, row ->
                 val file = fileOf(row.chapter.id)
                 if (rows.startsFile(i)) FileHeader(file, first = i == 0)

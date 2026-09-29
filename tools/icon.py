@@ -10,7 +10,23 @@ PREVIEW = ROOT / "tools/out/icon.png"
 NL = "\n"
 FAN_ORIGIN = (14.0, 100.0)
 VISIBLE_CIRCLE = "M54,18 A36,36 0 1 1 54,90 A36,36 0 1 1 54,18 Z"
-SPLASH_DURATION_MS = 600
+SPLASH_DURATION_MS = 520
+SPLASH_STAGGER_MS = 20
+SPLASH_CENTER = (54.0, 54.0)
+SPLASH_RADIUS = 36.0
+SPLASH_OVERLAP_DEGREES = 0.6
+SPLASH_SWEEPS = (32, 46, 38, 54, 34, 46, 32, 44, 34)
+SPLASH_COLORS = (
+    "#73B237",
+    "#019AA9",
+    "#00ABC4",
+    "#008297",
+    "#027A93",
+    "#017F7F",
+    "#008196",
+    "#01615E",
+    "#00ABC4",
+)
 
 
 class Wedge(NamedTuple):
@@ -77,34 +93,64 @@ def launcher_xml(backdrop: str) -> str:
 """
 
 
-def splash_group_xml(index: int, wedge: Wedge) -> str:
-    pivot_x, pivot_y = FAN_ORIGIN
+def splash_sector_path(index: int) -> str:
+    center_x, center_y = SPLASH_CENTER
+    start_degrees = -90 + sum(SPLASH_SWEEPS[:index])
+    end_degrees = start_degrees + SPLASH_SWEEPS[index] + SPLASH_OVERLAP_DEGREES
+
+    def point(degrees: float) -> tuple[float, float]:
+        radians = math.radians(degrees)
+        return center_x + SPLASH_RADIUS * math.cos(radians), center_y + SPLASH_RADIUS * math.sin(radians)
+
+    start_x, start_y = point(start_degrees)
+    end_x, end_y = point(end_degrees)
     return (
-        f'            <group android:name="w{index}" android:pivotX="{pivot_x}" android:pivotY="{pivot_y}" '
-        f'android:rotation="{wedge.to_degrees}">\n'
-        f"                {wedge_xml_path(wedge)}\n"
-        f"            </group>"
+        f"M{center_x:.1f},{center_y:.1f} L{start_x:.1f},{start_y:.1f} "
+        f"A{SPLASH_RADIUS:.1f},{SPLASH_RADIUS:.1f} 0 0 1 {end_x:.1f},{end_y:.1f} Z"
     )
 
 
-def splash_target_xml(index: int, wedge: Wedge) -> str:
-    return f"""    <target android:name="w{index}">
+def splash_folded_path() -> str:
+    center_x, center_y = SPLASH_CENTER
+    left_degrees = math.radians(-91)
+    right_degrees = math.radians(-89)
+    left_x = center_x + SPLASH_RADIUS * math.cos(left_degrees)
+    left_y = center_y + SPLASH_RADIUS * math.sin(left_degrees)
+    right_x = center_x + SPLASH_RADIUS * math.cos(right_degrees)
+    right_y = center_y + SPLASH_RADIUS * math.sin(right_degrees)
+    return (
+        f"M{center_x:.1f},{center_y:.1f} L{left_x:.1f},{left_y:.1f} "
+        f"A{SPLASH_RADIUS:.1f},{SPLASH_RADIUS:.1f} 0 0 1 {right_x:.1f},{right_y:.1f} Z"
+    )
+
+
+def splash_group_xml(index: int, color: str) -> str:
+    return (
+        f'            <path android:name="s{index}" android:fillColor="{color}"'
+        f' android:pathData="{splash_folded_path()}" />'
+    )
+
+
+def splash_target_xml(index: int) -> str:
+    offset = index * SPLASH_STAGGER_MS
+    return f"""    <target android:name="s{index}">
         <aapt:attr name="android:animation">
-            <objectAnimator android:propertyName="rotation" android:valueFrom="{wedge.to_degrees}" android:valueTo="0"
-                android:duration="{SPLASH_DURATION_MS}" android:interpolator="@android:interpolator/fast_out_slow_in" />
+            <objectAnimator android:propertyName="pathData" android:valueFrom="{splash_folded_path()}"
+                android:valueTo="{splash_sector_path(index)}" android:valueType="pathType"
+                android:duration="{SPLASH_DURATION_MS}" android:startOffset="{offset}"
+                android:interpolator="@android:interpolator/fast_out_slow_in" />
         </aapt:attr>
     </target>"""
 
 
 def splash_icon_xml() -> str:
-    groups = NL.join(splash_group_xml(index, wedge) for index, wedge in enumerate(WEDGES))
-    targets = NL.join(splash_target_xml(index, wedge) for index, wedge in enumerate(WEDGES))
+    groups = NL.join(splash_group_xml(index, color) for index, color in enumerate(SPLASH_COLORS))
+    targets = NL.join(splash_target_xml(index) for index in range(len(SPLASH_COLORS)))
     return f"""<?xml version="1.0" encoding="utf-8"?>
 <animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:aapt="http://schemas.android.com/aapt">
     <aapt:attr name="android:drawable">
         <vector android:width="288dp" android:height="288dp" android:viewportWidth="108" android:viewportHeight="108">
-            <clip-path android:pathData="{VISIBLE_CIRCLE}" />
 {groups}
         </vector>
     </aapt:attr>

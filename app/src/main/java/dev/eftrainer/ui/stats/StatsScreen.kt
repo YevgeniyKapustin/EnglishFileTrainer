@@ -106,9 +106,8 @@ private fun StreakBand(
     val days = (state.streak.current * intro.share(0f, .5f)).roundToInt()
     WedgeBand(150.dp, chapterId = state.chapterId, reveal = { intro.share(0f, RAYS_SHARE, LinearEasing) }) {
         BackLink(stringResource(R.string.back), onBack, tint = BandInk)
-        Row(
+        Column(
             Modifier.align(Alignment.BottomStart).padding(start = 24.dp, bottom = 16.dp),
-            verticalAlignment = Alignment.Bottom,
         ) {
             Text(
                 pluralStringResource(R.plurals.streak_days, days, days),
@@ -124,7 +123,7 @@ private fun StreakBand(
             Text(
                 stringResource(R.string.in_a_row),
                 style = T.label.copy(fontSize = 17.sp, color = BandInk),
-                modifier = Modifier.padding(start = 10.dp, bottom = 5.dp).popIn(intro, .2f, .55f),
+                modifier = Modifier.padding(top = 2.dp).popIn(intro, .2f, .55f),
             )
         }
     }

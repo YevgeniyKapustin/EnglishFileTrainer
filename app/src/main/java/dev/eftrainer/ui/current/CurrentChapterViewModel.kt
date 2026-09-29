@@ -11,14 +11,12 @@ import dev.eftrainer.domain.learning.ChapterCompletion
 import dev.eftrainer.domain.learning.DayInputs
 import dev.eftrainer.domain.learning.DayStep
 import dev.eftrainer.domain.learning.Mastery
-import dev.eftrainer.domain.learning.Stats
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.flowOn
+import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
-import java.time.LocalDate
 
 data class SectionRow(
     val section: Section,
@@ -30,7 +28,6 @@ data class CurrentUi(
     val mastered: Double,
     val sections: List<SectionRow>,
     val past: Boolean,
-    val streak: Int,
     val step: DayStep,
 )
 
@@ -39,20 +36,17 @@ class CurrentChapterViewModel(
     private val chapterId: String? = null,
 ) : ViewModel() {
     val state: StateFlow<CurrentUi?> =
-        combine(container.day.inputs, container.answers.days, ::build)
+        container.day.inputs
+            .map(::build)
             .flowOn(Dispatchers.Default)
             .stateIn(viewModelScope, SharingStarted.WhileSubscribed(KEEP_ALIVE_MS), cached())
 
     private fun cached(): CurrentUi? {
         val inputs = container.day.latest ?: return null
-        val days = container.answers.latestDays ?: return null
-        return build(inputs, days)
+        return build(inputs)
     }
 
-    private fun build(
-        day: DayInputs,
-        days: Set<LocalDate>,
-    ): CurrentUi {
+    private fun build(day: DayInputs): CurrentUi {
         val inputs = day.review
         val progress = inputs.progress
         val chapter =
@@ -66,7 +60,6 @@ class CurrentChapterViewModel(
             mastered = chapter?.let { Mastery.share(it.exercises, progress) } ?: 1.0,
             sections = rows,
             past = chapterId != null,
-            streak = Stats.streak(days, container.clock.today()).current,
             step = step,
         )
     }

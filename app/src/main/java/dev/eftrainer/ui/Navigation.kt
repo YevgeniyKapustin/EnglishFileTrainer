@@ -196,7 +196,6 @@ private fun NavGraphBuilder.chapterScreens(
             onSection = { screen.open(SectionRoute(it)) },
             onReview = { screen.open(SessionRoute()) },
             onSettings = { screen.open(SettingsRoute) },
-            onStats = { screen.open(StatsRoute) },
             vm = home,
         )
     }
@@ -208,6 +207,7 @@ private fun NavGraphBuilder.chapterScreens(
             onBack = screen::back,
             onChapter = { screen.openFromHome(ChapterRoute(it)) },
             onCurrent = screen::home,
+            onStats = { screen.open(StatsRoute) },
         )
     }
     screen<ChapterRoute>(nav) { screen ->
@@ -216,7 +216,6 @@ private fun NavGraphBuilder.chapterScreens(
             onSection = { screen.open(SectionRoute(it)) },
             onReview = {},
             onSettings = { screen.open(SettingsRoute) },
-            onStats = { screen.open(StatsRoute) },
             chapterId = screen.entry.toRoute<ChapterRoute>().chapterId,
         )
     }

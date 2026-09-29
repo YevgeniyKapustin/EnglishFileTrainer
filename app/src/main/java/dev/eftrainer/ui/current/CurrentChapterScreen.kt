@@ -75,7 +75,6 @@ fun CurrentChapterScreen(
     onReview: () -> Unit,
     modifier: Modifier = Modifier,
     onSettings: () -> Unit = {},
-    onStats: () -> Unit = {},
     chapterId: String? = null,
     vm: CurrentChapterViewModel = currentChapterViewModel(chapterId),
 ) {
@@ -84,9 +83,7 @@ fun CurrentChapterScreen(
 
     Column(modifier.fillMaxSize()) {
         Column(Modifier.weight(1f).verticalScroll(rememberScrollState())) {
-            ChapterBand(state.chapter, onAllChapters, onSettings) {
-                StreakChip(state.streak, onStats)
-            }
+            ChapterBand(state.chapter, onAllChapters, onSettings)
             ChapterSummary(state)
             Column(Modifier.padding(horizontal = 24.dp).padding(top = 28.dp)) {
                 state.sections.forEachIndexed { i, row ->
@@ -156,7 +153,6 @@ private fun ChapterBand(
     chapter: Chapter?,
     onAllChapters: () -> Unit,
     onSettings: () -> Unit,
-    content: @Composable () -> Unit,
 ) {
     val motion = rememberHeaderIntro()
     WedgeBand(BandHeight, Modifier.clipToBounds(), chapter?.id, reveal = { motion.rays.value }) {
@@ -179,11 +175,7 @@ private fun ChapterBand(
                 Icon(Icons.ChevronRight, null, Modifier.size(18.dp), tint = BandInk)
             }
             Spacer(Modifier.weight(1f))
-            Row(
-                Modifier.clip(PillShape).background(IconShade).padding(2.dp),
-                verticalAlignment = Alignment.CenterVertically,
-            ) {
-                content()
+            Box(Modifier.clip(PillShape).background(IconShade).padding(2.dp)) {
                 IconButton24(EfIcons.Gear, stringResource(R.string.settings), onSettings, tint = BandInk)
             }
         }
@@ -280,40 +272,6 @@ private fun BoxScope.BandBubbles(
                 .bubbleInk(bubble.motion, under, overlapInk),
             textModifier = Modifier.onPlaced(bubble.motion.text::place),
             onTextLayout = bubble.motion.text::layout,
-        )
-    }
-}
-
-@Composable
-private fun StreakChip(
-    streak: Int,
-    onClick: () -> Unit,
-) {
-    Row(
-        Modifier
-            .heightIn(min = 44.dp)
-            .clip(PillShape)
-            .clickable(onClick = onClick)
-            .padding(horizontal = 12.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(4.dp),
-    ) {
-        Icon(
-            Icons.Flame,
-            stringResource(R.string.stats),
-            Modifier.size(26.dp),
-            tint =
-                if (streak >
-                    0
-                ) {
-                    EF.File2
-                } else {
-                    C.Off
-                },
-        )
-        Text(
-            streak.toString(),
-            style = T.label.copy(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = BandInk),
         )
     }
 }

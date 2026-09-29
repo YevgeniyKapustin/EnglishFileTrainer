@@ -1,0 +1,358 @@
+{
+  "id": "4C",
+  "title": "#greatweekend",
+  "bubbles": ["Are you doing anything at the weekend?", "Nothing special."],
+  "sources": "SB p.34–37 (PDF 35–38), Grammar Bank p.132–133 (PDF 133–134); WB p.30–31 (PDF 29–30), key WB p.89–90 (PDF 89–90)",
+  "sections": [
+    {
+      "id": "4C-skills",
+      "kind": "SKILLS",
+      "title": "Reading & Speaking",
+      "reference": [
+        {"type": "note", "title": "A boring weekend? Don’t tell anybody!", "text": "A survey shows that 20% of British people tell lies about their weekend on social media. When people see their friends’ posts, they feel jealous, so they invent details about their own weekend. They want something to talk about on Monday at work or school. The most popular lies: going to a party or going away for the weekend; 3% even put on fake tan on Sunday night. People aged 18 to 24 lie most, and men lie more than women."}
+      ],
+      "tasks": [
+        {"id": "4C-sb1b", "origin": "SB", "instruction": "Read the tweets and the article A boring weekend?. Which two tweets are probably not true?", "note": "SB 1a+1b → Blank с именами двух твитов; фото профилей не переносили (только аватарки). Ответ MODEL: по статье самые частые выдумки — уехал на выходные и романтическая поездка", "context": "Bob1972: New York for the weekend, amazing! #greatweekend #nosleep. UrbanJ: Spent all day Sunday at work, then in bed at 9.00. #terribleweekend. Topsy: Husband took me to Paris for lunch on Saturday! #bestdayout. Betty: Sunday in the park with the family, picnic and games. #ilovesummer. — A boring weekend? Don’t tell anybody! A new survey has shown that 20% of British people tell lies about their weekend on social media. The survey, by a travel website, shows that people invent stories to make their lives appear more interesting than they really are. Psychologist Judi James, one of the organizers of the survey, said, ‘When some people read their friends’ posts and see their photos on Facebook, Twitter, and Instagram, they begin to feel jealous of them. They think that their friends are having a much more exciting life. So they invent details about their own weekend.’ One of the main reasons people give for inventing these stories is to have something to talk about on Monday morning at work or at school. This is because they don’t want other people to think that they have a boring life. The most popular lies people tell are that they went to a party or went away for the weekend, and 3% of people even put on fake tan on Sunday night to make their colleagues think they’ve had a weekend away in the sun. One person in ten invents a romantic break with their partner. People aged 18 to 24 are the ones who most often tell lies on social media and men lie more often than women. Only 20% of people interviewed said that they always told the truth in posts. Judi James said: ‘Social media is becoming increasingly important in our lives, and it seems we’re living one life online and another in reality.’ So when you are feeling jealous on a Saturday night because your best friend is having a romantic dinner with her boyfriend in Venice, stop and ask yourself, ‘Is she really there, or is she just sitting at home feeling bored like me?’", "exercises": [
+          {"n": 1, "type": "blank", "text": "The tweets that are probably not true: {} and {}", "gaps": [["Bob1972", "Bob", "Topsy"], ["Topsy", "Bob1972", "Bob"]], "explain": "Going away for the weekend (New York) and a romantic break with a partner (Paris) are the most popular lies in the article.", "source": "MODEL"}
+        ]},
+        {"id": "4C-sb1c", "origin": "SB", "instruction": "Read the article again. Correct the wrong information", "note": "SB 1c → Rewrite: исправить неверное; статья в context. MODEL", "context": "A new survey has shown that 20% of British people tell lies about their weekend on social media. When some people read their friends’ posts and see their photos, they begin to feel jealous of them. One of the main reasons people give for inventing these stories is to have something to talk about on Monday morning at work or at school. 3% of people even put on fake tan on Sunday night to make their colleagues think they’ve had a weekend away in the sun. People aged 18 to 24 are the ones who most often tell lies on social media and men lie more often than women. ‘It seems we’re living one life online and another in reality.’", "exercises": [
+          {"n": 1, "type": "rewrite", "prompt": "One in ten people sometimes lie about their lives on social media.", "answers": ["One in five people sometimes lie about their lives on social media.", "Two in ten people sometimes lie about their lives on social media.", "20% of people sometimes lie about their lives on social media."], "explain": "20% = one in five.", "source": "MODEL"},
+          {"n": 2, "type": "rewrite", "prompt": "When people read about what their friends are doing, they are happy for them.", "answers": ["When people read about what their friends are doing, they are jealous of them.", "When people read about what their friends are doing, they feel jealous of them.", "When people read about what their friends are doing, they are jealous.", "When people read about what their friends are doing, they feel jealous."], "explain": "‘they begin to feel jealous of them’.", "source": "MODEL"},
+          {"n": 3, "type": "rewrite", "prompt": "People invent stories about their weekend because they want their families to think they have exciting lives.", "answers": ["People invent stories about their weekend because they want their colleagues to think they have exciting lives.", "People invent stories about their weekend because they want people at work or school to think they have exciting lives.", "People invent stories about their weekend because they want other people to think they have exciting lives.", "People invent stories about their weekend because they want their friends to think they have exciting lives."], "explain": "They want something to talk about on Monday at work or at school.", "source": "MODEL"},
+          {"n": 4, "type": "rewrite", "prompt": "Some people put on fake tan on Sundays so that people at work think they look good.", "answers": ["Some people put on fake tan on Sundays so that people at work think they’ve had a weekend away in the sun.", "Some people put on fake tan on Sundays so that people at work think they have had a weekend away in the sun.", "Some people put on fake tan on Sundays so that people at work think they’ve been away in the sun.", "Some people put on fake tan on Sundays so that people at work think they went away for the weekend."], "explain": "‘to make their colleagues think they’ve had a weekend away in the sun’.", "source": "MODEL"},
+          {"n": 5, "type": "rewrite", "prompt": "Young women are the biggest liars.", "answers": ["Young men are the biggest liars.", "Young people are the biggest liars.", "Men are the biggest liars."], "explain": "People aged 18 to 24 lie most, and men lie more often than women.", "source": "MODEL"},
+          {"n": 6, "type": "rewrite", "prompt": "People’s online lives are the same as their real lives.", "answers": ["People’s online lives are different from their real lives.", "People’s online lives are not the same as their real lives.", "People’s online lives aren’t the same as their real lives.", "People’s online lives are different to their real lives."], "explain": "‘we’re living one life online and another in reality’.", "source": "MODEL"}
+        ]},
+        {"id": "4C-sb1d", "origin": "SB", "instruction": "Talk about your weekends", "note": "SB 1d → разговор с ИИ", "exercises": [
+          {"n": 1, "type": "talk", "situation": "You are a classmate in an English class (level: pre-intermediate). It’s Monday morning. You have just read an article about people who tell lies about their weekend on social media. Ask the student, one at a time: What do you usually answer when people ask you ‘Did you have a good weekend?’ Is it always true? When was the last time you had a really exciting weekend? What did you do? Do you post photos of your weekend on social media? Do you think your friends’ posts are always true? Share your own answers briefly (you usually say ‘Not bad, thanks’; your last exciting weekend was a trip to the mountains last month). If the student makes a mistake with the past simple, repeat the correct form naturally.", "goal": "Talk about your weekends and weekend posts on social media.", "opener": "Hi! Did you have a good weekend?", "criteria": ["says what they usually answer to Did you have a good weekend? and if it’s true", "describes their last exciting weekend in the past simple", "gives an opinion about weekend posts on social media"], "steps": [{"text": "Answer the question about your weekend", "example": "It was OK, thanks. I didn't do anything special."}, {"text": "Say what you usually answer", "example": "I usually say 'Great, thanks!' but it isn't always true."}, {"text": "Describe your last exciting weekend", "example": "Last month I went to a music festival with my friends. We danced all night."}, {"text": "Say what you think about weekend posts", "example": "I think a lot of people only post the best photos."}]}
+        ]},
+        {"id": "4C-sb5", "origin": "SB", "instruction": "Did you have a good weekend? Answer the questions truthfully, but invent one answer to make your weekend sound more exciting", "note": "SB 5a+5b (интервью, одна выдумка, угадать) → разговор с ИИ", "exercises": [
+          {"n": 1, "type": "talk", "situation": "You are a classmate in an English class (level: pre-intermediate). Interview the student about last weekend with these questions, one at a time: Friday – Did you go anywhere exciting on Friday night? Saturday – Did you do anything in the house (cleaning, etc.) on Saturday morning? Did you go shopping? Did you buy anything? Did you need to work or study? What did you do on Saturday night? Sunday – Did you go anywhere nice on Sunday? What did you have for lunch? Did you do anything relaxing in the afternoon? The student answers truthfully but invents one answer to make the weekend sound more exciting. At the end, guess which answer was invented and explain why, then ask if you were right. If the student answers with a double negative (I didn’t do nothing) or makes a mistake with something / anything / nothing or the past simple, repeat the correct form naturally.", "goal": "Answer questions about your weekend – and invent one answer!", "opener": "So, did you have a good weekend? Let’s start with Friday. Did you go anywhere exciting on Friday night?", "criteria": ["answers the questions in the past simple", "uses something / anything / nothing, somewhere / anywhere / nowhere, somebody / anybody / nobody correctly", "uses short answers like Nothing. / Nowhere. and full negatives (I didn’t buy anything)", "invents one exciting answer and says at the end which one it was"], "steps": [{"text": "Answer about Friday night", "example": "No, I didn't go anywhere. I stayed at home and watched a film."}, {"text": "Answer about Saturday", "example": "I did some cleaning in the morning, and then I went shopping, but I didn't buy anything."}, {"text": "Answer about Saturday night", "example": "On Saturday night I went to a concert – I met a famous singer!"}, {"text": "Answer about Sunday", "example": "I went somewhere nice on Sunday – a lake near my town. We had fish for lunch."}, {"text": "Say which answer you invented", "example": "The concert wasn't true! I didn't meet anybody famous."}]}
+        ]}
+      ]
+    },
+    {
+      "id": "4C-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "adjectives ending -ed and -ing",
+      "reference": [
+        {"type": "table", "title": "-ed and -ing adjectives", "headers": ["-ed = how a person feels", "-ing = a thing or situation"], "rows": [["bored", "boring"], ["depressed", "depressing"], ["relaxed", "relaxing"], ["interested", "interesting"], ["excited", "exciting"], ["frightened", "frightening"]], "audio": "4.21"},
+        {"type": "note", "title": null, "text": "I’m bored (how I feel) because this film is boring (what the film is like). In interested and interesting the stress is on the first syllable. After t or d, -ed is an extra syllable: excited, interested; in bored, relaxed, frightened it isn’t."},
+        {"type": "mistake", "wrong": "I’m very boring today – there’s nothing to do.", "right": "I’m very bored today – there’s nothing to do.", "why": "How a person feels → -ed."}
+      ],
+      "tasks": [
+        {"id": "4C-sb2a", "origin": "SB", "instruction": "Look at the two highlighted words in the article: boring and bored. Which word describes…?", "note": "SB 2a → Blank; MODEL", "words": ["bored", "boring"], "exercises": [
+          {"n": 1, "type": "blank", "text": "how a person feels: {}", "gaps": [["bored"]], "explain": "‘sitting at home feeling bored like me’.", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "a thing or a situation: {}", "gaps": [["boring"]], "explain": "‘they have a boring life’.", "source": "MODEL"}
+        ]},
+        {"id": "4C-sb2b", "origin": "SB", "instruction": "Complete the questions with the correct adjective. Then listen and check", "note": "SB 2b «Circle the correct adjective» → Blank, варианты в hint. Ответы MODEL, проверка по аудио 4.21", "audio": "4.21", "exercises": [
+          {"n": 1, "type": "blank", "text": "Do you think Sundays are usually {}?", "gaps": [["boring"]], "hint": "(bored / boring)", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "Are you {} with your job or studies?", "gaps": [["bored"]], "hint": "(bored / boring)", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "What kind of weather makes you feel {}?", "gaps": [["depressed"]], "hint": "(depressed / depressing)", "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "Do you think the news is always {}?", "gaps": [["depressing"]], "hint": "(depressed / depressing)", "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "What activities do you find {}?", "gaps": [["relaxing"]], "hint": "(relaxed / relaxing)", "source": "MODEL"},
+          {"n": 6, "type": "blank", "text": "Do you usually feel {} at the end of the weekend? Why (not)?", "gaps": [["relaxed"]], "hint": "(relaxed / relaxing)", "source": "MODEL"},
+          {"n": 7, "type": "blank", "text": "Have you read any {} articles or books recently?", "gaps": [["interesting"]], "hint": "(interested / interesting)", "source": "MODEL"},
+          {"n": 8, "type": "blank", "text": "What sports are you {} in?", "gaps": [["interested"]], "hint": "(interested / interesting)", "source": "MODEL"},
+          {"n": 9, "type": "blank", "text": "Are you {} about your next holiday?", "gaps": [["excited"]], "hint": "(excited / exciting)", "source": "MODEL"},
+          {"n": 10, "type": "blank", "text": "Are you doing anything {} next weekend?", "gaps": [["exciting"]], "hint": "(excited / exciting)", "source": "MODEL"},
+          {"n": 11, "type": "blank", "text": "What were you {} of when you were a child?", "gaps": [["frightened"]], "hint": "(frightened / frightening)", "source": "MODEL"},
+          {"n": 12, "type": "blank", "text": "Do you find storms {}?", "gaps": [["frightening"]], "hint": "(frightened / frightening)", "source": "MODEL"}
+        ]},
+        {"id": "4C-sb2c", "origin": "SB", "instruction": "Ask and answer the questions. Give more information if you can", "note": "SB 2c → разговор с ИИ по вопросам 2b", "exercises": [
+          {"n": 1, "type": "talk", "situation": "You are a classmate in an English class (level: pre-intermediate). Ask the student these questions, one at a time, and answer them yourself too: Do you think Sundays are usually boring? Are you bored with your job or studies? What kind of weather makes you feel depressed? Do you think the news is always depressing? What activities do you find relaxing? Do you usually feel relaxed at the end of the weekend? Why (not)? Have you read any interesting articles or books recently? What sports are you interested in? Are you excited about your next holiday? Are you doing anything exciting next weekend? What were you frightened of when you were a child? Do you find storms frightening? Ask for more information (Why? What happened?). If the student confuses -ed and -ing adjectives (I’m boring), repeat the correct form naturally.", "goal": "Answer questions with -ed and -ing adjectives and give more information.", "opener": "Let’s start! Do you think Sundays are usually boring?", "criteria": ["uses -ed adjectives for feelings (bored, relaxed, interested, excited, frightened, depressed)", "uses -ing adjectives for things and situations (boring, relaxing, interesting, exciting, frightening, depressing)", "gives extra information or a reason in at least three answers"], "steps": [{"text": "Answer about Sundays", "example": "No, I don't think Sundays are boring. I usually meet my friends."}, {"text": "Say what you find relaxing", "example": "I find swimming really relaxing."}, {"text": "Say what you're interested in", "example": "I'm interested in football and tennis."}, {"text": "Say what frightened you as a child", "example": "When I was a child I was frightened of dogs."}]}
+        ]},
+        {"id": "4C-wb1a", "origin": "WB", "instruction": "Complete the text with the correct adjective", "note": "WB 1a «How to survive the winter» (Circle the correct adjective) → Blank, варианты в hint; 1 depressed — пример", "context": "How to survive the winter. If you’re in the middle of a long, dark winter and are beginning to feel a bit depressed about spending another cold weekend at home, don’t worry – here are some things you can do to make yourself feel better.", "exercises": [
+          {"n": 2, "type": "blank", "text": "Get moving. Exercise is one of the best things you can do. But remember that doing just one kind of exercise can get a bit {}, so try different things.", "gaps": [["boring"]], "hint": "(bored / boring)"},
+          {"n": 3, "type": "blank", "text": "Eat chocolate. The newspapers all got very {} recently about reports that chocolate is good for you.", "gaps": [["excited"]], "hint": "(exciting / excited)"},
+          {"n": 4, "type": "blank", "text": "Chocolate contains tryptophan, which makes you feel happier and more {}.", "gaps": [["relaxed"]], "hint": "(relaxed / relaxing)"},
+          {"n": 5, "type": "blank", "text": "Book a holiday abroad or a weekend away. If you don’t have much money after Christmas or you’re {} of flying, a weekend away close to home also gives you something to look forward to.", "gaps": [["frightened"]], "hint": "(frightened / frightening)"},
+          {"n": 6, "type": "blank", "text": "Read a book. Go to your local bookshop – these usually have all kinds of {} books you can read.", "gaps": [["interesting"]], "hint": "(interested / interesting)"},
+          {"n": 7, "type": "blank", "text": "See people. In the middle of winter, an evening in front of the fire with family and friends is really {}.", "gaps": [["relaxing"]], "hint": "(relaxed / relaxing)"}
+        ]},
+        {"id": "4C-wb1b", "origin": "WB", "instruction": "Complete the sentences with adjectives ending -ed or -ing", "note": "WB 1b; первые буквы книги заменены глаголом в hint; 1 interesting — пример", "exercises": [
+          {"n": 2, "type": "blank", "text": "Going away for the weekend is very {}.", "gaps": [["relaxing"]], "hint": "(relax)"},
+          {"n": 3, "type": "blank", "text": "This film is really {}. Turn the TV off.", "gaps": [["boring"]], "hint": "(bore)"},
+          {"n": 4, "type": "blank", "text": "Helen’s very {} because she’s just lost her job.", "gaps": [["depressed"]], "hint": "(depress)"},
+          {"n": 5, "type": "blank", "text": "My cousin is very {} in fashion.", "gaps": [["interested"]], "hint": "(interest)"},
+          {"n": 6, "type": "blank", "text": "Congratulations! That’s really {} news.", "gaps": [["exciting"]], "hint": "(excite)"},
+          {"n": 7, "type": "blank", "text": "The news is all very {} at the moment.", "gaps": [["depressing"]], "hint": "(depress)"},
+          {"n": 8, "type": "blank", "text": "We had a very {} experience yesterday.", "gaps": [["frightening"]], "hint": "(frighten)"},
+          {"n": 9, "type": "blank", "text": "Mum, I’m {}! I have nothing to do!", "gaps": [["bored"]], "hint": "(bore)"},
+          {"n": 10, "type": "blank", "text": "The dogs were very {} to see us when we came home.", "gaps": [["excited"]], "hint": "(excite)"}
+        ]},
+        {"id": "4C-vocabulary-x1", "origin": "GENERATED", "instruction": "Complete with the -ed or -ing adjective of the verb in brackets.", "exercises": [
+          {"n": 1, "type": "blank", "text": "The lesson was so {} that I nearly fell asleep.", "gaps": [["boring"]], "hint": "(bore)", "explain": "The lesson (a thing) → -ing.", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "I’m really {} about the concert tonight!", "gaps": [["excited"]], "hint": "(excite)", "explain": "How I feel → -ed; excited about.", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "My little brother is {} of the dark.", "gaps": [["frightened"]], "hint": "(frighten)", "explain": "frightened of – how he feels.", "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "That was a really {} book. I learned a lot.", "gaps": [["interesting"]], "hint": "(interest)", "explain": "The book → -ing.", "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "After a hot bath I always feel very {}.", "gaps": [["relaxed"]], "hint": "(relax)", "explain": "How I feel → -ed.", "source": "MODEL"},
+          {"n": 6, "type": "blank", "text": "Rainy days in November are so {}.", "gaps": [["depressing"]], "hint": "(depress)", "explain": "The days (a situation) → -ing.", "source": "MODEL"},
+          {"n": 7, "type": "blank", "text": "Are you {} in history?", "gaps": [["interested"]], "hint": "(interest)", "explain": "interested in – how you feel.", "source": "MODEL"},
+          {"n": 8, "type": "blank", "text": "The end of the film was really {}. I screamed!", "gaps": [["frightening"]], "hint": "(frighten)", "explain": "The film → -ing.", "source": "MODEL"}
+        ]},
+        {"id": "4C-vocabulary-x2", "origin": "GENERATED", "instruction": "Correct the mistake in each sentence. Write the sentence.", "exercises": [
+          {"n": 1, "type": "rewrite", "prompt": "I’m boring. Let’s go out.", "answers": ["I’m bored. Let’s go out.", "I am bored. Let’s go out."], "explain": "How I feel → bored.", "source": "MODEL"},
+          {"n": 2, "type": "rewrite", "prompt": "Yoga is very relaxed.", "answers": ["Yoga is very relaxing."], "explain": "Yoga (an activity) → relaxing.", "source": "MODEL"},
+          {"n": 3, "type": "rewrite", "prompt": "She’s very interesting in art.", "answers": ["She’s very interested in art.", "She is very interested in art."], "explain": "interested in = how she feels.", "source": "MODEL"},
+          {"n": 4, "type": "rewrite", "prompt": "The match was really excited.", "answers": ["The match was really exciting."], "explain": "The match (a thing) → exciting.", "source": "MODEL"},
+          {"n": 5, "type": "rewrite", "prompt": "He felt depressing after he lost his job.", "answers": ["He felt depressed after he lost his job."], "explain": "How he felt → depressed.", "source": "MODEL"},
+          {"n": 6, "type": "rewrite", "prompt": "Are you frightening of spiders?", "answers": ["Are you frightened of spiders?"], "explain": "frightened of – a feeling.", "source": "MODEL"}
+        ]},
+        {"id": "4C-vocabulary-x3", "origin": "GENERATED", "instruction": "Complete the second sentence with the other adjective.", "exercises": [
+          {"n": 1, "type": "blank", "text": "The party was boring. → I was {} at the party.", "gaps": [["bored"]], "explain": "boring (the party) → bored (me).", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "I was excited about the trip. → The trip was {}.", "gaps": [["exciting"]], "explain": "excited (me) → exciting (the trip).", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "The holiday was relaxing. → We felt {} on holiday.", "gaps": [["relaxed"]], "explain": "relaxing (the holiday) → relaxed (we).", "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "The storm was frightening. → The children were {}.", "gaps": [["frightened"]], "explain": "frightening (the storm) → frightened (the children).", "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "I’m interested in this programme. → This programme is {}.", "gaps": [["interesting"]], "explain": "interested (me) → interesting (the programme).", "source": "MODEL"}
+        ]}
+      ]
+    },
+    {
+      "id": "4C-grammar",
+      "kind": "GRAMMAR",
+      "title": "something, anything, nothing, etc.",
+      "reference": [
+        {"type": "table", "title": "something, anything, nothing, etc.", "headers": ["", "+", "− and ?", "no- (short answers, + verb)"], "rows": [["people", "Somebody / Someone has taken my pen!", "I didn’t speak to anybody / anyone all weekend. Did anybody / anyone phone?", "No, nobody / no one. Nobody / No one phoned."], ["things", "I bought something for dinner.", "I didn’t do anything at the weekend. Is there anything in the fridge?", "No, nothing. There’s nothing in the fridge."], ["places", "Let’s go somewhere this weekend.", "We didn’t go anywhere this summer. Is there anywhere to park?", "No, nowhere. There’s nowhere to park."]], "audio": "4.22"},
+        {"type": "note", "title": "Rules", "text": "some- words go with a + verb (and in offers and requests: Would you like something to drink?). any- words go in questions and with a − verb. no- words go in short answers or with a + verb. any- + a + verb = it doesn’t matter which: You can come any day. Anybody can come to the party. I can sleep anywhere. You can bring anything."},
+        {"type": "mistake", "wrong": "I didn’t do nothing last night.", "right": "I didn’t do anything last night. / I did nothing last night.", "why": "Don’t use two negatives: not + anything, or nothing + a + verb."}
+      ],
+      "tasks": [
+        {"id": "4C-sb3a", "origin": "SB", "instruction": "Read the tweets. Complete the hashtags with goodweekend or badweekend", "note": "SB 3a → Blank; фото профилей не переносили. MODEL", "words": ["goodweekend", "badweekend"], "exercises": [
+          {"n": 1, "type": "blank", "text": "Saturday night, friends away, ordered takeaway, but nothing on TV. #{}", "gaps": [["badweekend"]], "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "Very excited! We’re going somewhere hot and sunny – see you all on Monday! #{}", "gaps": [["goodweekend"]], "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "Had two theatre tickets for Saturday night but couldn’t find anybody to go with me! Nobody loves me. #{}", "gaps": [["badweekend"]], "source": "MODEL"}
+        ]},
+        {"id": "4C-sb3b", "origin": "SB", "instruction": "Look at the highlighted words nothing, somewhere, anybody, nobody. Complete the rules with people, places, or things", "note": "SB 3b → Blank; MODEL", "words": ["people", "places", "things"], "exercises": [
+          {"n": 1, "type": "blank", "text": "Use something, anything, and nothing for {}.", "gaps": [["things"]], "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "Use somewhere, anywhere, and nowhere for {}.", "gaps": [["places"]], "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "Use somebody, anybody, and nobody for {}.", "gaps": [["people"]], "source": "MODEL"}
+        ]},
+        {"id": "4C-gba", "origin": "SB_GRAMMAR_BANK", "instruction": "Complete the sentences with something, anything, nothing, etc.", "note": "GB 4C a; пример без номера («Are you doing anything tonight?»), все 10 пунктов. MODEL", "exercises": [
+          {"n": 1, "type": "blank", "text": "Did you meet {} last night?", "gaps": [["anybody", "anyone"]], "explain": "A question about people → anybody / anyone.", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "{} phoned when you were out. They’re going to call back later.", "gaps": [["Somebody", "Someone"]], "explain": "A + verb, people → somebody / someone.", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "I’ve seen your wallet {}, but I can’t remember where.", "gaps": [["somewhere"]], "explain": "A + verb, a place → somewhere.", "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "There’s {} interesting on at the cinema tonight. Let’s stay in.", "gaps": [["nothing"]], "explain": "A + verb (There’s) with a negative meaning → nothing.", "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "Did {} see you when you left the house?", "gaps": [["anybody", "anyone"]], "explain": "A question about people.", "source": "MODEL"},
+          {"n": 6, "type": "blank", "text": "Did you go {} exciting at the weekend?", "gaps": [["anywhere"]], "explain": "A question about a place.", "source": "MODEL"},
+          {"n": 7, "type": "blank", "text": "I’ve bought you {} really nice for Christmas!", "gaps": [["something"]], "explain": "A + verb, a thing.", "source": "MODEL"},
+          {"n": 8, "type": "blank", "text": "I rang the doorbell, but {} answered.", "gaps": [["nobody", "no one"]], "explain": "A + verb (answered) with a negative meaning, people → nobody.", "source": "MODEL"},
+          {"n": 9, "type": "blank", "text": "What would you like for your birthday? – {}! I really don’t mind.", "gaps": [["Anything"]], "explain": "any- + a + verb = it doesn’t matter what.", "source": "MODEL"},
+          {"n": 10, "type": "blank", "text": "There’s {} to go swimming – the pool is closed.", "gaps": [["nowhere"]], "explain": "No place → nowhere.", "source": "MODEL"}
+        ]},
+        {"id": "4C-gbb", "origin": "SB_GRAMMAR_BANK", "instruction": "Answer the questions with Nobody, Nowhere, or Nothing", "note": "GB 4C b; MODEL", "words": ["Nobody", "Nowhere", "Nothing"], "exercises": [
+          {"n": 1, "type": "blank", "text": "What did you do last night? – {}.", "gaps": [["Nothing"]], "explain": "What…? → a thing.", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "Where did you go yesterday? – {}.", "gaps": [["Nowhere"]], "explain": "Where…? → a place.", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "Who did you see? – {}.", "gaps": [["Nobody", "No one"]], "explain": "Who…? → a person.", "source": "MODEL"}
+        ]},
+        {"id": "4C-gbc", "origin": "SB_GRAMMAR_BANK", "instruction": "Now answer the questions in b with a full sentence", "note": "GB 4C c; MODEL", "exercises": [
+          {"n": 1, "type": "rewrite", "prompt": "What did you do last night?", "answers": ["I didn’t do anything.", "I did nothing.", "I didn’t do anything last night.", "I did nothing last night."], "explain": "didn’t + anything, or nothing with a + verb.", "source": "MODEL"},
+          {"n": 2, "type": "rewrite", "prompt": "Where did you go yesterday?", "answers": ["I didn’t go anywhere.", "I went nowhere.", "I didn’t go anywhere yesterday.", "I went nowhere yesterday."], "explain": "didn’t + anywhere.", "source": "MODEL"},
+          {"n": 3, "type": "rewrite", "prompt": "Who did you see?", "answers": ["I didn’t see anybody.", "I didn’t see anyone.", "I saw nobody.", "I saw no one."], "explain": "didn’t + anybody / anyone.", "source": "MODEL"}
+        ]},
+        {"id": "4C-wb2a", "origin": "WB", "instruction": "Complete the sentences with a word from the list", "note": "WB 2a; 1 anything — пример", "words": ["anybody", "anywhere", "no one", "nowhere", "someone", "something", "somewhere"], "exercises": [
+          {"n": 2, "type": "blank", "text": "Did you know {} at the meeting today?", "gaps": [["anybody"]]},
+          {"n": 3, "type": "blank", "text": "It’s very boring in this town. There’s {} to go in the evenings.", "gaps": [["nowhere"]]},
+          {"n": 4, "type": "blank", "text": "He couldn’t find his keys {}.", "gaps": [["anywhere"]]},
+          {"n": 5, "type": "blank", "text": "I met {} from my old school at the party last night.", "gaps": [["someone"]]},
+          {"n": 6, "type": "blank", "text": "Lucas has {} to tell you.", "gaps": [["something"]]},
+          {"n": 7, "type": "blank", "text": "I phoned twice, but {} answered.", "gaps": [["no one"]]},
+          {"n": 8, "type": "blank", "text": "We’ve found {} to stay in Dublin. It’s a nice little hotel.", "gaps": [["somewhere"]]}
+        ]},
+        {"id": "4C-wb2b", "origin": "WB", "instruction": "Look at the picture. Are the sentences true? Write each sentence so that it is true. Use something, anything, etc.", "note": "WB 2b «Mark T/F, correct the false sentences» → Rewrite: верное — как есть, неверное — исправить; картинка WB p.31 в images. 1 — пример", "images": ["4c_wb2b"], "exercises": [
+          {"n": 2, "type": "rewrite", "prompt": "The man on the right is eating something.", "answers": ["The man on the right is eating something."]},
+          {"n": 3, "type": "rewrite", "prompt": "Nobody is dancing.", "answers": ["Nobody is dancing.", "No one is dancing."]},
+          {"n": 4, "type": "rewrite", "prompt": "There’s nothing on the ground.", "answers": ["There’s something on the ground.", "There is something on the ground."]},
+          {"n": 5, "type": "rewrite", "prompt": "Someone is playing with the dog.", "answers": ["Someone is playing with the dog.", "Somebody is playing with the dog."]},
+          {"n": 6, "type": "rewrite", "prompt": "The man who’s cooking isn’t wearing anything on his head.", "answers": ["The man who’s cooking is wearing something on his head.", "The man who is cooking is wearing something on his head."]},
+          {"n": 7, "type": "rewrite", "prompt": "There isn’t anybody in the water.", "answers": ["There is somebody in the water.", "There’s somebody in the water.", "There is someone in the water.", "There’s someone in the water."]}
+        ]},
+        {"id": "4C-wb2c", "origin": "WB", "instruction": "Complete the sentences with a word from each list", "note": "WB 2c; 1 something / exciting — пример", "words": ["bored", "boring", "relaxed", "anyone", "anything", "nothing"], "exercises": [
+          {"n": 2, "type": "blank", "text": "The children were {} because there was {} to do.", "gaps": [["bored"], ["nothing"]]},
+          {"n": 3, "type": "blank", "text": "Claire thought the party was a bit {} because she didn’t know {}.", "gaps": [["boring"], ["anyone"]]},
+          {"n": 4, "type": "blank", "text": "Tim is {} because there isn’t any homework. He isn’t doing {}.", "gaps": [["relaxed"], ["anything"]]}
+        ]},
+        {"id": "4C-wb2d", "origin": "WB", "instruction": "Answer the questions in full sentences so they are true for you", "note": "WB 2d — о себе → Write", "exercises": [
+          {"n": 1, "type": "write", "prompt": "Answer the questions in full sentences so they are true for you.", "questions": [{"text": "When were you last bored because there was nothing to do?", "hint": "(I was bored last…)"}, {"text": "Have you ever done anything unusual on holiday? Was it exciting?", "hint": "(Yes, I have. I… / No, I’ve never…)"}, {"text": "When did you last go to a boring party? Did you know anyone?", "hint": "(I didn’t know anybody…)"}, {"text": "When did you last go to a shop and not buy anything?", "hint": "(Last…, I went to… but I didn’t buy anything.)"}], "criteria": ["full sentences in the correct tense (past simple, present perfect for experiences)", "-ed adjectives for feelings and -ing adjectives for things (bored, boring, exciting)", "any- words with negatives (didn’t know anyone, didn’t buy anything), no double negatives"]}
+        ]},
+        {"id": "4C-grammar-x1", "origin": "GENERATED", "instruction": "Complete with something, anything, nothing, somebody, anybody, nobody, somewhere, anywhere or nowhere.", "exercises": [
+          {"n": 1, "type": "blank", "text": "Is there {} to eat? I’m hungry.", "gaps": [["anything"]], "explain": "A question about a thing → anything.", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "I didn’t go {} last weekend. I stayed at home.", "gaps": [["anywhere"]], "explain": "A − verb + a place → anywhere.", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "{} is knocking at the door. Can you open it?", "gaps": [["Somebody", "Someone"]], "explain": "A + verb, a person → somebody.", "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "There’s {} in the fridge. We need to go shopping.", "gaps": [["nothing"]], "explain": "There’s + no- word = no things.", "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "I want to go {} hot for my holiday.", "gaps": [["somewhere"]], "explain": "A + verb, a place → somewhere.", "source": "MODEL"},
+          {"n": 6, "type": "blank", "text": "The café was empty. There was {} there.", "gaps": [["nobody", "no one"]], "explain": "A + verb (was) with a negative meaning, people → nobody.", "source": "MODEL"},
+          {"n": 7, "type": "blank", "text": "Would you like {} to drink?", "gaps": [["something"]], "explain": "Offers use something, not anything.", "source": "MODEL"},
+          {"n": 8, "type": "blank", "text": "I didn’t tell {} your secret, I promise.", "gaps": [["anybody", "anyone"]], "explain": "A − verb + a person → anybody.", "source": "MODEL"},
+          {"n": 9, "type": "blank", "text": "Where’s my phone? I’ve looked everywhere, but it’s {}!", "gaps": [["nowhere"]], "explain": "no place → nowhere (a + verb).", "source": "MODEL"}
+        ]},
+        {"id": "4C-grammar-x2", "origin": "GENERATED", "instruction": "Rewrite the sentences with a no- word (nothing, nobody, nowhere).", "exercises": [
+          {"n": 1, "type": "rewrite", "prompt": "I didn’t buy anything.", "answers": ["I bought nothing."], "explain": "not + anything = + verb + nothing.", "source": "MODEL"},
+          {"n": 2, "type": "rewrite", "prompt": "There isn’t anybody in the classroom.", "answers": ["There’s nobody in the classroom.", "There is nobody in the classroom.", "There’s no one in the classroom.", "There is no one in the classroom."], "explain": "isn’t + anybody = is + nobody.", "source": "MODEL"},
+          {"n": 3, "type": "rewrite", "prompt": "We didn’t go anywhere on Sunday.", "answers": ["We went nowhere on Sunday."], "explain": "didn’t go anywhere = went nowhere.", "source": "MODEL"},
+          {"n": 4, "type": "rewrite", "prompt": "There isn’t anything on TV tonight.", "answers": ["There’s nothing on TV tonight.", "There is nothing on TV tonight."], "explain": "isn’t anything = is nothing.", "source": "MODEL"},
+          {"n": 5, "type": "rewrite", "prompt": "I didn’t see anyone at the station.", "answers": ["I saw no one at the station.", "I saw nobody at the station."], "explain": "didn’t see anyone = saw no one.", "source": "MODEL"}
+        ]},
+        {"id": "4C-grammar-x3", "origin": "GENERATED", "instruction": "Correct the mistake in each sentence. Write the sentence.", "exercises": [
+          {"n": 1, "type": "rewrite", "prompt": "I didn’t say nothing.", "answers": ["I didn’t say anything.", "I said nothing."], "explain": "No double negatives: didn’t + anything.", "source": "MODEL"},
+          {"n": 2, "type": "rewrite", "prompt": "Is there somebody at home?", "answers": ["Is there anybody at home?", "Is there anyone at home?"], "explain": "Questions usually use any-.", "source": "MODEL"},
+          {"n": 3, "type": "rewrite", "prompt": "I’ve got anything for you!", "answers": ["I’ve got something for you!", "I have got something for you!"], "explain": "A + verb → something.", "source": "MODEL"},
+          {"n": 4, "type": "rewrite", "prompt": "Nobody didn’t come to the meeting.", "answers": ["Nobody came to the meeting.", "No one came to the meeting."], "explain": "nobody + a + verb (not didn’t).", "source": "MODEL"},
+          {"n": 5, "type": "rewrite", "prompt": "Let’s go anywhere nice tonight.", "answers": ["Let’s go somewhere nice tonight."], "explain": "Suggestions with a + verb → somewhere.", "source": "MODEL"},
+          {"n": 6, "type": "rewrite", "prompt": "We didn’t go nowhere in the summer.", "answers": ["We didn’t go anywhere in the summer.", "We went nowhere in the summer."], "explain": "No double negatives: didn’t go anywhere.", "source": "MODEL"}
+        ]}
+      ]
+    },
+    {
+      "id": "4C-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "/e/, /əʊ/, and /ʌ/",
+      "reference": [
+        {"type": "table", "title": "/e/, /əʊ/, and /ʌ/", "headers": ["Sound", "Word", "Examples"], "rows": [["/e/", "egg", "never, said, anything, tell, anybody, message, clever, friendly, sweater"], ["/əʊ/", "phone", "nobody, knows, goes, nowhere, go, home, clothes, coat, don’t"], ["/ʌ/", "up", "somebody, coming, lunch, done, nothing, Sunday, gloves, funny"]], "audio": "4.23"},
+        {"type": "note", "title": null, "text": "The letter o can be /əʊ/ (nobody, home) or /ʌ/ (something, nothing, done). any- words have /e/: anything /ˈeniθɪŋ/."}
+      ],
+      "tasks": [
+        {"id": "4C-sb4a", "origin": "SB", "instruction": "What sound do the pink letters make? Listen and check", "note": "SB 4a+4b → Sort предложений по трём колонкам; розовые буквы — как в книге. По аудио 4.23", "audio": "4.23", "columns": ["egg /e/", "phone /əʊ/", "up /ʌ/"], "exercises": [
+          {"n": 1, "type": "sort", "word": "N[o]body kn[ow]s where he g[oe]s.", "column": 2, "source": "CONFIRMED"},
+          {"n": 2, "type": "sort", "word": "S[o]mebody’s c[o]ming to l[u]nch.", "column": 3, "source": "CONFIRMED"},
+          {"n": 3, "type": "sort", "word": "I n[e]ver s[ai]d [a]nything.", "column": 1, "source": "CONFIRMED"},
+          {"n": 4, "type": "sort", "word": "I’ve d[o]ne n[o]thing since S[u]nday.", "column": 3, "source": "CONFIRMED"},
+          {"n": 5, "type": "sort", "word": "Don’t t[e]ll [a]nybody about the m[e]ssage.", "column": 1, "source": "CONFIRMED"},
+          {"n": 6, "type": "sort", "word": "There’s n[o]where to g[o] except h[o]me.", "column": 2, "source": "CONFIRMED"}
+        ]},
+        {"id": "4C-sb4b", "origin": "SB", "instruction": "Practise saying the sentences", "note": "SB 4b → Speak предложений по аудио 4.23", "audio": "4.23", "exercises": [
+          {"n": 1, "type": "speak", "text": "Nobody knows where he goes."},
+          {"n": 2, "type": "speak", "text": "Somebody’s coming to lunch."},
+          {"n": 3, "type": "speak", "text": "I never said anything."},
+          {"n": 4, "type": "speak", "text": "I’ve done nothing since Sunday."},
+          {"n": 5, "type": "speak", "text": "Don’t tell anybody about the message."},
+          {"n": 6, "type": "speak", "text": "There’s nowhere to go except home."}
+        ]},
+        {"id": "4C-sb4c", "origin": "SB", "instruction": "Listen to the question and answer it with Nothing, Nowhere or Nobody, then a full sentence. Example: What did you buy? – Nothing. I didn’t buy anything.", "note": "SB 4c → Blank: клип — только вопрос, ответ «короткий + полный» печатают целиком. 1 — пример; ответы по транскрипту 4.24", "audio": "4.24", "exercises": [{"n": 2, "type": "blank", "text": "{}", "gaps": [["Nowhere. I didn’t go anywhere.", "Nowhere. I did not go anywhere."]], "clip": [10.92, 12.39], "explain": "Where did you go? – Nowhere. I didn’t go anywhere.", "source": "CONFIRMED"}, {"n": 3, "type": "blank", "text": "{}", "gaps": [["Nobody. I didn’t see anybody.", "Nobody. I didn’t see anyone.", "Nobody. I did not see anybody.", "Nobody. I did not see anyone.", "No one. I didn’t see anybody.", "No one. I didn’t see anyone.", "No one. I did not see anybody.", "No one. I did not see anyone."]], "clip": [21.97, 23.56], "explain": "Who did you see? – Nobody. I didn’t see anybody.", "source": "CONFIRMED"}, {"n": 4, "type": "blank", "text": "{}", "gaps": [["Nothing. I didn’t eat anything.", "Nothing. I did not eat anything."]], "clip": [33.71, 35.16], "explain": "What did you eat? – Nothing. I didn’t eat anything.", "source": "CONFIRMED"}, {"n": 5, "type": "blank", "text": "{}", "gaps": [["Nobody. I didn’t speak to anybody.", "Nobody. I didn’t speak to anyone.", "Nobody. I did not speak to anybody.", "Nobody. I did not speak to anyone.", "No one. I didn’t speak to anybody.", "No one. I didn’t speak to anyone.", "No one. I did not speak to anybody.", "No one. I did not speak to anyone."]], "clip": [45.01, 46.73], "explain": "Who did you speak to? – Nobody. I didn’t speak to anybody.", "source": "CONFIRMED"}, {"n": 6, "type": "blank", "text": "{}", "gaps": [["Nowhere. I didn’t walk anywhere.", "Nowhere. I did not walk anywhere."]], "clip": [56.99, 58.58], "explain": "Where did you walk? – Nowhere. I didn’t walk anywhere.", "source": "CONFIRMED"}, {"n": 7, "type": "blank", "text": "{}", "gaps": [["Nobody. I didn’t meet anybody.", "Nobody. I didn’t meet anyone.", "Nobody. I did not meet anybody.", "Nobody. I did not meet anyone.", "No one. I didn’t meet anybody.", "No one. I didn’t meet anyone.", "No one. I did not meet anybody.", "No one. I did not meet anyone."]], "clip": [69.07, 70.44], "explain": "Who did you meet? – Nobody. I didn’t meet anybody.", "source": "CONFIRMED"}, {"n": 8, "type": "blank", "text": "{}", "gaps": [["Nothing. I didn’t say anything.", "Nothing. I did not say anything."]], "clip": [80.21, 81.72], "explain": "What did you say? – Nothing. I didn’t say anything.", "source": "CONFIRMED"}]},
+        {"id": "4C-wb3a", "origin": "WB", "instruction": "Write the words in the chart", "note": "WB 3a → Sort; anything, clothes, customer — примеры; розовые буквы — как в WB", "columns": ["egg /e/", "phone /əʊ/", "up /ʌ/"], "exercises": [
+          {"n": 1, "type": "sort", "word": "cl[e]ver", "column": 1},
+          {"n": 2, "type": "sort", "word": "c[oa]t", "column": 2},
+          {"n": 3, "type": "sort", "word": "d[o]n’t", "column": 2},
+          {"n": 4, "type": "sort", "word": "dr[e]ss", "column": 1},
+          {"n": 5, "type": "sort", "word": "fr[ie]ndly", "column": 1},
+          {"n": 6, "type": "sort", "word": "f[u]nny", "column": 3},
+          {"n": 7, "type": "sort", "word": "gl[o]ves", "column": 3},
+          {"n": 8, "type": "sort", "word": "g[oe]s", "column": 2},
+          {"n": 9, "type": "sort", "word": "h[o]me", "column": 2},
+          {"n": 10, "type": "sort", "word": "l[u]nch", "column": 3},
+          {"n": 11, "type": "sort", "word": "n[o]thing", "column": 3},
+          {"n": 12, "type": "sort", "word": "ph[o]tos", "column": 2},
+          {"n": 13, "type": "sort", "word": "s[o]mething", "column": 3},
+          {"n": 14, "type": "sort", "word": "sw[ea]ter", "column": 1},
+          {"n": 15, "type": "sort", "word": "w[e]bsite", "column": 1}
+        ]},
+        {"id": "4C-wb3b", "origin": "WB", "instruction": "Listen and check. Then listen again and repeat the words", "note": "WB 3b (трека WB нет, образец — синтезатор) → Speak по колонкам", "exercises": [
+          {"n": 1, "type": "speak", "text": "anything, clever, dress, friendly, sweater, website"},
+          {"n": 2, "type": "speak", "text": "clothes, coat, don’t, goes, home, photos"},
+          {"n": 3, "type": "speak", "text": "customer, funny, gloves, lunch, nothing, something"}
+        ]}
+      ]
+    },
+    {
+      "id": "4C-review",
+      "kind": "REVIEW",
+      "title": "Revise and Check 3&4",
+      "reference": [
+        {"type": "note", "title": "File 3", "text": "be going to + infinitive for plans (I’m going to look for a job) and predictions (I think it’s going to rain). Present continuous for future arrangements: What time are you leaving tomorrow? Defining relative clauses: who for people, which for things, where for places: He’s the man who lives next door. Is that the shop which sells Italian food?"},
+        {"type": "note", "title": "File 4", "text": "Present perfect (have / has + past participle) for recent actions and news, with yet, just, already: Have you made your bed yet? I’ve already seen this film. For experiences with ever / never: Have you ever been to Africa? Details and finished times → past simple: When did you buy those shoes? Last week. something / anything / nothing, somebody / anybody / nobody, somewhere / anywhere / nowhere."},
+        {"type": "table", "title": "Vocabulary", "headers": ["Topic", "Words"], "rows": [["make", "a mistake, a noise, friends, plans, lunch, the bed"], ["do", "the shopping, an exam, exercise, housework, the washing-up"], ["shopping", "try on, fit, receipt, trolley, changing room"], ["airports", "Gate, Terminal, check-in desk, departures, arrivals"], ["-ed / -ing", "bored / boring, relaxed / relaxing, excited / exciting"]]}
+      ],
+      "tasks": [
+        {"id": "4C-rcg", "origin": "SB", "instruction": "Grammar. Complete with the correct form", "note": "Revise and Check 3&4 (SB p.36) Grammar «Circle a, b, or c» → Blank, варианты в hint. Ключа нет — MODEL", "exercises": [
+          {"n": 1, "type": "blank", "text": "How long {} to stay in Italy?", "gaps": [["are you going"]], "hint": "(do you go / are you going / you are going)", "explain": "be going to for plans: question word + are you going to…?", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "I think the party {} be really fun this evening.", "gaps": [["is going to"]], "hint": "(is going / goes to / is going to)", "explain": "A prediction: is going to + infinitive.", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "He {} to look for a job until next year.", "gaps": [["isn’t going", "is not going"]], "hint": "(isn’t going / doesn’t go / not going)", "explain": "Negative plan: isn’t going to.", "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "{} to the cinema after class this evening.", "gaps": [["I’m going", "I am going"]], "hint": "(I go / I’m going / I going)", "explain": "An arrangement → present continuous.", "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "What time {} tomorrow? – At 8.00.", "gaps": [["are you leaving"]], "hint": "(you leave / do you leaving / are you leaving)", "explain": "Future arrangement → present continuous question.", "source": "MODEL"},
+          {"n": 6, "type": "blank", "text": "He’s the man {} lives next door to Alice.", "gaps": [["who", "that"]], "hint": "(who / which / where)", "explain": "who for people.", "source": "MODEL"},
+          {"n": 7, "type": "blank", "text": "Is that the shop {} sells Italian food?", "gaps": [["which", "that"]], "hint": "(who / which / where)", "explain": "which for things – the shop is the subject of sells.", "source": "MODEL"},
+          {"n": 8, "type": "blank", "text": "{} your bed? – No, I’m going to do it now.", "gaps": [["Have you made"]], "hint": "(Have you made / Have you make / Has you made)", "explain": "Have + you + past participle.", "source": "MODEL"},
+          {"n": 9, "type": "blank", "text": "Has Anne arrived {}? – No, but she’s on her way.", "gaps": [["yet"]], "hint": "(yet / just / already)", "explain": "yet at the end of questions.", "source": "MODEL"},
+          {"n": 10, "type": "blank", "text": "{} already seen this film! Let’s watch something else.", "gaps": [["We’ve", "We have"]], "hint": "(We’re / We haven’t / We’ve)", "explain": "already with a + present perfect.", "source": "MODEL"},
+          {"n": 11, "type": "blank", "text": "{} been to Africa? – No, never.", "gaps": [["Have you ever"]], "hint": "(Have you ever / Did you ever / Were you ever)", "explain": "Life experience → Have you ever…?", "source": "MODEL"},
+          {"n": 12, "type": "blank", "text": "When {} those shoes? – Last week.", "gaps": [["did you buy"]], "hint": "(do you buy / have you bought / did you buy)", "explain": "When…? → past simple.", "source": "MODEL"},
+          {"n": 13, "type": "blank", "text": "I’ve never {} this coat. It’s too small.", "gaps": [["worn"]], "hint": "(wear / worn / wore)", "explain": "wear → wore → worn.", "source": "MODEL"},
+          {"n": 14, "type": "blank", "text": "There’s {} at the door. Can you go and open it, please?", "gaps": [["someone", "somebody"]], "hint": "(something / someone / somewhere)", "explain": "A person, a + verb → someone.", "source": "MODEL"},
+          {"n": 15, "type": "blank", "text": "I don’t want {} to eat, thanks. I’m not hungry.", "gaps": [["anything"]], "hint": "(nothing / anything / something)", "explain": "A − verb → anything.", "source": "MODEL"}
+        ]},
+        {"id": "4C-rcva", "origin": "SB", "instruction": "Vocabulary. Complete with a preposition", "note": "Revise and Check 3&4 Vocabulary a; MODEL", "exercises": [
+          {"n": 1, "type": "blank", "text": "We arrived {} Prague at 7.15.", "gaps": [["in"]], "explain": "arrive in + a city or country.", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "I’m coming! Wait {} me.", "gaps": [["for"]], "explain": "wait for.", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "What did you ask {}, meat or fish?", "gaps": [["for"]], "explain": "ask for = request.", "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "Are you going to buy the flat? – I don’t know. It depends {} the price.", "gaps": [["on"]], "explain": "depend on.", "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "How much did you pay {} those shoes?", "gaps": [["for"]], "explain": "pay for.", "source": "MODEL"}
+        ]},
+        {"id": "4C-rcvb", "origin": "SB", "instruction": "Complete with make or do", "note": "Revise and Check 3&4 Vocabulary b; MODEL", "words": ["make", "do"], "exercises": [
+          {"n": 1, "type": "blank", "text": "{} the shopping", "gaps": [["do"]], "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "{} a mistake", "gaps": [["make"]], "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "{} an exam", "gaps": [["do"]], "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "{} exercise", "gaps": [["do"]], "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "{} a noise", "gaps": [["make"]], "source": "MODEL"}
+        ]},
+        {"id": "4C-rcvc", "origin": "SB", "instruction": "Complete the missing words", "note": "Revise and Check 3&4 Vocabulary c; первые буквы книги не даём (контекст однозначен). MODEL", "exercises": [
+          {"n": 1, "type": "blank", "text": "Dinner’s ready. Please could you {} the table?", "gaps": [["lay", "set"]], "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "I’ll cook if you do the {}-up.", "gaps": [["washing"]], "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "Where are the changing rooms? I want to {} this sweater.", "gaps": [["try on"]], "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "If you want to take something back to a shop, you need to have the {}.", "gaps": [["receipt"]], "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "These trainers don’t {} me. They’re too big.", "gaps": [["fit"]], "source": "MODEL"},
+          {"n": 6, "type": "blank", "text": "The flight to Berlin is now leaving from {} 12.", "gaps": [["Gate"]], "source": "MODEL"},
+          {"n": 7, "type": "blank", "text": "If you have a lot of luggage, you can find a {} over there.", "gaps": [["trolley"]], "source": "MODEL"},
+          {"n": 8, "type": "blank", "text": "If you don’t have a boarding pass, you need to go to the {} desk.", "gaps": [["check-in"]], "source": "MODEL"},
+          {"n": 9, "type": "blank", "text": "International flights depart from {} 2.", "gaps": [["Terminal"]], "source": "MODEL"},
+          {"n": 10, "type": "blank", "text": "There are {} to the first and second floors.", "gaps": [["lifts", "stairs", "escalators"]], "source": "MODEL"}
+        ]},
+        {"id": "4C-rcvd", "origin": "SB", "instruction": "Complete with the correct adjective", "note": "Revise and Check 3&4 Vocabulary d «Circle the correct adjective» → Blank, варианты в hint. MODEL", "exercises": [
+          {"n": 1, "type": "blank", "text": "This exercise is really {}.", "gaps": [["boring"]], "hint": "(bored / boring)", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "I never feel {} the day before I go on holiday.", "gaps": [["relaxed"]], "hint": "(relaxed / relaxing)", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "It was a very {} match.", "gaps": [["exciting"]], "hint": "(excited / exciting)", "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "Jack is a bit {}. He lost his job.", "gaps": [["depressed"]], "hint": "(depressed / depressing)", "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "Are you {} in art?", "gaps": [["interested"]], "hint": "(interested / interesting)", "source": "MODEL"}
+        ]},
+        {"id": "4C-rcpa", "origin": "SB", "instruction": "Pronunciation. Practise the words and sounds", "note": "Revise and Check 3&4 Pronunciation a → Speak слов-звуков (трека нет, образец — синтезатор). b (Sound Bank p.166–167: назвать ещё слова на каждый звук) не переносили — открытое задание", "exercises": [
+          {"n": 1, "type": "speak", "text": "clock"},
+          {"n": 2, "type": "speak", "text": "phone"},
+          {"n": 3, "type": "speak", "text": "cat"},
+          {"n": 4, "type": "speak", "text": "train"},
+          {"n": 5, "type": "speak", "text": "girl"},
+          {"n": 6, "type": "speak", "text": "yacht"},
+          {"n": 7, "type": "speak", "text": "key"},
+          {"n": 8, "type": "speak", "text": "house"}
+        ]},
+        {"id": "4C-rcpc", "origin": "SB", "instruction": "What sound in a do the pink letters have?", "note": "Revise and Check 3&4 Pronunciation c → Sort по восьми звукам из a; розовые буквы — как в книге. MODEL", "columns": ["clock /ɒ/", "phone /əʊ/", "cat /æ/", "train /eɪ/", "girl /g/", "yacht /j/", "key /k/", "house /h/"], "exercises": [
+          {"n": 1, "type": "sort", "word": "tr[o]lley", "column": 1, "explain": "trolley /ˈtrɒli/ – like clock.", "source": "MODEL"},
+          {"n": 2, "type": "sort", "word": "[g]uide", "column": 5, "explain": "guide – g like girl (the u is silent).", "source": "MODEL"},
+          {"n": 3, "type": "sort", "word": "[wh]o", "column": 8, "explain": "who /huː/ – wh sounds like h.", "source": "MODEL"},
+          {"n": 4, "type": "sort", "word": "cl[o]thes", "column": 2, "explain": "clothes /kləʊðz/ – like phone.", "source": "MODEL"},
+          {"n": 5, "type": "sort", "word": "ch[ai]n", "column": 4, "explain": "chain /tʃeɪn/ – like train.", "source": "MODEL"}
+        ]},
+        {"id": "4C-rcpd", "origin": "SB", "instruction": "Tap the stressed syllable", "note": "Revise and Check 3&4 Pronunciation d «Underline the stressed syllable» → Stress, слоги как в книге. MODEL", "exercises": [
+          {"n": 1, "type": "stress", "text": "de|par|tures", "stressed": [2], "explain": "dePARtures.", "source": "MODEL"},
+          {"n": 2, "type": "stress", "text": "a|rrive", "stressed": [2], "explain": "aRRIVE.", "source": "MODEL"},
+          {"n": 3, "type": "stress", "text": "o|ppo|site", "stressed": [1], "explain": "OPposite.", "source": "MODEL"},
+          {"n": 4, "type": "stress", "text": "some|bo|dy", "stressed": [1], "explain": "SOMEbody.", "source": "MODEL"},
+          {"n": 5, "type": "stress", "text": "ex|ci|ting", "stressed": [2], "explain": "exCIting.", "source": "MODEL"}
+        ]},
+        {"id": "4C-rcra", "origin": "SB", "instruction": "Can you understand this text? Read the article. How many different ways of making new words are mentioned?", "note": "Revise and Check 3&4 «Can you understand this text?» a → Blank; MODEL (6 способов; слова для новых технологий можно считать седьмым — принимаем 6 и 7)", "context": "900 new words in 3 months. Everyone knows the English language is changing. Every three months the OED (Oxford English Dictionary) publishes updates to its online dictionary. One recent update contained 900 new words, new expressions, or new meanings for existing words. But where do they all come from? New words are created in many different ways. We can make a new word by combining two words, like gastropub (gastronomy + pub) or vlog (video + blog). Sometimes we put two words together in a new way, for example road rage or selfie stick. We also find that nouns can change into verbs. Take the word text. Text was always a noun (from about 1369, according to the OED), but it is now very common as a verb, to text somebody. Other new words already existed but with a different meaning. For example, tweet was the noise that a bird makes, but now we use it more often (as a verb or a noun) for a message that people put on the social networking site Twitter. Another way in which we make new words is by ‘adopting’ words from foreign languages, like barista or latte (imported from Italian when coffee bars became really popular in the UK in the 1990s). A lot of new words come from the names of brands or companies, for example we Skype each other and we google information. We also need more general words to describe new technology or new gadgets: wi-fi, ringtone, and smartphone are some examples. The invention of new words is not a new phenomenon. The word brunch (breakfast + lunch) first appeared in 1896, newspaper (news + paper) in 1667, and English speakers started to use the word café (from French) in the late 19th century. The difference now is how quickly new words and expressions enter the language and how quickly we start to use and understand them.", "exercises": [
+          {"n": 1, "type": "blank", "text": "The article mentions {} different ways of making new words.", "gaps": [["6", "six", "7", "seven"]], "explain": "Combining two words, putting two words together in a new way, nouns into verbs, new meanings for old words, words from foreign languages, brand names (and new words for new technology).", "source": "MODEL"}
+        ]},
+        {"id": "4C-rcrb", "origin": "SB", "instruction": "Read the article again and answer the questions", "note": "Revise and Check 3&4 «Can you understand this text?» b → Blank с ключевой частью ответа. MODEL", "context": "900 new words in 3 months. Every three months the OED (Oxford English Dictionary) publishes updates to its online dictionary. We can make a new word by combining two words, like gastropub (gastronomy + pub) or vlog (video + blog). Text was always a noun (from about 1369, according to the OED), but it is now very common as a verb, to text somebody. Barista or latte were imported from Italian when coffee bars became really popular in the UK in the 1990s. We also need more general words to describe new technology or new gadgets: wi-fi, ringtone, and smartphone are some examples. The word brunch (breakfast + lunch) first appeared in 1896, newspaper (news + paper) in 1667, and English speakers started to use the word café (from French) in the late 19th century.", "exercises": [
+          {"n": 1, "type": "blank", "text": "How often does the OED add words to its online dictionary? – Every {} months.", "gaps": [["three", "3"]], "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "How was the word vlog created? – By combining {} and {}.", "gaps": [["video"], ["blog"]], "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "What part of speech was text until the 20th century? – A {}.", "gaps": [["noun"]], "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "What language do barista and latte come from? – {}", "gaps": [["Italian"]], "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "Why did we need to invent words like wi-fi? – To describe new {}.", "gaps": [["technology", "gadgets", "technology or new gadgets"]], "source": "MODEL"},
+          {"n": 6, "type": "blank", "text": "Which came first: brunch, newspaper, or café? – {}", "gaps": [["newspaper"]], "explain": "newspaper – 1667; café – late 19th century; brunch – 1896.", "source": "MODEL"}
+        ]},
+        {"id": "4C-rcl", "origin": "SB", "instruction": "Can you understand these people? Listen and complete the sentences", "note": "Revise and Check 3&4 «Can you understand these people?» 4.25 (Circle a, b, or c → Blank, варианты в hint); клип — ответ одного человека, фото — под ответом. Скрипта нет — по расшифровке", "audio": "4.25", "exercises": [{"n": 1, "type": "blank", "text": "Sean went to the airport to {}.", "gaps": [["meet his mother"]], "hint": "(travel to Tenerife / meet his mother / drop off his brother)", "image": "4c_rcl_sean", "explain": "‘I was meeting my mother. She arrived at midnight coming back from Tenerife.’", "source": "CONFIRMED", "clip": [0.2, 19.3]}, {"n": 2, "type": "blank", "text": "Susie {} tonight.", "gaps": [["is going out with friends"]], "hint": "(isn’t doing anything / is going to a family party / is going out with friends)", "image": "4c_rcl_susie", "explain": "‘I’m going to a party with some friends.’", "source": "CONFIRMED", "clip": [19.4, 28.4]}, {"n": 3, "type": "blank", "text": "The only thing Caroline doesn’t mind doing is {}.", "gaps": [["cleaning the kitchen"]], "hint": "(cleaning the bathroom / cooking / cleaning the kitchen)", "image": "4c_rcl_caroline", "explain": "‘I don’t mind cleaning the kitchen because there’s usually a lot of food to eat.’", "source": "CONFIRMED", "clip": [28.5, 45.9]}, {"n": 4, "type": "blank", "text": "The clothes which Albert bought online {}.", "gaps": [["were the wrong size"]], "hint": "(were the wrong size / took a long time to arrive / were the wrong colour)", "image": "4c_rcl_albert", "explain": "‘I’ve bought clothes online that didn’t fit.’", "source": "CONFIRMED", "clip": [46.2, 57.0]}, {"n": 5, "type": "blank", "text": "Mick once missed a flight because {}.", "gaps": [["he woke up late"]], "hint": "(he went to the wrong gate / he went to the wrong terminal / he woke up late)", "image": "4c_rcl_mick", "explain": "‘I … didn’t wake up in the morning and got to the gate as the flight was leaving.’", "source": "CONFIRMED", "clip": [57.1, 82.1]}]},
+        {"id": "4C-rcs", "origin": "SB", "instruction": "Can you say this in English? Talk about yourself", "note": "Revise and Check 3&4 «Can you say this in English?» (6 пунктов «Can you…?», самопроверка) → один разговор с ИИ по всем пунктам", "exercises": [
+          {"n": 1, "type": "talk", "situation": "A friendly revision chat in an English class (level: pre-intermediate) after Files 3 and 4. Check that the student can do these things, one by one, with short questions and reactions: 1) talk about three plans for next month using going to, and make three predictions (e.g. about the weather or a match); 2) say three arrangements for tomorrow using the present continuous; 3) use paraphrasing to explain these words: a tweet, a gastropub, a selfie stick (It’s a kind of…, It’s something you use to…, It’s a place where…); 4) say three things they have already done or haven’t done yet today; 5) ask you three questions about your experiences using ever and answer yours (answer briefly, then ask a past simple follow-up); 6) say three sentences using something, anywhere and nobody. Keep it natural, one question at a time; if the student makes a mistake with going to, the present continuous, relative clauses, the present perfect or past simple, or something / anything / nothing, repeat the correct form naturally in your reply.", "goal": "Show what you can say after Files 3 and 4.", "opener": "Hi! Let’s see what you remember from Files 3 and 4. First, what are you going to do next month?", "criteria": ["says three plans with going to and makes predictions", "says three arrangements for tomorrow with the present continuous", "explains a tweet, a gastropub and a selfie stick with paraphrasing (It’s a kind of…, It’s a place where…, It’s something you use to…)", "says what they have already done or haven’t done yet today", "asks three Have you ever…? questions and answers with the present perfect and past simple", "uses something, anywhere and nobody correctly"], "steps": [{"text": "Say three plans for next month", "example": "Next month I'm going to start a new course, visit my grandparents and buy a bike."}, {"text": "Make a prediction", "example": "I think it's going to be very hot in July."}, {"text": "Say three arrangements for tomorrow", "example": "Tomorrow I'm meeting Anna at ten, I'm having lunch with my dad and I'm playing tennis at six."}, {"text": "Explain a word", "example": "A selfie stick is something you use to take photos of yourself."}, {"text": "Say what you've done or haven't done today", "example": "I've already had breakfast, but I haven't done my homework yet."}, {"text": "Ask a question with ever", "example": "Have you ever been to London? When did you go?"}, {"text": "Say sentences with something, anywhere, nobody", "example": "I bought something nice yesterday. I didn't go anywhere at the weekend. Nobody called me."}]}
+        ]}
+      ]
+    }
+  ]
+}

@@ -9,8 +9,9 @@
 
 ## Сервер
 
-- `server/` в этом репо: Python + FastAPI, запуск через uv, Dockerfile. Один эндпоинт `POST /v1/chat` — тело как у
-  OpenAI chat completions (`messages`, `temperature`), модель сервер ставит сам (`deepseek-chat`).
+- `server/` в этом репо: Go, только стандартная библиотека (`net/http`, `httputil.ReverseProxy`) плюс
+  `golang.org/x/time/rate` для лимитов. Один бинарник, Docker-образ distroless (~20 МБ).
+- Один эндпоинт `POST /v1/chat` — тело как у OpenAI chat completions (`messages`, `temperature`), модель сервер ставит сам (`deepseek-chat`).
 - Секреты из env: `DEEPSEEK_API_KEY`, `APP_KEYS` (список внутренних ключей, чтобы можно было ротировать).
   В git — только `.env.example`.
 - Проверка `Authorization: Bearer <app key>`, иначе 401. Лимиты: запросов в минуту на ключ и дневной потолок

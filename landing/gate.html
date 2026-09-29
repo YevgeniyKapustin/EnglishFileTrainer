@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>English File Trainer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800&family=Literata:opsz,wght@7..72,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: #12243F;
+  --muted: #52627A;
+  --line: #C9D6DF;
+  --navy: #1D4E9E;
+  --bad: #A3360F;
+  --focus: #D02A78;
+  --sans: 'Golos Text', system-ui, sans-serif;
+  --serif: 'Literata', Georgia, serif;
+}
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: 24px 16px;
+  background: #12A3BF;
+  color: var(--ink);
+  font: 400 17px/1.55 var(--sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+.wedges {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.card {
+  position: relative;
+  z-index: 1;
+  width: min(440px, 100%);
+  padding: 36px 32px 32px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 0 40px 80px -30px rgba(5, 20, 50, .6);
+}
+
+.wordmark {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 28px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.wordmark-code {
+  display: inline-grid;
+  place-items: center;
+  min-width: 34px;
+  height: 26px;
+  padding: 0 6px;
+  border-radius: 6px;
+  background: var(--navy);
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.tag {
+  display: inline-block;
+  margin: 0 0 12px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: #FBE8E0;
+  color: var(--bad);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0 0 12px;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 1.15;
+  letter-spacing: -.01em;
+}
+
+.lead {
+  margin: 0 0 28px;
+  color: var(--muted);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+input {
+  width: 100%;
+  height: 56px;
+  padding: 0 18px;
+  border: 2px solid var(--line);
+  border-radius: 14px;
+  background: #FFFFFF;
+  color: var(--ink);
+  font: 400 20px var(--serif);
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--navy);
+}
+
+input[aria-invalid="true"] { border-color: var(--bad); }
+
+.error {
+  min-height: 24px;
+  margin: 8px 0 12px;
+  color: var(--bad);
+  font-size: 15px;
+}
+
+button {
+  width: 100%;
+  height: 56px;
+  border: 0;
+  border-radius: 14px;
+  background: var(--navy);
+  color: #FFFFFF;
+  font: 700 18px var(--sans);
+  cursor: pointer;
+}
+
+button:hover { background: #173F82; }
+
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+@media (max-width: 420px) {
+  .card { padding: 28px 22px 24px; }
+  h1 { font-size: 26px; }
+}
+</style>
+</head>
+<body>
+<svg class="wedges" viewBox="0 0 1440 900" preserveAspectRatio="none" aria-hidden="true">
+  <polygon points="0,0 900,0 520,900 0,900" fill="#12A3BF"/>
+  <polygon points="560,0 1440,0 1440,900 300,900" fill="#1D4E9E" opacity=".9"/>
+  <polygon points="0,220 620,900 0,900" fill="#7FCBE0" opacity=".5"/>
+  <polygon points="820,0 930,0 560,900 470,900" fill="#FFFFFF" opacity=".16"/>
+  <polygon points="1440,560 1440,900 1080,900" fill="#A9D46F" opacity=".8"/>
+</svg>
+
+<main class="card">
+  <p class="wordmark"><span class="wordmark-code">1A</span>English File Trainer</p>
+  <p class="tag">Private project</p>
+  <h1>Not open to everyone</h1>
+  <p class="lead">This is a personal project for a small group of learners. To see the page and download the app, enter the access key you were given.</p>
+  <form id="gate">
+    <label for="key">Access key</label>
+    <input id="key" name="key" type="password" autocomplete="current-password" autocapitalize="off" spellcheck="false" required>
+    <p class="error" id="error" role="alert"></p>
+    <button type="submit">Enter</button>
+  </form>
+</main>
+
+<script>
+const form = document.getElementById('gate');
+const input = document.getElementById('key');
+const error = document.getElementById('error');
+
+if (document.cookie.split('; ').some(c => c.startsWith('ef_key='))) {
+  error.textContent = 'That key didn’t work. Check it and try again.';
+  input.setAttribute('aria-invalid', 'true');
+}
+
+form.addEventListener('submit', event => {
+  event.preventDefault();
+  const key = encodeURIComponent(input.value.trim());
+  document.cookie = `ef_key=${key}; Max-Age=31536000; Path=/; Secure; SameSite=Lax`;
+  location.reload();
+});
+</script>
+</body>
+</html>

@@ -29,7 +29,7 @@
 ## Открыто
 
 - Хостинг: VPS DigitalOcean `209.38.199.119`, `https://ai-teacher.cow-studio.com` (Cloudflare proxy → nginx + certbot → `127.0.0.1:8090`). Бинарник `/opt/ai-teacher/keyserver`, секреты `/opt/ai-teacher/.env`, служба systemd `ai-teacher`. Обновить: собрать `GOOS=linux GOARCH=amd64 CGO_ENABLED=0`, залить, `systemctl restart ai-teacher`.
-- Лендинг там же: `landing/` и APK (`english-file-trainer.apk`) лежат в `/var/www/ai-teacher`, закрыты basic auth (`/etc/nginx/ai-teacher.htpasswd`, пароль у владельца), `noindex` и `robots.txt`. Без пароля только `/v1/` и `/healthz` — для приложения. Обновить: залить файлы через `ssh … "cat > …"`, nginx не трогать.
+- Лендинг отдельно: `https://english-file.cow-studio.com`, nginx-сайт `english-file`, файлы `landing/` и APK (`english-file-trainer.apk`) в `/var/www/english-file`. Вход — страница `gate.html` с ключом: он пишется в cookie `ef_key`, nginx сверяет её через `map` (ключ у владельца, в git его нет); плюс `noindex` и `robots.txt`. Обновить: залить файлы через `ssh … "cat > …"`, nginx не трогать.
 - Потолок расходов в кабинете DeepSeek.
 
 ## Безопасность

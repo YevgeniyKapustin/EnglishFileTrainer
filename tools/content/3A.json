@@ -1,0 +1,3051 @@
+{
+  "id": "3A",
+  "title": "TripAside",
+  "bubbles": [
+    "What are we going to do?",
+    "We’re going to visit the Louvre."
+  ],
+  "sources": "SB p.22–23 (PDF 23–24), Grammar Bank p.130–131 (PDF 131–132), Communication p.103/109 (PDF 104/110), scripts p.121 (PDF 122); WB p.18–19 (PDF 17–18), key WB p.89 (PDF 88)",
+  "sections": [
+    {
+      "id": "3A-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "airports",
+      "reference": [
+        {
+          "type": "table",
+          "title": "At the airport",
+          "headers": [
+            "Word",
+            "What it is"
+          ],
+          "rows": [
+            [
+              "check-in",
+              "the desk where you show your ticket and passport and get your boarding pass"
+            ],
+            [
+              "bag drop",
+              "the place where you leave your suitcase if you checked in online"
+            ],
+            [
+              "security check",
+              "where they check you and your hand luggage before the gates"
+            ],
+            [
+              "passport control",
+              "where an officer looks at your passport"
+            ],
+            [
+              "departures",
+              "the part of the airport for people who are leaving"
+            ],
+            [
+              "gates",
+              "where you get on the plane (G5–25)"
+            ],
+            [
+              "arrivals",
+              "the part of the airport for people who have landed"
+            ],
+            [
+              "baggage reclaim",
+              "where you pick up your suitcases after the flight"
+            ],
+            [
+              "customs",
+              "where officers can check what you bring into the country"
+            ],
+            [
+              "terminal",
+              "one of the big buildings of an airport (Terminal 1, Terminal 2)"
+            ],
+            [
+              "lifts",
+              "they take you up or down to a different floor"
+            ],
+            [
+              "trolley",
+              "a thing with wheels for carrying your suitcases"
+            ]
+          ],
+          "audio": "3.1"
+        },
+        {
+          "type": "note",
+          "title": "Air travel words",
+          "text": "stopover (AmE layover) – a short stay in a place between two flights; connecting flight – the second flight that you catch to continue your journey; departure lounge – where you wait for your flight after security; duty-free shop – a shop in the airport where you don’t pay tax; air traveller – a person who travels by plane."
+        },
+        {
+          "type": "mistake",
+          "wrong": "I have two baggages.",
+          "right": "I have two bags. / I have a lot of baggage.",
+          "why": "baggage and luggage are uncountable: no plural, no a."
+        },
+        {
+          "type": "mistake",
+          "wrong": "We waited in the arrival.",
+          "right": "We waited in arrivals.",
+          "why": "arrivals and departures are plural and usually have no the."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "3A-sb1a",
+          "origin": "SB",
+          "instruction": "Talk about the last time you went to an airport",
+          "note": "SB 1a — разговор о себе → Talk",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a friendly classmate in an English class (level: pre-intermediate). Talk with the student about airports. Ask: When was the last time you went to an airport? Which airport was it? Was it to travel somewhere, or to pick up or drop off someone? Where did you go / who did you pick up? Was it busy? Did you have any problems (long queues at security or passport control, lost baggage, a late flight)? Answer the same questions about yourself when the student asks (last month you picked up your sister at Terminal 2; the queue at passport control was very long). Use the airport words naturally: check-in, bag drop, security check, departures, gates, arrivals, baggage reclaim, trolley. If the student makes a mistake with the past simple, repeat the sentence correctly in your reply without a long explanation.",
+              "goal": "Talk about your last trip to an airport.",
+              "opener": "Hi! I went to the airport last week. When was the last time you went to an airport?",
+              "criteria": [
+                "says when they last went to an airport and why (to travel, to pick up or drop off someone)",
+                "uses at least three airport words correctly (check-in, security, gates, arrivals…)",
+                "uses the past simple correctly",
+                "asks the partner at least one question back"
+              ],
+              "steps": [
+                {
+                  "text": "Say when you last went to an airport",
+                  "example": "I went to the airport two months ago."
+                },
+                {
+                  "text": "Say why you went there",
+                  "example": "I went to pick up my brother. He was coming back from Italy."
+                },
+                {
+                  "text": "Say what happened there",
+                  "example": "His flight was late, so I waited in arrivals for an hour."
+                },
+                {
+                  "text": "Ask your partner about their last time",
+                  "example": "What about you? Was it to travel somewhere?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3A-sb1b",
+          "origin": "SB",
+          "instruction": "Look at the airport signs. Write the word or phrase for each sign",
+          "note": "SB 1b «match them to the words and phrases» → Blank по знаку; знаки 1–12 из SB p.22 (tools/images.py), номера стёрты. Ответы по аудио 3.1 (диктор называет номер знака к каждому слову)",
+          "words": [
+            "arrivals",
+            "bag drop",
+            "baggage reclaim",
+            "check-in",
+            "customs",
+            "departures",
+            "gates",
+            "lifts",
+            "passport control",
+            "security check",
+            "terminal",
+            "trolley"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "baggage reclaim"
+                ]
+              ],
+              "image": "3a_sb1b_1",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "departures"
+                ]
+              ],
+              "image": "3a_sb1b_2",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "arrivals"
+                ]
+              ],
+              "image": "3a_sb1b_3",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "terminal"
+                ]
+              ],
+              "image": "3a_sb1b_4",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "lifts"
+                ]
+              ],
+              "image": "3a_sb1b_5",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "trolley"
+                ]
+              ],
+              "image": "3a_sb1b_6",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "bag drop"
+                ]
+              ],
+              "image": "3a_sb1b_7",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "customs"
+                ]
+              ],
+              "image": "3a_sb1b_8",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "check-in",
+                  "check in"
+                ]
+              ],
+              "image": "3a_sb1b_9",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "passport control"
+                ]
+              ],
+              "image": "3a_sb1b_10",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "gates"
+                ]
+              ],
+              "image": "3a_sb1b_11",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "security check",
+                  "security"
+                ]
+              ],
+              "image": "3a_sb1b_12",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "3A-sb1c",
+          "origin": "SB",
+          "instruction": "Listen and check. Then say the words and phrases",
+          "note": "SB 1c (3.1) → Speak по отрезкам трека (номер знака, который диктор говорит перед словом, не включён)",
+          "audio": "3.1",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "arrivals",
+              "clip": [
+                3.1,
+                4.6
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "bag drop",
+              "clip": [
+                6.4,
+                7.6
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "baggage reclaim",
+              "clip": [
+                9.4,
+                11.1
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "check-in",
+              "answers": [
+                "check-in",
+                "check in"
+              ],
+              "clip": [
+                12.9,
+                14.1
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "customs",
+              "clip": [
+                15.8,
+                17.1
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "departures",
+              "clip": [
+                18.8,
+                20.3
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "gates",
+              "clip": [
+                22.0,
+                23.2
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "lifts",
+              "clip": [
+                25.1,
+                26.3
+              ]
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "passport control",
+              "clip": [
+                28.1,
+                29.9
+              ]
+            },
+            {
+              "n": 10,
+              "type": "speak",
+              "text": "security check",
+              "clip": [
+                31.7,
+                33.4
+              ]
+            },
+            {
+              "n": 11,
+              "type": "speak",
+              "text": "terminal",
+              "clip": [
+                35.2,
+                36.3
+              ]
+            },
+            {
+              "n": 12,
+              "type": "speak",
+              "text": "trolley",
+              "clip": [
+                38.0,
+                39.1
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3A-sb1d",
+          "origin": "SB",
+          "instruction": "Listen. Where could you hear these announcements or conversations? Write the place",
+          "note": "SB 1d (3.2); 1 «Doors opening…» → a lift — пример книги, не перенесён. Ответы по расшифровке аудио",
+          "audio": "3.2",
+          "words": [
+            "arrivals",
+            "bag drop",
+            "baggage reclaim",
+            "check-in",
+            "customs",
+            "departures",
+            "gates",
+            "lifts",
+            "passport control",
+            "security check",
+            "terminal",
+            "trolley"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "baggage reclaim",
+                  "lost luggage"
+                ]
+              ],
+              "explain": "A passenger’s suitcase hasn’t arrived.",
+              "source": "CONFIRMED",
+              "clip": [
+                13.3,
+                24.2
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "security check",
+                  "security"
+                ]
+              ],
+              "explain": "Take your boots off and put them on the belt.",
+              "source": "CONFIRMED",
+              "clip": [
+                27.64,
+                35.26
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "gate",
+                  "gates",
+                  "the gate",
+                  "departures",
+                  "departure lounge"
+                ]
+              ],
+              "explain": "Boarding for the flight to Milan will begin in a few minutes.",
+              "source": "CONFIRMED",
+              "clip": [
+                35.26,
+                53.64
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "passport control",
+                  "immigration"
+                ]
+              ],
+              "explain": "Are you here on vacation? How long are you staying?",
+              "source": "CONFIRMED",
+              "clip": [
+                56.8,
+                64.0
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "check-in",
+                  "check in",
+                  "bag drop"
+                ]
+              ],
+              "explain": "Passport and boarding pass, please. How many bags are you checking in?",
+              "source": "CONFIRMED",
+              "clip": [
+                68.0,
+                74.1
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3A-wb1a",
+          "origin": "WB",
+          "instruction": "Look at the signs and write the words",
+          "note": "WB 1a «Complete the words with the missing vowels» → Blank со знаком (WB p.18, tools/images.py): каркас без гласных дал бы буквы ответа — слово пишется целиком. 1 check-in — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "lifts"
+                ]
+              ],
+              "image": "3a_wb1a_2",
+              "source": "KEY"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "gates"
+                ]
+              ],
+              "image": "3a_wb1a_3",
+              "source": "KEY"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "trolley"
+                ]
+              ],
+              "image": "3a_wb1a_4",
+              "source": "KEY"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "customs"
+                ]
+              ],
+              "image": "3a_wb1a_5",
+              "source": "KEY"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "arrivals"
+                ]
+              ],
+              "image": "3a_wb1a_6",
+              "source": "KEY"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "terminal"
+                ]
+              ],
+              "image": "3a_wb1a_7",
+              "source": "KEY"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "{}",
+              "gaps": [
+                [
+                  "departures"
+                ]
+              ],
+              "image": "3a_wb1a_8",
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "3A-wb1b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with a word from A and a word from B",
+          "note": "WB 1b; два пропуска — слово из A и слово из B, оба списка в words. 1 baggage reclaim — пример (слова убраны из списка)",
+          "words": [
+            "bag",
+            "gate",
+            "passport",
+            "security",
+            "control",
+            "check",
+            "drop",
+            "number"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "If you have scissors in your hand luggage, you’ll have problems at the {} {}.",
+              "gaps": [
+                [
+                  "security"
+                ],
+                [
+                  "check"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "When I got to {} {}, they only looked at my photo quickly.",
+              "gaps": [
+                [
+                  "passport"
+                ],
+                [
+                  "control"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "In departures, the big screens show your departure time and {} {}.",
+              "gaps": [
+                [
+                  "gate"
+                ],
+                [
+                  "number"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "We’ve printed our boarding passes, so we just need to find the {} {} to leave our suitcase.",
+              "gaps": [
+                [
+                  "bag"
+                ],
+                [
+                  "drop"
+                ]
+              ],
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "3A-wb1c",
+          "origin": "WB",
+          "instruction": "Complete the text with airport words",
+          "note": "WB 1c; текст разбит по пропускам; в книге даны первые буквы — у нас без них. 1 Terminal — пример",
+          "context": "Last summer, I flew to New York with my boyfriend. The flight left from Terminal 1, and my brother dropped us outside the building.",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "We went inside and looked for the {} to take us upstairs",
+              "gaps": [
+                [
+                  "lifts",
+                  "lift"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "to take us upstairs to {}.",
+              "gaps": [
+                [
+                  "departures"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "We left our suitcases at the {},",
+              "gaps": [
+                [
+                  "bag drop"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "and then we went to the {} to board our plane.",
+              "gaps": [
+                [
+                  "gate"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "We had a good flight, but we were very tired when we landed in New York. There was a long queue at {}, and they asked us a lot of questions.",
+              "gaps": [
+                [
+                  "passport control"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Finally, we went to {} to pick up our bags.",
+              "gaps": [
+                [
+                  "baggage reclaim"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "We needed a {} this time because of all our suitcases.",
+              "gaps": [
+                [
+                  "trolley"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Nobody stopped us at {},",
+              "gaps": [
+                [
+                  "customs"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "so we went straight to {}, where our friends were waiting for us.",
+              "gaps": [
+                [
+                  "arrivals"
+                ]
+              ],
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "3A-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with an airport word.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "After the flight, we waited for our suitcases at baggage {}.",
+              "gaps": [
+                [
+                  "reclaim"
+                ]
+              ],
+              "explain": "baggage reclaim – where you pick up your bags after a flight.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Our flight leaves from {} 2, not Terminal 1.",
+              "gaps": [
+                [
+                  "Terminal",
+                  "terminal"
+                ]
+              ],
+              "explain": "A terminal is one of the airport buildings.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "The officer at passport {} looked at my photo.",
+              "gaps": [
+                [
+                  "control"
+                ]
+              ],
+              "explain": "passport control – where they check your passport.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I had a lot of heavy bags, so I got a {}.",
+              "gaps": [
+                [
+                  "trolley"
+                ]
+              ],
+              "explain": "A trolley has wheels and carries your suitcases.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "At the security {}, they found a bottle of water in my bag.",
+              "gaps": [
+                [
+                  "check"
+                ]
+              ],
+              "explain": "security check – where they check you and your hand luggage.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "We checked in online, so we only went to the bag {} to leave our suitcase.",
+              "gaps": [
+                [
+                  "drop"
+                ]
+              ],
+              "explain": "bag drop – where you leave your suitcase if you checked in online.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "My friends were waiting for me in {} with a big sign.",
+              "gaps": [
+                [
+                  "arrivals"
+                ]
+              ],
+              "explain": "arrivals – the part of the airport for people who have landed.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I had a three-hour stopover in Dubai before my {} flight to Sydney.",
+              "gaps": [
+                [
+                  "connecting"
+                ]
+              ],
+              "explain": "A connecting flight is the next flight of your journey.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3A-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Write the airport word for the definition.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "where you get on the plane: {}",
+              "gaps": [
+                [
+                  "gate",
+                  "the gate",
+                  "gates"
+                ]
+              ],
+              "explain": "Go to gate 12 to board the plane.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "the part of the airport for people who are leaving: {}",
+              "gaps": [
+                [
+                  "departures"
+                ]
+              ],
+              "explain": "departures ↔ arrivals.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "where officers can check what you bring into the country: {}",
+              "gaps": [
+                [
+                  "customs"
+                ]
+              ],
+              "explain": "customs – always with -s.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "the desk where you show your ticket and get your boarding pass: {}",
+              "gaps": [
+                [
+                  "check-in",
+                  "check in",
+                  "the check-in"
+                ]
+              ],
+              "explain": "check-in (noun); to check in (verb).",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "a shop in the airport where you don’t pay tax: a {} shop",
+              "gaps": [
+                [
+                  "duty-free",
+                  "duty free"
+                ]
+              ],
+              "explain": "duty-free shop – from the article about TripAside.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "where you wait for your flight after security: the departure {}",
+              "gaps": [
+                [
+                  "lounge"
+                ]
+              ],
+              "explain": "departure lounge – from the article about TripAside.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3A-vocabulary-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "How many baggages do you have?",
+              "answers": [
+                "How much baggage do you have?",
+                "How many bags do you have?"
+              ],
+              "explain": "baggage is uncountable: how much baggage, or how many bags.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "We waited for them in the arrival.",
+              "answers": [
+                "We waited for them in arrivals.",
+                "We waited for them in the arrivals hall."
+              ],
+              "explain": "arrivals – plural, usually without the.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "I took the lift to the departure.",
+              "answers": [
+                "I took the lift to departures.",
+                "I took the lift up to departures."
+              ],
+              "explain": "departures – plural, usually without the.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "Nobody stopped us at the custom.",
+              "answers": [
+                "Nobody stopped us at customs.",
+                "Nobody stopped us at the customs."
+              ],
+              "explain": "customs (at an airport) always ends in -s.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "We had a long layover in London, so we visited the city. (Use British English.)",
+              "answers": [
+                "We had a long stopover in London, so we visited the city."
+              ],
+              "explain": "layover is American English; stopover is British English.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "You need to go to the gate numbers 15.",
+              "answers": [
+                "You need to go to gate number 15.",
+                "You need to go to gate 15."
+              ],
+              "explain": "gate number 15 – singular: one gate, one number.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3A-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "the letter g",
+      "reference": [
+        {
+          "type": "note",
+          "title": "g = /g/ or /dʒ/",
+          "text": "The letter g is usually /g/ (girl): gate, guest, begin, gift, foggy. It is often /dʒ/ (jazz) before e, i, or y: large, village, engineer, agent, region, emergency, general. But not always: get, give, girl, begin, forget have /g/. gg is usually /g/: foggy, bigger, jogging."
+        },
+        {
+          "type": "note",
+          "title": "baggage",
+          "text": "In baggage, gg = /g/ and ge = /dʒ/: /ˈbægɪdʒ/. -age at the end of a word is usually /ɪdʒ/: village, luggage, message."
+        },
+        {
+          "type": "mistake",
+          "wrong": "guest /dʒest/",
+          "right": "guest /gest/",
+          "why": "gu + vowel is /g/: guest, guide, guarantee, guess."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "3A-sb2b",
+          "origin": "SB",
+          "instruction": "Put the words in the correct row. Then listen and check",
+          "note": "SB 2b «Put the words in the correct row» + 2c «Listen and check» → Sort по двум колонкам; розовые буквы — g. Сверено с аудио 3.3",
+          "audio": "3.3",
+          "columns": [
+            "girl /g/",
+            "jazz /dʒ/"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "sort",
+              "word": "[g]ate",
+              "column": 1
+            },
+            {
+              "n": 2,
+              "type": "sort",
+              "word": "fo[gg]y",
+              "column": 1
+            },
+            {
+              "n": 3,
+              "type": "sort",
+              "word": "for[g]et",
+              "column": 1
+            },
+            {
+              "n": 4,
+              "type": "sort",
+              "word": "[g]uide",
+              "column": 1
+            },
+            {
+              "n": 5,
+              "type": "sort",
+              "word": "lar[g]e",
+              "column": 2
+            },
+            {
+              "n": 6,
+              "type": "sort",
+              "word": "villa[g]e",
+              "column": 2
+            },
+            {
+              "n": 7,
+              "type": "sort",
+              "word": "en[g]ineer",
+              "column": 2
+            },
+            {
+              "n": 8,
+              "type": "sort",
+              "word": "a[g]ent",
+              "column": 2
+            },
+            {
+              "n": 9,
+              "type": "sort",
+              "word": "[g]uest",
+              "column": 1
+            },
+            {
+              "n": 10,
+              "type": "sort",
+              "word": "re[g]ion",
+              "column": 2
+            },
+            {
+              "n": 11,
+              "type": "sort",
+              "word": "emer[g]ency",
+              "column": 2
+            },
+            {
+              "n": 12,
+              "type": "sort",
+              "word": "be[g]in",
+              "column": 1
+            },
+            {
+              "n": 13,
+              "type": "sort",
+              "word": "[g]ift",
+              "column": 1
+            },
+            {
+              "n": 14,
+              "type": "sort",
+              "word": "[g]eneral",
+              "column": 2
+            },
+            {
+              "n": 15,
+              "type": "sort",
+              "word": "[g]uarantee",
+              "column": 1
+            },
+            {
+              "n": 16,
+              "type": "sort",
+              "word": "or[g]anize",
+              "column": 1
+            }
+          ]
+        },
+        {
+          "id": "3A-sb2c",
+          "origin": "SB",
+          "instruction": "Listen and practise saying the words",
+          "note": "SB 2c «Practise saying the words» → Speak по отрезкам 3.3",
+          "audio": "3.3",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "gate",
+              "clip": [
+                3.42,
+                4.48
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "foggy",
+              "clip": [
+                6.0,
+                7.08
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "forget",
+              "clip": [
+                8.66,
+                9.82
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "guide",
+              "clip": [
+                11.34,
+                12.46
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "large",
+              "clip": [
+                31.16,
+                32.36
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "village",
+              "clip": [
+                33.82,
+                35.04
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "engineer",
+              "clip": [
+                36.52,
+                37.88
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "agent",
+              "clip": [
+                39.36,
+                40.58
+              ]
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "guest",
+              "clip": [
+                13.96,
+                15.12
+              ]
+            },
+            {
+              "n": 10,
+              "type": "speak",
+              "text": "region",
+              "clip": [
+                42.12,
+                43.4
+              ]
+            },
+            {
+              "n": 11,
+              "type": "speak",
+              "text": "emergency",
+              "clip": [
+                44.9,
+                46.44
+              ]
+            },
+            {
+              "n": 12,
+              "type": "speak",
+              "text": "begin",
+              "clip": [
+                16.62,
+                17.78
+              ]
+            },
+            {
+              "n": 13,
+              "type": "speak",
+              "text": "gift",
+              "clip": [
+                19.28,
+                20.34
+              ]
+            },
+            {
+              "n": 14,
+              "type": "speak",
+              "text": "general",
+              "clip": [
+                47.96,
+                49.08
+              ]
+            },
+            {
+              "n": 15,
+              "type": "speak",
+              "text": "guarantee",
+              "clip": [
+                21.86,
+                23.18
+              ]
+            },
+            {
+              "n": 16,
+              "type": "speak",
+              "text": "organize",
+              "clip": [
+                24.72,
+                26.06
+              ],
+              "answers": [
+                "organize",
+                "organise"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3A-wb2a",
+          "origin": "WB",
+          "instruction": "Which word has a different sound? Write it",
+          "note": "WB 2a «Circle the word with a different sound» → Blank; звук ряда — в начале. 1 jogging — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "girl /g/: change, guess, forget → {}",
+              "gaps": [
+                [
+                  "change"
+                ]
+              ],
+              "explain": "change = /dʒ/.",
+              "source": "KEY"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "jazz /dʒ/: digital, age, bigger → {}",
+              "gaps": [
+                [
+                  "bigger"
+                ]
+              ],
+              "explain": "bigger = /g/.",
+              "source": "KEY"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "jazz /dʒ/: general, foggy, large → {}",
+              "gaps": [
+                [
+                  "foggy"
+                ]
+              ],
+              "explain": "foggy = /g/.",
+              "source": "KEY"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "girl /g/: August, guest, region → {}",
+              "gaps": [
+                [
+                  "region"
+                ]
+              ],
+              "explain": "region = /dʒ/.",
+              "source": "KEY"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "jazz /dʒ/: gate, village, agent → {}",
+              "gaps": [
+                [
+                  "gate"
+                ]
+              ],
+              "explain": "gate = /g/.",
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "3A-wb2b",
+          "origin": "WB",
+          "instruction": "Listen and repeat the words",
+          "note": "WB 2b (трек WB 3.1 — аудио WB нет): Speak на ряды слов из 2a, образец — синтезатор",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "suggest, baggage, jogging"
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "change, guess, forget"
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "digital, age, bigger"
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "general, foggy, large"
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "August, guest, region"
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "gate, village, agent"
+            }
+          ]
+        },
+        {
+          "id": "3A-wb2c",
+          "origin": "WB",
+          "instruction": "Are all three g sounds in the sentence the same? Write same or different",
+          "note": "WB 2c «Tick the sentences where all three g sounds are the same» → Blank same / different. 1 — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "It’s not usually foggy in Germany in August. → {}",
+              "gaps": [
+                [
+                  "different"
+                ]
+              ],
+              "explain": "foggy /g/, Germany /dʒ/, August /g/.",
+              "source": "KEY"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "This is one of the largest villages in the region. → {}",
+              "gaps": [
+                [
+                  "same",
+                  "the same"
+                ]
+              ],
+              "explain": "largest, villages, region – all /dʒ/.",
+              "source": "KEY"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I forgot to get George a gift. → {}",
+              "gaps": [
+                [
+                  "different"
+                ]
+              ],
+              "explain": "forgot, get, gift /g/, but George /dʒ/.",
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "3A-wb2d",
+          "origin": "WB",
+          "instruction": "Listen and repeat the sentences",
+          "note": "WB 2d (трек WB 3.2 — аудио WB нет): Speak, образец — синтезатор",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "We organized a big party for the guests."
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "It’s not usually foggy in Germany in August."
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "This is one of the largest villages in the region."
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "I forgot to get George a gift."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3A-skills",
+      "kind": "SKILLS",
+      "title": "Reading, Listening & Speaking",
+      "reference": [
+        {
+          "type": "note",
+          "title": "TripAside",
+          "text": "TripAside organizes short guided tours for people with a long stopover: a guide picks up the travellers at the airport, takes them around the sights and to a restaurant, and gets them back in time for their connecting flight."
+        },
+        {
+          "type": "note",
+          "title": "Talking about a plan",
+          "text": "We’re going to drive to the centre. Then we’re going to visit the Forum. After that, we’re going to see the Pantheon. We’re going to have lunch at… We’re going to leave at… to get back to the airport."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "3A-sb3b",
+          "origin": "SB",
+          "instruction": "Read the article and complete it with the missing phrases",
+          "note": "SB 3b «complete it with the missing phrases A–H» → Blank на фразу из списка; 3a (хорошая ли идея) не перенесён — мнение, без проверки. Фото основателей из SB p.22 (tools/images.py). Ответы MODEL (ключа нет)",
+          "images": [
+            "3a_sb3_founders"
+          ],
+          "context": "No more boring stopovers – go on a guided tour! Few things are more depressing than spending hours in an airport terminal waiting for a connecting flight.",
+          "words": [
+            "don’t just go to sleep at the airport",
+            "It was an immediate success",
+            "the experience gave Emmanuel the idea for a new business",
+            "looking around the duty-free shop for the eighth time",
+            "they really didn’t want to spend eight hours waiting for their connecting flight",
+            "we were really stressed about getting back in time",
+            "guarantees to get them back to the airport in time for their connecting flight",
+            "you’re terrified that you won’t get back in time"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "There you are, sitting in the departure lounge watching the clock, or {}.",
+              "gaps": [
+                [
+                  "looking around the duty-free shop for the eighth time"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "But you don’t want to leave the airport, because {}, and will miss your flight.",
+              "gaps": [
+                [
+                  "you’re terrified that you won’t get back in time",
+                  "you are terrified that you won’t get back in time"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Frenchman Emmanuel Rozenblum and his sister were on a stopover at Warsaw’s main airport three years ago. But {}, so they decided to go into town.",
+              "gaps": [
+                [
+                  "they really didn’t want to spend eight hours waiting for their connecting flight"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "‘We left the airport on our own,’ says Mr Rozenblum, ‘but we didn’t know which bus to take, and {}.’",
+              "gaps": [
+                [
+                  "we were really stressed about getting back in time"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "They caught their flight, and {}. Millions of air travellers make stopovers every year, so Emmanuel thought he could organize short guided trips into the nearest city or countryside.",
+              "gaps": [
+                [
+                  "the experience gave Emmanuel the idea for a new business"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "His idea is that a guide picks up the travellers at the airport, takes them quickly around the sights and to a restaurant, and then {}.",
+              "gaps": [
+                [
+                  "guarantees to get them back to the airport in time for their connecting flight"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "In March 2015, he and business partner Anna Veyrenc started their ‘stopover tours’ business, called TripAside, in Paris. {}, and today it has expanded to Frankfurt, London, Brussels, Rome, and Madrid.",
+              "gaps": [
+                [
+                  "It was an immediate success"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Now other small companies are offering similar tours worldwide, from Beijing to Moscow. So, next time you have a long stopover between flights, {} – book a tour!",
+              "gaps": [
+                [
+                  "don’t just go to sleep at the airport",
+                  "do not just go to sleep at the airport"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3A-sb3c",
+          "origin": "SB",
+          "instruction": "Write the words or phrases from the article for the definitions",
+          "note": "SB 3c «What do you think they mean?» → Blank: определение → слово из рамки; определения наши (MODEL)",
+          "words": [
+            "stopover",
+            "connecting flight",
+            "departure lounge",
+            "duty-free shop",
+            "air traveller"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "a short stay in a place between two flights (AmE layover): {}",
+              "gaps": [
+                [
+                  "stopover",
+                  "a stopover"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "the next flight that you catch to continue your journey: {}",
+              "gaps": [
+                [
+                  "connecting flight",
+                  "a connecting flight"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "the room where you wait for your flight after security: {}",
+              "gaps": [
+                [
+                  "departure lounge",
+                  "the departure lounge"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "a shop at an airport where things are cheaper because there is no tax: {}",
+              "gaps": [
+                [
+                  "duty-free shop",
+                  "a duty-free shop",
+                  "duty free shop"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "a person who travels by plane: {}",
+              "gaps": [
+                [
+                  "air traveller",
+                  "an air traveller",
+                  "air traveler"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3A-sb3d",
+          "origin": "SB",
+          "instruction": "Listen to a traveller meeting his guide at an airport. Which city is he in?",
+          "note": "SB 3d (3.4, скрипт SB p.121); фото Джейка и Анны из SB p.23 (tools/images.py)",
+          "audio": "3.4",
+          "images": [
+            "3a_sb3e_jake"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "He is in {}.",
+              "gaps": [
+                [
+                  "Rome"
+                ]
+              ],
+              "explain": "They are going to start at the Colosseum and then visit the Forum and the Pantheon.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "3A-sb3e",
+          "origin": "SB",
+          "instruction": "Listen again. Correct the false sentences. If a sentence is true, leave it as it is",
+          "note": "SB 3e «Mark T or F. Correct the F sentences» → Rewrite: неверное исправить, верное переписать как есть. По скрипту 3.4 (SB p.121)",
+          "audio": "3.4",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "Jake isn’t very tired.",
+              "answers": [
+                "Jake isn’t very tired.",
+                "Jake is not very tired."
+              ],
+              "explain": "True: he says he isn’t tired – he slept on the plane.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "He hasn’t been to Europe before.",
+              "answers": [
+                "He has been to Europe before.",
+                "He’s been to Europe before.",
+                "He has been to Europe before, but not to Rome."
+              ],
+              "explain": "False: he was in Europe when he was a student, but he never got to Rome.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "His next flight is to Lisbon.",
+              "answers": [
+                "His next flight is to London.",
+                "His next flight’s to London."
+              ],
+              "explain": "False: his final destination is London.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "He’s travelling to a conference.",
+              "answers": [
+                "He’s travelling to a conference.",
+                "He is travelling to a conference."
+              ],
+              "explain": "True: he’s going to give a talk at a conference in Oxford.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "He doesn’t know anybody there.",
+              "answers": [
+                "He knows somebody there.",
+                "He knows someone there.",
+                "He knows somebody there – his ex-girlfriend.",
+                "He knows his ex-girlfriend there."
+              ],
+              "explain": "False: his ex-girlfriend lives in Oxford, and they’re planning to meet up.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "The tour includes visits to historic sites.",
+              "answers": [
+                "The tour includes visits to historic sites."
+              ],
+              "explain": "True: the Colosseum, the Forum, and the Pantheon.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "He isn’t planning to buy anything for himself.",
+              "answers": [
+                "He isn’t planning to buy anything for himself.",
+                "He is not planning to buy anything for himself."
+              ],
+              "explain": "True: he’d like to see the shops, but he’s probably not going to buy anything – maybe a little present for his friend.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prompt": "They don’t have time to stop for lunch.",
+              "answers": [
+                "They have time to stop for lunch.",
+                "They do have time to stop for lunch."
+              ],
+              "explain": "False: they’re going to stop for lunch – pizza or carbonara, and then an ice cream.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 9,
+              "type": "rewrite",
+              "prompt": "The weather forecast isn’t very good.",
+              "answers": [
+                "The weather forecast is very good.",
+                "The weather forecast is good.",
+                "The weather forecast’s good."
+              ],
+              "explain": "False: it’s going to be nice, about 22 degrees.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 10,
+              "type": "rewrite",
+              "prompt": "He’s looking forward to the tour.",
+              "answers": [
+                "He’s looking forward to the tour.",
+                "He is looking forward to the tour."
+              ],
+              "explain": "True: ‘It’s going to be a fantastic day.’",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "3A-sb3f",
+          "origin": "SB",
+          "instruction": "Talk about a long stopover at an airport",
+          "note": "SB 3f — разговор о себе → Talk",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a friendly classmate in an English class (level: pre-intermediate). Ask the student: Have you ever had a long stopover at an airport? Where were you? How long was it? What did you do – did you stay at the airport or go into the city? Was it boring? If the student has never had a stopover, ask about a long wait at an airport or a station instead. When the student asks you, tell them about your own stopover: five hours in Istanbul last year; you walked around the duty-free shops, had a coffee, and slept in the departure lounge; next time you’re going to book a tour into the city. Use stopover, connecting flight, departure lounge, duty-free shop. Correct past simple mistakes by repeating the sentence correctly in your next reply.",
+              "goal": "Talk about a long stopover at an airport.",
+              "opener": "Have you ever had a long stopover at an airport?",
+              "criteria": [
+                "says where the stopover was and how long it was (or talks about a long wait)",
+                "describes what they did, using the past simple correctly",
+                "uses at least two words from the article (stopover, connecting flight, departure lounge, duty-free shop)",
+                "asks the partner a question back"
+              ],
+              "steps": [
+                {
+                  "text": "Say where you were and for how long",
+                  "example": "Yes, I had a six-hour stopover in Frankfurt."
+                },
+                {
+                  "text": "Say what you did",
+                  "example": "I walked around the duty-free shops and had lunch in the departure lounge."
+                },
+                {
+                  "text": "Say how you felt about it",
+                  "example": "It was really boring. I was very tired."
+                },
+                {
+                  "text": "Ask your partner about their stopover",
+                  "example": "Have you ever had a long stopover?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3A-sb5a",
+          "origin": "SB",
+          "instruction": "Plan a TripAside tour for people who have a stopover at your nearest airport",
+          "note": "SB 5a–b: планирование с партнёром → Talk (ИИ — коллега из TripAside); 5b «представить план классу и голосовать» — последний шаг: пересказать весь план",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You and the student work for TripAside. You are planning a tour for people who have a stopover at the airport nearest to where the student lives. The travellers arrive at 9 a.m. and need to be back at the airport at 3.30 p.m. Ask the student these questions one at a time and discuss the answers like a colleague (agree, or suggest something different): How are you going to get to the town or city centre? What are you going to see, and in what order? Where and when are you going to have lunch? What time are you going to leave to get back to the airport? Check that the times work (the travellers must be back by 3.30). At the end, ask the student to present the whole plan in a few sentences with be going to, as if to the rest of the class. Use be going to yourself. If the student uses the present simple for the plan (we go, we visit), repeat the idea with be going to.",
+              "goal": "Plan a stopover tour with be going to.",
+              "opener": "OK, the travellers arrive at 9 a.m. and must be back at 3.30. How are we going to get to the city centre?",
+              "criteria": [
+                "answers all four questions (transport, sights and order, lunch, time to leave)",
+                "uses be going to for the plans (We’re going to…)",
+                "the plan is realistic: back at the airport by 3.30",
+                "presents the whole plan at the end with sequencers (first, then, after that)"
+              ],
+              "steps": [
+                {
+                  "text": "Say how you’re going to get to the centre",
+                  "example": "We’re going to take a taxi. It takes about 30 minutes."
+                },
+                {
+                  "text": "Say what you’re going to see, and in what order",
+                  "example": "First we’re going to visit the cathedral, and then we’re going to walk to the old town."
+                },
+                {
+                  "text": "Say where and when you’re going to have lunch",
+                  "example": "We’re going to have lunch at a small restaurant by the river at 12.30."
+                },
+                {
+                  "text": "Say when you’re going to leave for the airport",
+                  "example": "We’re going to leave the city at 2.30."
+                },
+                {
+                  "text": "Present the whole plan",
+                  "example": "Our tour is going to start at 9 a.m. First, we’re going to…"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3A-grammar",
+      "kind": "GRAMMAR",
+      "title": "be going to (plans and predictions)",
+      "reference": [
+        {
+          "type": "table",
+          "title": "be going to + infinitive",
+          "headers": [
+            "",
+            "I",
+            "you / we / they",
+            "he / she / it"
+          ],
+          "rows": [
+            [
+              "+",
+              "I’m going to give a talk.",
+              "You’re / We’re / They’re going to give a talk.",
+              "He’s / She’s / It’s going to give a talk."
+            ],
+            [
+              "−",
+              "I’m not going to give a talk.",
+              "You / We / They aren’t going to give a talk.",
+              "He / She / It isn’t going to give a talk."
+            ],
+            [
+              "?",
+              "Am I going to give a talk?",
+              "Are you going to give a talk? Yes, I am. / No, I’m not.",
+              "Is he going to give a talk? Yes, he is. / No, he isn’t."
+            ]
+          ],
+          "audio": "3.6"
+        },
+        {
+          "type": "note",
+          "title": "Plans",
+          "text": "We use be going to + infinitive to talk about future plans or intentions: I’m going to give a talk at a conference. He’s going to meet me at the airport."
+        },
+        {
+          "type": "note",
+          "title": "Predictions",
+          "text": "We also use be going to + infinitive to make a prediction when we know or can see that something is going to happen: It’s winter there so it’s going to be cold. Look at that car! It’s going to crash. I’m sure England are going to lose tomorrow."
+        },
+        {
+          "type": "mistake",
+          "wrong": "I going to visit my aunt.",
+          "right": "I’m going to visit my aunt.",
+          "why": "Don’t forget be: am / is / are + going to."
+        },
+        {
+          "type": "mistake",
+          "wrong": "She’s going to visits Rome.",
+          "right": "She’s going to visit Rome.",
+          "why": "After going to use the infinitive without -s."
+        },
+        {
+          "type": "mistake",
+          "wrong": "What you are going to do?",
+          "right": "What are you going to do?",
+          "why": "Questions: (question word) + am / is / are + subject + going to + verb."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "3A-sb4a",
+          "origin": "SB",
+          "instruction": "Complete the sentences from Jake and Anna’s conversation with a form of be going to + verb. Then listen and check",
+          "note": "SB 4a (3.5); ответы по скрипту 3.4 (SB p.121) и аудио 3.5",
+          "audio": "3.5",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I {} a talk at a conference.",
+              "gaps": [
+                [
+                  "’m going to give",
+                  "am going to give"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "We {} to the centre.",
+              "gaps": [
+                [
+                  "’re going to drive",
+                  "are going to drive"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "And then we {} the Forum.",
+              "gaps": [
+                [
+                  "’re going to visit",
+                  "are going to visit"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I{} probably {} anything.",
+              "gaps": [
+                [
+                  "’m",
+                  "am"
+                ],
+                [
+                  "not going to buy"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{} it {} very hot?",
+              "gaps": [
+                [
+                  "Is"
+                ],
+                [
+                  "going to be"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "It{} a fantastic day.",
+              "gaps": [
+                [
+                  "’s going to be",
+                  " is going to be"
+                ]
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "3A-sb4b",
+          "origin": "SB",
+          "instruction": "Are the sentences plans or predictions about the future?",
+          "note": "SB 4b «Write Pl (plan) or Pr (prediction)» → Sort по двум колонкам; предложения из 4a. Ответы MODEL",
+          "columns": [
+            "Pl (plan)",
+            "Pr (prediction)"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "sort",
+              "word": "I’m going to give a talk at a conference.",
+              "column": 1
+            },
+            {
+              "n": 2,
+              "type": "sort",
+              "word": "We’re going to drive to the centre.",
+              "column": 1
+            },
+            {
+              "n": 3,
+              "type": "sort",
+              "word": "And then we’re going to visit the Forum.",
+              "column": 1
+            },
+            {
+              "n": 4,
+              "type": "sort",
+              "word": "I’m probably not going to buy anything.",
+              "column": 1
+            },
+            {
+              "n": 5,
+              "type": "sort",
+              "word": "Is it going to be very hot?",
+              "column": 2
+            },
+            {
+              "n": 6,
+              "type": "sort",
+              "word": "It’s going to be a fantastic day.",
+              "column": 2
+            }
+          ]
+        },
+        {
+          "id": "3A-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete with be going to + a verb from the list",
+          "note": "GB 3A a; пример «What film are you going to see tonight?» без номера — see убрано из списка. 2: в списке только not go, поэтому aren’t going to go + stay",
+          "words": [
+            "be",
+            "cook",
+            "do",
+            "get",
+            "learn",
+            "not go",
+            "not listen",
+            "stay",
+            "study"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "{} your sister {} to drive?",
+              "gaps": [
+                [
+                  "Is"
+                ],
+                [
+                  "going to learn"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "We {} camping next summer. We {} in a hotel.",
+              "gaps": [
+                [
+                  "aren’t going to go",
+                  "are not going to go",
+                  "’re not going to go"
+                ],
+                [
+                  "’re going to stay",
+                  "are going to stay"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "You {} in class 3 next year.",
+              "gaps": [
+                [
+                  "are going to be",
+                  "’re going to be"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "He {} a taxi to the airport.",
+              "gaps": [
+                [
+                  "is going to get",
+                  "’s going to get"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I {} a family meal tonight.",
+              "gaps": [
+                [
+                  "am going to cook",
+                  "’m going to cook"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "You can talk, but I {} to you.",
+              "gaps": [
+                [
+                  "am not going to listen",
+                  "’m not going to listen"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "A What {} you {} when you leave school? B I {} history at university.",
+              "gaps": [
+                [
+                  "are"
+                ],
+                [
+                  "going to do"
+                ],
+                [
+                  "am going to study",
+                  "’m going to study"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3A-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Look at the pictures. Make sentences with be going to + a verb",
+          "note": "GB 3A b; картинки 1–3 из SB p.131 (tools/images.py); пример «You’re going to love this book!» не перенесён. Глагол — по картинке, MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Scott {} the match.",
+              "gaps": [
+                [
+                  "is going to win",
+                  "’s going to win"
+                ]
+              ],
+              "image": "3a_gbb_1",
+              "explain": "Prediction from what we can see: the score is 6 6 5 – 1 1 1.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "We {} late for work!",
+              "gaps": [
+                [
+                  "are going to be",
+                  "’re going to be"
+                ]
+              ],
+              "image": "3a_gbb_2",
+              "explain": "Prediction: there is a traffic jam.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Be careful! You {} it!",
+              "gaps": [
+                [
+                  "are going to break",
+                  "’re going to break",
+                  "are going to drop",
+                  "’re going to drop"
+                ]
+              ],
+              "image": "3a_gbb_3",
+              "explain": "Prediction: the tablet is falling.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3A-sb4d",
+          "origin": "SB",
+          "instruction": "Make questions with be going to",
+          "note": "SB 4d Communication «What are your plans?» (A p.103, B p.109): подсказки вопросов → Rewrite (вопрос с be going to); сам разговор — 3A-sb4dt. Ответы MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "What / you / do after class?",
+              "answers": [
+                "What are you going to do after class?"
+              ],
+              "explain": "What + are + you + going to + verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "What time / you / go to bed tonight?",
+              "answers": [
+                "What time are you going to go to bed tonight?"
+              ],
+              "explain": "What time + are you going to + go.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Where / you / have lunch tomorrow?",
+              "answers": [
+                "Where are you going to have lunch tomorrow?"
+              ],
+              "explain": "Where + are you going to + have.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "What / you / do on Saturday night?",
+              "answers": [
+                "What are you going to do on Saturday night?"
+              ],
+              "explain": "What + are you going to + do.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "Where / you / go for your next holiday?",
+              "answers": [
+                "Where are you going to go for your next holiday?"
+              ],
+              "explain": "going to go is correct: going to + go.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "you / study English next year?",
+              "answers": [
+                "Are you going to study English next year?"
+              ],
+              "explain": "Yes / No question: Are you going to…?",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "you / go out this evening?",
+              "answers": [
+                "Are you going to go out this evening?"
+              ],
+              "explain": "Yes / No question: Are you going to…?",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prompt": "What / you / have for dinner tonight?",
+              "answers": [
+                "What are you going to have for dinner tonight?"
+              ],
+              "explain": "What + are you going to + have.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "rewrite",
+              "prompt": "What time / you / get up tomorrow?",
+              "answers": [
+                "What time are you going to get up tomorrow?"
+              ],
+              "explain": "What time + are you going to + get up.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "rewrite",
+              "prompt": "you / go anywhere next weekend?",
+              "answers": [
+                "Are you going to go anywhere next weekend?"
+              ],
+              "explain": "Yes / No question with anywhere.",
+              "source": "MODEL"
+            },
+            {
+              "n": 11,
+              "type": "rewrite",
+              "prompt": "What / you / do next summer?",
+              "answers": [
+                "What are you going to do next summer?"
+              ],
+              "explain": "What + are you going to + do.",
+              "source": "MODEL"
+            },
+            {
+              "n": 12,
+              "type": "rewrite",
+              "prompt": "When / you / do your English homework?",
+              "answers": [
+                "When are you going to do your English homework?"
+              ],
+              "explain": "When + are you going to + do.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3A-sb4dt",
+          "origin": "SB",
+          "instruction": "Communication: What are your plans? Ask each other about your plans",
+          "note": "SB 4d + Communication 3A (A p.103, B p.109): ученик — A, ИИ — B",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate), Student B in a pair activity about plans with be going to. First the student (Student A) asks you questions: What are you going to do after class? What time are you going to go to bed tonight? Where are you going to have lunch tomorrow? What are you going to do on Saturday night? Where are you going to go for your next holiday? Are you going to study English next year? Answer each one with be going to and give a little extra information (I’m going to meet a friend for coffee. / I’m going to have lunch at work.). Then ask your questions, one at a time: Are you going to go out this evening? What are you going to have for dinner tonight? What time are you going to get up tomorrow? Are you going to go anywhere next weekend? What are you going to do next summer? When are you going to do your English homework? Ask a follow-up question sometimes (Why? Who with?). If the student forgets be (I going to…) or uses the present simple for a plan, repeat the sentence correctly in your next reply without a long explanation.",
+              "goal": "Ask and answer about your plans with be going to.",
+              "opener": "Hi! Let’s talk about our plans. You start – ask me your first question.",
+              "criteria": [
+                "asks at least four of Student A’s questions correctly with be going to",
+                "answers with be going to (I’m going to… / I’m not going to…)",
+                "gives extra information in some answers",
+                "uses short answers correctly (Yes, I am. / No, I’m not.)"
+              ],
+              "steps": [
+                {
+                  "text": "Ask about after class and bedtime",
+                  "example": "What are you going to do after class? What time are you going to go to bed tonight?"
+                },
+                {
+                  "text": "Ask about lunch tomorrow and Saturday night",
+                  "example": "Where are you going to have lunch tomorrow? What are you going to do on Saturday night?"
+                },
+                {
+                  "text": "Ask about the next holiday and English",
+                  "example": "Where are you going to go for your next holiday? Are you going to study English next year?"
+                },
+                {
+                  "text": "Answer your partner’s questions with be going to",
+                  "example": "Yes, I am. I’m going to see a film with my sister."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3A-wb3a",
+          "origin": "WB",
+          "instruction": "Match sentences 1–7 to replies a–g. Write the reply",
+          "note": "WB 3a «Match» → Blank на ответную реплику (принимаем и фразу, и букву); 1 → c — пример, c убрана из списка",
+          "dialogue": true,
+          "words": [
+            "a I’m going to buy something to read on the plane.",
+            "b When are you going to get a new one?",
+            "d It’s going to be cold in New York.",
+            "e It’s OK. I’m going to get the bus.",
+            "f My brother’s going to pick us up at the airport.",
+            "g We’re going to miss our flight."
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Take some warm clothes.\n{}",
+              "gaps": [
+                [
+                  "It’s going to be cold in New York.",
+                  "It is going to be cold in New York.",
+                  "d"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Do you want anything from the bookshop?\n{}",
+              "gaps": [
+                [
+                  "I’m going to buy something to read on the plane.",
+                  "I am going to buy something to read on the plane.",
+                  "a"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Your passport’s nearly out of date.\n{}",
+              "gaps": [
+                [
+                  "When are you going to get a new one?",
+                  "b"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "The traffic’s really bad.\n{}",
+              "gaps": [
+                [
+                  "We’re going to miss our flight.",
+                  "We are going to miss our flight.",
+                  "g"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Do you want me to take you to the airport?\n{}",
+              "gaps": [
+                [
+                  "It’s OK. I’m going to get the bus.",
+                  "It’s OK. I am going to get the bus.",
+                  "e"
+                ]
+              ],
+              "source": "KEY"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "We don’t need to book a taxi.\n{}",
+              "gaps": [
+                [
+                  "My brother’s going to pick us up at the airport.",
+                  "My brother is going to pick us up at the airport.",
+                  "f"
+                ]
+              ],
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "3A-wb3b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with be going to and a verb from the list. Use contractions where possible",
+          "note": "WB 3b; картинки 2–6 из WB p.19 (tools/images.py), номера стёрты. 1 ’re going to miss — пример, miss убрано из списка",
+          "words": [
+            "book",
+            "get",
+            "not fly",
+            "not sleep",
+            "stay"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I{} our flights to Milan with easyJet.",
+              "gaps": [
+                [
+                  "’m going to book",
+                  " am going to book"
+                ]
+              ],
+              "image": "3a_wb3b_2",
+              "source": "KEY"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I’m sorry, but he {} during the flight.",
+              "gaps": [
+                [
+                  "isn’t going to sleep",
+                  "’s not going to sleep",
+                  "is not going to sleep"
+                ]
+              ],
+              "image": "3a_wb3b_3",
+              "source": "KEY"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "How long {} you {} in Barcelona for?",
+              "gaps": [
+                [
+                  "are"
+                ],
+                [
+                  "going to stay"
+                ]
+              ],
+              "image": "3a_wb3b_4",
+              "source": "KEY"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "That plane {} anywhere today.",
+              "gaps": [
+                [
+                  "isn’t going to fly",
+                  "’s not going to fly",
+                  "is not going to fly"
+                ]
+              ],
+              "image": "3a_wb3b_5",
+              "source": "KEY"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "How {} she {} to the airport?",
+              "gaps": [
+                [
+                  "is"
+                ],
+                [
+                  "going to get"
+                ]
+              ],
+              "image": "3a_wb3b_6",
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "3A-wb3c",
+          "origin": "WB",
+          "instruction": "Read the reminders and write sentences about what the people are going to do",
+          "note": "WB 3c; напоминания в телефонах (WB p.19) — текст самих напоминаний в prompt (картинка = только этот текст). 1 Jason — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "Sam’s note: buy a new suitcase – today (crossed out)",
+              "answers": [
+                "Sam isn’t going to buy a new suitcase today.",
+                "Sam is not going to buy a new suitcase today.",
+                "Sam’s not going to buy a new suitcase today."
+              ],
+              "explain": "today is crossed out → negative: isn’t going to.",
+              "source": "KEY"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Dave’s reminder: meet Claire at Terminal 2 at 12.30",
+              "answers": [
+                "Dave’s going to meet Claire at Terminal 2 at 12.30.",
+                "Dave is going to meet Claire at Terminal 2 at 12.30."
+              ],
+              "explain": "Dave’s going to + infinitive.",
+              "source": "KEY"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "Sally’s note: fly from London to New York on Wednesday",
+              "answers": [
+                "Sally’s going to fly from London to New York on Wednesday.",
+                "Sally is going to fly from London to New York on Wednesday."
+              ],
+              "explain": "Sally’s going to + infinitive.",
+              "source": "KEY"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "Esme’s reminder: book an airport taxi this evening",
+              "answers": [
+                "Esme’s going to book an airport taxi this evening.",
+                "Esme is going to book an airport taxi this evening."
+              ],
+              "explain": "Esme’s going to + infinitive.",
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "3A-wb3d",
+          "origin": "WB",
+          "instruction": "Write three sentences about what you are going to do today, tomorrow, and next week",
+          "note": "WB 3d «Students’ own answers» → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Write three sentences about your plans with be going to.",
+              "questions": [
+                {
+                  "text": "What are you going to do later today?",
+                  "hint": "(Later today, I’m going to…)"
+                },
+                {
+                  "text": "What are you going to do tomorrow?",
+                  "hint": "(Tomorrow, I’m going to…)"
+                },
+                {
+                  "text": "What are you going to do next week?",
+                  "hint": "(Next week, I’m going to…)"
+                }
+              ],
+              "criteria": [
+                "three sentences: later today, tomorrow, next week",
+                "uses be going to + infinitive correctly (with am / is / are)",
+                "can use a negative (I’m not going to…)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3A-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with be going to and the verb in brackets.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "We {} our grandparents this weekend. (visit)",
+              "gaps": [
+                [
+                  "are going to visit",
+                  "’re going to visit"
+                ]
+              ],
+              "explain": "we + are going to + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "She {} a new job in September. (start)",
+              "gaps": [
+                [
+                  "is going to start",
+                  "’s going to start"
+                ]
+              ],
+              "explain": "she + is going to + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I {} TV tonight – I’m too tired. (not watch)",
+              "gaps": [
+                [
+                  "am not going to watch",
+                  "’m not going to watch"
+                ]
+              ],
+              "explain": "Negative: I’m not going to + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{} they {} a taxi to the airport? (take)",
+              "gaps": [
+                [
+                  "Are"
+                ],
+                [
+                  "going to take"
+                ]
+              ],
+              "explain": "Question: Are + they + going to + infinitive.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "My brother {} to university this year. (not go)",
+              "gaps": [
+                [
+                  "isn’t going to go",
+                  "is not going to go",
+                  "’s not going to go"
+                ]
+              ],
+              "explain": "Negative: he isn’t going to + go.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "What {} you {} for your birthday? (do)",
+              "gaps": [
+                [
+                  "are"
+                ],
+                [
+                  "going to do"
+                ]
+              ],
+              "explain": "What + are + you + going to do.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3A-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Make a prediction with be going to.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Look at those black clouds! It {}. (rain)",
+              "gaps": [
+                [
+                  "is going to rain",
+                  "’s going to rain"
+                ]
+              ],
+              "explain": "Prediction from what we can see.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "It’s 8.55 and the train leaves at 9.00. We {} it! (miss)",
+              "gaps": [
+                [
+                  "are going to miss",
+                  "’re going to miss"
+                ]
+              ],
+              "explain": "Prediction from what we know.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "He’s driving too fast. He {} an accident. (have)",
+              "gaps": [
+                [
+                  "is going to have",
+                  "’s going to have"
+                ]
+              ],
+              "explain": "Prediction from what we can see.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "She hasn’t studied at all. She {} the exam. (not pass)",
+              "gaps": [
+                [
+                  "isn’t going to pass",
+                  "is not going to pass",
+                  "’s not going to pass"
+                ]
+              ],
+              "explain": "Negative prediction.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "The sky is blue and there are no clouds. It {} a beautiful day. (be)",
+              "gaps": [
+                [
+                  "is going to be",
+                  "’s going to be"
+                ]
+              ],
+              "explain": "Prediction: it’s going to be…",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3A-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Put the words in the correct order.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "going / are / what / you / to / wear / ?",
+              "answers": [
+                "What are you going to wear?"
+              ],
+              "explain": "Question word + are + you + going to + verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "to / is / going / she / leave / when / ?",
+              "answers": [
+                "When is she going to leave?"
+              ],
+              "explain": "When + is + she + going to + verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "not / I’m / to / going / cook / tonight",
+              "answers": [
+                "I’m not going to cook tonight."
+              ],
+              "explain": "I’m not going to + verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "they / going / buy / to / a / are / house / ?",
+              "answers": [
+                "Are they going to buy a house?"
+              ],
+              "explain": "Are + they + going to + verb.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3A-grammar-x4",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "I going to call you tomorrow.",
+              "answers": [
+                "I’m going to call you tomorrow.",
+                "I am going to call you tomorrow."
+              ],
+              "explain": "Don’t forget be: I’m going to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "He’s going to buys a new car.",
+              "answers": [
+                "He’s going to buy a new car.",
+                "He is going to buy a new car."
+              ],
+              "explain": "going to + infinitive without -s.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Where you are going to stay?",
+              "answers": [
+                "Where are you going to stay?"
+              ],
+              "explain": "In questions, are goes before you.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "They don’t going to come to the party.",
+              "answers": [
+                "They aren’t going to come to the party.",
+                "They are not going to come to the party.",
+                "They’re not going to come to the party."
+              ],
+              "explain": "Negative: aren’t going to, not don’t going to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "Is going to rain this afternoon.",
+              "answers": [
+                "It’s going to rain this afternoon.",
+                "It is going to rain this afternoon."
+              ],
+              "explain": "English sentences need a subject: It’s going to rain.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

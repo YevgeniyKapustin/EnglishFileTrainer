@@ -1,0 +1,2959 @@
+{
+  "id": "3B",
+  "title": "Put it in your calendar!",
+  "bubbles": [
+    "What are you doing in the morning?",
+    "I’m having a meeting."
+  ],
+  "sources": "SB p.24–25 (PDF 25–26), Grammar Bank p.130–131 (PDF 131–132), Vocabulary Bank p.153 Part 2 (PDF 154), Communication p.103 (PDF 104), Writing p.115 (PDF 116), scripts p.121 (PDF 122); WB p.20–21 (PDF 19–20), key WB p.89 (PDF 88)",
+  "sections": [
+    {
+      "id": "3B-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "verbs + prepositions",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Verbs + prepositions",
+          "headers": [
+            "Verb + preposition",
+            "Example"
+          ],
+          "rows": [
+            [
+              "arrive in",
+              "I arrived in Paris on Friday night."
+            ],
+            [
+              "arrive at",
+              "I was very tired when I arrived at the hotel."
+            ],
+            [
+              "wait for",
+              "I hate waiting for people who are late."
+            ],
+            [
+              "depend on",
+              "It depends on the weather."
+            ],
+            [
+              "agree with",
+              "I’m sorry, but I really don’t agree with you."
+            ],
+            [
+              "ask for",
+              "I asked for a chicken sandwich, but this is tuna!"
+            ],
+            [
+              "listen to",
+              "Please listen to what I’m saying!"
+            ],
+            [
+              "pay for",
+              "Who’s going to pay for the meal?"
+            ],
+            [
+              "speak (talk, write) to … about …",
+              "I need to speak to Martin about the meeting."
+            ],
+            [
+              "spend (money) on",
+              "I don’t spend much money on food."
+            ],
+            [
+              "worry about",
+              "Don’t worry about the exam. It isn’t very hard."
+            ],
+            [
+              "believe in",
+              "Do you believe in ghosts?"
+            ],
+            [
+              "think about",
+              "You’re not listening! What are you thinking about?"
+            ],
+            [
+              "think of",
+              "What do you think of this painting? (= What’s your opinion?)"
+            ],
+            [
+              "belong to",
+              "Who does this bag belong to?"
+            ]
+          ],
+          "audio": "3.7"
+        },
+        {
+          "type": "note",
+          "title": "arrive in or arrive at?",
+          "text": "We use arrive in + cities or countries (arrive in Paris, arrive in Brazil) and arrive at + buildings, stations, etc. (arrive at the hotel, arrive at the station). arrive home – no preposition."
+        },
+        {
+          "type": "note",
+          "title": "Prepositions in questions",
+          "text": "In questions the preposition usually goes at the end: What are you thinking about? Who does this bag belong to? Who are you waiting for?"
+        },
+        {
+          "type": "mistake",
+          "wrong": "I’m waiting the bus.",
+          "right": "I’m waiting for the bus.",
+          "why": "wait always needs for before the person or thing."
+        },
+        {
+          "type": "mistake",
+          "wrong": "Listen me!",
+          "right": "Listen to me!",
+          "why": "listen to + person / thing."
+        },
+        {
+          "type": "mistake",
+          "wrong": "We arrived to London at six.",
+          "right": "We arrived in London at six.",
+          "why": "never arrive to: arrive in a city / country, arrive at a building."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "3B-sb2a",
+          "origin": "SB",
+          "instruction": "Complete the extracts from the quiz with the missing prepositions",
+          "note": "SB 2a; фразы из теста How organized are you?",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "…you are usually the first to arrive {} the restaurant.",
+              "gaps": [
+                [
+                  "at"
+                ]
+              ],
+              "explain": "arrive at + a building.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "…your friends always need to wait {} you.",
+              "gaps": [
+                [
+                  "for"
+                ]
+              ],
+              "explain": "wait for + person.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "3B-vba",
+          "origin": "SB",
+          "instruction": "Complete the sentences with a preposition from the list. Then listen and check",
+          "note": "Vocabulary Bank p.153, Part 2a–b (3.7); 1 in — пример, одно in убрано из списка",
+          "audio": "3.7",
+          "words": [
+            "about (x3)",
+            "at",
+            "for (x3)",
+            "in",
+            "of",
+            "on (x2)",
+            "to (x3)",
+            "with"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I was very tired when I arrived {} the hotel.",
+              "gaps": [
+                [
+                  "at"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                11.28,
+                14.72
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I hate waiting {} people who are late.",
+              "gaps": [
+                [
+                  "for"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                16.46,
+                19.52
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "A What are you going to do at the weekend? B I don’t know. It depends {} the weather.",
+              "gaps": [
+                [
+                  "on"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                21.28,
+                27.12
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I’m sorry, but I really don’t agree {} you.",
+              "gaps": [
+                [
+                  "with"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                28.88,
+                32.08
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I asked {} a chicken sandwich, but this is tuna!",
+              "gaps": [
+                [
+                  "for"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                33.78,
+                37.46
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Please listen {} what I’m saying!",
+              "gaps": [
+                [
+                  "to"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                39.18,
+                41.84
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Who’s going to pay {} the meal?",
+              "gaps": [
+                [
+                  "for"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                43.6,
+                45.8
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "I need to speak {} Martin {} the meeting.",
+              "gaps": [
+                [
+                  "to"
+                ],
+                [
+                  "about"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                47.56,
+                50.98
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "I don’t spend much money {} food.",
+              "gaps": [
+                [
+                  "on"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                52.7,
+                55.36
+              ]
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "Don’t worry {} the exam. It isn’t very hard.",
+              "gaps": [
+                [
+                  "about"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                57.1,
+                60.82
+              ]
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "Do you believe {} ghosts?",
+              "gaps": [
+                [
+                  "in"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                62.52,
+                64.78
+              ]
+            },
+            {
+              "n": 13,
+              "type": "blank",
+              "text": "You’re not listening! What are you thinking {}?",
+              "gaps": [
+                [
+                  "about"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                66.58,
+                71.04
+              ]
+            },
+            {
+              "n": 14,
+              "type": "blank",
+              "text": "A What do you think {} this painting? B I really like it. I think it’s beautiful.",
+              "gaps": [
+                [
+                  "of"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                72.8,
+                79.0
+              ]
+            },
+            {
+              "n": 15,
+              "type": "blank",
+              "text": "Who does this bag belong {}?",
+              "gaps": [
+                [
+                  "to"
+                ]
+              ],
+              "source": "CONFIRMED",
+              "clip": [
+                80.88,
+                83.2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3B-vbact",
+          "origin": "SB",
+          "instruction": "Cover the prepositions. Say the sentences",
+          "note": "Vocabulary Bank Activation a → Speak по отрезкам 3.7",
+          "audio": "3.7",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "I arrived in Paris on Friday night.",
+              "clip": [
+                6.44,
+                9.58
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "I was very tired when I arrived at the hotel.",
+              "clip": [
+                11.28,
+                14.72
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "I hate waiting for people who are late.",
+              "clip": [
+                16.46,
+                19.52
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "A What are you going to do at the weekend? B I don’t know. It depends on the weather.",
+              "clip": [
+                21.28,
+                27.12
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "I’m sorry, but I really don’t agree with you.",
+              "clip": [
+                28.88,
+                32.08
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "I asked for a chicken sandwich, but this is tuna!",
+              "clip": [
+                33.78,
+                37.46
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "Please listen to what I’m saying!",
+              "clip": [
+                39.18,
+                41.84
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "Who’s going to pay for the meal?",
+              "clip": [
+                43.6,
+                45.8
+              ]
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "I need to speak to Martin about the meeting.",
+              "clip": [
+                47.56,
+                50.98
+              ]
+            },
+            {
+              "n": 10,
+              "type": "speak",
+              "text": "I don’t spend much money on food.",
+              "clip": [
+                52.7,
+                55.36
+              ]
+            },
+            {
+              "n": 11,
+              "type": "speak",
+              "text": "Don’t worry about the exam. It isn’t very hard.",
+              "clip": [
+                57.1,
+                60.82
+              ]
+            },
+            {
+              "n": 12,
+              "type": "speak",
+              "text": "Do you believe in ghosts?",
+              "clip": [
+                62.52,
+                64.78
+              ]
+            },
+            {
+              "n": 13,
+              "type": "speak",
+              "text": "You’re not listening! What are you thinking about?",
+              "clip": [
+                66.58,
+                71.04
+              ]
+            },
+            {
+              "n": 14,
+              "type": "speak",
+              "text": "A What do you think of this painting? B I really like it. I think it’s beautiful.",
+              "clip": [
+                72.8,
+                79.0
+              ]
+            },
+            {
+              "n": 15,
+              "type": "speak",
+              "text": "Who does this bag belong to?",
+              "clip": [
+                80.88,
+                83.2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3B-vbq",
+          "origin": "SB",
+          "instruction": "Complete the questions with the correct prepositions",
+          "note": "Vocabulary Bank Activation b: сначала вставить предлоги (MODEL), разговор — 3B-vbt",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Do you spend more {} clothes or technology? Why?",
+              "gaps": [
+                [
+                  "on"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "If you’re worried {} something, who do you normally talk {}?",
+              "gaps": [
+                [
+                  "about"
+                ],
+                [
+                  "to"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Do you believe {} love at first sight? Why (not)?",
+              "gaps": [
+                [
+                  "in"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Do you belong {} any clubs or organizations? Which ones?",
+              "gaps": [
+                [
+                  "to"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "How long are you prepared to wait {} friends when you’ve arranged to meet?",
+              "gaps": [
+                [
+                  "for"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Who do you think should pay {} the meal on a first date?",
+              "gaps": [
+                [
+                  "for"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3B-vbt",
+          "origin": "SB",
+          "instruction": "Ask and answer the questions. Use the correct prepositions",
+          "note": "Vocabulary Bank Activation b → Talk",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a friendly classmate in an English class (level: pre-intermediate). Ask and answer these questions with the student, one at a time, and react naturally to the answers: Do you spend more on clothes or technology? Why? If you’re worried about something, who do you normally talk to? Do you believe in love at first sight? Why (not)? Do you belong to any clubs or organizations? Which ones? How long are you prepared to wait for friends when you’ve arranged to meet? Who do you think should pay for the meal on a first date? Answer the same questions about yourself when the student asks. If the student uses the wrong preposition or leaves it out (wait my friends, talk with my mum about), repeat the phrase correctly in your next reply without a long explanation.",
+              "goal": "Answer questions with verbs + prepositions.",
+              "opener": "OK, first question. Do you spend more on clothes or technology?",
+              "criteria": [
+                "answers at least four questions with full sentences",
+                "uses the correct preposition after spend, worry, talk, believe, belong, wait, pay",
+                "gives a reason in some answers (because…)",
+                "asks the partner at least one question back"
+              ],
+              "steps": [
+                {
+                  "text": "Say what you spend more money on",
+                  "example": "I spend more on technology, because I love new phones."
+                },
+                {
+                  "text": "Say who you talk to when you’re worried",
+                  "example": "When I’m worried about something, I usually talk to my sister."
+                },
+                {
+                  "text": "Say how long you wait for friends",
+                  "example": "I wait for about fifteen minutes, then I call them."
+                },
+                {
+                  "text": "Ask your partner a question",
+                  "example": "Who do you think should pay for the meal on a first date?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3B-wb1a",
+          "origin": "WB",
+          "instruction": "Complete the sentences with a word from the list",
+          "note": "WB 1a; 1 of — пример, of убрано из списка",
+          "words": [
+            "about",
+            "at",
+            "for (x2)",
+            "in",
+            "on",
+            "to"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "What do you talk {} when you go out with your friends?",
+              "gaps": [
+                [
+                  "about"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "We’d like to go away at the weekend, but it depends {} the weather.",
+              "gaps": [
+                [
+                  "on"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "When you and Megan went out for dinner, who paid {} the meal?",
+              "gaps": [
+                [
+                  "for"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Excuse me, I asked {} the fish, not the pasta.",
+              "gaps": [
+                [
+                  "for"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "We left home late, but we arrived {} the station in time to catch the train.",
+              "gaps": [
+                [
+                  "at"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "I don’t believe {} ghosts, but I wouldn’t like to sleep in that old house.",
+              "gaps": [
+                [
+                  "in"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "What’s the name of the song you were listening {}? I really liked it.",
+              "gaps": [
+                [
+                  "to"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3B-wb1b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the correct preposition",
+          "note": "WB 1b; 1 in — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I’m worried {} my flight because it’s snowing.",
+              "gaps": [
+                [
+                  "about"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I completely agree {} you.",
+              "gaps": [
+                [
+                  "with"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "They’re waiting {} Anna. She’s late.",
+              "gaps": [
+                [
+                  "for"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "She spends a lot of money {} clothes.",
+              "gaps": [
+                [
+                  "on"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I’m going to speak {} my boss after lunch.",
+              "gaps": [
+                [
+                  "to"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Does this book belong {} you?",
+              "gaps": [
+                [
+                  "to"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3B-wb1c",
+          "origin": "WB",
+          "instruction": "Complete the conversations with a verb from the list and a preposition",
+          "note": "WB 1c; 1 asked for — пример, asked убрано из списка",
+          "dialogue": true,
+          "words": [
+            "agree",
+            "arrived",
+            "depends",
+            "think",
+            "waiting"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "How’s Ian’s cycling holiday going?\nFine – he {} Paris yesterday.",
+              "gaps": [
+                [
+                  "arrived in"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Are you going to come to Sam’s party?\nMaybe. It {} the day. I’m busy on Saturday.",
+              "gaps": [
+                [
+                  "depends on"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Hi, Jane! What are you doing here?\nI’m {} Sebastian, but he’s late as usual.",
+              "gaps": [
+                [
+                  "waiting for"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I think Manchester United are going to win the cup.\nI {} you. They’re playing well at the moment.",
+              "gaps": [
+                [
+                  "agree with"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Is your boss going to give you more money?\nMaybe. I asked him, and he’s going to {} it.",
+              "gaps": [
+                [
+                  "think about"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3B-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the correct preposition.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "We arrived {} Rome at midnight.",
+              "gaps": [
+                [
+                  "in"
+                ]
+              ],
+              "explain": "arrive in + a city or country.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Our train arrived {} the station ten minutes late.",
+              "gaps": [
+                [
+                  "at"
+                ]
+              ],
+              "explain": "arrive at + a building, a station, an airport.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Can you wait {} me? I’m nearly ready.",
+              "gaps": [
+                [
+                  "for"
+                ]
+              ],
+              "explain": "wait for + person.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I’m not sure if we’re going to the beach. It depends {} the weather.",
+              "gaps": [
+                [
+                  "on"
+                ]
+              ],
+              "explain": "depend on.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "My dad never listens {} me!",
+              "gaps": [
+                [
+                  "to"
+                ]
+              ],
+              "explain": "listen to + person.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "What do you think {} my new haircut?",
+              "gaps": [
+                [
+                  "of"
+                ]
+              ],
+              "explain": "think of = have an opinion.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "I’m thinking {} buying a new laptop.",
+              "gaps": [
+                [
+                  "about"
+                ]
+              ],
+              "explain": "think about = consider something.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "This phone doesn’t belong {} me. Is it yours?",
+              "gaps": [
+                [
+                  "to"
+                ]
+              ],
+              "explain": "belong to + owner.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Don’t worry {} the money. I can pay.",
+              "gaps": [
+                [
+                  "about"
+                ]
+              ],
+              "explain": "worry about.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "She spends all her money {} shoes.",
+              "gaps": [
+                [
+                  "on"
+                ]
+              ],
+              "explain": "spend money on.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3B-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "We arrived to the airport at six.",
+              "answers": [
+                "We arrived at the airport at six."
+              ],
+              "explain": "arrive at + building; never arrive to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "I’m waiting my sister.",
+              "answers": [
+                "I’m waiting for my sister.",
+                "I am waiting for my sister."
+              ],
+              "explain": "wait for + person.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Who paid the dinner?",
+              "answers": [
+                "Who paid for the dinner?"
+              ],
+              "explain": "pay for + the thing you buy.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "I don’t agree to you.",
+              "answers": [
+                "I don’t agree with you.",
+                "I do not agree with you."
+              ],
+              "explain": "agree with + person.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "Who does this coat belong?",
+              "answers": [
+                "Who does this coat belong to?"
+              ],
+              "explain": "belong to – the preposition stays at the end of the question.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "It depends of the price.",
+              "answers": [
+                "It depends on the price."
+              ],
+              "explain": "depend on, not of.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "My grandmother believes on luck.",
+              "answers": [
+                "My grandmother believes in luck."
+              ],
+              "explain": "believe in.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prompt": "I asked a glass of water.",
+              "answers": [
+                "I asked for a glass of water."
+              ],
+              "explain": "ask for + the thing you want.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "rewrite",
+              "prompt": "What are you listening?",
+              "answers": [
+                "What are you listening to?"
+              ],
+              "explain": "listen to – the preposition stays at the end of the question.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "rewrite",
+              "prompt": "They arrived at Madrid on Friday.",
+              "answers": [
+                "They arrived in Madrid on Friday."
+              ],
+              "explain": "arrive in + a city.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3B-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "linking",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Connected speech",
+          "text": "When a word which ends in a consonant sound is followed by one which begins with a vowel sound, the words are linked, i.e. pronounced as one word, e.g. Let’s talk_about your problem. This can make it difficult to understand the individual words."
+        },
+        {
+          "type": "note",
+          "title": "Linked or not linked?",
+          "text": "think_of, listen_to? No: listen ends in /n/, but to begins with a consonant – not linked. depends_on, arrived_in, worried_about, spend_on – linked (consonant + vowel). wait for, pay for – not linked (for begins with a consonant)."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "3B-sb2c",
+          "origin": "SB",
+          "instruction": "Listen and write six sentences",
+          "note": "SB 2c (3.8), диктант: предложение целиком; в скобках — число слов, как в книге",
+          "audio": "3.8",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "(5 words)",
+              "answers": [
+                "We arrived at the airport."
+              ],
+              "explain": "Linked: arrived_at_the_airport.",
+              "clip": [
+                0.2,
+                2.38
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "(5 words)",
+              "answers": [
+                "It depends on the time."
+              ],
+              "explain": "Linked: depends_on.",
+              "clip": [
+                4.16,
+                6.18
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "(4 words)",
+              "answers": [
+                "Let’s talk about it.",
+                "Let's talk about it."
+              ],
+              "explain": "Linked: talk_about_it.",
+              "clip": [
+                7.96,
+                9.54
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "(6 words)",
+              "answers": [
+                "What does she think of him?"
+              ],
+              "explain": "Linked: think_of.",
+              "clip": [
+                11.34,
+                13.2
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "(5 words)",
+              "answers": [
+                "Don’t think about the past.",
+                "Don't think about the past."
+              ],
+              "explain": "Linked: think_about.",
+              "clip": [
+                15.04,
+                17.08
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "(7 words)",
+              "answers": [
+                "How much did you spend on food?"
+              ],
+              "explain": "Linked: spend_on.",
+              "clip": [
+                18.82,
+                21.42
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "3B-sb2d",
+          "origin": "SB",
+          "instruction": "Practise saying the sentences. Link the words",
+          "note": "SB 2d → Speak по отрезкам 3.8",
+          "audio": "3.8",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "We arrived at the airport.",
+              "clip": [
+                0.2,
+                2.38
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "It depends on the time.",
+              "clip": [
+                4.16,
+                6.18
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "Let’s talk about it.",
+              "clip": [
+                7.96,
+                9.54
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "What does she think of him?",
+              "clip": [
+                11.34,
+                13.2
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "Don’t think about the past.",
+              "clip": [
+                15.04,
+                17.08
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "How much did you spend on food?",
+              "clip": [
+                18.82,
+                21.42
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3B-wb2a",
+          "origin": "WB",
+          "instruction": "Are the bold words linked? Write L or Not L",
+          "note": "WB 2a → Blank L / Not L; 1 Wait for — пример (Not L)",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "What did you think of the meal? → {}",
+              "gaps": [
+                [
+                  "L"
+                ]
+              ],
+              "hint": "(L / Not L)",
+              "explain": "think ends in /k/, of begins with a vowel: think_of.",
+              "source": "KEY"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "How much do you spend on clothes? → {}",
+              "gaps": [
+                [
+                  "L"
+                ]
+              ],
+              "hint": "(L / Not L)",
+              "explain": "spend ends in /d/, on begins with a vowel: spend_on.",
+              "source": "KEY"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Let’s listen to the songs we downloaded. → {}",
+              "gaps": [
+                [
+                  "Not L",
+                  "not L"
+                ]
+              ],
+              "hint": "(L / Not L)",
+              "explain": "to begins with a consonant – not linked.",
+              "source": "KEY"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Can you pay for this? → {}",
+              "gaps": [
+                [
+                  "Not L",
+                  "not L"
+                ]
+              ],
+              "hint": "(L / Not L)",
+              "explain": "pay ends in a vowel sound and for begins with a consonant – not linked.",
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "3B-wb2b",
+          "origin": "WB",
+          "instruction": "Listen and repeat the sentences",
+          "note": "WB 2b (трек WB 3.3 — аудио WB нет): Speak, образец — синтезатор",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "Wait for me outside the station."
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "What did you think of the meal?"
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "How much do you spend on clothes?"
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "Let’s listen to the songs we downloaded."
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "Can you pay for this?"
+            }
+          ]
+        },
+        {
+          "id": "3B-wb2c",
+          "origin": "WB",
+          "instruction": "Complete the sentences with a verb and a preposition",
+          "note": "WB 2c «Listen and write the missing words» (трек WB 3.4 — аудио WB нет) → Blank по смыслу; 1 think of — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Everything {} the weather tomorrow.",
+              "gaps": [
+                [
+                  "depends on"
+                ]
+              ],
+              "hint": "(depend)",
+              "source": "KEY"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I completely {} the meeting.",
+              "gaps": [
+                [
+                  "forgot about"
+                ]
+              ],
+              "hint": "(forget)",
+              "source": "KEY"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I’m {} Amy.",
+              "gaps": [
+                [
+                  "worried about"
+                ]
+              ],
+              "hint": "(worried)",
+              "source": "KEY"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Can we {} your mother?",
+              "gaps": [
+                [
+                  "talk about"
+                ]
+              ],
+              "hint": "(talk)",
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "3B-wb2d",
+          "origin": "WB",
+          "instruction": "Listen again and repeat the sentences. Link the words",
+          "note": "WB 2d (трек WB 3.4 — аудио WB нет): Speak, образец — синтезатор",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "What do you think of my new scarf?"
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "Everything depends on the weather tomorrow."
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "I completely forgot about the meeting."
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "I’m worried about Amy."
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "Can we talk about your mother?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3B-skills",
+      "kind": "SKILLS",
+      "title": "Reading, Listening, Speaking & Writing",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Making arrangements",
+          "text": "Would you like to go out for dinner? – I’d love to. Are you free on Thursday? – Sorry, I’m going to the cinema. What about Friday? What are you doing then? – Nothing. Friday’s fine. OK. Let’s go to the new Italian place. – Great!"
+        },
+        {
+          "type": "note",
+          "title": "An informal email",
+          "text": "Start: Hi / Dear + name. Thanks for your email. End: Looking forward to hearing from you (= I hope you write again soon). Best wishes / Love + your name. PS = I forgot to say this before. Use contractions (I’m, it’s, we’re)."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "3B-sb1a",
+          "origin": "SB",
+          "instruction": "Do the quiz: How organized are you?",
+          "note": "SB 1a–d + Communication p.103 (подсчёт баллов): тест без верных ответов → Talk: ИИ задаёт 5 вопросов теста с вариантами, считает баллы по таблице книги и читает результат, потом обсуждение (1d)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a classmate in an English class (level: pre-intermediate). You are doing the quiz ‘How organized are you?’ with the student. Read each question with its three options and ask the student to choose one (they can answer with the letter or in their own words; ask why sometimes). 1 When you have lots of things to do,… a you write them on a piece of paper or a Post-it note. b you keep them in your head. c you put them in your phone, diary, or calendar. 2 When you go shopping,… a you sometimes have a list. b you always have a list. c you decide what to buy when you get there. 3 When you meet friends,… a your friends sometimes arrive before you. b you are usually the first to arrive at the restaurant. c your friends always need to wait for you. 4 When you go on holiday,… a you pack a few hours before leaving. If you’ve forgotten something, you can buy it when you get there. b you have a list of what to take and start packing a few days before. c you look through your wardrobe and pack the night before you go. 5 When you travel by plane or train,… a you arrive at the airport or station a long time before you really need to be there. b you usually arrive at the recommended time. c you leave home at the last possible minute. Scoring: Q1 a=2 b=1 c=3; Q2 a=2 b=3 c=1; Q3 a=2 b=3 c=1; Q4 a=1 b=3 c=2; Q5 a=3 b=2 c=1. After question 5, tell the student their total and read the result: 12–15 You are extremely organized. Are you maybe too organized? How good are you at adapting when your plans change? Try to be tolerant with other people who are not as organized as you are. 9–11 You are organized in some aspects of life, but less in others. Maybe you need to make some small changes. Look at your answers again. Did you score 1 for any of the questions? Are you happy with those answers? 5–8 You are extremely disorganized. Do you know what day it is? Do you know what year it is? Sometimes it’s good to be spontaneous, but you definitely need to be more organized! Then ask: Do you agree with the result? Do you know anybody who is very organized or very disorganized? Tell them your own result too (you scored 10). Keep your language simple.",
+              "goal": "Do the quiz and talk about how organized you are.",
+              "opener": "Let’s do the quiz! Question 1: When you have lots of things to do, do you a) write them on a piece of paper or a Post-it note, b) keep them in your head, or c) put them in your phone, diary, or calendar?",
+              "criteria": [
+                "answers all five quiz questions",
+                "explains at least two answers in full sentences",
+                "says if they agree with the result and why",
+                "describes a very organized or very disorganized person they know"
+              ],
+              "steps": [
+                {
+                  "text": "Answer the quiz questions",
+                  "example": "c – I put everything in my phone."
+                },
+                {
+                  "text": "Say if you agree with your result",
+                  "example": "I agree. I’m quite organized, but I’m always late."
+                },
+                {
+                  "text": "Talk about an organized or disorganized person",
+                  "example": "My brother is very disorganized. He never knows where his keys are."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3B-sb3a",
+          "origin": "SB",
+          "instruction": "Listen to Jake and Sarah. What’s the only time they can meet?",
+          "note": "SB 3a (3.9, скрипт SB p.121); телефон Джейка из SB p.25 (tools/images.py)",
+          "audio": "3.9",
+          "images": [
+            "3b_sb3_phone"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "They can meet on Tuesday at {}.",
+              "gaps": [
+                [
+                  "11.00",
+                  "11:00",
+                  "11",
+                  "eleven",
+                  "eleven o’clock",
+                  "11 o’clock",
+                  "11 a.m."
+                ]
+              ],
+              "explain": "‘There’s a nice coffee bar in the High Street called The Grand Café. Meet there at 11.00?’",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "3B-sb3b",
+          "origin": "SB",
+          "instruction": "Listen again and complete Jake’s calendar with the appointments from the list. There are two you don’t need",
+          "note": "SB 3b → Blank по времени в календаре; по скрипту 3.9; не нужны go to conference party и have lunch with David",
+          "audio": "3.9",
+          "images": [
+            "3b_sb3_phone"
+          ],
+          "words": [
+            "go to conference party",
+            "have dinner with Mark",
+            "have lunch with David",
+            "give my talk",
+            "go to talk on climate change",
+            "have breakfast meeting",
+            "meet Sarah"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "08:15 {}",
+              "gaps": [
+                [
+                  "have breakfast meeting"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "11:00 {}",
+              "gaps": [
+                [
+                  "meet Sarah"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "14:00 {}",
+              "gaps": [
+                [
+                  "give my talk"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "16:00 {}",
+              "gaps": [
+                [
+                  "go to talk on climate change"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "19:30 {}",
+              "gaps": [
+                [
+                  "have dinner with Mark"
+                ]
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "3B-sb3c",
+          "origin": "SB",
+          "instruction": "Listen to Jake and Sarah. Do you think they’re going to meet again?",
+          "note": "SB 3c (3.10) «Do you think they’re going to meet again?» → Blank по концовке разговора (MODEL)",
+          "audio": "3.10",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Jake asks: ‘Are you doing anything on {}?’",
+              "gaps": [
+                [
+                  "Saturday"
+                ]
+              ],
+              "clip": [
+                36.84,
+                39.16
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Sarah isn’t {} now. She’s with someone called {}.",
+              "gaps": [
+                [
+                  "single"
+                ],
+                [
+                  "Mike"
+                ]
+              ],
+              "clip": [
+                48.5,
+                58.72
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "They’re getting {} on Saturday. So are they going to meet again? Probably {}.",
+              "gaps": [
+                [
+                  "married"
+                ],
+                [
+                  "not",
+                  "no"
+                ]
+              ],
+              "clip": [
+                59.3,
+                65.24
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3B-sb5a",
+          "origin": "SB",
+          "instruction": "Listen and repeat the conversation sentence by sentence. Copy the intonation",
+          "note": "SB 5a (3.13) → Speak по отрезкам; выделенные фразы — I’d love to, Sorry, Great!",
+          "audio": "3.13",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "A Would you like to go out for dinner?",
+              "clip": [
+                0,
+                2.02
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "B I’d love to.",
+              "clip": [
+                3.5,
+                5.06
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "A Are you free on Thursday?",
+              "clip": [
+                6.5,
+                8.62
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "B Sorry, I’m going to the cinema.",
+              "clip": [
+                10.18,
+                13.04
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "A What about Friday? What are you doing then?",
+              "clip": [
+                14.5,
+                17.58
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "B Nothing. Friday’s fine.",
+              "clip": [
+                19.08,
+                21.8
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "A OK. Let’s go to the new Italian place.",
+              "clip": [
+                23.26,
+                26.84
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "B Great!",
+              "clip": [
+                28.3,
+                29.46
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3B-sb5d",
+          "origin": "SB",
+          "instruction": "Find an evening when you are both free and make an arrangement",
+          "note": "SB 5b–d: свой календарь на три вечера + договориться → Talk",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a friend of the student (level: pre-intermediate). Next week you have these arrangements: Monday evening you’re playing tennis with your cousin, Wednesday you’re going to a concert, Friday you’re having dinner with your parents. Tuesday, Thursday and Saturday evenings you are free. First ask the student what they are doing next week in the evenings (they should have plans for three evenings). Then try to find an evening when you are both free and suggest doing something together (going to the cinema, having dinner at the new Italian place, going bowling). Use the present continuous for your arrangements (I’m playing tennis on Monday) and phrases like Are you free on…? What about…? What are you doing then? Would you like to…? I’d love to. Sorry, I’m… Great! If the student uses the present simple for an arrangement (I go to the gym on Tuesday), repeat it with the present continuous in your reply. Finish when you agree on a day, time and place.",
+              "goal": "Make an arrangement for an evening next week.",
+              "opener": "Hi! Would you like to go out one evening next week?",
+              "criteria": [
+                "tells the partner about three arrangements with the present continuous",
+                "asks Are you free on…? / What are you doing on…?",
+                "accepts or refuses politely (I’d love to. / Sorry, I’m…)",
+                "agrees on a day, a time and a place"
+              ],
+              "steps": [
+                {
+                  "text": "Accept the invitation",
+                  "example": "I’d love to!"
+                },
+                {
+                  "text": "Ask about a day",
+                  "example": "Are you free on Tuesday evening?"
+                },
+                {
+                  "text": "Say what you’re doing on your busy evenings",
+                  "example": "Sorry, on Wednesday I’m studying for an exam."
+                },
+                {
+                  "text": "Suggest an activity, a time and a place",
+                  "example": "Let’s go to the cinema on Thursday. Shall we meet at seven?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3B-wr3a",
+          "origin": "SB",
+          "instruction": "Read Sally’s email and answer the questions",
+          "note": "Writing p.115, 3a → Blank-ответы по тексту (MODEL); текст письма — в context, фото семьи из SB p.115",
+          "images": [
+            "3b_wr3_family"
+          ],
+          "context": "Goran is a student from Croatia who’s going to study English in the UK. He’s going to stay with Sally and her family, who he stayed with last year.\n\nFrom: Sally Barnes. To: Goran. Subject: Your trip\n\n… Goran\n… We’re very happy that you’re coming to stay with us again. We really enjoyed having you with us last August – it’s going to be great to see you!\n\nWhat time are you arriving at Stansted airport? If you send us your flight number and arrival time, we can all meet you in Arrivals. Can you send us your mobile number, too? For some reason it isn’t in my phone.\n\nA few more questions! Another student is going to be with us when you’re here. You can both share a big bedroom, or you can have a small one just for you. Which do you prefer? What day are you going back to Croatia? And is there anything you’d like to do in the UK this time?\n…\n…\nSally\n… I’m attaching a photo of the family – Luke’s much taller than last year!",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "When did he stay with Sally’s family before? Last {}.",
+              "gaps": [
+                [
+                  "August"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "How is Goran travelling? By {}.",
+              "gaps": [
+                [
+                  "plane",
+                  "air"
+                ]
+              ],
+              "explain": "He’s arriving at Stansted airport.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Who’s going to meet him at the airport? {}",
+              "gaps": [
+                [
+                  "the whole family",
+                  "all the family",
+                  "Sally’s family",
+                  "Sally and her family",
+                  "all of them",
+                  "the family",
+                  "all the family members"
+                ]
+              ],
+              "explain": "‘we can all meet you in Arrivals’",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Why does Sally ask him for his phone number? Because it isn’t in her {}.",
+              "gaps": [
+                [
+                  "phone"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "What two things does Goran need to decide? If he wants to share a big {} or have a small one, and what he’d like to {} in the UK.",
+              "gaps": [
+                [
+                  "bedroom",
+                  "room"
+                ],
+                [
+                  "do"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3B-wr3b",
+          "origin": "SB",
+          "instruction": "Complete the email with the informal phrases from the list",
+          "note": "Writing p.115, 3b (MODEL)",
+          "words": [
+            "Best wishes",
+            "PS",
+            "Hi",
+            "Looking forward to hearing from you",
+            "Thanks for your email"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "{} Goran",
+              "gaps": [
+                [
+                  "Hi",
+                  "Hi,"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "{}. We’re very happy that you’re coming to stay with us again.",
+              "gaps": [
+                [
+                  "Thanks for your email"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "And is there anything you’d like to do in the UK this time? {}",
+              "gaps": [
+                [
+                  "Looking forward to hearing from you",
+                  "Looking forward to hearing from you."
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{}\nSally",
+              "gaps": [
+                [
+                  "Best wishes",
+                  "Best wishes,"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{} I’m attaching a photo of the family – Luke’s much taller than last year!",
+              "gaps": [
+                [
+                  "PS",
+                  "P.S."
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3B-wr3bq",
+          "origin": "SB",
+          "instruction": "Answer the questions about the informal phrases",
+          "note": "Writing p.115, 3b вопросы 1–3: выбор a/b → Blank с подсказкой (MODEL)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Looking forward to hearing from you means… {}",
+              "gaps": [
+                [
+                  "I hope you write again soon",
+                  "I hope you write again soon.",
+                  "a"
+                ]
+              ],
+              "hint": "(I hope you write again soon / I’m going to write to you again soon)",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "PS means… {}",
+              "gaps": [
+                [
+                  "I forgot to say this before",
+                  "I forgot to say this before.",
+                  "b"
+                ]
+              ],
+              "hint": "(This isn’t very important information / I forgot to say this before)",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Do we use contractions in an informal email? {}",
+              "gaps": [
+                [
+                  "Yes",
+                  "Yes, we do",
+                  "Yes, we do."
+                ]
+              ],
+              "hint": "(Yes / No)",
+              "explain": "Yes: I’m, it’s, we’re, you’re.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3B-wr3d",
+          "origin": "SB",
+          "instruction": "Write a reply to Sally’s email about your travel arrangements",
+          "note": "Writing p.115, 3c–e → Write (план 3c и проверка 3e — в критериях)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Imagine you’re going to study English in the UK and stay with Sally. Reply to her email in three paragraphs. Use contractions and the informal phrases (Hi, Thanks for your email, Looking forward to hearing from you, Best wishes, PS).",
+              "questions": [
+                {
+                  "text": "Paragraph 1: Thank her for her email.",
+                  "hint": "(Hi Sally, Thanks for your email…)"
+                },
+                {
+                  "text": "Paragraph 2: Say when you are arriving. Flight details: arr. FR8721 at 12.40; dep. 28 Aug FR8722 at 14.10.",
+                  "hint": "(I’m arriving at Stansted on… My flight number is…)"
+                },
+                {
+                  "text": "Paragraph 3: Answer her other questions: your mobile number, which bedroom you prefer, what you’d like to do in the UK.",
+                  "hint": "(I’d prefer to… I’d like to visit…)"
+                }
+              ],
+              "criteria": [
+                "three paragraphs as in the plan",
+                "uses the present continuous for arrangements (I’m arriving…, I’m going back…)",
+                "gives the flight details correctly",
+                "answers all Sally’s questions",
+                "uses informal phrases and contractions",
+                "no mistakes in grammar, punctuation, and spelling"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3B-grammar",
+      "kind": "GRAMMAR",
+      "title": "present continuous (future arrangements)",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Present continuous for the future",
+          "headers": [
+            "",
+            "Example"
+          ],
+          "rows": [
+            [
+              "+",
+              "I’m seeing an old friend tonight. She’s arriving at lunchtime."
+            ],
+            [
+              "−",
+              "She isn’t leaving until Friday. They aren’t coming to the party tomorrow."
+            ],
+            [
+              "?",
+              "What are you doing this evening? Is he meeting us at the restaurant?"
+            ]
+          ],
+          "audio": "3.12"
+        },
+        {
+          "type": "note",
+          "title": "Future arrangements",
+          "text": "We often use the present continuous for future arrangements, when we have decided the time and place (it’s in our diary): I’m having dinner with Mark Taylor on Tuesday. We usually say when: tonight, tomorrow, on Saturday, next week."
+        },
+        {
+          "type": "note",
+          "title": "be going to or present continuous?",
+          "text": "We can often use either: I’m going to see Anna on Tuesday. = I’m seeing Anna on Tuesday. The present continuous is very common with tonight, tomorrow, this weekend and with travel verbs go, come, leave, arrive: I’m leaving on Monday is more common than I’m going to leave on Monday."
+        },
+        {
+          "type": "mistake",
+          "wrong": "I see an old friend tonight.",
+          "right": "I’m seeing an old friend tonight.",
+          "why": "Don’t use the present simple for future arrangements."
+        },
+        {
+          "type": "mistake",
+          "wrong": "Look at the clouds! It’s raining this afternoon.",
+          "right": "Look at the clouds! It’s going to rain this afternoon.",
+          "why": "Predictions: be going to, not the present continuous."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "3B-sb4a",
+          "origin": "SB",
+          "instruction": "Listen and complete the extracts from the conversations between Jake and Sarah",
+          "note": "SB 4a (3.11); вопрос «present or future?» — все про будущее, см. explain",
+          "audio": "3.11",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I’m {} to London from Wednesday to Friday.",
+              "gaps": [
+                [
+                  "going"
+                ]
+              ],
+              "explain": "Future: an arrangement for next week.",
+              "clip": [
+                0.2,
+                3.7
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I’m {} dinner with Mark Taylor.",
+              "gaps": [
+                [
+                  "having"
+                ]
+              ],
+              "explain": "Future: it’s in Jake’s calendar for Tuesday evening.",
+              "clip": [
+                5.4,
+                8.04
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I’m {} my talk at 2.00.",
+              "gaps": [
+                [
+                  "giving"
+                ]
+              ],
+              "explain": "Future: an arrangement at a fixed time.",
+              "clip": [
+                9.82,
+                12.16
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Are you {} anything on Saturday?",
+              "gaps": [
+                [
+                  "doing"
+                ]
+              ],
+              "explain": "Future: a question about plans for Saturday.",
+              "clip": [
+                13.92,
+                16.4
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "We’re {} {} on Saturday.",
+              "gaps": [
+                [
+                  "getting"
+                ],
+                [
+                  "married"
+                ]
+              ],
+              "explain": "Future: the wedding is arranged for Saturday.",
+              "clip": [
+                18.18,
+                20.86
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "3B-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Is the present continuous about now or the future?",
+          "note": "GB 3B a «Mark the sentences N (now) or F (future)» → Sort; пример «I’m meeting Joe at two o’clock» F не перенесён (MODEL)",
+          "columns": [
+            "N (now)",
+            "F (future)"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "sort",
+              "word": "I’m living in a flat with two Swedish boys.",
+              "column": 1
+            },
+            {
+              "n": 2,
+              "type": "sort",
+              "word": "We’re coming back on Monday.",
+              "column": 2
+            },
+            {
+              "n": 3,
+              "type": "sort",
+              "word": "She’s moving to Canada next month.",
+              "column": 2
+            },
+            {
+              "n": 4,
+              "type": "sort",
+              "word": "I’m waiting for the postman.",
+              "column": 1
+            },
+            {
+              "n": 5,
+              "type": "sort",
+              "word": "I’m reading a really good book about science.",
+              "column": 1
+            },
+            {
+              "n": 6,
+              "type": "sort",
+              "word": "We’re meeting Sally and James for lunch on Sunday.",
+              "column": 2
+            },
+            {
+              "n": 7,
+              "type": "sort",
+              "word": "Karl is arriving at six o’clock.",
+              "column": 2
+            },
+            {
+              "n": 8,
+              "type": "sort",
+              "word": "I’m studying for my maths exam.",
+              "column": 1
+            },
+            {
+              "n": 9,
+              "type": "sort",
+              "word": "You aren’t listening to what I’m saying.",
+              "column": 1
+            },
+            {
+              "n": 10,
+              "type": "sort",
+              "word": "Are they leaving in the morning?",
+              "column": 2
+            }
+          ]
+        },
+        {
+          "id": "3B-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the dialogue with the verbs in brackets in the present continuous",
+          "note": "GB 3B b; пример «What are you doing? (do)» не перенесён (MODEL)",
+          "context": "Two flatmates. A What are you doing?",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "B I {} my suitcase. (pack)",
+              "gaps": [
+                [
+                  "’m packing",
+                  "am packing"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "A Why? B Because I {} to Vienna at eight o’clock tonight. (fly)",
+              "gaps": [
+                [
+                  "’m flying",
+                  "am flying"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "A Oh, I didn’t know. Why {} to Vienna? (go)",
+              "gaps": [
+                [
+                  "are you going"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "B I {} the boss of VTech Solutions tomorrow. (meet)",
+              "gaps": [
+                [
+                  "’m meeting",
+                  "am meeting"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "A Why {} him? (see)",
+              "gaps": [
+                [
+                  "are you seeing"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "B He {} on a project with me at the moment and we need to discuss it. (work) A Oh, well have a good trip!",
+              "gaps": [
+                [
+                  "’s working",
+                  "is working"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3B-sb4c",
+          "origin": "SB",
+          "instruction": "Look at Jake’s phone. Answer the questions",
+          "note": "SB 4c «ask and answer questions» → Rewrite ответа по календарю Джейка (3B-sb3b); пример 8.15 не перенесён (MODEL)",
+          "images": [
+            "3b_sb3_phone"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "What’s Jake doing at 11.00 in the morning?",
+              "answers": [
+                "He’s meeting Sarah.",
+                "He is meeting Sarah.",
+                "He’s meeting Sarah at The Grand Café.",
+                "He’s having coffee with Sarah."
+              ],
+              "explain": "Present continuous for an arrangement.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "What’s Jake doing at 2.00 in the afternoon?",
+              "answers": [
+                "He’s giving his talk.",
+                "He is giving his talk.",
+                "He’s giving a talk."
+              ],
+              "explain": "my talk → his talk.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "What’s Jake doing at 4.00 in the afternoon?",
+              "answers": [
+                "He’s going to a talk on climate change.",
+                "He is going to a talk on climate change.",
+                "He’s going to a talk about climate change."
+              ],
+              "explain": "go → he’s going.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "What’s Jake doing at 7.30 in the evening?",
+              "answers": [
+                "He’s having dinner with Mark.",
+                "He is having dinner with Mark.",
+                "He’s having dinner with Mark Taylor."
+              ],
+              "explain": "have → he’s having.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3B-wb3a",
+          "origin": "WB",
+          "instruction": "Complete the conversation with the present continuous form of the verbs in brackets. Use contractions where possible",
+          "note": "WB 3a; фото из WB p.21 (tools/images.py); 1 are you having — пример",
+          "images": [
+            "3b_wb3a_women"
+          ],
+          "context": "A Where are you having your sales conference this year? B In Poland – it’s next week actually.",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "A {} in Warsaw? (you / stay)",
+              "gaps": [
+                [
+                  "Are you staying"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "B Only for a night, because {} the conference in Krakow. (we / have)",
+              "gaps": [
+                [
+                  "we’re having",
+                  "we are having"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "So {} to Warsaw on Sunday, (I / fly)",
+              "gaps": [
+                [
+                  "I’m flying",
+                  "I am flying"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "and then {} to Krakow the next day. (I / travel)",
+              "gaps": [
+                [
+                  "I’m travelling",
+                  "I am travelling",
+                  "I’m traveling"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "A How {} from the airport to the hotel? (you / get)",
+              "gaps": [
+                [
+                  "are you getting"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "B {} me up. (Marika / come) to pick",
+              "gaps": [
+                [
+                  "Marika’s coming to pick",
+                  "Marika is coming to pick"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "A Oh, I remember Marika. Say hi to her from me. {} to Krakow, too? (she / go)",
+              "gaps": [
+                [
+                  "Is she going"
+                ]
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "B No, {} to the conference. (she / not go)",
+              "gaps": [
+                [
+                  "she isn’t going",
+                  "she’s not going",
+                  "she is not going"
+                ]
+              ]
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "A So {} the train to Krakow? (you / get) B Yes. It’s easier than hiring a car.",
+              "gaps": [
+                [
+                  "are you getting"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3B-wb3b",
+          "origin": "WB",
+          "instruction": "Choose the correct verb form. If both forms are possible, write both",
+          "note": "WB 3b «Circle… If both are possible, tick» → Blank с подсказкой; если верны обе формы — принимается любая. 1 I’m going to get — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "A Do you have any plans for this weekend? B Yes, {} my grandparents on Sunday.",
+              "gaps": [
+                [
+                  "I’m going to visit",
+                  "I’m visiting",
+                  "I’m going to visit / I’m visiting"
+                ]
+              ],
+              "hint": "(I’m going to visit / I’m visiting)",
+              "explain": "Both are possible: a plan and an arrangement.",
+              "source": "KEY"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "A It’s very cold tonight. B Do you think {}?",
+              "gaps": [
+                [
+                  "it’s going to snow"
+                ]
+              ],
+              "hint": "(it’s going to snow / it’s snowing)",
+              "explain": "Prediction → be going to.",
+              "source": "KEY"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "A My brother has a job interview in London. B Oh. Do you think {} the job?",
+              "gaps": [
+                [
+                  "he’s going to get"
+                ]
+              ],
+              "hint": "(he’s going to get / he’s getting)",
+              "explain": "Prediction → be going to.",
+              "source": "KEY"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "A What time’s the train? B At 7.15. Don’t worry. We {} it.",
+              "gaps": [
+                [
+                  "aren’t going to miss"
+                ]
+              ],
+              "hint": "(aren’t going to miss / aren’t missing)",
+              "explain": "Prediction → be going to.",
+              "source": "KEY"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "A We’re going on holiday next month. B Are you? Where {}?",
+              "gaps": [
+                [
+                  "are you going to go",
+                  "are you going",
+                  "are you going to go / are you going"
+                ]
+              ],
+              "hint": "(are you going to go / are you going)",
+              "explain": "Both are possible.",
+              "source": "KEY"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "A What time are you leaving tomorrow? B Early. {} the 6.00 train.",
+              "gaps": [
+                [
+                  "I’m going to catch",
+                  "I’m catching",
+                  "I’m going to catch / I’m catching"
+                ]
+              ],
+              "hint": "(I’m going to catch / I’m catching)",
+              "explain": "Both are possible.",
+              "source": "KEY"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "A Your girlfriend drives too fast. B I know. I’m sure {} an accident one day.",
+              "gaps": [
+                [
+                  "she’s going to have"
+                ]
+              ],
+              "hint": "(she’s going to have / she’s having)",
+              "explain": "Prediction → be going to.",
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "3B-wb3c",
+          "origin": "WB",
+          "instruction": "Look at Stefan’s calendar and write what he’s doing next week. Use contractions",
+          "note": "WB 3c; записи календаря Стефана — в prompt (картинка = только этот текст). 1 Monday — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "TUESDAY go to Cambridge",
+              "answers": [
+                "On Tuesday, he’s going to Cambridge.",
+                "On Tuesday he’s going to Cambridge."
+              ],
+              "explain": "On Tuesday, he’s + -ing.",
+              "source": "KEY"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "WEDNESDAY work at home",
+              "answers": [
+                "On Wednesday, he’s working at home.",
+                "On Wednesday he’s working at home."
+              ],
+              "explain": "work → working.",
+              "source": "KEY"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "THURSDAY have dinner with Cassie",
+              "answers": [
+                "On Thursday, he’s having dinner with Cassie.",
+                "On Thursday he’s having dinner with Cassie."
+              ],
+              "explain": "have → having.",
+              "source": "KEY"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "FRIDAY listen to a new pianist",
+              "answers": [
+                "On Friday, he’s listening to a new pianist.",
+                "On Friday he’s listening to a new pianist."
+              ],
+              "explain": "listen → listening.",
+              "source": "KEY"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "SATURDAY have a barbecue",
+              "answers": [
+                "On Saturday, he’s having a barbecue.",
+                "On Saturday he’s having a barbecue."
+              ],
+              "explain": "have → having.",
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "3B-wb3d",
+          "origin": "WB",
+          "instruction": "Write sentences about any arrangements you have for next week. Use contractions",
+          "note": "WB 3d «Students’ own answers» → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Write about your arrangements for next week with the present continuous.",
+              "questions": [
+                {
+                  "text": "Next Monday",
+                  "hint": "(Next Monday, I’m…)"
+                },
+                {
+                  "text": "On Tuesday",
+                  "hint": "(On Tuesday, I’m…)"
+                },
+                {
+                  "text": "On Wednesday",
+                  "hint": "(On Wednesday, I’m…)"
+                },
+                {
+                  "text": "On Thursday",
+                  "hint": "(On Thursday, I’m…)"
+                },
+                {
+                  "text": "On Friday",
+                  "hint": "(On Friday, I’m…)"
+                },
+                {
+                  "text": "Next weekend",
+                  "hint": "(Next weekend, I’m…)"
+                }
+              ],
+              "criteria": [
+                "one sentence for each day",
+                "uses the present continuous with contractions (I’m meeting…)",
+                "can use a negative (I’m not working…)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3B-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the present continuous.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "We {} to Spain on Friday. (fly)",
+              "gaps": [
+                [
+                  "are flying",
+                  "’re flying"
+                ]
+              ],
+              "explain": "Arrangement: we’re + -ing.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "My parents {} for dinner tonight. (come)",
+              "gaps": [
+                [
+                  "are coming",
+                  "’re coming"
+                ]
+              ],
+              "explain": "come → coming (drop e).",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I {} tomorrow – it’s a holiday. (not work)",
+              "gaps": [
+                [
+                  "’m not working",
+                  "am not working"
+                ]
+              ],
+              "explain": "Negative: I’m not + -ing.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "What time {} you {} tomorrow? (leave)",
+              "gaps": [
+                [
+                  "are"
+                ],
+                [
+                  "leaving"
+                ]
+              ],
+              "explain": "Question: are + you + -ing.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "She {} her new boss on Monday morning. (meet)",
+              "gaps": [
+                [
+                  "is meeting",
+                  "’s meeting"
+                ]
+              ],
+              "explain": "she’s + -ing.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "They {} to the party – they’re busy. (not come)",
+              "gaps": [
+                [
+                  "aren’t coming",
+                  "are not coming",
+                  "’re not coming"
+                ]
+              ],
+              "explain": "Negative: they aren’t + -ing.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "{} Tom {} us at the station? (meet)",
+              "gaps": [
+                [
+                  "Is"
+                ],
+                [
+                  "meeting"
+                ]
+              ],
+              "explain": "Question: Is + Tom + -ing.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "We {} tennis with Anna on Saturday. (play)",
+              "gaps": [
+                [
+                  "are playing",
+                  "’re playing"
+                ]
+              ],
+              "explain": "Arrangement with a day.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3B-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Present continuous or be going to? Complete the sentences.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Look at those clouds! It {}. (rain)",
+              "gaps": [
+                [
+                  "’s going to rain",
+                  "is going to rain"
+                ]
+              ],
+              "explain": "A prediction → be going to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I’ve got the tickets. We {} the 10.30 train tomorrow. (catch)",
+              "gaps": [
+                [
+                  "’re catching",
+                  "are catching",
+                  "’re going to catch",
+                  "are going to catch"
+                ]
+              ],
+              "explain": "An arrangement: both are possible.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "He’s playing really badly. He {} the match. (lose)",
+              "gaps": [
+                [
+                  "’s going to lose",
+                  "is going to lose"
+                ]
+              ],
+              "explain": "A prediction → be going to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "She {} at 6.00 – her flight lands at 5.30. (arrive)",
+              "gaps": [
+                [
+                  "’s arriving",
+                  "is arriving",
+                  "’s going to arrive",
+                  "is going to arrive"
+                ]
+              ],
+              "explain": "Travel verb + fixed time: the present continuous is more common.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3B-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "I meet my sister tonight.",
+              "answers": [
+                "I’m meeting my sister tonight.",
+                "I am meeting my sister tonight."
+              ],
+              "explain": "Future arrangement → present continuous, not present simple.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "What you are doing on Saturday?",
+              "answers": [
+                "What are you doing on Saturday?"
+              ],
+              "explain": "Question: are before you.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "She not coming to the meeting tomorrow.",
+              "answers": [
+                "She isn’t coming to the meeting tomorrow.",
+                "She’s not coming to the meeting tomorrow.",
+                "She is not coming to the meeting tomorrow."
+              ],
+              "explain": "Don’t forget be: she isn’t coming.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "We’re leaveing on Monday.",
+              "answers": [
+                "We’re leaving on Monday.",
+                "We are leaving on Monday."
+              ],
+              "explain": "leave → leaving (drop e).",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "Are you do anything this evening?",
+              "answers": [
+                "Are you doing anything this evening?"
+              ],
+              "explain": "are + -ing: doing.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

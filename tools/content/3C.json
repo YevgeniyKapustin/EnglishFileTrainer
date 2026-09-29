@@ -1,0 +1,4191 @@
+{
+  "id": "3C",
+  "title": "Word games",
+  "bubbles": [
+    "What’s a bakery?",
+    "It’s a place where you can buy bread and cakes."
+  ],
+  "sources": "SB p.26–27 (PDF 27–28), Grammar Bank p.130–131 (PDF 131–132), Communication p.103 (PDF 104), scripts p.121–122 (PDF 122–123); Practical English Episode 2 SB p.28–29 (PDF 29–30); WB p.22–24 (PDF 21–23), Can you remember…? 1–3 WB p.25 (PDF 24), key WB p.89–90 (PDF 88–89)",
+  "sections": [
+    {
+      "id": "3C-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "paraphrasing",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Useful expressions for explaining a word that you don’t know",
+          "headers": [
+            "Expression",
+            "Example"
+          ],
+          "rows": [
+            [
+              "It’s somebody who…",
+              "It’s somebody who shows you round a city or a museum. (a guide)"
+            ],
+            [
+              "It’s something which…",
+              "It’s something which we use to pay, instead of cash. (a credit card)"
+            ],
+            [
+              "It’s somewhere where…",
+              "It’s somewhere where people go when they want to send a parcel or a letter. (a post office)"
+            ],
+            [
+              "It’s a kind of…",
+              "It’s a kind of fruit. It’s long and yellow. (a banana)"
+            ],
+            [
+              "It’s the opposite of…",
+              "It’s the opposite of expensive. (cheap)"
+            ],
+            [
+              "It’s like…, but…",
+              "It’s like a sweater, but it has buttons. (a cardigan)"
+            ],
+            [
+              "It’s similar to…, but…",
+              "It’s similar to a wallet, but it’s for a woman. (a purse)"
+            ],
+            [
+              "For example, …",
+              "It’s a verb. For example, you do this to the TV when you’ve finished watching something. (turn off)"
+            ]
+          ],
+          "audio": "3.17"
+        },
+        {
+          "type": "note",
+          "title": "Paraphrasing",
+          "text": "If you don’t know a word in English, don’t stop: explain it with other words you know. Say what kind of thing it is (a person, a thing, a place, a verb, an adjective), then give a detail or an example."
+        },
+        {
+          "type": "mistake",
+          "wrong": "It’s somewhere which you can buy bread.",
+          "right": "It’s somewhere where you can buy bread.",
+          "why": "Place + where + subject + verb."
+        },
+        {
+          "type": "mistake",
+          "wrong": "It’s similar than a wallet.",
+          "right": "It’s similar to a wallet.",
+          "why": "similar to, not similar than."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "3C-sb3b",
+          "origin": "SB",
+          "instruction": "Complete the useful expressions with these words. Then listen and check",
+          "note": "SB 3b (3.17)",
+          "audio": "3.17",
+          "words": [
+            "example",
+            "kind",
+            "like",
+            "opposite",
+            "similar",
+            "somebody",
+            "something",
+            "somewhere"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "It’s {} who shows you round a city or a museum.",
+              "gaps": [
+                [
+                  "somebody",
+                  "someone"
+                ]
+              ],
+              "clip": [
+                0.2,
+                4.36
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "It’s {} which we use to pay, instead of cash.",
+              "gaps": [
+                [
+                  "something"
+                ]
+              ],
+              "clip": [
+                6.18,
+                10.2
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "It’s {} where people go when they want to send a parcel or a letter.",
+              "gaps": [
+                [
+                  "somewhere"
+                ]
+              ],
+              "clip": [
+                11.96,
+                17.66
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "It’s a {} of fruit. It’s long and yellow.",
+              "gaps": [
+                [
+                  "kind"
+                ]
+              ],
+              "clip": [
+                19.48,
+                23.98
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "It’s the {} of expensive.",
+              "gaps": [
+                [
+                  "opposite"
+                ]
+              ],
+              "clip": [
+                25.84,
+                28.78
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "It’s {} a sweater, but it has buttons.",
+              "gaps": [
+                [
+                  "like"
+                ]
+              ],
+              "clip": [
+                30.52,
+                34.32
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "It’s {} to a wallet, but it’s for a woman.",
+              "gaps": [
+                [
+                  "similar"
+                ]
+              ],
+              "clip": [
+                36.14,
+                40.0
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "It’s a verb. For {}, you do this to the TV when you’ve finished watching something.",
+              "gaps": [
+                [
+                  "example"
+                ]
+              ],
+              "clip": [
+                41.68,
+                48.84
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "3C-sb3c",
+          "origin": "SB",
+          "instruction": "What are the words for definitions 1–8?",
+          "note": "SB 3c; ответы — по определениям 3b (MODEL)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "It’s somebody who shows you round a city or a museum. → {}",
+              "gaps": [
+                [
+                  "a guide",
+                  "guide",
+                  "a tour guide",
+                  "tour guide"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "It’s something which we use to pay, instead of cash. → {}",
+              "gaps": [
+                [
+                  "a credit card",
+                  "credit card",
+                  "a card",
+                  "card",
+                  "a debit card",
+                  "debit card",
+                  "a bank card",
+                  "bank card"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "It’s somewhere where people go when they want to send a parcel or a letter. → {}",
+              "gaps": [
+                [
+                  "a post office",
+                  "post office",
+                  "the post office"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "It’s a kind of fruit. It’s long and yellow. → {}",
+              "gaps": [
+                [
+                  "a banana",
+                  "banana"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "It’s the opposite of expensive. → {}",
+              "gaps": [
+                [
+                  "cheap"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "It’s like a sweater, but it has buttons. → {}",
+              "gaps": [
+                [
+                  "a cardigan",
+                  "cardigan"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "It’s similar to a wallet, but it’s for a woman. → {}",
+              "gaps": [
+                [
+                  "a purse",
+                  "purse"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "It’s a verb. For example, you do this to the TV when you’ve finished watching something. → {}",
+              "gaps": [
+                [
+                  "turn off",
+                  "switch off",
+                  "to turn off",
+                  "to switch off",
+                  "turn it off",
+                  "switch it off"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3C-sb3d",
+          "origin": "SB",
+          "instruction": "Complete the definitions for these words",
+          "note": "SB 3d: свободные определения → Write, начало определения — как в книге",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Complete a definition for each word. Use the beginnings from the book.",
+              "questions": [
+                {
+                  "text": "a DJ",
+                  "hint": "(It’s somebody…)"
+                },
+                {
+                  "text": "an art gallery",
+                  "hint": "(It’s somewhere…)"
+                },
+                {
+                  "text": "a camera",
+                  "hint": "(It’s something…)"
+                },
+                {
+                  "text": "a passport",
+                  "hint": "(It’s a kind of…)"
+                },
+                {
+                  "text": "sunbathe",
+                  "hint": "(For example, you do this…)"
+                },
+                {
+                  "text": "curly",
+                  "hint": "(It’s the opposite…)"
+                }
+              ],
+              "criteria": [
+                "a definition for every word",
+                "who for people, which for things, where for places",
+                "It’s the opposite of…, It’s a kind of… used correctly",
+                "each definition is clear enough to guess the word"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3C-sb3e",
+          "origin": "SB",
+          "instruction": "Play A to Z with letters A–E. Explain a word for each letter",
+          "note": "SB 3a + 3e: игра A to Z с буквами A–E → Talk; ИИ отгадывает слова ученика и сам загадывает свои",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are playing the game A to Z with the student (level: pre-intermediate), using only the letters A–E. Take turns. The student starts: for each letter A–E they think of a word which begins with that letter and explain it without saying the word (It begins with A. It’s a person who… / It’s something which… / It’s somewhere where… / It’s the opposite of… / It’s like…, but…). Try to guess each word; if the definition is not clear, ask one question (Is it a person? Is it a kind of food?). Then it’s your turn: give your own definitions for words beginning with A–E (for example: airport, bakery, cinema, dentist, elevator/lift is L… choose simple words) and let the student guess. If the student says a definition with a mistake (It’s somewhere which…), repeat it correctly before you guess. Keep score and say who wins at the end.",
+              "goal": "Explain words with paraphrasing and guess your partner’s words.",
+              "opener": "Let’s play A to Z! You start. Think of a word which begins with A and explain it. Don’t say the word!",
+              "criteria": [
+                "explains five words, one for each letter A–E",
+                "uses who / which / where correctly",
+                "uses expressions like It’s a kind of…, It’s the opposite of…, It’s similar to…",
+                "guesses at least two of the partner’s words"
+              ],
+              "steps": [
+                {
+                  "text": "Explain a word which begins with A",
+                  "example": "It begins with A. It’s a person who acts in films."
+                },
+                {
+                  "text": "Explain words for B–E",
+                  "example": "It begins with B. It’s somewhere where you can buy bread and cakes."
+                },
+                {
+                  "text": "Guess your partner’s words",
+                  "example": "Is it a dentist?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3C-wb2a",
+          "origin": "WB",
+          "instruction": "Read the definitions and write the words",
+          "note": "WB 2a word puzzle → Blank по определениям (сетка не нужна; скрытое слово ALPHABET — в последнем пункте); 1 fast — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "It’s a verb you use with lots of sports, for example football and tennis. → {}",
+              "gaps": [
+                [
+                  "play"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "It’s a kind of hat. → {}",
+              "gaps": [
+                [
+                  "cap",
+                  "a cap"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "It’s similar to slim, but a bit less positive. → {}",
+              "gaps": [
+                [
+                  "thin"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "It’s something which men use to keep money in. → {}",
+              "gaps": [
+                [
+                  "wallet",
+                  "a wallet"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "It’s like a shirt, but only for women. → {}",
+              "gaps": [
+                [
+                  "blouse",
+                  "a blouse"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "It’s somebody who works in a school. → {}",
+              "gaps": [
+                [
+                  "teacher",
+                  "a teacher"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "It’s somewhere where you can stay in a room for one or more nights. → {}",
+              "gaps": [
+                [
+                  "hotel",
+                  "a hotel"
+                ]
+              ],
+              "explain": "The second letters of fast, play, cap, thin, wallet, blouse, teacher, hotel make the hidden word ALPHABET."
+            }
+          ]
+        },
+        {
+          "id": "3C-wb2b",
+          "origin": "WB",
+          "instruction": "Complete the sentences for explaining words",
+          "note": "WB 2b; в книге даны первые буквы — у нас без них; 1 kind — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "mean: It’s the {} of generous.",
+              "gaps": [
+                [
+                  "opposite"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "hire: It’s {} to rent.",
+              "gaps": [
+                [
+                  "similar"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "handsome: It’s {} beautiful, but it’s used for men.",
+              "gaps": [
+                [
+                  "like"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "souvenir: It’s {} which you buy to remind you of your holiday.",
+              "gaps": [
+                [
+                  "something"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "sunbathe: You do this in summer, for {} on the beach.",
+              "gaps": [
+                [
+                  "example"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "waiter: It’s {} who works in a restaurant.",
+              "gaps": [
+                [
+                  "someone",
+                  "somebody"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "cinema: It’s {} where you can see a film.",
+              "gaps": [
+                [
+                  "somewhere"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3C-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "What’s the word? Read the definition and write it.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "It’s somebody who looks after people in a hospital. → {}",
+              "gaps": [
+                [
+                  "a nurse",
+                  "nurse",
+                  "a doctor",
+                  "doctor"
+                ]
+              ],
+              "explain": "somebody who… = a person.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "It’s somewhere where you can borrow books. → {}",
+              "gaps": [
+                [
+                  "a library",
+                  "library",
+                  "the library"
+                ]
+              ],
+              "explain": "somewhere where… = a place.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "It’s something which you use to open a door. → {}",
+              "gaps": [
+                [
+                  "a key",
+                  "key"
+                ]
+              ],
+              "explain": "something which… = a thing.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "It’s the opposite of noisy. → {}",
+              "gaps": [
+                [
+                  "quiet"
+                ]
+              ],
+              "explain": "noisy ↔ quiet.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "It’s a kind of vegetable. It’s orange and rabbits love it. → {}",
+              "gaps": [
+                [
+                  "a carrot",
+                  "carrot"
+                ]
+              ],
+              "explain": "It’s a kind of… gives the group.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "It’s like a jacket, but longer and warmer. You wear it in winter. → {}",
+              "gaps": [
+                [
+                  "a coat",
+                  "coat"
+                ]
+              ],
+              "explain": "It’s like…, but… compares two things.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "It’s similar to a cup, but it’s bigger and has no saucer. → {}",
+              "gaps": [
+                [
+                  "a mug",
+                  "mug"
+                ]
+              ],
+              "explain": "similar to…, but…",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "It’s a verb. For example, you do this when you are tired and you go to bed. → {}",
+              "gaps": [
+                [
+                  "sleep",
+                  "to sleep"
+                ]
+              ],
+              "explain": "For example… describes an action.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "It’s somebody who cuts people’s hair. → {}",
+              "gaps": [
+                [
+                  "a hairdresser",
+                  "hairdresser",
+                  "a barber",
+                  "barber"
+                ]
+              ],
+              "explain": "somebody who… = a person.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "It’s the opposite of generous. → {}",
+              "gaps": [
+                [
+                  "mean"
+                ]
+              ],
+              "explain": "generous ↔ mean.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3C-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete the expressions for explaining words.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "A pilot: It’s {} who flies a plane.",
+              "gaps": [
+                [
+                  "somebody",
+                  "someone"
+                ]
+              ],
+              "explain": "A person → somebody who.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "A bakery: It’s {} where you can buy bread.",
+              "gaps": [
+                [
+                  "somewhere"
+                ]
+              ],
+              "explain": "A place → somewhere where.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "A fork: It’s {} which you use to eat.",
+              "gaps": [
+                [
+                  "something"
+                ]
+              ],
+              "explain": "A thing → something which.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Tall: It’s the {} of short.",
+              "gaps": [
+                [
+                  "opposite"
+                ]
+              ],
+              "explain": "the opposite of.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "A sandal: It’s a {} of shoe for summer.",
+              "gaps": [
+                [
+                  "kind",
+                  "type"
+                ]
+              ],
+              "explain": "a kind of.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "A sofa: It’s {} to an armchair, but more people can sit on it.",
+              "gaps": [
+                [
+                  "similar"
+                ]
+              ],
+              "explain": "similar to.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "A motorbike: It’s {} a bicycle, but it has an engine.",
+              "gaps": [
+                [
+                  "like"
+                ]
+              ],
+              "explain": "It’s like…, but…",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Fruit: For {}, apples, oranges and bananas.",
+              "gaps": [
+                [
+                  "example"
+                ]
+              ],
+              "explain": "For example.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "A station: It’s a place {} you catch a train.",
+              "gaps": [
+                [
+                  "where"
+                ]
+              ],
+              "explain": "place + where + subject + verb.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "Shy: It’s an adjective for a person {} doesn’t like meeting new people.",
+              "gaps": [
+                [
+                  "who",
+                  "that"
+                ]
+              ],
+              "explain": "person + who.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3C-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "silent e",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Silent e",
+          "text": "e at the end of a word is normally not pronounced, but it usually changes the sound of the vowel before it. When a word ends in silent e, the preceding vowel sound is usually the same as that letter of the alphabet, e.g. sit /sɪt/, site /saɪt/, fat /fæt/, fate /feɪt/."
+        },
+        {
+          "type": "table",
+          "title": "Pairs of words",
+          "headers": [
+            "Short vowel",
+            "Vowel + silent e"
+          ],
+          "rows": [
+            [
+              "hat /æ/",
+              "hate /eɪ/"
+            ],
+            [
+              "plan /æ/",
+              "plane /eɪ/"
+            ],
+            [
+              "bit /ɪ/",
+              "bite /aɪ/"
+            ],
+            [
+              "not /ɒ/",
+              "note /əʊ/"
+            ],
+            [
+              "cut /ʌ/",
+              "cute /juː/"
+            ]
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "3C-sb4a",
+          "origin": "SB",
+          "instruction": "Look at two definitions. What are the words?",
+          "note": "SB 4a (MODEL); вопрос о произношении — в explain",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "It’s a thing which you wear on your head. → {}",
+              "gaps": [
+                [
+                  "a hat",
+                  "hat"
+                ]
+              ],
+              "explain": "hat /hæt/",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "It’s a verb which means the opposite of love. → {}",
+              "gaps": [
+                [
+                  "hate"
+                ]
+              ],
+              "explain": "hate /heɪt/: with a silent e the a sounds like the letter A.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3C-sb4b",
+          "origin": "SB",
+          "instruction": "Say the pairs of words",
+          "note": "SB 4b: трека нет — Speak, образец — синтезатор",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "bit – bite"
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "cut – cute"
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "not – note"
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "plan – plane"
+            }
+          ]
+        },
+        {
+          "id": "3C-sb4c",
+          "origin": "SB",
+          "instruction": "Listen to the definitions for three more similar word pairs. Write the words",
+          "note": "SB 4c (3.18)",
+          "audio": "3.18",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "A: It’s a verb. It’s the opposite of lose. → {}",
+              "gaps": [
+                [
+                  "win"
+                ]
+              ],
+              "explain": "win /ɪ/",
+              "clip": [
+                0.2,
+                6.28
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "B: It’s something you drink. It’s alcoholic and it can be red, white or rosé. → {}",
+              "gaps": [
+                [
+                  "wine"
+                ]
+              ],
+              "explain": "wine /aɪ/ — silent e",
+              "clip": [
+                7.28,
+                15.4
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "A: It’s an animal which people have in their house. For example, a cat. → {}",
+              "gaps": [
+                [
+                  "pet"
+                ]
+              ],
+              "explain": "pet /e/",
+              "clip": [
+                17.18,
+                25.02
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "B: It’s the short form of the name Peter. → {}",
+              "gaps": [
+                [
+                  "Pete",
+                  "pete"
+                ]
+              ],
+              "explain": "Pete /iː/ — silent e",
+              "clip": [
+                26.04,
+                30.8
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "A: It’s an adjective, similar to crazy. → {}",
+              "gaps": [
+                [
+                  "mad"
+                ]
+              ],
+              "explain": "mad /æ/",
+              "clip": [
+                32.56,
+                37.86
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "B: It’s the past tense of the verb make. → {}",
+              "gaps": [
+                [
+                  "made"
+                ]
+              ],
+              "explain": "made /eɪ/ — silent e",
+              "clip": [
+                38.88,
+                43.92
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "3C-sb4d",
+          "origin": "SB",
+          "instruction": "How do you pronounce the words? Say them, then listen and check",
+          "note": "SB 4d–e (3.19) → Speak по отрезкам; картинки со словами в книге не переносим — слово и так в задании",
+          "audio": "3.19",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "kite",
+              "clip": [
+                0,
+                1.18
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "bin",
+              "clip": [
+                2.72,
+                3.84
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "stone",
+              "clip": [
+                5.38,
+                6.76
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "tap",
+              "clip": [
+                8.26,
+                9.32
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "grapes",
+              "clip": [
+                10.82,
+                12.16
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "mug",
+              "clip": [
+                13.66,
+                14.8
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3C-wb3a",
+          "origin": "WB",
+          "instruction": "Say the words. Be careful with silent e",
+          "note": "WB 3a–b «Listen and write the word you hear» (трек WB 3.5 — аудио WB нет): Speak слов из ключа, образец — синтезатор; 1 hat — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "cute"
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "hate"
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "plane"
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "cut"
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "note"
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "plan"
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "bite"
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "not"
+            },
+            {
+              "n": 10,
+              "type": "speak",
+              "text": "bit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3C-skills",
+      "kind": "SKILLS",
+      "title": "Reading, Listening & Speaking",
+      "reference": [
+        {
+          "type": "note",
+          "title": "A to Z",
+          "text": "In this game there is a wheel with 25 letters of the alphabet (not including ‘X’). The presenter gives definitions for words starting with the letters, e.g. ‘A – the place where you catch a plane’ = ‘Airport’. If the contestant can’t think of the word, he or she says ‘Pass’."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "3C-sb1c",
+          "origin": "SB",
+          "instruction": "Read about the game show A to Z and answer the questions",
+          "note": "SB 1b–c; текст — в context, картинка из SB p.26 (tools/images.py); ответы — по тексту (MODEL). 1a (составить слова из букв на странице) не перенесено",
+          "images": [
+            "3c_sb1_wheel"
+          ],
+          "context": "In this game there is a wheel with 25 letters of the alphabet (not including ‘X’). The aim of the game is to complete the alphabet wheel by saying the correct word for each letter in five minutes. The presenter gives the contestant definitions for words starting with the letters, for example, ‘A – the place where you catch a plane’ = ‘Airport’.\n\nTo start the game the presenter reads a definition for a word which begins with A and the contestant has to quickly say the word. If the contestant can’t think of the word, he or she says ‘Pass’. When a contestant passes or gets a word wrong, the presenter goes on to the next letter.\n\nThe presenter continues round the wheel to Z, then starts from the beginning again. The presenter repeats the definitions that the contestant passed on or got wrong, until five minutes is up. If a contestant gets all 25 words right, he or she wins the prize.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "The aim of the game is to complete the alphabet {} by saying the correct word for each letter.",
+              "gaps": [
+                [
+                  "wheel"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Contestants have {} minutes to say all the words.",
+              "gaps": [
+                [
+                  "five",
+                  "5"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "The example for the letter A: ‘the place where you catch a plane’ = {}.",
+              "gaps": [
+                [
+                  "airport",
+                  "Airport",
+                  "an airport"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "If the contestant doesn’t know the answer, he or she says ‘{}’ and the presenter goes on to the next letter.",
+              "gaps": [
+                [
+                  "Pass",
+                  "pass"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "The contestant wins the prize if he or she gets all {} words right.",
+              "gaps": [
+                [
+                  "25",
+                  "twenty-five",
+                  "twenty five"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3C-sb1d",
+          "origin": "SB",
+          "instruction": "Victoria has passed on six letters and has 90 seconds left. Listen to the definitions. When you hear a ‘ping’, write the word",
+          "note": "SB 1d (3.14); буква — в задании, слово — после «пинга»",
+          "audio": "3.14",
+          "images": [
+            "3c_sb1_wheel"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "B – It’s an adjective for a man who has no hair on his head. → {}",
+              "gaps": [
+                [
+                  "bald"
+                ]
+              ],
+              "clip": [
+                11.7,
+                22.5
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "C – It’s an adjective. It describes a place where there are a lot of people, for example a restaurant or a beach in the summer. → {}",
+              "gaps": [
+                [
+                  "crowded"
+                ]
+              ],
+              "clip": [
+                22.6,
+                42.9
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "G – They’re things which people wear on their hands. → {}",
+              "gaps": [
+                [
+                  "gloves"
+                ]
+              ],
+              "clip": [
+                42.9,
+                54.4
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "K – It’s the room where people cook. → {}",
+              "gaps": [
+                [
+                  "kitchen"
+                ]
+              ],
+              "clip": [
+                54.4,
+                65.6
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "L – It’s an adjective for someone who doesn’t like studying or working, for example. It’s the opposite of hard-working. → {}",
+              "gaps": [
+                [
+                  "lazy"
+                ]
+              ],
+              "clip": [
+                65.6,
+                82.5
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "T – It’s a thing which you use in an airport to help you with your cases, or in a supermarket to put your shopping in. → {}",
+              "gaps": [
+                [
+                  "trolley"
+                ]
+              ],
+              "clip": [
+                82.5,
+                95.9
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "3C-sb1e",
+          "origin": "SB",
+          "instruction": "Listen and check. Does Victoria win?",
+          "note": "SB 1e (3.15)",
+          "audio": "3.15",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Does Victoria win? {}",
+              "gaps": [
+                [
+                  "Yes",
+                  "yes",
+                  "Yes, she does.",
+                  "Yes, she does",
+                  "Yes, she wins.",
+                  "Yes, she wins"
+                ]
+              ],
+              "hint": "(Yes / No)",
+              "explain": "‘Congratulations, Victoria. You’ve done it!’",
+              "clip": [
+                97.5,
+                105.42
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Victoria says the last word just before the time is up. The word is {}.",
+              "gaps": [
+                [
+                  "trolley"
+                ]
+              ],
+              "clip": [
+                80.0,
+                105.42
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "3C-sb5",
+          "origin": "SB",
+          "instruction": "Split crossword: explain your words to your partner",
+          "note": "SB 5 + Communication p.103 (Student A) → Talk: ученик объясняет слова своей половины кроссворда, ИИ отгадывает; сетка не нужна",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are the student’s partner in a split crossword game (level: pre-intermediate). The student has these words in their half of the crossword: museum, umbrella, grandfather, receptionist, shy, cinema, jacket, believe. Ask for them one at a time using crossword language (What’s one across? What’s two down?), and the student must explain each word without saying it (It’s a place where… / It’s something which… / It’s somebody who… / It’s the opposite of… / It’s a verb…). Try to guess the word. If the definition is not clear, ask a question (Is it a person? Is it something you wear?). If the student uses the wrong relative pronoun (a place which you see films), repeat the definition correctly before you guess. After all eight words, say how many you guessed.",
+              "goal": "Explain the words in your half of the crossword so your partner can guess them.",
+              "opener": "OK, my crossword is almost empty! What’s one across?",
+              "criteria": [
+                "explains all eight words without saying them",
+                "uses who for people, which for things, where for places",
+                "uses paraphrasing expressions (It’s a kind of…, It’s the opposite of…, It’s similar to…)",
+                "gives an extra example when the partner can’t guess"
+              ],
+              "steps": [
+                {
+                  "text": "Explain a place",
+                  "example": "It’s a place where you can see old and interesting things, like paintings."
+                },
+                {
+                  "text": "Explain a person",
+                  "example": "It’s somebody who works in a hotel and gives you your key."
+                },
+                {
+                  "text": "Explain an adjective or a verb",
+                  "example": "It’s an adjective for a person who doesn’t like talking to people they don’t know."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3C-grammar",
+      "kind": "GRAMMAR",
+      "title": "defining relative clauses",
+      "reference": [
+        {
+          "type": "table",
+          "title": "who, which, where",
+          "headers": [
+            "",
+            "Example"
+          ],
+          "rows": [
+            [
+              "who — a person",
+              "That’s the woman who won the lottery last year. A chef is a person who cooks food in a restaurant."
+            ],
+            [
+              "which — a thing",
+              "A clock is something which tells the time. Is that the book which won an important prize?"
+            ],
+            [
+              "where — a place",
+              "A post office is a place where you can buy stamps. That’s the restaurant where I had dinner last week."
+            ]
+          ],
+          "audio": "3.16"
+        },
+        {
+          "type": "note",
+          "title": "Defining relative clauses",
+          "text": "We use defining relative clauses to explain what a person, thing or place is or does. The verb after where needs a subject, e.g. you: a place where you can buy stamps. We can also use which to talk about a place: A post office is a place which sells stamps."
+        },
+        {
+          "type": "note",
+          "title": "that",
+          "text": "We can use that instead of who or which: She’s the girl who / that works with my brother. It’s a thing which / that connects two computers. Don’t use that instead of where."
+        },
+        {
+          "type": "mistake",
+          "wrong": "A chef is a person which cooks food.",
+          "right": "A chef is a person who cooks food.",
+          "why": "who for people, which for things."
+        },
+        {
+          "type": "mistake",
+          "wrong": "That’s the restaurant where I had dinner there.",
+          "right": "That’s the restaurant where I had dinner.",
+          "why": "Don’t repeat the place (there) after where."
+        },
+        {
+          "type": "mistake",
+          "wrong": "A post office is a place where sells stamps.",
+          "right": "A post office is a place which sells stamps. / A post office is a place where you can buy stamps.",
+          "why": "After where you need a subject + verb."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "3C-sb2a",
+          "origin": "SB",
+          "instruction": "Complete three of the definitions Victoria heard in the show with who, which, or where",
+          "note": "SB 2a; ответы — по скрипту 3.14",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "It describes a place {} there are a lot of people.",
+              "gaps": [
+                [
+                  "where"
+                ]
+              ],
+              "explain": "A place → where.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "It’s an adjective for a person {} doesn’t like studying or working.",
+              "gaps": [
+                [
+                  "who",
+                  "that"
+                ]
+              ],
+              "explain": "A person → who.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "It’s a thing {} you use in an airport to help you with your cases.",
+              "gaps": [
+                [
+                  "which",
+                  "that"
+                ]
+              ],
+              "explain": "A thing → which.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "3C-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the definitions with who, which, or where",
+          "note": "GB 3C a; пример postman — who не перенесён (MODEL)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "An octopus is an animal {} lives in the sea and has eight legs.",
+              "gaps": [
+                [
+                  "which",
+                  "that"
+                ]
+              ],
+              "explain": "An animal → which.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "A lawnmower is a machine {} cuts the grass.",
+              "gaps": [
+                [
+                  "which",
+                  "that"
+                ]
+              ],
+              "explain": "A thing → which.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "A surgeon is a doctor {} does operations.",
+              "gaps": [
+                [
+                  "who",
+                  "that"
+                ]
+              ],
+              "explain": "A person → who.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "A changing room is a room {} people try on clothes.",
+              "gaps": [
+                [
+                  "where"
+                ]
+              ],
+              "explain": "A place + subject (people) → where.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "A porter is the person {} helps you with your luggage.",
+              "gaps": [
+                [
+                  "who",
+                  "that"
+                ]
+              ],
+              "explain": "A person → who.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Garlic is a kind of food {} keeps vampires away.",
+              "gaps": [
+                [
+                  "which",
+                  "that"
+                ]
+              ],
+              "explain": "A thing → which.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "A garage is a place {} mechanics repair cars.",
+              "gaps": [
+                [
+                  "where"
+                ]
+              ],
+              "explain": "A place + subject (mechanics) → where.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3C-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Write sentences with who, which, or where",
+          "note": "GB 3C b; пример She’s the woman who catches the same bus as me не перенесён (MODEL)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "That / the dog / always barks at night",
+              "answers": [
+                "That’s the dog which always barks at night.",
+                "That’s the dog that always barks at night.",
+                "That is the dog which always barks at night.",
+                "That is the dog that always barks at night."
+              ],
+              "explain": "A thing / an animal → which / that.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "That / the shop / I bought my wedding dress",
+              "answers": [
+                "That’s the shop where I bought my wedding dress.",
+                "That is the shop where I bought my wedding dress."
+              ],
+              "explain": "A place + subject (I) → where.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "He / the actor / was in the last James Bond film",
+              "answers": [
+                "He’s the actor who was in the last James Bond film.",
+                "He’s the actor that was in the last James Bond film.",
+                "He is the actor who was in the last James Bond film.",
+                "He is the actor that was in the last James Bond film."
+              ],
+              "explain": "A person → who / that.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "They / the children / live next door to me",
+              "answers": [
+                "They’re the children who live next door to me.",
+                "They’re the children that live next door to me.",
+                "They are the children who live next door to me.",
+                "They are the children that live next door to me."
+              ],
+              "explain": "People → who / that.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "This / the restaurant / they make great pizza",
+              "answers": [
+                "This is the restaurant where they make great pizza.",
+                "This’s the restaurant where they make great pizza."
+              ],
+              "explain": "A place + subject (they) → where.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "That / the switch / controls the air conditioning",
+              "answers": [
+                "That’s the switch which controls the air conditioning.",
+                "That’s the switch that controls the air conditioning.",
+                "That is the switch which controls the air conditioning.",
+                "That is the switch that controls the air conditioning."
+              ],
+              "explain": "A thing → which / that.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "rewrite",
+              "prompt": "He / the teacher / teaches my sister",
+              "answers": [
+                "He’s the teacher who teaches my sister.",
+                "He’s the teacher that teaches my sister.",
+                "He is the teacher who teaches my sister.",
+                "He is the teacher that teaches my sister."
+              ],
+              "explain": "A person → who / that.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "rewrite",
+              "prompt": "That / the room / we have our meetings",
+              "answers": [
+                "That’s the room where we have our meetings.",
+                "That is the room where we have our meetings."
+              ],
+              "explain": "A place + subject (we) → where.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "rewrite",
+              "prompt": "This / the light / is broken",
+              "answers": [
+                "This is the light which is broken.",
+                "This is the light that is broken.",
+                "This is the light which’s broken.",
+                "This is the light that’s broken."
+              ],
+              "explain": "A thing → which / that.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3C-wb1a",
+          "origin": "WB",
+          "instruction": "Match the sentence halves. Write the second half",
+          "note": "WB 1a Match → Blank: вторая половина, принимаем и букву; 1 → f — пример, f убран из списка",
+          "words": [
+            "a which has a good camera.",
+            "b which goes to Trafalgar Square.",
+            "c which has the fresh fish.",
+            "d who remembers my birthday.",
+            "e who painted The Milkmaid.",
+            "g where they have a famous music festival.",
+            "h which is on your bedroom wall."
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I need a phone {}",
+              "gaps": [
+                [
+                  "which has a good camera.",
+                  "which has a good camera",
+                  "a"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "My mum is the only person {}",
+              "gaps": [
+                [
+                  "who remembers my birthday.",
+                  "who remembers my birthday",
+                  "d"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I love the picture {}",
+              "gaps": [
+                [
+                  "which is on your bedroom wall.",
+                  "which is on your bedroom wall",
+                  "h"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "That bus is the one {}",
+              "gaps": [
+                [
+                  "which goes to Trafalgar Square.",
+                  "which goes to Trafalgar Square",
+                  "b"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Glastonbury is the place {}",
+              "gaps": [
+                [
+                  "where they have a famous music festival.",
+                  "where they have a famous music festival",
+                  "g"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Vermeer is the artist {}",
+              "gaps": [
+                [
+                  "who painted The Milkmaid.",
+                  "who painted The Milkmaid",
+                  "e"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "That’s the restaurant {}",
+              "gaps": [
+                [
+                  "which has the fresh fish.",
+                  "which has the fresh fish",
+                  "c"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3C-wb1b",
+          "origin": "WB",
+          "instruction": "Choose the correct word",
+          "note": "WB 1b Circle → Blank с вариантами в hint; 1 who — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "That’s the gallery {} they had the Leonardo da Vinci exhibition.",
+              "gaps": [
+                [
+                  "where"
+                ]
+              ],
+              "hint": "(which / where)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Are your neighbours the people {} won the lottery last year?",
+              "gaps": [
+                [
+                  "that"
+                ]
+              ],
+              "hint": "(which / that)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Do you know a good restaurant {} is open on Sunday night?",
+              "gaps": [
+                [
+                  "that"
+                ]
+              ],
+              "hint": "(that / where)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Is that the bus {} goes to the airport?",
+              "gaps": [
+                [
+                  "which"
+                ]
+              ],
+              "hint": "(which / who)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "What was the name of the shop {} you bought your jacket?",
+              "gaps": [
+                [
+                  "where"
+                ]
+              ],
+              "hint": "(where / which)"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Maria is the woman {} bought my old car.",
+              "gaps": [
+                [
+                  "that"
+                ]
+              ],
+              "hint": "(that / which)"
+            }
+          ]
+        },
+        {
+          "id": "3C-wb1c",
+          "origin": "WB",
+          "instruction": "Complete the sentences with who, which, or where",
+          "note": "WB 1c; 1 where — пример. that тоже принимается там, где возможно (WB 1d)",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The school {} my brother goes to has a great football team.",
+              "gaps": [
+                [
+                  "which",
+                  "that"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Yesterday I met a woman {} knew my grandfather when he was young.",
+              "gaps": [
+                [
+                  "who",
+                  "that"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I’m reading the book {} won the Booker prize this year.",
+              "gaps": [
+                [
+                  "which",
+                  "that"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "My sister went to a party in New York {} there were a lot of famous people.",
+              "gaps": [
+                [
+                  "where"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "There’s a shop in this street {} sells bikes.",
+              "gaps": [
+                [
+                  "which",
+                  "that"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "I want to buy a car {} doesn’t use too much petrol.",
+              "gaps": [
+                [
+                  "which",
+                  "that"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3C-wb1d",
+          "origin": "WB",
+          "instruction": "Could you also use that in these sentences from c?",
+          "note": "WB 1d «In which sentences could you use that?» → Blank Yes / No для каждого предложения 1–7 (ключ: 2, 3, 4, 6, 7)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I like going to restaurants where you can get interesting local food. → {}",
+              "gaps": [
+                [
+                  "No"
+                ]
+              ],
+              "hint": "(Yes / No)",
+              "explain": "Don’t use that instead of where.",
+              "source": "KEY"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The school which my brother goes to has a great football team. → {}",
+              "gaps": [
+                [
+                  "Yes"
+                ]
+              ],
+              "hint": "(Yes / No)",
+              "explain": "which → that.",
+              "source": "KEY"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Yesterday I met a woman who knew my grandfather when he was young. → {}",
+              "gaps": [
+                [
+                  "Yes"
+                ]
+              ],
+              "hint": "(Yes / No)",
+              "explain": "who → that.",
+              "source": "KEY"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I’m reading the book which won the Booker prize this year. → {}",
+              "gaps": [
+                [
+                  "Yes"
+                ]
+              ],
+              "hint": "(Yes / No)",
+              "explain": "which → that.",
+              "source": "KEY"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "My sister went to a party in New York where there were a lot of famous people. → {}",
+              "gaps": [
+                [
+                  "No"
+                ]
+              ],
+              "hint": "(Yes / No)",
+              "explain": "Don’t use that instead of where.",
+              "source": "KEY"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "There’s a shop in this street which sells bikes. → {}",
+              "gaps": [
+                [
+                  "Yes"
+                ]
+              ],
+              "hint": "(Yes / No)",
+              "explain": "which → that.",
+              "source": "KEY"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "I want to buy a car which doesn’t use too much petrol. → {}",
+              "gaps": [
+                [
+                  "Yes"
+                ]
+              ],
+              "hint": "(Yes / No)",
+              "explain": "which → that.",
+              "source": "KEY"
+            }
+          ]
+        },
+        {
+          "id": "3C-wb1e",
+          "origin": "WB",
+          "instruction": "Complete the sentences about you",
+          "note": "WB 1e «Students’ own answers» → Write",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Complete the sentences about you.",
+              "questions": [
+                {
+                  "text": "I like going on holiday to places that…",
+                  "hint": "(…have beautiful beaches)"
+                },
+                {
+                  "text": "I don’t like watching films which…",
+                  "hint": "(…are very violent)"
+                },
+                {
+                  "text": "I’d like to live in a house / flat which…",
+                  "hint": "(…has a big garden)"
+                },
+                {
+                  "text": "In general, my friends are people who…",
+                  "hint": "(…like sport and music)"
+                }
+              ],
+              "criteria": [
+                "four complete sentences",
+                "the verb after who / which / that agrees with the noun (places that have, a house which has)",
+                "true information about you"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3C-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete with who, which, or where.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "A baker is a person {} makes bread.",
+              "gaps": [
+                [
+                  "who",
+                  "that"
+                ]
+              ],
+              "explain": "A person → who (or that).",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "A fridge is something {} keeps food cold.",
+              "gaps": [
+                [
+                  "which",
+                  "that"
+                ]
+              ],
+              "explain": "A thing → which (or that).",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "A gym is a place {} you can do exercise.",
+              "gaps": [
+                [
+                  "where"
+                ]
+              ],
+              "explain": "A place + subject (you) → where.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "That’s the hotel {} we stayed last summer.",
+              "gaps": [
+                [
+                  "where"
+                ]
+              ],
+              "explain": "A place + subject (we) → where.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Is this the train {} goes to Oxford?",
+              "gaps": [
+                [
+                  "which",
+                  "that"
+                ]
+              ],
+              "explain": "A thing → which.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "She’s the girl {} sits next to me in class.",
+              "gaps": [
+                [
+                  "who",
+                  "that"
+                ]
+              ],
+              "explain": "A person → who.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "A museum is a building {} has old and interesting things.",
+              "gaps": [
+                [
+                  "which",
+                  "that"
+                ]
+              ],
+              "explain": "No subject after the gap, the building has → which.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I don’t like people {} talk on their phones in the cinema.",
+              "gaps": [
+                [
+                  "who",
+                  "that"
+                ]
+              ],
+              "explain": "People → who.",
+              "source": "MODEL"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "This is the park {} I learned to ride a bike.",
+              "gaps": [
+                [
+                  "where"
+                ]
+              ],
+              "explain": "A place + subject (I) → where.",
+              "source": "MODEL"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "Where’s the key {} opens this door?",
+              "gaps": [
+                [
+                  "which",
+                  "that"
+                ]
+              ],
+              "explain": "A thing → which.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3C-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Join the sentences with who, which, or where.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "That’s the man. He works in the bank.",
+              "answers": [
+                "That’s the man who works in the bank.",
+                "That’s the man that works in the bank.",
+                "That is the man who works in the bank.",
+                "That is the man that works in the bank."
+              ],
+              "explain": "He → who.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "This is the café. We met there.",
+              "answers": [
+                "This is the café where we met.",
+                "This is the cafe where we met."
+              ],
+              "explain": "there → where; don’t repeat there.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "I lost the watch. It was a present from my dad.",
+              "answers": [
+                "I lost the watch which was a present from my dad.",
+                "I lost the watch that was a present from my dad."
+              ],
+              "explain": "It → which.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "She’s the doctor. She helped my mother.",
+              "answers": [
+                "She’s the doctor who helped my mother.",
+                "She’s the doctor that helped my mother.",
+                "She is the doctor who helped my mother.",
+                "She is the doctor that helped my mother."
+              ],
+              "explain": "She → who.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "That’s the town. I was born there.",
+              "answers": [
+                "That’s the town where I was born.",
+                "That is the town where I was born."
+              ],
+              "explain": "there → where.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "Do you know the film? It won the Oscar.",
+              "answers": [
+                "Do you know the film which won the Oscar?",
+                "Do you know the film that won the Oscar?"
+              ],
+              "explain": "It → which.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3C-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "A pilot is a person which flies planes.",
+              "answers": [
+                "A pilot is a person who flies planes.",
+                "A pilot is a person that flies planes."
+              ],
+              "explain": "A person → who, not which.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "That’s the shop where I bought my shoes there.",
+              "answers": [
+                "That’s the shop where I bought my shoes.",
+                "That is the shop where I bought my shoes."
+              ],
+              "explain": "Don’t repeat there after where.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "A library is a place where has a lot of books.",
+              "answers": [
+                "A library is a place which has a lot of books.",
+                "A library is a place that has a lot of books.",
+                "A library is a place where you can find a lot of books."
+              ],
+              "explain": "No subject after the pronoun → which / that.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "I have a friend who he lives in Paris.",
+              "answers": [
+                "I have a friend who lives in Paris.",
+                "I have a friend that lives in Paris."
+              ],
+              "explain": "who replaces he: don’t use both.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3C-practical",
+      "kind": "PRACTICAL_ENGLISH",
+      "title": "Episode 2 · Restaurant problems",
+      "note": "SB Practical English Episode 2 (p.28–29, PDF 29–30); в книге — после 3C. Скриптов PE в SB нет — ответы по самим роликам (расшифровка).",
+      "reference": [
+        {
+          "type": "note",
+          "title": "At the restaurant",
+          "text": "Are you ready to order? – Yes, please. Can I get you something to start with? – No, thank you. I’d like the tuna with a green salad. I’ll have the steak, please. How would you like your steak? Rare, medium, or well done? Still or sparkling? I’m sorry, but I asked for a green salad, not fries. I’m really sorry. I’ll take it back to the kitchen."
+        },
+        {
+          "type": "note",
+          "title": "British and American English",
+          "text": "check = American English, bill = British English. fries (AmE) = chips (BrE)."
+        },
+        {
+          "type": "table",
+          "title": "Social English",
+          "headers": [
+            "Phrase",
+            "Use"
+          ],
+          "rows": [
+            [
+              "So, tell me,…",
+              "to start a conversation or a new topic"
+            ],
+            [
+              "Well, to start with,…",
+              "to give the first point"
+            ],
+            [
+              "Do you have any suggestions?",
+              "to ask for ideas"
+            ],
+            [
+              "That would be great.",
+              "to accept an offer"
+            ],
+            [
+              "Could we have the check (bill), please?",
+              "to ask for the bill"
+            ],
+            [
+              "Excuse me, I think there’s a mistake.",
+              "to complain politely"
+            ],
+            [
+              "OK, time to go.",
+              "to say it’s time to leave"
+            ]
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "3C-pe1a",
+          "origin": "SB",
+          "video": "ep2_new_york_office",
+          "instruction": "Jenny shows Rob the New York office. Watch and correct the false sentences. If a sentence is true, leave it as it is",
+          "note": "SB PE2 1a (3.20) «mark T or F» → Rewrite: неверное исправить, верное переписать как есть; фото SB p.28 не переносим",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "The New York office is smaller than the London office.",
+              "answers": [
+                "The New York office is bigger than the London office.",
+                "The New York office is much bigger than the London office.",
+                "The New York office is larger than the London office.",
+                "The London office is smaller than the New York office."
+              ],
+              "explain": "False: ‘It’s brilliant and much bigger than our place in London.’",
+              "clip": [
+                18.08,
+                23.28
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "Barbara is the editor of the magazine.",
+              "answers": [
+                "Barbara is the editor of the magazine.",
+                "Barbara’s the editor of the magazine."
+              ],
+              "explain": "True: ‘Rob, this is Barbara, the editor of the magazine.’",
+              "clip": [
+                25.32,
+                29.04
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Rob has never been to New York before.",
+              "answers": [
+                "Rob has been to New York before.",
+                "Rob has been to New York before, when he was 18.",
+                "Rob has been to New York once before.",
+                "Rob came to New York when he was 18.",
+                "Rob went to New York when he was 18."
+              ],
+              "explain": "False: ‘I came here when I was 18, but only for a few days.’",
+              "clip": [
+                31.8,
+                38.12
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "Barbara is going to have lunch with Rob and Jenny.",
+              "answers": [
+                "Barbara isn’t going to have lunch with Rob and Jenny.",
+                "Barbara is not going to have lunch with Rob and Jenny.",
+                "Barbara can’t have lunch with Rob and Jenny because she has a meeting.",
+                "Barbara has a meeting, so she isn’t going to have lunch with Rob and Jenny."
+              ],
+              "explain": "False: ‘I’d love to, but unfortunately I have a meeting at one.’",
+              "clip": [
+                40.96,
+                50.88
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "Holly is going to work with Rob.",
+              "answers": [
+                "Holly is going to work with Rob.",
+                "Holly’s going to work with Rob."
+              ],
+              "explain": "True: ‘I’m going to be Rob’s photographer.’",
+              "clip": [
+                59.37,
+                71.65
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "Holly wants to go to the restaurant because she’s hungry.",
+              "answers": [
+                "Holly wants to go to the restaurant because she wants to talk to Rob.",
+                "Holly wants to go to the restaurant to talk to Rob.",
+                "Holly isn’t hungry. She had a sandwich earlier.",
+                "Holly isn’t hungry because she had a sandwich earlier.",
+                "Holly doesn’t want to go to the restaurant because she’s hungry."
+              ],
+              "explain": "False: ‘I had a sandwich earlier, so I don’t need to eat, but Rob and I can talk.’",
+              "clip": [
+                75.81,
+                87.13
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3C-pe2",
+          "origin": "SB",
+          "video": "ep2_vocab_quiz",
+          "instruction": "Restaurant vocabulary. Complete the quiz. Then watch and check",
+          "note": "SB PE2 2a–b (3.21): картинки-викторина → Blank по определениям (MODEL, слова — из ролика)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "The list of food and drinks in a restaurant is the {}.",
+              "gaps": [
+                [
+                  "menu"
+                ]
+              ],
+              "clip": [
+                10.8,
+                12.6
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The parts of a meal are called {}: starter, main course and dessert.",
+              "gaps": [
+                [
+                  "courses"
+                ]
+              ],
+              "clip": [
+                11.5,
+                14.5
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "The person who brings you your food is a {} (a man) or a {} (a woman).",
+              "gaps": [
+                [
+                  "waiter"
+                ],
+                [
+                  "waitress"
+                ]
+              ],
+              "clip": [
+                16.4,
+                23.9
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "The piece of paper that tells you how much to pay is the {} (British English) or the check (American English).",
+              "gaps": [
+                [
+                  "bill"
+                ]
+              ],
+              "clip": [
+                27.1,
+                29.0
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "The extra money you give the waiter for good service is the {}.",
+              "gaps": [
+                [
+                  "tip"
+                ]
+              ],
+              "clip": [
+                32.8,
+                34.6
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "When you arrive: A table {} four, please.",
+              "gaps": [
+                [
+                  "for"
+                ]
+              ],
+              "clip": [
+                38.2,
+                41.0
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "When you order: I’d {} the pasta. / I’ll {} the pasta.",
+              "gaps": [
+                [
+                  "like"
+                ],
+                [
+                  "have"
+                ]
+              ],
+              "clip": [
+                50.4,
+                55.0
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "At the end of the meal: {} we have the bill, please?",
+              "gaps": [
+                [
+                  "Could",
+                  "Can",
+                  "could",
+                  "can"
+                ]
+              ],
+              "clip": [
+                59.5,
+                63.9
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3C-pe3a",
+          "origin": "SB",
+          "video": "ep2_at_the_restaurant",
+          "instruction": "Watch Rob, Jenny, and Holly have lunch. What do they order? What problems are there?",
+          "note": "SB PE2 3a (3.22); ответы — по ролику (MODEL)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Jenny orders the {} with a green salad.",
+              "gaps": [
+                [
+                  "tuna"
+                ]
+              ],
+              "clip": [
+                23.03,
+                27.79
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Rob orders the {} with fries. He wants it well done.",
+              "gaps": [
+                [
+                  "steak"
+                ]
+              ],
+              "clip": [
+                29.67,
+                42.19
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Holly orders {}.",
+              "gaps": [
+                [
+                  "nothing",
+                  "nothing at all"
+                ]
+              ],
+              "clip": [
+                43.67,
+                45.15
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Jenny’s problem: she asked for a green salad, but she got {}.",
+              "gaps": [
+                [
+                  "fries",
+                  "chips"
+                ]
+              ],
+              "clip": [
+                62.96,
+                67.08
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Rob’s problem: he asked for his steak well done, but it’s {}.",
+              "gaps": [
+                [
+                  "rare"
+                ]
+              ],
+              "clip": [
+                72.66,
+                77.58
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3C-pe3b",
+          "origin": "SB",
+          "video": "ep2_at_the_restaurant",
+          "instruction": "Watch again. Complete the You hear phrases",
+          "note": "SB PE2 3b; ответы — дословно из ролика",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Waiter: Are you ready to {}?",
+              "gaps": [
+                [
+                  "order"
+                ]
+              ],
+              "clip": [
+                17.35,
+                19.23
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Waiter: Can I get you something to {} with?",
+              "gaps": [
+                [
+                  "start"
+                ]
+              ],
+              "clip": [
+                19.75,
+                22.03
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Waiter: Would you like that with fries or a baked {}?",
+              "gaps": [
+                [
+                  "potato"
+                ]
+              ],
+              "clip": [
+                32.47,
+                36.11
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Waiter: How would you like your steak? Rare, {}, or well done?",
+              "gaps": [
+                [
+                  "medium"
+                ]
+              ],
+              "clip": [
+                36.87,
+                40.67
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Waiter: And to {}?",
+              "gaps": [
+                [
+                  "drink"
+                ]
+              ],
+              "clip": [
+                45.27,
+                47.07
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Waiter: {} or sparkling?",
+              "gaps": [
+                [
+                  "Still",
+                  "still"
+                ]
+              ],
+              "clip": [
+                47.43,
+                49.23
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Waiter: And the steak for you, {}.",
+              "gaps": [
+                [
+                  "sir"
+                ]
+              ],
+              "clip": [
+                61.04,
+                63.56
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Waiter: No problem. I’ll {} it.",
+              "gaps": [
+                [
+                  "change"
+                ]
+              ],
+              "clip": [
+                67.12,
+                71.58
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Waiter: I’m really sorry. I’ll {} it back to the kitchen.",
+              "gaps": [
+                [
+                  "take"
+                ]
+              ],
+              "clip": [
+                76.98,
+                80.54
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "3C-pe3c",
+          "origin": "SB",
+          "video": "ep2_you_say",
+          "instruction": "Watch and repeat the You say phrases. Copy the rhythm",
+          "note": "SB PE2 3c (3.23)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "Yes, please.",
+              "source": "CONFIRMED",
+              "clip": [
+                18.63,
+                20.43
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "No, thank you.",
+              "source": "CONFIRMED",
+              "clip": [
+                27.44,
+                28.84
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "I’d like the tuna with a green salad.",
+              "source": "CONFIRMED",
+              "clip": [
+                35.06,
+                39.9
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "I’ll have the steak, please.",
+              "source": "CONFIRMED",
+              "clip": [
+                47.41,
+                50.09
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "Fries, please.",
+              "source": "CONFIRMED",
+              "clip": [
+                58.82,
+                60.14
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "Well done.",
+              "source": "CONFIRMED",
+              "clip": [
+                70.05,
+                71.13
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "Nothing for me.",
+              "source": "CONFIRMED",
+              "clip": [
+                78.44,
+                79.84
+              ]
+            },
+            {
+              "n": 8,
+              "type": "speak",
+              "text": "Water, please.",
+              "source": "CONFIRMED",
+              "clip": [
+                87.2,
+                88.52
+              ]
+            },
+            {
+              "n": 9,
+              "type": "speak",
+              "text": "Sparkling.",
+              "source": "CONFIRMED",
+              "clip": [
+                95.44,
+                96.52
+              ]
+            },
+            {
+              "n": 10,
+              "type": "speak",
+              "text": "I’m sorry, but I asked for a green salad, not fries.",
+              "source": "CONFIRMED",
+              "clip": [
+                115.83,
+                119.95
+              ]
+            },
+            {
+              "n": 11,
+              "type": "speak",
+              "text": "Excuse me.",
+              "source": "CONFIRMED",
+              "clip": [
+                129.83,
+                131.07
+              ]
+            },
+            {
+              "n": 12,
+              "type": "speak",
+              "text": "Sorry, I asked for my steak well done, and this is rare.",
+              "source": "CONFIRMED",
+              "clip": [
+                137.62,
+                142.06
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3C-pe3e",
+          "origin": "SB",
+          "instruction": "Role-play: you are a customer in a restaurant. Order a meal and complain about a problem",
+          "note": "SB PE2 3d–e (A — customer)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a waiter in a restaurant in New York. The student is a customer (level: pre-intermediate). Use the phrases from the episode: Are you ready to order? Can I get you something to start with? How would you like your steak? Would you like that with fries or a baked potato? And to drink? Still or sparkling? Menu: starters — tomato soup, garlic mushrooms; main courses — steak, grilled tuna, chicken with rice, vegetable pasta; desserts — chocolate cake, ice cream. Take the order one question at a time. Then bring the food, but make one mistake (bring the wrong side dish, or cook the steak wrong). Wait for the student to complain politely and offer to do something with I’ll… (I’ll change it. / I’ll take it back to the kitchen.). Call the student sir or madam.",
+              "goal": "Order a meal in a restaurant and complain politely about a problem.",
+              "opener": "Good evening. Here’s the menu. Are you ready to order?",
+              "criteria": [
+                "orders a main course and a drink, and answers about the starter",
+                "uses I’d like… / I’ll have…",
+                "answers the waiter’s questions (how the steak is cooked, still or sparkling)",
+                "complains politely: I’m sorry, but I asked for…"
+              ],
+              "steps": [
+                {
+                  "text": "Order your food",
+                  "example": "I’d like the chicken with rice, please."
+                },
+                {
+                  "text": "Answer the waiter’s questions",
+                  "example": "Medium, please. And sparkling water."
+                },
+                {
+                  "text": "Complain about the problem",
+                  "example": "I’m sorry, but I asked for a baked potato, not fries."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3C-pe3f",
+          "origin": "SB",
+          "instruction": "Swap roles: you are the waiter. Take the customer’s order and deal with the problem",
+          "note": "SB PE2 3e (B — waiter)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "You are a customer in a restaurant in New York; the student is the waiter (level: pre-intermediate). Menu: starters — tomato soup, garlic mushrooms; main courses — steak, grilled tuna, chicken with rice, vegetable pasta; desserts — chocolate cake, ice cream. Answer the waiter’s questions one at a time: no starter, the steak medium with a baked potato, still water. When the waiter says the food is here, complain: I’m sorry, but I asked for my steak medium, and this is well done. Wait for the waiter to apologize and offer to do something. At the end ask for the bill. If the student forgets a question (how you want your steak, what to drink), prompt them naturally.",
+              "goal": "You are the waiter: take the order, bring the food and deal with the complaint.",
+              "opener": "Excuse me! I’d like to order, please.",
+              "criteria": [
+                "asks Are you ready to order? and the follow-up questions",
+                "asks how the customer would like the steak and what to drink",
+                "apologizes and offers to do something with I’ll…",
+                "uses sir or madam"
+              ],
+              "steps": [
+                {
+                  "text": "Take the order",
+                  "example": "Are you ready to order?"
+                },
+                {
+                  "text": "Ask follow-up questions",
+                  "example": "How would you like your steak? Rare, medium, or well done?"
+                },
+                {
+                  "text": "Deal with the problem",
+                  "example": "I’m really sorry, madam. I’ll take it back to the kitchen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3C-pe4a",
+          "origin": "SB",
+          "video": "ep2_make_friends",
+          "instruction": "Watch Rob, Jenny, and Holly after lunch. Answer the questions",
+          "note": "SB PE2 4a–b (3.24); свободные ответы → пропуски по тексту ролика (MODEL)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "What’s Rob going to write about? His first {} of New York: the nightlife, music, things like that.",
+              "gaps": [
+                [
+                  "impressions"
+                ]
+              ],
+              "clip": [
+                11.97,
+                25.13
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "How does Holly offer to help him with interviews? She knows some great {} and has contacts in the theater and dance.",
+              "gaps": [
+                [
+                  "musicians"
+                ]
+              ],
+              "clip": [
+                24.97,
+                43.71
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "What could they do one evening? They could go to a {} and after that Rob could talk to the actors.",
+              "gaps": [
+                [
+                  "show"
+                ]
+              ],
+              "clip": [
+                43.33,
+                53.45
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "What’s the problem with the check? They had two bottles of {}, not three.",
+              "gaps": [
+                [
+                  "water"
+                ]
+              ],
+              "clip": [
+                75.49,
+                81.59
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Why does Jenny say it’s time to go? Rob has a meeting with {} at three.",
+              "gaps": [
+                [
+                  "Barbara"
+                ]
+              ],
+              "clip": [
+                95.51,
+                102.75
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Do you think Jenny is happy that Holly came to lunch? {}",
+              "gaps": [
+                [
+                  "No",
+                  "no",
+                  "No, she isn’t.",
+                  "No, she isn’t",
+                  "Not really"
+                ]
+              ],
+              "hint": "(Yes / No)",
+              "explain": "Jenny doesn’t say much to Holly and ends the lunch quickly: ‘OK, time to go.’",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3C-pe4c",
+          "origin": "SB",
+          "video": "ep2_social_english",
+          "instruction": "Complete the Social English phrases. Then watch and check",
+          "note": "SB PE2 4c (3.25); ответы — дословно из ролика",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Jenny: {}, tell me, Rob, what are you going to write about?",
+              "gaps": [
+                [
+                  "So",
+                  "so"
+                ]
+              ],
+              "clip": [
+                6.0,
+                9.0
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Rob: Well, to {} with, my first impressions of New York.",
+              "gaps": [
+                [
+                  "start"
+                ]
+              ],
+              "clip": [
+                13.4,
+                16.2
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Rob: Do you have any {}?",
+              "gaps": [
+                [
+                  "suggestions"
+                ]
+              ],
+              "clip": [
+                19.3,
+                22.6
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Rob: That would {} great.",
+              "gaps": [
+                [
+                  "be"
+                ]
+              ],
+              "clip": [
+                28.3,
+                30.5
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Jenny: {} we have the check, please?",
+              "gaps": [
+                [
+                  "Could",
+                  "could"
+                ]
+              ],
+              "clip": [
+                35.2,
+                37.4
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Jenny: Excuse me, I think there’s a {}.",
+              "gaps": [
+                [
+                  "mistake"
+                ]
+              ],
+              "clip": [
+                43.0,
+                45.5
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Jenny: OK, {} to go.",
+              "gaps": [
+                [
+                  "time"
+                ]
+              ],
+              "clip": [
+                50.7,
+                53.0
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "3C-pe4d",
+          "origin": "SB",
+          "video": "ep2_social_english",
+          "instruction": "Watch and repeat the Social English phrases",
+          "note": "SB PE2 4d (3.25)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "So, tell me…",
+              "source": "CONFIRMED",
+              "clip": [
+                6.0,
+                9.0
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "Well, to start with…",
+              "source": "CONFIRMED",
+              "clip": [
+                13.4,
+                16.2
+              ]
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "Do you have any suggestions?",
+              "source": "CONFIRMED",
+              "clip": [
+                19.3,
+                22.6
+              ]
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "That would be great.",
+              "source": "CONFIRMED",
+              "clip": [
+                28.3,
+                30.5
+              ]
+            },
+            {
+              "n": 5,
+              "type": "speak",
+              "text": "Could we have the check, please?",
+              "source": "CONFIRMED",
+              "clip": [
+                35.2,
+                37.4
+              ]
+            },
+            {
+              "n": 6,
+              "type": "speak",
+              "text": "Excuse me, I think there’s a mistake.",
+              "source": "CONFIRMED",
+              "clip": [
+                43.0,
+                45.5
+              ]
+            },
+            {
+              "n": 7,
+              "type": "speak",
+              "text": "OK, time to go.",
+              "source": "CONFIRMED",
+              "clip": [
+                50.7,
+                53.0
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3C-pe4e",
+          "origin": "SB",
+          "instruction": "Complete conversations A–G with the Social English phrases",
+          "note": "SB PE2 4e; какая фраза в какой разговор — наше решение (MODEL)",
+          "dialogue": true,
+          "words": [
+            "So, tell me",
+            "to start with",
+            "Do you have any suggestions?",
+            "That would be great",
+            "Could we have the check, please?",
+            "I think there’s a mistake",
+            "time to go"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "OK, {}.\nYes, it’s getting late.",
+              "gaps": [
+                [
+                  "time to go"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Excuse me, {}. We had two glasses of wine, not three.\nOh, I’m very sorry. I’ll get you a new check.",
+              "gaps": [
+                [
+                  "I think there’s a mistake",
+                  "I think there is a mistake"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I want to go to a good Italian restaurant. {}\nYes. Try Mimmo’s. It’s near the park.",
+              "gaps": [
+                [
+                  "Do you have any suggestions?",
+                  "Do you have any suggestions"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I can take you to the airport tomorrow.\nYes. {}. Thank you.",
+              "gaps": [
+                [
+                  "That would be great",
+                  "That’d be great"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "How was your hotel?\nWell, {}, my room was tiny.",
+              "gaps": [
+                [
+                  "to start with"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Would you like anything else?\nNo, thanks. {}",
+              "gaps": [
+                [
+                  "Could we have the check, please?",
+                  "Could we have the check please?",
+                  "Could we have the bill, please?"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "{}, how long are you staying here?\nFor about a month.",
+              "gaps": [
+                [
+                  "So, tell me",
+                  "So tell me"
+                ]
+              ],
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "3C-wbpe1",
+          "origin": "WB",
+          "instruction": "Complete the restaurant words",
+          "note": "WB Practical English Episode 2 (WB p.24) 1; в книге даны первые буквы — у нас без них; 1 — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "You look at the {} to choose your food.",
+              "gaps": [
+                [
+                  "menu"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "A starter, a main {} and a dessert.",
+              "gaps": [
+                [
+                  "course"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "The person who serves your food is the {}.",
+              "gaps": [
+                [
+                  "waiter",
+                  "waitress"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "At the end of the meal you ask for the {}.",
+              "gaps": [
+                [
+                  "bill",
+                  "check"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "If the service is good, you leave a {}.",
+              "gaps": [
+                [
+                  "tip"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3C-wbpe2",
+          "origin": "WB",
+          "instruction": "Put the conversation in the right order",
+          "note": "WB PE2 2: нумерация 1–15 → Order (текстовые карточки)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "order",
+              "pictures": [
+                {
+                  "label": "A",
+                  "text": "Here’s your steak, madam."
+                },
+                {
+                  "label": "B",
+                  "text": "Still or sparkling?"
+                },
+                {
+                  "label": "C",
+                  "text": "Would you like that with fries or with a baked potato?"
+                },
+                {
+                  "label": "D",
+                  "text": "Still."
+                },
+                {
+                  "label": "E",
+                  "text": "I’m very sorry, madam. I’ll take it back to the kitchen."
+                },
+                {
+                  "label": "F",
+                  "text": "Are you ready to order?"
+                },
+                {
+                  "label": "G",
+                  "text": "And how would you like your steak? Rare, medium, or well done?"
+                },
+                {
+                  "label": "H",
+                  "text": "Yes, please."
+                },
+                {
+                  "label": "I",
+                  "text": "A baked potato, please."
+                },
+                {
+                  "label": "J",
+                  "text": "I’m sorry, but I asked for my steak rare, and this is well done."
+                },
+                {
+                  "label": "K",
+                  "text": "Rare, please."
+                },
+                {
+                  "label": "L",
+                  "text": "Can I get you something to start with?"
+                },
+                {
+                  "label": "M",
+                  "text": "OK. And to drink?"
+                },
+                {
+                  "label": "N",
+                  "text": "Water, please."
+                },
+                {
+                  "label": "O",
+                  "text": "No, thank you. Just a main course. I’d like the steak, please."
+                }
+              ],
+              "answer": [
+                "F",
+                "H",
+                "L",
+                "O",
+                "G",
+                "K",
+                "C",
+                "I",
+                "M",
+                "N",
+                "B",
+                "D",
+                "A",
+                "J",
+                "E"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3C-wbpe3a",
+          "origin": "WB",
+          "instruction": "Complete the Social English phrases",
+          "note": "WB PE2 3a; в книге даны первые буквы — у нас без них; 1 tell me — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Well, to {} {}, …",
+              "gaps": [
+                [
+                  "start"
+                ],
+                [
+                  "with"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Do you have any {}? / That would {} great.",
+              "gaps": [
+                [
+                  "suggestions"
+                ],
+                [
+                  "be"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{} we have the bill, please?",
+              "gaps": [
+                [
+                  "Could",
+                  "Can"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Excuse me, I think there’s a {}.",
+              "gaps": [
+                [
+                  "mistake"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "OK, time {} {}.",
+              "gaps": [
+                [
+                  "to"
+                ],
+                [
+                  "go"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3C-wbpe3b",
+          "origin": "WB",
+          "instruction": "Complete the conversations with the phrases from a",
+          "note": "WB PE2 3b; 1 time to go — пример",
+          "dialogue": true,
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I can show you round the city if you like.\nYes, {}. Thanks.",
+              "gaps": [
+                [
+                  "that would be great",
+                  "that’d be great"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I want to buy a present for my sister. {}\nWhat about some perfume?",
+              "gaps": [
+                [
+                  "Do you have any suggestions?",
+                  "Do you have any suggestions"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Would you like anything else?\nNo, thank you. {}",
+              "gaps": [
+                [
+                  "Could we have the bill, please?",
+                  "Could we have the bill please?",
+                  "Could we have the check, please?",
+                  "Can we have the bill, please?"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Excuse me, {}. We didn’t have any desserts.\nOh, I’m sorry. I’ll change it.",
+              "gaps": [
+                [
+                  "I think there’s a mistake",
+                  "I think there is a mistake",
+                  "there’s a mistake"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "So, {}, what was wrong with the hotel?\nWell, {}, the room was very small.",
+              "gaps": [
+                [
+                  "tell me"
+                ],
+                [
+                  "to start with"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3C-review",
+      "kind": "REVIEW",
+      "title": "Can you remember…? 1–3",
+      "reference": [
+        {
+          "type": "note",
+          "title": null,
+          "text": "Revision of Files 1–3: questions, present simple and continuous, past simple and continuous, be going to, present continuous for the future, defining relative clauses; airports, weather, clothes, holidays, personality; sounds and the ending -ed."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "3C-rv1",
+          "origin": "WB",
+          "instruction": "Grammar. Complete with the correct form",
+          "note": "WB «Can you remember…? 1–3» (WB p.25) 1 «Circle a, b, or c» → Blank с вариантами в hint",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "I met a woman {} went to school with you.",
+              "gaps": [
+                [
+                  "who"
+                ]
+              ],
+              "hint": "(who / which / where)"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "How often {} it snow here in the winter?",
+              "gaps": [
+                [
+                  "does"
+                ]
+              ],
+              "hint": "(is / do / does)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "We aren’t going on holiday this year {} it’s too expensive.",
+              "gaps": [
+                [
+                  "because"
+                ]
+              ],
+              "hint": "(but / because / although)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I didn’t hear the phone because I {} to music.",
+              "gaps": [
+                [
+                  "was listening"
+                ]
+              ],
+              "hint": "(listened / ’m listening / was listening)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "In the painting, the woman {} a long black dress.",
+              "gaps": [
+                [
+                  "is wearing",
+                  "’s wearing"
+                ]
+              ],
+              "hint": "(is wearing / wears / wear)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Look at those black clouds. It {} soon.",
+              "gaps": [
+                [
+                  "’s going to rain",
+                  "is going to rain"
+                ]
+              ],
+              "hint": "(rains / ’s raining / ’s going to rain)"
+            }
+          ]
+        },
+        {
+          "id": "3C-rv2",
+          "origin": "WB",
+          "instruction": "Vocabulary. Which word is different? Write it",
+          "note": "WB «Can you remember…? 1–3» 2 «Circle the word that is different» → Blank",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "check-in, baggage reclaim, sightseeing, passport control → {}",
+              "gaps": [
+                [
+                  "sightseeing"
+                ]
+              ],
+              "explain": "The others are places in an airport."
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "comfortable, cloudy, foggy, sunny → {}",
+              "gaps": [
+                [
+                  "comfortable"
+                ]
+              ],
+              "explain": "The others describe the weather."
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "blouse, shirt, top, leggings → {}",
+              "gaps": [
+                [
+                  "leggings"
+                ]
+              ],
+              "explain": "The others are clothes for the top half of the body."
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "gate, lift, terminal, hire → {}",
+              "gaps": [
+                [
+                  "hire"
+                ]
+              ],
+              "explain": "hire is a verb; the others are nouns (places / things in an airport)."
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "campsite, apartment, station, hotel → {}",
+              "gaps": [
+                [
+                  "station"
+                ]
+              ],
+              "explain": "The others are places to stay on holiday."
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "clever, kind, generous, unfriendly → {}",
+              "gaps": [
+                [
+                  "unfriendly"
+                ]
+              ],
+              "explain": "unfriendly is negative; the others are positive."
+            }
+          ]
+        },
+        {
+          "id": "3C-rv3",
+          "origin": "WB",
+          "instruction": "Pronunciation. Which word or letter has a different sound? Write it",
+          "note": "WB «Can you remember…? 1–3» 3 «Circle the word or letter with a different sound» → Blank; звук — в начале пункта",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "train /eɪ/: A, J, K, R → {}",
+              "gaps": [
+                [
+                  "R"
+                ]
+              ],
+              "explain": "R = /ɑː/."
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "jazz /dʒ/: agent, forget, large, region → {}",
+              "gaps": [
+                [
+                  "forget"
+                ]
+              ],
+              "explain": "The g in forget is /g/."
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "bird /ɜː/: skirt, curly, T-shirt, clever → {}",
+              "gaps": [
+                [
+                  "clever"
+                ]
+              ],
+              "explain": "The er in clever is /ə/."
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "snake /s/: drinks, likes, misses, works → {}",
+              "gaps": [
+                [
+                  "misses"
+                ]
+              ],
+              "explain": "misses ends in /ɪz/."
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "computer /ə/: trousers, trainers, shirt, cardigan → {}",
+              "gaps": [
+                [
+                  "shirt"
+                ]
+              ],
+              "explain": "shirt = /ɜː/."
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "/ɪd/: arrived, invited, needed, wanted → {}",
+              "gaps": [
+                [
+                  "arrived"
+                ]
+              ],
+              "explain": "arrived ends in /d/."
+            }
+          ]
+        },
+        {
+          "id": "3C-rv4",
+          "origin": "WB",
+          "instruction": "Grammar and vocabulary. Read the article ‘A question of love’ and complete it",
+          "note": "WB «Can you remember…? 1–3» 4 «Circle a, b, or c» → Blank с вариантами в hint; фото пары — декоративное, не переносим",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "One day last year, when I {} a coffee with my friend Jack, I told him about an interesting study.",
+              "gaps": [
+                [
+                  "was having"
+                ]
+              ],
+              "hint": "(had / was having / have)"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "A psychologist, Dr Arthur Aron, said that two people could fall in love by asking 36 questions. Dr Aron tested this idea on a number of men and women who {} know each other.",
+              "gaps": [
+                [
+                  "didn’t",
+                  "did not"
+                ]
+              ],
+              "hint": "(don’t / doesn’t / didn’t)"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Jack and I arranged to meet in a pub. I arrived a few minutes late, but Jack was waiting {} me.",
+              "gaps": [
+                [
+                  "for"
+                ]
+              ],
+              "hint": "(to / with / for)"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "We sat at a quiet table {} the garden, and we each got out our piece of paper with the 36 questions.",
+              "gaps": [
+                [
+                  "in"
+                ]
+              ],
+              "hint": "(at / in / on)"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "We started with the easy questions, like ‘When {} you last sing to yourself?’",
+              "gaps": [
+                [
+                  "did"
+                ]
+              ],
+              "hint": "(did / have / was)"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "{} we asked questions which were a bit more interesting.",
+              "gaps": [
+                [
+                  "After that"
+                ]
+              ],
+              "hint": "(Suddenly / After that / When)"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "After that we asked questions {} were a bit more interesting.",
+              "gaps": [
+                [
+                  "which"
+                ]
+              ],
+              "hint": "(who / which / where)"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "‘In what three ways are you {} each other?’",
+              "gaps": [
+                [
+                  "like"
+                ]
+              ],
+              "hint": "(similar / opposite / like)"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Other questions asked what we thought about important things like relationships – for {}: ‘How well do you get on with your mother?’",
+              "gaps": [
+                [
+                  "example"
+                ]
+              ],
+              "hint": "(example / kind / sure)"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "When we finished, we tried the last part of the experiment. We left the pub and {} for a short walk along the river.",
+              "gaps": [
+                [
+                  "went"
+                ]
+              ],
+              "hint": "(go / went / were going)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

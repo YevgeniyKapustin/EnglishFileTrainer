@@ -1,0 +1,298 @@
+{
+  "id": "4B",
+  "title": "In your basket",
+  "bubbles": ["Have you been to Zara recently?", "Yes, I bought this coat there."],
+  "sources": "SB p.32–33 (PDF 33–34), Grammar Bank p.132–133 (PDF 133–134), Vocabulary Bank p.155 (PDF 156); WB p.28–29 (PDF 27–28), key WB p.89 (PDF 89)",
+  "sections": [
+    {
+      "id": "4B-skills",
+      "kind": "SKILLS",
+      "title": "Speaking & Reading",
+      "reference": [
+        {"type": "note", "title": "The story of the ice cream sellers", "text": "Have you ever noticed that you often find the same kinds of shops together in the same street? Economics gives us one explanation. When two ice cream sellers share a beach, the best situation for the customers is when each seller is in the middle of their half. But each seller wants more customers, so they both move to the middle and end up next to each other. So what’s good for businesses isn’t always good for customers."},
+        {"type": "table", "title": "Plurals: f / fe → ves", "headers": ["singular", "plural"], "rows": [["half", "halves"], ["leaf", "leaves"], ["life", "lives"], ["knife", "knives"], ["shelf", "shelves"], ["wife", "wives"]]}
+      ],
+      "tasks": [
+        {"id": "4B-sb1a", "origin": "SB", "instruction": "Look at the photos of some global chain stores. Talk to a partner", "note": "SB 1a (7 вопросов) → разговор с ИИ; фото вывесок SB p.32 в pictures", "exercises": [
+          {"n": 1, "type": "talk", "situation": "You are a classmate in an English class (level: pre-intermediate). You look at photos of eight global chain stores: Zara, Apple, Topshop, The Body Shop, H&M, Nike, IKEA and Uniqlo. Ask the student, one at a time: What do they sell? Do you know which country they started in? (Zara – Spain, Apple and Nike – the USA, Topshop and The Body Shop – the UK, H&M and IKEA – Sweden, Uniqlo – Japan.) Do you have them in your country or city? If not, would you like to have them? Why (not)? Do you ever buy from their websites? What other big chain stores are there in your city? Which chain stores do you go to most often? Do you prefer shopping at chain stores or independent shops? Why? Give short answers about yourself too. If the student makes a mistake with present simple questions or shopping words, repeat the correct form naturally.", "goal": "Talk about global chain stores and where you like shopping.", "opener": "Look at these shops! Do you know what they all sell?", "criteria": ["says what at least three of the stores sell", "says which stores they have in their city and which they go to most often", "says if they buy from the stores’ websites", "says if they prefer chain stores or independent shops and gives a reason"], "steps": [{"text": "Say what some of the stores sell", "example": "Zara sells clothes, Apple sells phones and computers, and IKEA sells furniture."}, {"text": "Say which country one of them started in", "example": "I think IKEA started in Sweden."}, {"text": "Say which stores you have in your city", "example": "We have Zara and H&M, but we don't have Uniqlo. I'd like to have it."}, {"text": "Say if you buy from their websites", "example": "I sometimes buy clothes from the H&M website."}, {"text": "Say what you prefer and why", "example": "I prefer independent shops because the clothes are more original."}], "pictures": [{"label": "A", "image": "4b_sb1a", "caption": "shop signs of eight global chain stores: Zara, Apple, Topshop, The Body Shop, H&M, Nike, IKEA and Uniqlo"}]}
+        ]},
+        {"id": "4B-sb4a", "origin": "SB", "instruction": "Complete the questions with the past participle of the verb", "note": "SB 4a → Blank; ответы MODEL", "exercises": [
+          {"n": 1, "type": "blank", "text": "Have you ever {} or {} anything on eBay or a similar website? What did you buy or sell?", "gaps": [["bought"], ["sold"]], "hint": "(buy), (sell)", "explain": "buy → bought, sell → sold.", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "Have you ever {} something online and had a problem with it? What was it? What did you do?", "gaps": [["bought"]], "hint": "(buy)", "explain": "buy → bought.", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "Have you ever {} to the supermarket checkout and then found you didn’t have enough money? What did you do?", "gaps": [["got", "gotten"]], "hint": "(get)", "explain": "get → got.", "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "Have you ever {} a bank card? Where did you lose it? Did you get it back?", "gaps": [["lost"]], "hint": "(lose)", "explain": "lose → lost.", "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "Have you ever {} to take something back to a shop without the receipt? Did they change it?", "gaps": [["tried"]], "hint": "(try)", "explain": "try → tried (y → ied).", "source": "MODEL"},
+          {"n": 6, "type": "blank", "text": "Have you ever {} an argument with a shop assistant? What was it about?", "gaps": [["had"]], "hint": "(have)", "explain": "have → had.", "source": "MODEL"}
+        ]},
+        {"id": "4B-sb4b", "origin": "SB", "instruction": "Ask and answer the questions in 4a. If the answer is Yes, I have, ask the past simple questions", "note": "SB 4b (опрос класса) → разговор с ИИ", "exercises": [
+          {"n": 1, "type": "talk", "situation": "You are a classmate in an English class (level: pre-intermediate). Ask the student the questions, one at a time: Have you ever bought or sold anything on eBay or a similar website? Have you ever bought something online and had a problem with it? Have you ever got to the supermarket checkout and then found you didn’t have enough money? Have you ever lost a bank card? Have you ever tried to take something back to a shop without the receipt? Have you ever had an argument with a shop assistant? When the student says Yes, I have, ask the past simple follow-up questions (What did you buy? What was the problem? What did you do? Where did you lose it? Did you get it back? Did they change it? What was it about?). Then let the student ask you and answer with a short story (you once lost your bank card in a taxi and got it back the next day). If the student uses the present perfect for details (I have bought it last year), repeat the correct past simple naturally.", "goal": "Ask about shopping experiences with Have you ever…? and get details in the past simple.", "opener": "Have you ever bought or sold anything on eBay or a similar website?", "criteria": ["answers Have you ever…? with Yes, I have / No, I haven’t", "gives details in the past simple (I bought…, I lost…, They changed it)", "asks at least two Have you ever…? questions with the correct past participle", "asks at least one past simple follow-up question (What did you…? When did you…?)"], "steps": [{"text": "Answer the first question", "example": "Yes, I have. I sold my old bike on eBay."}, {"text": "Give details in the past simple", "example": "I sold it last summer. A man from my town bought it."}, {"text": "Ask your partner a Have you ever…? question", "example": "Have you ever lost a bank card?"}, {"text": "Ask a past simple follow-up question", "example": "Where did you lose it? Did you get it back?"}]}
+        ]},
+        {"id": "4B-sb5b", "origin": "SB", "instruction": "Look at the four pictures of ice cream sellers on a beach. Which situation is best for the customers? Read the article and check", "note": "SB 5b+5c → Blank с номером картинки; картинки SB p.33 в images. Ответ по статье (MODEL)", "images": ["4b_sb5_1", "4b_sb5_2", "4b_sb5_3", "4b_sb5_4"], "exercises": [
+          {"n": 1, "type": "blank", "text": "The best situation for the customers is picture {}.", "gaps": [["2", "two"]], "hint": "(1 / 2 / 3 / 4)", "explain": "Each seller is in the middle of their half, so nobody needs to walk more than 250 metres for an ice cream.", "source": "MODEL"}
+        ]},
+        {"id": "4B-sb5d", "origin": "SB", "instruction": "Read the article again. Put the phrases A–D in the order they complete the paragraphs 1–4", "note": "SB 5d «complete the paragraphs with phrases A–D» → Order с текстовыми карточками; статья в context. Порядок MODEL", "context": "The story of the ice cream sellers. Imagine a beach a kilometre long, full of sunbathers. The sun is shining, the sea is warm. An ice cream seller called George arrives. Where does he put his ice cream cart? Obviously, (1) …, where the sunbathers can easily walk to him and buy an ice cream. Later that day, a second ice cream seller, Georgina, arrives. George and Georgina talk for a while and decide that the best solution is this: (2) …, and they each put their ice cream cart in the middle of their half. In zone A of the beach the customers go to George, and in zone B they go to Georgina. This is good for the customers, because nobody needs to walk more than 250 metres for an ice cream. But George isn’t happy – he only has 50% of the customers that he had before. So (3) … . Zone A is now bigger than zone B, and George has more customers and makes more money, but some of his customers need to walk 500 metres to get their ice cream. Of course, Georgina sees what George has done, and now she isn’t happy – she’s going to lose money. So (4) …, and gets 50% of the customers again. The result is this: George and Georgina end up next to each other. They both get 50% of the customers. More customers need to walk further for an ice cream. So what’s good for businesses isn’t always good for customers.", "images": ["4b_sb5_1", "4b_sb5_2", "4b_sb5_3", "4b_sb5_4"], "exercises": [
+          {"n": 1, "type": "order", "pictures": [{"label": "A", "text": "she moves to the middle of the beach, too"}, {"label": "B", "text": "he puts it in the middle of the beach"}, {"label": "C", "text": "they divide the beach into two halves, A and B"}, {"label": "D", "text": "he goes back to the middle of the beach"}], "answer": ["B", "C", "D", "A"], "source": "MODEL"}
+        ]},
+        {"id": "4B-sb5e", "origin": "SB", "instruction": "Write the singular of halves. Then write the plural of the nouns", "note": "SB 5e → Blank; MODEL", "exercises": [
+          {"n": 1, "type": "blank", "text": "They divide the beach into two halves. → one {}", "gaps": [["half"]], "explain": "half → halves: f changes to ves.", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "leaf → {}", "gaps": [["leaves"]], "explain": "f → ves.", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "life → {}", "gaps": [["lives"]], "explain": "fe → ves.", "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "knife → {}", "gaps": [["knives"]], "explain": "fe → ves.", "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "shelf → {}", "gaps": [["shelves"]], "explain": "f → ves.", "source": "MODEL"},
+          {"n": 6, "type": "blank", "text": "wife → {}", "gaps": [["wives"]], "explain": "fe → ves.", "source": "MODEL"}
+        ]},
+        {"id": "4B-sb5f", "origin": "SB", "instruction": "Talk about shops near each other and shopping trips", "note": "SB 5a (районы с одинаковыми магазинами) + 5f обсуждение → разговор с ИИ", "exercises": [
+          {"n": 1, "type": "talk", "situation": "You are a classmate in an English class (level: pre-intermediate). You have just read The story of the ice cream sellers (two sellers on a beach end up next to each other, which is good for business but not for customers). Ask the student, one at a time: Are there any areas with a lot of the same kinds of shops where you live? Do you think it’s a good or bad thing to have similar shops near each other? Why? Have you ever travelled a long way to go to a shop? Why? How far did you travel? Share your own example (there are five phone shops on one street in your town; you once travelled 100 kilometres to go to IKEA). If the student makes a mistake with the present perfect or the past simple, repeat the correct form naturally.", "goal": "Say what you think about similar shops near each other and tell a shopping story.", "opener": "Are there any streets in your town with a lot of the same kind of shop?", "criteria": ["describes an area with similar shops or says there isn’t one", "says if similar shops near each other are good or bad and gives a reason", "answers Have you ever travelled a long way to a shop? and gives details in the past simple"], "steps": [{"text": "Describe an area with similar shops", "example": "In my town there are a lot of shoe shops on the main street."}, {"text": "Say if it's a good or bad thing", "example": "I think it's a good thing because you can compare prices."}, {"text": "Say if you've ever travelled a long way to a shop", "example": "Yes, I have. I went to a big shopping centre in the capital."}, {"text": "Say how far you travelled and why", "example": "I travelled about 200 kilometres because I wanted to buy a special guitar."}]}
+        ]}
+      ]
+    },
+    {
+      "id": "4B-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "shopping",
+      "reference": [
+        {"type": "table", "title": "In a shop or store", "headers": ["Word", "Note"], "rows": [["basket", ""], ["changing room", "where you try on clothes"], ["(self-service) checkout", "where you pay"], ["customer", "a person who buys"], ["receipt", "the paper that shows what you paid; the p is silent"], ["shelves", "singular shelf"], ["shop assistant", "a person who works in a shop"], ["shopping bag", ""], ["the sales", "when things are cheaper"], ["till", "where the money is"], ["trolley", ""]], "audio": "4.12"},
+        {"type": "table", "title": "In a shop: useful phrases", "headers": ["", ""], "rows": [["Can I help you?", "I’m just looking, thank you."], ["What size are you?", "I’m a medium."], ["Can I try on this shirt?", "Yes, the changing rooms are over there."], ["This shirt doesn’t fit me.", "It’s too big for me."], ["That jacket really suits you!", "You always look good in red."], ["I’m going to take these trousers back.", "They’re too short."]], "audio": "4.13"},
+        {"type": "table", "title": "Online", "headers": ["Phrase", ""], "rows": [["go to a website", ""], ["create an account", "give your personal details"], ["click on each item", ""], ["in your basket", ""], ["proceed to checkout", ""], ["delivery address", ""], ["next-day delivery", ""], ["with a credit or debit card", ""], ["give your payment details", ""], ["auction sites", "like eBay"]], "audio": "4.14"},
+        {"type": "mistake", "wrong": "This shirt doesn’t suit me – it’s too big.", "right": "This shirt doesn’t fit me – it’s too big.", "why": "fit = the right size; suit = looks good on you."}
+      ],
+      "tasks": [
+        {"id": "4B-vb1a", "origin": "SB", "instruction": "Match the words and photos. Then listen and check", "note": "VB In a shop or store 1a+1b; фото VB p.155 у пункта в image, слова — в words. 1 changing room — пример. Ответы по аудио 4.12", "audio": "4.12", "words": ["basket", "(self-service) checkout", "customer", "receipt", "shelves", "shop assistant", "shopping bag", "the sales", "till", "trolley"], "exercises": [
+          {"n": 2, "type": "blank", "text": "{}", "image": "4b_vb1a_2", "gaps": [["the sales", "sales"]], "source": "CONFIRMED"},
+          {"n": 3, "type": "blank", "text": "{}", "image": "4b_vb1a_3", "gaps": [["basket", "a basket"]], "source": "CONFIRMED"},
+          {"n": 4, "type": "blank", "text": "{}", "image": "4b_vb1a_4", "gaps": [["shopping bag", "a shopping bag"]], "source": "CONFIRMED"},
+          {"n": 5, "type": "blank", "text": "{}", "image": "4b_vb1a_5", "gaps": [["customer", "a customer"]], "source": "CONFIRMED"},
+          {"n": 6, "type": "blank", "text": "{}", "image": "4b_vb1a_6", "gaps": [["till", "a till"]], "source": "CONFIRMED"},
+          {"n": 7, "type": "blank", "text": "{}", "image": "4b_vb1a_7", "gaps": [["shop assistant", "a shop assistant"]], "source": "CONFIRMED"},
+          {"n": 8, "type": "blank", "text": "{}", "image": "4b_vb1a_8", "gaps": [["trolley", "a trolley"]], "source": "CONFIRMED"},
+          {"n": 9, "type": "blank", "text": "{}", "image": "4b_vb1a_9", "gaps": [["shelves"]], "source": "CONFIRMED"},
+          {"n": 10, "type": "blank", "text": "{}", "image": "4b_vb1a_10", "gaps": [["self-service checkout", "checkout", "a self-service checkout"]], "source": "CONFIRMED"},
+          {"n": 11, "type": "blank", "text": "{}", "image": "4b_vb1a_11", "gaps": [["receipt", "a receipt"]], "source": "CONFIRMED"}
+        ]},
+        {"id": "4B-vb1c", "origin": "SB", "instruction": "Match the sentences. Complete the answers. Then listen and check", "note": "VB 1c+1d «Match the sentences» → Blank: ответ a–f с ключевым словом-пропуском, слова — в words. Пары MODEL, проверка по аудио 4.13", "audio": "4.13", "words": ["big", "changing rooms", "looking", "medium", "red", "short"], "exercises": [
+          {"n": 1, "type": "blank", "text": "Can I help you? – I’m just {}, thank you.", "gaps": [["looking"]], "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "What size are you? – I’m a {}.", "gaps": [["medium"]], "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "Can I try on this shirt? – Yes, the {} are over there.", "gaps": [["changing rooms"]], "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "This shirt doesn’t fit me. – It’s too {} for me.", "gaps": [["big"]], "explain": "fit = the right size.", "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "That jacket really suits you! – You always look good in {}.", "gaps": [["red"]], "explain": "suit = look good on somebody.", "source": "MODEL"},
+          {"n": 6, "type": "blank", "text": "I’m going to take these trousers back. – They’re too {}.", "gaps": [["short"]], "explain": "take back = return to the shop.", "source": "MODEL"}
+        ]},
+        {"id": "4B-vb2a", "origin": "SB", "instruction": "Read the text about shopping online. Complete the phrases with words from the list. Then listen and check", "note": "VB Online 2a+2b; 1 website — пример. Ответы по аудио 4.14", "audio": "4.14", "context": "All major chain stores and many other shops sell online, and a lot of people prefer going to their website than the actual shop.", "words": ["account", "auction", "basket", "checkout", "debit", "delivery", "item", "next-day", "payment"], "exercises": [
+          {"n": 2, "type": "blank", "text": "The first time you use a site, you usually have to create an {} where you give your personal details.", "gaps": [["account"]], "source": "CONFIRMED"},
+          {"n": 3, "type": "blank", "text": "Then you choose what you want to buy, and click on each {}.", "gaps": [["item"]], "source": "CONFIRMED"},
+          {"n": 4, "type": "blank", "text": "Everything you buy goes in your {}, usually at the top right of the page.", "gaps": [["basket"]], "source": "CONFIRMED"},
+          {"n": 5, "type": "blank", "text": "When you are ready to pay you click on ‘proceed to {}’.", "gaps": [["checkout"]], "source": "CONFIRMED"},
+          {"n": 6, "type": "blank", "text": "You then have to give the {} address where you want them to send your things.", "gaps": [["delivery"]], "source": "CONFIRMED"},
+          {"n": 7, "type": "blank", "text": "You can usually pay extra for {} delivery – standard delivery is sometimes free.", "gaps": [["next-day", "next day"]], "source": "CONFIRMED"},
+          {"n": 8, "type": "blank", "text": "Then you choose how you want to pay, for example with a credit or {} card or with PayPal,", "gaps": [["debit"]], "source": "CONFIRMED"},
+          {"n": 9, "type": "blank", "text": "and give your {} details, for example your credit card number and expiry date.", "gaps": [["payment"]], "source": "CONFIRMED"},
+          {"n": 10, "type": "blank", "text": "Many people also buy and sell things online at {} sites like eBay.", "gaps": [["auction"]], "source": "CONFIRMED"}
+        ]},
+        {"id": "4B-vbact", "origin": "SB", "instruction": "Do you prefer buying things in ‘real’ shops or online? Why?", "note": "VB ACTIVATION → разговор с ИИ", "exercises": [
+          {"n": 1, "type": "talk", "situation": "You are a classmate in an English class (level: pre-intermediate). You talk about shopping in real shops and online. Ask the student, one at a time: Do you prefer buying things in ‘real’ shops or online? Why? What do you usually buy online? Do you like trying on clothes in the changing room? Do you pay for next-day delivery? Have you ever had a problem with a delivery? Do you usually keep the receipt? Give your own opinion too (you prefer real shops for clothes because you want to try them on, but you buy books online). Use the shopping words naturally (checkout, basket, receipt, delivery, account). If the student makes a mistake with shopping vocabulary (e.g. suit / fit), repeat the correct word naturally.", "goal": "Say if you prefer shopping in real shops or online and why.", "opener": "Do you prefer buying things in real shops or online?", "criteria": ["says what they prefer and gives at least two reasons", "uses at least four shopping words correctly (changing room, receipt, checkout, delivery, basket, account)", "says what they usually buy online or in shops"], "steps": [{"text": "Say what you prefer", "example": "I prefer shopping online because it's quicker."}, {"text": "Say what you buy online", "example": "I usually buy books and electronics online."}, {"text": "Say what you buy in real shops and why", "example": "I buy clothes in real shops because I like trying them on in the changing room."}, {"text": "Talk about delivery or receipts", "example": "I never pay for next-day delivery, and I always keep the receipt."}]}
+        ]},
+        {"id": "4B-wb1b", "origin": "WB", "instruction": "Complete the text", "note": "WB 1b «Shopping in a shop or store»; первые буквы книги не даём. 1 try — пример (вписан)", "context": "I usually go shopping in my lunch break, so I don’t have time to try on clothes.", "exercises": [
+          {"n": 2, "type": "blank", "text": "There’s always a long queue for the {}, so I just take them straight to the {} to pay.", "gaps": [["changing rooms", "changing room"], ["checkout", "till"]]},
+          {"n": 3, "type": "blank", "text": "I keep the {} so I can change them if they don’t {} me.", "gaps": [["receipt"], ["suit"]]},
+          {"n": 4, "type": "blank", "text": "Sometimes I get the wrong {}, and the clothes don’t {}.", "gaps": [["size"], ["fit"]]},
+          {"n": 5, "type": "blank", "text": "I often {} things {} to shops, but the {} don’t mind.", "gaps": [["take"], ["back"], ["shop assistants"]]}
+        ]},
+        {"id": "4B-wb1c", "origin": "WB", "instruction": "Complete the sentences with a word from the list", "note": "WB 1c; 1 receipt — пример", "words": ["debit", "next-day", "sales", "shopping bag", "till"], "exercises": [
+          {"n": 2, "type": "blank", "text": "You can buy things with 50% off in the {}.", "gaps": [["sales"]]},
+          {"n": 3, "type": "blank", "text": "When you’ve tried on your items, you take them to the {} to pay.", "gaps": [["till"]]},
+          {"n": 4, "type": "blank", "text": "In shops in the UK, you pay 5p for a {} to carry your items home in.", "gaps": [["shopping bag"]]},
+          {"n": 5, "type": "blank", "text": "Websites accept credit and {} cards, and you can also pay with Paypal.", "gaps": [["debit"]]},
+          {"n": 6, "type": "blank", "text": "Most online stores offer free delivery, but you need to pay for {} delivery.", "gaps": [["next-day", "next day"]]}
+        ]},
+        {"id": "4B-vocabulary-x1", "origin": "GENERATED", "instruction": "Complete with a shopping word.", "exercises": [
+          {"n": 1, "type": "blank", "text": "I always keep the {} in case I need to take something back.", "gaps": [["receipt"]], "explain": "receipt – the paper with what you paid; the p is silent.", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "Can I try this on? Where are the {}?", "gaps": [["changing rooms", "changing room"]], "explain": "changing room – where you try on clothes.", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "I’m only buying a few things, so I’ll take a {}, not a trolley.", "gaps": [["basket"]], "explain": "basket – small, you carry it; a trolley has wheels.", "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "Everything is 50% off – it’s the {}!", "gaps": [["sales"]], "explain": "the sales – a time when shops sell things cheaper.", "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "Excuse me, can you help me? – Sorry, I don’t work here. Ask a {}.", "gaps": [["shop assistant"]], "explain": "shop assistant – a person who works in a shop.", "source": "MODEL"},
+          {"n": 6, "type": "blank", "text": "The milk is on the top {} on the left.", "gaps": [["shelf"]], "explain": "shelf (plural shelves).", "source": "MODEL"},
+          {"n": 7, "type": "blank", "text": "There was a long queue at the till, so I used the self-service {}.", "gaps": [["checkout"]], "explain": "self-service checkout – you scan and pay yourself.", "source": "MODEL"}
+        ]},
+        {"id": "4B-vocabulary-x2", "origin": "GENERATED", "instruction": "Complete with fit, suit, try on or take back in the correct form.", "exercises": [
+          {"n": 1, "type": "blank", "text": "These jeans don’t {} me. They’re too small.", "gaps": [["fit"]], "explain": "fit = the right size.", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "That colour really {} you. You look great!", "gaps": [["suits"]], "explain": "suit = look good on you.", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "Can I {} these shoes, please?", "gaps": [["try on"]], "explain": "try on – put on clothes to see if they are OK.", "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "The shirt was the wrong size, so I {} it {} to the shop.", "gaps": [["took"], ["back"]], "explain": "take back (past: took back) = return.", "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "I don’t think red {} me. I prefer blue.", "gaps": [["suits"]], "explain": "suit – about colour and style.", "source": "MODEL"},
+          {"n": 6, "type": "blank", "text": "Always {} clothes {} before you buy them.", "gaps": [["try"], ["on"]], "explain": "try clothes on / try on clothes.", "source": "MODEL"}
+        ]},
+        {"id": "4B-vocabulary-x3", "origin": "GENERATED", "instruction": "Complete the online shopping phrases.", "exercises": [
+          {"n": 1, "type": "blank", "text": "First you need to create an {} with your name and email.", "gaps": [["account"]], "explain": "create an account.", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "When you have everything, click on ‘proceed to {}’.", "gaps": [["checkout"]], "explain": "proceed to checkout.", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "I need it tomorrow, so I paid for {} delivery.", "gaps": [["next-day", "next day"]], "explain": "next-day delivery.", "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "Please give your {} address so we can send your order.", "gaps": [["delivery"]], "explain": "delivery address.", "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "You can pay with a credit or {} card.", "gaps": [["debit"]], "explain": "debit card – the money comes from your bank account.", "source": "MODEL"},
+          {"n": 6, "type": "blank", "text": "I sold my old camera on an {} site.", "gaps": [["auction"]], "explain": "auction site – people offer money, the highest offer wins.", "source": "MODEL"}
+        ]}
+      ]
+    },
+    {
+      "id": "4B-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "c and ch",
+      "reference": [
+        {"type": "table", "title": "c and ch", "headers": ["Sound", "Spelling", "Examples"], "rows": [["/k/ key", "c before a, o, u and consonants", "account, auction, click, clothes, credit card, customer"], ["/s/ snake", "c before e, i, y", "city, proceed, receipt, shopping centre"], ["/tʃ/ chess", "ch (usually)", "changing rooms, cheap, checkout, choose"], ["/k/ key", "ch (sometimes)", "chemist’s"], ["/ʃ/ shower", "ch (in some words from French)", "machine"]], "audio": "4.15"}
+      ],
+      "tasks": [
+        {"id": "4B-sb2a", "origin": "SB", "instruction": "How is c pronounced in these words? Put the words in the correct row. Then listen and check", "note": "SB 2a+2b → Sort по двум колонкам (key /k/, snake /s/); розовые буквы — как в книге; по аудио 4.15", "audio": "4.15", "columns": ["key /k/", "snake /s/"], "exercises": [
+          {"n": 1, "type": "sort", "word": "a[cc]ount", "column": 1, "source": "CONFIRMED"},
+          {"n": 2, "type": "sort", "word": "au[c]tion", "column": 1, "source": "CONFIRMED"},
+          {"n": 3, "type": "sort", "word": "[c]ity", "column": 2, "source": "CONFIRMED"},
+          {"n": 4, "type": "sort", "word": "[c]li[ck]", "column": 1, "source": "CONFIRMED"},
+          {"n": 5, "type": "sort", "word": "[c]lothes", "column": 1, "source": "CONFIRMED"},
+          {"n": 6, "type": "sort", "word": "[c]redit [c]ard", "column": 1, "source": "CONFIRMED"},
+          {"n": 7, "type": "sort", "word": "[c]ustomer", "column": 1, "source": "CONFIRMED"},
+          {"n": 8, "type": "sort", "word": "pro[c]eed", "column": 2, "source": "CONFIRMED"},
+          {"n": 9, "type": "sort", "word": "re[c]eipt", "column": 2, "source": "CONFIRMED"},
+          {"n": 10, "type": "sort", "word": "shopping [c]entre", "column": 2, "source": "CONFIRMED"}
+        ]},
+        {"id": "4B-sb2b", "origin": "SB", "instruction": "When is c pronounced like the s in snake?", "note": "SB 2b вопрос о правиле → Blank; MODEL", "exercises": [
+          {"n": 1, "type": "blank", "text": "c sounds like the s in snake before the letters {}, {} and {}.", "gaps": [["e", "i", "y"], ["e", "i", "y"], ["e", "i", "y"]], "explain": "city, proceed, receipt, centre – c + e / i / y. Before other letters c sounds like k: customer, clothes.", "source": "MODEL"}
+        ]},
+        {"id": "4B-sb2c", "origin": "SB", "instruction": "How is ch pronounced? Listen and put the words in the correct column", "note": "SB 2c «circle the words where ch is pronounced differently» → Sort по трём колонкам; по аудио 4.16, ключ WB 2a подтверждает chemist’s и machine", "audio": "4.16", "columns": ["chess /tʃ/", "key /k/", "shower /ʃ/"], "exercises": [
+          {"n": 1, "type": "sort", "word": "[ch]anging rooms", "column": 1, "source": "CONFIRMED"},
+          {"n": 2, "type": "sort", "word": "[ch]eap", "column": 1, "source": "CONFIRMED"},
+          {"n": 3, "type": "sort", "word": "[ch]eckout", "column": 1, "source": "CONFIRMED"},
+          {"n": 4, "type": "sort", "word": "[ch]emist’s", "column": 2, "explain": "chemist’s – ch sounds like k.", "source": "CONFIRMED"},
+          {"n": 5, "type": "sort", "word": "[ch]oose", "column": 1, "source": "CONFIRMED"},
+          {"n": 6, "type": "sort", "word": "cash ma[ch]ine", "column": 3, "explain": "machine – ch sounds like sh (a word from French).", "source": "CONFIRMED"}
+        ]},
+        {"id": "4B-sb2d", "origin": "SB", "instruction": "Practise saying the words", "note": "SB 2d → Speak слов из 2a и 2c (образец — аудио 4.15 / 4.16 не нарезано, синтезатор)", "exercises": [
+          {"n": 1, "type": "speak", "text": "account, auction, click, clothes, credit card, customer"},
+          {"n": 2, "type": "speak", "text": "city, proceed, receipt, shopping centre"},
+          {"n": 3, "type": "speak", "text": "changing rooms, cheap, checkout, choose"},
+          {"n": 4, "type": "speak", "text": "chemist’s, cash machine"}
+        ]},
+        {"id": "4B-wb2a", "origin": "WB", "instruction": "Which word has a different sound? Write it", "note": "WB 2a «Circle the word with a different sound» → Blank; 1 proceed — пример", "exercises": [
+          {"n": 2, "type": "blank", "text": "chess: checkout, chemist’s, choose → {}", "gaps": [["chemist’s", "chemists", "chemist's"]]},
+          {"n": 3, "type": "blank", "text": "snake: clothes, city, centre → {}", "gaps": [["clothes"]]},
+          {"n": 4, "type": "blank", "text": "chess: machine, cheap, change → {}", "gaps": [["machine"]]}
+        ]},
+        {"id": "4B-wb2b", "origin": "WB", "instruction": "Listen again and repeat the words", "note": "WB 2b (трека WB нет, образец — синтезатор) → Speak", "exercises": [
+          {"n": 1, "type": "speak", "text": "customer, account, proceed"},
+          {"n": 2, "type": "speak", "text": "checkout, chemist’s, choose"},
+          {"n": 3, "type": "speak", "text": "clothes, city, centre"},
+          {"n": 4, "type": "speak", "text": "machine, cheap, change"}
+        ]}
+      ]
+    },
+    {
+      "id": "4B-grammar",
+      "kind": "GRAMMAR",
+      "title": "present perfect or past simple? (1)",
+      "reference": [
+        {"type": "note", "title": "Present perfect for experiences", "text": "We use the present perfect to talk about past experiences in your life, when we don’t say when they happened: She’s been to New York three times. Have you ever been to Ikea? I’ve never met Nina’s husband. He’s seen that film twice. ever = at any time in your life (in questions); never = at no time (with a + verb)."},
+        {"type": "note", "title": "Present perfect or past simple?", "text": "Conversations often begin in the present perfect (a general question about experience) and then change to the past simple (details: when, where, what): Have you ever been to Mexico? Yes, I have. When did you go there? I went last year. Jack’s broken his leg. Oh no! When did that happen? Yesterday. He broke it playing football. With a finished time (yesterday, last year, three weeks ago) use the past simple."},
+        {"type": "table", "title": "been or gone?", "headers": ["", "meaning"], "rows": [["Mike has been to Paris.", "He went to Paris and came back."], ["Mike has gone to Paris.", "He is in Paris now."]]},
+        {"type": "mistake", "wrong": "I’ve been to H&M three weeks ago.", "right": "I went to H&M three weeks ago.", "why": "An exact past time (three weeks ago) needs the past simple."}
+      ],
+      "tasks": [
+        {"id": "4B-sb3a", "origin": "SB", "instruction": "Listen to Kate, Rosie and John answering questions about shopping. Which chain stores do they mention?", "note": "SB 3a → Blank с клипом на каждого; магазины из 1a — в words. Ответы по транскрипту 4.17", "audio": "4.17", "words": ["Zara", "Apple", "Topshop", "The Body Shop", "H&M", "Nike", "IKEA", "Uniqlo"], "exercises": [
+          {"n": 1, "type": "blank", "text": "Kate: {}", "gaps": [["H&M", "H & M"]], "clip": [0.0, 26.5], "source": "CONFIRMED"},
+          {"n": 2, "type": "blank", "text": "Rosie: {} and {}", "gaps": [["Topshop", "The Body Shop", "Body Shop"], ["The Body Shop", "Body Shop", "Topshop"]], "clip": [26.71, 63.5], "source": "CONFIRMED"},
+          {"n": 3, "type": "blank", "text": "John: {}", "gaps": [["Uniqlo"]], "clip": [64.5, 107.4], "source": "CONFIRMED"}
+        ]},
+        {"id": "4B-sb3b", "origin": "SB", "instruction": "Listen again. What did each person buy? Are they happy with what they bought?", "note": "SB 3b → Blank с клипом на каждого (что купил + доволен ли). Ответы по транскрипту 4.17", "audio": "4.17", "exercises": [
+          {"n": 1, "type": "blank", "text": "Kate bought a long black {}. Is she happy with it? – {}, it was very cheap and it suits her.", "gaps": [["skirt"], ["Yes"]], "clip": [0.0, 26.5], "source": "CONFIRMED"},
+          {"n": 2, "type": "blank", "text": "Rosie didn’t buy any clothes in Topshop. She bought some strawberry {}. Is she happy with it? – {}, she really likes it.", "gaps": [["shower gel"], ["Yes"]], "clip": [26.71, 63.5], "source": "CONFIRMED"},
+          {"n": 3, "type": "blank", "text": "John bought five {} on the website. Is he happy with them? – {}, they were about five pounds each.", "gaps": [["T-shirts", "t-shirts", "T-shirt", "tshirts", "T shirts"], ["Yes"]], "clip": [64.5, 107.4], "source": "CONFIRMED"}
+        ]},
+        {"id": "4B-sb3c", "origin": "SB", "instruction": "Look at the beginning of Kate’s interview. What do you think the missing verbs are? Listen and check", "note": "SB 3c → Blank-диалог; ответы по транскрипту 4.18", "audio": "4.18", "dialogue": true, "exercises": [
+          {"n": 1, "type": "blank", "text": "{} you {} to a chain store recently?\nYes, I {}. I {} to H&M three weeks ago.", "gaps": [["Have"], ["been"], ["have"], ["went"]], "source": "CONFIRMED"},
+          {"n": 2, "type": "blank", "text": "And what {} you {}?\nI {} a skirt.", "gaps": [["did"], ["buy"], ["bought"]], "source": "CONFIRMED"}
+        ]},
+        {"id": "4B-sb3d", "origin": "SB", "instruction": "What tense is the first question and short answer? What tense is the rest of the interview?", "note": "SB 3d → Blank; MODEL", "words": ["present perfect", "past simple"], "exercises": [
+          {"n": 1, "type": "blank", "text": "The first question and short answer (Have you been…? Yes, I have.): {}", "gaps": [["present perfect", "the present perfect"]], "explain": "A general question about recent experience, no time mentioned.", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "The rest of the interview (I went… What did you buy? I bought…): {}", "gaps": [["past simple", "the past simple"]], "explain": "Details about a finished time (three weeks ago).", "source": "MODEL"}
+        ]},
+        {"id": "4B-sb3f", "origin": "SB", "instruction": "Ask and answer the questions about shopping", "note": "SB 3f → разговор с ИИ", "exercises": [
+          {"n": 1, "type": "talk", "situation": "You are a classmate in an English class (level: pre-intermediate). Ask the student these questions, one at a time: Have you been to a chain store recently? Where did you go? When did you go there? What did you buy? Are you happy with it? Then answer the same questions yourself (you went to IKEA last Saturday and bought a lamp; you’re happy with it, it was cheap). If the student uses the present perfect with a finished time (I’ve been there last week) or the past simple for the first general question, repeat the correct form naturally.", "goal": "Talk about a recent shopping trip: present perfect first, then past simple for details.", "opener": "Have you been to a chain store recently?", "criteria": ["answers the first question with the present perfect short answer (Yes, I have / No, I haven’t)", "gives details in the past simple (went, bought, paid)", "says if they are happy with what they bought and why", "asks at least one question back"], "steps": [{"text": "Answer the first question", "example": "Yes, I have."}, {"text": "Say where and when you went", "example": "I went to Zara last weekend."}, {"text": "Say what you bought", "example": "I bought a jacket and some socks."}, {"text": "Say if you're happy with it", "example": "Yes, I am. It fits me really well."}, {"text": "Ask a question back", "example": "What about you? Have you been to a chain store recently?"}]}
+        ]},
+        {"id": "4B-gba","origin": "SB_GRAMMAR_BANK", "instruction": "Complete the sentences with the present perfect of the verbs in brackets", "note": "GB 4B a; пример без номера («Have you ever broken your leg?»), все 10 пунктов. MODEL", "exercises": [
+          {"n": 1, "type": "blank", "text": "{} you ever {} clothes from that shop?", "gaps": [["Have"], ["bought"]], "hint": "(buy)", "explain": "Have + you + ever + past participle.", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "I {} always {} a pair of designer sunglasses.", "gaps": [["’ve", "have"], ["wanted"]], "hint": "(want)", "explain": "always goes between have and the past participle.", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "I {} this book. Is it good?", "gaps": [["haven’t read", "have not read"]], "hint": "(not read)", "explain": "read → read.", "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "We {} to the new shopping centre.", "gaps": [["haven’t been", "have not been"]], "hint": "(not be)", "explain": "be → been.", "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "{} your brother ever {} abroad?", "gaps": [["Has"], ["lived"]], "hint": "(live)", "explain": "your brother = he → Has.", "source": "MODEL"},
+          {"n": 6, "type": "blank", "text": "They {} to South America twice.", "gaps": [["’ve been", "have been"]], "hint": "(be)", "explain": "Experience: They’ve been… twice.", "source": "MODEL"},
+          {"n": 7, "type": "blank", "text": "She {} before.", "gaps": [["hasn’t flown", "has not flown"]], "hint": "(not fly)", "explain": "fly → flown.", "source": "MODEL"},
+          {"n": 8, "type": "blank", "text": "James {} his girlfriend’s family.", "gaps": [["hasn’t met", "has not met"]], "hint": "(not meet)", "explain": "meet → met.", "source": "MODEL"},
+          {"n": 9, "type": "blank", "text": "{} you {} in this restaurant before?", "gaps": [["Have"], ["eaten"]], "hint": "(eat)", "explain": "eat → eaten.", "source": "MODEL"},
+          {"n": 10, "type": "blank", "text": "Jenny {} never {} me about her family.", "gaps": [["has", "’s"], ["told"]], "hint": "(tell)", "explain": "never goes between has and the past participle; tell → told.", "source": "MODEL"}
+        ]},
+        {"id": "4B-gbb", "origin": "SB_GRAMMAR_BANK", "instruction": "Complete the conversation with the present perfect or past simple", "note": "GB 4B b; первая реплика — пример (вписана). Реплики без меток. MODEL", "dialogue": true, "exercises": [
+          {"n": 1, "type": "blank", "text": "Have you been to the new shopping centre?\nYes, I {} there last month – it {} great.", "gaps": [["went"], ["was"]], "hint": "(go), (be)", "explain": "last month → past simple.", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "{} you {} anything?\nI {} a new pair of shoes.", "gaps": [["Did"], ["buy"], ["got", "bought"]], "hint": "(buy), (get)", "explain": "Details about a past visit → past simple.", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "{} they expensive?\nYes, very! {} you {} any new clothes recently?", "gaps": [["Were"], ["Have"], ["bought"]], "hint": "(be), (buy)", "explain": "recently, no exact time → present perfect.", "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "Have you bought any new clothes recently?\nNo, but my boyfriend {} me a jacket for my birthday last week.", "gaps": [["gave"]], "hint": "(give)", "explain": "last week → past simple.", "source": "MODEL"}
+        ]},
+        {"id": "4B-gbc", "origin": "SB_GRAMMAR_BANK", "instruction": "Complete with been or gone", "note": "GB 4B c; пример без номера. MODEL", "words": ["been", "gone"], "exercises": [
+          {"n": 1, "type": "blank", "text": "The kids aren’t here. They’ve all {} out.", "gaps": [["gone"]], "explain": "They are out now → gone.", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "Have you ever {} to the swimming pool in town?", "gaps": [["been"]], "explain": "Experience (went and came back) → been.", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "I haven’t {} to Sue’s new flat yet.", "gaps": [["been"]], "explain": "visit and come back → been.", "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "My sister has {} to live in France.", "gaps": [["gone"]], "explain": "She is in France now → gone.", "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "Dad’s {} to the shop – the fridge is full.", "gaps": [["been"]], "explain": "He went and came back with food → been.", "source": "MODEL"}
+        ]},
+        {"id": "4B-wb3a", "origin": "WB", "instruction": "Write sentences and questions with the present perfect. Use contractions where possible: (+) positive, (−) negative, (?) question", "note": "WB 3a; 1 She’s bought a new pair of trousers — пример", "exercises": [
+          {"n": 2, "type": "rewrite", "prompt": "I / bring / my credit card", "hint": "(−)", "answers": ["I haven’t brought my credit card.", "I have not brought my credit card."]},
+          {"n": 3, "type": "rewrite", "prompt": "Anna and Kay / go shopping", "hint": "(?)", "answers": ["Have Anna and Kay gone shopping?", "Have Anna and Kay been shopping?"]},
+          {"n": 4, "type": "rewrite", "prompt": "your sister / ever work / as a model", "hint": "(?)", "answers": ["Has your sister ever worked as a model?"]},
+          {"n": 5, "type": "rewrite", "prompt": "I / be / the shopping centre twice today", "hint": "(+)", "answers": ["I’ve been to the shopping centre twice today.", "I have been to the shopping centre twice today."]},
+          {"n": 6, "type": "rewrite", "prompt": "We / sell / anything on eBay recently", "hint": "(−)", "answers": ["We haven’t sold anything on eBay recently.", "We have not sold anything on eBay recently."]}
+        ]},
+        {"id": "4B-wb3b", "origin": "WB", "instruction": "Complete the conversations. Use the present perfect or past simple form of the verbs in brackets", "note": "WB 3b; в 1 первые две реплики — пример (вписаны). Реплики без меток", "dialogue": true, "exercises": [
+          {"n": 1, "type": "blank", "text": "Have you ever had a problem with something you bought online?\nYes, I have.\nWhat {}?\nI {} some jeans, but they were too small.", "gaps": [["did you buy"], ["bought"]], "hint": "(you / buy), (buy)"},
+          {"n": 2, "type": "blank", "text": "{} to Greece?\nYes, I {}. We {} to Kos last year.\nWhere {}?\nWe {} a great flat on Airbnb.", "gaps": [["Have you ever been"], ["have"], ["went"], ["did you stay"], ["found"]], "hint": "(you / ever / be), (go), (you / stay), (find)"},
+          {"n": 3, "type": "blank", "text": "{} something {}?\nYes, I {}.\nWhat {}?\nI {} some sandals, but then I didn’t like them.", "gaps": [["Have you ever bought"], ["you’ve never worn", "you have never worn"], ["have"], ["did you buy"], ["bought"]], "hint": "(you / ever / buy), (you / never / wear), (you / buy), (buy)"},
+          {"n": 4, "type": "blank", "text": "{} your passport?\nYes, I {}.\nHow {} it?\nI {} it in a trolley in an airport car park last year.", "gaps": [["Have you ever lost"], ["have"], ["did you lose"], ["left"]], "hint": "(you / ever / lose), (you / lose), (leave)"},
+          {"n": 5, "type": "blank", "text": "{} any online dating?\nNo, I {}, but my sister {} it a couple of years ago. That’s how she {} her husband.", "gaps": [["Have you ever done"], ["haven’t", "have not"], ["tried"], ["met"]], "hint": "(you / ever / do), (try), (meet)"}
+        ]},
+        {"id": "4B-wb3c", "origin": "WB", "instruction": "Write sentences about the things the people have done (✓) or have never done (✗). Use contractions where possible", "note": "WB 3c; таблица → context; 1 Dan’s bought something on eBay — пример", "context": "Dan: buy something on eBay ✓, book a flight online ✓, stay in an Airbnb house or flat ✗. Jon and Mia: buy something on eBay ✗, book a flight online ✗, stay in an Airbnb house or flat ✓.", "exercises": [
+          {"n": 2, "type": "rewrite", "prompt": "Dan / book a flight online", "answers": ["Dan’s booked a flight online.", "Dan has booked a flight online."]},
+          {"n": 3, "type": "rewrite", "prompt": "Dan / stay in an Airbnb house or flat", "answers": ["Dan’s never stayed in an Airbnb house or flat.", "Dan has never stayed in an Airbnb house or flat.", "Dan hasn’t stayed in an Airbnb house or flat."]},
+          {"n": 4, "type": "rewrite", "prompt": "Jon and Mia / buy something on eBay", "answers": ["Jon and Mia have never bought anything on eBay.", "Jon and Mia haven’t bought anything on eBay.", "Jon and Mia haven’t bought something on eBay.", "Jon and Mia have never bought something on eBay."]},
+          {"n": 5, "type": "rewrite", "prompt": "Jon and Mia / book a flight online", "answers": ["Jon and Mia have never booked a flight online.", "Jon and Mia haven’t booked a flight online."]},
+          {"n": 6, "type": "rewrite", "prompt": "Jon and Mia / stay in an Airbnb house or flat", "answers": ["Jon and Mia have stayed in an Airbnb house or flat.", "Jon and Mia’ve stayed in an Airbnb house or flat."]}
+        ]},
+        {"id": "4B-wb3d", "origin": "WB", "instruction": "Write questions about the experiences in c", "note": "WB 3d; 1 Have you ever bought something on eBay? — пример", "exercises": [
+          {"n": 2, "type": "rewrite", "prompt": "book a flight online", "answers": ["Have you ever booked a flight online?"]},
+          {"n": 3, "type": "rewrite", "prompt": "stay in an Airbnb house or flat", "answers": ["Have you ever stayed in an Airbnb house or flat?"]}
+        ]},
+        {"id": "4B-wb3e", "origin": "WB", "instruction": "Answer the questions in d about you", "note": "WB 3e — о себе → Write", "exercises": [
+          {"n": 1, "type": "write", "prompt": "Answer the questions about you. If you have done something, write a sentence about the last time you did it.", "questions": [{"text": "Have you ever bought something on eBay?", "hint": "(Yes, I have. I bought… / No, I haven’t.)"}, {"text": "Have you ever booked a flight online?", "hint": "(Yes, I have. Last…, I booked…)"}, {"text": "Have you ever stayed in an Airbnb house or flat?", "hint": "(Yes, I have. I stayed… / No, I’ve never…)"}], "criteria": ["short answers Yes, I have / No, I haven’t", "details about the last time in the past simple (I bought…, I booked…, I stayed…)", "no present perfect with a finished time (not I’ve booked it last year)"]}
+        ]},
+        {"id": "4B-grammar-x1", "origin": "GENERATED", "instruction": "Complete with the present perfect or the past simple of the verb in brackets. Use contractions.", "exercises": [
+          {"n": 1, "type": "blank", "text": "{} you ever {} to Japan?", "gaps": [["Have"], ["been"]], "hint": "(be)", "explain": "Experience, no time → present perfect.", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "Yes, I have. I {} there in 2019.", "gaps": [["went"]], "hint": "(go)", "explain": "in 2019 → past simple.", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "I {} this jacket in the sales last week.", "gaps": [["bought"]], "hint": "(buy)", "explain": "last week → past simple.", "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "She {} never {} anything online.", "gaps": [["’s", "has"], ["sold"]], "hint": "(sell)", "explain": "never + present perfect: She’s never sold…", "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "When {} you {} your new phone?", "gaps": [["did"], ["get", "buy"]], "hint": "(get)", "explain": "When…? asks about a finished time → past simple.", "source": "MODEL"},
+          {"n": 6, "type": "blank", "text": "We {} that film twice. It’s brilliant.", "gaps": [["’ve seen", "have seen"]], "hint": "(see)", "explain": "Experience, how many times → present perfect.", "source": "MODEL"},
+          {"n": 7, "type": "blank", "text": "Tom {} his leg. He {} it playing football yesterday.", "gaps": [["’s broken", "has broken"], ["broke"]], "hint": "(break)", "explain": "News → present perfect; the detail (yesterday) → past simple.", "source": "MODEL"},
+          {"n": 8, "type": "blank", "text": "I {} a lot of money when I was on holiday in Rome.", "gaps": [["spent"]], "hint": "(spend)", "explain": "A finished time (when I was on holiday) → past simple.", "source": "MODEL"}
+        ]},
+        {"id": "4B-grammar-x2", "origin": "GENERATED", "instruction": "Write questions with Have you ever…? Then write the past simple question in brackets.", "exercises": [
+          {"n": 1, "type": "rewrite", "prompt": "you / lose / your keys", "answers": ["Have you ever lost your keys?"], "explain": "lose → lost.", "source": "MODEL"},
+          {"n": 2, "type": "rewrite", "prompt": "Where / you / lose / them?", "hint": "(past simple)", "answers": ["Where did you lose them?"], "explain": "Details → Where did you + infinitive?", "source": "MODEL"},
+          {"n": 3, "type": "rewrite", "prompt": "you / buy / clothes online", "answers": ["Have you ever bought clothes online?"], "explain": "buy → bought.", "source": "MODEL"},
+          {"n": 4, "type": "rewrite", "prompt": "What / you / buy?", "hint": "(past simple)", "answers": ["What did you buy?"], "explain": "did + infinitive (buy, not bought).", "source": "MODEL"},
+          {"n": 5, "type": "rewrite", "prompt": "your parents / fly / to America", "answers": ["Have your parents ever flown to America?"], "explain": "fly → flown.", "source": "MODEL"},
+          {"n": 6, "type": "rewrite", "prompt": "your brother / meet / a famous person", "answers": ["Has your brother ever met a famous person?"], "explain": "your brother = he → Has.", "source": "MODEL"}
+        ]},
+        {"id": "4B-grammar-x3", "origin": "GENERATED", "instruction": "Correct the mistake in each sentence. Write the sentence.", "exercises": [
+          {"n": 1, "type": "rewrite", "prompt": "I’ve bought these shoes last Saturday.", "answers": ["I bought these shoes last Saturday."], "explain": "last Saturday → past simple.", "source": "MODEL"},
+          {"n": 2, "type": "rewrite", "prompt": "Did you ever sell anything on eBay?", "answers": ["Have you ever sold anything on eBay?"], "explain": "Life experience with ever → present perfect.", "source": "MODEL"},
+          {"n": 3, "type": "rewrite", "prompt": "When have you arrived?", "answers": ["When did you arrive?"], "explain": "When…? → past simple.", "source": "MODEL"},
+          {"n": 4, "type": "rewrite", "prompt": "Sarah isn’t here. She’s been to the shops.", "answers": ["Sarah isn’t here. She’s gone to the shops.", "Sarah isn’t here. She has gone to the shops."], "explain": "She is there now → gone.", "source": "MODEL"},
+          {"n": 5, "type": "rewrite", "prompt": "He has never went to IKEA.", "answers": ["He has never been to IKEA.", "He’s never been to IKEA."], "explain": "Experience of a place → been; went is past simple.", "source": "MODEL"},
+          {"n": 6, "type": "rewrite", "prompt": "I have saw that film twice.", "answers": ["I have seen that film twice.", "I’ve seen that film twice."], "explain": "see → seen (saw is past simple).", "source": "MODEL"}
+        ]}
+      ]
+    }
+  ]
+}

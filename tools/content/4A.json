@@ -1,0 +1,338 @@
+{
+  "id": "4A",
+  "title": "Who does what?",
+  "bubbles": ["Have you cleaned the bathroom yet?", "Yes, I’ve already done it."],
+  "sources": "SB p.30–31 (PDF 31–32), Grammar Bank p.132–133 (PDF 133–134), Vocabulary Bank p.154 (PDF 155), Communication p.104/106 (PDF 105/107), scripts p.121 (PDF 122); WB p.26–27 (PDF 25–26), key WB p.89 (PDF 89)",
+  "sections": [
+    {
+      "id": "4A-skills",
+      "kind": "SKILLS",
+      "title": "Reading, Listening & Speaking",
+      "reference": [
+        {"type": "table", "title": "The Lazy Person’s Guide to a clean and tidy home", "headers": ["Tip", "How"], "rows": [["Clean quickly but often.", "Ten minutes twice a day – set an alarm on your phone."], ["Keep cleaning products in the right place.", "Near the place where you need them: bathroom cleaners in the bathroom, bin bags by the bin."], ["Clean the microwave regularly.", "Water and half a lemon in a bowl, three minutes on high, then wipe with a cloth."], ["Use your dishwasher to clean other things.", "Plastic toys, flip-flops, tools, keys."], ["Tell people to take off their shoes when they come in.", "If they refuse, give them the vacuum cleaner!"], ["Use your socks to clean the floor.", "On a hard floor (wood or stone); then put your socks in the washing machine."], ["Listen to music while you clean.", "Especially for housework you hate, like ironing."]], "audio": "4.11"},
+        {"type": "note", "title": "Talking about housework", "text": "Who does the most housework in your house? What housework do you hate doing? What don’t you mind doing? Have you done any housework today? We say do housework, do the cleaning, do sport – not make housework."}
+      ],
+      "tasks": [
+        {"id": "4A-sb1a", "origin": "SB", "instruction": "Read the headlines. The same word is missing in each one. What is it?", "note": "SB 1a+1b (проверка по статьям) → Blank; ответ по тексту статей (MODEL)", "context": "1 Doing ___ is as good as going to the gym. Doing exercise for 30 minutes a day is good for your health, a new Canadian study has found. The study looked at 130,000 people in 17 countries. Only 3% of the people did 30 minutes of sport a day, like running or swimming. But the researchers found that you don’t need to do sport or go to the gym – any form of physical activity is good for you, including housework. Activities like doing the cleaning are really good exercise, so you can stay healthy and have a clean house at the same time. 2 NEW SPANISH LAW: children must help their parents with ___. Is it a battle to get your kids to help with housework? Think about moving to live in Spain, where the government has decided that children under the age of 18, both boys and girls, have an obligation to ‘participate in family life’ – and that includes doing housework. However, they don’t say what happens to children who say no when their parents ask them to do something.", "exercises": [
+          {"n": 1, "type": "blank", "text": "Doing {} is as good as going to the gym", "gaps": [["housework"]], "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "NEW SPANISH LAW: children must help their parents with {}", "gaps": [["housework"]], "source": "MODEL"}
+        ]},
+        {"id": "4A-sb1b", "origin": "SB", "instruction": "Read the online comments. Which article are they about? Write 1 or 2", "note": "SB 1b «match A–F to articles 1 or 2» → Blank; A → 1 — пример. Ответы MODEL", "context": "1 Doing housework is as good as going to the gym: a Canadian study says any physical activity, including housework, is good exercise. 2 NEW SPANISH LAW: children must help their parents with housework: in Spain children under 18 must ‘participate in family life’, including doing housework.", "exercises": [
+          {"n": 2, "type": "blank", "text": "B My children all do housework – I don’t need the government’s help. → article {}", "gaps": [["2", "two"]], "hint": "(1 / 2)", "explain": "It’s about the government and children – the Spanish law.", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "C Great idea. More countries need to do this. → article {}", "gaps": [["2", "two"]], "hint": "(1 / 2)", "explain": "Other countries can make the same law.", "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "D This can’t be true. 30 minutes of cleaning and 30 minutes of running are not the same thing. → article {}", "gaps": [["1", "one"]], "hint": "(1 / 2)", "explain": "It’s about the study: cleaning as exercise.", "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "E Nice idea, but impossible in real life. → article {}", "gaps": [["2", "two"]], "hint": "(1 / 2)", "explain": "The law doesn’t say what happens when children say no.", "source": "MODEL"},
+          {"n": 6, "type": "blank", "text": "F I hate exercise, but I also hate housework. What can I do? → article {}", "gaps": [["1", "one"]], "hint": "(1 / 2)", "explain": "Housework as exercise – the Canadian study.", "source": "MODEL"}
+        ]},
+        {"id": "4A-sb2", "origin": "SB", "instruction": "Answer the questions about housework", "note": "SB 2 Speaking (Your country / You) → разговор с ИИ", "exercises": [
+          {"n": 1, "type": "talk", "situation": "You are a classmate in an English class (level: pre-intermediate). You talk about housework. Ask the student, one at a time: Do men and women in your country both do housework? Who does more? Is this fair? How much housework do teenagers do? Who does the most housework in your house or flat? Is everyone happy with this? What housework do you do? How often? What housework do you hate doing? What don’t you mind doing? Do you ever find housework relaxing? Have you done any housework today? What? Give short answers about yourself too (you hate ironing, you don’t mind cooking, you did the washing-up this morning). Use do / make + housework phrases naturally. If the student says make the housework or makes a mistake with the present perfect (I have cleaned yesterday), repeat the correct form naturally.", "goal": "Talk about who does the housework and what you like doing.", "opener": "Hi! Let’s talk about housework. Who does the most housework in your house?", "criteria": ["says who does the housework at home and whether it’s fair", "names at least three housework jobs with the correct verb (do the washing-up, make the bed, take out the rubbish)", "says what they hate doing and what they don’t mind doing (-ing form)", "answers Have you done any housework today? with the present perfect or past simple correctly"], "steps": [{"text": "Say who does the most housework in your house", "example": "My mum does the most housework, but I help her at the weekend."}, {"text": "Say if men and women do the same in your country", "example": "In my country women usually do more. I don't think it's fair."}, {"text": "Say what housework you hate and what you don't mind", "example": "I hate ironing, but I don't mind doing the washing-up."}, {"text": "Say what housework you've done today", "example": "Today I've made my bed and I've taken out the rubbish."}, {"text": "Ask your classmate about their house", "example": "What about you? What housework do you do?"}]}
+        ]},
+        {"id": "4A-sb5b", "origin": "SB", "instruction": "Complete the tips from the video blog The Lazy Person’s Guide to a clean and tidy home. Then listen and check", "note": "SB 5b+5c (4.11 listen and check) → Blank; фото 5a (SB p.31) в images. Ответы по скрипту 4.11 (SB p.121)", "audio": "4.11", "images": ["4a_sb5a"], "exercises": [
+          {"n": 1, "type": "blank", "text": "Clean quickly but {}.", "gaps": [["often"]], "source": "CONFIRMED"},
+          {"n": 2, "type": "blank", "text": "Keep cleaning products in the {} place.", "gaps": [["right"]], "source": "CONFIRMED"},
+          {"n": 3, "type": "blank", "text": "Clean the {} regularly.", "gaps": [["microwave"]], "source": "CONFIRMED"},
+          {"n": 4, "type": "blank", "text": "Use your dishwasher to {} things.", "gaps": [["clean other"]], "source": "CONFIRMED"},
+          {"n": 5, "type": "blank", "text": "Tell people to take off {} {} when they come in.", "gaps": [["your"], ["shoes"]], "source": "CONFIRMED"},
+          {"n": 6, "type": "blank", "text": "Use your socks to clean the {}.", "gaps": [["floor"]], "source": "CONFIRMED"},
+          {"n": 7, "type": "blank", "text": "Listen {} {} while you clean.", "gaps": [["to"], ["music"]], "source": "CONFIRMED"}
+        ]},
+        {"id": "4A-sb5d", "origin": "SB", "instruction": "Listen again and answer the questions about each tip", "note": "SB 5d открытые вопросы → Blank с ключевыми словами ответа по скрипту 4.11 (SB p.121)", "audio": "4.11", "exercises": [
+          {"n": 1, "type": "blank", "text": "How long should you clean for and how often? What can you do to motivate yourself? – Clean for {} minutes {} a day. Set an {} on your phone.", "gaps": [["ten", "10"], ["twice", "two times"], ["alarm"]], "source": "CONFIRMED"},
+          {"n": 2, "type": "blank", "text": "What is the right place to keep cleaning products? – Near the place where you {} them, e.g. bin bags by the {}.", "gaps": [["need", "use"], ["bin"]], "explain": "If you can’t see what you need, you don’t clean.", "source": "CONFIRMED"},
+          {"n": 3, "type": "blank", "text": "How does he recommend cleaning the microwave? – Put water and half a {} in a bowl and microwave it on high for {} minutes.", "gaps": [["lemon"], ["three", "3"]], "explain": "Then leave the door closed for five more minutes and clean it with a cloth.", "source": "CONFIRMED"},
+          {"n": 4, "type": "blank", "text": "Why does he mention flip-flops and tools? – The dishwasher can clean {} things like flip-flops and {} things like tools.", "gaps": [["plastic"], ["metal"]], "source": "CONFIRMED"},
+          {"n": 5, "type": "blank", "text": "What does he suggest you do if people refuse to cooperate? – Give them the {}.", "gaps": [["vacuum cleaner", "vacuum", "hoover"]], "source": "CONFIRMED"},
+          {"n": 6, "type": "blank", "text": "What kind of floor does this work for? What do you need to do when you finish cleaning? – A {} floor, made of wood or stone. Throw your socks in the {}.", "gaps": [["hard"], ["washing machine"]], "source": "CONFIRMED"},
+          {"n": 7, "type": "blank", "text": "What kind of housework is this especially good for? – Housework you {}, like ironing or cleaning the bathroom.", "gaps": [["hate", "don’t like", "do not like"]], "source": "CONFIRMED"}
+        ]},
+        {"id": "4A-sb5e", "origin": "SB", "instruction": "Does this situation happen where you live? Who would find the Lazy Person’s Guide useful? Do you have any other tips?", "note": "SB 5a (фото) + 5e — обсуждение → разговор с ИИ, фото SB p.31 в pictures", "exercises": [
+          {"n": 1, "type": "talk", "situation": "You are a classmate in an English class (level: pre-intermediate). You talk about the photo of a couple arguing about cleaning the bathroom (she says it needs cleaning, he says he is tired and hates cleaning) and about The Lazy Person’s Guide to a clean and tidy home (clean ten minutes twice a day, keep cleaning products in the right place, clean the microwave with a lemon, use the dishwasher for plastic and metal things, take off shoes, clean the floor with socks, listen to music while you clean). Ask: Does this situation often happen in your house? Who argues about housework? Can you think of anyone who would find the guide useful? Which tip is the best? Do you have any other tips? Share one tip of your own (e.g. do the washing-up immediately after dinner). If the student makes a mistake with housework phrases or the present perfect, repeat the correct form naturally.", "goal": "Talk about the photo and share your own cleaning tips.", "opener": "Look at the photo! Does this situation often happen where you live?", "criteria": ["says if the situation happens at home and who argues", "names someone who would find the guide useful and says why", "gives at least one tip of their own using the imperative (Do…, Don’t…)", "uses housework phrases correctly (do the washing-up, clean the bathroom, tidy your room)"], "steps": [{"text": "Say if this situation happens in your house", "example": "Yes, it happens a lot! My brother never wants to clean the bathroom."}, {"text": "Say who would find the guide useful", "example": "My flatmate would find it useful because he hates cleaning."}, {"text": "Say which tip you like best", "example": "I like the tip about music. I always listen to music when I iron."}, {"text": "Give a tip of your own", "example": "Do the washing-up immediately after dinner – it only takes five minutes."}], "pictures": [{"label": "A", "image": "4a_sb5a", "caption": "a woman points at the bathroom and says it needs cleaning; a tired man covers his face: I hate cleaning, can you do it?"}]}
+        ]}
+      ]
+    },
+    {
+      "id": "4A-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "housework, make or do?",
+      "reference": [
+        {"type": "table", "title": "Housework", "headers": ["Phrase", "Note"], "rows": [["clean the floor", ""], ["do the ironing", ""], ["do the shopping", ""], ["do the vacuuming", "or do the hoovering"], ["do the washing", ""], ["do the washing-up", ""], ["dust the furniture", ""], ["lay the table", "opposite: clear the table"], ["load the dishwasher", "opposite: unload the dishwasher"], ["make lunch", "or make dinner"], ["make the bed", ""], ["pick up dirty clothes", "from the floor"], ["put away your clothes", ""], ["take out the rubbish", ""], ["tidy your room", ""]], "audio": "4.1"},
+        {"type": "table", "title": "make or do?", "headers": ["do", "make"], "rows": [["do a course", "make a mistake"], ["do an exam (an exercise, homework)", "make a noise"], ["do housework", "make a phone call"], ["do sport (exercise)", "make friends"], ["", "make plans"], ["", "make an excuse"]], "audio": "4.2"},
+        {"type": "note", "title": "make or do?", "text": "We usually use do for activities and work: do housework, do the cleaning, do homework, do sport. We usually use make when we create or produce something: make lunch, make a noise, make a mistake, make plans. Housework phrases often use do + the + -ing: do the ironing, do the washing-up."},
+        {"type": "mistake", "wrong": "I make the housework at the weekend.", "right": "I do the housework at the weekend.", "why": "housework goes with do."}
+      ],
+      "tasks": [
+        {"id": "4A-sb1c", "origin": "SB", "instruction": "Look at article 1 again. Which verb goes before housework, sport, and the cleaning?", "note": "SB 1c → Blank; ответ по статье 1 (MODEL)", "exercises": [
+          {"n": 1, "type": "blank", "text": "{} housework, {} sport, {} the cleaning", "gaps": [["do", "doing"], ["do", "doing"], ["do", "doing"]], "explain": "‘you don’t need to do sport’, ‘doing housework’, ‘doing the cleaning’ – all with do.", "source": "MODEL"}
+        ]},
+        {"id": "4A-vb1a", "origin": "SB", "instruction": "Match the phrases and photos. Complete the phrases. Then listen and check", "note": "VB Housework 1a+1b; фото VB p.154 (tools/images.py) у пункта в image, пропуск — ключевое слово фразы. 1 lay the table — пример. Ответы по аудио 4.1", "audio": "4.1", "exercises": [
+          {"n": 2, "type": "blank", "text": "do the {}", "image": "4a_vb1a_2", "gaps": [["washing"]], "source": "CONFIRMED"},
+          {"n": 3, "type": "blank", "text": "do the {}", "image": "4a_vb1a_3", "gaps": [["shopping"]], "source": "CONFIRMED"},
+          {"n": 4, "type": "blank", "text": "make the {}", "image": "4a_vb1a_4", "gaps": [["bed"]], "source": "CONFIRMED"},
+          {"n": 5, "type": "blank", "text": "{} your clothes", "image": "4a_vb1a_5", "gaps": [["put away"]], "source": "CONFIRMED"},
+          {"n": 6, "type": "blank", "text": "do the {}", "image": "4a_vb1a_6", "gaps": [["ironing"]], "source": "CONFIRMED"},
+          {"n": 7, "type": "blank", "text": "{} the floor", "image": "4a_vb1a_7", "gaps": [["clean"]], "source": "CONFIRMED"},
+          {"n": 8, "type": "blank", "text": "do the {}", "image": "4a_vb1a_8", "gaps": [["washing-up", "washing up"]], "source": "CONFIRMED"},
+          {"n": 9, "type": "blank", "text": "{} your room", "image": "4a_vb1a_9", "gaps": [["tidy"]], "source": "CONFIRMED"},
+          {"n": 10, "type": "blank", "text": "do the {}", "image": "4a_vb1a_10", "gaps": [["vacuuming", "hoovering"]], "source": "CONFIRMED"},
+          {"n": 11, "type": "blank", "text": "{} dirty clothes", "image": "4a_vb1a_11", "gaps": [["pick up"]], "source": "CONFIRMED"},
+          {"n": 12, "type": "blank", "text": "take out the {}", "image": "4a_vb1a_12", "gaps": [["rubbish"]], "source": "CONFIRMED"},
+          {"n": 13, "type": "blank", "text": "{} the furniture", "image": "4a_vb1a_13", "gaps": [["dust"]], "source": "CONFIRMED"},
+          {"n": 14, "type": "blank", "text": "make {}", "image": "4a_vb1a_14", "gaps": [["lunch", "dinner"]], "source": "CONFIRMED"},
+          {"n": 15, "type": "blank", "text": "{} the dishwasher", "image": "4a_vb1a_15", "gaps": [["load"]], "source": "CONFIRMED"}
+        ]},
+        {"id": "4A-vb1c", "origin": "SB", "instruction": "Test yourself: say the housework phrases", "note": "VB 1c «Cover the phrases and look at the photos» → Speak фраз по аудио 4.1", "audio": "4.1", "exercises": [
+          {"n": 1, "type": "speak", "text": "lay the table"},
+          {"n": 2, "type": "speak", "text": "do the washing"},
+          {"n": 3, "type": "speak", "text": "do the shopping"},
+          {"n": 4, "type": "speak", "text": "make the bed"},
+          {"n": 5, "type": "speak", "text": "put away your clothes"},
+          {"n": 6, "type": "speak", "text": "do the ironing"},
+          {"n": 7, "type": "speak", "text": "clean the floor"},
+          {"n": 8, "type": "speak", "text": "do the washing-up"},
+          {"n": 9, "type": "speak", "text": "tidy your room"},
+          {"n": 10, "type": "speak", "text": "do the vacuuming"},
+          {"n": 11, "type": "speak", "text": "pick up dirty clothes"},
+          {"n": 12, "type": "speak", "text": "take out the rubbish"},
+          {"n": 13, "type": "speak", "text": "dust the furniture"},
+          {"n": 14, "type": "speak", "text": "make lunch"},
+          {"n": 15, "type": "speak", "text": "load the dishwasher"}
+        ]},
+        {"id": "4A-vb2a", "origin": "SB", "instruction": "Write make or do next to the photos. Then listen and check", "note": "VB 2a+2b; фото VB p.154 у пункта в image; 1 do a course — пример. Ответы по аудио 4.2", "audio": "4.2", "words": ["make", "do"], "exercises": [
+          {"n": 2, "type": "blank", "text": "{} a mistake", "image": "4a_vb2a_2", "gaps": [["make"]], "source": "CONFIRMED"},
+          {"n": 3, "type": "blank", "text": "{} an exam", "image": "4a_vb2a_3", "gaps": [["do"]], "source": "CONFIRMED"},
+          {"n": 4, "type": "blank", "text": "{} a noise", "image": "4a_vb2a_4", "gaps": [["make"]], "source": "CONFIRMED"},
+          {"n": 5, "type": "blank", "text": "{} a phone call", "image": "4a_vb2a_5", "gaps": [["make"]], "source": "CONFIRMED"},
+          {"n": 6, "type": "blank", "text": "{} housework", "image": "4a_vb2a_6", "gaps": [["do"]], "source": "CONFIRMED"},
+          {"n": 7, "type": "blank", "text": "{} friends", "image": "4a_vb2a_7", "gaps": [["make"]], "source": "CONFIRMED"},
+          {"n": 8, "type": "blank", "text": "{} sport", "image": "4a_vb2a_8", "gaps": [["do"]], "source": "CONFIRMED"},
+          {"n": 9, "type": "blank", "text": "{} plans", "image": "4a_vb2a_9", "gaps": [["make"]], "source": "CONFIRMED"},
+          {"n": 10, "type": "blank", "text": "{} an excuse", "image": "4a_vb2a_10", "gaps": [["make"]], "source": "CONFIRMED"}
+        ]},
+        {"id": "4A-vb2c", "origin": "SB", "instruction": "Test yourself: say the phrases with make or do", "note": "VB 2c «Cover the words and look at the photos» → Speak фраз по аудио 4.2", "audio": "4.2", "exercises": [
+          {"n": 1, "type": "speak", "text": "do a course"},
+          {"n": 2, "type": "speak", "text": "make a mistake"},
+          {"n": 3, "type": "speak", "text": "do an exam"},
+          {"n": 4, "type": "speak", "text": "make a noise"},
+          {"n": 5, "type": "speak", "text": "make a phone call"},
+          {"n": 6, "type": "speak", "text": "do housework"},
+          {"n": 7, "type": "speak", "text": "make friends"},
+          {"n": 8, "type": "speak", "text": "do sport"},
+          {"n": 9, "type": "speak", "text": "make plans"},
+          {"n": 10, "type": "speak", "text": "make an excuse"}
+        ]},
+        {"id": "4A-vbact", "origin": "SB", "instruction": "Test a partner: say a phrase from 1 or 2 and ask a question with it", "note": "VB ACTIVATION → разговор с ИИ", "exercises": [
+          {"n": 1, "type": "talk", "situation": "You are a classmate in an English class (level: pre-intermediate). You practise housework phrases and make / do. Take turns asking questions with the phrases: Do you usually make your bed in the morning? Who does the ironing in your house? How often do you take out the rubbish? Do you make a lot of mistakes in English? Have you ever done a course online? Do you make plans for the weekend? Do you do sport? Answer the student’s questions too, briefly. If the student uses make instead of do (or do instead of make), repeat the correct phrase naturally.", "goal": "Ask and answer questions with housework phrases and make / do.", "opener": "Let’s test each other! Do you usually make your bed in the morning?", "criteria": ["answers at least four questions with the correct phrase", "asks at least two questions with housework phrases or make / do", "uses make and do correctly (make the bed, do the ironing, make plans, do sport)"], "steps": [{"text": "Answer: do you make your bed?", "example": "Yes, I always make my bed before breakfast."}, {"text": "Ask about the ironing", "example": "Who does the ironing in your house?"}, {"text": "Answer about mistakes or courses", "example": "I make a lot of mistakes, but I'm doing an English course."}, {"text": "Ask about plans or sport", "example": "Do you make plans for the weekend? Do you do any sport?"}]}
+        ]},
+        {"id": "4A-wb1a", "origin": "WB", "instruction": "Complete the housework phrases", "note": "WB 1a; фото WB p.26 (tools/images.py, WB_CROPS) в image, пропуск — слово целиком (первые буквы книги не даём). 1 do the washing — пример", "exercises": [
+          {"n": 2, "type": "blank", "text": "dust the {}", "image": "4a_wb1a_2", "gaps": [["furniture"]]},
+          {"n": 3, "type": "blank", "text": "do the {}", "image": "4a_wb1a_3", "gaps": [["shopping"]]},
+          {"n": 4, "type": "blank", "text": "make {}", "image": "4a_wb1a_4", "gaps": [["lunch"]]},
+          {"n": 5, "type": "blank", "text": "do the {}", "image": "4a_wb1a_5", "gaps": [["vacuuming", "hoovering"]]},
+          {"n": 6, "type": "blank", "text": "lay the {}", "image": "4a_wb1a_6", "gaps": [["table"]]},
+          {"n": 7, "type": "blank", "text": "load the {}", "image": "4a_wb1a_7", "gaps": [["dishwasher"]]},
+          {"n": 8, "type": "blank", "text": "take out the {}", "image": "4a_wb1a_8", "gaps": [["rubbish"]]}
+        ]},
+        {"id": "4A-wb1b", "origin": "WB", "instruction": "Complete the phrases with a verb from the list", "note": "WB 1b; 1 pick up — пример", "words": ["clean", "clear", "do", "make", "put away", "tidy"], "exercises": [
+          {"n": 2, "type": "blank", "text": "{} the beds, dinner", "gaps": [["make"]]},
+          {"n": 3, "type": "blank", "text": "{} your room, your desk", "gaps": [["tidy"]]},
+          {"n": 4, "type": "blank", "text": "{} the table after dinner", "gaps": [["clear"]]},
+          {"n": 5, "type": "blank", "text": "{} the floor, the bathroom", "gaps": [["clean"]]},
+          {"n": 6, "type": "blank", "text": "{} the ironing, the washing-up", "gaps": [["do"]]},
+          {"n": 7, "type": "blank", "text": "{} your clothes", "gaps": [["put away"]]}
+        ]},
+        {"id": "4A-wb1c", "origin": "WB", "instruction": "Complete the sentences with do or make", "note": "WB 1c; 1 do — пример", "words": ["do", "make"], "exercises": [
+          {"n": 2, "type": "blank", "text": "Don’t {} a noise! Mum’s asleep.", "gaps": [["make"]]},
+          {"n": 3, "type": "blank", "text": "My husband doesn’t often {} plans.", "gaps": [["make"]]},
+          {"n": 4, "type": "blank", "text": "I’m going to {} a Portuguese course before I go to Brazil.", "gaps": [["do"]]},
+          {"n": 5, "type": "blank", "text": "We always {} housework on Saturday morning.", "gaps": [["do"]]},
+          {"n": 6, "type": "blank", "text": "Some children {} friends easily when they go to school.", "gaps": [["make"]]},
+          {"n": 7, "type": "blank", "text": "I want to {} more exercise, but I don’t have much time.", "gaps": [["do"]]},
+          {"n": 8, "type": "blank", "text": "Sorry, I need to {} a phone call.", "gaps": [["make"]]}
+        ]},
+        {"id": "4A-vocabulary-x1", "origin": "GENERATED", "instruction": "Complete with make or do in the correct form.", "exercises": [
+          {"n": 1, "type": "blank", "text": "Can you help me {} the washing-up?", "gaps": [["do"]], "explain": "do the washing-up – housework with -ing uses do.", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "Please don’t {} so much noise – the baby’s sleeping.", "gaps": [["make"]], "explain": "make a noise.", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "I always {} my bed before breakfast.", "gaps": [["make"]], "explain": "make the bed.", "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "She {} a lot of sport at school – tennis, running and swimming.", "gaps": [["does", "did"]], "explain": "do sport.", "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "I’m sorry, I {} a mistake. It’s my fault.", "gaps": [["made"]], "explain": "make a mistake (past: made).", "source": "MODEL"},
+          {"n": 6, "type": "blank", "text": "My brother is {} a cooking course this summer.", "gaps": [["doing"]], "explain": "do a course.", "source": "MODEL"},
+          {"n": 7, "type": "blank", "text": "He never helps. He always {} an excuse.", "gaps": [["makes"]], "explain": "make an excuse.", "source": "MODEL"},
+          {"n": 8, "type": "blank", "text": "It’s easy to {} friends at university.", "gaps": [["make"]], "explain": "make friends.", "source": "MODEL"}
+        ]},
+        {"id": "4A-vocabulary-x2", "origin": "GENERATED", "instruction": "Complete the housework phrases with one verb.", "exercises": [
+          {"n": 1, "type": "blank", "text": "Can you {} out the rubbish? The bin is full.", "gaps": [["take"]], "explain": "take out the rubbish.", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "Dinner’s ready! Can you {} the table, please?", "gaps": [["lay"]], "explain": "lay the table = put the plates, knives and forks on it.", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "After dinner the children {} the table and put the plates in the dishwasher.", "gaps": [["clear"]], "explain": "clear the table is the opposite of lay the table.", "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "Your room is a mess! {} it now, please.", "gaps": [["Tidy"]], "explain": "tidy your room.", "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "Don’t leave your clothes on the chair – {} them away.", "gaps": [["put"]], "explain": "put away your clothes / put them away.", "source": "MODEL"},
+          {"n": 6, "type": "blank", "text": "There’s a lot of dust on the shelves. Can you {} the furniture?", "gaps": [["dust"]], "explain": "dust the furniture.", "source": "MODEL"},
+          {"n": 7, "type": "blank", "text": "Put the dirty cups in the dishwasher – I’m going to {} it now.", "gaps": [["load"]], "explain": "load the dishwasher (opposite: unload).", "source": "MODEL"}
+        ]},
+        {"id": "4A-vocabulary-x3", "origin": "GENERATED", "instruction": "Correct the mistake in each sentence. Write the sentence.", "exercises": [
+          {"n": 1, "type": "rewrite", "prompt": "I make the ironing on Sundays.", "answers": ["I do the ironing on Sundays."], "explain": "do the ironing.", "source": "MODEL"},
+          {"n": 2, "type": "rewrite", "prompt": "Who does the dinner tonight?", "answers": ["Who makes the dinner tonight?", "Who is making the dinner tonight?", "Who’s making the dinner tonight?", "Who makes dinner tonight?"], "explain": "make dinner – you produce a meal.", "source": "MODEL"},
+          {"n": 3, "type": "rewrite", "prompt": "Can you do a phone call for me?", "answers": ["Can you make a phone call for me?"], "explain": "make a phone call.", "source": "MODEL"},
+          {"n": 4, "type": "rewrite", "prompt": "Please pick dirty clothes from the floor.", "answers": ["Please pick up dirty clothes from the floor.", "Please pick up the dirty clothes from the floor.", "Please pick dirty clothes up from the floor."], "explain": "pick up (a phrasal verb) dirty clothes.", "source": "MODEL"},
+          {"n": 5, "type": "rewrite", "prompt": "We make the vacuuming every Saturday.", "answers": ["We do the vacuuming every Saturday.", "We do the hoovering every Saturday."], "explain": "do the vacuuming.", "source": "MODEL"}
+        ]}
+      ]
+    },
+    {
+      "id": "4A-grammar",
+      "kind": "GRAMMAR",
+      "title": "present perfect + yet, just, already",
+      "reference": [
+        {"type": "table", "title": "Present perfect", "headers": ["", "full form", "contraction", "past participle"], "rows": [["+", "I have / He has", "I’ve / He’s", "finished the washing-up."], ["−", "I have not / He has not", "I haven’t / He hasn’t", "finished the washing-up."], ["?", "Have you / Has he", "", "finished the washing-up?"], ["✓ ✗", "Yes, I have. / No, he hasn’t.", "", ""]], "audio": "4.4"},
+        {"type": "note", "title": "When do we use it?", "text": "Form: have / has + past participle. We use the present perfect for finished actions in the recent past, connected to now, when we don’t say exactly when: I’ve cleaned the fridge – it looks new! We also use it to give news: Mary’s had her baby! A parcel has arrived for you. Regular past participles = past simple (-ed): cleaned, finished. Irregular: done, made, been, broken, come, put (Irregular verbs p.164)."},
+        {"type": "table", "title": "yet, just, already", "headers": ["word", "where", "example"], "rows": [["yet", "at the end of ? and − sentences", "Have you finished your homework yet? No, not yet. I haven’t finished yet."], ["just", "before the main verb in + sentences = a very short time ago", "My sister’s just started a new job."], ["already", "before the main verb in + sentences = sooner than expected", "No, I’ve already seen it three times."]], "audio": "4.5"},
+        {"type": "mistake", "wrong": "I’ve cleaned the fridge ten minutes ago.", "right": "I cleaned the fridge ten minutes ago.", "why": "With an exact time (ten minutes ago, yesterday) use the past simple, not the present perfect."},
+        {"type": "mistake", "wrong": "He’s made lunch – ’s = is?", "right": "He’s made lunch. = He has made lunch.", "why": "In the present perfect ’s = has."}
+      ],
+      "tasks": [
+        {"id": "4A-sb3a", "origin": "SB", "instruction": "Look at the pictures and read the conversations. Complete them with a past participle from the list. Then listen and check", "note": "SB 3a+3b (4.3 listen and check); реплики без меток A/B, картинка разговора у пункта в image (SB p.30–31). finished — пример (вписан). Ответы по аудио 4.3", "audio": "4.3", "dialogue": true, "words": ["been", "broken", "come", "done", "made", "put", "started"], "exercises": [
+          {"n": 1, "type": "blank", "text": "Have you finished the washing-up?\nNot yet.\nHave you {} it?\nEr… yes.\nWhat’s that noise? Have you {} something?\nSorry. Only a glass.", "image": "4a_sb3a_1", "gaps": [["started"], ["broken"]], "source": "CONFIRMED"},
+          {"n": 2, "type": "blank", "text": "What’s for dinner?\nI don’t know. I haven’t {} anything. I’ve just {} home.\nIs there anything in the fridge?\nNot much. I haven’t {} to the supermarket yet.\nOh!\nMaybe you can go?", "image": "4a_sb3a_2", "gaps": [["made"], ["come"], ["been"]], "source": "CONFIRMED"},
+          {"n": 3, "type": "blank", "text": "Are you going to take the rubbish out?\nI’ve already {} it.\nAnd have you {} a new bag in the bin?\nNo, I couldn’t find the bags.", "image": "4a_sb3a_3", "gaps": [["done"], ["put"]], "source": "CONFIRMED"}
+        ]},
+        {"id": "4A-sb3c", "origin": "SB", "instruction": "Look at yet, just, and already. What do sentences 1–4 mean?", "note": "SB 3c «match 1–4 to a–d» → Blank: смысл a–d с ключевой частью в words. Ответы MODEL", "words": ["earlier than usual", "later", "ready", "very recently"], "exercises": [
+          {"n": 1, "type": "blank", "text": "He’s made lunch. = Lunch is {}.", "gaps": [["ready"]], "explain": "Present perfect: the result is important now.", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "He’s just made lunch. = He made lunch {}.", "gaps": [["very recently"]], "explain": "just = a very short time ago.", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "He’s already made lunch. = He made lunch {}.", "gaps": [["earlier than usual"]], "explain": "already = sooner than expected.", "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "He hasn’t made lunch yet. = He’s going to make lunch {}.", "gaps": [["later"]], "explain": "not… yet = it hasn’t happened, but we expect it to happen.", "source": "MODEL"}
+        ]},
+        {"id": "4A-gba", "origin": "SB_GRAMMAR_BANK", "instruction": "Write sentences or questions in the present perfect: (+) positive, (−) negative, (?) question", "note": "GB 4A a; пример без номера («He’s cleaned the car»), все 8 пунктов. Ключа нет — MODEL", "exercises": [
+          {"n": 1, "type": "rewrite", "prompt": "She / buy a new jacket", "hint": "(+)", "answers": ["She’s bought a new jacket.", "She has bought a new jacket."], "explain": "buy → bought.", "source": "MODEL"},
+          {"n": 2, "type": "rewrite", "prompt": "He / find a job yet", "hint": "(−)", "answers": ["He hasn’t found a job yet.", "He has not found a job yet."], "explain": "hasn’t + past participle; yet at the end.", "source": "MODEL"},
+          {"n": 3, "type": "rewrite", "prompt": "you / speak to Mr Jackson", "hint": "(?)", "answers": ["Have you spoken to Mr Jackson?"], "explain": "speak → spoken.", "source": "MODEL"},
+          {"n": 4, "type": "rewrite", "prompt": "We / find a fantastic hotel", "hint": "(+)", "answers": ["We’ve found a fantastic hotel.", "We have found a fantastic hotel."], "explain": "find → found.", "source": "MODEL"},
+          {"n": 5, "type": "rewrite", "prompt": "They / finish eating", "hint": "(−)", "answers": ["They haven’t finished eating.", "They have not finished eating."], "explain": "Regular: finish → finished.", "source": "MODEL"},
+          {"n": 6, "type": "rewrite", "prompt": "you / see Peter recently", "hint": "(?)", "answers": ["Have you seen Peter recently?"], "explain": "see → seen.", "source": "MODEL"},
+          {"n": 7, "type": "rewrite", "prompt": "you / do your homework", "hint": "(?)", "answers": ["Have you done your homework?"], "explain": "do → done.", "source": "MODEL"},
+          {"n": 8, "type": "rewrite", "prompt": "We / reply to their email yet", "hint": "(−)", "answers": ["We haven’t replied to their email yet.", "We have not replied to their email yet."], "explain": "reply → replied (y → ied).", "source": "MODEL"}
+        ]},
+        {"id": "4A-gbb", "origin": "SB_GRAMMAR_BANK", "instruction": "Write sentences with the present perfect and the word in brackets", "note": "GB 4A b; пример без номера («He’s already arrived»), все 8 пунктов. MODEL", "exercises": [
+          {"n": 1, "type": "rewrite", "prompt": "I / have / breakfast.", "hint": "(just)", "answers": ["I’ve just had breakfast.", "I have just had breakfast."], "explain": "just goes before the past participle.", "source": "MODEL"},
+          {"n": 2, "type": "rewrite", "prompt": "you / finish / your dinner?", "hint": "(yet)", "answers": ["Have you finished your dinner yet?"], "explain": "yet goes at the end of the question.", "source": "MODEL"},
+          {"n": 3, "type": "rewrite", "prompt": "The film / start.", "hint": "(already)", "answers": ["The film has already started.", "The film’s already started."], "explain": "already goes before the past participle.", "source": "MODEL"},
+          {"n": 4, "type": "rewrite", "prompt": "I / not meet / his girlfriend.", "hint": "(yet)", "answers": ["I haven’t met his girlfriend yet.", "I have not met his girlfriend yet."], "explain": "yet goes at the end of the negative sentence.", "source": "MODEL"},
+          {"n": 5, "type": "rewrite", "prompt": "They / get married.", "hint": "(just)", "answers": ["They’ve just got married.", "They have just got married.", "They’ve just gotten married."], "explain": "get → got.", "source": "MODEL"},
+          {"n": 6, "type": "rewrite", "prompt": "You’re too late. He / go / home.", "hint": "(already)", "answers": ["You’re too late. He’s already gone home.", "You’re too late. He has already gone home.", "He’s already gone home.", "He has already gone home."], "explain": "go → gone.", "source": "MODEL"},
+          {"n": 7, "type": "rewrite", "prompt": "We / speak / to him.", "hint": "(just)", "answers": ["We’ve just spoken to him.", "We have just spoken to him."], "explain": "speak → spoken.", "source": "MODEL"},
+          {"n": 8, "type": "rewrite", "prompt": "I / not read / his new book.", "hint": "(yet)", "answers": ["I haven’t read his new book yet.", "I have not read his new book yet."], "explain": "read → read /red/.", "source": "MODEL"}
+        ]},
+        {"id": "4A-sb4f", "origin": "SB", "instruction": "Look at the picture of Max’s room. What has he already done? What hasn’t he done yet? Write sentences", "note": "SB 4f Communication «Has he done it yet?» (p.104 картинка, p.106 список) → Rewrite: фраза из списка в prompt, картинка SB p.104 в images; в книге — запомнить картинку и сказать по памяти. Ответы по картинке — MODEL (п.4 и 6 сомнительны)", "images": ["4a_sb4f"], "exercises": [
+          {"n": 1, "type": "rewrite", "prompt": "make the bed", "answers": ["He hasn’t made the bed yet.", "He has not made the bed yet.", "He hasn’t made his bed yet.", "He has not made his bed yet."], "explain": "The bed is not made – his laptop is on it.", "source": "MODEL"},
+          {"n": 2, "type": "rewrite", "prompt": "tidy his desk", "answers": ["He hasn’t tidied his desk yet.", "He has not tidied his desk yet."], "explain": "The desk is still a mess. tidy → tidied.", "source": "MODEL"},
+          {"n": 3, "type": "rewrite", "prompt": "take the dog for a walk", "answers": ["He hasn’t taken the dog for a walk yet.", "He has not taken the dog for a walk yet."], "explain": "The dog is waiting with its lead.", "source": "MODEL"},
+          {"n": 4, "type": "rewrite", "prompt": "have breakfast", "answers": ["He’s already had breakfast.", "He has already had breakfast."], "explain": "There’s an empty bowl and cup on the desk.", "source": "MODEL"},
+          {"n": 5, "type": "rewrite", "prompt": "put away his clothes", "answers": ["He hasn’t put away his clothes yet.", "He has not put away his clothes yet.", "He hasn’t put his clothes away yet.", "He has not put his clothes away yet."], "explain": "His clothes are on the floor.", "source": "MODEL"},
+          {"n": 6, "type": "rewrite", "prompt": "have a shower", "answers": ["He’s already had a shower.", "He has already had a shower."], "explain": "There’s a wet towel – he’s had a shower.", "source": "MODEL"},
+          {"n": 7, "type": "rewrite", "prompt": "turn off his computer", "answers": ["He hasn’t turned off his computer yet.", "He has not turned off his computer yet.", "He hasn’t turned his computer off yet.", "He has not turned his computer off yet."], "explain": "The computer is still on.", "source": "MODEL"}
+        ]},
+        {"id": "4A-wb2a", "origin": "WB", "instruction": "Complete the conversations using the words in brackets in the present perfect. Use contractions where possible", "note": "WB 2a; 1 Has Peter arrived? — пример", "dialogue": true, "exercises": [
+          {"n": 2, "type": "blank", "text": "{} your homework?\nNo, I haven’t. I’m going to do it later.", "gaps": [["Have you done"]], "hint": "(you / do)"},
+          {"n": 3, "type": "blank", "text": "What’s for lunch?\nI don’t know. {} anything.", "gaps": [["I haven’t made", "I have not made"]], "hint": "(I / not make)"},
+          {"n": 4, "type": "blank", "text": "What’s the matter?\n{} my hand.", "gaps": [["I’ve cut", "I have cut"]], "hint": "(I / cut)"},
+          {"n": 5, "type": "blank", "text": "{} a big mistake.\nOh, no. What have you done?", "gaps": [["I’ve made", "I have made"]], "hint": "(I / make)"}
+        ]},
+        {"id": "4A-wb2b", "origin": "WB", "instruction": "Rewrite the sentences with already or yet in the correct place", "note": "WB 2b; 1 I’ve already done the washing — пример. Слово — в hint (в книге выбрать самому): already в +, yet в − и ?", "exercises": [
+          {"n": 2, "type": "rewrite", "prompt": "Have you made any plans for the weekend?", "hint": "(yet)", "answers": ["Have you made any plans for the weekend yet?"]},
+          {"n": 3, "type": "rewrite", "prompt": "We haven’t finished lunch.", "hint": "(yet)", "answers": ["We haven’t finished lunch yet.", "We have not finished lunch yet."]},
+          {"n": 4, "type": "rewrite", "prompt": "Daniel has tidied his room.", "hint": "(already)", "answers": ["Daniel has already tidied his room.", "Daniel’s already tidied his room."]},
+          {"n": 5, "type": "rewrite", "prompt": "I’ve done the ironing.", "hint": "(already)", "answers": ["I’ve already done the ironing.", "I have already done the ironing."]},
+          {"n": 6, "type": "rewrite", "prompt": "Have you been to the supermarket?", "hint": "(yet)", "answers": ["Have you been to the supermarket yet?"]},
+          {"n": 7, "type": "rewrite", "prompt": "I haven’t cleaned the bathroom.", "hint": "(yet)", "answers": ["I haven’t cleaned the bathroom yet.", "I have not cleaned the bathroom yet."]},
+          {"n": 8, "type": "rewrite", "prompt": "Edward has taken out the rubbish.", "hint": "(already)", "answers": ["Edward has already taken out the rubbish.", "Edward’s already taken out the rubbish.", "Edward has already taken the rubbish out."]}
+        ]},
+        {"id": "4A-wb2c", "origin": "WB", "instruction": "Complete the sentences. Use just + present perfect and a verb from the list. Use contractions", "note": "WB 2c; картинки WB p.27 у пункта в image; 1 ’ve just missed — пример", "words": ["clean", "do", "fall", "lay", "win"], "exercises": [
+          {"n": 2, "type": "blank", "text": "He {} off his bike.", "image": "4a_wb2c_2", "gaps": [["’s just fallen", "has just fallen"]]},
+          {"n": 3, "type": "blank", "text": "They {} the cup.", "image": "4a_wb2c_3", "gaps": [["’ve just won", "have just won"]]},
+          {"n": 4, "type": "blank", "text": "I {} the floor.", "image": "4a_wb2c_4", "gaps": [["’ve just cleaned", "have just cleaned"]]},
+          {"n": 5, "type": "blank", "text": "She {} the table.", "image": "4a_wb2c_5", "gaps": [["’s just laid", "has just laid"]]},
+          {"n": 6, "type": "blank", "text": "She {} the washing-up.", "image": "4a_wb2c_6", "gaps": [["’s just done", "has just done"]]}
+        ]},
+        {"id": "4A-wb2d", "origin": "WB", "instruction": "Complete the conversation between two flatmates. Use the present perfect and the words in brackets. Use contractions where possible", "note": "WB 2d; 1 I’ve just got on the bus — пример (вписан в первую реплику). Реплики Mark / Joe без меток", "dialogue": true, "exercises": [
+          {"n": 2, "type": "blank", "text": "Hey, Joe, where are you? Remember Matt and Tracey are coming for dinner in an hour.\nHi! I’ve just got on the bus. I’ll be home in 20 minutes. {}?", "gaps": [["Have you made dinner yet"]], "hint": "(you / make dinner / yet)"},
+          {"n": 3, "type": "blank", "text": "I’ll be home in 20 minutes. Have you made dinner yet?\nWhat? No! {}.", "gaps": [["I haven’t started yet", "I have not started yet"]], "hint": "(I / not start / yet)"},
+          {"n": 4, "type": "blank", "text": "Why not? What’s the problem?\nWe need some rice and onions.\nWhy didn’t you tell me before? {}.", "gaps": [["I’ve just been to the shop", "I have just been to the shop"]], "hint": "(I / just / be to the shop)"},
+          {"n": 5, "type": "blank", "text": "Well, don’t worry. I can go now. {}, and {}.\nOK, great. See you soon.", "gaps": [["I’ve cleaned the flat", "I have cleaned the flat"], ["I’ve already laid the table", "I have already laid the table"]], "hint": "(I / clean the flat), (I / already / lay the table)"}
+        ]},
+        {"id": "4A-wb2e", "origin": "WB", "instruction": "Write true sentences about you", "note": "WB 2e — о себе → Write", "exercises": [
+          {"n": 1, "type": "write", "prompt": "Write true sentences about your day with already, yet and just.", "questions": [{"text": "Three things you’ve already done today.", "hint": "(I’ve already…)"}, {"text": "Three things you haven’t done yet, but which you are going to do today.", "hint": "(I haven’t… yet.)"}, {"text": "One thing you’ve just done.", "hint": "(I’ve just…)"}], "criteria": ["three positive sentences with already before the past participle", "three negative sentences with yet at the end", "one sentence with just", "correct past participles (done, made, had, been)"]}
+        ]},
+        {"id": "4A-grammar-x1", "origin": "GENERATED", "instruction": "Complete with the present perfect of the verb in brackets. Use contractions.", "exercises": [
+          {"n": 1, "type": "blank", "text": "I {} my keys. I can’t find them anywhere.", "gaps": [["’ve lost", "have lost"]], "hint": "(lose)", "explain": "lose → lost; the result is important now.", "source": "MODEL"},
+          {"n": 2, "type": "blank", "text": "Great news! Anna {} her exam!", "gaps": [["’s passed", "has passed"]], "hint": "(pass)", "explain": "News → present perfect; ’s = has.", "source": "MODEL"},
+          {"n": 3, "type": "blank", "text": "{} you {} the new Star Wars film?", "gaps": [["Have"], ["seen"]], "hint": "(see)", "explain": "Have + subject + past participle: see → seen.", "source": "MODEL"},
+          {"n": 4, "type": "blank", "text": "We {} the washing-up. Can you do it?", "gaps": [["haven’t done", "have not done"]], "hint": "(not do)", "explain": "haven’t + done.", "source": "MODEL"},
+          {"n": 5, "type": "blank", "text": "Oh no! The dog {} my sandwich!", "gaps": [["’s eaten", "has eaten"]], "hint": "(eat)", "explain": "eat → eaten.", "source": "MODEL"},
+          {"n": 6, "type": "blank", "text": "My parents {} a new car. It’s red.", "gaps": [["’ve bought", "have bought"]], "hint": "(buy)", "explain": "buy → bought.", "source": "MODEL"},
+          {"n": 7, "type": "blank", "text": "Tom {} his homework yet.", "gaps": [["hasn’t finished", "has not finished"]], "hint": "(not finish)", "explain": "he → hasn’t; yet at the end.", "source": "MODEL"},
+          {"n": 8, "type": "blank", "text": "{} Sarah {} you back?", "gaps": [["Has"], ["called", "phoned"]], "hint": "(call)", "explain": "Has + she / he + past participle.", "source": "MODEL"}
+        ]},
+        {"id": "4A-grammar-x2", "origin": "GENERATED", "instruction": "Put yet, just or already in the correct place. Write the sentence.", "exercises": [
+          {"n": 1, "type": "rewrite", "prompt": "I’ve finished my homework.", "hint": "(already)", "answers": ["I’ve already finished my homework.", "I have already finished my homework."], "explain": "already goes between have and the past participle.", "source": "MODEL"},
+          {"n": 2, "type": "rewrite", "prompt": "Have you cleaned the kitchen?", "hint": "(yet)", "answers": ["Have you cleaned the kitchen yet?"], "explain": "yet goes at the end of a question.", "source": "MODEL"},
+          {"n": 3, "type": "rewrite", "prompt": "The film has started.", "hint": "(just)", "answers": ["The film has just started.", "The film’s just started."], "explain": "just = a very short time ago, before the past participle.", "source": "MODEL"},
+          {"n": 4, "type": "rewrite", "prompt": "She hasn’t replied to my message.", "hint": "(yet)", "answers": ["She hasn’t replied to my message yet.", "She has not replied to my message yet."], "explain": "yet goes at the end of a negative sentence.", "source": "MODEL"},
+          {"n": 5, "type": "rewrite", "prompt": "We’ve had lunch, thanks.", "hint": "(already)", "answers": ["We’ve already had lunch, thanks.", "We have already had lunch, thanks."], "explain": "already before the past participle.", "source": "MODEL"},
+          {"n": 6, "type": "rewrite", "prompt": "My brother has woken up.", "hint": "(just)", "answers": ["My brother has just woken up.", "My brother’s just woken up."], "explain": "wake → woken; just before the past participle.", "source": "MODEL"}
+        ]},
+        {"id": "4A-grammar-x3", "origin": "GENERATED", "instruction": "Correct the mistake in each sentence. Write the sentence.", "exercises": [
+          {"n": 1, "type": "rewrite", "prompt": "I’ve seen him yesterday.", "answers": ["I saw him yesterday."], "explain": "With a finished time (yesterday) use the past simple.", "source": "MODEL"},
+          {"n": 2, "type": "rewrite", "prompt": "Have you tidied yet your room?", "answers": ["Have you tidied your room yet?"], "explain": "yet goes at the end.", "source": "MODEL"},
+          {"n": 3, "type": "rewrite", "prompt": "She has already went home.", "answers": ["She has already gone home.", "She’s already gone home."], "explain": "Past participle of go = gone (went is past simple).", "source": "MODEL"},
+          {"n": 4, "type": "rewrite", "prompt": "We haven’t yet made the bed.", "answers": ["We haven’t made the bed yet.", "We have not made the bed yet."], "explain": "yet goes at the end of the sentence.", "source": "MODEL"},
+          {"n": 5, "type": "rewrite", "prompt": "He have just taken out the rubbish.", "answers": ["He has just taken out the rubbish.", "He’s just taken out the rubbish.", "He has just taken the rubbish out.", "He’s just taken the rubbish out."], "explain": "he / she / it + has.", "source": "MODEL"},
+          {"n": 6, "type": "rewrite", "prompt": "Did you ever do the ironing already?", "answers": ["Have you already done the ironing?", "Have you done the ironing yet?"], "explain": "Present perfect with already / yet: Have you… done…?", "source": "MODEL"}
+        ]}
+      ]
+    },
+    {
+      "id": "4A-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "the letters y and j",
+      "reference": [
+        {"type": "table", "title": "y and j at the beginning of words", "headers": ["Sound", "Word", "Examples"], "rows": [["/j/", "yacht", "yet, yes, yours, yellow, young"], ["/dʒ/", "jazz", "jet, Jess, jaws, job, jacket"]], "audio": "4.7"},
+        {"type": "note", "title": null, "text": "At the beginning of a word y is pronounced /j/ (like the y in you) and j is pronounced /dʒ/ (like the j in jazz). Don’t pronounce yet like jet!"}
+      ],
+      "tasks": [
+        {"id": "4A-sb4a", "origin": "SB", "instruction": "Listen and repeat the words and sounds", "note": "SB 4a → Speak слов-звуков по аудио 4.6", "audio": "4.6", "exercises": [
+          {"n": 1, "type": "speak", "text": "yacht"},
+          {"n": 2, "type": "speak", "text": "jazz"}
+        ]},
+        {"id": "4A-sb4b", "origin": "SB", "instruction": "Listen and repeat the pairs of words", "note": "SB 4b → Speak пар по аудио 4.7; вопрос «How are the letters pronounced?» — в reference", "audio": "4.7", "exercises": [
+          {"n": 1, "type": "speak", "text": "yet, jet"},
+          {"n": 2, "type": "speak", "text": "yes, Jess"},
+          {"n": 3, "type": "speak", "text": "yours, jaws"}
+        ]},
+        {"id": "4A-sb4c", "origin": "SB", "instruction": "Listen. Which word did you hear?", "note": "SB 4c → Blank с клипом на каждое слово, пара в hint. Ответы по транскрипту 4.8", "audio": "4.8", "exercises": [
+          {"n": 1, "type": "blank", "text": "{}", "gaps": [["yet"]], "hint": "(yet / jet)", "clip": [0.21, 1.44], "source": "CONFIRMED"},
+          {"n": 2, "type": "blank", "text": "{}", "gaps": [["Jess"]], "hint": "(yes / Jess)", "clip": [3.15, 4.42], "source": "CONFIRMED"},
+          {"n": 3, "type": "blank", "text": "{}", "gaps": [["yours"]], "hint": "(yours / jaws)", "clip": [6.16, 7.51], "source": "CONFIRMED"}
+        ]},
+        {"id": "4A-sb4d", "origin": "SB", "instruction": "Listen and write five sentences", "note": "SB 4d (диктант) → Blank: целое предложение по клипу; ответы по транскрипту 4.9", "audio": "4.9", "exercises": [
+          {"n": 1, "type": "blank", "text": "{}", "gaps": [["I’ve just bought some jeans and a jacket.", "I have just bought some jeans and a jacket."]], "clip": [0.2, 3.4], "source": "CONFIRMED"},
+          {"n": 2, "type": "blank", "text": "{}", "gaps": [["Have you used your new computer yet?"]], "clip": [6.19, 9.25], "source": "CONFIRMED"},
+          {"n": 3, "type": "blank", "text": "{}", "gaps": [["Jane’s really enjoying her Japanese classes.", "Jane is really enjoying her Japanese classes."]], "clip": [12.11, 15.98], "source": "CONFIRMED"},
+          {"n": 4, "type": "blank", "text": "{}", "gaps": [["Do you usually argue about housework?"]], "clip": [18.7, 21.75], "source": "CONFIRMED"},
+          {"n": 5, "type": "blank", "text": "{}", "gaps": [["Is John’s birthday in June or July?"]], "clip": [24.49, 28.68], "source": "CONFIRMED"}
+        ]},
+        {"id": "4A-sb4d2", "origin": "SB", "instruction": "Practise saying the sentences", "note": "SB 4d, вторая часть → Speak по аудио 4.9", "audio": "4.9", "exercises": [
+          {"n": 1, "type": "speak", "text": "I’ve just bought some jeans and a jacket.", "clip": [0.2, 3.4]},
+          {"n": 2, "type": "speak", "text": "Have you used your new computer yet?", "clip": [6.19, 9.25]},
+          {"n": 3, "type": "speak", "text": "Jane’s really enjoying her Japanese classes.", "clip": [12.11, 15.98]},
+          {"n": 4, "type": "speak", "text": "Do you usually argue about housework?", "clip": [18.7, 21.75]},
+          {"n": 5, "type": "speak", "text": "Is John’s birthday in June or July?", "clip": [24.49, 28.68]}
+        ]},
+        {"id": "4A-wb3b", "origin": "WB", "instruction": "Practise saying the sentences", "note": "WB 3b; WB 3a (диктант) не переносили — аудио WB нет, образец — синтезатор", "exercises": [
+          {"n": 1, "type": "speak", "text": "Yesterday, John got a jet to New York."},
+          {"n": 2, "type": "speak", "text": "I’ve just got a new job!"},
+          {"n": 3, "type": "speak", "text": "A lot of young people like jazz."},
+          {"n": 4, "type": "speak", "text": "Do you want your yellow jacket?"},
+          {"n": 5, "type": "speak", "text": "The journey took over a year."}
+        ]}
+      ]
+    }
+  ]
+}

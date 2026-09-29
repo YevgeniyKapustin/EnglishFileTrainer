@@ -1,6 +1,5 @@
 package dev.eftrainer.ui.current
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -47,6 +46,7 @@ import dev.eftrainer.core.theme.EF
 import dev.eftrainer.core.theme.FilePalette
 import dev.eftrainer.core.theme.FilePalettes
 import dev.eftrainer.core.theme.Golos
+import dev.eftrainer.core.theme.Palette
 import dev.eftrainer.core.theme.T
 import dev.eftrainer.core.ui.BandInk
 import dev.eftrainer.core.ui.BottomBar
@@ -175,9 +175,12 @@ private fun ChapterBand(
                 Icon(Icons.ChevronRight, null, Modifier.size(18.dp), tint = BandInk)
             }
             Spacer(Modifier.weight(1f))
-            Box(Modifier.clip(PillShape).background(IconShade).padding(2.dp)) {
-                IconButton24(EfIcons.Gear, stringResource(R.string.settings), onSettings, tint = BandInk)
-            }
+            IconButton24(
+                EfIcons.Gear,
+                stringResource(R.string.settings),
+                onSettings,
+                tint = if (Palette.dark) Color.White else Color.Black,
+            )
         }
         if (chapter != null) {
             Text(
@@ -198,8 +201,6 @@ private fun ChapterBand(
 }
 
 private val BandHeight = 150.dp
-private val IconShade = Color.Black.copy(alpha = .22f)
-private val PillShape = RoundedCornerShape(percent = 50)
 private val QuestionMinSize = 92.dp
 private val AnswerMinSize = 88.dp
 private val QuestionTop = 46.dp

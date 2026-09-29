@@ -1,0 +1,708 @@
+{
+  "id": "12C",
+  "title": "The English File quiz",
+  "bubbles": ["Who painted that picture?", "I can’t remember."],
+  "sources": "SB p.98–99 (PDF 99–100), Grammar Bank p.148–149 (PDF 149–150), Communication p.107 and p.112 (PDF 108, 113); Revise and Check 11&12 SB p.100–101 (PDF 101–102); WB p.86–87 (PDF 85–86). Scripts 12.8 and 12.10 are not printed in the SB (answers by the recordings)",
+  "sections": [
+    {
+      "id": "12C-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "question words",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Question words",
+          "headers": ["Sound", "Words"],
+          "rows": [
+            ["witch /w/", "what, when, where, which, why"],
+            ["house /h/", "how, who, whose"]
+          ],
+          "audio": "12.8"
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "Most question words that start with wh are pronounced /w/ (what, when, where, which, why). But in who and whose the w is silent and they start with /h/: who /huː/, whose /huːz/."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "12C-sb1a",
+          "origin": "SB",
+          "instruction": "How do you pronounce these question words? Put them in the correct row. Then listen and check",
+          "note": "SB 1a + 1b (12.8) → Sort по двум звукам, клип — ряд слов в 12.8",
+          "audio": "12.8",
+          "columns": ["witch /w/", "house /h/"],
+          "exercises": [
+            {"n": 1, "type": "sort", "word": "[h]ow", "column": 2, "source": "CONFIRMED", "clip": [17.4, 32.35]},
+            {"n": 2, "type": "sort", "word": "[wh]at", "column": 1, "source": "CONFIRMED", "clip": [0, 17.4]},
+            {"n": 3, "type": "sort", "word": "[wh]en", "column": 1, "source": "CONFIRMED", "clip": [0, 17.4]},
+            {"n": 4, "type": "sort", "word": "[wh]ere", "column": 1, "source": "CONFIRMED", "clip": [0, 17.4]},
+            {"n": 5, "type": "sort", "word": "[wh]ich", "column": 1, "source": "CONFIRMED", "clip": [0, 17.4]},
+            {"n": 6, "type": "sort", "word": "[wh]o", "column": 2, "explain": "who /huː/ – the w is silent.", "source": "CONFIRMED", "clip": [17.4, 32.35]},
+            {"n": 7, "type": "sort", "word": "[wh]ose", "column": 2, "explain": "whose /huːz/ – the w is silent.", "source": "CONFIRMED", "clip": [17.4, 32.35]},
+            {"n": 8, "type": "sort", "word": "[wh]y", "column": 1, "source": "CONFIRMED", "clip": [0, 17.4]}
+          ]
+        },
+        {
+          "id": "12C-sb1b",
+          "origin": "SB",
+          "instruction": "Listen and practise saying the question words",
+          "note": "SB 1b «Listen and check» → Speak по рядам 12.8",
+          "audio": "12.8",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "witch: what, when, where, which, why", "clip": [0, 17.4]},
+            {"n": 2, "type": "speak", "text": "house: how, who, whose", "clip": [17.4, 32.35]}
+          ]
+        },
+        {
+          "id": "12C-wb1a",
+          "origin": "WB",
+          "instruction": "Do the words start with the same sound? Write same or different",
+          "note": "WB 1a «Tick the words that start with the same sound» → Blank same / different; 1 who–how — пример",
+          "words": ["same", "different"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "where – when: {}", "gaps": [["same"]]},
+            {"n": 3, "type": "blank", "text": "what – whose: {}", "gaps": [["different"]]},
+            {"n": 4, "type": "blank", "text": "when – who: {}", "gaps": [["different"]]},
+            {"n": 5, "type": "blank", "text": "how – whose: {}", "gaps": [["same"]]},
+            {"n": 6, "type": "blank", "text": "why – what: {}", "gaps": [["same"]]},
+            {"n": 7, "type": "blank", "text": "which – whose: {}", "gaps": [["different"]]}
+          ]
+        },
+        {
+          "id": "12C-wb1b",
+          "origin": "WB",
+          "instruction": "Listen and repeat the words",
+          "note": "WB 1b (трек WB 12.3 — аудио WB нет): Speak пар из 1a, образец — синтезатор",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "who, how"},
+            {"n": 2, "type": "speak", "text": "where, when"},
+            {"n": 3, "type": "speak", "text": "what, whose"},
+            {"n": 4, "type": "speak", "text": "when, who"},
+            {"n": 5, "type": "speak", "text": "how, whose"},
+            {"n": 6, "type": "speak", "text": "why, what"},
+            {"n": 7, "type": "speak", "text": "which, whose"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12C-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "revision of question words",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Question words",
+          "headers": ["Word", "Asks about", "Example"],
+          "rows": [
+            ["what", "a thing / an action", "What are you going to do after class?"],
+            ["which", "a choice from a limited group", "Which do you find more difficult, speaking or listening?"],
+            ["who", "a person", "Who do you usually sit next to?"],
+            ["whose", "a possession", "Whose pronunciation is the best?"],
+            ["where", "a place", "Where would you go?"],
+            ["when", "a time", "When would your ideal time be?"],
+            ["why", "a reason", "Why is orange juice bad for your teeth?"],
+            ["how", "the way / manner", "How do you usually get to class?"],
+            ["how many / how often / how long", "number / frequency / time", "How often have you missed a class?"]
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "12C-sb1c",
+          "origin": "SB",
+          "instruction": "Your English course. Complete the questions with a question word. One word is used three times",
+          "note": "SB 1c; слова из 1a. MODEL",
+          "words": ["how", "what", "when", "where", "which", "who", "whose", "why"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "{} do you usually get to class: on foot, by car, or on public transport?", "gaps": [["How"]], "explain": "How = in what way.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "{} do you usually sit next to?", "gaps": [["Who"]], "explain": "Who – a person.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "{} are you going to do after this class?", "gaps": [["What"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "{} many different teachers have you had since you started learning English?", "gaps": [["How"]], "explain": "How many + plural noun.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "In your class, {} pronunciation do you think is the best?", "gaps": [["whose"]], "explain": "whose – which person’s.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "{} often have you missed a class?", "gaps": [["How"]], "explain": "How often – frequency. How is the word used three times.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "If you could go to an English-speaking country on holiday, {} would you go?", "gaps": [["where"]], "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "{} would your ideal time be to have English classes?", "gaps": [["When"]], "source": "MODEL"},
+            {"n": 9, "type": "blank", "text": "{} do you find more difficult, speaking or listening?", "gaps": [["Which"]], "explain": "Which – a choice between two things.", "source": "MODEL"},
+            {"n": 10, "type": "blank", "text": "Are you going to carry on with English? {} (not)?", "gaps": [["Why"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12C-wb2",
+          "origin": "WB",
+          "instruction": "Complete the questions in the English File quiz with a word from the list",
+          "note": "WB 2; 1 Where — пример",
+          "words": ["how", "what", "when", "which", "who", "whose", "why"],
+          "images": ["12c_wb2_twins"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "{} does Maggie Alderson do? – She’s a journalist.", "gaps": [["What"]]},
+            {"n": 3, "type": "blank", "text": "{} is the lead singer of Arctic Monkeys? – Alex Turner.", "gaps": [["Who"]]},
+            {"n": 4, "type": "blank", "text": "{} is orange juice bad for your teeth? – Because there’s a lot of acid in it.", "gaps": [["Why"]]},
+            {"n": 5, "type": "blank", "text": "{} was the saxophone invented? – In 1846.", "gaps": [["When"]]},
+            {"n": 6, "type": "blank", "text": "{} of these sports uses a net: volleyball, rugby, or karate? – Volleyball.", "gaps": [["Which"]]},
+            {"n": 7, "type": "blank", "text": "{} long has Chloe been afraid of buttons? – Since she was a baby.", "gaps": [["How"]]},
+            {"n": 8, "type": "blank", "text": "{} illustrations of happiness have appeared on Facebook? – Ralph Lazar and Lisa Swerling’s.", "gaps": [["Whose"]]}
+          ]
+        },
+        {
+          "id": "12C-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the questions with a question word.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "{} is your birthday? – In May.", "gaps": [["When"]], "explain": "When – a time.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "{} were you late? – Because I missed the bus.", "gaps": [["Why"]], "explain": "Why – a reason; the answer starts with because.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "{} is this bag? – It’s Anna’s.", "gaps": [["Whose"]], "explain": "Whose – a possession.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "{} do you prefer, tea or coffee? – Coffee.", "gaps": [["Which"]], "explain": "Which – a choice from a small group.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "{} did you park the car? – Next to the station.", "gaps": [["Where"]], "explain": "Where – a place.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "{} is your new boss like? – She’s very friendly.", "gaps": [["What"]], "explain": "What is somebody like? – personality.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "{} old is your grandmother? – She’s 85.", "gaps": [["How"]], "explain": "How old – age.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "{} did you go to the party with? – With my cousin.", "gaps": [["Who"]], "explain": "Who – a person.", "source": "MODEL"},
+            {"n": 9, "type": "blank", "text": "{} much does this jacket cost? – €60.", "gaps": [["How"]], "explain": "How much – price or uncountable amount.", "source": "MODEL"},
+            {"n": 10, "type": "blank", "text": "{} long does it take to get to work? – About 20 minutes.", "gaps": [["How"]], "explain": "How long – time.", "source": "MODEL"},
+            {"n": 11, "type": "blank", "text": "{} time does the film start? – At half past eight.", "gaps": [["What"]], "explain": "What time – the exact time.", "source": "MODEL"},
+            {"n": 12, "type": "blank", "text": "{} far is the airport from here? – About 30 kilometres.", "gaps": [["How"]], "explain": "How far – distance.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12C-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Write the question for the answer. Use the question word in brackets.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "I live in Madrid. (Where)", "answers": ["Where do you live?"], "explain": "Where + do + subject + infinitive.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "I go swimming twice a week. (How often)", "answers": ["How often do you go swimming?"], "explain": "How often – frequency.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "That’s my brother’s car. (Whose)", "answers": ["Whose car is that?", "Whose is that car?"], "explain": "Whose + noun + be.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "I left because I was tired. (Why)", "answers": ["Why did you leave?"], "explain": "Past simple: Why + did + subject + infinitive.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "I’ve got two sisters. (How many)", "answers": ["How many sisters have you got?", "How many sisters do you have?"], "explain": "How many + plural noun.", "source": "MODEL"},
+            {"n": 6, "type": "rewrite", "prompt": "The concert finished at eleven. (What time)", "answers": ["What time did the concert finish?"], "explain": "What time + did + subject + infinitive.", "source": "MODEL"},
+            {"n": 7, "type": "rewrite", "prompt": "I usually go to work by bus. (How)", "answers": ["How do you usually go to work?", "How do you go to work?", "How do you usually get to work?"], "explain": "How – the way or means of transport.", "source": "MODEL"},
+            {"n": 8, "type": "rewrite", "prompt": "We’re going to stay with friends. (Who)", "answers": ["Who are you going to stay with?"], "explain": "Who + be going to + infinitive + preposition at the end.", "source": "MODEL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12C-grammar",
+      "kind": "GRAMMAR",
+      "title": "questions without auxiliaries",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Subject questions",
+          "headers": ["Subject", "Verb", ""],
+          "rows": [
+            ["Who", "painted", "The Milkmaid?"],
+            ["Which city", "has", "the most honest people?"],
+            ["How many people", "live", "near the school?"],
+            ["Who", "wants", "a cup of coffee?"]
+          ],
+          "audio": "12.9"
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "When the question word (Who?, What?, Which?, How many?, etc.) is the subject of the verb in the question, we don’t use an auxiliary verb (do / does / did): Who painted The Milkmaid? In most other questions in the present and past simple we use the auxiliary verb do / does / did + the infinitive: What music do you like?"
+        },
+        {
+          "type": "mistake",
+          "wrong": "Who did paint The Milkmaid? / What music you like?",
+          "right": "Who painted The Milkmaid? / What music do you like?",
+          "why": "No auxiliary when the question word is the subject; with an object question you need do / does / did."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "12C-sb2c",
+          "origin": "SB",
+          "instruction": "Look at the quiz questions 1 and 2. Answer the questions",
+          "note": "SB 2c; квиз показан в context. SB 2a–2b (вспомнить ответы на вопросы квиза по Files 1–11) не переносили — ответы разбросаны по прошлым главам, ключа нет. MODEL",
+          "context": "1 Who painted The Milkmaid and Girl Reading a Letter?\n2 Where did Stuart find his phone?\n3 What were the couple looking at in Cartier-Bresson’s photo Couple in the Park?\n4 What kind of guided tour can you book on TripAside?\n5 Why did an Italian woman from Sonnino face six years in prison?\n6 Which city came first in the World’s Most Honest City Reader’s Digest survey?\n7 What did Captain Edward Murphy give his name to?\n8 Who wrote the short story Girl?\n9 What is the most dangerous animal or insect in the UK?\n10 What phobia does Nicole Kidman have?\n11 Who won a Golden Globe award for her role in Psycho?\n12 Who directed the 2016 film Warcraft?\n13 Who invented the saxophone?\n14 Which Harry Potter character was probably inspired by one of J.K. Rowling’s teachers?\n15 Who did Jim Springer meet for the first time when he was 39 years old?",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "The subject of the verb in question 1 is {}.", "gaps": [["Who"]], "explain": "Who painted…? – Who is the person who did the action.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "The subject of the verb in question 2 is {}.", "gaps": [["Stuart"]], "explain": "Where did Stuart find…? – Stuart did the action; where is not the subject.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Question 1 has no auxiliary: painted is in the past simple. Question 2 has the auxiliary {} + the infinitive find.", "gaps": [["did"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Questions {}, {}, {}, {} and {} are similar to question 1.", "hint": "(from the lowest number)", "gaps": [["6"], ["8"], ["11"], ["12"], ["13"]], "explain": "Which city came…, Who wrote…, Who won…, Who directed…, Who invented… – the question word is the subject, so there is no do / does / did.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12C-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Write the correct question form",
+          "note": "GB 12C a «Circle the correct question form» → Blank, варианты в hint; пример What did you do last night? Ответы MODEL",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "What {} to you?", "hint": "(happened / did happen)", "gaps": [["happened"]], "explain": "What is the subject – no auxiliary.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "What {}?", "hint": "(means this word / does this word mean)", "gaps": [["does this word mean"]], "explain": "this word is the subject, what is the object – use does.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "How many people {} to the meeting?", "hint": "(came / did come)", "gaps": [["came"]], "explain": "How many people is the subject.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Which bus {} to the city centre?", "hint": "(goes / does go)", "gaps": [["goes"]], "explain": "Which bus is the subject.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "Which film {} the most Oscars this year?", "hint": "(won / did win)", "gaps": [["won"]], "explain": "Which film is the subject.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "What {} say?", "hint": "(said the teacher / did the teacher)", "gaps": [["did the teacher"]], "explain": "the teacher is the subject, what is the object – use did.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "Who {} this cake? It’s delicious!", "hint": "(made / did make)", "gaps": [["made"]], "explain": "Who is the subject.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12C-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Write the questions. Do you know the answers?",
+          "note": "GB 12C b; пример How many Formula 1 championships did Michael Schumacher win? Ответы на вопросы викторины — в explain. MODEL",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "When {} president of the USA? (Barack Obama / become)", "gaps": [["did Barack Obama become"]], "explain": "Object question → did. Answer: in 2009.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Which US state {} with the letter ‘H’? (start)", "gaps": [["starts"]], "explain": "Which US state is the subject → starts. Answer: Hawaii.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Which books {}? (George R.R. Martin / write)", "gaps": [["did George R.R. Martin write"]], "explain": "Object question → did. Answer: A Song of Ice and Fire (Game of Thrones).", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Who {} the football World Cup in Russia in 2018? (win)", "gaps": [["won"]], "explain": "Who is the subject → won. Answer: France.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "Which sport {} the lightest ball? (use)", "gaps": [["uses"]], "explain": "Which sport is the subject → uses. Answer: table tennis.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Where {}? (the 2016 Olympics / take place)", "gaps": [["did the 2016 Olympics take place"]], "explain": "Object question → did. Answer: in Rio de Janeiro.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "Which company {}? (Steve Jobs / start)", "gaps": [["did Steve Jobs start"]], "explain": "Object question → did. Answer: Apple.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12C-sb3a",
+          "origin": "SB",
+          "instruction": "General knowledge quiz A. Complete the questions with the verb in brackets in the past simple",
+          "note": "SB 3 + Communication «General knowledge quiz» Student A (p.107); правильный ответ (в книге красным) — в explain",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Who {} the battle of Waterloo in 1815? (lose)", "gaps": [["lost"]], "explain": "Answer: Napoleon.", "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "Which American actor {} in the 2015 film The Martian? (star)", "gaps": [["starred"]], "explain": "Answer: Matt Damon.", "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "Who {} the songs which feature in the film and musical Mamma Mia? (write)", "gaps": [["wrote"]], "explain": "Answer: Abba.", "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "Which Formula One driver {} his first world championship in 2008 at the age of 23? (win)", "gaps": [["won"]], "explain": "Answer: Lewis Hamilton.", "source": "CONFIRMED"},
+            {"n": 5, "type": "blank", "text": "Which famous Roman {} ‘I came, I saw, I conquered’? (say)", "gaps": [["said"]], "explain": "Answer: Julius Caesar.", "source": "CONFIRMED"},
+            {"n": 6, "type": "blank", "text": "Who {} the world record for the 100 and 200 metres at the Beijing Olympics in 2008? (break)", "gaps": [["broke"]], "explain": "Answer: Usain Bolt.", "source": "CONFIRMED"},
+            {"n": 7, "type": "blank", "text": "Which painter {} off part of his ear? (cut)", "gaps": [["cut"]], "explain": "Answer: Van Gogh.", "source": "CONFIRMED"},
+            {"n": 8, "type": "blank", "text": "Who {} penicillin? (discover)", "gaps": [["discovered"]], "explain": "Answer: Alexander Fleming.", "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "12C-sb3b",
+          "origin": "SB",
+          "instruction": "General knowledge quiz B. Complete the questions with the verb in brackets in the past simple",
+          "note": "SB 3 + Communication «General knowledge quiz» Student B (p.112); правильный ответ (в книге красным) — в explain",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Who {} President of the USA eight years after his father had been president? (become)", "gaps": [["became"]], "explain": "Answer: George Bush.", "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "Who {} the part of Hermione Granger in the Harry Potter films? (play)", "gaps": [["played"]], "explain": "Answer: Emma Watson.", "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "Which sport {} an Olympic sport in 2016? (become)", "gaps": [["became"]], "explain": "Answer: golf.", "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "Who {} the Sistine Chapel? (paint)", "gaps": [["painted"]], "explain": "Answer: Michelangelo.", "source": "CONFIRMED"},
+            {"n": 5, "type": "blank", "text": "Who {} The Da Vinci Code? (write)", "gaps": [["wrote"]], "explain": "Answer: Dan Brown.", "source": "CONFIRMED"},
+            {"n": 6, "type": "blank", "text": "Who {} a wooden horse to enter the city of Troy? (use)", "gaps": [["used"]], "explain": "Answer: the Greeks.", "source": "CONFIRMED"},
+            {"n": 7, "type": "blank", "text": "Which famous boxer {} to fight in the Vietnam War in 1967? (refuse)", "gaps": [["refused"]], "explain": "Answer: Muhammad Ali.", "source": "CONFIRMED"},
+            {"n": 8, "type": "blank", "text": "Who {} the telephone? (invent)", "gaps": [["invented"]], "explain": "Answer: Bell.", "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "12C-wb3a",
+          "origin": "WB",
+          "instruction": "Write the correct form of the question",
+          "note": "WB 3a «Circle the correct form of the question» → Rewrite: оба варианта в prompt, ввести верный; 1 b — пример",
+          "exercises": [
+            {"n": 2, "type": "rewrite", "prompt": "How many lives do cats have? / How many lives have cats?", "answers": ["How many lives do cats have?"]},
+            {"n": 3, "type": "rewrite", "prompt": "Who did become president of France in 2017? / Who became president of France in 2017?", "answers": ["Who became president of France in 2017?"]},
+            {"n": 4, "type": "rewrite", "prompt": "Which British singer did die on 10 January 2016? / Which British singer died on 10 January 2016?", "answers": ["Which British singer died on 10 January 2016?"]},
+            {"n": 5, "type": "rewrite", "prompt": "Who did Amal Alamuddin marry in 2014? / Who Amal Alamuddin married in 2014?", "answers": ["Who did Amal Alamuddin marry in 2014?"]},
+            {"n": 6, "type": "rewrite", "prompt": "What animal went into space in 1957? / What animal did go into space in 1957?", "answers": ["What animal went into space in 1957?"]},
+            {"n": 7, "type": "rewrite", "prompt": "What invented Peter Durand in 1810? / What did Peter Durand invent in 1810?", "answers": ["What did Peter Durand invent in 1810?"]}
+          ]
+        },
+        {
+          "id": "12C-wb3b",
+          "origin": "WB",
+          "instruction": "Match the questions in a to these answers",
+          "note": "WB 3b «Match» → Blank: ответ из списка к вопросу; a Nine (вопрос 2) — пример",
+          "words": ["David Bowie.", "Emmanuel Macron.", "Gustav Klimt.", "George Clooney.", "Tin cans for food.", "A dog called Laika."],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Who painted The Kiss? – {}", "gaps": [["Gustav Klimt."]]},
+            {"n": 3, "type": "blank", "text": "Who became president of France in 2017? – {}", "gaps": [["Emmanuel Macron."]]},
+            {"n": 4, "type": "blank", "text": "Which British singer died on 10 January 2016? – {}", "gaps": [["David Bowie."]]},
+            {"n": 5, "type": "blank", "text": "Who did Amal Alamuddin marry in 2014? – {}", "gaps": [["George Clooney."]]},
+            {"n": 6, "type": "blank", "text": "What animal went into space in 1957? – {}", "gaps": [["A dog called Laika."]]},
+            {"n": 7, "type": "blank", "text": "What did Peter Durand invent in 1810? – {}", "gaps": [["Tin cans for food."]]}
+          ]
+        },
+        {
+          "id": "12C-wb3c",
+          "origin": "WB",
+          "instruction": "Complete the questions for the answers",
+          "note": "WB 3c; 1 made Mark Zuckerberg — пример. Картинки WB — к 3, 5, 6",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "How many Oscars {}? – The film La La Land won six Oscars.", "gaps": [["did La La Land win", "did the film La La Land win"]]},
+            {"n": 3, "type": "blank", "text": "Where {}? – Polar bears live in the Arctic.", "gaps": [["do polar bears live"]], "image": "12c_wb3c_bears"},
+            {"n": 4, "type": "blank", "text": "Who {} Sunflowers? – Vincent van Gogh painted Sunflowers.", "gaps": [["painted"]]},
+            {"n": 5, "type": "blank", "text": "How many Olympic medals {} for swimming? – Michael Phelps won 28 Olympic medals for swimming.", "gaps": [["did Michael Phelps win"]], "image": "12c_wb3c_phelps"},
+            {"n": 6, "type": "blank", "text": "Which country {} in the world? – India produces the most bananas in the world.", "gaps": [["produces the most bananas"]], "image": "12c_wb3c_bananas"},
+            {"n": 7, "type": "blank", "text": "Who {} the World Wide Web? – Tim Berners-Lee invented the World Wide Web.", "gaps": [["invented"]]},
+            {"n": 8, "type": "blank", "text": "When {}? – The Second World War ended in 1945.", "gaps": [["did the Second World War end"]]}
+          ]
+        },
+        {
+          "id": "12C-wb3d",
+          "origin": "WB",
+          "instruction": "Write questions",
+          "note": "WB 3d; 1 What do you usually do at weekends? — пример",
+          "exercises": [
+            {"n": 2, "type": "rewrite", "prompt": "Who / sit next to you in class?", "answers": ["Who sits next to you in class?"]},
+            {"n": 3, "type": "rewrite", "prompt": "How often / you / usually go to the cinema?", "answers": ["How often do you usually go to the cinema?"]},
+            {"n": 4, "type": "rewrite", "prompt": "Which city in your country / have the most beautiful buildings?", "answers": ["Which city in your country has the most beautiful buildings?"]},
+            {"n": 5, "type": "rewrite", "prompt": "What / you / like watch on TV?", "answers": ["What do you like watching on TV?", "What do you like to watch on TV?"]},
+            {"n": 6, "type": "rewrite", "prompt": "How many times a week / you / do sport or exercise?", "answers": ["How many times a week do you do sport or exercise?"]}
+          ]
+        },
+        {
+          "id": "12C-wb3e",
+          "origin": "WB",
+          "instruction": "Answer the questions in d about you",
+          "note": "WB 3e (свои ответы) → Write, проверяет ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Answer the questions about you in full sentences.",
+              "questions": [
+                {"text": "What do you usually do at weekends?", "hint": "(I usually…)"},
+                {"text": "Who sits next to you in class?", "hint": "(My friend… sits next to me.)"},
+                {"text": "How often do you usually go to the cinema?", "hint": "(I usually go… once a month.)"},
+                {"text": "Which city in your country has the most beautiful buildings?", "hint": "(I think…)"},
+                {"text": "What do you like watching on TV?", "hint": "(I like watching…)"},
+                {"text": "How many times a week do you do sport or exercise?", "hint": "(I do sport… times a week.)"}
+              ],
+              "criteria": [
+                "answers all six questions in full sentences",
+                "uses the present simple correctly (he / she sits, I go)",
+                "uses adverbs and expressions of frequency in the right place"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12C-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the questions with the verb in brackets. Use an auxiliary only if you need it.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Who {} the window? – Tom broke it. (break)", "gaps": [["broke"]], "explain": "Who is the subject – no auxiliary.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Who {} at the party? – I saw Kate. (you / see)", "gaps": [["did you see"]], "explain": "you is the subject, who is the object – use did.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "What {} in the kitchen? – The dog made that noise. (make that noise)", "gaps": [["made that noise"]], "explain": "What is the subject – no auxiliary.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "What {} for dinner? – We had pasta. (you / have)", "gaps": [["did you have"]], "explain": "Object question – use did.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "How many students {} the exam? – Twelve passed. (pass)", "gaps": [["passed"]], "explain": "How many students is the subject – no auxiliary.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Which team {} the match? – Liverpool won. (win)", "gaps": [["won"]], "explain": "Which team is the subject – no auxiliary.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "Who {} in that house? – My uncle lives there. (live)", "gaps": [["lives"]], "explain": "Present simple subject question: Who + verb + -s.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "Who {} for? – She works for a bank. (she / work)", "gaps": [["does she work"]], "explain": "she is the subject – use does.", "source": "MODEL"},
+            {"n": 9, "type": "blank", "text": "What {} after the concert? – Everybody went home. (happen)", "gaps": [["happened"]], "explain": "What is the subject – no auxiliary.", "source": "MODEL"},
+            {"n": 10, "type": "blank", "text": "Which bus {} to the airport? – The number 7. (go)", "gaps": [["goes"]], "explain": "Which bus is the subject – no auxiliary.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12C-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Write a question about the information in capital letters.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "SARAH called you. (Who…?)", "answers": ["Who called you?", "Who called me?"], "explain": "Asking about the subject – no auxiliary.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "Sarah called MARK. (Who…?)", "answers": ["Who did Sarah call?"], "explain": "Asking about the object – use did.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "FORTY STUDENTS came to the concert. (How many…?)", "answers": ["How many students came to the concert?"], "explain": "How many students is the subject – no auxiliary.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "Anna likes JAZZ. (What music…?)", "answers": ["What music does Anna like?"], "explain": "Asking about the object – use does.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "THE RED CAR belongs to my neighbour. (Which car…?)", "answers": ["Which car belongs to your neighbour?", "Which car belongs to my neighbour?"], "explain": "Which car is the subject – no auxiliary.", "source": "MODEL"},
+            {"n": 6, "type": "rewrite", "prompt": "Alexander Graham Bell invented THE TELEPHONE. (What…?)", "answers": ["What did Alexander Graham Bell invent?", "What did Bell invent?"], "explain": "Asking about the object – use did.", "source": "MODEL"},
+            {"n": 7, "type": "rewrite", "prompt": "SHAKESPEARE wrote Romeo and Juliet. (Who…?)", "answers": ["Who wrote Romeo and Juliet?"], "explain": "Asking about the subject – no auxiliary.", "source": "MODEL"},
+            {"n": 8, "type": "rewrite", "prompt": "A STRANGE NOISE woke me up. (What…?)", "answers": ["What woke you up?", "What woke me up?"], "explain": "What is the subject – no auxiliary.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12C-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes. If a question is correct, leave it as it is.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "Who did write this song?", "answers": ["Who wrote this song?"], "explain": "Who is the subject – no did.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "What you did last weekend?", "answers": ["What did you do last weekend?"], "explain": "Object question – did + subject + infinitive.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "How many people does work here?", "answers": ["How many people work here?"], "explain": "How many people is the subject – no does.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "Which country won the World Cup in 2018?", "answers": ["Which country won the World Cup in 2018?"], "explain": "Correct: Which country is the subject.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "Who lives in the flat upstairs?", "answers": ["Who lives in the flat upstairs?"], "explain": "Correct: subject question with verb + -s.", "source": "MODEL"},
+            {"n": 6, "type": "rewrite", "prompt": "Who did you meet at the station?", "answers": ["Who did you meet at the station?"], "explain": "Correct: who is the object, you is the subject.", "source": "MODEL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12C-skills",
+      "kind": "SKILLS",
+      "title": "Speaking",
+      "reference": [],
+      "tasks": [
+        {
+          "id": "12C-sb1d",
+          "origin": "SB",
+          "instruction": "Your English course. Ask and answer the questions",
+          "note": "SB 1d «Ask and answer the questions with a partner» → разговор с ИИ по 10 вопросам из 1c",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "A friendly end-of-course chat in an English class (level: pre-intermediate). Ask the student some of these questions about their English course, one at a time, and answer when they ask you: How do you usually get to class? Who do you usually sit next to? What are you going to do after this class? How many different teachers have you had since you started learning English? In your class, whose pronunciation do you think is the best? How often have you missed a class? If you could go to an English-speaking country on holiday, where would you go? When would your ideal time be to have English classes? Which do you find more difficult, speaking or listening? Are you going to carry on with English? Why (not)? After four or five questions, say ‘Now you ask me!’. If the student makes a mistake with question words or word order in questions, repeat the correct form naturally in your reply.",
+              "goal": "Answer questions about your English course and ask some back.",
+              "opener": "Hi! We’re almost at the end of the course. So, how do you usually get to class – on foot, by car, or on public transport?",
+              "criteria": [
+                "answers at least five questions in full sentences",
+                "asks at least three questions with the correct question word",
+                "uses the correct word order in questions (question word + auxiliary + subject + verb)",
+                "gives a reason with because at least once"
+              ],
+              "steps": [
+                {"text": "Answer questions about how you study", "example": "I usually come by bus. I sit next to my friend Olga."},
+                {"text": "Say what you find more difficult", "example": "I find listening more difficult because people speak very fast."},
+                {"text": "Ask the teacher three questions", "example": "Where would you go on holiday? Which do you find more difficult? How often have you missed a class?"},
+                {"text": "Say if you’re going to carry on with English", "example": "Yes, I’m going to carry on because I need English for my job."}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12C-sb3c",
+          "origin": "SB",
+          "instruction": "General knowledge quiz. Ask your questions and answer your partner’s",
+          "note": "SB 3 + Communication quiz A/B b–c (задать свои вопросы партнёру, ответить на его, посчитать баллы) → разговор с ИИ: ученик задаёт вопросы квиза A, ИИ задаёт вопросы квиза B",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "A general knowledge quiz game in an English class (level: pre-intermediate). The student is Student A and asks you their questions (they have three options for each: e.g. Who lost the battle of Waterloo in 1815? Napoleon; Which American actor starred in The Martian? Matt Damon; Who wrote the songs in Mamma Mia? Abba; Which Formula One driver won his first world championship in 2008? Lewis Hamilton; Which famous Roman said ‘I came, I saw, I conquered’? Julius Caesar; Who broke the world record for the 100 and 200 metres in Beijing in 2008? Usain Bolt; Which painter cut off part of his ear? Van Gogh; Who discovered penicillin? Alexander Fleming). Answer their questions, sometimes right and sometimes wrong. Then ask your questions, one at a time, each with three options: Who became President of the USA eight years after his father had been president? (Bill Clinton / Barack Obama / George Bush – George Bush); Who played Hermione Granger in the Harry Potter films? (Emma Watson / Carey Mulligan / Kate Winslet – Emma Watson); Which sport became an Olympic sport in 2016? (golf / handball / volleyball – golf); Who painted the Sistine Chapel? (Leonardo da Vinci / Michelangelo / Raphael – Michelangelo); Who wrote The Da Vinci Code? (Stephen King / John Grisham / Dan Brown – Dan Brown); Who used a wooden horse to enter the city of Troy? (the Greeks / the Romans / the Persians – the Greeks); Which famous boxer refused to fight in the Vietnam War in 1967? (Muhammad Ali / Joe Frazier / Sugar Ray Robinson – Muhammad Ali); Who invented the telephone? (Marconi / Bell / Stephens – Bell). Say if each answer is right and keep the score. At the end, say who got the most correct answers. If the student asks a subject question with did (Who did paint…?), repeat it correctly.",
+              "goal": "Ask your quiz questions correctly and answer the teacher’s questions.",
+              "opener": "Let’s play! You’re Student A. Ask me your first question – remember to give me three options.",
+              "criteria": [
+                "asks at least five quiz questions correctly without an auxiliary (Who lost…? Which painter cut…?)",
+                "gives the three options for each question",
+                "says if the teacher’s answers are right or wrong",
+                "answers the teacher’s questions in full sentences (I think Bell invented the telephone.)"
+              ],
+              "steps": [
+                {"text": "Ask your first question with three options", "example": "Who lost the battle of Waterloo in 1815? The Duke of Wellington, Bismarck, or Napoleon?"},
+                {"text": "Say if the answer is right", "example": "That’s right! / Sorry, that’s wrong – it was Napoleon."},
+                {"text": "Answer the teacher’s questions", "example": "I think Michelangelo painted the Sistine Chapel."},
+                {"text": "Say who won", "example": "I got six answers right and you got five, so I won!"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12C-review",
+      "kind": "REVIEW",
+      "title": "Revise and Check 11&12",
+      "reference": [
+        {
+          "type": "note",
+          "title": "File 11",
+          "text": "used to / didn’t use to + infinitive for past habits and states: I used to have long hair. Did you use to…? might / might not + infinitive for possibility: I might buy her a ring. She might not come. so / neither + auxiliary + I to say that you are the same: A I love travelling. B So do I. A I can’t do this. B Neither can I."
+        },
+        {
+          "type": "note",
+          "title": "File 12",
+          "text": "Past perfect (had / hadn’t + past participle) for an earlier past action: When I got to the station, the train had left. Reported speech: tenses move back (am → was, will → would, did / have done → had done); said (no person) / told + person. Subject questions have no auxiliary: Who lives next door? Other questions use do / does / did: Where did you buy that dress?"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "12C-rcg",
+          "origin": "SB",
+          "instruction": "Grammar. Complete with the correct form",
+          "note": "Revise and Check 11&12 (SB p.100) Grammar «Circle a, b, or c» → Blank, варианты в hint. Ключа нет — MODEL",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "When I was a child I {} have long hair.", "hint": "(use to / used to / used)", "gaps": [["used to"]], "explain": "Past habit: used to + infinitive.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Jack {} like sport when he was at school.", "hint": "(don’t use to / didn’t used to / didn’t use to)", "gaps": [["didn’t use to", "did not use to"]], "explain": "Negative: didn’t use to (no d after didn’t).", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "I might {} Sophie a ring for her birthday.", "hint": "(buy / to buy / buying)", "gaps": [["buy"]], "explain": "might + infinitive without to.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Sue {} come. She has to work late.", "hint": "(might no / not might / might not)", "gaps": [["might not"]], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "A I love travelling. B {}", "hint": "(So do I. / Neither do I. / So am I.)", "gaps": [["So do I."]], "explain": "Positive present simple → So do I.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "A I can’t do this exercise. B {}", "hint": "(So can I. / Neither can’t I. / Neither can I.)", "gaps": [["Neither can I."]], "explain": "Negative → Neither + positive auxiliary.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "A I went to the cinema last night. B {} What did you see?", "hint": "(So went I. / So I did. / So did I.)", "gaps": [["So did I."]], "explain": "Past simple → So did I.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "I was too late – when I got to the station, the train {}.", "hint": "(has left / had left / left)", "gaps": [["had left"]], "explain": "The train left before I got there → past perfect.", "source": "MODEL"},
+            {"n": 9, "type": "blank", "text": "When I got to the airport, I remembered that I {} the kitchen window.", "hint": "(hadn’t closed / didn’t close / haven’t closed)", "gaps": [["hadn’t closed", "had not closed"]], "source": "MODEL"},
+            {"n": 10, "type": "blank", "text": "Lisa told me that she {} to marry Nigel.", "hint": "(has wanted / want / wanted)", "gaps": [["wanted"]], "explain": "Reported speech: want → wanted.", "source": "MODEL"},
+            {"n": 11, "type": "blank", "text": "Kevin said he {} back in ten minutes.", "hint": "(would be / was / will be)", "gaps": [["would be"]], "explain": "Reported speech: will → would.", "source": "MODEL"},
+            {"n": 12, "type": "blank", "text": "Our grandfather {} that he had worked in a factory when he was young.", "hint": "(said us / told / told us)", "gaps": [["told us"]], "explain": "tell + person; say without a person.", "source": "MODEL"},
+            {"n": 13, "type": "blank", "text": "Who {} in the house next door?", "hint": "(lives / live / does live)", "gaps": [["lives"]], "explain": "Who is the subject – no auxiliary.", "source": "MODEL"},
+            {"n": 14, "type": "blank", "text": "Where {} that dress?", "hint": "(you bought / bought you / did you buy)", "gaps": [["did you buy"]], "explain": "Object question – did + subject + infinitive.", "source": "MODEL"},
+            {"n": 15, "type": "blank", "text": "How many people {} to go on the trip?", "hint": "(do want / does want / want)", "gaps": [["want"]], "explain": "How many people is the subject – no auxiliary.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12C-rcva",
+          "origin": "SB",
+          "instruction": "Vocabulary. Make nouns from the verbs",
+          "note": "Revise and Check 11&12 Vocabulary a; MODEL",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "invent → {}", "gaps": [["invention"]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "decide → {}", "gaps": [["decision"]], "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "choose → {}", "gaps": [["choice"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "invite → {}", "gaps": [["invitation"]], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "die → {}", "gaps": [["death"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12C-rcvb",
+          "origin": "SB",
+          "instruction": "Write the school subjects",
+          "note": "Revise and Check 11&12 Vocabulary b; MODEL. 4 — biology или science",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "{}: Hamlet is one of Shakespeare’s greatest plays.", "gaps": [["literature", "English literature", "English"]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "{}: 200 ÷ 8 = 25", "gaps": [["maths", "math", "mathematics"]], "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "{}: What’s the capital of Morocco?", "gaps": [["geography"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "{}: There are 20,000 species of bee in the world.", "gaps": [["biology", "science", "natural science"]], "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "{}: Augustus was the first Roman Emperor.", "gaps": [["history"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12C-rcvc",
+          "origin": "SB",
+          "instruction": "Complete the missing words",
+          "note": "Revise and Check 11&12 Vocabulary c (первые буквы в книге) → Blank со словами в words: подсказка первой буквой в приложении запрещена. MODEL",
+          "words": ["identical", "as", "similar", "like", "both"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Julia and Jane are {} twins.", "gaps": [["identical"]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "I live in the same street {} my sister.", "gaps": [["as"]], "explain": "the same… as.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Her new novel is quite {} to her last one.", "gaps": [["similar"]], "explain": "similar to.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Dave is very attractive and his son looks just {} him.", "gaps": [["like"]], "explain": "look like + person.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "My parents {} love classical music.", "gaps": [["both"]], "explain": "both goes before the main verb.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12C-rcvd",
+          "origin": "SB",
+          "instruction": "Complete with the correct time expression",
+          "note": "Revise and Check 11&12 Vocabulary d «Circle» → Blank, варианты в hint; MODEL",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "We were having a barbecue when it {} started raining.", "hint": "(suddenly / straight away)", "gaps": [["suddenly"]], "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "The doctor will see you again next week. {}, you must rest as much as possible.", "hint": "(Eventually / Meanwhile)", "gaps": [["Meanwhile"]], "explain": "Meanwhile = in the time between now and then.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "When the phone rang I answered it {}.", "hint": "(suddenly / immediately)", "gaps": [["immediately"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "It was a long journey, but {} I got home.", "hint": "(eventually / meanwhile)", "gaps": [["eventually"]], "explain": "eventually = in the end, after a long time.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "She said it was important, so I did it {}.", "hint": "(straight away / eventually)", "gaps": [["straight away"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12C-rcve",
+          "origin": "SB",
+          "instruction": "Complete the sentences with say or tell",
+          "note": "Revise and Check 11&12 Vocabulary e; MODEL",
+          "words": ["say", "tell"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "{} me a story!", "gaps": [["Tell"]], "explain": "tell somebody a story.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Did he {} that he would come back?", "gaps": [["say"]], "explain": "No person after the verb → say.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "If you see Jack, {} hello!", "gaps": [["say"]], "explain": "say hello.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "What did they {} to you?", "gaps": [["say"]], "explain": "say something to somebody.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "You should {} your teacher what happened.", "gaps": [["tell"]], "explain": "tell somebody what happened.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12C-rcpa",
+          "origin": "SB",
+          "instruction": "Pronunciation. Practise the words and sounds",
+          "note": "Revise and Check 11&12 Pronunciation a → Speak слов-звуков (трека нет, образец — синтезатор). b (Sound Bank p.166–167: назвать ещё слова на каждый звук) не переносили — открытое задание",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "ear"},
+            {"n": 2, "type": "speak", "text": "tourist"},
+            {"n": 3, "type": "speak", "text": "owl"},
+            {"n": 4, "type": "speak", "text": "boy"},
+            {"n": 5, "type": "speak", "text": "thumb"},
+            {"n": 6, "type": "speak", "text": "mother"},
+            {"n": 7, "type": "speak", "text": "right"}
+          ]
+        },
+        {
+          "id": "12C-rcpc",
+          "origin": "SB",
+          "instruction": "What sound do the pink letters have?",
+          "note": "Revise and Check 11&12 Pronunciation c → Sort по семи звукам из a; розовые буквы — как в книге. MODEL",
+          "columns": ["ear /ɪə/", "tourist /ʊə/", "owl /aʊ/", "boy /ɔɪ/", "thumb /θ/", "mother /ð/", "right /r/"],
+          "exercises": [
+            {"n": 1, "type": "sort", "word": "ma[th]s", "column": 5, "explain": "maths /θ/ – like thumb.", "source": "MODEL"},
+            {"n": 2, "type": "sort", "word": "s[ure]", "column": 2, "explain": "sure /ʃʊə/ – like tourist (also pronounced /ʃɔː/).", "source": "MODEL"},
+            {"n": 3, "type": "sort", "word": "nei[th]er", "column": 6, "explain": "neither /ð/ – like mother.", "source": "MODEL"},
+            {"n": 4, "type": "sort", "word": "f[ear]", "column": 1, "explain": "fear /ɪə/ – like ear.", "source": "MODEL"},
+            {"n": 5, "type": "sort", "word": "[wr]itten", "column": 7, "explain": "written /r/ – the w is silent.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12C-rcpd",
+          "origin": "SB",
+          "instruction": "Tap the stressed syllable",
+          "note": "Revise and Check 11&12 Pronunciation d «Underline the stressed syllable» → Stress, слоги как в книге. MODEL",
+          "exercises": [
+            {"n": 1, "type": "stress", "text": "in|de|ci|sive", "stressed": [3], "explain": "indeCIsive.", "source": "MODEL"},
+            {"n": 2, "type": "stress", "text": "i|den|ti|cal", "stressed": [2], "explain": "iDENtical.", "source": "MODEL"},
+            {"n": 3, "type": "stress", "text": "i|mme|di|ate|ly", "stressed": [2], "explain": "imMEdiately.", "source": "MODEL"},
+            {"n": 4, "type": "stress", "text": "neigh|bour", "stressed": [1], "explain": "NEIGHbour.", "source": "MODEL"},
+            {"n": 5, "type": "stress", "text": "ac|ci|dent", "stressed": [1], "explain": "ACcident.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12C-rcra",
+          "origin": "SB",
+          "instruction": "Can you understand this text? Read the two stories. What do they have in common?",
+          "note": "Revise and Check 11&12 «Can you understand this text?» a → Blank. MODEL",
+          "images": ["12c_rc_plane"],
+          "context": "Stop the plane – we want to get on!\n\nAn Italian couple ran out onto the runway of Malta’s international airport to stop a Ryanair jet from leaving for Italy without them, a Maltese court heard on Thursday.\n\nMatteo Clementi, 26, and Enrica Apollonio, 23, got stuck in terrible traffic on their way to the airport on Wednesday. When they arrived, the gate was closed and they were not allowed to board their flight back to Italy. They went to the next gate, forced open a security door, and ran towards the plane. The engines were running and the stairs had been removed, but the couple tried signalling to the pilots to let them get on. However, they were not allowed to board and were arrested by security staff.\n\nA lawyer defending them in court said that Wednesday was Enrica’s 23rd birthday. She had wanted to celebrate it with her family and friends in Italy. Instead she spent the evening in prison, and the couple were fined €2,329.\n\nFrom $20 to $1,000,000 in 30 minutes\n\nA man who found $20 in the street near San Francisco International Airport used it to play the California lottery and won $1 million, lottery spokesman Greg Parashak said on Monday.\n\nHubert Tang used the $20 to buy two lottery scratch cards at a store near the airport on Wednesday and won the top prize with one of them, Parashak told us.\n\nTang said, ‘I scratched the ticket outside the store. I told my friend who I was with that I didn’t know if it was real but I thought I had just won a million dollars.’ Tang, who works as a barman at the airport, had not played the lottery for the last ten years. He said that he planned to continue working and had not decided how to spend the money. But he said that he might leave $20 notes in different places so that other people could find them and be lucky like him.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Both stories happened at or near an {}.", "gaps": [["airport"]], "explain": "Malta’s international airport and San Francisco International Airport.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Both stories happened on a {}.", "gaps": [["Wednesday"]], "explain": "The couple missed their flight on Wednesday; Tang bought the scratch cards on Wednesday.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12C-rcrb",
+          "origin": "SB",
+          "instruction": "Read the stories again. Are the sentences true? Write each sentence so that it is true",
+          "note": "Revise and Check 11&12 «Can you understand this text?» b T/F → Rewrite: верное — как есть, неверное — исправить. Тексты — в предыдущем задании. MODEL. 1: в тексте нет вечеринки — они летели домой, а Энрика хотела отметить день рождения с семьёй → F; 6: «won the top prize» → T",
+          "images": ["12c_rc_plane"],
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "Matteo and Enrica were going to Italy for a birthday party.", "answers": ["Matteo and Enrica were going back home to Italy.", "Matteo and Enrica were flying back to Italy.", "Matteo and Enrica were going back to Italy.", "Matteo and Enrica were going home to Italy."], "explain": "False: it was their flight back to Italy; Enrica wanted to celebrate her birthday with her family, but there was no party.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "They were late because they got lost on the way to the airport.", "answers": ["They were late because they got stuck in traffic on the way to the airport.", "They were late because they got stuck in terrible traffic on the way to the airport.", "They were late because there was a lot of traffic on the way to the airport.", "They were late because of the traffic."], "explain": "False: they got stuck in terrible traffic.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "When they got to the plane, it was ready to leave.", "answers": ["When they got to the plane, it was ready to leave."], "explain": "True: the engines were running and the stairs had been removed.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "They were arrested after they’d got on the plane.", "answers": ["They were arrested before they got on the plane.", "They were arrested before they’d got on the plane.", "They were arrested before they had got on the plane.", "They were arrested but they didn’t get on the plane.", "They didn’t get on the plane."], "explain": "False: they were not allowed to board and were arrested.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "Hubert bought the lottery scratch cards in an airport shop.", "answers": ["Hubert bought the lottery scratch cards in a store near the airport.", "Hubert bought the lottery scratch cards at a store near the airport.", "Hubert bought the lottery scratch cards in a shop near the airport.", "Hubert bought the lottery scratch cards at a shop near the airport."], "explain": "False: at a store near the airport.", "source": "MODEL"},
+            {"n": 6, "type": "rewrite", "prompt": "One million dollars is the biggest prize for a scratch card.", "answers": ["One million dollars is the biggest prize for a scratch card."], "explain": "True: he won the top prize – $1 million.", "source": "MODEL"},
+            {"n": 7, "type": "rewrite", "prompt": "At first he wasn’t sure if he’d really won the prize.", "answers": ["At first he wasn’t sure if he’d really won the prize."], "explain": "True: ‘I didn’t know if it was real.’", "source": "MODEL"},
+            {"n": 8, "type": "rewrite", "prompt": "He’s decided to give all the money away to other people.", "answers": ["He hasn’t decided how to spend the money.", "He hasn’t decided how to spend the money yet.", "He has not decided how to spend the money.", "He hasn’t decided to give all the money away to other people.", "He hasn’t decided what to do with the money."], "explain": "False: he hadn’t decided how to spend it; he might leave $20 notes for other people to find.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12C-rcl",
+          "origin": "SB",
+          "instruction": "Can you understand these people? Listen and complete the sentences",
+          "note": "Revise and Check 11&12 «Can you understand these people?» 12.10 (Circle a, b, or c → Blank, варианты в hint); клип — ответ одного человека, фото — из книги. Скрипта нет — по расшифровке",
+          "audio": "12.10",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "When Mark was at school he didn’t like studying {}.", "hint": "(maths / PE / languages)", "gaps": [["languages"]], "source": "CONFIRMED", "clip": [0, 48.3], "image": "12c_rc_mark"},
+            {"n": 2, "type": "blank", "text": "Caroline’s French teacher inspired her to {}.", "hint": "(be a French teacher / continue learning French / set up a language school in Australia)", "gaps": [["continue learning French"]], "source": "CONFIRMED", "clip": [48.4, 90.9], "image": "12c_rc_caroline"},
+            {"n": 3, "type": "blank", "text": "When John has to make a decision he prefers to {}.", "hint": "(make it quickly / think about it for a long time / ask for advice)", "gaps": [["make it quickly"]], "source": "CONFIRMED", "clip": [91.0, 110.5], "image": "12c_rc_john"},
+            {"n": 4, "type": "blank", "text": "Alison has {}.", "hint": "(a twin sister / twin nephews / twin nieces)", "gaps": [["twin nephews"]], "explain": "‘My sister has got twin boys.’", "source": "CONFIRMED", "clip": [110.52, 136.9], "image": "12c_rc_alison"},
+            {"n": 5, "type": "blank", "text": "Kathy thinks that {}.", "hint": "(men gossip more than women / women gossip more than men / men and women gossip the same amount)", "gaps": [["men and women gossip the same amount"]], "source": "CONFIRMED", "clip": [137.0, 176.5], "image": "12c_rc_kathy"}
+          ]
+        },
+        {
+          "id": "12C-rcs",
+          "origin": "SB",
+          "instruction": "Can you say this in English? Talk about yourself",
+          "note": "Revise and Check 11&12 «Can you say this in English?» (6 пунктов «Can you…?», самопроверка) → один разговор с ИИ по всем пунктам",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "A friendly revision chat in an English class (level: pre-intermediate) after Files 11 and 12. Check that the student can do these things, one by one, with short questions and reactions: 1) talk about three things they used to do when they were a child; 2) say two things they might do next week; 3) respond with so or neither to these sentences, said one at a time: ‘I like pop music.’, ‘I haven’t finished this exercise yet.’, ‘I’m going out tonight.’, ‘I didn’t know the answer.’ (they can agree or not: So do I / I don’t); 4) continue these sentences with the past perfect: ‘I got to the station, but…’ and ‘When I saw him I was surprised because…’; 5) report two things somebody said to them yesterday using said or told me; 6) ask you three questions without an auxiliary verb beginning with Who, How many and Which (answer them). Keep it natural, one thing at a time; if the student makes a mistake with used to, might, so / neither, the past perfect, reported speech or subject questions, repeat the correct form naturally in your reply.",
+              "goal": "Show what you can say after Files 11 and 12.",
+              "opener": "Hi! Let’s see what you remember from Files 11 and 12. First, tell me three things you used to do when you were a child.",
+              "criteria": [
+                "uses used to / didn’t use to correctly for three childhood habits",
+                "says two plans with might / might not + infinitive",
+                "responds with so / neither + the right auxiliary",
+                "finishes both sentences with the past perfect",
+                "reports two things with said (that) / told me (that) and the tense moved back",
+                "asks three subject questions without do / does / did"
+              ],
+              "steps": [
+                {"text": "Say three things you used to do as a child", "example": "I used to play football every day. I didn’t use to like vegetables."},
+                {"text": "Say two things you might do next week", "example": "I might go to the cinema. I might not go to work on Friday."},
+                {"text": "Respond with so or neither", "example": "So do I. / Neither have I. / So am I. / Neither did I."},
+                {"text": "Finish the sentences with the past perfect", "example": "I got to the station, but the train had already left."},
+                {"text": "Report two things somebody said yesterday", "example": "My friend told me that she was going to Paris. My boss said he would be late."},
+                {"text": "Ask three questions with Who, How many and Which", "example": "Who lives next door to you? How many people work in your office? Which film won the most Oscars?"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

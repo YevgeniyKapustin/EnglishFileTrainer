@@ -1,0 +1,615 @@
+{
+  "id": "12B",
+  "title": "Think before you speak",
+  "bubbles": ["She told me that she didn’t want to marry him.", "Really? Did she say why?"],
+  "sources": "SB p.96–97 (PDF 97–98), Grammar Bank p.148–149 (PDF 149–150), Communication p.107 (PDF 108); WB p.84–85 (PDF 83–84), key WB p.95 (PDF 94). Scripts 12.3–12.7 are not printed in the SB (answers by the recordings)",
+  "sections": [
+    {
+      "id": "12B-skills",
+      "kind": "SKILLS",
+      "title": "Listening, Speaking & Reading",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Reacting to gossip",
+          "text": "You’ll never guess what’s happened. – No! That can’t be true! / Really? Did she say why? / Oh, how awful."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "12B-sb1b",
+          "origin": "SB",
+          "instruction": "Listen to the conversation between two women, Rosemary and Iris. Who are Jack and Emma? What has happened to them?",
+          "note": "SB 1a (догадка по фото) + 1b → Blank по разговору 12.3. Скрипта нет — по расшифровке",
+          "audio": "12.3",
+          "images": ["12b_sb1a"],
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Jack and Emma are Rosemary’s {}. They live at number 36.", "gaps": [["neighbours", "neighbors"]], "explain": "‘Jack and Emma? From number 36?’ – they live in the same street as Rosemary and Iris.", "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "Rosemary thinks that Jack and Emma have {} up.", "gaps": [["broken"]], "explain": "‘Jack and Emma have broken up.’", "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "12B-sb1c",
+          "origin": "SB",
+          "instruction": "Listen again and complete the sentences",
+          "note": "SB 1c «Circle a, b, or c» → Blank, варианты в hint. По расшифровке 12.3",
+          "audio": "12.3",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Rosemary thinks she heard them {}.", "hint": "(arguing / having a party / having a conversation)", "gaps": [["arguing"]], "explain": "‘I heard them shouting. They were having a terrible argument.’", "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "According to Rosemary, Emma said she was {}.", "hint": "(seeing another man / looking for a new job / going to stay with her mother)", "gaps": [["going to stay with her mother", "going to stay with her mum"]], "explain": "‘She said that she was going to stay with her mum.’", "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "Emma said she had {}.", "hint": "(left the dog with a neighbour / left the children with her sister / left the children with her mother)", "gaps": [["left the children with her sister"]], "explain": "‘She said she’d taken them to her sister’s.’", "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "Iris is going to {}.", "hint": "(tell her husband / tell her family / tell another neighbour)", "gaps": [["tell another neighbour", "tell another neighbor"]], "explain": "‘I must go and tell Mrs Jones at number 14.’", "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "12B-sb1d",
+          "origin": "SB",
+          "instruction": "Now listen to what Jack and Emma really said last night. Was Rosemary right about everything? Correct the sentences",
+          "note": "SB 1d → Rewrite: утверждения Розмари исправить по разговору 12.4. Скрипта нет — по расшифровке. MODEL",
+          "audio": "12.4",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "Jack and Emma were having a terrible argument.", "answers": ["Jack and Emma weren’t having an argument.", "Jack and Emma were not having an argument.", "Jack and Emma weren’t having a terrible argument.", "Jack and Emma were not having a terrible argument.", "Jack and Emma weren’t arguing.", "Jack and Emma were not arguing."], "explain": "They were talking from different rooms – Emma was upstairs packing, so they spoke loudly.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "Emma is leaving Jack.", "answers": ["Emma isn’t leaving Jack.", "Emma is not leaving Jack.", "Emma is going to stay with her mum.", "Emma is going to stay with her mother."], "explain": "Her mum fell over in the street and broke her leg, so Emma is going to look after her.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "Emma won’t come back.", "answers": ["Emma will come back at the weekend.", "Emma will come back.", "Emma won’t come back until the weekend.", "Emma will not come back until the weekend."], "explain": "‘I won’t come back until the weekend.’ Rosemary didn’t hear the end of the sentence.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "Emma has taken the children to her sister’s because she’s leaving Jack.", "answers": ["Emma has taken the children to her sister’s for the night.", "Emma has taken the children to her sister’s because she’s going to stay with her mum.", "Emma has taken the children to her sister’s because she is going to stay with her mum."], "explain": "The children are staying with her sister for the night; her sister will take them to school tomorrow.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12B-sb3",
+          "origin": "SB",
+          "instruction": "Ask your partner the questions. Then tell them what they said and guess which answer they invented",
+          "note": "SB 3a–d (вопросы партнёру, одно выдуманное; пересказ другому партнёру: He told me (that)… / She said (that)…; угадать выдумку) → разговор с ИИ: ученик задаёт вопросы, ИИ отвечает (одно выдумано), потом ученик пересказывает ответы reported speech",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "Speaking practice in an English class (level: pre-intermediate) about reported speech. The student asks you six questions: What’s your favourite food? Who’s your favourite singer? What are you planning to do this summer? What languages can you speak? What did you do last Saturday? Have you ever spoken to a famous person? Answer each one in one or two short sentences, as a person with a normal life; one answer (you choose which) must be invented and a little surprising, but don’t say which. When the student has asked all six, ask them to tell you what you said, as if they were telling another student, using reported speech (You told me that… / You said that…). Correct tense changes naturally (I love → you loved, I’m going to → you were going to, I can → you could, I went → you had gone, I’ve spoken → you had spoken). Finally ask them to guess which answer you invented, and tell them if they are right.",
+              "goal": "Ask six questions, report the answers with said / told, and guess the invented answer.",
+              "opener": "Hi! I’m ready for your questions. Remember – one of my answers isn’t true!",
+              "criteria": [
+                "asks all six questions correctly",
+                "reports at least four answers with said (that) or told me (that)",
+                "changes the tenses correctly in reported speech (present → past, will → would, past / present perfect → past perfect)",
+                "uses said without a person and told with a person",
+                "guesses the invented answer and gives a reason"
+              ],
+              "steps": [
+                {"text": "Ask about favourite food and favourite singer", "example": "What’s your favourite food? Who’s your favourite singer?"},
+                {"text": "Ask about plans for the summer and languages", "example": "What are you planning to do this summer? What languages can you speak?"},
+                {"text": "Ask about last Saturday and famous people", "example": "What did you do last Saturday? Have you ever spoken to a famous person?"},
+                {"text": "Report the answers with said or told", "example": "You told me that your favourite food was sushi. You said that you could speak three languages."},
+                {"text": "Guess which answer was invented", "example": "I think you invented the answer about the famous person."}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12B-sb5a",
+          "origin": "SB",
+          "instruction": "Read the text. Is it a magazine article, a traditional story, or an extract from a novel?",
+          "note": "SB 5a → Blank, варианты в hint. MODEL",
+          "context": "Blowing in the Wind\n\nOnce upon a time, in a small town in Eastern Europe, there was a man who loved gossiping. Every day he used to sit with his friends and talk about other people. ‘Can you believe she did that?’ ‘Can you believe he said that?’ ‘Did you see what she was wearing?’ And his friends told their wives, who told their neighbours, who told their friends. Some of the stories were true and some were not, but they all went round the town.\n\nOne day a wise old woman in the town asked to speak to the man. When he arrived, she gave him a feather pillow. ‘Take the pillow to the top of the hill, then cut it open and release all the feathers,’ she said. ‘But why?’ he asked. ‘Just do as I say,’ she answered, ‘and come back tomorrow.’ So the man went to the top of the hill. He cut open the pillow. All the feathers flew out, and the wind carried them in all directions.\n\nThe next day he went back to see the wise woman and he told her that he had done what she wanted. ‘Good,’ she replied. ‘Now I want you to go back up the hill with the empty pillow and refill it with the feathers.’ ‘But that’s impossible,’ said the man. ‘The feathers have blown everywhere.’",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "It’s a {}.", "hint": "(magazine article / traditional story / extract from a novel)", "gaps": [["traditional story"]], "explain": "It starts with ‘Once upon a time’ and has a wise old woman and a lesson – typical of a traditional story.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "The man loved {}.", "gaps": [["gossiping", "gossip"]], "explain": "‘…there was a man who loved gossiping.’", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "The wise woman gave him a feather {}.", "gaps": [["pillow"]], "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "He couldn’t refill the pillow because the {} had blown everywhere.", "gaps": [["feathers"]], "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12B-sb5b",
+          "origin": "SB",
+          "instruction": "What do you think the moral is? Read the end of the story and complete it",
+          "note": "SB 5b + Communication «Blowing in the wind» (p.107): конец истории → Blank на ключевые слова морали",
+          "context": "‘Your gossip is like the feathers,’ said the wise woman. ‘You can never take back what you have said, and you don’t know how far it travels and the damage it can do. From now on, I want you to think before you speak.’ And he did.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "‘Your gossip is like the {},’ said the wise woman.", "gaps": [["feathers"]], "source": "CONFIRMED"},
+            {"n": 2, "type": "blank", "text": "‘You can never take {} what you have said.’", "gaps": [["back"]], "source": "CONFIRMED"},
+            {"n": 3, "type": "blank", "text": "‘You don’t know how far it travels and the {} it can do.’", "gaps": [["damage"]], "source": "CONFIRMED"},
+            {"n": 4, "type": "blank", "text": "The moral: think before you {}.", "gaps": [["speak"]], "explain": "Words, like feathers in the wind, go everywhere and you can’t get them back.", "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "12B-sb5c",
+          "origin": "SB",
+          "instruction": "Talk about gossip. Give examples where you can",
+          "note": "SB 5c (7 вопросов для обсуждения с партнёром) + 1e (Do you and your friends ever gossip?) → разговор с ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "A relaxed conversation in an English class (level: pre-intermediate) after reading the story ‘Blowing in the Wind’ about a man who loved gossiping. Ask the student these questions, one at a time, and share short opinions of your own: Who do you think gossip more, men or women? Do men and women gossip about different things? Do older people gossip more than younger people? Do you have any friends who gossip a lot? Are you careful about what you tell them? Are people in your country interested in celebrity gossip? Are you? Do you think gossip spreads more quickly than it used to? Why? Have you ever posted gossip on social media? Ask for an example when it’s natural. If the student makes a mistake with reported speech, say / tell or the past perfect, repeat the correct form naturally in your reply.",
+              "goal": "Give your opinion about gossip and support it with examples.",
+              "opener": "That story about the feathers was interesting! So tell me – who do you think gossip more, men or women?",
+              "criteria": [
+                "answers at least five of the questions with an opinion",
+                "gives at least two real examples",
+                "uses I think… / In my opinion… to give opinions",
+                "uses reported speech at least once (My friend told me that…)"
+              ],
+              "steps": [
+                {"text": "Say who gossips more, men or women", "example": "I think women gossip more, but men gossip too – about football!"},
+                {"text": "Talk about friends who gossip", "example": "One of my friends gossips a lot, so I’m careful about what I tell her."},
+                {"text": "Talk about celebrity gossip", "example": "Lots of people in my country read celebrity gossip, but I’m not interested."},
+                {"text": "Say if gossip spreads more quickly now", "example": "Yes, because of social media. A story can go round the world in an hour."}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12B-grammar",
+      "kind": "GRAMMAR",
+      "title": "reported speech",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Reported speech",
+          "headers": ["Direct speech", "Reported speech"],
+          "rows": [
+            ["‘I love you.’", "He said (that) he loved me."],
+            ["‘I’ve just arrived.’", "She said (that) she had just arrived."],
+            ["‘We’ll come at eight.’", "He told me (that) they would come at eight."],
+            ["‘I don’t want to go to the party.’", "Jack told Anna (that) he didn’t want to go to the party."]
+          ],
+          "audio": "12.5"
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "We use reported speech to tell somebody what another person said. We often introduce it with said or told (+ person). After said or told, that is optional: He said (that) he loved me. Pronouns often change: I changes to he or she. ‘I’m tired.’ She told me (that) she was tired."
+        },
+        {
+          "type": "table",
+          "title": "Tense changes",
+          "headers": ["Direct speech", "Reported speech"],
+          "rows": [
+            ["‘I can help you.’ (can)", "He said (that) he could help me. (could)"],
+            ["‘I need help.’ (present simple)", "He said (that) he needed help. (past simple)"],
+            ["‘I’m driving.’ (present continuous)", "She said (that) she was driving. (past continuous)"],
+            ["‘I’ll call you.’ (will)", "He told me (that) he would call me. (would)"],
+            ["‘I met a girl at a party.’ (past simple)", "John told me (that) he had met a girl at a party. (past perfect)"],
+            ["‘I’ve broken my arm.’ (present perfect)", "Sara said (that) she had broken her arm. (past perfect)"]
+          ]
+        },
+        {
+          "type": "mistake",
+          "wrong": "She said me that she was tired.",
+          "right": "She told me that she was tired. / She said that she was tired.",
+          "why": "say has no person after it; tell always has a person (told me, told him)."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "12B-sb2a",
+          "origin": "SB",
+          "instruction": "Compare what Emma said with what Rosemary says that she said. Complete the reported speech",
+          "note": "SB 2a «Underline the words which are different in the highlighted reported speech» → Blank: изменившиеся слова в пропусках. MODEL",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Emma: I’m going to stay with my mum. → Rosemary: She said that she {} going to stay with {} mum.", "gaps": [["was"], ["her"]], "explain": "I → she, am → was, my → her.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Emma: I won’t come back. → Rosemary: She told him that she {} come back.", "gaps": [["wouldn’t", "would not"]], "explain": "won’t → wouldn’t.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Emma: I’ve taken the children to my sister’s. → Rosemary: She said that she’d {} the children to {} sister’s.", "gaps": [["taken"], ["her"]], "explain": "I’ve taken → she’d (had) taken; my → her.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12B-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Write the sentences in reported speech",
+          "note": "GB 12B a; пример ‘I love you.’ → He told her that he loved her. Ответы MODEL",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "‘I’m hungry.’ → Ana said that she {}.", "gaps": [["was hungry"]], "explain": "am → was.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "‘I’ll call the doctor.’ → He said he {}.", "gaps": [["would call the doctor", "’d call the doctor"]], "explain": "will → would.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "‘I’ve bought a new phone.’ → Paul told us that he {}.", "gaps": [["had bought a new phone", "’d bought a new phone"]], "explain": "present perfect → past perfect.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "‘I live in the city centre.’ → She said that she {}.", "gaps": [["lived in the city centre", "lived in the city center"]], "explain": "present simple → past simple.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "‘We can’t do it!’ → They said that they {}.", "gaps": [["couldn’t do it", "could not do it"]], "explain": "can’t → couldn’t.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "‘I saw a great film at the cinema.’ → Julie said that she {}.", "gaps": [["had seen a great film at the cinema", "’d seen a great film at the cinema"]], "explain": "past simple → past perfect.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "‘I don’t like dogs.’ → Ben told her he {}.", "gaps": [["didn’t like dogs", "did not like dogs"]], "explain": "don’t → didn’t.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12B-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Write the sentences in direct speech",
+          "note": "GB 12B b; пример He told her that he was a doctor. → ‘I’m a doctor.’ Ответы MODEL",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "She said that she was studying German. She said: ‘…’", "answers": ["I’m studying German.", "I am studying German."], "explain": "was studying → am studying; she → I.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "Tony told me that his car had broken down. Tony said: ‘…’", "answers": ["My car has broken down.", "My car’s broken down."], "explain": "had broken down → has broken down; his → my.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "Paul said that he would send me an email. Paul said: ‘…’", "answers": ["I’ll send you an email.", "I will send you an email."], "explain": "would → will; me → you.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "Wanda and Jack said they were in a hurry. Wanda and Jack said: ‘…’", "answers": ["We’re in a hurry.", "We are in a hurry."], "explain": "they were → we are.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "He said he hadn’t finished his essay yet. He said: ‘…’", "answers": ["I haven’t finished my essay yet.", "I have not finished my essay yet."], "explain": "hadn’t finished → haven’t finished; his → my.", "source": "MODEL"},
+            {"n": 6, "type": "rewrite", "prompt": "She told us that she wouldn’t arrive on time. She said: ‘…’", "answers": ["I won’t arrive on time.", "I will not arrive on time."], "explain": "wouldn’t → won’t.", "source": "MODEL"},
+            {"n": 7, "type": "rewrite", "prompt": "David said he had just arrived in London. David said: ‘…’", "answers": ["I’ve just arrived in London.", "I have just arrived in London."], "explain": "had just arrived → have just arrived.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12B-sb2c",
+          "origin": "SB",
+          "instruction": "Listen to some sentences in direct speech. Say them in reported speech. Begin He said… or She said…",
+          "note": "SB 2c (12.6): после прямой речи — пауза, затем правильный вариант → Blank с клипом прямой речи и ответа (1–2 напечатаны как пример и не переносились). По расшифровке 12.6",
+          "audio": "12.6",
+          "exercises": [
+            {"n": 3, "type": "blank", "text": "‘I didn’t see it.’ → She said that she {}.", "gaps": [["hadn’t seen it", "had not seen it"]], "source": "CONFIRMED", "clip": [16.3, 25.3]},
+            {"n": 4, "type": "blank", "text": "‘I’m hungry.’ → He said that he {}.", "gaps": [["was hungry"]], "source": "CONFIRMED", "clip": [25.3, 33.0]},
+            {"n": 5, "type": "blank", "text": "‘I’ll be late.’ → She said that she {}.", "gaps": [["would be late", "’d be late"]], "source": "CONFIRMED", "clip": [33.0, 42.0]},
+            {"n": 6, "type": "blank", "text": "‘I’ve finished.’ → He said that he {}.", "gaps": [["had finished", "’d finished"]], "source": "CONFIRMED", "clip": [42.0, 50.4]},
+            {"n": 7, "type": "blank", "text": "‘I’m coming.’ → She said that she {}.", "gaps": [["was coming"]], "source": "CONFIRMED", "clip": [50.4, 58.4]},
+            {"n": 8, "type": "blank", "text": "‘I’ll do it again.’ → He said that he {}.", "gaps": [["would do it again", "’d do it again"]], "source": "CONFIRMED", "clip": [58.4, 66.9]},
+            {"n": 9, "type": "blank", "text": "‘I had a great time.’ → She said that she {}.", "gaps": [["had had a great time", "’d had a great time"]], "explain": "past simple had → past perfect had had.", "source": "CONFIRMED", "clip": [66.9, 75.9]},
+            {"n": 10, "type": "blank", "text": "‘I’m tired.’ → He said that he {}.", "gaps": [["was tired"]], "source": "CONFIRMED", "clip": [75.9, 85.2]}
+          ]
+        },
+        {
+          "id": "12B-wb1a",
+          "origin": "WB",
+          "instruction": "Complete the reported speech with the correct ending",
+          "note": "WB 1a «Match 1–5 with a–e» → Blank: окончание из списка; 1 — e (пример)",
+          "words": ["Emma said that she had worked hard.", "Emma said that she was working hard.", "Emma said that she could work hard.", "Emma said that she would work hard."],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "‘I worked hard.’ → {}", "gaps": [["Emma said that she had worked hard."]]},
+            {"n": 3, "type": "blank", "text": "‘I’m working hard.’ → {}", "gaps": [["Emma said that she was working hard."]]},
+            {"n": 4, "type": "blank", "text": "‘I can work hard.’ → {}", "gaps": [["Emma said that she could work hard."]]},
+            {"n": 5, "type": "blank", "text": "‘I’ll work hard.’ → {}", "gaps": [["Emma said that she would work hard."]]}
+          ]
+        },
+        {
+          "id": "12B-wb1b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with reported speech",
+          "note": "WB 1b; 1 — пример (Jane said that she wanted to leave her husband)",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "‘I don’t like my wife’s parents.’ → Peter told me that he {}.", "gaps": [["didn’t like his wife’s parents", "did not like his wife’s parents"]]},
+            {"n": 3, "type": "blank", "text": "‘I’m getting divorced.’ → Katie told me that she {}.", "gaps": [["was getting divorced"]]},
+            {"n": 4, "type": "blank", "text": "‘I’ve been to the hospital.’ → Matt told me that he {}.", "gaps": [["’d been to the hospital", "had been to the hospital"]]},
+            {"n": 5, "type": "blank", "text": "‘I haven’t met my brother’s girlfriend yet.’ → Susan said that she {}.", "gaps": [["hadn’t met her brother’s girlfriend yet", "had not met her brother’s girlfriend yet"]]},
+            {"n": 6, "type": "blank", "text": "‘I saw James with another woman.’ → Robert said that he {}.", "gaps": [["’d seen James with another woman", "had seen James with another woman"]]},
+            {"n": 7, "type": "blank", "text": "‘I can’t cook.’ → Lucy told me that she {}.", "gaps": [["couldn’t cook", "could not cook"]]},
+            {"n": 8, "type": "blank", "text": "‘I won’t tell anyone.’ → Martin said that he {}.", "gaps": [["wouldn’t tell anyone", "would not tell anyone"]]},
+            {"n": 9, "type": "blank", "text": "‘I’ll speak to my boss.’ → Katherine said that she {}.", "gaps": [["’d speak to her boss", "would speak to her boss"]]},
+            {"n": 10, "type": "blank", "text": "‘I have a lot of work to do.’ → My boyfriend told me that he {}.", "gaps": [["had a lot of work to do"]]}
+          ]
+        },
+        {
+          "id": "12B-wb1c",
+          "origin": "WB",
+          "instruction": "Write the sentences in direct speech",
+          "note": "WB 1c; 1 — пример (Alice said she was busy → ‘I’m busy.’)",
+          "exercises": [
+            {"n": 2, "type": "rewrite", "prompt": "Amelia said that she wanted a cup of coffee. She said: ‘…’", "answers": ["I want a cup of coffee."]},
+            {"n": 3, "type": "rewrite", "prompt": "They told me that they hadn’t seen their new neighbours yet. They said: ‘…’", "answers": ["We haven’t seen our new neighbours yet.", "We have not seen our new neighbours yet."]},
+            {"n": 4, "type": "rewrite", "prompt": "Steve told me that he didn’t want to go to the cinema. He said: ‘…’", "answers": ["I don’t want to go to the cinema.", "I do not want to go to the cinema."]},
+            {"n": 5, "type": "rewrite", "prompt": "Helen and Paul said they would come to the party. They said: ‘…’", "answers": ["We’ll come to the party.", "We will come to the party."]},
+            {"n": 6, "type": "rewrite", "prompt": "Fabio said that he had broken his arm. He said: ‘…’", "answers": ["I’ve broken my arm.", "I have broken my arm."]},
+            {"n": 7, "type": "rewrite", "prompt": "The guide told me that the building was very old. She said: ‘…’", "answers": ["The building is very old.", "The building’s very old."]},
+            {"n": 8, "type": "rewrite", "prompt": "My friends said that they couldn’t help me. They said: ‘…’", "answers": ["We can’t help you.", "We cannot help you."]}
+          ]
+        },
+        {
+          "id": "12B-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the reported speech.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "‘I’m very busy.’ → Tom said that he {} very busy.", "gaps": [["was"]], "explain": "am → was.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "‘We live in London.’ → They told me that they {} in London.", "gaps": [["lived"]], "explain": "present simple → past simple.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "‘I’ll help you.’ → She said that she {} me.", "gaps": [["would help", "’d help"]], "explain": "will → would; you → me.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "‘I can swim.’ → My son told me that he {}.", "gaps": [["could swim"]], "explain": "can → could.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "‘I’ve lost my keys.’ → Anna said that she {} her keys.", "gaps": [["had lost", "’d lost"]], "explain": "present perfect → past perfect; my → her.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "‘I met him at university.’ → She told me that she {} him at university.", "gaps": [["had met", "’d met"]], "explain": "past simple → past perfect.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "‘We’re watching a film.’ → They said that they {} a film.", "gaps": [["were watching"]], "explain": "present continuous → past continuous.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "‘I don’t eat meat.’ → Kate told us that she {} meat.", "gaps": [["didn’t eat", "did not eat"]], "explain": "don’t → didn’t.", "source": "MODEL"},
+            {"n": 9, "type": "blank", "text": "‘I won’t be late.’ → He promised that he {} late.", "gaps": [["wouldn’t be", "would not be"]], "explain": "won’t → wouldn’t.", "source": "MODEL"},
+            {"n": 10, "type": "blank", "text": "‘My brother is ill.’ → Sam said that {} brother was ill.", "gaps": [["his"]], "explain": "Pronouns change: my → his.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12B-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Rewrite the sentences in reported speech. Begin with the words given.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "‘I love this song.’ Maria said that…", "answers": ["Maria said that she loved this song.", "Maria said that she loved that song.", "Maria said she loved this song.", "Maria said she loved that song."], "explain": "love → loved; I → she.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "‘I’m going to buy a car.’ Jack told me that…", "answers": ["Jack told me that he was going to buy a car.", "Jack told me he was going to buy a car."], "explain": "am going to → was going to.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "‘We’ve never been to Spain.’ They said that…", "answers": ["They said that they had never been to Spain.", "They said that they’d never been to Spain.", "They said they had never been to Spain.", "They said they’d never been to Spain."], "explain": "have never been → had never been.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "‘I can’t find my phone.’ Lucy said that…", "answers": ["Lucy said that she couldn’t find her phone.", "Lucy said she couldn’t find her phone.", "Lucy said that she could not find her phone."], "explain": "can’t → couldn’t; my → her.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "‘I’ll phone you tomorrow.’ He told me that…", "answers": ["He told me that he would phone me tomorrow.", "He told me that he’d phone me tomorrow.", "He told me he would phone me tomorrow.", "He told me he’d phone me tomorrow.", "He told me that he would phone me the next day.", "He told me that he’d phone me the next day."], "explain": "will → would; you → me.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12B-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes. If a sentence is correct, leave it as it is.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "She said that she is tired.", "answers": ["She said that she was tired.", "She said she was tired."], "explain": "After said, the tense moves back: is → was.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "He told that he would come.", "answers": ["He said that he would come.", "He told me that he would come.", "He said he would come.", "He told me he would come."], "explain": "tell needs a person: told me. Without a person use said.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "They said us that they were leaving.", "answers": ["They told us that they were leaving.", "They said that they were leaving.", "They told us they were leaving.", "They said they were leaving."], "explain": "say has no person after it: told us or said.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "Mike told me that he had lost his wallet.", "answers": ["Mike told me that he had lost his wallet."], "explain": "Correct: told + person; ‘I’ve lost’ → had lost.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "Anna said that she will call me later.", "answers": ["Anna said that she would call me later.", "Anna said she would call me later.", "Anna said that she’d call me later."], "explain": "will → would in reported speech.", "source": "MODEL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12B-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "say or tell?",
+      "reference": [
+        {
+          "type": "table",
+          "title": "say or tell?",
+          "headers": ["", "Use", "Example"],
+          "rows": [
+            ["say", "without an object or pronoun", "He said (that) he loved me."],
+            ["tell", "with an object or pronoun", "He told me (that) he loved me."]
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Fixed phrases",
+          "text": "say hello / goodbye, say something / nothing; tell somebody a story, tell a lie, tell the truth, tell somebody what happened."
+        },
+        {
+          "type": "mistake",
+          "wrong": "He said me (that) he loved me. / He told (that) he loved me.",
+          "right": "He told me (that) he loved me. / He said (that) he loved me.",
+          "why": "tell always needs a person after it; say never has a person directly after it."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "12B-sb2d",
+          "origin": "SB",
+          "instruction": "Complete the sentences with the correct form of say or tell",
+          "note": "SB 2d; в 8 два пропуска (tell… say). MODEL",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "‘I have a problem,’ Annie {}.", "gaps": [["said"]], "explain": "No person after the verb → said.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "Annie {} us that she had a problem.", "gaps": [["told"]], "explain": "A person (us) → told.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "Lisa {} that she was leaving her husband.", "gaps": [["said"]], "explain": "No person → said.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "He {} the teacher that he’d left his homework at home.", "gaps": [["told"]], "explain": "A person (the teacher) → told.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "His teacher {} that he didn’t believe him.", "gaps": [["said"]], "explain": "No person → said.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Can you {} Mark that I can’t meet him tonight?", "gaps": [["tell"]], "explain": "A person (Mark) → tell.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "What did you {} to her?", "gaps": [["say"]], "explain": "say something to somebody.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "When I was a child my mother used to {} us not to {} hello to people we didn’t know.", "gaps": [["tell"], ["say"]], "explain": "tell us (+ person); say hello (fixed phrase).", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12B-wb2a",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the correct word",
+          "note": "WB 2a «Circle the correct word» → Blank, варианты в hint; 1 told — пример",
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "Did Angela {} you that she wasn’t happy?", "hint": "(say / tell)", "gaps": [["tell"]]},
+            {"n": 3, "type": "blank", "text": "Janet’s husband {} that he was working late.", "hint": "(said / told)", "gaps": [["said"]]},
+            {"n": 4, "type": "blank", "text": "You {} that you didn’t like men with beards.", "hint": "(said / told)", "gaps": [["said"]]},
+            {"n": 5, "type": "blank", "text": "I {} you that I had a new girlfriend.", "hint": "(said / told)", "gaps": [["told"]]},
+            {"n": 6, "type": "blank", "text": "We {} that we were going away this weekend.", "hint": "(said / told)", "gaps": [["said"]]},
+            {"n": 7, "type": "blank", "text": "Did Paul {} that he couldn’t come tonight?", "hint": "(say / tell)", "gaps": [["say"]]},
+            {"n": 8, "type": "blank", "text": "I {} Mary that you were in a meeting.", "hint": "(said / told)", "gaps": [["told"]]},
+            {"n": 9, "type": "blank", "text": "The teacher {} that we had to do exercise 5.", "hint": "(said / told)", "gaps": [["said"]]},
+            {"n": 10, "type": "blank", "text": "You didn’t {} me that Mike had called this morning.", "hint": "(say / tell)", "gaps": [["tell"]]}
+          ]
+        },
+        {
+          "id": "12B-wb2b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with said or told",
+          "note": "WB 2b; 1 said — пример",
+          "words": ["said", "told"],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "We {} our parents that we wouldn’t be home for lunch.", "gaps": [["told"]]},
+            {"n": 3, "type": "blank", "text": "I {} you that the man she was with wasn’t her brother.", "gaps": [["told"]]},
+            {"n": 4, "type": "blank", "text": "They {} that they were going to Turkey this summer.", "gaps": [["said"]]},
+            {"n": 5, "type": "blank", "text": "Jack {} me that he didn’t have a girlfriend.", "gaps": [["told"]]},
+            {"n": 6, "type": "blank", "text": "You {} that you weren’t going out tonight.", "gaps": [["said"]]},
+            {"n": 7, "type": "blank", "text": "James {} that he was busy tonight.", "gaps": [["said"]]},
+            {"n": 8, "type": "blank", "text": "I {} that the film started at eight o’clock not seven o’clock.", "gaps": [["said"]]},
+            {"n": 9, "type": "blank", "text": "We {} our friends that we were going to get married.", "gaps": [["told"]]},
+            {"n": 10, "type": "blank", "text": "Olivia {} me that she’d seen Jack with another woman.", "gaps": [["told"]]}
+          ]
+        },
+        {
+          "id": "12B-wb2c",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the correct ending",
+          "note": "WB 2c «Match 1–5 with a–e» → Blank: окончание из списка; 1 — c (пример)",
+          "words": ["her that she looked lovely in her new dress.", "I needed to speak more in class.", "she hadn’t enjoyed her holiday.", "me that they’d always be there for me."],
+          "exercises": [
+            {"n": 2, "type": "blank", "text": "The teacher said that {}", "gaps": [["I needed to speak more in class."]]},
+            {"n": 3, "type": "blank", "text": "My parents told {}", "gaps": [["me that they’d always be there for me."]]},
+            {"n": 4, "type": "blank", "text": "When I saw my friend, I told {}", "gaps": [["her that she looked lovely in her new dress."]]},
+            {"n": 5, "type": "blank", "text": "My friend Sophie said that {}", "gaps": [["she hadn’t enjoyed her holiday."]]}
+          ]
+        },
+        {
+          "id": "12B-wb2d",
+          "origin": "WB",
+          "instruction": "Complete the sentences about things people have said to you recently, or that you have said to them",
+          "note": "WB 2d (свои ответы) → Write, проверяет ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Use reported speech and say or tell.",
+              "questions": [
+                {"text": "My neighbour told me…", "hint": "(…that she was going on holiday)"},
+                {"text": "My teacher…", "hint": "(…said that / told us that…)"},
+                {"text": "My parents…", "hint": "(…told me that…)"},
+                {"text": "When I saw my friend, I…", "hint": "(…told him that…)"},
+                {"text": "My friend…", "hint": "(…said that…)"}
+              ],
+              "criteria": [
+                "finishes all five sentences",
+                "uses said without a person and told with a person",
+                "moves the tenses back correctly (is → was, will → would, has done → had done)",
+                "changes pronouns correctly (I → he / she, my → his / her)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12B-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the correct form of say or tell.",
+          "exercises": [
+            {"n": 1, "type": "blank", "text": "Please {} me the truth.", "gaps": [["tell"]], "explain": "tell somebody the truth.", "source": "MODEL"},
+            {"n": 2, "type": "blank", "text": "She left without {} goodbye.", "gaps": [["saying"]], "explain": "say goodbye; after without → -ing.", "source": "MODEL"},
+            {"n": 3, "type": "blank", "text": "My grandfather used to {} us stories about the war.", "gaps": [["tell"]], "explain": "tell (somebody) a story.", "source": "MODEL"},
+            {"n": 4, "type": "blank", "text": "Don’t believe him. He always {} lies.", "gaps": [["tells"]], "explain": "tell a lie.", "source": "MODEL"},
+            {"n": 5, "type": "blank", "text": "What did the doctor {}? – She {} that I needed to rest.", "gaps": [["say"], ["said"]], "explain": "No person after the verb → say / said.", "source": "MODEL"},
+            {"n": 6, "type": "blank", "text": "Nobody {} me that the meeting was cancelled!", "gaps": [["told"]], "explain": "A person (me) → told.", "source": "MODEL"},
+            {"n": 7, "type": "blank", "text": "He didn’t {} anything at dinner. He was very quiet.", "gaps": [["say"]], "explain": "say something / anything.", "source": "MODEL"},
+            {"n": 8, "type": "blank", "text": "Can you {} me the way to the station?", "gaps": [["tell"]], "explain": "tell somebody the way.", "source": "MODEL"},
+            {"n": 9, "type": "blank", "text": "{} hello to your parents from me!", "gaps": [["Say"]], "explain": "say hello.", "source": "MODEL"},
+            {"n": 10, "type": "blank", "text": "I {} my boss that I was ill.", "gaps": [["told"]], "explain": "A person (my boss) → told.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12B-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes. If a sentence is correct, leave it as it is.",
+          "exercises": [
+            {"n": 1, "type": "rewrite", "prompt": "He said me that he was hungry.", "answers": ["He told me that he was hungry.", "He said that he was hungry.", "He told me he was hungry.", "He said he was hungry."], "explain": "say has no person after it: told me or said.", "source": "MODEL"},
+            {"n": 2, "type": "rewrite", "prompt": "She told that she didn’t like cats.", "answers": ["She said that she didn’t like cats.", "She told me that she didn’t like cats.", "She said she didn’t like cats.", "She told me she didn’t like cats."], "explain": "tell needs a person: told me. Or use said.", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "Can you say me what happened?", "answers": ["Can you tell me what happened?"], "explain": "tell somebody what happened.", "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "Children should always tell the truth.", "answers": ["Children should always tell the truth."], "explain": "Correct: tell the truth.", "source": "MODEL"},
+            {"n": 5, "type": "rewrite", "prompt": "He told a joke, but nobody laughed.", "answers": ["He told a joke, but nobody laughed."], "explain": "Correct: tell a joke.", "source": "MODEL"},
+            {"n": 6, "type": "rewrite", "prompt": "What did she tell to you?", "answers": ["What did she say to you?", "What did she tell you?"], "explain": "say something to somebody, or tell somebody (no to).", "source": "MODEL"},
+            {"n": 7, "type": "rewrite", "prompt": "They said goodbye and left.", "answers": ["They said goodbye and left."], "explain": "Correct: say goodbye.", "source": "MODEL"},
+            {"n": 8, "type": "rewrite", "prompt": "I said to him a lie.", "answers": ["I told him a lie.", "I told a lie to him."], "explain": "tell a lie; tell + person.", "source": "MODEL"},
+            {"n": 9, "type": "rewrite", "prompt": "Tell me about your holiday!", "answers": ["Tell me about your holiday!"], "explain": "Correct: tell somebody about something.", "source": "MODEL"},
+            {"n": 10, "type": "rewrite", "prompt": "My teacher told to us that the test was easy.", "answers": ["My teacher told us that the test was easy.", "My teacher said to us that the test was easy.", "My teacher told us the test was easy."], "explain": "tell + person with no to: told us.", "source": "MODEL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12B-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "double consonants",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Double consonants",
+          "text": "The vowel sound before a double consonant is normally short when it is the stressed syllable, e.g. gossip /ɒ/, hurry /ʌ/, written /ɪ/, happy /æ/, and letter /e/. Double consonants are usually pronounced the same as single consonants, e.g. pp = /p/."
+        },
+        {
+          "type": "table",
+          "title": "Short vowels before double consonants",
+          "headers": ["Sound", "Words"],
+          "rows": [
+            ["cat /æ/", "happy, married, accident, rabbit, baggage"],
+            ["up /ʌ/", "hurry, rubbish, funny, summer, butterfly"],
+            ["fish /ɪ/", "written, miss, bitten, different, middle"],
+            ["egg /e/", "letter, leggings, message, umbrella, tennis"],
+            ["clock /ɒ/", "gossip, offer, opposite, bottle, borrow"]
+          ],
+          "audio": "12.7"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "12B-sb4a",
+          "origin": "SB",
+          "instruction": "Put the words in the correct column. Then listen and check",
+          "note": "SB 4a «Match each group to a vowel sound» + 4b «Listen and check» → Sort по пяти звукам: по одному слову из каждой группы книги недостаточно, поэтому все слова групп; розовые буквы как в книге. По аудио 12.7",
+          "audio": "12.7",
+          "columns": ["cat /æ/", "up /ʌ/", "fish /ɪ/", "egg /e/", "clock /ɒ/"],
+          "exercises": [
+            {"n": 1, "type": "sort", "word": "g[o]ssip", "column": 5, "source": "CONFIRMED"},
+            {"n": 2, "type": "sort", "word": "[o]pposite", "column": 5, "source": "CONFIRMED"},
+            {"n": 3, "type": "sort", "word": "b[o]rrow", "column": 5, "source": "CONFIRMED"},
+            {"n": 4, "type": "sort", "word": "h[u]rry", "column": 2, "source": "CONFIRMED"},
+            {"n": 5, "type": "sort", "word": "r[u]bbish", "column": 2, "source": "CONFIRMED"},
+            {"n": 6, "type": "sort", "word": "b[u]tterfly", "column": 2, "source": "CONFIRMED"},
+            {"n": 7, "type": "sort", "word": "wr[i]tten", "column": 3, "explain": "written /ˈrɪtn/ – short /ɪ/, although write is /aɪ/.", "source": "CONFIRMED"},
+            {"n": 8, "type": "sort", "word": "d[i]fferent", "column": 3, "source": "CONFIRMED"},
+            {"n": 9, "type": "sort", "word": "m[i]ddle", "column": 3, "source": "CONFIRMED"},
+            {"n": 10, "type": "sort", "word": "h[a]ppy", "column": 1, "source": "CONFIRMED"},
+            {"n": 11, "type": "sort", "word": "[a]ccident", "column": 1, "source": "CONFIRMED"},
+            {"n": 12, "type": "sort", "word": "b[a]ggage", "column": 1, "source": "CONFIRMED"},
+            {"n": 13, "type": "sort", "word": "l[e]tter", "column": 4, "source": "CONFIRMED"},
+            {"n": 14, "type": "sort", "word": "m[e]ssage", "column": 4, "source": "CONFIRMED"},
+            {"n": 15, "type": "sort", "word": "umbr[e]lla", "column": 4, "explain": "umbrella /ʌmˈbrelə/ – the stressed syllable is brel.", "source": "CONFIRMED"}
+          ]
+        },
+        {
+          "id": "12B-sb4b",
+          "origin": "SB",
+          "instruction": "Listen and practise saying the words",
+          "note": "SB 4b «Practise saying the words» → Speak по группам 12.7",
+          "audio": "12.7",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "cat: happy, married, accident, rabbit, baggage", "clip": [0, 17.0]},
+            {"n": 2, "type": "speak", "text": "up: hurry, rubbish, funny, summer, butterfly", "clip": [17.04, 35.1]},
+            {"n": 3, "type": "speak", "text": "fish: written, miss, bitten, different, middle", "clip": [35.14, 54.0]},
+            {"n": 4, "type": "speak", "text": "egg: letter, leggings, message, umbrella, tennis", "clip": [54.02, 73.3]},
+            {"n": 5, "type": "speak", "text": "clock: gossip, offer, opposite, bottle, borrow", "clip": [73.34, 89.52]}
+          ]
+        },
+        {
+          "id": "12B-sb4c",
+          "origin": "SB",
+          "instruction": "How do you think you pronounce these words? Put them in the correct column",
+          "note": "SB 4c «Check the pronunciation and meaning with a dictionary» → Sort по тем же пяти звукам (правило: короткий гласный перед двойной согласной). MODEL",
+          "columns": ["cat /æ/", "up /ʌ/", "fish /ɪ/", "egg /e/", "clock /ɒ/"],
+          "exercises": [
+            {"n": 1, "type": "sort", "word": "k[e]ttle", "column": 4, "explain": "kettle /ˈketl/ – a thing for boiling water.", "source": "MODEL"},
+            {"n": 2, "type": "sort", "word": "n[a]nny", "column": 1, "explain": "nanny /ˈnæni/ – a woman who looks after children in their home.", "source": "MODEL"},
+            {"n": 3, "type": "sort", "word": "p[i]llow", "column": 3, "explain": "pillow /ˈpɪləʊ/ – you put your head on it in bed.", "source": "MODEL"},
+            {"n": 4, "type": "sort", "word": "p[o]ttery", "column": 5, "explain": "pottery /ˈpɒtəri/ – plates, cups, etc. made from clay.", "source": "MODEL"},
+            {"n": 5, "type": "sort", "word": "s[u]pper", "column": 2, "explain": "supper /ˈsʌpə/ – a light evening meal.", "source": "MODEL"}
+          ]
+        },
+        {
+          "id": "12B-sb4c2",
+          "origin": "SB",
+          "instruction": "Practise saying the words",
+          "note": "SB 4c → Speak (трека нет, образец — синтезатор)",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "kettle"},
+            {"n": 2, "type": "speak", "text": "nanny"},
+            {"n": 3, "type": "speak", "text": "pillow"},
+            {"n": 4, "type": "speak", "text": "pottery"},
+            {"n": 5, "type": "speak", "text": "supper"}
+          ]
+        },
+        {
+          "id": "12B-wb3a",
+          "origin": "WB",
+          "instruction": "Put the words in the correct column",
+          "note": "WB 3a «Circle any three vowel sounds in a line that are the same» (квадрат 5×5) → Sort слов из линий ключа (miss–bitten–middle — пример); звуки как в SB 4a",
+          "columns": ["cat /æ/", "up /ʌ/", "fish /ɪ/", "egg /e/", "clock /ɒ/"],
+          "exercises": [
+            {"n": 1, "type": "sort", "word": "l[e]tter", "column": 4},
+            {"n": 2, "type": "sort", "word": "t[e]nnis", "column": 4},
+            {"n": 3, "type": "sort", "word": "l[e]ggings", "column": 4},
+            {"n": 4, "type": "sort", "word": "g[o]ssip", "column": 5},
+            {"n": 5, "type": "sort", "word": "b[o]ttle", "column": 5},
+            {"n": 6, "type": "sort", "word": "[o]ffer", "column": 5},
+            {"n": 7, "type": "sort", "word": "h[a]ppy", "column": 1},
+            {"n": 8, "type": "sort", "word": "m[a]rried", "column": 1},
+            {"n": 9, "type": "sort", "word": "r[a]bbit", "column": 1},
+            {"n": 10, "type": "sort", "word": "b[a]ggage", "column": 1},
+            {"n": 11, "type": "sort", "word": "[a]ccident", "column": 1},
+            {"n": 12, "type": "sort", "word": "r[u]bbish", "column": 2},
+            {"n": 13, "type": "sort", "word": "f[u]nny", "column": 2},
+            {"n": 14, "type": "sort", "word": "s[u]mmer", "column": 2},
+            {"n": 15, "type": "sort", "word": "b[i]gger", "column": 3},
+            {"n": 16, "type": "sort", "word": "l[i]ttle", "column": 3}
+          ]
+        },
+        {
+          "id": "12B-wb3b",
+          "origin": "WB",
+          "instruction": "Listen and repeat the words",
+          "note": "WB 3b (трек WB 12.2 — аудио WB нет): Speak по линиям ключа, образец — синтезатор",
+          "exercises": [
+            {"n": 1, "type": "speak", "text": "miss, bitten, middle"},
+            {"n": 2, "type": "speak", "text": "letter, tennis, leggings"},
+            {"n": 3, "type": "speak", "text": "gossip, bottle, offer"},
+            {"n": 4, "type": "speak", "text": "happy, married, rabbit"},
+            {"n": 5, "type": "speak", "text": "rubbish, funny, summer"}
+          ]
+        }
+      ]
+    }
+  ]
+}

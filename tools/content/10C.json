@@ -2123,7 +2123,7 @@
             {
               "n": 3,
               "type": "rewrite",
-              "prompt": "where / olives / grow?",
+              "prompt": "where / olives / grow / ?",
               "answers": [
                 "Where are olives grown?"
               ]
@@ -2147,7 +2147,7 @@
             {
               "n": 6,
               "type": "rewrite",
-              "prompt": "when / vitamins / discover?",
+              "prompt": "when / vitamins / discover / ?",
               "answers": [
                 "When were vitamins discovered?"
               ]

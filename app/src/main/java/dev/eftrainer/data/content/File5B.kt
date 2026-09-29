@@ -896,22 +896,22 @@ val File5B = Chapter(
                     exercises = listOf(
                         Rewrite(
                             "5B-wb2c-02",
-                            prompt = "What / bad hotel / you / stay in?",
+                            prompt = "What / bad hotel / you / stay in / ?",
                             answers = listOf("What’s the worst hotel you’ve ever stayed in?"),
                         ),
                         Rewrite(
                             "5B-wb2c-03",
-                            prompt = "What / good holiday / you / have?",
+                            prompt = "What / good holiday / you / have / ?",
                             answers = listOf("What’s the best holiday you’ve ever had?"),
                         ),
                         Rewrite(
                             "5B-wb2c-04",
-                            prompt = "What / interesting museum / you / visit?",
+                            prompt = "What / interesting museum / you / visit / ?",
                             answers = listOf("What’s the most interesting museum you’ve ever visited?"),
                         ),
                         Rewrite(
                             "5B-wb2c-05",
-                            prompt = "What / nice restaurant / you / be to?",
+                            prompt = "What / nice restaurant / you / be to / ?",
                             answers = listOf("What’s the nicest restaurant you’ve ever been to?"),
                         ),
                     ),
@@ -1021,7 +1021,7 @@ val File5B = Chapter(
                         ),
                         Rewrite(
                             "5B-grammar-x2-03",
-                            prompt = "What / long journey / you / make?",
+                            prompt = "What / long journey / you / make / ?",
                             answers = listOf("What’s the longest journey you’ve ever made?", "What is the longest journey you have ever made?"),
                             explain = "Question: What’s the + superlative + you’ve ever…?",
                             source = AnswerSource.MODEL,
@@ -1042,7 +1042,7 @@ val File5B = Chapter(
                         ),
                         Rewrite(
                             "5B-grammar-x2-06",
-                            prompt = "Who / famous person / you / meet?",
+                            prompt = "Who / famous person / you / meet / ?",
                             answers = listOf("Who’s the most famous person you’ve ever met?", "Who is the most famous person you have ever met?"),
                             explain = "famous → the most famous.",
                             source = AnswerSource.MODEL,

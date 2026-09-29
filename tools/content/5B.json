@@ -398,10 +398,10 @@
           "instruction": "Write questions with the superlative + ever",
           "note": "WB 2c; 1 What’s the most beautiful city you’ve ever been to? — пример",
           "exercises": [
-            {"n": 2, "type": "rewrite", "prompt": "What / bad hotel / you / stay in?", "answers": ["What’s the worst hotel you’ve ever stayed in?"]},
-            {"n": 3, "type": "rewrite", "prompt": "What / good holiday / you / have?", "answers": ["What’s the best holiday you’ve ever had?"]},
-            {"n": 4, "type": "rewrite", "prompt": "What / interesting museum / you / visit?", "answers": ["What’s the most interesting museum you’ve ever visited?"]},
-            {"n": 5, "type": "rewrite", "prompt": "What / nice restaurant / you / be to?", "answers": ["What’s the nicest restaurant you’ve ever been to?"]}
+            {"n": 2, "type": "rewrite", "prompt": "What / bad hotel / you / stay in / ?", "answers": ["What’s the worst hotel you’ve ever stayed in?"]},
+            {"n": 3, "type": "rewrite", "prompt": "What / good holiday / you / have / ?", "answers": ["What’s the best holiday you’ve ever had?"]},
+            {"n": 4, "type": "rewrite", "prompt": "What / interesting museum / you / visit / ?", "answers": ["What’s the most interesting museum you’ve ever visited?"]},
+            {"n": 5, "type": "rewrite", "prompt": "What / nice restaurant / you / be to / ?", "answers": ["What’s the nicest restaurant you’ve ever been to?"]}
           ]
         },
         {
@@ -451,10 +451,10 @@
           "exercises": [
             {"n": 1, "type": "rewrite", "prompt": "It / good pizza / I / eat", "answers": ["It’s the best pizza I’ve ever eaten.", "It is the best pizza I have ever eaten."], "explain": "the best + noun + I’ve ever + past participle (eaten).", "source": "MODEL"},
             {"n": 2, "type": "rewrite", "prompt": "That / funny joke / I / hear", "answers": ["That’s the funniest joke I’ve ever heard.", "That is the funniest joke I have ever heard."], "explain": "funny → the funniest; hear → heard.", "source": "MODEL"},
-            {"n": 3, "type": "rewrite", "prompt": "What / long journey / you / make?", "answers": ["What’s the longest journey you’ve ever made?", "What is the longest journey you have ever made?"], "explain": "Question: What’s the + superlative + you’ve ever…?", "source": "MODEL"},
+            {"n": 3, "type": "rewrite", "prompt": "What / long journey / you / make / ?", "answers": ["What’s the longest journey you’ve ever made?", "What is the longest journey you have ever made?"], "explain": "Question: What’s the + superlative + you’ve ever…?", "source": "MODEL"},
             {"n": 4, "type": "rewrite", "prompt": "She / clever person / I / meet", "answers": ["She’s the cleverest person I’ve ever met.", "She is the cleverest person I have ever met.", "She’s the most clever person I’ve ever met."], "explain": "clever → the cleverest; meet → met.", "source": "MODEL"},
             {"n": 5, "type": "rewrite", "prompt": "It / boring film / we / see", "answers": ["It’s the most boring film we’ve ever seen.", "It is the most boring film we have ever seen."], "explain": "boring → the most boring; see → seen.", "source": "MODEL"},
-            {"n": 6, "type": "rewrite", "prompt": "Who / famous person / you / meet?", "answers": ["Who’s the most famous person you’ve ever met?", "Who is the most famous person you have ever met?"], "explain": "famous → the most famous.", "source": "MODEL"}
+            {"n": 6, "type": "rewrite", "prompt": "Who / famous person / you / meet / ?", "answers": ["Who’s the most famous person you’ve ever met?", "Who is the most famous person you have ever met?"], "explain": "famous → the most famous.", "source": "MODEL"}
           ]
         },
         {

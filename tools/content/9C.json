@@ -795,14 +795,14 @@
           "id": "9C-pe1a",
           "origin": "SB",
           "instruction": "Watch Rob and Holly. Correct the false sentences. If a sentence is true, leave it as it is",
-          "note": "SB PE5 1a (9.17) «mark T or F» → Rewrite: неверное исправить, верное переписать как есть. Ответы по ролику: 1 T, 2 T, 3 F (date), 4 F (Rob не хочет — кофе заказывает Холли), 5 F (Jenny), 6 F (eight)",
+          "note": "SB PE5 1a (9.17) «mark T or F» → Rewrite: неверное исправить, верное переписать как есть. Ответы по ролику: 1 T, 2 T, 3 F (date), 4 T (Холли уговаривает остаться и заказывает ещё кофе; из-за этого Роб потом опаздывает), 5 F (Jenny), 6 F (eight)",
           "video": "ep5_holly_and_rob_in_brooklyn",
           "images": ["9c_pe1_cafe"],
           "exercises": [
             {"n": 1, "type": "rewrite", "prompt": "Rob has just done an interview.", "answers": ["Rob has just done an interview."], "source": "MODEL"},
             {"n": 2, "type": "rewrite", "prompt": "He is in a hurry.", "answers": ["He is in a hurry.", "He's in a hurry."], "source": "MODEL"},
             {"n": 3, "type": "rewrite", "prompt": "He has another interview in Manhattan.", "answers": ["He has a date in Manhattan.", "He's got a date in Manhattan.", "He has got a date in Manhattan."], "source": "MODEL"},
-            {"n": 4, "type": "rewrite", "prompt": "He has another coffee.", "answers": ["He doesn't have another coffee.", "He does not have another coffee.", "He doesn't want another coffee.", "He does not want another coffee."], "source": "MODEL"},
+            {"n": 4, "type": "rewrite", "prompt": "He has another coffee.", "answers": ["He has another coffee."], "source": "MODEL"},
             {"n": 5, "type": "rewrite", "prompt": "Barbara phones Rob.", "answers": ["Jenny phones Rob.", "Jennifer phones Rob."], "source": "MODEL"},
             {"n": 6, "type": "rewrite", "prompt": "The restaurant is booked for seven o'clock.", "answers": ["The restaurant is booked for eight o'clock.", "The restaurant is booked for eight.", "The restaurant is booked for 8 o'clock.", "The restaurant is booked for 8."], "source": "MODEL"}
           ]
@@ -815,7 +815,6 @@
           "video": "ep5_holly_and_rob_in_brooklyn",
           "exercises": [
             {"n": 3, "type": "blank", "text": "He doesn't have an interview. He has a {} in Manhattan.", "gaps": [["date"]], "source": "MODEL"},
-            {"n": 4, "type": "blank", "text": "He doesn't want another coffee because he doesn't want to be {}.", "gaps": [["late"]], "source": "MODEL"},
             {"n": 5, "type": "blank", "text": "{} phones Rob. Holly answers his phone.", "gaps": [["Jenny", "Jennifer"]], "source": "MODEL"},
             {"n": 6, "type": "blank", "text": "The reservation at the restaurant is for {} o'clock.", "gaps": [["eight", "8"]], "source": "MODEL"}
           ]

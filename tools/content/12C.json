@@ -293,12 +293,12 @@
           "instruction": "Write the correct form of the question",
           "note": "WB 3a «Circle the correct form of the question» → Rewrite: оба варианта в prompt, ввести верный; 1 b — пример",
           "exercises": [
-            {"n": 2, "type": "rewrite", "prompt": "How many lives do cats have? / How many lives have cats?", "answers": ["How many lives do cats have?"]},
-            {"n": 3, "type": "rewrite", "prompt": "Who did become president of France in 2017? / Who became president of France in 2017?", "answers": ["Who became president of France in 2017?"]},
-            {"n": 4, "type": "rewrite", "prompt": "Which British singer did die on 10 January 2016? / Which British singer died on 10 January 2016?", "answers": ["Which British singer died on 10 January 2016?"]},
-            {"n": 5, "type": "rewrite", "prompt": "Who did Amal Alamuddin marry in 2014? / Who Amal Alamuddin married in 2014?", "answers": ["Who did Amal Alamuddin marry in 2014?"]},
-            {"n": 6, "type": "rewrite", "prompt": "What animal went into space in 1957? / What animal did go into space in 1957?", "answers": ["What animal went into space in 1957?"]},
-            {"n": 7, "type": "rewrite", "prompt": "What invented Peter Durand in 1810? / What did Peter Durand invent in 1810?", "answers": ["What did Peter Durand invent in 1810?"]}
+            {"n": 2, "type": "rewrite", "prompt": "How many lives do cats have? / How many lives have cats?", "answers": ["How many lives do cats have?"], "hint": "one of the two is correct"},
+            {"n": 3, "type": "rewrite", "prompt": "Who did become president of France in 2017? / Who became president of France in 2017?", "answers": ["Who became president of France in 2017?"], "hint": "one of the two is correct"},
+            {"n": 4, "type": "rewrite", "prompt": "Which British singer did die on 10 January 2016? / Which British singer died on 10 January 2016?", "answers": ["Which British singer died on 10 January 2016?"], "hint": "one of the two is correct"},
+            {"n": 5, "type": "rewrite", "prompt": "Who did Amal Alamuddin marry in 2014? / Who Amal Alamuddin married in 2014?", "answers": ["Who did Amal Alamuddin marry in 2014?"], "hint": "one of the two is correct"},
+            {"n": 6, "type": "rewrite", "prompt": "What animal went into space in 1957? / What animal did go into space in 1957?", "answers": ["What animal went into space in 1957?"], "hint": "one of the two is correct"},
+            {"n": 7, "type": "rewrite", "prompt": "What invented Peter Durand in 1810? / What did Peter Durand invent in 1810?", "answers": ["What did Peter Durand invent in 1810?"], "hint": "one of the two is correct"}
           ]
         },
         {
@@ -337,11 +337,11 @@
           "instruction": "Write questions",
           "note": "WB 3d; 1 What do you usually do at weekends? — пример",
           "exercises": [
-            {"n": 2, "type": "rewrite", "prompt": "Who / sit next to you in class?", "answers": ["Who sits next to you in class?"]},
-            {"n": 3, "type": "rewrite", "prompt": "How often / you / usually go to the cinema?", "answers": ["How often do you usually go to the cinema?"]},
-            {"n": 4, "type": "rewrite", "prompt": "Which city in your country / have the most beautiful buildings?", "answers": ["Which city in your country has the most beautiful buildings?"]},
-            {"n": 5, "type": "rewrite", "prompt": "What / you / like watch on TV?", "answers": ["What do you like watching on TV?", "What do you like to watch on TV?"]},
-            {"n": 6, "type": "rewrite", "prompt": "How many times a week / you / do sport or exercise?", "answers": ["How many times a week do you do sport or exercise?"]}
+            {"n": 2, "type": "rewrite", "prompt": "Who / sit next to you in class / ?", "answers": ["Who sits next to you in class?"]},
+            {"n": 3, "type": "rewrite", "prompt": "How often / you / usually go to the cinema / ?", "answers": ["How often do you usually go to the cinema?"]},
+            {"n": 4, "type": "rewrite", "prompt": "Which city in your country / have the most beautiful buildings / ?", "answers": ["Which city in your country has the most beautiful buildings?"]},
+            {"n": 5, "type": "rewrite", "prompt": "What / you / like watch on TV / ?", "answers": ["What do you like watching on TV?", "What do you like to watch on TV?"]},
+            {"n": 6, "type": "rewrite", "prompt": "How many times a week / you / do sport or exercise / ?", "answers": ["How many times a week do you do sport or exercise?"]}
           ]
         },
         {

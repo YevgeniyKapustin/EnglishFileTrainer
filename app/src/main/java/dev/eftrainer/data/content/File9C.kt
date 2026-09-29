@@ -1560,7 +1560,7 @@ val File9C = Chapter(
                         Rewrite(
                             "9C-pe1a-04",
                             prompt = "He has another coffee.",
-                            answers = listOf("He doesn't have another coffee.", "He does not have another coffee.", "He doesn't want another coffee.", "He does not want another coffee."),
+                            answers = listOf("He has another coffee."),
                             source = AnswerSource.MODEL,
                         ),
                         Rewrite(
@@ -1587,12 +1587,6 @@ val File9C = Chapter(
                             "9C-pe1b-03",
                             text = "He doesn't have an interview. He has a {} in Manhattan.",
                             gaps = listOf(listOf("date")),
-                            source = AnswerSource.MODEL,
-                        ),
-                        Blank(
-                            "9C-pe1b-04",
-                            text = "He doesn't want another coffee because he doesn't want to be {}.",
-                            gaps = listOf(listOf("late")),
                             source = AnswerSource.MODEL,
                         ),
                         Blank(

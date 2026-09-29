@@ -668,7 +668,7 @@ val File8A = Chapter(
                         ),
                         Rewrite(
                             "8A-grammar-x2-02",
-                            prompt = "we / should / Should / leave / now / ?",
+                            prompt = "we / Should / leave / now / ?",
                             answers = listOf("Should we leave now?"),
                             explain = "Question: Should + subject + verb.",
                             source = AnswerSource.MODEL,

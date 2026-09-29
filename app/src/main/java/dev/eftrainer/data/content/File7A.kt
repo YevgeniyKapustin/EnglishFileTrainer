@@ -776,28 +776,33 @@ val File7A = Chapter(
                     exercises = listOf(
                         Rewrite(
                             "7A-wb2d-02",
-                            prompt = "What are you planning to do this weekend? tennis / to / I’m / friends / my / play / with / hoping / .",
+                            prompt = "tennis / to / I’m / friends / my / play / with / hoping / .",
                             answers = listOf("I’m hoping to play tennis with my friends."),
+                            hint = "What are you planning to do this weekend?",
                         ),
                         Rewrite(
                             "7A-wb2d-03",
-                            prompt = "What are you doing tonight? to / planning / stay / in / I’m / .",
+                            prompt = "to / planning / stay / in / I’m / .",
                             answers = listOf("I’m planning to stay in."),
+                            hint = "What are you doing tonight?",
                         ),
                         Rewrite(
                             "7A-wb2d-04",
-                            prompt = "Are you learning anything that is very difficult at the moment? learn / trying / Japanese / to / I’m / .",
+                            prompt = "learn / trying / Japanese / to / I’m / .",
                             answers = listOf("I’m trying to learn Japanese."),
+                            hint = "Are you learning anything that is very difficult at the moment?",
                         ),
                         Rewrite(
                             "7A-wb2d-05",
-                            prompt = "Why are you learning English? get / to / a / job / better / .",
+                            prompt = "get / to / a / job / better / .",
                             answers = listOf("To get a better job."),
+                            hint = "Why are you learning English?",
                         ),
                         Rewrite(
                             "7A-wb2d-06",
-                            prompt = "What do you find difficult about English? difficult / vocabulary / it’s / to / remember / .",
+                            prompt = "difficult / vocabulary / it’s / to / remember / .",
                             answers = listOf("It’s difficult to remember vocabulary."),
+                            hint = "What do you find difficult about English?",
                         ),
                     ),
                 ),

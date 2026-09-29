@@ -1204,7 +1204,7 @@ val File10C = Chapter(
                         ),
                         Rewrite(
                             "10C-wb3b-03",
-                            prompt = "where / olives / grow?",
+                            prompt = "where / olives / grow / ?",
                             answers = listOf("Where are olives grown?"),
                         ),
                         Rewrite(
@@ -1219,7 +1219,7 @@ val File10C = Chapter(
                         ),
                         Rewrite(
                             "10C-wb3b-06",
-                            prompt = "when / vitamins / discover?",
+                            prompt = "when / vitamins / discover / ?",
                             answers = listOf("When were vitamins discovered?"),
                         ),
                     ),

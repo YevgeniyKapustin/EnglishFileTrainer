@@ -294,11 +294,11 @@
           "instruction": "Read the questions. Re-order the words to make answers",
           "note": "WB 2d; 1 I’d like to visit New Zealand — пример. Вопрос — в prompt, точка — среди слов",
           "exercises": [
-            {"n": 2, "type": "rewrite", "prompt": "What are you planning to do this weekend? tennis / to / I’m / friends / my / play / with / hoping / .", "answers": ["I’m hoping to play tennis with my friends."]},
-            {"n": 3, "type": "rewrite", "prompt": "What are you doing tonight? to / planning / stay / in / I’m / .", "answers": ["I’m planning to stay in."]},
-            {"n": 4, "type": "rewrite", "prompt": "Are you learning anything that is very difficult at the moment? learn / trying / Japanese / to / I’m / .", "answers": ["I’m trying to learn Japanese."]},
-            {"n": 5, "type": "rewrite", "prompt": "Why are you learning English? get / to / a / job / better / .", "answers": ["To get a better job."]},
-            {"n": 6, "type": "rewrite", "prompt": "What do you find difficult about English? difficult / vocabulary / it’s / to / remember / .", "answers": ["It’s difficult to remember vocabulary."]}
+            {"n": 2, "type": "rewrite", "prompt": "tennis / to / I’m / friends / my / play / with / hoping / .", "answers": ["I’m hoping to play tennis with my friends."], "hint": "What are you planning to do this weekend?"},
+            {"n": 3, "type": "rewrite", "prompt": "to / planning / stay / in / I’m / .", "answers": ["I’m planning to stay in."], "hint": "What are you doing tonight?"},
+            {"n": 4, "type": "rewrite", "prompt": "learn / trying / Japanese / to / I’m / .", "answers": ["I’m trying to learn Japanese."], "hint": "Are you learning anything that is very difficult at the moment?"},
+            {"n": 5, "type": "rewrite", "prompt": "get / to / a / job / better / .", "answers": ["To get a better job."], "hint": "Why are you learning English?"},
+            {"n": 6, "type": "rewrite", "prompt": "difficult / vocabulary / it’s / to / remember / .", "answers": ["It’s difficult to remember vocabulary."], "hint": "What do you find difficult about English?"}
           ]
         },
         {

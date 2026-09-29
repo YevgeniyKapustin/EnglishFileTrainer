@@ -1221,7 +1221,7 @@
             {
               "n": 2,
               "type": "rewrite",
-              "prompt": "we / should / Should / leave / now / ?",
+              "prompt": "we / Should / leave / now / ?",
               "answers": [
                 "Should we leave now?"
               ],

@@ -1457,7 +1457,7 @@ val File4B = Chapter(
                     exercises = listOf(
                         Rewrite(
                             "4B-grammar-x2-01",
-                            prompt = "you / lose / your keys",
+                            prompt = "you / lose / your keys / ?",
                             answers = listOf("Have you ever lost your keys?"),
                             explain = "lose → lost.",
                             source = AnswerSource.MODEL,
@@ -1472,7 +1472,7 @@ val File4B = Chapter(
                         ),
                         Rewrite(
                             "4B-grammar-x2-03",
-                            prompt = "you / buy / clothes online",
+                            prompt = "you / buy / clothes online / ?",
                             answers = listOf("Have you ever bought clothes online?"),
                             explain = "buy → bought.",
                             source = AnswerSource.MODEL,
@@ -1487,14 +1487,14 @@ val File4B = Chapter(
                         ),
                         Rewrite(
                             "4B-grammar-x2-05",
-                            prompt = "your parents / fly / to America",
+                            prompt = "your parents / fly / to America / ?",
                             answers = listOf("Have your parents ever flown to America?"),
                             explain = "fly → flown.",
                             source = AnswerSource.MODEL,
                         ),
                         Rewrite(
                             "4B-grammar-x2-06",
-                            prompt = "your brother / meet / a famous person",
+                            prompt = "your brother / meet / a famous person / ?",
                             answers = listOf("Has your brother ever met a famous person?"),
                             explain = "your brother = he → Has.",
                             source = AnswerSource.MODEL,

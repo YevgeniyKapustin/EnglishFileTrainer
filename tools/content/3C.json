@@ -3229,6 +3229,7 @@
               "n": 6,
               "type": "blank",
               "text": "Do you think Jenny is happy that Holly came to lunch? {}",
+              "clip": [81.59, 102.75],
               "gaps": [
                 [
                   "No",
@@ -3469,7 +3470,7 @@
             {
               "n": 2,
               "type": "blank",
-              "text": "Excuse me, {}. We had two glasses of wine, not three.\nOh, I’m very sorry. I’ll get you a new check.",
+              "text": "Excuse me, {}. We had two glasses of wine, not three.\nI’m really sorry. I’ll go and change it.",
               "gaps": [
                 [
                   "I think there’s a mistake",
@@ -3481,7 +3482,7 @@
             {
               "n": 3,
               "type": "blank",
-              "text": "I want to go to a good Italian restaurant. {}\nYes. Try Mimmo’s. It’s near the park.",
+              "text": "We want to go to a good pizzeria. {}\nMimmo’s in Park Avenue is great.",
               "gaps": [
                 [
                   "Do you have any suggestions?",
@@ -3493,7 +3494,7 @@
             {
               "n": 4,
               "type": "blank",
-              "text": "I can take you to the airport tomorrow.\nYes. {}. Thank you.",
+              "text": "Let’s go to the theatre tonight.\nYes. {}.",
               "gaps": [
                 [
                   "That would be great",
@@ -3505,7 +3506,7 @@
             {
               "n": 5,
               "type": "blank",
-              "text": "How was your hotel?\nWell, {}, my room was tiny.",
+              "text": "So what was wrong with your hotel?\nWell, {}, my room was tiny. Then the wi-fi didn’t work.",
               "gaps": [
                 [
                   "to start with"
@@ -3516,7 +3517,7 @@
             {
               "n": 6,
               "type": "blank",
-              "text": "Would you like anything else?\nNo, thanks. {}",
+              "text": "Would you like coffee or a dessert?\nNo, thanks. {}",
               "gaps": [
                 [
                   "Could we have the check, please?",
@@ -3529,7 +3530,7 @@
             {
               "n": 7,
               "type": "blank",
-              "text": "{}, how long are you staying here?\nFor about a month.",
+              "text": "{}, how long are you staying here?\nUntil Friday.",
               "gaps": [
                 [
                   "So, tell me",

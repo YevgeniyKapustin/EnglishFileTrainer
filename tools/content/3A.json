@@ -2350,7 +2350,7 @@
             {
               "n": 1,
               "type": "rewrite",
-              "prompt": "What / you / do after class?",
+              "prompt": "What / you / do after class / ?",
               "answers": [
                 "What are you going to do after class?"
               ],
@@ -2360,7 +2360,7 @@
             {
               "n": 2,
               "type": "rewrite",
-              "prompt": "What time / you / go to bed tonight?",
+              "prompt": "What time / you / go to bed tonight / ?",
               "answers": [
                 "What time are you going to go to bed tonight?"
               ],
@@ -2370,7 +2370,7 @@
             {
               "n": 3,
               "type": "rewrite",
-              "prompt": "Where / you / have lunch tomorrow?",
+              "prompt": "Where / you / have lunch tomorrow / ?",
               "answers": [
                 "Where are you going to have lunch tomorrow?"
               ],
@@ -2380,7 +2380,7 @@
             {
               "n": 4,
               "type": "rewrite",
-              "prompt": "What / you / do on Saturday night?",
+              "prompt": "What / you / do on Saturday night / ?",
               "answers": [
                 "What are you going to do on Saturday night?"
               ],
@@ -2390,7 +2390,7 @@
             {
               "n": 5,
               "type": "rewrite",
-              "prompt": "Where / you / go for your next holiday?",
+              "prompt": "Where / you / go for your next holiday / ?",
               "answers": [
                 "Where are you going to go for your next holiday?"
               ],
@@ -2400,7 +2400,7 @@
             {
               "n": 6,
               "type": "rewrite",
-              "prompt": "you / study English next year?",
+              "prompt": "you / study English next year / ?",
               "answers": [
                 "Are you going to study English next year?"
               ],
@@ -2410,7 +2410,7 @@
             {
               "n": 7,
               "type": "rewrite",
-              "prompt": "you / go out this evening?",
+              "prompt": "you / go out this evening / ?",
               "answers": [
                 "Are you going to go out this evening?"
               ],
@@ -2420,7 +2420,7 @@
             {
               "n": 8,
               "type": "rewrite",
-              "prompt": "What / you / have for dinner tonight?",
+              "prompt": "What / you / have for dinner tonight / ?",
               "answers": [
                 "What are you going to have for dinner tonight?"
               ],
@@ -2430,7 +2430,7 @@
             {
               "n": 9,
               "type": "rewrite",
-              "prompt": "What time / you / get up tomorrow?",
+              "prompt": "What time / you / get up tomorrow / ?",
               "answers": [
                 "What time are you going to get up tomorrow?"
               ],
@@ -2440,7 +2440,7 @@
             {
               "n": 10,
               "type": "rewrite",
-              "prompt": "you / go anywhere next weekend?",
+              "prompt": "you / go anywhere next weekend / ?",
               "answers": [
                 "Are you going to go anywhere next weekend?"
               ],
@@ -2450,7 +2450,7 @@
             {
               "n": 11,
               "type": "rewrite",
-              "prompt": "What / you / do next summer?",
+              "prompt": "What / you / do next summer / ?",
               "answers": [
                 "What are you going to do next summer?"
               ],
@@ -2460,7 +2460,7 @@
             {
               "n": 12,
               "type": "rewrite",
-              "prompt": "When / you / do your English homework?",
+              "prompt": "When / you / do your English homework / ?",
               "answers": [
                 "When are you going to do your English homework?"
               ],

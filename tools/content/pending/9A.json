@@ -1,0 +1,19 @@
+{
+  "chapter": "9A",
+  "tasks": [
+    {
+      "id": "9A-sb-animal-sounds",
+      "section": "9A-vocabulary",
+      "missingType": "sound-effects",
+      "why": "Трек 9.1 — звуки животных без речи; транскрипта нет, вписывать нечего, эталон — название животного по звуку",
+      "proposal": "Тот же тип, что для 4A-sb4e: клип на каждый звук, ответ-эталон (a dog, a cat…) вводом или голосом",
+      "origin": "SB",
+      "instruction": "Listen to the sounds. Which animal is it?",
+      "context": null,
+      "audio": "9.1",
+      "video": null,
+      "images": [],
+      "items": ["по звукам трека 9.1 — животные из Vocabulary Bank Animals"]
+    }
+  ]
+}

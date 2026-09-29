@@ -57,7 +57,12 @@
     `Write.clip` + `scene` (2B-sb3c — шесть звуков 2.13 по пункту, описания для ИИ).
   - План разговора (27.09.2026): `Talk.steps` у всех 21 разговоров — шаги на экране, ИИ отмечает сделанные `[DONE n]`,
     Hint показывает пример фразы; `goal` сокращён до ситуации в одну строку.
-- **Э8.5 — Practical English с видео** (эпизод 1 сделан):
+  - Юниты 3–12 (29.09.2026): десять агентов параллельно, по юниту на агента в ручных worktree
+    `MyProjects/eft-units/unitN` (ветки `unit-N`), потом одна сборка в `integrate`. PE Episodes 2–6 — `3C/5C/7C/9C/11C-practical`,
+    Revise and Check 3&4…11&12 — `4C/…/12C-review`, «Can you remember…?» — `3C/…/11C-review`. Задания без типа —
+    `tools/content/pending/`, список в `PLAN.md` §0. `strip_numbers.py`: клипы сдвигает только `--remap-clips`,
+    неправдоподобные «номера» (больше числа пунктов, повторы) не режет.
+- **Э8.5 — Practical English с видео** (эпизоды 1–6 сделаны):
   - PE-урок в SB — после юнитов 1, 3, 5, 7, 9, 11 (SB PDF 13, 29, 45, 61, 77, 93). Видео 4e:
     `english_file/videos/EF4e_Pre-int_PracticalEng_Ep{1..6}_*.mp4`, 36 роликов, 124 МБ.
   - `SectionKind.PRACTICAL_ENGLISH`, `Task.video` ("ep1_introduction") → `assets/video/ep1_*.mp4` (в `.gitignore`).

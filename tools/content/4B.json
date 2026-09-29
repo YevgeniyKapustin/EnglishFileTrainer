@@ -277,12 +277,12 @@
           {"n": 8, "type": "blank", "text": "I {} a lot of money when I was on holiday in Rome.", "gaps": [["spent"]], "hint": "(spend)", "explain": "A finished time (when I was on holiday) → past simple.", "source": "MODEL"}
         ]},
         {"id": "4B-grammar-x2", "origin": "GENERATED", "instruction": "Write questions with Have you ever…? Then write the past simple question in brackets.", "exercises": [
-          {"n": 1, "type": "rewrite", "prompt": "you / lose / your keys", "answers": ["Have you ever lost your keys?"], "explain": "lose → lost.", "source": "MODEL"},
+          {"n": 1, "type": "rewrite", "prompt": "you / lose / your keys / ?", "answers": ["Have you ever lost your keys?"], "explain": "lose → lost.", "source": "MODEL"},
           {"n": 2, "type": "rewrite", "prompt": "Where / you / lose / them?", "hint": "(past simple)", "answers": ["Where did you lose them?"], "explain": "Details → Where did you + infinitive?", "source": "MODEL"},
-          {"n": 3, "type": "rewrite", "prompt": "you / buy / clothes online", "answers": ["Have you ever bought clothes online?"], "explain": "buy → bought.", "source": "MODEL"},
+          {"n": 3, "type": "rewrite", "prompt": "you / buy / clothes online / ?", "answers": ["Have you ever bought clothes online?"], "explain": "buy → bought.", "source": "MODEL"},
           {"n": 4, "type": "rewrite", "prompt": "What / you / buy?", "hint": "(past simple)", "answers": ["What did you buy?"], "explain": "did + infinitive (buy, not bought).", "source": "MODEL"},
-          {"n": 5, "type": "rewrite", "prompt": "your parents / fly / to America", "answers": ["Have your parents ever flown to America?"], "explain": "fly → flown.", "source": "MODEL"},
-          {"n": 6, "type": "rewrite", "prompt": "your brother / meet / a famous person", "answers": ["Has your brother ever met a famous person?"], "explain": "your brother = he → Has.", "source": "MODEL"}
+          {"n": 5, "type": "rewrite", "prompt": "your parents / fly / to America / ?", "answers": ["Have your parents ever flown to America?"], "explain": "fly → flown.", "source": "MODEL"},
+          {"n": 6, "type": "rewrite", "prompt": "your brother / meet / a famous person / ?", "answers": ["Has your brother ever met a famous person?"], "explain": "your brother = he → Has.", "source": "MODEL"}
         ]},
         {"id": "4B-grammar-x3", "origin": "GENERATED", "instruction": "Correct the mistake in each sentence. Write the sentence.", "exercises": [
           {"n": 1, "type": "rewrite", "prompt": "I’ve bought these shoes last Saturday.", "answers": ["I bought these shoes last Saturday."], "explain": "last Saturday → past simple.", "source": "MODEL"},

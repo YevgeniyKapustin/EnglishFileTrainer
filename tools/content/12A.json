@@ -1,0 +1,2407 @@
+{
+  "id": "12A",
+  "title": "Unbelievable!",
+  "bubbles": [
+    "Why was she so angry?",
+    "Because her husband had left her behind."
+  ],
+  "sources": "SB p.94–95 (PDF 95–96), Grammar Bank p.148–149 (PDF 149–150), Communication p.106/107/112 (PDF 107/108/113); WB p.82–83 (PDF 81–82), key WB p.95 (PDF 94). Scripts 12.1–12.2 are not printed in the SB (answers by the recordings)",
+  "sections": [
+    {
+      "id": "12A-skills",
+      "kind": "SKILLS",
+      "title": "Reading & Speaking",
+      "reference": [
+        {
+          "type": "note",
+          "title": "Glossary",
+          "text": "RSPCA – Royal Society for the Prevention of Cruelty to Animals (a British charity that helps animals)."
+        },
+        {
+          "type": "note",
+          "title": "Telling a news story",
+          "text": "Start with where and when: Last Sunday, in Sydney… Then say what happened (past simple): A police car went to the apartment immediately. Use the past perfect for things that happened earlier: The callers had heard a woman screaming."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "12A-sb1b",
+          "origin": "SB",
+          "instruction": "Read the three news stories. Match them to the headlines",
+          "note": "SB 1a+1b: догадки по картинкам (1a) проверяются чтением (1b) → Blank: заголовок к каждой истории; картинки с заголовками — SB p.94. Ответы по тексту (MODEL)",
+          "context": "Story 1. Last Sunday at about 2.00 a.m., police in Sydney, Australia, received several phone calls about shouting and loud noises that were coming from an apartment in a suburb of the city. The callers had heard a woman screaming, a man shouting ‘I’m going to kill you! You’re dead!’, and somebody throwing furniture.\nA police car went to the apartment immediately. A man opened the door.\n‘Where’s your wife?’ the officer asked.\n‘I don’t have one,’ the man replied.\n‘Where’s your girlfriend?’\n‘I don’t have one,’ the man replied again.\nThe officer told the man that his neighbours had heard shouting and screaming.\n‘Come on, what have you done to her?’ the officer asked.\n‘It was a spider,’ the man replied. ‘A really big one.’\n‘What about the woman who was screaming?’\n‘Yes, sorry, that was me,’ the man said. ‘I really, really hate spiders. I was trying to kill it.’\nThe police looked around the apartment and confirmed that nobody was hurt. Except the spider.\n\nStory 2. A woman in Worthing, West Sussex, got a big surprise yesterday when she opened a large box of DVDs that she had bought on eBay and a cat suddenly jumped out. The cat, called Cupcake, had got into the box eight days earlier, when her owner Julie Baggott was packing the box to send to her customer. Julie didn’t notice that Cupcake had climbed into the box and fallen asleep.\nJulie’s customer called the RSPCA, who collected the cat and took it to a vet. Dr Ben Colwell, who treated Cupcake, said that she was very frightened and very thirsty – the cat had survived the 260-mile journey with no food or water. Luckily Cupcake had a microchip in her neck, so the vet found Julie’s details and phoned her.\nJulie had been very sad about losing her cat. She had put up posters and looked for Cupcake for days. ‘I feel terrible,’ said Julie. ‘I put the DVDs in the box and I closed it straight away, so I don’t know how she got in there. It was a miracle she was alive.’\n\nStory 3. An Argentinian family was driving home after a holiday in Brazil when the husband, Walter, made an unfortunate mistake. He stopped at a petrol station, filled up the car with petrol, and went to the toilet. But when he drove off, he didn’t notice that his wife Claudia wasn’t in the car.\nClaudia had been asleep in the back seat. While her husband was in the toilet, she woke up and went into the shop to buy some cookies, but when she came back outside she found that her husband had left without her. The couple’s 14-year-old son didn’t notice that his mother wasn’t there because he was playing on his phone in the front seat.\nWalter only realized his wife wasn’t in the car after he’d driven 100 kilometres. Meanwhile, Claudia tried to phone him, but she couldn’t get a signal, so she asked the petrol station manager for help. He contacted the local police, who took her to the police station. Her husband eventually returned to pick her up two hours later. When he arrived, Claudia was so angry that all she could do was scream and kick the car.",
+          "words": [
+            "LEFT BEHIND",
+            "FALSE ALARM",
+            "IN THE POST"
+          ],
+          "images": [
+            "12a_sb1_left",
+            "12a_sb1_alarm",
+            "12a_sb1_post"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Story 1 (the police in Sydney): {}",
+              "gaps": [
+                [
+                  "FALSE ALARM",
+                  "False alarm"
+                ]
+              ],
+              "explain": "The neighbours thought a man was hurting a woman, but it was only a spider.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Story 2 (Cupcake the cat): {}",
+              "gaps": [
+                [
+                  "IN THE POST",
+                  "In the post"
+                ]
+              ],
+              "explain": "The cat travelled 260 miles in a box of DVDs that Julie sent to a customer.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Story 3 (Walter and Claudia): {}",
+              "gaps": [
+                [
+                  "LEFT BEHIND",
+                  "Left behind"
+                ]
+              ],
+              "explain": "Walter drove off from the petrol station without his wife.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "12A-sb1c",
+          "origin": "SB",
+          "instruction": "Read the stories again. For each story, put the events in the order that they happened",
+          "note": "SB 1c → три Order с текстовыми карточками (по истории на упражнение). В истории 1 карточка «The neighbours heard someone screaming» = 1 — пример книги, оставлена в списке. Истории — в 12A-sb1b. Порядок MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "order",
+              "pictures": [
+                {
+                  "label": "A",
+                  "text": "Story 1: The police arrived at the apartment."
+                },
+                {
+                  "label": "B",
+                  "text": "Story 1: The neighbours heard someone screaming."
+                },
+                {
+                  "label": "C",
+                  "text": "Story 1: The man explained what had happened."
+                },
+                {
+                  "label": "D",
+                  "text": "Story 1: The man killed the spider."
+                }
+              ],
+              "answer": [
+                "B",
+                "D",
+                "A",
+                "C"
+              ],
+              "explain": "The man was trying to kill the spider when the neighbours heard him; the spider was dead when the police arrived, and then he explained.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "order",
+              "pictures": [
+                {
+                  "label": "A",
+                  "text": "Story 2: Julie put up posters."
+                },
+                {
+                  "label": "B",
+                  "text": "Story 2: Julie lost her cat."
+                },
+                {
+                  "label": "C",
+                  "text": "Story 2: The vet contacted Julie."
+                },
+                {
+                  "label": "D",
+                  "text": "Story 2: The cat jumped out of the box."
+                }
+              ],
+              "answer": [
+                "B",
+                "A",
+                "D",
+                "C"
+              ],
+              "explain": "Julie lost Cupcake and put up posters; eight days later the cat jumped out of the box, and then the vet found Julie’s details and phoned her.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "order",
+              "pictures": [
+                {
+                  "label": "A",
+                  "text": "Story 3: Walter got back into the car and drove off."
+                },
+                {
+                  "label": "B",
+                  "text": "Story 3: Walter realized what had happened."
+                },
+                {
+                  "label": "C",
+                  "text": "Story 3: Claudia went into the shop."
+                },
+                {
+                  "label": "D",
+                  "text": "Story 3: Walter went to the toilet."
+                }
+              ],
+              "answer": [
+                "D",
+                "C",
+                "A",
+                "B"
+              ],
+              "explain": "While Walter was in the toilet, Claudia went into the shop; he drove off without her and only realized after 100 kilometres.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "12A-sb4a",
+          "origin": "SB",
+          "instruction": "Read two more newspaper stories and answer the questions",
+          "note": "SB 4a (догадки по двум картинкам) + Communication «Two more stories» (A p.107, B p.112): оба текста и вопросы к ним → Blank на ключевые слова (MODEL). Картинки — SB p.95",
+          "context": "Story A. In Sydney, early in the morning, some swimmers were having a swim in an outdoor swimming pool which was very close to the sea. The swimmers were very surprised when suddenly the pool assistant started shouting ‘Get out of the water! Quickly!’ The swimmers immediately got out. Then they realized that there was a shark at the other end! A large wave had carried the shark into the pool overnight. Fortunately none of the swimmers were hurt, and the shark was caught in a net and put back into the sea.\n\nStory B. Last Monday workers in the luggage area at Stockholm’s Arlanda airport, in Sweden, got a big surprise. They were taking suitcases off the luggage belt to put them on the different planes, when suddenly they saw an old lady sitting on the belt next to her suitcase. The woman had got confused at the check-in desk. She had put her luggage on the belt and then had sat down on the belt herself. A spokesman at the airport said ‘Unfortunately, she did not understand when she was given check-in instructions. She got on the belt together with her bag. Luckily, it wasn’t a long ride – only a few metres.’",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Story A: Where was the swimming pool? In {}, very close to the {}.",
+              "image": "12a_sb4a_shark",
+              "gaps": [
+                [
+                  "Sydney"
+                ],
+                [
+                  "sea"
+                ]
+              ],
+              "explain": "‘In Sydney… an outdoor swimming pool which was very close to the sea.’",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Story A: Why did the pool assistant shout ‘Get out of the water!’? There was a {} at the other end of the pool.",
+              "gaps": [
+                [
+                  "shark"
+                ]
+              ],
+              "explain": "‘Then they realized that there was a shark at the other end!’",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Story A: What had happened in the night? A large {} had carried the shark into the pool.",
+              "gaps": [
+                [
+                  "wave"
+                ]
+              ],
+              "explain": "‘A large wave had carried the shark into the pool overnight.’",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Story A: What happened to the shark? It was caught in a {} and put back into the sea.",
+              "gaps": [
+                [
+                  "net"
+                ]
+              ],
+              "explain": "None of the swimmers were hurt, and the shark went back into the sea.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Story B: Where was the airport? In {}, in Sweden.",
+              "image": "12a_sb4a_checkin",
+              "gaps": [
+                [
+                  "Stockholm"
+                ]
+              ],
+              "explain": "‘Stockholm’s Arlanda airport, in Sweden.’",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "Story B: Why were the airport workers surprised? They saw an old lady sitting on the luggage {}.",
+              "gaps": [
+                [
+                  "belt"
+                ]
+              ],
+              "explain": "‘…they saw an old lady sitting on the belt next to her suitcase.’",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Story B: What had the old lady done? She had put her luggage on the belt and then she had {} down on the belt herself.",
+              "gaps": [
+                [
+                  "sat"
+                ]
+              ],
+              "explain": "Past perfect of sit: had sat.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Story B: How far did she travel on the luggage belt? Only a few {}.",
+              "gaps": [
+                [
+                  "metres",
+                  "meters"
+                ]
+              ],
+              "explain": "‘Luckily, it wasn’t a long ride – only a few metres.’",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "12A-sb4b",
+          "origin": "SB",
+          "instruction": "Tell a newspaper story to your partner. Then listen to their story",
+          "note": "SB 4b (Communication «Two more stories»: A рассказывает про акулу, B — про бабушку в аэропорту) + 4c (самая невероятная история) → разговор с ИИ: ученик — A, ИИ — B",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "talk",
+              "situation": "Speaking practice in an English class (level: pre-intermediate) after reading unusual news stories. The student is Student A and tells you a story from memory: in Sydney, early in the morning, some swimmers were in an outdoor pool close to the sea; suddenly the pool assistant shouted ‘Get out of the water! Quickly!’; they got out and saw a shark at the other end; a large wave had carried the shark into the pool in the night; nobody was hurt, and the shark was caught in a net and put back into the sea. Listen, react (Really? That’s unbelievable!) and ask one or two questions (What had happened in the night? Was anybody hurt?). Then you are Student B: tell your story in 4–5 short sentences: last Monday workers in the luggage area at Stockholm’s Arlanda airport saw an old lady sitting on the luggage belt next to her suitcase; she had got confused at the check-in desk; she had put her luggage on the belt and then had sat down on it herself; luckily it was only a few metres. Finally ask which of the stories in the lesson (the spider in Sydney, the cat in the box of DVDs, the wife left at the petrol station, the shark, the old lady) they find the most unbelievable, and if there have been any funny or unusual stories in the news recently. If the student makes a mistake with the past perfect or the past simple, repeat the correct form naturally in your reply.",
+              "goal": "Tell the shark story, listen to the airport story, and say which story is the most unbelievable.",
+              "opener": "Hi! I hear you read a crazy news story. Go on, tell me – what happened?",
+              "criteria": [
+                "tells the shark story in a logical order (where, what the assistant shouted, the shark, what had happened in the night, the end)",
+                "uses the past perfect at least once correctly (A wave had carried the shark into the pool)",
+                "uses at least two time expressions (suddenly, immediately, straight away, meanwhile, eventually)",
+                "reacts to the airport story and says which story they find the most unbelievable and why"
+              ],
+              "steps": [
+                {
+                  "text": "Say where and when it happened",
+                  "example": "This happened at a swimming pool in Sydney, early in the morning."
+                },
+                {
+                  "text": "Say what happened suddenly",
+                  "example": "Suddenly the pool assistant shouted ‘Get out of the water!’ and the swimmers got out immediately."
+                },
+                {
+                  "text": "Explain what had happened in the night",
+                  "example": "There was a shark in the pool. A big wave had carried it in during the night."
+                },
+                {
+                  "text": "Say how the story ended",
+                  "example": "Nobody was hurt, and they put the shark back into the sea."
+                },
+                {
+                  "text": "Listen to the airport story and choose the most unbelievable story",
+                  "example": "I think the story about the cat is the most unbelievable. It had travelled 260 miles in a box!"
+                }
+              ],
+              "pictures": [
+                {
+                  "label": "A",
+                  "image": "12a_sb4a_shark",
+                  "caption": "A cartoon of an outdoor swimming pool by the sea. Swimmers are climbing out of the water in panic, and a big black shark fin is in the pool."
+                },
+                {
+                  "label": "B",
+                  "image": "12a_sb4a_checkin",
+                  "caption": "A cartoon of an airport check-in desk. A red suitcase is on the luggage belt, and a confused old lady with white hair is sitting on the belt, going through the opening behind the desk. The check-in staff look surprised."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12A-vocabulary",
+      "kind": "VOCABULARY",
+      "title": "time expressions",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Time expressions",
+          "headers": [
+            "Expression",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "suddenly",
+              "quickly and unexpectedly",
+              "A cat suddenly jumped out."
+            ],
+            [
+              "immediately",
+              "without delay",
+              "A police car went to the apartment immediately."
+            ],
+            [
+              "straight away",
+              "without delay",
+              "I put the DVDs in the box and I closed it straight away."
+            ],
+            [
+              "meanwhile",
+              "while something else was happening",
+              "Meanwhile, Claudia tried to phone him."
+            ],
+            [
+              "eventually",
+              "after a long time",
+              "Her husband eventually returned two hours later."
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Position",
+          "text": "suddenly, meanwhile and eventually often go at the beginning of a sentence (Suddenly, the lights went off.) or before the main verb (He eventually arrived.). immediately and straight away usually go at the end: Get up immediately! I’ll do it straight away."
+        },
+        {
+          "type": "mistake",
+          "wrong": "Eventually means ‘maybe, possibly’: I’ll eventually come to the party.",
+          "right": "Eventually means ‘in the end, after a long time’: After two hours, he eventually arrived.",
+          "why": "eventually is a false friend – it does not mean ‘possibly’."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "12A-sb1d",
+          "origin": "SB",
+          "instruction": "Look back at the stories and complete the sentences with time expressions",
+          "note": "SB 1d; ответы по напечатанным историям",
+          "words": [
+            "eventually",
+            "immediately",
+            "meanwhile",
+            "straight away",
+            "suddenly"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "A police car went to the apartment {}.",
+              "gaps": [
+                [
+                  "immediately",
+                  "straight away"
+                ]
+              ],
+              "explain": "Story 1: ‘A police car went to the apartment immediately.’",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "A cat {} jumped out.",
+              "gaps": [
+                [
+                  "suddenly"
+                ]
+              ],
+              "explain": "Story 2: ‘…a cat suddenly jumped out.’",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I put the DVDs in the box and I closed it {}.",
+              "gaps": [
+                [
+                  "straight away",
+                  "immediately"
+                ]
+              ],
+              "explain": "Story 2: ‘I closed it straight away.’",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "{}, Claudia tried to phone him.",
+              "gaps": [
+                [
+                  "Meanwhile"
+                ]
+              ],
+              "explain": "Story 3: while Walter was driving, Claudia was trying to phone him.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Her husband {} returned two hours later.",
+              "gaps": [
+                [
+                  "eventually"
+                ]
+              ],
+              "explain": "Story 3: he came back after a long time – two hours later.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "12A-sb1e",
+          "origin": "SB",
+          "instruction": "Match the time expressions in d to their meaning",
+          "note": "SB 1e → Blank; в 4 два ответа (immediately, straight away) — принимаются в любом порядке. MODEL",
+          "words": [
+            "eventually",
+            "immediately",
+            "meanwhile",
+            "straight away",
+            "suddenly"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "quickly and unexpectedly = {}",
+              "gaps": [
+                [
+                  "suddenly"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "after a long time = {}",
+              "gaps": [
+                [
+                  "eventually"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "while something else was happening = {}",
+              "gaps": [
+                [
+                  "meanwhile"
+                ]
+              ],
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "without delay = {} / {}",
+              "gaps": [
+                [
+                  "immediately",
+                  "straight away"
+                ],
+                [
+                  "straight away",
+                  "immediately"
+                ]
+              ],
+              "explain": "immediately and straight away mean the same.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "12A-wb1a",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the correct ending",
+          "note": "WB 1a «Match sentences 1–5 with a–e» → Blank: вписать окончание из списка; 1 — d (пример)",
+          "words": [
+            "He phoned her straight away to find out how she was.",
+            "He turned round immediately and went back to pick it up.",
+            "Meanwhile, she was waiting for him at the King’s Head.",
+            "Suddenly there was a loud noise outside and someone was shouting."
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "He was in the living room, relaxing and reading a book. {}",
+              "gaps": [
+                [
+                  "Suddenly there was a loud noise outside and someone was shouting."
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "On the way to the station, he realized he didn’t have his wallet. {}",
+              "gaps": [
+                [
+                  "He turned round immediately and went back to pick it up."
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Alice fell off her bike, and Peter was worried when he heard. {}",
+              "gaps": [
+                [
+                  "He phoned her straight away to find out how she was."
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Frank’s date with Wendy was a disaster. He was at the King’s Arms and was waiting there. {}",
+              "gaps": [
+                [
+                  "Meanwhile, she was waiting for him at the King’s Head."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12A-wb1b",
+          "origin": "WB",
+          "instruction": "Complete the sentences with a word from the list",
+          "note": "WB 1b; 1 immediately — пример",
+          "words": [
+            "eventually",
+            "meanwhile",
+            "straight away",
+            "suddenly"
+          ],
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "We were watching TV last night. {} the electricity went off, so we missed the end of the film.",
+              "gaps": [
+                [
+                  "Suddenly"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Dave was in his room hoping that Elsie might call. {}, Elsie was in her room waiting for her phone to ring.",
+              "gaps": [
+                [
+                  "Meanwhile"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Carol waited and waited for Sam to arrive at the restaurant. {}, after two hours, she gave up and went home.",
+              "gaps": [
+                [
+                  "Eventually"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "I’m sorry, I forgot to go to the supermarket. I’ll do it {}.",
+              "gaps": [
+                [
+                  "straight away"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12A-vocabulary-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with suddenly, immediately, straight away, meanwhile, or eventually.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "We were having dinner when {} all the lights went off.",
+              "gaps": [
+                [
+                  "suddenly"
+                ]
+              ],
+              "explain": "suddenly = quickly and when you don’t expect it.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The bus was very late, but it {} arrived at ten o’clock.",
+              "gaps": [
+                [
+                  "eventually"
+                ]
+              ],
+              "explain": "eventually = after a long time, in the end.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Your mum called. She wants you to call her back {}.",
+              "gaps": [
+                [
+                  "immediately",
+                  "straight away"
+                ]
+              ],
+              "explain": "immediately / straight away = without delay; they usually go at the end.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I was cooking dinner. {}, my husband was watching football in the living room.",
+              "gaps": [
+                [
+                  "Meanwhile"
+                ]
+              ],
+              "explain": "Meanwhile = at the same time, while something else was happening.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "We looked for the keys for an hour, and {} we found them in the fridge!",
+              "gaps": [
+                [
+                  "eventually"
+                ]
+              ],
+              "explain": "eventually = in the end, after a long time.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I was walking home when {} a dog started running after me.",
+              "gaps": [
+                [
+                  "suddenly"
+                ]
+              ],
+              "explain": "suddenly = unexpectedly.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "When she heard the news, she got in the car and drove to the hospital {}.",
+              "gaps": [
+                [
+                  "immediately",
+                  "straight away"
+                ]
+              ],
+              "explain": "immediately / straight away = without waiting.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "The children were playing in the garden. {}, their parents were getting the lunch ready.",
+              "gaps": [
+                [
+                  "Meanwhile"
+                ]
+              ],
+              "explain": "Meanwhile joins two things happening at the same time.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "12A-vocabulary-x2",
+          "origin": "GENERATED",
+          "instruction": "Rewrite the sentences with the word in brackets. Keep the meaning.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "After a long time, the train arrived.",
+              "hint": "(eventually)",
+              "answers": [
+                "The train eventually arrived.",
+                "Eventually, the train arrived.",
+                "Eventually the train arrived.",
+                "The train arrived eventually."
+              ],
+              "explain": "eventually = after a long time.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "Please answer the email without delay.",
+              "hint": "(straight away)",
+              "answers": [
+                "Please answer the email straight away."
+              ],
+              "explain": "straight away = without delay; it goes at the end.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Quickly and unexpectedly, it started to rain.",
+              "hint": "(suddenly)",
+              "answers": [
+                "Suddenly, it started to rain.",
+                "Suddenly it started to rain.",
+                "It suddenly started to rain.",
+                "It started to rain suddenly."
+              ],
+              "explain": "suddenly = quickly and unexpectedly.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "Tom was at the station. At the same time, Anna was waiting for him at the airport.",
+              "hint": "(meanwhile)",
+              "answers": [
+                "Tom was at the station. Meanwhile, Anna was waiting for him at the airport.",
+                "Tom was at the station. Meanwhile Anna was waiting for him at the airport."
+              ],
+              "explain": "Meanwhile = at the same time.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "The doctor came without delay.",
+              "hint": "(immediately)",
+              "answers": [
+                "The doctor came immediately.",
+                "The doctor immediately came."
+              ],
+              "explain": "immediately = without delay.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "12A-vocabulary-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes. If a sentence is correct, leave it as it is.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "I’ll eventually come to your party if I finish work early.",
+              "answers": [
+                "I might come to your party if I finish work early.",
+                "I’ll possibly come to your party if I finish work early.",
+                "I’ll maybe come to your party if I finish work early.",
+                "Maybe I’ll come to your party if I finish work early."
+              ],
+              "explain": "eventually means ‘in the end, after a long time’, not ‘possibly’: use might / maybe.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "I was reading. Suddenly the phone rang.",
+              "answers": [
+                "I was reading. Suddenly the phone rang."
+              ],
+              "explain": "Correct: suddenly = unexpectedly.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "Come here straight!",
+              "answers": [
+                "Come here straight away!",
+                "Come here immediately!"
+              ],
+              "explain": "The expression is straight away.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "We waited for hours and meanwhile the plane took off at midnight.",
+              "answers": [
+                "We waited for hours and eventually the plane took off at midnight.",
+                "We waited for hours and the plane eventually took off at midnight."
+              ],
+              "explain": "After a long time = eventually. Meanwhile = at the same time.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "The film started, and immediately I realized I had seen it before.",
+              "answers": [
+                "The film started, and immediately I realized I had seen it before."
+              ],
+              "explain": "Correct: immediately = at once.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12A-grammar",
+      "kind": "GRAMMAR",
+      "title": "past perfect",
+      "reference": [
+        {
+          "type": "table",
+          "title": "Past perfect",
+          "headers": [
+            "",
+            "Example"
+          ],
+          "rows": [
+            [
+              "+",
+              "When I woke up the garden was all white. It had snowed during the night. I suddenly realized that I’d left my phone in the taxi."
+            ],
+            [
+              "−",
+              "We got home just in time – the match hadn’t started. When she got to class, she realized that she hadn’t brought her book."
+            ],
+            [
+              "?",
+              "A: I went to Paris last weekend. I really loved it. B: Had you been there before? A: No, I hadn’t."
+            ]
+          ],
+          "audio": "12.1"
+        },
+        {
+          "type": "note",
+          "title": null,
+          "text": "We use the past perfect when we are already talking about the past and want to talk about an earlier past action: When I woke up the garden was all white. It had snowed during the night. (= It snowed before I woke up.)"
+        },
+        {
+          "type": "note",
+          "title": "Form",
+          "text": "had / hadn’t + past participle. The form is the same for all persons: I / you / he / she / we / they had left. Contraction: ’d (I’d left, she’d gone)."
+        },
+        {
+          "type": "note",
+          "title": "had or would?",
+          "text": "’d can be had or would. I didn’t know that you’d found a new job. (’d = had + past participle) If you went by taxi, you’d get there much quicker. (’d = would + infinitive)"
+        },
+        {
+          "type": "mistake",
+          "wrong": "When we arrived, the film already started.",
+          "right": "When we arrived, the film had already started.",
+          "why": "The film started before we arrived – an earlier past action needs the past perfect."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "12A-sb2a",
+          "origin": "SB",
+          "instruction": "Walter only realized his wife wasn’t in the car after he’d driven 100 kilometres. Which action happened first? Put them in order",
+          "note": "SB 2a «Number the sentences 1 and 2» → Order из двух карточек. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "order",
+              "pictures": [
+                {
+                  "label": "A",
+                  "text": "Walter realized his wife wasn’t in the car."
+                },
+                {
+                  "label": "B",
+                  "text": "Walter drove 100 kilometres."
+                }
+              ],
+              "answer": [
+                "B",
+                "A"
+              ],
+              "explain": "he’d driven = the past perfect: the earlier action.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "12A-sb2b",
+          "origin": "SB",
+          "instruction": "Look at the sentence again: …after he’d driven 100 kilometres. Answer the questions",
+          "note": "SB 2b «What do you think ’d is a contraction of? What form of the verb is driven?» → Blank. MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "’d is a contraction of {}.",
+              "gaps": [
+                [
+                  "had"
+                ]
+              ],
+              "explain": "he’d driven = he had driven.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "driven is the past {} of drive.",
+              "gaps": [
+                [
+                  "participle"
+                ]
+              ],
+              "explain": "drive – drove – driven: the past participle (the 3rd form).",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "12A-sb2c",
+          "origin": "SB",
+          "instruction": "Complete the sentences from the stories with the past perfect of the verbs in brackets",
+          "note": "SB 2c «Underline two more examples of the past perfect in each story» → Blank: предложения историй с пропуском на past perfect, глагол в hint. Ответы по тексту историй",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "The callers {} a woman screaming.",
+              "hint": "(hear)",
+              "gaps": [
+                [
+                  "had heard",
+                  "’d heard"
+                ]
+              ],
+              "explain": "Story 1: they heard it before they phoned the police.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "The officer told the man that his neighbours {} shouting and screaming.",
+              "hint": "(hear)",
+              "gaps": [
+                [
+                  "had heard",
+                  "’d heard"
+                ]
+              ],
+              "explain": "Story 1: an earlier past action.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "She opened a large box of DVDs that she {} on eBay.",
+              "hint": "(buy)",
+              "gaps": [
+                [
+                  "had bought",
+                  "’d bought"
+                ]
+              ],
+              "explain": "Story 2: she bought the DVDs before she opened the box.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "The cat, called Cupcake, {} into the box eight days earlier.",
+              "hint": "(get)",
+              "gaps": [
+                [
+                  "had got",
+                  "’d got",
+                  "had gotten"
+                ]
+              ],
+              "explain": "Story 2: get – got – got.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Julie didn’t notice that Cupcake {} into the box and fallen asleep.",
+              "hint": "(climb)",
+              "gaps": [
+                [
+                  "had climbed",
+                  "’d climbed"
+                ]
+              ],
+              "explain": "Story 2: had climbed… and (had) fallen asleep.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "The cat {} the 260-mile journey with no food or water.",
+              "hint": "(survive)",
+              "gaps": [
+                [
+                  "had survived",
+                  "’d survived"
+                ]
+              ],
+              "explain": "Story 2: the journey happened before the vet saw the cat.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "Julie {} very sad about losing her cat.",
+              "hint": "(be)",
+              "gaps": [
+                [
+                  "had been",
+                  "’d been"
+                ]
+              ],
+              "explain": "Story 2: be – was – been.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "She {} up posters and looked for Cupcake for days.",
+              "hint": "(put)",
+              "gaps": [
+                [
+                  "had put",
+                  "’d put"
+                ]
+              ],
+              "explain": "Story 2: put – put – put.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Claudia {} asleep in the back seat.",
+              "hint": "(be)",
+              "gaps": [
+                [
+                  "had been",
+                  "’d been"
+                ]
+              ],
+              "explain": "Story 3: she was asleep before Walter stopped.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "When she came back outside she found that her husband {} without her.",
+              "hint": "(leave)",
+              "gaps": [
+                [
+                  "had left",
+                  "’d left"
+                ]
+              ],
+              "explain": "Story 3: leave – left – left.",
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "12A-gba",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the sentences with the correct ending",
+          "note": "GB 12A a «Match the sentence halves» → Blank: вписать окончание из списка; пример I couldn’t get into my flat because – I’d lost my keys (C). Ответы MODEL",
+          "words": [
+            "she’d made other plans.",
+            "I realized that I’d left my wallet at home.",
+            "I’d bought the wrong size.",
+            "it was the first time he’d flown.",
+            "to see what had happened.",
+            "we hadn’t finished cooking the dinner."
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "When our friends arrived, {}",
+              "gaps": [
+                [
+                  "we hadn’t finished cooking the dinner."
+                ]
+              ],
+              "explain": "We were still cooking: the past perfect negative.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I took the jacket back to the shop because {}",
+              "gaps": [
+                [
+                  "I’d bought the wrong size."
+                ]
+              ],
+              "explain": "Buying the wrong size happened first.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "Jill didn’t come with us because {}",
+              "gaps": [
+                [
+                  "she’d made other plans."
+                ]
+              ],
+              "explain": "She made other plans before.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "I turned on the TV news {}",
+              "gaps": [
+                [
+                  "to see what had happened."
+                ]
+              ],
+              "explain": "Something happened before I turned on the TV.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "He was nervous because {}",
+              "gaps": [
+                [
+                  "it was the first time he’d flown."
+                ]
+              ],
+              "explain": "He had never flown before.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "When I got to the supermarket checkout, {}",
+              "gaps": [
+                [
+                  "I realized that I’d left my wallet at home."
+                ]
+              ],
+              "explain": "Leaving the wallet happened first.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "12A-gbb",
+          "origin": "SB_GRAMMAR_BANK",
+          "instruction": "Complete the sentences with the past simple or past perfect of the verbs in brackets",
+          "note": "GB 12A b; пример We didn’t get a table in the restaurant because we hadn’t booked. Ответы MODEL",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Caroline {} a lot, and I {} her.",
+              "hint": "(change, not recognize)",
+              "gaps": [
+                [
+                  "had changed",
+                  "’d changed"
+                ],
+                [
+                  "didn’t recognize",
+                  "did not recognize",
+                  "didn’t recognise",
+                  "did not recognise"
+                ]
+              ],
+              "explain": "She changed before I saw her (past perfect); then I didn’t recognize her (past simple).",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "My friend {} to tell me that I {} my coat in his car.",
+              "hint": "(phone, leave)",
+              "gaps": [
+                [
+                  "phoned"
+                ],
+                [
+                  "had left",
+                  "’d left"
+                ]
+              ],
+              "explain": "phoned = the main past event; I left the coat earlier: had left.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "When I {} the radio, the news {}.",
+              "hint": "(turn on, already finish)",
+              "gaps": [
+                [
+                  "turned on"
+                ],
+                [
+                  "had already finished",
+                  "’d already finished"
+                ]
+              ],
+              "explain": "The news finished before I turned on the radio: had already finished.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "She {} me the DVD because she {} it yet.",
+              "hint": "(not lend, not watch)",
+              "gaps": [
+                [
+                  "didn’t lend",
+                  "did not lend"
+                ],
+                [
+                  "hadn’t watched",
+                  "had not watched"
+                ]
+              ],
+              "explain": "Past simple for the main event; past perfect for what hadn’t happened before.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "The bar {} by the time we {}.",
+              "hint": "(close, arrive)",
+              "gaps": [
+                [
+                  "had closed",
+                  "’d closed"
+                ],
+                [
+                  "arrived"
+                ]
+              ],
+              "explain": "The bar closed first; by the time + past simple.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "When we {} home, we saw that somebody {} the kitchen window.",
+              "hint": "(get, break)",
+              "gaps": [
+                [
+                  "got"
+                ],
+                [
+                  "had broken",
+                  "’d broken"
+                ]
+              ],
+              "explain": "Somebody broke the window before we got home.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "When we {} in the morning, we {} that it {} in the night.",
+              "hint": "(get up, see, snow)",
+              "gaps": [
+                [
+                  "got up"
+                ],
+                [
+                  "saw"
+                ],
+                [
+                  "had snowed",
+                  "’d snowed"
+                ]
+              ],
+              "explain": "got up, saw = past simple; it snowed earlier, in the night: had snowed.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "12A-sb2e",
+          "origin": "SB",
+          "instruction": "Complete the sentences in your own words. Use the past perfect",
+          "note": "SB 2e (2f — сравнить с партнёром, не переносили) → Write, проверяет ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Finish each sentence in your own words. Use the past perfect.",
+              "questions": [
+                {
+                  "text": "When I got to the airport I suddenly realized that…",
+                  "hint": "(…I’d left my passport at home)"
+                },
+                {
+                  "text": "When we arrived back from our holiday we found that…",
+                  "hint": "(…somebody had…)"
+                },
+                {
+                  "text": "When the film started I immediately realized that…",
+                  "hint": "(…I’d seen it before)"
+                },
+                {
+                  "text": "I couldn’t answer any of the exam questions because I…",
+                  "hint": "(…hadn’t…)"
+                },
+                {
+                  "text": "We spent 20 minutes in the car park looking for the car because we couldn’t remember…",
+                  "hint": "(…where we’d…)"
+                }
+              ],
+              "criteria": [
+                "finishes all five sentences so that they make sense",
+                "uses had / hadn’t + past participle correctly in each ending",
+                "the past perfect action happened before the first action in the sentence"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12A-sb2g",
+          "origin": "SB",
+          "instruction": "What had happened? Complete the sentences with the past perfect of a verb (+ = positive, − = negative)",
+          "note": "SB 2g, Communication «What had happened?» (A p.106, B p.112): у A и B половины предложений с ответами → Blank по всем 12; ответы напечатаны у партнёра. Глагол в hint — в оригинале его угадывают",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "Diana was very angry because her husband {} the dinner.",
+              "hint": "(cook, −)",
+              "gaps": [
+                [
+                  "hadn’t cooked",
+                  "had not cooked"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "We went back to see the house where we {} when we were children.",
+              "hint": "(live, +)",
+              "gaps": [
+                [
+                  "had lived",
+                  "’d lived"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "He couldn’t catch the plane because he {} his passport.",
+              "hint": "(forget, +)",
+              "gaps": [
+                [
+                  "had forgotten",
+                  "’d forgotten"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "The flat was very dirty because nobody {} it for a long time.",
+              "hint": "(clean, +)",
+              "gaps": [
+                [
+                  "had cleaned"
+                ]
+              ],
+              "explain": "nobody is already negative, so the verb is positive: nobody had cleaned.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "We went back to the hotel where we {} on our honeymoon.",
+              "hint": "(stay, +)",
+              "gaps": [
+                [
+                  "had stayed",
+                  "’d stayed"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "The cat was hungry because it {} anything for two days.",
+              "hint": "(eat, −)",
+              "gaps": [
+                [
+                  "hadn’t eaten",
+                  "had not eaten"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "After I left the shop I suddenly remembered that I {} for the jacket.",
+              "hint": "(pay, −)",
+              "gaps": [
+                [
+                  "hadn’t paid",
+                  "had not paid"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "I ran to the station, but the last train {}.",
+              "hint": "(go, +)",
+              "gaps": [
+                [
+                  "had gone",
+                  "had left",
+                  "’d gone",
+                  "’d left"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "Miriam was happy to hear that she {} the exam.",
+              "hint": "(pass, +)",
+              "gaps": [
+                [
+                  "had passed",
+                  "’d passed"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 10,
+              "type": "blank",
+              "text": "I didn’t want to lend Jane the book because I {} it.",
+              "hint": "(read, −)",
+              "gaps": [
+                [
+                  "hadn’t read",
+                  "had not read"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 11,
+              "type": "blank",
+              "text": "Jack was angry because I {} him to my party.",
+              "hint": "(invite, −)",
+              "gaps": [
+                [
+                  "hadn’t invited",
+                  "had not invited"
+                ]
+              ],
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 12,
+              "type": "blank",
+              "text": "They got to the cinema late and the film {}.",
+              "hint": "(start, +)",
+              "gaps": [
+                [
+                  "had started",
+                  "’d started",
+                  "had already started"
+                ]
+              ],
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "12A-wb2a",
+          "origin": "WB",
+          "instruction": "Complete the sentences with the past perfect form of the verb in brackets",
+          "note": "WB 2a; 1 had snowed — пример",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I suddenly remembered that I {} the windows before I left the house.",
+              "hint": "(not close)",
+              "gaps": [
+                [
+                  "hadn’t closed",
+                  "had not closed"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "We got to the cinema ten minutes after the film {}.",
+              "hint": "(start)",
+              "gaps": [
+                [
+                  "had started",
+                  "’d started"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Tina felt nervous when she got on the plane because she {} before.",
+              "hint": "(not fly)",
+              "gaps": [
+                [
+                  "hadn’t flown",
+                  "had not flown"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "Paul lent me the book after he {} it.",
+              "hint": "(read)",
+              "gaps": [
+                [
+                  "’d read",
+                  "had read"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "When Jack got back to the car park, he saw that someone {} his car.",
+              "hint": "(take)",
+              "gaps": [
+                [
+                  "had taken",
+                  "’d taken"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12A-wb2b",
+          "origin": "WB",
+          "instruction": "Complete the stories with the correct form",
+          "note": "WB 2b «Circle the correct words» → Blank, варианты в hint; 1 I heard — пример. Картинки к двум историям — WB p.82",
+          "exercises": [
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "Last week my neighbour was on holiday. One night I heard a strange noise in her house. {} her front door to have a look.",
+              "hint": "(I opened / I’d opened)",
+              "image": "12a_wb2b_1",
+              "gaps": [
+                [
+                  "I opened"
+                ]
+              ]
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "I immediately saw that someone {} into the house.",
+              "hint": "(broke / had broken)",
+              "gaps": [
+                [
+                  "had broken"
+                ]
+              ]
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "Luckily, he (or she!) {} when I got there.",
+              "hint": "(already left / had already left)",
+              "gaps": [
+                [
+                  "had already left"
+                ]
+              ]
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "And they {} very much – just the TV.",
+              "hint": "(didn’t steal / hadn’t stolen)",
+              "gaps": [
+                [
+                  "hadn’t stolen"
+                ]
+              ]
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "I was looking for my phone yesterday morning, but I couldn’t find it. I was sure {} it…",
+              "hint": "(I didn’t lose / I hadn’t lost)",
+              "image": "12a_wb2b_2",
+              "gaps": [
+                [
+                  "I hadn’t lost"
+                ]
+              ]
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "…because {} it twenty minutes before.",
+              "hint": "(I saw / I’d seen)",
+              "gaps": [
+                [
+                  "I’d seen"
+                ]
+              ]
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "Then I realized that {} it in my trouser pocket…",
+              "hint": "(I left / I’d left)",
+              "gaps": [
+                [
+                  "I’d left"
+                ]
+              ]
+            },
+            {
+              "n": 9,
+              "type": "blank",
+              "text": "…and {} my trousers in the washing machine!",
+              "hint": "(I put / I’d put)",
+              "gaps": [
+                [
+                  "I’d put"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12A-wb2c",
+          "origin": "WB",
+          "instruction": "Write a short paragraph about a time when something went wrong",
+          "note": "WB 2c (два мини-рассказа по образцу: опоздание на транспорт и неудачная встреча с другом) → два Write, проверяет ИИ",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "write",
+              "prompt": "Write about a time you missed a bus, a train, or a plane. Example: This happened when we were going on holiday to the United States. We were driving to the airport, but the traffic was terrible. Eventually we got to the airport, but our flight had already left.",
+              "questions": [
+                {
+                  "text": "Where were you going, and when?",
+                  "hint": "(This happened when I was going to…)"
+                },
+                {
+                  "text": "Why were you delayed?",
+                  "hint": "(…the traffic was terrible / I’d forgotten…)"
+                },
+                {
+                  "text": "What eventually happened?",
+                  "hint": "(Eventually I got to…, but it had already left.)"
+                }
+              ],
+              "criteria": [
+                "says where and when it happened",
+                "explains why they were delayed",
+                "uses the past perfect at least once (the train had already left)",
+                "uses at least one time expression (suddenly, immediately, eventually, meanwhile)"
+              ]
+            },
+            {
+              "n": 2,
+              "type": "write",
+              "prompt": "Write about a time you tried to meet a friend and something went wrong. Example: A few weeks ago, I arranged to meet my friend Jack at the football stadium. I arrived at 6.30, but he wasn’t there. He was at home watching TV because he’d forgotten. Eventually I went in and watched the match, but I was really angry with him.",
+              "questions": [
+                {
+                  "text": "Who were you going to meet, and where?",
+                  "hint": "(I arranged to meet… at…)"
+                },
+                {
+                  "text": "What went wrong?",
+                  "hint": "(I arrived at…, but she wasn’t there.)"
+                },
+                {
+                  "text": "What was your friend doing, or what had they done?",
+                  "hint": "(Meanwhile, she was… / she’d…)"
+                },
+                {
+                  "text": "What eventually happened?",
+                  "hint": "(Eventually I…)"
+                }
+              ],
+              "criteria": [
+                "says who they were meeting and where",
+                "explains what went wrong",
+                "uses the past perfect at least once (he’d forgotten)",
+                "uses meanwhile or eventually correctly"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12A-grammar-x1",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the past perfect of the verbs in brackets.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "When I got to the party, everybody {}.",
+              "hint": "(go home)",
+              "gaps": [
+                [
+                  "had gone home",
+                  "’d gone home"
+                ]
+              ],
+              "explain": "They went home before I arrived: had + gone.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I couldn’t pay for lunch because I {} my wallet at home.",
+              "hint": "(leave)",
+              "gaps": [
+                [
+                  "had left",
+                  "’d left"
+                ]
+              ],
+              "explain": "Leaving the wallet was earlier: had left.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "She was very tired because she {} all night.",
+              "hint": "(not sleep)",
+              "gaps": [
+                [
+                  "hadn’t slept",
+                  "had not slept"
+                ]
+              ],
+              "explain": "Negative past perfect: hadn’t + past participle (sleep – slept – slept).",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "The kitchen was a mess because the children {} a cake.",
+              "hint": "(make)",
+              "gaps": [
+                [
+                  "had made",
+                  "’d made"
+                ]
+              ],
+              "explain": "make – made – made: had made.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "{} you ever {} sushi before you went to Japan?",
+              "hint": "(eat)",
+              "gaps": [
+                [
+                  "Had"
+                ],
+                [
+                  "eaten"
+                ]
+              ],
+              "explain": "Question: Had + subject + past participle.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "We didn’t recognize the town because it {} so much.",
+              "hint": "(change)",
+              "gaps": [
+                [
+                  "had changed",
+                  "’d changed"
+                ]
+              ],
+              "explain": "The town changed before we saw it again.",
+              "source": "MODEL"
+            },
+            {
+              "n": 7,
+              "type": "blank",
+              "text": "He failed the exam because he {} enough.",
+              "hint": "(not study)",
+              "gaps": [
+                [
+                  "hadn’t studied",
+                  "had not studied"
+                ]
+              ],
+              "explain": "Negative: hadn’t studied.",
+              "source": "MODEL"
+            },
+            {
+              "n": 8,
+              "type": "blank",
+              "text": "When the police arrived, the thieves {}.",
+              "hint": "(escape)",
+              "gaps": [
+                [
+                  "had escaped",
+                  "’d escaped",
+                  "had already escaped"
+                ]
+              ],
+              "explain": "The thieves escaped first: had escaped.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "12A-grammar-x2",
+          "origin": "GENERATED",
+          "instruction": "Complete the sentences with the past simple or the past perfect of the verbs in brackets.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "When I {} home, my brother {} all the pizza.",
+              "hint": "(get, eat)",
+              "gaps": [
+                [
+                  "got"
+                ],
+                [
+                  "had eaten",
+                  "’d eaten"
+                ]
+              ],
+              "explain": "My brother ate the pizza first (past perfect); then I got home (past simple).",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "blank",
+              "text": "I {} the film because I {} the book.",
+              "hint": "(not enjoy, already read)",
+              "gaps": [
+                [
+                  "didn’t enjoy",
+                  "did not enjoy"
+                ],
+                [
+                  "had already read",
+                  "’d already read"
+                ]
+              ],
+              "explain": "Reading the book happened earlier: had already read.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "blank",
+              "text": "She {} that she {} her keys in the office.",
+              "hint": "(realize, leave)",
+              "gaps": [
+                [
+                  "realized",
+                  "realised"
+                ],
+                [
+                  "had left",
+                  "’d left"
+                ]
+              ],
+              "explain": "realized (past simple) + what happened before (past perfect).",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "blank",
+              "text": "By the time we {} at the station, the train {}.",
+              "hint": "(arrive, leave)",
+              "gaps": [
+                [
+                  "arrived"
+                ],
+                [
+                  "had left",
+                  "’d left",
+                  "had already left"
+                ]
+              ],
+              "explain": "by the time + past simple; the earlier action: past perfect.",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "blank",
+              "text": "It was the first time I {} on a plane, so I {} very nervous.",
+              "hint": "(fly, feel)",
+              "gaps": [
+                [
+                  "had flown",
+                  "’d flown"
+                ],
+                [
+                  "felt"
+                ]
+              ],
+              "explain": "It was the first time + past perfect.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "blank",
+              "text": "He {} me the photos he {} on holiday.",
+              "hint": "(show, take)",
+              "gaps": [
+                [
+                  "showed"
+                ],
+                [
+                  "had taken",
+                  "’d taken"
+                ]
+              ],
+              "explain": "He took the photos before he showed them.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "12A-grammar-x3",
+          "origin": "GENERATED",
+          "instruction": "Correct the mistakes. If a sentence is correct, leave it as it is.",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "rewrite",
+              "prompt": "When we got to the cinema, the film already started.",
+              "answers": [
+                "When we got to the cinema, the film had already started.",
+                "When we got to the cinema the film had already started."
+              ],
+              "explain": "The film started before we got there: had already started.",
+              "source": "MODEL"
+            },
+            {
+              "n": 2,
+              "type": "rewrite",
+              "prompt": "I didn’t know that she had went to Paris.",
+              "answers": [
+                "I didn’t know that she had gone to Paris.",
+                "I did not know that she had gone to Paris.",
+                "I didn’t know that she’d gone to Paris."
+              ],
+              "explain": "had + past participle: gone, not went.",
+              "source": "MODEL"
+            },
+            {
+              "n": 3,
+              "type": "rewrite",
+              "prompt": "They were hungry because they hadn’t eaten all day.",
+              "answers": [
+                "They were hungry because they hadn’t eaten all day."
+              ],
+              "explain": "Correct: hadn’t + past participle.",
+              "source": "MODEL"
+            },
+            {
+              "n": 4,
+              "type": "rewrite",
+              "prompt": "Did you had been there before?",
+              "answers": [
+                "Had you been there before?"
+              ],
+              "explain": "Past perfect question: Had + you + been (no did).",
+              "source": "MODEL"
+            },
+            {
+              "n": 5,
+              "type": "rewrite",
+              "prompt": "She has forgotten her umbrella, so she got wet.",
+              "answers": [
+                "She had forgotten her umbrella, so she got wet.",
+                "She’d forgotten her umbrella, so she got wet.",
+                "She forgot her umbrella, so she got wet."
+              ],
+              "explain": "We are talking about the past, so the earlier action is had forgotten, not has forgotten.",
+              "source": "MODEL"
+            },
+            {
+              "n": 6,
+              "type": "rewrite",
+              "prompt": "When I arrived, Tom had just left.",
+              "answers": [
+                "When I arrived, Tom had just left."
+              ],
+              "explain": "Correct: had just left = he left a moment before I arrived.",
+              "source": "MODEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12A-pronunciation",
+      "kind": "PRONUNCIATION",
+      "title": "the letter i",
+      "reference": [
+        {
+          "type": "note",
+          "title": "The letter i",
+          "text": "The letter i is usually pronounced /aɪ/ before a consonant + e, e.g. drive, and is pronounced /ɪ/ between two consonants if there is no e, e.g. mistake. Some common words don’t follow the rules: driven and notice have an e, but i is /ɪ/."
+        },
+        {
+          "type": "table",
+          "title": "The letter i",
+          "headers": [
+            "fish /ɪ/",
+            "bike /aɪ/"
+          ],
+          "rows": [
+            [
+              "driven, kill, miracle",
+              "alive, arrive, outside, spider"
+            ],
+            [
+              "notice, signal",
+              "surprise, survive, while, wife"
+            ]
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "12A-sb3a",
+          "origin": "SB",
+          "instruction": "Put the words from the stories in the correct row. Then listen and check",
+          "note": "SB 3a «Put the words in the correct row» → Sort по двум звукам; розовые буквы как в книге (в miracle — первая i). Сверено с аудио 12.2 (fish: driven, kill, miracle, notice, signal)",
+          "audio": "12.2",
+          "columns": [
+            "fish /ɪ/",
+            "bike /aɪ/"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "sort",
+              "word": "al[i]ve",
+              "column": 2,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 2,
+              "type": "sort",
+              "word": "arr[i]ve",
+              "column": 2,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 3,
+              "type": "sort",
+              "word": "dr[i]ven",
+              "column": 1,
+              "explain": "driven /ˈdrɪvn/ – /ɪ/, although drive is /aɪ/.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 4,
+              "type": "sort",
+              "word": "k[i]ll",
+              "column": 1,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 5,
+              "type": "sort",
+              "word": "m[i]racle",
+              "column": 1,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 6,
+              "type": "sort",
+              "word": "not[i]ce",
+              "column": 1,
+              "explain": "notice /ˈnəʊtɪs/ – /ɪ/, although there is an e.",
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 7,
+              "type": "sort",
+              "word": "outs[i]de",
+              "column": 2,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 8,
+              "type": "sort",
+              "word": "s[i]gnal",
+              "column": 1,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 9,
+              "type": "sort",
+              "word": "sp[i]der",
+              "column": 2,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 10,
+              "type": "sort",
+              "word": "surpr[i]se",
+              "column": 2,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 11,
+              "type": "sort",
+              "word": "surv[i]ve",
+              "column": 2,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 12,
+              "type": "sort",
+              "word": "wh[i]le",
+              "column": 2,
+              "source": "CONFIRMED"
+            },
+            {
+              "n": 13,
+              "type": "sort",
+              "word": "w[i]fe",
+              "column": 2,
+              "source": "CONFIRMED"
+            }
+          ]
+        },
+        {
+          "id": "12A-sb3b",
+          "origin": "SB",
+          "instruction": "Listen and practise saying the words",
+          "note": "SB 3b «Practise saying the words» → Speak по отрезкам 12.2",
+          "audio": "12.2",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "fish: driven, kill, miracle, notice, signal",
+              "clip": [
+                0,
+                15.9
+              ]
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "bike: alive, arrive, outside, spider, surprise, survive, while, wife",
+              "clip": [
+                15.7,
+                44.9
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12A-sb3b2",
+          "origin": "SB",
+          "instruction": "Which two words in the /ɪ/ column don’t follow the rules?",
+          "note": "SB 3b, вопрос в конце → Blank, два слова в любом порядке. MODEL: driven и notice — перед согласной + e, но звук /ɪ/; miracle правилу не противоречит (после r нет e)",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "blank",
+              "text": "{} and {}",
+              "gaps": [
+                [
+                  "driven",
+                  "notice"
+                ],
+                [
+                  "notice",
+                  "driven"
+                ]
+              ],
+              "explain": "driven and notice have a consonant + e after the i, but the i is /ɪ/, not /aɪ/.",
+              "source": "MODEL"
+            }
+          ]
+        },
+        {
+          "id": "12A-wb3a",
+          "origin": "WB",
+          "instruction": "Put the words in the correct column",
+          "note": "WB 3a «Circle the word with a different sound» → Sort по двум звукам (слово с другим звуком в каждой тройке: surprise, kill, while — по ключу); 1 arrive drive signal — пример",
+          "columns": [
+            "fish /ɪ/",
+            "bike /aɪ/"
+          ],
+          "exercises": [
+            {
+              "n": 1,
+              "type": "sort",
+              "word": "dr[i]ven",
+              "column": 1
+            },
+            {
+              "n": 2,
+              "type": "sort",
+              "word": "surpr[i]se",
+              "column": 2,
+              "explain": "surprise is /aɪ/ – different from driven and miracle."
+            },
+            {
+              "n": 3,
+              "type": "sort",
+              "word": "m[i]racle",
+              "column": 1
+            },
+            {
+              "n": 4,
+              "type": "sort",
+              "word": "k[i]ll",
+              "column": 1,
+              "explain": "kill is /ɪ/ – different from spider and outside."
+            },
+            {
+              "n": 5,
+              "type": "sort",
+              "word": "sp[i]der",
+              "column": 2
+            },
+            {
+              "n": 6,
+              "type": "sort",
+              "word": "outs[i]de",
+              "column": 2
+            },
+            {
+              "n": 7,
+              "type": "sort",
+              "word": "not[i]ce",
+              "column": 1
+            },
+            {
+              "n": 8,
+              "type": "sort",
+              "word": "wh[i]le",
+              "column": 2,
+              "explain": "while is /aɪ/ – different from notice and miss."
+            },
+            {
+              "n": 9,
+              "type": "sort",
+              "word": "m[i]ss",
+              "column": 1
+            }
+          ]
+        },
+        {
+          "id": "12A-wb3b",
+          "origin": "WB",
+          "instruction": "Listen and repeat the words",
+          "note": "WB 3b (трек WB 12.1 — аудио WB нет): Speak по тройкам из 3a, образец — синтезатор",
+          "exercises": [
+            {
+              "n": 1,
+              "type": "speak",
+              "text": "arrive, drive, signal"
+            },
+            {
+              "n": 2,
+              "type": "speak",
+              "text": "driven, surprise, miracle"
+            },
+            {
+              "n": 3,
+              "type": "speak",
+              "text": "kill, spider, outside"
+            },
+            {
+              "n": 4,
+              "type": "speak",
+              "text": "notice, while, miss"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
